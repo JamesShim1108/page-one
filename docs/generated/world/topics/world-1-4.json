@@ -489,6 +489,108 @@
     ]
   },
   "bankPath": "world/banks/world-1-4.json",
+  "glossary": [
+    {
+      "id": "world-1-4-maya",
+      "term": "Maya city-state",
+      "definition": "An independent political center joining a Maya city with surrounding communities.",
+      "aliases": [
+        "Maya",
+        "Maya city-states"
+      ],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-mexica",
+      "term": "Mexica",
+      "definition": "The people centered at Tenochtitlan who became dominant partners in the Aztec Triple Alliance.",
+      "aliases": [
+        "Aztec",
+        "Aztecs"
+      ],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-tribute",
+      "term": "Tribute",
+      "definition": "Required payments, often in goods, from subordinate communities to a ruling power.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-chinampas",
+      "term": "Chinampas",
+      "definition": "Constructed agricultural beds in shallow lake areas, divided by water channels.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-tenochtitlan",
+      "term": "Tenochtitlan",
+      "definition": "Mexica capital founded in 1325 in the Lake Texcoco basin.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-pachacuti",
+      "term": "Pachacuti",
+      "definition": "An Inca ruler associated with rapid imperial expansion beginning around 1438.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-ayllu",
+      "term": "Ayllu",
+      "definition": "An Andean community linked through kinship and reciprocal obligations.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-mita",
+      "term": "Mit’a",
+      "definition": "A rotating labor obligation used by the Inca state to obtain work from subject households.",
+      "aliases": [
+        "mit'a"
+      ],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-khipu",
+      "term": "Khipu / quipu",
+      "definition": "Knotted cords used for recording information, including quantities and obligations.",
+      "aliases": [
+        "khipu",
+        "quipu"
+      ],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-terraces",
+      "term": "Terrace agriculture",
+      "definition": "Cultivation on stepped surfaces built into slopes.",
+      "aliases": [
+        "terraces",
+        "terracing"
+      ],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-cahokia",
+      "term": "Cahokia",
+      "definition": "A major Mississippian settlement known for large mounds and regional exchange.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-pueblo",
+      "term": "Ancestral Pueblo peoples",
+      "definition": "Communities of the American Southwest whose descendants include living Pueblo peoples.",
+      "aliases": [
+        "Ancestral Pueblo"
+      ],
+      "sourceLabel": "Topic 1.4 glossary"
+    }
+  ],
   "sources": [
     {
       "id": "reference-24",

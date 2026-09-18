@@ -468,6 +468,105 @@
     ]
   },
   "bankPath": "world/banks/world-1-1.json",
+  "glossary": [
+    {
+      "id": "world-bureaucracy",
+      "term": "Imperial bureaucracy",
+      "definition": "A system of appointed officials who carry out a ruler’s policies and manage government work.",
+      "aliases": [
+        "bureaucracy"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-exams",
+      "term": "Civil service examination",
+      "definition": "An examination used to select government officials; in imperial China, knowledge of Confucian texts was central.",
+      "aliases": [
+        "civil service examinations",
+        "examinations"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-gentry",
+      "term": "Scholar-gentry",
+      "definition": "An educated elite associated with Confucian learning, government service, and often landownership.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-neo",
+      "term": "Neo-Confucianism",
+      "definition": "A renewed Confucian intellectual tradition that emphasized moral development while engaging with Buddhist and Daoist ideas.",
+      "aliases": [
+        "Neo-Confucian"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-filial",
+      "term": "Filial piety",
+      "definition": "Respect for and responsibility toward parents and ancestors, an important Confucian value.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-champa",
+      "term": "Champa rice",
+      "definition": "An early-ripening rice variety introduced from present-day Vietnam that contributed to increased Chinese agricultural output.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-commercial",
+      "term": "Commercialization",
+      "definition": "A shift toward producing goods for sale and relying more on markets and trade.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-adaptation",
+      "term": "Cultural adaptation",
+      "definition": "Changing a borrowed idea or practice to fit a society’s own needs and traditions.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-theravada",
+      "term": "Theravada Buddhism",
+      "definition": "A Buddhist tradition with a strong monastic heritage, prominent in Sri Lanka and much of mainland Southeast Asia.",
+      "aliases": [
+        "Theravada"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-mahayana",
+      "term": "Mahayana Buddhism",
+      "definition": "A family of Buddhist traditions emphasizing the bodhisattva ideal, influential in East Asia.",
+      "aliases": [
+        "Mahayana"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-tibetan",
+      "term": "Tibetan Buddhism",
+      "definition": "Buddhist traditions associated with Tibet that include Mahayana and Vajrayana teachings and practices.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-artisan",
+      "term": "Artisanal labor",
+      "definition": "Skilled craft production, important to the manufacture of textiles, ceramics, and other goods.",
+      "aliases": [
+        "artisanal"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    }
+  ],
   "sources": [
     {
       "id": "reference-16",

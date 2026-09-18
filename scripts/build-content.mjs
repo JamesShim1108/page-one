@@ -16,6 +16,7 @@ import {
 } from "./lib/validate.mjs";
 import { loadAssets, mergeAssets, usedAssets } from "./lib/assets.mjs";
 import { validateTermSet } from "./lib/terms.mjs";
+import { resolveGlossary, selectGlossary } from "./lib/glossary.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const json = (value) => `${JSON.stringify(value, null, 2)}\n`;
@@ -253,6 +254,21 @@ export async function compileContent(root = projectRoot) {
       "unit numbers must be unique",
     );
     units.sort((a, b) => a.unit.number - b.unit.number);
+    const glossaryRoot = join(courseRoot, "glossary");
+    const glossaryGroups = [];
+    if (await exists(glossaryRoot)) {
+      for (const filename of (await readdir(glossaryRoot))
+        .filter((name) => name.endsWith(".js"))
+        .sort()) {
+        const file = join(glossaryRoot, filename);
+        glossaryGroups.push({ file, glossary: await readModule(file, "glossary") });
+      }
+    }
+    const glossary = resolveGlossary(glossaryGroups, {
+      courseId: course.id,
+      topics,
+      sources,
+    });
     for (const set of termSets.values()) {
       const owners = units.filter(({ unit }) => unit.termSetIds?.includes(set.id));
       requireValue(owners.length > 0, termsRoot, `unreferenced term set ${set.id}`);
@@ -364,6 +380,11 @@ export async function compileContent(root = projectRoot) {
           ...context,
           lesson,
           bankPath,
+          glossary: selectGlossary(
+            glossary,
+            { topicIds: [lesson.id], ids: lesson.glossaryIds },
+            lesson.id,
+          ),
           sources: lesson.sourceIds.map((id) => sources.get(id)),
           assets: lessonAssets,
         });
@@ -432,6 +453,14 @@ export async function compileContent(root = projectRoot) {
           unit: unitInfo,
           framework,
           guide,
+          glossary: selectGlossary(
+            glossary,
+            {
+              topicIds: availableTopics.map(({ lesson }) => lesson.id),
+              ids: guide.glossaryIds,
+            },
+            `${unit.id} guide`,
+          ),
           sources: guideSources,
           topics: availableTopics.map(({ lesson }) => ({
             ...topicSummary(lesson),

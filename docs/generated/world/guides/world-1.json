@@ -208,6 +208,35 @@
   },
   "guide": {
     "title": "Unit 1 study guide",
+    "glossaryIds": [
+      "world-bureaucracy",
+      "world-exams",
+      "world-neo",
+      "world-filial",
+      "world-champa",
+      "world-islam-caliph",
+      "world-islam-sultan",
+      "world-islam-delhi",
+      "world-islam-sufi",
+      "world-1-3-bhakti",
+      "world-1-3-khmer",
+      "world-1-4-tribute",
+      "world-1-4-chinampas",
+      "world-1-4-mita",
+      "world-1-4-khipu",
+      "world-1-5-kinship",
+      "world-1-5-mali",
+      "world-1-5-musa",
+      "world-1-5-swahili",
+      "world-1-6-feudal",
+      "world-1-6-manor",
+      "world-1-6-serf",
+      "world-1-7-legitimacy",
+      "world-1-7-centralization",
+      "world-1-7-causation",
+      "world-1-7-comparison",
+      "world-1-7-inspect"
+    ],
     "essential": "How did societies build authority, organize work, and sustain shared beliefs between c. 1200 and c. 1450?",
     "timeline": [
       {
@@ -309,6 +338,225 @@
       "monastic"
     ]
   },
+  "glossary": [
+    {
+      "id": "world-bureaucracy",
+      "term": "Imperial bureaucracy",
+      "definition": "A system of appointed officials who carry out a ruler’s policies and manage government work.",
+      "aliases": [
+        "bureaucracy"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-exams",
+      "term": "Civil service examination",
+      "definition": "An examination used to select government officials; in imperial China, knowledge of Confucian texts was central.",
+      "aliases": [
+        "civil service examinations",
+        "examinations"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-neo",
+      "term": "Neo-Confucianism",
+      "definition": "A renewed Confucian intellectual tradition that emphasized moral development while engaging with Buddhist and Daoist ideas.",
+      "aliases": [
+        "Neo-Confucian"
+      ],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-filial",
+      "term": "Filial piety",
+      "definition": "Respect for and responsibility toward parents and ancestors, an important Confucian value.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-champa",
+      "term": "Champa rice",
+      "definition": "An early-ripening rice variety introduced from present-day Vietnam that contributed to increased Chinese agricultural output.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.1 glossary"
+    },
+    {
+      "id": "world-islam-caliph",
+      "term": "Caliph",
+      "definition": "A leader claiming succession to Muhammad’s leadership of the Muslim community; actual political power varied over time.",
+      "aliases": [
+        "caliphs"
+      ],
+      "sourceLabel": "Topic 1.2 glossary"
+    },
+    {
+      "id": "world-islam-sultan",
+      "term": "Sultan",
+      "definition": "A title used by Muslim rulers with political and military authority, sometimes alongside a caliph with religious prestige.",
+      "aliases": [
+        "sultans"
+      ],
+      "sourceLabel": "Topic 1.2 glossary"
+    },
+    {
+      "id": "world-islam-delhi",
+      "term": "Delhi Sultanate",
+      "definition": "A succession of Muslim-ruled dynasties based in Delhi from 1206; an example of Islamic state formation in South Asia.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.2 glossary"
+    },
+    {
+      "id": "world-islam-sufi",
+      "term": "Sufism",
+      "definition": "Islamic traditions emphasizing spiritual discipline and closeness to God; Sufi teachers helped spread the faith.",
+      "aliases": [
+        "Sufi",
+        "Sufis"
+      ],
+      "sourceLabel": "Topic 1.2 glossary"
+    },
+    {
+      "id": "world-1-3-bhakti",
+      "term": "Bhakti",
+      "definition": "Devotion to a deity, often expressed through poetry, song, and accessible teaching.",
+      "aliases": [
+        "Bhakti movement"
+      ],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-khmer",
+      "term": "Khmer Empire",
+      "definition": "A Southeast Asian state centered at Angkor, supported by agriculture, water infrastructure, and royal patronage.",
+      "aliases": [
+        "Khmer"
+      ],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-4-tribute",
+      "term": "Tribute",
+      "definition": "Required payments, often in goods, from subordinate communities to a ruling power.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-chinampas",
+      "term": "Chinampas",
+      "definition": "Constructed agricultural beds in shallow lake areas, divided by water channels.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-mita",
+      "term": "Mit’a",
+      "definition": "A rotating labor obligation used by the Inca state to obtain work from subject households.",
+      "aliases": [
+        "mit'a"
+      ],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-4-khipu",
+      "term": "Khipu / quipu",
+      "definition": "Knotted cords used for recording information, including quantities and obligations.",
+      "aliases": [
+        "khipu",
+        "quipu"
+      ],
+      "sourceLabel": "Topic 1.4 glossary"
+    },
+    {
+      "id": "world-1-5-kinship",
+      "term": "Kin-based networks",
+      "definition": "Political and social relationships organized through family and lineage ties.",
+      "aliases": [
+        "kinship networks",
+        "kinship"
+      ],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-mali",
+      "term": "Mali",
+      "definition": "A West African empire that expanded in the thirteenth century and benefited from agriculture and trade.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-musa",
+      "term": "Mansa Musa",
+      "definition": "Mali’s Muslim ruler known for his 1324-1325 pilgrimage and patronage.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-swahili",
+      "term": "Swahili",
+      "definition": "A Bantu language with borrowed vocabulary reflecting contact along the East African coast.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-6-feudal",
+      "term": "Feudal relationships",
+      "definition": "Obligations between lords and vassals involving land rights and service, especially military service.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-manor",
+      "term": "Manorialism",
+      "definition": "An estate-based system organizing peasant landholding, production, and obligations to a lord.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-serf",
+      "term": "Serfdom",
+      "definition": "A form of unfree peasant status involving inherited obligations and restrictions tied to an estate.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-7-legitimacy",
+      "term": "Legitimacy",
+      "definition": "The perceived justification for a ruler’s or institution’s authority.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-centralization",
+      "term": "Centralization",
+      "definition": "Concentration of decision making and administration in a central authority.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-causation",
+      "term": "Causation",
+      "definition": "An explanation of how and why one development contributes to another.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-comparison",
+      "term": "Historical comparison",
+      "definition": "An explanation of similarities or differences using a shared analytical category.",
+      "aliases": [
+        "comparison"
+      ],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-inspect",
+      "term": "InSPECT",
+      "definition": "A class framework for environment, society, politics, economics, culture, and technology.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    }
+  ],
   "sources": [
     {
       "id": "ced",

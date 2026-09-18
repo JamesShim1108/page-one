@@ -1,0 +1,87 @@
+/* Inline explanations share Page One's reading colors and type scale. */
+.concept-trigger {
+  display: inline;
+  appearance: none;
+  border: 0;
+  border-radius: 2px;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: transparent;
+  text-align: inherit;
+  text-decoration: underline dotted var(--green);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1.5px;
+  cursor: help;
+}
+.concept-trigger:hover,
+.concept-trigger[aria-expanded="true"] {
+  background: var(--soft);
+  color: var(--green);
+}
+.concept-trigger:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+.concept-help {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 1rem 0 0;
+}
+.concept-popover {
+  position: fixed;
+  z-index: 200;
+  width: min(350px, calc(100vw - 24px));
+  padding: 1.2rem;
+  border: 1px solid var(--green);
+  border-radius: 12px;
+  color: var(--ink);
+  background: var(--white);
+  box-shadow: 0 8px 30px #173e3426;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.concept-popover[hidden] {
+  display: none;
+}
+.concept-popover h2 {
+  margin: 0 2rem 0.7rem 0;
+  font: 1.35rem/1.25 var(--serif);
+  overflow-wrap: anywhere;
+}
+.concept-popover p {
+  margin: 0;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.concept-popover .concept-popover__source {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.7rem;
+}
+.concept-popover__close {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--green);
+  font: 1.5rem/1 var(--sans);
+}
+.concept-popover__close:hover {
+  background: var(--soft);
+}
+@media print {
+  .concept-popover,
+  .concept-help {
+    display: none;
+  }
+  .concept-trigger {
+    text-decoration: none;
+  }
+}

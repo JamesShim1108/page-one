@@ -20,6 +20,8 @@ let stopCarousel = () => {},
   currentRoute = parseRoute(location.hash),
   routeGeneration = 0;
 let pendingQuizStart = null;
+let enhancePage = () => () => {},
+  stopPageEnhancements = () => {};
 
 function navigate(path) {
   if (location.hash === `#${path}`) repaint();
@@ -28,8 +30,10 @@ function navigate(path) {
 
 function repaint() {
   stopCarousel();
+  stopPageEnhancements();
   main.innerHTML = currentPage();
   stopCarousel = startCarousel();
+  stopPageEnhancements = enhancePage();
 }
 
 async function selectPage(route, data, generation) {
@@ -57,6 +61,11 @@ async function selectPage(route, data, generation) {
     data.course?.description ||
     "Free lessons, key terms, and practice in one place.";
   const selected = { title, description };
+  if (["topic", "guide"].includes(route.type) && data.glossary?.length) {
+    const { mountConceptPopovers } = await import("./concepts/controller.js");
+    if (generation !== routeGeneration) return null;
+    selected.enhance = () => mountConceptPopovers(main, data.glossary);
+  }
   if (route.type === "home") selected.html = () => homePage(data, attemptStore.resume());
   else if (route.type === "courses") {
     selected.html = () => courseListPage(data);
@@ -89,11 +98,11 @@ async function selectPage(route, data, generation) {
       pendingQuizStart = null;
     }
     if (route.type === "topic") {
-      const { lessonPage } = await import("./views/lesson.js");
+      const { lessonPage } = await import("./views/lesson.js?v=20260918-concepts");
       selected.html = () => lessonPage(data, controller);
     } else selected.html = route.type === "quiz" ? controller.page : controller.results;
   } else if (route.type === "guide") {
-    const { studyGuidePage } = await import("./views/guide.js");
+    const { studyGuidePage } = await import("./views/guide.js?v=20260918-concepts");
     selected.html = () => studyGuidePage(data);
   } else if (route.type === "writing") {
     const { createWritingStore } = await import("./writing/store.js");
@@ -117,6 +126,9 @@ async function render(focus = false) {
   currentRoute = parseRoute(location.hash);
   const route = currentRoute;
   stopCarousel();
+  stopPageEnhancements();
+  stopPageEnhancements = () => {};
+  enhancePage = () => () => {};
   currentQuiz = null;
   currentWriting = null;
   currentTerms = null;
@@ -130,6 +142,7 @@ async function render(focus = false) {
     currentQuiz = page.quiz || null;
     currentWriting = page.writing || null;
     currentTerms = page.terms || null;
+    enhancePage = page.enhance || (() => () => {});
     currentPage = page.html;
     pageTitle(page.title, page.description);
     repaint();

@@ -504,6 +504,124 @@
     ]
   },
   "bankPath": "world/banks/world-1-3.json",
+  "glossary": [
+    {
+      "id": "world-1-3-dharma",
+      "term": "Dharma",
+      "definition": "Duties and right conduct in Hindu traditions, shaped by context and social expectations.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-karma",
+      "term": "Karma",
+      "definition": "The consequences of actions, connected in several South Asian traditions with rebirth.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-moksha",
+      "term": "Moksha",
+      "definition": "Liberation from the cycle of rebirth in Hindu traditions.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-jati",
+      "term": "Jati",
+      "definition": "A local social community often associated with birth, marriage, and occupation.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-bhakti",
+      "term": "Bhakti",
+      "definition": "Devotion to a deity, often expressed through poetry, song, and accessible teaching.",
+      "aliases": [
+        "Bhakti movement"
+      ],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-sufi",
+      "term": "Sufism",
+      "definition": "Islamic traditions of spiritual discipline and the pursuit of closeness to God.",
+      "aliases": [
+        "Sufi",
+        "Sufis"
+      ],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-monastic",
+      "term": "Buddhist monasticism",
+      "definition": "Religious community life devoted to Buddhist practice, learning, and discipline.",
+      "aliases": [
+        "monasteries"
+      ],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-delhi",
+      "term": "Delhi Sultanate",
+      "definition": "A succession of Muslim-ruled dynasties centered in northern India beginning in 1206.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-vijay",
+      "term": "Vijayanagara",
+      "definition": "A southern Indian empire founded in 1336, associated with Hindu patronage, agriculture, and commerce.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-rajput",
+      "term": "Rajput kingdoms",
+      "definition": "Regional South Asian kingdoms associated with warrior lineages and local rulers.",
+      "aliases": [
+        "Rajput"
+      ],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-srivijaya",
+      "term": "Srivijaya",
+      "definition": "An earlier Buddhist maritime power centered on Sumatra.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-majapahit",
+      "term": "Majapahit",
+      "definition": "A state founded on Java in 1293, with Hindu and Buddhist court traditions and maritime connections.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-khmer",
+      "term": "Khmer Empire",
+      "definition": "A Southeast Asian state centered at Angkor, supported by agriculture, water infrastructure, and royal patronage.",
+      "aliases": [
+        "Khmer"
+      ],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-sukhothai",
+      "term": "Sukhothai",
+      "definition": "A mainland Southeast Asian kingdom whose rulers supported Theravada Buddhism.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    },
+    {
+      "id": "world-1-3-sinhala",
+      "term": "Sinhala kingdoms",
+      "definition": "Sri Lankan states associated with Buddhist patronage and irrigation.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.3 glossary"
+    }
+  ],
   "sources": [
     {
       "id": "reference-21",

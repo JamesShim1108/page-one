@@ -472,6 +472,82 @@
     ]
   },
   "bankPath": "world/banks/world-1-7.json",
+  "glossary": [
+    {
+      "id": "world-1-7-legitimacy",
+      "term": "Legitimacy",
+      "definition": "The perceived justification for a ruler’s or institution’s authority.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-centralization",
+      "term": "Centralization",
+      "definition": "Concentration of decision making and administration in a central authority.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-decentralization",
+      "term": "Decentralization",
+      "definition": "Distribution of political authority among local or regional institutions.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-continuity",
+      "term": "Continuity",
+      "definition": "A pattern or institution that persists over a defined period.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-innovation",
+      "term": "Innovation",
+      "definition": "A new or adapted method, institution, or technique.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-comparison",
+      "term": "Historical comparison",
+      "definition": "An explanation of similarities or differences using a shared analytical category.",
+      "aliases": [
+        "comparison"
+      ],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-causation",
+      "term": "Causation",
+      "definition": "An explanation of how and why one development contributes to another.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-evidence",
+      "term": "Historical evidence",
+      "definition": "Specific information from the past used to support or challenge a claim.",
+      "aliases": [
+        "evidence"
+      ],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-ape",
+      "term": "APE",
+      "definition": "Answer, Prove, Explain: a scaffold for connecting a claim with evidence and reasoning.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    },
+    {
+      "id": "world-1-7-inspect",
+      "term": "InSPECT",
+      "definition": "A class framework for environment, society, politics, economics, culture, and technology.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.7 glossary"
+    }
+  ],
   "sources": [
     {
       "id": "reference-28",

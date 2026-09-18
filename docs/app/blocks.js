@@ -1,19 +1,19 @@
 import { escapeHtml as esc } from "./ui.js";
 
-export function renderBlocks(blocks, assets = {}) {
+export function renderBlocks(blocks, assets = {}, renderText = esc) {
   return blocks
     .map((block) => {
       switch (block.type) {
         case "paragraph":
-          return `<p>${esc(block.text)}</p>`;
+          return `<p>${renderText(block.text)}</p>`;
         case "callout":
-          return `<aside class="note"><strong>${esc(block.title)}</strong> ${esc(block.text)}</aside>`;
+          return `<aside class="note"><strong>${esc(block.title)}</strong> ${renderText(block.text)}</aside>`;
         case "list": {
           const tag = block.ordered ? "ol" : "ul";
-          return `<${tag}>${block.items.map((item) => `<li>${esc(item)}</li>`).join("")}</${tag}>`;
+          return `<${tag}>${block.items.map((item) => `<li>${renderText(item)}</li>`).join("")}</${tag}>`;
         }
         case "table":
-          return renderTable(block);
+          return renderTable(block, renderText);
         case "image":
           return renderImage(block, assets[block.assetId]);
         default:
@@ -23,16 +23,16 @@ export function renderBlocks(blocks, assets = {}) {
     .join("\n");
 }
 
-export function renderTable({ caption, columns, rows }) {
+export function renderTable({ caption, columns, rows }, renderText = esc) {
   return `<div class="table-wrap" role="region" tabindex="0" aria-label="${esc(caption)}">
     <table><caption>${esc(caption)}</caption>
       <thead><tr>${columns.map((column) => `<th scope="col">${esc(column)}</th>`).join("")}</tr></thead>
       <tbody>${rows
         .map(
           (row) =>
-            `<tr><th scope="row">${esc(row[0])}</th>${row
+            `<tr><th scope="row">${renderText(row[0])}</th>${row
               .slice(1)
-              .map((cell) => `<td>${esc(cell)}</td>`)
+              .map((cell) => `<td>${renderText(cell)}</td>`)
               .join("")}</tr>`,
         )
         .join("")}</tbody>

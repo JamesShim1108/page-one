@@ -2,6 +2,8 @@
 
 Lessons contain content, views contain HTML, engines manage practice, and CSS controls appearance. A new topic uses the shared templates and does not need its own page or stylesheet.
 
+For inline reading definitions and shared concept files, see [Reading definitions](glossary.md).
+
 ## Find the right file
 
 All paths start at the repository root. The current course folder is `docs/content/world-history/`.

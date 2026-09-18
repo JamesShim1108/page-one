@@ -517,6 +517,111 @@
     ]
   },
   "bankPath": "world/banks/world-1-6.json",
+  "glossary": [
+    {
+      "id": "world-1-6-feudal",
+      "term": "Feudal relationships",
+      "definition": "Obligations between lords and vassals involving land rights and service, especially military service.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-fief",
+      "term": "Fief",
+      "definition": "Land or associated rights granted in exchange for obligations to a lord.",
+      "aliases": [
+        "fiefs"
+      ],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-vassal",
+      "term": "Vassal",
+      "definition": "A person owing specified service and loyalty to a lord.",
+      "aliases": [
+        "vassals"
+      ],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-manor",
+      "term": "Manorialism",
+      "definition": "An estate-based system organizing peasant landholding, production, and obligations to a lord.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-serf",
+      "term": "Serfdom",
+      "definition": "A form of unfree peasant status involving inherited obligations and restrictions tied to an estate.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-rotation",
+      "term": "Three-field rotation",
+      "definition": "A crop rotation in which different fields carried crops or remained fallow.",
+      "aliases": [
+        "three-field system"
+      ],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-papacy",
+      "term": "Papacy",
+      "definition": "The office and authority of the pope in the Roman Catholic Church.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-orthodox",
+      "term": "Eastern Orthodox Christianity",
+      "definition": "Christian traditions associated with the Byzantine world and other eastern churches.",
+      "aliases": [
+        "Eastern Orthodox"
+      ],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-scholastic",
+      "term": "Scholasticism",
+      "definition": "Medieval methods of learning using reasoned argument, often to examine theological questions.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-guild",
+      "term": "Guild",
+      "definition": "An organization regulating aspects of a craft or trade.",
+      "aliases": [
+        "guilds"
+      ],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-magna",
+      "term": "Magna Carta",
+      "definition": "A charter issued in England in 1215 limiting some uses of royal power.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-humanism",
+      "term": "Renaissance humanism",
+      "definition": "An intellectual movement emphasizing classical learning, education, and human capacities.",
+      "aliases": [
+        "humanism"
+      ],
+      "sourceLabel": "Topic 1.6 glossary"
+    },
+    {
+      "id": "world-1-6-vernacular",
+      "term": "Vernacular",
+      "definition": "A locally used language, as distinct from a scholarly or liturgical language such as Latin.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.6 glossary"
+    }
+  ],
   "sources": [
     {
       "id": "reference-27",

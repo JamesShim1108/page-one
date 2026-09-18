@@ -509,6 +509,102 @@
     ]
   },
   "bankPath": "world/banks/world-1-5.json",
+  "glossary": [
+    {
+      "id": "world-1-5-kinship",
+      "term": "Kin-based networks",
+      "definition": "Political and social relationships organized through family and lineage ties.",
+      "aliases": [
+        "kinship networks",
+        "kinship"
+      ],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-hausa",
+      "term": "Hausa city-states",
+      "definition": "Interconnected but politically distinct cities in and around present-day northern Nigeria.",
+      "aliases": [
+        "Hausa"
+      ],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-mali",
+      "term": "Mali",
+      "definition": "A West African empire that expanded in the thirteenth century and benefited from agriculture and trade.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-sundiata",
+      "term": "Sundiata",
+      "definition": "A ruler associated with the founding and expansion of Mali in the thirteenth century.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-musa",
+      "term": "Mansa Musa",
+      "definition": "Mali’s Muslim ruler known for his 1324-1325 pilgrimage and patronage.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-saharan",
+      "term": "Trans-Saharan trade",
+      "definition": "Exchange across the Sahara connecting West Africa with North Africa and other regions.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-swahili",
+      "term": "Swahili",
+      "definition": "A Bantu language with borrowed vocabulary reflecting contact along the East African coast.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-kilwa",
+      "term": "Kilwa",
+      "definition": "A Swahili city-state that connected African suppliers with Indian Ocean commerce.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-zimbabwe",
+      "term": "Great Zimbabwe",
+      "definition": "A southern African urban center known for dry-stone architecture and trade connections.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-lalibela",
+      "term": "Lalibela",
+      "definition": "An Ethiopian religious center renowned for its medieval rock-hewn churches.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-griot",
+      "term": "Griots and griottes",
+      "definition": "Oral specialists in parts of West Africa who preserve and perform histories and genealogies.",
+      "aliases": [
+        "griots",
+        "griottes"
+      ],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
+      "id": "world-1-5-syncretism",
+      "term": "Religious syncretism",
+      "definition": "The combining or adaptation of elements from different religious traditions.",
+      "aliases": [
+        "syncretism"
+      ],
+      "sourceLabel": "Topic 1.5 glossary"
+    }
+  ],
   "sources": [
     {
       "id": "reference-26",

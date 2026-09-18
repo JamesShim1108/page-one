@@ -2,6 +2,37 @@
 
 export const guide = {
   title: "Unit 1 study guide",
+  // Pick the meanings this cross-topic page needs. Definitions remain in their
+  // original lessons; these IDs point to the shared glossary registry.
+  glossaryIds: [
+    "world-bureaucracy",
+    "world-exams",
+    "world-neo",
+    "world-filial",
+    "world-champa",
+    "world-islam-caliph",
+    "world-islam-sultan",
+    "world-islam-delhi",
+    "world-islam-sufi",
+    "world-1-3-bhakti",
+    "world-1-3-khmer",
+    "world-1-4-tribute",
+    "world-1-4-chinampas",
+    "world-1-4-mita",
+    "world-1-4-khipu",
+    "world-1-5-kinship",
+    "world-1-5-mali",
+    "world-1-5-musa",
+    "world-1-5-swahili",
+    "world-1-6-feudal",
+    "world-1-6-manor",
+    "world-1-6-serf",
+    "world-1-7-legitimacy",
+    "world-1-7-centralization",
+    "world-1-7-causation",
+    "world-1-7-comparison",
+    "world-1-7-inspect",
+  ],
   essential:
     "How did societies build authority, organize work, and sustain shared beliefs between c. 1200 and c. 1450?",
   timeline: [
