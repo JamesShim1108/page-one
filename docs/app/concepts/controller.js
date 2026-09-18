@@ -64,6 +64,8 @@ export function mountConceptPopovers(root, concepts = []) {
       close();
       return;
     }
+    // clientWidth excludes a visible scrollbar, unlike CSS viewport units.
+    panel.style.maxWidth = `${Math.max(0, document.documentElement.clientWidth - 24)}px`;
     panel.style.maxHeight = `${Math.max(80, window.innerHeight - 24)}px`;
     const point = placePopover(bounds, panel.getBoundingClientRect(), {
       width: document.documentElement.clientWidth,

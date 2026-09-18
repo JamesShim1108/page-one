@@ -62,7 +62,8 @@ async function selectPage(route, data, generation) {
     "Free lessons, key terms, and practice in one place.";
   const selected = { title, description };
   if (["topic", "guide"].includes(route.type) && data.glossary?.length) {
-    const { mountConceptPopovers } = await import("./concepts/controller.js");
+    const { mountConceptPopovers } =
+      await import("./concepts/controller.js?v=20260918-fit");
     if (generation !== routeGeneration) return null;
     selected.enhance = () => mountConceptPopovers(main, data.glossary);
   }
