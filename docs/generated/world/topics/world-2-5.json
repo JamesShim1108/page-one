@@ -1,0 +1,789 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-2",
+    "courseId": "world",
+    "number": 2,
+    "title": "Networks of Exchange",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "termSetIds": [
+      "world-period-1-a",
+      "world-period-1-b"
+    ],
+    "description": "Study how trade networks connected Afro-Eurasia through goods, technology, states, culture, and environmental change.",
+    "quizzes": [
+      {
+        "id": "world-2-practice-a",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form A",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-b",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form B",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-all",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 reserved-question review",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18",
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18",
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18",
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18",
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18",
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18",
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18",
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      }
+    ],
+    "termSets": [
+      {
+        "id": "world-period-1-a",
+        "title": "Period 1 Terms List A",
+        "source": "Period 1 Terms List A.pdf",
+        "count": 27
+      },
+      {
+        "id": "world-period-1-b",
+        "title": "Period 1 Terms List B",
+        "source": "Period 1 Terms List B.pdf",
+        "count": 29
+      }
+    ],
+    "topicQuizzes": [
+      {
+        "id": "world-2-1-quiz",
+        "title": "The Silk Roads topic quiz"
+      },
+      {
+        "id": "world-2-2-quiz",
+        "title": "The Mongol Empire and the Making of the Modern World topic quiz"
+      },
+      {
+        "id": "world-2-3-quiz",
+        "title": "Exchange in the Indian Ocean topic quiz"
+      },
+      {
+        "id": "world-2-4-quiz",
+        "title": "Trans-Saharan Trade Routes topic quiz"
+      },
+      {
+        "id": "world-2-5-quiz",
+        "title": "Cultural Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-6-quiz",
+        "title": "Environmental Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-7-quiz",
+        "title": "Comparison of Economic Exchange topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "world-2-1",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "The Silk Roads",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How demand, political stability, and commercial tools expanded connected overland exchange after 1200."
+    },
+    "hasGuide": true,
+    "writingQuizzes": [
+      {
+        "id": "world-2-saq-01",
+        "title": "Unit 2 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-02",
+        "title": "Unit 2 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-03",
+        "title": "Unit 2 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-04",
+        "title": "Unit 2 SAQ 04",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-05",
+        "title": "Unit 2 SAQ 05",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-06",
+        "title": "Unit 2 SAQ 06",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-07",
+        "title": "Unit 2 SAQ 07",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-comparison",
+        "title": "Unit 2 LEQ: Comparing networks",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-causation",
+        "title": "Unit 2 LEQ: Causes of exchange growth",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-continuity",
+        "title": "Unit 2 LEQ: Continuity and change",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-dbq-connectivity",
+        "title": "Unit 2 DBQ: Connectivity and consequences",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "blocked"
+      },
+      {
+        "id": "world-2-skill-thesis",
+        "title": "Unit 2 skill drill: Revise an overly broad claim into an arguable claim with a line of reasoning.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-context",
+        "title": "Unit 2 skill drill: Distinguish relevant wider context from a restatement of the prompt.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-evidence",
+        "title": "Unit 2 skill drill: Turn an accurate example into support for an argument through explicit explanation.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-sourcing",
+        "title": "Unit 2 skill drill: Explain why a document’s perspective, purpose, or situation matters to an argument.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-2-5",
+    "courseId": "world",
+    "unitId": "world-2",
+    "order": 5,
+    "code": "2.5",
+    "title": "Cultural Consequences of Connectivity",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "summary": "How trade and travel moved religions, scientific knowledge, technologies, and perspectives while producing local adaptation."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-2-5",
+    "unitId": "world-2",
+    "code": "2.5",
+    "title": "Cultural Consequences of Connectivity",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "summary": "How trade and travel moved religions, scientific knowledge, technologies, and perspectives while producing local adaptation.",
+    "courseId": "world",
+    "order": 5,
+    "minutes": 12,
+    "learningGoals": [
+      "Explain how connectivity spread and changed cultural, religious, and scientific traditions.",
+      "Use traveler accounts by identifying point of view, purpose, situation, and audience.",
+      "Explain why cultural diffusion did not make connected societies identical."
+    ],
+    "bigIdea": "Connectivity spread ideas through movement, but recipients adapted, combined, resisted, or reinterpreted what they encountered.",
+    "context": "Afro-Eurasian societies already had long histories of cultural exchange. Intensified trade, empire, pilgrimage, translation, and travel after 1200 increased the number and range of encounters.",
+    "sections": [
+      {
+        "id": "beliefs-adaptation",
+        "title": "Beliefs moved and changed",
+        "conceptTitle": "Beliefs moved and changed",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Buddhism traveled from South Asia into East Asia through earlier trade and pilgrimage networks and remained influential in China, Korea, Japan, and other regions. Chan or Zen traditions show how teachings were interpreted through local intellectual and institutional settings."
+          },
+          {
+            "type": "paragraph",
+            "text": "Hinduism and Buddhism influenced Southeast Asian states and art, while Islam spread through merchants, teachers, rulers, migration, and conquest in parts of Africa and Asia. These paths differed by place. A port community, a royal court, and a rural village could experience religious change differently."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cultural diffusion can produce syncretism, coexistence, new institutions, or resistance. A ruler’s adoption of a religion does not prove that every subject converted or that earlier practices vanished."
+          }
+        ],
+        "takeaway": "Religious diffusion involved movement and local choices, not automatic replacement.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-5",
+          "amsco-unit-1"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 5 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-5",
+            "locator": "Official CED Topic 5"
+          }
+        ]
+      },
+      {
+        "id": "knowledge-technology",
+        "title": "Knowledge traveled through people",
+        "conceptTitle": "Knowledge traveled through people",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Paper, printing, gunpowder, navigation techniques, mathematics, and medical knowledge moved through trade, conquest, translation, and scholarly networks. Movement depended on people who copied, taught, translated, and applied knowledge."
+          },
+          {
+            "type": "paragraph",
+            "text": "Islamic scholars translated and preserved Greek works while developing their own scholarship. Chinese paper and printing practices influenced communication beyond China. These examples are better understood as connected histories of preservation, adaptation, and further innovation than as a one-way gift from one civilization."
+          },
+          {
+            "type": "paragraph",
+            "text": "When identifying a transfer, name the source context, the route or intermediary, the receiving context, and the change that followed. Avoid claiming that a technology remained unchanged as it moved."
+          }
+        ],
+        "takeaway": "Technological and intellectual diffusion is a process of translation, selection, and adaptation.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-5",
+          "amsco-unit-1"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 5 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-5",
+            "locator": "Official CED Topic 5"
+          }
+        ]
+      },
+      {
+        "id": "cities-culture",
+        "title": "Cities as cultural meeting places",
+        "conceptTitle": "Cities as cultural meeting places",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Trade supported cities with markets, workshops, schools, mosques, temples, courts, and diverse residents. Samarkand, Timbuktu, Calicut, and other cities could grow because commerce brought revenue and people, while political instability, invasion, disease, or declining productivity could damage them."
+          },
+          {
+            "type": "paragraph",
+            "text": "Urban growth was uneven. A city could be prosperous in one period and decline in another. Explain the political, economic, environmental, and biological conditions rather than treating urbanization as a permanent upward trend."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cities also changed cultural production. Patrons funded architecture, scholarship, literature, and religious institutions. Migrants and merchants contributed to urban life, and local residents reshaped imported traditions."
+          }
+        ],
+        "takeaway": "Cities concentrated the people and institutions that made cultural exchange visible, but their fortunes remained vulnerable.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-5",
+          "amsco-unit-1"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 5 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-5",
+            "locator": "Official CED Topic 5"
+          }
+        ]
+      },
+      {
+        "id": "travelers-sourcing",
+        "title": "Travelers are evidence with viewpoints",
+        "conceptTitle": "Travelers are evidence with viewpoints",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Marco Polo wrote about Yuan China for European readers and focused on urban wealth, trade, and remarkable customs. Ibn Battuta traveled widely through Muslim societies and emphasized rulers, scholars, religious life, and personal encounters. Margery Kempe’s dictated account offers a different perspective on pilgrimage and a woman’s experience."
+          },
+          {
+            "type": "paragraph",
+            "text": "A source’s point of view and purpose shape what it includes. A merchant notices markets; a pilgrim may emphasize sacred places; a traveler reporting to a ruler may highlight political order. A later editor or scribe can also affect how an account reaches readers."
+          },
+          {
+            "type": "paragraph",
+            "text": "Travel writing can support claims about encounters and observations, but one traveler cannot represent every person in a region. Compare the account’s situation with other evidence before making a generalization."
+          }
+        ],
+        "takeaway": "Sourcing asks how an account’s perspective helps and limits its use as evidence.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-5",
+          "amsco-unit-1"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 5 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-5",
+            "locator": "Official CED Topic 5"
+          }
+        ]
+      },
+      {
+        "id": "diffusion-not-uniformity",
+        "title": "Connected does not mean identical",
+        "conceptTitle": "Connected does not mean identical",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "People borrowed useful practices without abandoning all earlier identities. Chinese institutions influenced Korea, Japan, and Vietnam, but local governments and social groups adapted them. Muslim communities in East Africa developed forms of language, architecture, and family life shaped by African and oceanic contexts."
+          },
+          {
+            "type": "paragraph",
+            "text": "Power shaped cultural exchange. Rulers could sponsor a religion or technology, merchants could carry practices to a port, and local communities could accept, modify, or resist them. The same tradition could gain different meanings in different places."
+          },
+          {
+            "type": "paragraph",
+            "text": "A strong comparison therefore identifies both a shared connection and a meaningful difference. Similar architecture, a shared religion, or a common technology is evidence of contact; it is not by itself proof of direct political control."
+          }
+        ],
+        "takeaway": "Diffusion creates connections while preserving local agency and difference.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-5",
+          "amsco-unit-1"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 5 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-5",
+            "locator": "Official CED Topic 5"
+          }
+        ]
+      }
+    ],
+    "readingGuide": {
+      "objectives": "J",
+      "readingLabel": "AMSCO Unit 2, Topic 2.5; use the supplied class reading alongside these original notes",
+      "lenses": [],
+      "prompts": [
+        {
+          "id": "world-2-5-reading-01",
+          "prompt": "How can a religion spread while local traditions continue?",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-5"
+          ]
+        },
+        {
+          "id": "world-2-5-reading-02",
+          "prompt": "Name the intermediaries in one example of knowledge transfer.",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-5"
+          ]
+        },
+        {
+          "id": "world-2-5-reading-03",
+          "prompt": "How could a city’s growth create both economic and cultural change?",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-5"
+          ]
+        },
+        {
+          "id": "world-2-5-reading-04",
+          "prompt": "Compare what Marco Polo and Ibn Battuta might notice because of their purposes.",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-5"
+          ]
+        },
+        {
+          "id": "world-2-5-reading-05",
+          "prompt": "Why is similar architecture evidence of contact but not automatically evidence of direct rule?",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-5"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Unit 1 bridge",
+        "title": "Earlier belief systems provide the context for later diffusion",
+        "body": "Unit 1 introduces Buddhism, Hinduism, Islam, Christianity, and local traditions before or during the period. Topic 2.5 focuses on what intensified connectivity changed: institutions, translations, travel accounts, and local adaptations.",
+        "transferQuestion": "What evidence would you use to test the relationship described in Earlier belief systems provide the context for later diffusion?",
+        "feedback": "A strong transfer answer names a concrete example, identifies both sides of the relationship, and explains the mechanism rather than repeating the title.",
+        "links": [
+          {
+            "topicId": "world-1-2",
+            "sectionId": "islam-learning",
+            "label": "Review translation and scholarship"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "type": "Within Unit 2",
+        "title": "Trade networks move more than commodities",
+        "body": "Topic 2.1 shows the commercial institutions that make travel possible. Topic 2.5 follows the same routes to ask what happens when books, beliefs, artistic forms, technologies, and people move with goods.",
+        "transferQuestion": "What evidence would you use to test the relationship described in Trade networks move more than commodities?",
+        "feedback": "A strong transfer answer names a concrete example, identifies both sides of the relationship, and explains the mechanism rather than repeating the title.",
+        "links": [
+          {
+            "topicId": "world-2-1",
+            "sectionId": "cities-production",
+            "label": "Review merchants and knowledge"
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "type": "Within Unit 2",
+        "title": "Diasporas are cultural laboratories",
+        "body": "Topic 2.3 explains how merchants settled and formed families in port cities. Those communities help explain why cultural diffusion is two-way: traditions change through everyday contact, not only through conquest.",
+        "transferQuestion": "What evidence would you use to test the relationship described in Diasporas are cultural laboratories?",
+        "feedback": "A strong transfer answer names a concrete example, identifies both sides of the relationship, and explains the mechanism rather than repeating the title.",
+        "links": [
+          {
+            "topicId": "world-2-3",
+            "sectionId": "diaspora-communities",
+            "label": "Review diaspora exchange"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "ced-topic-2-5",
+      "amsco-unit-2",
+      "class-indian-ocean",
+      "class-trans-saharan"
+    ]
+  },
+  "bankPath": "world/banks/world-2-5.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    },
+    {
+      "id": "ced-topic-2-5",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 2.5.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: cultural consequences of connectivity."
+    },
+    {
+      "id": "amsco-unit-2",
+      "label": "Class reading: AMSCO World History Unit 2, supplied PDF pages 1-40 (printed pages 75-132).",
+      "note": "Page map used in the Unit 2 evidence ledger: 2.1 pp. 3-7; 2.2 pp. 8-14; 2.3 pp. 15-20; 2.4 pp. 21-25; 2.5 pp. 26-31; 2.6 pp. 32-34; 2.7 pp. 35-40."
+    },
+    {
+      "id": "class-indian-ocean",
+      "label": "Class slides: South/Southeast Asia and Indian Ocean Trade Routes, supplied PDF.",
+      "note": "Used as a classroom source lead for monsoon sailing, port cities, and cultural exchange."
+    },
+    {
+      "id": "class-trans-saharan",
+      "label": "Class activity: Journey along the trans-Saharan Trade Routes, supplied PDF.",
+      "note": "Activity is treated as a simulation/source lead, not as an eyewitness historical account."
+    }
+  ],
+  "assets": {}
+}

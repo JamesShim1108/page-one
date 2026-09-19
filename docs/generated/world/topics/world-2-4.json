@@ -1,0 +1,783 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-2",
+    "courseId": "world",
+    "number": 2,
+    "title": "Networks of Exchange",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "termSetIds": [
+      "world-period-1-a",
+      "world-period-1-b"
+    ],
+    "description": "Study how trade networks connected Afro-Eurasia through goods, technology, states, culture, and environmental change.",
+    "quizzes": [
+      {
+        "id": "world-2-practice-a",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form A",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-b",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form B",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-all",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 reserved-question review",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18",
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18",
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18",
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18",
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18",
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18",
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18",
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      }
+    ],
+    "termSets": [
+      {
+        "id": "world-period-1-a",
+        "title": "Period 1 Terms List A",
+        "source": "Period 1 Terms List A.pdf",
+        "count": 27
+      },
+      {
+        "id": "world-period-1-b",
+        "title": "Period 1 Terms List B",
+        "source": "Period 1 Terms List B.pdf",
+        "count": 29
+      }
+    ],
+    "topicQuizzes": [
+      {
+        "id": "world-2-1-quiz",
+        "title": "The Silk Roads topic quiz"
+      },
+      {
+        "id": "world-2-2-quiz",
+        "title": "The Mongol Empire and the Making of the Modern World topic quiz"
+      },
+      {
+        "id": "world-2-3-quiz",
+        "title": "Exchange in the Indian Ocean topic quiz"
+      },
+      {
+        "id": "world-2-4-quiz",
+        "title": "Trans-Saharan Trade Routes topic quiz"
+      },
+      {
+        "id": "world-2-5-quiz",
+        "title": "Cultural Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-6-quiz",
+        "title": "Environmental Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-7-quiz",
+        "title": "Comparison of Economic Exchange topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "world-2-1",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "The Silk Roads",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How demand, political stability, and commercial tools expanded connected overland exchange after 1200."
+    },
+    "hasGuide": true,
+    "writingQuizzes": [
+      {
+        "id": "world-2-saq-01",
+        "title": "Unit 2 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-02",
+        "title": "Unit 2 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-03",
+        "title": "Unit 2 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-04",
+        "title": "Unit 2 SAQ 04",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-05",
+        "title": "Unit 2 SAQ 05",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-06",
+        "title": "Unit 2 SAQ 06",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-07",
+        "title": "Unit 2 SAQ 07",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-comparison",
+        "title": "Unit 2 LEQ: Comparing networks",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-causation",
+        "title": "Unit 2 LEQ: Causes of exchange growth",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-continuity",
+        "title": "Unit 2 LEQ: Continuity and change",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-dbq-connectivity",
+        "title": "Unit 2 DBQ: Connectivity and consequences",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "blocked"
+      },
+      {
+        "id": "world-2-skill-thesis",
+        "title": "Unit 2 skill drill: Revise an overly broad claim into an arguable claim with a line of reasoning.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-context",
+        "title": "Unit 2 skill drill: Distinguish relevant wider context from a restatement of the prompt.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-evidence",
+        "title": "Unit 2 skill drill: Turn an accurate example into support for an argument through explicit explanation.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-sourcing",
+        "title": "Unit 2 skill drill: Explain why a document’s perspective, purpose, or situation matters to an argument.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-2-4",
+    "courseId": "world",
+    "unitId": "world-2",
+    "order": 4,
+    "code": "2.4",
+    "title": "Trans-Saharan Trade Routes",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "summary": "How camel logistics, gold and salt exchange, and West African states expanded a difficult but durable network."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-2-4",
+    "unitId": "world-2",
+    "code": "2.4",
+    "title": "Trans-Saharan Trade Routes",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "summary": "How camel logistics, gold and salt exchange, and West African states expanded a difficult but durable network.",
+    "courseId": "world",
+    "order": 4,
+    "minutes": 11,
+    "learningGoals": [
+      "Explain why camel transport and caravan organization increased trans-Saharan trade.",
+      "Explain how Mali and other states gained power from commerce.",
+      "Use traveler accounts carefully as evidence about trade and cultural interaction."
+    ],
+    "bigIdea": "Trans-Saharan trade expanded when camel technology, caravan organization, and political control made movement across an arid environment more practical and profitable.",
+    "context": "The Sahara was never a complete barrier. Pastoralists, oasis communities, and merchants had crossed parts of it before 1200, but larger states and improved caravan organization increased the volume and regularity of exchange.",
+    "sections": [
+      {
+        "id": "desert-logistics",
+        "title": "Crossing an arid environment",
+        "conceptTitle": "Crossing an arid environment",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Sahara contains immense stretches of desert separated by oases and routes with limited water. Camels could travel long distances, tolerate heat, and carry heavy loads. Their usefulness depended on handlers who knew grazing, wells, timing, and route conditions."
+          },
+          {
+            "type": "paragraph",
+            "text": "Different saddle designs served different purposes. A load-bearing saddle could carry substantial goods, while other designs supported riding, visibility, or control. A technology changes an economy only when people have the skills and organization to use it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Caravans grouped merchants, animals, guides, guards, and supplies. The caravan system reduced some risks through cooperation, but it did not make the desert easy or eliminate the need for careful planning."
+          }
+        ],
+        "takeaway": "Trade grew when camel capacity and human knowledge made repeated desert crossings manageable.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-4",
+          "class-trans-saharan"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 4 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-4",
+            "locator": "Official CED Topic 4"
+          }
+        ]
+      },
+      {
+        "id": "goods-intermediaries",
+        "title": "Gold, salt, and intermediaries",
+        "conceptTitle": "Gold, salt, and intermediaries",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "West African gold moved north, while salt from Saharan sources moved south. Merchants also exchanged textiles, horses, books, ivory, and other goods. Gold and salt are useful examples, but the network included many participants and products."
+          },
+          {
+            "type": "paragraph",
+            "text": "Trade depended on intermediaries who connected mines, oases, caravan cities, and agricultural regions. People living along routes supplied food, animals, storage, translation, and information. The network was therefore more than a direct exchange between two distant endpoints."
+          },
+          {
+            "type": "paragraph",
+            "text": "Trade in enslaved people also occurred in trans-Saharan systems. Historical study should identify coercion and human loss clearly rather than treat people as ordinary cargo. The existence of commercial exchange does not make all exchanges morally or socially equivalent."
+          }
+        ],
+        "takeaway": "The network depended on specialized environments and intermediaries, and it included both ordinary goods and coercive systems.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-4",
+          "class-trans-saharan"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 4 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-4",
+            "locator": "Official CED Topic 4"
+          }
+        ]
+      },
+      {
+        "id": "mali-state-trade",
+        "title": "Mali and the political economy of trade",
+        "conceptTitle": "Mali and the political economy of trade",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Mali rose in West Africa during the thirteenth century and gained revenue from gold and other trade. Rulers could tax commerce, protect routes, and use wealth to support armies, cities, and administration. Agriculture remained essential; trade did not replace farming for most people."
+          },
+          {
+            "type": "paragraph",
+            "text": "Timbuktu and Gao became important centers of trade and Islamic learning. Their significance came from their position in networks and from institutions that attracted merchants and scholars. Cities grew through connections among desert routes, rivers, and surrounding production."
+          },
+          {
+            "type": "paragraph",
+            "text": "State expansion brought more people and resources into a shared economy, but political authority was not unlimited. Rival states, local communities, environmental conditions, and succession disputes shaped the network’s future."
+          }
+        ],
+        "takeaway": "Mali shows how rulers could turn commercial geography into revenue and political power without controlling every exchange directly.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-4",
+          "class-trans-saharan"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 4 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-4",
+            "locator": "Official CED Topic 4"
+          }
+        ]
+      },
+      {
+        "id": "musa-learning",
+        "title": "Mansa Musa, pilgrimage, and patronage",
+        "conceptTitle": "Mansa Musa, pilgrimage, and patronage",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Mansa Musa’s pilgrimage to Mecca in 1324–1325 displayed Mali’s wealth and connected its ruler to the wider Islamic world. The journey was religious, diplomatic, and political at the same time. It made Mali more visible to observers outside West Africa."
+          },
+          {
+            "type": "paragraph",
+            "text": "Mansa Musa supported mosques, scholars, and Islamic learning after returning. His patronage strengthened institutions in cities such as Timbuktu, while many people in the region continued local religious practices. A ruler’s religious policy did not instantly transform every community."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use the pilgrimage as evidence of political and cultural connection, not as proof that Islam first arrived in West Africa with Mansa Musa. Muslim merchants and communities had been present earlier, and African actors shaped how Islam developed locally."
+          }
+        ],
+        "takeaway": "Mansa Musa used a trade-based state and religious patronage to connect West Africa to wider networks while local traditions continued.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-4",
+          "class-trans-saharan"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 4 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-4",
+            "locator": "Official CED Topic 4"
+          }
+        ]
+      },
+      {
+        "id": "accounts-local-life",
+        "title": "Reading traveler accounts",
+        "conceptTitle": "Reading traveler accounts",
+        "lenses": [],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ibn Battuta’s descriptions of West African cities offer evidence about trade, hospitality, religious practice, gender expectations, and political order. They also reflect one traveler’s purpose, cultural assumptions, route, memory, and audience."
+          },
+          {
+            "type": "paragraph",
+            "text": "A careful historian separates observation from judgment. A passage may support a claim about what the traveler saw or was told; it cannot automatically describe every community in West Africa. Compare the account with archaeological, political, and economic evidence when making a wider claim."
+          },
+          {
+            "type": "paragraph",
+            "text": "The classroom journey activity is a learning simulation, not a literal record of one person’s trip. Dates and passages must remain attached to their actual authors and settings."
+          }
+        ],
+        "takeaway": "Traveler accounts are valuable but partial evidence: source, situation, purpose, and representativeness matter.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-4",
+          "class-trans-saharan"
+        ],
+        "sourceLocators": [
+          {
+            "sourceId": "amsco-unit-2",
+            "locator": "Supplied AMSCO Unit 2 Topic 4 pages"
+          },
+          {
+            "sourceId": "ced-topic-2-4",
+            "locator": "Official CED Topic 4"
+          }
+        ]
+      }
+    ],
+    "readingGuide": {
+      "objectives": "H, I",
+      "readingLabel": "AMSCO Unit 2, Topic 2.4; use the supplied class reading alongside these original notes",
+      "lenses": [],
+      "prompts": [
+        {
+          "id": "world-2-4-reading-01",
+          "prompt": "Why was a load-bearing saddle economically important?",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-4"
+          ]
+        },
+        {
+          "id": "world-2-4-reading-02",
+          "prompt": "Explain how intermediaries made the Sahara network possible.",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-4"
+          ]
+        },
+        {
+          "id": "world-2-4-reading-03",
+          "prompt": "How did Mali gain from trade while remaining dependent on agriculture?",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-4"
+          ]
+        },
+        {
+          "id": "world-2-4-reading-04",
+          "prompt": "What political and religious purposes could Mansa Musa’s pilgrimage serve?",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-4"
+          ]
+        },
+        {
+          "id": "world-2-4-reading-05",
+          "prompt": "What is one claim Ibn Battuta can support and one claim he cannot support alone?",
+          "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+          "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+          "sourceIds": [
+            "ced",
+            "ced-topic-2-4"
+          ]
+        }
+      ]
+    },
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Unit 1 bridge",
+        "title": "Mali’s foundations become a trade system",
+        "body": "Unit 1 introduces African states and their agricultural and political foundations. Topic 2.4 connects those foundations to camel caravans, gold, salt, taxation, urban growth, and Islamic scholarship.",
+        "transferQuestion": "What evidence would you use to test the relationship described in Mali’s foundations become a trade system?",
+        "feedback": "A strong transfer answer names a concrete example, identifies both sides of the relationship, and explains the mechanism rather than repeating the title.",
+        "links": [
+          {
+            "topicId": "world-1-5",
+            "sectionId": "africa-mali",
+            "label": "Review Mali foundations"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "type": "Within Unit 2",
+        "title": "Inland networks and maritime networks both use intermediaries",
+        "body": "Indian Ocean ports connect producers and sailors across water; Saharan caravan cities connect producers and travelers across desert. Comparing intermediaries helps explain why neither network was a simple two-ended exchange.",
+        "transferQuestion": "What evidence would you use to test the relationship described in Inland networks and maritime networks both use intermediaries?",
+        "feedback": "A strong transfer answer names a concrete example, identifies both sides of the relationship, and explains the mechanism rather than repeating the title.",
+        "links": [
+          {
+            "topicId": "world-2-3",
+            "sectionId": "ports-products",
+            "label": "Compare inland and maritime exchange"
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "type": "Within Unit 2",
+        "title": "Trade can move faith without erasing local practice",
+        "body": "Topic 2.5 asks how Islam, Buddhism, and other traditions changed through connectivity. Mali demonstrates religious patronage and Islamic learning alongside continued local traditions and African political agency.",
+        "transferQuestion": "What evidence would you use to test the relationship described in Trade can move faith without erasing local practice?",
+        "feedback": "A strong transfer answer names a concrete example, identifies both sides of the relationship, and explains the mechanism rather than repeating the title.",
+        "links": [
+          {
+            "topicId": "world-2-5",
+            "sectionId": "beliefs-adaptation",
+            "label": "Review pilgrimage and local traditions"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "ced-topic-2-4",
+      "amsco-unit-2",
+      "class-trans-saharan"
+    ]
+  },
+  "bankPath": "world/banks/world-2-4.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    },
+    {
+      "id": "ced-topic-2-4",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 2.4.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: trans-Saharan exchange."
+    },
+    {
+      "id": "amsco-unit-2",
+      "label": "Class reading: AMSCO World History Unit 2, supplied PDF pages 1-40 (printed pages 75-132).",
+      "note": "Page map used in the Unit 2 evidence ledger: 2.1 pp. 3-7; 2.2 pp. 8-14; 2.3 pp. 15-20; 2.4 pp. 21-25; 2.5 pp. 26-31; 2.6 pp. 32-34; 2.7 pp. 35-40."
+    },
+    {
+      "id": "class-trans-saharan",
+      "label": "Class activity: Journey along the trans-Saharan Trade Routes, supplied PDF.",
+      "note": "Activity is treated as a simulation/source lead, not as an eyewitness historical account."
+    }
+  ],
+  "assets": {}
+}

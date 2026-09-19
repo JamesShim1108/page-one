@@ -8,6 +8,14 @@ import {
   writingInvite,
 } from "./framework.js";
 
+function readingPrompt(prompt, index, reading) {
+  if (typeof prompt === "string") return `<li>${reading(prompt)}</li>`;
+  return `<li><p>${reading(prompt.prompt)}</p>
+    <details class="reading-reveal"><summary>Show a way to reason through it</summary>
+      <p><strong>Model reasoning:</strong> ${reading(prompt.model)}</p><p><strong>Feedback:</strong> ${reading(prompt.feedback)}</p>
+    </details></li>`;
+}
+
 function readingGuide(lesson, framework, reading) {
   const guide = lesson.readingGuide;
   if (!guide) return "";
@@ -15,15 +23,20 @@ function readingGuide(lesson, framework, reading) {
     <h2><span class="section-number">READING GUIDE</span>Read, then explain.</h2>
     <p class="muted">Companion prompts for ${esc(guide.readingLabel)}. Use your own reading copy alongside these original notes.</p>
     ${frameworkBadges(guide.lenses, framework)}
-    <ol>${guide.prompts.map((prompt) => `<li>${reading(prompt)}</li>`).join("")}</ol>${frameworkGuide(framework)}
+    <ol>${guide.prompts.map((prompt, index) => readingPrompt(prompt, index, reading)).join("")}</ol>${frameworkGuide(framework)}
   </section>`;
 }
 
-function lessonSection(section, framework, assets, reading) {
+function lessonSection(section, framework, assets, reading, sources) {
+  const cited = (section.sourceIds || [])
+    .map((id) => sources.find((source) => source.id === id)?.label || id)
+    .map((label) => esc(label))
+    .join(" · ");
   return `<div class="concept" id="${esc(section.id)}">
     <h3>${esc(section.title)}</h3>${frameworkBadges(section.lenses, framework)}
     ${renderBlocks(section.blocks, assets, reading)}
     <p class="note"><strong>Remember:</strong> ${reading(section.takeaway)}</p>
+    ${cited ? `<p class="source-disclosure"><strong>Section sources:</strong> ${cited}</p>` : ""}
   </div>`;
 }
 
@@ -32,13 +45,14 @@ export function lessonPage(data, quizController) {
   const reading = createConceptText(data.glossary);
   const quiz = bank.quizzes.find((item) => item.quizType === "topic");
   const quick = bank.quizzes.find((item) => item.quizType === "quick");
+  const hasTerms = lesson.vocabulary.length > 0;
   const entry = () => quizEntry(quiz, quizController.attempt(quiz.id));
   const crumbs = contextCrumbs(data);
   crumbs[crumbs.length - 1] = [`Topic ${lesson.code}`];
   const sections = [
     ["learn", "Learn"],
     ...(lesson.readingGuide ? [["reading-guide", "Reading guide"]] : []),
-    ["terms", "Key terms"],
+    ...(hasTerms ? [["terms", "Key terms"]] : []),
     ["connections", "Connections"],
     ["practice", "Quick practice"],
     ...(unit.writingQuizzes.length ? [["writing", "Writing quiz"]] : []),
@@ -50,7 +64,7 @@ export function lessonPage(data, quizController) {
     </aside>
     <article><header class="lesson-head"><p class="eyebrow">Topic ${esc(lesson.code)} · ${esc(unit.title)}</p>
       <h1>${esc(lesson.title)}</h1><p class="date-line">${esc(lesson.period)}</p><p class="lede">${esc(lesson.summary)}</p>
-      <div class="lesson-meta"><span>About ${lesson.minutes} min to read</span><span>${lesson.vocabulary.length} key terms</span><span>Original lesson</span></div>
+      <div class="lesson-meta"><span>About ${lesson.minutes} min to read</span>${hasTerms ? `<span>${lesson.vocabulary.length} key terms</span>` : ""}<span>Original lesson</span></div>
       ${conceptHelp(data.glossary)}
     </header>
     <div class="lesson-goals"><p class="eyebrow">What you should be able to explain</p>
@@ -60,14 +74,18 @@ export function lessonPage(data, quizController) {
     <div class="big-idea"><p class="eyebrow">The big idea</p><p>${reading(lesson.bigIdea)}</p></div>
     <section class="lesson-section" id="learn"><h2><span class="section-number">01 / LEARN</span>Understand the story.</h2>
       <p class="note"><strong>Place it in time.</strong> ${reading(lesson.context)}</p>
-      ${lesson.sections.map((section) => lessonSection(section, framework, assets, reading)).join("")}
+      ${lesson.sections.map((section) => lessonSection(section, framework, assets, reading, sources)).join("")}
     </section>
     ${readingGuide(lesson, framework, reading)}
-    <section class="lesson-section" id="terms"><h2><span class="section-number">02 / KEY TERMS</span>Words worth knowing.</h2>
+    ${
+      hasTerms
+        ? `<section class="lesson-section" id="terms"><h2><span class="section-number">02 / KEY TERMS</span>Words worth knowing.</h2>
       <dl class="terms">${lesson.vocabulary.map((term) => `<div class="term-row"><dt>${esc(term.term)}</dt><dd>${esc(term.definition)}</dd></div>`).join("")}</dl>
-    </section>
+    </section>`
+        : ""
+    }
     <section class="lesson-section" id="connections"><h2><span class="section-number">03 / CONNECTIONS</span>Go beyond the facts.</h2>
-      <div class="connection-list">${lesson.connections.map((connection) => `<div class="connection"><p class="eyebrow">${esc(connection.type)}</p><h3>${esc(connection.title)}</h3><p>${reading(connection.body)}</p></div>`).join("")}</div>
+      <div class="connection-list">${lesson.connections.map((connection) => `<div class="connection"><p class="eyebrow">${esc(connection.type)}</p><h3>${esc(connection.title)}</h3><p>${reading(connection.body)}</p>${connection.transferQuestion ? `<details class="transfer-check"><summary>${esc(connection.transferQuestion)}</summary><p>${esc(connection.feedback || "Use a specific example and explain the mechanism.")}</p></details>` : ""}${connection.links?.length ? `<p class="connection-links">${connection.links.map((item) => link(`/topic/${item.topicId}?section=${item.sectionId}`, item.label, "text-link")).join(" ")}</p>` : ""}</div>`).join("")}</div>
     </section>
     <section class="lesson-section" id="practice"><h2><span class="section-number">04 / QUICK PRACTICE</span>Check what stuck.</h2>
       <p class="muted">${quick.questionIds.length} short questions before the topic quiz.</p><div class="quick-shell" id="quick-shell">${quizController.quickView(quick)}</div>

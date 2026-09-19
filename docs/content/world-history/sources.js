@@ -160,4 +160,86 @@ export const sources = [
     label:
       "Class reading: AMSCO Unit 1, Topic 1.7, supplied PDF pages 50-53. Original notes below; consult your own copy for the reading.",
   },
+  {
+    id: "amsco-unit-2",
+    label:
+      "Class reading: AMSCO World History Unit 2, supplied PDF pages 1-40 (printed pages 75-132).",
+    note: "Page map used in the Unit 2 evidence ledger: 2.1 pp. 3-7; 2.2 pp. 8-14; 2.3 pp. 15-20; 2.4 pp. 21-25; 2.5 pp. 26-31; 2.6 pp. 32-34; 2.7 pp. 35-40.",
+  },
+  {
+    id: "amsco-unit-1",
+    label:
+      "Class reading: AMSCO World History Unit 1, supplied PDF; used only for earlier-context connections.",
+  },
+  {
+    id: "class-tang-song-mongols",
+    label: "Class slides: Tang, Song, and Mongols, supplied PDF.",
+    note: "Used as a classroom source lead for state policy, commercial growth, and Mongol administration.",
+  },
+  {
+    id: "class-indian-ocean",
+    label:
+      "Class slides: South/Southeast Asia and Indian Ocean Trade Routes, supplied PDF.",
+    note: "Used as a classroom source lead for monsoon sailing, port cities, and cultural exchange.",
+  },
+  {
+    id: "class-trans-saharan",
+    label: "Class activity: Journey along the trans-Saharan Trade Routes, supplied PDF.",
+    note: "Activity is treated as a simulation/source lead, not as an eyewitness historical account.",
+  },
+  {
+    id: "natural-earth-populated-places",
+    label: "Natural Earth: Populated Places (10m cultural vector data)",
+    url: "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+    note: "Modern geographic orientation only. Coordinates do not represent medieval borders or historical route control.",
+  },
+  {
+    id: "ced-topic-2-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 2.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: the Silk Roads.",
+  },
+  {
+    id: "ced-topic-2-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 2.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Mongol expansion and administration.",
+  },
+  {
+    id: "ced-topic-2-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 2.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: exchange in the Indian Ocean.",
+  },
+  {
+    id: "ced-topic-2-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 2.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: trans-Saharan exchange.",
+  },
+  {
+    id: "ced-topic-2-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 2.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: cultural consequences of connectivity.",
+  },
+  {
+    id: "ced-topic-2-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 2.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: environmental consequences of connectivity.",
+  },
+  {
+    id: "ced-topic-2-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 2.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: comparison of exchange networks.",
+  },
 ];

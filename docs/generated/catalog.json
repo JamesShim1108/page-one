@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "05b2ed89f388cb41",
+  "revision": "def412aad1571f71",
   "courses": [
     {
       "schemaVersion": 1,
@@ -12,7 +12,7 @@
       "period": "c. 1200–present",
       "order": 1,
       "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present.",
-      "readyTopicCount": 7,
+      "readyTopicCount": 14,
       "previewTopics": [
         {
           "id": "world-1-1",

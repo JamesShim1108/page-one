@@ -220,7 +220,7 @@ export async function compileContent(root = projectRoot) {
             topicRoot,
             "topic ownership does not match its folder",
           );
-          validateLesson(lesson, bank, sources, assets, framework, topicRoot);
+          validateLesson(lesson, bank, sources, assets, framework, topicRoot, topics);
           requireValue(!topics.has(lesson.id), topicRoot, "duplicate topic ID");
           for (const question of bank.questions) {
             requireValue(
@@ -254,6 +254,24 @@ export async function compileContent(root = projectRoot) {
       "unit numbers must be unique",
     );
     units.sort((a, b) => a.unit.number - b.unit.number);
+    // Cross-topic links are checked after every topic in the course has been discovered.
+    for (const topic of topics.values()) {
+      for (const connection of topic.lesson.connections || []) {
+        for (const target of connection.links || []) {
+          const linked = topics.get(target.topicId);
+          requireValue(
+            linked?.lesson.status === "ready",
+            courseFile,
+            `broken connection topic ${target.topicId}`,
+          );
+          requireValue(
+            linked.lesson.sections.some((section) => section.id === target.sectionId),
+            courseFile,
+            `broken connection section ${target.topicId}/${target.sectionId}`,
+          );
+        }
+      }
+    }
     const glossaryRoot = join(courseRoot, "glossary");
     const glossaryGroups = [];
     if (await exists(glossaryRoot)) {
@@ -332,7 +350,9 @@ export async function compileContent(root = projectRoot) {
         writingQuizzes: (unit.status === "ready" ? writing : []).map((quiz) => ({
           id: quiz.id,
           title: quiz.title,
-          partCount: quiz.parts.length,
+          partCount: quiz.parts?.length || quiz.responseFields?.length || 0,
+          exerciseType: quiz.exerciseType || "saq",
+          availability: quiz.availability || "available",
         })),
       };
       record.info = unitInfo;
@@ -432,6 +452,7 @@ export async function compileContent(root = projectRoot) {
       if (guide) {
         for (const field of ["title", "headline", "essential"])
           requireText(guide[field], unitRoot);
+        if (guide.overview) requireText(guide.overview, unitRoot);
         for (const item of guide.timeline) {
           requireText(item.date, unitRoot);
           requireText(item.text, unitRoot);
@@ -442,11 +463,206 @@ export async function compileContent(root = projectRoot) {
           "guide needs a pitfalls array",
         );
         guide.pitfalls.forEach((text) => requireText(text, unitRoot));
+        if (guide.causalChains) {
+          requireValue(
+            Array.isArray(guide.causalChains) && guide.causalChains.length === 4,
+            unitRoot,
+            "guide needs four causal chains",
+          );
+          guide.causalChains.forEach((chain) => {
+            requireText(chain.title, unitRoot);
+            requireValue(
+              Array.isArray(chain.steps) && chain.steps.length >= 3,
+              unitRoot,
+              "causal chain needs steps",
+            );
+            chain.steps.forEach((step) => requireText(step, unitRoot));
+          });
+        }
+        if (guide.evidenceGuide) {
+          requireValue(
+            Array.isArray(guide.evidenceGuide) && guide.evidenceGuide.length === 12,
+            unitRoot,
+            "guide needs twelve evidence examples",
+          );
+          uniqueById(guide.evidenceGuide, `${unitRoot}.evidenceGuide`);
+          guide.evidenceGuide.forEach((item) => {
+            requireId(item.id, unitRoot);
+            requireText(item.whereWhen, unitRoot);
+            requireText(item.claim, unitRoot);
+            requireText(item.limitation, unitRoot);
+            (item.sourceIds || []).forEach((id) =>
+              requireValue(sources.has(id), unitRoot, `unknown evidence source ${id}`),
+            );
+            const target = topics.get(item.review?.topicId);
+            requireValue(
+              target?.lesson.status === "ready" &&
+                target.lesson.sections.some(
+                  (section) => section.id === item.review.sectionId,
+                ),
+              unitRoot,
+              `broken evidence review ${item.id}`,
+            );
+            requireText(item.review.label, unitRoot);
+          });
+        }
+        if (guide.unit1Bridge) requireText(guide.unit1Bridge, unitRoot);
+        if (guide.laterCallout) requireText(guide.laterCallout, unitRoot);
         validateBlocks([{ type: "table", ...guide.comparisons }], new Map(), unitRoot);
         const guideSources = guide.sourceIds.map((id) => {
           requireValue(sources.has(id), unitRoot, `unknown source ${id}`);
           return sources.get(id);
         });
+        if (guide.networkData) {
+          const {
+            networks = [],
+            places = [],
+            connections = [],
+            seasonalExamples = [],
+            saharaPlans = [],
+            comparisonPrompts = [],
+          } = guide.networkData;
+          requireValue(
+            networks.length === 3,
+            unitRoot,
+            "network explorer needs three networks",
+          );
+          requireValue(
+            places.length >= 12,
+            unitRoot,
+            "network explorer needs at least twelve places",
+          );
+          uniqueById(networks, `${unitRoot}.networkData.networks`);
+          uniqueById(places, `${unitRoot}.networkData.places`);
+          for (const network of networks) {
+            requireId(network.id, unitRoot);
+            requireText(network.label, unitRoot);
+            requireValue(
+              network.dimensions && Object.keys(network.dimensions).length === 8,
+              unitRoot,
+              `${network.id} needs eight comparison dimensions`,
+            );
+            Object.values(network.dimensions).forEach((value) =>
+              requireText(value, unitRoot),
+            );
+            (network.sourceIds || []).forEach((id) =>
+              requireValue(sources.has(id), unitRoot, `unknown network source ${id}`),
+            );
+          }
+          for (const place of places) {
+            requireId(place.id, unitRoot);
+            requireText(place.name, unitRoot);
+            requireValue(
+              Array.isArray(place.networks) && place.networks.length > 0,
+              unitRoot,
+              `${place.id} needs network IDs`,
+            );
+            place.networks.forEach((id) =>
+              requireValue(
+                networks.some((network) => network.id === id),
+                unitRoot,
+                `unknown network ${id}`,
+              ),
+            );
+            const target = topics.get(place.topicId);
+            requireValue(
+              target?.lesson.status === "ready" &&
+                target.lesson.sections.some((section) => section.id === place.sectionId),
+              unitRoot,
+              `broken place review ${place.topicId}/${place.sectionId}`,
+            );
+            (place.sourceIds || []).forEach((id) =>
+              requireValue(sources.has(id), unitRoot, `unknown place source ${id}`),
+            );
+            requireValue(
+              Number.isFinite(place.coordinates?.latitude) &&
+                Number.isFinite(place.coordinates?.longitude) &&
+                place.coordinates.latitude >= -90 &&
+                place.coordinates.latitude <= 90 &&
+                place.coordinates.longitude >= -180 &&
+                place.coordinates.longitude <= 180,
+              unitRoot,
+              `${place.id} needs valid geographic coordinates`,
+            );
+          }
+          if (guide.networkData.mapSource) {
+            (guide.networkData.mapSource.sourceIds || []).forEach((id) =>
+              requireValue(sources.has(id), unitRoot, `unknown map source ${id}`),
+            );
+            requireText(guide.networkData.mapSource.label, unitRoot);
+            requireText(guide.networkData.mapSource.note, unitRoot);
+          }
+          connections.forEach((connection) => {
+            requireValue(
+              Array.isArray(connection) &&
+                connection.length === 2 &&
+                connection.every((id) => places.some((place) => place.id === id)),
+              unitRoot,
+              "invalid network connection",
+            );
+          });
+          seasonalExamples.forEach((example) => {
+            requireId(example.id, unitRoot);
+            requireText(example.label, unitRoot);
+            requireText(example.outwardSeason, unitRoot);
+            requireText(example.returnSeason, unitRoot);
+            requireText(example.feedback, unitRoot);
+            (example.sourceIds || []).forEach((id) =>
+              requireValue(sources.has(id), unitRoot, `unknown seasonal source ${id}`),
+            );
+          });
+          saharaPlans.forEach((plan) => {
+            requireId(plan.id, unitRoot);
+            requireText(plan.label, unitRoot);
+            requireText(plan.choice, unitRoot);
+            requireText(plan.feedback, unitRoot);
+          });
+          comparisonPrompts.forEach((prompt) => {
+            requireId(prompt.id, unitRoot);
+            requireText(prompt.prompt, unitRoot);
+            requireText(prompt.model, unitRoot);
+          });
+        }
+        if (guide.activities) {
+          requireValue(
+            Array.isArray(guide.activities) && guide.activities.length === 6,
+            unitRoot,
+            "Unit 2 needs six claim/evidence activities",
+          );
+          uniqueById(guide.activities, `${unitRoot}.activities`);
+          guide.activities.forEach((activity) => {
+            requireId(activity.id, unitRoot);
+            requireText(activity.title, unitRoot);
+            requireText(activity.claim, unitRoot);
+            requireValue(
+              Array.isArray(activity.options) && activity.options.length === 3,
+              unitRoot,
+              `${activity.id} needs options`,
+            );
+            requireValue(
+              activity.options.filter((option) => option.correct).length === 1,
+              unitRoot,
+              `${activity.id} needs one correct option`,
+            );
+            activity.options.forEach((option) => {
+              requireId(option.id, unitRoot);
+              requireText(option.text, unitRoot);
+              requireText(option.feedback, unitRoot);
+            });
+            (activity.sourceIds || []).forEach((id) =>
+              requireValue(sources.has(id), unitRoot, `unknown activity source ${id}`),
+            );
+            const target = topics.get(activity.review?.topicId);
+            requireValue(
+              target?.lesson.status === "ready" &&
+                target.lesson.sections.some(
+                  (section) => section.id === activity.review.sectionId,
+                ),
+              unitRoot,
+              `broken activity review ${activity.id}`,
+            );
+          });
+        }
         route("guide", unit.id, `${course.id}/guides/${unit.id}.json`);
         emit(routes.guide[unit.id], {
           course,
@@ -470,7 +686,7 @@ export async function compileContent(root = projectRoot) {
         });
       }
       for (const quiz of writing) {
-        validateWriting(quiz, topics, framework, unit, unitRoot);
+        validateWriting(quiz, topics, framework, unit, unitRoot, sources);
         route("writing", quiz.id, `${course.id}/writing/${quiz.id}.json`);
         emit(routes.writing[quiz.id], { course, unit: unitInfo, framework, quiz });
       }

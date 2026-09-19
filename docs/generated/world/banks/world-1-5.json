@@ -151,7 +151,9 @@
       {
         "id": "world-1-saq",
         "title": "Unit 1 writing quiz",
-        "partCount": 3
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
       }
     ]
   },

@@ -33,16 +33,19 @@ test("the generated catalog preserves every ready Unit 1 topic and stable route"
   assert.equal(catalog.schemaVersion, 1);
   assert.equal(catalog.courses.length, 1);
   assert.equal(catalog.courses[0].id, "world");
-  assert.equal(catalog.courses[0].readyTopicCount, 7);
+  assert.equal(catalog.courses[0].readyTopicCount, 14);
 
   const routes = await readGenerated("world/routes.json");
-  assert.equal(Object.keys(routes.topic).length, 7);
-  assert.equal(Object.keys(routes.quiz).length, 15);
+  assert.equal(Object.keys(routes.topic).length, 14);
+  assert.equal(Object.keys(routes.quiz).length, 32);
   assert.equal(routes.topic["world-1-2"], "world/topics/world-1-2.json");
   assert.equal(routes.writing["world-1-saq"], "world/writing/world-1-saq.json");
 
   const unit = await readGenerated("world/units/world-1.json");
   assert.equal(unit.topics.length, 7);
+  const unit2 = await readGenerated("world/units/world-2.json");
+  assert.equal(unit2.topics.length, 7);
+  assert.equal(unit2.unit.quizzes.length, 3);
   assert.equal(
     unit.unit.quizzes[0].selections.flatMap((selection) => selection.questionIds).length,
     21,
@@ -260,6 +263,6 @@ test("content compiles from folder discovery rather than a hardcoded topic list"
     new URL("../", import.meta.url).pathname.replace(/\/$/, ""),
   );
   assert.equal(output.has("catalog.json"), true);
-  assert.equal([...output.keys()].filter((path) => path.includes("/topics/")).length, 7);
-  assert.equal([...output.keys()].filter((path) => path.includes("/banks/")).length, 7);
+  assert.equal([...output.keys()].filter((path) => path.includes("/topics/")).length, 14);
+  assert.equal([...output.keys()].filter((path) => path.includes("/banks/")).length, 14);
 });
