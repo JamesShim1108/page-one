@@ -108,7 +108,15 @@ export function validateBlocks(blocks, assets, location) {
   }
 }
 
-export function validateLesson(lesson, bank, sourceMap, assets, framework, location) {
+export function validateLesson(
+  lesson,
+  bank,
+  sourceMap,
+  assets,
+  framework,
+  location,
+  topicMap = null,
+) {
   validateMetadata(lesson, location);
   requireValue(
     Number.isInteger(lesson.order) && lesson.order > 0,
@@ -149,6 +157,18 @@ export function validateLesson(lesson, bank, sourceMap, assets, framework, locat
     requireText(section.conceptTitle, location);
     requireText(section.takeaway, location);
     validateBlocks(section.blocks, assets, `${location}.${section.id}`);
+    if (section.sourceIds) {
+      requireValue(
+        Array.isArray(section.sourceIds) && section.sourceIds.length > 0,
+        location,
+        `${section.id} needs sourceIds`,
+      );
+      section.sourceIds.forEach((id) =>
+        requireValue(sourceMap.has(id), location, `unknown source ${id}`),
+      );
+    }
+    if (section.sourceLocators)
+      validateSourceLocators(section.sourceLocators, sourceMap, location);
     for (const lens of section.lenses || [])
       requireValue(themes.has(lens), location, `unknown framework lens ${lens}`);
   }
@@ -166,6 +186,9 @@ export function validateLesson(lesson, bank, sourceMap, assets, framework, locat
   for (const connection of lesson.connections || []) {
     requireText(connection.title, location);
     requireText(connection.body, location);
+    if (connection.transferQuestion) requireText(connection.transferQuestion, location);
+    if (connection.feedback) requireText(connection.feedback, location);
+    if (connection.links) validateReviewLinks(connection.links, topicMap, location);
   }
   uniqueById(lesson.vocabulary || [], `${location}.vocabulary`);
   uniqueById(lesson.connections || [], `${location}.connections`);
@@ -177,7 +200,25 @@ export function validateLesson(lesson, bank, sourceMap, assets, framework, locat
       location,
       "reading guide needs prompts",
     );
-    lesson.readingGuide.prompts.forEach((prompt) => requireText(prompt, location));
+    lesson.readingGuide.prompts.forEach((prompt) => {
+      if (typeof prompt === "string") requireText(prompt, location);
+      else {
+        requireId(prompt.id, location);
+        requireText(prompt.prompt, location);
+        requireText(prompt.model, location);
+        requireText(prompt.feedback, location);
+        if (prompt.sourceIds) {
+          requireValue(
+            Array.isArray(prompt.sourceIds) && prompt.sourceIds.length > 0,
+            location,
+            "reading prompt needs sourceIds",
+          );
+          prompt.sourceIds.forEach((id) =>
+            requireValue(sourceMap.has(id), location, `unknown source ${id}`),
+          );
+        }
+      }
+    });
     for (const lens of lesson.readingGuide.lenses || [])
       requireValue(themes.has(lens), location, `unknown reading-guide lens ${lens}`);
   }
@@ -217,6 +258,40 @@ export function validateLesson(lesson, bank, sourceMap, assets, framework, locat
     );
     if (question.stimulusBlocks)
       validateBlocks(question.stimulusBlocks, assets, location);
+    if (question.sourceIds) {
+      requireValue(
+        Array.isArray(question.sourceIds) && question.sourceIds.length > 0,
+        location,
+        `${question.id} needs sourceIds`,
+      );
+      question.sourceIds.forEach((id) =>
+        requireValue(sourceMap.has(id), location, `unknown source ${id}`),
+      );
+    }
+    if (question.sourceLocators)
+      validateSourceLocators(question.sourceLocators, sourceMap, location);
+    if (question.choiceExplanations) {
+      requireValue(
+        Array.isArray(question.choiceExplanations) &&
+          question.choiceExplanations.length === question.choices.length,
+        location,
+        `${question.id} choiceExplanations must match choices`,
+      );
+      question.choiceExplanations.forEach((explanation) =>
+        requireText(explanation, location),
+      );
+    }
+    if (question.nearMissIndex !== undefined) {
+      requireValue(
+        Number.isInteger(question.nearMissIndex) &&
+          question.nearMissIndex >= 0 &&
+          question.nearMissIndex < question.choices.length &&
+          question.nearMissIndex !== question.correctAnswer,
+        location,
+        `${question.id} invalid nearMissIndex`,
+      );
+      requireText(question.distinguisher, location);
+    }
   }
   for (const quiz of bank.quizzes) {
     requireText(quiz.title, location);
@@ -255,7 +330,49 @@ export function validateSelections(ids, questionMap, location) {
     requireValue(questionMap.has(id), location, `unknown question ${id}`);
 }
 
-export function validateWriting(quiz, topics, framework, unit, location) {
+function validateSourceLocators(locators, sourceMap, location) {
+  requireValue(Array.isArray(locators), location, "sourceLocators must be an array");
+  locators.forEach((item) => {
+    requireValue(item && typeof item === "object", location, "invalid source locator");
+    requireValue(
+      sourceMap.has(item.sourceId),
+      location,
+      `unknown source ${item.sourceId}`,
+    );
+    requireText(item.locator, location);
+  });
+}
+
+function validateReviewLinks(links, topics, location) {
+  requireValue(Array.isArray(links), location, "links must be an array");
+  links.forEach((link) => {
+    requireId(link.topicId, location);
+    requireId(link.sectionId, location);
+    requireText(link.label, location);
+    if (topics && topics.has(link.topicId)) {
+      const target = topics.get(link.topicId);
+      requireValue(
+        target?.lesson.status === "ready",
+        location,
+        `broken connection topic ${link.topicId}`,
+      );
+      requireValue(
+        target.lesson.sections.some((section) => section.id === link.sectionId),
+        location,
+        `broken connection section ${link.topicId}/${link.sectionId}`,
+      );
+    }
+  });
+}
+
+export function validateWriting(
+  quiz,
+  topics,
+  framework,
+  unit,
+  location,
+  sourceMap = null,
+) {
   requireId(quiz.id, location);
   requireValue(quiz.unitId === unit.id, location, "wrong unitId");
   requireValue(quiz.courseId === unit.courseId, location, "wrong writing courseId");
@@ -273,6 +390,23 @@ export function validateWriting(quiz, topics, framework, unit, location) {
     "note",
   ])
     requireText(quiz[field], location);
+  if (quiz.sourceIds) {
+    requireValue(
+      Array.isArray(quiz.sourceIds) && quiz.sourceIds.length > 0,
+      location,
+      "writing exercise needs sourceIds",
+    );
+    if (sourceMap)
+      quiz.sourceIds.forEach((id) =>
+        requireValue(sourceMap.has(id), location, `unknown source ${id}`),
+      );
+  }
+  if (quiz.sourceLocators)
+    validateSourceLocators(quiz.sourceLocators, sourceMap || new Map(), location);
+  if (quiz.exerciseType && ["leq", "dbq", "skill"].includes(quiz.exerciseType)) {
+    validateTypedWriting(quiz, topics, framework, unit, location, sourceMap);
+    return;
+  }
   const parts = uniqueById(quiz.parts, location);
   requireValue(parts.size > 0, location, "writing quiz needs parts");
   requireValue(
@@ -299,6 +433,124 @@ export function validateWriting(quiz, topics, framework, unit, location) {
     for (const key of ["answer", "prove", "explain"])
       requireText(part.model?.[key], location);
     for (const review of part.review || []) {
+      const topic = topics.get(review.topicId);
+      requireValue(
+        topic?.lesson.status === "ready" &&
+          topic.lesson.sections.some((section) => section.id === review.sectionId),
+        location,
+        `broken review destination ${review.topicId}/${review.sectionId}`,
+      );
+      requireText(review.label, location);
+    }
+  }
+}
+
+function validateTypedWriting(quiz, topics, framework, unit, location, sourceMap) {
+  requireValue(
+    Array.isArray(quiz.scaffold) && quiz.scaffold.length > 0,
+    location,
+    "typed writing needs a scaffold",
+  );
+  quiz.scaffold.forEach((step) => {
+    requireText(step.label, location);
+    requireText(step.text, location);
+  });
+  requireValue(
+    Array.isArray(quiz.responseFields) && quiz.responseFields.length > 0,
+    location,
+    "typed writing needs responseFields",
+  );
+  uniqueById(quiz.responseFields, `${location}.responseFields`);
+  quiz.responseFields.forEach((field) => {
+    requireId(field.id, location);
+    requireText(field.label, location);
+    requireText(field.prompt, location);
+    requireValue(
+      field.required === undefined || typeof field.required === "boolean",
+      location,
+      "response field required must be boolean",
+    );
+  });
+  requireValue(
+    Array.isArray(quiz.rubric) && quiz.rubric.length > 0,
+    location,
+    "typed writing needs rubric",
+  );
+  uniqueById(quiz.rubric, `${location}.rubric`);
+  quiz.rubric.forEach((criterion) => {
+    requireId(criterion.id, location);
+    requireText(criterion.label, location);
+    requireValue(
+      Number.isInteger(criterion.points) && criterion.points > 0,
+      location,
+      "rubric points must be positive",
+    );
+    requireText(criterion.guidance, location);
+  });
+  requireText(quiz.modelResponse, location);
+  requireText(quiz.alternateModel, location);
+  requireValue(
+    Array.isArray(quiz.commonErrors) && quiz.commonErrors.length > 0,
+    location,
+    "typed writing needs commonErrors",
+  );
+  quiz.commonErrors.forEach((error) => requireText(error, location));
+  if (quiz.exerciseType === "dbq") {
+    requireValue(
+      Array.isArray(quiz.documents) && quiz.documents.length === 7,
+      location,
+      "DBQ needs seven documents",
+    );
+    uniqueById(quiz.documents, `${location}.documents`);
+    quiz.documents.forEach((document) => {
+      requireId(document.id, location);
+      requireText(document.label, location);
+      requireText(document.content, location);
+      requireText(document.sourceNote, location);
+      requireValue(
+        document.metadata && typeof document.metadata === "object",
+        location,
+        "DBQ document needs metadata",
+      );
+      requireText(document.metadata.author, location);
+      requireText(document.metadata.date, location);
+      requireText(document.metadata.setting, location);
+      requireText(document.metadata.audience, location);
+      requireText(document.metadata.rights, location);
+      requireValue(
+        ["verified", "blocked"].includes(document.status),
+        location,
+        "DBQ document status must be verified or blocked",
+      );
+      if (document.sourceIds) {
+        requireValue(
+          Array.isArray(document.sourceIds) && document.sourceIds.length > 0,
+          location,
+          "DBQ document needs sourceIds",
+        );
+        if (sourceMap)
+          document.sourceIds.forEach((id) =>
+            requireValue(sourceMap.has(id), location, `unknown source ${id}`),
+          );
+      }
+    });
+    if (quiz.availability)
+      requireValue(
+        ["available", "blocked"].includes(quiz.availability),
+        location,
+        "invalid DBQ availability",
+      );
+  }
+  if (quiz.exerciseType === "skill") {
+    requireValue(
+      Array.isArray(quiz.checklist) && quiz.checklist.length > 0,
+      location,
+      "skill drill needs checklist",
+    );
+    quiz.checklist.forEach((item) => requireText(item, location));
+  }
+  for (const field of quiz.responseFields) {
+    for (const review of field.review || []) {
       const topic = topics.get(review.topicId);
       requireValue(
         topic?.lesson.status === "ready" &&

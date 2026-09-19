@@ -1,14 +1,21 @@
 export const maxResponseLength = 10000;
 
 export function createWritingEngine(quiz) {
-  const partIds = quiz.parts.map((part) => part.id);
-  const emptyScores = () => Object.fromEntries(partIds.map((id) => [id, null]));
+  const responseFields =
+    quiz.responseFields ||
+    quiz.parts.map((part) => ({ ...part, label: part.prompt, required: true }));
+  const responseIds = responseFields.map((field) => field.id);
+  const rubric =
+    quiz.rubric || quiz.parts.map((part) => ({ id: part.id, label: part.id, points: 1 }));
+  const scoreIds = rubric.map((criterion) => criterion.id);
+  const scoreById = new Map(rubric.map((criterion) => [criterion.id, criterion]));
+  const emptyScores = () => Object.fromEntries(scoreIds.map((id) => [id, null]));
 
   function newDraft() {
     return {
       version: quiz.version,
       quizId: quiz.id,
-      responses: Object.fromEntries(partIds.map((id) => [id, ""])),
+      responses: Object.fromEntries(responseIds.map((id) => [id, ""])),
       reviewed: false,
       scores: emptyScores(),
     };
@@ -27,27 +34,40 @@ export function createWritingEngine(quiz) {
         !value ||
         typeof value !== "object" ||
         Array.isArray(value) ||
-        Object.keys(value).length !== partIds.length
+        Object.keys(value).length !==
+          (value === draft.responses ? responseIds.length : scoreIds.length)
       )
         return false;
     }
     if (
-      !partIds.every(
+      !responseIds.every(
         (id) =>
           typeof draft.responses[id] === "string" &&
           draft.responses[id].length <= maxResponseLength &&
-          [null, 0, 1].includes(draft.scores[id]),
+          true,
+      ) ||
+      !scoreIds.every(
+        (id) =>
+          draft.scores[id] === null ||
+          (Number.isInteger(draft.scores[id]) &&
+            draft.scores[id] >= 0 &&
+            draft.scores[id] <= scoreById.get(id).points),
       )
     )
       return false;
-    if (draft.reviewed && !partIds.every((id) => draft.responses[id].trim()))
+    if (
+      draft.reviewed &&
+      !responseFields
+        .filter((field) => field.required !== false)
+        .every((field) => draft.responses[field.id].trim())
+    )
       return false;
-    return draft.reviewed || partIds.every((id) => draft.scores[id] === null);
+    return draft.reviewed || scoreIds.every((id) => draft.scores[id] === null);
   }
 
   function updateResponse(draft, partId, text) {
     if (
-      !partIds.includes(partId) ||
+      !responseIds.includes(partId) ||
       typeof text !== "string" ||
       text.length > maxResponseLength ||
       draft.reviewed
@@ -59,7 +79,12 @@ export function createWritingEngine(quiz) {
   }
 
   function review(draft) {
-    if (!partIds.every((id) => draft.responses[id].trim())) return false;
+    if (
+      !responseFields
+        .filter((field) => field.required !== false)
+        .every((field) => draft.responses[field.id].trim())
+    )
+      return false;
     draft.reviewed = true;
     return true;
   }
@@ -70,15 +95,32 @@ export function createWritingEngine(quiz) {
   }
 
   function setScore(draft, partId, value) {
-    if (!draft.reviewed || !partIds.includes(partId) || ![0, 1].includes(value))
+    if (
+      !draft.reviewed ||
+      !scoreById.has(partId) ||
+      !Number.isInteger(value) ||
+      value < 0 ||
+      value > scoreById.get(partId).points
+    )
       return false;
     draft.scores[partId] = value;
     return true;
   }
 
   function total(draft) {
-    if (!draft.reviewed || !partIds.every((id) => draft.scores[id] !== null)) return null;
-    return partIds.reduce((sum, id) => sum + draft.scores[id], 0);
+    if (!draft.reviewed || !scoreIds.every((id) => draft.scores[id] !== null))
+      return null;
+    return scoreIds.reduce((sum, id) => sum + draft.scores[id], 0);
   }
-  return { newDraft, validate, updateResponse, review, revise, setScore, total };
+  return {
+    newDraft,
+    validate,
+    updateResponse,
+    review,
+    revise,
+    setScore,
+    total,
+    responseFields,
+    rubric,
+  };
 }

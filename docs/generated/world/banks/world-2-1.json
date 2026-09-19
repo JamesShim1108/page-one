@@ -1,0 +1,1360 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-2",
+    "courseId": "world",
+    "number": 2,
+    "title": "Networks of Exchange",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "termSetIds": [
+      "world-period-1-a",
+      "world-period-1-b"
+    ],
+    "description": "Study how trade networks connected Afro-Eurasia through goods, technology, states, culture, and environmental change.",
+    "quizzes": [
+      {
+        "id": "world-2-practice-a",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form A",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-b",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form B",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-all",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 reserved-question review",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18",
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18",
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18",
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18",
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18",
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18",
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18",
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      }
+    ],
+    "termSets": [
+      {
+        "id": "world-period-1-a",
+        "title": "Period 1 Terms List A",
+        "source": "Period 1 Terms List A.pdf",
+        "count": 27
+      },
+      {
+        "id": "world-period-1-b",
+        "title": "Period 1 Terms List B",
+        "source": "Period 1 Terms List B.pdf",
+        "count": 29
+      }
+    ],
+    "topicQuizzes": [
+      {
+        "id": "world-2-1-quiz",
+        "title": "The Silk Roads topic quiz"
+      },
+      {
+        "id": "world-2-2-quiz",
+        "title": "The Mongol Empire and the Making of the Modern World topic quiz"
+      },
+      {
+        "id": "world-2-3-quiz",
+        "title": "Exchange in the Indian Ocean topic quiz"
+      },
+      {
+        "id": "world-2-4-quiz",
+        "title": "Trans-Saharan Trade Routes topic quiz"
+      },
+      {
+        "id": "world-2-5-quiz",
+        "title": "Cultural Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-6-quiz",
+        "title": "Environmental Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-7-quiz",
+        "title": "Comparison of Economic Exchange topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "world-2-1",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "The Silk Roads",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How demand, political stability, and commercial tools expanded connected overland exchange after 1200."
+    },
+    "hasGuide": true,
+    "writingQuizzes": [
+      {
+        "id": "world-2-saq-01",
+        "title": "Unit 2 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-02",
+        "title": "Unit 2 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-03",
+        "title": "Unit 2 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-04",
+        "title": "Unit 2 SAQ 04",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-05",
+        "title": "Unit 2 SAQ 05",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-06",
+        "title": "Unit 2 SAQ 06",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-07",
+        "title": "Unit 2 SAQ 07",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-comparison",
+        "title": "Unit 2 LEQ: Comparing networks",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-causation",
+        "title": "Unit 2 LEQ: Causes of exchange growth",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-continuity",
+        "title": "Unit 2 LEQ: Continuity and change",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-dbq-connectivity",
+        "title": "Unit 2 DBQ: Connectivity and consequences",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "blocked"
+      },
+      {
+        "id": "world-2-skill-thesis",
+        "title": "Unit 2 skill drill: Revise an overly broad claim into an arguable claim with a line of reasoning.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-context",
+        "title": "Unit 2 skill drill: Distinguish relevant wider context from a restatement of the prompt.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-evidence",
+        "title": "Unit 2 skill drill: Turn an accurate example into support for an argument through explicit explanation.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-sourcing",
+        "title": "Unit 2 skill drill: Explain why a document’s perspective, purpose, or situation matters to an argument.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-2-1",
+    "courseId": "world",
+    "unitId": "world-2",
+    "order": 1,
+    "code": "2.1",
+    "title": "The Silk Roads",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "summary": "How demand, political stability, and commercial tools expanded connected overland exchange after 1200."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "world-2-1-q01",
+      "topicId": "world-2-1",
+      "concept": "network-geography",
+      "difficulty": "Core",
+      "skillTag": "Explaining a development",
+      "prompt": "Why is “the Silk Road” an incomplete description of exchange after 1200?",
+      "choices": [
+        "It refers to many linked routes and intermediaries rather than one uninterrupted road",
+        "It describes only maritime routes between India and East Africa",
+        "It means all merchants traveled from China to Europe personally",
+        "It refers to a single imperial highway built by the Yuan dynasty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The network included multiple routes, relay exchange, and regional specialists. It was not one road or a journey completed by every merchant.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "The network included multiple routes, relay exchange, and regional specialists. It was not one road or a journey completed by every merchant.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q02",
+      "topicId": "world-2-1",
+      "concept": "trade-growth",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "Which development most directly encouraged the growth of Silk Roads exchange?",
+      "choices": [
+        "The disappearance of cities along desert routes",
+        "Rising demand for luxury goods combined with safer travel and commercial innovations",
+        "A universal ban on merchants using credit",
+        "The replacement of all local production with subsistence farming"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Demand created incentives, while security, transport, and commercial practices made more exchange practical.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Demand created incentives, while security, transport, and commercial practices made more exchange practical.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q03",
+      "topicId": "world-2-1",
+      "concept": "commercial-practices",
+      "difficulty": "Core",
+      "skillTag": "Explaining a development",
+      "prompt": "What problem did caravanserai primarily help solve?",
+      "choices": [
+        "They replaced all state taxation with private banking",
+        "They allowed ships to follow monsoon winds through the desert",
+        "They provided organized stopping places for travelers, animals, goods, and information",
+        "They guaranteed that every merchant would make a profit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Caravanserai supported travel and exchange by supplying rest, water, storage, and contact. They did not guarantee profit.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Caravanserai supported travel and exchange by supplying rest, water, storage, and contact. They did not guarantee profit.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q04",
+      "topicId": "world-2-1",
+      "concept": "cities-production",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "Why did Kashgar and Samarkand become important?",
+      "choices": [
+        "They were the only cities where Chinese emperors allowed merchants to live",
+        "They controlled every Silk Roads route through direct imperial rule",
+        "They produced all of the luxury goods traded across Eurasia",
+        "Their locations and resources made them useful nodes for trade, services, and cultural exchange"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both were strategically placed and offered water, food, crafts, markets, and information. Neither controlled every route or produced everything.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Both were strategically placed and offered water, food, crafts, markets, and information. Neither controlled every route or produced everything."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q05",
+      "topicId": "world-2-1",
+      "concept": "commercial-practices",
+      "difficulty": "Core",
+      "skillTag": "Explaining a development",
+      "prompt": "A merchant deposits value in one place and withdraws it elsewhere through a written arrangement. Which concept best fits this example?",
+      "choices": [
+        "Credit or a money-transfer system",
+        "Subsistence agriculture",
+        "A caravanserai",
+        "A tribute relationship"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The arrangement moves payment through time or space and reduces the need to carry bulky currency. It is not a lodging facility or a farming system.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "The arrangement moves payment through time or space and reduces the need to carry bulky currency. It is not a lodging facility or a farming system.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
+      "stimulusId": "world-2-1-evidence-note",
+      "stimulusBlocks": [
+        {
+          "type": "callout",
+          "title": "Original evidence note",
+          "text": "Original Page One evidence note: overland exchange depended on relay markets, oasis services, and commercial arrangements that reduced some carrying and security problems without removing risk."
+        }
+      ]
+    },
+    {
+      "id": "world-2-1-q06",
+      "topicId": "world-2-1",
+      "concept": "trade-growth",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "Which sequence best explains how demand could expand long-distance trade?",
+      "choices": [
+        "Demand for luxury goods → fewer artisans → less urban exchange → smaller markets",
+        "Demand for luxury goods → increased production → more merchants and transport → larger markets",
+        "Increased production → immediate end of farming → total dependence on imports",
+        "More markets → elimination of political borders → identical societies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Demand can encourage production and movement, but it does not eliminate farming, borders, or regional difference.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Demand can encourage production and movement, but it does not eliminate farming, borders, or regional difference.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
+      "stimulusId": "world-2-1-evidence-note",
+      "stimulusBlocks": [
+        {
+          "type": "callout",
+          "title": "Original evidence note",
+          "text": "Original Page One evidence note: overland exchange depended on relay markets, oasis services, and commercial arrangements that reduced some carrying and security problems without removing risk."
+        }
+      ]
+    },
+    {
+      "id": "world-2-1-q07",
+      "topicId": "world-2-1",
+      "concept": "network-geography",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "A map shows a route crossing a desert between two cities. Which additional evidence would best show that the route was a network?",
+      "choices": [
+        "A claim that one merchant carried every item from origin to destination",
+        "A list of only the two endpoint cities with no other places",
+        "Records of intermediary markets, oasis stops, local guides, and goods changing hands",
+        "A later map with modern political borders and no historical explanation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intermediaries and support locations demonstrate connected regional exchange rather than a two-ended journey.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Intermediaries and support locations demonstrate connected regional exchange rather than a two-ended journey.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
+      "stimulusId": "world-2-1-evidence-note",
+      "stimulusBlocks": [
+        {
+          "type": "callout",
+          "title": "Original evidence note",
+          "text": "Original Page One evidence note: overland exchange depended on relay markets, oasis services, and commercial arrangements that reduced some carrying and security problems without removing risk."
+        }
+      ]
+    },
+    {
+      "id": "world-2-1-q08",
+      "topicId": "world-2-1",
+      "concept": "commercial-practices",
+      "difficulty": "Core",
+      "skillTag": "Explaining a development",
+      "prompt": "How did credit differ from currency?",
+      "choices": [
+        "Credit is always a physical coin; currency is always a written promise",
+        "Credit only applied to farmers; currency only applied to rulers",
+        "Credit ended the need for trust; currency made trust impossible",
+        "Credit is a promise or arrangement for later payment; currency is a medium used to pay"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Credit shifts payment through time or space, while currency is used directly in transactions. Both depend on institutions and trust.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Credit shifts payment through time or space, while currency is used directly in transactions. Both depend on institutions and trust."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q09",
+      "topicId": "world-2-1",
+      "concept": "cities-production",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "Which evidence best supports the claim that trade encouraged specialized production in China?",
+      "choices": [
+        "Workshops increased output of porcelain, textiles, iron, or steel for distant buyers",
+        "Farmers stopped producing food and moved into cities permanently",
+        "Chinese cities stopped using waterways to avoid foreign influence",
+        "All artisans were appointed as government officials through examinations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Production for distant demand supports specialization. The other choices either exaggerate or confuse economic and political institutions.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Production for distant demand supports specialization. The other choices either exaggerate or confuse economic and political institutions.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
+      "stimulusId": "world-2-1-evidence-note",
+      "stimulusBlocks": [
+        {
+          "type": "callout",
+          "title": "Original evidence note",
+          "text": "Original Page One evidence note: overland exchange depended on relay markets, oasis services, and commercial arrangements that reduced some carrying and security problems without removing risk."
+        }
+      ]
+    },
+    {
+      "id": "world-2-1-q10",
+      "topicId": "world-2-1",
+      "concept": "exchange-limits",
+      "difficulty": "Challenge",
+      "skillTag": "Historical reasoning",
+      "prompt": "Why were luxury goods especially suited to many overland routes?",
+      "choices": [
+        "They were always heavier and cheaper than food",
+        "Their high value relative to weight could justify difficult transport costs",
+        "They could not be sold in cities, so merchants carried them for status",
+        "They required no intermediaries or security"
+      ],
+      "correctAnswer": 1,
+      "explanation": "High-value, lower-bulk goods could make expensive overland travel worthwhile. Travel still required security and local knowledge.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "High-value, lower-bulk goods could make expensive overland travel worthwhile. Travel still required security and local knowledge.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q11",
+      "topicId": "world-2-1",
+      "concept": "trade-growth",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "Which statement best describes the Mongols’ relationship to the Silk Roads?",
+      "choices": [
+        "They ended all Silk Roads trade by closing every city",
+        "They had no effect because political power never influenced commerce",
+        "Their expansion facilitated exchange across some regions but did not create the routes or make travel peaceful for everyone",
+        "They controlled every maritime and desert route in Afro-Eurasia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mongol administration and security helped some exchange, but routes predated them and conquest caused destruction and uneven experiences.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Mongol administration and security helped some exchange, but routes predated them and conquest caused destruction and uneven experiences.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
+      "stimulusId": "world-2-1-evidence-note",
+      "stimulusBlocks": [
+        {
+          "type": "callout",
+          "title": "Original evidence note",
+          "text": "Original Page One evidence note: overland exchange depended on relay markets, oasis services, and commercial arrangements that reduced some carrying and security problems without removing risk."
+        }
+      ]
+    },
+    {
+      "id": "world-2-1-q12",
+      "topicId": "world-2-1",
+      "concept": "exchange-limits",
+      "difficulty": "Core",
+      "skillTag": "Explaining a development",
+      "prompt": "A historian claims that every good traded on the Silk Roads traveled directly from China to Europe. What is the strongest correction?",
+      "choices": [
+        "Every merchant traveled the complete route but used different names",
+        "Only European merchants participated after 1200",
+        "The Silk Roads carried no goods made in Central or South Asia",
+        "Most exchange involved relay trading, regional specialists, and goods moving through different segments"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Relay exchange and intermediaries were central. The network included many producers and merchants across regions.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Relay exchange and intermediaries were central. The network included many producers and merchants across regions."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q13",
+      "topicId": "world-2-1",
+      "concept": "cities-production",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "Which factor would most likely help a trading city grow?",
+      "choices": [
+        "Reliable water, market services, security, and a location where routes intersect",
+        "Isolation from routes and refusal to host foreign merchants",
+        "A ban on crafts so all residents could farm",
+        "A rule that only one product could be sold"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nodes grow when they can support travelers, goods, information, and production. Isolation and rigid bans work against that role.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Nodes grow when they can support travelers, goods, information, and production. Isolation and rigid bans work against that role.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q14",
+      "topicId": "world-2-1",
+      "concept": "network-geography",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "What does an oasis contribute to a desert trade network?",
+      "choices": [
+        "A permanent guarantee against political conflict",
+        "Water, food, rest, and a place to exchange information or supplies",
+        "A factory that produces every luxury good",
+        "A maritime harbor for monsoon sailing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oases make sections of a route usable by supplying basic needs and services. They do not remove all risk or become factories by definition.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Oases make sections of a route usable by supplying basic needs and services. They do not remove all risk or become factories by definition.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
+      "stimulusId": "world-2-1-evidence-note",
+      "stimulusBlocks": [
+        {
+          "type": "callout",
+          "title": "Original evidence note",
+          "text": "Original Page One evidence note: overland exchange depended on relay markets, oasis services, and commercial arrangements that reduced some carrying and security problems without removing risk."
+        }
+      ]
+    },
+    {
+      "id": "world-2-1-q15",
+      "topicId": "world-2-1",
+      "concept": "commercial-practices",
+      "difficulty": "Challenge",
+      "skillTag": "Historical reasoning",
+      "prompt": "Which statement best explains why bills of exchange could encourage trade?",
+      "choices": [
+        "They forced every merchant to use the same route and product",
+        "They replaced the need for written records with oral promises only",
+        "They allowed merchants to arrange payment without carrying all their money over long distances",
+        "They guaranteed that states could not tax commerce"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A bill of exchange could reduce the physical and security costs of moving payment, although trust and institutions remained necessary.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "A bill of exchange could reduce the physical and security costs of moving payment, although trust and institutions remained necessary.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q16",
+      "topicId": "world-2-1",
+      "concept": "exchange-limits",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "Which is a historically reasonable limitation of exchange networks?",
+      "choices": [
+        "Trade always produced equal wealth for every region",
+        "Trade eliminated local traditions wherever merchants arrived",
+        "Trade made political authority irrelevant",
+        "Trade could spread ideas and goods while remaining vulnerable to war, disease, weather, and unequal power"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Networks create opportunities and risks. They do not guarantee equality, cultural uniformity, or political decline.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Networks create opportunities and risks. They do not guarantee equality, cultural uniformity, or political decline."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q17",
+      "topicId": "world-2-1",
+      "concept": "cities-production",
+      "difficulty": "Core",
+      "skillTag": "Explaining a development",
+      "prompt": "Which example best shows a city functioning as a cultural node as well as an economic node?",
+      "choices": [
+        "A market city also attracts scholars, translators, religious communities, and artisans",
+        "A rural farm produces one crop only for household use",
+        "A military camp refuses contact with merchants",
+        "A ruler bans all foreign languages and books"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trading cities concentrated people and institutions, so economic contact could support cultural exchange.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Trading cities concentrated people and institutions, so economic contact could support cultural exchange.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
+      "stimulusId": "world-2-1-evidence-note",
+      "stimulusBlocks": [
+        {
+          "type": "callout",
+          "title": "Original evidence note",
+          "text": "Original Page One evidence note: overland exchange depended on relay markets, oasis services, and commercial arrangements that reduced some carrying and security problems without removing risk."
+        }
+      ]
+    },
+    {
+      "id": "world-2-1-q18",
+      "topicId": "world-2-1",
+      "concept": "trade-growth",
+      "difficulty": "Apply",
+      "skillTag": "Using evidence",
+      "prompt": "A historian compares paper money with caravanserai. What is the best comparison?",
+      "choices": [
+        "Both are military weapons used to protect cities",
+        "Both support exchange, but one helps organize payment while the other supports travel and lodging",
+        "Both are crops that increased population",
+        "Both are religious institutions that spread Islam"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The examples solve different commercial problems: payment and travel logistics.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "The examples solve different commercial problems: payment and travel logistics.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    },
+    {
+      "id": "world-2-1-q19",
+      "topicId": "world-2-1",
+      "concept": "exchange-limits",
+      "difficulty": "Challenge",
+      "skillTag": "Historical reasoning",
+      "prompt": "Why should a historian avoid describing Silk Roads exchange as only peaceful?",
+      "choices": [
+        "Peace was impossible because merchants never cooperated",
+        "All merchants were soldiers in disguise",
+        "Movement could connect societies while also involving conquest, coercion, disease, and unequal relationships",
+        "Trade had no cultural or economic benefits"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Connectivity has multiple consequences. A balanced claim includes both exchange and its risks.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Connectivity has multiple consequences. A balanced claim includes both exchange and its risks.",
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
+      "stimulusId": "world-2-1-evidence-note",
+      "stimulusBlocks": [
+        {
+          "type": "callout",
+          "title": "Original evidence note",
+          "text": "Original Page One evidence note: overland exchange depended on relay markets, oasis services, and commercial arrangements that reduced some carrying and security problems without removing risk."
+        }
+      ]
+    },
+    {
+      "id": "world-2-1-q20",
+      "topicId": "world-2-1",
+      "concept": "network-geography",
+      "difficulty": "Challenge",
+      "skillTag": "Historical reasoning",
+      "prompt": "Which claim is best supported by the existence of many regional trading cities?",
+      "choices": [
+        "Every city used the same currency and government",
+        "Merchants had no need for local knowledge",
+        "Routes were isolated from one another",
+        "Exchange depended on linked local economies rather than one center controlling every transaction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Regional nodes and intermediaries show distributed participation and connected local economies.",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Unit 2 Topic 1 supplied PDF page range"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "CED Topic 1 framework"
+        }
+      ],
+      "choiceExplanations": [
+        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
+        "Regional nodes and intermediaries show distributed participation and connected local economies."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-2-1-quick",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-1",
+      "title": "Topic 1 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-2-1-q01",
+        "world-2-1-q02",
+        "world-2-1-q03",
+        "world-2-1-q04"
+      ]
+    },
+    {
+      "id": "world-2-1-quiz",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-1",
+      "title": "The Silk Roads topic quiz",
+      "quizType": "topic",
+      "questionIds": [
+        "world-2-1-q05",
+        "world-2-1-q06",
+        "world-2-1-q07",
+        "world-2-1-q08",
+        "world-2-1-q09",
+        "world-2-1-q10",
+        "world-2-1-q11",
+        "world-2-1-q12",
+        "world-2-1-q13",
+        "world-2-1-q14",
+        "world-2-1-q15",
+        "world-2-1-q16"
+      ]
+    }
+  ],
+  "concepts": {
+    "network-geography": {
+      "id": "network-geography",
+      "title": "A network, not one road",
+      "section": "network-geography",
+      "topicId": "world-2-1"
+    },
+    "trade-growth": {
+      "id": "trade-growth",
+      "title": "Why exchange grew after 1200",
+      "section": "trade-growth",
+      "topicId": "world-2-1"
+    },
+    "commercial-practices": {
+      "id": "commercial-practices",
+      "title": "Making exchange easier to manage",
+      "section": "commercial-practices",
+      "topicId": "world-2-1"
+    },
+    "cities-production": {
+      "id": "cities-production",
+      "title": "Cities and production at the nodes",
+      "section": "cities-production",
+      "topicId": "world-2-1"
+    },
+    "exchange-limits": {
+      "id": "exchange-limits",
+      "title": "What the network did not guarantee",
+      "section": "exchange-limits",
+      "topicId": "world-2-1"
+    }
+  },
+  "assets": {}
+}

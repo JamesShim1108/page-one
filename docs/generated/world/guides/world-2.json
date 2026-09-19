@@ -1,0 +1,1935 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-2",
+    "courseId": "world",
+    "number": 2,
+    "title": "Networks of Exchange",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "termSetIds": [
+      "world-period-1-a",
+      "world-period-1-b"
+    ],
+    "description": "Study how trade networks connected Afro-Eurasia through goods, technology, states, culture, and environmental change.",
+    "quizzes": [
+      {
+        "id": "world-2-practice-a",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form A",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-b",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form B",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-all",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 reserved-question review",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18",
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18",
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18",
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18",
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18",
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18",
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18",
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      }
+    ],
+    "termSets": [
+      {
+        "id": "world-period-1-a",
+        "title": "Period 1 Terms List A",
+        "source": "Period 1 Terms List A.pdf",
+        "count": 27
+      },
+      {
+        "id": "world-period-1-b",
+        "title": "Period 1 Terms List B",
+        "source": "Period 1 Terms List B.pdf",
+        "count": 29
+      }
+    ],
+    "topicQuizzes": [
+      {
+        "id": "world-2-1-quiz",
+        "title": "The Silk Roads topic quiz"
+      },
+      {
+        "id": "world-2-2-quiz",
+        "title": "The Mongol Empire and the Making of the Modern World topic quiz"
+      },
+      {
+        "id": "world-2-3-quiz",
+        "title": "Exchange in the Indian Ocean topic quiz"
+      },
+      {
+        "id": "world-2-4-quiz",
+        "title": "Trans-Saharan Trade Routes topic quiz"
+      },
+      {
+        "id": "world-2-5-quiz",
+        "title": "Cultural Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-6-quiz",
+        "title": "Environmental Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-7-quiz",
+        "title": "Comparison of Economic Exchange topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "world-2-1",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "The Silk Roads",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How demand, political stability, and commercial tools expanded connected overland exchange after 1200."
+    },
+    "hasGuide": true,
+    "writingQuizzes": [
+      {
+        "id": "world-2-saq-01",
+        "title": "Unit 2 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-02",
+        "title": "Unit 2 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-03",
+        "title": "Unit 2 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-04",
+        "title": "Unit 2 SAQ 04",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-05",
+        "title": "Unit 2 SAQ 05",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-06",
+        "title": "Unit 2 SAQ 06",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-07",
+        "title": "Unit 2 SAQ 07",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-comparison",
+        "title": "Unit 2 LEQ: Comparing networks",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-causation",
+        "title": "Unit 2 LEQ: Causes of exchange growth",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-continuity",
+        "title": "Unit 2 LEQ: Continuity and change",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-dbq-connectivity",
+        "title": "Unit 2 DBQ: Connectivity and consequences",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "blocked"
+      },
+      {
+        "id": "world-2-skill-thesis",
+        "title": "Unit 2 skill drill: Revise an overly broad claim into an arguable claim with a line of reasoning.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-context",
+        "title": "Unit 2 skill drill: Distinguish relevant wider context from a restatement of the prompt.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-evidence",
+        "title": "Unit 2 skill drill: Turn an accurate example into support for an argument through explicit explanation.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-sourcing",
+        "title": "Unit 2 skill drill: Explain why a document’s perspective, purpose, or situation matters to an argument.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "guide": {
+    "title": "Unit 2 study guide",
+    "headline": "Networks of Exchange. Connect the routes.",
+    "essential": "How did networks of exchange change economies, states, cultures, and environments from c. 1200 to c. 1450?",
+    "overview": "Between c. 1200 and c. 1450, older Afro-Eurasian exchange networks intensified without becoming one unified system. Demand for luxury and everyday goods encouraged production, while caravan services, credit, ports, ships, camel logistics, and state policy changed what movement was practical. The Mongol Empire connected large overland regions through conquest and administration, yet local experiences ranged from facilitated travel to destruction and coercion. Indian Ocean sailors used seasonal winds and maritime technology, and port communities turned repeated voyages into diasporas and cultural adaptation. Trans-Saharan routes linked desert logistics to West African production, taxation, pilgrimage, and scholarship. Connectivity moved crops, knowledge, religions, people, animals, and pathogens. Those consequences were uneven: a crop could widen food possibilities while disease or intensified land use created serious costs. The unit’s networks overlapped, and the most defensible arguments explain both shared pressures and differences in geography, power, and community agency.",
+    "timeline": [
+      {
+        "date": "Before 1200",
+        "text": "Older Silk Roads, Indian Ocean routes, Saharan crossings, farming systems, and religious networks created the foundations later intensified."
+      },
+      {
+        "date": "1206",
+        "text": "Temüjin was recognized as Chinggis Khan, beginning the political consolidation that launched Mongol expansion."
+      },
+      {
+        "date": "1200s",
+        "text": "Mali expanded in West Africa; the Delhi Sultanate began in 1206; Mongol conquests reshaped Eurasian politics and routes."
+      },
+      {
+        "date": "1258",
+        "text": "The Mongols captured Baghdad. Political change did not end Islamic scholarship or cultural exchange across the region."
+      },
+      {
+        "date": "1279",
+        "text": "The Mongol Yuan dynasty completed the conquest of the Southern Song, bringing China under Mongol rule."
+      },
+      {
+        "date": "1324–1325",
+        "text": "Mansa Musa made a pilgrimage to Mecca that displayed Mali’s wealth and strengthened its wider Islamic connections."
+      },
+      {
+        "date": "1330s–1350s",
+        "text": "Bubonic plague spread through connected regions, causing severe and uneven demographic consequences."
+      },
+      {
+        "date": "1368",
+        "text": "The Ming replaced the Yuan in China, illustrating political change within the same wider exchange era before the later Zheng He expeditions."
+      },
+      {
+        "date": "1405–1433",
+        "text": "Zheng He led Ming maritime expeditions across the Indian Ocean as state-sponsored diplomacy and display."
+      },
+      {
+        "date": "1450 boundary",
+        "text": "The unit ends before the major European maritime expansion of the later fifteenth century; later developments are context, not Unit 2 evidence."
+      }
+    ],
+    "comparisons": {
+      "caption": "Three exchange networks, compared by the same dimensions",
+      "columns": [
+        "Dimension",
+        "Silk Roads",
+        "Indian Ocean",
+        "Trans-Saharan"
+      ],
+      "rows": [
+        [
+          "Geography",
+          "Deserts, mountains, oases, and river valleys across Eurasia",
+          "Seasonal ocean winds linking coastal and island ports",
+          "Sahara crossings connected to oases, rivers, and West African cities"
+        ],
+        [
+          "Transport and environment",
+          "Caravans, camel saddles, caravanserai, and relay exchange",
+          "Dhows, junks, sails, rudders, compass, astrolabe, and monsoon timing",
+          "Camels, load-bearing saddles, caravans, guides, and water planning"
+        ],
+        [
+          "Representative goods",
+          "Silk, porcelain, textiles, paper, horses, and spices",
+          "Cotton, pepper, spices, porcelain, silk, gold, ivory, and other products",
+          "Gold, salt, textiles, horses, books, ivory, and enslaved people"
+        ],
+        [
+          "State involvement",
+          "Protection and administration by empires and regional rulers",
+          "Port fees, customs, navies, and strategic passages",
+          "Taxation, route protection, and expansion by states such as Mali"
+        ],
+        [
+          "Cultural consequences",
+          "Religious, scientific, technological, and urban exchange",
+          "Diasporas, intermarriage, Islam, languages, and port cultures",
+          "Islamic learning, pilgrimage, scholarship, and local adaptation"
+        ],
+        [
+          "Environmental consequences",
+          "Crops, pathogens, and pressure from intensified movement",
+          "Crop movement, disease exposure, and coastal settlement",
+          "Desert logistics, resource exchange, and biological movement"
+        ]
+      ]
+    },
+    "pitfalls": [
+      "The Silk Roads were a connected set of routes, not one uninterrupted road traveled by every merchant.",
+      "Mongol political fragmentation into khanates did not immediately end exchange or communication.",
+      "The Indian Ocean network depended on monsoon timing and local maritime expertise, not a single technology.",
+      "Mali’s wealth came from trade and agriculture; Mansa Musa did not introduce Islam to West Africa for the first time.",
+      "A traveler’s account provides situated evidence, not an automatic description of every community.",
+      "Crop diffusion can increase food possibilities while disease and land pressure create serious costs.",
+      "A comparison needs a shared dimension and reasoning, not three disconnected facts.",
+      "The networks overlapped. Do not treat them as sealed compartments.",
+      "Do not use later Portuguese expansion or the Columbian Exchange as causes of developments inside 1200–1450.",
+      "Avoid unsupported precise epidemic totals, universal claims about regional immunity, or simplistic one-cause explanations."
+    ],
+    "causalChains": [
+      {
+        "title": "Commercial practices → trade",
+        "steps": [
+          "Demand and production created an incentive to move goods.",
+          "Caravanserai, credit, and relay exchange reduced some travel or payment problems.",
+          "More regular movement strengthened markets and specialized production while leaving costs and risks uneven."
+        ]
+      },
+      {
+        "title": "Trade ↔ state power",
+        "steps": [
+          "States taxed, protected, or redirected routes.",
+          "Revenue and information could strengthen political authority.",
+          "Rulers still depended on merchants, guides, sailors, farmers, and artisans to make networks work."
+        ]
+      },
+      {
+        "title": "Seasonal travel → diaspora",
+        "steps": [
+          "Monsoon scheduling required waiting, repair, and resupply in ports.",
+          "Repeated contact encouraged merchant communities, intermarriage, and shared trust.",
+          "Local societies adapted cultural practices in two directions rather than becoming identical."
+        ]
+      },
+      {
+        "title": "Biological exchange → differentiated consequences",
+        "steps": [
+          "Mobility moved crops, animals, people, and pathogens.",
+          "Local ecology, institutions, and social power shaped what happened next.",
+          "Food possibilities, disease exposure, labor changes, and land pressure varied by region and group."
+        ]
+      }
+    ],
+    "evidenceGuide": [
+      {
+        "id": "e1",
+        "whereWhen": "Kashgar and Samarkand, c. 1200–1450",
+        "claim": "Overland networks depended on nodes and relay exchange.",
+        "limitation": "A city’s importance does not prove it controlled every route.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-1"
+        ],
+        "review": {
+          "topicId": "world-2-1",
+          "sectionId": "network-geography",
+          "label": "Review Silk Roads geography"
+        }
+      },
+      {
+        "id": "e2",
+        "whereWhen": "Chinese production centers, c. 1200–1450",
+        "claim": "Demand and specialized production reinforced exchange.",
+        "limitation": "Production varied by region and was not modern factory production.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "class-tang-song-mongols"
+        ],
+        "review": {
+          "topicId": "world-2-1",
+          "sectionId": "cities-production",
+          "label": "Review cities and production"
+        }
+      },
+      {
+        "id": "e3",
+        "whereWhen": "Mongol khanates and Yuan China, 1206–1368",
+        "claim": "Conquest and administration could facilitate some interregional movement.",
+        "limitation": "Security was uneven and built through coercion; routes predated Mongol rule.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-2"
+        ],
+        "review": {
+          "topicId": "world-2-2",
+          "sectionId": "trade-communication",
+          "label": "Review Mongol exchange"
+        }
+      },
+      {
+        "id": "e4",
+        "whereWhen": "Mongol cultural administration, 1200s–1300s",
+        "claim": "Knowledge transfer involved adoption and adaptation.",
+        "limitation": "Diffusion does not prove a single society invented every related practice.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-2"
+        ],
+        "review": {
+          "topicId": "world-2-2",
+          "sectionId": "cultural-transfer",
+          "label": "Review cultural transfer"
+        }
+      },
+      {
+        "id": "e5",
+        "whereWhen": "Indian Ocean ports, c. 1200–1450",
+        "claim": "Monsoon knowledge and technology made seasonal exchange more predictable.",
+        "limitation": "Wind patterns varied by location; no single arrow describes the whole ocean.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "class-indian-ocean"
+        ],
+        "review": {
+          "topicId": "world-2-3",
+          "sectionId": "monsoon-navigation",
+          "label": "Review monsoon navigation"
+        }
+      },
+      {
+        "id": "e6",
+        "whereWhen": "Kilwa, Mombasa, Calicut, and Malacca, c. 1200–1450",
+        "claim": "Ports connected maritime commerce to interior production and diaspora life.",
+        "limitation": "No one port or empire ruled the entire ocean.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "class-indian-ocean"
+        ],
+        "review": {
+          "topicId": "world-2-3",
+          "sectionId": "states-revenue",
+          "label": "Review port states"
+        }
+      },
+      {
+        "id": "e7",
+        "whereWhen": "Sahara and Sahel, c. 1200–1450",
+        "claim": "Camel logistics and oasis knowledge made desert exchange possible.",
+        "limitation": "Caravans still faced water, security, and political constraints.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "class-trans-saharan"
+        ],
+        "review": {
+          "topicId": "world-2-4",
+          "sectionId": "desert-logistics",
+          "label": "Review desert logistics"
+        }
+      },
+      {
+        "id": "e8",
+        "whereWhen": "Mali and Mansa Musa’s pilgrimage, 1300s",
+        "claim": "Trade revenue and patronage connected state power to Islamic scholarship.",
+        "limitation": "Mansa Musa did not introduce Islam to West Africa for the first time.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "class-trans-saharan"
+        ],
+        "review": {
+          "topicId": "world-2-4",
+          "sectionId": "musa-learning",
+          "label": "Review pilgrimage and patronage"
+        }
+      },
+      {
+        "id": "e9",
+        "whereWhen": "Traveler accounts in the period",
+        "claim": "Accounts can reveal encounters, priorities, and judgments.",
+        "limitation": "A traveler is not representative of every community and may be mediated by scribes or translators.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-5"
+        ],
+        "review": {
+          "topicId": "world-2-5",
+          "sectionId": "travelers-sourcing",
+          "label": "Review sourcing"
+        }
+      },
+      {
+        "id": "e10",
+        "whereWhen": "Religious and scientific exchange, c. 1200–1450",
+        "claim": "Connectivity moved ideas through people and institutions.",
+        "limitation": "Diffusion often produced local adaptation rather than uniform conversion.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-5"
+        ],
+        "review": {
+          "topicId": "world-2-5",
+          "sectionId": "diffusion-not-uniformity",
+          "label": "Review adaptation"
+        }
+      },
+      {
+        "id": "e11",
+        "whereWhen": "Champa rice, bananas, and citrus, c. 1200–1450",
+        "claim": "Crop movement could support food possibilities and settlement in suitable settings.",
+        "limitation": "Crop effects depended on ecology, farming practice, labor, and institutions.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-6"
+        ],
+        "review": {
+          "topicId": "world-2-6",
+          "sectionId": "crop-movement",
+          "label": "Review crop movement"
+        }
+      },
+      {
+        "id": "e12",
+        "whereWhen": "Connected regions during plague outbreaks, 1300s–1400s",
+        "claim": "Mobility created pathways for pathogens and differentiated demographic effects.",
+        "limitation": "Exact origins, routes, and regional totals require careful corroboration.",
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-6"
+        ],
+        "review": {
+          "topicId": "world-2-6",
+          "sectionId": "pathogen-networks",
+          "label": "Review pathogen networks"
+        }
+      }
+    ],
+    "unit1Bridge": "Unit 1 supplies the agricultural, commercial, religious, political, and scholarly foundations that Unit 2 networks intensified. The chronology overlaps: Unit 2 is not a wholly separate world that begins after Unit 1 ends.",
+    "laterCallout": "Looking ahead: later European maritime expansion after 1450 changed the scale and power of oceanic exchange. It is a later contrast, not evidence for causes inside this unit.",
+    "sourceIds": [
+      "ced",
+      "exam",
+      "amsco-unit-2",
+      "amsco-unit-1",
+      "class-tang-song-mongols",
+      "class-indian-ocean",
+      "class-trans-saharan",
+      "natural-earth-populated-places"
+    ],
+    "networkData": {
+      "networks": [
+        {
+          "id": "silk-roads",
+          "label": "Silk Roads",
+          "sourceIds": [
+            "amsco-unit-2",
+            "ced-topic-2-1"
+          ],
+          "dimensions": {
+            "geography": "Connected routes through Central Asia, deserts, mountain passes, river valleys, and cities; the category is a network rather than one road.",
+            "transportEnvironment": "Caravans, camel saddles, relay exchange, oasis services, and local route knowledge made difficult land travel possible.",
+            "representativeGoods": "Silk, porcelain, textiles, paper, horses, spices, and other high-value or regionally specialized goods.",
+            "commercialPractices": "Caravanserai, credit, bills of exchange, and currency reduced some carrying, timing, and transaction problems.",
+            "stateInvolvement": "States protected, taxed, administered, or redirected routes unevenly; no single empire controlled the whole network throughout the period.",
+            "tradingCities": "Kashgar, Samarkand, and other nodes supplied water, markets, crafts, information, and cultural institutions.",
+            "culturalConsequences": "Religions, technologies, scientific knowledge, languages, and urban practices moved through merchants, scholars, and officials.",
+            "environmentalConsequences": "Crops, animals, pathogens, and intensified movement altered societies in varied ways; risks and benefits were uneven."
+          }
+        },
+        {
+          "id": "indian-ocean",
+          "label": "Indian Ocean",
+          "sourceIds": [
+            "amsco-unit-2",
+            "ced-topic-2-3",
+            "class-indian-ocean"
+          ],
+          "dimensions": {
+            "geography": "Seasonal sea routes linked East Africa, Arabia, Persia, South Asia, Southeast Asia, and China through coastal and island ports.",
+            "transportEnvironment": "Sailors combined monsoon timing, local currents, ship design, sails, rudders, compasses, astrolabes, and pilot expertise.",
+            "representativeGoods": "Cotton textiles, pepper, spices, porcelain, silk, gold, ivory, and other products from coastal and interior regions.",
+            "commercialPractices": "Port markets, merchant partnerships, credit, customs, and diaspora trust supported repeated seasonal voyages.",
+            "stateInvolvement": "Swahili cities, Gujarat, Malacca, and other states gained revenue and influence through ports, protection, and strategic passages.",
+            "tradingCities": "Kilwa, Mombasa, Hormuz, Calicut, Malacca, and Hangzhou connected maritime exchange to interior production and consumption.",
+            "culturalConsequences": "Diasporas, intermarriage, Islam, languages, and material culture developed through two-way contact and local adaptation.",
+            "environmentalConsequences": "Crops, disease exposure, coastal settlement, and resource demand moved through routes whose local effects varied."
+          }
+        },
+        {
+          "id": "trans-saharan",
+          "label": "Trans-Saharan",
+          "sourceIds": [
+            "amsco-unit-2",
+            "ced-topic-2-4",
+            "class-trans-saharan"
+          ],
+          "dimensions": {
+            "geography": "Desert crossings linked North African markets, oasis settlements, Sahel communities, and West African cities.",
+            "transportEnvironment": "Camels, load-bearing saddles, caravans, guides, water planning, oasis stops, and security knowledge structured movement.",
+            "representativeGoods": "Gold, salt, textiles, horses, books, ivory, and other goods moved through multiple intermediaries; people were also subjected to coercive trafficking.",
+            "commercialPractices": "Relay exchange, brokerage, taxation, credit, and market services connected desert logistics to regional production.",
+            "stateInvolvement": "Mali and other states used taxation, protection, political expansion, and patronage to shape exchange while relying on communities and specialists.",
+            "tradingCities": "Taghaza, Walata, Timbuktu, Gao, and a verified North African endpoint connected resources, scholarship, and markets.",
+            "culturalConsequences": "Islamic learning, pilgrimage, scholarship, languages, and local traditions interacted without producing uniform conversion or culture.",
+            "environmentalConsequences": "Desert logistics and biological movement shaped where exchange could occur; water, animals, and land use remained limiting conditions."
+          }
+        }
+      ],
+      "places": [
+        {
+          "id": "kashgar",
+          "name": "Kashgar",
+          "networks": [
+            "silk-roads"
+          ],
+          "region": "Central Asia",
+          "role": "Overland node near oasis and mountain routes; merchants exchanged goods, information, and services here.",
+          "exchanges": "Textiles, horses, paper, porcelain, food, and relay services.",
+          "coordinates": {
+            "latitude": 39.47,
+            "longitude": 75.99
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "ced-topic-2-1"
+          ],
+          "topicId": "world-2-1",
+          "sectionId": "network-geography"
+        },
+        {
+          "id": "samarkand",
+          "name": "Samarkand",
+          "networks": [
+            "silk-roads"
+          ],
+          "region": "Central Asia",
+          "role": "Central Asian city where routes, artisans, markets, scholars, and political authorities intersected.",
+          "exchanges": "Luxury goods, craft production, knowledge, and caravan services.",
+          "coordinates": {
+            "latitude": 39.65,
+            "longitude": 66.96
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "ced-topic-2-1"
+          ],
+          "topicId": "world-2-1",
+          "sectionId": "cities-production"
+        },
+        {
+          "id": "hangzhou",
+          "name": "Hangzhou",
+          "networks": [
+            "silk-roads",
+            "indian-ocean"
+          ],
+          "region": "East Asia",
+          "role": "Chinese production and market center linked to inland and maritime commerce; not an oasis.",
+          "exchanges": "Silk, porcelain, iron and steel goods, grain, and maritime cargo.",
+          "coordinates": {
+            "latitude": 30.25,
+            "longitude": 120.17
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-tang-song-mongols"
+          ],
+          "topicId": "world-2-3",
+          "sectionId": "ports-products"
+        },
+        {
+          "id": "hormuz",
+          "name": "Hormuz",
+          "networks": [
+            "indian-ocean"
+          ],
+          "region": "Persian Gulf",
+          "role": "Strategic port connecting Gulf shipping, coastal routes, and inland markets.",
+          "exchanges": "Spices, textiles, horses, metals, and port services.",
+          "coordinates": {
+            "latitude": 27.07,
+            "longitude": 56.46
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-indian-ocean"
+          ],
+          "topicId": "world-2-3",
+          "sectionId": "ports-products"
+        },
+        {
+          "id": "calicut",
+          "name": "Calicut",
+          "networks": [
+            "indian-ocean"
+          ],
+          "region": "South Asia",
+          "role": "Indian port where monsoon schedules, merchants, and regional production met.",
+          "exchanges": "Pepper, cotton textiles, porcelain, and merchant credit.",
+          "coordinates": {
+            "latitude": 11.25,
+            "longitude": 75.78
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-indian-ocean"
+          ],
+          "topicId": "world-2-3",
+          "sectionId": "ports-products"
+        },
+        {
+          "id": "malacca",
+          "name": "Malacca",
+          "networks": [
+            "indian-ocean"
+          ],
+          "region": "Southeast Asia",
+          "role": "Strategic strait and port where ships waited, resupplied, and exchanged goods and information.",
+          "exchanges": "Spices, textiles, porcelain, food, and customs revenue.",
+          "coordinates": {
+            "latitude": 2.19,
+            "longitude": 102.25
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "ced-topic-2-3",
+            "class-indian-ocean"
+          ],
+          "topicId": "world-2-3",
+          "sectionId": "states-revenue"
+        },
+        {
+          "id": "kilwa",
+          "name": "Kilwa",
+          "networks": [
+            "indian-ocean",
+            "trans-saharan"
+          ],
+          "region": "East Africa",
+          "role": "Swahili coastal city connecting maritime commerce with inland production and gold routes.",
+          "exchanges": "Gold, ivory, textiles, beads, and maritime services.",
+          "coordinates": {
+            "latitude": -9,
+            "longitude": 39.65
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-indian-ocean"
+          ],
+          "topicId": "world-2-3",
+          "sectionId": "ports-products"
+        },
+        {
+          "id": "mombasa",
+          "name": "Mombasa",
+          "networks": [
+            "indian-ocean"
+          ],
+          "region": "East Africa",
+          "role": "Swahili port where local communities, merchants, and seasonal shipping interacted.",
+          "exchanges": "Ivory, gold, food, textiles, and cultural practices.",
+          "coordinates": {
+            "latitude": -4.05,
+            "longitude": 39.67
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-indian-ocean"
+          ],
+          "topicId": "world-2-3",
+          "sectionId": "diaspora-communities"
+        },
+        {
+          "id": "taghaza",
+          "name": "Taghaza",
+          "networks": [
+            "trans-saharan"
+          ],
+          "region": "Sahara",
+          "role": "Salt-producing settlement that supplied a major desert exchange network.",
+          "exchanges": "Salt, caravan services, and connections to Sahel markets.",
+          "coordinates": {
+            "latitude": 23.14,
+            "longitude": -8.8
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-trans-saharan"
+          ],
+          "topicId": "world-2-4",
+          "sectionId": "goods-intermediaries"
+        },
+        {
+          "id": "walata",
+          "name": "Walata",
+          "networks": [
+            "trans-saharan"
+          ],
+          "region": "Sahel",
+          "role": "Sahelian node where caravans, local producers, and intermediaries connected desert and West African routes.",
+          "exchanges": "Gold, salt, textiles, food, books, and brokerage.",
+          "coordinates": {
+            "latitude": 17.3,
+            "longitude": -9.55
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-trans-saharan"
+          ],
+          "topicId": "world-2-4",
+          "sectionId": "desert-logistics"
+        },
+        {
+          "id": "timbuktu",
+          "name": "Timbuktu",
+          "networks": [
+            "trans-saharan"
+          ],
+          "region": "West Africa",
+          "role": "Niger-region city associated with commerce, scholarship, and political patronage.",
+          "exchanges": "Gold, salt, books, scholarship, and market services.",
+          "coordinates": {
+            "latitude": 16.77,
+            "longitude": -3
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-trans-saharan"
+          ],
+          "topicId": "world-2-4",
+          "sectionId": "musa-learning"
+        },
+        {
+          "id": "gao",
+          "name": "Gao",
+          "networks": [
+            "trans-saharan"
+          ],
+          "region": "West Africa",
+          "role": "Niger-region political and commercial center linked to desert and riverine routes.",
+          "exchanges": "Gold, salt, agricultural products, textiles, and political revenue.",
+          "coordinates": {
+            "latitude": 16.27,
+            "longitude": -0.05
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-trans-saharan"
+          ],
+          "topicId": "world-2-4",
+          "sectionId": "mali-state-trade"
+        },
+        {
+          "id": "tunis",
+          "name": "Tunis",
+          "networks": [
+            "trans-saharan"
+          ],
+          "region": "North Africa",
+          "role": "North African endpoint and market connecting Mediterranean and Saharan exchange; routes and political control varied over time.",
+          "exchanges": "Gold, salt, textiles, books, and Mediterranean market connections.",
+          "coordinates": {
+            "latitude": 36.81,
+            "longitude": 10.18
+          },
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-trans-saharan"
+          ],
+          "topicId": "world-2-4",
+          "sectionId": "accounts-local-life"
+        }
+      ],
+      "connections": [
+        [
+          "kashgar",
+          "samarkand"
+        ],
+        [
+          "samarkand",
+          "hangzhou"
+        ],
+        [
+          "hangzhou",
+          "hormuz"
+        ],
+        [
+          "hormuz",
+          "calicut"
+        ],
+        [
+          "calicut",
+          "malacca"
+        ],
+        [
+          "malacca",
+          "kilwa"
+        ],
+        [
+          "kilwa",
+          "mombasa"
+        ],
+        [
+          "taghaza",
+          "walata"
+        ],
+        [
+          "walata",
+          "timbuktu"
+        ],
+        [
+          "timbuktu",
+          "gao"
+        ],
+        [
+          "gao",
+          "tunis"
+        ],
+        [
+          "kilwa",
+          "gao"
+        ]
+      ],
+      "seasonalExamples": [
+        {
+          "id": "calicut-malacca",
+          "label": "Calicut to Malacca",
+          "outwardSeason": "Use the favorable monsoon season for an eastward voyage; exact departure timing varied by local winds and route.",
+          "returnSeason": "Wait for the seasonal reversal before planning the return westward.",
+          "feedback": "The key historical point is scheduling around seasonal winds and using port communities for waiting, repair, supplies, and exchange. Do not treat one local wind pattern as universal across the ocean.",
+          "sourceIds": [
+            "amsco-unit-2",
+            "class-indian-ocean"
+          ]
+        }
+      ],
+      "saharaPlans": [
+        {
+          "id": "oasis-first",
+          "label": "Plan around water and intermediaries",
+          "choice": "Use known oasis stops, a guide with local route expertise, and a cargo plan that leaves capacity for water and supplies.",
+          "feedback": "This plan fits desert logistics: water, animals, guides, and security are constraints. It does not guarantee safety or remove unequal power."
+        },
+        {
+          "id": "cargo-first",
+          "label": "Maximize cargo and improvise stops",
+          "choice": "Carry as much cargo as possible and assume every settlement can supply water and protection.",
+          "feedback": "This plan ignores the environmental and political limits that made oasis knowledge, intermediaries, and caravan organization essential."
+        }
+      ],
+      "comparisonPrompts": [
+        {
+          "id": "compare-transport",
+          "prompt": "How did geography produce different transport and scheduling choices in two networks?",
+          "model": "A defensible comparison pairs a shared dimension with evidence from both networks and explains why the environment changed the solution."
+        },
+        {
+          "id": "compare-state",
+          "prompt": "How did states gain from exchange while depending on non-state specialists?",
+          "model": "A strong answer distinguishes taxation or protection from the work of merchants, sailors, guides, producers, and communities."
+        },
+        {
+          "id": "compare-consequences",
+          "prompt": "How could connectivity create both cultural opportunity and environmental risk?",
+          "model": "Use one cultural and one environmental example, then qualify the claim by region, group, or mechanism."
+        }
+      ],
+      "mapSource": {
+        "sourceIds": [
+          "natural-earth-populated-places"
+        ],
+        "label": "Approximate modern coordinates adapted from Natural Earth populated places",
+        "note": "The SVG is an orientation diagram. It has no modern political borders and does not claim that every line operated unchanged throughout 1200–1450."
+      }
+    },
+    "activities": [
+      {
+        "id": "world-2-claim-trade-growth",
+        "title": "Trade growth: choose the evidence",
+        "focus": "Trade growth",
+        "claim": "Commercial institutions helped turn demand into more regular long-distance exchange.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Caravanserai and credit reduced some travel or payment problems.",
+            "correct": true,
+            "feedback": "This evidence directly supports the claim because it names an institution and explains its mechanism."
+          },
+          {
+            "id": "b",
+            "text": "A ruler was famous in a later period.",
+            "correct": false,
+            "feedback": "This may be historically interesting, but it does not directly show how commercial institutions changed exchange."
+          },
+          {
+            "id": "c",
+            "text": "A luxury good was attractive to wealthy consumers.",
+            "correct": false,
+            "feedback": "Demand helps explain growth, but by itself it does not support the specific institutional part of the claim."
+          }
+        ],
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-1"
+        ],
+        "review": {
+          "topicId": "world-2-1",
+          "sectionId": "commercial-practices",
+          "label": "Review commercial practices"
+        }
+      },
+      {
+        "id": "world-2-claim-state-power",
+        "title": "State power: choose the evidence",
+        "focus": "State power",
+        "claim": "States could gain revenue from exchange while relying on specialists and communities to make routes work.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mali used taxation and protection while merchants, guides, and producers supplied practical expertise.",
+            "correct": true,
+            "feedback": "This evidence supports both halves of the claim and distinguishes state policy from everyday work."
+          },
+          {
+            "id": "b",
+            "text": "A city had a large population in an unspecified century.",
+            "correct": false,
+            "feedback": "A population claim without a period, place, or mechanism does not directly support the relationship."
+          },
+          {
+            "id": "c",
+            "text": "All routes were controlled by one empire.",
+            "correct": false,
+            "feedback": "This contradicts the varied and overlapping political arrangements in the unit."
+          }
+        ],
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-4"
+        ],
+        "review": {
+          "topicId": "world-2-4",
+          "sectionId": "mali-state-trade",
+          "label": "Review Mali and trade"
+        }
+      },
+      {
+        "id": "world-2-claim-diaspora",
+        "title": "Diaspora: choose the evidence",
+        "focus": "Diaspora",
+        "claim": "Port communities made seasonal exchange durable by building trust and adapting local practices.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Merchant communities settled in port cities, intermarried, and used shared commercial relationships.",
+            "correct": true,
+            "feedback": "This evidence names people and mechanisms that connect repeated voyages to durable community life."
+          },
+          {
+            "id": "b",
+            "text": "Monsoon winds changed direction each season.",
+            "correct": false,
+            "feedback": "That supports the environmental condition for travel, but not the claim about community formation."
+          },
+          {
+            "id": "c",
+            "text": "A state collected a tax from a port.",
+            "correct": false,
+            "feedback": "Taxation can support state power, but it does not by itself show diaspora trust or adaptation."
+          }
+        ],
+        "sourceIds": [
+          "amsco-unit-2",
+          "class-indian-ocean"
+        ],
+        "review": {
+          "topicId": "world-2-3",
+          "sectionId": "diaspora-communities",
+          "label": "Review diaspora communities"
+        }
+      },
+      {
+        "id": "world-2-claim-cultural-transfer",
+        "title": "Cultural transfer: choose the evidence",
+        "focus": "Cultural transfer",
+        "claim": "Connectivity moved knowledge through intermediaries, and receiving communities adapted what they received.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Translators, scholars, merchants, and officials carried and modified paper, medical, or mathematical knowledge.",
+            "correct": true,
+            "feedback": "The evidence identifies carriers and the adaptation mechanism rather than treating diffusion as a one-way gift."
+          },
+          {
+            "id": "b",
+            "text": "A technology existed before 1200.",
+            "correct": false,
+            "feedback": "Earlier origins matter, but this fact alone does not show how knowledge moved or changed after 1200."
+          },
+          {
+            "id": "c",
+            "text": "A ruler adopted a religion and every subject followed.",
+            "correct": false,
+            "feedback": "The claim requires local agency and variation; universal conversion is unsupported."
+          }
+        ],
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-5"
+        ],
+        "review": {
+          "topicId": "world-2-5",
+          "sectionId": "knowledge-technology",
+          "label": "Review knowledge transfer"
+        }
+      },
+      {
+        "id": "world-2-claim-environment",
+        "title": "Environmental consequences: choose the evidence",
+        "focus": "Environmental consequences",
+        "claim": "Connectivity could expand food possibilities and disease exposure at the same time.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Crop movement supported food production in some settings while mobility created pathways for pathogens.",
+            "correct": true,
+            "feedback": "This evidence supports both sides and leaves room for different local outcomes."
+          },
+          {
+            "id": "b",
+            "text": "A trade route crossed a mountain pass.",
+            "correct": false,
+            "feedback": "A route description does not directly show a biological or agricultural consequence."
+          },
+          {
+            "id": "c",
+            "text": "Every region experienced exactly the same epidemic loss.",
+            "correct": false,
+            "feedback": "The unit emphasizes uneven evidence and regional variation rather than identical outcomes."
+          }
+        ],
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-6"
+        ],
+        "review": {
+          "topicId": "world-2-6",
+          "sectionId": "pathogen-networks",
+          "label": "Review pathogen networks"
+        }
+      },
+      {
+        "id": "world-2-claim-comparison",
+        "title": "Comparison: choose the evidence",
+        "focus": "Comparison",
+        "claim": "The three networks shared broad pressures but solved geographic problems differently.",
+        "options": [
+          {
+            "id": "a",
+            "text": "Demand and institutions mattered across networks, while monsoon timing, camel logistics, and overland relay produced different solutions.",
+            "correct": true,
+            "feedback": "This evidence makes a comparative claim and explains why the difference existed."
+          },
+          {
+            "id": "b",
+            "text": "All three networks used trade.",
+            "correct": false,
+            "feedback": "This is true but too general to show a meaningful similarity or difference."
+          },
+          {
+            "id": "c",
+            "text": "One network was simply better than the others.",
+            "correct": false,
+            "feedback": "A historical comparison needs criteria and reasoning rather than an unsupported ranking."
+          }
+        ],
+        "sourceIds": [
+          "amsco-unit-2",
+          "ced-topic-2-7"
+        ],
+        "review": {
+          "topicId": "world-2-7",
+          "sectionId": "comparison-framework",
+          "label": "Review comparison framework"
+        }
+      }
+    ]
+  },
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    },
+    {
+      "id": "exam",
+      "label": "College Board: AP History exam updates for 2027",
+      "url": "https://apcentral.collegeboard.org/courses/ap-history-exam-updates",
+      "note": "Current assessment guidance. The APE exercise here is classroom practice, not an exact exam simulation."
+    },
+    {
+      "id": "amsco-unit-2",
+      "label": "Class reading: AMSCO World History Unit 2, supplied PDF pages 1-40 (printed pages 75-132).",
+      "note": "Page map used in the Unit 2 evidence ledger: 2.1 pp. 3-7; 2.2 pp. 8-14; 2.3 pp. 15-20; 2.4 pp. 21-25; 2.5 pp. 26-31; 2.6 pp. 32-34; 2.7 pp. 35-40."
+    },
+    {
+      "id": "amsco-unit-1",
+      "label": "Class reading: AMSCO World History Unit 1, supplied PDF; used only for earlier-context connections."
+    },
+    {
+      "id": "class-tang-song-mongols",
+      "label": "Class slides: Tang, Song, and Mongols, supplied PDF.",
+      "note": "Used as a classroom source lead for state policy, commercial growth, and Mongol administration."
+    },
+    {
+      "id": "class-indian-ocean",
+      "label": "Class slides: South/Southeast Asia and Indian Ocean Trade Routes, supplied PDF.",
+      "note": "Used as a classroom source lead for monsoon sailing, port cities, and cultural exchange."
+    },
+    {
+      "id": "class-trans-saharan",
+      "label": "Class activity: Journey along the trans-Saharan Trade Routes, supplied PDF.",
+      "note": "Activity is treated as a simulation/source lead, not as an eyewitness historical account."
+    },
+    {
+      "id": "natural-earth-populated-places",
+      "label": "Natural Earth: Populated Places (10m cultural vector data)",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+      "note": "Modern geographic orientation only. Coordinates do not represent medieval borders or historical route control."
+    }
+  ],
+  "topics": [
+    {
+      "id": "world-2-1",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "The Silk Roads",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How demand, political stability, and commercial tools expanded connected overland exchange after 1200.",
+      "bigIdea": "The Silk Roads were a connected set of routes whose growth depended on demand, safer movement, and institutions that reduced the risks of long-distance exchange.",
+      "readingGuide": {
+        "objectives": "A",
+        "readingLabel": "AMSCO Unit 2, Topic 2.1; use the supplied class reading alongside these original notes",
+        "lenses": [],
+        "prompts": [
+          {
+            "id": "world-2-1-reading-01",
+            "prompt": "Trace the sequence from demand for luxury goods to the growth of a city on the Silk Roads.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.1, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-1"
+            ]
+          },
+          {
+            "id": "world-2-1-reading-02",
+            "prompt": "Why is a caravanserai a commercial institution rather than simply a place to sleep?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.1, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-1"
+            ]
+          },
+          {
+            "id": "world-2-1-reading-03",
+            "prompt": "Compare credit with currency. What problem does each solve?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.1, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-1"
+            ]
+          },
+          {
+            "id": "world-2-1-reading-04",
+            "prompt": "Give one reason the phrase “one road from China to Europe” is misleading.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.1, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-1"
+            ]
+          },
+          {
+            "id": "world-2-1-reading-05",
+            "prompt": "How could a network increase cultural contact while leaving power unequal?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.1, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "world-2-2",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 2,
+      "code": "2.2",
+      "title": "The Mongol Empire and the Making of the Modern World",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How steppe state building created the largest contiguous empire and reshaped trade, communication, and cultural transfer.",
+      "bigIdea": "Mongol expansion joined conquest, administration, and mobility: it caused immense destruction in some places while also drawing more peoples into connected systems of exchange.",
+      "readingGuide": {
+        "objectives": "B, C, D",
+        "readingLabel": "AMSCO Unit 2, Topic 2.2; use the supplied class reading alongside these original notes",
+        "lenses": [],
+        "prompts": [
+          {
+            "id": "world-2-2-reading-01",
+            "prompt": "What combination of military and administrative factors helped the Mongols expand?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.2, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-2"
+            ]
+          },
+          {
+            "id": "world-2-2-reading-02",
+            "prompt": "Why can khanate division coexist with continued exchange?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.2, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-2"
+            ]
+          },
+          {
+            "id": "world-2-2-reading-03",
+            "prompt": "How did the Mongols facilitate trade without making the period peaceful for everyone?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.2, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-2"
+            ]
+          },
+          {
+            "id": "world-2-2-reading-04",
+            "prompt": "Choose one cultural transfer and explain why “diffusion” is more accurate than “invention by one empire.”",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.2, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-2"
+            ]
+          },
+          {
+            "id": "world-2-2-reading-05",
+            "prompt": "How should a historian balance evidence of destruction with evidence of connection?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.2, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "world-2-3",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 3,
+      "code": "2.3",
+      "title": "Exchange in the Indian Ocean",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How monsoon knowledge, maritime technology, port cities, and diasporas connected East Africa, Asia, and the Middle East.",
+      "bigIdea": "Indian Ocean exchange grew because sailors combined environmental knowledge with technology, while port states and diasporic communities turned seasonal contact into durable networks.",
+      "readingGuide": {
+        "objectives": "E, F, G",
+        "readingLabel": "AMSCO Unit 2, Topic 2.3; use the supplied class reading alongside these original notes",
+        "lenses": [],
+        "prompts": [
+          {
+            "id": "world-2-3-reading-01",
+            "prompt": "Why did sailors sometimes stay in ports for months?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.3, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-3"
+            ]
+          },
+          {
+            "id": "world-2-3-reading-02",
+            "prompt": "Explain one way a port’s geography could become political power.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.3, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-3"
+            ]
+          },
+          {
+            "id": "world-2-3-reading-03",
+            "prompt": "How did diasporic communities change both the merchants and the places where they settled?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.3, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-3"
+            ]
+          },
+          {
+            "id": "world-2-3-reading-04",
+            "prompt": "Compare a state’s role in Malacca with a merchant community’s role in a port.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.3, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-3"
+            ]
+          },
+          {
+            "id": "world-2-3-reading-05",
+            "prompt": "What can Zheng He’s voyages prove, and what can they not prove?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.3, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-3"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "world-2-4",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 4,
+      "code": "2.4",
+      "title": "Trans-Saharan Trade Routes",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How camel logistics, gold and salt exchange, and West African states expanded a difficult but durable network.",
+      "bigIdea": "Trans-Saharan trade expanded when camel technology, caravan organization, and political control made movement across an arid environment more practical and profitable.",
+      "readingGuide": {
+        "objectives": "H, I",
+        "readingLabel": "AMSCO Unit 2, Topic 2.4; use the supplied class reading alongside these original notes",
+        "lenses": [],
+        "prompts": [
+          {
+            "id": "world-2-4-reading-01",
+            "prompt": "Why was a load-bearing saddle economically important?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-4"
+            ]
+          },
+          {
+            "id": "world-2-4-reading-02",
+            "prompt": "Explain how intermediaries made the Sahara network possible.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-4"
+            ]
+          },
+          {
+            "id": "world-2-4-reading-03",
+            "prompt": "How did Mali gain from trade while remaining dependent on agriculture?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-4"
+            ]
+          },
+          {
+            "id": "world-2-4-reading-04",
+            "prompt": "What political and religious purposes could Mansa Musa’s pilgrimage serve?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-4"
+            ]
+          },
+          {
+            "id": "world-2-4-reading-05",
+            "prompt": "What is one claim Ibn Battuta can support and one claim he cannot support alone?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.4, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-4"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "world-2-5",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 5,
+      "code": "2.5",
+      "title": "Cultural Consequences of Connectivity",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How trade and travel moved religions, scientific knowledge, technologies, and perspectives while producing local adaptation.",
+      "bigIdea": "Connectivity spread ideas through movement, but recipients adapted, combined, resisted, or reinterpreted what they encountered.",
+      "readingGuide": {
+        "objectives": "J",
+        "readingLabel": "AMSCO Unit 2, Topic 2.5; use the supplied class reading alongside these original notes",
+        "lenses": [],
+        "prompts": [
+          {
+            "id": "world-2-5-reading-01",
+            "prompt": "How can a religion spread while local traditions continue?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-5"
+            ]
+          },
+          {
+            "id": "world-2-5-reading-02",
+            "prompt": "Name the intermediaries in one example of knowledge transfer.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-5"
+            ]
+          },
+          {
+            "id": "world-2-5-reading-03",
+            "prompt": "How could a city’s growth create both economic and cultural change?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-5"
+            ]
+          },
+          {
+            "id": "world-2-5-reading-04",
+            "prompt": "Compare what Marco Polo and Ibn Battuta might notice because of their purposes.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-5"
+            ]
+          },
+          {
+            "id": "world-2-5-reading-05",
+            "prompt": "Why is similar architecture evidence of contact but not automatically evidence of direct rule?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.5, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-5"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "world-2-6",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 6,
+      "code": "2.6",
+      "title": "Environmental Consequences of Connectivity",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How connected exchange changed crops, populations, disease patterns, labor, and land use across Afro-Eurasia.",
+      "bigIdea": "Exchange could support food production and population growth while also spreading disease and increasing pressure on land; outcomes depended on local conditions and choices.",
+      "readingGuide": {
+        "objectives": "K",
+        "readingLabel": "AMSCO Unit 2, Topic 2.6; use the supplied class reading alongside these original notes",
+        "lenses": [],
+        "prompts": [
+          {
+            "id": "world-2-6-reading-01",
+            "prompt": "What conditions determine whether a new crop changes population patterns?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.6, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-6"
+            ]
+          },
+          {
+            "id": "world-2-6-reading-02",
+            "prompt": "Why is “trade caused the plague” too simple as an explanation?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.6, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-6"
+            ]
+          },
+          {
+            "id": "world-2-6-reading-03",
+            "prompt": "Give one positive and one harmful environmental consequence of connectivity.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.6, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-6"
+            ]
+          },
+          {
+            "id": "world-2-6-reading-04",
+            "prompt": "How could a demographic shock change bargaining between workers and employers?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.6, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-6"
+            ]
+          },
+          {
+            "id": "world-2-6-reading-05",
+            "prompt": "Explain one feedback loop linking trade, land use, and later economic activity.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.6, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-6"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "world-2-7",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 7,
+      "code": "2.7",
+      "title": "Comparison of Economic Exchange",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "A method for comparing the Silk Roads, Indian Ocean, and trans-Saharan networks with specific evidence and explained reasoning.",
+      "bigIdea": "All three networks connected producers and consumers and depended on political and environmental conditions, but their routes, technologies, goods, and state structures produced meaningful differences.",
+      "readingGuide": {
+        "objectives": "L",
+        "readingLabel": "AMSCO Unit 2, Topic 2.7; use the supplied class reading alongside these original notes",
+        "lenses": [],
+        "prompts": [
+          {
+            "id": "world-2-7-reading-01",
+            "prompt": "Choose one dimension and compare two networks using one similarity and one difference.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.7, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-7"
+            ]
+          },
+          {
+            "id": "world-2-7-reading-02",
+            "prompt": "Why is “all trade routes spread culture” too general for a strong comparison?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.7, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-7"
+            ]
+          },
+          {
+            "id": "world-2-7-reading-03",
+            "prompt": "How did transport constraints shape the goods exchanged?",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.7, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-7"
+            ]
+          },
+          {
+            "id": "world-2-7-reading-04",
+            "prompt": "Compare the role of Mali, Malacca, and the Mongol khanates without claiming they were the same type of state.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.7, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-7"
+            ]
+          },
+          {
+            "id": "world-2-7-reading-05",
+            "prompt": "Revise a fact-only comparison into a claim supported by two explained examples.",
+            "model": "A strong response should explain the mechanism in the prompt, name a supported example from Topic 2.7, and qualify the claim where the evidence varies.",
+            "feedback": "Name the process, connect it to a concrete place or group, and explain why the evidence supports the claim.",
+            "sourceIds": [
+              "ced",
+              "ced-topic-2-7"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

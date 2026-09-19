@@ -1,0 +1,539 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-2",
+    "courseId": "world",
+    "number": 2,
+    "title": "Networks of Exchange",
+    "period": "c. 1200–1450",
+    "status": "ready",
+    "termSetIds": [
+      "world-period-1-a",
+      "world-period-1-b"
+    ],
+    "description": "Study how trade networks connected Afro-Eurasia through goods, technology, states, culture, and environmental change.",
+    "quizzes": [
+      {
+        "id": "world-2-practice-a",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form A",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-b",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 practice Form B",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "world-2-practice-all",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 reserved-question review",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18",
+              "world-2-1-q19",
+              "world-2-1-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q17",
+              "world-2-2-q18",
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18",
+              "world-2-3-q19",
+              "world-2-3-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18",
+              "world-2-4-q19",
+              "world-2-4-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18",
+              "world-2-5-q19",
+              "world-2-5-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18",
+              "world-2-6-q19",
+              "world-2-6-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q17",
+              "world-2-7-q18",
+              "world-2-7-q19",
+              "world-2-7-q20"
+            ]
+          }
+        ]
+      }
+    ],
+    "termSets": [
+      {
+        "id": "world-period-1-a",
+        "title": "Period 1 Terms List A",
+        "source": "Period 1 Terms List A.pdf",
+        "count": 27
+      },
+      {
+        "id": "world-period-1-b",
+        "title": "Period 1 Terms List B",
+        "source": "Period 1 Terms List B.pdf",
+        "count": 29
+      }
+    ],
+    "topicQuizzes": [
+      {
+        "id": "world-2-1-quiz",
+        "title": "The Silk Roads topic quiz"
+      },
+      {
+        "id": "world-2-2-quiz",
+        "title": "The Mongol Empire and the Making of the Modern World topic quiz"
+      },
+      {
+        "id": "world-2-3-quiz",
+        "title": "Exchange in the Indian Ocean topic quiz"
+      },
+      {
+        "id": "world-2-4-quiz",
+        "title": "Trans-Saharan Trade Routes topic quiz"
+      },
+      {
+        "id": "world-2-5-quiz",
+        "title": "Cultural Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-6-quiz",
+        "title": "Environmental Consequences of Connectivity topic quiz"
+      },
+      {
+        "id": "world-2-7-quiz",
+        "title": "Comparison of Economic Exchange topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "world-2-1",
+      "courseId": "world",
+      "unitId": "world-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "The Silk Roads",
+      "period": "c. 1200–1450",
+      "status": "ready",
+      "summary": "How demand, political stability, and commercial tools expanded connected overland exchange after 1200."
+    },
+    "hasGuide": true,
+    "writingQuizzes": [
+      {
+        "id": "world-2-saq-01",
+        "title": "Unit 2 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-02",
+        "title": "Unit 2 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-03",
+        "title": "Unit 2 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-04",
+        "title": "Unit 2 SAQ 04",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-05",
+        "title": "Unit 2 SAQ 05",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-06",
+        "title": "Unit 2 SAQ 06",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-07",
+        "title": "Unit 2 SAQ 07",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-comparison",
+        "title": "Unit 2 LEQ: Comparing networks",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-causation",
+        "title": "Unit 2 LEQ: Causes of exchange growth",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-leq-continuity",
+        "title": "Unit 2 LEQ: Continuity and change",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-dbq-connectivity",
+        "title": "Unit 2 DBQ: Connectivity and consequences",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "blocked"
+      },
+      {
+        "id": "world-2-skill-thesis",
+        "title": "Unit 2 skill drill: Revise an overly broad claim into an arguable claim with a line of reasoning.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-context",
+        "title": "Unit 2 skill drill: Distinguish relevant wider context from a restatement of the prompt.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-evidence",
+        "title": "Unit 2 skill drill: Turn an accurate example into support for an argument through explicit explanation.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-skill-sourcing",
+        "title": "Unit 2 skill drill: Explain why a document’s perspective, purpose, or situation matters to an argument.",
+        "partCount": 1,
+        "exerciseType": "skill",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "quiz": {
+    "id": "world-2-leq-causation",
+    "version": 1,
+    "courseId": "world",
+    "unitId": "world-2",
+    "title": "Unit 2 LEQ: Causes of exchange growth",
+    "headline": "Causes of exchange growth",
+    "promptTitle": "Original Page One Unit 2 writing practice",
+    "prompt": "Evaluate the most important causes of expanding exchange across Afro-Eurasia from 1200 to 1450.",
+    "instructions": "Plan a defensible argument, then write one organized essay. This is a narrower Unit 2 practice task, not a full exam simulation.",
+    "note": "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    "exerciseType": "leq",
+    "sourceIds": [
+      "amsco-unit-2",
+      "ced-topic-2-1"
+    ],
+    "sourceLocators": [
+      {
+        "sourceId": "amsco-unit-2",
+        "locator": "Unit 2 supplied reading / verified classroom locator"
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "outline",
+        "label": "Optional outline",
+        "prompt": "Plan your claim, context, evidence, and reasoning before drafting.",
+        "required": false,
+        "rows": 6,
+        "help": "Optional planning notes; the essay is the required response.",
+        "review": [
+          {
+            "topicId": "world-2-1",
+            "sectionId": "network-geography",
+            "label": "Review the relevant lesson"
+          }
+        ]
+      },
+      {
+        "id": "essay",
+        "label": "Essay response",
+        "prompt": "Write the full essay. Make the line of reasoning visible and explain why each example supports the claim.",
+        "required": true,
+        "rows": 16,
+        "help": "Informational word count only. No timer or automatic grading.",
+        "review": [
+          {
+            "topicId": "world-2-7",
+            "sectionId": "arguing-with-evidence",
+            "label": "Review evidence-based comparison"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "thesis",
+        "label": "Thesis",
+        "points": 1,
+        "guidance": "Makes a defensible claim that answers the prompt and establishes a line of reasoning."
+      },
+      {
+        "id": "context",
+        "label": "Contextualization",
+        "points": 1,
+        "guidance": "Explains a broader development that is relevant to the prompt and occurs before, during, or across the period."
+      },
+      {
+        "id": "evidence",
+        "label": "Evidence",
+        "points": 2,
+        "guidance": "Uses specific evidence to support the argument; two points require more than one relevant example used as support."
+      },
+      {
+        "id": "analysis",
+        "label": "Analysis and reasoning",
+        "points": 2,
+        "guidance": "Uses comparison, causation, or continuity/change reasoning and connects evidence to the claim with qualification where appropriate."
+      }
+    ],
+    "modelResponse": "Annotated model for causation: a defensible thesis names the relationship under evaluation; contextualization places the network in earlier Afro-Eurasian exchange; evidence uses specific places, institutions, or communities; analysis explains how geography, demand, politics, or culture produced the pattern and qualifies variation.",
+    "alternateModel": "Another defensible route could center a different network or causal factor if it remains within 1200–1450, uses specific evidence, and explains why the evidence answers the prompt.",
+    "commonErrors": [
+      "Listing three networks without a comparative or causal claim.",
+      "Using a famous example without explaining its relevance.",
+      "Treating the networks as sealed or uniform systems.",
+      "Using post-1450 European expansion as the main evidence."
+    ],
+    "scaffold": [
+      {
+        "label": "Claim",
+        "text": "Answer the prompt and establish a line of reasoning."
+      },
+      {
+        "label": "Context",
+        "text": "Place the development in wider Afro-Eurasian history."
+      },
+      {
+        "label": "Evidence",
+        "text": "Choose specific examples and explain their relevance."
+      },
+      {
+        "label": "Reasoning",
+        "text": "Show why the evidence proves the claim and where it needs qualification."
+      }
+    ]
+  }
+}

@@ -34,6 +34,7 @@ export function questionView(attempt, engine, assets, quick = false) {
         <h4>${correct ? "✓ Correct" : "✗ Incorrect"}</h4>
         ${correct ? "" : `<p><strong>Correct answer:</strong> ${"ABCD"[question.correctAnswer]}. ${esc(question.choices[question.correctAnswer])}</p>`}
         <p><strong>Why:</strong> ${esc(question.explanation)}</p>
+        ${question.choiceExplanations ? `<details class="choice-explanations"><summary>Why each choice fits or misses</summary><ul>${question.choiceExplanations.map((explanation, index) => `<li><strong>${"ABCD"[index]}.</strong> ${esc(explanation)}</li>`).join("")}</ul></details>` : ""}
       </div>`
           : ""
       }

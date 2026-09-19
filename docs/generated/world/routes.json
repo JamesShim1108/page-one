@@ -17,7 +17,14 @@
     "world-1-4": "world/topics/world-1-4.json",
     "world-1-5": "world/topics/world-1-5.json",
     "world-1-6": "world/topics/world-1-6.json",
-    "world-1-7": "world/topics/world-1-7.json"
+    "world-1-7": "world/topics/world-1-7.json",
+    "world-2-1": "world/topics/world-2-1.json",
+    "world-2-2": "world/topics/world-2-2.json",
+    "world-2-3": "world/topics/world-2-3.json",
+    "world-2-4": "world/topics/world-2-4.json",
+    "world-2-5": "world/topics/world-2-5.json",
+    "world-2-6": "world/topics/world-2-6.json",
+    "world-2-7": "world/topics/world-2-7.json"
   },
   "quiz": {
     "world-1-1-quiz": "world/banks/world-1-1.json",
@@ -34,13 +41,46 @@
     "world-1-6-quick": "world/banks/world-1-6.json",
     "world-1-7-quiz": "world/banks/world-1-7.json",
     "world-1-7-quick": "world/banks/world-1-7.json",
-    "world-1-practice": "world/quizzes/world-1-practice.json"
+    "world-1-practice": "world/quizzes/world-1-practice.json",
+    "world-2-1-quick": "world/banks/world-2-1.json",
+    "world-2-1-quiz": "world/banks/world-2-1.json",
+    "world-2-2-quick": "world/banks/world-2-2.json",
+    "world-2-2-quiz": "world/banks/world-2-2.json",
+    "world-2-3-quick": "world/banks/world-2-3.json",
+    "world-2-3-quiz": "world/banks/world-2-3.json",
+    "world-2-4-quick": "world/banks/world-2-4.json",
+    "world-2-4-quiz": "world/banks/world-2-4.json",
+    "world-2-5-quick": "world/banks/world-2-5.json",
+    "world-2-5-quiz": "world/banks/world-2-5.json",
+    "world-2-6-quick": "world/banks/world-2-6.json",
+    "world-2-6-quiz": "world/banks/world-2-6.json",
+    "world-2-7-quick": "world/banks/world-2-7.json",
+    "world-2-7-quiz": "world/banks/world-2-7.json",
+    "world-2-practice-a": "world/quizzes/world-2-practice-a.json",
+    "world-2-practice-b": "world/quizzes/world-2-practice-b.json",
+    "world-2-practice-all": "world/quizzes/world-2-practice-all.json"
   },
   "guide": {
-    "world-1": "world/guides/world-1.json"
+    "world-1": "world/guides/world-1.json",
+    "world-2": "world/guides/world-2.json"
   },
   "writing": {
-    "world-1-saq": "world/writing/world-1-saq.json"
+    "world-1-saq": "world/writing/world-1-saq.json",
+    "world-2-saq-01": "world/writing/world-2-saq-01.json",
+    "world-2-saq-02": "world/writing/world-2-saq-02.json",
+    "world-2-saq-03": "world/writing/world-2-saq-03.json",
+    "world-2-saq-04": "world/writing/world-2-saq-04.json",
+    "world-2-saq-05": "world/writing/world-2-saq-05.json",
+    "world-2-saq-06": "world/writing/world-2-saq-06.json",
+    "world-2-saq-07": "world/writing/world-2-saq-07.json",
+    "world-2-leq-comparison": "world/writing/world-2-leq-comparison.json",
+    "world-2-leq-causation": "world/writing/world-2-leq-causation.json",
+    "world-2-leq-continuity": "world/writing/world-2-leq-continuity.json",
+    "world-2-dbq-connectivity": "world/writing/world-2-dbq-connectivity.json",
+    "world-2-skill-thesis": "world/writing/world-2-skill-thesis.json",
+    "world-2-skill-context": "world/writing/world-2-skill-context.json",
+    "world-2-skill-evidence": "world/writing/world-2-skill-evidence.json",
+    "world-2-skill-sourcing": "world/writing/world-2-skill-sourcing.json"
   },
   "terms": {
     "world-1": "world/units/world-1.json",

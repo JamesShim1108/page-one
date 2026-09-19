@@ -9,7 +9,7 @@
     "period": "c. 1200–present",
     "order": 1,
     "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present.",
-    "readyTopicCount": 7,
+    "readyTopicCount": 14,
     "previewTopics": [
       {
         "id": "world-1-1",
@@ -201,7 +201,9 @@
         {
           "id": "world-1-saq",
           "title": "Unit 1 writing quiz",
-          "partCount": 3
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
         }
       ]
     },
@@ -212,13 +214,202 @@
       "number": 2,
       "title": "Networks of Exchange",
       "period": "c. 1200–1450",
-      "status": "soon",
+      "status": "ready",
       "termSetIds": [
         "world-period-1-a",
         "world-period-1-b"
       ],
-      "description": "",
-      "quizzes": [],
+      "description": "Study how trade networks connected Afro-Eurasia through goods, technology, states, culture, and environmental change.",
+      "quizzes": [
+        {
+          "id": "world-2-practice-a",
+          "courseId": "world",
+          "unitId": "world-2",
+          "title": "Unit 2 practice Form A",
+          "quizType": "unit",
+          "selections": [
+            {
+              "topicId": "world-2-1",
+              "questionIds": [
+                "world-2-1-q17",
+                "world-2-1-q18"
+              ]
+            },
+            {
+              "topicId": "world-2-2",
+              "questionIds": [
+                "world-2-2-q17",
+                "world-2-2-q18"
+              ]
+            },
+            {
+              "topicId": "world-2-3",
+              "questionIds": [
+                "world-2-3-q17",
+                "world-2-3-q18"
+              ]
+            },
+            {
+              "topicId": "world-2-4",
+              "questionIds": [
+                "world-2-4-q17",
+                "world-2-4-q18"
+              ]
+            },
+            {
+              "topicId": "world-2-5",
+              "questionIds": [
+                "world-2-5-q17",
+                "world-2-5-q18"
+              ]
+            },
+            {
+              "topicId": "world-2-6",
+              "questionIds": [
+                "world-2-6-q17",
+                "world-2-6-q18"
+              ]
+            },
+            {
+              "topicId": "world-2-7",
+              "questionIds": [
+                "world-2-7-q17",
+                "world-2-7-q18"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world-2-practice-b",
+          "courseId": "world",
+          "unitId": "world-2",
+          "title": "Unit 2 practice Form B",
+          "quizType": "unit",
+          "selections": [
+            {
+              "topicId": "world-2-1",
+              "questionIds": [
+                "world-2-1-q19",
+                "world-2-1-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-2",
+              "questionIds": [
+                "world-2-2-q19",
+                "world-2-2-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-3",
+              "questionIds": [
+                "world-2-3-q19",
+                "world-2-3-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-4",
+              "questionIds": [
+                "world-2-4-q19",
+                "world-2-4-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-5",
+              "questionIds": [
+                "world-2-5-q19",
+                "world-2-5-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-6",
+              "questionIds": [
+                "world-2-6-q19",
+                "world-2-6-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-7",
+              "questionIds": [
+                "world-2-7-q19",
+                "world-2-7-q20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world-2-practice-all",
+          "courseId": "world",
+          "unitId": "world-2",
+          "title": "Unit 2 reserved-question review",
+          "quizType": "unit",
+          "selections": [
+            {
+              "topicId": "world-2-1",
+              "questionIds": [
+                "world-2-1-q17",
+                "world-2-1-q18",
+                "world-2-1-q19",
+                "world-2-1-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-2",
+              "questionIds": [
+                "world-2-2-q17",
+                "world-2-2-q18",
+                "world-2-2-q19",
+                "world-2-2-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-3",
+              "questionIds": [
+                "world-2-3-q17",
+                "world-2-3-q18",
+                "world-2-3-q19",
+                "world-2-3-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-4",
+              "questionIds": [
+                "world-2-4-q17",
+                "world-2-4-q18",
+                "world-2-4-q19",
+                "world-2-4-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-5",
+              "questionIds": [
+                "world-2-5-q17",
+                "world-2-5-q18",
+                "world-2-5-q19",
+                "world-2-5-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-6",
+              "questionIds": [
+                "world-2-6-q17",
+                "world-2-6-q18",
+                "world-2-6-q19",
+                "world-2-6-q20"
+              ]
+            },
+            {
+              "topicId": "world-2-7",
+              "questionIds": [
+                "world-2-7-q17",
+                "world-2-7-q18",
+                "world-2-7-q19",
+                "world-2-7-q20"
+              ]
+            }
+          ]
+        }
+      ],
       "termSets": [
         {
           "id": "world-period-1-a",
@@ -233,11 +424,156 @@
           "count": 29
         }
       ],
-      "topicQuizzes": [],
-      "topicCount": 0,
-      "firstTopic": null,
-      "hasGuide": false,
-      "writingQuizzes": []
+      "topicQuizzes": [
+        {
+          "id": "world-2-1-quiz",
+          "title": "The Silk Roads topic quiz"
+        },
+        {
+          "id": "world-2-2-quiz",
+          "title": "The Mongol Empire and the Making of the Modern World topic quiz"
+        },
+        {
+          "id": "world-2-3-quiz",
+          "title": "Exchange in the Indian Ocean topic quiz"
+        },
+        {
+          "id": "world-2-4-quiz",
+          "title": "Trans-Saharan Trade Routes topic quiz"
+        },
+        {
+          "id": "world-2-5-quiz",
+          "title": "Cultural Consequences of Connectivity topic quiz"
+        },
+        {
+          "id": "world-2-6-quiz",
+          "title": "Environmental Consequences of Connectivity topic quiz"
+        },
+        {
+          "id": "world-2-7-quiz",
+          "title": "Comparison of Economic Exchange topic quiz"
+        }
+      ],
+      "topicCount": 7,
+      "firstTopic": {
+        "id": "world-2-1",
+        "courseId": "world",
+        "unitId": "world-2",
+        "order": 1,
+        "code": "2.1",
+        "title": "The Silk Roads",
+        "period": "c. 1200–1450",
+        "status": "ready",
+        "summary": "How demand, political stability, and commercial tools expanded connected overland exchange after 1200."
+      },
+      "hasGuide": true,
+      "writingQuizzes": [
+        {
+          "id": "world-2-saq-01",
+          "title": "Unit 2 SAQ 01",
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-saq-02",
+          "title": "Unit 2 SAQ 02",
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-saq-03",
+          "title": "Unit 2 SAQ 03",
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-saq-04",
+          "title": "Unit 2 SAQ 04",
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-saq-05",
+          "title": "Unit 2 SAQ 05",
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-saq-06",
+          "title": "Unit 2 SAQ 06",
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-saq-07",
+          "title": "Unit 2 SAQ 07",
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-leq-comparison",
+          "title": "Unit 2 LEQ: Comparing networks",
+          "partCount": 2,
+          "exerciseType": "leq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-leq-causation",
+          "title": "Unit 2 LEQ: Causes of exchange growth",
+          "partCount": 2,
+          "exerciseType": "leq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-leq-continuity",
+          "title": "Unit 2 LEQ: Continuity and change",
+          "partCount": 2,
+          "exerciseType": "leq",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-dbq-connectivity",
+          "title": "Unit 2 DBQ: Connectivity and consequences",
+          "partCount": 8,
+          "exerciseType": "dbq",
+          "availability": "blocked"
+        },
+        {
+          "id": "world-2-skill-thesis",
+          "title": "Unit 2 skill drill: Revise an overly broad claim into an arguable claim with a line of reasoning.",
+          "partCount": 1,
+          "exerciseType": "skill",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-skill-context",
+          "title": "Unit 2 skill drill: Distinguish relevant wider context from a restatement of the prompt.",
+          "partCount": 1,
+          "exerciseType": "skill",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-skill-evidence",
+          "title": "Unit 2 skill drill: Turn an accurate example into support for an argument through explicit explanation.",
+          "partCount": 1,
+          "exerciseType": "skill",
+          "availability": "available"
+        },
+        {
+          "id": "world-2-skill-sourcing",
+          "title": "Unit 2 skill drill: Explain why a document’s perspective, purpose, or situation matters to an argument.",
+          "partCount": 1,
+          "exerciseType": "skill",
+          "availability": "available"
+        }
+      ]
     },
     {
       "schemaVersion": 1,

@@ -29,12 +29,13 @@ export function frameworkGuide(framework) {
 
 export function writingInvite(unit) {
   if (!unit.writingQuizzes?.length) return "";
+  const labels = { saq: "SAQ", leq: "LEQ", dbq: "DBQ", skill: "SKILL" };
   return `<section class="writing-invite" id="writing">
-    <p class="eyebrow">SHORT ANSWER / UNIT ${unit.number}</p>
+    <p class="eyebrow">WRITING PRACTICE / UNIT ${unit.number}</p>
     <h2>Make the evidence count.</h2>
     <p>Write your response, then use the criteria and annotated examples to review your reasoning.</p>
-    ${unit.writingQuizzes.map((quiz) => `<a class="btn" href="#/writing/${esc(quiz.id)}">${esc(quiz.title)}</a>`).join(" ")}
-    <p class="muted">Answer · Prove · Explain</p>
+    ${unit.writingQuizzes.map((quiz) => (quiz.availability === "blocked" ? `<span class="btn disabled" aria-disabled="true">${labels[quiz.exerciseType] || "Writing"}: ${esc(quiz.title)} · blocked</span>` : `<a class="btn" href="#/writing/${esc(quiz.id)}">${labels[quiz.exerciseType] || "Writing"}: ${esc(quiz.title)}</a>`)).join(" ")}
+    <p class="muted">Self-assessment only · no automatic AP score</p>
   </section>`;
 }
 

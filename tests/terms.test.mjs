@@ -192,7 +192,7 @@ test("all unit hubs put modes first and never make unavailable practice clickabl
     for (const title of ["Practice Quiz", "Terms", "Writing Practice", "Reading / Learn"])
       assert.ok(html.includes(`<h2>${title}</h2>`));
     assert.ok(html.includes(`href="#/terms/world-${number}"`));
-    if (number > 1) assert.ok(html.includes('aria-disabled="true"'));
+    if (number > 2) assert.ok(html.includes('aria-disabled="true"'));
     assert.equal(unit.unit.termSets.length, number <= 2 ? 2 : 0);
     if (number > 2) assert.ok(termsIndexPage(unit).includes("No class term sets yet"));
   }

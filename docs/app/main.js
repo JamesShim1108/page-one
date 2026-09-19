@@ -61,12 +61,23 @@ async function selectPage(route, data, generation) {
     data.course?.description ||
     "Free lessons, key terms, and practice in one place.";
   const selected = { title, description };
+  const enhancements = [];
   if (["topic", "guide"].includes(route.type) && data.glossary?.length) {
     const { mountConceptPopovers } =
       await import("./concepts/controller.js?v=20260918-fit");
     if (generation !== routeGeneration) return null;
-    selected.enhance = () => mountConceptPopovers(main, data.glossary);
+    enhancements.push(() => mountConceptPopovers(main, data.glossary));
   }
+  if (route.type === "guide" && data.guide?.networkData) {
+    const { mountUnitTools } = await import("./unit-tools.js");
+    if (generation !== routeGeneration) return null;
+    enhancements.push(() => mountUnitTools(main, data.guide));
+  }
+  if (enhancements.length)
+    selected.enhance = () => {
+      const cleanups = enhancements.map((enhance) => enhance()).filter(Boolean);
+      return () => cleanups.forEach((cleanup) => cleanup());
+    };
   if (route.type === "home") selected.html = () => homePage(data, attemptStore.resume());
   else if (route.type === "courses") {
     selected.html = () => courseListPage(data);

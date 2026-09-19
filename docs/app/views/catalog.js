@@ -125,6 +125,12 @@ export function unitPage(data, peekAttempt = () => null) {
   crumbs[crumbs.length - 1] = [`Unit ${unit.number}`];
   const quizzes = unit.quizzes || [],
     writing = unit.writingQuizzes || [];
+  const writingGroups = [
+    ["SAQ", writing.filter((item) => item.exerciseType === "saq")],
+    ["Essay", writing.filter((item) => item.exerciseType === "leq")],
+    ["DBQ", writing.filter((item) => item.exerciseType === "dbq")],
+    ["Skills", writing.filter((item) => item.exerciseType === "skill")],
+  ].filter(([, items]) => items.length);
   const practice =
     quizzes.length === 1 ? `/quiz/${quizzes[0].id}` : `/unit/${unit.id}?section=practice`;
   const modes = [
@@ -171,6 +177,13 @@ export function unitPage(data, peekAttempt = () => null) {
             path: `/guide/${unit.id}`,
             available: true,
           },
+          {
+            title: "Maps & Connections",
+            label: "06 · See the networks",
+            text: "Explore places, routes, seasonal planning, and evidence connections.",
+            path: `/guide/${unit.id}?section=networks`,
+            available: true,
+          },
         ]
       : []),
   ];
@@ -201,10 +214,10 @@ export function unitPage(data, peekAttempt = () => null) {
         .join("")}</div>
       ${topics.length ? "" : '<p class="study-empty">Lessons for this unit are being prepared.</p>'}
       <div id="practice" class="unit-tools">
-        ${unit.quizzes.map((quiz) => `<div class="unit-tool"><p class="eyebrow">PRACTICE</p><h3>${esc(quiz.title)}</h3><p>${quiz.selections.reduce((sum, selection) => sum + selection.questionIds.length, 0)} questions selected from the topic quizzes.</p>${quizEntry(quiz, peekAttempt(quiz.id), "Start unit practice")}</div>`).join("")}
+        ${unit.quizzes.map((quiz) => `<div class="unit-tool"><p class="eyebrow">PRACTICE</p><h3>${esc(quiz.title)}</h3><p>${quiz.selections.reduce((sum, selection) => sum + selection.questionIds.length, 0)} questions selected from the Unit ${unit.number} question banks.</p>${quizEntry(quiz, peekAttempt(quiz.id), "Start unit practice")}</div>`).join("")}
         ${!quizzes.length ? (unit.topicQuizzes || []).map((quiz) => `<div class="unit-tool"><h3>${esc(quiz.title)}</h3>${quizEntry(quiz, peekAttempt(quiz.id))}</div>`).join("") : ""}
       </div>
-      <div id="writing" class="unit-tools">${writing.map((quiz) => `<div class="unit-tool writing-tool"><p class="eyebrow">WRITE</p><h3>${esc(quiz.title)}</h3><p>${quiz.partCount} parts. Write your responses and review your reasoning.</p>${link(`/writing/${quiz.id}`, "Open writing quiz", "btn")}</div>`).join("")}</div>
+      <div id="writing" class="unit-tools writing-groups">${writingGroups.map(([group, items]) => `<section class="writing-group"><p class="eyebrow">${group}</p>${items.map((quiz) => `<div class="unit-tool writing-tool"><h3>${esc(quiz.title)}</h3><p>${quiz.exerciseType === "dbq" && quiz.availability === "blocked" ? "Blocked pending source verification." : `${quiz.partCount} response field${quiz.partCount === 1 ? "" : "s"}. Untimed practice with self-assessment.`}</p>${quiz.availability === "blocked" ? `<span class="muted">Unavailable until verified documents are added.</span>` : link(`/writing/${quiz.id}`, "Open writing practice", "btn")}</div>`).join("")}</section>`).join("")}</div>
     </div><aside class="side-note"><p class="eyebrow">Make the connection</p><h3>Explain it in your own words.</h3><p>Compare ideas across topics and support your explanation with specific evidence.</p></aside></div>
     </section>
   </div>`;

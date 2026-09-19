@@ -2,7 +2,8 @@ import { writingPage, wordCount, saveMessage, scoreMessage } from "./views.js";
 
 export function createWritingController(data, store, repaint) {
   const { quiz } = data,
-    { engine } = store;
+    { engine } = store,
+    fields = engine.responseFields;
   function showSaved() {
     document.getElementById("writing-save").textContent = saveMessage(store);
   }
@@ -24,10 +25,10 @@ export function createWritingController(data, store, repaint) {
     const form = event.target.closest(".writing-form");
     if (!form) return false;
     event.preventDefault();
-    for (const part of quiz.parts) {
+    for (const part of fields) {
       const field = form.elements.namedItem(part.id);
-      if (!field.value.trim()) {
-        field.setCustomValidity("Write an APE response for this part before reviewing.");
+      if (part.required !== false && !field.value.trim()) {
+        field.setCustomValidity("Write this required response before reviewing.");
         field.reportValidity();
         field.focus();
         return true;
@@ -50,10 +51,7 @@ export function createWritingController(data, store, repaint) {
     if (engine.setScore(store.draft, field.dataset.writingScore, Number(field.value))) {
       store.save();
       showSaved();
-      document.getElementById("writing-score").textContent = scoreMessage(
-        store,
-        quiz.parts.length,
-      );
+      document.getElementById("writing-score").textContent = scoreMessage(store, quiz);
     }
     return true;
   }
@@ -65,7 +63,7 @@ export function createWritingController(data, store, repaint) {
       engine.revise(store.draft);
       store.save();
       repaint();
-      document.getElementById(`writing-${quiz.parts[0].id}`).focus();
+      document.getElementById(`writing-${fields[0].id}`).focus();
     }
     return true;
   }
