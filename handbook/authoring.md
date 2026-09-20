@@ -68,7 +68,11 @@ For a topic, add a descriptively named folder under a unit's `topics/` directory
 
 A ready topic needs reading sections, learning goals, sources, one quick quiz, and one topic quiz. Quiz selections reference records in that topic's bank. Unit practice selects IDs from those banks, so a correction applies everywhere the question appears. A `soon` topic still has the complete lesson shape but does not need published quizzes and is not linked as available.
 
+Every new ready reading page must include `definitionCoverage`. Use `status: "required"` with glossary concept IDs that actually occur in eligible explanatory prose. Use `status: "not-needed"` only with a specific reason for a genuinely non-reading page. The build checks that each listed concept is selected and matches real text. Existing pre-contract World History Unit 1 pages are the finite legacy exemption; future pages are not exempt.
+
 For a unit, add a folder containing `unit.js` with a unique positive `number`. Its `topics/`, `study-guide.js`, and `writing.js` are optional. Empty upcoming units can use `status: "soon"`. For a course, add a folder with `course.js`, a catalog `order`, and its units. `sources.js`, `framework.js`, and `assets.js` are optional until lessons reference them. Shared page templates need no course-specific edits.
+
+An empty course shell may contain only `course.js` with `status: "soon"` and `emptyShell: true`; it must not invent units, lessons, terms, standards, or a sequence. When instructional content is eventually authorized, it uses the same shared glossary and `definitionCoverage` contract. Equation markup is not automatically annotated as plain reading text.
 
 The filename helps editors find content. The permanent ID supports links, saved work, and relationships. Keep IDs unchanged when renaming a title or folder. Course IDs use lowercase letters and digits, such as `world` or `biology`. Other route IDs begin with the course ID, such as `biology-1-cells`. Existing `world-1-1` links still work. Unit numbers and topic order determine display order.
 

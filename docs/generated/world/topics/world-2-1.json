@@ -699,6 +699,15 @@
       ]
     },
     "vocabulary": [],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-2-caravanserai",
+        "world-2-credit",
+        "world-2-bills-of-exchange",
+        "world-2-luxury-goods"
+      ]
+    },
     "connections": [
       {
         "id": "c1",
@@ -755,7 +764,96 @@
     ]
   },
   "bankPath": "world/banks/world-2-1.json",
-  "glossary": [],
+  "glossary": [
+    {
+      "id": "world-2-caravanserai",
+      "term": "caravanserai",
+      "definition": "A roadside inn or service stop where travelers could rest, water animals, store goods, and meet other merchants along an overland route.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.1; College Board CED Topic 2.1",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 3–7; printed pp. 77–81"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "Official CED Topic 2.1"
+        }
+      ],
+      "verificationNote": "Original concise wording checked against the Unit 2 evidence ledger and cited classroom topic range."
+    },
+    {
+      "id": "world-2-credit",
+      "term": "credit",
+      "definition": "A promise or arrangement that moves payment through time or space, allowing a transaction without carrying all of the value as physical currency.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.1; College Board CED Topic 2.1",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 3–7; printed pp. 77–81"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "Official CED Topic 2.1"
+        }
+      ],
+      "verificationNote": "Original wording distinguishes credit from currency as required by the Unit 2 lesson and source ledger."
+    },
+    {
+      "id": "world-2-bills-of-exchange",
+      "term": "bills of exchange",
+      "definition": "Written payment orders that allowed value to be claimed at a stated time or place, reducing the need to carry coins across long distances.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.1; College Board CED Topic 2.1",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 3–7; printed pp. 77–81"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "Official CED Topic 2.1"
+        }
+      ],
+      "verificationNote": "Original wording checked against the lesson's commercial-practices section and cited Unit 2 range."
+    },
+    {
+      "id": "world-2-luxury-goods",
+      "term": "luxury goods",
+      "definition": "Valuable, often portable products purchased by wealthy consumers or institutions, such as silk, spices, porcelain, or other prestige items.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.1; College Board CED Topic 2.1",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 3–7; printed pp. 77–81"
+        },
+        {
+          "sourceId": "ced-topic-2-1",
+          "locator": "Official CED Topic 2.1"
+        }
+      ],
+      "verificationNote": "Original definition uses the Unit 2 lesson's qualified examples rather than reproducing source prose."
+    }
+  ],
   "sources": [
     {
       "id": "ced",

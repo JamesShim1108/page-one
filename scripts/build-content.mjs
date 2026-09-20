@@ -13,6 +13,7 @@ import {
   validateSelections,
   validateWriting,
   validateBlocks,
+  validateDefinitionCoverage,
 } from "./lib/validate.mjs";
 import { loadAssets, mergeAssets, usedAssets } from "./lib/assets.mjs";
 import { validateTermSet } from "./lib/terms.mjs";
@@ -68,6 +69,44 @@ const topicSummary = (lesson) =>
       "summary",
     ].map((key) => [key, lesson[key]]),
   );
+const blockReadingText = (block) => {
+  if (!block || typeof block !== "object") return [];
+  if (block.type === "paragraph" || block.type === "callout") return [block.text];
+  if (block.type === "list") return block.items || [];
+  if (block.type === "table")
+    return [block.caption, ...(block.columns || []), ...(block.rows || []).flat()];
+  return [];
+};
+const lessonReadingText = (lesson) =>
+  [
+    lesson.summary,
+    lesson.bigIdea,
+    lesson.context,
+    ...(lesson.sections || []).flatMap((section) => [
+      section.takeaway,
+      ...(section.blocks || []).flatMap(blockReadingText),
+    ]),
+    ...(lesson.connections || []).flatMap((connection) => [
+      connection.title,
+      connection.body,
+    ]),
+  ]
+    .filter(Boolean)
+    .join("\n");
+const guideReadingText = (guide) => {
+  const strings = [];
+  const collect = (value) => {
+    if (typeof value === "string") strings.push(value);
+    else if (Array.isArray(value)) value.forEach(collect);
+    else if (value && typeof value === "object")
+      Object.entries(value).forEach(([key, child]) => {
+        if (!["sourceIds", "sourceLocators", "review", "id"].includes(key))
+          collect(child);
+      });
+  };
+  collect(guide);
+  return strings.join("\n");
+};
 
 export async function compileContent(root = projectRoot) {
   const docsRoot = join(root, "docs"),
@@ -408,6 +447,18 @@ export async function compileContent(root = projectRoot) {
           sources: lesson.sourceIds.map((id) => sources.get(id)),
           assets: lessonAssets,
         });
+        const selectedGlossary = selectGlossary(
+          glossary,
+          { topicIds: [lesson.id], ids: lesson.glossaryIds },
+          lesson.id,
+        );
+        validateDefinitionCoverage({
+          coverage: lesson.definitionCoverage,
+          concepts: selectedGlossary,
+          text: lessonReadingText(lesson),
+          location: `${course.id}/${lesson.id}`,
+          pageId: lesson.id,
+        });
       }
       for (const quiz of unit.quizzes || []) {
         requireText(quiz.title, unitRoot);
@@ -664,19 +715,27 @@ export async function compileContent(root = projectRoot) {
           });
         }
         route("guide", unit.id, `${course.id}/guides/${unit.id}.json`);
+        const selectedGuideGlossary = selectGlossary(
+          glossary,
+          {
+            topicIds: availableTopics.map(({ lesson }) => lesson.id),
+            ids: guide.glossaryIds,
+          },
+          `${unit.id} guide`,
+        );
+        validateDefinitionCoverage({
+          coverage: guide.definitionCoverage,
+          concepts: selectedGuideGlossary,
+          text: guideReadingText(guide),
+          location: `${unitRoot}/study-guide.js`,
+          pageId: `${unit.id}-guide`,
+        });
         emit(routes.guide[unit.id], {
           course,
           unit: unitInfo,
           framework,
           guide,
-          glossary: selectGlossary(
-            glossary,
-            {
-              topicIds: availableTopics.map(({ lesson }) => lesson.id),
-              ids: guide.glossaryIds,
-            },
-            `${unit.id} guide`,
-          ),
+          glossary: selectedGuideGlossary,
           sources: guideSources,
           topics: availableTopics.map(({ lesson }) => ({
             ...topicSummary(lesson),

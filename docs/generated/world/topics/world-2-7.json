@@ -699,6 +699,15 @@
       ]
     },
     "vocabulary": [],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-2-route-geography",
+        "world-2-commercial-practice",
+        "world-2-political-stability",
+        "world-2-state-involvement"
+      ]
+    },
     "connections": [
       {
         "id": "c1",
@@ -753,7 +762,102 @@
     ]
   },
   "bankPath": "world/banks/world-2-7.json",
-  "glossary": [],
+  "glossary": [
+    {
+      "id": "world-2-route-geography",
+      "term": "route geography",
+      "definition": "The way terrain, water, winds, distance, and strategic locations shape where exchange can occur and which transport methods are practical.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.7; College Board CED Topic 2.7",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-7",
+        "ced"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 35–40; printed pp. 127–132"
+        },
+        {
+          "sourceId": "ced-topic-2-7",
+          "locator": "Official CED Topic 2.7"
+        }
+      ],
+      "verificationNote": "Original definition matches the comparison lesson's shared comparison dimension."
+    },
+    {
+      "id": "world-2-commercial-practice",
+      "term": "commercial practice",
+      "definition": "A repeated way of organizing exchange, such as credit, brokerage, taxation, customs, partnership, or the movement of payment and goods.",
+      "aliases": [
+        "commercial practices"
+      ],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.7; College Board CED Topic 2.7",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-7",
+        "ced"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 35–40; printed pp. 127–132"
+        },
+        {
+          "sourceId": "ced-topic-2-7",
+          "locator": "Official CED Topic 2.7"
+        }
+      ],
+      "verificationNote": "Original definition is broad enough for comparison but does not replace network-specific evidence."
+    },
+    {
+      "id": "world-2-political-stability",
+      "term": "political stability",
+      "definition": "A condition in which institutions and authorities provide enough predictable order for people, goods, or information to move, though protection may remain uneven.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.7; College Board CED Topic 2.7",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-7",
+        "ced"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 35–40; printed pp. 127–132"
+        },
+        {
+          "sourceId": "ced-topic-2-7",
+          "locator": "Official CED Topic 2.7"
+        }
+      ],
+      "verificationNote": "Original definition preserves the comparison lesson's qualification that political protection differed by network and period."
+    },
+    {
+      "id": "world-2-state-involvement",
+      "term": "state involvement",
+      "definition": "The ways governments shape exchange through protection, taxation, roads, ports, customs, diplomacy, administration, or deliberate redirection of routes.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.7; College Board CED Topic 2.7",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-7",
+        "ced"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 35–40; printed pp. 127–132"
+        },
+        {
+          "sourceId": "ced-topic-2-7",
+          "locator": "Official CED Topic 2.7"
+        }
+      ],
+      "verificationNote": "Original definition is a comparison tool and does not imply that states controlled every exchange."
+    }
+  ],
   "sources": [
     {
       "id": "ced",

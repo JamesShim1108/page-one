@@ -53,6 +53,19 @@
 .course-feature .feature-foot {
   margin: 0.8rem 0 0;
 }
+.course-feature .catalog-empty {
+  color: #d3e2d8;
+  font-size: 0.95rem;
+  margin: 0.5rem 0 1.2rem;
+}
+.course-empty-shell {
+  max-width: 720px;
+  margin: 2rem 0 5rem;
+  text-align: left;
+}
+.course-empty-shell h2 {
+  margin-bottom: 0.75rem;
+}
 .how-section {
   border-top: 1px solid var(--line);
 }

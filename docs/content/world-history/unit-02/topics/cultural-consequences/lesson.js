@@ -243,6 +243,15 @@ export const lesson = {
     ],
   },
   vocabulary: [],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "world-2-cultural-diffusion",
+      "world-2-syncretism",
+      "world-2-translation",
+      "world-2-travel-writing",
+    ],
+  },
   connections: [
     {
       id: "c1",

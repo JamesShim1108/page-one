@@ -245,6 +245,10 @@ export const lesson = {
     ],
   },
   vocabulary: [],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: ["world-2-crop-diffusion", "world-2-pathogens", "world-2-epidemic"],
+  },
   connections: [
     {
       id: "c1",

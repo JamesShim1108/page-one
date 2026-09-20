@@ -40,6 +40,70 @@ export function safeUrl(value, location) {
   return value;
 }
 
+// These are the already-published World History pages that predate the
+// definition-coverage contract. New ready reading pages must opt in explicitly.
+const LEGACY_DEFINITION_COVERAGE = new Set([
+  ...Array.from({ length: 7 }, (_, index) => `world-1-${index + 1}`),
+  "world-1-guide",
+]);
+
+export function validateDefinitionCoverage({
+  coverage,
+  concepts,
+  text,
+  location,
+  pageId,
+}) {
+  if (!coverage && LEGACY_DEFINITION_COVERAGE.has(pageId)) return;
+  requireValue(
+    coverage && typeof coverage === "object",
+    location,
+    "add definitionCoverage",
+  );
+  const status = coverage.status || "required";
+  requireValue(
+    ["required", "not-needed"].includes(status),
+    location,
+    "definitionCoverage.status must be required or not-needed",
+  );
+  if (status === "not-needed") {
+    requireText(coverage.reason, location);
+    return;
+  }
+  const selectedIds = coverage.conceptIds;
+  requireValue(
+    Array.isArray(selectedIds) && selectedIds.length > 0,
+    location,
+    "required definitionCoverage needs conceptIds",
+  );
+  requireValue(
+    new Set(selectedIds).size === selectedIds.length,
+    location,
+    "definitionCoverage conceptIds must be unique",
+  );
+  const conceptMap = new Map(concepts.map((concept) => [concept.id, concept]));
+  const normalized = String(text || "").toLocaleLowerCase("en");
+  for (const id of selectedIds) {
+    const concept = conceptMap.get(id);
+    requireValue(
+      Boolean(concept),
+      location,
+      `definitionCoverage references unselected concept ${id}`,
+    );
+    const matched = [concept.term, ...(concept.aliases || [])].some((phrase) =>
+      new RegExp(
+        `(?<![\\p{L}\\p{N}_])${phrase.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}(?![\\p{L}\\p{N}_])`,
+        "iu",
+      ).test(normalized),
+    );
+    requireValue(
+      matched,
+      location,
+      `definition concept ${id} does not occur in eligible reading text`,
+    );
+  }
+}
+
 export function validateMetadata(record, location) {
   requireValue(record.schemaVersion === 1, location, "unsupported schemaVersion");
   requireId(record.id, location);
@@ -330,7 +394,7 @@ export function validateSelections(ids, questionMap, location) {
     requireValue(questionMap.has(id), location, `unknown question ${id}`);
 }
 
-function validateSourceLocators(locators, sourceMap, location) {
+export function validateSourceLocators(locators, sourceMap, location) {
   requireValue(Array.isArray(locators), location, "sourceLocators must be an array");
   locators.forEach((item) => {
     requireValue(item && typeof item === "object", location, "invalid source locator");

@@ -31,6 +31,12 @@ export const lesson = {
     },
   ],
   vocabulary: [],
+  // Required for every new ready reading page. List concepts matched in
+  // eligible explanatory prose; use not-needed with a reason for non-reading pages.
+  definitionCoverage: {
+    status: "required",
+    conceptIds: ["course-concept-name"],
+  },
   connections: [],
   sourceIds: ["course-source"], // Must exist in the course's sources.js.
 };

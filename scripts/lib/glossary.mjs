@@ -1,4 +1,9 @@
-import { requireId, requireText, requireValue } from "./validate.mjs";
+import {
+  requireId,
+  requireText,
+  requireValue,
+  validateSourceLocators,
+} from "./validate.mjs";
 
 // Resolve references at build time. A reader never downloads another lesson
 // just to explain one word, and authored definitions still have one owner.
@@ -17,7 +22,12 @@ export function resolveGlossary(groups, { courseId, topics, sources }) {
         "concept ID needs its course prefix",
       );
       requireValue(!concepts.has(entry.id), at, "duplicate concept ID");
-      let term, definition, sourceLabel;
+      let term,
+        definition,
+        sourceLabel,
+        sourceIds = [],
+        sourceLocators = [],
+        verificationNote = "";
       let topicIds = entry.topicIds || [];
       requireValue(Array.isArray(topicIds), at, "topicIds must be an array");
       if (entry.from) {
@@ -35,7 +45,8 @@ export function resolveGlossary(groups, { courseId, topics, sources }) {
         sourceLabel = `Topic ${lesson.code} glossary`;
         topicIds = [...new Set([lesson.id, ...topicIds])];
       } else {
-        ({ term, definition, sourceLabel } = entry);
+        ({ term, definition, sourceLabel, sourceIds, sourceLocators, verificationNote } =
+          entry);
         requireText(sourceLabel, at);
         requireValue(
           Array.isArray(entry.sourceIds) && entry.sourceIds.length > 0,
@@ -44,6 +55,11 @@ export function resolveGlossary(groups, { courseId, topics, sources }) {
         );
         for (const id of entry.sourceIds)
           requireValue(sources.has(id), at, `unknown source ${id}`);
+        if (entry.sourceLocators) {
+          validateSourceLocators(entry.sourceLocators, sources, at);
+          sourceLocators = entry.sourceLocators;
+        }
+        requireText(verificationNote, at);
       }
       requireText(term, at);
       requireText(definition, at);
@@ -57,14 +73,17 @@ export function resolveGlossary(groups, { courseId, topics, sources }) {
         at,
         "duplicate matching phrase",
       );
-      concepts.set(entry.id, {
+      const concept = {
         id: entry.id,
         term,
         definition,
         aliases,
         sourceLabel,
         topicIds,
-      });
+      };
+      if (!entry.from)
+        Object.assign(concept, { sourceIds, sourceLocators, verificationNote });
+      concepts.set(entry.id, concept);
     }
   }
   return concepts;

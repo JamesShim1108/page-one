@@ -10,6 +10,7 @@ import {
 
 function courseCard(course, index) {
   const available = course.status === "ready" && course.readyTopicCount > 0;
+  const hasCoursePage = available || course.emptyShell === true;
   return `<article class="course-feature course-catalog-card" aria-labelledby="course-${esc(course.id)}-title">
     <div class="catalog-number" aria-hidden="true"><span>COURSE</span><strong>${String(index + 1).padStart(2, "0")}</strong></div>
     <div class="catalog-description">
@@ -18,9 +19,9 @@ function courseCard(course, index) {
       <p class="period">${esc(course.period)}</p><p class="feature-info">${esc(course.description)}</p>
     </div>
     <div class="catalog-entry"><p class="eyebrow">${available ? "Ready to study" : "In development"}</p>
-      <ul class="catalog-topics">${course.previewTopics.map((topic) => `<li><span>${esc(topic.code)}</span>${esc(topic.title)}</li>`).join("")}</ul>
-      ${available ? link(`/course/${course.id}`, `Open course ${arrow}`, "btn") : badge("soon")}
-      <p class="feature-foot">${available ? "More topics are on the way." : "Lessons and practice are being prepared."}</p>
+      ${course.previewTopics.length ? `<ul class="catalog-topics">${course.previewTopics.map((topic) => `<li><span>${esc(topic.code)}</span>${esc(topic.title)}</li>`).join("")}</ul>` : `<p class="catalog-empty">No lessons added yet.</p>`}
+      ${hasCoursePage ? link(`/course/${course.id}`, available ? `Open course ${arrow}` : `View course ${arrow}`, "btn") : badge("soon")}
+      <p class="feature-foot">${available ? "More topics are on the way." : course.emptyShell ? "The course shell is ready; lessons are coming soon." : "Lessons and practice are being prepared."}</p>
     </div>
   </article>`;
 }
@@ -101,6 +102,12 @@ export function courseListPage({ courses }) {
 
 export function coursePage({ course, units }) {
   const firstTopic = course.firstTopic;
+  if (!units.length && course.emptyShell) {
+    return `<div class="container">${breadcrumbs([["Courses", "/courses"], [course.shortTitle]])}
+      <div class="page-intro"><p class="eyebrow">${esc(course.period)} · Coming soon</p><h1>${esc(course.title)}</h1><p>${esc(course.description)}</p></div>
+      <section class="empty-state course-empty-shell" aria-labelledby="course-empty-title"><p class="eyebrow">COMING SOON</p><h2 id="course-empty-title">No lessons or practice have been added yet.</h2><p>This course space is ready for future content.</p>${link("/courses", "Back to courses", "btn")}</section>
+    </div>`;
+  }
   return `<div class="container">${breadcrumbs([["Courses", "/courses"], [course.shortTitle]])}
     <div class="page-intro"><p class="eyebrow">${esc(course.period)} · ${units.length} units</p><h1>${esc(course.title)}</h1><p>${esc(course.description)}</p></div>
     <div class="course-layout"><div><div class="section-heading"><h2>Explore the units</h2></div>

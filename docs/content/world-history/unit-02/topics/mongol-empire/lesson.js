@@ -245,6 +245,16 @@ export const lesson = {
     ],
   },
   vocabulary: [],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "world-2-pastoral-mobility",
+      "world-2-tribute",
+      "world-2-khanate",
+      "world-2-pax-mongolica",
+      "world-2-relay-stations",
+    ],
+  },
   connections: [
     {
       id: "c1",

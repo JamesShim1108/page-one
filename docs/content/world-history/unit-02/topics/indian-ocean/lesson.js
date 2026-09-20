@@ -243,6 +243,15 @@ export const lesson = {
     ],
   },
   vocabulary: [],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "world-2-monsoon",
+      "world-2-maritime-technology",
+      "world-2-diaspora",
+      "world-2-port-states",
+    ],
+  },
   connections: [
     {
       id: "c1",

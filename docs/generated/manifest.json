@@ -1,4 +1,7 @@
 [
+  "algebra2/index.json",
+  "algebra2/routes.json",
+  "algebra2/search.json",
   "catalog.json",
   "world/banks/world-1-1.json",
   "world/banks/world-1-2.json",
