@@ -11,6 +11,8 @@ export const glossary = {
       aliases: ["Concept names"],
       sourceLabel: "Class notes",
       sourceIds: ["class-notes"],
+      sourceLocators: [{ sourceId: "class-notes", locator: "Page or section" }],
+      verificationNote: "Record what was checked and any qualification applied.",
       topicIds: ["yourcourse-1-1"],
     },
   ],

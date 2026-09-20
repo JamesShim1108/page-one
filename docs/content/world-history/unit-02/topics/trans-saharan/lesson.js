@@ -243,6 +243,16 @@ export const lesson = {
     ],
   },
   vocabulary: [],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "world-2-camel-technology",
+      "world-2-caravan-organization",
+      "world-2-oasis-communities",
+      "world-2-taxation",
+      "world-2-gold-and-salt-exchange",
+    ],
+  },
   connections: [
     {
       id: "c1",

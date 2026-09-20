@@ -699,6 +699,14 @@
       ]
     },
     "vocabulary": [],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-2-crop-diffusion",
+        "world-2-pathogens",
+        "world-2-epidemic"
+      ]
+    },
     "connections": [
       {
         "id": "c1",
@@ -753,7 +761,81 @@
     ]
   },
   "bankPath": "world/banks/world-2-6.json",
-  "glossary": [],
+  "glossary": [
+    {
+      "id": "world-2-crop-diffusion",
+      "term": "crop diffusion",
+      "definition": "The movement of cultivated plants between regions, after which local farmers and environments shaped whether the crops spread and what effects they produced.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.6; College Board CED Topic 2.6",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-6",
+        "amsco-unit-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 32–34; printed pp. 121–123"
+        },
+        {
+          "sourceId": "ced-topic-2-6",
+          "locator": "Official CED Topic 2.6"
+        }
+      ],
+      "verificationNote": "Original wording is intentionally regional and qualified, following the Unit 2 conflict ledger."
+    },
+    {
+      "id": "world-2-pathogens",
+      "term": "pathogens",
+      "definition": "Disease-causing organisms or agents that can move through connected human or animal systems, with transmission and effects shaped by local conditions.",
+      "aliases": [
+        "pathogen"
+      ],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.6; College Board CED Topic 2.6",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-6",
+        "amsco-unit-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 32–34; printed pp. 121–123"
+        },
+        {
+          "sourceId": "ced-topic-2-6",
+          "locator": "Official CED Topic 2.6"
+        }
+      ],
+      "verificationNote": "Original definition avoids unsupported claims about a single origin, immunity pattern, or casualty total."
+    },
+    {
+      "id": "world-2-epidemic",
+      "term": "epidemic",
+      "definition": "A disease event affecting many people in a community or region during a particular period; its scale and consequences vary by place and time.",
+      "aliases": [
+        "epidemics"
+      ],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.6; College Board CED Topic 2.6",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-6",
+        "amsco-unit-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 32–34; printed pp. 121–123"
+        },
+        {
+          "sourceId": "ced-topic-2-6",
+          "locator": "Official CED Topic 2.6"
+        }
+      ],
+      "verificationNote": "Original definition intentionally avoids a universal threshold or unsupported numerical estimate."
+    }
+  ],
   "sources": [
     {
       "id": "ced",

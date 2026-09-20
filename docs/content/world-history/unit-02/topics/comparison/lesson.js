@@ -245,6 +245,15 @@ export const lesson = {
     ],
   },
   vocabulary: [],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "world-2-route-geography",
+      "world-2-commercial-practice",
+      "world-2-political-stability",
+      "world-2-state-involvement",
+    ],
+  },
   connections: [
     {
       id: "c1",

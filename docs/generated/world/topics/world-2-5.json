@@ -699,6 +699,15 @@
       ]
     },
     "vocabulary": [],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-2-cultural-diffusion",
+        "world-2-syncretism",
+        "world-2-translation",
+        "world-2-travel-writing"
+      ]
+    },
     "connections": [
       {
         "id": "c1",
@@ -755,7 +764,100 @@
     ]
   },
   "bankPath": "world/banks/world-2-5.json",
-  "glossary": [],
+  "glossary": [
+    {
+      "id": "world-2-cultural-diffusion",
+      "term": "cultural diffusion",
+      "definition": "The movement of beliefs, practices, knowledge, technologies, or artistic forms between communities through contact, travel, institutions, or exchange.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.5; College Board CED Topic 2.5",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-5",
+        "amsco-unit-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 26–31; printed pp. 111–116"
+        },
+        {
+          "sourceId": "ced-topic-2-5",
+          "locator": "Official CED Topic 2.5"
+        }
+      ],
+      "verificationNote": "Original definition preserves the lesson's emphasis on movement plus local interpretation."
+    },
+    {
+      "id": "world-2-syncretism",
+      "term": "syncretism",
+      "definition": "The blending or adaptation of elements from different religious or cultural traditions into practices that take a new local form.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.5; College Board CED Topic 2.5",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-5",
+        "amsco-unit-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 26–31; printed pp. 111–116"
+        },
+        {
+          "sourceId": "ced-topic-2-5",
+          "locator": "Official CED Topic 2.5"
+        }
+      ],
+      "verificationNote": "Original definition distinguishes syncretism from automatic replacement or uniform conversion."
+    },
+    {
+      "id": "world-2-translation",
+      "term": "translation",
+      "definition": "The process of rendering words, texts, or ideas into another language or intellectual setting, often changing how knowledge is understood and used.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.5; College Board CED Topic 2.5",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-5",
+        "amsco-unit-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 26–31; printed pp. 111–116"
+        },
+        {
+          "sourceId": "ced-topic-2-5",
+          "locator": "Official CED Topic 2.5"
+        }
+      ],
+      "verificationNote": "Original wording reflects the lesson's source-context and adaptation framework."
+    },
+    {
+      "id": "world-2-travel-writing",
+      "term": "travel writing",
+      "definition": "An account of journeys and observations whose value depends on the traveler's purpose, audience, perspective, and the limits of representing other communities.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.5; College Board CED Topic 2.5",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-5",
+        "amsco-unit-1"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 26–31; printed pp. 111–116"
+        },
+        {
+          "sourceId": "ced-topic-2-5",
+          "locator": "Official CED Topic 2.5"
+        }
+      ],
+      "verificationNote": "Original definition follows the lesson's sourcing qualification and does not treat one traveler as universally representative."
+    }
+  ],
   "sources": [
     {
       "id": "ced",

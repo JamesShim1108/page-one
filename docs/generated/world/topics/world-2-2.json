@@ -699,6 +699,16 @@
       ]
     },
     "vocabulary": [],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-2-pastoral-mobility",
+        "world-2-tribute",
+        "world-2-khanate",
+        "world-2-pax-mongolica",
+        "world-2-relay-stations"
+      ]
+    },
     "connections": [
       {
         "id": "c1",
@@ -754,7 +764,124 @@
     ]
   },
   "bankPath": "world/banks/world-2-2.json",
-  "glossary": [],
+  "glossary": [
+    {
+      "id": "world-2-pastoral-mobility",
+      "term": "pastoral mobility",
+      "definition": "A way of life organized around moving with herds to use changing grasslands and water sources, shaping social and political organization on the steppe.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.2; Tang, Song, and Mongols class slides",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-2",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 8–14; printed pp. 85–91"
+        },
+        {
+          "sourceId": "class-tang-song-mongols",
+          "locator": "Supplied slides, Mongol state-building sections"
+        }
+      ],
+      "verificationNote": "Original definition preserves the lesson's distinction between mobility, horse culture, and political organization."
+    },
+    {
+      "id": "world-2-tribute",
+      "term": "tribute",
+      "definition": "Payments or required goods and services sent by subordinate communities or states to acknowledge a ruler's authority or secure protection.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.2; Tang, Song, and Mongols class slides",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-2",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 8–14; printed pp. 85–91"
+        },
+        {
+          "sourceId": "class-tang-song-mongols",
+          "locator": "Supplied slides, tributary-state and Mongol administration sections"
+        }
+      ],
+      "verificationNote": "Original wording allows both material payments and service obligations without equating tribute with ordinary commerce."
+    },
+    {
+      "id": "world-2-khanate",
+      "term": "khanate",
+      "definition": "A political realm ruled by a khan, including the successor divisions of the Mongol Empire that retained dynastic connections while developing different local policies.",
+      "aliases": [
+        "khanates"
+      ],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.2; College Board CED Topic 2.2",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-2"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 8–14; printed pp. 85–91"
+        },
+        {
+          "sourceId": "ced-topic-2-2",
+          "locator": "Official CED Topic 2.2"
+        }
+      ],
+      "verificationNote": "Original definition is qualified to avoid treating the Mongol successor realms as identical states."
+    },
+    {
+      "id": "world-2-pax-mongolica",
+      "term": "Pax Mongolica",
+      "definition": "A term for relative stability in parts of the Mongol Empire that could make travel and communication easier, while not erasing conquest, coercion, or uneven security.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.2; Tang, Song, and Mongols class slides",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-2",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 8–14; printed pp. 85–91"
+        },
+        {
+          "sourceId": "class-tang-song-mongols",
+          "locator": "Supplied slides, Pax Mongolica section"
+        }
+      ],
+      "verificationNote": "Definition follows the source-conflict ledger's required qualification about relative rather than universal peace."
+    },
+    {
+      "id": "world-2-relay-stations",
+      "term": "relay stations",
+      "definition": "Official stopping points and communication links that helped messengers or authorized travelers change mounts, rest, and move information across large territories.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.2; Tang, Song, and Mongols class slides",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-2",
+        "class-tang-song-mongols"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 8–14; printed pp. 85–91"
+        },
+        {
+          "sourceId": "class-tang-song-mongols",
+          "locator": "Supplied slides, Mongol communication section"
+        }
+      ],
+      "verificationNote": "Original wording describes administrative function without claiming that every traveler had equal access."
+    }
+  ],
   "sources": [
     {
       "id": "ced",

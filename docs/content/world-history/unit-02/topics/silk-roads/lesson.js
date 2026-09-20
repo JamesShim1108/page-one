@@ -245,6 +245,15 @@ export const lesson = {
     ],
   },
   vocabulary: [],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "world-2-caravanserai",
+      "world-2-credit",
+      "world-2-bills-of-exchange",
+      "world-2-luxury-goods",
+    ],
+  },
   connections: [
     {
       id: "c1",

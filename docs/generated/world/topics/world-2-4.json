@@ -699,6 +699,16 @@
       ]
     },
     "vocabulary": [],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-2-camel-technology",
+        "world-2-caravan-organization",
+        "world-2-oasis-communities",
+        "world-2-taxation",
+        "world-2-gold-and-salt-exchange"
+      ]
+    },
     "connections": [
       {
         "id": "c1",
@@ -754,7 +764,122 @@
     ]
   },
   "bankPath": "world/banks/world-2-4.json",
-  "glossary": [],
+  "glossary": [
+    {
+      "id": "world-2-camel-technology",
+      "term": "camel technology",
+      "definition": "The use of camels and related equipment, knowledge, and care practices to carry people and goods across arid routes where water and forage were limited.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.4; Journey along the trans-Saharan Trade Routes activity",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-4",
+        "class-trans-saharan"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 21–25; printed pp. 103–107"
+        },
+        {
+          "sourceId": "class-trans-saharan",
+          "locator": "Supplied activity, camel and saddle sections"
+        }
+      ],
+      "verificationNote": "The class activity is treated as a simulation/source lead; the definition is checked against the AMSCO topic range and lesson synthesis."
+    },
+    {
+      "id": "world-2-caravan-organization",
+      "term": "caravan organization",
+      "definition": "The coordinated planning of people, animals, goods, guides, water, and security needed to make repeated travel across difficult land routes possible.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.4; Journey along the trans-Saharan Trade Routes activity",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-4",
+        "class-trans-saharan"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 21–25; printed pp. 103–107"
+        },
+        {
+          "sourceId": "class-trans-saharan",
+          "locator": "Supplied activity, route-planning sections"
+        }
+      ],
+      "verificationNote": "Original wording identifies multiple logistical inputs and does not reduce desert trade to camels alone."
+    },
+    {
+      "id": "world-2-oasis-communities",
+      "term": "oasis communities",
+      "definition": "Settled communities around reliable water and resources in arid regions that could support travelers, production, information exchange, and local trade.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.4; Journey along the trans-Saharan Trade Routes activity",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-4",
+        "class-trans-saharan"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 21–25; printed pp. 103–107"
+        },
+        {
+          "sourceId": "class-trans-saharan",
+          "locator": "Supplied activity, desert-route sections"
+        }
+      ],
+      "verificationNote": "Original definition is qualified to distinguish oasis services from a claim that every oasis controlled a route."
+    },
+    {
+      "id": "world-2-taxation",
+      "term": "taxation",
+      "definition": "The collection of money, goods, or services by authorities, often used to fund government, protection, administration, or political power.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.4; College Board CED Topic 2.4",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-4"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 21–25; printed pp. 103–107"
+        },
+        {
+          "sourceId": "ced-topic-2-4",
+          "locator": "Official CED Topic 2.4"
+        }
+      ],
+      "verificationNote": "Original definition explains the mechanism without claiming taxation had identical effects in every state."
+    },
+    {
+      "id": "world-2-gold-and-salt-exchange",
+      "term": "gold and salt exchange",
+      "definition": "A regional trade relationship in which West African gold and Saharan salt moved through connected environments with different resources and demands.",
+      "aliases": [],
+      "sourceLabel": "AMSCO Unit 2 Topic 2.4; Journey along the trans-Saharan Trade Routes activity",
+      "sourceIds": [
+        "amsco-unit-2",
+        "ced-topic-2-4",
+        "class-trans-saharan"
+      ],
+      "sourceLocators": [
+        {
+          "sourceId": "amsco-unit-2",
+          "locator": "Supplied PDF pp. 21–25; printed pp. 103–107"
+        },
+        {
+          "sourceId": "class-trans-saharan",
+          "locator": "Supplied activity, Mali and salt sections"
+        }
+      ],
+      "verificationNote": "Original wording describes the exchange relationship without implying that only two products moved."
+    }
+  ],
   "sources": [
     {
       "id": "ced",

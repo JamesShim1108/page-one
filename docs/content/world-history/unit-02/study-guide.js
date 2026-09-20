@@ -305,6 +305,21 @@ export const guide = {
     "Unit 1 supplies the agricultural, commercial, religious, political, and scholarly foundations that Unit 2 networks intensified. The chronology overlaps: Unit 2 is not a wholly separate world that begins after Unit 1 ends.",
   laterCallout:
     "Looking ahead: later European maritime expansion after 1450 changed the scale and power of oceanic exchange. It is a later contrast, not evidence for causes inside this unit.",
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "world-2-caravanserai",
+      "world-2-credit",
+      "world-2-khanate",
+      "world-2-monsoon",
+      "world-2-diaspora",
+      "world-2-taxation",
+      "world-2-crop-diffusion",
+      "world-2-pathogens",
+      "world-2-commercial-practice",
+      "world-2-state-involvement",
+    ],
+  },
   sourceIds: [
     "ced",
     "exam",

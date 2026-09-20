@@ -43,7 +43,11 @@ Guides default to their unit's concepts. If two entries match the same phrase, t
 
 ## Add a new definition without a source lesson
 
-An entry may provide `term`, `definition`, `sourceLabel`, and `sourceIds` instead of `from`. The source IDs must exist in the course's `sources.js`. Use `topicIds` or page-level `glossaryIds` to choose where it applies. The template shows this form. Do not combine referenced and authored definitions in the same entry.
+An entry may provide `term`, `definition`, `sourceLabel`, and `sourceIds` instead of `from`. The source IDs must exist in the course's `sources.js`. Use `topicIds` or page-level `glossaryIds` to choose where it applies. Authored entries should also record `sourceLocators` and a concise `verificationNote`; locators are checked against the same source IDs and the note records the editorial verification decision. The template shows this form. Do not combine referenced and authored definitions in the same entry.
+
+## Coverage contract
+
+New ready lessons and guides must declare `definitionCoverage` in the authored page record. `status: "required"` lists selected glossary `conceptIds` that actually match eligible explanatory prose; `status: "not-needed"` requires a reason. The build rejects missing or unmatched coverage for new pages. A small legacy exemption exists only for already-published World History Unit 1 pages created before this contract. The contract is course-agnostic and does not create definitions automatically.
 
 ## Behavior and delivery
 
@@ -53,5 +57,6 @@ An entry may provide `term`, `definition`, `sourceLabel`, and `sourceIds` instea
 - Popups stay open while the pointer moves onto them, fit narrow screens, and disappear when navigating away.
 - Only selected definitions are included in that page's generated JSON. The browser does not load other lessons or the entire course glossary.
 - Lessons and study guides opt into the renderer. Quizzes, flashcards, writing responses, headings, and source links are not automatically annotated.
+- The same registry and coverage contract applies to future courses, including Algebra 2 when real lessons are later authorized. Keep equation markup and interactive assessment content outside plain-text annotation.
 
 Run `npm run build`, `npm run format`, and `npm run check` after editing glossary data. Validation catches unknown references, duplicate IDs, repeated phrases, and ambiguous meanings. Tests check exact source reuse, text escaping, word boundaries, reading coverage, and popup placement.

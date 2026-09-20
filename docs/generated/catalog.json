@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "def412aad1571f71",
+  "revision": "af4e9ce3cad13ed5",
   "courses": [
     {
       "schemaVersion": 1,
@@ -61,6 +61,23 @@
       },
       "indexPath": "world/index.json",
       "routesPath": "world/routes.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "algebra2",
+      "title": "Algebra 2",
+      "shortTitle": "Algebra 2",
+      "description": "Algebra 2 lessons and practice are coming soon.",
+      "previewDescription": "A future Algebra 2 course space for lessons, review, and practice.",
+      "status": "soon",
+      "period": "Mathematics",
+      "order": 2,
+      "emptyShell": true,
+      "readyTopicCount": 0,
+      "previewTopics": [],
+      "firstTopic": null,
+      "indexPath": "algebra2/index.json",
+      "routesPath": "algebra2/routes.json"
     }
   ]
 }
