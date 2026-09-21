@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "8726a3bfc52e69c7",
+  "revision": "448baacec0ddf9f5",
   "courses": [
     {
       "schemaVersion": 1,
@@ -66,10 +66,10 @@
     {
       "schemaVersion": 1,
       "id": "algebra2",
-      "title": "Algebra 2",
-      "shortTitle": "Algebra 2",
-      "description": "Algebra 2 lessons and practice are coming soon.",
-      "previewDescription": "A future Algebra 2 course space for lessons, review, and practice.",
+      "title": "Advanced Algebra 2",
+      "shortTitle": "Advanced Algebra 2",
+      "description": "Advanced Algebra 2 lessons and practice are coming soon.",
+      "previewDescription": "A future Advanced Algebra 2 course space for lessons, review, and practice.",
       "status": "soon",
       "period": "Mathematics",
       "order": 2,
