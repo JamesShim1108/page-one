@@ -25,12 +25,20 @@
 }
 .site-header nav {
   display: flex;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  padding-block: 6px;
   align-items: center;
   gap: 2rem;
   font-size: 0.9rem;
   font-weight: 550;
 }
 .site-header nav a {
+  flex: 0 0 auto;
+  white-space: nowrap;
   text-decoration: none;
 }
 .site-header nav a:hover {
@@ -193,6 +201,8 @@ main:focus {
   .site-header nav {
     gap: 1.2rem;
     font-size: 0.875rem;
+    flex-basis: 100%;
+    justify-content: flex-start;
   }
   .header-cta {
     min-height: 40px;
@@ -207,7 +217,7 @@ main:focus {
   }
   .site-header nav {
     margin-top: 0.75rem;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 0.6rem;
   }
 }
