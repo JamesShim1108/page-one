@@ -4,7 +4,7 @@ const escapePattern = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 // Match complete words in plain text, before HTML escaping. Longest phrases win,
 // so a shorter concept cannot split an already recognized multiword concept.
-export function createConceptText(concepts = []) {
+export function createConceptText(concepts = [], { triggerMode = "hover-focus" } = {}) {
   const phrases = new Map();
   for (const concept of concepts) {
     for (const phrase of [concept.term, ...(concept.aliases || [])]) {
@@ -30,7 +30,9 @@ export function createConceptText(concepts = []) {
       // One link per concept in each paragraph keeps repeated wording readable.
       html += seen.has(id)
         ? esc(match[0])
-        : `<button type="button" class="concept-trigger" id="concept-word-${triggerIndex++}" data-concept-id="${esc(id)}" aria-haspopup="dialog" aria-expanded="false">${esc(match[0])}</button>`;
+        : triggerMode === "off"
+          ? `<span class="concept-term" data-concept-id="${esc(id)}">${esc(match[0])}</span>`
+          : `<button type="button" class="concept-trigger" id="concept-word-${triggerIndex++}" data-concept-id="${esc(id)}" aria-haspopup="dialog" aria-expanded="false">${esc(match[0])}</button>`;
       seen.add(id);
       offset = match.index + match[0].length;
     }
@@ -38,8 +40,9 @@ export function createConceptText(concepts = []) {
   };
 }
 
-export function conceptHelp(concepts = []) {
-  return concepts.length
-    ? '<p class="concept-help">Dotted-underlined words have definitions. Hover, click, or tap to explore.</p>'
-    : "";
+export function conceptHelp(concepts = [], triggerMode = "hover-focus") {
+  if (!concepts.length || triggerMode === "off") return "";
+  return triggerMode === "click"
+    ? '<p class="concept-help">Dotted-underlined words have definitions. Select one to explore.</p>'
+    : '<p class="concept-help">Dotted-underlined words have definitions. Hover over or focus one to explore.</p>';
 }

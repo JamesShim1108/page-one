@@ -1,24 +1,84 @@
 import { escapeHtml as esc } from "./ui.js";
+import { readingMarkControls } from "./reading/marks.js";
+import { readingPath } from "./share/links.js";
+import { reportButton } from "./share/views.js";
 
-export function renderBlocks(blocks, assets = {}, renderText = esc) {
+export function stableBlockId(block, sectionId, index) {
+  return block?.id || `${sectionId}-block-${index + 1}`;
+}
+
+function blockExcerpt(block) {
+  if (!block || typeof block !== "object") return "";
+  if (block.type === "paragraph" || block.type === "callout") return block.text || "";
+  if (block.type === "list") return (block.items || []).join(" ");
+  return "";
+}
+
+function readingAnchor(block, html, sectionId, index, reportContext = null) {
+  if (!sectionId) return html;
+  const stableId = stableBlockId(block, sectionId, index);
+  const id = esc(stableId);
+  return `<div class="reading-block" id="${id}" data-reading-block="${id}" data-reading-section="${esc(sectionId)}">
+    ${html}
+    <div class="reading-block-actions">
+      <button type="button" class="reading-block-action" data-reading-action="copy-section" data-reading-section="${esc(sectionId)}" data-reading-block="${id}">Copy block link</button>
+      ${readingMarkControls({
+        targetType: "block",
+        targetId: stableBlockId(block, sectionId, index),
+        sectionId,
+        excerpt: blockExcerpt(block),
+        label: "this passage",
+      })}
+      ${
+        reportContext
+          ? reportButton({
+              type: "reading-block",
+              courseId: reportContext.courseId,
+              topicId: reportContext.topicId,
+              itemId: stableId,
+              title: blockExcerpt(block) || stableId,
+              revision: reportContext.revision,
+              path: readingPath(reportContext.route, sectionId, stableId),
+              label: "Report an issue",
+            })
+          : ""
+      }
+    </div>
+  </div>`;
+}
+
+export function renderBlocks(
+  blocks,
+  assets = {},
+  renderText = esc,
+  sectionId = "",
+  reportContext = null,
+) {
   return blocks
-    .map((block) => {
+    .map((block, index) => {
+      let html;
       switch (block.type) {
         case "paragraph":
-          return `<p>${renderText(block.text)}</p>`;
+          html = `<p>${renderText(block.text)}</p>`;
+          break;
         case "callout":
-          return `<aside class="note"><strong>${esc(block.title)}</strong> ${renderText(block.text)}</aside>`;
+          html = `<aside class="note"><strong>${esc(block.title)}</strong> ${renderText(block.text)}</aside>`;
+          break;
         case "list": {
           const tag = block.ordered ? "ol" : "ul";
-          return `<${tag}>${block.items.map((item) => `<li>${renderText(item)}</li>`).join("")}</${tag}>`;
+          html = `<${tag}>${block.items.map((item) => `<li>${renderText(item)}</li>`).join("")}</${tag}>`;
+          break;
         }
         case "table":
-          return renderTable(block, renderText);
+          html = renderTable(block, renderText);
+          break;
         case "image":
-          return renderImage(block, assets[block.assetId]);
+          html = renderImage(block, assets[block.assetId]);
+          break;
         default:
           throw new Error(`Unsupported content block: ${block.type}`);
       }
+      return readingAnchor(block, html, sectionId, index, reportContext);
     })
     .join("\n");
 }

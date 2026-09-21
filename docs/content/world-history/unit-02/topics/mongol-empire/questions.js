@@ -829,6 +829,7 @@ export const bank = {
       topicId: "world-2-2",
       title: "The Mongol Empire and the Making of the Modern World topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: [
         "world-2-2-q05",
         "world-2-2-q06",

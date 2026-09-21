@@ -65,6 +65,8 @@ export function quizButton(
 export function quizEntry(quiz, attempt, label = "Take topic quiz") {
   if (attempt && !attempt.complete)
     return link(`/quiz/${quiz.id}`, `Resume quiz ${arrow}`, "btn");
+  if (attempt?.complete)
+    return link(`/results/${quiz.id}`, `View results ${arrow}`, "btn");
   return quizButton(`${label} ${arrow}`, "start", quiz.id);
 }
 

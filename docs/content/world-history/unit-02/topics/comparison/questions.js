@@ -816,6 +816,7 @@ export const bank = {
       topicId: "world-2-7",
       title: "Comparison of Economic Exchange topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: [
         "world-2-7-q05",
         "world-2-7-q06",

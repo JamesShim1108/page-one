@@ -1,24 +1,97 @@
 export const maxResponseLength = 10000;
 
-export function createWritingEngine(quiz) {
-  const responseFields =
+function responseFieldsFor(quiz) {
+  return (
     quiz.responseFields ||
-    quiz.parts.map((part) => ({ ...part, label: part.prompt, required: true }));
+    quiz.parts.map((part) => ({ ...part, label: part.prompt, required: true }))
+  );
+}
+
+function rubricFor(quiz) {
+  return (
+    quiz.rubric || quiz.parts.map((part) => ({ id: part.id, label: part.id, points: 1 }))
+  );
+}
+
+export function createPromptSnapshot(quiz) {
+  return {
+    schemaVersion: 1,
+    promptId: quiz.id,
+    promptVersion: quiz.version,
+    promptTitle: quiz.promptTitle || "",
+    prompt: quiz.prompt || "",
+    instructions: quiz.instructions || "",
+    responseFields: responseFieldsFor(quiz).map((field) => ({
+      id: field.id,
+      label: field.label || field.prompt,
+      prompt: field.prompt,
+      required: field.required !== false,
+    })),
+    rubric: rubricFor(quiz).map((criterion) => ({
+      id: criterion.id,
+      label: criterion.label,
+      points: criterion.points,
+      guidance: criterion.guidance || "",
+    })),
+  };
+}
+
+export function createWritingEngine(quiz) {
+  const responseFields = responseFieldsFor(quiz);
   const responseIds = responseFields.map((field) => field.id);
-  const rubric =
-    quiz.rubric || quiz.parts.map((part) => ({ id: part.id, label: part.id, points: 1 }));
+  const rubric = rubricFor(quiz);
   const scoreIds = rubric.map((criterion) => criterion.id);
   const scoreById = new Map(rubric.map((criterion) => [criterion.id, criterion]));
   const emptyScores = () => Object.fromEntries(scoreIds.map((id) => [id, null]));
 
-  function newDraft() {
+  function newDraft({ draftId = `${quiz.id}@v${quiz.version}`, promptSnapshot } = {}) {
     return {
+      schemaVersion: 2,
+      draftId,
       version: quiz.version,
       quizId: quiz.id,
+      promptId: quiz.id,
+      promptVersion: quiz.version,
+      promptSnapshot: promptSnapshot || createPromptSnapshot(quiz),
       responses: Object.fromEntries(responseIds.map((id) => [id, ""])),
+      lastEditedField: null,
+      editorPosition: null,
       reviewed: false,
       scores: emptyScores(),
     };
+  }
+
+  function normalizeDraft(draft, options = {}) {
+    const normalized = newDraft({
+      draftId: draft?.draftId || options.draftId,
+      promptSnapshot: options.promptSnapshot,
+    });
+    if (draft?.responses && typeof draft.responses === "object")
+      for (const id of responseIds)
+        if (typeof draft.responses[id] === "string")
+          normalized.responses[id] = draft.responses[id];
+    if (responseIds.includes(draft?.lastEditedField))
+      normalized.lastEditedField = draft.lastEditedField;
+    if (
+      draft?.editorPosition &&
+      typeof draft.editorPosition === "object" &&
+      Number.isInteger(draft.editorPosition.start) &&
+      Number.isInteger(draft.editorPosition.end) &&
+      draft.editorPosition.start >= 0 &&
+      draft.editorPosition.end >= draft.editorPosition.start
+    )
+      normalized.editorPosition = {
+        start: draft.editorPosition.start,
+        end: draft.editorPosition.end,
+      };
+    if (draft?.reviewed === true) {
+      normalized.reviewed = true;
+      if (draft.scores && typeof draft.scores === "object")
+        for (const id of scoreIds)
+          if (Number.isInteger(draft.scores[id]))
+            normalized.scores[id] = draft.scores[id];
+    }
+    return normalized;
   }
 
   function validate(draft) {
@@ -27,6 +100,18 @@ export function createWritingEngine(quiz) {
       draft.version !== quiz.version ||
       draft.quizId !== quiz.id ||
       typeof draft.reviewed !== "boolean"
+    )
+      return false;
+    if (
+      (draft.schemaVersion !== undefined && draft.schemaVersion > 2) ||
+      (draft.promptId !== undefined && draft.promptId !== quiz.id) ||
+      (draft.promptVersion !== undefined && draft.promptVersion !== quiz.version)
+    )
+      return false;
+    if (
+      draft.promptSnapshot &&
+      (draft.promptSnapshot.promptId !== quiz.id ||
+        draft.promptSnapshot.promptVersion !== quiz.version)
     )
       return false;
     for (const value of [draft.responses, draft.scores]) {
@@ -120,6 +205,8 @@ export function createWritingEngine(quiz) {
     revise,
     setScore,
     total,
+    normalizeDraft,
+    promptSnapshot: createPromptSnapshot(quiz),
     responseFields,
     rubric,
   };

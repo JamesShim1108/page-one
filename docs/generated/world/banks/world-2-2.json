@@ -440,6 +440,7 @@
       }
     ]
   },
+  "contentRevision": "e8287f617358cc0b",
   "questions": [
     {
       "id": "world-2-2-q01",
@@ -1308,6 +1309,7 @@
       "topicId": "world-2-2",
       "title": "The Mongol Empire and the Making of the Modern World topic quiz",
       "quizType": "topic",
+      "customPractice": true,
       "questionIds": [
         "world-2-2-q05",
         "world-2-2-q06",

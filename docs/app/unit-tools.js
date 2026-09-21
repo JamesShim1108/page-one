@@ -7,7 +7,7 @@ function visibleForNetworks(element, active) {
   element.hidden = ids.length > 0 && !ids.some((id) => active.has(id));
 }
 
-export function mountUnitTools(root, guide) {
+export function mountUnitTools(root, guide, { sources = [] } = {}) {
   const data = guide?.networkData;
   if (!data) return () => {};
   const listeners = [];
@@ -65,7 +65,8 @@ export function mountUnitTools(root, guide) {
       root.querySelector("[data-compare-dimension]")?.value || "geography";
     const output = root.querySelector("[data-compare-output]");
     if (!first || !second || !output) return;
-    output.innerHTML = `<div class="pairwise-cell"><h3>${esc(first.label)}</h3><p>${esc(first.dimensions[dimension])}</p><small>Source: ${esc(first.sourceIds.join(", "))}</small></div><div class="pairwise-cell"><h3>${esc(second.label)}</h3><p>${esc(second.dimensions[dimension])}</p><small>Source: ${esc(second.sourceIds.join(", "))}</small></div>`;
+    const sourceName = (id) => sources.find((source) => source.id === id)?.label || id;
+    output.innerHTML = `<div class="pairwise-cell"><h3>${esc(first.label)}</h3><p>${esc(first.dimensions[dimension])}</p><small>Source: ${esc(first.sourceIds.map(sourceName).join(", "))}</small></div><div class="pairwise-cell"><h3>${esc(second.label)}</h3><p>${esc(second.dimensions[dimension])}</p><small>Source: ${esc(second.sourceIds.map(sourceName).join(", "))}</small></div>`;
   };
   root
     .querySelectorAll("[data-compare-a], [data-compare-b], [data-compare-dimension]")

@@ -440,6 +440,7 @@
       }
     ]
   },
+  "contentRevision": "e7c90a5d303ad541",
   "questions": [
     {
       "id": "world-2-6-q01",
@@ -1308,6 +1309,7 @@
       "topicId": "world-2-6",
       "title": "Environmental Consequences of Connectivity topic quiz",
       "quizType": "topic",
+      "customPractice": true,
       "questionIds": [
         "world-2-6-q05",
         "world-2-6-q06",

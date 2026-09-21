@@ -825,6 +825,7 @@ export const bank = {
       topicId: "world-2-3",
       title: "Exchange in the Indian Ocean topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: [
         "world-2-3-q05",
         "world-2-3-q06",

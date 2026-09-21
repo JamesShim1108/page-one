@@ -21,13 +21,15 @@ function courseCard(course, index) {
     <div class="catalog-entry"><p class="eyebrow">${available ? "Ready to study" : "In development"}</p>
       ${course.previewTopics.length ? `<ul class="catalog-topics">${course.previewTopics.map((topic) => `<li><span>${esc(topic.code)}</span>${esc(topic.title)}</li>`).join("")}</ul>` : `<p class="catalog-empty">No lessons added yet.</p>`}
       ${hasCoursePage ? link(`/course/${course.id}`, available ? `Open course ${arrow}` : `View course ${arrow}`, "btn") : badge("soon")}
-      <p class="feature-foot">${available ? "More topics are on the way." : course.emptyShell ? "The course shell is ready; lessons are coming soon." : "Lessons and practice are being prepared."}</p>
+      <p class="feature-foot">${available ? "More topics are on the way." : course.emptyShell ? "Lessons and practice are coming soon." : "Lessons and practice are being prepared."}</p>
     </div>
   </article>`;
 }
 
 function coursePreview(courses) {
-  const available = courses.filter((course) => course.status === "ready").slice(0, 6);
+  const available = courses
+    .filter((course) => course.status === "ready" && course.readyTopicCount > 0)
+    .slice(0, 6);
   if (!available.length) return "";
   const cycle = Math.max(2, available.length);
   const cards = Array.from({ length: cycle * 3 + 1 }, (_, index) => {
@@ -52,18 +54,73 @@ function coursePreview(courses) {
   </aside>`;
 }
 
-export function homePage({ courses }, resumeAttempt = null) {
+function recentLabel(target) {
+  return (
+    {
+      reading: "Reading",
+      quiz: "Practice",
+      writing: "Writing",
+      terms: "Terms",
+    }[target.kind] || "Recent work"
+  );
+}
+
+function recentRoute(target) {
+  if (!target.active || !["reading", "writing"].includes(target.kind))
+    return target.route;
+  const [path, query = ""] = target.route.split("?");
+  const params = new URLSearchParams(query);
+  params.set("resume", "1");
+  return `${path}?${params}`;
+}
+
+function recentCard(target) {
+  const action = target.active ? "Resume" : "Open";
+  return `<article class="recent-work-card"><p class="eyebrow">${recentLabel(target)}</p><h3>${esc(target.title)}</h3>${target.detail ? `<p>${esc(target.detail)}</p>` : ""}${link(recentRoute(target), `${action} ${arrow}`, "text-link")}</article>`;
+}
+
+function recentWorkSection(work) {
+  const resume = work?.resume || null;
+  const items = Array.isArray(work?.items) ? work.items : [];
+  if (!resume && !items.length) return "";
+  const alternatives = items.filter((item) => item.key !== resume?.key).slice(0, 3);
+  return `<section class="recent-work" aria-labelledby="recent-work-title">
+    <div class="section-heading"><div><p class="eyebrow">${resume ? "YOUR SAVED PLACE" : "YOUR RECENT WORK"}</p><h2 id="recent-work-title">${resume ? "Continue where you left off" : "Recently opened"}</h2></div>${items.length ? '<button type="button" class="text-button" data-action="clear-recents">Clear recent</button>' : ""}</div>
+    ${resume ? `<article class="recent-work-resume"><div><p class="eyebrow">${recentLabel(resume)}</p><h3>${esc(resume.title)}</h3><p>${esc(resume.detail || "Saved work ready to continue")}</p></div>${link(recentRoute(resume), `Resume ${arrow}`, "btn")}</article>` : ""}
+    ${alternatives.length ? `<div class="recent-work-grid" aria-label="Recent destinations">${alternatives.map(recentCard).join("")}</div>` : ""}
+  </section>`;
+}
+
+export function homePage({ courses }, recent = null) {
+  const work =
+    recent && (Object.hasOwn(recent, "resume") || Object.hasOwn(recent, "items"))
+      ? recent
+      : recent
+        ? {
+            resume: {
+              key: `quiz:${recent.quizId}`,
+              kind: "quiz",
+              route: `/quiz/${recent.quizId}`,
+              title: "Practice quiz",
+              detail: "Saved practice",
+              active: true,
+            },
+            items: [],
+          }
+        : null;
+  const resume = work?.resume;
   return `<div class="container">
     <section class="home-top" aria-labelledby="home-title">
       <div class="home-copy"><p class="eyebrow">A little learning, every day</p>
         <h1 id="home-title">Courses.<br><em>Your pace.</em></h1>
         <p class="home-intro">Lessons, key terms, and practice in one place. Understand the concepts, test what you know, and find what to review next.</p>
-        <div class="actions">${link("/?section=courses", `Browse courses ${arrow}`, "btn")}
-          ${resumeAttempt ? link(`/quiz/${resumeAttempt.quizId}`, "Resume practice", "text-link") : ""}
+        <div class="actions">${resume ? link(resume.route, `Resume ${arrow}`, "btn") : link("/?section=courses", `Browse courses ${arrow}`, "btn")}
+          ${link("/session", `Build a short session ${arrow}`, "text-link")}
         </div>
         <p class="free-note">Free access · No account needed</p>
       </div>${coursePreview(courses)}
     </section>
+    ${recentWorkSection(work)}
     <section class="home-courses" id="courses" aria-labelledby="courses-title">
       <div class="section-heading"><h2 id="courses-title">Find your next chapter</h2>${link("/courses", `View all courses ${arrow}`, "text-link")}</div>
       <div class="course-catalog">${courses.map(courseCard).join("")}</div>
@@ -105,7 +162,7 @@ export function coursePage({ course, units }) {
   if (!units.length && course.emptyShell) {
     return `<div class="container">${breadcrumbs([["Courses", "/courses"], [course.shortTitle]])}
       <div class="page-intro"><p class="eyebrow">${esc(course.period)} · Coming soon</p><h1>${esc(course.title)}</h1><p>${esc(course.description)}</p></div>
-      <section class="empty-state course-empty-shell" aria-labelledby="course-empty-title"><p class="eyebrow">COMING SOON</p><h2 id="course-empty-title">No lessons or practice have been added yet.</h2><p>This course space is ready for future content.</p>${link("/courses", "Back to courses", "btn")}</section>
+      <section class="empty-state course-empty-shell" aria-labelledby="course-empty-title"><p class="eyebrow">COMING SOON</p><h2 id="course-empty-title">No lessons or practice have been added yet.</h2><p>Lessons and practice will appear here when they are available.</p>${link("/courses", "Back to courses", "btn")}</section>
     </div>`;
   }
   return `<div class="container">${breadcrumbs([["Courses", "/courses"], [course.shortTitle]])}
@@ -197,6 +254,7 @@ export function unitPage(data, peekAttempt = () => null) {
   return `<div class="container unit-hub">${breadcrumbs(crumbs)}
     <header class="study-heading"><p class="eyebrow">Unit ${unit.number} · ${esc(unit.period)} · Study Hub</p>
       <h1>${esc(unit.title)}</h1><p>What do you want to practice?</p>
+      <div class="actions">${link(`/print?course=${encodeURIComponent(unit.courseId)}&kind=unit&unit=${encodeURIComponent(unit.id)}`, "Print selected topics", "btn secondary")}</div>
     </header>
     <nav class="study-mode-grid" aria-label="Unit study modes">${modes
       .map((mode) => {

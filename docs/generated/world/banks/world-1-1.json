@@ -219,6 +219,7 @@
       }
     ]
   },
+  "contentRevision": "305cf5f56a89ace7",
   "questions": [
     {
       "id": "q1",
@@ -407,6 +408,7 @@
       "topicId": "world-1-1",
       "title": "East Asia topic quiz",
       "quizType": "topic",
+      "customPractice": true,
       "questionIds": [
         "q1",
         "q2",

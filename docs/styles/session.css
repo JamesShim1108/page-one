@@ -1,0 +1,136 @@
+.session-page {
+  max-width: 980px;
+}
+
+.session-builder {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0 4rem;
+}
+
+.session-builder-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.session-field,
+.session-topics,
+.session-mode,
+.session-preference {
+  border: 1px solid var(--line, #b7c4bf);
+  background: color-mix(in srgb, var(--paper, #f7faf7) 88%, transparent);
+  padding: 1rem;
+}
+
+.session-field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.session-field > span,
+.session-topics legend,
+.session-mode legend {
+  font-weight: 700;
+}
+
+.session-field select,
+.session-field input {
+  width: 100%;
+  min-height: 2.6rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--line, #b7c4bf);
+  background: var(--paper, #f7faf7);
+  color: inherit;
+  font: inherit;
+}
+
+.session-field small {
+  color: var(--muted, #53645e);
+}
+
+.session-topics,
+.session-mode {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.session-topics ul {
+  display: grid;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.session-topic-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.55rem 0.65rem;
+  border-top: 1px solid color-mix(in srgb, var(--line, #b7c4bf) 60%, transparent);
+}
+
+.session-topic-count {
+  color: var(--muted, #53645e);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.session-mode label,
+.session-preference {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.session-preview {
+  border-left: 4px solid var(--ink, #17332e);
+  background: var(--wash, #eaf0ed);
+  padding: 1rem 1.2rem;
+}
+
+.session-preview h2,
+.session-preview p {
+  margin: 0.25rem 0;
+}
+
+.session-warning,
+.session-notice {
+  padding: 0.8rem 1rem;
+  border-left: 4px solid #9b6b13;
+  background: #fff7df;
+}
+
+.session-resume {
+  margin: 1.25rem 0;
+}
+
+.session-share {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.7rem 1rem;
+  color: var(--muted, #53645e);
+}
+
+.session-share p {
+  margin: 0;
+}
+
+.session-copy-status {
+  min-height: 1.4em;
+}
+
+@media (max-width: 720px) {
+  .session-builder-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .session-topic-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

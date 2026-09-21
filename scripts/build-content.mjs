@@ -107,6 +107,101 @@ const guideReadingText = (guide) => {
   collect(guide);
   return strings.join("\n");
 };
+const compactSearchText = (value, limit = 360) => {
+  const text = String(value || "")
+    .replace(/\s+/g, " ")
+    .trim();
+  return text.length <= limit ? text : `${text.slice(0, limit - 1).trimEnd()}…`;
+};
+const stableBlockId = (block, sectionId, index) =>
+  block?.id || `${sectionId}-block-${index + 1}`;
+
+function topicSearchRecords({ course, unit, lesson, selectedGlossary }) {
+  const records = [];
+  const base = {
+    courseId: course.id,
+    unitId: unit.id,
+    topicId: lesson.id,
+    code: lesson.code,
+    title: lesson.title,
+    aliases: lesson.searchAliases || [],
+  };
+  records.push({
+    id: lesson.id,
+    type: "topic",
+    ...base,
+    text: [lesson.title, lesson.summary, lesson.bigIdea, lesson.context].join("\n"),
+    excerpt: lesson.summary,
+    route: `/topic/${lesson.id}`,
+  });
+  for (const section of lesson.sections || []) {
+    const sectionText = [
+      section.title,
+      section.takeaway,
+      ...(section.blocks || []).flatMap(blockReadingText),
+    ]
+      .filter(Boolean)
+      .join("\n");
+    records.push({
+      id: `${lesson.id}/${section.id}`,
+      type: "section",
+      ...base,
+      sectionId: section.id,
+      heading: section.title,
+      aliases: section.searchAliases || [],
+      text: sectionText,
+      excerpt: section.takeaway || sectionText,
+      route: `/topic/${lesson.id}?section=${section.id}`,
+    });
+    for (const [index, block] of (section.blocks || []).entries()) {
+      const text = blockReadingText(block).filter(Boolean).join(" ");
+      if (!text || !["paragraph", "callout", "list"].includes(block.type)) continue;
+      const blockId = stableBlockId(block, section.id, index);
+      records.push({
+        id: `${lesson.id}/${section.id}/${blockId}`,
+        type: "passage",
+        ...base,
+        sectionId: section.id,
+        blockId,
+        heading: section.title,
+        aliases: block.searchAliases || [],
+        text,
+        excerpt: compactSearchText(text),
+        route: `/topic/${lesson.id}?section=${section.id}&block=${blockId}`,
+      });
+    }
+  }
+  for (const concept of selectedGlossary || []) {
+    const phraseList = [concept.term, ...(concept.aliases || [])].map((phrase) =>
+      String(phrase).toLocaleLowerCase("en"),
+    );
+    const location = (lesson.sections || []).find((section) =>
+      [
+        section.title,
+        section.takeaway,
+        ...(section.blocks || []).flatMap(blockReadingText),
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLocaleLowerCase("en")
+        .includes(phraseList[0]),
+    );
+    if (!location) continue;
+    records.push({
+      id: `${lesson.id}/glossary/${concept.id}`,
+      type: "glossary",
+      ...base,
+      sectionId: location.id,
+      heading: location.title,
+      title: concept.term,
+      aliases: concept.aliases || [],
+      text: [concept.term, ...(concept.aliases || [])].join("\n"),
+      excerpt: `Term used in ${location.title}.`,
+      route: `/topic/${lesson.id}?section=${location.id}`,
+    });
+  }
+  return records;
+}
 
 export async function compileContent(root = projectRoot) {
   const docsRoot = join(root, "docs"),
@@ -183,7 +278,8 @@ export async function compileContent(root = projectRoot) {
     );
     const units = [],
       topics = new Map(),
-      questionIds = new Set();
+      questionIds = new Set(),
+      customPracticePools = [];
     const routes = {
       unit: {},
       topic: {},
@@ -240,6 +336,11 @@ export async function compileContent(root = projectRoot) {
         "unit number must be positive",
       );
       const unitTopics = [];
+      const reservedQuestionIds = new Set(
+        (unit.quizzes || []).flatMap((quiz) =>
+          (quiz.selections || []).flatMap((selection) => selection.questionIds || []),
+        ),
+      );
       if (await exists(join(unitRoot, "topics"))) {
         for (const topicFolder of await directories(join(unitRoot, "topics"))) {
           const topicRoot = join(unitRoot, "topics", topicFolder);
@@ -326,6 +427,7 @@ export async function compileContent(root = projectRoot) {
       topics,
       sources,
     });
+    const searchRecords = [];
     for (const set of termSets.values()) {
       const owners = units.filter(({ unit }) => unit.termSetIds?.includes(set.id));
       requireValue(owners.length > 0, termsRoot, `unreferenced term set ${set.id}`);
@@ -342,6 +444,11 @@ export async function compileContent(root = projectRoot) {
     const readyTopics = [];
     for (const record of units) {
       const { unit, unitRoot } = record;
+      const reservedQuestionIds = new Set(
+        (unit.quizzes || []).flatMap((quiz) =>
+          (quiz.selections || []).flatMap((selection) => selection.questionIds || []),
+        ),
+      );
       const guide = await optionalModule(join(unitRoot, "study-guide.js"), "guide", null);
       const writing = await optionalModule(
         join(unitRoot, "writing.js"),
@@ -395,6 +502,18 @@ export async function compileContent(root = projectRoot) {
         })),
       };
       record.info = unitInfo;
+      if (course.status === "ready" && unit.status === "ready") {
+        searchRecords.push({
+          id: unit.id,
+          type: "unit",
+          courseId: course.id,
+          unitId: unit.id,
+          title: unit.title,
+          text: [unit.title, unit.description, unit.period].filter(Boolean).join("\n"),
+          excerpt: unit.description,
+          route: `/unit/${unit.id}`,
+        });
+      }
       route("unit", unit.id, `${course.id}/units/${unit.id}.json`);
       emit(routes.unit[unit.id], {
         course,
@@ -432,25 +551,44 @@ export async function compileContent(root = projectRoot) {
           ]),
         );
         const bankPath = `${course.id}/banks/${lesson.id}.json`;
+        const selectedGlossary = selectGlossary(
+          glossary,
+          { topicIds: [lesson.id], ids: lesson.glossaryIds },
+          lesson.id,
+        );
+        context.contentRevision = createHash("sha256")
+          .update(json({ lesson, glossary: selectedGlossary }))
+          .digest("hex")
+          .slice(0, 16);
         emit(bankPath, { ...context, ...bank, concepts, assets: bankAssets });
+        for (const quiz of bank.quizzes.filter(
+          (candidate) =>
+            candidate.quizType === "topic" && candidate.customPractice === true,
+        )) {
+          customPracticePools.push({
+            id: `${lesson.id}:${quiz.id}`,
+            quizId: quiz.id,
+            courseId: course.id,
+            unitId: unit.id,
+            topicId: lesson.id,
+            code: lesson.code,
+            title: lesson.title,
+            bankPath,
+            questionIds: quiz.questionIds.filter((id) => !reservedQuestionIds.has(id)),
+          });
+        }
         for (const quiz of bank.quizzes) route("quiz", quiz.id, bankPath);
         route("topic", lesson.id, `${course.id}/topics/${lesson.id}.json`);
         emit(routes.topic[lesson.id], {
           ...context,
           lesson,
           bankPath,
-          glossary: selectGlossary(
-            glossary,
-            { topicIds: [lesson.id], ids: lesson.glossaryIds },
-            lesson.id,
-          ),
+          glossary: selectedGlossary,
           sources: lesson.sourceIds.map((id) => sources.get(id)),
           assets: lessonAssets,
         });
-        const selectedGlossary = selectGlossary(
-          glossary,
-          { topicIds: [lesson.id], ids: lesson.glossaryIds },
-          lesson.id,
+        searchRecords.push(
+          ...topicSearchRecords({ course, unit, lesson, selectedGlossary }),
         );
         validateDefinitionCoverage({
           coverage: lesson.definitionCoverage,
@@ -723,6 +861,10 @@ export async function compileContent(root = projectRoot) {
           },
           `${unit.id} guide`,
         );
+        const guideRevision = createHash("sha256")
+          .update(json({ guide, glossary: selectedGuideGlossary }))
+          .digest("hex")
+          .slice(0, 16);
         validateDefinitionCoverage({
           coverage: guide.definitionCoverage,
           concepts: selectedGuideGlossary,
@@ -735,6 +877,7 @@ export async function compileContent(root = projectRoot) {
           unit: unitInfo,
           framework,
           guide,
+          contentRevision: guideRevision,
           glossary: selectedGuideGlossary,
           sources: guideSources,
           topics: availableTopics.map(({ lesson }) => ({
@@ -757,23 +900,50 @@ export async function compileContent(root = projectRoot) {
       firstTopic: readyTopics[0] || null,
       indexPath: `${course.id}/index.json`,
       routesPath: `${course.id}/routes.json`,
+      customPracticePath: `${course.id}/custom-practice.json`,
     };
+    if (course.status === "ready" && readyTopics.length) {
+      searchRecords.unshift({
+        id: course.id,
+        type: "course",
+        courseId: course.id,
+        title: course.title,
+        text: [course.title, course.shortTitle, course.description, course.period]
+          .filter(Boolean)
+          .join("\n"),
+        excerpt: course.description,
+        route: `/course/${course.id}`,
+      });
+    }
     emit(catalogEntry.indexPath, {
       course: catalogEntry,
       units: units.map((record) => record.info),
     });
     emit(catalogEntry.routesPath, routes);
-    // Search remains per course. It is generated now and can be fetched by a search UI later.
-    emit(
-      `${course.id}/search.json`,
-      readyTopics.map((topic) => ({
-        id: topic.id,
-        title: topic.title,
-        summary: topic.summary,
-        unitId: topic.unitId,
-        url: `#/topic/${topic.id}`,
+    const customPracticeRevision = createHash("sha256")
+      .update(json(customPracticePools))
+      .digest("hex")
+      .slice(0, 16);
+    emit(catalogEntry.customPracticePath, {
+      schemaVersion: 1,
+      courseId: course.id,
+      revision: customPracticeRevision,
+      pools: customPracticePools,
+    });
+    // Search is compact, per-course, and never contains assessment or private work.
+    const searchRevision = createHash("sha256")
+      .update(json(searchRecords))
+      .digest("hex")
+      .slice(0, 16);
+    emit(`${course.id}/search.json`, {
+      schemaVersion: 1,
+      courseId: course.id,
+      revision: searchRevision,
+      records: searchRecords.map((record) => ({
+        ...record,
+        excerpt: compactSearchText(record.excerpt),
       })),
-    );
+    });
     catalog.push(catalogEntry);
   }
   catalog.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id));
@@ -824,8 +994,14 @@ export async function buildContent({ root = projectRoot, check = false } = {}) {
     }
     await writeFile(manifestPath, json(paths));
   }
+  const searchSizes = paths
+    .filter((path) => path.endsWith("/search.json"))
+    .map((path) => Buffer.byteLength(output.get(path)));
+  const searchReport = searchSizes.length
+    ? ` Search indexes: ${searchSizes.length}; largest ${Math.max(...searchSizes)} bytes.`
+    : "";
   console.log(
-    `${check ? "Validated" : "Built"} ${paths.length} content files. Catalog: ${Buffer.byteLength(output.get("catalog.json"))} bytes.`,
+    `${check ? "Validated" : "Built"} ${paths.length} content files. Catalog: ${Buffer.byteLength(output.get("catalog.json"))} bytes.${searchReport}`,
   );
   return output;
 }

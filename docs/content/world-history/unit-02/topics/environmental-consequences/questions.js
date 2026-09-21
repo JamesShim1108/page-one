@@ -819,6 +819,7 @@ export const bank = {
       topicId: "world-2-6",
       title: "Environmental Consequences of Connectivity topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: [
         "world-2-6-q05",
         "world-2-6-q06",

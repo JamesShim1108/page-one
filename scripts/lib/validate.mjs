@@ -115,7 +115,7 @@ export function validateMetadata(record, location) {
   );
 }
 
-export function validateBlocks(blocks, assets, location) {
+export function validateBlocks(blocks, assets, location, stableIds = new Set()) {
   requireValue(
     Array.isArray(blocks) && blocks.length > 0,
     location,
@@ -123,6 +123,11 @@ export function validateBlocks(blocks, assets, location) {
   );
   for (const [index, block] of blocks.entries()) {
     const at = `${location}, block ${index + 1}`;
+    if (block.id !== undefined) {
+      requireId(block.id, at);
+      requireValue(!stableIds.has(block.id), at, `duplicate stable block ID ${block.id}`);
+      stableIds.add(block.id);
+    }
     switch (block.type) {
       case "paragraph":
         requireText(block.text, at);
@@ -211,6 +216,7 @@ export function validateLesson(
     "practice",
     "writing",
   ]);
+  const stableBlockIds = new Set();
   for (const section of sections.values()) {
     requireValue(
       !reservedAnchors.has(section.id),
@@ -220,7 +226,7 @@ export function validateLesson(
     requireText(section.title, location);
     requireText(section.conceptTitle, location);
     requireText(section.takeaway, location);
-    validateBlocks(section.blocks, assets, `${location}.${section.id}`);
+    validateBlocks(section.blocks, assets, `${location}.${section.id}`, stableBlockIds);
     if (section.sourceIds) {
       requireValue(
         Array.isArray(section.sourceIds) && section.sourceIds.length > 0,
@@ -371,6 +377,18 @@ export function validateLesson(
       location,
       "unknown quizType",
     );
+    if (quiz.customPractice !== undefined)
+      requireValue(
+        typeof quiz.customPractice === "boolean",
+        location,
+        `${quiz.id}.customPractice must be boolean`,
+      );
+    if (quiz.customPractice === true)
+      requireValue(
+        quiz.quizType === "topic",
+        location,
+        `${quiz.id}.customPractice is reserved for topic practice pools`,
+      );
     validateSelections(quiz.questionIds, questions, `${location}.${quiz.id}`);
   }
   if (lesson.status === "ready") {

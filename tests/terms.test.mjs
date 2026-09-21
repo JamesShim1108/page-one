@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { createTermsEngine } from "../docs/app/terms/engine.js";
 import { createTermsStore } from "../docs/app/terms/store.js";
+import { createLocalAdapter } from "../docs/app/storage/adapter.js";
 import { termsIndexPage, termSetPage } from "../docs/app/terms/views.js";
 import { unitPage } from "../docs/app/views/catalog.js";
 import { compileContent } from "../scripts/build-content.mjs";
@@ -20,6 +21,15 @@ const sourceChecks = [
 const fixture = { ...a, revision: "source-a-1" };
 const compiled = await compileContent();
 const data = (path) => JSON.parse(compiled.get(path));
+
+function memoryStorage() {
+  const values = new Map();
+  return {
+    getItem: (key) => values.get(key) ?? null,
+    setItem: (key, value) => values.set(key, String(value)),
+    removeItem: (key) => values.delete(key),
+  };
+}
 
 for (const [set, count, checksum] of sourceChecks) {
   test(`${set.title}: exact source terms, definitions, order, and no duplicates`, () => {
@@ -81,6 +91,11 @@ test("shuffle is a permutation, unshuffle restores original order, front switchi
   const engine = createTermsEngine(fixture, null, () => 0);
   engine.classify("known");
   engine.setShuffle(true);
+  assert.deepEqual(
+    engine.state.order,
+    fixture.cards.map((card) => card.id),
+  );
+  engine.start();
   assert.notDeepEqual(
     engine.state.order,
     fixture.cards.map((card) => card.id),
@@ -90,6 +105,11 @@ test("shuffle is a permutation, unshuffle restores original order, front switchi
     fixture.cards.map((card) => card.id).sort(),
   );
   engine.setShuffle(false);
+  assert.notDeepEqual(
+    engine.state.order,
+    fixture.cards.map((card) => card.id),
+  );
+  engine.start();
   assert.deepEqual(
     engine.state.order,
     fixture.cards.map((card) => card.id),
@@ -100,6 +120,47 @@ test("shuffle is a permutation, unshuffle restores original order, front switchi
   assert.equal(engine.state.front, "definition");
   assert.equal(engine.counts().known, 1);
   assert.equal(JSON.stringify(fixture.cards), before);
+});
+
+test("classification undo restores unstudied state, cursor, and the completed card", () => {
+  const engine = createTermsEngine({ ...fixture, cards: fixture.cards.slice(0, 2) });
+  engine.classify("known");
+  engine.classify("unknown");
+  assert.equal(engine.current(), null);
+  assert.equal(engine.undo(), true);
+  assert.equal(engine.current().id, fixture.cards[1].id);
+  assert.equal(engine.state.classifications[fixture.cards[1].id], undefined);
+  assert.equal(engine.counts().remaining, 1);
+  assert.equal(engine.undo(), true);
+  assert.equal(engine.current().id, fixture.cards[0].id);
+  assert.equal(engine.state.classifications[fixture.cards[0].id], undefined);
+  assert.equal(engine.undo(), false);
+});
+
+test("undo is bounded, survives a snapshot, and a new classification does not redo", () => {
+  const small = { ...fixture, cards: fixture.cards.slice(0, 2) };
+  const engine = createTermsEngine(small);
+  engine.classify("known");
+  engine.move(-1);
+  engine.classify("unknown");
+  const restored = createTermsEngine(small, engine.snapshot());
+  assert.equal(restored.undo(), true);
+  assert.equal(restored.state.classifications[small.cards[0].id], "known");
+  restored.classify("known");
+  assert.equal(restored.undo(), true);
+  assert.equal(restored.state.classifications[small.cards[0].id], "known");
+});
+
+test("a filtered list can start a frozen custom round that survives reload", () => {
+  const small = { ...fixture, cards: fixture.cards.slice(0, 3) };
+  const engine = createTermsEngine(small, null, () => 0);
+  assert.equal(engine.startWithIds([small.cards[2].id, small.cards[0].id]), true);
+  assert.deepEqual(engine.state.order, [small.cards[2].id, small.cards[0].id]);
+  engine.classify("unknown");
+  const restored = createTermsEngine(small, engine.snapshot(), () => 0.5);
+  assert.equal(restored.state.filter, "custom");
+  assert.deepEqual(restored.state.order, [small.cards[2].id, small.cards[0].id]);
+  assert.equal(restored.current().id, small.cards[0].id);
 });
 
 test("restart retains classifications and preferences; reset clears only this set's progress", () => {
@@ -240,6 +301,42 @@ test("term lists show all cards once and render unsafe text only as text", () =>
   });
   assert.ok(!rendered.includes("<script>"));
   assert.ok(rendered.includes("&lt;script&gt;"));
+});
+
+test("private Terms notes stay separate, escape in views, and recover removed cards", async () => {
+  const adapter = createLocalAdapter({
+    indexedDB: null,
+    getStorage: () => memoryStorage(),
+    deploymentScope: "terms-notes",
+  });
+  await adapter.ready;
+  const store = createTermsStore({ adapter });
+  await store.ready;
+  const set = { ...fixture, courseId: "world" };
+  const saved = await store.saveNote(set, "caliph", '<script>alert("x")</script>');
+  assert.equal(saved.ok, true);
+  const notes = await store.loadNotes(set);
+  assert.equal(notes.active.caliph.note, '<script>alert("x")</script>');
+
+  const engine = createTermsEngine(set);
+  const rendered = termSetPage(
+    {
+      course: { id: "world", shortTitle: "AP World" },
+      unit: { id: "world-1", number: 1 },
+      set,
+    },
+    engine,
+    { mode: "list", notes },
+  );
+  assert.doesNotMatch(rendered, /<script>alert/);
+  assert.match(rendered, /&lt;script&gt;alert/);
+  assert.match(rendered, /Copy term and definition/);
+  assert.match(rendered, /Copy with my note/);
+
+  const revised = { ...set, revision: "new-revision", cards: set.cards.slice(1) };
+  const unresolved = await store.loadNotes(revised);
+  assert.equal(unresolved.unresolved.length, 1);
+  assert.equal(unresolved.unresolved[0].priorTerm, "Caliph");
 });
 
 test("validation rejects duplicate required terms, card IDs, and blank definitions", () => {

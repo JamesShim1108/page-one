@@ -219,6 +219,7 @@
       }
     ]
   },
+  "contentRevision": "3ed8e77de96e7922",
   "questions": [
     {
       "id": "islam-q1",
@@ -441,6 +442,7 @@
       "topicId": "world-1-2",
       "title": "Dar al-Islam topic quiz",
       "quizType": "topic",
+      "customPractice": true,
       "questionIds": [
         "islam-q1",
         "islam-q2",

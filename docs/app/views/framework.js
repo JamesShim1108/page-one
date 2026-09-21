@@ -27,10 +27,12 @@ export function frameworkGuide(framework) {
   </details>`;
 }
 
-export function writingInvite(unit) {
+export function writingInvite(unit, { offlineReading = false } = {}) {
   if (!unit.writingQuizzes?.length) return "";
   const labels = { saq: "SAQ", leq: "LEQ", dbq: "DBQ", skill: "SKILL" };
-  return `<section class="writing-invite" id="writing">
+  if (offlineReading)
+    return `<section class="writing-invite" id="writing" data-reading-section="writing"><p class="eyebrow">WRITING PRACTICE / AVAILABLE ONLINE</p><h2>Writing practice needs a connection.</h2><p>Your saved reading pack excludes writing activities and answer tasks. Reconnect to open this practice.</p></section>`;
+  return `<section class="writing-invite" id="writing" data-reading-section="writing">
     <p class="eyebrow">WRITING PRACTICE / UNIT ${unit.number}</p>
     <h2>Make the evidence count.</h2>
     <p>Write your response, then use the criteria and annotated examples to review your reasoning.</p>
@@ -46,4 +48,15 @@ export function sourceList(sources) {
         `<li>${source.url ? `<a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.label)}</a>` : esc(source.label)}</li>`,
     )
     .join("");
+}
+
+export function sourceLabel(sources = [], id = "") {
+  return sources.find((source) => source.id === id)?.label || id;
+}
+
+export function sourceLabels(sources = [], ids = []) {
+  return ids
+    .map((id) => sourceLabel(sources, id))
+    .filter(Boolean)
+    .join(" · ");
 }

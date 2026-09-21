@@ -209,6 +209,24 @@
   line-height: 1.25;
   margin-bottom: 16px;
 }
+.writing-prompt-disclosure {
+  display: none;
+  margin: 0 0 20px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--soft);
+}
+.writing-prompt-disclosure summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.writing-prompt-disclosure[open] {
+  padding-bottom: 18px;
+}
+.writing-prompt-disclosure .writing-context {
+  margin-top: 18px;
+}
 .ape-steps {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -244,8 +262,9 @@
   display: block;
   width: 100%;
   max-width: 100%;
-  min-height: 200px;
+  min-height: 220px;
   resize: vertical;
+  scroll-margin-block-end: 30vh;
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 5px;
@@ -260,6 +279,10 @@
 }
 .writing-part textarea[readonly] {
   background: var(--paper);
+}
+.writing-part textarea.writing-too-long,
+.writing-part textarea:invalid {
+  border-color: var(--red, #9a3d2f);
 }
 .writing-field-meta {
   display: flex;
@@ -290,6 +313,114 @@
   color: var(--muted);
   font-size: 0.875rem;
   margin: 14px 0 0;
+}
+.writing-save-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+.writing-save-row p {
+  margin: 0;
+}
+.writing-save-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.writing-history,
+.writing-export {
+  margin-top: 28px;
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+}
+.writing-history-heading,
+.writing-version-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.writing-history h2,
+.writing-export summary {
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+.writing-history-list,
+.writing-recovery-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+}
+.writing-history-list li,
+.writing-recovery-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--line);
+  padding: 12px 0;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+.writing-recovery-list {
+  margin-top: 24px;
+}
+.writing-version-preview {
+  margin-top: 22px;
+  padding: 18px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+}
+.writing-version-preview article {
+  border-top: 1px solid var(--line);
+  margin-top: 16px;
+  padding-top: 16px;
+}
+.writing-version-preview pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 8px 0 0;
+  font: 0.9375rem/1.7 var(--sans);
+}
+.writing-export summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.writing-export > p {
+  color: var(--muted);
+}
+.writing-export-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 16px 0;
+}
+.writing-export-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.writing-export textarea {
+  display: block;
+  width: 100%;
+  min-height: 220px;
+  resize: vertical;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: #fcfdf9;
+  color: var(--ink);
+  font: 0.9375rem/1.65 var(--mono);
+}
+.writing-export .writing-save-actions {
+  margin-top: 14px;
 }
 .writing-review {
   margin-top: 32px;
@@ -562,6 +693,12 @@
   .writing-layout {
     grid-template-columns: minmax(0, 1fr);
   }
+  .writing-context--wide {
+    display: none;
+  }
+  .writing-prompt-disclosure {
+    display: block;
+  }
   .writing-sidebar {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -617,6 +754,7 @@
   }
   .writing-part textarea {
     padding: 14px;
+    min-height: 240px;
   }
   .network-place-list,
   .document-card dl {

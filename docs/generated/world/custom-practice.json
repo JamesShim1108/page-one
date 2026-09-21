@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "courseId": "world",
+  "revision": "9657cbad642b8f54",
+  "pools": [
+    {
+      "id": "world-1-1:world-1-1-quiz",
+      "quizId": "world-1-1-quiz",
+      "courseId": "world",
+      "unitId": "world-1",
+      "topicId": "world-1-1",
+      "code": "1.1",
+      "title": "East Asia",
+      "bankPath": "world/banks/world-1-1.json",
+      "questionIds": [
+        "q2",
+        "q3",
+        "q4",
+        "q6",
+        "q8"
+      ]
+    },
+    {
+      "id": "world-1-2:world-1-2-quiz",
+      "quizId": "world-1-2-quiz",
+      "courseId": "world",
+      "unitId": "world-1",
+      "topicId": "world-1-2",
+      "code": "1.2",
+      "title": "Dar al-Islam",
+      "bankPath": "world/banks/world-1-2.json",
+      "questionIds": [
+        "islam-q2",
+        "islam-q3",
+        "islam-q5",
+        "islam-q6",
+        "islam-q7",
+        "islam-q9",
+        "islam-q10"
+      ]
+    },
+    {
+      "id": "world-1-3:world-1-3-quiz",
+      "quizId": "world-1-3-quiz",
+      "courseId": "world",
+      "unitId": "world-1",
+      "topicId": "world-1-3",
+      "code": "1.3",
+      "title": "South and Southeast Asia",
+      "bankPath": "world/banks/world-1-3.json",
+      "questionIds": [
+        "world-1-3-q2",
+        "world-1-3-q3",
+        "world-1-3-q5",
+        "world-1-3-q7",
+        "world-1-3-q8"
+      ]
+    },
+    {
+      "id": "world-1-4:world-1-4-quiz",
+      "quizId": "world-1-4-quiz",
+      "courseId": "world",
+      "unitId": "world-1",
+      "topicId": "world-1-4",
+      "code": "1.4",
+      "title": "The Americas",
+      "bankPath": "world/banks/world-1-4.json",
+      "questionIds": [
+        "world-1-4-q2",
+        "world-1-4-q3",
+        "world-1-4-q5",
+        "world-1-4-q7",
+        "world-1-4-q8"
+      ]
+    },
+    {
+      "id": "world-1-5:world-1-5-quiz",
+      "quizId": "world-1-5-quiz",
+      "courseId": "world",
+      "unitId": "world-1",
+      "topicId": "world-1-5",
+      "code": "1.5",
+      "title": "Africa",
+      "bankPath": "world/banks/world-1-5.json",
+      "questionIds": [
+        "world-1-5-q2",
+        "world-1-5-q3",
+        "world-1-5-q5",
+        "world-1-5-q7",
+        "world-1-5-q8"
+      ]
+    },
+    {
+      "id": "world-1-6:world-1-6-quiz",
+      "quizId": "world-1-6-quiz",
+      "courseId": "world",
+      "unitId": "world-1",
+      "topicId": "world-1-6",
+      "code": "1.6",
+      "title": "Developments in Europe",
+      "bankPath": "world/banks/world-1-6.json",
+      "questionIds": [
+        "world-1-6-q2",
+        "world-1-6-q3",
+        "world-1-6-q5",
+        "world-1-6-q7",
+        "world-1-6-q8"
+      ]
+    },
+    {
+      "id": "world-1-7:world-1-7-quiz",
+      "quizId": "world-1-7-quiz",
+      "courseId": "world",
+      "unitId": "world-1",
+      "topicId": "world-1-7",
+      "code": "1.7",
+      "title": "Comparisons in the Period",
+      "bankPath": "world/banks/world-1-7.json",
+      "questionIds": [
+        "world-1-7-q2",
+        "world-1-7-q3",
+        "world-1-7-q5",
+        "world-1-7-q7",
+        "world-1-7-q8"
+      ]
+    },
+    {
+      "id": "world-2-1:world-2-1-quiz",
+      "quizId": "world-2-1-quiz",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-1",
+      "code": "2.1",
+      "title": "The Silk Roads",
+      "bankPath": "world/banks/world-2-1.json",
+      "questionIds": [
+        "world-2-1-q05",
+        "world-2-1-q06",
+        "world-2-1-q07",
+        "world-2-1-q08",
+        "world-2-1-q09",
+        "world-2-1-q10",
+        "world-2-1-q11",
+        "world-2-1-q12",
+        "world-2-1-q13",
+        "world-2-1-q14",
+        "world-2-1-q15",
+        "world-2-1-q16"
+      ]
+    },
+    {
+      "id": "world-2-2:world-2-2-quiz",
+      "quizId": "world-2-2-quiz",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-2",
+      "code": "2.2",
+      "title": "The Mongol Empire and the Making of the Modern World",
+      "bankPath": "world/banks/world-2-2.json",
+      "questionIds": [
+        "world-2-2-q05",
+        "world-2-2-q06",
+        "world-2-2-q07",
+        "world-2-2-q08",
+        "world-2-2-q09",
+        "world-2-2-q10",
+        "world-2-2-q11",
+        "world-2-2-q12",
+        "world-2-2-q13",
+        "world-2-2-q14",
+        "world-2-2-q15",
+        "world-2-2-q16"
+      ]
+    },
+    {
+      "id": "world-2-3:world-2-3-quiz",
+      "quizId": "world-2-3-quiz",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-3",
+      "code": "2.3",
+      "title": "Exchange in the Indian Ocean",
+      "bankPath": "world/banks/world-2-3.json",
+      "questionIds": [
+        "world-2-3-q05",
+        "world-2-3-q06",
+        "world-2-3-q07",
+        "world-2-3-q08",
+        "world-2-3-q09",
+        "world-2-3-q10",
+        "world-2-3-q11",
+        "world-2-3-q12",
+        "world-2-3-q13",
+        "world-2-3-q14",
+        "world-2-3-q15",
+        "world-2-3-q16"
+      ]
+    },
+    {
+      "id": "world-2-4:world-2-4-quiz",
+      "quizId": "world-2-4-quiz",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-4",
+      "code": "2.4",
+      "title": "Trans-Saharan Trade Routes",
+      "bankPath": "world/banks/world-2-4.json",
+      "questionIds": [
+        "world-2-4-q05",
+        "world-2-4-q06",
+        "world-2-4-q07",
+        "world-2-4-q08",
+        "world-2-4-q09",
+        "world-2-4-q10",
+        "world-2-4-q11",
+        "world-2-4-q12",
+        "world-2-4-q13",
+        "world-2-4-q14",
+        "world-2-4-q15",
+        "world-2-4-q16"
+      ]
+    },
+    {
+      "id": "world-2-5:world-2-5-quiz",
+      "quizId": "world-2-5-quiz",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-5",
+      "code": "2.5",
+      "title": "Cultural Consequences of Connectivity",
+      "bankPath": "world/banks/world-2-5.json",
+      "questionIds": [
+        "world-2-5-q05",
+        "world-2-5-q06",
+        "world-2-5-q07",
+        "world-2-5-q08",
+        "world-2-5-q09",
+        "world-2-5-q10",
+        "world-2-5-q11",
+        "world-2-5-q12",
+        "world-2-5-q13",
+        "world-2-5-q14",
+        "world-2-5-q15",
+        "world-2-5-q16"
+      ]
+    },
+    {
+      "id": "world-2-6:world-2-6-quiz",
+      "quizId": "world-2-6-quiz",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-6",
+      "code": "2.6",
+      "title": "Environmental Consequences of Connectivity",
+      "bankPath": "world/banks/world-2-6.json",
+      "questionIds": [
+        "world-2-6-q05",
+        "world-2-6-q06",
+        "world-2-6-q07",
+        "world-2-6-q08",
+        "world-2-6-q09",
+        "world-2-6-q10",
+        "world-2-6-q11",
+        "world-2-6-q12",
+        "world-2-6-q13",
+        "world-2-6-q14",
+        "world-2-6-q15",
+        "world-2-6-q16"
+      ]
+    },
+    {
+      "id": "world-2-7:world-2-7-quiz",
+      "quizId": "world-2-7-quiz",
+      "courseId": "world",
+      "unitId": "world-2",
+      "topicId": "world-2-7",
+      "code": "2.7",
+      "title": "Comparison of Economic Exchange",
+      "bankPath": "world/banks/world-2-7.json",
+      "questionIds": [
+        "world-2-7-q05",
+        "world-2-7-q06",
+        "world-2-7-q07",
+        "world-2-7-q08",
+        "world-2-7-q09",
+        "world-2-7-q10",
+        "world-2-7-q11",
+        "world-2-7-q12",
+        "world-2-7-q13",
+        "world-2-7-q14",
+        "world-2-7-q15",
+        "world-2-7-q16"
+      ]
+    }
+  ]
+}

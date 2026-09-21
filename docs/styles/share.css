@@ -1,0 +1,161 @@
+.share-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px 24px;
+  align-items: center;
+  margin: 22px 0;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--soft);
+}
+.share-panel__copy p {
+  margin: 0;
+}
+.share-panel__copy .eyebrow {
+  margin-bottom: 4px;
+  font-size: 0.75rem;
+}
+.share-panel__actions,
+.share-qr__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.share-status,
+.report-status {
+  min-height: 1.5em;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.share-fallback,
+.share-qr,
+.reading-copy-fallback {
+  grid-column: 1 / -1;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+.share-fallback label,
+.share-qr label,
+.reading-copy-fallback label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+.share-fallback input,
+.share-qr input,
+.reading-copy-fallback input {
+  width: 100%;
+  min-width: 18rem;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--ink);
+}
+.share-qr__head {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: baseline;
+}
+.share-qr__head h3 {
+  margin: 0;
+}
+.share-qr__image {
+  width: min(280px, 100%);
+  margin: 14px 0;
+  padding: 12px;
+  background: white;
+  border: 1px solid var(--line);
+}
+.share-qr__image svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.report-trigger {
+  margin-left: 8px;
+}
+.report-dialog {
+  width: min(640px, calc(100vw - 32px));
+  max-width: 640px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0;
+  color: var(--ink);
+  background: var(--white);
+}
+.report-dialog::backdrop {
+  background: rgb(23 62 52 / 35%);
+}
+.report-dialog form {
+  display: grid;
+  gap: 10px;
+  padding: 24px;
+}
+.report-dialog__head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: start;
+}
+.report-dialog__head h2 {
+  margin: 0;
+}
+.report-dialog__context {
+  padding: 10px 12px;
+  border-left: 3px solid var(--focus);
+  background: var(--soft);
+}
+.report-dialog select,
+.report-dialog textarea {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+}
+.report-preview {
+  max-height: 220px;
+  overflow: auto;
+  margin: 0;
+  padding: 12px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  border: 1px solid var(--line);
+  background: #fff;
+  font: 0.8rem/1.5 var(--mono);
+}
+.report-dialog[hidden] {
+  display: none;
+}
+@media (max-width: 680px) {
+  .share-panel {
+    grid-template-columns: 1fr;
+  }
+  .share-fallback,
+  .share-qr,
+  .reading-copy-fallback {
+    grid-column: auto;
+  }
+  .share-fallback input,
+  .share-qr input,
+  .reading-copy-fallback input {
+    min-width: 0;
+  }
+}
+@media print {
+  .share-panel__actions,
+  .share-status,
+  .share-qr__head button,
+  .share-qr__actions,
+  .report-trigger {
+    display: none !important;
+  }
+  .share-qr {
+    display: block !important;
+  }
+}

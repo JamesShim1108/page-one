@@ -207,6 +207,7 @@ export const bank = {
       topicId: "world-1-1",
       title: "East Asia topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8"],
     },
     {

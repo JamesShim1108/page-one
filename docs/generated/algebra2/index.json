@@ -14,7 +14,8 @@
     "previewTopics": [],
     "firstTopic": null,
     "indexPath": "algebra2/index.json",
-    "routesPath": "algebra2/routes.json"
+    "routesPath": "algebra2/routes.json",
+    "customPracticePath": "algebra2/custom-practice.json"
   },
   "units": []
 }

@@ -16,6 +16,9 @@
   text-decoration-thickness: 1.5px;
   cursor: help;
 }
+.concept-term {
+  display: inline;
+}
 .concept-trigger:hover,
 .concept-trigger[aria-expanded="true"] {
   background: var(--soft);
@@ -60,6 +63,25 @@
   font-size: 0.75rem;
   color: var(--muted);
   margin-top: 0.7rem;
+}
+.concept-popover__copy {
+  min-height: 44px;
+  margin-top: 1rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--green);
+  font-weight: 650;
+}
+.concept-popover__copy:hover {
+  background: var(--soft);
+}
+.concept-popover__status {
+  min-height: 1.35rem;
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
 }
 .concept-popover__close {
   position: absolute;

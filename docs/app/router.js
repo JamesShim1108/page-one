@@ -2,7 +2,16 @@ export function parseRoute(hash) {
   const [pathname, query = ""] = (hash.replace(/^#/, "") || "/").split("?");
   const parts = pathname.split("/").filter(Boolean);
   const type = parts[0] || "home";
-  const validLength = ["home", "courses"].includes(type)
+  const validLength = [
+    "home",
+    "courses",
+    "settings",
+    "history",
+    "search",
+    "review",
+    "session",
+    "print",
+  ].includes(type)
     ? parts.length <= 1
     : parts.length === 2;
   return {

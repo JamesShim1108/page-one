@@ -5,8 +5,16 @@
 @import url("./styles/catalog.css");
 @import url("./styles/carousel.css");
 @import url("./styles/lesson.css");
+@import url("./styles/reading.css");
 @import url("./styles/quiz.css");
 @import url("./styles/study.css");
 @import url("./styles/media.css");
 @import url("./styles/terms.css");
 @import url("./styles/concepts.css");
+@import url("./styles/settings.css");
+@import url("./styles/search.css");
+@import url("./styles/session.css");
+@import url("./styles/share.css");
+@import url("./styles/print.css");
+@import url("./styles/backup.css");
+@import url("./styles/offline.css");

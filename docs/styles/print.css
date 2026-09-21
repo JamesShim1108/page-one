@@ -1,0 +1,385 @@
+.print-page {
+  --print-ink: #161616;
+  --print-rule: #777;
+  color: var(--print-ink);
+}
+
+.print-config {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(220px, 0.8fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--line, #c7c7c7);
+  background: var(--paper, #fff);
+}
+
+.print-config h2,
+.print-config p {
+  margin-top: 0;
+}
+
+.print-options,
+.print-paper,
+.print-topic-picker {
+  display: grid;
+  gap: 0.65rem;
+  align-content: start;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.print-options legend,
+.print-paper legend,
+.print-topic-picker legend {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.print-option,
+.print-paper label,
+.print-topic-picker label {
+  display: flex;
+  gap: 0.45rem;
+  align-items: baseline;
+}
+
+.print-option small {
+  display: block;
+  margin-left: 1.45rem;
+}
+
+.print-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line, #c7c7c7);
+}
+
+.print-actions [data-print-status] {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.print-preview-frame {
+  max-width: 8.5in;
+  margin: 0 auto 4rem;
+  padding: 0.5in;
+  background: #fff;
+  color: var(--print-ink);
+  border: 1px solid #b5b5b5;
+  box-shadow: 0 8px 30px rgb(0 0 0 / 10%);
+}
+
+.print-preview-frame[data-print-paper="a4"] {
+  max-width: 8.27in;
+}
+
+.print-preview-label {
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--print-ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.print-document__body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+}
+
+.print-document__body + .print-document__body {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 3px double var(--print-ink);
+}
+
+.print-document__heading {
+  margin-bottom: 1.75rem;
+  break-after: avoid;
+}
+
+.print-document__heading h1 {
+  margin-bottom: 0.35rem;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1.1;
+}
+
+.print-reading-lede {
+  padding: 0.8rem 1rem;
+  border-left: 4px solid var(--print-ink);
+  margin-bottom: 1.5rem;
+}
+
+.print-reading-section,
+.print-connection,
+.print-question,
+.print-writing-field,
+.print-term-card,
+.print-private-notes article {
+  break-inside: avoid;
+}
+
+.print-reading-section {
+  margin: 1.5rem 0;
+}
+
+.print-reading-section h2,
+.print-writing-field h2 {
+  margin: 0 0 0.55rem;
+  font-size: 1.25rem;
+  break-after: avoid;
+}
+
+.print-reading-section h3,
+.print-connection h3 {
+  margin-bottom: 0.3rem;
+}
+
+.print-reading-section p,
+.print-reading-section ul,
+.print-reading-section ol {
+  margin-top: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.print-takeaway {
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--print-rule);
+}
+
+.print-sources {
+  margin-top: 2rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--print-rule);
+  font-size: 0.82rem;
+}
+
+.print-terms {
+  margin: 0;
+}
+
+.print-terms > div {
+  margin: 0 0 0.9rem;
+  break-inside: avoid;
+}
+
+.print-terms dt {
+  font-weight: 700;
+}
+
+.print-terms dd {
+  margin: 0.15rem 0 0;
+}
+
+.print-term-card dt span {
+  display: inline-block;
+  min-width: 2rem;
+}
+
+.print-question {
+  margin: 1.6rem 0;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #aaa;
+}
+
+.print-question h3 {
+  margin: 0 0 0.7rem;
+  font-size: 1.05rem;
+}
+
+.print-stimulus {
+  margin: 0.75rem 0;
+  padding: 0.7rem 1rem;
+  border-left: 3px solid var(--print-ink);
+  font-size: 0.95rem;
+}
+
+.print-choice-list,
+.print-parts {
+  margin: 0.75rem 0;
+  padding-left: 1.8rem;
+}
+
+.print-choice-list li,
+.print-parts li {
+  padding: 0.2rem 0;
+}
+
+.print-response-lines {
+  min-height: 2.1in;
+  margin-top: 0.75rem;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 0.32in,
+    #aaa 0.33in,
+    transparent 0.34in
+  );
+}
+
+.print-response-lines--short {
+  min-height: 0.75in;
+}
+
+.print-answer {
+  margin-top: 0.9rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--print-ink);
+  background: #f7f7f7;
+}
+
+.print-answer p {
+  margin: 0.45rem 0 0;
+}
+
+.print-writing-prompt {
+  margin-bottom: 1.5rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--print-rule);
+}
+
+.print-writing-field {
+  margin: 1.5rem 0;
+}
+
+.print-response-text,
+.print-export-text pre {
+  white-space: pre-wrap;
+  font: inherit;
+}
+
+.print-response-text {
+  padding: 0.8rem;
+  border: 1px solid var(--print-rule);
+}
+
+.print-link-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--print-rule);
+  break-inside: avoid;
+  font-family: Arial, sans-serif;
+}
+
+.print-link-card > p {
+  margin: 0;
+}
+
+.print-link-card .eyebrow {
+  flex-basis: 100%;
+}
+
+.print-public-url {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  font-size: 0.8rem;
+}
+
+.print-qr {
+  width: 1.3in;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.print-qr svg {
+  display: block;
+  width: 1.1in;
+  height: 1.1in;
+  margin: 0.25rem auto 0;
+}
+
+.print-private-notes {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 2px solid var(--print-ink);
+  break-before: page;
+}
+
+.print-private-notes h2 {
+  margin-top: 0;
+}
+
+.print-empty {
+  padding: 1rem;
+  border: 1px dashed var(--print-rule);
+}
+
+@media (max-width: 760px) {
+  .print-config {
+    grid-template-columns: 1fr;
+  }
+
+  .print-preview-frame {
+    padding: 1rem;
+  }
+}
+
+@page {
+  size: Letter;
+  margin: 0.55in;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #161616 !important;
+  }
+
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .breadcrumbs,
+  .print-page__intro,
+  .print-config,
+  .print-preview-label,
+  .page-loading,
+  .tooltip,
+  [role="status"] {
+    display: none !important;
+  }
+
+  .print-page,
+  .print-preview-frame {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .print-document__body {
+    display: block;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .print-question,
+  .print-reading-section,
+  .print-writing-field,
+  table,
+  figure,
+  img {
+    break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+}

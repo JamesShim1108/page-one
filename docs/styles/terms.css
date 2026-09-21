@@ -124,6 +124,51 @@
   background: var(--green);
   color: white;
 }
+.terms-list-filter-form {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(150px, 1fr) auto auto auto;
+  align-items: end;
+  gap: 0.8rem;
+  margin: 0 0 1.3rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--white);
+}
+.terms-list-filter-form label,
+.term-note-form label {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+}
+.terms-list-filter-form input[type="search"],
+.terms-list-filter-form select,
+.term-note-form textarea {
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+}
+.terms-list-filter-form .terms-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  white-space: nowrap;
+  padding-bottom: 0.55rem;
+}
+.terms-list-heading {
+  align-items: baseline;
+}
+.terms-list-heading span {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.terms-list-round-action {
+  margin: -0.5rem 0 1rem;
+}
 .terms-list {
   margin: 0;
   border: 1px solid var(--line);
@@ -159,6 +204,119 @@
 .terms-list dt,
 .terms-list dd {
   overflow-wrap: anywhere;
+}
+.term-status {
+  display: inline-flex;
+  width: fit-content;
+  padding: 0.18rem 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+  font: 0.68rem var(--mono);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.term-definition {
+  margin: 0;
+}
+.term-row-actions,
+.term-copy-actions,
+.term-note-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.7rem;
+}
+.term-row-actions {
+  margin-top: 0.8rem;
+}
+.term-copy-actions {
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+}
+.term-copy-actions [role="status"] {
+  color: var(--muted);
+}
+.term-note-form {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-left: 3px solid var(--amber);
+  background: var(--amber-bg);
+}
+.term-note-form label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.term-note-form textarea {
+  min-height: 4.2rem;
+  margin-top: 0.55rem;
+  resize: vertical;
+  background: var(--white);
+}
+.term-note-actions {
+  justify-content: space-between;
+  margin-top: 0.45rem;
+  font-size: 0.78rem;
+}
+.term-note-display {
+  margin-top: 0.9rem;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+.term-note-display p,
+.term-unresolved-notes p,
+.term-note-warning p {
+  margin: 0.35rem 0 0;
+  white-space: pre-wrap;
+}
+.term-unresolved-notes,
+.term-reference-card {
+  margin-top: 1.5rem;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--white);
+}
+.term-unresolved-notes h3 {
+  margin-top: 0;
+}
+.term-unresolved-notes ul {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+}
+.term-unresolved-notes li + li {
+  margin-top: 1rem;
+}
+.term-reference-card {
+  max-width: 760px;
+}
+.term-reference-card h2 {
+  margin: 0.35rem 0 1rem;
+  font: 2rem/1.2 var(--serif);
+  overflow-wrap: anywhere;
+}
+.term-reference-definition {
+  line-height: 1.75;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.term-note-warning {
+  margin-top: 1rem;
+  padding: 0.85rem;
+  border-left: 3px solid var(--amber);
+  background: var(--amber-bg);
+}
+.terms-toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.terms-return-link {
+  margin: -0.25rem 0 1rem;
 }
 .terms-source,
 .terms-save-note,
@@ -389,6 +547,24 @@
     gap: 0.45rem;
     padding: 1.1rem;
   }
+  .terms-list-filter-form {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+  .terms-list-filter-form .terms-checkbox {
+    padding-bottom: 0;
+  }
+  .terms-list-filter-form .btn,
+  .terms-list-filter-form .text-button {
+    justify-content: center;
+  }
+  .terms-list-heading {
+    display: block;
+  }
+  .terms-list-heading span {
+    display: block;
+    margin-top: 0.35rem;
+  }
   .terms-list dd {
     margin-left: 2rem;
   }
@@ -399,6 +575,21 @@
     text-align: center;
     flex: 1;
     padding-inline: 0.5rem;
+  }
+  .terms-toolbar-actions {
+    gap: 0.3rem;
+  }
+  .terms-toolbar-actions .btn {
+    padding-inline: 0.55rem;
+  }
+  .term-note-form label {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .term-reference-card,
+  .term-unresolved-notes {
+    padding: 1rem;
   }
   .flashcard-toolbar {
     gap: 0.5rem;

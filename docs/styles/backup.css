@@ -1,0 +1,92 @@
+.backup-card {
+  max-width: 58rem;
+}
+
+.backup-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.backup-grid fieldset {
+  display: grid;
+  gap: 0.65rem;
+  align-content: start;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+}
+
+.backup-grid legend {
+  padding: 0 0.35rem;
+  font-weight: 700;
+}
+
+.backup-choice {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.backup-summary {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid var(--green);
+  background: var(--soft);
+}
+
+.backup-file-label {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+}
+
+.backup-file-label input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.backup-preview {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border: 2px solid var(--green);
+  background: var(--soft);
+}
+
+.backup-preview h3 {
+  margin-bottom: 0.5rem;
+}
+
+.backup-preview-list {
+  max-height: 14rem;
+  overflow: auto;
+  margin: 1rem 0;
+  padding-left: 1.25rem;
+}
+
+.backup-preview-list code {
+  overflow-wrap: anywhere;
+}
+
+.backup-strategy {
+  display: grid;
+  gap: 0.35rem;
+  max-width: 28rem;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.backup-strategy select {
+  font: inherit;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .backup-grid {
+    grid-template-columns: 1fr;
+  }
+}

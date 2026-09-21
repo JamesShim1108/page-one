@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "af4e9ce3cad13ed5",
+  "revision": "8726a3bfc52e69c7",
   "courses": [
     {
       "schemaVersion": 1,
@@ -60,7 +60,8 @@
         "summary": "Song China: an enduring government, changing economy, and influential culture."
       },
       "indexPath": "world/index.json",
-      "routesPath": "world/routes.json"
+      "routesPath": "world/routes.json",
+      "customPracticePath": "world/custom-practice.json"
     },
     {
       "schemaVersion": 1,
@@ -77,7 +78,8 @@
       "previewTopics": [],
       "firstTopic": null,
       "indexPath": "algebra2/index.json",
-      "routesPath": "algebra2/routes.json"
+      "routesPath": "algebra2/routes.json",
+      "customPracticePath": "algebra2/custom-practice.json"
     }
   ]
 }

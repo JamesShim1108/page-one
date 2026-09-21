@@ -203,6 +203,7 @@ export const bank = {
       topicId: "world-1-3",
       title: "South and Southeast Asia topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: [
         "world-1-3-q1",
         "world-1-3-q2",

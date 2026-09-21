@@ -1,0 +1,426 @@
+/* Reading navigation, stable anchors, and reversible comfort preferences. */
+.reading-surface {
+  min-width: 0;
+}
+
+.reading-copy > p,
+.reading-copy > ul,
+.reading-copy > ol,
+.reading-copy > dl,
+.reading-copy .concept > p,
+.reading-copy .reading-block > p,
+.reading-copy .connection > p,
+.reading-copy .guide-timeline dd,
+.reading-copy .term-row dd,
+.reading-copy .guide-topic-list article > p:not(.eyebrow),
+.reading-copy .evidence-guide article > p:not(.eyebrow),
+.reading-copy .causal-chain-list li,
+.reading-copy .resource-list p {
+  max-width: min(var(--reading-measure), 100%);
+  font-size: calc(1rem * var(--reading-scale));
+  line-height: var(--reading-leading);
+}
+
+.reading-copy li {
+  line-height: var(--reading-leading);
+}
+
+.reading-copy .note {
+  line-height: var(--reading-leading) !important;
+}
+
+.reading-section-heading,
+.reading-subsection-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.reading-section-heading h2,
+.reading-subsection-heading h3 {
+  min-width: 0;
+}
+
+.reading-heading-actions,
+.reading-block-actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.reading-mark-controls {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.reading-mark-button {
+  min-height: 44px;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.reading-mark-button:hover,
+.reading-mark-button.is-active {
+  background: var(--soft);
+  border-color: var(--green);
+}
+
+.reading-mark-button.is-active::before {
+  content: "✓ ";
+}
+
+.reading-note-disclosure {
+  position: relative;
+}
+
+.reading-note-disclosure summary {
+  min-height: 44px;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--green);
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 650;
+  list-style-position: inside;
+}
+
+.reading-note-disclosure label {
+  display: grid;
+  gap: 0.35rem;
+  min-width: min(280px, calc(100vw - 3rem));
+  padding: 0.55rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.reading-note-disclosure textarea {
+  width: 100%;
+  min-height: 4rem;
+  padding: 0.45rem;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font: inherit;
+  resize: vertical;
+}
+
+.reading-mark-status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.74rem;
+}
+
+.reading-review-page .page-intro {
+  max-width: 760px;
+}
+
+.reading-review-filter {
+  display: grid;
+  gap: 0.3rem;
+  max-width: 360px;
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.reading-review-filter select {
+  min-height: 44px;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--ink);
+}
+
+.reading-review-list {
+  display: grid;
+  gap: 1rem;
+  max-width: 820px;
+}
+
+.reading-review-item {
+  padding: 1.1rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--green);
+  background: var(--white);
+  scroll-margin-top: 6rem;
+}
+
+.reading-review-item:focus {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.reading-review-item h2,
+.reading-review-item blockquote {
+  margin-top: 0.35rem;
+}
+
+.reading-review-item blockquote {
+  margin-left: 0;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--line);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+.reading-review-note {
+  padding: 0.65rem;
+  background: var(--soft);
+  white-space: pre-wrap;
+}
+
+.reading-review-orphan {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.reading-section-action,
+.reading-block-action {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.reading-section-action:hover,
+.reading-block-action:hover {
+  background: var(--soft);
+}
+
+.reading-block {
+  position: relative;
+  scroll-margin-top: 7rem;
+}
+
+.reading-block-action {
+  display: block;
+  margin: -0.2rem 0 0.8rem auto;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.reading-block:focus-within .reading-block-action,
+.reading-block:hover .reading-block-action {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.reading-nav-disclosure,
+.reading-settings-disclosure {
+  width: 100%;
+}
+
+.reading-nav-disclosure summary,
+.reading-settings-disclosure summary {
+  cursor: pointer;
+  color: var(--green);
+  font-weight: 650;
+  padding: 0.45rem 0;
+}
+
+.reading-nav-links {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.reading-nav-links a {
+  display: block;
+  min-height: 44px;
+  padding: 0.55rem 0.85rem;
+  border-left: 2px solid var(--line);
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.reading-nav-links a:hover,
+.reading-nav-links a[aria-current="location"] {
+  border-color: var(--green);
+  background: var(--soft);
+  color: var(--green);
+}
+
+.reading-nav-links a[aria-current="location"] {
+  border-left-width: 3px;
+  font-weight: 650;
+}
+
+.reading-guide-nav {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+  gap: 1.5rem;
+  align-items: start;
+  margin: 0 0 1.5rem;
+}
+
+.reading-guide-nav .reading-nav-disclosure {
+  grid-row: span 2;
+}
+
+.reading-guide-nav .reading-settings-disclosure {
+  grid-column: 2;
+}
+
+.reading-guide-nav #reading-position-status {
+  grid-column: 2;
+  margin: 0;
+}
+
+.reading-settings-controls {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0.7rem 0 0.2rem;
+}
+
+.reading-settings-help {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.reading-settings-controls label {
+  display: grid;
+  gap: 0.25rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.reading-settings-controls select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--ink);
+}
+
+.reading-settings-actions {
+  display: grid;
+  gap: 0.35rem;
+  align-items: start;
+  padding-top: 0.25rem;
+}
+
+.reading-settings-actions p {
+  margin: 0;
+  font-size: 0.78rem;
+}
+
+.reading-plain .reading-surface {
+  background-color: var(--paper);
+}
+
+@media (min-width: 701px) {
+  .lesson-nav > .reading-nav-disclosure > summary,
+  .reading-guide-nav .reading-nav-disclosure > summary {
+    list-style: none;
+    pointer-events: none;
+  }
+
+  .lesson-nav > .reading-nav-disclosure > summary::-webkit-details-marker,
+  .reading-guide-nav .reading-nav-disclosure > summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .reading-section-heading,
+  .reading-subsection-heading {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .reading-section-action,
+  .reading-subsection-heading .reading-section-action {
+    margin-left: auto;
+  }
+
+  .reading-guide-nav {
+    display: block;
+  }
+
+  .reading-guide-nav .reading-settings-disclosure {
+    margin-top: 0.75rem;
+  }
+
+  .reading-guide-nav #reading-position-status {
+    margin-top: 0.5rem;
+  }
+
+  .lesson-nav > .reading-nav-disclosure,
+  .lesson-nav > .reading-settings-disclosure {
+    flex: 1 1 100%;
+  }
+
+  .reading-nav-links a {
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--white);
+  }
+
+  .reading-nav-links a[aria-current="location"] {
+    border-width: 2px;
+  }
+
+  .reading-block-action {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+@media print {
+  .reading-nav-disclosure,
+  .reading-settings-disclosure,
+  .reading-section-action,
+  .reading-block-action,
+  #reading-position-status {
+    display: none !important;
+  }
+
+  .reading-heading-actions,
+  .reading-block-actions,
+  .reading-mark-controls,
+  .reading-note-disclosure,
+  .reading-review-note {
+    display: none !important;
+  }
+
+  .reading-copy > p,
+  .reading-copy > ul,
+  .reading-copy > ol,
+  .reading-copy > dl,
+  .reading-copy .concept > p,
+  .reading-copy .reading-block > p,
+  .reading-copy .connection > p,
+  .reading-copy .guide-timeline dd,
+  .reading-copy .term-row dd,
+  .reading-copy .guide-topic-list article > p:not(.eyebrow),
+  .reading-copy .evidence-guide article > p:not(.eyebrow),
+  .reading-copy .causal-chain-list li,
+  .reading-copy .resource-list p {
+    max-width: none;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { compileContent } from "../scripts/build-content.mjs";
 import { resolveGlossary, selectGlossary } from "../scripts/lib/glossary.mjs";
-import { createConceptText } from "../docs/app/concepts/text.js";
+import { conceptHelp, createConceptText } from "../docs/app/concepts/text.js";
 import { placePopover } from "../docs/app/concepts/position.js";
 import { renderBlocks } from "../docs/app/blocks.js";
 import { lessonPage } from "../docs/app/views/lesson.js";
@@ -44,6 +44,21 @@ test("aliases use the same meaning without matching substrings or treating regex
   assert.match(html, />C\+\+</);
   assert.match(html, />CAFÉ</);
   assert.doesNotMatch(html, />CAFE</);
+});
+
+test("definition trigger modes preserve visible text and make Off ordinary prose", () => {
+  const entries = [concept("demo-guild", "Guild", ["guilds"])];
+  const input = "Guilds support a guild.";
+  const hover = createConceptText(entries, { triggerMode: "hover-focus" })(input);
+  const click = createConceptText(entries, { triggerMode: "click" })(input);
+  const off = createConceptText(entries, { triggerMode: "off" })(input);
+  assert.equal((hover.match(/class="concept-trigger"/g) || []).length, 1);
+  assert.equal((click.match(/class="concept-trigger"/g) || []).length, 1);
+  assert.equal((off.match(/class="concept-trigger"/g) || []).length, 0);
+  assert.match(off, /class="concept-term"/);
+  assert.equal(off.replace(/<[^>]+>/g, ""), input);
+  assert.equal(conceptHelp(entries, "off"), "");
+  assert.match(conceptHelp(entries, "click"), /Select one/);
 });
 
 test("untrusted text stays escaped and practice blocks stay plain unless explicitly opted in", () => {
@@ -158,6 +173,7 @@ test("new concepts can be authored once with valid source references", () => {
     definition: "Original explanation.",
     sourceLabel: "Class notes",
     sourceIds: ["notes"],
+    verificationNote: "Checked against class notes.",
     topicIds: ["demo-1"],
   };
   assert.equal(

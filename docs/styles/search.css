@@ -1,0 +1,136 @@
+.search-page,
+.reading-review-page {
+  min-width: 0;
+}
+
+.search-form {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 760px;
+  margin-top: 1.3rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.search-form-row {
+  display: flex;
+  gap: 0.55rem;
+}
+
+.search-form input,
+.search-form select {
+  min-height: 46px;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+}
+
+.search-form input {
+  flex: 1 1 20rem;
+  min-width: 0;
+}
+
+.search-course-filter {
+  display: grid;
+  gap: 0.3rem;
+  max-width: 360px;
+}
+
+.search-results-heading {
+  margin: 2.3rem 0 0.85rem;
+}
+
+.search-results-heading h2 {
+  margin: 0;
+}
+
+.search-results-heading p {
+  margin-bottom: 0;
+}
+
+.search-results {
+  display: grid;
+  gap: 0.8rem;
+  max-width: 860px;
+}
+
+.search-result {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--green);
+  background: var(--white);
+  scroll-margin-top: 5rem;
+}
+
+.search-result:focus {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.search-result h2 {
+  margin: 0.25rem 0;
+  font-size: 1.15rem;
+}
+
+.search-result h2 a {
+  color: var(--green);
+}
+
+.search-result p {
+  margin: 0.35rem 0 0;
+}
+
+.search-result mark {
+  padding: 0 0.1em;
+  background: var(--yellow, #f6e7a7);
+  color: inherit;
+}
+
+.search-match {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 650;
+}
+
+.search-more {
+  margin-top: 1rem;
+}
+
+.search-help,
+.search-index-warning {
+  max-width: 760px;
+  margin-top: 2rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+
+.search-index-warning p {
+  margin-top: 0;
+}
+
+.search-return-notice {
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 480px) {
+  .search-form-row {
+    display: grid;
+  }
+
+  .search-form-row .btn {
+    width: 100%;
+  }
+}
+
+@media print {
+  .search-form,
+  .search-index-warning,
+  .search-more {
+    display: none;
+  }
+}

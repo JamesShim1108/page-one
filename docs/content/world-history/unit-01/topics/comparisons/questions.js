@@ -203,6 +203,7 @@ export const bank = {
       topicId: "world-1-7",
       title: "Comparisons in the Period topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: [
         "world-1-7-q1",
         "world-1-7-q2",

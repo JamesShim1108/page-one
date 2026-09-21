@@ -57,7 +57,8 @@
       "summary": "Song China: an enduring government, changing economy, and influential culture."
     },
     "indexPath": "world/index.json",
-    "routesPath": "world/routes.json"
+    "routesPath": "world/routes.json",
+    "customPracticePath": "world/custom-practice.json"
   },
   "units": [
     {

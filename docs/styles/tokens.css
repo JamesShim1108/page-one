@@ -17,4 +17,7 @@
   --serif: Georgia, "Times New Roman", serif;
   --sans: "Segoe UI", Arial, sans-serif;
   --mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+  --reading-scale: 1;
+  --reading-leading: 1.8;
+  --reading-measure: 68ch;
 }

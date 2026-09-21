@@ -1,0 +1,87 @@
+.settings-page {
+  padding-bottom: 5rem;
+}
+
+.settings-card {
+  max-width: 58rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+
+.settings-card h2 {
+  margin-bottom: 0.75rem;
+}
+
+.settings-card > .btn {
+  margin-top: 0.5rem;
+}
+
+.settings-actions {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+
+.settings-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.settings-action h3 {
+  margin-bottom: 0.25rem;
+}
+
+.settings-action p,
+.settings-action small {
+  color: var(--muted);
+}
+
+.settings-action p,
+.settings-action small {
+  display: block;
+  margin: 0;
+}
+
+.settings-confirm {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem;
+  border-left: 3px solid var(--gold, #b98227);
+  background: var(--soft);
+}
+
+.settings-confirm p {
+  margin-bottom: 0.75rem;
+}
+
+.practice-unavailable {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+
+.text-button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--green);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.text-button:hover {
+  color: var(--green-hover);
+}
+
+@media (max-width: 600px) {
+  .settings-action {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

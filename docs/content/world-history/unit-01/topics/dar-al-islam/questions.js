@@ -244,6 +244,7 @@ export const bank = {
       topicId: "world-1-2",
       title: "Dar al-Islam topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: [
         "islam-q1",
         "islam-q2",

@@ -12,6 +12,52 @@
 .home-intro {
   color: var(--muted);
 }
+.recent-work {
+  border-top: 1px solid var(--line);
+  margin: 3rem 0 4rem;
+  padding-top: 2.5rem;
+}
+.recent-work .section-heading {
+  margin-bottom: 1.25rem;
+}
+.recent-work .section-heading h2 {
+  margin-top: 0.25rem;
+}
+.recent-work-resume {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--green);
+  background: var(--soft);
+}
+.recent-work-resume h3,
+.recent-work-card h3 {
+  font-size: 1.05rem;
+  margin: 0.35rem 0;
+}
+.recent-work-resume p,
+.recent-work-card p:not(.eyebrow) {
+  color: var(--muted);
+  margin: 0;
+}
+.recent-work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.recent-work-card {
+  min-height: 148px;
+  padding: 1.2rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+.recent-work-card .text-link {
+  display: inline-block;
+  margin-top: 1rem;
+}
 .free-note {
   font-size: 0.875rem;
   color: var(--muted);
@@ -244,6 +290,21 @@
   }
 }
 @media (max-width: 700px) {
+  .recent-work {
+    margin: 2.2rem 0 3rem;
+    padding-top: 1.8rem;
+  }
+  .recent-work-resume {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 1.1rem;
+  }
+  .recent-work-resume .btn {
+    width: 100%;
+  }
+  .recent-work-grid {
+    grid-template-columns: 1fr;
+  }
   .home-top h1 {
     max-width: 390px;
   }

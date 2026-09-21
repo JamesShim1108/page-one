@@ -833,6 +833,7 @@ export const bank = {
       topicId: "world-2-1",
       title: "The Silk Roads topic quiz",
       quizType: "topic",
+      customPractice: true,
       questionIds: [
         "world-2-1-q05",
         "world-2-1-q06",
