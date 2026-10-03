@@ -399,6 +399,7 @@ function resultQuestionView(
       : "Unanswered";
   const reasonLabels = reviewReasonSet(attempt, questionId, engine)
     .map((value) => value[0].toUpperCase() + value.slice(1))
+    .filter((value) => value !== status)
     .join(" · ");
   return `<details class="review-question" id="review-${esc(questionId)}"><summary><span>${correct ? "✓" : Number.isInteger(selected) ? "✗" : "○"} ${index + 1}. ${esc(question.prompt)}</span><span class="review-question-state">${status}${reasonLabels ? ` · ${esc(reasonLabels)}` : ""}</span></summary>
     <p><strong>Your answer:</strong> ${esc(selectedText)}</p>

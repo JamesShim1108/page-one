@@ -30,6 +30,20 @@
   color: var(--muted);
   font-size: 0.9rem;
 }
+/* An empty status line stays in the accessibility tree for announcements but
+   takes no space in the panel layout. */
+.share-status:empty,
+.report-status:empty {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  min-height: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.share-panel {
+  position: relative;
+}
 .share-fallback,
 .share-qr,
 .reading-copy-fallback {

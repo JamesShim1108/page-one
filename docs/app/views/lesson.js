@@ -1,5 +1,5 @@
 import { escapeHtml as esc, link, breadcrumbs, contextCrumbs, quizEntry } from "../ui.js";
-import { renderBlocks } from "../blocks.js?v=20260918-concepts";
+import { renderBlocks } from "../blocks.js";
 import { createConceptText, conceptHelp } from "../concepts/text.js";
 import { readingSettingsPanel } from "../reading/preferences.js";
 import { readingMarkControls } from "../reading/marks.js";

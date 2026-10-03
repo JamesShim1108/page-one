@@ -199,8 +199,7 @@ async function selectPage(route, data, generation) {
   const offlineReading = offlineReadingActive();
   const enhancements = [];
   if (["topic", "guide"].includes(route.type) && data.glossary?.length) {
-    const { mountConceptPopovers } =
-      await import("./concepts/controller.js?v=20260918-fit");
+    const { mountConceptPopovers } = await import("./concepts/controller.js");
     if (generation !== routeGeneration) return null;
     enhancements.push(() =>
       mountConceptPopovers(main, data.glossary, {
@@ -435,7 +434,7 @@ async function selectPage(route, data, generation) {
       pendingQuizStart = null;
     }
     if (route.type === "topic") {
-      const { lessonPage } = await import("./views/lesson.js?v=20260918-concepts");
+      const { lessonPage } = await import("./views/lesson.js");
       selected.html = () =>
         lessonPage(
           {
@@ -458,7 +457,7 @@ async function selectPage(route, data, generation) {
         );
     } else selected.html = route.type === "quiz" ? controller.page : controller.results;
   } else if (route.type === "guide") {
-    const { studyGuidePage } = await import("./views/guide.js?v=20260918-concepts");
+    const { studyGuidePage } = await import("./views/guide.js");
     selected.html = () =>
       studyGuidePage({
         ...data,
@@ -862,3 +861,31 @@ document.addEventListener("visibilitychange", () => currentWriting?.visibility()
 window.addEventListener("pagehide", () => currentWriting?.flush());
 window.addEventListener("hashchange", () => render(true));
 render();
+
+// Phone-width menu: the header collapses its links behind one toggle button.
+(function setupNavToggle() {
+  const header = document.querySelector(".site-header");
+  const toggle = header?.querySelector(".nav-toggle");
+  const nav = document.getElementById("site-nav");
+  if (!header || !toggle || !nav) return;
+  const setOpen = (open) => {
+    header.classList.toggle("nav-open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.querySelector(".nav-toggle__label").textContent = open ? "Close" : "Menu";
+  };
+  toggle.addEventListener("click", () => setOpen(!header.classList.contains("nav-open")));
+  nav.addEventListener("click", (event) => {
+    if (event.target.closest("a")) setOpen(false);
+  });
+  window.addEventListener("hashchange", () => setOpen(false));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && header.classList.contains("nav-open")) {
+      setOpen(false);
+      toggle.focus();
+    }
+  });
+  document.addEventListener("click", (event) => {
+    if (header.classList.contains("nav-open") && !header.contains(event.target))
+      setOpen(false);
+  });
+})();

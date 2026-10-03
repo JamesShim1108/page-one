@@ -1,0 +1,254 @@
+/* Phone-width layout fixes. Loaded last so these rules win over component
+   defaults. Desktop layout is unchanged above 700px. */
+
+/* Menu toggle (hidden on wider screens). */
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  /* Header: brand on the left, Menu button on the right, links in a panel. */
+  .site-header .header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    min-height: 0;
+    padding: 14px 16px;
+  }
+  .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-height: 44px;
+    padding: 0 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--paper);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .nav-toggle__bars,
+  .nav-toggle__bars::before,
+  .nav-toggle__bars::after {
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 1px;
+  }
+  .nav-toggle__bars {
+    position: relative;
+  }
+  .nav-toggle__bars::before,
+  .nav-toggle__bars::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+  .nav-toggle__bars::before {
+    top: -5px;
+  }
+  .nav-toggle__bars::after {
+    top: 5px;
+  }
+  .site-header.nav-open .nav-toggle__bars {
+    background: transparent;
+  }
+  .site-header.nav-open .nav-toggle__bars::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .site-header.nav-open .nav-toggle__bars::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  .site-header nav {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    margin: 0.75rem 0 0;
+    padding: 0.25rem 0 0;
+    border-top: 1px solid var(--line);
+    overflow: visible;
+    font-size: 1rem;
+  }
+  .site-header.nav-open nav {
+    display: flex;
+  }
+  .site-header nav a {
+    display: block;
+    padding: 0.8rem 0.25rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .site-header nav a:last-child {
+    border-bottom: 0;
+  }
+  .site-header nav a[aria-current="page"] {
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: inset 3px 0 0 var(--green);
+    padding-left: 0.75rem;
+  }
+
+  /* Share panels: one compact row instead of a tall box. */
+  .share-panel {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin: 14px 0;
+    padding: 12px 14px;
+  }
+  .share-panel__copy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 8px;
+  }
+  .share-panel__copy .eyebrow {
+    margin: 0;
+  }
+  .share-panel__copy p:not(.eyebrow) {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .share-panel__actions {
+    gap: 6px 10px;
+  }
+  .share-panel__actions .btn {
+    min-height: 40px;
+    padding: 0.45rem 0.8rem;
+    font-size: 0.85rem;
+  }
+  /* Lesson "On this page": wrap section links as compact chips. */
+  .reading-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .reading-nav-links a {
+    flex: 1 1 calc(50% - 6px);
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font-size: 0.88rem;
+  }
+  .reading-nav-links a[aria-current="location"] {
+    border-width: 1px;
+    border-color: var(--green);
+  }
+
+  /* Quiz navigator: one scrolling row of numbers, compact helper buttons. */
+  .question-navigator {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .question-navigator-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 4px 4px 6px;
+    margin: 0.6rem -4px;
+    scrollbar-width: thin;
+  }
+  .question-nav-item {
+    flex: 0 0 auto;
+    min-width: 40px;
+    min-height: 40px;
+  }
+  .question-navigator-legend {
+    display: none;
+  }
+  .question-navigator-actions {
+    gap: 0.4rem 1rem;
+    margin-top: 0.2rem;
+  }
+  .question-navigator-actions .btn {
+    min-height: 36px;
+    padding: 0.3rem 0;
+    border: 0;
+    background: none;
+    color: var(--green);
+    font-size: 0.85rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  /* Choices: keep "Eliminate" as a small control beside the choice. */
+  .choice-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.35rem;
+  }
+  .elimination-control {
+    width: auto;
+    min-width: 0;
+    min-height: 44px;
+    padding: 0.3rem 0.45rem;
+    font-size: 0.72rem;
+    line-height: 1.2;
+    max-width: 4.6rem;
+    white-space: normal;
+    align-self: start;
+    margin-top: 0.35rem;
+  }
+  .elimination-control:disabled {
+    visibility: hidden;
+  }
+  .elimination-state {
+    grid-column: 1 / -1;
+  }
+
+  /* Question actions: buttons share the row and wrap evenly. */
+  .question-self-report {
+    justify-content: flex-start;
+    gap: 0.6rem 1rem;
+  }
+  .question-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+  .question-actions p {
+    max-width: none;
+  }
+  .question-action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .question-action-buttons .btn {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+
+  /* Generic action rows: buttons wrap side by side instead of stacking
+     one per line at mismatched widths. */
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .actions > .btn {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+
+  /* Flashcards toolbar: label and position on one line, actions on the next. */
+  .flashcard-toolbar {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+  .flashcard-toolbar > span {
+    white-space: nowrap;
+  }
+  .terms-toolbar-actions {
+    margin-left: auto;
+  }
+}
