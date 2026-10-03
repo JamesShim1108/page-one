@@ -176,6 +176,21 @@ export function createQuizController(
     if (!form || event.target.name !== "answer") return false;
     const submit = form.querySelector('button[type="submit"]');
     if (submit) submit.disabled = false;
+    // Test mode has no Check button, so a choice is saved as soon as it changes.
+    const current = attempt(form.dataset.quiz);
+    if (
+      current?.feedbackMode === "test" &&
+      current.currentQuestionId === form.dataset.question
+    ) {
+      const value = Number(event.target.value);
+      if (engine.selectAnswer(current, value)) {
+        persist(current).then(() => touchRecent(current));
+        refresh(current.quizId);
+        document
+          .querySelector(`#quiz-shell input[name="answer"][value="${value}"]`)
+          ?.focus({ preventScroll: true });
+      }
+    }
     return true;
   }
 
