@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -436,19 +436,20 @@
     "unitId": "world-2",
     "title": "Unit 2 LEQ: Continuity and change",
     "headline": "Continuity and change",
-    "promptTitle": "Original Page One Unit 2 writing practice",
+    "promptTitle": "Long essay question",
     "prompt": "Evaluate the extent to which expanding connectivity changed societies while older institutions and practices persisted from 1200 to 1450.",
-    "instructions": "Plan a defensible argument, then write one organized essay. This is a narrower Unit 2 practice task, not a full exam simulation.",
-    "note": "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed Unit 2 practice in AP long-essay format, not a full exam simulation.",
+    "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
     "exerciseType": "leq",
     "sourceIds": [
-      "amsco-unit-2",
-      "ced-topic-2-5"
+      "ced-topic-2-5",
+      "ced-topic-2-6",
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Unit 2 supplied reading / verified classroom locator"
+        "sourceId": "ced-topic-2-5",
+        "locator": "Topic 2.5 learning objectives"
       }
     ],
     "responseFields": [
@@ -462,8 +463,8 @@
         "review": [
           {
             "topicId": "world-2-5",
-            "sectionId": "beliefs-adaptation",
-            "label": "Review the relevant lesson"
+            "sectionId": "diffusion-not-uniformity",
+            "label": "Connected does not mean identical"
           }
         ]
       },
@@ -476,9 +477,9 @@
         "help": "Informational word count only. No timer or automatic grading.",
         "review": [
           {
-            "topicId": "world-2-7",
-            "sectionId": "arguing-with-evidence",
-            "label": "Review evidence-based comparison"
+            "topicId": "world-2-6",
+            "sectionId": "demographic-economic",
+            "label": "Demographic shocks changed labor"
           }
         ]
       }
@@ -488,52 +489,70 @@
         "id": "thesis",
         "label": "Thesis",
         "points": 1,
-        "guidance": "Makes a defensible claim that answers the prompt and establishes a line of reasoning."
+        "guidance": "Responds to the prompt with a historically defensible thesis or claim that establishes a line of reasoning."
       },
       {
         "id": "context",
         "label": "Contextualization",
         "points": 1,
-        "guidance": "Explains a broader development that is relevant to the prompt and occurs before, during, or across the period."
+        "guidance": "Describes a broader historical context relevant to the prompt: developments before, during, or continuing after the period."
       },
       {
         "id": "evidence",
         "label": "Evidence",
         "points": 2,
-        "guidance": "Uses specific evidence to support the argument; two points require more than one relevant example used as support."
+        "guidance": "1 point: provides at least two specific historical examples relevant to the prompt. 2 points: uses specific and relevant examples to support an argument in response to the prompt."
       },
       {
         "id": "analysis",
         "label": "Analysis and reasoning",
         "points": 2,
-        "guidance": "Uses comparison, causation, or continuity/change reasoning and connects evidence to the claim with qualification where appropriate."
+        "guidance": "1 point: uses comparison, causation, or continuity and change to frame or structure the argument. 2 points: demonstrates a complex understanding, for example by explaining multiple causes, weighing similarities and differences, or using evidence to qualify or modify the argument."
       }
-    ],
-    "modelResponse": "Annotated model for continuity and change: a defensible thesis names the relationship under evaluation; contextualization places the network in earlier Afro-Eurasian exchange; evidence uses specific places, institutions, or communities; analysis explains how geography, demand, politics, or culture produced the pattern and qualifies variation.",
-    "alternateModel": "Another defensible route could center a different network or causal factor if it remains within 1200–1450, uses specific evidence, and explains why the evidence answers the prompt.",
-    "commonErrors": [
-      "Listing three networks without a comparative or causal claim.",
-      "Using a famous example without explaining its relevance.",
-      "Treating the networks as sealed or uniform systems.",
-      "Using post-1450 European expansion as the main evidence."
     ],
     "scaffold": [
       {
         "label": "Claim",
-        "text": "Answer the prompt and establish a line of reasoning."
+        "text": "Answer the prompt and preview your line of reasoning."
       },
       {
         "label": "Context",
-        "text": "Place the development in wider Afro-Eurasian history."
+        "text": "Describe a broader development before or during the period."
       },
       {
         "label": "Evidence",
-        "text": "Choose specific examples and explain their relevance."
+        "text": "Use at least two specific examples, and explain each one."
       },
       {
         "label": "Reasoning",
-        "text": "Show why the evidence proves the claim and where it needs qualification."
+        "text": "Structure the essay around the reasoning process and qualify your claim."
       }
+    ],
+    "modelResponse": "By 1200, Afro-Eurasia was already linked by trade routes that had carried Buddhism into East Asia, Islam across North Africa, and goods such as silk and spices for centuries. Most people, however, still lived as farmers within local communities, governed by older institutions such as Confucian bureaucracy in China and lineage-based authority in many African societies.\n\nBetween 1200 and 1450, expanding connectivity changed societies significantly by spreading religions, crops, and disease, but these changes worked through older institutions rather than replacing them, so continuity remained strong in how most societies were organized.\n\nConnectivity brought real change in religion. Islam spread to new regions through merchants and teachers: by the 1300s Mali's rulers were Muslim and Timbuktu was a center of Islamic scholarship, while Muslim sultanates arose in Southeast Asian ports such as Malacca in the 1400s. These were genuine changes in belief, law, and learning among elites and townspeople.\n\nThe environmental effects of connectivity were even more dramatic. Plague traveled along trade routes from Central Asia to the Black Sea and then to Mediterranean ports in 1347, killing perhaps a third or more of the population in many regions. In parts of western Europe the resulting labor shortage raised wages, and governments responded with laws such as England's Statute of Labourers in 1351.\n\nYet older institutions persisted and shaped how change took hold. In China, the Ming dynasty that replaced the Yuan in 1368 rebuilt government around Confucian examinations and scholar-officials, a tradition the Yuan itself had revived in limited form in 1315, showing that Mongol rule had not erased Chinese bureaucratic traditions. In Mali, Islam was adopted by rulers and merchants, but many rural communities kept local religious practices, and royal ceremonies that Ibn Battuta found strange continued alongside Islamic worship. On the Swahili coast, Islam and Arabic vocabulary entered a society whose language and family structures remained African.\n\nEven the plague's effects depended on older structures. Where lords and governments were strong, they used law and force to limit workers' gains, so the same demographic shock produced different outcomes in different regions.\n\nIn conclusion, expanding connectivity changed belief and population in profound ways, but because those changes passed through existing political and social institutions, continuity shaped the extent and form of change in most societies.",
+    "modelNotes": [
+      {
+        "label": "Contextualization",
+        "text": "The opening describes earlier connections and the agrarian, local character of most societies before 1200."
+      },
+      {
+        "label": "Thesis",
+        "text": "The thesis takes a position on extent: significant change that worked through persistent institutions."
+      },
+      {
+        "label": "Evidence",
+        "text": "Mali, Timbuktu, Malacca, the plague's route, the Statute of Labourers, Ming reliance on the examinations, and the Swahili coast give specific support for both change and continuity."
+      },
+      {
+        "label": "Analysis and reasoning",
+        "text": "The essay is organized around continuity and change and explains how older institutions shaped new developments, which demonstrates a complex understanding."
+      }
+    ],
+    "alternateModel": "A different strong essay could argue that change outweighed continuity, using the plague's demographic shock and the spread of Islam as its main evidence while acknowledging persistent agrarian economies.",
+    "commonErrors": [
+      "Describing changes without explaining what persisted, or the reverse.",
+      "Answering “to what extent” with no clear judgment.",
+      "Treating the adoption of Islam by rulers as proof that everyone converted.",
+      "Using developments after 1450 as the main evidence."
     ]
   }
 }

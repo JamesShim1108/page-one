@@ -52,6 +52,9 @@ export function studentQuestion(question) {
           columns: Array.isArray(block.columns) ? [...block.columns] : [],
           rows: Array.isArray(block.rows) ? clone(block.rows) : [],
           alt: block.alt || "",
+          sourceType: block.sourceType || "",
+          attribution: block.attribution || "",
+          citation: block.citation || "",
         }))
       : [],
     parts: Array.isArray(question.parts)

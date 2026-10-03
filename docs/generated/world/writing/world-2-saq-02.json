@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -431,124 +431,123 @@
   },
   "quiz": {
     "id": "world-2-saq-02",
-    "version": 1,
+    "version": 2,
     "courseId": "world",
     "unitId": "world-2",
     "title": "Unit 2 SAQ 02",
-    "headline": "Mongol rule",
-    "promptTitle": "Original AP-style Unit 2 source practice",
-    "prompt": "A historian describes Mongol protection of some roads while also recording destruction during conquest. Explain how the two observations can both be historically accurate.",
-    "instructions": "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    "note": "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
+    "headline": "Interpreting the Mongol Empire",
+    "promptTitle": "Secondary-source short-answer question",
+    "prompt": "Use the passage below to answer all parts of the question.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
+    "stimulusBlocks": [
+      {
+        "id": "original-mongol-interpretation",
+        "type": "source",
+        "sourceType": "original",
+        "attribution": "Practice passage written for Page One, summarizing how historians' interpretations of the Mongol Empire have changed",
+        "text": "Historians once described the Mongols chiefly as destroyers, emphasizing the massacres at cities that resisted, such as Baghdad in 1258. More recent scholarship has stressed what the Mongols built: relay stations for official travel, protection for merchants, and the movement of artisans, physicians, and astronomers between courts from China to Persia. In this view, Mongol rule left Eurasia more connected than ever before.\n\nThese two pictures are not opposites. The same empire that destroyed cities also moved their surviving craftsmen to new capitals, and the security merchants enjoyed was built on overwhelming violence. A convincing account of the Mongols has to hold both together."
+      }
+    ],
     "scaffold": [
       {
         "label": "Answer",
-        "text": "Respond directly to the verb in the question."
+        "text": "Respond directly to the task verb: identify, describe, or explain."
       },
       {
         "label": "Prove",
-        "text": "Use one specific historical example or detail from the source context."
+        "text": "Name a specific person, place, institution, or development."
       },
       {
         "label": "Explain",
-        "text": "Connect the evidence to the historical claim."
+        "text": "Show how or why the evidence answers the question."
       }
     ],
     "parts": [
       {
         "id": "a",
-        "lenses": [],
-        "prompt": "Explain the central historical relationship in the prompt.",
+        "lenses": [
+          "P"
+        ],
+        "prompt": "Identify ONE claim the author makes about the Mongol Empire.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "States a claim the passage actually makes.",
+          "Uses the passage's reasoning, not only a detail it mentions."
         ],
         "model": {
-          "answer": "Explain the central historical relationship in the prompt. A strong response would connect the source context to mongol conquest and exchange.",
-          "prove": "For example, the source context points to mongol conquest and exchange and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "The author claims that the Mongol Empire both destroyed cities and made Eurasia more connected.",
+          "prove": "The passage cites massacres such as Baghdad in 1258 alongside relay stations, protection for merchants, and experts moving between courts.",
+          "explain": "The author argues that these are “not opposites” and that a convincing account must “hold both together,” rejecting views of the Mongols as only destroyers or only builders."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Identifying the narrower claim that recent historians stress Mongol connectivity, or that Mongol security rested on violence, also earns the point.",
         "review": [
           {
             "topicId": "world-2-2",
-            "sectionId": "state-building",
-            "label": "Mongol conquest and exchange"
+            "sectionId": "costs-continuities",
+            "label": "Conquest and connection"
           }
         ]
       },
       {
         "id": "b",
-        "lenses": [],
-        "prompt": "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        "lenses": [
+          "C",
+          "P"
+        ],
+        "prompt": "Provide ONE piece of historical evidence, not mentioned in the passage, that supports the claim that Mongol rule increased connections across Eurasia.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Uses specific evidence that the passage does not already mention.",
+          "Explains how the evidence shows increased connection."
         ],
         "model": {
-          "answer": "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to mongol conquest and exchange.",
-          "prove": "For example, the source context points to mongol conquest and exchange and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Mongol rule made it possible for envoys to travel across all of Eurasia.",
+          "prove": "Rabban Sauma, a Christian monk from Yuan China, traveled west and in 1287–1288 served as an envoy of the Ilkhan of Persia to Constantinople, Rome, and Paris.",
+          "explain": "A traveler from China reaching European courts as a Mongol envoy shows how linked Mongol states opened routes for diplomacy as well as trade."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Marco Polo's journey to Kublai Khan's court, Ibn Battuta's travel to Yuan China, or the Ilkhanate's attempt to introduce Chinese-style paper money in 1294 can also work. Relay stations and moving artisans are already in the passage.",
         "review": [
           {
             "topicId": "world-2-2",
-            "sectionId": "state-building",
-            "label": "Mongol conquest and exchange"
+            "sectionId": "cultural-transfer",
+            "label": "Ideas moved with people"
           }
         ]
       },
       {
         "id": "c",
-        "lenses": [],
-        "prompt": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        "lenses": [
+          "P"
+        ],
+        "prompt": "Provide ONE piece of historical evidence, not mentioned in the passage, that complicates the claim that Mongol rule made travel across Eurasia more secure.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Uses specific evidence that the passage does not already mention.",
+          "Explains how the evidence limits or complicates the claim about security."
         ],
         "model": {
-          "answer": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to mongol conquest and exchange.",
-          "prove": "For example, the source context points to mongol conquest and exchange and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Wars among Mongol rulers could close the very routes the empire protected.",
+          "prove": "After the empire divided, the Golden Horde and the Ilkhanate fought each other from the 1260s, and Kaidu waged long wars against Kublai Khan in Central Asia.",
+          "explain": "Security depended on cooperation among rival khanates, so the protection merchants enjoyed varied by time and region rather than covering all of Eurasia."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "The collapse of Mongol authority in the mid-1300s, which made overland routes more dangerous, or the spread of plague along Mongol-linked routes, can also complicate the claim if clearly explained.",
         "review": [
           {
             "topicId": "world-2-2",
-            "sectionId": "state-building",
-            "label": "Mongol conquest and exchange"
+            "sectionId": "khanates-rule",
+            "label": "One empire, several khanates"
           }
         ]
       }
     ],
     "sourceIds": [
-      "amsco-unit-2",
       "ced-topic-2-2",
-      "class-tang-song-mongols"
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Supplied AMSCO Unit 2 Topic 2 pages"
-      },
-      {
         "sourceId": "ced-topic-2-2",
-        "locator": "Official CED Topic 2"
+        "locator": "Topic 2.2 learning objectives"
       }
-    ],
-    "sourceContext": {
-      "label": "Original source context",
-      "text": "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      "sourceIds": [
-        "amsco-unit-2",
-        "ced-topic-2-2",
-        "class-tang-song-mongols"
-      ]
-    },
-    "exerciseType": "saq"
+    ]
   }
 }

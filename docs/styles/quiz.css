@@ -897,3 +897,125 @@
     font-size: 0.875rem;
   }
 }
+
+/* Source excerpts used as question stimuli. The attribution sits above the
+   passage, as on AP exams, and the edition sits below it. */
+.source-excerpt {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--green);
+  border-radius: 6px;
+  background: var(--white);
+}
+.source-excerpt--original {
+  border-left-color: var(--amber);
+  background: var(--amber-bg);
+}
+.source-excerpt figcaption {
+  display: grid;
+  gap: 0.2rem;
+  margin-bottom: 0.75rem;
+}
+.source-kind {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.source-attribution {
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+.source-excerpt blockquote {
+  margin: 0;
+  font: 1rem/1.7 var(--serif);
+  color: var(--ink);
+}
+.source-excerpt blockquote p {
+  margin: 0 0 0.75rem;
+}
+.source-excerpt blockquote p:last-child {
+  margin-bottom: 0;
+}
+.source-citation,
+.source-note {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+/* Results grouped by AP skill. */
+.skill-breakdown {
+  margin: 0 0 2rem;
+}
+.skill-breakdown table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.skill-breakdown th,
+.skill-breakdown td {
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+.skill-breakdown tbody th {
+  font-weight: 600;
+}
+.skill-code {
+  display: inline-block;
+  min-width: 1.4rem;
+  padding: 0 0.3rem;
+  border-radius: 4px;
+  background: var(--soft);
+  color: var(--green);
+  font: 600 0.75rem/1.5 var(--mono);
+  text-align: center;
+}
+.skill-reasoning {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+.skill-bar {
+  display: inline-block;
+  width: 4rem;
+  height: 0.45rem;
+  margin-right: 0.45rem;
+  border-radius: 999px;
+  background: var(--soft);
+  vertical-align: middle;
+  overflow: hidden;
+}
+.skill-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--green);
+}
+@media (max-width: 560px) {
+  .skill-breakdown th,
+  .skill-breakdown td {
+    padding: 0.5rem 0.3rem;
+  }
+  .skill-bar {
+    display: none;
+  }
+}
+
+/* Released DBQ documents: the source excerpt is the card. */
+.document-list .document-card--verified {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.document-card--verified > h3 {
+  margin: 0 0 0.5rem;
+}

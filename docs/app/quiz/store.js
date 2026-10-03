@@ -74,7 +74,7 @@ function selectedIndex(response) {
       : null;
 }
 
-function summaryFor(attempt) {
+export function summaryFor(attempt) {
   const ids = attempt?.orderedQuestionIds || attempt?.ids || [];
   const questions = snapshotQuestions(attempt);
   const scoreKnown = ids.every(
@@ -84,6 +84,7 @@ function summaryFor(attempt) {
   );
   let answered = 0;
   let correct = 0;
+  const skills = {};
   for (const id of ids) {
     const response =
       attempt.responses?.[id] ||
@@ -93,7 +94,19 @@ function summaryFor(attempt) {
     const selected = selectedIndex(response);
     if (!Number.isInteger(selected)) continue;
     answered += 1;
-    if (selected === questions[id]?.correctAnswer) correct += 1;
+    const hit = selected === questions[id]?.correctAnswer;
+    if (hit) correct += 1;
+    const skill = questions[id]?.skill;
+    if (skill && Number.isInteger(questions[id]?.correctAnswer)) {
+      skills[skill] ??= {
+        label: questions[id].skillLabel || skill,
+        code: questions[id].skillCode || "",
+        correct: 0,
+        total: 0,
+      };
+      skills[skill].total += 1;
+      skills[skill].correct += Number(hit);
+    }
   }
   return {
     attemptId: attemptIdentity(attempt),
@@ -119,6 +132,7 @@ function summaryFor(attempt) {
     abandonedAt: attempt.abandonedAt ?? null,
     contentRevision: attempt.contentRevision || "unknown",
     provenance: clone(attempt.provenance || { kind: "legacy" }),
+    ...(Object.keys(skills).length ? { skills } : {}),
   };
 }
 

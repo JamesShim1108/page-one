@@ -25,7 +25,7 @@ export const lesson = {
       id: "monsoon-navigation",
       title: "Reading the ocean’s seasons",
       conceptTitle: "Reading the ocean’s seasons",
-      lenses: [],
+      lenses: ["In", "T"],
       blocks: [
         {
           type: "paragraph",
@@ -58,7 +58,7 @@ export const lesson = {
       id: "ports-products",
       title: "Specialized goods and port markets",
       conceptTitle: "Specialized goods and port markets",
-      lenses: [],
+      lenses: ["E"],
       blocks: [
         {
           type: "paragraph",
@@ -91,7 +91,7 @@ export const lesson = {
       id: "diaspora-communities",
       title: "Communities across the water",
       conceptTitle: "Communities across the water",
-      lenses: [],
+      lenses: ["S", "C"],
       blocks: [
         {
           type: "paragraph",
@@ -124,7 +124,7 @@ export const lesson = {
       id: "states-revenue",
       title: "Trade could build states",
       conceptTitle: "Trade could build states",
-      lenses: [],
+      lenses: ["P", "E"],
       blocks: [
         {
           type: "paragraph",
@@ -157,7 +157,7 @@ export const lesson = {
       id: "zheng-he",
       title: "Ming voyages and state power",
       conceptTitle: "Ming voyages and state power",
-      lenses: [],
+      lenses: ["P", "T"],
       blocks: [
         {
           type: "paragraph",
@@ -191,7 +191,7 @@ export const lesson = {
     objectives: "E, F, G",
     readingLabel:
       "AMSCO Unit 2, Topic 2.3; use the supplied class reading alongside these original notes",
-    lenses: [],
+    lenses: ["In", "S", "P", "E", "C", "T"],
     prompts: [
       {
         id: "world-2-3-reading-01",

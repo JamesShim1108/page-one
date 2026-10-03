@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -440,851 +440,964 @@
       }
     ]
   },
-  "contentRevision": "68fc424d76ee7bf0",
+  "contentRevision": "a65135978dc1db0a",
   "questions": [
     {
       "id": "world-2-7-q01",
       "topicId": "world-2-7",
       "concept": "comparison-framework",
       "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "What is the first step in a strong historical comparison?",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "What is the first step in building a strong historical comparison?",
       "choices": [
-        "Choose a common dimension and make a claim about a similarity or difference",
-        "List one unrelated fact about each region",
-        "Compare modern borders instead of historical systems",
-        "Avoid explaining why the similarity or difference existed"
+        "List one interesting fact about each network you plan to compare",
+        "Decide which network was the most important before gathering evidence",
+        "Choose a shared category, such as transport or state involvement",
+        "Compare each network with modern trade routes and borders"
       ],
-      "correctAnswer": 0,
-      "explanation": "A comparison needs a shared category, a claim, evidence, and reasoning.",
+      "correctAnswer": 2,
+      "explanation": "A shared category lets you set similar evidence side by side and explain why it differs.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "A comparison needs a shared category, a claim, evidence, and reasoning.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Facts are needed, but without a shared category they do not form a comparison.",
+        "Deciding before looking at evidence weakens an argument.",
+        "A shared category lets you set similar evidence side by side and explain why it differs.",
+        "Modern routes and borders distort the historical systems."
       ],
-      "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 0,
+      "distinguisher": "Comparison starts with a common dimension.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-7-q02",
       "topicId": "world-2-7",
       "concept": "shared-causes",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Which cause was shared by all three major networks to some degree?",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which factor helped all three major networks grow between 1200 and 1450?",
       "choices": [
-        "Identical ships and currencies everywhere",
-        "Demand for goods and support from political or commercial institutions",
-        "One ruler controlling all routes",
-        "The absence of local producers"
+        "Demand for goods combined with states that protected or taxed trade",
+        "Seasonal monsoon winds that governed travel on all three routes",
+        "A single empire that ruled the Silk Roads, Sahara, and Indian Ocean",
+        "Demand for goods carried by camel caravans across desert routes"
       ],
-      "correctAnswer": 1,
-      "explanation": "Demand and institutions mattered broadly, while technologies and rulers differed.",
+      "correctAnswer": 0,
+      "explanation": "Demand and state support appear in all three networks, though in different forms.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Demand and institutions mattered broadly, while technologies and rulers differed.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Demand and state support appear in all three networks, though in different forms.",
+        "Monsoons governed the Indian Ocean only.",
+        "No single empire ruled all three networks.",
+        "Camel caravans fit the Sahara and Silk Roads, not Indian Ocean shipping."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 3,
+      "distinguisher": "A shared cause must apply to every network named.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-7-q03",
       "topicId": "world-2-7",
       "concept": "route-differences",
       "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "Which comparison of transport is accurate?",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which difference between the networks is most accurate?",
       "choices": [
-        "All three depended primarily on ocean ships",
-        "All three required the same environmental knowledge",
-        "Silk Roads used caravans across difficult terrain, Indian Ocean routes used ships and monsoon timing, and trans-Saharan routes relied heavily on camels and oases",
-        "None used specialized transport"
+        "Only trans-Saharan trade involved merchants who came from several different regions",
+        "Overland caravans carried bulkier cargo than Indian Ocean ships",
+        "Only the Silk Roads moved religious ideas along with goods",
+        "Indian Ocean ships could carry bulkier cargo than overland caravans"
       ],
-      "correctAnswer": 2,
-      "explanation": "Different geographies created distinct transport systems.",
+      "correctAnswer": 3,
+      "explanation": "Sea transport moved larger loads than caravans could.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Different geographies created distinct transport systems.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "All three networks involved merchants from many regions.",
+        "This reverses the difference.",
+        "All three networks spread religions, including Islam and Buddhism.",
+        "Sea transport moved larger loads than caravans could."
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 1,
+      "distinguisher": "Check that each half of a comparison is accurate.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-7-q04",
       "topicId": "world-2-7",
       "concept": "states-communities",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Which pairing best matches a political role?",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which pairing matches a state with the source of its trade revenue?",
       "choices": [
-        "Mali controlled the Strait of Malacca; Malacca ruled the Sahara",
-        "Both were Mongol khanates in Central Asia",
-        "Neither state interacted with merchants",
-        "Mali gained revenue from inland trade; Malacca gained revenue from a strategic maritime passage"
+        "Malacca: taxing gold and salt trade; Mali: taxing ships in a strait",
+        "Malacca: taxing ships in a strait; Mali: taxing gold and salt trade",
+        "Malacca: selling silk to Europe; Mali: selling spices to China",
+        "Malacca: tribute from the Yuan; Mali: tribute from the Ming"
       ],
-      "correctAnswer": 3,
-      "explanation": "The examples show different forms of state participation in networks.",
+      "correctAnswer": 1,
+      "explanation": "Malacca profited from its strait; Mali profited from gold and Saharan trade.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The examples show different forms of state participation in networks."
+        "This swaps the two states.",
+        "Malacca profited from its strait; Mali profited from gold and Saharan trade.",
+        "Neither state's revenue rested mainly on these exports.",
+        "Neither collected tribute from Chinese dynasties."
       ],
       "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "distinguisher": "Tie each state to its geography.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-7-q05",
       "topicId": "world-2-7",
-      "concept": "arguing-with-evidence",
-      "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "Which sentence uses evidence rather than merely naming it?",
+      "concept": "shared-causes",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which claim does the passage make?",
       "choices": [
-        "Malacca’s control of a strategic strait allowed it to charge fees and fund maritime protection, helping trade support state power",
-        "Malacca was important",
-        "Trade happened in Mali",
-        "The Silk Roads had cities"
+        "The networks were separate systems that did not exchange goods with one another",
+        "The networks overlapped, but transport conditions made them work differently",
+        "The networks were identical in their goods, cities, and rulers",
+        "The networks overlapped, so historians should stop comparing them at all"
       ],
-      "correctAnswer": 0,
-      "explanation": "The first sentence identifies evidence and explains its relationship to a claim.",
+      "correctAnswer": 1,
+      "explanation": "The passage stresses overlap and argues that what distinguished them was “how,” not “what.”",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "The first sentence identifies evidence and explains its relationship to a claim.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "The passage gives examples of goods moving among networks.",
+        "The passage stresses overlap and argues that what distinguished them was “how,” not “what.”",
+        "The passage stresses differences in transport and cities.",
+        "Overlap is part of the claim, but the passage still compares how they differed."
       ],
-      "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-7-evidence-note",
+      "nearMissIndex": 3,
+      "distinguisher": "Find both halves of the passage's argument.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: the three networks overlapped, yet geography and institutions produced different transport systems, goods, and political relationships."
+          "id": "original-network-comparison",
+          "type": "source",
+          "sourceType": "original",
+          "attribution": "Practice passage written for Page One, comparing three Afro-Eurasian trade networks, c. 1200–1450",
+          "text": "The Silk Roads, the Indian Ocean, and the trans-Saharan routes are often taught as separate systems, but merchants and goods moved among them. Gold from West Africa crossed the Sahara to North African and Egyptian markets that also traded with the Indian Ocean. Chinese porcelain reached East African ports by sea, while Chinese silk moved west by both land and sea.\n\nWhat distinguished the networks was less what they connected than how. Desert crossings depended on camels, oases, and the knowledge of guides; maritime routes depended on the monsoon calendar and port cities where ships waited for the winds to change. These conditions shaped which goods traveled, which cities grew, and which rulers could profit."
         }
-      ]
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
     },
     {
       "id": "world-2-7-q06",
       "topicId": "world-2-7",
-      "concept": "comparison-framework",
+      "concept": "route-differences",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Why should networks not be treated as sealed compartments?",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, why did different cities grow on different networks?",
       "choices": [
-        "They had no contact with one another",
-        "They overlapped through intermediaries, shared goods, and connected political and cultural systems",
-        "Each network used one permanent route",
-        "Comparison is impossible when networks overlap"
+        "Cities grew only in the places where Mongol rulers founded new capitals",
+        "Transport needs mattered less than the question of which rulers controlled the most gold",
+        "Cities grew wherever merchants who traveled from Europe chose to settle down",
+        "Transport needs, such as oases or ports for waiting ships, shaped where cities rose"
       ],
-      "correctAnswer": 1,
-      "explanation": "Overlap is a reason to qualify categories, not abandon comparison.",
+      "correctAnswer": 3,
+      "explanation": "The passage links desert oases and monsoon ports to which cities and rulers could profit.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Overlap is a reason to qualify categories, not abandon comparison.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "The passage does not attribute city growth to Mongol capitals.",
+        "The passage emphasizes transport conditions, not gold alone.",
+        "The passage does not discuss European settlement.",
+        "The passage links desert oases and monsoon ports to which cities and rulers could profit."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-7-evidence-note",
+      "nearMissIndex": 1,
+      "distinguisher": "Use the passage's explanation: conditions of travel.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: the three networks overlapped, yet geography and institutions produced different transport systems, goods, and political relationships."
+          "id": "original-network-comparison",
+          "type": "source",
+          "sourceType": "original",
+          "attribution": "Practice passage written for Page One, comparing three Afro-Eurasian trade networks, c. 1200–1450",
+          "text": "The Silk Roads, the Indian Ocean, and the trans-Saharan routes are often taught as separate systems, but merchants and goods moved among them. Gold from West Africa crossed the Sahara to North African and Egyptian markets that also traded with the Indian Ocean. Chinese porcelain reached East African ports by sea, while Chinese silk moved west by both land and sea.\n\nWhat distinguished the networks was less what they connected than how. Desert crossings depended on camels, oases, and the knowledge of guides; maritime routes depended on the monsoon calendar and port cities where ships waited for the winds to change. These conditions shaped which goods traveled, which cities grew, and which rulers could profit."
         }
-      ]
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     },
     {
       "id": "world-2-7-q07",
       "topicId": "world-2-7",
-      "concept": "shared-causes",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Which similarity is most defensible?",
+      "concept": "comparison-framework",
+      "difficulty": "Challenge",
+      "skill": "argumentation",
+      "prompt": "Which evidence would best support the passage's first paragraph?",
       "choices": [
-        "All networks had the same goods and institutions",
-        "All networks were controlled by one empire",
-        "All networks depended on environmental knowledge and political conditions, though the specific forms differed",
-        "All networks produced equal wealth"
+        "Chinese porcelain found at East African ports that also traded with Arabia",
+        "Camel caravans carrying salt from Taghaza to towns south of the Sahara",
+        "Monsoon winds reversing direction between summer and winter",
+        "Mongol relay stations spaced every twenty-five miles along roads leading from the Yuan capital"
       ],
-      "correctAnswer": 2,
-      "explanation": "Shared processes can take different forms and produce uneven outcomes.",
+      "correctAnswer": 0,
+      "explanation": "Porcelain moving from China to ports linked with other markets shows networks overlapping.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Shared processes can take different forms and produce uneven outcomes.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "Porcelain moving from China to ports linked with other markets shows networks overlapping.",
+        "This shows how one network worked, not how networks connected.",
+        "This explains maritime travel, which belongs to the second paragraph.",
+        "This shows state support within one network, not overlap."
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-7-evidence-note",
+      "nearMissIndex": 1,
+      "distinguisher": "The first paragraph is about overlap.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: the three networks overlapped, yet geography and institutions produced different transport systems, goods, and political relationships."
+          "id": "original-network-comparison",
+          "type": "source",
+          "sourceType": "original",
+          "attribution": "Practice passage written for Page One, comparing three Afro-Eurasian trade networks, c. 1200–1450",
+          "text": "The Silk Roads, the Indian Ocean, and the trans-Saharan routes are often taught as separate systems, but merchants and goods moved among them. Gold from West Africa crossed the Sahara to North African and Egyptian markets that also traded with the Indian Ocean. Chinese porcelain reached East African ports by sea, while Chinese silk moved west by both land and sea.\n\nWhat distinguished the networks was less what they connected than how. Desert crossings depended on camels, oases, and the knowledge of guides; maritime routes depended on the monsoon calendar and port cities where ships waited for the winds to change. These conditions shaped which goods traveled, which cities grew, and which rulers could profit."
         }
-      ]
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
     },
     {
       "id": "world-2-7-q08",
       "topicId": "world-2-7",
-      "concept": "route-differences",
+      "concept": "states-communities",
       "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "Why could maritime routes carry different goods from overland routes?",
+      "skill": "developments",
+      "prompt": "Which groups, besides rulers, kept the trade networks working?",
       "choices": [
-        "Ships could not carry goods at all",
-        "Caravans never crossed deserts or mountains",
-        "Maritime trade did not need environmental knowledge",
-        "Ships could carry larger or heavier loads, while land routes faced terrain and animal limits"
+        "European bankers who financed every voyage and caravan",
+        "Mongol soldiers who escorted every shipment in each network",
+        "Diaspora merchants, caravan guides, sailors, and local brokers",
+        "Diaspora merchants only, since states handled all transport and protection"
       ],
-      "correctAnswer": 3,
-      "explanation": "Transport capacity and geography shaped specialization.",
+      "correctAnswer": 2,
+      "explanation": "Specialists of many kinds supplied knowledge, transport, and trust.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Transport capacity and geography shaped specialization."
+        "European bankers financed some Mediterranean trade, not every network.",
+        "Mongol power covered parts of Eurasia, not the Sahara or the whole Indian Ocean.",
+        "Specialists of many kinds supplied knowledge, transport, and trust.",
+        "Diaspora merchants mattered, but so did guides, sailors, and brokers."
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 3,
+      "distinguisher": "Expertise was spread across many groups.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-7-q09",
       "topicId": "world-2-7",
-      "concept": "states-communities",
+      "concept": "route-differences",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Which statement best includes non-state actors?",
+      "skill": "developments",
+      "prompt": "Why did luxury goods dominate long-distance overland trade?",
       "choices": [
-        "Merchants, sailors, guides, farmers, artisans, and diasporic communities made networks work alongside rulers",
-        "Only emperors created exchange",
-        "Local communities were passive in every network",
-        "States never relied on specialized workers"
+        "Luxury goods were lighter because they were made of paper",
+        "Their high value meant that only governments were legally allowed to trade them",
+        "Bulk goods were banned on the Silk Roads by Mongol law",
+        "Their high value justified the cost of slow, expensive land transport"
       ],
-      "correctAnswer": 0,
-      "explanation": "Everyday specialists and communities sustained trade and cultural contact.",
+      "correctAnswer": 3,
+      "explanation": "Overland costs were high, so goods had to be valuable for their weight.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Everyday specialists and communities sustained trade and cultural contact.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Silk, spices, and porcelain were not made of paper.",
+        "Merchants of many kinds traded luxuries; there was no government monopoly everywhere.",
+        "No such ban existed; cost, not law, limited bulk goods.",
+        "Overland costs were high, so goods had to be valuable for their weight."
       ],
       "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-7-evidence-note",
-      "stimulusBlocks": [
-        {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: the three networks overlapped, yet geography and institutions produced different transport systems, goods, and political relationships."
-        }
-      ]
+      "distinguisher": "Value relative to transport cost.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-7-q10",
       "topicId": "world-2-7",
-      "concept": "arguing-with-evidence",
-      "difficulty": "Challenge",
-      "skillTag": "Historical reasoning",
-      "prompt": "Which evidence would best support a claim that networks spread culture?",
+      "concept": "route-differences",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Taken together, the two passages best show that",
       "choices": [
-        "A modern map with no historical dates",
-        "A documented diaspora, translation activity, or religious institution linked to a trade route",
-        "A list of goods with no people or institutions",
-        "A claim that cultures always become identical"
+        "both networks depended mainly on enslaved labor to move their goods",
+        "both networks were controlled by rulers based in southern China",
+        "both networks moved goods through specialized places tied to their environments",
+        "both networks had already stopped growing by the time these two accounts were written"
       ],
-      "correctAnswer": 1,
-      "explanation": "Cultural diffusion requires evidence of people, practices, institutions, or knowledge moving.",
+      "correctAnswer": 2,
+      "explanation": "A desert salt mine and a pepper coast each became important because of what their environments offered.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-7",
-        "ced"
+        "polo-yule-1903",
+        "battuta-gibb-1929"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
+          "sourceId": "ced-topic-2-7",
+          "locator": "Topic 2.7 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
+        },
+        {
+          "sourceId": "battuta-gibb-1929",
+          "locator": "ch"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Cultural diffusion requires evidence of people, practices, institutions, or knowledge moving.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Taghaza used enslaved miners, but the Malabar passage does not describe enslaved labor.",
+        "Neither place was ruled from China.",
+        "A desert salt mine and a pepper coast each became important because of what their environments offered.",
+        "Both passages describe busy, ongoing trade."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 0,
+      "distinguisher": "Find what both passages show, not what only one shows.",
+      "stimulusBlocks": [
+        {
+          "id": "polo-melibar",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
+          "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
+          "text": "And you must know that from this kingdom of Melibar, and from another near it called Gozurat, there go forth every year more than a hundred corsair vessels on cruize. . . . But now the merchants are aware of this, and go so well manned and armed, and with such great ships, that they don't fear the corsairs. . . .\n\nShips come hither from many quarters, but especially from the great province of Manzi. Coarse spices are exported hence both to Manzi and to the west, and that which is carried by the merchants to Aden goes on to Alexandria, but the ships that go in the latter direction are not one to ten of those that go to the eastward"
+        },
+        {
+          "id": "battuta-taghaza",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
+          "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
+          "edits": [
+            {
+              "shown": "[West Africa]",
+              "original": "the Negrolands"
+            },
+            {
+              "shown": "[West Africans]",
+              "original": "The negroes"
+            }
+          ],
+          "text": "After twenty-five days we reached Taghaza, an unattractive village, with the curious feature that its houses and mosques are built of blocks of salt, roofed with camel skins. There are no trees there, nothing but sand. In the sand is a salt mine; they dig for the salt, and find it in thick slabs, lying one on top of the other, as though they had been tool-squared and laid under the surface of the earth. . . . A camel will carry two of these slabs. No one lives at Taghaza except the slaves of the Massufa tribe, who dig for the salt; they subsist on dates imported from Dar'a and Sijilmasa, camels' flesh, and millet imported from [West Africa]. [West Africans] come up from their country and take away the salt from there."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
     },
     {
       "id": "world-2-7-q11",
       "topicId": "world-2-7",
-      "concept": "comparison-framework",
+      "concept": "states-communities",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "A student compares the Silk Roads and Indian Ocean networks by goods, transport, and state involvement. What should the student add?",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which difference between the two passages is most significant for comparing the networks?",
       "choices": [
-        "More unrelated dates",
-        "A claim that both were exactly the same",
-        "An explanation of why geography and institutions produced the similarities or differences",
-        "No thesis so the essay stays neutral"
+        "Ships carried only salt, while caravans carried only pepper",
+        "Ships faced pirates at sea, while caravans faced scarce food and water in the desert",
+        "Ships were owned by Mali, while caravans were owned by Malabar's kings",
+        "Ships faced pirates at sea, while caravans faced no risks once they left Sijilmasa"
       ],
-      "correctAnswer": 2,
-      "explanation": "Reasoning turns categories into historical argument.",
+      "correctAnswer": 1,
+      "explanation": "Each network had its own dangers: corsairs at sea, and in the desert, food imported from far away.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-7",
-        "ced"
+        "polo-yule-1903",
+        "battuta-gibb-1929"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
+          "sourceId": "ced-topic-2-7",
+          "locator": "Topic 2.7 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
+        },
+        {
+          "sourceId": "battuta-gibb-1929",
+          "locator": "ch"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Reasoning turns categories into historical argument.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "This swaps and narrows the goods; pepper came from Malabar and salt from Taghaza.",
+        "Each network had its own dangers: corsairs at sea, and in the desert, food imported from far away.",
+        "Neither passage describes such ownership.",
+        "Pirates are correct, but the Taghaza passage shows hardship in the desert."
       ],
       "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-7-evidence-note",
+      "distinguisher": "Compare the same feature, here the risks each network faced.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: the three networks overlapped, yet geography and institutions produced different transport systems, goods, and political relationships."
+          "id": "polo-melibar",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
+          "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
+          "text": "And you must know that from this kingdom of Melibar, and from another near it called Gozurat, there go forth every year more than a hundred corsair vessels on cruize. . . . But now the merchants are aware of this, and go so well manned and armed, and with such great ships, that they don't fear the corsairs. . . .\n\nShips come hither from many quarters, but especially from the great province of Manzi. Coarse spices are exported hence both to Manzi and to the west, and that which is carried by the merchants to Aden goes on to Alexandria, but the ships that go in the latter direction are not one to ten of those that go to the eastward"
+        },
+        {
+          "id": "battuta-taghaza",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
+          "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
+          "edits": [
+            {
+              "shown": "[West Africa]",
+              "original": "the Negrolands"
+            },
+            {
+              "shown": "[West Africans]",
+              "original": "The negroes"
+            }
+          ],
+          "text": "After twenty-five days we reached Taghaza, an unattractive village, with the curious feature that its houses and mosques are built of blocks of salt, roofed with camel skins. There are no trees there, nothing but sand. In the sand is a salt mine; they dig for the salt, and find it in thick slabs, lying one on top of the other, as though they had been tool-squared and laid under the surface of the earth. . . . A camel will carry two of these slabs. No one lives at Taghaza except the slaves of the Massufa tribe, who dig for the salt; they subsist on dates imported from Dar'a and Sijilmasa, camels' flesh, and millet imported from [West Africa]. [West Africans] come up from their country and take away the salt from there."
         }
-      ]
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-7-q12",
       "topicId": "world-2-7",
-      "concept": "shared-causes",
-      "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "How did trading cities affect all three networks?",
+      "concept": "arguing-with-evidence",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Why is pairing these two sources useful for a historian?",
       "choices": [
-        "They were isolated from routes",
-        "They prevented urban growth",
-        "They had no relation to political power",
-        "They acted as nodes where merchants exchanged goods, services, information, and cultural practices"
+        "They come from different travelers and networks, so they can test a general claim",
+        "They describe the same city, so they can confirm each other's numbers",
+        "They come from different travelers, so neither has a point of view to consider",
+        "They were written by the same author, so they agree on every detail"
       ],
-      "correctAnswer": 3,
-      "explanation": "Cities were “knots” that held routes together, though their forms differed.",
+      "correctAnswer": 0,
+      "explanation": "Evidence from two independent observers in two networks makes a comparison stronger.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-7",
-        "ced"
+        "polo-yule-1903",
+        "battuta-gibb-1929"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
+          "sourceId": "ced-topic-2-7",
+          "locator": "Topic 2.7 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
+        },
+        {
+          "sourceId": "battuta-gibb-1929",
+          "locator": "ch"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Cities were “knots” that held routes together, though their forms differed."
+        "Evidence from two independent observers in two networks makes a comparison stronger.",
+        "They describe different places in different networks.",
+        "Different authors help, but each still has a point of view.",
+        "Polo and Ibn Battuta were different travelers."
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 2,
+      "distinguisher": "Independent sources from different settings strengthen comparison.",
+      "stimulusBlocks": [
+        {
+          "id": "polo-melibar",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
+          "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
+          "text": "And you must know that from this kingdom of Melibar, and from another near it called Gozurat, there go forth every year more than a hundred corsair vessels on cruize. . . . But now the merchants are aware of this, and go so well manned and armed, and with such great ships, that they don't fear the corsairs. . . .\n\nShips come hither from many quarters, but especially from the great province of Manzi. Coarse spices are exported hence both to Manzi and to the west, and that which is carried by the merchants to Aden goes on to Alexandria, but the ships that go in the latter direction are not one to ten of those that go to the eastward"
+        },
+        {
+          "id": "battuta-taghaza",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
+          "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
+          "edits": [
+            {
+              "shown": "[West Africa]",
+              "original": "the Negrolands"
+            },
+            {
+              "shown": "[West Africans]",
+              "original": "The negroes"
+            }
+          ],
+          "text": "After twenty-five days we reached Taghaza, an unattractive village, with the curious feature that its houses and mosques are built of blocks of salt, roofed with camel skins. There are no trees there, nothing but sand. In the sand is a salt mine; they dig for the salt, and find it in thick slabs, lying one on top of the other, as though they had been tool-squared and laid under the surface of the earth. . . . A camel will carry two of these slabs. No one lives at Taghaza except the slaves of the Massufa tribe, who dig for the salt; they subsist on dates imported from Dar'a and Sijilmasa, camels' flesh, and millet imported from [West Africa]. [West Africans] come up from their country and take away the salt from there."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
     },
     {
       "id": "world-2-7-q13",
       "topicId": "world-2-7",
-      "concept": "route-differences",
+      "concept": "shared-causes",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Which example best illustrates environmental specialization?",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which development helped spread Islam across all three networks?",
       "choices": [
-        "Monsoon timing mattered in the Indian Ocean, while water and camel capacity mattered across the Sahara",
-        "All environments created the same travel schedule",
-        "Desert routes depended on ocean tides",
-        "Indian Ocean merchants never waited in ports"
+        "Muslim merchants and scholars traveling and settling along trade routes",
+        "Muslim merchants traveling the routes after Mongol rulers required conversion",
+        "Abbasid armies conquering the Sahara, Central Asia, and the Swahili coast",
+        "Zheng He's voyages carrying Muslim teachers to every major port"
       ],
       "correctAnswer": 0,
-      "explanation": "Each network required different environmental knowledge.",
+      "explanation": "Merchants and scholars carried Islam to Central Asia, West Africa, and Indian Ocean ports.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Each network required different environmental knowledge.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Merchants and scholars carried Islam to Central Asia, West Africa, and Indian Ocean ports.",
+        "Merchants mattered, but Mongol rulers did not require conversion.",
+        "Abbasid conquests did not reach West Africa or the Swahili coast.",
+        "Islam was established in these regions long before Zheng He sailed."
       ],
       "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "distinguisher": "Merchants and scholars, not one conquest.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     },
     {
       "id": "world-2-7-q14",
       "topicId": "world-2-7",
       "concept": "states-communities",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Why should a comparison distinguish state protection from merchant expertise?",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "How did state involvement in Mali compare with state involvement under the Mongols?",
       "choices": [
-        "States and merchants always had identical roles",
-        "Rulers could tax and protect routes, while local specialists supplied knowledge, labor, and relationships",
-        "Merchants could not influence exchange",
-        "Rulers personally carried every load"
+        "Mali ignored trade, while the Mongols relied entirely on it",
+        "Both used trade revenue, but the Mongols ruled far larger, multiregional territory",
+        "Neither state taxed trade, because merchants paid no fees",
+        "Both used trade revenue, and both ruled territory stretching from China to Persia"
       ],
       "correctAnswer": 1,
-      "explanation": "Networks depended on distributed roles and institutions.",
+      "explanation": "Both drew wealth from trade, but Mongol khanates spanned much of Eurasia.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Networks depended on distributed roles and institutions.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Mali's rulers taxed and protected trade.",
+        "Both drew wealth from trade, but Mongol khanates spanned much of Eurasia.",
+        "Both collected duties and taxes on trade.",
+        "Trade revenue fits both, but Mali was a West African state."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-7-evidence-note",
-      "stimulusBlocks": [
-        {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: the three networks overlapped, yet geography and institutions produced different transport systems, goods, and political relationships."
-        }
-      ]
+      "nearMissIndex": 3,
+      "distinguisher": "Shared feature first, then a difference in scale.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-7-q15",
       "topicId": "world-2-7",
       "concept": "arguing-with-evidence",
-      "difficulty": "Challenge",
-      "skillTag": "Historical reasoning",
-      "prompt": "Which thesis is most defensible?",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which sentence turns evidence into analysis?",
       "choices": [
-        "All trade networks were identical",
-        "Only the Indian Ocean mattered after 1200",
-        "All three networks grew through demand and institutions, but transport and geography created different goods, cities, and cultural communities",
-        "The networks had no political consequences"
+        "Malacca is mentioned in many textbooks about the Indian Ocean",
+        "Malacca was a port in Southeast Asia that many ships from distant regions visited each year",
+        "Because Malacca controlled a narrow strait, it could tax nearly all passing ships",
+        "Malacca and Timbuktu were both important cities in this period"
       ],
       "correctAnswer": 2,
-      "explanation": "The thesis makes a comparative claim with both shared and different processes.",
+      "explanation": "The sentence explains how a feature produced a result.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The thesis makes a comparative claim with both shared and different processes.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "Textbook coverage is not historical evidence.",
+        "This states a fact without explaining its significance.",
+        "The sentence explains how a feature produced a result.",
+        "This names two places without a claim or explanation."
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 1,
+      "distinguisher": "Analysis explains how or why.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
     },
     {
       "id": "world-2-7-q16",
       "topicId": "world-2-7",
-      "concept": "comparison-framework",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "What makes an example relevant to a comparison?",
+      "concept": "arguing-with-evidence",
+      "difficulty": "Challenge",
+      "skill": "argumentation",
+      "prompt": "Which thesis best answers: “Compare the effects of the Indian Ocean and trans-Saharan networks, c. 1200–1450”?",
       "choices": [
-        "It is famous even if unrelated to the prompt",
-        "It appears in a different time period with no connection",
-        "It is the longest detail available",
-        "It directly supports the dimension and claim being analyzed"
+        "Both enriched trade states and spread Islam, so their effects were essentially the same",
+        "The Indian Ocean network mattered more because its ports were located much closer to European markets",
+        "The trans-Saharan network had no effects because the desert blocked trade",
+        "Both enriched trade states and spread Islam, but sea routes built more diverse port communities"
       ],
       "correctAnswer": 3,
-      "explanation": "Relevance depends on the argument, period, place, and mechanism.",
+      "explanation": "This thesis names a similarity and a specific difference with a line of reasoning.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Relevance depends on the argument, period, place, and mechanism."
+        "The similarity is accurate, but saying the effects were the same ignores real differences.",
+        "Closeness to Europe is not a measure of effects, and the claim is inaccurate.",
+        "Trade crossed the desert regularly and had major effects.",
+        "This thesis names a similarity and a specific difference with a line of reasoning."
       ],
       "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "distinguisher": "A comparison thesis needs both a similarity and a difference.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
     },
     {
       "id": "world-2-7-q17",
       "topicId": "world-2-7",
-      "concept": "shared-causes",
-      "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "Which shared effect can be supported across networks?",
+      "concept": "comparison-framework",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which comparison of the three networks' goods is most accurate?",
       "choices": [
-        "Growth of trading cities and movement of ideas, people, and cultural practices",
-        "Identical political systems",
-        "The end of all local production",
-        "Equal social status for merchants"
+        "Only the Silk Roads moved luxury goods; the others moved only food",
+        "Only the Sahara routes moved gold; the others never carried precious metals",
+        "All moved luxury goods, but the Indian Ocean also carried more bulk goods",
+        "All moved luxury goods, and all carried large amounts of bulk grain"
       ],
-      "correctAnswer": 0,
-      "explanation": "Urban and cultural effects were broad patterns but varied in form and scale.",
+      "correctAnswer": 2,
+      "explanation": "Luxuries traveled on every network, while ships also carried bulkier cargo.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Urban and cultural effects were broad patterns but varied in form and scale.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Gold, spices, and porcelain moved on the other networks too.",
+        "Gold and silver also moved by sea and overland in Asia.",
+        "Luxuries traveled on every network, while ships also carried bulkier cargo.",
+        "Bulk grain moved mainly by sea or short distances, not across deserts."
       ],
-      "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-7-evidence-note",
-      "stimulusBlocks": [
-        {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: the three networks overlapped, yet geography and institutions produced different transport systems, goods, and political relationships."
-        }
-      ]
+      "nearMissIndex": 3,
+      "distinguisher": "Shared pattern plus a specific difference.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-7-q18",
       "topicId": "world-2-7",
-      "concept": "route-differences",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Why should a comparison avoid saying one network was simply “better”?",
+      "concept": "shared-causes",
+      "difficulty": "Challenge",
+      "skill": "contextualization",
+      "prompt": "Which broader development best explains why all three networks expanded after 1200?",
       "choices": [
-        "History has no evidence",
-        "Different networks solved different geographic and economic problems and produced mixed benefits and costs",
-        "All networks were equally identical",
-        "The question only asks for opinions"
+        "The invention of steam power, which made transport faster on every route",
+        "Growing populations in Europe alone, whose buyers purchased most goods on all three networks",
+        "The discovery of the Americas, which added new goods to Afro-Eurasian trade",
+        "Growing populations and economies in China, the Islamic world, and Europe raised demand"
       ],
-      "correctAnswer": 1,
-      "explanation": "Historical comparison explains difference in context rather than ranking systems without criteria.",
+      "correctAnswer": 3,
+      "explanation": "Rising production and urban demand across Afro-Eurasia increased trade on all routes.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
+        "ced-topic-2-7"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "locator": "Topic 2.7 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Historical comparison explains difference in context rather than ranking systems without criteria.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Steam power came centuries later.",
+        "European demand grew, but Chinese and Islamic markets were larger.",
+        "Columbus reached the Americas in 1492, after this period.",
+        "Rising production and urban demand across Afro-Eurasia increased trade on all routes."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 1,
+      "distinguisher": "Context must fit the period and all three networks.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
     },
     {
       "id": "world-2-7-q19",
       "topicId": "world-2-7",
       "concept": "states-communities",
-      "difficulty": "Challenge",
-      "skillTag": "Historical reasoning",
-      "prompt": "Which relationship between exchange and states is strongest?",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The two passages show different ways that rulers benefited from trade. Which pairing is accurate?",
       "choices": [
-        "Trade always destroyed states",
-        "States had no role in commerce",
-        "Trade could increase state revenue and state policy could protect or redirect trade",
-        "States controlled natural winds and crop growth"
+        "The Yuan collected duties on imports; Mali's rulers kept order that protected merchants",
+        "The Yuan collected duties on imports; Mali's rulers seized foreign merchants' property",
+        "The Yuan banned foreign ships; Mali's rulers banned foreign merchants",
+        "The Yuan protected caravans; Mali's rulers taxed ships at sea"
       ],
-      "correctAnswer": 2,
-      "explanation": "The relationship was reciprocal and varied.",
+      "correctAnswer": 0,
+      "explanation": "Polo describes a ten percent duty; Ibn Battuta describes security and protection of foreigners' estates.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-7",
-        "ced"
+        "polo-yule-1903",
+        "battuta-gibb-1929"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
+          "sourceId": "ced-topic-2-7",
+          "locator": "Topic 2.7 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
+        },
+        {
+          "sourceId": "battuta-gibb-1929",
+          "locator": "ch"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The relationship was reciprocal and varied.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "Polo describes a ten percent duty; Ibn Battuta describes security and protection of foreigners' estates.",
+        "Duties fit the Yuan, but Ibn Battuta says Mali did not confiscate foreign merchants' property.",
+        "Both passages describe foreign merchants present and protected.",
+        "This mismatches both passages."
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-7-evidence-note",
+      "nearMissIndex": 1,
+      "distinguisher": "Check each half against its own passage.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: the three networks overlapped, yet geography and institutions produced different transport systems, goods, and political relationships."
+          "id": "polo-zayton",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
+          "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
+          "text": "At this city you must know is the Haven of Zayton, frequented by all the ships of India, which bring thither spicery and all other kinds of costly wares. . . . And I assure you that for one shipload of pepper that goes to Alexandria or elsewhere, destined for Christendom, there come a hundred such, aye and more too, to this haven of Zayton; for it is one of the two greatest havens in the world for commerce.\n\nThe Great Kaan derives a very large revenue from the duties paid in this city and haven; for you must know that on all the merchandize imported, including precious stones and pearls, he levies a duty of ten per cent., or in other words takes tithe of everything."
+        },
+        {
+          "id": "battuta-mali",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
+          "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
+          "edits": [
+            {
+              "shown": "[The people of Mali]",
+              "original": "The negroes"
+            }
+          ],
+          "text": "[The people of Mali] possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. Their sultan shows no mercy to anyone who is guilty of the least act of it. There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. They do not confiscate the property of any white man who dies in their country, even if it be uncounted wealth. On the contrary, they give it into the charge of some trustworthy person among the whites, until the rightful heir takes possession of it. They are careful to observe the hours of prayer, and assiduous in attending them in congregations, and in bringing up their children to them. . . .\n\nYet another is their zeal for learning the Koran by heart. . . . Among their bad qualities are the following. . . . Then there is their custom of putting dust and ashes on their heads, as a mark of respect, and the grotesque ceremonies we have described when the poets recite their verses."
         }
-      ]
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-7-q20",
       "topicId": "world-2-7",
       "concept": "arguing-with-evidence",
       "difficulty": "Challenge",
-      "skillTag": "Historical reasoning",
-      "prompt": "Which concluding claim demonstrates complexity?",
+      "skill": "argumentation",
+      "prompt": "How could these passages best be used together in an argument?",
       "choices": [
-        "Trade connected societies, so every outcome was positive",
-        "Networks had no effects beyond buying goods",
-        "All regions experienced exactly the same change",
-        "Networks connected distant societies, yet benefits and risks were uneven because geography, state power, and local communities shaped outcomes"
+        "To argue that merchants avoided both China and Mali because of high taxes",
+        "To argue that states in different networks profited from trade in different ways",
+        "To argue that religion had no connection to trade in either region",
+        "To argue that all states taxed trade in exactly the same way and at the same rate"
       ],
-      "correctAnswer": 3,
-      "explanation": "The conclusion recognizes connection, variation, and multiple causes.",
+      "correctAnswer": 1,
+      "explanation": "One shows taxation, the other security and order, supporting a claim about varied state roles.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-7",
-        "ced"
+        "polo-yule-1903",
+        "battuta-gibb-1929"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 7 supplied PDF page range"
+          "sourceId": "ced-topic-2-7",
+          "locator": "Topic 2.7 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-7",
-          "locator": "CED Topic 7 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
+        },
+        {
+          "sourceId": "battuta-gibb-1929",
+          "locator": "ch"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The conclusion recognizes connection, variation, and multiple causes."
+        "Both passages describe active trade with foreign merchants.",
+        "One shows taxation, the other security and order, supporting a claim about varied state roles.",
+        "Ibn Battuta links Mali's order to religious practice; the claim ignores that.",
+        "The passages show different approaches, not identical ones."
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 3,
+      "distinguisher": "Use each source for what it shows.",
+      "stimulusBlocks": [
+        {
+          "id": "polo-zayton",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
+          "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
+          "text": "At this city you must know is the Haven of Zayton, frequented by all the ships of India, which bring thither spicery and all other kinds of costly wares. . . . And I assure you that for one shipload of pepper that goes to Alexandria or elsewhere, destined for Christendom, there come a hundred such, aye and more too, to this haven of Zayton; for it is one of the two greatest havens in the world for commerce.\n\nThe Great Kaan derives a very large revenue from the duties paid in this city and haven; for you must know that on all the merchandize imported, including precious stones and pearls, he levies a duty of ten per cent., or in other words takes tithe of everything."
+        },
+        {
+          "id": "battuta-mali",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
+          "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
+          "edits": [
+            {
+              "shown": "[The people of Mali]",
+              "original": "The negroes"
+            }
+          ],
+          "text": "[The people of Mali] possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. Their sultan shows no mercy to anyone who is guilty of the least act of it. There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. They do not confiscate the property of any white man who dies in their country, even if it be uncounted wealth. On the contrary, they give it into the charge of some trustworthy person among the whites, until the rightful heir takes possession of it. They are careful to observe the hours of prayer, and assiduous in attending them in congregations, and in bringing up their children to them. . . .\n\nYet another is their zeal for learning the Koran by heart. . . . Among their bad qualities are the following. . . . Then there is their custom of putting dust and ashes on their heads, as a mark of respect, and the grotesque ceremonies we have described when the poets recite their verses."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
     }
   ],
   "quizzes": [

@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -431,124 +431,131 @@
   },
   "quiz": {
     "id": "world-2-saq-06",
-    "version": 1,
+    "version": 2,
     "courseId": "world",
     "unitId": "world-2",
     "title": "Unit 2 SAQ 06",
-    "headline": "Environmental consequences",
-    "promptTitle": "Original AP-style Unit 2 source practice",
-    "prompt": "A crop spreads through exchange while a pathogen follows connected routes. Explain why connectivity can produce both beneficial and harmful environmental consequences.",
-    "instructions": "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    "note": "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
+    "headline": "The plague and its consequences",
+    "promptTitle": "Primary-source short-answer question",
+    "prompt": "Use the passage below to answer all parts of the question.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
+    "stimulusBlocks": [
+      {
+        "id": "boccaccio-society",
+        "type": "source",
+        "sourceType": "primary",
+        "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, completed c. 1353, describing Florence and its countryside during the plague of 1348",
+        "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
+        "note": "Husbandmen are farmers. Payne's 1886 English imitates older usage.",
+        "text": "By reason whereof there remained unto those (and the number of them, both males and females, was incalculable) who fell sick, none other succour than that which they owed either to the charity of friends (and of these there were few) or the greed of servants, who tended them, allured by high and extravagant wage . . . .\n\nthroughout the scattered villages and in the fields, the poor and miserable husbandmen and their families, without succour of physician or aid of servitor, died, not like men, but well nigh like beasts, by the ways or in their tillages or about the houses, indifferently by day and night. . . . the oxen, the asses, the sheep, the goats, the swine, the fowls, nay, the very dogs, so faithful to mankind, being driven forth of their own houses, went straying at their pleasure about the fields, where the very corn was abandoned, without being cut, much less gathered in"
+      }
+    ],
     "scaffold": [
       {
         "label": "Answer",
-        "text": "Respond directly to the verb in the question."
+        "text": "Respond directly to the task verb: identify, describe, or explain."
       },
       {
         "label": "Prove",
-        "text": "Use one specific historical example or detail from the source context."
+        "text": "Name a specific person, place, institution, or development."
       },
       {
         "label": "Explain",
-        "text": "Connect the evidence to the historical claim."
+        "text": "Show how or why the evidence answers the question."
       }
     ],
     "parts": [
       {
         "id": "a",
-        "lenses": [],
-        "prompt": "Explain the central historical relationship in the prompt.",
+        "lenses": [
+          "S"
+        ],
+        "prompt": "Identify ONE social effect of the plague described in the passage.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a social effect the passage describes.",
+          "Supports it with a detail from the passage."
         ],
         "model": {
-          "answer": "Explain the central historical relationship in the prompt. A strong response would connect the source context to crop and disease diffusion.",
-          "prove": "For example, the source context points to crop and disease diffusion and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "The plague left many sick people without care.",
+          "prove": "Boccaccio says the sick had no help except “the charity of friends (and of these there were few)” or servants drawn by “high and extravagant wage.”",
+          "explain": "Fear of contagion weakened ordinary obligations of care within families and communities."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Farmers dying “without succour of physician or aid of servitor” also earns the point.",
         "review": [
           {
             "topicId": "world-2-6",
-            "sectionId": "crop-movement",
-            "label": "Crop and disease diffusion"
+            "sectionId": "demographic-economic",
+            "label": "Demographic shocks changed labor"
           }
         ]
       },
       {
         "id": "b",
-        "lenses": [],
-        "prompt": "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        "lenses": [
+          "E",
+          "S"
+        ],
+        "prompt": "Explain ONE economic effect of the plague in Afro-Eurasia in the period c. 1340 to c. 1450.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a specific economic effect in a specific region.",
+          "Explains the mechanism linking population loss to that effect."
         ],
         "model": {
-          "answer": "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to crop and disease diffusion.",
-          "prove": "For example, the source context points to crop and disease diffusion and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "In parts of western Europe, the plague raised the value of labor.",
+          "prove": "With so many workers dead, survivors demanded higher wages, and England's government responded with the Statute of Labourers in 1351 to hold wages at earlier levels.",
+          "explain": "A sudden labor shortage gave workers bargaining power, which elites tried to limit through law, helping lead to conflicts such as the English Peasants' Revolt of 1381."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Falling farm production and tax revenue in Mamluk Egypt, or the abandonment of villages in parts of Europe, can also work.",
         "review": [
           {
             "topicId": "world-2-6",
-            "sectionId": "crop-movement",
-            "label": "Crop and disease diffusion"
+            "sectionId": "demographic-economic",
+            "label": "Demographic shocks changed labor"
           }
         ]
       },
       {
         "id": "c",
-        "lenses": [],
-        "prompt": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        "lenses": [
+          "In",
+          "E"
+        ],
+        "prompt": "Explain ONE way trade networks contributed to the spread of the plague.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a specific route, port, or form of transport.",
+          "Explains how movement along it spread the disease."
         ],
         "model": {
-          "answer": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to crop and disease diffusion.",
-          "prove": "For example, the source context points to crop and disease diffusion and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Ships and caravans carried infected rats and fleas along trade routes.",
+          "prove": "The plague reached the Black Sea port of Caffa by 1346, and Genoese ships brought it from the Black Sea to Sicily and Italy in 1347.",
+          "explain": "Busy routes linking Mongol-ruled Asia to Mediterranean ports let the disease travel thousands of miles within a few years."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Answers can also explain how caravan routes or the movement of armies spread the disease overland.",
         "review": [
           {
             "topicId": "world-2-6",
-            "sectionId": "crop-movement",
-            "label": "Crop and disease diffusion"
+            "sectionId": "pathogen-networks",
+            "label": "Pathogens moved with mobility"
           }
         ]
       }
     ],
     "sourceIds": [
-      "amsco-unit-2",
+      "boccaccio-payne-1886",
       "ced-topic-2-6",
-      "amsco-unit-1"
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Supplied AMSCO Unit 2 Topic 6 pages"
+        "sourceId": "boccaccio-payne-1886",
+        "locator": "First Day, introduction"
       },
       {
         "sourceId": "ced-topic-2-6",
-        "locator": "Official CED Topic 6"
+        "locator": "Topic 2.6 learning objectives"
       }
-    ],
-    "sourceContext": {
-      "label": "Original source context",
-      "text": "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      "sourceIds": [
-        "amsco-unit-2",
-        "ced-topic-2-6",
-        "amsco-unit-1"
-      ]
-    },
-    "exerciseType": "saq"
+    ]
   }
 }

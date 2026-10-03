@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -440,7 +440,7 @@
       }
     ]
   },
-  "contentRevision": "137608cce3fbac80",
+  "contentRevision": "ea8782f5afc63ae5",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-2-5",
@@ -465,7 +465,9 @@
         "id": "beliefs-adaptation",
         "title": "Beliefs moved and changed",
         "conceptTitle": "Beliefs moved and changed",
-        "lenses": [],
+        "lenses": [
+          "C"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -501,7 +503,10 @@
         "id": "knowledge-technology",
         "title": "Knowledge traveled through people",
         "conceptTitle": "Knowledge traveled through people",
-        "lenses": [],
+        "lenses": [
+          "T",
+          "C"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -537,7 +542,10 @@
         "id": "cities-culture",
         "title": "Cities as cultural meeting places",
         "conceptTitle": "Cities as cultural meeting places",
-        "lenses": [],
+        "lenses": [
+          "C",
+          "E"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -573,7 +581,10 @@
         "id": "travelers-sourcing",
         "title": "Travelers are evidence with viewpoints",
         "conceptTitle": "Travelers are evidence with viewpoints",
-        "lenses": [],
+        "lenses": [
+          "C",
+          "S"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -609,7 +620,10 @@
         "id": "diffusion-not-uniformity",
         "title": "Connected does not mean identical",
         "conceptTitle": "Connected does not mean identical",
-        "lenses": [],
+        "lenses": [
+          "C",
+          "P"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -645,7 +659,13 @@
     "readingGuide": {
       "objectives": "J",
       "readingLabel": "AMSCO Unit 2, Topic 2.5; use the supplied class reading alongside these original notes",
-      "lenses": [],
+      "lenses": [
+        "S",
+        "P",
+        "E",
+        "C",
+        "T"
+      ],
       "prompts": [
         {
           "id": "world-2-5-reading-01",

@@ -25,7 +25,7 @@ export const lesson = {
       id: "crop-movement",
       title: "Crops crossed regions",
       conceptTitle: "Crops crossed regions",
-      lenses: [],
+      lenses: ["In", "E"],
       blocks: [
         {
           type: "paragraph",
@@ -58,7 +58,7 @@ export const lesson = {
       id: "agriculture-population",
       title: "Food, population, and land use",
       conceptTitle: "Food, population, and land use",
-      lenses: [],
+      lenses: ["In", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -91,7 +91,7 @@ export const lesson = {
       id: "pathogen-networks",
       title: "Pathogens moved with mobility",
       conceptTitle: "Pathogens moved with mobility",
-      lenses: [],
+      lenses: ["In"],
       blocks: [
         {
           type: "paragraph",
@@ -124,7 +124,7 @@ export const lesson = {
       id: "demographic-economic",
       title: "Demographic shocks changed labor",
       conceptTitle: "Demographic shocks changed labor",
-      lenses: [],
+      lenses: ["E", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -157,7 +157,7 @@ export const lesson = {
       id: "environment-feedback",
       title: "Societies also changed environments",
       conceptTitle: "Societies also changed environments",
-      lenses: [],
+      lenses: ["In", "E"],
       blocks: [
         {
           type: "paragraph",
@@ -191,7 +191,7 @@ export const lesson = {
     objectives: "K",
     readingLabel:
       "AMSCO Unit 2, Topic 2.6; use the supplied class reading alongside these original notes",
-    lenses: [],
+    lenses: ["In", "S", "E"],
     prompts: [
       {
         id: "world-2-6-reading-01",

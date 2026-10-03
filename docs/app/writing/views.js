@@ -3,6 +3,15 @@ import { frameworkBadges, frameworkGuide } from "../views/framework.js";
 import { maxResponseLength } from "./engine.js";
 import { formatWritingExport } from "./export.js";
 import { sharePanel } from "../share/views.js";
+import { renderBlocks, renderSource } from "../blocks.js";
+
+// Model answers may span paragraphs separated by blank lines.
+function paragraphs(text) {
+  return String(text || "")
+    .split(/\n{2,}/)
+    .map((paragraph) => `<p>${esc(paragraph)}</p>`)
+    .join("");
+}
 
 export const wordCount = (text) => (text.trim() ? text.trim().split(/\s+/u).length : 0);
 export const saveMessage = (store) => {
@@ -115,7 +124,7 @@ function typedReview(quiz, store) {
     <p>Use the rubric as a checklist. This is practice feedback, not an automatic grade or a College Board score.</p>
     <p id="writing-score" class="note" role="status">${scoreMessage(store, quiz)}</p>
     <div class="typed-rubric"><h3>Rubric</h3>${quiz.rubric.map((criterion) => `<article><h4>${esc(criterion.label)} · ${criterion.points} point${criterion.points === 1 ? "" : "s"}</h4><p>${esc(criterion.guidance)}</p><fieldset class="self-score"><legend>Self-assess ${esc(criterion.label)}</legend>${Array.from({ length: criterion.points + 1 }, (_, value) => `<label><input aria-label="${esc(criterion.label)}: ${value} point${value === 1 ? "" : "s"}" type="radio" name="writing-score-${esc(criterion.id)}" data-writing-score="${esc(criterion.id)}" value="${value}" ${store.draft.scores[criterion.id] === value ? "checked" : ""}>${value}</label>`).join("")}</fieldset></article>`).join("")}</div>
-    <details class="model-answer"><summary>Show the annotated model</summary><p>${esc(quiz.modelResponse)}</p><h3>Another defensible route</h3><p>${esc(quiz.alternateModel)}</p><h3>Common errors to check</h3><ul>${quiz.commonErrors.map((error) => `<li>${esc(error)}</li>`).join("")}</ul></details>
+    <details class="model-answer"><summary>Show the annotated model</summary>${paragraphs(quiz.modelResponse)}${quiz.modelNotes?.length ? `<h3>Why this model earns its points</h3><ul class="model-notes">${quiz.modelNotes.map((note) => `<li><strong>${esc(note.label)}.</strong> ${esc(note.text)}</li>`).join("")}</ul>` : ""}<h3>Another defensible route</h3><p>${esc(quiz.alternateModel)}</p><h3>Common errors to check</h3><ul>${quiz.commonErrors.map((error) => `<li>${esc(error)}</li>`).join("")}</ul></details>
     <div class="writing-review-links">${fields
       .flatMap((field) => field.review || [])
       .map((review) =>
@@ -145,7 +154,12 @@ function documentPacket(quiz) {
   if (quiz.exerciseType !== "dbq") return "";
   return `<section class="document-packet" aria-labelledby="document-packet-title"><h2 id="document-packet-title">Document packet</h2>
     ${quiz.availability === "blocked" ? `<p class="note"><strong>Unavailable until source verification is complete.</strong> The packet remains visible as an authoring record; the unresolved source list is recorded below.</p>` : ""}
-    <div class="document-list">${quiz.documents.map((document, index) => `<details class="document-card"><summary>Document ${index + 1}: ${esc(document.label)}${document.status === "blocked" ? " · blocked" : ""}</summary><p>${esc(document.content)}</p><dl><div><dt>Author</dt><dd>${esc(document.metadata.author)}</dd></div><div><dt>Date</dt><dd>${esc(document.metadata.date)}</dd></div><div><dt>Setting / audience</dt><dd>${esc(document.metadata.setting)} · ${esc(document.metadata.audience)}</dd></div><div><dt>Rights / source</dt><dd>${esc(document.metadata.rights)} ${esc(document.sourceNote)}</dd></div></dl></details>`).join("")}</div></section>`;
+    <div class="document-list">${quiz.documents.map((document, index) => (document.attribution ? verifiedDocument(document, index) : `<details class="document-card"><summary>Document ${index + 1}: ${esc(document.label)}${document.status === "blocked" ? " · blocked" : ""}</summary><p>${esc(document.content)}</p><dl><div><dt>Author</dt><dd>${esc(document.metadata.author)}</dd></div><div><dt>Date</dt><dd>${esc(document.metadata.date)}</dd></div><div><dt>Setting / audience</dt><dd>${esc(document.metadata.setting)} · ${esc(document.metadata.audience)}</dd></div><div><dt>Rights / source</dt><dd>${esc(document.metadata.rights)} ${esc(document.sourceNote)}</dd></div></dl></details>`)).join("")}</div></section>`;
+}
+
+// A released document reads like an exam document: number, source line, text.
+function verifiedDocument(document, index) {
+  return `<article class="document-card document-card--verified" id="${esc(document.id)}"><h3>Document ${index + 1}</h3>${renderSource({ sourceType: document.sourceType || "primary", attribution: document.attribution, text: document.content, citation: document.citation, note: document.note })}</article>`;
 }
 
 function promptContext(quiz, className = "") {
@@ -155,6 +169,13 @@ function promptContext(quiz, className = "") {
     ${quiz.sourceContext ? `<aside class="note"><strong>${esc(quiz.sourceContext.label)}:</strong> ${esc(quiz.sourceContext.text)}</aside>` : ""}
     ${quiz.scaffold?.length ? `<div class="ape-steps">${quiz.scaffold.map((step) => `<div><b>${esc(step.label)}</b><span>${esc(step.text)}</span></div>`).join("")}</div>` : ""}
   </div>`;
+}
+
+// Sources stay visible at every width; the prompt disclosure collapses on phones.
+function writingStimulus(quiz) {
+  return quiz.stimulusBlocks?.length
+    ? `<section class="writing-stimulus" aria-label="Sources">${renderBlocks(quiz.stimulusBlocks)}</section>`
+    : "";
 }
 
 function saveActions(store) {
@@ -257,6 +278,7 @@ export function writingPage(data, store) {
     <div class="writing-layout"><div class="writing-paper">
       ${promptContext(quiz, "writing-context--wide")}
       <details class="writing-prompt-disclosure"><summary>Show prompt</summary>${promptContext(quiz)}</details>
+      ${writingStimulus(quiz)}
       ${documentPacket(quiz)}
       <form class="writing-form">${fields.map((field) => responseField(field, store.draft, framework)).join("")}
         ${conflictNotice(store)}

@@ -1,4 +1,5 @@
 // Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Each question names an AP skill from ../../../skills.js.
 
 export const bank = {
   questions: [
@@ -6,7 +7,8 @@ export const bank = {
       id: "islam-q1",
       concept: "islam-states",
       difficulty: "Core",
-      skillTag: "Continuity and change",
+      skill: "connections",
+      reasoning: "continuity",
       prompt: "Which statement best describes Dar al-Islam around 1200–1450?",
       choices: [
         "Political authority divided among regional states, and each developed isolated religious law and scholarly networks.",
@@ -23,7 +25,7 @@ export const bank = {
       id: "islam-q2",
       concept: "islam-states",
       difficulty: "Apply",
-      skillTag: "Using evidence",
+      skill: "claims-evidence",
       stimulus:
         "A military ruler commands an army and controls taxation while recognizing the religious prestige of a caliph in Baghdad.",
       prompt: "Which development does this situation best illustrate?",
@@ -42,7 +44,7 @@ export const bank = {
       id: "islam-q3",
       concept: "islam-beliefs",
       difficulty: "Core",
-      skillTag: "Explaining significance",
+      skill: "developments",
       prompt: "How could the pilgrimage to Mecca help connect Muslim societies?",
       choices: [
         "It brought believers from different regions into contact through a shared religious practice.",
@@ -59,7 +61,7 @@ export const bank = {
       id: "islam-q4",
       concept: "islam-beliefs",
       difficulty: "Apply",
-      skillTag: "Evidence and limits",
+      skill: "claims-evidence",
       stimulus:
         "Records from a Muslim-ruled city show Jewish and Christian communities maintaining worship and participating in trade, while facing special taxes and legal restrictions.",
       prompt: "Which conclusion accounts for all the evidence?",
@@ -78,7 +80,8 @@ export const bank = {
       id: "islam-q5",
       concept: "islam-spread",
       difficulty: "Apply",
-      skillTag: "Causation",
+      skill: "connections",
+      reasoning: "causation",
       stimulus:
         "A port community gradually adopts Islamic practices through contact with visiting merchants and a local Sufi teacher. No new army has taken control of the port.",
       prompt: "Which process best explains this change?",
@@ -97,7 +100,7 @@ export const bank = {
       id: "islam-q6",
       concept: "islam-spread",
       difficulty: "Apply",
-      skillTag: "Historical reasoning",
+      skill: "developments",
       prompt:
         "Why should a historian distinguish the expansion of Muslim rule from the spread of Islam?",
       choices: [
@@ -115,7 +118,7 @@ export const bank = {
       id: "islam-q7",
       concept: "islam-learning",
       difficulty: "Core",
-      skillTag: "Explaining a development",
+      skill: "developments",
       prompt:
         "Which example most clearly illustrates intellectual innovation in the Islamic world?",
       choices: [
@@ -133,7 +136,7 @@ export const bank = {
       id: "islam-q8",
       concept: "islam-learning",
       difficulty: "Apply",
-      skillTag: "Using evidence",
+      skill: "claims-evidence",
       stimulus:
         "A student claims that the Mongol capture of Baghdad in 1258 ended intellectual activity everywhere in the Islamic world.",
       prompt: "Which evidence most directly challenges the claim?",
@@ -152,7 +155,7 @@ export const bank = {
       id: "islam-q9",
       concept: "islam-exchange",
       difficulty: "Apply",
-      skillTag: "Explaining a process",
+      skill: "developments",
       prompt:
         "Which sequence best explains one route of intellectual exchange through Iberia?",
       choices: [
@@ -170,7 +173,8 @@ export const bank = {
       id: "islam-q10",
       concept: "islam-exchange",
       difficulty: "Apply",
-      skillTag: "Comparison",
+      skill: "connections",
+      reasoning: "comparison",
       prompt:
         "What useful comparison links Islamic intellectual exchange with Chinese cultural influence in Korea and Japan?",
       choices: [
@@ -188,7 +192,7 @@ export const bank = {
       id: "islam-k1",
       concept: "islam-states",
       difficulty: "Quick check",
-      skillTag: "Concept check",
+      skill: "developments",
       prompt: "Which state emerged when a military elite took power in Egypt in 1250?",
       choices: [
         "Song dynasty",
@@ -205,7 +209,7 @@ export const bank = {
       id: "islam-k2",
       concept: "islam-spread",
       difficulty: "Quick check",
-      skillTag: "Concept check",
+      skill: "developments",
       prompt: "What role did Sufi teachers play in the spread of Islam?",
       choices: [
         "They required all communities to abandon local languages.",
@@ -222,7 +226,7 @@ export const bank = {
       id: "islam-k3",
       concept: "islam-exchange",
       difficulty: "Quick check",
-      skillTag: "Explaining significance",
+      skill: "developments",
       prompt: "Why did translating scholarly works into new languages matter?",
       choices: [
         "It removed the need for anyone to study earlier ideas.",

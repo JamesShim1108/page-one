@@ -1,4 +1,5 @@
 // Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Each question names an AP skill from ../../../skills.js.
 
 export const bank = {
   questions: [
@@ -7,7 +8,7 @@ export const bank = {
       topicId: "world-1-1",
       concept: "governance",
       difficulty: "Core",
-      skillTag: "Explaining a development",
+      skill: "developments",
       prompt:
         "Why did examinations on Confucian writings help the Song government maintain its authority?",
       choices: [
@@ -25,7 +26,7 @@ export const bank = {
       topicId: "world-1-1",
       concept: "governance",
       difficulty: "Apply",
-      skillTag: "Using evidence",
+      skill: "claims-evidence",
       stimulus:
         "Two candidates hope to pass an imperial examination. One has family-funded tutors and years to study. The other must spend most days working to support his household.",
       prompt: "Which conclusion is best supported by this situation?",
@@ -33,7 +34,7 @@ export const bank = {
         "Examinations offered a route to office, but resources affected a candidate’s opportunities.",
         "Only hereditary nobles could sit for the exams, so preparation did not matter.",
         "Family wealth, rather than exam performance, directly determined official scores.",
-        "Because the exams rewarded merit, unequal preparation did not affect mobility.",
+        "Because the exams rewarded merit alone, unequal preparation did not affect social mobility.",
       ],
       correctAnswer: 0,
       explanation:
@@ -44,7 +45,8 @@ export const bank = {
       topicId: "world-1-1",
       concept: "beliefs",
       difficulty: "Apply",
-      skillTag: "Continuity and change",
+      skill: "connections",
+      reasoning: "continuity",
       prompt:
         "Which description best captures continuity and change in Neo-Confucian thought?",
       choices: [
@@ -62,7 +64,7 @@ export const bank = {
       topicId: "world-1-1",
       concept: "beliefs",
       difficulty: "Core",
-      skillTag: "Explaining significance",
+      skill: "developments",
       prompt: "How could the Confucian emphasis on filial piety support imperial rule?",
       choices: [
         "It taught respect for family elders while discouraging people from applying those duties to political rulers.",
@@ -79,7 +81,8 @@ export const bank = {
       topicId: "world-1-1",
       concept: "economy",
       difficulty: "Apply",
-      skillTag: "Causation",
+      skill: "connections",
+      reasoning: "causation",
       prompt:
         "Which sequence best explains how agricultural innovation contributed to Song economic growth?",
       choices: [
@@ -97,7 +100,7 @@ export const bank = {
       topicId: "world-1-1",
       concept: "economy",
       difficulty: "Apply",
-      skillTag: "Using evidence",
+      skill: "claims-evidence",
       stimulus:
         "A village workshop makes porcelain for buyers in distant cities. Boats carry its output along waterways, and merchants arrange sales beyond the local community.",
       prompt: "This situation most directly illustrates which development?",
@@ -116,7 +119,8 @@ export const bank = {
       topicId: "world-1-1",
       concept: "influence",
       difficulty: "Apply",
-      skillTag: "Comparison",
+      skill: "connections",
+      reasoning: "comparison",
       prompt: "Which comparison of Song China and medieval Japan is most accurate?",
       choices: [
         "Both borrowed Chinese political models and relied primarily on scholar-officials selected through civil-service examinations.",
@@ -133,7 +137,7 @@ export const bank = {
       topicId: "world-1-1",
       concept: "influence",
       difficulty: "Apply",
-      skillTag: "Historical reasoning",
+      skill: "argumentation",
       prompt:
         "A historian finds Chinese-derived writing and Confucian learning in Korea and Vietnam. What additional evidence would best show local adaptation?",
       choices: [
@@ -151,7 +155,7 @@ export const bank = {
       topicId: "world-1-1",
       concept: "governance",
       difficulty: "Quick check",
-      skillTag: "Concept check",
+      skill: "developments",
       prompt: "Which example describes a bureaucracy?",
       choices: [
         "A ruler handling every tax dispute personally",
@@ -168,7 +172,8 @@ export const bank = {
       topicId: "world-1-1",
       concept: "economy",
       difficulty: "Quick check",
-      skillTag: "Causation",
+      skill: "connections",
+      reasoning: "causation",
       prompt: "Why did early-ripening rice matter beyond agriculture?",
       choices: [
         "It made transport networks unnecessary.",
@@ -185,7 +190,7 @@ export const bank = {
       topicId: "world-1-1",
       concept: "beliefs",
       difficulty: "Quick check",
-      skillTag: "Concept check",
+      skill: "developments",
       prompt:
         "Which statement best describes the relationship between Confucianism and Buddhism in East Asia?",
       choices: [

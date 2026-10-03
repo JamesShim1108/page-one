@@ -108,6 +108,15 @@ function renderQuestion(question, index, { key = false, responseSpace = false } 
         return `<div class="table-wrap"><table><caption>${esc(block.caption)}</caption><thead><tr>${(block.columns || []).map((column) => `<th scope="col">${esc(column)}</th>`).join("")}</tr></thead><tbody>${(block.rows || []).map((row) => `<tr>${row.map((cell, cellIndex) => (cellIndex === 0 ? `<th scope="row">${esc(cell)}</th>` : `<td>${esc(cell)}</td>`)).join("")}</tr>`).join("")}</tbody></table></div>`;
       if (block.type === "image")
         return block.alt ? `<p class="muted">[Image: ${esc(block.alt)}]</p>` : "";
+      if (block.type === "source")
+        return `<figure class="print-source"><figcaption><strong>${esc(block.sourceType === "original" ? "Practice passage written by Page One" : block.sourceType === "secondary" ? "Secondary source" : "Primary source")}.</strong> ${esc(block.attribution || "")}</figcaption><blockquote>${String(
+          block.text || "",
+        )
+          .split(/\n{2,}/)
+          .map((paragraph) => `<p>${esc(paragraph)}</p>`)
+          .join(
+            "",
+          )}</blockquote>${block.citation ? `<p class="muted">${esc(block.citation)}</p>` : ""}</figure>`;
       return block.text ? `<p>${esc(block.text)}</p>` : "";
     })
     .join("");
@@ -157,6 +166,49 @@ export function renderTermsDocument({
     .join("")}</dl>${printUrlBlock(publicPath, { includeQr })}</article>`;
 }
 
+function printSourceBlock(block, heading = "") {
+  const kind =
+    block.sourceType === "original"
+      ? "Practice passage written by Page One"
+      : block.sourceType === "secondary"
+        ? "Secondary source"
+        : "Primary source";
+  return `<figure class="print-source">${heading ? `<h3>${esc(heading)}</h3>` : ""}<figcaption><strong>${esc(kind)}.</strong> ${esc(block.attribution || "")}</figcaption><blockquote>${String(
+    block.text || "",
+  )
+    .split(/\n{2,}/)
+    .map((paragraph) => `<p>${esc(paragraph)}</p>`)
+    .join(
+      "",
+    )}</blockquote>${block.citation ? `<p class="muted">${esc(block.citation)}</p>` : ""}</figure>`;
+}
+
+// Stimulus excerpts and released DBQ documents print with the prompt.
+function printWritingSources(quiz) {
+  const stimuli = (quiz?.stimulusBlocks || [])
+    .filter((block) => block.type === "source")
+    .map((block) => printSourceBlock(block))
+    .join("");
+  const documents =
+    quiz?.availability === "blocked"
+      ? ""
+      : (quiz?.documents || [])
+          .filter((document) => document.attribution)
+          .map((document, index) =>
+            printSourceBlock(
+              {
+                sourceType: document.sourceType || "primary",
+                attribution: document.attribution,
+                text: document.content,
+                citation: document.citation,
+              },
+              `Document ${index + 1}`,
+            ),
+          )
+          .join("");
+  return `${stimuli}${documents}`;
+}
+
 export function renderWritingDocument({
   quiz,
   responses = {},
@@ -172,7 +224,7 @@ export function renderWritingDocument({
     responses,
     includePrompt: false,
   });
-  return `<article class="print-document__body print-writing-document"><header class="print-document__heading"><p class="eyebrow">WRITING PRACTICE</p><h1>${esc(quiz?.headline || quiz?.title || "Writing response")}</h1></header>${includePrompt ? `<section class="print-writing-prompt"><h2>${esc(quiz?.promptTitle || "Prompt")}</h2><p>${esc(quiz?.prompt || "")}</p><p>${esc(quiz?.instructions || "")}</p></section>` : ""}${quiz?.availability === "blocked" ? '<p class="print-empty">This activity is unavailable pending source verification and cannot be printed as a completed document packet.</p>' : fields.map((field) => `<section class="print-writing-field"><h2>${esc(field.label)}</h2><p>${esc(field.prompt)}</p>${includeResponse && responses[field.id] ? `<pre class="print-response-text">${esc(responses[field.id])}</pre>` : `<div class="print-response-lines" aria-hidden="true"></div>`}</section>`).join("")}${includeResponse ? `<details class="print-export-text"><summary>Included response text</summary><pre>${esc(responseText)}</pre></details>` : ""}${printUrlBlock(publicPath, { includeQr })}</article>`;
+  return `<article class="print-document__body print-writing-document"><header class="print-document__heading"><p class="eyebrow">WRITING PRACTICE</p><h1>${esc(quiz?.headline || quiz?.title || "Writing response")}</h1></header>${includePrompt ? `<section class="print-writing-prompt"><h2>${esc(quiz?.promptTitle || "Prompt")}</h2><p>${esc(quiz?.prompt || "")}</p><p>${esc(quiz?.instructions || "")}</p>${printWritingSources(quiz)}</section>` : ""}${quiz?.availability === "blocked" ? '<p class="print-empty">This activity is unavailable pending source verification and cannot be printed as a completed document packet.</p>' : fields.map((field) => `<section class="print-writing-field"><h2>${esc(field.label)}</h2><p>${esc(field.prompt)}</p>${includeResponse && responses[field.id] ? `<pre class="print-response-text">${esc(responses[field.id])}</pre>` : `<div class="print-response-lines" aria-hidden="true"></div>`}</section>`).join("")}${includeResponse ? `<details class="print-export-text"><summary>Included response text</summary><pre>${esc(responseText)}</pre></details>` : ""}${printUrlBlock(publicPath, { includeQr })}</article>`;
 }
 
 export function optionsSummary(options = {}) {

@@ -1,4 +1,17 @@
 // Content contracts run before generated browser data is written.
+const SOURCE_BLOCK_TYPES = new Set(["primary", "secondary", "original"]);
+
+// Multiple-choice answer-length limits. When the correct choice is reliably the
+// longest, students can score by test-taking habit instead of history, so these
+// limits apply to every topic bank with enough questions to measure.
+export const QUESTION_QUALITY = Object.freeze({
+  minimumBankSize: 8,
+  minLongestCorrectShare: 0.1,
+  maxLongestCorrectShare: 0.4,
+  maxAverageLengthRatio: 1.25,
+  maxRepeatedFeedback: 2,
+});
+
 export function requireValue(condition, location, message) {
   if (!condition) throw new Error(`${location}: ${message}`);
 }
@@ -171,6 +184,20 @@ export function validateBlocks(blocks, assets, location, stableIds = new Set()) 
         requireText(block.alt, at);
         requireText(block.caption, at);
         break;
+      case "source":
+        // A quoted or written passage used as stimulus. Primary and secondary
+        // excerpts must name their published edition; "original" passages are
+        // written by Page One and are labeled as such when rendered.
+        requireValue(
+          SOURCE_BLOCK_TYPES.has(block.sourceType),
+          at,
+          `source block sourceType must be one of ${[...SOURCE_BLOCK_TYPES].join(", ")}`,
+        );
+        requireText(block.attribution, at);
+        requireText(block.text, at);
+        if (block.sourceType !== "original") requireText(block.citation, at);
+        if (block.note !== undefined) requireText(block.note, at);
+        break;
       default:
         throw new Error(`${at}: unsupported block type ${block.type}`);
     }
@@ -185,6 +212,7 @@ export function validateLesson(
   framework,
   location,
   topicMap = null,
+  skills = null,
 ) {
   validateMetadata(lesson, location);
   requireValue(
@@ -307,7 +335,7 @@ export function validateLesson(
     );
     requireText(question.prompt, location);
     requireText(question.explanation, location);
-    requireText(question.skillTag, location);
+    validateQuestionSkill(question, skills, location);
     requireValue(
       Array.isArray(question.choices) && question.choices.length === 4,
       location,
@@ -363,6 +391,7 @@ export function validateLesson(
       requireText(question.distinguisher, location);
     }
   }
+  validateQuestionQuality([...questions.values()], location);
   for (const quiz of bank.quizzes) {
     requireText(quiz.title, location);
     requireValue(
@@ -399,6 +428,112 @@ export function validateLesson(
         `ready topic needs one ${type} quiz`,
       );
   }
+}
+
+export function validateSkills(skills, location) {
+  requireId(skills.id, location);
+  requireText(skills.name, location);
+  requireText(skills.sourceNote, location);
+  const items = uniqueById(skills.items || [], `${location}.items`);
+  requireValue(items.size > 0, location, "skills need at least one item");
+  for (const item of items.values()) {
+    requireText(item.code, location);
+    requireText(item.label, location);
+    requireText(item.description, location);
+  }
+  const reasoning = uniqueById(skills.reasoning || [], `${location}.reasoning`);
+  for (const item of reasoning.values()) requireText(item.label, location);
+  return { items, reasoning };
+}
+
+function validateQuestionSkill(question, skills, location) {
+  if (!skills) {
+    requireText(question.skillTag, location);
+    return;
+  }
+  requireValue(
+    skills.items.has(question.skill),
+    location,
+    `${question.id} needs a skill from the course skill list (got ${question.skill})`,
+  );
+  if (question.reasoning !== undefined)
+    requireValue(
+      skills.reasoning.has(question.reasoning),
+      location,
+      `${question.id} has unknown reasoning process ${question.reasoning}`,
+    );
+  if (question.skill === "connections")
+    requireValue(
+      question.reasoning !== undefined,
+      location,
+      `${question.id} uses Making connections and must name a reasoning process`,
+    );
+}
+
+function plainLength(text) {
+  return String(text).replace(/\s+/g, " ").trim().length;
+}
+
+// Bank-level checks that catch answer patterns a student could exploit.
+export function validateQuestionQuality(questions, location) {
+  const scored = questions.filter(
+    (question) => Array.isArray(question.choices) && question.choices.length > 1,
+  );
+  if (scored.length >= QUESTION_QUALITY.minimumBankSize) {
+    let longestCorrect = 0;
+    let ratioTotal = 0;
+    for (const question of scored) {
+      const lengths = question.choices.map(plainLength);
+      const correct = lengths[question.correctAnswer];
+      const others = lengths.filter((_, index) => index !== question.correctAnswer);
+      if (others.every((length) => correct > length)) longestCorrect += 1;
+      ratioTotal +=
+        correct / (others.reduce((sum, value) => sum + value, 0) / others.length);
+    }
+    const share = longestCorrect / scored.length;
+    requireValue(
+      share <= QUESTION_QUALITY.maxLongestCorrectShare,
+      location,
+      `the correct choice is the longest in ${longestCorrect} of ${scored.length} questions; keep it at or below ${Math.round(QUESTION_QUALITY.maxLongestCorrectShare * 100)}%`,
+    );
+    // The reverse tell: if the correct choice is never the longest, students
+    // can eliminate the longest option.
+    requireValue(
+      share >= QUESTION_QUALITY.minLongestCorrectShare,
+      location,
+      `the correct choice is the longest in only ${longestCorrect} of ${scored.length} questions; keep it at or above ${Math.round(QUESTION_QUALITY.minLongestCorrectShare * 100)}% so length gives no clue either way`,
+    );
+    const ratio = ratioTotal / scored.length;
+    requireValue(
+      ratio <= QUESTION_QUALITY.maxAverageLengthRatio,
+      location,
+      `correct choices average ${ratio.toFixed(2)}x the length of distractors; keep it at or below ${QUESTION_QUALITY.maxAverageLengthRatio}x`,
+    );
+  }
+  requireRepeatedFeedbackLimit(questions, location);
+}
+
+// Choice explanations and distinguishers must be written for their question.
+export function requireRepeatedFeedbackLimit(questions, location) {
+  const counts = new Map();
+  for (const question of questions) {
+    const texts = [
+      ...(question.choiceExplanations || []).filter(
+        (_, index) => index !== question.correctAnswer,
+      ),
+      question.distinguisher,
+    ].filter((text) => typeof text === "string");
+    for (const text of texts) {
+      const key = text.replace(/\s+/g, " ").trim().toLowerCase();
+      counts.set(key, (counts.get(key) || 0) + 1);
+    }
+  }
+  for (const [text, count] of counts)
+    requireValue(
+      count <= QUESTION_QUALITY.maxRepeatedFeedback,
+      location,
+      `the same feedback text appears ${count} times; write question-specific feedback: "${text.slice(0, 80)}"`,
+    );
 }
 
 export function validateSelections(ids, questionMap, location) {
@@ -485,6 +620,16 @@ export function validateWriting(
   }
   if (quiz.sourceLocators)
     validateSourceLocators(quiz.sourceLocators, sourceMap || new Map(), location);
+  if (quiz.stimulusBlocks !== undefined) {
+    // Writing stimuli are text excerpts; images belong in lessons and quizzes.
+    validateBlocks(quiz.stimulusBlocks, new Map(), `${location}.stimulusBlocks`);
+    for (const block of quiz.stimulusBlocks)
+      requireValue(
+        block.type === "source",
+        location,
+        "writing stimulusBlocks must be source excerpts",
+      );
+  }
   if (quiz.exerciseType && ["leq", "dbq", "skill"].includes(quiz.exerciseType)) {
     validateTypedWriting(quiz, topics, framework, unit, location, sourceMap);
     return;
@@ -604,6 +749,18 @@ function validateTypedWriting(quiz, topics, framework, unit, location, sourceMap
         location,
         "DBQ document status must be verified or blocked",
       );
+      if (document.status === "verified") {
+        // Released documents carry an exam-style source line and an edition.
+        requireText(document.attribution, location);
+        requireText(document.citation, location);
+        requireValue(
+          !/withheld|unresolved|to be (independently )?verified/i.test(
+            `${document.content} ${document.metadata.author}`,
+          ),
+          location,
+          `${document.id} is marked verified but still contains placeholder text`,
+        );
+      }
       if (document.sourceIds) {
         requireValue(
           Array.isArray(document.sourceIds) && document.sourceIds.length > 0,
@@ -621,6 +778,12 @@ function validateTypedWriting(quiz, topics, framework, unit, location, sourceMap
         ["available", "blocked"].includes(quiz.availability),
         location,
         "invalid DBQ availability",
+      );
+    if (quiz.availability !== "blocked")
+      requireValue(
+        quiz.documents.every((document) => document.status === "verified"),
+        location,
+        "an available DBQ may contain only verified documents",
       );
   }
   if (quiz.exerciseType === "skill") {

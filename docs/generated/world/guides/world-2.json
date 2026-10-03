@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -2153,7 +2153,13 @@
       "readingGuide": {
         "objectives": "A",
         "readingLabel": "AMSCO Unit 2, Topic 2.1; use the supplied class reading alongside these original notes",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "S",
+          "P",
+          "E",
+          "T"
+        ],
         "prompts": [
           {
             "id": "world-2-1-reading-01",
@@ -2222,7 +2228,13 @@
       "readingGuide": {
         "objectives": "B, C, D",
         "readingLabel": "AMSCO Unit 2, Topic 2.2; use the supplied class reading alongside these original notes",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "P",
+          "E",
+          "C",
+          "T"
+        ],
         "prompts": [
           {
             "id": "world-2-2-reading-01",
@@ -2291,7 +2303,14 @@
       "readingGuide": {
         "objectives": "E, F, G",
         "readingLabel": "AMSCO Unit 2, Topic 2.3; use the supplied class reading alongside these original notes",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "S",
+          "P",
+          "E",
+          "C",
+          "T"
+        ],
         "prompts": [
           {
             "id": "world-2-3-reading-01",
@@ -2360,7 +2379,14 @@
       "readingGuide": {
         "objectives": "H, I",
         "readingLabel": "AMSCO Unit 2, Topic 2.4; use the supplied class reading alongside these original notes",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "S",
+          "P",
+          "E",
+          "C",
+          "T"
+        ],
         "prompts": [
           {
             "id": "world-2-4-reading-01",
@@ -2429,7 +2455,13 @@
       "readingGuide": {
         "objectives": "J",
         "readingLabel": "AMSCO Unit 2, Topic 2.5; use the supplied class reading alongside these original notes",
-        "lenses": [],
+        "lenses": [
+          "S",
+          "P",
+          "E",
+          "C",
+          "T"
+        ],
         "prompts": [
           {
             "id": "world-2-5-reading-01",
@@ -2498,7 +2530,11 @@
       "readingGuide": {
         "objectives": "K",
         "readingLabel": "AMSCO Unit 2, Topic 2.6; use the supplied class reading alongside these original notes",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "S",
+          "E"
+        ],
         "prompts": [
           {
             "id": "world-2-6-reading-01",
@@ -2567,7 +2603,14 @@
       "readingGuide": {
         "objectives": "L",
         "readingLabel": "AMSCO Unit 2, Topic 2.7; use the supplied class reading alongside these original notes",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "S",
+          "P",
+          "E",
+          "C",
+          "T"
+        ],
         "prompts": [
           {
             "id": "world-2-7-reading-01",

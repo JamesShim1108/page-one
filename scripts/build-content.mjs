@@ -14,12 +14,27 @@ import {
   validateWriting,
   validateBlocks,
   validateDefinitionCoverage,
+  validateSkills,
+  requireRepeatedFeedbackLimit,
 } from "./lib/validate.mjs";
 import { loadAssets, mergeAssets, usedAssets } from "./lib/assets.mjs";
 import { validateTermSet } from "./lib/terms.mjs";
 import { resolveGlossary, selectGlossary } from "./lib/glossary.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+
+// Labels travel with each question so saved attempts keep them in their snapshot.
+function withSkillLabels(question, skills) {
+  if (!skills || !question.skill) return question;
+  const skill = skills.items.get(question.skill);
+  const reasoning = question.reasoning ? skills.reasoning.get(question.reasoning) : null;
+  return {
+    ...question,
+    skillLabel: skill.label,
+    skillCode: skill.code,
+    ...(reasoning ? { reasoningLabel: reasoning.label } : {}),
+  };
+}
 const json = (value) => `${JSON.stringify(value, null, 2)}\n`;
 const exists = async (path) => {
   try {
@@ -267,6 +282,10 @@ export async function compileContent(root = projectRoot) {
           requireText(theme[field], courseFile);
       }
     }
+    // Optional skill list. When present, every practice question names one skill
+    // and results can be grouped by it.
+    const skillList = await optionalModule(join(courseRoot, "skills.js"), "skills", null);
+    const skills = skillList ? validateSkills(skillList, courseFile) : null;
     const courseAssetsFile = join(courseRoot, "assets.js");
     const courseAssets = mergeAssets(
       globalAssets,
@@ -360,7 +379,16 @@ export async function compileContent(root = projectRoot) {
             topicRoot,
             "topic ownership does not match its folder",
           );
-          validateLesson(lesson, bank, sources, assets, framework, topicRoot, topics);
+          validateLesson(
+            lesson,
+            bank,
+            sources,
+            assets,
+            framework,
+            topicRoot,
+            topics,
+            skills,
+          );
           requireValue(!topics.has(lesson.id), topicRoot, "duplicate topic ID");
           for (const question of bank.questions) {
             requireValue(
@@ -384,6 +412,11 @@ export async function compileContent(root = projectRoot) {
       unitTopics.sort((a, b) => a.lesson.order - b.lesson.order);
       units.push({ unit, unitRoot, topics: unitTopics });
     }
+    // Feedback written once and pasted across topics is caught course-wide.
+    requireRepeatedFeedbackLimit(
+      [...topics.values()].flatMap((record) => record.bank.questions),
+      `${folder} question banks`,
+    );
     uniqueById(
       units.map((record) => record.unit),
       courseFile,
@@ -560,7 +593,13 @@ export async function compileContent(root = projectRoot) {
           .update(json({ lesson, glossary: selectedGlossary }))
           .digest("hex")
           .slice(0, 16);
-        emit(bankPath, { ...context, ...bank, concepts, assets: bankAssets });
+        emit(bankPath, {
+          ...context,
+          ...bank,
+          questions: bank.questions.map((question) => withSkillLabels(question, skills)),
+          concepts,
+          assets: bankAssets,
+        });
         for (const quiz of bank.quizzes.filter(
           (candidate) =>
             candidate.quizType === "topic" && candidate.customPractice === true,

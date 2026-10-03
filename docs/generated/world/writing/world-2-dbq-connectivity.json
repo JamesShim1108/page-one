@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -431,136 +431,148 @@
   },
   "quiz": {
     "id": "world-2-dbq-connectivity",
-    "version": 1,
+    "version": 2,
     "courseId": "world",
     "unitId": "world-2",
     "title": "Unit 2 DBQ: Connectivity and consequences",
     "headline": "Connectivity, opportunity, and unequal consequences",
-    "promptTitle": "Original Page One Unit 2 writing practice",
-    "prompt": "Evaluate the effects of expanding networks of exchange on societies in Afro-Eurasia from 1200 to 1450. Develop an argument that explains both shared processes and regional or social differences.",
-    "instructions": "Use the document packet, outside evidence, and sourcing reasoning to plan and write an argument. The packet is unavailable until each document is independently verified.",
-    "note": "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    "promptTitle": "Document-based question",
+    "prompt": "Evaluate the extent to which expanding networks of exchange changed societies in Afro-Eurasia in the period 1200–1450.",
+    "instructions": "Use at least four documents to support an argument. For at least two documents, explain how the author's point of view, purpose, historical situation, or audience is relevant to your argument. Use at least one piece of specific historical evidence beyond the documents. Include contextualization and develop a complex argument. This is untimed self-assessment practice in AP format.",
+    "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
     "exerciseType": "dbq",
+    "availability": "available",
     "sourceIds": [
-      "amsco-unit-2",
-      "ced"
+      "polo-yule-1903",
+      "battuta-gibb-1929",
+      "boccaccio-payne-1886",
+      "ced-topic-2-5",
+      "ced-topic-2-6"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Unit 2 supplied reading / verified classroom locator"
+        "sourceId": "polo-yule-1903",
+        "locator": "vol. 1, Book II, ch. 24; vol. 2, Book II, ch. 82"
+      },
+      {
+        "sourceId": "battuta-gibb-1929",
+        "locator": "chs. 8, 12, 14; scan pp. 252, 310, 339, 351–352"
+      },
+      {
+        "sourceId": "boccaccio-payne-1886",
+        "locator": "First Day, introduction"
       }
     ],
     "responseFields": [
       {
         "id": "doc-1-notes",
         "label": "Document 1 notes",
-        "prompt": "Record what this document can support, its point of view, and a limitation.",
+        "prompt": "Note what this document shows, which part of your argument it supports, and how its point of view, purpose, situation, or audience matters.",
         "required": false,
-        "rows": 5,
+        "rows": 4,
         "review": [
           {
             "topicId": "world-2-5",
             "sectionId": "travelers-sourcing",
-            "label": "Review sourcing and perspective"
+            "label": "Sourcing travelers' accounts"
           }
         ]
       },
       {
         "id": "doc-2-notes",
         "label": "Document 2 notes",
-        "prompt": "Record what this document can support, its point of view, and a limitation.",
+        "prompt": "Note what this document shows, which part of your argument it supports, and how its point of view, purpose, situation, or audience matters.",
         "required": false,
-        "rows": 5,
+        "rows": 4,
         "review": [
           {
             "topicId": "world-2-5",
             "sectionId": "travelers-sourcing",
-            "label": "Review sourcing and perspective"
+            "label": "Sourcing travelers' accounts"
           }
         ]
       },
       {
         "id": "doc-3-notes",
         "label": "Document 3 notes",
-        "prompt": "Record what this document can support, its point of view, and a limitation.",
+        "prompt": "Note what this document shows, which part of your argument it supports, and how its point of view, purpose, situation, or audience matters.",
         "required": false,
-        "rows": 5,
+        "rows": 4,
         "review": [
           {
             "topicId": "world-2-5",
             "sectionId": "travelers-sourcing",
-            "label": "Review sourcing and perspective"
+            "label": "Sourcing travelers' accounts"
           }
         ]
       },
       {
         "id": "doc-4-notes",
         "label": "Document 4 notes",
-        "prompt": "Record what this document can support, its point of view, and a limitation.",
+        "prompt": "Note what this document shows, which part of your argument it supports, and how its point of view, purpose, situation, or audience matters.",
         "required": false,
-        "rows": 5,
+        "rows": 4,
         "review": [
           {
             "topicId": "world-2-5",
             "sectionId": "travelers-sourcing",
-            "label": "Review sourcing and perspective"
+            "label": "Sourcing travelers' accounts"
           }
         ]
       },
       {
         "id": "doc-5-notes",
         "label": "Document 5 notes",
-        "prompt": "Record what this document can support, its point of view, and a limitation.",
+        "prompt": "Note what this document shows, which part of your argument it supports, and how its point of view, purpose, situation, or audience matters.",
         "required": false,
-        "rows": 5,
+        "rows": 4,
         "review": [
           {
             "topicId": "world-2-5",
             "sectionId": "travelers-sourcing",
-            "label": "Review sourcing and perspective"
+            "label": "Sourcing travelers' accounts"
           }
         ]
       },
       {
         "id": "doc-6-notes",
         "label": "Document 6 notes",
-        "prompt": "Record what this document can support, its point of view, and a limitation.",
+        "prompt": "Note what this document shows, which part of your argument it supports, and how its point of view, purpose, situation, or audience matters.",
         "required": false,
-        "rows": 5,
+        "rows": 4,
         "review": [
           {
             "topicId": "world-2-5",
             "sectionId": "travelers-sourcing",
-            "label": "Review sourcing and perspective"
+            "label": "Sourcing travelers' accounts"
           }
         ]
       },
       {
         "id": "doc-7-notes",
         "label": "Document 7 notes",
-        "prompt": "Record what this document can support, its point of view, and a limitation.",
+        "prompt": "Note what this document shows, which part of your argument it supports, and how its point of view, purpose, situation, or audience matters.",
         "required": false,
-        "rows": 5,
+        "rows": 4,
         "review": [
           {
             "topicId": "world-2-5",
             "sectionId": "travelers-sourcing",
-            "label": "Review sourcing and perspective"
+            "label": "Sourcing travelers' accounts"
           }
         ]
       },
       {
         "id": "essay",
         "label": "DBQ essay",
-        "prompt": "Write the full document-based argument, including contextualization, document evidence, outside evidence, sourcing, and a qualified claim.",
+        "prompt": "Write the full essay: thesis, contextualization, at least four documents used as evidence, sourcing for at least two, outside evidence, and a qualified argument.",
         "required": true,
-        "rows": 18,
+        "rows": 20,
         "review": [
           {
             "topicId": "world-2-7",
             "sectionId": "arguing-with-evidence",
-            "label": "Review argument structure"
+            "label": "From comparison to argument"
           }
         ]
       }
@@ -570,177 +582,244 @@
         "id": "thesis",
         "label": "Thesis",
         "points": 1,
-        "guidance": "Answers the prompt with a defensible claim and a line of reasoning."
+        "guidance": "Responds to the prompt with a historically defensible thesis or claim that establishes a line of reasoning."
       },
       {
         "id": "context",
         "label": "Contextualization",
         "points": 1,
-        "guidance": "Explains relevant wider developments before or during 1200–1450."
+        "guidance": "Describes a broader historical context relevant to the prompt."
       },
       {
         "id": "documents",
-        "label": "Document evidence",
-        "points": 3,
-        "guidance": "Uses documents to support an argument, not merely to summarize them."
+        "label": "Evidence from the documents",
+        "points": 2,
+        "guidance": "1 point: accurately describes the content of at least three documents to address the prompt. 2 points: uses the content of at least four documents to support an argument in response to the prompt."
       },
       {
-        "id": "analysis",
-        "label": "Analysis and reasoning",
-        "points": 2,
-        "guidance": "Explains sourcing or perspective for relevant documents and develops a complex, qualified argument."
+        "id": "outside",
+        "label": "Evidence beyond the documents",
+        "points": 1,
+        "guidance": "Uses at least one additional piece of specific historical evidence, not found in the documents, that is relevant to an argument about the prompt."
+      },
+      {
+        "id": "sourcing",
+        "label": "Sourcing",
+        "points": 1,
+        "guidance": "For at least two documents, explains how or why the document's point of view, purpose, historical situation, or audience is relevant to an argument."
+      },
+      {
+        "id": "complexity",
+        "label": "Complexity",
+        "points": 1,
+        "guidance": "Demonstrates a complex understanding of the topic, using evidence to corroborate, qualify, or modify an argument."
       }
-    ],
-    "modelResponse": "Annotated model is intentionally unavailable while the seven-document packet is blocked. When released, the model must use four documents as argument evidence, outside evidence, and sourcing analysis for at least two documents.",
-    "alternateModel": "Alternate argument outline: compare how states, merchants, and local communities experienced exchange differently, then qualify the claim by geography and power.",
-    "commonErrors": [
-      "Treating a document as proof without explaining its relevance.",
-      "Counting seven summaries as a complete argument.",
-      "Using an unverified quotation or modern image as a primary source.",
-      "Claiming that connectivity produced one outcome everywhere."
     ],
     "scaffold": [
       {
-        "label": "Source check",
-        "text": "Read the metadata and identify what can be verified."
+        "label": "Read",
+        "text": "Note each document's author, date, and purpose before its content."
       },
       {
         "label": "Group",
-        "text": "Organize documents by a defensible claim, not by document order."
+        "text": "Sort documents by the claim they support, not by their order."
       },
       {
-        "label": "Argument",
-        "text": "Use evidence and explain its relevance."
+        "label": "Argue",
+        "text": "Use documents as evidence and explain how each supports your claim."
+      },
+      {
+        "label": "Source",
+        "text": "Explain why point of view, purpose, situation, or audience matters for two documents."
       },
       {
         "label": "Qualify",
-        "text": "Address regional and social variation."
+        "text": "Show where the pattern varied by region or social group."
       }
     ],
     "documents": [
       {
         "id": "doc-1",
-        "label": "Overland exchange and relay markets",
-        "content": "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
-        "sourceNote": "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+        "label": "Yuan paper money",
+        "sourceType": "primary",
+        "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing Yuan China",
+        "content": "With these pieces of paper, made as I have described, he causes all payments on his own account to be made; and he makes them to pass current universally over all his kingdoms and provinces and territories, and whithersoever his power and sovereignty extends. And nobody, however important he may think himself, dares to refuse them on pain of death. . . .\n\nFurthermore all merchants arriving from India or other countries, and bringing with them gold or silver or gems and pearls, are prohibited from selling to any one but the Emperor. . . . The merchants accept his price readily, for in the first place they would not get so good an one from anybody else, and secondly they are paid without any delay. And with this paper-money they can buy what they like anywhere over the Empire, whilst it is also vastly lighter to carry about on their journeys.",
+        "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 1, Book II, ch. 24. Project Gutenberg eBook #10636.",
+        "note": "In this translation, “the Great Kaan” and “the Emperor” refer to Kublai Khan.",
+        "sourceNote": "Verified against the Project Gutenberg text of the Yule–Cordier edition.",
         "metadata": {
-          "author": "Unresolved / to be independently verified",
-          "date": "1200–1450 target; exact date unresolved",
-          "setting": "Afro-Eurasian exchange context",
-          "audience": "To be verified from the selected edition",
-          "rights": "Blocked pending edition, translation, and rights verification."
+          "author": "Marco Polo, dictated to Rustichello of Pisa",
+          "date": "c. 1298",
+          "setting": "Yuan China under Kublai Khan",
+          "audience": "European readers",
+          "rights": "Public-domain translation (1903)."
         },
         "sourceIds": [
-          "amsco-unit-2"
+          "polo-yule-1903"
         ],
-        "status": "blocked"
+        "status": "verified"
       },
       {
         "id": "doc-2",
-        "label": "Mongol administration and travel",
-        "content": "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
-        "sourceNote": "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+        "label": "The port of Quanzhou",
+        "sourceType": "primary",
+        "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
+        "content": "At this city you must know is the Haven of Zayton, frequented by all the ships of India, which bring thither spicery and all other kinds of costly wares. . . . And I assure you that for one shipload of pepper that goes to Alexandria or elsewhere, destined for Christendom, there come a hundred such, aye and more too, to this haven of Zayton; for it is one of the two greatest havens in the world for commerce.\n\nThe Great Kaan derives a very large revenue from the duties paid in this city and haven; for you must know that on all the merchandize imported, including precious stones and pearls, he levies a duty of ten per cent., or in other words takes tithe of everything.",
+        "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
+        "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
+        "sourceNote": "Verified against the Project Gutenberg text of the Yule–Cordier edition.",
         "metadata": {
-          "author": "Unresolved / to be independently verified",
-          "date": "1200–1450 target; exact date unresolved",
-          "setting": "Afro-Eurasian exchange context",
-          "audience": "To be verified from the selected edition",
-          "rights": "Blocked pending edition, translation, and rights verification."
+          "author": "Marco Polo, dictated to Rustichello of Pisa",
+          "date": "c. 1298",
+          "setting": "Quanzhou, southern China",
+          "audience": "European readers",
+          "rights": "Public-domain translation (1903)."
         },
         "sourceIds": [
-          "amsco-unit-2"
+          "polo-yule-1903"
         ],
-        "status": "blocked"
+        "status": "verified"
       },
       {
         "id": "doc-3",
-        "label": "Indian Ocean seasonal knowledge",
-        "content": "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
-        "sourceNote": "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+        "label": "Muslim merchants in Quanzhou",
+        "sourceType": "primary",
+        "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his arrival at Quanzhou, China, c. 1345",
+        "content": "I received visits from the qadi of the Muslims, the shaykh al-Islam, and the principal merchants. Amongst the latter was Sharaf ad-Din of Tabriz, one of the merchants from whom I had borrowed at the time of my arrival in India, and the one who had treated me most fairly. He knew the Koran by heart and used to recite it constantly. These merchants, living as they do in a land of infidels, are overjoyed when a Muslim comes to them. They say \"He has come from the land of Islam,\" and they make him the recipient of the tithes on their properties, so that he becomes as rich as themselves.",
+        "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 12. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 310.",
+        "note": "Zaytun is Quanzhou. A qadi is a Muslim judge. Tabriz is a city in northwestern Iran.",
+        "sourceNote": "Verified against the Internet Archive full text of Gibb's 1929 translation.",
         "metadata": {
-          "author": "Unresolved / to be independently verified",
-          "date": "1200–1450 target; exact date unresolved",
-          "setting": "Afro-Eurasian exchange context",
-          "audience": "To be verified from the selected edition",
-          "rights": "Blocked pending edition, translation, and rights verification."
+          "author": "Ibn Battuta, dictated to Ibn Juzayy",
+          "date": "Visit c. 1345; account dictated 1355",
+          "setting": "Quanzhou, Yuan China",
+          "audience": "Muslim readers in Morocco",
+          "rights": "Public-domain translation in the United States (1929)."
         },
         "sourceIds": [
-          "amsco-unit-2"
+          "battuta-gibb-1929"
         ],
-        "status": "blocked"
+        "status": "verified"
       },
       {
         "id": "doc-4",
-        "label": "West African trade and pilgrimage",
-        "content": "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
-        "sourceNote": "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+        "label": "A trading town on India's southwestern coast",
+        "sourceType": "primary",
+        "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the port of Honavar on India's southwestern coast, c. 1342",
+        "content": "Next day we reached the town of Hinawr [Honavar, Onore], which is on a large inlet navigable for large ships. . . . [The women of this town] are beautiful and virtuous, and each wears a gold ring in her nose. One peculiarity amongst them is that they all know the Koran by heart. I saw in the town thirteen schools for girls and twenty-three for boys, a thing which I have never seen elsewhere. Its inhabitants live by maritime commerce, and have no cultivated land. The ruler of Hinawr is Sultan Jalal ad-Din, who is one of the best and most powerful sultans. He is under the suzerainty of an infidel sultan named Haryab",
+        "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 8. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 252.",
+        "note": "Bracketed place names are Gibb's. “Haryab” is usually identified as Harihara, ruler of the Vijayanagara kingdom.",
+        "sourceNote": "Verified against the Internet Archive full text of Gibb's 1929 translation.",
         "metadata": {
-          "author": "Unresolved / to be independently verified",
-          "date": "1200–1450 target; exact date unresolved",
-          "setting": "Afro-Eurasian exchange context",
-          "audience": "To be verified from the selected edition",
-          "rights": "Blocked pending edition, translation, and rights verification."
+          "author": "Ibn Battuta, dictated to Ibn Juzayy",
+          "date": "Visit c. 1342; account dictated 1355",
+          "setting": "Honavar, southwestern India",
+          "audience": "Muslim readers in Morocco",
+          "rights": "Public-domain translation in the United States (1929)."
         },
         "sourceIds": [
-          "amsco-unit-2"
+          "battuta-gibb-1929"
         ],
-        "status": "blocked"
+        "status": "verified"
       },
       {
         "id": "doc-5",
-        "label": "Traveler perspective",
-        "content": "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
-        "sourceNote": "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+        "label": "The salt mines of Taghaza",
+        "sourceType": "primary",
+        "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
+        "content": "After twenty-five days we reached Taghaza, an unattractive village, with the curious feature that its houses and mosques are built of blocks of salt, roofed with camel skins. There are no trees there, nothing but sand. In the sand is a salt mine; they dig for the salt, and find it in thick slabs, lying one on top of the other, as though they had been tool-squared and laid under the surface of the earth. . . . A camel will carry two of these slabs. No one lives at Taghaza except the slaves of the Massufa tribe, who dig for the salt; they subsist on dates imported from Dar'a and Sijilmasa, camels' flesh, and millet imported from [West Africa]. [West Africans] come up from their country and take away the salt from there.",
+        "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
+        "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
+        "sourceNote": "Verified against the Internet Archive full text of Gibb's 1929 translation.",
         "metadata": {
-          "author": "Unresolved / to be independently verified",
-          "date": "1200–1450 target; exact date unresolved",
-          "setting": "Afro-Eurasian exchange context",
-          "audience": "To be verified from the selected edition",
-          "rights": "Blocked pending edition, translation, and rights verification."
+          "author": "Ibn Battuta, dictated to Ibn Juzayy",
+          "date": "Journey 1352; account dictated 1355",
+          "setting": "The western Sahara, on the route to Mali",
+          "audience": "Muslim readers in Morocco",
+          "rights": "Public-domain translation in the United States (1929)."
         },
         "sourceIds": [
-          "amsco-unit-2"
+          "battuta-gibb-1929"
         ],
-        "status": "blocked"
+        "status": "verified"
       },
       {
         "id": "doc-6",
-        "label": "Crops and disease in connected regions",
-        "content": "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
-        "sourceNote": "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+        "label": "Order and Islam in Mali",
+        "sourceType": "primary",
+        "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
+        "content": "[The people of Mali] possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. Their sultan shows no mercy to anyone who is guilty of the least act of it. There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. They do not confiscate the property of any white man who dies in their country, even if it be uncounted wealth. On the contrary, they give it into the charge of some trustworthy person among the whites, until the rightful heir takes possession of it. They are careful to observe the hours of prayer, and assiduous in attending them in congregations, and in bringing up their children to them. . . .\n\nYet another is their zeal for learning the Koran by heart. . . . Among their bad qualities are the following. . . . Then there is their custom of putting dust and ashes on their heads, as a mark of respect, and the grotesque ceremonies we have described when the poets recite their verses.",
+        "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
+        "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
+        "sourceNote": "Verified against the Internet Archive full text of Gibb's 1929 translation.",
         "metadata": {
-          "author": "Unresolved / to be independently verified",
-          "date": "1200–1450 target; exact date unresolved",
-          "setting": "Afro-Eurasian exchange context",
-          "audience": "To be verified from the selected edition",
-          "rights": "Blocked pending edition, translation, and rights verification."
+          "author": "Ibn Battuta, dictated to Ibn Juzayy",
+          "date": "Visit 1352–1353; account dictated 1355",
+          "setting": "The Mali Empire, West Africa",
+          "audience": "Muslim readers in Morocco",
+          "rights": "Public-domain translation in the United States (1929)."
         },
         "sourceIds": [
-          "amsco-unit-2"
+          "battuta-gibb-1929"
         ],
-        "status": "blocked"
+        "status": "verified"
       },
       {
         "id": "doc-7",
-        "label": "Qualitative comparison of networks",
-        "content": "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
-        "sourceNote": "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+        "label": "Plague in Florence and its countryside",
+        "sourceType": "primary",
+        "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, completed c. 1353, describing Florence and its countryside during the plague of 1348",
+        "content": "By reason whereof there remained unto those (and the number of them, both males and females, was incalculable) who fell sick, none other succour than that which they owed either to the charity of friends (and of these there were few) or the greed of servants, who tended them, allured by high and extravagant wage . . . .\n\nthroughout the scattered villages and in the fields, the poor and miserable husbandmen and their families, without succour of physician or aid of servitor, died, not like men, but well nigh like beasts, by the ways or in their tillages or about the houses, indifferently by day and night. . . . the oxen, the asses, the sheep, the goats, the swine, the fowls, nay, the very dogs, so faithful to mankind, being driven forth of their own houses, went straying at their pleasure about the fields, where the very corn was abandoned, without being cut, much less gathered in",
+        "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
+        "note": "Husbandmen are farmers. Payne's 1886 English imitates older usage.",
+        "sourceNote": "Verified against the Project Gutenberg text of Payne's translation.",
         "metadata": {
-          "author": "Unresolved / to be independently verified",
-          "date": "1200–1450 target; exact date unresolved",
-          "setting": "Afro-Eurasian exchange context",
-          "audience": "To be verified from the selected edition",
-          "rights": "Blocked pending edition, translation, and rights verification."
+          "author": "Giovanni Boccaccio",
+          "date": "Completed c. 1353, describing 1348",
+          "setting": "Florence and its countryside, Italy",
+          "audience": "Italian readers of his story collection",
+          "rights": "Public-domain translation (1886)."
         },
         "sourceIds": [
-          "amsco-unit-2"
+          "boccaccio-payne-1886"
         ],
-        "status": "blocked"
+        "status": "verified"
       }
     ],
-    "availability": "blocked",
-    "unresolvedSources": [
-      "Independent primary-source editions and rights records for all seven documents."
+    "modelResponse": "By 1200, trade routes had linked Afro-Eurasia for centuries, carrying silk from China, spices from South and Southeast Asia, and Islam across North Africa and the Indian Ocean. In the 1200s the Mongol conquests united much of Eurasia under related rulers, while states such as Mali and the Swahili city-states grew rich from trade in gold and other goods.\n\nBetween 1200 and 1450, expanding networks of exchange significantly changed societies by enriching states that controlled trade and spreading Islam and its institutions to new regions, but the benefits were unequal, and connectivity also carried coerced labor and devastating disease.\n\nTrade networks strengthened states that could tax and protect commerce. Marco Polo describes Kublai Khan forcing merchants to accept Yuan paper money and to sell their gold, gems, and pearls only to the emperor (Document 1), and collecting a ten percent duty on all imports at Quanzhou (Document 2). Polo was a Venetian merchant writing for European readers who had never seen paper money, so he emphasized the emperor's wealth and may have overstated how smoothly the system worked; in 1287 Kublai had to replace the earlier notes with a new currency. Even allowing for exaggeration, his account shows a state drawing power from the trade it controlled. Ibn Battuta similarly describes Mali as a place of \"complete security\" where even the estates of foreign merchants were protected (Document 6), conditions that reflect rulers who depended on trans-Saharan trade revenue.\n\nExchange also spread Islam and Islamic learning far beyond its Middle Eastern heartland. In Quanzhou, Ibn Battuta found a Muslim judge, a shaykh al-Islam, and merchants who recited the Koran (Document 3), and in the Indian port of Honavar he counted thirteen schools for girls and twenty-three for boys among people who all knew the Koran by heart (Document 4). In Mali, children learned the Koran and crowds filled the mosques on Fridays (Document 6). Because Ibn Battuta was a Muslim legal scholar writing for Muslim readers in Morocco, he paid close attention to mosques and Quranic learning, and his praise and criticism, including his complaint about court customs he considered improper, reflect North African Islamic norms. Yet his observations agree with other evidence: Mansa Musa's pilgrimage to Mecca in 1324–1325 and his support for scholars in Timbuktu show Mali's rulers deliberately joining the Islamic world.\n\nThese changes, however, were neither universal nor equally beneficial. At Taghaza, the salt that West Africans valued was dug by enslaved workers who lived on imported food in a village without trees (Document 5), showing that the same trade that enriched Mali's rulers depended on coerced labor. Honavar's Muslim ruler governed under the authority of a Hindu overlord (Document 4), a reminder that religious change in port cities did not replace older political structures. Most dramatically, the routes that carried goods and ideas also carried plague. Boccaccio describes peasants dying \"like beasts\" and crops left unharvested around Florence, while the few willing to nurse the sick demanded \"high and extravagant wage\" (Document 7). Writing the introduction to a book of stories, Boccaccio had reasons to dramatize, but he lived through the epidemic, and his description of scarce, expensive labor matches England's attempt to cap wages in the Statute of Labourers of 1351.\n\nIn conclusion, expanding exchange transformed political power and religious life across Afro-Eurasia, but it did so unevenly, enriching rulers and merchants while also spreading forced labor and disease that reshaped societies in ways no one intended.",
+    "modelNotes": [
+      {
+        "label": "Contextualization",
+        "text": "The first paragraph describes earlier trade routes, the spread of Islam, and the Mongol conquests that set up the period."
+      },
+      {
+        "label": "Thesis",
+        "text": "The thesis makes a claim about extent (significant but unequal change) and previews three lines of reasoning: state power, the spread of Islam, and unequal costs."
+      },
+      {
+        "label": "Evidence from the documents",
+        "text": "All seven documents are used to support the argument, not summarized one after another, which exceeds the four-document requirement."
+      },
+      {
+        "label": "Evidence beyond the documents",
+        "text": "Kublai's 1287 currency reissue, Mansa Musa's pilgrimage and patronage in Timbuktu, and the Statute of Labourers are specific evidence not found in the documents."
+      },
+      {
+        "label": "Sourcing",
+        "text": "The essay explains how Polo's purpose and audience (Documents 1–2), Ibn Battuta's background (Documents 3–6), and Boccaccio's purpose (Document 7) affect how each source should be used."
+      },
+      {
+        "label": "Complexity",
+        "text": "The argument qualifies its own claim by showing coerced labor, persistent older political structures, and disease, and it corroborates sources with outside evidence."
+      }
+    ],
+    "alternateModel": "A different strong essay could argue that connectivity changed elites and cities more than ordinary people, grouping Documents 1–4 as evidence of change among rulers and merchants and Documents 5–7 as evidence of how ordinary people bore the costs.",
+    "commonErrors": [
+      "Summarizing each document in order instead of grouping them by argument.",
+      "Quoting a document without explaining how it supports the claim.",
+      "Writing “Ibn Battuta was biased” without explaining how his background affects the document's use.",
+      "Treating one traveler's description as true for an entire region.",
+      "Forgetting evidence beyond the documents."
     ]
   }
 }

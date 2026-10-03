@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -431,124 +431,132 @@
   },
   "quiz": {
     "id": "world-2-saq-01",
-    "version": 1,
+    "version": 2,
     "courseId": "world",
     "unitId": "world-2",
     "title": "Unit 2 SAQ 01",
-    "headline": "Commercial institutions",
-    "promptTitle": "Original AP-style Unit 2 source practice",
-    "prompt": "A merchant using an oasis route can deposit payment in one city and collect it in another. Explain how this kind of commercial practice could increase exchange after 1200.",
-    "instructions": "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    "note": "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
+    "headline": "Paper money and the Yuan state",
+    "promptTitle": "Primary-source short-answer question",
+    "prompt": "Use the passage below to answer all parts of the question.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
+    "stimulusBlocks": [
+      {
+        "id": "polo-paper-money",
+        "type": "source",
+        "sourceType": "primary",
+        "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing Yuan China",
+        "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 1, Book II, ch. 24. Project Gutenberg eBook #10636.",
+        "note": "In this translation, “the Great Kaan” and “the Emperor” refer to Kublai Khan.",
+        "text": "With these pieces of paper, made as I have described, he causes all payments on his own account to be made; and he makes them to pass current universally over all his kingdoms and provinces and territories, and whithersoever his power and sovereignty extends. And nobody, however important he may think himself, dares to refuse them on pain of death. . . .\n\nFurthermore all merchants arriving from India or other countries, and bringing with them gold or silver or gems and pearls, are prohibited from selling to any one but the Emperor. . . . The merchants accept his price readily, for in the first place they would not get so good an one from anybody else, and secondly they are paid without any delay. And with this paper-money they can buy what they like anywhere over the Empire, whilst it is also vastly lighter to carry about on their journeys."
+      }
+    ],
     "scaffold": [
       {
         "label": "Answer",
-        "text": "Respond directly to the verb in the question."
+        "text": "Respond directly to the task verb: identify, describe, or explain."
       },
       {
         "label": "Prove",
-        "text": "Use one specific historical example or detail from the source context."
+        "text": "Name a specific person, place, institution, or development."
       },
       {
         "label": "Explain",
-        "text": "Connect the evidence to the historical claim."
+        "text": "Show how or why the evidence answers the question."
       }
     ],
     "parts": [
       {
         "id": "a",
-        "lenses": [],
-        "prompt": "Explain the central historical relationship in the prompt.",
+        "lenses": [
+          "P",
+          "E"
+        ],
+        "prompt": "Identify ONE way the Yuan government described in the passage controlled commerce.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a specific policy described in the passage.",
+          "Connects the policy to government control of trade, not just to trade in general."
         ],
         "model": {
-          "answer": "Explain the central historical relationship in the prompt. A strong response would connect the source context to the silk roads and credit.",
-          "prove": "For example, the source context points to the silk roads and credit and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "The Yuan government forced everyone in the empire to accept its paper money.",
+          "prove": "Polo writes that nobody “dares to refuse them on pain of death,” and that merchants bringing gold, silver, gems, or pearls could sell them only to the emperor.",
+          "explain": "Both rules made the state the authority over how people paid and who could buy the most valuable goods, so commerce flowed through the emperor's currency and court."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "The rule that precious goods could be sold only to the emperor also earns the point. A general statement such as “the government supported trade” does not identify how it controlled commerce.",
         "review": [
           {
-            "topicId": "world-2-1",
-            "sectionId": "network-geography",
-            "label": "The Silk Roads and credit"
+            "topicId": "world-2-2",
+            "sectionId": "trade-communication",
+            "label": "Mongol trade policy"
           }
         ]
       },
       {
         "id": "b",
-        "lenses": [],
-        "prompt": "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        "lenses": [
+          "E",
+          "T"
+        ],
+        "prompt": "Explain ONE way that commercial practices such as the one described in the passage made long-distance trade easier in the period 1200–1450.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a specific commercial practice of the period.",
+          "Explains how it reduced a cost, risk, or difficulty of long-distance trade."
         ],
         "model": {
-          "answer": "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to the silk roads and credit.",
-          "prove": "For example, the source context points to the silk roads and credit and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Paper money and credit let merchants move value without carrying large amounts of heavy coin.",
+          "prove": "Polo notes that paper money was “vastly lighter to carry,” and earlier Chinese merchants had used flying cash to deposit money in one city and collect it in another; bills of exchange served a similar purpose for Muslim and Italian merchants.",
+          "explain": "Lighter and safer ways to pay lowered the risk of theft and the cost of transport, so long journeys became more profitable for more merchants."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Bills of exchange, banking houses, or caravanserai that supported repeated travel can also work if the answer explains how they made long-distance trade easier.",
         "review": [
           {
             "topicId": "world-2-1",
-            "sectionId": "network-geography",
-            "label": "The Silk Roads and credit"
+            "sectionId": "commercial-practices",
+            "label": "Commercial practices"
           }
         ]
       },
       {
         "id": "c",
-        "lenses": [],
-        "prompt": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        "lenses": [
+          "C"
+        ],
+        "prompt": "Explain ONE way Marco Polo's point of view or purpose might affect the reliability of his description of Yuan paper money.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Identifies a specific feature of Polo's point of view, purpose, audience, or situation.",
+          "Explains how that feature could make the description more or less reliable."
         ],
         "model": {
-          "answer": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to the silk roads and credit.",
-          "prove": "For example, the source context points to the silk roads and credit and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Polo was writing to amaze European readers, so he may have made the system sound more successful than it was.",
+          "prove": "He describes notes accepted everywhere without complaint, yet in 1287 Kublai Khan issued a new currency, each note worth five of the old ones, which suggests the earlier notes had lost much of their value.",
+          "explain": "A merchant writing for readers who had never seen paper money had reasons to stress its marvels and leave out its problems, so historians should check his account against Chinese records."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Answers can also explain that Polo saw the system as a foreigner close to the court and merchants, or that he dictated the book years after leaving China, relying on memory.",
         "review": [
           {
-            "topicId": "world-2-1",
-            "sectionId": "network-geography",
-            "label": "The Silk Roads and credit"
+            "topicId": "world-2-5",
+            "sectionId": "travelers-sourcing",
+            "label": "Travelers as evidence"
           }
         ]
       }
     ],
     "sourceIds": [
-      "amsco-unit-2",
+      "polo-yule-1903",
       "ced-topic-2-1",
-      "class-tang-song-mongols"
+      "ced-topic-2-2",
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Supplied AMSCO Unit 2 Topic 1 pages"
+        "sourceId": "polo-yule-1903",
+        "locator": "vol. 1, Book II, ch. 24 and note 1"
       },
       {
         "sourceId": "ced-topic-2-1",
-        "locator": "Official CED Topic 1"
+        "locator": "Topic 2.1 learning objectives"
       }
-    ],
-    "sourceContext": {
-      "label": "Original source context",
-      "text": "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      "sourceIds": [
-        "amsco-unit-2",
-        "ced-topic-2-1",
-        "class-tang-song-mongols"
-      ]
-    },
-    "exerciseType": "saq"
+    ]
   }
 }

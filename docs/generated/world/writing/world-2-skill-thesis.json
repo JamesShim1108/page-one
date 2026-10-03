@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -436,34 +436,33 @@
     "unitId": "world-2",
     "title": "Unit 2 skill drill: Revise an overly broad claim into an arguable claim with a line of reasoning.",
     "headline": "Revise an overly broad claim into an arguable claim with a line of reasoning.",
-    "promptTitle": "Original Page One Unit 2 writing practice",
+    "promptTitle": "Skill drill: thesis",
     "prompt": "A student writes: “Trade changed everything.” Rewrite it as a defensible Unit 2 thesis.",
-    "instructions": "Write a short response, reveal the worked feedback, and revise. This checklist is practice and does not produce an official AP score.",
-    "note": "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    "instructions": "Write a short response, then open the worked example and compare. This checklist is practice and does not produce an official AP score.",
+    "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
     "exerciseType": "skill",
     "sourceIds": [
-      "amsco-unit-2",
       "ced-topic-2-7",
-      "ced"
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Unit 2 supplied reading / verified classroom locator"
+        "sourceId": "ced-topic-2-7",
+        "locator": "Topic 2.7 learning objectives"
       }
     ],
     "responseFields": [
       {
         "id": "response",
         "label": "Your response",
-        "prompt": "Write your revised response and explain the reasoning.",
+        "prompt": "Write your revised thesis and one sentence explaining why it is stronger.",
         "required": true,
         "rows": 8,
         "review": [
           {
             "topicId": "world-2-7",
-            "sectionId": "comparison-framework",
-            "label": "Review the lesson"
+            "sectionId": "arguing-with-evidence",
+            "label": "From comparison to argument"
           }
         ]
       }
@@ -473,34 +472,34 @@
         "id": "checklist",
         "label": "Skill checklist",
         "points": 1,
-        "guidance": "The response completes the named skill and explains why the move improves the argument."
+        "guidance": "The thesis is limited to a time and place, makes a claim someone could dispute, and previews a line of reasoning."
       }
     ],
-    "modelResponse": "Worked feedback: the response should make the thesis move visible, use a specific Unit 2 example, and explain why that move strengthens the argument.",
-    "alternateModel": "Another answer can work when it performs the same skill with a different accurate example.",
+    "modelResponse": "Worked example: “Between 1200 and 1450, expanding trade strengthened states that could tax it, such as Mali and Malacca, and spread Islam to new regions, but these changes were uneven because many rural communities kept older economies and beliefs.”\n\nWhy it is stronger: it sets a time period, names specific states, makes a claim a reader could argue against, previews two lines of reasoning (state power and religion), and qualifies the claim instead of saying trade changed “everything.”",
+    "alternateModel": "Another strong thesis could focus on environmental effects: “Trade networks spread both useful crops and deadly disease, so connectivity raised food supplies in some regions while the plague cut populations sharply in others.”",
     "commonErrors": [
-      "Repeating the prompt without making a claim.",
-      "Naming a fact without connecting it to the argument.",
-      "Treating one observer or region as representative of everyone."
+      "Restating the prompt without making a claim.",
+      "Naming topics without explaining how they connect to the claim.",
+      "Making a claim so broad that no evidence could disprove it."
     ],
     "scaffold": [
       {
-        "label": "Draft",
-        "text": "Write the first version."
+        "label": "Narrow",
+        "text": "Set a time, place, or group."
       },
       {
-        "label": "Check",
-        "text": "Use the checklist to locate the reasoning move."
+        "label": "Claim",
+        "text": "Say what changed and how much."
       },
       {
-        "label": "Revise",
-        "text": "Make the claim, evidence, or sourcing explanation explicit."
+        "label": "Reason",
+        "text": "Preview why, with two categories of evidence."
       }
     ],
     "checklist": [
-      "Names the requested reasoning move.",
-      "Uses a specific and accurate Unit 2 example.",
-      "Explains why the move supports the argument."
+      "Limits the claim to a time period and specific places.",
+      "Makes a claim that a reader could argue against.",
+      "Previews at least two reasons or categories of evidence."
     ]
   }
 }

@@ -27,7 +27,7 @@ export const lesson = {
       id: "governance",
       title: "How do you govern a huge territory?",
       conceptTitle: "Governance",
-      lenses: [],
+      lenses: ["P", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -49,7 +49,7 @@ export const lesson = {
       id: "beliefs",
       title: "Ideas could support political power.",
       conceptTitle: "Belief systems",
-      lenses: [],
+      lenses: ["C", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -79,7 +79,7 @@ export const lesson = {
       id: "economy",
       title: "Follow the rice to understand the cities.",
       conceptTitle: "Economic change",
-      lenses: [],
+      lenses: ["E", "T", "In"],
       blocks: [
         {
           type: "paragraph",
@@ -105,7 +105,7 @@ export const lesson = {
       id: "influence",
       title: "Borrowing did not mean becoming identical.",
       conceptTitle: "Regional influence",
-      lenses: [],
+      lenses: ["C", "P"],
       blocks: [
         {
           type: "paragraph",

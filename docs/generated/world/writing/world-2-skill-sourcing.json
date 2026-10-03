@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -436,34 +436,33 @@
     "unitId": "world-2",
     "title": "Unit 2 skill drill: Explain why a document’s perspective, purpose, or situation matters to an argument.",
     "headline": "Explain why a document’s perspective, purpose, or situation matters to an argument.",
-    "promptTitle": "Original Page One Unit 2 writing practice",
+    "promptTitle": "Skill drill: sourcing",
     "prompt": "Explain how a traveler’s purpose could shape what the account can support about cultural change.",
-    "instructions": "Write a short response, reveal the worked feedback, and revise. This checklist is practice and does not produce an official AP score.",
-    "note": "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    "instructions": "Write a short response, then open the worked example and compare. This checklist is practice and does not produce an official AP score.",
+    "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
     "exerciseType": "skill",
     "sourceIds": [
-      "amsco-unit-2",
       "ced-topic-2-5",
-      "amsco-unit-1"
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Unit 2 supplied reading / verified classroom locator"
+        "sourceId": "ced-topic-2-5",
+        "locator": "Topic 2.5 learning objectives"
       }
     ],
     "responseFields": [
       {
         "id": "response",
         "label": "Your response",
-        "prompt": "Write your revised response and explain the reasoning.",
+        "prompt": "Name a traveler, identify a feature of the source, and explain why it matters for an argument.",
         "required": true,
         "rows": 8,
         "review": [
           {
             "topicId": "world-2-5",
             "sectionId": "travelers-sourcing",
-            "label": "Review the lesson"
+            "label": "Travelers are evidence with viewpoints"
           }
         ]
       }
@@ -473,34 +472,34 @@
         "id": "checklist",
         "label": "Skill checklist",
         "points": 1,
-        "guidance": "The response completes the named skill and explains why the move improves the argument."
+        "guidance": "The response identifies a specific feature of the source and explains how it affects the source's use in an argument."
       }
     ],
-    "modelResponse": "Worked feedback: the response should make the sourcing move visible, use a specific Unit 2 example, and explain why that move strengthens the argument.",
-    "alternateModel": "Another answer can work when it performs the same skill with a different accurate example.",
+    "modelResponse": "Worked example: “Ibn Battuta was a Muslim legal scholar writing for Muslim readers in Morocco, so he paid close attention to mosques, prayer, and Quranic learning wherever he went. This makes his account strong evidence that Islamic institutions existed in places such as Mali and Quanzhou, but weaker evidence for how non-Muslim or rural people lived, since they interested him less and he spent little time among them.”\n\nWhy it works: it names a specific feature (purpose and audience) and explains how it makes the source more useful for one claim and less useful for another, which is what sourcing must do in an essay.",
+    "alternateModel": "Marco Polo's purpose, impressing European readers with the wealth of the East, could be used to explain why his account is strong on trade and court wealth but may exaggerate numbers.",
     "commonErrors": [
-      "Repeating the prompt without making a claim.",
-      "Naming a fact without connecting it to the argument.",
-      "Treating one observer or region as representative of everyone."
+      "Writing “the author is biased” without saying how or why it matters.",
+      "Describing the author without connecting the description to an argument.",
+      "Treating a limitation as a reason to ignore the source entirely."
     ],
     "scaffold": [
       {
-        "label": "Draft",
-        "text": "Write the first version."
+        "label": "Identify",
+        "text": "Name the point of view, purpose, situation, or audience."
       },
       {
-        "label": "Check",
-        "text": "Use the checklist to locate the reasoning move."
+        "label": "Effect",
+        "text": "Explain how it shapes what the source includes or leaves out."
       },
       {
-        "label": "Revise",
-        "text": "Make the claim, evidence, or sourcing explanation explicit."
+        "label": "Use",
+        "text": "Say what the source can and cannot support in an argument."
       }
     ],
     "checklist": [
-      "Names the requested reasoning move.",
-      "Uses a specific and accurate Unit 2 example.",
-      "Explains why the move supports the argument."
+      "Identifies a specific feature of the source's author or situation.",
+      "Explains how that feature shapes the content.",
+      "Connects the effect to how the source can be used as evidence."
     ]
   }
 }

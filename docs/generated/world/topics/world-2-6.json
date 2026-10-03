@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -440,7 +440,7 @@
       }
     ]
   },
-  "contentRevision": "e7c90a5d303ad541",
+  "contentRevision": "9321b967f457efb8",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-2-6",
@@ -465,7 +465,10 @@
         "id": "crop-movement",
         "title": "Crops crossed regions",
         "conceptTitle": "Crops crossed regions",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "E"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -501,7 +504,10 @@
         "id": "agriculture-population",
         "title": "Food, population, and land use",
         "conceptTitle": "Food, population, and land use",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "S"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -537,7 +543,9 @@
         "id": "pathogen-networks",
         "title": "Pathogens moved with mobility",
         "conceptTitle": "Pathogens moved with mobility",
-        "lenses": [],
+        "lenses": [
+          "In"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -573,7 +581,10 @@
         "id": "demographic-economic",
         "title": "Demographic shocks changed labor",
         "conceptTitle": "Demographic shocks changed labor",
-        "lenses": [],
+        "lenses": [
+          "E",
+          "S"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -609,7 +620,10 @@
         "id": "environment-feedback",
         "title": "Societies also changed environments",
         "conceptTitle": "Societies also changed environments",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "E"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -645,7 +659,11 @@
     "readingGuide": {
       "objectives": "K",
       "readingLabel": "AMSCO Unit 2, Topic 2.6; use the supplied class reading alongside these original notes",
-      "lenses": [],
+      "lenses": [
+        "In",
+        "S",
+        "E"
+      ],
       "prompts": [
         {
           "id": "world-2-6-reading-01",

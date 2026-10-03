@@ -25,7 +25,7 @@ export const lesson = {
       id: "comparison-framework",
       title: "How to compare historically",
       conceptTitle: "How to compare historically",
-      lenses: [],
+      lenses: ["E"],
       blocks: [
         {
           type: "paragraph",
@@ -58,7 +58,7 @@ export const lesson = {
       id: "shared-causes",
       title: "Shared causes and effects",
       conceptTitle: "Shared causes and effects",
-      lenses: [],
+      lenses: ["E", "P"],
       blocks: [
         {
           type: "paragraph",
@@ -91,7 +91,7 @@ export const lesson = {
       id: "route-differences",
       title: "Geography changes the route",
       conceptTitle: "Geography changes the route",
-      lenses: [],
+      lenses: ["In", "T"],
       blocks: [
         {
           type: "paragraph",
@@ -124,7 +124,7 @@ export const lesson = {
       id: "states-communities",
       title: "States and communities",
       conceptTitle: "States and communities",
-      lenses: [],
+      lenses: ["P", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -157,7 +157,7 @@ export const lesson = {
       id: "arguing-with-evidence",
       title: "From comparison to argument",
       conceptTitle: "From comparison to argument",
-      lenses: [],
+      lenses: ["E", "C"],
       blocks: [
         {
           type: "paragraph",
@@ -191,7 +191,7 @@ export const lesson = {
     objectives: "L",
     readingLabel:
       "AMSCO Unit 2, Topic 2.7; use the supplied class reading alongside these original notes",
-    lenses: [],
+    lenses: ["In", "S", "P", "E", "C", "T"],
     prompts: [
       {
         id: "world-2-7-reading-01",

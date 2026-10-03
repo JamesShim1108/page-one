@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -431,124 +431,116 @@
   },
   "quiz": {
     "id": "world-2-saq-03",
-    "version": 1,
+    "version": 2,
     "courseId": "world",
     "unitId": "world-2",
     "title": "Unit 2 SAQ 03",
-    "headline": "Indian Ocean environment",
-    "promptTitle": "Original AP-style Unit 2 source practice",
-    "prompt": "A ship remains in a port until seasonal winds reverse. Explain how environmental knowledge shaped both trade and port communities.",
-    "instructions": "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    "note": "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
+    "headline": "Indian Ocean exchange",
+    "promptTitle": "Short-answer question without a source",
+    "prompt": "Answer all parts of the question. Use evidence from the period c. 1200 to c. 1450.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
     "scaffold": [
       {
         "label": "Answer",
-        "text": "Respond directly to the verb in the question."
+        "text": "Respond directly to the task verb: identify, describe, or explain."
       },
       {
         "label": "Prove",
-        "text": "Use one specific historical example or detail from the source context."
+        "text": "Name a specific person, place, institution, or development."
       },
       {
         "label": "Explain",
-        "text": "Connect the evidence to the historical claim."
+        "text": "Show how or why the evidence answers the question."
       }
     ],
     "parts": [
       {
         "id": "a",
-        "lenses": [],
-        "prompt": "Explain the central historical relationship in the prompt.",
+        "lenses": [
+          "In",
+          "T"
+        ],
+        "prompt": "Describe ONE way environmental knowledge shaped trade in the Indian Ocean.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names specific environmental knowledge.",
+          "Describes its effect on how trade was carried out."
         ],
         "model": {
-          "answer": "Explain the central historical relationship in the prompt. A strong response would connect the source context to monsoon knowledge.",
-          "prove": "For example, the source context points to monsoon knowledge and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Knowledge of the monsoon winds set the schedule of Indian Ocean trade.",
+          "prove": "Because the winds blow from the southwest in summer and from the northeast in winter, ships sailed out on one monsoon and returned on the other.",
+          "explain": "Sailors who understood the pattern could plan predictable round trips, which made regular long-distance trade possible."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Navigational knowledge of stars and coastlines, used with the astrolabe and compass, can also work.",
         "review": [
           {
             "topicId": "world-2-3",
             "sectionId": "monsoon-navigation",
-            "label": "Monsoon knowledge"
+            "label": "Reading the ocean's seasons"
           }
         ]
       },
       {
         "id": "b",
-        "lenses": [],
-        "prompt": "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        "lenses": [
+          "S",
+          "C"
+        ],
+        "prompt": "Explain ONE way merchant diasporas affected Indian Ocean port cities.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a specific diaspora community or port.",
+          "Explains a cultural, social, or economic effect on the city."
         ],
         "model": {
-          "answer": "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to monsoon knowledge.",
-          "prove": "For example, the source context points to monsoon knowledge and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Merchant diasporas brought Islam and new customs into port cities.",
+          "prove": "Arab and Persian merchants settled in Swahili cities such as Kilwa and married into local families, and Swahili developed as a Bantu language with many Arabic loanwords.",
+          "explain": "Because merchants stayed for months or settled permanently while waiting for the winds, cultural exchange became part of everyday life in the ports rather than a brief contact."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Chinese merchant communities in Southeast Asia, or Muslim communities in Calicut and Quanzhou that built mosques and appointed judges, can also work.",
         "review": [
           {
             "topicId": "world-2-3",
-            "sectionId": "monsoon-navigation",
-            "label": "Monsoon knowledge"
+            "sectionId": "diaspora-communities",
+            "label": "Communities across the water"
           }
         ]
       },
       {
         "id": "c",
-        "lenses": [],
-        "prompt": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        "lenses": [
+          "P",
+          "E"
+        ],
+        "prompt": "Explain ONE way a state used Indian Ocean trade to increase its power.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a specific state.",
+          "Explains how trade added to that state's revenue, prestige, or control."
         ],
         "model": {
-          "answer": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to monsoon knowledge.",
-          "prove": "For example, the source context points to monsoon knowledge and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Malacca used its control of a strategic strait to become a powerful sultanate.",
+          "prove": "In the 1400s Malacca's rulers taxed ships passing between the Indian Ocean and the South China Sea and used naval forces to protect traffic.",
+          "explain": "Customs revenue from a passage that ships could not easily avoid paid for the navy and court that made Malacca a regional power."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Swahili city-states taxing trade in gold and ivory, or the Ming using Zheng He's voyages to gain tribute and prestige, can also work.",
         "review": [
           {
             "topicId": "world-2-3",
-            "sectionId": "monsoon-navigation",
-            "label": "Monsoon knowledge"
+            "sectionId": "states-revenue",
+            "label": "Trade could build states"
           }
         ]
       }
     ],
     "sourceIds": [
-      "amsco-unit-2",
       "ced-topic-2-3",
-      "class-indian-ocean"
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Supplied AMSCO Unit 2 Topic 3 pages"
-      },
-      {
         "sourceId": "ced-topic-2-3",
-        "locator": "Official CED Topic 3"
+        "locator": "Topic 2.3 learning objectives"
       }
-    ],
-    "sourceContext": {
-      "label": "Original source context",
-      "text": "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      "sourceIds": [
-        "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
-      ]
-    },
-    "exerciseType": "saq"
+    ]
   }
 }

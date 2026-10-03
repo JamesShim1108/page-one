@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -440,851 +440,867 @@
       }
     ]
   },
-  "contentRevision": "c950fd055ce941ea",
+  "contentRevision": "6d1382632950c6db",
   "questions": [
     {
       "id": "world-2-3-q01",
       "topicId": "world-2-3",
       "concept": "monsoon-navigation",
       "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "Why was knowledge of monsoon winds important?",
+      "skill": "developments",
+      "prompt": "Why did knowledge of the monsoon winds matter to Indian Ocean merchants?",
       "choices": [
-        "It helped sailors plan voyages around seasonal wind reversals and waiting periods",
-        "It allowed ships to ignore weather and sail on any date",
-        "It replaced the need for pilots and coastal knowledge",
-        "It applied only to overland caravans"
+        "Steady winds blew in one direction all year, so ships never had to wait",
+        "Monsoon storms closed the ocean to all shipping for most of each year",
+        "Seasonal wind shifts let sailors plan outbound and return voyages",
+        "Wind knowledge replaced the need for compasses and other navigation tools"
       ],
-      "correctAnswer": 0,
-      "explanation": "Monsoon knowledge made timing predictable enough for repeated maritime exchange, though sailors still faced risk.",
+      "correctAnswer": 2,
+      "explanation": "The winds reverse direction by season, so merchants timed departures and returns around them.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Monsoon knowledge made timing predictable enough for repeated maritime exchange, though sailors still faced risk.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "The monsoons reverse seasonally. Merchants often waited in port for the wind to change.",
+        "Some months were dangerous, but the seasonal pattern made regular sailing possible.",
+        "The winds reverse direction by season, so merchants timed departures and returns around them.",
+        "Pilots combined wind knowledge with compasses, astrolabes, and local experience."
       ],
-      "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 0,
+      "distinguisher": "The monsoon is valuable because it is predictable and reverses.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-3-q02",
       "topicId": "world-2-3",
-      "concept": "monsoon-navigation",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Which technology helped sailors determine latitude?",
+      "concept": "ports-products",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which pairing of a region and a good it supplied to Indian Ocean trade is accurate?",
       "choices": [
-        "The camel saddle",
-        "The astrolabe",
-        "The bill of exchange",
-        "The caravanserai"
+        "India: cotton textiles and pepper",
+        "China: gold dust and elephant ivory",
+        "Southeast Asia: horses and wool",
+        "East Africa: porcelain and silk"
       ],
-      "correctAnswer": 1,
-      "explanation": "The astrolabe was adapted by navigators to estimate position north or south of the equator.",
+      "correctAnswer": 0,
+      "explanation": "India was known for cotton cloth and pepper from the Malabar coast.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The astrolabe was adapted by navigators to estimate position north or south of the equator.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "India was known for cotton cloth and pepper from the Malabar coast.",
+        "Gold and ivory were East African exports; China exported silk and porcelain.",
+        "Southeast Asian islands supplied spices; horses came largely from Arabia and Persia.",
+        "Porcelain and silk came from China. East Africa supplied gold, ivory, and other goods."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 3,
+      "distinguisher": "Match each region with its best-known exports.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-3-q03",
       "topicId": "world-2-3",
-      "concept": "ports-products",
+      "concept": "diaspora-communities",
       "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "Which pairing is most accurate?",
+      "skill": "developments",
+      "prompt": "Why did merchant communities settle in foreign Indian Ocean ports?",
       "choices": [
-        "India: only gold; Southeast Asia: only horses; China: only salt",
-        "East Africa: porcelain; China: ivory mines; Malacca: wheat fields",
-        "India: cotton textiles and pepper; Southeast Asian islands: spices; China: silk and porcelain",
-        "All regions produced the same goods for identical markets"
+        "Ships were too slow to return home within the merchants' lifetimes",
+        "Rulers of every port required foreign merchants to settle permanently",
+        "Merchants were fleeing religious persecution in their homelands in large numbers",
+        "Long waits for seasonal winds and profitable trade encouraged residence"
       ],
-      "correctAnswer": 2,
-      "explanation": "Regional specialization encouraged exchange, while the other choices misassign goods or erase variation.",
+      "correctAnswer": 3,
+      "explanation": "Merchants waited months for the winds to change, and steady trade made settling worthwhile.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Regional specialization encouraged exchange, while the other choices misassign goods or erase variation.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "Voyages took months, not lifetimes; the issue was seasonal timing.",
+        "Rulers welcomed merchants for revenue, but settlement was usually by choice, not requirement.",
+        "Diasporas formed mainly through trade, not mass flight from persecution.",
+        "Merchants waited months for the winds to change, and steady trade made settling worthwhile."
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 1,
+      "distinguisher": "Link settlement to the monsoon calendar and profit.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-3-q04",
       "topicId": "world-2-3",
-      "concept": "diaspora-communities",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Why did merchants form diasporic communities?",
+      "concept": "states-revenue",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "How did Malacca become a powerful state in the 1400s?",
       "choices": [
-        "Rulers required every merchant to abandon their culture",
-        "Diasporas formed only when trade ended",
-        "Merchants could not interact with local people in ports",
-        "Seasonal travel, trade opportunities, family ties, and settlement created durable communities away from home"
+        "It conquered the Swahili coast to control African gold",
+        "It taxed and protected ships passing through a key strait",
+        "It produced most of the cotton cloth traded in the ocean",
+        "It controlled the Silk Roads oases in Central Asia"
       ],
-      "correctAnswer": 3,
-      "explanation": "Seasonal waiting and economic opportunities encouraged residence, intermarriage, and community formation.",
+      "correctAnswer": 1,
+      "explanation": "The Strait of Malacca linked the Indian Ocean and South China Sea, and Malacca profited by taxing and protecting traffic.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Seasonal waiting and economic opportunities encouraged residence, intermarriage, and community formation."
+        "Malacca was in Southeast Asia. It did not rule East Africa.",
+        "The Strait of Malacca linked the Indian Ocean and South China Sea, and Malacca profited by taxing and protecting traffic.",
+        "Cotton cloth came mainly from India, especially Gujarat.",
+        "Malacca was a maritime state far from Central Asia."
       ],
       "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "distinguisher": "A strait creates power when a ruler can tax and protect the ships that must pass.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-3-q05",
       "topicId": "world-2-3",
-      "concept": "states-revenue",
-      "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "How did Malacca gain power?",
+      "concept": "ports-products",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The passage best supports which claim about trade in the late 1200s?",
       "choices": [
-        "It used its position on the Strait of Malacca to collect fees and support maritime protection",
-        "It controlled all overland routes across the Sahara",
-        "It banned ships from using the strait and relied only on farming",
-        "It became powerful by refusing contact with foreign merchants"
+        "Chinese merchants refused to buy goods brought by foreign ships",
+        "Chinese ports received far more Asian spice imports than Europe did",
+        "Spices reached China mainly by caravan over the Silk Roads, not by sea",
+        "European ports received most of the pepper shipped from India"
       ],
-      "correctAnswer": 0,
-      "explanation": "Strategic location, fees, and naval protection helped Malacca grow.",
+      "correctAnswer": 1,
+      "explanation": "Polo says a hundred shiploads of pepper came to Zayton for every one sent toward Christendom.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-3",
-        "class-indian-ocean"
+        "polo-yule-1903"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
+          "sourceId": "ced-topic-2-3",
+          "locator": "Topic 2.3 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
         }
       ],
       "choiceExplanations": [
-        "Strategic location, fees, and naval protection helped Malacca grow.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Zayton was “frequented by all the ships of India,” and goods were distributed across southern China.",
+        "Polo says a hundred shiploads of pepper came to Zayton for every one sent toward Christendom.",
+        "Polo describes ships bringing spices to a Chinese port, which is sea trade.",
+        "Polo says the opposite: Europe's share was small compared with China's."
       ],
-      "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-3-evidence-note",
+      "nearMissIndex": 3,
+      "distinguisher": "Use Polo's comparison of shiploads.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: Indian Ocean sailors combined seasonal wind knowledge with ships, sails, instruments, and port-based communities."
+          "id": "polo-zayton",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
+          "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
+          "text": "At this city you must know is the Haven of Zayton, frequented by all the ships of India, which bring thither spicery and all other kinds of costly wares. . . . And I assure you that for one shipload of pepper that goes to Alexandria or elsewhere, destined for Christendom, there come a hundred such, aye and more too, to this haven of Zayton; for it is one of the two greatest havens in the world for commerce.\n\nThe Great Kaan derives a very large revenue from the duties paid in this city and haven; for you must know that on all the merchandize imported, including precious stones and pearls, he levies a duty of ten per cent., or in other words takes tithe of everything."
         }
-      ]
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
     },
     {
       "id": "world-2-3-q06",
       "topicId": "world-2-3",
-      "concept": "zheng-he",
+      "concept": "states-revenue",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "What was a major purpose of Zheng He’s voyages?",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, how did Zayton's trade benefit the Yuan state?",
       "choices": [
-        "Conquering every Indian Ocean port for permanent settlement",
-        "Displaying Ming power, receiving recognition or tribute, and expanding maritime contact",
-        "Discovering the Americas for European monarchs",
-        "Ending all exchange between China and Southeast Asia"
+        "The state owned all ships and kept the profits from freight",
+        "The emperor collected a ten percent duty on all goods exported",
+        "Foreign merchants paid the emperor in silk instead of silver",
+        "The emperor collected a ten percent duty on imported goods"
       ],
-      "correctAnswer": 1,
-      "explanation": "The voyages were state-sponsored diplomacy and display within older maritime networks.",
+      "correctAnswer": 3,
+      "explanation": "Polo says the Great Kaan levied a duty of ten percent on all imported merchandise.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-3",
-        "class-indian-ocean"
+        "polo-yule-1903"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
+          "sourceId": "ced-topic-2-3",
+          "locator": "Topic 2.3 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The voyages were state-sponsored diplomacy and display within older maritime networks.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Polo separates the emperor's duty from freight charges paid to ships.",
+        "Polo specifies imports, not exports.",
+        "The passage describes a duty on imports, not payment in silk.",
+        "Polo says the Great Kaan levied a duty of ten percent on all imported merchandise."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-3-evidence-note",
+      "nearMissIndex": 1,
+      "distinguisher": "Read the detail closely: a duty on imported goods.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: Indian Ocean sailors combined seasonal wind knowledge with ships, sails, instruments, and port-based communities."
+          "id": "polo-zayton",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
+          "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
+          "text": "At this city you must know is the Haven of Zayton, frequented by all the ships of India, which bring thither spicery and all other kinds of costly wares. . . . And I assure you that for one shipload of pepper that goes to Alexandria or elsewhere, destined for Christendom, there come a hundred such, aye and more too, to this haven of Zayton; for it is one of the two greatest havens in the world for commerce.\n\nThe Great Kaan derives a very large revenue from the duties paid in this city and haven; for you must know that on all the merchandize imported, including precious stones and pearls, he levies a duty of ten per cent., or in other words takes tithe of everything."
         }
-      ]
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     },
     {
       "id": "world-2-3-q07",
       "topicId": "world-2-3",
-      "concept": "monsoon-navigation",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "A ship waits several months in a port before returning. What does this most likely show?",
+      "concept": "ports-products",
+      "difficulty": "Challenge",
+      "skill": "sourcing",
+      "prompt": "Why might Polo emphasize the comparison between Zayton and Alexandria?",
       "choices": [
-        "The crew has abandoned maritime trade permanently",
-        "The ship can move only when a ruler orders it",
-        "The crew is timing travel with seasonal winds and using the port for exchange and resupply",
-        "Indian Ocean trade did not depend on environmental knowledge"
+        "His European readers knew Alexandria, so it showed them China's scale",
+        "His European readers knew Alexandria, so he could prove Zayton was smaller",
+        "He was reporting official Yuan statistics that compared the two ports",
+        "He was a Chinese official who wanted to discourage European traders"
       ],
-      "correctAnswer": 2,
-      "explanation": "Waiting is evidence of seasonal planning and the importance of port services.",
+      "correctAnswer": 0,
+      "explanation": "Alexandria was a major port for Europeans buying spices, so the comparison made China's trade vivid to his audience.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-3",
-        "class-indian-ocean"
+        "polo-yule-1903"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
+          "sourceId": "ced-topic-2-3",
+          "locator": "Topic 2.3 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Waiting is evidence of seasonal planning and the importance of port services.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "Alexandria was a major port for Europeans buying spices, so the comparison made China's trade vivid to his audience.",
+        "The audience point is right, but Polo uses Alexandria to show Zayton was much larger.",
+        "Polo gives a striking estimate, not figures from records.",
+        "Polo was a Venetian merchant, not a Chinese official."
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-3-evidence-note",
+      "nearMissIndex": 1,
+      "distinguisher": "Audience shapes comparisons: Polo picks a reference his readers understood.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: Indian Ocean sailors combined seasonal wind knowledge with ships, sails, instruments, and port-based communities."
+          "id": "polo-zayton",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
+          "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
+          "text": "At this city you must know is the Haven of Zayton, frequented by all the ships of India, which bring thither spicery and all other kinds of costly wares. . . . And I assure you that for one shipload of pepper that goes to Alexandria or elsewhere, destined for Christendom, there come a hundred such, aye and more too, to this haven of Zayton; for it is one of the two greatest havens in the world for commerce.\n\nThe Great Kaan derives a very large revenue from the duties paid in this city and haven; for you must know that on all the merchandize imported, including precious stones and pearls, he levies a duty of ten per cent., or in other words takes tithe of everything."
         }
-      ]
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
     },
     {
       "id": "world-2-3-q08",
       "topicId": "world-2-3",
-      "concept": "ports-products",
+      "concept": "monsoon-navigation",
       "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "Why did port cities become economically important?",
+      "skill": "developments",
+      "prompt": "Which technology helped navigators estimate their latitude at sea?",
       "choices": [
-        "They were isolated from all surrounding production",
-        "They produced every good sold in the ocean network",
-        "They made environmental knowledge unnecessary",
-        "They linked routes, offered services, and connected maritime merchants with inland producers"
+        "The stern rudder",
+        "The junk's watertight hull",
+        "The astrolabe",
+        "The lateen sail"
       ],
-      "correctAnswer": 3,
-      "explanation": "Ports functioned as nodes between routes and production zones.",
+      "correctAnswer": 2,
+      "explanation": "The astrolabe measured the height of stars or the sun to estimate latitude.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Ports functioned as nodes between routes and production zones."
+        "The stern rudder improved steering, not position finding.",
+        "Watertight compartments made Chinese junks safer; they did not measure position.",
+        "The astrolabe measured the height of stars or the sun to estimate latitude.",
+        "The lateen sail helped ships sail closer to the wind, not find latitude."
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 3,
+      "distinguisher": "Separate tools for finding position from tools for moving the ship.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-3-q09",
       "topicId": "world-2-3",
-      "concept": "diaspora-communities",
+      "concept": "zheng-he",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Which statement best describes cultural change in a diaspora?",
+      "skill": "developments",
+      "prompt": "What was the main purpose of Zheng He's voyages from 1405 to 1433?",
       "choices": [
-        "Settlers introduced practices while also adopting and reshaping local traditions",
-        "Settlers preserved their culture without any interaction",
-        "Local societies always abandoned their traditions",
-        "Cultural exchange happened only through military conquest"
+        "To spread Buddhism by sending monks to every port they visited",
+        "To display Ming power and found Chinese colonies in East Africa",
+        "To find a sea route to Europe so China could trade with Venice",
+        "To display Ming power, collect tribute, and build diplomatic ties"
       ],
-      "correctAnswer": 0,
-      "explanation": "Diasporas create two-way interaction, adaptation, and hybrid practices.",
+      "correctAnswer": 3,
+      "explanation": "The fleets carried gifts, sought recognition of the Ming emperor, and expanded knowledge of distant regions.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Diasporas create two-way interaction, adaptation, and hybrid practices.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Zheng He was Muslim, and the voyages were diplomatic and commercial, not missionary.",
+        "Displaying power is right, but the voyages did not establish colonies.",
+        "The fleets sailed the Indian Ocean as far as East Africa; reaching Europe was not their goal.",
+        "The fleets carried gifts, sought recognition of the Ming emperor, and expanded knowledge of distant regions."
       ],
       "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-3-evidence-note",
-      "stimulusBlocks": [
-        {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: Indian Ocean sailors combined seasonal wind knowledge with ships, sails, instruments, and port-based communities."
-        }
-      ]
+      "distinguisher": "Tribute and prestige, not conquest or settlement.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     },
     {
       "id": "world-2-3-q10",
       "topicId": "world-2-3",
-      "concept": "states-revenue",
-      "difficulty": "Challenge",
-      "skillTag": "Historical reasoning",
-      "prompt": "Why might a ruler welcome foreign merchants?",
+      "concept": "ports-products",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "The passage provides evidence for which feature of Indian Ocean trade?",
       "choices": [
-        "Merchants made taxation impossible",
-        "Trade could bring customs revenue, wealth, prestige, and connections to distant markets",
-        "Foreign merchants guaranteed political obedience everywhere",
-        "Trade removed the need for a navy or administration"
+        "Piracy was common, so most merchants avoided the Malabar coast",
+        "Rulers of Malabar had banned foreign ships from trading at their ports",
+        "Piracy was a real risk, and merchants armed their ships in response",
+        "Pepper from Malabar went mostly to Europe instead of China"
       ],
-      "correctAnswer": 1,
-      "explanation": "Rulers could benefit from revenue and strategic connections while still managing risks.",
+      "correctAnswer": 2,
+      "explanation": "Polo describes corsair fleets and says merchants now sailed “well manned and armed.”",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-3",
-        "class-indian-ocean"
+        "polo-yule-1903"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
+          "sourceId": "ced-topic-2-3",
+          "locator": "Topic 2.3 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Rulers could benefit from revenue and strategic connections while still managing risks.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Piracy is described, but ships still came “from many quarters,” especially from southern China.",
+        "Polo describes ships arriving from many places to trade.",
+        "Polo describes corsair fleets and says merchants now sailed “well manned and armed.”",
+        "Polo says ships heading west were “not one to ten” of those going east."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 0,
+      "distinguisher": "The passage shows both the risk and the response.",
+      "stimulusBlocks": [
+        {
+          "id": "polo-melibar",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
+          "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
+          "text": "And you must know that from this kingdom of Melibar, and from another near it called Gozurat, there go forth every year more than a hundred corsair vessels on cruize. . . . But now the merchants are aware of this, and go so well manned and armed, and with such great ships, that they don't fear the corsairs. . . .\n\nShips come hither from many quarters, but especially from the great province of Manzi. Coarse spices are exported hence both to Manzi and to the west, and that which is carried by the merchants to Aden goes on to Alexandria, but the ships that go in the latter direction are not one to ten of those that go to the eastward"
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
     },
     {
       "id": "world-2-3-q11",
       "topicId": "world-2-3",
-      "concept": "zheng-he",
+      "concept": "states-revenue",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "What can Zheng He’s voyages best demonstrate?",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Compared with the Zayton passage, this passage shows that",
       "choices": [
-        "Ming China permanently controlled all Indian Ocean trade",
-        "Private merchants had no role in the ocean network",
-        "A state used a preexisting maritime network for diplomacy and prestige",
-        "Indian Ocean exchange began in 1405"
+        "Malabar's rulers taxed foreign trade more heavily than Kublai Khan did",
+        "China was also the largest destination for exports from western India",
+        "both ports traded only with ships from their own regions",
+        "China was the main source of the pepper that India sold to Europe"
       ],
-      "correctAnswer": 2,
-      "explanation": "The voyages show state use of existing routes, not total control or the beginning of trade.",
+      "correctAnswer": 1,
+      "explanation": "Both passages describe more goods heading to China than to Europe, from opposite ends of the route.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-3",
-        "class-indian-ocean"
+        "polo-yule-1903"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
+          "sourceId": "ced-topic-2-3",
+          "locator": "Topic 2.3 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The voyages show state use of existing routes, not total control or the beginning of trade.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "The Malabar passage gives no tax rates to compare.",
+        "Both passages describe more goods heading to China than to Europe, from opposite ends of the route.",
+        "Both passages describe ships arriving from distant regions.",
+        "Pepper grew in Malabar itself. Ships from China brought silk, gold, and other goods to exchange for it."
       ],
       "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-3-evidence-note",
+      "distinguisher": "Look for the pattern the two sources share.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: Indian Ocean sailors combined seasonal wind knowledge with ships, sails, instruments, and port-based communities."
+          "id": "polo-melibar",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
+          "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
+          "text": "And you must know that from this kingdom of Melibar, and from another near it called Gozurat, there go forth every year more than a hundred corsair vessels on cruize. . . . But now the merchants are aware of this, and go so well manned and armed, and with such great ships, that they don't fear the corsairs. . . .\n\nShips come hither from many quarters, but especially from the great province of Manzi. Coarse spices are exported hence both to Manzi and to the west, and that which is carried by the merchants to Aden goes on to Alexandria, but the ships that go in the latter direction are not one to ten of those that go to the eastward"
         }
-      ]
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-3-q12",
       "topicId": "world-2-3",
       "concept": "ports-products",
-      "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "Which development most directly explains the growth of Swahili city-states?",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Which broader development best explains the trade pattern Polo describes?",
       "choices": [
-        "They were inland farming villages with no foreign contact",
-        "They controlled the Silk Roads through Central Asia",
-        "They rejected Islam and all maritime exchange",
-        "Their coastal positions allowed them to connect African products with merchants from Arabia, India, and beyond"
+        "Demand in a growing, commercial China drew goods from across the ocean",
+        "A collapse of Chinese industry forced China to import manufactured goods",
+        "Demand in Europe after the Crusades drew most spices to Venice",
+        "Mongol armies had conquered India and redirected its trade to China"
       ],
-      "correctAnswer": 3,
-      "explanation": "East African coastal cities became nodes between regional production and ocean merchants.",
+      "correctAnswer": 0,
+      "explanation": "China's large, commercial economy created strong demand for spices and other imports.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-3",
-        "class-indian-ocean"
+        "polo-yule-1903"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
+          "sourceId": "ced-topic-2-3",
+          "locator": "Topic 2.3 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "sourceId": "polo-yule-1903",
+          "locator": "vol"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "East African coastal cities became nodes between regional production and ocean merchants."
+        "China's large, commercial economy created strong demand for spices and other imports.",
+        "China exported manufactured goods such as silk and porcelain; it imported spices and raw materials.",
+        "European demand existed, but Polo shows that the eastern market was far larger.",
+        "The Mongols did not conquer southern India; the Delhi Sultanate resisted Mongol invasions in the north."
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 2,
+      "distinguisher": "Context explains why goods flowed east: the size of the Chinese market.",
+      "stimulusBlocks": [
+        {
+          "id": "polo-melibar",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
+          "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
+          "text": "And you must know that from this kingdom of Melibar, and from another near it called Gozurat, there go forth every year more than a hundred corsair vessels on cruize. . . . But now the merchants are aware of this, and go so well manned and armed, and with such great ships, that they don't fear the corsairs. . . .\n\nShips come hither from many quarters, but especially from the great province of Manzi. Coarse spices are exported hence both to Manzi and to the west, and that which is carried by the merchants to Aden goes on to Alexandria, but the ships that go in the latter direction are not one to ten of those that go to the eastward"
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
     },
     {
       "id": "world-2-3-q13",
       "topicId": "world-2-3",
-      "concept": "monsoon-navigation",
+      "concept": "diaspora-communities",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Why is it inaccurate to describe Indian Ocean sailors as relying only on technology?",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "How did Islam spread in many Indian Ocean coastal regions?",
       "choices": [
-        "Navigation required instruments plus learned knowledge of winds, currents, stars, and coastlines",
-        "Technology had no role in maritime travel",
-        "Sailors could not learn environmental patterns",
-        "Ships moved without human decisions"
+        "Through merchants, intermarriage, and teachers who settled in port cities",
+        "Through merchants, but only after rulers ordered everyone to convert",
+        "Through armies of the Abbasid caliphate that conquered the Swahili coast",
+        "Through Zheng He's voyages, which carried Muslim teachers to Africa"
       ],
       "correctAnswer": 0,
-      "explanation": "Tools supported, but did not replace, environmental expertise.",
+      "explanation": "Repeated contact, marriage ties, and teachers in port towns spread Islam gradually and unevenly.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Tools supported, but did not replace, environmental expertise.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Repeated contact, marriage ties, and teachers in port towns spread Islam gradually and unevenly.",
+        "Merchants mattered, but conversion was usually gradual; royal patronage varied by place.",
+        "No caliphal conquest of the Swahili coast occurred; Islam spread through trade networks.",
+        "Islam was established on the Swahili coast centuries before Zheng He sailed."
       ],
       "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "distinguisher": "In coastal regions, Islam spread through contact more than conquest.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     },
     {
       "id": "world-2-3-q14",
       "topicId": "world-2-3",
       "concept": "diaspora-communities",
       "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "How could intermarriage affect Indian Ocean exchange?",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which example shows both change and continuity on the Swahili coast?",
       "choices": [
-        "It ended the use of ports because merchants returned home immediately",
-        "It created family and trust connections that made settlement and commerce more durable",
-        "It prevented local languages from influencing merchants",
-        "It made all coastal communities politically identical"
+        "Merchants from Arabia ruled the coast while banning local African customs",
+        "Many city-states adopted Islam while Bantu-rooted Swahili remained the main language",
+        "Coastal cities ended trade with the interior after adopting Islam",
+        "Many city-states adopted Islam and replaced Swahili with Arabic as the main language"
       ],
       "correctAnswer": 1,
-      "explanation": "Family ties could strengthen social and commercial relationships while leaving local diversity.",
+      "explanation": "Islam brought religious change, while Swahili, a Bantu language with Arabic loanwords, continued.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Family ties could strengthen social and commercial relationships while leaving local diversity.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Swahili city-states had African rulers and blended local and imported customs.",
+        "Islam brought religious change, while Swahili, a Bantu language with Arabic loanwords, continued.",
+        "Trade with the interior, including gold from the south, continued and grew.",
+        "Islam spread, but Swahili remained the main language, absorbing Arabic words rather than being replaced."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-3-evidence-note",
-      "stimulusBlocks": [
-        {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: Indian Ocean sailors combined seasonal wind knowledge with ships, sails, instruments, and port-based communities."
-        }
-      ]
+      "nearMissIndex": 3,
+      "distinguisher": "Continuity and change: name what changed and what persisted.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
     },
     {
       "id": "world-2-3-q15",
       "topicId": "world-2-3",
-      "concept": "states-revenue",
-      "difficulty": "Challenge",
-      "skillTag": "Historical reasoning",
-      "prompt": "Which comparison is most accurate?",
+      "concept": "zheng-he",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which statement best describes the effect of ending Zheng He's voyages after 1433?",
       "choices": [
-        "Both were inland empires that controlled the Sahara",
-        "Both were ruled directly by the Ming emperor",
-        "Malacca gained revenue from a strategic strait, while Swahili cities gained from coastal trade and regional products",
-        "Neither depended on maritime geography"
+        "Malacca collapsed because it depended entirely on the Ming fleet",
+        "State-sponsored voyages stopped, and all Chinese trade with the ocean ended",
+        "State-sponsored voyages stopped, but private Indian Ocean trade continued",
+        "European fleets immediately took control of Indian Ocean trade routes"
       ],
       "correctAnswer": 2,
-      "explanation": "The states shared commercial foundations but occupied different political and geographic settings.",
+      "explanation": "The Ming court ended costly expeditions, but merchants of many regions kept trading.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The states shared commercial foundations but occupied different political and geographic settings.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "Malacca kept thriving as a trading port well after the voyages ended.",
+        "The voyages ended, but Chinese and other merchants continued to trade.",
+        "The Ming court ended costly expeditions, but merchants of many regions kept trading.",
+        "Portuguese ships reached the Indian Ocean only in 1498, decades later."
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 1,
+      "distinguisher": "The state's program was one part of a much larger network.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     },
     {
       "id": "world-2-3-q16",
       "topicId": "world-2-3",
-      "concept": "zheng-he",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Why did later Ming rulers’ decision to reduce the voyages not erase Indian Ocean exchange?",
+      "concept": "states-revenue",
+      "difficulty": "Challenge",
+      "skill": "argumentation",
+      "prompt": "Which evidence would best support the claim that Indian Ocean trade strengthened states?",
       "choices": [
-        "All trade stopped whenever a court voyage ended",
-        "Private merchants had never participated before Zheng He",
-        "The Indian Ocean had no established routes before the Ming",
-        "Older merchants, ports, and regional networks continued outside the state-sponsored expeditions"
+        "Malacca's merchants building mosques and trading with ships from many distant regions",
+        "Monsoon winds reversing direction between summer and winter",
+        "Ibn Battuta describing the food eaten on the island of Mombasa",
+        "Malacca's rulers taxing ships in the strait and protecting traffic with a navy"
       ],
       "correctAnswer": 3,
-      "explanation": "State voyages were one part of a much older and broader system.",
+      "explanation": "Taxes and naval protection link trade directly to state revenue and power.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "State voyages were one part of a much older and broader system."
+        "This shows commercial and cultural vitality, but not how trade strengthened the state.",
+        "This explains how sailing worked, not how states gained power.",
+        "Diet tells us about daily life, not state power.",
+        "Taxes and naval protection link trade directly to state revenue and power."
       ],
       "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "distinguisher": "Evidence must connect to the specific claim: trade producing state power.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
     },
     {
       "id": "world-2-3-q17",
       "topicId": "world-2-3",
       "concept": "ports-products",
-      "difficulty": "Core",
-      "skillTag": "Explaining a development",
-      "prompt": "A historian finds Chinese porcelain in an East African port. What can this evidence support most directly?",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The passage best supports which conclusion about the Swahili coast?",
       "choices": [
-        "The port participated in long-distance Indian Ocean exchange and received goods from distant producers",
-        "China ruled the East African port directly",
-        "Every resident used Chinese culture exclusively",
-        "Porcelain was produced locally in every case"
+        "Coastal towns grew all the grain they needed on their own islands",
+        "Coastal towns had few ties to Islam or to the wider Muslim world",
+        "Coastal towns were linked by trade to gold sources far in the interior",
+        "Coastal towns produced the gold they exported in mines inside the cities"
       ],
-      "correctAnswer": 0,
-      "explanation": "The artifact supports connection and exchange, not political control or total cultural replacement.",
+      "correctAnswer": 2,
+      "explanation": "Ibn Battuta reports that gold dust reached Sufala from a region a month's journey inland.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-3",
-        "class-indian-ocean"
+        "battuta-gibb-1929"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
+          "sourceId": "ced-topic-2-3",
+          "locator": "Topic 2.3 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "sourceId": "battuta-gibb-1929",
+          "locator": "ch"
         }
       ],
       "choiceExplanations": [
-        "The artifact supports connection and exchange, not political control or total cultural replacement.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Mombasa had no cereals and had to import them from the mainland.",
+        "Ibn Battuta describes pious inhabitants and “well-built wooden mosques.”",
+        "Ibn Battuta reports that gold dust reached Sufala from a region a month's journey inland.",
+        "The passage says gold came from the interior, not from the coastal towns themselves."
       ],
-      "nearMissIndex": 1,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-3-evidence-note",
+      "nearMissIndex": 3,
+      "distinguisher": "Follow the gold in the passage: interior to coast.",
       "stimulusBlocks": [
         {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: Indian Ocean sailors combined seasonal wind knowledge with ships, sails, instruments, and port-based communities."
+          "id": "battuta-swahili",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the East African coast, c. 1331",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 4. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 130.",
+          "note": "Bracketed place names are Gibb's. The Sawahil is the Swahili coast; Kulwa is Kilwa; Sufala is Sofala, in present-day Mozambique.",
+          "text": "We came to Mambasa [Mombasa], a large island two days' journey by sea from the Sawahil country. It possesses no territory on the mainland. They have fruit trees on the island, but no cereals, which have to be brought to them from the Sawahil. Their food consists chiefly of bananas and fish. The inhabitants are pious, honourable, and upright, and they have well-built wooden mosques. . . .\n\nI was told by a merchant that the town of Sufala lies a fortnight's journey [south] from Kulwa, and that gold dust is brought to Sufala from Yufi in the country of the Limis, which is a month's journey distant from it. Kulwa is a very fine and substantially built town, and all its buildings are of wood."
         }
-      ]
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
     },
     {
       "id": "world-2-3-q18",
       "topicId": "world-2-3",
-      "concept": "monsoon-navigation",
-      "difficulty": "Apply",
-      "skillTag": "Using evidence",
-      "prompt": "Which factor could make a particular port valuable even if it produced few export goods?",
+      "concept": "diaspora-communities",
+      "difficulty": "Challenge",
+      "skill": "sourcing",
+      "prompt": "How does Ibn Battuta's background most likely shape this description?",
       "choices": [
-        "Its isolation prevented all ships from reaching it",
-        "Its location allowed ships to wait, repair, resupply, and meet merchants during seasonal travel",
-        "It had no relation to wind patterns",
-        "It banned all foreign residents"
+        "As a Chinese envoy, he compared East African towns with Ming ports",
+        "As a Muslim scholar, he ignored trade because commerce did not interest him",
+        "As a Swahili merchant himself, he exaggerated the wealth of his own home city of Kilwa",
+        "As a Muslim scholar, he paid attention to piety and mosques in the towns he visited"
       ],
-      "correctAnswer": 1,
-      "explanation": "Port services and seasonal timing can make a location important even without being a major production center.",
+      "correctAnswer": 3,
+      "explanation": "His judgment that the inhabitants were “pious, honourable, and upright” reflects his religious viewpoint.",
       "sourceIds": [
         "amsco-unit-2",
         "ced-topic-2-3",
-        "class-indian-ocean"
+        "battuta-gibb-1929"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
+          "sourceId": "ced-topic-2-3",
+          "locator": "Topic 2.3 learning objectives and historical developments"
         },
         {
-          "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "sourceId": "battuta-gibb-1929",
+          "locator": "ch"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Port services and seasonal timing can make a location important even without being a major production center.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence."
+        "Ibn Battuta was a Moroccan traveler, not a Chinese envoy, and he wrote before Zheng He sailed.",
+        "He did notice trade: he reports what a merchant told him about gold.",
+        "He was from Morocco, not Kilwa.",
+        "His judgment that the inhabitants were “pious, honourable, and upright” reflects his religious viewpoint."
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 1,
+      "distinguisher": "Point of view affects what a writer notices and praises.",
+      "stimulusBlocks": [
+        {
+          "id": "battuta-swahili",
+          "type": "source",
+          "sourceType": "primary",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the East African coast, c. 1331",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 4. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 130.",
+          "note": "Bracketed place names are Gibb's. The Sawahil is the Swahili coast; Kulwa is Kilwa; Sufala is Sofala, in present-day Mozambique.",
+          "text": "We came to Mambasa [Mombasa], a large island two days' journey by sea from the Sawahil country. It possesses no territory on the mainland. They have fruit trees on the island, but no cereals, which have to be brought to them from the Sawahil. Their food consists chiefly of bananas and fish. The inhabitants are pious, honourable, and upright, and they have well-built wooden mosques. . . .\n\nI was told by a merchant that the town of Sufala lies a fortnight's journey [south] from Kulwa, and that gold dust is brought to Sufala from Yufi in the country of the Limis, which is a month's journey distant from it. Kulwa is a very fine and substantially built town, and all its buildings are of wood."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
     },
     {
       "id": "world-2-3-q19",
       "topicId": "world-2-3",
-      "concept": "diaspora-communities",
-      "difficulty": "Challenge",
-      "skillTag": "Historical reasoning",
-      "prompt": "Which claim about Islam in Indian Ocean societies is most defensible?",
+      "concept": "monsoon-navigation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "How did Indian Ocean trade differ from Silk Roads trade in what it could carry?",
       "choices": [
-        "Islam spread only through military conquest by one empire",
-        "Every coastal community converted at the same moment",
-        "Merchants, intermarriage, teachers, and rulers helped spread Islam unevenly alongside existing traditions",
-        "Islam had no relationship to trade or migration"
+        "Ships could carry heavier, bulkier cargo than overland caravans",
+        "Ships could carry heavier cargo, so luxury goods disappeared from sea trade",
+        "Caravans carried more cargo, because ships could sail only in summer",
+        "Both carried only luxury goods, because transport costs were identical"
       ],
-      "correctAnswer": 2,
-      "explanation": "Several mechanisms worked together, and adoption varied by region and community.",
+      "correctAnswer": 0,
+      "explanation": "Sea transport moved larger loads, including bulkier goods such as cotton cloth, timber, and grain.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Several mechanisms worked together, and adoption varied by region and community.",
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism."
+        "Sea transport moved larger loads, including bulkier goods such as cotton cloth, timber, and grain.",
+        "Bulk cargo grew, but luxury goods such as spices and porcelain remained central.",
+        "Ships sailed in both monsoon seasons and carried more than caravans.",
+        "Costs differed; sea transport was usually cheaper per unit of weight."
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt.",
-      "stimulusId": "world-2-3-evidence-note",
-      "stimulusBlocks": [
-        {
-          "type": "callout",
-          "title": "Original evidence note",
-          "text": "Original Page One evidence note: Indian Ocean sailors combined seasonal wind knowledge with ships, sails, instruments, and port-based communities."
-        }
-      ]
+      "nearMissIndex": 1,
+      "distinguisher": "Compare capacity, then check whether the claim overstates.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
     },
     {
       "id": "world-2-3-q20",
       "topicId": "world-2-3",
-      "concept": "states-revenue",
+      "concept": "zheng-he",
       "difficulty": "Challenge",
-      "skillTag": "Historical reasoning",
-      "prompt": "Which thesis best explains the relationship between trade and states in the Indian Ocean?",
+      "skill": "argumentation",
+      "prompt": "Which thesis best answers: “Evaluate the significance of Zheng He's voyages for Indian Ocean trade”?",
       "choices": [
-        "Trade always weakened states by making borders irrelevant",
-        "States had no role because merchants controlled every port",
-        "States created the ocean winds that made travel possible",
-        "Trade helped states gain revenue and power, while state protection and port policy shaped where trade could flourish"
+        "They mattered more than any other factor because China then controlled every port",
+        "They showed Ming power within an existing network, but trade did not depend on them",
+        "They had no significance, because the Ming dynasty ended them after a few years",
+        "They created Indian Ocean trade, which had not connected China and Africa before"
       ],
-      "correctAnswer": 3,
-      "explanation": "The relationship was reciprocal: commerce supported authority and authority influenced commerce.",
+      "correctAnswer": 1,
+      "explanation": "This thesis makes an evaluative claim and qualifies it by placing the voyages in a larger network.",
       "sourceIds": [
         "amsco-unit-2",
-        "ced-topic-2-3",
-        "class-indian-ocean"
+        "ced-topic-2-3"
       ],
       "sourceLocators": [
         {
-          "sourceId": "amsco-unit-2",
-          "locator": "Unit 2 Topic 3 supplied PDF page range"
-        },
-        {
           "sourceId": "ced-topic-2-3",
-          "locator": "CED Topic 3 framework"
+          "locator": "Topic 2.3 learning objectives and historical developments"
         }
       ],
       "choiceExplanations": [
-        "Close but incomplete: this choice names a related idea but does not answer the specific question or mechanism.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "Not the best answer for this question: it is either outside the stated period, too broad, or mismatched to the evidence.",
-        "The relationship was reciprocal: commerce supported authority and authority influenced commerce."
+        "The voyages displayed power but did not establish control over ports.",
+        "This thesis makes an evaluative claim and qualifies it by placing the voyages in a larger network.",
+        "The voyages lasted nearly three decades and had real diplomatic effects; dismissing them overstates the case.",
+        "Indian Ocean trade linked these regions for centuries before 1405."
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "The best answer directly matches the place, period, and historical mechanism named in the prompt."
+      "nearMissIndex": 3,
+      "distinguisher": "“Evaluate significance” asks for a weighed claim, not an extreme one.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
     }
   ],
   "quizzes": [
