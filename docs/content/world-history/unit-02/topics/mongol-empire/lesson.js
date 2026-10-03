@@ -25,7 +25,7 @@ export const lesson = {
       id: "state-building",
       title: "Building power from the steppe",
       conceptTitle: "Building power from the steppe",
-      lenses: [],
+      lenses: ["P", "T"],
       blocks: [
         {
           type: "paragraph",
@@ -58,7 +58,7 @@ export const lesson = {
       id: "khanates-rule",
       title: "One empire, several khanates",
       conceptTitle: "One empire, several khanates",
-      lenses: [],
+      lenses: ["P"],
       blocks: [
         {
           type: "paragraph",
@@ -91,7 +91,7 @@ export const lesson = {
       id: "trade-communication",
       title: "The conditions of exchange",
       conceptTitle: "The conditions of exchange",
-      lenses: [],
+      lenses: ["P", "E"],
       blocks: [
         {
           type: "paragraph",
@@ -124,7 +124,7 @@ export const lesson = {
       id: "cultural-transfer",
       title: "Ideas moved with people",
       conceptTitle: "Ideas moved with people",
-      lenses: [],
+      lenses: ["C", "T"],
       blocks: [
         {
           type: "paragraph",
@@ -157,7 +157,7 @@ export const lesson = {
       id: "costs-continuities",
       title: "Conquest and connection together",
       conceptTitle: "Conquest and connection together",
-      lenses: [],
+      lenses: ["P", "In"],
       blocks: [
         {
           type: "paragraph",
@@ -191,7 +191,7 @@ export const lesson = {
     objectives: "B, C, D",
     readingLabel:
       "AMSCO Unit 2, Topic 2.2; use the supplied class reading alongside these original notes",
-    lenses: [],
+    lenses: ["In", "P", "E", "C", "T"],
     prompts: [
       {
         id: "world-2-2-reading-01",

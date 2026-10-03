@@ -25,7 +25,7 @@ export const lesson = {
       id: "desert-logistics",
       title: "Crossing an arid environment",
       conceptTitle: "Crossing an arid environment",
-      lenses: [],
+      lenses: ["In", "T"],
       blocks: [
         {
           type: "paragraph",
@@ -58,7 +58,7 @@ export const lesson = {
       id: "goods-intermediaries",
       title: "Gold, salt, and intermediaries",
       conceptTitle: "Gold, salt, and intermediaries",
-      lenses: [],
+      lenses: ["E", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -91,7 +91,7 @@ export const lesson = {
       id: "mali-state-trade",
       title: "Mali and the political economy of trade",
       conceptTitle: "Mali and the political economy of trade",
-      lenses: [],
+      lenses: ["P", "E"],
       blocks: [
         {
           type: "paragraph",
@@ -124,7 +124,7 @@ export const lesson = {
       id: "musa-learning",
       title: "Mansa Musa, pilgrimage, and patronage",
       conceptTitle: "Mansa Musa, pilgrimage, and patronage",
-      lenses: [],
+      lenses: ["C", "P"],
       blocks: [
         {
           type: "paragraph",
@@ -157,7 +157,7 @@ export const lesson = {
       id: "accounts-local-life",
       title: "Reading traveler accounts",
       conceptTitle: "Reading traveler accounts",
-      lenses: [],
+      lenses: ["C", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -191,7 +191,7 @@ export const lesson = {
     objectives: "H, I",
     readingLabel:
       "AMSCO Unit 2, Topic 2.4; use the supplied class reading alongside these original notes",
-    lenses: [],
+    lenses: ["In", "S", "P", "E", "C", "T"],
     prompts: [
       {
         id: "world-2-4-reading-01",

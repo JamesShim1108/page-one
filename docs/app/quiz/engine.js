@@ -621,6 +621,7 @@ export function createQuizEngine(bank, options = {}) {
 
   function summarize(attempt) {
     const tags = {};
+    const skills = {};
     let correct = 0;
     let answered = 0;
     for (const id of attemptIds(attempt)) {
@@ -635,6 +636,28 @@ export function createQuizEngine(bank, options = {}) {
       tags[key] ??= { correct: 0, total: 0 };
       tags[key].total += 1;
       tags[key].correct += Number(hit);
+      if (question.skill) {
+        skills[question.skill] ??= {
+          id: question.skill,
+          code: question.skillCode || "",
+          label: question.skillLabel || question.skill,
+          correct: 0,
+          total: 0,
+          reasoning: {},
+        };
+        const skill = skills[question.skill];
+        skill.total += 1;
+        skill.correct += Number(hit);
+        if (question.reasoning) {
+          skill.reasoning[question.reasoning] ??= {
+            label: question.reasoningLabel || question.reasoning,
+            correct: 0,
+            total: 0,
+          };
+          skill.reasoning[question.reasoning].total += 1;
+          skill.reasoning[question.reasoning].correct += Number(hit);
+        }
+      }
     }
     const strong = Object.keys(tags).filter(
       (key) => tags[key].correct / tags[key].total >= 0.75,
@@ -651,6 +674,12 @@ export function createQuizEngine(bank, options = {}) {
       tags,
       strong,
       weak,
+      skills: Object.values(skills).sort(
+        (left, right) =>
+          String(left.code).localeCompare(String(right.code), undefined, {
+            numeric: true,
+          }) || left.label.localeCompare(right.label),
+      ),
     };
   }
 

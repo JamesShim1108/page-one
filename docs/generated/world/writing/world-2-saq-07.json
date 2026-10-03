@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -431,124 +431,114 @@
   },
   "quiz": {
     "id": "world-2-saq-07",
-    "version": 1,
+    "version": 2,
     "courseId": "world",
     "unitId": "world-2",
     "title": "Unit 2 SAQ 07",
-    "headline": "Comparison",
-    "promptTitle": "Original AP-style Unit 2 source practice",
-    "prompt": "Compare the Silk Roads and Indian Ocean networks in one similarity and one difference in transport, goods, or state involvement.",
-    "instructions": "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    "note": "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
+    "headline": "Comparing land and sea networks",
+    "promptTitle": "Short-answer question without a source",
+    "prompt": "Answer all parts of the question. Use evidence from the period c. 1200 to c. 1450.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
     "scaffold": [
       {
         "label": "Answer",
-        "text": "Respond directly to the verb in the question."
+        "text": "Respond directly to the task verb: identify, describe, or explain."
       },
       {
         "label": "Prove",
-        "text": "Use one specific historical example or detail from the source context."
+        "text": "Name a specific person, place, institution, or development."
       },
       {
         "label": "Explain",
-        "text": "Connect the evidence to the historical claim."
+        "text": "Show how or why the evidence answers the question."
       }
     ],
     "parts": [
       {
         "id": "a",
-        "lenses": [],
-        "prompt": "Explain the central historical relationship in the prompt.",
+        "lenses": [
+          "C"
+        ],
+        "prompt": "Identify ONE similarity between the Silk Roads and Indian Ocean trade networks in the period 1200–1450.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a feature shared by both networks.",
+          "Supports it with evidence from each network."
         ],
         "model": {
-          "answer": "Explain the central historical relationship in the prompt. A strong response would connect the source context to comparing networks.",
-          "prove": "For example, the source context points to comparing networks and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Both networks spread religions along with goods.",
+          "prove": "Islam and Buddhism traveled the Silk Roads into Central Asia and China, while Islam spread by sea to Swahili and Southeast Asian ports.",
+          "explain": "In both networks, merchants and teachers who traveled for trade carried beliefs that local communities adopted and adapted."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Both carrying luxury goods such as silk and spices, or both depending on trading cities as service nodes, also earns the point.",
         "review": [
           {
             "topicId": "world-2-7",
-            "sectionId": "comparison-framework",
-            "label": "Comparing networks"
+            "sectionId": "shared-causes",
+            "label": "Shared causes and effects"
           }
         ]
       },
       {
         "id": "b",
-        "lenses": [],
-        "prompt": "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        "lenses": [
+          "E",
+          "T"
+        ],
+        "prompt": "Explain ONE difference between the two networks in transport or goods.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "States a specific difference with evidence from both networks.",
+          "Explains the consequence of that difference for trade."
         ],
         "model": {
-          "answer": "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to comparing networks.",
-          "prove": "For example, the source context points to comparing networks and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Indian Ocean ships could carry bulkier, cheaper goods than Silk Roads caravans.",
+          "prove": "Ships moved cargoes such as cotton cloth, timber, and grain, while caravans of camels and horses concentrated on light, valuable goods such as silk.",
+          "explain": "Because sea transport carried more for its cost, the Indian Ocean could support trade in everyday goods as well as luxuries."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "A difference in the environmental knowledge each required, monsoon winds versus oases and mountain passes, can also work.",
         "review": [
           {
             "topicId": "world-2-7",
-            "sectionId": "comparison-framework",
-            "label": "Comparing networks"
+            "sectionId": "route-differences",
+            "label": "Geography changes the route"
           }
         ]
       },
       {
         "id": "c",
-        "lenses": [],
-        "prompt": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        "lenses": [
+          "In"
+        ],
+        "prompt": "Explain ONE reason for the difference you described in part B.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Gives a specific cause for the difference.",
+          "Explains how the cause produced it."
         ],
         "model": {
-          "answer": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to comparing networks.",
-          "prove": "For example, the source context points to comparing networks and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Geography made sea transport cheaper per unit of cargo than overland transport.",
+          "prove": "A single ship using the monsoon winds could carry far more than a caravan, which needed animals, fodder, water, and payments at each oasis.",
+          "explain": "Lower costs per load meant that goods of modest value could still be traded profitably by sea but not across deserts and mountains."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "If part B compared environmental knowledge, a reason can explain how wind patterns and desert water sources created different planning needs.",
         "review": [
           {
             "topicId": "world-2-7",
-            "sectionId": "comparison-framework",
-            "label": "Comparing networks"
+            "sectionId": "route-differences",
+            "label": "Geography changes the route"
           }
         ]
       }
     ],
     "sourceIds": [
-      "amsco-unit-2",
       "ced-topic-2-7",
-      "ced"
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Supplied AMSCO Unit 2 Topic 7 pages"
-      },
-      {
         "sourceId": "ced-topic-2-7",
-        "locator": "Official CED Topic 7"
+        "locator": "Topic 2.7 learning objectives"
       }
-    ],
-    "sourceContext": {
-      "label": "Original source context",
-      "text": "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      "sourceIds": [
-        "amsco-unit-2",
-        "ced-topic-2-7",
-        "ced"
-      ]
-    },
-    "exerciseType": "saq"
+    ]
   }
 }

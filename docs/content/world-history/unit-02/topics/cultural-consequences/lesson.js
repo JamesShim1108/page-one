@@ -25,7 +25,7 @@ export const lesson = {
       id: "beliefs-adaptation",
       title: "Beliefs moved and changed",
       conceptTitle: "Beliefs moved and changed",
-      lenses: [],
+      lenses: ["C"],
       blocks: [
         {
           type: "paragraph",
@@ -58,7 +58,7 @@ export const lesson = {
       id: "knowledge-technology",
       title: "Knowledge traveled through people",
       conceptTitle: "Knowledge traveled through people",
-      lenses: [],
+      lenses: ["T", "C"],
       blocks: [
         {
           type: "paragraph",
@@ -91,7 +91,7 @@ export const lesson = {
       id: "cities-culture",
       title: "Cities as cultural meeting places",
       conceptTitle: "Cities as cultural meeting places",
-      lenses: [],
+      lenses: ["C", "E"],
       blocks: [
         {
           type: "paragraph",
@@ -124,7 +124,7 @@ export const lesson = {
       id: "travelers-sourcing",
       title: "Travelers are evidence with viewpoints",
       conceptTitle: "Travelers are evidence with viewpoints",
-      lenses: [],
+      lenses: ["C", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -157,7 +157,7 @@ export const lesson = {
       id: "diffusion-not-uniformity",
       title: "Connected does not mean identical",
       conceptTitle: "Connected does not mean identical",
-      lenses: [],
+      lenses: ["C", "P"],
       blocks: [
         {
           type: "paragraph",
@@ -191,7 +191,7 @@ export const lesson = {
     objectives: "J",
     readingLabel:
       "AMSCO Unit 2, Topic 2.5; use the supplied class reading alongside these original notes",
-    lenses: [],
+    lenses: ["S", "P", "E", "C", "T"],
     prompts: [
       {
         id: "world-2-5-reading-01",

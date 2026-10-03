@@ -242,4 +242,25 @@ export const sources = [
     url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
     note: "Topic framework: comparison of exchange networks.",
   },
+  {
+    id: "polo-yule-1903",
+    label:
+      "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903)",
+    url: "https://www.gutenberg.org/ebooks/10636",
+    note: "Public domain. Volume 1 is Project Gutenberg #10636 and volume 2 is #12410. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "battuta-gibb-1929",
+    label:
+      "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929)",
+    url: "https://archive.org/details/travelsinasiaafr0000ibnb",
+    note: "Public domain in the United States. Excerpts are checked against the Internet Archive scan's full text; diacritics are omitted.",
+  },
+  {
+    id: "boccaccio-payne-1886",
+    label:
+      "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886)",
+    url: "https://www.gutenberg.org/ebooks/23700",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
 ];

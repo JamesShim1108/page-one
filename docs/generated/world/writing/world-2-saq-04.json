@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -431,124 +431,137 @@
   },
   "quiz": {
     "id": "world-2-saq-04",
-    "version": 1,
+    "version": 2,
     "courseId": "world",
     "unitId": "world-2",
     "title": "Unit 2 SAQ 04",
-    "headline": "Mali and trade",
-    "promptTitle": "Original AP-style Unit 2 source practice",
-    "prompt": "A traveler describes a wealthy West African city connected to salt, gold, scholarship, and Muslim merchants. Explain one way trade influenced state power or culture.",
-    "instructions": "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    "note": "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
+    "headline": "Ibn Battuta in Mali",
+    "promptTitle": "Primary-source short-answer question",
+    "prompt": "Use the passage below to answer all parts of the question.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
+    "stimulusBlocks": [
+      {
+        "id": "battuta-mali",
+        "type": "source",
+        "sourceType": "primary",
+        "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
+        "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
+        "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
+        "edits": [
+          {
+            "shown": "[The people of Mali]",
+            "original": "The negroes"
+          }
+        ],
+        "text": "[The people of Mali] possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. Their sultan shows no mercy to anyone who is guilty of the least act of it. There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. They do not confiscate the property of any white man who dies in their country, even if it be uncounted wealth. On the contrary, they give it into the charge of some trustworthy person among the whites, until the rightful heir takes possession of it. They are careful to observe the hours of prayer, and assiduous in attending them in congregations, and in bringing up their children to them. . . .\n\nYet another is their zeal for learning the Koran by heart. . . . Among their bad qualities are the following. . . . Then there is their custom of putting dust and ashes on their heads, as a mark of respect, and the grotesque ceremonies we have described when the poets recite their verses."
+      }
+    ],
     "scaffold": [
       {
         "label": "Answer",
-        "text": "Respond directly to the verb in the question."
+        "text": "Respond directly to the task verb: identify, describe, or explain."
       },
       {
         "label": "Prove",
-        "text": "Use one specific historical example or detail from the source context."
+        "text": "Name a specific person, place, institution, or development."
       },
       {
         "label": "Explain",
-        "text": "Connect the evidence to the historical claim."
+        "text": "Show how or why the evidence answers the question."
       }
     ],
     "parts": [
       {
         "id": "a",
-        "lenses": [],
-        "prompt": "Explain the central historical relationship in the prompt.",
+        "lenses": [
+          "C"
+        ],
+        "prompt": "Identify ONE piece of evidence from the passage that shows Mali's connection to the wider Islamic world.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Points to a specific detail in the passage.",
+          "Connects the detail to Islamic practice or learning shared beyond West Africa."
         ],
         "model": {
-          "answer": "Explain the central historical relationship in the prompt. A strong response would connect the source context to mali and trans-saharan exchange.",
-          "prove": "For example, the source context points to mali and trans-saharan exchange and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "The passage shows that Islamic religious practice was widespread in Mali.",
+          "prove": "Ibn Battuta says Malians were “careful to observe the hours of prayer” and showed “zeal for learning the Koran by heart.”",
+          "explain": "Regular prayer and Quranic study linked Mali's towns to the religion and scholarship of North Africa and the Middle East."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "The protection of foreign merchants' property, held for a “rightful heir,” can also work if linked to ties with North African and Arab merchants.",
         "review": [
           {
             "topicId": "world-2-4",
-            "sectionId": "desert-logistics",
-            "label": "Mali and trans-Saharan exchange"
+            "sectionId": "musa-learning",
+            "label": "Mansa Musa and learning"
           }
         ]
       },
       {
         "id": "b",
-        "lenses": [],
-        "prompt": "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        "lenses": [
+          "E",
+          "P"
+        ],
+        "prompt": "Explain ONE way trans-Saharan trade contributed to the conditions Ibn Battuta describes.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Uses specific evidence about trans-Saharan trade.",
+          "Explains how it produced security, wealth, or Islamic practice in Mali."
         ],
         "model": {
-          "answer": "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to mali and trans-saharan exchange.",
-          "prove": "For example, the source context points to mali and trans-saharan exchange and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Trade gave Mali's rulers the wealth to keep order and brought Muslim merchants and scholars into the empire.",
+          "prove": "Caravans carried gold north and salt south across the Sahara; Mali's rulers taxed this trade, and Mansa Musa used his wealth to support mosques and scholars in Timbuktu.",
+          "explain": "Trade revenue supported the authority behind the “complete security” Ibn Battuta praises, while merchants and scholars spread the Islamic practice he describes."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Answers can also explain that rulers protected merchants because trade revenue depended on safe routes.",
         "review": [
           {
             "topicId": "world-2-4",
-            "sectionId": "desert-logistics",
-            "label": "Mali and trans-Saharan exchange"
+            "sectionId": "mali-state-trade",
+            "label": "Mali and the political economy of trade"
           }
         ]
       },
       {
         "id": "c",
-        "lenses": [],
-        "prompt": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        "lenses": [
+          "C",
+          "S"
+        ],
+        "prompt": "Explain ONE way Ibn Battuta's background affected his description of Mali.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Identifies a specific aspect of his background, purpose, or audience.",
+          "Explains how it shaped what he praised, criticized, or noticed."
         ],
         "model": {
-          "answer": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to mali and trans-saharan exchange.",
-          "prove": "For example, the source context points to mali and trans-saharan exchange and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "As a Muslim legal scholar from Morocco, Ibn Battuta judged Mali by the standards of his own Islamic society.",
+          "prove": "He praises prayer and Quranic study but lists as “bad qualities” court customs such as putting dust on one's head as a sign of respect.",
+          "explain": "Both his praise and his criticism follow North African Islamic norms, so the passage shows what a visiting scholar valued as well as what Malians did."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Answers can also note that he saw mainly towns and the court, or that he dictated his account after returning to Morocco for Muslim readers there.",
         "review": [
           {
             "topicId": "world-2-4",
-            "sectionId": "desert-logistics",
-            "label": "Mali and trans-Saharan exchange"
+            "sectionId": "accounts-local-life",
+            "label": "Reading traveler accounts"
           }
         ]
       }
     ],
     "sourceIds": [
-      "amsco-unit-2",
+      "battuta-gibb-1929",
       "ced-topic-2-4",
-      "class-trans-saharan"
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Supplied AMSCO Unit 2 Topic 4 pages"
+        "sourceId": "battuta-gibb-1929",
+        "locator": "ch. 14, Mali; scan pp. 351–352"
       },
       {
         "sourceId": "ced-topic-2-4",
-        "locator": "Official CED Topic 4"
+        "locator": "Topic 2.4 learning objectives"
       }
-    ],
-    "sourceContext": {
-      "label": "Original source context",
-      "text": "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      "sourceIds": [
-        "amsco-unit-2",
-        "ced-topic-2-4",
-        "class-trans-saharan"
-      ]
-    },
-    "exerciseType": "saq"
+    ]
   }
 }

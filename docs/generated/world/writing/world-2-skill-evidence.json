@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -436,34 +436,33 @@
     "unitId": "world-2",
     "title": "Unit 2 skill drill: Turn an accurate example into support for an argument through explicit explanation.",
     "headline": "Turn an accurate example into support for an argument through explicit explanation.",
-    "promptTitle": "Original Page One Unit 2 writing practice",
+    "promptTitle": "Skill drill: evidence",
     "prompt": "Use one example from Unit 2 and explain how it supports a claim about state power and exchange.",
-    "instructions": "Write a short response, reveal the worked feedback, and revise. This checklist is practice and does not produce an official AP score.",
-    "note": "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    "instructions": "Write a short response, then open the worked example and compare. This checklist is practice and does not produce an official AP score.",
+    "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
     "exerciseType": "skill",
     "sourceIds": [
-      "amsco-unit-2",
-      "ced-topic-2-4",
-      "class-trans-saharan"
+      "ced-topic-2-3",
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Unit 2 supplied reading / verified classroom locator"
+        "sourceId": "ced-topic-2-3",
+        "locator": "Topic 2.3 learning objectives"
       }
     ],
     "responseFields": [
       {
         "id": "response",
         "label": "Your response",
-        "prompt": "Write your revised response and explain the reasoning.",
+        "prompt": "State a claim, give one example, and explain how the example supports the claim.",
         "required": true,
         "rows": 8,
         "review": [
           {
-            "topicId": "world-2-4",
-            "sectionId": "mali-state-trade",
-            "label": "Review the lesson"
+            "topicId": "world-2-3",
+            "sectionId": "states-revenue",
+            "label": "Trade could build states"
           }
         ]
       }
@@ -473,34 +472,34 @@
         "id": "checklist",
         "label": "Skill checklist",
         "points": 1,
-        "guidance": "The response completes the named skill and explains why the move improves the argument."
+        "guidance": "The response uses a specific example and explains the mechanism that connects it to the claim."
       }
     ],
-    "modelResponse": "Worked feedback: the response should make the evidence move visible, use a specific Unit 2 example, and explain why that move strengthens the argument.",
-    "alternateModel": "Another answer can work when it performs the same skill with a different accurate example.",
+    "modelResponse": "Worked example: “Claim: Trade could strengthen states that controlled key routes. Evidence: In the 1400s Malacca taxed ships passing through the Strait of Malacca and protected them with a navy. Explanation: Because ships moving between the Indian Ocean and the South China Sea had to pass the strait, Malacca's rulers could collect steady customs revenue, which paid for the navy and court that made the city a regional power.”\n\nWhy it works: the explanation names the mechanism, a passage that ships could not avoid, instead of just saying Malacca was rich.",
+    "alternateModel": "Mali's taxation of gold and salt, or the Yuan import duty at Quanzhou described by Marco Polo, can support the same claim with a different mechanism.",
     "commonErrors": [
-      "Repeating the prompt without making a claim.",
-      "Naming a fact without connecting it to the argument.",
-      "Treating one observer or region as representative of everyone."
+      "Naming an example without explaining it.",
+      "Explaining the example but never connecting it to the claim.",
+      "Using an example from the wrong period."
     ],
     "scaffold": [
       {
-        "label": "Draft",
-        "text": "Write the first version."
+        "label": "Claim",
+        "text": "State what you are arguing."
       },
       {
-        "label": "Check",
-        "text": "Use the checklist to locate the reasoning move."
+        "label": "Evidence",
+        "text": "Give one specific example."
       },
       {
-        "label": "Revise",
-        "text": "Make the claim, evidence, or sourcing explanation explicit."
+        "label": "Explain",
+        "text": "Show the mechanism that links the example to the claim."
       }
     ],
     "checklist": [
-      "Names the requested reasoning move.",
-      "Uses a specific and accurate Unit 2 example.",
-      "Explains why the move supports the argument."
+      "States a clear claim.",
+      "Uses a specific, accurate example from Unit 2.",
+      "Explains how or why the example supports the claim."
     ]
   }
 }

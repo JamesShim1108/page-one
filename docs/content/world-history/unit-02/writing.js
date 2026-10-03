@@ -1,913 +1,784 @@
+// Unit 2 writing practice. SAQs follow the AP mix of primary-source,
+// secondary-source, and no-stimulus questions. The DBQ uses verified
+// public-domain excerpts from ../excerpts.js. Increment `version` when a
+// prompt or its fields change enough to invalidate saved drafts.
+import { excerpts } from "../excerpts.js";
+
+const saqInstructions =
+  "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.";
+
+const saqNote =
+  "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.";
+
+const saqScaffold = [
+  {
+    label: "Answer",
+    text: "Respond directly to the task verb: identify, describe, or explain.",
+  },
+  { label: "Prove", text: "Name a specific person, place, institution, or development." },
+  { label: "Explain", text: "Show how or why the evidence answers the question." },
+];
+
+const essayNote =
+  "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.";
+
+const leqRubric = [
+  {
+    id: "thesis",
+    label: "Thesis",
+    points: 1,
+    guidance:
+      "Responds to the prompt with a historically defensible thesis or claim that establishes a line of reasoning.",
+  },
+  {
+    id: "context",
+    label: "Contextualization",
+    points: 1,
+    guidance:
+      "Describes a broader historical context relevant to the prompt: developments before, during, or continuing after the period.",
+  },
+  {
+    id: "evidence",
+    label: "Evidence",
+    points: 2,
+    guidance:
+      "1 point: provides at least two specific historical examples relevant to the prompt. 2 points: uses specific and relevant examples to support an argument in response to the prompt.",
+  },
+  {
+    id: "analysis",
+    label: "Analysis and reasoning",
+    points: 2,
+    guidance:
+      "1 point: uses comparison, causation, or continuity and change to frame or structure the argument. 2 points: demonstrates a complex understanding, for example by explaining multiple causes, weighing similarities and differences, or using evidence to qualify or modify the argument.",
+  },
+];
+
+const leqScaffold = [
+  { label: "Claim", text: "Answer the prompt and preview your line of reasoning." },
+  {
+    label: "Context",
+    text: "Describe a broader development before or during the period.",
+  },
+  {
+    label: "Evidence",
+    text: "Use at least two specific examples, and explain each one.",
+  },
+  {
+    label: "Reasoning",
+    text: "Structure the essay around the reasoning process and qualify your claim.",
+  },
+];
+
+const leqInstructions =
+  "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed Unit 2 practice in AP long-essay format, not a full exam simulation.";
+
 export const writingQuizzes = [
   {
     id: "world-2-saq-01",
-    version: 1,
+    version: 2,
     courseId: "world",
     unitId: "world-2",
     title: "Unit 2 SAQ 01",
-    headline: "Commercial institutions",
-    promptTitle: "Original AP-style Unit 2 source practice",
-    prompt:
-      "A merchant using an oasis route can deposit payment in one city and collect it in another. Explain how this kind of commercial practice could increase exchange after 1200.",
-    instructions:
-      "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    note: "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
-    scaffold: [
-      {
-        label: "Answer",
-        text: "Respond directly to the verb in the question.",
-      },
-      {
-        label: "Prove",
-        text: "Use one specific historical example or detail from the source context.",
-      },
-      {
-        label: "Explain",
-        text: "Connect the evidence to the historical claim.",
-      },
-    ],
+    headline: "Paper money and the Yuan state",
+    promptTitle: "Primary-source short-answer question",
+    prompt: "Use the passage below to answer all parts of the question.",
+    instructions: saqInstructions,
+    note: saqNote,
+    exerciseType: "saq",
+    stimulusBlocks: [excerpts.poloPaperMoney],
+    scaffold: saqScaffold,
     parts: [
       {
         id: "a",
-        lenses: [],
-        prompt: "Explain the central historical relationship in the prompt.",
+        lenses: ["P", "E"],
+        prompt:
+          "Identify ONE way the Yuan government described in the passage controlled commerce.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a specific policy described in the passage.",
+          "Connects the policy to government control of trade, not just to trade in general.",
         ],
         model: {
           answer:
-            "Explain the central historical relationship in the prompt. A strong response would connect the source context to the silk roads and credit.",
+            "The Yuan government forced everyone in the empire to accept its paper money.",
           prove:
-            "For example, the source context points to the silk roads and credit and the Unit 2 reading explains its historical mechanism.",
+            "Polo writes that nobody “dares to refuse them on pain of death,” and that merchants bringing gold, silver, gems, or pearls could sell them only to the emperor.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Both rules made the state the authority over how people paid and who could buy the most valuable goods, so commerce flowed through the emperor's currency and court.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "The rule that precious goods could be sold only to the emperor also earns the point. A general statement such as “the government supported trade” does not identify how it controlled commerce.",
         review: [
           {
-            topicId: "world-2-1",
-            sectionId: "network-geography",
-            label: "The Silk Roads and credit",
+            topicId: "world-2-2",
+            sectionId: "trade-communication",
+            label: "Mongol trade policy",
           },
         ],
       },
       {
         id: "b",
-        lenses: [],
+        lenses: ["E", "T"],
         prompt:
-          "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+          "Explain ONE way that commercial practices such as the one described in the passage made long-distance trade easier in the period 1200–1450.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a specific commercial practice of the period.",
+          "Explains how it reduced a cost, risk, or difficulty of long-distance trade.",
         ],
         model: {
           answer:
-            "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to the silk roads and credit.",
+            "Paper money and credit let merchants move value without carrying large amounts of heavy coin.",
           prove:
-            "For example, the source context points to the silk roads and credit and the Unit 2 reading explains its historical mechanism.",
+            "Polo notes that paper money was “vastly lighter to carry,” and earlier Chinese merchants had used flying cash to deposit money in one city and collect it in another; bills of exchange served a similar purpose for Muslim and Italian merchants.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Lighter and safer ways to pay lowered the risk of theft and the cost of transport, so long journeys became more profitable for more merchants.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Bills of exchange, banking houses, or caravanserai that supported repeated travel can also work if the answer explains how they made long-distance trade easier.",
         review: [
           {
             topicId: "world-2-1",
-            sectionId: "network-geography",
-            label: "The Silk Roads and credit",
+            sectionId: "commercial-practices",
+            label: "Commercial practices",
           },
         ],
       },
       {
         id: "c",
-        lenses: [],
+        lenses: ["C"],
         prompt:
-          "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+          "Explain ONE way Marco Polo's point of view or purpose might affect the reliability of his description of Yuan paper money.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Identifies a specific feature of Polo's point of view, purpose, audience, or situation.",
+          "Explains how that feature could make the description more or less reliable.",
         ],
         model: {
           answer:
-            "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to the silk roads and credit.",
+            "Polo was writing to amaze European readers, so he may have made the system sound more successful than it was.",
           prove:
-            "For example, the source context points to the silk roads and credit and the Unit 2 reading explains its historical mechanism.",
+            "He describes notes accepted everywhere without complaint, yet in 1287 Kublai Khan issued a new currency, each note worth five of the old ones, which suggests the earlier notes had lost much of their value.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "A merchant writing for readers who had never seen paper money had reasons to stress its marvels and leave out its problems, so historians should check his account against Chinese records.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Answers can also explain that Polo saw the system as a foreigner close to the court and merchants, or that he dictated the book years after leaving China, relying on memory.",
         review: [
           {
-            topicId: "world-2-1",
-            sectionId: "network-geography",
-            label: "The Silk Roads and credit",
+            topicId: "world-2-5",
+            sectionId: "travelers-sourcing",
+            label: "Travelers as evidence",
           },
         ],
       },
     ],
-    sourceIds: ["amsco-unit-2", "ced-topic-2-1", "class-tang-song-mongols"],
+    sourceIds: ["polo-yule-1903", "ced-topic-2-1", "ced-topic-2-2", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Supplied AMSCO Unit 2 Topic 1 pages",
-      },
-      {
-        sourceId: "ced-topic-2-1",
-        locator: "Official CED Topic 1",
-      },
+      { sourceId: "polo-yule-1903", locator: "vol. 1, Book II, ch. 24 and note 1" },
+      { sourceId: "ced-topic-2-1", locator: "Topic 2.1 learning objectives" },
     ],
-    sourceContext: {
-      label: "Original source context",
-      text: "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      sourceIds: ["amsco-unit-2", "ced-topic-2-1", "class-tang-song-mongols"],
-    },
-    exerciseType: "saq",
   },
   {
     id: "world-2-saq-02",
-    version: 1,
+    version: 2,
     courseId: "world",
     unitId: "world-2",
     title: "Unit 2 SAQ 02",
-    headline: "Mongol rule",
-    promptTitle: "Original AP-style Unit 2 source practice",
-    prompt:
-      "A historian describes Mongol protection of some roads while also recording destruction during conquest. Explain how the two observations can both be historically accurate.",
-    instructions:
-      "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    note: "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
-    scaffold: [
-      {
-        label: "Answer",
-        text: "Respond directly to the verb in the question.",
-      },
-      {
-        label: "Prove",
-        text: "Use one specific historical example or detail from the source context.",
-      },
-      {
-        label: "Explain",
-        text: "Connect the evidence to the historical claim.",
-      },
-    ],
+    headline: "Interpreting the Mongol Empire",
+    promptTitle: "Secondary-source short-answer question",
+    prompt: "Use the passage below to answer all parts of the question.",
+    instructions: saqInstructions,
+    note: saqNote,
+    exerciseType: "saq",
+    stimulusBlocks: [excerpts.originalMongolInterpretation],
+    scaffold: saqScaffold,
     parts: [
       {
         id: "a",
-        lenses: [],
-        prompt: "Explain the central historical relationship in the prompt.",
+        lenses: ["P"],
+        prompt: "Identify ONE claim the author makes about the Mongol Empire.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "States a claim the passage actually makes.",
+          "Uses the passage's reasoning, not only a detail it mentions.",
         ],
         model: {
           answer:
-            "Explain the central historical relationship in the prompt. A strong response would connect the source context to mongol conquest and exchange.",
+            "The author claims that the Mongol Empire both destroyed cities and made Eurasia more connected.",
           prove:
-            "For example, the source context points to mongol conquest and exchange and the Unit 2 reading explains its historical mechanism.",
+            "The passage cites massacres such as Baghdad in 1258 alongside relay stations, protection for merchants, and experts moving between courts.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "The author argues that these are “not opposites” and that a convincing account must “hold both together,” rejecting views of the Mongols as only destroyers or only builders.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Identifying the narrower claim that recent historians stress Mongol connectivity, or that Mongol security rested on violence, also earns the point.",
         review: [
           {
             topicId: "world-2-2",
-            sectionId: "state-building",
-            label: "Mongol conquest and exchange",
+            sectionId: "costs-continuities",
+            label: "Conquest and connection",
           },
         ],
       },
       {
         id: "b",
-        lenses: [],
+        lenses: ["C", "P"],
         prompt:
-          "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+          "Provide ONE piece of historical evidence, not mentioned in the passage, that supports the claim that Mongol rule increased connections across Eurasia.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Uses specific evidence that the passage does not already mention.",
+          "Explains how the evidence shows increased connection.",
         ],
         model: {
           answer:
-            "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to mongol conquest and exchange.",
+            "Mongol rule made it possible for envoys to travel across all of Eurasia.",
           prove:
-            "For example, the source context points to mongol conquest and exchange and the Unit 2 reading explains its historical mechanism.",
+            "Rabban Sauma, a Christian monk from Yuan China, traveled west and in 1287–1288 served as an envoy of the Ilkhan of Persia to Constantinople, Rome, and Paris.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "A traveler from China reaching European courts as a Mongol envoy shows how linked Mongol states opened routes for diplomacy as well as trade.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Marco Polo's journey to Kublai Khan's court, Ibn Battuta's travel to Yuan China, or the Ilkhanate's attempt to introduce Chinese-style paper money in 1294 can also work. Relay stations and moving artisans are already in the passage.",
         review: [
           {
             topicId: "world-2-2",
-            sectionId: "state-building",
-            label: "Mongol conquest and exchange",
+            sectionId: "cultural-transfer",
+            label: "Ideas moved with people",
           },
         ],
       },
       {
         id: "c",
-        lenses: [],
+        lenses: ["P"],
         prompt:
-          "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+          "Provide ONE piece of historical evidence, not mentioned in the passage, that complicates the claim that Mongol rule made travel across Eurasia more secure.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Uses specific evidence that the passage does not already mention.",
+          "Explains how the evidence limits or complicates the claim about security.",
         ],
         model: {
           answer:
-            "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to mongol conquest and exchange.",
+            "Wars among Mongol rulers could close the very routes the empire protected.",
           prove:
-            "For example, the source context points to mongol conquest and exchange and the Unit 2 reading explains its historical mechanism.",
+            "After the empire divided, the Golden Horde and the Ilkhanate fought each other from the 1260s, and Kaidu waged long wars against Kublai Khan in Central Asia.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Security depended on cooperation among rival khanates, so the protection merchants enjoyed varied by time and region rather than covering all of Eurasia.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "The collapse of Mongol authority in the mid-1300s, which made overland routes more dangerous, or the spread of plague along Mongol-linked routes, can also complicate the claim if clearly explained.",
         review: [
           {
             topicId: "world-2-2",
-            sectionId: "state-building",
-            label: "Mongol conquest and exchange",
+            sectionId: "khanates-rule",
+            label: "One empire, several khanates",
           },
         ],
       },
     ],
-    sourceIds: ["amsco-unit-2", "ced-topic-2-2", "class-tang-song-mongols"],
+    sourceIds: ["ced-topic-2-2", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Supplied AMSCO Unit 2 Topic 2 pages",
-      },
-      {
-        sourceId: "ced-topic-2-2",
-        locator: "Official CED Topic 2",
-      },
+      { sourceId: "ced-topic-2-2", locator: "Topic 2.2 learning objectives" },
     ],
-    sourceContext: {
-      label: "Original source context",
-      text: "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      sourceIds: ["amsco-unit-2", "ced-topic-2-2", "class-tang-song-mongols"],
-    },
-    exerciseType: "saq",
   },
   {
     id: "world-2-saq-03",
-    version: 1,
+    version: 2,
     courseId: "world",
     unitId: "world-2",
     title: "Unit 2 SAQ 03",
-    headline: "Indian Ocean environment",
-    promptTitle: "Original AP-style Unit 2 source practice",
+    headline: "Indian Ocean exchange",
+    promptTitle: "Short-answer question without a source",
     prompt:
-      "A ship remains in a port until seasonal winds reverse. Explain how environmental knowledge shaped both trade and port communities.",
-    instructions:
-      "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    note: "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
-    scaffold: [
-      {
-        label: "Answer",
-        text: "Respond directly to the verb in the question.",
-      },
-      {
-        label: "Prove",
-        text: "Use one specific historical example or detail from the source context.",
-      },
-      {
-        label: "Explain",
-        text: "Connect the evidence to the historical claim.",
-      },
-    ],
+      "Answer all parts of the question. Use evidence from the period c. 1200 to c. 1450.",
+    instructions: saqInstructions,
+    note: saqNote,
+    exerciseType: "saq",
+    scaffold: saqScaffold,
     parts: [
       {
         id: "a",
-        lenses: [],
-        prompt: "Explain the central historical relationship in the prompt.",
+        lenses: ["In", "T"],
+        prompt:
+          "Describe ONE way environmental knowledge shaped trade in the Indian Ocean.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names specific environmental knowledge.",
+          "Describes its effect on how trade was carried out.",
         ],
         model: {
           answer:
-            "Explain the central historical relationship in the prompt. A strong response would connect the source context to monsoon knowledge.",
+            "Knowledge of the monsoon winds set the schedule of Indian Ocean trade.",
           prove:
-            "For example, the source context points to monsoon knowledge and the Unit 2 reading explains its historical mechanism.",
+            "Because the winds blow from the southwest in summer and from the northeast in winter, ships sailed out on one monsoon and returned on the other.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Sailors who understood the pattern could plan predictable round trips, which made regular long-distance trade possible.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Navigational knowledge of stars and coastlines, used with the astrolabe and compass, can also work.",
         review: [
           {
             topicId: "world-2-3",
             sectionId: "monsoon-navigation",
-            label: "Monsoon knowledge",
+            label: "Reading the ocean's seasons",
           },
         ],
       },
       {
         id: "b",
-        lenses: [],
-        prompt:
-          "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        lenses: ["S", "C"],
+        prompt: "Explain ONE way merchant diasporas affected Indian Ocean port cities.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a specific diaspora community or port.",
+          "Explains a cultural, social, or economic effect on the city.",
         ],
         model: {
-          answer:
-            "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to monsoon knowledge.",
+          answer: "Merchant diasporas brought Islam and new customs into port cities.",
           prove:
-            "For example, the source context points to monsoon knowledge and the Unit 2 reading explains its historical mechanism.",
+            "Arab and Persian merchants settled in Swahili cities such as Kilwa and married into local families, and Swahili developed as a Bantu language with many Arabic loanwords.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Because merchants stayed for months or settled permanently while waiting for the winds, cultural exchange became part of everyday life in the ports rather than a brief contact.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Chinese merchant communities in Southeast Asia, or Muslim communities in Calicut and Quanzhou that built mosques and appointed judges, can also work.",
         review: [
           {
             topicId: "world-2-3",
-            sectionId: "monsoon-navigation",
-            label: "Monsoon knowledge",
+            sectionId: "diaspora-communities",
+            label: "Communities across the water",
           },
         ],
       },
       {
         id: "c",
-        lenses: [],
-        prompt:
-          "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        lenses: ["P", "E"],
+        prompt: "Explain ONE way a state used Indian Ocean trade to increase its power.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a specific state.",
+          "Explains how trade added to that state's revenue, prestige, or control.",
         ],
         model: {
           answer:
-            "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to monsoon knowledge.",
+            "Malacca used its control of a strategic strait to become a powerful sultanate.",
           prove:
-            "For example, the source context points to monsoon knowledge and the Unit 2 reading explains its historical mechanism.",
+            "In the 1400s Malacca's rulers taxed ships passing between the Indian Ocean and the South China Sea and used naval forces to protect traffic.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Customs revenue from a passage that ships could not easily avoid paid for the navy and court that made Malacca a regional power.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Swahili city-states taxing trade in gold and ivory, or the Ming using Zheng He's voyages to gain tribute and prestige, can also work.",
         review: [
           {
             topicId: "world-2-3",
-            sectionId: "monsoon-navigation",
-            label: "Monsoon knowledge",
+            sectionId: "states-revenue",
+            label: "Trade could build states",
           },
         ],
       },
     ],
-    sourceIds: ["amsco-unit-2", "ced-topic-2-3", "class-indian-ocean"],
+    sourceIds: ["ced-topic-2-3", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Supplied AMSCO Unit 2 Topic 3 pages",
-      },
-      {
-        sourceId: "ced-topic-2-3",
-        locator: "Official CED Topic 3",
-      },
+      { sourceId: "ced-topic-2-3", locator: "Topic 2.3 learning objectives" },
     ],
-    sourceContext: {
-      label: "Original source context",
-      text: "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      sourceIds: ["amsco-unit-2", "ced-topic-2-3", "class-indian-ocean"],
-    },
-    exerciseType: "saq",
   },
   {
     id: "world-2-saq-04",
-    version: 1,
+    version: 2,
     courseId: "world",
     unitId: "world-2",
     title: "Unit 2 SAQ 04",
-    headline: "Mali and trade",
-    promptTitle: "Original AP-style Unit 2 source practice",
-    prompt:
-      "A traveler describes a wealthy West African city connected to salt, gold, scholarship, and Muslim merchants. Explain one way trade influenced state power or culture.",
-    instructions:
-      "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    note: "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
-    scaffold: [
-      {
-        label: "Answer",
-        text: "Respond directly to the verb in the question.",
-      },
-      {
-        label: "Prove",
-        text: "Use one specific historical example or detail from the source context.",
-      },
-      {
-        label: "Explain",
-        text: "Connect the evidence to the historical claim.",
-      },
-    ],
+    headline: "Ibn Battuta in Mali",
+    promptTitle: "Primary-source short-answer question",
+    prompt: "Use the passage below to answer all parts of the question.",
+    instructions: saqInstructions,
+    note: saqNote,
+    exerciseType: "saq",
+    stimulusBlocks: [excerpts.battutaMali],
+    scaffold: saqScaffold,
     parts: [
       {
         id: "a",
-        lenses: [],
-        prompt: "Explain the central historical relationship in the prompt.",
+        lenses: ["C"],
+        prompt:
+          "Identify ONE piece of evidence from the passage that shows Mali's connection to the wider Islamic world.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Points to a specific detail in the passage.",
+          "Connects the detail to Islamic practice or learning shared beyond West Africa.",
         ],
         model: {
           answer:
-            "Explain the central historical relationship in the prompt. A strong response would connect the source context to mali and trans-saharan exchange.",
+            "The passage shows that Islamic religious practice was widespread in Mali.",
           prove:
-            "For example, the source context points to mali and trans-saharan exchange and the Unit 2 reading explains its historical mechanism.",
+            "Ibn Battuta says Malians were “careful to observe the hours of prayer” and showed “zeal for learning the Koran by heart.”",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Regular prayer and Quranic study linked Mali's towns to the religion and scholarship of North Africa and the Middle East.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "The protection of foreign merchants' property, held for a “rightful heir,” can also work if linked to ties with North African and Arab merchants.",
         review: [
           {
             topicId: "world-2-4",
-            sectionId: "desert-logistics",
-            label: "Mali and trans-Saharan exchange",
+            sectionId: "musa-learning",
+            label: "Mansa Musa and learning",
           },
         ],
       },
       {
         id: "b",
-        lenses: [],
+        lenses: ["E", "P"],
         prompt:
-          "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+          "Explain ONE way trans-Saharan trade contributed to the conditions Ibn Battuta describes.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Uses specific evidence about trans-Saharan trade.",
+          "Explains how it produced security, wealth, or Islamic practice in Mali.",
         ],
         model: {
           answer:
-            "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to mali and trans-saharan exchange.",
+            "Trade gave Mali's rulers the wealth to keep order and brought Muslim merchants and scholars into the empire.",
           prove:
-            "For example, the source context points to mali and trans-saharan exchange and the Unit 2 reading explains its historical mechanism.",
+            "Caravans carried gold north and salt south across the Sahara; Mali's rulers taxed this trade, and Mansa Musa used his wealth to support mosques and scholars in Timbuktu.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Trade revenue supported the authority behind the “complete security” Ibn Battuta praises, while merchants and scholars spread the Islamic practice he describes.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Answers can also explain that rulers protected merchants because trade revenue depended on safe routes.",
         review: [
           {
             topicId: "world-2-4",
-            sectionId: "desert-logistics",
-            label: "Mali and trans-Saharan exchange",
+            sectionId: "mali-state-trade",
+            label: "Mali and the political economy of trade",
           },
         ],
       },
       {
         id: "c",
-        lenses: [],
+        lenses: ["C", "S"],
         prompt:
-          "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+          "Explain ONE way Ibn Battuta's background affected his description of Mali.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Identifies a specific aspect of his background, purpose, or audience.",
+          "Explains how it shaped what he praised, criticized, or noticed.",
         ],
         model: {
           answer:
-            "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to mali and trans-saharan exchange.",
+            "As a Muslim legal scholar from Morocco, Ibn Battuta judged Mali by the standards of his own Islamic society.",
           prove:
-            "For example, the source context points to mali and trans-saharan exchange and the Unit 2 reading explains its historical mechanism.",
+            "He praises prayer and Quranic study but lists as “bad qualities” court customs such as putting dust on one's head as a sign of respect.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Both his praise and his criticism follow North African Islamic norms, so the passage shows what a visiting scholar valued as well as what Malians did.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Answers can also note that he saw mainly towns and the court, or that he dictated his account after returning to Morocco for Muslim readers there.",
         review: [
           {
             topicId: "world-2-4",
-            sectionId: "desert-logistics",
-            label: "Mali and trans-Saharan exchange",
+            sectionId: "accounts-local-life",
+            label: "Reading traveler accounts",
           },
         ],
       },
     ],
-    sourceIds: ["amsco-unit-2", "ced-topic-2-4", "class-trans-saharan"],
+    sourceIds: ["battuta-gibb-1929", "ced-topic-2-4", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Supplied AMSCO Unit 2 Topic 4 pages",
-      },
-      {
-        sourceId: "ced-topic-2-4",
-        locator: "Official CED Topic 4",
-      },
+      { sourceId: "battuta-gibb-1929", locator: "ch. 14, Mali; scan pp. 351–352" },
+      { sourceId: "ced-topic-2-4", locator: "Topic 2.4 learning objectives" },
     ],
-    sourceContext: {
-      label: "Original source context",
-      text: "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      sourceIds: ["amsco-unit-2", "ced-topic-2-4", "class-trans-saharan"],
-    },
-    exerciseType: "saq",
   },
   {
     id: "world-2-saq-05",
-    version: 1,
+    version: 2,
     courseId: "world",
     unitId: "world-2",
     title: "Unit 2 SAQ 05",
-    headline: "Travelers as sources",
-    promptTitle: "Original AP-style Unit 2 source practice",
-    prompt:
-      "A merchant and a pilgrim describe the same broad region but emphasize different features. Explain how point of view or purpose affects what each account can show.",
-    instructions:
-      "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    note: "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
-    scaffold: [
-      {
-        label: "Answer",
-        text: "Respond directly to the verb in the question.",
-      },
-      {
-        label: "Prove",
-        text: "Use one specific historical example or detail from the source context.",
-      },
-      {
-        label: "Explain",
-        text: "Connect the evidence to the historical claim.",
-      },
-    ],
+    headline: "Two travelers in Quanzhou",
+    promptTitle: "Paired primary-source short-answer question",
+    prompt: "Use the two passages below to answer all parts of the question.",
+    instructions: saqInstructions,
+    note: saqNote,
+    exerciseType: "saq",
+    stimulusBlocks: [excerpts.poloZayton, excerpts.battutaZaytun],
+    scaffold: saqScaffold,
     parts: [
       {
         id: "a",
-        lenses: [],
-        prompt: "Explain the central historical relationship in the prompt.",
+        lenses: ["E"],
+        prompt:
+          "Identify ONE similarity in how the two passages portray Quanzhou (Zayton).",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a feature both passages share.",
+          "Supports it with a detail from each passage.",
         ],
         model: {
           answer:
-            "Explain the central historical relationship in the prompt. A strong response would connect the source context to traveler sourcing.",
+            "Both passages portray Quanzhou as a port connected to distant regions.",
           prove:
-            "For example, the source context points to traveler sourcing and the Unit 2 reading explains its historical mechanism.",
+            "Polo says the ships of India brought spices there, and Ibn Battuta meets a merchant from Tabriz whom he had borrowed from in India.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Both show a city tied into Indian Ocean trade that reached far beyond China.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Noting that both describe wealthy merchants, or that both show foreigners doing business in the city, also works with support from each passage.",
         review: [
           {
-            topicId: "world-2-5",
-            sectionId: "beliefs-adaptation",
-            label: "Traveler sourcing",
+            topicId: "world-2-3",
+            sectionId: "ports-products",
+            label: "Specialized goods and ports",
           },
         ],
       },
       {
         id: "b",
-        lenses: [],
+        lenses: ["C"],
         prompt:
-          "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+          "Explain ONE way the authors' different backgrounds shaped what each passage emphasizes.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Identifies a relevant feature of each author's background or purpose.",
+          "Connects each to a specific emphasis in that author's passage.",
         ],
         model: {
           answer:
-            "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to traveler sourcing.",
+            "Polo, a Venetian merchant, emphasizes trade volume and revenue, while Ibn Battuta, a Muslim scholar, emphasizes the Muslim community and its religious life.",
           prove:
-            "For example, the source context points to traveler sourcing and the Unit 2 reading explains its historical mechanism.",
+            "Polo compares pepper shipments with those to Alexandria and reports the emperor's ten percent duty; Ibn Battuta names the qadi and the shaykh al-Islam and notes a merchant who recited the Koran.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Each writer noticed what his own experience and readers valued, so together the passages give a fuller picture of the port than either does alone.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Answers can also explain audience: Polo wrote for Christian Europeans who knew Alexandria, while Ibn Battuta wrote for Muslim readers in Morocco.",
         review: [
           {
             topicId: "world-2-5",
-            sectionId: "beliefs-adaptation",
-            label: "Traveler sourcing",
+            sectionId: "travelers-sourcing",
+            label: "Travelers are evidence with viewpoints",
           },
         ],
       },
       {
         id: "c",
-        lenses: [],
+        lenses: ["E", "S"],
         prompt:
-          "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+          "Explain ONE way these passages reflect broader patterns of exchange in the period 1200–1450.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a broader pattern beyond Quanzhou.",
+          "Uses specific evidence from another place or development.",
         ],
         model: {
           answer:
-            "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to traveler sourcing.",
+            "The passages show how merchant diasporas made long-distance trade work.",
           prove:
-            "For example, the source context points to traveler sourcing and the Unit 2 reading explains its historical mechanism.",
+            "Muslim merchants had lived in Chinese ports since the Tang dynasty, and similar communities existed in Calicut, Kilwa, and Malacca.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Shared religion, family ties, and credit, like the loan Ibn Battuta mentions, built the trust that let merchants trade across thousands of miles.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Answers can also connect Polo's account of import duties to other states that taxed trade, such as Malacca or Mali.",
         review: [
           {
-            topicId: "world-2-5",
-            sectionId: "beliefs-adaptation",
-            label: "Traveler sourcing",
+            topicId: "world-2-3",
+            sectionId: "diaspora-communities",
+            label: "Communities across the water",
           },
         ],
       },
     ],
-    sourceIds: ["amsco-unit-2", "ced-topic-2-5", "amsco-unit-1"],
+    sourceIds: ["polo-yule-1903", "battuta-gibb-1929", "ced-topic-2-3", "ced-topic-2-5"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Supplied AMSCO Unit 2 Topic 5 pages",
-      },
-      {
-        sourceId: "ced-topic-2-5",
-        locator: "Official CED Topic 5",
-      },
+      { sourceId: "polo-yule-1903", locator: "vol. 2, Book II, ch. 82" },
+      { sourceId: "battuta-gibb-1929", locator: "ch. 12, Zaytun; scan p. 310" },
     ],
-    sourceContext: {
-      label: "Original source context",
-      text: "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      sourceIds: ["amsco-unit-2", "ced-topic-2-5", "amsco-unit-1"],
-    },
-    exerciseType: "saq",
   },
   {
     id: "world-2-saq-06",
-    version: 1,
+    version: 2,
     courseId: "world",
     unitId: "world-2",
     title: "Unit 2 SAQ 06",
-    headline: "Environmental consequences",
-    promptTitle: "Original AP-style Unit 2 source practice",
-    prompt:
-      "A crop spreads through exchange while a pathogen follows connected routes. Explain why connectivity can produce both beneficial and harmful environmental consequences.",
-    instructions:
-      "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    note: "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
-    scaffold: [
-      {
-        label: "Answer",
-        text: "Respond directly to the verb in the question.",
-      },
-      {
-        label: "Prove",
-        text: "Use one specific historical example or detail from the source context.",
-      },
-      {
-        label: "Explain",
-        text: "Connect the evidence to the historical claim.",
-      },
-    ],
+    headline: "The plague and its consequences",
+    promptTitle: "Primary-source short-answer question",
+    prompt: "Use the passage below to answer all parts of the question.",
+    instructions: saqInstructions,
+    note: saqNote,
+    exerciseType: "saq",
+    stimulusBlocks: [excerpts.boccaccioSociety],
+    scaffold: saqScaffold,
     parts: [
       {
         id: "a",
-        lenses: [],
-        prompt: "Explain the central historical relationship in the prompt.",
+        lenses: ["S"],
+        prompt: "Identify ONE social effect of the plague described in the passage.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a social effect the passage describes.",
+          "Supports it with a detail from the passage.",
         ],
         model: {
-          answer:
-            "Explain the central historical relationship in the prompt. A strong response would connect the source context to crop and disease diffusion.",
+          answer: "The plague left many sick people without care.",
           prove:
-            "For example, the source context points to crop and disease diffusion and the Unit 2 reading explains its historical mechanism.",
+            "Boccaccio says the sick had no help except “the charity of friends (and of these there were few)” or servants drawn by “high and extravagant wage.”",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Fear of contagion weakened ordinary obligations of care within families and communities.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Farmers dying “without succour of physician or aid of servitor” also earns the point.",
         review: [
           {
             topicId: "world-2-6",
-            sectionId: "crop-movement",
-            label: "Crop and disease diffusion",
+            sectionId: "demographic-economic",
+            label: "Demographic shocks changed labor",
           },
         ],
       },
       {
         id: "b",
-        lenses: [],
+        lenses: ["E", "S"],
         prompt:
-          "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+          "Explain ONE economic effect of the plague in Afro-Eurasia in the period c. 1340 to c. 1450.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a specific economic effect in a specific region.",
+          "Explains the mechanism linking population loss to that effect.",
         ],
         model: {
-          answer:
-            "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to crop and disease diffusion.",
+          answer: "In parts of western Europe, the plague raised the value of labor.",
           prove:
-            "For example, the source context points to crop and disease diffusion and the Unit 2 reading explains its historical mechanism.",
+            "With so many workers dead, survivors demanded higher wages, and England's government responded with the Statute of Labourers in 1351 to hold wages at earlier levels.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "A sudden labor shortage gave workers bargaining power, which elites tried to limit through law, helping lead to conflicts such as the English Peasants' Revolt of 1381.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Falling farm production and tax revenue in Mamluk Egypt, or the abandonment of villages in parts of Europe, can also work.",
         review: [
           {
             topicId: "world-2-6",
-            sectionId: "crop-movement",
-            label: "Crop and disease diffusion",
+            sectionId: "demographic-economic",
+            label: "Demographic shocks changed labor",
           },
         ],
       },
       {
         id: "c",
-        lenses: [],
-        prompt:
-          "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        lenses: ["In", "E"],
+        prompt: "Explain ONE way trade networks contributed to the spread of the plague.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a specific route, port, or form of transport.",
+          "Explains how movement along it spread the disease.",
         ],
         model: {
           answer:
-            "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to crop and disease diffusion.",
+            "Ships and caravans carried infected rats and fleas along trade routes.",
           prove:
-            "For example, the source context points to crop and disease diffusion and the Unit 2 reading explains its historical mechanism.",
+            "The plague reached the Black Sea port of Caffa by 1346, and Genoese ships brought it from the Black Sea to Sicily and Italy in 1347.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Busy routes linking Mongol-ruled Asia to Mediterranean ports let the disease travel thousands of miles within a few years.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Answers can also explain how caravan routes or the movement of armies spread the disease overland.",
         review: [
           {
             topicId: "world-2-6",
-            sectionId: "crop-movement",
-            label: "Crop and disease diffusion",
+            sectionId: "pathogen-networks",
+            label: "Pathogens moved with mobility",
           },
         ],
       },
     ],
-    sourceIds: ["amsco-unit-2", "ced-topic-2-6", "amsco-unit-1"],
+    sourceIds: ["boccaccio-payne-1886", "ced-topic-2-6", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Supplied AMSCO Unit 2 Topic 6 pages",
-      },
-      {
-        sourceId: "ced-topic-2-6",
-        locator: "Official CED Topic 6",
-      },
+      { sourceId: "boccaccio-payne-1886", locator: "First Day, introduction" },
+      { sourceId: "ced-topic-2-6", locator: "Topic 2.6 learning objectives" },
     ],
-    sourceContext: {
-      label: "Original source context",
-      text: "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      sourceIds: ["amsco-unit-2", "ced-topic-2-6", "amsco-unit-1"],
-    },
-    exerciseType: "saq",
   },
   {
     id: "world-2-saq-07",
-    version: 1,
+    version: 2,
     courseId: "world",
     unitId: "world-2",
     title: "Unit 2 SAQ 07",
-    headline: "Comparison",
-    promptTitle: "Original AP-style Unit 2 source practice",
+    headline: "Comparing land and sea networks",
+    promptTitle: "Short-answer question without a source",
     prompt:
-      "Compare the Silk Roads and Indian Ocean networks in one similarity and one difference in transport, goods, or state involvement.",
-    instructions:
-      "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    note: "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
-    scaffold: [
-      {
-        label: "Answer",
-        text: "Respond directly to the verb in the question.",
-      },
-      {
-        label: "Prove",
-        text: "Use one specific historical example or detail from the source context.",
-      },
-      {
-        label: "Explain",
-        text: "Connect the evidence to the historical claim.",
-      },
-    ],
+      "Answer all parts of the question. Use evidence from the period c. 1200 to c. 1450.",
+    instructions: saqInstructions,
+    note: saqNote,
+    exerciseType: "saq",
+    scaffold: saqScaffold,
     parts: [
       {
         id: "a",
-        lenses: [],
-        prompt: "Explain the central historical relationship in the prompt.",
+        lenses: ["C"],
+        prompt:
+          "Identify ONE similarity between the Silk Roads and Indian Ocean trade networks in the period 1200–1450.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Names a feature shared by both networks.",
+          "Supports it with evidence from each network.",
         ],
         model: {
-          answer:
-            "Explain the central historical relationship in the prompt. A strong response would connect the source context to comparing networks.",
+          answer: "Both networks spread religions along with goods.",
           prove:
-            "For example, the source context points to comparing networks and the Unit 2 reading explains its historical mechanism.",
+            "Islam and Buddhism traveled the Silk Roads into Central Asia and China, while Islam spread by sea to Swahili and Southeast Asian ports.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "In both networks, merchants and teachers who traveled for trade carried beliefs that local communities adopted and adapted.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "Both carrying luxury goods such as silk and spices, or both depending on trading cities as service nodes, also earns the point.",
         review: [
           {
             topicId: "world-2-7",
-            sectionId: "comparison-framework",
-            label: "Comparing networks",
+            sectionId: "shared-causes",
+            label: "Shared causes and effects",
           },
         ],
       },
       {
         id: "b",
-        lenses: [],
-        prompt:
-          "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        lenses: ["E", "T"],
+        prompt: "Explain ONE difference between the two networks in transport or goods.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "States a specific difference with evidence from both networks.",
+          "Explains the consequence of that difference for trade.",
         ],
         model: {
           answer:
-            "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to comparing networks.",
+            "Indian Ocean ships could carry bulkier, cheaper goods than Silk Roads caravans.",
           prove:
-            "For example, the source context points to comparing networks and the Unit 2 reading explains its historical mechanism.",
+            "Ships moved cargoes such as cotton cloth, timber, and grain, while caravans of camels and horses concentrated on light, valuable goods such as silk.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Because sea transport carried more for its cost, the Indian Ocean could support trade in everyday goods as well as luxuries.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "A difference in the environmental knowledge each required, monsoon winds versus oases and mountain passes, can also work.",
         review: [
           {
             topicId: "world-2-7",
-            sectionId: "comparison-framework",
-            label: "Comparing networks",
+            sectionId: "route-differences",
+            label: "Geography changes the route",
           },
         ],
       },
       {
         id: "c",
-        lenses: [],
-        prompt:
-          "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        lenses: ["In"],
+        prompt: "Explain ONE reason for the difference you described in part B.",
         criteria: [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim.",
+          "Gives a specific cause for the difference.",
+          "Explains how the cause produced it.",
         ],
         model: {
           answer:
-            "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to comparing networks.",
+            "Geography made sea transport cheaper per unit of cargo than overland transport.",
           prove:
-            "For example, the source context points to comparing networks and the Unit 2 reading explains its historical mechanism.",
+            "A single ship using the monsoon winds could carry far more than a caravan, which needed animals, fodder, water, and payments at each oasis.",
           explain:
-            "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact.",
+            "Lower costs per load meant that goods of modest value could still be traded profitably by sea but not across deserts and mountains.",
         },
         alternatives:
-          "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+          "If part B compared environmental knowledge, a reason can explain how wind patterns and desert water sources created different planning needs.",
         review: [
           {
             topicId: "world-2-7",
-            sectionId: "comparison-framework",
-            label: "Comparing networks",
+            sectionId: "route-differences",
+            label: "Geography changes the route",
           },
         ],
       },
     ],
-    sourceIds: ["amsco-unit-2", "ced-topic-2-7", "ced"],
+    sourceIds: ["ced-topic-2-7", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Supplied AMSCO Unit 2 Topic 7 pages",
-      },
-      {
-        sourceId: "ced-topic-2-7",
-        locator: "Official CED Topic 7",
-      },
+      { sourceId: "ced-topic-2-7", locator: "Topic 2.7 learning objectives" },
     ],
-    sourceContext: {
-      label: "Original source context",
-      text: "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      sourceIds: ["amsco-unit-2", "ced-topic-2-7", "ced"],
-    },
-    exerciseType: "saq",
   },
   {
     id: "world-2-leq-comparison",
@@ -916,19 +787,15 @@ export const writingQuizzes = [
     unitId: "world-2",
     title: "Unit 2 LEQ: Comparing networks",
     headline: "Comparing networks",
-    promptTitle: "Original Page One Unit 2 writing practice",
+    promptTitle: "Long essay question",
     prompt:
       "Evaluate the similarities and differences in how two networks of exchange shaped economic and cultural life from 1200 to 1450.",
-    instructions:
-      "Plan a defensible argument, then write one organized essay. This is a narrower Unit 2 practice task, not a full exam simulation.",
-    note: "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    instructions: leqInstructions,
+    note: essayNote,
     exerciseType: "leq",
-    sourceIds: ["amsco-unit-2", "ced-topic-2-7"],
+    sourceIds: ["ced-topic-2-7", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Unit 2 supplied reading / verified classroom locator",
-      },
+      { sourceId: "ced-topic-2-7", locator: "Topic 2.7 learning objectives" },
     ],
     responseFields: [
       {
@@ -942,7 +809,7 @@ export const writingQuizzes = [
           {
             topicId: "world-2-7",
             sectionId: "comparison-framework",
-            label: "Review the relevant lesson",
+            label: "How to compare historically",
           },
         ],
       },
@@ -958,68 +825,40 @@ export const writingQuizzes = [
           {
             topicId: "world-2-7",
             sectionId: "arguing-with-evidence",
-            label: "Review evidence-based comparison",
+            label: "From comparison to argument",
           },
         ],
       },
     ],
-    rubric: [
-      {
-        id: "thesis",
-        label: "Thesis",
-        points: 1,
-        guidance:
-          "Makes a defensible claim that answers the prompt and establishes a line of reasoning.",
-      },
-      {
-        id: "context",
-        label: "Contextualization",
-        points: 1,
-        guidance:
-          "Explains a broader development that is relevant to the prompt and occurs before, during, or across the period.",
-      },
-      {
-        id: "evidence",
-        label: "Evidence",
-        points: 2,
-        guidance:
-          "Uses specific evidence to support the argument; two points require more than one relevant example used as support.",
-      },
-      {
-        id: "analysis",
-        label: "Analysis and reasoning",
-        points: 2,
-        guidance:
-          "Uses comparison, causation, or continuity/change reasoning and connects evidence to the claim with qualification where appropriate.",
-      },
-    ],
+    rubric: leqRubric,
+    scaffold: leqScaffold,
     modelResponse:
-      "Annotated model for comparison: a defensible thesis names the relationship under evaluation; contextualization places the network in earlier Afro-Eurasian exchange; evidence uses specific places, institutions, or communities; analysis explains how geography, demand, politics, or culture produced the pattern and qualifies variation.",
-    alternateModel:
-      "Another defensible route could center a different network or causal factor if it remains within 1200–1450, uses specific evidence, and explains why the evidence answers the prompt.",
-    commonErrors: [
-      "Listing three networks without a comparative or causal claim.",
-      "Using a famous example without explaining its relevance.",
-      "Treating the networks as sealed or uniform systems.",
-      "Using post-1450 European expansion as the main evidence.",
-    ],
-    scaffold: [
+      "Long before 1200, merchants crossed the Sahara by camel and sailed the Indian Ocean with the monsoon winds. In the centuries after 1200, both networks grew as states such as Mali and the Swahili city-states drew revenue from trade and as Islam, already established in North Africa and Arabia, spread along commercial routes.\n\nThe trans-Saharan and Indian Ocean networks shaped economic and cultural life in similar ways, enriching trade-based states and spreading Islam among merchants and rulers. However, the Indian Ocean's maritime geography produced more diverse port communities and a broader range of goods than the desert routes.\n\nEconomically, both networks allowed states to grow rich by controlling and taxing trade. Mali's rulers taxed the gold that moved north and the salt that moved south, and Mansa Musa's pilgrimage of 1324–1325 displayed wealth so great that it was remembered in Cairo for years. On the Swahili coast, Kilwa grew wealthy as a link between Indian Ocean merchants and the gold of the southern African interior. In both cases, rulers gained power not by producing most goods themselves but by controlling where goods changed hands.\n\nCulturally, both networks spread Islam first among elites and traders. Muslim merchants and scholars crossed the Sahara, and by the 1300s Timbuktu had become a center of Islamic learning supported by Mali's rulers. Along the Swahili coast, mosques were built in coral stone, and Swahili absorbed many Arabic words. Yet in both regions many rural people kept local religious practices, so Islam's spread was real but uneven.\n\nThe networks differed in what geography made possible. Ships carried far larger loads than camel caravans, so Indian Ocean trade included bulk goods such as cotton cloth and timber, while trans-Saharan trade concentrated on gold, salt, and other goods valuable enough to justify desert transport. The monsoon calendar also kept merchants in port for months, producing diaspora communities of Arabs, Persians, Indians, and Chinese in cities from Kilwa to Malacca. Caravan cities such as Timbuktu were cosmopolitan too, but they drew mainly on North African and West African traders.\n\nIn conclusion, both networks tied economic power to the control of trade and spread Islam through merchants, but the Indian Ocean's maritime environment created a wider mix of goods and peoples than the desert routes could support.",
+    modelNotes: [
       {
-        label: "Claim",
-        text: "Answer the prompt and establish a line of reasoning.",
+        label: "Contextualization",
+        text: "The first paragraph describes earlier trade and the spread of Islam before 1200, setting up the comparison.",
       },
       {
-        label: "Context",
-        text: "Place the development in wider Afro-Eurasian history.",
+        label: "Thesis",
+        text: "The second paragraph names a similarity and a difference and gives reasons for each, establishing a line of reasoning.",
       },
       {
         label: "Evidence",
-        text: "Choose specific examples and explain their relevance.",
+        text: "Specific examples (Mali's gold and salt taxes, Mansa Musa's pilgrimage, Kilwa, Timbuktu, coral-stone mosques, Swahili vocabulary) support the argument rather than being listed.",
       },
       {
-        label: "Reasoning",
-        text: "Show why the evidence proves the claim and where it needs qualification.",
+        label: "Analysis and reasoning",
+        text: "The essay is organized by comparison and explains why the networks differed. Noting that Islam's spread was uneven, and that caravan cities were also cosmopolitan, qualifies the argument and shows complexity.",
       },
+    ],
+    alternateModel:
+      "A different strong essay could compare the Silk Roads and the Indian Ocean, arguing that both depended on state protection but that Mongol political unity mattered more to overland trade than to maritime trade, which relied on many small states.",
+    commonErrors: [
+      "Describing one network, then the other, without ever making a direct comparison.",
+      "Listing famous examples without explaining what they show.",
+      "Treating the networks as sealed systems that never overlapped.",
+      "Using post-1450 European voyages as the main evidence.",
     ],
   },
   {
@@ -1029,19 +868,15 @@ export const writingQuizzes = [
     unitId: "world-2",
     title: "Unit 2 LEQ: Causes of exchange growth",
     headline: "Causes of exchange growth",
-    promptTitle: "Original Page One Unit 2 writing practice",
+    promptTitle: "Long essay question",
     prompt:
       "Evaluate the most important causes of expanding exchange across Afro-Eurasia from 1200 to 1450.",
-    instructions:
-      "Plan a defensible argument, then write one organized essay. This is a narrower Unit 2 practice task, not a full exam simulation.",
-    note: "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    instructions: leqInstructions,
+    note: essayNote,
     exerciseType: "leq",
-    sourceIds: ["amsco-unit-2", "ced-topic-2-1"],
+    sourceIds: ["ced-topic-2-1", "ced-topic-2-2", "ced-topic-2-3", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Unit 2 supplied reading / verified classroom locator",
-      },
+      { sourceId: "ced-topic-2-1", locator: "Topic 2.1 learning objectives" },
     ],
     responseFields: [
       {
@@ -1054,8 +889,8 @@ export const writingQuizzes = [
         review: [
           {
             topicId: "world-2-1",
-            sectionId: "network-geography",
-            label: "Review the relevant lesson",
+            sectionId: "trade-growth",
+            label: "Why exchange grew after 1200",
           },
         ],
       },
@@ -1070,69 +905,41 @@ export const writingQuizzes = [
         review: [
           {
             topicId: "world-2-7",
-            sectionId: "arguing-with-evidence",
-            label: "Review evidence-based comparison",
+            sectionId: "shared-causes",
+            label: "Shared causes and effects",
           },
         ],
       },
     ],
-    rubric: [
-      {
-        id: "thesis",
-        label: "Thesis",
-        points: 1,
-        guidance:
-          "Makes a defensible claim that answers the prompt and establishes a line of reasoning.",
-      },
-      {
-        id: "context",
-        label: "Contextualization",
-        points: 1,
-        guidance:
-          "Explains a broader development that is relevant to the prompt and occurs before, during, or across the period.",
-      },
-      {
-        id: "evidence",
-        label: "Evidence",
-        points: 2,
-        guidance:
-          "Uses specific evidence to support the argument; two points require more than one relevant example used as support.",
-      },
-      {
-        id: "analysis",
-        label: "Analysis and reasoning",
-        points: 2,
-        guidance:
-          "Uses comparison, causation, or continuity/change reasoning and connects evidence to the claim with qualification where appropriate.",
-      },
-    ],
+    rubric: leqRubric,
+    scaffold: leqScaffold,
     modelResponse:
-      "Annotated model for causation: a defensible thesis names the relationship under evaluation; contextualization places the network in earlier Afro-Eurasian exchange; evidence uses specific places, institutions, or communities; analysis explains how geography, demand, politics, or culture produced the pattern and qualifies variation.",
-    alternateModel:
-      "Another defensible route could center a different network or causal factor if it remains within 1200–1450, uses specific evidence, and explains why the evidence answers the prompt.",
-    commonErrors: [
-      "Listing three networks without a comparative or causal claim.",
-      "Using a famous example without explaining its relevance.",
-      "Treating the networks as sealed or uniform systems.",
-      "Using post-1450 European expansion as the main evidence.",
-    ],
-    scaffold: [
+      "Before 1200, the Tang dynasty and the Abbasid caliphate had built routes, cities, and commercial habits that connected much of Asia. By the 1100s both had weakened or fallen, leaving trade to smaller states and to merchant communities that kept older routes alive.\n\nAlthough demand and new technologies made long-distance travel more practical, the most important cause of expanding exchange between 1200 and 1450 was the protection and revenue-seeking of states, because rulers who profited from trade had strong reasons to keep routes open and safe.\n\nThe clearest example is the Mongol Empire. After conquering much of Eurasia in the 1200s, Mongol rulers maintained the yam system of relay stations and protected merchants traveling between China and Persia. Under Kublai Khan, the Yuan state required its paper money to be accepted throughout the empire and, according to Marco Polo, collected a ten percent duty on imports at Quanzhou. A state that profited from trade this directly had every reason to protect it, and safer roads drew more merchants onto long routes.\n\nThe same logic drove expansion at sea and across the desert. In the 1400s Malacca's rulers taxed ships passing through the Strait of Malacca and used naval power to protect traffic, turning location into wealth. In West Africa, Mali's rulers taxed the gold and salt trade, and Ibn Battuta reported that travelers had nothing to fear from robbers there. In each case, a ruler's need for revenue made trade safer.\n\nDemand and technology mattered, but mostly where states made them usable. Growing populations in Song China and elsewhere raised demand for spices, silk, and porcelain. The compass, the astrolabe, and lateen-rigged ships helped Indian Ocean sailors, and load-bearing camel saddles let caravans carry heavy goods across the Sahara. Credit tools such as flying cash and bills of exchange reduced the risk of carrying coin. Yet many of these tools were centuries old; trade grew fastest when political conditions let merchants use them regularly.\n\nThe importance of states is clearest when protection failed. When Mongol khanates fought one another, envoys found roads closed, and after Mongol authority collapsed in the mid-1300s overland routes became more dangerous. Exchange continued, especially by sea, but it shifted toward routes that other states still protected.\n\nIn conclusion, demand and technology made expanding exchange possible, but states that protected and taxed trade turned that possibility into sustained growth.",
+    modelNotes: [
       {
-        label: "Claim",
-        text: "Answer the prompt and establish a line of reasoning.",
+        label: "Contextualization",
+        text: "The opening explains the earlier Tang and Abbasid networks and their decline, which helps explain why new states could expand trade after 1200.",
       },
       {
-        label: "Context",
-        text: "Place the development in wider Afro-Eurasian history.",
+        label: "Thesis",
+        text: "The thesis ranks causes and gives a reason, so it makes a defensible, arguable claim with a line of reasoning.",
       },
       {
         label: "Evidence",
-        text: "Choose specific examples and explain their relevance.",
+        text: "The yam system, Yuan paper money and import duties, Malacca, and Mali are specific and used to support the claim about states.",
       },
       {
-        label: "Reasoning",
-        text: "Show why the evidence proves the claim and where it needs qualification.",
+        label: "Analysis and reasoning",
+        text: "The essay explains causation, weighs state protection against demand and technology, and uses the failure of Mongol protection to test its own argument. That weighing earns the complexity point.",
       },
+    ],
+    alternateModel:
+      "A different strong essay could argue that demand was most important, using the commercial growth of Song China and the spice trade, while showing that states and technology responded to that demand.",
+    commonErrors: [
+      "Listing causes without arguing which mattered most or why.",
+      "Giving “trade increased” as a cause of trade increasing.",
+      "Claiming the Mongols created trade routes that existed for centuries.",
+      "Using post-1450 European voyages as the main evidence.",
     ],
   },
   {
@@ -1142,19 +949,15 @@ export const writingQuizzes = [
     unitId: "world-2",
     title: "Unit 2 LEQ: Continuity and change",
     headline: "Continuity and change",
-    promptTitle: "Original Page One Unit 2 writing practice",
+    promptTitle: "Long essay question",
     prompt:
       "Evaluate the extent to which expanding connectivity changed societies while older institutions and practices persisted from 1200 to 1450.",
-    instructions:
-      "Plan a defensible argument, then write one organized essay. This is a narrower Unit 2 practice task, not a full exam simulation.",
-    note: "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    instructions: leqInstructions,
+    note: essayNote,
     exerciseType: "leq",
-    sourceIds: ["amsco-unit-2", "ced-topic-2-5"],
+    sourceIds: ["ced-topic-2-5", "ced-topic-2-6", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Unit 2 supplied reading / verified classroom locator",
-      },
+      { sourceId: "ced-topic-2-5", locator: "Topic 2.5 learning objectives" },
     ],
     responseFields: [
       {
@@ -1167,8 +970,8 @@ export const writingQuizzes = [
         review: [
           {
             topicId: "world-2-5",
-            sectionId: "beliefs-adaptation",
-            label: "Review the relevant lesson",
+            sectionId: "diffusion-not-uniformity",
+            label: "Connected does not mean identical",
           },
         ],
       },
@@ -1182,211 +985,105 @@ export const writingQuizzes = [
         help: "Informational word count only. No timer or automatic grading.",
         review: [
           {
-            topicId: "world-2-7",
-            sectionId: "arguing-with-evidence",
-            label: "Review evidence-based comparison",
+            topicId: "world-2-6",
+            sectionId: "demographic-economic",
+            label: "Demographic shocks changed labor",
           },
         ],
       },
     ],
-    rubric: [
-      {
-        id: "thesis",
-        label: "Thesis",
-        points: 1,
-        guidance:
-          "Makes a defensible claim that answers the prompt and establishes a line of reasoning.",
-      },
-      {
-        id: "context",
-        label: "Contextualization",
-        points: 1,
-        guidance:
-          "Explains a broader development that is relevant to the prompt and occurs before, during, or across the period.",
-      },
-      {
-        id: "evidence",
-        label: "Evidence",
-        points: 2,
-        guidance:
-          "Uses specific evidence to support the argument; two points require more than one relevant example used as support.",
-      },
-      {
-        id: "analysis",
-        label: "Analysis and reasoning",
-        points: 2,
-        guidance:
-          "Uses comparison, causation, or continuity/change reasoning and connects evidence to the claim with qualification where appropriate.",
-      },
-    ],
+    rubric: leqRubric,
+    scaffold: leqScaffold,
     modelResponse:
-      "Annotated model for continuity and change: a defensible thesis names the relationship under evaluation; contextualization places the network in earlier Afro-Eurasian exchange; evidence uses specific places, institutions, or communities; analysis explains how geography, demand, politics, or culture produced the pattern and qualifies variation.",
-    alternateModel:
-      "Another defensible route could center a different network or causal factor if it remains within 1200–1450, uses specific evidence, and explains why the evidence answers the prompt.",
-    commonErrors: [
-      "Listing three networks without a comparative or causal claim.",
-      "Using a famous example without explaining its relevance.",
-      "Treating the networks as sealed or uniform systems.",
-      "Using post-1450 European expansion as the main evidence.",
-    ],
-    scaffold: [
+      "By 1200, Afro-Eurasia was already linked by trade routes that had carried Buddhism into East Asia, Islam across North Africa, and goods such as silk and spices for centuries. Most people, however, still lived as farmers within local communities, governed by older institutions such as Confucian bureaucracy in China and lineage-based authority in many African societies.\n\nBetween 1200 and 1450, expanding connectivity changed societies significantly by spreading religions, crops, and disease, but these changes worked through older institutions rather than replacing them, so continuity remained strong in how most societies were organized.\n\nConnectivity brought real change in religion. Islam spread to new regions through merchants and teachers: by the 1300s Mali's rulers were Muslim and Timbuktu was a center of Islamic scholarship, while Muslim sultanates arose in Southeast Asian ports such as Malacca in the 1400s. These were genuine changes in belief, law, and learning among elites and townspeople.\n\nThe environmental effects of connectivity were even more dramatic. Plague traveled along trade routes from Central Asia to the Black Sea and then to Mediterranean ports in 1347, killing perhaps a third or more of the population in many regions. In parts of western Europe the resulting labor shortage raised wages, and governments responded with laws such as England's Statute of Labourers in 1351.\n\nYet older institutions persisted and shaped how change took hold. In China, the Ming dynasty that replaced the Yuan in 1368 rebuilt government around Confucian examinations and scholar-officials, a tradition the Yuan itself had revived in limited form in 1315, showing that Mongol rule had not erased Chinese bureaucratic traditions. In Mali, Islam was adopted by rulers and merchants, but many rural communities kept local religious practices, and royal ceremonies that Ibn Battuta found strange continued alongside Islamic worship. On the Swahili coast, Islam and Arabic vocabulary entered a society whose language and family structures remained African.\n\nEven the plague's effects depended on older structures. Where lords and governments were strong, they used law and force to limit workers' gains, so the same demographic shock produced different outcomes in different regions.\n\nIn conclusion, expanding connectivity changed belief and population in profound ways, but because those changes passed through existing political and social institutions, continuity shaped the extent and form of change in most societies.",
+    modelNotes: [
       {
-        label: "Claim",
-        text: "Answer the prompt and establish a line of reasoning.",
+        label: "Contextualization",
+        text: "The opening describes earlier connections and the agrarian, local character of most societies before 1200.",
       },
       {
-        label: "Context",
-        text: "Place the development in wider Afro-Eurasian history.",
+        label: "Thesis",
+        text: "The thesis takes a position on extent: significant change that worked through persistent institutions.",
       },
       {
         label: "Evidence",
-        text: "Choose specific examples and explain their relevance.",
+        text: "Mali, Timbuktu, Malacca, the plague's route, the Statute of Labourers, Ming reliance on the examinations, and the Swahili coast give specific support for both change and continuity.",
       },
       {
-        label: "Reasoning",
-        text: "Show why the evidence proves the claim and where it needs qualification.",
+        label: "Analysis and reasoning",
+        text: "The essay is organized around continuity and change and explains how older institutions shaped new developments, which demonstrates a complex understanding.",
       },
+    ],
+    alternateModel:
+      "A different strong essay could argue that change outweighed continuity, using the plague's demographic shock and the spread of Islam as its main evidence while acknowledging persistent agrarian economies.",
+    commonErrors: [
+      "Describing changes without explaining what persisted, or the reverse.",
+      "Answering “to what extent” with no clear judgment.",
+      "Treating the adoption of Islam by rulers as proof that everyone converted.",
+      "Using developments after 1450 as the main evidence.",
     ],
   },
   {
     id: "world-2-dbq-connectivity",
-    version: 1,
+    version: 2,
     courseId: "world",
     unitId: "world-2",
     title: "Unit 2 DBQ: Connectivity and consequences",
     headline: "Connectivity, opportunity, and unequal consequences",
-    promptTitle: "Original Page One Unit 2 writing practice",
+    promptTitle: "Document-based question",
     prompt:
-      "Evaluate the effects of expanding networks of exchange on societies in Afro-Eurasia from 1200 to 1450. Develop an argument that explains both shared processes and regional or social differences.",
+      "Evaluate the extent to which expanding networks of exchange changed societies in Afro-Eurasia in the period 1200–1450.",
     instructions:
-      "Use the document packet, outside evidence, and sourcing reasoning to plan and write an argument. The packet is unavailable until each document is independently verified.",
-    note: "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+      "Use at least four documents to support an argument. For at least two documents, explain how the author's point of view, purpose, historical situation, or audience is relevant to your argument. Use at least one piece of specific historical evidence beyond the documents. Include contextualization and develop a complex argument. This is untimed self-assessment practice in AP format.",
+    note: essayNote,
     exerciseType: "dbq",
-    sourceIds: ["amsco-unit-2", "ced"],
+    availability: "available",
+    sourceIds: [
+      "polo-yule-1903",
+      "battuta-gibb-1929",
+      "boccaccio-payne-1886",
+      "ced-topic-2-5",
+      "ced-topic-2-6",
+    ],
     sourceLocators: [
       {
-        sourceId: "amsco-unit-2",
-        locator: "Unit 2 supplied reading / verified classroom locator",
+        sourceId: "polo-yule-1903",
+        locator: "vol. 1, Book II, ch. 24; vol. 2, Book II, ch. 82",
       },
+      {
+        sourceId: "battuta-gibb-1929",
+        locator: "chs. 8, 12, 14; scan pp. 252, 310, 339, 351–352",
+      },
+      { sourceId: "boccaccio-payne-1886", locator: "First Day, introduction" },
     ],
     responseFields: [
-      {
-        id: "doc-1-notes",
-        label: "Document 1 notes",
+      ...[1, 2, 3, 4, 5, 6, 7].map((number) => ({
+        id: `doc-${number}-notes`,
+        label: `Document ${number} notes`,
         prompt:
-          "Record what this document can support, its point of view, and a limitation.",
+          "Note what this document shows, which part of your argument it supports, and how its point of view, purpose, situation, or audience matters.",
         required: false,
-        rows: 5,
+        rows: 4,
         review: [
           {
             topicId: "world-2-5",
             sectionId: "travelers-sourcing",
-            label: "Review sourcing and perspective",
+            label: "Sourcing travelers' accounts",
           },
         ],
-      },
-      {
-        id: "doc-2-notes",
-        label: "Document 2 notes",
-        prompt:
-          "Record what this document can support, its point of view, and a limitation.",
-        required: false,
-        rows: 5,
-        review: [
-          {
-            topicId: "world-2-5",
-            sectionId: "travelers-sourcing",
-            label: "Review sourcing and perspective",
-          },
-        ],
-      },
-      {
-        id: "doc-3-notes",
-        label: "Document 3 notes",
-        prompt:
-          "Record what this document can support, its point of view, and a limitation.",
-        required: false,
-        rows: 5,
-        review: [
-          {
-            topicId: "world-2-5",
-            sectionId: "travelers-sourcing",
-            label: "Review sourcing and perspective",
-          },
-        ],
-      },
-      {
-        id: "doc-4-notes",
-        label: "Document 4 notes",
-        prompt:
-          "Record what this document can support, its point of view, and a limitation.",
-        required: false,
-        rows: 5,
-        review: [
-          {
-            topicId: "world-2-5",
-            sectionId: "travelers-sourcing",
-            label: "Review sourcing and perspective",
-          },
-        ],
-      },
-      {
-        id: "doc-5-notes",
-        label: "Document 5 notes",
-        prompt:
-          "Record what this document can support, its point of view, and a limitation.",
-        required: false,
-        rows: 5,
-        review: [
-          {
-            topicId: "world-2-5",
-            sectionId: "travelers-sourcing",
-            label: "Review sourcing and perspective",
-          },
-        ],
-      },
-      {
-        id: "doc-6-notes",
-        label: "Document 6 notes",
-        prompt:
-          "Record what this document can support, its point of view, and a limitation.",
-        required: false,
-        rows: 5,
-        review: [
-          {
-            topicId: "world-2-5",
-            sectionId: "travelers-sourcing",
-            label: "Review sourcing and perspective",
-          },
-        ],
-      },
-      {
-        id: "doc-7-notes",
-        label: "Document 7 notes",
-        prompt:
-          "Record what this document can support, its point of view, and a limitation.",
-        required: false,
-        rows: 5,
-        review: [
-          {
-            topicId: "world-2-5",
-            sectionId: "travelers-sourcing",
-            label: "Review sourcing and perspective",
-          },
-        ],
-      },
+      })),
       {
         id: "essay",
         label: "DBQ essay",
         prompt:
-          "Write the full document-based argument, including contextualization, document evidence, outside evidence, sourcing, and a qualified claim.",
+          "Write the full essay: thesis, contextualization, at least four documents used as evidence, sourcing for at least two, outside evidence, and a qualified argument.",
         required: true,
-        rows: 18,
+        rows: 20,
         review: [
           {
             topicId: "world-2-7",
             sectionId: "arguing-with-evidence",
-            label: "Review argument structure",
+            label: "From comparison to argument",
           },
         ],
       },
@@ -1396,180 +1093,243 @@ export const writingQuizzes = [
         id: "thesis",
         label: "Thesis",
         points: 1,
-        guidance: "Answers the prompt with a defensible claim and a line of reasoning.",
+        guidance:
+          "Responds to the prompt with a historically defensible thesis or claim that establishes a line of reasoning.",
       },
       {
         id: "context",
         label: "Contextualization",
         points: 1,
-        guidance: "Explains relevant wider developments before or during 1200–1450.",
+        guidance: "Describes a broader historical context relevant to the prompt.",
       },
       {
         id: "documents",
-        label: "Document evidence",
-        points: 3,
-        guidance: "Uses documents to support an argument, not merely to summarize them.",
-      },
-      {
-        id: "analysis",
-        label: "Analysis and reasoning",
+        label: "Evidence from the documents",
         points: 2,
         guidance:
-          "Explains sourcing or perspective for relevant documents and develops a complex, qualified argument.",
+          "1 point: accurately describes the content of at least three documents to address the prompt. 2 points: uses the content of at least four documents to support an argument in response to the prompt.",
       },
-    ],
-    modelResponse:
-      "Annotated model is intentionally unavailable while the seven-document packet is blocked. When released, the model must use four documents as argument evidence, outside evidence, and sourcing analysis for at least two documents.",
-    alternateModel:
-      "Alternate argument outline: compare how states, merchants, and local communities experienced exchange differently, then qualify the claim by geography and power.",
-    commonErrors: [
-      "Treating a document as proof without explaining its relevance.",
-      "Counting seven summaries as a complete argument.",
-      "Using an unverified quotation or modern image as a primary source.",
-      "Claiming that connectivity produced one outcome everywhere.",
+      {
+        id: "outside",
+        label: "Evidence beyond the documents",
+        points: 1,
+        guidance:
+          "Uses at least one additional piece of specific historical evidence, not found in the documents, that is relevant to an argument about the prompt.",
+      },
+      {
+        id: "sourcing",
+        label: "Sourcing",
+        points: 1,
+        guidance:
+          "For at least two documents, explains how or why the document's point of view, purpose, historical situation, or audience is relevant to an argument.",
+      },
+      {
+        id: "complexity",
+        label: "Complexity",
+        points: 1,
+        guidance:
+          "Demonstrates a complex understanding of the topic, using evidence to corroborate, qualify, or modify an argument.",
+      },
     ],
     scaffold: [
       {
-        label: "Source check",
-        text: "Read the metadata and identify what can be verified.",
+        label: "Read",
+        text: "Note each document's author, date, and purpose before its content.",
       },
       {
         label: "Group",
-        text: "Organize documents by a defensible claim, not by document order.",
+        text: "Sort documents by the claim they support, not by their order.",
       },
       {
-        label: "Argument",
-        text: "Use evidence and explain its relevance.",
+        label: "Argue",
+        text: "Use documents as evidence and explain how each supports your claim.",
+      },
+      {
+        label: "Source",
+        text: "Explain why point of view, purpose, situation, or audience matters for two documents.",
       },
       {
         label: "Qualify",
-        text: "Address regional and social variation.",
+        text: "Show where the pattern varied by region or social group.",
       },
     ],
     documents: [
       {
         id: "doc-1",
-        label: "Overland exchange and relay markets",
-        content:
-          "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
+        label: "Yuan paper money",
+        sourceType: "primary",
+        attribution: excerpts.poloPaperMoney.attribution,
+        content: excerpts.poloPaperMoney.text,
+        citation: excerpts.poloPaperMoney.citation,
+        note: excerpts.poloPaperMoney.note,
         sourceNote:
-          "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+          "Verified against the Project Gutenberg text of the Yule–Cordier edition.",
         metadata: {
-          author: "Unresolved / to be independently verified",
-          date: "1200–1450 target; exact date unresolved",
-          setting: "Afro-Eurasian exchange context",
-          audience: "To be verified from the selected edition",
-          rights: "Blocked pending edition, translation, and rights verification.",
+          author: "Marco Polo, dictated to Rustichello of Pisa",
+          date: "c. 1298",
+          setting: "Yuan China under Kublai Khan",
+          audience: "European readers",
+          rights: "Public-domain translation (1903).",
         },
-        sourceIds: ["amsco-unit-2"],
-        status: "blocked",
+        sourceIds: ["polo-yule-1903"],
+        status: "verified",
       },
       {
         id: "doc-2",
-        label: "Mongol administration and travel",
-        content:
-          "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
+        label: "The port of Quanzhou",
+        sourceType: "primary",
+        attribution: excerpts.poloZayton.attribution,
+        content: excerpts.poloZayton.text,
+        citation: excerpts.poloZayton.citation,
+        note: excerpts.poloZayton.note,
         sourceNote:
-          "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+          "Verified against the Project Gutenberg text of the Yule–Cordier edition.",
         metadata: {
-          author: "Unresolved / to be independently verified",
-          date: "1200–1450 target; exact date unresolved",
-          setting: "Afro-Eurasian exchange context",
-          audience: "To be verified from the selected edition",
-          rights: "Blocked pending edition, translation, and rights verification.",
+          author: "Marco Polo, dictated to Rustichello of Pisa",
+          date: "c. 1298",
+          setting: "Quanzhou, southern China",
+          audience: "European readers",
+          rights: "Public-domain translation (1903).",
         },
-        sourceIds: ["amsco-unit-2"],
-        status: "blocked",
+        sourceIds: ["polo-yule-1903"],
+        status: "verified",
       },
       {
         id: "doc-3",
-        label: "Indian Ocean seasonal knowledge",
-        content:
-          "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
+        label: "Muslim merchants in Quanzhou",
+        sourceType: "primary",
+        attribution: excerpts.battutaZaytun.attribution,
+        content: excerpts.battutaZaytun.text,
+        citation: excerpts.battutaZaytun.citation,
+        note: excerpts.battutaZaytun.note,
         sourceNote:
-          "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+          "Verified against the Internet Archive full text of Gibb's 1929 translation.",
         metadata: {
-          author: "Unresolved / to be independently verified",
-          date: "1200–1450 target; exact date unresolved",
-          setting: "Afro-Eurasian exchange context",
-          audience: "To be verified from the selected edition",
-          rights: "Blocked pending edition, translation, and rights verification.",
+          author: "Ibn Battuta, dictated to Ibn Juzayy",
+          date: "Visit c. 1345; account dictated 1355",
+          setting: "Quanzhou, Yuan China",
+          audience: "Muslim readers in Morocco",
+          rights: "Public-domain translation in the United States (1929).",
         },
-        sourceIds: ["amsco-unit-2"],
-        status: "blocked",
+        sourceIds: ["battuta-gibb-1929"],
+        status: "verified",
       },
       {
         id: "doc-4",
-        label: "West African trade and pilgrimage",
-        content:
-          "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
+        label: "A trading town on India's southwestern coast",
+        sourceType: "primary",
+        attribution: excerpts.battutaHinawr.attribution,
+        content: excerpts.battutaHinawr.text,
+        citation: excerpts.battutaHinawr.citation,
+        note: excerpts.battutaHinawr.note,
         sourceNote:
-          "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+          "Verified against the Internet Archive full text of Gibb's 1929 translation.",
         metadata: {
-          author: "Unresolved / to be independently verified",
-          date: "1200–1450 target; exact date unresolved",
-          setting: "Afro-Eurasian exchange context",
-          audience: "To be verified from the selected edition",
-          rights: "Blocked pending edition, translation, and rights verification.",
+          author: "Ibn Battuta, dictated to Ibn Juzayy",
+          date: "Visit c. 1342; account dictated 1355",
+          setting: "Honavar, southwestern India",
+          audience: "Muslim readers in Morocco",
+          rights: "Public-domain translation in the United States (1929).",
         },
-        sourceIds: ["amsco-unit-2"],
-        status: "blocked",
+        sourceIds: ["battuta-gibb-1929"],
+        status: "verified",
       },
       {
         id: "doc-5",
-        label: "Traveler perspective",
-        content:
-          "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
+        label: "The salt mines of Taghaza",
+        sourceType: "primary",
+        attribution: excerpts.battutaTaghaza.attribution,
+        content: excerpts.battutaTaghaza.text,
+        citation: excerpts.battutaTaghaza.citation,
+        note: excerpts.battutaTaghaza.note,
         sourceNote:
-          "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+          "Verified against the Internet Archive full text of Gibb's 1929 translation.",
         metadata: {
-          author: "Unresolved / to be independently verified",
-          date: "1200–1450 target; exact date unresolved",
-          setting: "Afro-Eurasian exchange context",
-          audience: "To be verified from the selected edition",
-          rights: "Blocked pending edition, translation, and rights verification.",
+          author: "Ibn Battuta, dictated to Ibn Juzayy",
+          date: "Journey 1352; account dictated 1355",
+          setting: "The western Sahara, on the route to Mali",
+          audience: "Muslim readers in Morocco",
+          rights: "Public-domain translation in the United States (1929).",
         },
-        sourceIds: ["amsco-unit-2"],
-        status: "blocked",
+        sourceIds: ["battuta-gibb-1929"],
+        status: "verified",
       },
       {
         id: "doc-6",
-        label: "Crops and disease in connected regions",
-        content:
-          "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
+        label: "Order and Islam in Mali",
+        sourceType: "primary",
+        attribution: excerpts.battutaMali.attribution,
+        content: excerpts.battutaMali.text,
+        citation: excerpts.battutaMali.citation,
+        note: excerpts.battutaMali.note,
         sourceNote:
-          "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+          "Verified against the Internet Archive full text of Gibb's 1929 translation.",
         metadata: {
-          author: "Unresolved / to be independently verified",
-          date: "1200–1450 target; exact date unresolved",
-          setting: "Afro-Eurasian exchange context",
-          audience: "To be verified from the selected edition",
-          rights: "Blocked pending edition, translation, and rights verification.",
+          author: "Ibn Battuta, dictated to Ibn Juzayy",
+          date: "Visit 1352–1353; account dictated 1355",
+          setting: "The Mali Empire, West Africa",
+          audience: "Muslim readers in Morocco",
+          rights: "Public-domain translation in the United States (1929).",
         },
-        sourceIds: ["amsco-unit-2"],
-        status: "blocked",
+        sourceIds: ["battuta-gibb-1929"],
+        status: "verified",
       },
       {
         id: "doc-7",
-        label: "Qualitative comparison of networks",
-        content:
-          "Document text is withheld pending independent verification of the exact edition, locator, and reuse rights. This record names the intended evidence function without presenting an unverified quotation.",
-        sourceNote:
-          "Unresolved source record: locate and verify a suitable primary or secondary document before release.",
+        label: "Plague in Florence and its countryside",
+        sourceType: "primary",
+        attribution: excerpts.boccaccioSociety.attribution,
+        content: excerpts.boccaccioSociety.text,
+        citation: excerpts.boccaccioSociety.citation,
+        note: excerpts.boccaccioSociety.note,
+        sourceNote: "Verified against the Project Gutenberg text of Payne's translation.",
         metadata: {
-          author: "Unresolved / to be independently verified",
-          date: "1200–1450 target; exact date unresolved",
-          setting: "Afro-Eurasian exchange context",
-          audience: "To be verified from the selected edition",
-          rights: "Blocked pending edition, translation, and rights verification.",
+          author: "Giovanni Boccaccio",
+          date: "Completed c. 1353, describing 1348",
+          setting: "Florence and its countryside, Italy",
+          audience: "Italian readers of his story collection",
+          rights: "Public-domain translation (1886).",
         },
-        sourceIds: ["amsco-unit-2"],
-        status: "blocked",
+        sourceIds: ["boccaccio-payne-1886"],
+        status: "verified",
       },
     ],
-    availability: "blocked",
-    unresolvedSources: [
-      "Independent primary-source editions and rights records for all seven documents.",
+    modelResponse:
+      "By 1200, trade routes had linked Afro-Eurasia for centuries, carrying silk from China, spices from South and Southeast Asia, and Islam across North Africa and the Indian Ocean. In the 1200s the Mongol conquests united much of Eurasia under related rulers, while states such as Mali and the Swahili city-states grew rich from trade in gold and other goods.\n\nBetween 1200 and 1450, expanding networks of exchange significantly changed societies by enriching states that controlled trade and spreading Islam and its institutions to new regions, but the benefits were unequal, and connectivity also carried coerced labor and devastating disease.\n\nTrade networks strengthened states that could tax and protect commerce. Marco Polo describes Kublai Khan forcing merchants to accept Yuan paper money and to sell their gold, gems, and pearls only to the emperor (Document 1), and collecting a ten percent duty on all imports at Quanzhou (Document 2). Polo was a Venetian merchant writing for European readers who had never seen paper money, so he emphasized the emperor's wealth and may have overstated how smoothly the system worked; in 1287 Kublai had to replace the earlier notes with a new currency. Even allowing for exaggeration, his account shows a state drawing power from the trade it controlled. Ibn Battuta similarly describes Mali as a place of \"complete security\" where even the estates of foreign merchants were protected (Document 6), conditions that reflect rulers who depended on trans-Saharan trade revenue.\n\nExchange also spread Islam and Islamic learning far beyond its Middle Eastern heartland. In Quanzhou, Ibn Battuta found a Muslim judge, a shaykh al-Islam, and merchants who recited the Koran (Document 3), and in the Indian port of Honavar he counted thirteen schools for girls and twenty-three for boys among people who all knew the Koran by heart (Document 4). In Mali, children learned the Koran and crowds filled the mosques on Fridays (Document 6). Because Ibn Battuta was a Muslim legal scholar writing for Muslim readers in Morocco, he paid close attention to mosques and Quranic learning, and his praise and criticism, including his complaint about court customs he considered improper, reflect North African Islamic norms. Yet his observations agree with other evidence: Mansa Musa's pilgrimage to Mecca in 1324–1325 and his support for scholars in Timbuktu show Mali's rulers deliberately joining the Islamic world.\n\nThese changes, however, were neither universal nor equally beneficial. At Taghaza, the salt that West Africans valued was dug by enslaved workers who lived on imported food in a village without trees (Document 5), showing that the same trade that enriched Mali's rulers depended on coerced labor. Honavar's Muslim ruler governed under the authority of a Hindu overlord (Document 4), a reminder that religious change in port cities did not replace older political structures. Most dramatically, the routes that carried goods and ideas also carried plague. Boccaccio describes peasants dying \"like beasts\" and crops left unharvested around Florence, while the few willing to nurse the sick demanded \"high and extravagant wage\" (Document 7). Writing the introduction to a book of stories, Boccaccio had reasons to dramatize, but he lived through the epidemic, and his description of scarce, expensive labor matches England's attempt to cap wages in the Statute of Labourers of 1351.\n\nIn conclusion, expanding exchange transformed political power and religious life across Afro-Eurasia, but it did so unevenly, enriching rulers and merchants while also spreading forced labor and disease that reshaped societies in ways no one intended.",
+    modelNotes: [
+      {
+        label: "Contextualization",
+        text: "The first paragraph describes earlier trade routes, the spread of Islam, and the Mongol conquests that set up the period.",
+      },
+      {
+        label: "Thesis",
+        text: "The thesis makes a claim about extent (significant but unequal change) and previews three lines of reasoning: state power, the spread of Islam, and unequal costs.",
+      },
+      {
+        label: "Evidence from the documents",
+        text: "All seven documents are used to support the argument, not summarized one after another, which exceeds the four-document requirement.",
+      },
+      {
+        label: "Evidence beyond the documents",
+        text: "Kublai's 1287 currency reissue, Mansa Musa's pilgrimage and patronage in Timbuktu, and the Statute of Labourers are specific evidence not found in the documents.",
+      },
+      {
+        label: "Sourcing",
+        text: "The essay explains how Polo's purpose and audience (Documents 1–2), Ibn Battuta's background (Documents 3–6), and Boccaccio's purpose (Document 7) affect how each source should be used.",
+      },
+      {
+        label: "Complexity",
+        text: "The argument qualifies its own claim by showing coerced labor, persistent older political structures, and disease, and it corroborates sources with outside evidence.",
+      },
+    ],
+    alternateModel:
+      "A different strong essay could argue that connectivity changed elites and cities more than ordinary people, grouping Documents 1–4 as evidence of change among rulers and merchants and Documents 5–7 as evidence of how ordinary people bore the costs.",
+    commonErrors: [
+      "Summarizing each document in order instead of grouping them by argument.",
+      "Quoting a document without explaining how it supports the claim.",
+      "Writing “Ibn Battuta was biased” without explaining how his background affects the document's use.",
+      "Treating one traveler's description as true for an entire region.",
+      "Forgetting evidence beyond the documents.",
     ],
   },
   {
@@ -1581,32 +1341,30 @@ export const writingQuizzes = [
       "Unit 2 skill drill: Revise an overly broad claim into an arguable claim with a line of reasoning.",
     headline:
       "Revise an overly broad claim into an arguable claim with a line of reasoning.",
-    promptTitle: "Original Page One Unit 2 writing practice",
+    promptTitle: "Skill drill: thesis",
     prompt:
       "A student writes: “Trade changed everything.” Rewrite it as a defensible Unit 2 thesis.",
     instructions:
-      "Write a short response, reveal the worked feedback, and revise. This checklist is practice and does not produce an official AP score.",
-    note: "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+      "Write a short response, then open the worked example and compare. This checklist is practice and does not produce an official AP score.",
+    note: essayNote,
     exerciseType: "skill",
-    sourceIds: ["amsco-unit-2", "ced-topic-2-7", "ced"],
+    sourceIds: ["ced-topic-2-7", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Unit 2 supplied reading / verified classroom locator",
-      },
+      { sourceId: "ced-topic-2-7", locator: "Topic 2.7 learning objectives" },
     ],
     responseFields: [
       {
         id: "response",
         label: "Your response",
-        prompt: "Write your revised response and explain the reasoning.",
+        prompt:
+          "Write your revised thesis and one sentence explaining why it is stronger.",
         required: true,
         rows: 8,
         review: [
           {
             topicId: "world-2-7",
-            sectionId: "comparison-framework",
-            label: "Review the lesson",
+            sectionId: "arguing-with-evidence",
+            label: "From comparison to argument",
           },
         ],
       },
@@ -1617,36 +1375,27 @@ export const writingQuizzes = [
         label: "Skill checklist",
         points: 1,
         guidance:
-          "The response completes the named skill and explains why the move improves the argument.",
+          "The thesis is limited to a time and place, makes a claim someone could dispute, and previews a line of reasoning.",
       },
     ],
     modelResponse:
-      "Worked feedback: the response should make the thesis move visible, use a specific Unit 2 example, and explain why that move strengthens the argument.",
+      "Worked example: “Between 1200 and 1450, expanding trade strengthened states that could tax it, such as Mali and Malacca, and spread Islam to new regions, but these changes were uneven because many rural communities kept older economies and beliefs.”\n\nWhy it is stronger: it sets a time period, names specific states, makes a claim a reader could argue against, previews two lines of reasoning (state power and religion), and qualifies the claim instead of saying trade changed “everything.”",
     alternateModel:
-      "Another answer can work when it performs the same skill with a different accurate example.",
+      "Another strong thesis could focus on environmental effects: “Trade networks spread both useful crops and deadly disease, so connectivity raised food supplies in some regions while the plague cut populations sharply in others.”",
     commonErrors: [
-      "Repeating the prompt without making a claim.",
-      "Naming a fact without connecting it to the argument.",
-      "Treating one observer or region as representative of everyone.",
+      "Restating the prompt without making a claim.",
+      "Naming topics without explaining how they connect to the claim.",
+      "Making a claim so broad that no evidence could disprove it.",
     ],
     scaffold: [
-      {
-        label: "Draft",
-        text: "Write the first version.",
-      },
-      {
-        label: "Check",
-        text: "Use the checklist to locate the reasoning move.",
-      },
-      {
-        label: "Revise",
-        text: "Make the claim, evidence, or sourcing explanation explicit.",
-      },
+      { label: "Narrow", text: "Set a time, place, or group." },
+      { label: "Claim", text: "Say what changed and how much." },
+      { label: "Reason", text: "Preview why, with two categories of evidence." },
     ],
     checklist: [
-      "Names the requested reasoning move.",
-      "Uses a specific and accurate Unit 2 example.",
-      "Explains why the move supports the argument.",
+      "Limits the claim to a time period and specific places.",
+      "Makes a claim that a reader could argue against.",
+      "Previews at least two reasons or categories of evidence.",
     ],
   },
   {
@@ -1657,32 +1406,29 @@ export const writingQuizzes = [
     title:
       "Unit 2 skill drill: Distinguish relevant wider context from a restatement of the prompt.",
     headline: "Distinguish relevant wider context from a restatement of the prompt.",
-    promptTitle: "Original Page One Unit 2 writing practice",
+    promptTitle: "Skill drill: contextualization",
     prompt:
       "Write two sentences of context for a prompt about exchange growth after 1200.",
     instructions:
-      "Write a short response, reveal the worked feedback, and revise. This checklist is practice and does not produce an official AP score.",
-    note: "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+      "Write a short response, then open the worked example and compare. This checklist is practice and does not produce an official AP score.",
+    note: essayNote,
     exerciseType: "skill",
-    sourceIds: ["amsco-unit-2", "ced-topic-2-1", "class-tang-song-mongols"],
+    sourceIds: ["ced-topic-2-1", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Unit 2 supplied reading / verified classroom locator",
-      },
+      { sourceId: "ced-topic-2-1", locator: "Topic 2.1 learning objectives" },
     ],
     responseFields: [
       {
         id: "response",
         label: "Your response",
-        prompt: "Write your revised response and explain the reasoning.",
+        prompt: "Write two sentences of context and connect them to the prompt.",
         required: true,
         rows: 8,
         review: [
           {
             topicId: "world-2-1",
             sectionId: "trade-growth",
-            label: "Review the lesson",
+            label: "Why exchange grew after 1200",
           },
         ],
       },
@@ -1693,36 +1439,29 @@ export const writingQuizzes = [
         label: "Skill checklist",
         points: 1,
         guidance:
-          "The response completes the named skill and explains why the move improves the argument.",
+          "The context describes a broader development before or during the period and explains how it relates to the prompt.",
       },
     ],
     modelResponse:
-      "Worked feedback: the response should make the context move visible, use a specific Unit 2 example, and explain why that move strengthens the argument.",
+      "Worked example: “Before 1200, the Tang dynasty and the Abbasid caliphate had built routes, cities, and commercial practices that connected much of Asia, but by the 1100s both had fallen or weakened, leaving trade to smaller states. This background helps explain why the Mongol conquests of the 1200s, which united much of Eurasia under related rulers, could revive and extend older routes so quickly.”\n\nWhy it works: the first sentence describes a broader development before the period, and the second connects it directly to the prompt. It does not simply restate that trade grew.",
     alternateModel:
-      "Another answer can work when it performs the same skill with a different accurate example.",
+      "Context could also describe the earlier spread of Islam through North Africa and the Indian Ocean, which created merchant communities that later networks relied on.",
     commonErrors: [
-      "Repeating the prompt without making a claim.",
-      "Naming a fact without connecting it to the argument.",
-      "Treating one observer or region as representative of everyone.",
+      "Restating the prompt as context.",
+      "Describing a development without connecting it to the prompt.",
+      "Using a development from long after 1450.",
     ],
     scaffold: [
       {
-        label: "Draft",
-        text: "Write the first version.",
+        label: "Before",
+        text: "Describe a broader development before or during the period.",
       },
-      {
-        label: "Check",
-        text: "Use the checklist to locate the reasoning move.",
-      },
-      {
-        label: "Revise",
-        text: "Make the claim, evidence, or sourcing explanation explicit.",
-      },
+      { label: "Connect", text: "Explain how it shaped the topic in the prompt." },
     ],
     checklist: [
-      "Names the requested reasoning move.",
-      "Uses a specific and accurate Unit 2 example.",
-      "Explains why the move supports the argument.",
+      "Describes a specific broader development.",
+      "Places it in time before or during the period.",
+      "Explains how it relates to the prompt.",
     ],
   },
   {
@@ -1734,32 +1473,30 @@ export const writingQuizzes = [
       "Unit 2 skill drill: Turn an accurate example into support for an argument through explicit explanation.",
     headline:
       "Turn an accurate example into support for an argument through explicit explanation.",
-    promptTitle: "Original Page One Unit 2 writing practice",
+    promptTitle: "Skill drill: evidence",
     prompt:
       "Use one example from Unit 2 and explain how it supports a claim about state power and exchange.",
     instructions:
-      "Write a short response, reveal the worked feedback, and revise. This checklist is practice and does not produce an official AP score.",
-    note: "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+      "Write a short response, then open the worked example and compare. This checklist is practice and does not produce an official AP score.",
+    note: essayNote,
     exerciseType: "skill",
-    sourceIds: ["amsco-unit-2", "ced-topic-2-4", "class-trans-saharan"],
+    sourceIds: ["ced-topic-2-3", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Unit 2 supplied reading / verified classroom locator",
-      },
+      { sourceId: "ced-topic-2-3", locator: "Topic 2.3 learning objectives" },
     ],
     responseFields: [
       {
         id: "response",
         label: "Your response",
-        prompt: "Write your revised response and explain the reasoning.",
+        prompt:
+          "State a claim, give one example, and explain how the example supports the claim.",
         required: true,
         rows: 8,
         review: [
           {
-            topicId: "world-2-4",
-            sectionId: "mali-state-trade",
-            label: "Review the lesson",
+            topicId: "world-2-3",
+            sectionId: "states-revenue",
+            label: "Trade could build states",
           },
         ],
       },
@@ -1770,36 +1507,30 @@ export const writingQuizzes = [
         label: "Skill checklist",
         points: 1,
         guidance:
-          "The response completes the named skill and explains why the move improves the argument.",
+          "The response uses a specific example and explains the mechanism that connects it to the claim.",
       },
     ],
     modelResponse:
-      "Worked feedback: the response should make the evidence move visible, use a specific Unit 2 example, and explain why that move strengthens the argument.",
+      "Worked example: “Claim: Trade could strengthen states that controlled key routes. Evidence: In the 1400s Malacca taxed ships passing through the Strait of Malacca and protected them with a navy. Explanation: Because ships moving between the Indian Ocean and the South China Sea had to pass the strait, Malacca's rulers could collect steady customs revenue, which paid for the navy and court that made the city a regional power.”\n\nWhy it works: the explanation names the mechanism, a passage that ships could not avoid, instead of just saying Malacca was rich.",
     alternateModel:
-      "Another answer can work when it performs the same skill with a different accurate example.",
+      "Mali's taxation of gold and salt, or the Yuan import duty at Quanzhou described by Marco Polo, can support the same claim with a different mechanism.",
     commonErrors: [
-      "Repeating the prompt without making a claim.",
-      "Naming a fact without connecting it to the argument.",
-      "Treating one observer or region as representative of everyone.",
+      "Naming an example without explaining it.",
+      "Explaining the example but never connecting it to the claim.",
+      "Using an example from the wrong period.",
     ],
     scaffold: [
+      { label: "Claim", text: "State what you are arguing." },
+      { label: "Evidence", text: "Give one specific example." },
       {
-        label: "Draft",
-        text: "Write the first version.",
-      },
-      {
-        label: "Check",
-        text: "Use the checklist to locate the reasoning move.",
-      },
-      {
-        label: "Revise",
-        text: "Make the claim, evidence, or sourcing explanation explicit.",
+        label: "Explain",
+        text: "Show the mechanism that links the example to the claim.",
       },
     ],
     checklist: [
-      "Names the requested reasoning move.",
-      "Uses a specific and accurate Unit 2 example.",
-      "Explains why the move supports the argument.",
+      "States a clear claim.",
+      "Uses a specific, accurate example from Unit 2.",
+      "Explains how or why the example supports the claim.",
     ],
   },
   {
@@ -1811,32 +1542,30 @@ export const writingQuizzes = [
       "Unit 2 skill drill: Explain why a document’s perspective, purpose, or situation matters to an argument.",
     headline:
       "Explain why a document’s perspective, purpose, or situation matters to an argument.",
-    promptTitle: "Original Page One Unit 2 writing practice",
+    promptTitle: "Skill drill: sourcing",
     prompt:
       "Explain how a traveler’s purpose could shape what the account can support about cultural change.",
     instructions:
-      "Write a short response, reveal the worked feedback, and revise. This checklist is practice and does not produce an official AP score.",
-    note: "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+      "Write a short response, then open the worked example and compare. This checklist is practice and does not produce an official AP score.",
+    note: essayNote,
     exerciseType: "skill",
-    sourceIds: ["amsco-unit-2", "ced-topic-2-5", "amsco-unit-1"],
+    sourceIds: ["ced-topic-2-5", "amsco-unit-2"],
     sourceLocators: [
-      {
-        sourceId: "amsco-unit-2",
-        locator: "Unit 2 supplied reading / verified classroom locator",
-      },
+      { sourceId: "ced-topic-2-5", locator: "Topic 2.5 learning objectives" },
     ],
     responseFields: [
       {
         id: "response",
         label: "Your response",
-        prompt: "Write your revised response and explain the reasoning.",
+        prompt:
+          "Name a traveler, identify a feature of the source, and explain why it matters for an argument.",
         required: true,
         rows: 8,
         review: [
           {
             topicId: "world-2-5",
             sectionId: "travelers-sourcing",
-            label: "Review the lesson",
+            label: "Travelers are evidence with viewpoints",
           },
         ],
       },
@@ -1847,36 +1576,36 @@ export const writingQuizzes = [
         label: "Skill checklist",
         points: 1,
         guidance:
-          "The response completes the named skill and explains why the move improves the argument.",
+          "The response identifies a specific feature of the source and explains how it affects the source's use in an argument.",
       },
     ],
     modelResponse:
-      "Worked feedback: the response should make the sourcing move visible, use a specific Unit 2 example, and explain why that move strengthens the argument.",
+      "Worked example: “Ibn Battuta was a Muslim legal scholar writing for Muslim readers in Morocco, so he paid close attention to mosques, prayer, and Quranic learning wherever he went. This makes his account strong evidence that Islamic institutions existed in places such as Mali and Quanzhou, but weaker evidence for how non-Muslim or rural people lived, since they interested him less and he spent little time among them.”\n\nWhy it works: it names a specific feature (purpose and audience) and explains how it makes the source more useful for one claim and less useful for another, which is what sourcing must do in an essay.",
     alternateModel:
-      "Another answer can work when it performs the same skill with a different accurate example.",
+      "Marco Polo's purpose, impressing European readers with the wealth of the East, could be used to explain why his account is strong on trade and court wealth but may exaggerate numbers.",
     commonErrors: [
-      "Repeating the prompt without making a claim.",
-      "Naming a fact without connecting it to the argument.",
-      "Treating one observer or region as representative of everyone.",
+      "Writing “the author is biased” without saying how or why it matters.",
+      "Describing the author without connecting the description to an argument.",
+      "Treating a limitation as a reason to ignore the source entirely.",
     ],
     scaffold: [
       {
-        label: "Draft",
-        text: "Write the first version.",
+        label: "Identify",
+        text: "Name the point of view, purpose, situation, or audience.",
       },
       {
-        label: "Check",
-        text: "Use the checklist to locate the reasoning move.",
+        label: "Effect",
+        text: "Explain how it shapes what the source includes or leaves out.",
       },
       {
-        label: "Revise",
-        text: "Make the claim, evidence, or sourcing explanation explicit.",
+        label: "Use",
+        text: "Say what the source can and cannot support in an argument.",
       },
     ],
     checklist: [
-      "Names the requested reasoning move.",
-      "Uses a specific and accurate Unit 2 example.",
-      "Explains why the move supports the argument.",
+      "Identifies a specific feature of the source's author or situation.",
+      "Explains how that feature shapes the content.",
+      "Connects the effect to how the source can be used as evidence.",
     ],
   },
 ];

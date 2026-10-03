@@ -27,6 +27,35 @@ function routeFor(routes, kind, fallback, ...args) {
   return typeof routes?.[kind] === "function" ? routes[kind](...args) : fallback;
 }
 
+function skillMeta(question) {
+  if (question.skillLabel)
+    return question.reasoningLabel
+      ? `${question.skillLabel} · ${question.reasoningLabel}`
+      : question.skillLabel;
+  return question.skillTag || "Reviewing a question";
+}
+
+// Answered questions only: an unanswered item says nothing about a skill.
+function skillBreakdownView(result) {
+  if (!result.skills?.length) return "";
+  const rows = result.skills
+    .map((skill) => {
+      const percent = Math.round((skill.correct / Math.max(skill.total, 1)) * 100);
+      const reasoning = Object.values(skill.reasoning || {})
+        .map((item) => `${esc(item.label)} ${item.correct}/${item.total}`)
+        .join(" · ");
+      const status =
+        skill.total < 2
+          ? "Too few to judge"
+          : percent >= 75
+            ? "Holding"
+            : "Practice next";
+      return `<tr><th scope="row">${skill.code ? `<span class="skill-code">${esc(skill.code)}</span> ` : ""}${esc(skill.label)}${reasoning ? `<span class="skill-reasoning">${reasoning}</span>` : ""}</th><td>${skill.correct} / ${skill.total}</td><td><span class="skill-bar" aria-hidden="true"><span style="width:${percent}%"></span></span>${percent}%</td><td>${esc(status)}</td></tr>`;
+    })
+    .join("");
+  return `<section class="skill-breakdown" aria-labelledby="skill-breakdown-title"><div class="section-heading"><h2 id="skill-breakdown-title">By AP skill</h2><span>Answered questions only</span></div><div class="table-wrap" role="region" tabindex="0" aria-label="Results by AP skill"><table><thead><tr><th scope="col">Skill</th><th scope="col">Correct</th><th scope="col">Accuracy</th><th scope="col">Next step</th></tr></thead><tbody>${rows}</tbody></table></div><p class="muted">A skill needs at least two answered questions before this page suggests practicing it. One attempt is a small sample.</p></section>`;
+}
+
 function questionLabel(index) {
   return String.fromCharCode(65 + index);
 }
@@ -156,7 +185,7 @@ export function questionView(attempt, engine, assets, quick = false, ui = {}) {
     </div>
     ${navigatorView(attempt, engine)}
     <form class="question-card" data-quiz="${esc(attempt.quizId)}" data-question="${esc(id)}">
-      <p class="question-meta">${esc(concept?.title || question.concept || "Practice")} · ${esc(question.skillTag || "Reviewing a question")}</p>
+      <p class="question-meta">${esc(concept?.title || question.concept || "Practice")} · ${esc(skillMeta(question))}</p>
       ${stimulus}${stimulusBlocks}
       <${heading} id="question-heading">${esc(prompt)}</${heading}>
       <fieldset class="choices" aria-labelledby="question-heading"><legend class="visually-hidden">Choose one answer</legend>
@@ -473,6 +502,7 @@ export function resultsPage(
     </header>
     ${attempt.selectionKind === "review" ? '<p class="result-explainer">These results cover only targeted practice. Untested areas are not assessed here.</p>' : ""}
     <section class="result-facts" aria-label="Attempt facts"><div><strong>${result.correct}</strong><span>Correct</span></div><div><strong>${result.incorrect}</strong><span>Incorrect</span></div><div><strong>${result.total - result.answered}</strong><span>Unanswered</span></div><div><strong>${Object.values(attempt.flags || {}).filter(Boolean).length}</strong><span>Flagged</span></div><div><strong>${Object.values(attempt.confidence || {}).filter(Boolean).length}</strong><span>Uncertain</span></div></section>
+    ${skillBreakdownView(result)}
     <section class="result-filters" aria-labelledby="result-filter-title"><div class="section-heading"><h2 id="result-filter-title">Review answers</h2><span>${reviewIds.length} shown of ${attempt.ids.length}</span></div><nav aria-label="Filter review answers">${filterLinks(data, attempt, activeFilters, topicFilter, routes)}</nav>${activeFilters.length ? `${link(clearPath, "Clear filters", "text-link")}` : ""}</section>
     ${reviewIds.length ? `<section class="review-list">${reviewIds.map((id) => resultQuestionView(data, attempt, engine, id, attempt.ids.indexOf(id), currentResultPath, sharePath)).join("")}</section>` : `<div class="empty-state result-empty-state"><h2>No questions match these filters.</h2><p>Choose another filter or clear the current one.</p>${link(clearPath, "Show all answers", "btn secondary")}</div>`}
     ${reviewPlanView(data, attempt, engine, plan, currentResultPath)}

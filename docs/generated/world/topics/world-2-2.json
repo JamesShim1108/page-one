@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -440,7 +440,7 @@
       }
     ]
   },
-  "contentRevision": "e8287f617358cc0b",
+  "contentRevision": "34263467b4208b9f",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-2-2",
@@ -465,7 +465,10 @@
         "id": "state-building",
         "title": "Building power from the steppe",
         "conceptTitle": "Building power from the steppe",
-        "lenses": [],
+        "lenses": [
+          "P",
+          "T"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -501,7 +504,9 @@
         "id": "khanates-rule",
         "title": "One empire, several khanates",
         "conceptTitle": "One empire, several khanates",
-        "lenses": [],
+        "lenses": [
+          "P"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -537,7 +542,10 @@
         "id": "trade-communication",
         "title": "The conditions of exchange",
         "conceptTitle": "The conditions of exchange",
-        "lenses": [],
+        "lenses": [
+          "P",
+          "E"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -573,7 +581,10 @@
         "id": "cultural-transfer",
         "title": "Ideas moved with people",
         "conceptTitle": "Ideas moved with people",
-        "lenses": [],
+        "lenses": [
+          "C",
+          "T"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -609,7 +620,10 @@
         "id": "costs-continuities",
         "title": "Conquest and connection together",
         "conceptTitle": "Conquest and connection together",
-        "lenses": [],
+        "lenses": [
+          "P",
+          "In"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -645,7 +659,13 @@
     "readingGuide": {
       "objectives": "B, C, D",
       "readingLabel": "AMSCO Unit 2, Topic 2.2; use the supplied class reading alongside these original notes",
-      "lenses": [],
+      "lenses": [
+        "In",
+        "P",
+        "E",
+        "C",
+        "T"
+      ],
       "prompts": [
         {
           "id": "world-2-2-reading-01",

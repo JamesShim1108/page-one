@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -440,7 +440,7 @@
       }
     ]
   },
-  "contentRevision": "a920746c5531287d",
+  "contentRevision": "8fa84c74566eea6c",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-2-1",
@@ -465,7 +465,10 @@
         "id": "network-geography",
         "title": "A network, not one road",
         "conceptTitle": "A network, not one road",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "E"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -501,7 +504,10 @@
         "id": "trade-growth",
         "title": "Why exchange grew after 1200",
         "conceptTitle": "Why exchange grew after 1200",
-        "lenses": [],
+        "lenses": [
+          "E",
+          "P"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -537,7 +543,10 @@
         "id": "commercial-practices",
         "title": "Making exchange easier to manage",
         "conceptTitle": "Making exchange easier to manage",
-        "lenses": [],
+        "lenses": [
+          "E",
+          "T"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -573,7 +582,10 @@
         "id": "cities-production",
         "title": "Cities and production at the nodes",
         "conceptTitle": "Cities and production at the nodes",
-        "lenses": [],
+        "lenses": [
+          "E",
+          "S"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -609,7 +621,10 @@
         "id": "exchange-limits",
         "title": "What the network did not guarantee",
         "conceptTitle": "What the network did not guarantee",
-        "lenses": [],
+        "lenses": [
+          "E",
+          "In"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -645,7 +660,13 @@
     "readingGuide": {
       "objectives": "A",
       "readingLabel": "AMSCO Unit 2, Topic 2.1; use the supplied class reading alongside these original notes",
-      "lenses": [],
+      "lenses": [
+        "In",
+        "S",
+        "P",
+        "E",
+        "T"
+      ],
       "prompts": [
         {
           "id": "world-2-1-reading-01",

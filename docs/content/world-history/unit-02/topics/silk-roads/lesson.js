@@ -25,7 +25,7 @@ export const lesson = {
       id: "network-geography",
       title: "A network, not one road",
       conceptTitle: "A network, not one road",
-      lenses: [],
+      lenses: ["In", "E"],
       blocks: [
         {
           type: "paragraph",
@@ -58,7 +58,7 @@ export const lesson = {
       id: "trade-growth",
       title: "Why exchange grew after 1200",
       conceptTitle: "Why exchange grew after 1200",
-      lenses: [],
+      lenses: ["E", "P"],
       blocks: [
         {
           type: "paragraph",
@@ -91,7 +91,7 @@ export const lesson = {
       id: "commercial-practices",
       title: "Making exchange easier to manage",
       conceptTitle: "Making exchange easier to manage",
-      lenses: [],
+      lenses: ["E", "T"],
       blocks: [
         {
           type: "paragraph",
@@ -124,7 +124,7 @@ export const lesson = {
       id: "cities-production",
       title: "Cities and production at the nodes",
       conceptTitle: "Cities and production at the nodes",
-      lenses: [],
+      lenses: ["E", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -157,7 +157,7 @@ export const lesson = {
       id: "exchange-limits",
       title: "What the network did not guarantee",
       conceptTitle: "What the network did not guarantee",
-      lenses: [],
+      lenses: ["E", "In"],
       blocks: [
         {
           type: "paragraph",
@@ -191,7 +191,7 @@ export const lesson = {
     objectives: "A",
     readingLabel:
       "AMSCO Unit 2, Topic 2.1; use the supplied class reading alongside these original notes",
-    lenses: [],
+    lenses: ["In", "S", "P", "E", "T"],
     prompts: [
       {
         id: "world-2-1-reading-01",

@@ -9,9 +9,32 @@ export function stableBlockId(block, sectionId, index) {
 
 function blockExcerpt(block) {
   if (!block || typeof block !== "object") return "";
-  if (block.type === "paragraph" || block.type === "callout") return block.text || "";
+  if (block.type === "paragraph" || block.type === "callout" || block.type === "source")
+    return block.text || "";
   if (block.type === "list") return (block.items || []).join(" ");
   return "";
+}
+
+const SOURCE_LABELS = {
+  primary: "Primary source",
+  secondary: "Secondary source",
+  original: "Practice passage · Written by Page One",
+};
+
+// Mirrors how AP exams introduce a source: who, what, and when above the text,
+// with the published edition below it.
+export function renderSource(block, renderText = esc) {
+  const kind = SOURCE_LABELS[block.sourceType] || "Source";
+  const paragraphs = String(block.text || "")
+    .split(/\n{2,}/)
+    .map((paragraph) => `<p>${renderText(paragraph)}</p>`)
+    .join("");
+  return `<figure class="source-excerpt source-excerpt--${esc(block.sourceType || "primary")}">
+    <figcaption><span class="source-kind">${esc(kind)}</span><span class="source-attribution">${esc(block.attribution)}</span></figcaption>
+    <blockquote>${paragraphs}</blockquote>
+    ${block.citation ? `<p class="source-citation">${esc(block.citation)}</p>` : ""}
+    ${block.note ? `<p class="source-note">${esc(block.note)}</p>` : ""}
+  </figure>`;
 }
 
 function readingAnchor(block, html, sectionId, index, reportContext = null) {
@@ -74,6 +97,9 @@ export function renderBlocks(
           break;
         case "image":
           html = renderImage(block, assets[block.assetId]);
+          break;
+        case "source":
+          html = renderSource(block, renderText);
           break;
         default:
           throw new Error(`Unsupported content block: ${block.type}`);

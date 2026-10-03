@@ -58,6 +58,54 @@ function resultLabel(attempt) {
   return `${correct} / ${ids.length} correct · ${Math.round((correct / Math.max(ids.length, 1)) * 100)}%${answered < ids.length ? ` · ${ids.length - answered} unanswered` : ""}`;
 }
 
+// Combines per-attempt skill tallies. Questions can repeat across attempts, so
+// this describes practice in this browser rather than a calibrated estimate.
+export function skillTotals(attempts = []) {
+  const totals = new Map();
+  for (const attempt of attempts) {
+    if (attempt.status !== "complete" && !attempt.complete) continue;
+    for (const [id, skill] of Object.entries(attempt.skills || {})) {
+      const total = totals.get(id) || {
+        id,
+        label: skill.label || id,
+        code: skill.code || "",
+        correct: 0,
+        total: 0,
+        attempts: 0,
+      };
+      total.correct += Number(skill.correct) || 0;
+      total.total += Number(skill.total) || 0;
+      total.attempts += 1;
+      totals.set(id, total);
+    }
+  }
+  return [...totals.values()]
+    .filter((item) => item.total > 0)
+    .sort(
+      (left, right) =>
+        String(left.code).localeCompare(String(right.code), undefined, {
+          numeric: true,
+        }) || left.label.localeCompare(right.label),
+    );
+}
+
+function skillTotalsView(attempts, courseId) {
+  if (!courseId) return "";
+  const totals = skillTotals(attempts);
+  if (!totals.length) return "";
+  const weakest = totals
+    .filter((item) => item.total >= 4)
+    .sort((left, right) => left.correct / left.total - right.correct / right.total)[0];
+  return `<section class="skill-breakdown history-skills" aria-labelledby="history-skills-title"><div class="section-heading"><h2 id="history-skills-title">AP skills across completed attempts</h2><span>This browser only</span></div><div class="table-wrap" role="region" tabindex="0" aria-label="Skill accuracy across attempts"><table><thead><tr><th scope="col">Skill</th><th scope="col">Correct</th><th scope="col">Accuracy</th><th scope="col">Attempts</th></tr></thead><tbody>${totals
+    .map((item) => {
+      const percent = Math.round((item.correct / item.total) * 100);
+      return `<tr><th scope="row">${item.code ? `<span class="skill-code">${esc(item.code)}</span> ` : ""}${esc(item.label)}</th><td>${item.correct} / ${item.total}</td><td><span class="skill-bar" aria-hidden="true"><span style="width:${percent}%"></span></span>${percent}%</td><td>${item.attempts}</td></tr>`;
+    })
+    .join(
+      "",
+    )}</tbody></table></div><p class="muted">${weakest ? `Lowest so far with at least four answers: <strong>${esc(weakest.label)}</strong>. ` : ""}Repeated questions count each time they are answered, so treat this as a practice record, not a score prediction.</p></section>`;
+}
+
 export function historyPage({ courses = [], attempts = [], courseId = "", quizId = "" }) {
   const course = courses.find((item) => item.id === courseId);
   const filtered = attempts.filter(
@@ -99,6 +147,7 @@ export function historyPage({ courses = [], attempts = [], courseId = "", quizId
         ),
       )
       .join("")}</nav>
+    ${skillTotalsView(filtered, courseId)}
     <p class="history-limit-note">Different question sets are shown separately and are not compared automatically.</p>
     ${
       rows.length

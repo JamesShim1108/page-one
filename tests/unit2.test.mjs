@@ -206,12 +206,29 @@ test("guide, network explorer, activities, and writing inventory survive generat
   assert.equal(writing.filter((quiz) => quiz.exerciseType === "leq").length, 3);
   assert.equal(writing.filter((quiz) => quiz.exerciseType === "skill").length, 4);
   const dbq = writing.find((quiz) => quiz.exerciseType === "dbq");
-  assert.equal(dbq.availability, "blocked");
+  assert.equal(dbq.availability, "available");
   assert.equal(dbq.documents.length, 7);
-  assert.ok(dbq.documents.every((document) => document.status === "blocked"));
+  for (const document of dbq.documents) {
+    assert.equal(document.status, "verified");
+    assert.ok(document.attribution && document.citation && document.content);
+    assert.doesNotMatch(document.content, /withheld|unresolved/i);
+  }
+  // Official AP DBQ point structure: 1 + 1 + 2 + 1 + 1 + 1.
+  assert.deepEqual(
+    Object.fromEntries(dbq.rubric.map((criterion) => [criterion.id, criterion.points])),
+    { thesis: 1, context: 1, documents: 2, outside: 1, sourcing: 1, complexity: 1 },
+  );
+  const saqs = writing.filter((quiz) => quiz.exerciseType === "saq");
+  assert.ok(saqs.some((quiz) => quiz.stimulusBlocks?.[0]?.sourceType === "primary"));
+  assert.ok(saqs.some((quiz) => quiz.stimulusBlocks?.[0]?.sourceType === "original"));
+  assert.ok(saqs.some((quiz) => !quiz.stimulusBlocks?.length));
+  const modelTexts = saqs.flatMap((quiz) =>
+    quiz.parts.map((part) => `${part.model.answer} ${part.model.prove}`),
+  );
   assert.equal(
-    dbq.rubric.reduce((sum, criterion) => sum + criterion.points, 0),
-    7,
+    new Set(modelTexts).size,
+    modelTexts.length,
+    "SAQ models must be distinct",
   );
 });
 
@@ -248,8 +265,28 @@ test("Unit 2 lesson rendering omits empty vocabulary navigation while Unit 1 ret
   assert.equal(unit1Html.includes("Key terms"), true);
 });
 
-test("blocked DBQ routes do not expose a writable document packet", async () => {
+test("released DBQ renders seven sourced documents in exam order", async () => {
   const data = await readGenerated("world/writing/world-2-dbq-connectivity.json");
+  const engine = createWritingEngine(data.quiz);
+  const store = {
+    engine,
+    draft: engine.newDraft(),
+    storageState: "saved",
+    checkpoints: [],
+    recoveryRecords: [],
+    canMapRecovery: () => false,
+  };
+  const html = writingPage(data, store);
+  for (let number = 1; number <= 7; number += 1)
+    assert.match(html, new RegExp(`<h3>Document ${number}</h3>`));
+  assert.equal((html.match(/class="source-citation"/g) || []).length, 7);
+  assert.doesNotMatch(html, /not released/i);
+});
+
+test("blocked DBQ routes do not expose a writable document packet", async () => {
+  const generated = await readGenerated("world/writing/world-2-dbq-connectivity.json");
+  // Exercise the release gate with a blocked copy of the real packet.
+  const data = { ...generated, quiz: { ...generated.quiz, availability: "blocked" } };
   const html = writingPage(data, null);
   assert.match(html, /document packet is not released/i);
   assert.equal(html.includes("<textarea"), false);

@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -436,19 +436,19 @@
     "unitId": "world-2",
     "title": "Unit 2 LEQ: Comparing networks",
     "headline": "Comparing networks",
-    "promptTitle": "Original Page One Unit 2 writing practice",
+    "promptTitle": "Long essay question",
     "prompt": "Evaluate the similarities and differences in how two networks of exchange shaped economic and cultural life from 1200 to 1450.",
-    "instructions": "Plan a defensible argument, then write one organized essay. This is a narrower Unit 2 practice task, not a full exam simulation.",
-    "note": "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed Unit 2 practice in AP long-essay format, not a full exam simulation.",
+    "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
     "exerciseType": "leq",
     "sourceIds": [
-      "amsco-unit-2",
-      "ced-topic-2-7"
+      "ced-topic-2-7",
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Unit 2 supplied reading / verified classroom locator"
+        "sourceId": "ced-topic-2-7",
+        "locator": "Topic 2.7 learning objectives"
       }
     ],
     "responseFields": [
@@ -463,7 +463,7 @@
           {
             "topicId": "world-2-7",
             "sectionId": "comparison-framework",
-            "label": "Review the relevant lesson"
+            "label": "How to compare historically"
           }
         ]
       },
@@ -478,7 +478,7 @@
           {
             "topicId": "world-2-7",
             "sectionId": "arguing-with-evidence",
-            "label": "Review evidence-based comparison"
+            "label": "From comparison to argument"
           }
         ]
       }
@@ -488,52 +488,70 @@
         "id": "thesis",
         "label": "Thesis",
         "points": 1,
-        "guidance": "Makes a defensible claim that answers the prompt and establishes a line of reasoning."
+        "guidance": "Responds to the prompt with a historically defensible thesis or claim that establishes a line of reasoning."
       },
       {
         "id": "context",
         "label": "Contextualization",
         "points": 1,
-        "guidance": "Explains a broader development that is relevant to the prompt and occurs before, during, or across the period."
+        "guidance": "Describes a broader historical context relevant to the prompt: developments before, during, or continuing after the period."
       },
       {
         "id": "evidence",
         "label": "Evidence",
         "points": 2,
-        "guidance": "Uses specific evidence to support the argument; two points require more than one relevant example used as support."
+        "guidance": "1 point: provides at least two specific historical examples relevant to the prompt. 2 points: uses specific and relevant examples to support an argument in response to the prompt."
       },
       {
         "id": "analysis",
         "label": "Analysis and reasoning",
         "points": 2,
-        "guidance": "Uses comparison, causation, or continuity/change reasoning and connects evidence to the claim with qualification where appropriate."
+        "guidance": "1 point: uses comparison, causation, or continuity and change to frame or structure the argument. 2 points: demonstrates a complex understanding, for example by explaining multiple causes, weighing similarities and differences, or using evidence to qualify or modify the argument."
       }
-    ],
-    "modelResponse": "Annotated model for comparison: a defensible thesis names the relationship under evaluation; contextualization places the network in earlier Afro-Eurasian exchange; evidence uses specific places, institutions, or communities; analysis explains how geography, demand, politics, or culture produced the pattern and qualifies variation.",
-    "alternateModel": "Another defensible route could center a different network or causal factor if it remains within 1200–1450, uses specific evidence, and explains why the evidence answers the prompt.",
-    "commonErrors": [
-      "Listing three networks without a comparative or causal claim.",
-      "Using a famous example without explaining its relevance.",
-      "Treating the networks as sealed or uniform systems.",
-      "Using post-1450 European expansion as the main evidence."
     ],
     "scaffold": [
       {
         "label": "Claim",
-        "text": "Answer the prompt and establish a line of reasoning."
+        "text": "Answer the prompt and preview your line of reasoning."
       },
       {
         "label": "Context",
-        "text": "Place the development in wider Afro-Eurasian history."
+        "text": "Describe a broader development before or during the period."
       },
       {
         "label": "Evidence",
-        "text": "Choose specific examples and explain their relevance."
+        "text": "Use at least two specific examples, and explain each one."
       },
       {
         "label": "Reasoning",
-        "text": "Show why the evidence proves the claim and where it needs qualification."
+        "text": "Structure the essay around the reasoning process and qualify your claim."
       }
+    ],
+    "modelResponse": "Long before 1200, merchants crossed the Sahara by camel and sailed the Indian Ocean with the monsoon winds. In the centuries after 1200, both networks grew as states such as Mali and the Swahili city-states drew revenue from trade and as Islam, already established in North Africa and Arabia, spread along commercial routes.\n\nThe trans-Saharan and Indian Ocean networks shaped economic and cultural life in similar ways, enriching trade-based states and spreading Islam among merchants and rulers. However, the Indian Ocean's maritime geography produced more diverse port communities and a broader range of goods than the desert routes.\n\nEconomically, both networks allowed states to grow rich by controlling and taxing trade. Mali's rulers taxed the gold that moved north and the salt that moved south, and Mansa Musa's pilgrimage of 1324–1325 displayed wealth so great that it was remembered in Cairo for years. On the Swahili coast, Kilwa grew wealthy as a link between Indian Ocean merchants and the gold of the southern African interior. In both cases, rulers gained power not by producing most goods themselves but by controlling where goods changed hands.\n\nCulturally, both networks spread Islam first among elites and traders. Muslim merchants and scholars crossed the Sahara, and by the 1300s Timbuktu had become a center of Islamic learning supported by Mali's rulers. Along the Swahili coast, mosques were built in coral stone, and Swahili absorbed many Arabic words. Yet in both regions many rural people kept local religious practices, so Islam's spread was real but uneven.\n\nThe networks differed in what geography made possible. Ships carried far larger loads than camel caravans, so Indian Ocean trade included bulk goods such as cotton cloth and timber, while trans-Saharan trade concentrated on gold, salt, and other goods valuable enough to justify desert transport. The monsoon calendar also kept merchants in port for months, producing diaspora communities of Arabs, Persians, Indians, and Chinese in cities from Kilwa to Malacca. Caravan cities such as Timbuktu were cosmopolitan too, but they drew mainly on North African and West African traders.\n\nIn conclusion, both networks tied economic power to the control of trade and spread Islam through merchants, but the Indian Ocean's maritime environment created a wider mix of goods and peoples than the desert routes could support.",
+    "modelNotes": [
+      {
+        "label": "Contextualization",
+        "text": "The first paragraph describes earlier trade and the spread of Islam before 1200, setting up the comparison."
+      },
+      {
+        "label": "Thesis",
+        "text": "The second paragraph names a similarity and a difference and gives reasons for each, establishing a line of reasoning."
+      },
+      {
+        "label": "Evidence",
+        "text": "Specific examples (Mali's gold and salt taxes, Mansa Musa's pilgrimage, Kilwa, Timbuktu, coral-stone mosques, Swahili vocabulary) support the argument rather than being listed."
+      },
+      {
+        "label": "Analysis and reasoning",
+        "text": "The essay is organized by comparison and explains why the networks differed. Noting that Islam's spread was uneven, and that caravan cities were also cosmopolitan, qualifies the argument and shows complexity."
+      }
+    ],
+    "alternateModel": "A different strong essay could compare the Silk Roads and the Indian Ocean, arguing that both depended on state protection but that Mongol political unity mattered more to overland trade than to maritime trade, which relied on many small states.",
+    "commonErrors": [
+      "Describing one network, then the other, without ever making a direct comparison.",
+      "Listing famous examples without explaining what they show.",
+      "Treating the networks as sealed systems that never overlapped.",
+      "Using post-1450 European voyages as the main evidence."
     ]
   }
 }

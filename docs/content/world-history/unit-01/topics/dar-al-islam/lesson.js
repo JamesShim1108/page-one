@@ -27,7 +27,7 @@ export const lesson = {
       id: "islam-states",
       title: "One religious world, several governments",
       conceptTitle: "States and political change",
-      lenses: [],
+      lenses: ["P"],
       blocks: [
         {
           type: "paragraph",
@@ -53,7 +53,7 @@ export const lesson = {
       id: "islam-beliefs",
       title: "Belief shaped daily life and social rules",
       conceptTitle: "Religion and society",
-      lenses: [],
+      lenses: ["C", "S"],
       blocks: [
         {
           type: "paragraph",
@@ -83,7 +83,7 @@ export const lesson = {
       id: "islam-spread",
       title: "Trade carried more than goods",
       conceptTitle: "Trade and the spread of Islam",
-      lenses: [],
+      lenses: ["C", "E"],
       blocks: [
         {
           type: "paragraph",
@@ -109,7 +109,7 @@ export const lesson = {
       id: "islam-learning",
       title: "Scholars developed knowledge as well as preserving it",
       conceptTitle: "Learning and innovation",
-      lenses: [],
+      lenses: ["C", "T"],
       blocks: [
         {
           type: "paragraph",
@@ -135,7 +135,7 @@ export const lesson = {
       id: "islam-exchange",
       title: "Ideas moved across languages and religions",
       conceptTitle: "Intellectual exchange",
-      lenses: [],
+      lenses: ["C", "E"],
       blocks: [
         {
           type: "paragraph",

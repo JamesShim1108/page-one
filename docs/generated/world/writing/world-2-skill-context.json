@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -436,34 +436,33 @@
     "unitId": "world-2",
     "title": "Unit 2 skill drill: Distinguish relevant wider context from a restatement of the prompt.",
     "headline": "Distinguish relevant wider context from a restatement of the prompt.",
-    "promptTitle": "Original Page One Unit 2 writing practice",
+    "promptTitle": "Skill drill: contextualization",
     "prompt": "Write two sentences of context for a prompt about exchange growth after 1200.",
-    "instructions": "Write a short response, reveal the worked feedback, and revise. This checklist is practice and does not produce an official AP score.",
-    "note": "Original Page One practice. Rubric feedback is self-assessment, not official College Board scoring.",
+    "instructions": "Write a short response, then open the worked example and compare. This checklist is practice and does not produce an official AP score.",
+    "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
     "exerciseType": "skill",
     "sourceIds": [
-      "amsco-unit-2",
       "ced-topic-2-1",
-      "class-tang-song-mongols"
+      "amsco-unit-2"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Unit 2 supplied reading / verified classroom locator"
+        "sourceId": "ced-topic-2-1",
+        "locator": "Topic 2.1 learning objectives"
       }
     ],
     "responseFields": [
       {
         "id": "response",
         "label": "Your response",
-        "prompt": "Write your revised response and explain the reasoning.",
+        "prompt": "Write two sentences of context and connect them to the prompt.",
         "required": true,
         "rows": 8,
         "review": [
           {
             "topicId": "world-2-1",
             "sectionId": "trade-growth",
-            "label": "Review the lesson"
+            "label": "Why exchange grew after 1200"
           }
         ]
       }
@@ -473,34 +472,30 @@
         "id": "checklist",
         "label": "Skill checklist",
         "points": 1,
-        "guidance": "The response completes the named skill and explains why the move improves the argument."
+        "guidance": "The context describes a broader development before or during the period and explains how it relates to the prompt."
       }
     ],
-    "modelResponse": "Worked feedback: the response should make the context move visible, use a specific Unit 2 example, and explain why that move strengthens the argument.",
-    "alternateModel": "Another answer can work when it performs the same skill with a different accurate example.",
+    "modelResponse": "Worked example: “Before 1200, the Tang dynasty and the Abbasid caliphate had built routes, cities, and commercial practices that connected much of Asia, but by the 1100s both had fallen or weakened, leaving trade to smaller states. This background helps explain why the Mongol conquests of the 1200s, which united much of Eurasia under related rulers, could revive and extend older routes so quickly.”\n\nWhy it works: the first sentence describes a broader development before the period, and the second connects it directly to the prompt. It does not simply restate that trade grew.",
+    "alternateModel": "Context could also describe the earlier spread of Islam through North Africa and the Indian Ocean, which created merchant communities that later networks relied on.",
     "commonErrors": [
-      "Repeating the prompt without making a claim.",
-      "Naming a fact without connecting it to the argument.",
-      "Treating one observer or region as representative of everyone."
+      "Restating the prompt as context.",
+      "Describing a development without connecting it to the prompt.",
+      "Using a development from long after 1450."
     ],
     "scaffold": [
       {
-        "label": "Draft",
-        "text": "Write the first version."
+        "label": "Before",
+        "text": "Describe a broader development before or during the period."
       },
       {
-        "label": "Check",
-        "text": "Use the checklist to locate the reasoning move."
-      },
-      {
-        "label": "Revise",
-        "text": "Make the claim, evidence, or sourcing explanation explicit."
+        "label": "Connect",
+        "text": "Explain how it shaped the topic in the prompt."
       }
     ],
     "checklist": [
-      "Names the requested reasoning move.",
-      "Uses a specific and accurate Unit 2 example.",
-      "Explains why the move supports the argument."
+      "Describes a specific broader development.",
+      "Places it in time before or during the period.",
+      "Explains how it relates to the prompt."
     ]
   }
 }

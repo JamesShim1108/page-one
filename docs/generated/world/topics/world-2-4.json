@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -440,7 +440,7 @@
       }
     ]
   },
-  "contentRevision": "2574a46ea13b081f",
+  "contentRevision": "a78e360cef872a7c",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-2-4",
@@ -465,7 +465,10 @@
         "id": "desert-logistics",
         "title": "Crossing an arid environment",
         "conceptTitle": "Crossing an arid environment",
-        "lenses": [],
+        "lenses": [
+          "In",
+          "T"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -501,7 +504,10 @@
         "id": "goods-intermediaries",
         "title": "Gold, salt, and intermediaries",
         "conceptTitle": "Gold, salt, and intermediaries",
-        "lenses": [],
+        "lenses": [
+          "E",
+          "S"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -537,7 +543,10 @@
         "id": "mali-state-trade",
         "title": "Mali and the political economy of trade",
         "conceptTitle": "Mali and the political economy of trade",
-        "lenses": [],
+        "lenses": [
+          "P",
+          "E"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -573,7 +582,10 @@
         "id": "musa-learning",
         "title": "Mansa Musa, pilgrimage, and patronage",
         "conceptTitle": "Mansa Musa, pilgrimage, and patronage",
-        "lenses": [],
+        "lenses": [
+          "C",
+          "P"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -609,7 +621,10 @@
         "id": "accounts-local-life",
         "title": "Reading traveler accounts",
         "conceptTitle": "Reading traveler accounts",
-        "lenses": [],
+        "lenses": [
+          "C",
+          "S"
+        ],
         "blocks": [
           {
             "type": "paragraph",
@@ -645,7 +660,14 @@
     "readingGuide": {
       "objectives": "H, I",
       "readingLabel": "AMSCO Unit 2, Topic 2.4; use the supplied class reading alongside these original notes",
-      "lenses": [],
+      "lenses": [
+        "In",
+        "S",
+        "P",
+        "E",
+        "C",
+        "T"
+      ],
       "prompts": [
         {
           "id": "world-2-4-reading-01",

@@ -194,6 +194,18 @@
   font-size: 1.05rem;
 }
 
+.print-source {
+  margin: 0.75rem 0;
+  break-inside: avoid;
+}
+
+.print-source blockquote {
+  margin: 0.4rem 0;
+  padding: 0.4rem 1rem;
+  border-left: 3px solid var(--print-ink);
+  font-size: 0.95rem;
+}
+
 .print-stimulus {
   margin: 0.75rem 0;
   padding: 0.7rem 1rem;

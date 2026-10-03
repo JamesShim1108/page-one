@@ -346,7 +346,7 @@
         "title": "Unit 2 DBQ: Connectivity and consequences",
         "partCount": 8,
         "exerciseType": "dbq",
-        "availability": "blocked"
+        "availability": "available"
       },
       {
         "id": "world-2-skill-thesis",
@@ -431,124 +431,140 @@
   },
   "quiz": {
     "id": "world-2-saq-05",
-    "version": 1,
+    "version": 2,
     "courseId": "world",
     "unitId": "world-2",
     "title": "Unit 2 SAQ 05",
-    "headline": "Travelers as sources",
-    "promptTitle": "Original AP-style Unit 2 source practice",
-    "prompt": "A merchant and a pilgrim describe the same broad region but emphasize different features. Explain how point of view or purpose affects what each account can show.",
-    "instructions": "Read the short source context, then answer all three parts. Write a direct answer, use specific evidence, and explain how the evidence supports your answer. This is self-assessment practice, not official College Board scoring.",
-    "note": "Original Page One practice using source-based prompts. Unit 2 practice is not a full AP exam simulation.",
+    "headline": "Two travelers in Quanzhou",
+    "promptTitle": "Paired primary-source short-answer question",
+    "prompt": "Use the two passages below to answer all parts of the question.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
+    "stimulusBlocks": [
+      {
+        "id": "polo-zayton",
+        "type": "source",
+        "sourceType": "primary",
+        "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
+        "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
+        "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
+        "text": "At this city you must know is the Haven of Zayton, frequented by all the ships of India, which bring thither spicery and all other kinds of costly wares. . . . And I assure you that for one shipload of pepper that goes to Alexandria or elsewhere, destined for Christendom, there come a hundred such, aye and more too, to this haven of Zayton; for it is one of the two greatest havens in the world for commerce.\n\nThe Great Kaan derives a very large revenue from the duties paid in this city and haven; for you must know that on all the merchandize imported, including precious stones and pearls, he levies a duty of ten per cent., or in other words takes tithe of everything."
+      },
+      {
+        "id": "battuta-zaytun",
+        "type": "source",
+        "sourceType": "primary",
+        "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his arrival at Quanzhou, China, c. 1345",
+        "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 12. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 310.",
+        "note": "Zaytun is Quanzhou. A qadi is a Muslim judge. Tabriz is a city in northwestern Iran.",
+        "text": "I received visits from the qadi of the Muslims, the shaykh al-Islam, and the principal merchants. Amongst the latter was Sharaf ad-Din of Tabriz, one of the merchants from whom I had borrowed at the time of my arrival in India, and the one who had treated me most fairly. He knew the Koran by heart and used to recite it constantly. These merchants, living as they do in a land of infidels, are overjoyed when a Muslim comes to them. They say \"He has come from the land of Islam,\" and they make him the recipient of the tithes on their properties, so that he becomes as rich as themselves."
+      }
+    ],
     "scaffold": [
       {
         "label": "Answer",
-        "text": "Respond directly to the verb in the question."
+        "text": "Respond directly to the task verb: identify, describe, or explain."
       },
       {
         "label": "Prove",
-        "text": "Use one specific historical example or detail from the source context."
+        "text": "Name a specific person, place, institution, or development."
       },
       {
         "label": "Explain",
-        "text": "Connect the evidence to the historical claim."
+        "text": "Show how or why the evidence answers the question."
       }
     ],
     "parts": [
       {
         "id": "a",
-        "lenses": [],
-        "prompt": "Explain the central historical relationship in the prompt.",
+        "lenses": [
+          "E"
+        ],
+        "prompt": "Identify ONE similarity in how the two passages portray Quanzhou (Zayton).",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a feature both passages share.",
+          "Supports it with a detail from each passage."
         ],
         "model": {
-          "answer": "Explain the central historical relationship in the prompt. A strong response would connect the source context to traveler sourcing.",
-          "prove": "For example, the source context points to traveler sourcing and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Both passages portray Quanzhou as a port connected to distant regions.",
+          "prove": "Polo says the ships of India brought spices there, and Ibn Battuta meets a merchant from Tabriz whom he had borrowed from in India.",
+          "explain": "Both show a city tied into Indian Ocean trade that reached far beyond China."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Noting that both describe wealthy merchants, or that both show foreigners doing business in the city, also works with support from each passage.",
         "review": [
           {
-            "topicId": "world-2-5",
-            "sectionId": "beliefs-adaptation",
-            "label": "Traveler sourcing"
+            "topicId": "world-2-3",
+            "sectionId": "ports-products",
+            "label": "Specialized goods and ports"
           }
         ]
       },
       {
         "id": "b",
-        "lenses": [],
-        "prompt": "Use one specific piece of evidence from the source context or the Unit 2 readings.",
+        "lenses": [
+          "C"
+        ],
+        "prompt": "Explain ONE way the authors' different backgrounds shaped what each passage emphasizes.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Identifies a relevant feature of each author's background or purpose.",
+          "Connects each to a specific emphasis in that author's passage."
         ],
         "model": {
-          "answer": "Use one specific piece of evidence from the source context or the Unit 2 readings. A strong response would connect the source context to traveler sourcing.",
-          "prove": "For example, the source context points to traveler sourcing and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "Polo, a Venetian merchant, emphasizes trade volume and revenue, while Ibn Battuta, a Muslim scholar, emphasizes the Muslim community and its religious life.",
+          "prove": "Polo compares pepper shipments with those to Alexandria and reports the emperor's ten percent duty; Ibn Battuta names the qadi and the shaykh al-Islam and notes a merchant who recited the Koran.",
+          "explain": "Each writer noticed what his own experience and readers valued, so together the passages give a fuller picture of the port than either does alone."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Answers can also explain audience: Polo wrote for Christian Europeans who knew Alexandria, while Ibn Battuta wrote for Muslim readers in Morocco.",
         "review": [
           {
             "topicId": "world-2-5",
-            "sectionId": "beliefs-adaptation",
-            "label": "Traveler sourcing"
+            "sectionId": "travelers-sourcing",
+            "label": "Travelers are evidence with viewpoints"
           }
         ]
       },
       {
         "id": "c",
-        "lenses": [],
-        "prompt": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate.",
+        "lenses": [
+          "E",
+          "S"
+        ],
+        "prompt": "Explain ONE way these passages reflect broader patterns of exchange in the period 1200–1450.",
         "criteria": [
-          "Answers the historical task directly.",
-          "Uses a specific and accurate Unit 2 example.",
-          "Explains the connection between evidence and the claim."
+          "Names a broader pattern beyond Quanzhou.",
+          "Uses specific evidence from another place or development."
         ],
         "model": {
-          "answer": "Explain why the evidence supports the answer and identify a limitation or variation where appropriate. A strong response would connect the source context to traveler sourcing.",
-          "prove": "For example, the source context points to traveler sourcing and the Unit 2 reading explains its historical mechanism.",
-          "explain": "That evidence matters because it shows how people, institutions, geography, or technology shaped the larger process rather than merely naming a fact."
+          "answer": "The passages show how merchant diasporas made long-distance trade work.",
+          "prove": "Muslim merchants had lived in Chinese ports since the Tang dynasty, and similar communities existed in Calicut, Kilwa, and Malacca.",
+          "explain": "Shared religion, family ties, and credit, like the loan Ibn Battuta mentions, built the trust that let merchants trade across thousands of miles."
         },
-        "alternatives": "Other specific, accurate examples can work when they answer the same task and explain the relationship.",
+        "alternatives": "Answers can also connect Polo's account of import duties to other states that taxed trade, such as Malacca or Mali.",
         "review": [
           {
-            "topicId": "world-2-5",
-            "sectionId": "beliefs-adaptation",
-            "label": "Traveler sourcing"
+            "topicId": "world-2-3",
+            "sectionId": "diaspora-communities",
+            "label": "Communities across the water"
           }
         ]
       }
     ],
     "sourceIds": [
-      "amsco-unit-2",
-      "ced-topic-2-5",
-      "amsco-unit-1"
+      "polo-yule-1903",
+      "battuta-gibb-1929",
+      "ced-topic-2-3",
+      "ced-topic-2-5"
     ],
     "sourceLocators": [
       {
-        "sourceId": "amsco-unit-2",
-        "locator": "Supplied AMSCO Unit 2 Topic 5 pages"
+        "sourceId": "polo-yule-1903",
+        "locator": "vol. 2, Book II, ch. 82"
       },
       {
-        "sourceId": "ced-topic-2-5",
-        "locator": "Official CED Topic 5"
+        "sourceId": "battuta-gibb-1929",
+        "locator": "ch. 12, Zaytun; scan p. 310"
       }
-    ],
-    "sourceContext": {
-      "label": "Original source context",
-      "text": "This source context is an original Page One teaching scenario grounded in the cited Unit 2 readings. It is not a quotation from a historical person. Focus on the historical mechanism described in the prompt.",
-      "sourceIds": [
-        "amsco-unit-2",
-        "ced-topic-2-5",
-        "amsco-unit-1"
-      ]
-    },
-    "exerciseType": "saq"
+    ]
   }
 }
