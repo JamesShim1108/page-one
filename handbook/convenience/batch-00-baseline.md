@@ -19,29 +19,29 @@ No `AGENTS.md` file was found in the repository or its parent workspace during t
 
 The inspected `package.json` scripts are:
 
-| Command | Purpose |
-|---|---|
-| `npm run build` | Build generated content |
-| `npm run validate` | Build/check generated content |
-| `npm test` | Run `tests/*.test.mjs` |
-| `npm run format:check` | Check Prettier formatting |
-| `npm run check` | Validate, run all tests, and check formatting |
-| `npm run image` | Prepare an image asset |
+| Command                | Purpose                                       |
+| ---------------------- | --------------------------------------------- |
+| `npm run build`        | Build generated content                       |
+| `npm run validate`     | Build/check generated content                 |
+| `npm test`             | Run `tests/*.test.mjs`                        |
+| `npm run format:check` | Check Prettier formatting                     |
+| `npm run check`        | Validate, run all tests, and check formatting |
+| `npm run image`        | Prepare an image asset                        |
 
 The series should use targeted tests for each batch and any repository-required gate. It should not run every test after every small edit merely for volume. Existing failures must be recorded before attribution.
 
 ## Current architecture relevant to the series
 
-| Area | Inspected locations |
-|---|---|
-| Build/discovery/validation | `scripts/build-content.mjs`, `scripts/lib/validate.mjs`, `scripts/lib/glossary.mjs`, `scripts/lib/terms.mjs` |
-| Runtime routing/loading | `docs/app/router.js`, `docs/app/content-store.js`, `docs/app/main.js` |
-| Reading/definitions | `docs/app/blocks.js`, `docs/app/views/lesson.js`, `docs/app/views/guide.js`, `docs/app/concepts/` |
-| Quiz | `docs/app/quiz/engine.js`, `store.js`, `controller.js`, `views.js` |
-| Terms | `docs/app/terms/engine.js`, `store.js`, `controller.js`, `views.js` |
-| Writing | `docs/app/writing/engine.js`, `store.js`, `controller.js`, `views.js` |
-| Catalog/course shell | `docs/app/views/catalog.js`, `docs/content/algebra-2/course.js` |
-| Existing tests | `tests/concepts.test.mjs`, `content-system.test.mjs`, `critical-spec.test.mjs`, `terms.test.mjs`, `unit2.test.mjs` |
+| Area                       | Inspected locations                                                                                                |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Build/discovery/validation | `scripts/build-content.mjs`, `scripts/lib/validate.mjs`, `scripts/lib/glossary.mjs`, `scripts/lib/terms.mjs`       |
+| Runtime routing/loading    | `docs/app/router.js`, `docs/app/content-store.js`, `docs/app/main.js`                                              |
+| Reading/definitions        | `docs/app/blocks.js`, `docs/app/views/lesson.js`, `docs/app/views/guide.js`, `docs/app/concepts/`                  |
+| Quiz                       | `docs/app/quiz/engine.js`, `store.js`, `controller.js`, `views.js`                                                 |
+| Terms                      | `docs/app/terms/engine.js`, `store.js`, `controller.js`, `views.js`                                                |
+| Writing                    | `docs/app/writing/engine.js`, `store.js`, `controller.js`, `views.js`                                              |
+| Catalog/course shell       | `docs/app/views/catalog.js`, `docs/content/algebra-2/course.js`                                                    |
+| Existing tests             | `tests/concepts.test.mjs`, `content-system.test.mjs`, `critical-spec.test.mjs`, `terms.test.mjs`, `unit2.test.mjs` |
 
 Important observations: quiz, writing, and Terms stores currently use tab-scoped `sessionStorage`; the route loader already guards against stale asynchronous loads; Terms already preserves a frozen filtered round and saved order; the definition system already has a shared controller/positioner; and Algebra 2 is an empty `soon` shell. These are facts to preserve or evolve deliberately, not permission to rewrite the architecture.
 
