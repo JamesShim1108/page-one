@@ -281,7 +281,7 @@
   background: var(--paper);
 }
 .writing-part textarea.writing-too-long,
-.writing-part textarea:invalid {
+.writing-part textarea:user-invalid {
   border-color: var(--red, #9a3d2f);
 }
 .writing-field-meta {

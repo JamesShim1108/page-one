@@ -26,6 +26,7 @@ const STATIC_READING_RESOURCES = Object.freeze([
   "styles/share.css",
   "styles/study.css",
   "styles/terms.css",
+  "styles/mobile.css",
   "styles/tokens.css",
   "service-worker.js",
   "app/backup/controller.js",

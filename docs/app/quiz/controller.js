@@ -61,7 +61,7 @@ export function createQuizController(
           ? pathFor("results", current.quizId, current.attemptId)
           : pathFor("quiz", current.quizId, current.attemptId),
         courseId: data.course?.id || current.courseId,
-        title: data.quiz.title,
+        title: engine.quizById?.[current.quizId]?.title || data.quiz?.title || "Practice",
         detail: complete ? "View results" : `Question ${position} of ${total}`,
         active: current.status === "active" && !complete,
         status: complete ? "complete" : current.status,

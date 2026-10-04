@@ -10,15 +10,89 @@
       content="Free lessons, key terms, and practice in one place. Choose a course, understand the concepts, and find what to review next. No signup required."
     />
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./styles.css?v=20260918-concepts" />
-    <script type="module" src="./app/main.js?v=20260918-fit"></script>
+    <link rel="stylesheet" href="./styles.css?v=eb6ad16a03" />
+    <script type="importmap">
+      {
+        "imports": {
+          "./app/backup/controller.js": "./app/backup/controller.js?v=4ec1f814bd",
+          "./app/backup/format.js": "./app/backup/format.js?v=5fa6aecf83",
+          "./app/backup/views.js": "./app/backup/views.js?v=5f50c32822",
+          "./app/blocks.js": "./app/blocks.js?v=efb74fcbe9",
+          "./app/carousel.js": "./app/carousel.js?v=4e2e252631",
+          "./app/concepts/controller.js": "./app/concepts/controller.js?v=9b0115867b",
+          "./app/concepts/position.js": "./app/concepts/position.js?v=f6cfa9f267",
+          "./app/concepts/text.js": "./app/concepts/text.js?v=0f12f0e704",
+          "./app/content-store.js": "./app/content-store.js?v=b590e3a743",
+          "./app/history.js": "./app/history.js?v=2f562edf60",
+          "./app/main.js": "./app/main.js?v=b2ef84d19b",
+          "./app/navigation-context.js": "./app/navigation-context.js?v=c7fdf138e6",
+          "./app/offline/controller.js": "./app/offline/controller.js?v=60eaa31389",
+          "./app/offline/pack.js": "./app/offline/pack.js?v=b9c1e45329",
+          "./app/offline/route.js": "./app/offline/route.js?v=aa5ad908cd",
+          "./app/offline/views.js": "./app/offline/views.js?v=d86e1008fe",
+          "./app/print/controller.js": "./app/print/controller.js?v=79f5de0d14",
+          "./app/print/renderer.js": "./app/print/renderer.js?v=79004be96e",
+          "./app/print/selection.js": "./app/print/selection.js?v=391d161233",
+          "./app/quiz/controller.js": "./app/quiz/controller.js?v=d42384d6b2",
+          "./app/quiz/engine.js": "./app/quiz/engine.js?v=b7aa06811c",
+          "./app/quiz/store.js": "./app/quiz/store.js?v=6d40992127",
+          "./app/quiz/views.js": "./app/quiz/views.js?v=e0c381c771",
+          "./app/reading/controller.js": "./app/reading/controller.js?v=c3f2ed58ed",
+          "./app/reading/marks.js": "./app/reading/marks.js?v=f9daeb532e",
+          "./app/reading/position.js": "./app/reading/position.js?v=425437f5a7",
+          "./app/reading/preferences.js": "./app/reading/preferences.js?v=9cceb7bdea",
+          "./app/recent.js": "./app/recent.js?v=c625b8954a",
+          "./app/router.js": "./app/router.js?v=a7d3e6248a",
+          "./app/search.js": "./app/search.js?v=36bc19fe33",
+          "./app/search/engine.js": "./app/search/engine.js?v=a188204f9c",
+          "./app/session/config.js": "./app/session/config.js?v=2b59927507",
+          "./app/session/controller.js": "./app/session/controller.js?v=5feb2f8680",
+          "./app/session/selection.js": "./app/session/selection.js?v=bee2c49aac",
+          "./app/session/views.js": "./app/session/views.js?v=8ae3f28459",
+          "./app/settings.js": "./app/settings.js?v=429933df82",
+          "./app/share/controller.js": "./app/share/controller.js?v=2191d7cf2e",
+          "./app/share/links.js": "./app/share/links.js?v=91d8167897",
+          "./app/share/qr.js": "./app/share/qr.js?v=aa85cf70e1",
+          "./app/share/report.js": "./app/share/report.js?v=830d076e7f",
+          "./app/share/views.js": "./app/share/views.js?v=1e04075c38",
+          "./app/storage/adapter.js": "./app/storage/adapter.js?v=7078478053",
+          "./app/storage/coordination.js": "./app/storage/coordination.js?v=3d64d35e4d",
+          "./app/terms/controller.js": "./app/terms/controller.js?v=99b3d19cbd",
+          "./app/terms/engine.js": "./app/terms/engine.js?v=e47726f678",
+          "./app/terms/store.js": "./app/terms/store.js?v=53e91923dc",
+          "./app/terms/views.js": "./app/terms/views.js?v=724c6448c7",
+          "./app/ui.js": "./app/ui.js?v=5f9246270e",
+          "./app/unit-tools.js": "./app/unit-tools.js?v=d45a0ff319",
+          "./app/views/catalog.js": "./app/views/catalog.js?v=cdfe9634b3",
+          "./app/views/framework.js": "./app/views/framework.js?v=905d8a78f7",
+          "./app/views/guide.js": "./app/views/guide.js?v=894ae096f3",
+          "./app/views/lesson.js": "./app/views/lesson.js?v=7d91f2cfde",
+          "./app/writing/autosave.js": "./app/writing/autosave.js?v=f6a8265e30",
+          "./app/writing/controller.js": "./app/writing/controller.js?v=81a7ca4bc6",
+          "./app/writing/engine.js": "./app/writing/engine.js?v=235d5949d9",
+          "./app/writing/export.js": "./app/writing/export.js?v=566a26b626",
+          "./app/writing/store.js": "./app/writing/store.js?v=0cf455b672",
+          "./app/writing/views.js": "./app/writing/views.js?v=4a3fecd53d"
+        }
+      }
+    </script>
+    <script type="module" src="./app/main.js?v=b2ef84d19b"></script>
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
     <header class="site-header">
       <div class="header-inner">
         <a href="#/" class="brand" aria-label="Page One home">Page One</a>
-        <nav aria-label="Main navigation">
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="nav-toggle__bars" aria-hidden="true"></span
+          ><span class="nav-toggle__label">Menu</span>
+        </button>
+        <nav id="site-nav" aria-label="Main navigation">
           <a href="#/" id="nav-home">Home</a
           ><a href="#/courses" id="nav-courses">Courses</a
           ><a href="#/search" id="nav-search">Search</a
