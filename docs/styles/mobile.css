@@ -251,4 +251,103 @@
   .terms-toolbar-actions {
     margin-left: auto;
   }
+
+  /* Lesson/guide section actions (Copy link, Print, Report an issue) and
+     the Read / Understood / Private note row.
+     Problem: buttons at 12.5px with mismatched heights, the report link
+     floating outside the grid, and the note panel (min 280px) overflowing
+     a shrink-to-fit disclosure box. Fix: a two-column grid with equal
+     44px targets, full-width note disclosure. */
+  .reading-heading-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .reading-heading-actions > .reading-section-action,
+  .reading-heading-actions > a.reading-section-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    margin: 0;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .reading-heading-actions > .report-trigger {
+    grid-column: 1 / -1;
+    justify-self: start;
+    margin: 0;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  .reading-mark-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .reading-mark-button {
+    min-height: 44px;
+    font-size: 0.9rem;
+  }
+  .reading-note-disclosure {
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+  .reading-note-disclosure summary {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 0.9rem;
+  }
+  .reading-note-disclosure label {
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+  }
+  .reading-note-disclosure[open] label {
+    margin-top: 0.5rem;
+  }
+  .reading-mark-status {
+    font-size: 0.85rem;
+  }
+  /* "Report an issue" measured 26px tall; "Copy block link" used 12.5px. */
+  .report-trigger {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+  }
+  .reading-block-action {
+    min-height: 40px;
+    font-size: 0.875rem;
+  }
+
+  /* Breadcrumbs (Courses / AP World / Unit 1) measured 22px tall. */
+  .breadcrumbs a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+  }
+
+  /* Home carousel: the pause control sat alone at the far right above the
+     card, with dead space to its left. Center it over the track. */
+  .preview-toolbar {
+    justify-content: center;
+    padding: 0 24px 8px;
+  }
+
+  .reading-note-disclosure [data-reading-mark-action="save-note"] {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+  }
 }
