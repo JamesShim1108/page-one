@@ -350,4 +350,28 @@
     margin-top: 0.4rem;
     font-size: 0.9rem;
   }
+
+  /* Settings: backup checkboxes are 13x13 and their wrapping labels (the
+     real tap area) only 26px tall; "Reset reading settings" is 26px. */
+  .backup-grid fieldset {
+    gap: 0;
+  }
+  .backup-grid fieldset > .muted {
+    margin-top: 0.5rem;
+  }
+  .backup-choice {
+    align-items: center;
+    min-height: 44px;
+  }
+  .backup-choice input {
+    flex: none;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+  }
+  .reading-settings-actions .text-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
 }
