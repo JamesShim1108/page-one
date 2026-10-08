@@ -2,6 +2,11 @@
 * {
   box-sizing: border-box;
 }
+/* Component display rules (.btn, .writing-save-actions, ...) otherwise
+   override the hidden attribute, showing controls the app has hidden. */
+[hidden] {
+  display: none !important;
+}
 html {
   font-size: 16px;
   scroll-behavior: smooth;

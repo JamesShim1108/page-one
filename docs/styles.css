@@ -1,6 +1,6 @@
 /* Keep this order: shared defaults, then component styles. */
 @import url("./styles/tokens.css?v=e459b6a023");
-@import url("./styles/base.css?v=8dfbc4c848");
+@import url("./styles/base.css?v=18fd2ffdbd");
 @import url("./styles/layout.css?v=77f5210886");
 @import url("./styles/catalog.css?v=810e72060b");
 @import url("./styles/carousel.css?v=8da628c01e");
