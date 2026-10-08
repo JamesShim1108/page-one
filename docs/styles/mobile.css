@@ -463,6 +463,17 @@
     align-items: center;
     min-height: 44px;
   }
+  /* Reading-settings selects (Settings page and the lesson/guide
+     "Reading settings" panel) were 13.12px and the My review course
+     select 13.6px; iOS Safari zooms the page when they take focus. */
+  .reading-settings-controls select,
+  .reading-review-filter select {
+    font-size: 1rem;
+  }
+  .reading-review-filter select {
+    width: 100%;
+    min-width: 0;
+  }
 
   /* Session builder: topic checkboxes are 13x13 inside 26px-tall inline
      labels, and long titles wrap under the checkbox. */
