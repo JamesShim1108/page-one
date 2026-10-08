@@ -368,6 +368,21 @@ export function createReadingReviewController({
   navigate,
   repaint,
 }) {
+  async function removeReview(button) {
+    const record = controller.records.find(
+      (item) => item.recordId === button.dataset.readingReviewRemove,
+    );
+    if (!record) return;
+    const store = createReadingMarkStore(adapter, record.payload);
+    await store.ready;
+    const result = await store.removeReview(record.payload);
+    if (result.ok) {
+      controller.records = controller.records.filter(
+        (item) => item.recordId !== record.recordId,
+      );
+      repaint();
+    }
+  }
   const controller = {
     records,
     page: () =>
@@ -379,23 +394,13 @@ export function createReadingReviewController({
       navigate(value ? `/review?course=${encodeURIComponent(value)}` : "/review");
       return true;
     },
-    async click(event) {
+    // Answers synchronously: the dispatcher stops at the first truthy
+    // result, and a Promise would swallow every later click on the page.
+    click(event) {
       const button = event.target.closest?.("[data-reading-review-remove]");
       if (!button) return false;
       event.preventDefault();
-      const record = controller.records.find(
-        (item) => item.recordId === button.dataset.readingReviewRemove,
-      );
-      if (!record) return true;
-      const store = createReadingMarkStore(adapter, record.payload);
-      await store.ready;
-      const result = await store.removeReview(record.payload);
-      if (result.ok) {
-        controller.records = controller.records.filter(
-          (item) => item.recordId !== record.recordId,
-        );
-        repaint();
-      }
+      removeReview(button);
       return true;
     },
     enhance() {

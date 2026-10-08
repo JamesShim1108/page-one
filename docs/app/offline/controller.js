@@ -274,10 +274,12 @@ export async function createOfflineController({
 
   return {
     page: () => offlinePanel(state),
-    async change(event) {
+    // Both handlers answer synchronously: the dispatcher stops at the first
+    // truthy result, and a Promise would swallow every later handler.
+    change(event) {
       const course = event.target.closest?.("[data-offline-course]");
       if (course) {
-        await loadUnits(course.value);
+        loadUnits(course.value);
         return true;
       }
       const unit = event.target.closest?.("[data-offline-unit]");
@@ -290,7 +292,7 @@ export async function createOfflineController({
       }
       return false;
     },
-    async click(event) {
+    click(event) {
       const action = event.target.closest?.("[data-offline-action]");
       if (!action) return false;
       const kind = action.dataset.offlineAction;

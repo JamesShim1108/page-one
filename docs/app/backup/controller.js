@@ -11,6 +11,9 @@ import {
 } from "./format.js";
 import { backupPanel } from "./views.js";
 
+const BACKUP_CHANGE_TARGETS =
+  "[data-backup-category], [data-backup-course], [data-backup-strategy], [data-backup-file]";
+
 function clone(value) {
   if (typeof structuredClone === "function") return structuredClone(value);
   return JSON.parse(JSON.stringify(value));
@@ -201,54 +204,70 @@ export async function createBackupController({
     return true;
   }
 
+  async function handleChange(event) {
+    const category = event.target.closest?.("[data-backup-category]");
+    if (category) {
+      const set = new Set(state.categories);
+      if (category.checked) set.add(category.dataset.backupCategory);
+      else set.delete(category.dataset.backupCategory);
+      state.categories = BACKUP_CATEGORIES.filter((item) => set.has(item));
+      refreshExportPreview();
+      repaint();
+      return true;
+    }
+    const course = event.target.closest?.("[data-backup-course]");
+    if (course) {
+      const set = new Set(state.courseIds);
+      if (course.checked) set.add(course.dataset.backupCourse);
+      else set.delete(course.dataset.backupCourse);
+      state.courseIds = state.availableCourseIds.filter((item) => set.has(item));
+      refreshExportPreview();
+      repaint();
+      return true;
+    }
+    const strategy = event.target.closest?.("[data-backup-strategy]");
+    if (strategy) {
+      await changeStrategy(strategy.value);
+      return true;
+    }
+    const file = event.target.closest?.("[data-backup-file]");
+    if (file) {
+      await previewFile(file.files?.[0]);
+      return true;
+    }
+    return false;
+  }
+
+  async function handleClick(event) {
+    const action = event.target.closest?.("[data-backup-action]");
+    if (!action) return false;
+    if (action.dataset.backupAction === "download-export") return downloadExport();
+    if (action.dataset.backupAction === "clear-import") {
+      state.importPreview = null;
+      state.importParsed = null;
+      state.feedback = "Import preview discarded. Existing work was not changed.";
+      repaint();
+      return true;
+    }
+    if (action.dataset.backupAction === "commit-import") return commitImport();
+    return false;
+  }
+
+  // The page's event dispatcher stops at the first handler that returns a
+  // truthy value, so these must answer synchronously. An async handler
+  // returns a Promise (always truthy) and swallowed every Settings click
+  // and change, including the offline and reading-settings controls.
   return {
     page: () => backupPanel(state),
-    async change(event) {
-      const category = event.target.closest?.("[data-backup-category]");
-      if (category) {
-        const set = new Set(state.categories);
-        if (category.checked) set.add(category.dataset.backupCategory);
-        else set.delete(category.dataset.backupCategory);
-        state.categories = BACKUP_CATEGORIES.filter((item) => set.has(item));
-        refreshExportPreview();
-        repaint();
-        return true;
-      }
-      const course = event.target.closest?.("[data-backup-course]");
-      if (course) {
-        const set = new Set(state.courseIds);
-        if (course.checked) set.add(course.dataset.backupCourse);
-        else set.delete(course.dataset.backupCourse);
-        state.courseIds = state.availableCourseIds.filter((item) => set.has(item));
-        refreshExportPreview();
-        repaint();
-        return true;
-      }
-      const strategy = event.target.closest?.("[data-backup-strategy]");
-      if (strategy) {
-        await changeStrategy(strategy.value);
-        return true;
-      }
-      const file = event.target.closest?.("[data-backup-file]");
-      if (file) {
-        await previewFile(file.files?.[0]);
-        return true;
-      }
-      return false;
+    change(event) {
+      if (!event.target.closest?.(BACKUP_CHANGE_TARGETS)) return false;
+      handleChange(event);
+      return true;
     },
-    async click(event) {
-      const action = event.target.closest?.("[data-backup-action]");
-      if (!action) return false;
-      if (action.dataset.backupAction === "download-export") return downloadExport();
-      if (action.dataset.backupAction === "clear-import") {
-        state.importPreview = null;
-        state.importParsed = null;
-        state.feedback = "Import preview discarded. Existing work was not changed.";
-        repaint();
-        return true;
-      }
-      if (action.dataset.backupAction === "commit-import") return commitImport();
-      return false;
+    click(event) {
+      if (!event.target.closest?.("[data-backup-action]")) return false;
+      handleClick(event);
+      return true;
     },
     get state() {
       return clone(state);
