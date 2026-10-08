@@ -774,6 +774,11 @@ document.addEventListener("click", (event) => {
     readingAction.disabled = true;
     readingPreferences.reset().then((result) => {
       readingAction.disabled = false;
+      // The controls are not re-rendered, so show the restored defaults.
+      document.querySelectorAll("[data-reading-preference]").forEach((control) => {
+        const value = readingPreferences.values[control.dataset.readingPreference];
+        if (value !== undefined) control.value = String(value);
+      });
       const status = document.getElementById("reading-settings-status");
       if (status)
         status.textContent = result.ok
