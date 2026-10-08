@@ -260,6 +260,38 @@
   .terms-toolbar-actions {
     margin-left: auto;
   }
+  /* Undo (50px) and Settings (41px) sat side by side at mismatched
+     heights; match them at 44px. */
+  .terms-toolbar-actions > .btn {
+    min-height: 44px;
+    padding-block: 0.4rem;
+  }
+  .terms-settings summary {
+    padding-block: 0.6rem;
+  }
+  /* Settings popover: selects were 37px at 14.4px (iOS zooms on focus),
+     the shuffle label 39px, and the round buttons used 12.8px text
+     (13px still fits "Start a new round" on one line). */
+  .terms-settings select {
+    min-height: 44px;
+    font-size: 1rem;
+  }
+  .terms-settings .terms-checkbox {
+    min-height: 44px;
+    padding-block: 0;
+  }
+  .terms-settings__actions .btn {
+    font-size: 0.8125rem;
+  }
+  /* Under the card: "Save note" (20px, 12.48px text) and "Copy term and
+     definition" (20px, 12.8px text). */
+  .term-note-actions .text-button,
+  .term-copy-actions .text-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 0.875rem;
+  }
 
   /* Lesson/guide section actions (Copy link, Print, Report an issue) and
      the Read / Understood / Private note row.
