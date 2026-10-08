@@ -461,6 +461,7 @@
   .reading-settings-actions .text-button {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     min-height: 44px;
   }
   /* Reading-settings selects (Settings page and the lesson/guide
