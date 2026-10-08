@@ -105,7 +105,7 @@ test("reading pack plans are scoped, explicit, and exclude activity data", () =>
     plan.exclusions.some((item) => /quiz/i.test(item)),
     true,
   );
-  assert.equal(readingResourcePaths(packData()).includes("catalog.json"), true);
+  assert.equal(readingResourcePaths(packData()).includes("generated/catalog.json"), true);
   assert.equal(
     resourceUrl("https://school.example/page-one/", "index.html").pathname,
     "/page-one/",
@@ -125,6 +125,10 @@ test("generated reading-pack data loads lessons and guides without fetching ques
   });
   const data = await content.readingPack("world", "world-1");
   assert.equal(data.topicData.length, 7);
+  const missing = readingResourcePaths(data).filter(
+    (path) => !fs.existsSync(new URL(`../docs/${path}`, import.meta.url)),
+  );
+  assert.deepEqual(missing, [], "every pack resource must exist in the deployed site");
   assert.equal(Boolean(data.guideData?.guide), true);
   assert.equal(
     data.topicData.every((topic) => topic.bank === undefined),

@@ -183,12 +183,16 @@ function assetPaths(topicData = []) {
 }
 
 export function readingResourcePaths(data) {
+  // Content-store paths are relative to generated/ (see content-store.js),
+  // while asset files are relative to the site root.
   const generated = [
     "catalog.json",
     data.paths?.routes,
     ...(data.paths?.topics || []),
     data.paths?.guide,
-  ];
+  ]
+    .filter(Boolean)
+    .map((path) => `generated/${path}`);
   return unique([
     ...STATIC_READING_RESOURCES,
     ...generated,
