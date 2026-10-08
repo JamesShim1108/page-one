@@ -542,6 +542,20 @@
   }
 }
 
+/* Standalone text links ("View all courses", "Build a short session",
+   "Print preview", "Print unit Terms", "Open lesson and reading guide")
+   measured 24px tall; guide resource links (UNESCO pages) 20px. */
+@media (max-width: 700px) {
+  a.text-link {
+    min-height: 44px;
+  }
+  .resource-list a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+}
+
 /* Meta and helper text that the component files shrink below 13px at
    phone width (measured at 390px): lesson meta, unit/topic/course row
    descriptions, and quick-check progress at 12.8px; study-mode eyebrows
