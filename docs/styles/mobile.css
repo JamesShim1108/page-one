@@ -606,3 +606,33 @@
     font-size: 0.8125rem;
   }
 }
+
+/* Unit 2 guide and DBQ sources (measured at 390px): network-layer
+   checkbox labels and single-line claim/Sahara option labels were 26px
+   tall; network place tags were 12.8px; comparison-table source notes
+   12px; DBQ source kind 11.2px and citation/note 12.48px. */
+@media (max-width: 700px) {
+  .network-layers label {
+    align-items: center;
+    min-height: 44px;
+    margin: 0;
+  }
+  .network-layers input {
+    flex: none;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+  }
+  /* Multi-line options keep their top alignment and spacing. */
+  .sahara-plan-list label,
+  .claim-task label {
+    min-height: 44px;
+  }
+  .network-place span,
+  .comparison-table td small,
+  .source-kind,
+  .source-citation,
+  .source-note {
+    font-size: 0.8125rem;
+  }
+}
