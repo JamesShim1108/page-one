@@ -394,4 +394,20 @@
     height: 18px;
     margin: 0;
   }
+
+  /* Search: the query box and course select inherit 13.76px text, so iOS
+     Safari zooms the page on focus. Result title links were 20px tall. */
+  .search-form input,
+  .search-form select {
+    font-size: 1rem;
+  }
+  .search-form select {
+    width: 100%;
+    min-width: 0;
+  }
+  .search-result h2 a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
 }
