@@ -541,3 +541,31 @@
     font-size: 0.8125rem;
   }
 }
+
+/* Meta and helper text that the component files shrink below 13px at
+   phone width (measured at 390px): lesson meta, unit/topic/course row
+   descriptions, and quick-check progress at 12.8px; study-mode eyebrows
+   at 9.6px; stimulus eyebrows at 11.2px; search "Reading match" at
+   12.16px; term status pills at 10.88px; terms counts, hint, source,
+   and save notes, reading-settings help, and quiz footnotes at 12.8px.
+   Raised to 13px on phones only. */
+@media (max-width: 700px) {
+  .lesson-meta,
+  .unit-row p,
+  .topic-row p,
+  .study-mode p,
+  .study-mode .eyebrow,
+  .stimulus .eyebrow,
+  .quick-shell .quiz-progress,
+  .question-actions p,
+  .question-footnote,
+  .reading-settings-help,
+  .search-match,
+  .term-status,
+  .terms-counts,
+  .flashcard-hint,
+  .terms-source,
+  .terms-save-note {
+    font-size: 0.8125rem;
+  }
+}
