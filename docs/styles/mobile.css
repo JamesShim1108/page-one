@@ -82,6 +82,16 @@
   .site-header.nav-open nav {
     display: flex;
   }
+  /* The header is sticky. At short heights that still use this layout
+     (700x360; iPhone SE landscape is 667x375) the open panel made it
+     454px tall, and the last links stayed below the fold even after
+     scrolling. Keep the panel inside the viewport and let it scroll. */
+  .site-header.nav-open nav {
+    max-height: calc(100vh - 6rem);
+    max-height: calc(100dvh - 6rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
   .site-header nav a {
     display: block;
     padding: 0.8rem 0.25rem;
