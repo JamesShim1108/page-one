@@ -292,6 +292,18 @@
     min-height: 44px;
     font-size: 0.875rem;
   }
+  /* Term list rows: "Open card" was 76x26 and sat 10px above "Copy term
+     and definition" (the copy block keeps a top margin meant for the
+     flashcard view). The "Include my notes" filter label was 30px. */
+  .term-row-actions > .text-link {
+    min-height: 44px;
+  }
+  .term-row-actions > .term-copy-actions {
+    margin-top: 0;
+  }
+  .terms-list-filter-form .terms-checkbox {
+    min-height: 44px;
+  }
 
   /* Lesson/guide section actions (Copy link, Print, Report an issue) and
      the Read / Understood / Private note row.
