@@ -125,6 +125,22 @@
     padding: 0.45rem 0.8rem;
     font-size: 0.85rem;
   }
+  /* "Show QR code" was a 26px text button beside 40px buttons; the
+     SHARE eyebrow was 12px; the copy/QR link fields were 14px, so iOS
+     Safari zooms when one is focused. */
+  .share-panel__actions .text-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+  }
+  .share-panel__copy .eyebrow {
+    font-size: 0.8125rem;
+  }
+  .share-fallback input,
+  .share-qr input,
+  .reading-copy-fallback input {
+    font-size: 1rem;
+  }
   /* Lesson "On this page": wrap section links as compact chips. */
   .reading-nav-links {
     display: flex;
