@@ -305,6 +305,26 @@
     min-height: 44px;
   }
 
+  /* Writing practice: "Show prompt" and "Show one model APE response"
+     summaries were 26px, the review links 24px, and "Copy draft",
+     "Clear this draft" and "View version" 22-26px. Summaries grow
+     into their box padding so the boxes keep their size. */
+  .writing-prompt-disclosure summary,
+  .writing-layout .model-answer summary {
+    margin-block: -9px;
+    padding-block: 9px;
+  }
+  .writing-review-links {
+    row-gap: 0;
+  }
+  .writing-review-links a,
+  .writing-save-actions .text-button,
+  .writing-history .text-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
   /* Lesson/guide section actions (Copy link, Print, Report an issue) and
      the Read / Understood / Private note row.
      Problem: buttons at 12.5px with mismatched heights, the report link
