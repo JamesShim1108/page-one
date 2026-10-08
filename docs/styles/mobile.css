@@ -171,7 +171,7 @@
     margin-top: 0.2rem;
   }
   .question-navigator-actions .btn {
-    min-height: 36px;
+    min-height: 44px;
     padding: 0.3rem 0;
     border: 0;
     background: none;
@@ -409,5 +409,34 @@
     display: inline-flex;
     align-items: center;
     min-height: 44px;
+  }
+
+  /* Quiz header: "Back to session" (26px) and "Other attempts" (20px)
+     wrapped onto two lines at 12.8px with a stray separator; "Print
+     preview" was 24px; the navigator count was 12.48px. */
+  .quiz-context {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+  }
+  .quiz-context p {
+    font-size: 0.875rem;
+  }
+  .quiz-context > span {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 0.5rem;
+  }
+  .quiz-context a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 0.875rem;
+  }
+  .quiz-page > .text-link {
+    min-height: 44px;
+  }
+  .question-navigator-heading span {
+    font-size: 0.8125rem;
   }
 }
