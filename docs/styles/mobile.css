@@ -417,6 +417,14 @@
     min-height: 40px;
     font-size: 0.875rem;
   }
+  /* Inline concept triggers (29px tall) are left at their size: they
+     sit in running prose. But at 40px the block "Report an issue" hit
+     box ended exactly where the next paragraph's first-line trigger
+     began (0px gap on topics 1.1, 1.5, 1.7), so a tap just above
+     "Lalibela" could open the report dialog. Separate them. */
+  .reading-block-actions {
+    margin-bottom: 0.5rem;
+  }
 
   /* Breadcrumbs (Courses / AP World / Unit 1) measured 22px tall. */
   .breadcrumbs a {
