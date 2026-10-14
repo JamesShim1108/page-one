@@ -895,6 +895,17 @@ export function validatePracticeTest(quiz, questions, location) {
       "practice test questions record their near-miss distractor",
     );
   }
+  // A passage appears in only one set, so no excerpt is reused within a test.
+  const owners = new Map();
+  for (const [id, set] of sets)
+    for (const block of set.blocks) {
+      requireValue(
+        !owners.has(block.id) || owners.get(block.id) === id,
+        location,
+        `excerpt ${block.id} appears in more than one stimulus set`,
+      );
+      owners.set(block.id, id);
+    }
   for (const [id, set] of sets)
     requireValue(
       set.count >= PRACTICE_TEST.minPerStimulus &&

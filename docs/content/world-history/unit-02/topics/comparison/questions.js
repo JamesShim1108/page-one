@@ -165,6 +165,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Find both halves of the passage's argument.",
+      stimulusId: "original-network-comparison",
       stimulusBlocks: [excerpts.originalNetworkComparison],
     },
     {
@@ -200,6 +201,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Use the passage's explanation: conditions of travel.",
+      stimulusId: "original-network-comparison",
       stimulusBlocks: [excerpts.originalNetworkComparison],
     },
     {
@@ -233,6 +235,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "The first paragraph is about overlap.",
+      stimulusId: "original-network-comparison",
       stimulusBlocks: [excerpts.originalNetworkComparison],
     },
     {
@@ -337,6 +340,7 @@ export const bank = {
       ],
       nearMissIndex: 0,
       distinguisher: "Find what both passages show, not what only one shows.",
+      stimulusId: "polo-melibar",
       stimulusBlocks: [excerpts.poloMelibar, excerpts.battutaTaghaza],
     },
     {
@@ -380,6 +384,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Compare the same feature, here the risks each network faced.",
+      stimulusId: "polo-melibar",
       stimulusBlocks: [excerpts.poloMelibar, excerpts.battutaTaghaza],
     },
     {
@@ -421,6 +426,7 @@ export const bank = {
       ],
       nearMissIndex: 2,
       distinguisher: "Independent sources from different settings strengthen comparison.",
+      stimulusId: "polo-melibar",
       stimulusBlocks: [excerpts.poloMelibar, excerpts.battutaTaghaza],
     },
     {
@@ -661,6 +667,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Check each half against its own passage.",
+      stimulusId: "polo-zayton",
       stimulusBlocks: [excerpts.poloZayton, excerpts.battutaMali],
     },
     {
@@ -702,6 +709,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Use each source for what it shows.",
+      stimulusId: "polo-zayton",
       stimulusBlocks: [excerpts.poloZayton, excerpts.battutaMali],
     },
   ],

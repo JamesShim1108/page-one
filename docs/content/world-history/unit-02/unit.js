@@ -156,5 +156,94 @@ export const unit = {
         },
       ],
     },
+    // AP-format Practice Test assembled from the existing source-based sets, one
+    // selection per set in topic order. The two paired comparison sets in Topic 2.7
+    // reuse passages from earlier sets, so they stay in topic practice instead.
+    {
+      id: "world-2-practice-test",
+      courseId: "world",
+      unitId: "world-2",
+      title: "Unit 2 Practice Test",
+      quizType: "unit",
+      practiceTest: true,
+      selections: [
+        {
+          topicId: "world-2-1",
+          questionIds: ["world-2-1-q06", "world-2-1-q07", "world-2-1-q08"],
+        },
+        {
+          topicId: "world-2-1",
+          questionIds: ["world-2-1-q11", "world-2-1-q12", "world-2-1-q13"],
+        },
+        {
+          topicId: "world-2-1",
+          questionIds: ["world-2-1-q17", "world-2-1-q18"],
+        },
+        {
+          topicId: "world-2-2",
+          questionIds: ["world-2-2-q05", "world-2-2-q06", "world-2-2-q07"],
+        },
+        {
+          topicId: "world-2-2",
+          questionIds: ["world-2-2-q10", "world-2-2-q11", "world-2-2-q12"],
+        },
+        {
+          topicId: "world-2-2",
+          questionIds: ["world-2-2-q19", "world-2-2-q20"],
+        },
+        {
+          topicId: "world-2-3",
+          questionIds: ["world-2-3-q05", "world-2-3-q06", "world-2-3-q07"],
+        },
+        {
+          topicId: "world-2-3",
+          questionIds: ["world-2-3-q10", "world-2-3-q11", "world-2-3-q12"],
+        },
+        {
+          topicId: "world-2-3",
+          questionIds: ["world-2-3-q17", "world-2-3-q18"],
+        },
+        {
+          topicId: "world-2-4",
+          questionIds: ["world-2-4-q05", "world-2-4-q06", "world-2-4-q07"],
+        },
+        {
+          topicId: "world-2-4",
+          questionIds: ["world-2-4-q10", "world-2-4-q11", "world-2-4-q12"],
+        },
+        {
+          topicId: "world-2-4",
+          questionIds: ["world-2-4-q17", "world-2-4-q18"],
+        },
+        {
+          topicId: "world-2-5",
+          questionIds: ["world-2-5-q05", "world-2-5-q06", "world-2-5-q07"],
+        },
+        {
+          topicId: "world-2-5",
+          questionIds: ["world-2-5-q10", "world-2-5-q11", "world-2-5-q12"],
+        },
+        {
+          topicId: "world-2-5",
+          questionIds: ["world-2-5-q17", "world-2-5-q18"],
+        },
+        {
+          topicId: "world-2-6",
+          questionIds: ["world-2-6-q05", "world-2-6-q06", "world-2-6-q07"],
+        },
+        {
+          topicId: "world-2-6",
+          questionIds: ["world-2-6-q10", "world-2-6-q11", "world-2-6-q12"],
+        },
+        {
+          topicId: "world-2-6",
+          questionIds: ["world-2-6-q17", "world-2-6-q18"],
+        },
+        {
+          topicId: "world-2-7",
+          questionIds: ["world-2-7-q05", "world-2-7-q06", "world-2-7-q07"],
+        },
+      ],
+    },
   ],
 };

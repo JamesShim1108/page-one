@@ -38,7 +38,7 @@ test("the generated catalog preserves every ready Unit 1 topic and stable route"
 
   const routes = await readGenerated("world/routes.json");
   assert.equal(Object.keys(routes.topic).length, 14);
-  assert.equal(Object.keys(routes.quiz).length, 33);
+  assert.equal(Object.keys(routes.quiz).length, 34);
   assert.equal(routes.topic["world-1-2"], "world/topics/world-1-2.json");
   assert.equal(routes.writing["world-1-saq"], "world/writing/world-1-saq.json");
 
@@ -46,7 +46,7 @@ test("the generated catalog preserves every ready Unit 1 topic and stable route"
   assert.equal(unit.topics.length, 7);
   const unit2 = await readGenerated("world/units/world-2.json");
   assert.equal(unit2.topics.length, 7);
-  assert.equal(unit2.unit.quizzes.length, 3);
+  assert.equal(unit2.unit.quizzes.length, 4);
   assert.equal(
     unit.unit.quizzes[0].selections.flatMap((selection) => selection.questionIds).length,
     21,

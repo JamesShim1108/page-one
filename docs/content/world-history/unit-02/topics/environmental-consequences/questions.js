@@ -171,6 +171,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Use Boccaccio's own words about direction.",
+      stimulusId: "boccaccio-arrival",
       stimulusBlocks: [excerpts.boccaccioArrival],
     },
     {
@@ -208,6 +209,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Explanations reflect what people of the time believed and knew.",
+      stimulusId: "boccaccio-arrival",
       stimulusBlocks: [excerpts.boccaccioArrival],
     },
     {
@@ -245,6 +247,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Connect the arrival in Italy to the routes that reached it.",
+      stimulusId: "boccaccio-arrival",
       stimulusBlocks: [excerpts.boccaccioArrival],
     },
     {
@@ -348,6 +351,7 @@ export const bank = {
       ],
       nearMissIndex: 0,
       distinguisher: "Find the detail about pay.",
+      stimulusId: "boccaccio-society",
       stimulusBlocks: [excerpts.boccaccioSociety],
     },
     {
@@ -387,6 +391,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Read the scene literally: crops left in the fields.",
+      stimulusId: "boccaccio-society",
       stimulusBlocks: [excerpts.boccaccioSociety],
     },
     {
@@ -400,8 +405,8 @@ export const bank = {
       choices: [
         "Boccaccio wrote this as the dramatic opening of a book of stories",
         "Boccaccio was a farmer describing only his own village",
-        "Boccaccio wrote fiction, so none of his description can be trusted",
-        "Boccaccio wrote centuries after the events in a different country",
+        "Boccaccio wrote fiction, so none of his account can be trusted",
+        "Boccaccio wrote centuries later, in a different country",
       ],
       correctAnswer: 0,
       explanation:
@@ -425,6 +430,7 @@ export const bank = {
       ],
       nearMissIndex: 2,
       distinguisher: "Weigh purpose without throwing out an eyewitness.",
+      stimulusId: "boccaccio-society",
       stimulusBlocks: [excerpts.boccaccioSociety],
     },
     {
@@ -588,6 +594,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Find the passage's qualification.",
+      stimulusId: "original-crop-diffusion",
       stimulusBlocks: [excerpts.originalCropDiffusion],
     },
     {
@@ -621,6 +628,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Evidence must support the specific claim, not just the topic.",
+      stimulusId: "original-crop-diffusion",
       stimulusBlocks: [excerpts.originalCropDiffusion],
     },
     {

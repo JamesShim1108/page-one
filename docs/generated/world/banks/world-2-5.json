@@ -211,9 +211,169 @@
             ]
           }
         ]
+      },
+      {
+        "id": "world-2-practice-test",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q06",
+              "world-2-1-q07",
+              "world-2-1-q08"
+            ]
+          },
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q11",
+              "world-2-1-q12",
+              "world-2-1-q13"
+            ]
+          },
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q05",
+              "world-2-2-q06",
+              "world-2-2-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q10",
+              "world-2-2-q11",
+              "world-2-2-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q05",
+              "world-2-3-q06",
+              "world-2-3-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q10",
+              "world-2-3-q11",
+              "world-2-3-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q05",
+              "world-2-4-q06",
+              "world-2-4-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q10",
+              "world-2-4-q11",
+              "world-2-4-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q05",
+              "world-2-5-q06",
+              "world-2-5-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q10",
+              "world-2-5-q11",
+              "world-2-5-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q05",
+              "world-2-6-q06",
+              "world-2-6-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q10",
+              "world-2-6-q11",
+              "world-2-6-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q05",
+              "world-2-7-q06",
+              "world-2-7-q07"
+            ]
+          }
+        ]
       }
     ],
-    "practiceTest": null,
+    "practiceTest": {
+      "id": "world-2-practice-test",
+      "title": "Unit 2 Practice Test",
+      "questionCount": 51
+    },
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -625,6 +785,7 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Notice the political relationship in the last sentence.",
+      "stimulusId": "battuta-hinawr",
       "stimulusBlocks": [
         {
           "id": "battuta-hinawr",
@@ -686,6 +847,7 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "Check dates and geography: trade came long before these other events.",
+      "stimulusId": "battuta-hinawr",
       "stimulusBlocks": [
         {
           "id": "battuta-hinawr",
@@ -747,6 +909,7 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "His comparison comes from his wide travel within the Muslim world.",
+      "stimulusId": "battuta-hinawr",
       "stimulusBlocks": [
         {
           "id": "battuta-hinawr",
@@ -881,6 +1044,7 @@
       ],
       "nearMissIndex": 0,
       "distinguisher": "The passage names Muslim institutions in the city.",
+      "stimulusId": "battuta-zaytun",
       "stimulusBlocks": [
         {
           "id": "battuta-zaytun",
@@ -935,6 +1099,7 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Look for the long-term pattern behind the scene.",
+      "stimulusId": "battuta-zaytun",
       "stimulusBlocks": [
         {
           "id": "battuta-zaytun",
@@ -961,7 +1126,7 @@
       "choices": [
         "He highlights the welcome and support Muslims gave a fellow Muslim abroad",
         "He wants to prove that he never borrowed money during his travels",
-        "He highlights the welcome Muslims gave him to criticize Chinese officials",
+        "He stresses the welcome Muslims gave him to criticize Chinese officials",
         "He wants to show that Chinese merchants controlled trade with India"
       ],
       "correctAnswer": 0,
@@ -989,6 +1154,7 @@
       ],
       "nearMissIndex": 2,
       "distinguisher": "What does the passage go out of its way to show?",
+      "stimulusId": "battuta-zaytun",
       "stimulusBlocks": [
         {
           "id": "battuta-zaytun",
@@ -1186,6 +1352,7 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Translation versus transfer.",
+      "stimulusId": "original-cultural-diffusion",
       "stimulusBlocks": [
         {
           "id": "original-cultural-diffusion",
@@ -1233,6 +1400,7 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "The best evidence shows adaptation.",
+      "stimulusId": "original-cultural-diffusion",
       "stimulusBlocks": [
         {
           "id": "original-cultural-diffusion",

@@ -211,9 +211,169 @@
             ]
           }
         ]
+      },
+      {
+        "id": "world-2-practice-test",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q06",
+              "world-2-1-q07",
+              "world-2-1-q08"
+            ]
+          },
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q11",
+              "world-2-1-q12",
+              "world-2-1-q13"
+            ]
+          },
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q05",
+              "world-2-2-q06",
+              "world-2-2-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q10",
+              "world-2-2-q11",
+              "world-2-2-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q05",
+              "world-2-3-q06",
+              "world-2-3-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q10",
+              "world-2-3-q11",
+              "world-2-3-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q05",
+              "world-2-4-q06",
+              "world-2-4-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q10",
+              "world-2-4-q11",
+              "world-2-4-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q05",
+              "world-2-5-q06",
+              "world-2-5-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q10",
+              "world-2-5-q11",
+              "world-2-5-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q05",
+              "world-2-6-q06",
+              "world-2-6-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q10",
+              "world-2-6-q11",
+              "world-2-6-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q05",
+              "world-2-7-q06",
+              "world-2-7-q07"
+            ]
+          }
+        ]
       }
     ],
-    "practiceTest": null,
+    "practiceTest": {
+      "id": "world-2-practice-test",
+      "title": "Unit 2 Practice Test",
+      "questionCount": 51
+    },
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -625,6 +785,7 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Note who lived and worked at Taghaza.",
+      "stimulusId": "battuta-taghaza",
       "stimulusBlocks": [
         {
           "id": "battuta-taghaza",
@@ -690,6 +851,7 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "Value comes from demand where a good is scarce, not abundance where it is mined.",
+      "stimulusId": "battuta-taghaza",
       "stimulusBlocks": [
         {
           "id": "battuta-taghaza",
@@ -755,6 +917,7 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "Separate observation from judgment.",
+      "stimulusId": "battuta-taghaza",
       "stimulusBlocks": [
         {
           "id": "battuta-taghaza",
@@ -891,6 +1054,7 @@
       ],
       "nearMissIndex": 0,
       "distinguisher": "Choose the claim the passage states directly.",
+      "stimulusId": "battuta-mali",
       "stimulusBlocks": [
         {
           "id": "battuta-mali",
@@ -951,6 +1115,7 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Context links the passage to the networks that carried Islam.",
+      "stimulusId": "battuta-mali",
       "stimulusBlocks": [
         {
           "id": "battuta-mali",
@@ -1011,6 +1176,7 @@
       ],
       "nearMissIndex": 2,
       "distinguisher": "Point of view explains judgments; it does not cancel observations.",
+      "stimulusId": "battuta-mali",
       "stimulusBlocks": [
         {
           "id": "battuta-mali",
@@ -1214,6 +1380,7 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Find the passage's main claim and its qualification.",
+      "stimulusId": "original-musa-legacy",
       "stimulusBlocks": [
         {
           "id": "original-musa-legacy",
@@ -1261,6 +1428,7 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "Match evidence to the specific part of the argument.",
+      "stimulusId": "original-musa-legacy",
       "stimulusBlocks": [
         {
           "id": "original-musa-legacy",

@@ -59,7 +59,8 @@
     "world-2-7-quiz": "world/banks/world-2-7.json",
     "world-2-practice-a": "world/quizzes/world-2-practice-a.json",
     "world-2-practice-b": "world/quizzes/world-2-practice-b.json",
-    "world-2-practice-all": "world/quizzes/world-2-practice-all.json"
+    "world-2-practice-all": "world/quizzes/world-2-practice-all.json",
+    "world-2-practice-test": "world/quizzes/world-2-practice-test.json"
   },
   "guide": {
     "world-1": "world/guides/world-1.json",
