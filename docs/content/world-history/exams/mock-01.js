@@ -77,16 +77,16 @@ export const exam = {
         },
         {
           topicId: "world-6-4",
-          questionIds: ["world-6-4-m1-11a", "world-6-4-m1-11b", "world-6-4-m1-11c"],
+          questionIds: [
+            "world-6-4-m1-11a",
+            "world-6-4-m1-11b",
+            "world-6-4-m1-11c",
+            "world-6-4-m1-11d",
+          ],
         },
         {
           topicId: "world-7-5",
-          questionIds: [
-            "world-7-5-m1-12a",
-            "world-7-5-m1-12b",
-            "world-7-5-m1-12c",
-            "world-7-5-m1-12d",
-          ],
+          questionIds: ["world-7-5-m1-12a", "world-7-5-m1-12b", "world-7-5-m1-12c"],
         },
         {
           topicId: "world-7-7",

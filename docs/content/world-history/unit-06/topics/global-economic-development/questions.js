@@ -363,6 +363,37 @@ export const bank = {
       stimulusBlocks: [excerpts.m1Peanuts],
     },
     {
+      id: "world-6-4-m1-11d",
+      topicId: "world-6-4",
+      concept: "export-economies",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "The colonial economy described in the passage was most similar to which other economy of the period 1870 to 1930?",
+      choices: [
+        "Cotton grown for export in British-ruled Egypt",
+        "Silver mined at Potosí for Spanish colonial rulers",
+        "Textile factories built by the Meiji government in Japan",
+        "Rice grown for local markets in Tokugawa Japan",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Egyptian cotton, like Senegalese peanuts, was a single export crop grown for European industry and priced in European markets.",
+      sourceIds: ["ced-topic-6-4"],
+      choiceExplanations: [
+        "Egyptian cotton, like Senegalese peanuts, was a single export crop grown for European industry and priced in European markets.",
+        "Potosí silver was a colonial export, but it was mined centuries earlier, from the 1540s.",
+        "Meiji Japan built its own industry; it was not a colonial export economy.",
+        "Tokugawa rice farming fed domestic markets and ended before 1870.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Potosí also sent a raw material to a colonial power, but it belongs to the period 1450 to 1750.",
+      stimulusId: "mock1-senegal-peanuts",
+      stimulusBlocks: [excerpts.m1Peanuts],
+    },
+    {
       id: "world-6-4-m3-11a",
       topicId: "world-6-4",
       concept: "raw-materials",
@@ -374,7 +405,7 @@ export const bank = {
         "Treaties give other nations fair shares of the profits of trade",
         "Cheap goods act like artillery against foreign nations",
         "Missionaries persuade foreign rulers to change their laws",
-        "Gifts of machines are sent to every foreign government",
+        "Colonial armies force other nations to obey European laws",
       ],
       correctAnswer: 1,
       explanation:
@@ -384,7 +415,7 @@ export const bank = {
         "The passage describes pressure, not fair sharing.",
         "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
         "The passage does not mention missionaries.",
-        "The passage does not describe gifts.",
+        "Marx and Engels say cheap prices, not armies, are the bourgeoisie's “heavy artillery.”",
       ],
       nearMissIndex: 2,
       distinguisher:

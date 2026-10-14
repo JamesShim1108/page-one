@@ -270,7 +270,8 @@ export function scoringCriteria(option) {
     id: row.id,
     label: row.label,
     points: row.points,
-    description: row.description || "",
+    // Course rubrics name this field guidance; description is accepted too.
+    description: row.guidance || row.description || "",
   }));
 }
 

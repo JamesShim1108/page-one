@@ -785,8 +785,8 @@ export const bank = {
       choices: [
         "gave the Ottomans more control of routes and spurred sea voyages",
         "ended all trade between Europe and Asia for several decades",
-        "forced Portugal to give up its exploration of the African coast",
-        "caused Spain to adopt Ottoman ship designs and navigation",
+        "led European rulers to retake the city in a new crusade",
+        "made Portugal the main buyer of Ottoman spices",
       ],
       correctAnswer: 0,
       explanation:
@@ -795,8 +795,8 @@ export const bank = {
       choiceExplanations: [
         "Ottoman control of key land and Mediterranean routes gave European states and merchants a reason to look for alternatives.",
         "Trade continued between Europe and Asia after 1453.",
-        "Portuguese exploration of Africa began before 1453 and continued.",
-        "Spain did not adopt Ottoman navigation technology as a result of the conquest.",
+        "No crusade retook Constantinople; it remained the Ottoman capital.",
+        "Portugal sought a sea route around Africa precisely to avoid Ottoman and Venetian middlemen.",
       ],
       nearMissIndex: 1,
       distinguisher:

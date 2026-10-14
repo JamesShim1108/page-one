@@ -368,6 +368,35 @@ export const bank = {
       stimulusId: "smith-pins",
       stimulusBlocks: [excerpts.smithPins],
     },
+    {
+      id: "world-5-3-m3-09d",
+      topicId: "world-5-3",
+      concept: "factories-textiles",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt: "Smith's description of pin-making is best understood in the context of",
+      choices: [
+        "guild control of craft production in medieval Italian towns",
+        "growing markets and manufacturing in eighteenth-century Britain",
+        "the spread of electric power to factories after 1880",
+        "the Soviet Five-Year Plans for heavy industry",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Smith wrote in 1776, as expanding markets and early industry were reorganizing British manufacturing.",
+      sourceIds: ["ced-topic-5-3"],
+      choiceExplanations: [
+        "Guilds regulated craft work, but Smith describes divided labor that broke tasks into steps, unlike guild craftsmanship.",
+        "Smith wrote in 1776, as expanding markets and early industry were reorganizing British manufacturing.",
+        "Electric power came a century after Smith wrote.",
+        "The Five-Year Plans began in 1928.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Guilds also organized manufacturing, but Smith describes a newer division of labor that guilds did not use.",
+      stimulusId: "smith-pins",
+      stimulusBlocks: [excerpts.smithPins],
+    },
     // END mock exam questions
   ],
   quizzes: [

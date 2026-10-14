@@ -362,6 +362,37 @@ export const bank = {
       stimulusId: "mock2-chinese-migration",
       stimulusBlocks: [excerpts.m2Chinese],
     },
+    {
+      id: "world-6-7-m2-11d",
+      topicId: "world-6-7",
+      concept: "nativism",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which of the following best explains why many Chinese migrants went to California in the 1850s and 1860s?",
+      choices: [
+        "Indenture contracts bound most of them to plantation work",
+        "The Qing government sent settlers to claim land in America",
+        "Gold mining and railroad building offered work and wages",
+        "The Chinese Exclusion Act guaranteed them jobs and land",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The gold rush and the Central Pacific Railroad drew workers seeking wages higher than they could earn at home.",
+      sourceIds: ["ced-topic-6-7"],
+      choiceExplanations: [
+        "Indenture bound many Chinese and Indian migrants in the Caribbean and Peru, but most Chinese in California came on credit, not plantation contracts.",
+        "The Qing government discouraged emigration and did not send settlers.",
+        "The gold rush and the Central Pacific Railroad drew workers seeking wages higher than they could earn at home.",
+        "The 1882 act barred Chinese laborers; it did not invite them.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Indentured labor was common elsewhere in the Americas, but Chinese migrants in California mostly worked for wages.",
+      stimulusId: "mock2-chinese-migration",
+      stimulusBlocks: [excerpts.m2Chinese],
+    },
     // END mock exam questions
   ],
   quizzes: [

@@ -678,8 +678,8 @@ export const bank = {
       choices: [
         "The Inca demanded tribute in cacao and cloth, while the Mexica demanded labor service",
         "The Inca relied mainly on rotating labor service, while the Mexica relied mainly on tribute in goods",
-        "The Inca abolished all local customs, while the Mexica preserved every one",
-        "The Inca paid conquered peoples in coins, while the Mexica paid them in land",
+        "The Inca removed local lords, while the Mexica replaced every conquered ruler",
+        "The Inca relied on merchant guilds, while the Mexica relied on storehouses",
       ],
       correctAnswer: 1,
       explanation:
@@ -688,8 +688,8 @@ export const bank = {
       choiceExplanations: [
         "The statement reverses the two systems.",
         "The Inca mit'a organized labor, whereas the Mexica collected tribute such as cloth, food, and cacao from conquered cities.",
-        "The Inca moved communities and spread Quechua but did not abolish every local custom, and the Mexica did not preserve them all.",
-        "Neither empire used coins as the passage and the topic describe.",
+        "Both states usually governed through local rulers; the key contrast was labor service versus tribute in goods.",
+        "The Inca state, not merchants, organized labor and storehouses; the Mexica collected tribute.",
       ],
       nearMissIndex: 0,
       distinguisher:

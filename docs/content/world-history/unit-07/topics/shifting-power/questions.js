@@ -449,35 +449,6 @@ export const bank = {
       stimulusId: "reed-petrograd",
       stimulusBlocks: [excerpts.reedPetrograd],
     },
-    {
-      id: "world-7-1-m2-12d",
-      topicId: "world-7-1",
-      concept: "revolutions",
-      difficulty: "Apply",
-      skill: "connections",
-      reasoning: "causation",
-      prompt: "How did the shortages Reed describes contribute to revolution?",
-      choices: [
-        "Shortages led peasants to demand the return of the tsar",
-        "Food rationing helped bring the war with Germany to an end",
-        "Shortages convinced the Allies to recognize the new government",
-        "Hunger and war weariness weakened the Provisional Government",
-      ],
-      correctAnswer: 3,
-      explanation:
-        "As bread grew scarcer and the war dragged on, more people listened to the Bolshevik promise of bread and peace.",
-      sourceIds: ["ced-topic-7-1"],
-      choiceExplanations: [
-        "The tsar had already abdicated, and shortages hurt his reputation.",
-        "Russia remained at war until the Bolsheviks signed a peace in 1918.",
-        "The Allies did not recognize the Bolshevik government.",
-        "As bread grew scarcer and the war dragged on, more people listened to the Bolshevik promise of bread and peace.",
-      ],
-      nearMissIndex: 1,
-      distinguisher: "Rationing was a response to shortage, but it did not stop the war.",
-      stimulusId: "reed-petrograd",
-      stimulusBlocks: [excerpts.reedPetrograd],
-    },
     // END mock exam questions
   ],
   quizzes: [

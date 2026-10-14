@@ -322,7 +322,7 @@ export const bank = {
         "Khrushchev agreed to remove missiles and the United States agreed to nothing",
         "The United States promised not to invade Cuba and removed its Turkish missiles",
         "The United States removed its navy from the Caribbean while Soviet missiles stayed",
-        "The superpowers agreed to destroy all of their nuclear weapons",
+        "The Soviets removed their missiles in exchange for aid to Cuba",
       ],
       correctAnswer: 1,
       explanation:
@@ -332,7 +332,7 @@ export const bank = {
         "The passage describes American promises in exchange.",
         "Each side gave something: the Soviets withdrew missiles and the Americans promised not to invade Cuba and removed missiles from Turkey.",
         "The passage says the missiles were removed.",
-        "The passage does not describe full nuclear disarmament.",
+        "The passage names a promise not to invade Cuba and the removal of missiles from Turkey, not aid.",
       ],
       nearMissIndex: 0,
       distinguisher:
@@ -378,8 +378,8 @@ export const bank = {
       skill: "contextualization",
       prompt: "The placement of Soviet missiles in Cuba is best explained by",
       choices: [
-        "a Cuban request that the Soviets protect the island from Spain",
-        "a Soviet plan to invade the United States across the sea",
+        "a Soviet effort to restore Batista to power in Cuba",
+        "a Soviet plan to support Cuban troops fighting in Angola",
         "Cuba's alliance with the Soviet Union and the nuclear rivalry",
         "an agreement among Latin American states to host weapons",
       ],
@@ -388,14 +388,14 @@ export const bank = {
         "After Fidel Castro's revolution, Cuba aligned with the Soviet Union, and Soviet leaders sought to offset American missiles near their borders.",
       sourceIds: ["ced-topic-8-3"],
       choiceExplanations: [
-        "Spain was not a threat to Cuba in the 1960s.",
-        "The passage does not describe a Soviet plan to invade the United States.",
+        "Batista was the dictator Castro overthrew; the Soviets backed Castro.",
+        "Cuban troops went to Angola in 1975, more than a decade later.",
         "After Fidel Castro's revolution, Cuba aligned with the Soviet Union, and Soviet leaders sought to offset American missiles near their borders.",
         "Latin American states did not agree to host weapons.",
       ],
       nearMissIndex: 0,
       distinguisher:
-        "The Soviets feared an American invasion of Cuba, which fits the alliance, but they were not planning to invade the United States.",
+        "The Soviets did back Cuba, but they supported Castro, who had overthrown Batista.",
       stimulusId: "mock3-cuban-missile-crisis",
       stimulusBlocks: [excerpts.m3Cuba],
     },

@@ -628,7 +628,7 @@ export const bank = {
         "Rising food output that could support people who did not farm",
         "A single law code issued by the Church for all of Europe",
         "A fall in population that raised the value of labor",
-        "The conquest of Byzantium by the Italian city-states",
+        "A decline in long-distance trade after the Crusades ended",
       ],
       correctAnswer: 0,
       explanation:
@@ -638,7 +638,7 @@ export const bank = {
         "Better plows, horse collars, and the three-field system produced surplus food, which freed people to work in towns as merchants and artisans.",
         "The passage describes no common law code, and the Church did not issue one.",
         "A fall in population came after the plague of the mid-1300s, not before the towns' growth described here.",
-        "The passage says nothing of conquering Byzantium; the Italian cities grew through trade.",
+        "The passage describes trade expanding through Venice, Genoa, and the Champagne fairs, not declining.",
       ],
       nearMissIndex: 2,
       distinguisher:
@@ -656,9 +656,9 @@ export const bank = {
         "The study of Aristotle at European universities most directly reflects the influence of",
       choices: [
         "the spread of printing presses that made books cheap across Europe",
-        "Mongol sponsorship of translation projects at the University of Paris",
+        "Byzantine scholars who brought Greek texts to Italy after 1453",
         "scholarship preserved and translated through the Islamic world",
-        "a Confucian curriculum carried west along Silk Road routes",
+        "the revival of Roman law studied at Bologna",
       ],
       correctAnswer: 2,
       explanation:
@@ -666,9 +666,9 @@ export const bank = {
       sourceIds: ["ced-topic-1-6"],
       choiceExplanations: [
         "Movable-type printing in Europe began in the 1450s, after the period of the passage.",
-        "The Mongols did not sponsor scholars at European universities.",
+        "Greek scholars fleeing Constantinople came after 1453, long after universities began studying Aristotle.",
         "The passage says Aristotle's works were preserved and translated through the Islamic world before European scholars studied them.",
-        "Chinese examinations tested Confucian learning and did not shape European universities.",
+        "Bologna revived Roman law, but the passage links Aristotle's works to translation through the Islamic world.",
       ],
       nearMissIndex: 0,
       distinguisher:
@@ -719,7 +719,7 @@ export const bank = {
         "the manorial system that bound peasants to the land of their lords",
         "a commercial revival linking Europe to Afro-Eurasian trade",
         "the first European settlements established in the Americas",
-        "a Mongol tribute system that reached into western France",
+        "the Hanseatic League's control of Mediterranean shipping",
       ],
       correctAnswer: 1,
       explanation:
@@ -729,7 +729,7 @@ export const bank = {
         "Manors organized rural labor; fairs and shipping were commercial.",
         "Fairs and Mediterranean shipping show Europe's merchants joining the long-distance trade that connected Afro-Eurasia.",
         "European settlement of the Americas began after 1492.",
-        "The Mongols did not collect tribute in France.",
+        "The Hanseatic League traded in the Baltic and North Seas; Venice and Genoa led Mediterranean shipping.",
       ],
       nearMissIndex: 0,
       distinguisher:

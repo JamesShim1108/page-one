@@ -237,20 +237,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-6-leq-causation",
-        "title": "Unit 6 LEQ: Causes of imperial expansion",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
-      },
-      {
-        "id": "world-6-dbq-ideas",
-        "title": "Unit 6 DBQ: New ideas and old hierarchies",
-        "partCount": 8,
-        "exerciseType": "dbq",
-        "availability": "available"
       }
     ]
   },
@@ -800,6 +786,49 @@
       "skillCode": "6"
     },
     {
+      "id": "world-6-4-m1-11d",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The colonial economy described in the passage was most similar to which other economy of the period 1870 to 1930?",
+      "choices": [
+        "Cotton grown for export in British-ruled Egypt",
+        "Silver mined at Potosí for Spanish colonial rulers",
+        "Textile factories built by the Meiji government in Japan",
+        "Rice grown for local markets in Tokugawa Japan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Egyptian cotton, like Senegalese peanuts, was a single export crop grown for European industry and priced in European markets.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Egyptian cotton, like Senegalese peanuts, was a single export crop grown for European industry and priced in European markets.",
+        "Potosí silver was a colonial export, but it was mined centuries earlier, from the 1540s.",
+        "Meiji Japan built its own industry; it was not a colonial export economy.",
+        "Tokugawa rice farming fed domestic markets and ended before 1870."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Potosí also sent a raw material to a colonial power, but it belongs to the period 1450 to 1750.",
+      "stimulusId": "mock1-senegal-peanuts",
+      "stimulusBlocks": [
+        {
+          "id": "mock1-senegal-peanuts",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: colonial economies were reshaped to export raw materials and cash crops",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing export farming in French West Africa, c. 1885–1935",
+          "text": "In the late 1800s, French colonial officials in Senegal encouraged African farmers to grow peanuts, which were exported to France to make soap and cooking oil. Railways connected the peanut-growing interior to the port of Dakar. Taxes that had to be paid in French currency pushed farmers to sell their crops for cash.\n\nExport earnings rose, but farmers who devoted land to peanuts grew less food, and prices depended on distant European markets. When prices fell in the 1930s, many farmers fell into debt."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
       "id": "world-6-4-m3-11a",
       "topicId": "world-6-4",
       "concept": "raw-materials",
@@ -810,7 +839,7 @@
         "Treaties give other nations fair shares of the profits of trade",
         "Cheap goods act like artillery against foreign nations",
         "Missionaries persuade foreign rulers to change their laws",
-        "Gifts of machines are sent to every foreign government"
+        "Colonial armies force other nations to obey European laws"
       ],
       "correctAnswer": 1,
       "explanation": "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
@@ -821,7 +850,7 @@
         "The passage describes pressure, not fair sharing.",
         "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
         "The passage does not mention missionaries.",
-        "The passage does not describe gifts."
+        "Marx and Engels say cheap prices, not armies, are the bourgeoisie's “heavy artillery.”"
       ],
       "nearMissIndex": 2,
       "distinguisher": "Merchants did use force at times, but the passage's image is of cheap goods as a weapon.",

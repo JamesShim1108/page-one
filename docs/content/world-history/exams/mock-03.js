@@ -64,7 +64,12 @@ export const exam = {
         },
         {
           topicId: "world-5-3",
-          questionIds: ["world-5-3-m3-09a", "world-5-3-m3-09b", "world-5-3-m3-09c"],
+          questionIds: [
+            "world-5-3-m3-09a",
+            "world-5-3-m3-09b",
+            "world-5-3-m3-09c",
+            "world-5-3-m3-09d",
+          ],
         },
         {
           topicId: "world-6-3",
@@ -81,12 +86,7 @@ export const exam = {
         },
         {
           topicId: "world-7-8",
-          questionIds: [
-            "world-7-8-m3-12a",
-            "world-7-8-m3-12b",
-            "world-7-8-m3-12c",
-            "world-7-8-m3-12d",
-          ],
+          questionIds: ["world-7-8-m3-12a", "world-7-8-m3-12b", "world-7-8-m3-12c"],
         },
         {
           topicId: "world-7-3",

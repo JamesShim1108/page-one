@@ -283,7 +283,7 @@ export const bank = {
       choices: [
         "That the agreement would raise taxes on factories",
         "That cheap imported corn would harm small farmers",
-        "That it would give Mexico control over trade in Canada",
+        "That it would end Mexico's oil exports to the United States",
         "That it would ban the sale of Mexican corn abroad",
       ],
       correctAnswer: 1,
@@ -293,10 +293,10 @@ export const bank = {
       choiceExplanations: [
         "The passage does not mention taxes on factories.",
         "The Zapatistas argued that competition from imported corn would hurt small farmers.",
-        "NAFTA lowered barriers among the three countries and did not give Mexico control over Canada.",
+        "The passage names cheap imported corn, not oil, as the Zapatistas' concern.",
         "The concern was about imports, not a ban on exports.",
       ],
-      nearMissIndex: 2,
+      nearMissIndex: 3,
       distinguisher:
         "NAFTA did affect Mexican trade, but the Zapatistas' stated concern was imported crops.",
       stimulusId: "mock3-zapatistas",

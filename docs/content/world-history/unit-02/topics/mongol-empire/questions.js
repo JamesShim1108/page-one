@@ -853,7 +853,7 @@ export const bank = {
       choices: [
         "It bought them from merchants with silver from imperial mines",
         "It captured them from enemies in wars on the steppe",
-        "It borrowed them from monasteries that kept large herds",
+        "It raised them on state ranches in southern China",
         "It required cities and villages near each station to provide them",
       ],
       correctAnswer: 3,
@@ -863,7 +863,7 @@ export const bank = {
       choiceExplanations: [
         "The passage says the horses cost the Emperor nothing, so he did not buy them.",
         "The passage describes a regular demand on communities, not captured horses.",
-        "The passage does not mention monasteries.",
+        "Polo says nearby communities had to supply the horses, not state ranches.",
         "Polo says each community near a station had a fixed demand for horses.",
       ],
       nearMissIndex: 0,

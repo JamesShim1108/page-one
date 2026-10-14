@@ -214,7 +214,7 @@ export const writingQuizzes = [
     unitNumber: 5,
     headline: "Revolutions in the Atlantic world",
     prompt:
-      "Evaluate the similarities and differences between the American Revolution and the Haitian Revolution in their causes and outcomes.",
+      "Evaluate the similarities and differences between the American Revolution and the Haitian Revolution in their causes and outcomes in the period 1775 to 1804.",
     sourceIds: ["ced-topic-5-2", "ced-topic-5-1"],
     topicId: "world-5-2",
     outlineReview: { sectionId: "atlantic-revolutions", label: "Atlantic revolutions" },

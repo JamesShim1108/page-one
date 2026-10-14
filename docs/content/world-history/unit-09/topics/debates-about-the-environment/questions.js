@@ -407,7 +407,7 @@ export const bank = {
         "Nixon was most likely to raise environmental concerns in this address because",
       choices: [
         "scientists had already agreed on a binding global treaty on pollution",
-        "the Soviet Union had just banned industrial pollution entirely",
+        "Congress had just ratified the Kyoto Protocol on climate",
         "public concern about pollution was growing and Earth Day was near",
         "industry leaders had asked Congress for stricter pollution rules",
       ],
@@ -417,11 +417,11 @@ export const bank = {
       sourceIds: ["ced-topic-9-3"],
       choiceExplanations: [
         "No global treaty on pollution existed in 1970.",
-        "The Soviet Union did not ban industrial pollution.",
+        "The Kyoto Protocol was negotiated in 1997, decades after this address.",
         "Environmental concern was rising in 1969–1970, and Earth Day took place in April 1970.",
         "The passage describes the need for new regulation, not requests from industry.",
       ],
-      nearMissIndex: 1,
+      nearMissIndex: 3,
       distinguisher:
         "Industry did respond to regulation, but the pressure for it came from public concern.",
       stimulusId: "nixon-sotu-1970-environment",

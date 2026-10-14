@@ -434,8 +434,8 @@ export const bank = {
       choices: [
         "a request from the United Nations that France administer the territory",
         "a wish to regain prestige and resources despite wartime weakness",
-        "pressure from Japan to continue colonial rule in Southeast Asia",
-        "an agreement with the Soviet Union to share control of the colony",
+        "the Atlantic Charter's promise to restore prewar colonial borders",
+        "a vote in which the Vietnamese chose to remain under France",
       ],
       correctAnswer: 1,
       explanation:
@@ -444,8 +444,8 @@ export const bank = {
       choiceExplanations: [
         "The United Nations did not ask France to resume control.",
         "France had been occupied during the war and sought to restore its empire as part of recovering as a great power.",
-        "Japan had occupied Indochina and was defeated in 1945.",
-        "The Soviet Union supported anticolonial movements and had no such agreement.",
+        "The Atlantic Charter endorsed self-determination, which nationalists used against colonial rule.",
+        "No such vote took place; Ho Chi Minh had declared independence, and France reclaimed Indochina by force.",
       ],
       nearMissIndex: 0,
       distinguisher:

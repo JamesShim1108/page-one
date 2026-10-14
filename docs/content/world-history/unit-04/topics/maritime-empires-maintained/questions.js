@@ -530,7 +530,7 @@ export const bank = {
         "China's demand for silver in the 1500s and 1600s was most directly a result of",
       choices: [
         "the Spanish founding of the port of Manila in 1571",
-        "a Chinese conquest of the Philippines in the 1500s",
+        "a Ming need for silver to pay Portuguese spice traders",
         "a Ming ban on exporting silk to Europe",
         "Ming taxes that had to be paid in silver",
       ],
@@ -540,7 +540,7 @@ export const bank = {
       sourceIds: ["ced-topic-4-5"],
       choiceExplanations: [
         "Manila gave the Spanish a place to trade with China but did not create China's demand.",
-        "China did not conquer the Philippines.",
+        "Chinese demand came from domestic taxes and commerce, not from paying for spices.",
         "China exported silk; it did not ban silk exports.",
         "Because taxes were paid in silver, the Chinese economy needed large amounts of it.",
       ],

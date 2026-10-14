@@ -243,20 +243,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-8-leq-causation",
-        "title": "Unit 8 LEQ: Causes of decolonization",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
-      },
-      {
-        "id": "world-8-saq-02",
-        "title": "Unit 8 SAQ 02",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
       }
     ]
   },

@@ -250,27 +250,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-7-saq-02",
-        "title": "Unit 7 SAQ 02",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
-      },
-      {
-        "id": "world-7-leq-comparison",
-        "title": "Unit 7 LEQ: Responses to the Great Depression",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
-      },
-      {
-        "id": "world-7-saq-03",
-        "title": "Unit 7 SAQ 03",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
       }
     ]
   },
@@ -962,49 +941,6 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Causation"
-    },
-    {
-      "id": "world-7-5-m1-12d",
-      "topicId": "world-7-5",
-      "concept": "versailles",
-      "difficulty": "Apply",
-      "skill": "contextualization",
-      "prompt": "Which provision of the Treaty of Versailles most directly led to the economic concerns Keynes raised?",
-      "choices": [
-        "A requirement that Germany pay large reparations",
-        "The war guilt clause blaming Germany for the war",
-        "The creation of mandates in the Middle East",
-        "A prohibition on German union with Austria"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Reparations drained German resources and strained its economy, which Keynes argued would destabilize all of Europe.",
-      "sourceIds": [
-        "ced-topic-7-5"
-      ],
-      "choiceExplanations": [
-        "Reparations drained German resources and strained its economy, which Keynes argued would destabilize all of Europe.",
-        "The war guilt clause was the legal basis for reparations, but the economic burden came from the payments themselves.",
-        "Mandates governed former Ottoman and German colonies and had little effect on the German economy.",
-        "The ban on union with Austria limited German politics and did not directly affect the economy."
-      ],
-      "nearMissIndex": 1,
-      "distinguisher": "The war guilt clause justified reparations, but the payments are what weighed on the economy.",
-      "stimulusId": "keynes-peace",
-      "stimulusBlocks": [
-        {
-          "id": "keynes-peace",
-          "type": "source",
-          "sourceType": "primary",
-          "source": "keynes-consequences",
-          "amsco_review": "pending",
-          "attribution": "John Maynard Keynes, British economist and Treasury representative at the Paris Peace Conference who resigned in protest in June 1919, The Economic Consequences of the Peace, 1919",
-          "citation": "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), chs. 6–7. Project Gutenberg eBook #15776.",
-          "note": "The Central Empires were Germany and Austria-Hungary. “The late German war” is the First World War.",
-          "text": "This chapter must be one of pessimism. The Treaty includes no provisions for the economic rehabilitation of Europe,--nothing to make the defeated Central Empires into good neighbors, nothing to stabilize the new States of Europe, nothing to reclaim Russia . . . .\n\nIf we aim deliberately at the impoverishment of Central Europe, vengeance, I dare predict, will not limp. Nothing can then delay for very long that final civil war between the forces of Reaction and the despairing convulsions of Revolution, before which the horrors of the late German war will fade into nothing . . . ."
-        }
-      ],
-      "skillLabel": "Contextualization",
-      "skillCode": "4"
     }
   ],
   "quizzes": [

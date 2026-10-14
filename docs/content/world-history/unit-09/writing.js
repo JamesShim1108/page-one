@@ -215,7 +215,7 @@ export const writingQuizzes = [
     unitNumber: 9,
     headline: "Ideas about the role of government",
     prompt:
-      "Evaluate the extent to which ideas about the proper role of government changed in the period 1917–2000.",
+      "Evaluate the extent to which ideas in Europe and the United States about the proper role of government in economic life changed in the period 1917–2000.",
     sourceIds: [
       "reed-ten-days",
       "keynes-consequences",

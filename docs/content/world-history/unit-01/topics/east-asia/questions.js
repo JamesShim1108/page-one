@@ -488,7 +488,7 @@ export const bank = {
         "allowing two harvests a year and supporting more people",
         "replacing paper money as the main means of exchange",
         "removing the need for farmers to pay taxes to the state",
-        "making it possible to export rice to western Europe",
+        "replacing millet as the staple crop of the northern steppe",
       ],
       correctAnswer: 0,
       explanation:
@@ -498,7 +498,7 @@ export const bank = {
         "Fast-ripening rice allowed more food per year, supporting more people and trade.",
         "Paper money and rice were separate developments, and the passage connects rice to harvests.",
         "The passage does not say rice reduced taxes.",
-        "The passage describes domestic growth and not grain exports to Europe.",
+        "Champa rice grew in the wet south; it raised southern harvests rather than changing steppe diets.",
       ],
       nearMissIndex: 2,
       distinguisher:
@@ -516,24 +516,24 @@ export const bank = {
       prompt:
         "Which later development in East Asia was most directly influenced by Song-era Neo-Confucianism?",
       choices: [
-        "The conversion of the Japanese court to Islam in the 1300s",
+        "The spread of Theravada Buddhism in Southeast Asian kingdoms",
         "Joseon Korea's use of Confucian education as state ideology",
-        "The adoption of the Mandate of Heaven by the Mexica rulers",
-        "The creation of the Inca civil service in the Andes",
+        "The Mongol use of relay stations to govern across Eurasia",
+        "Japan's shogunate built on hereditary warrior rule",
       ],
       correctAnswer: 1,
       explanation:
         "Korea's Joseon dynasty, founded in 1392, made Neo-Confucianism the basis of its government and schools.",
       sourceIds: ["ced-topic-1-1"],
       choiceExplanations: [
-        "Islam did not become the religion of the Japanese court.",
+        "Theravada Buddhism spread from Sri Lanka, not from Song Neo-Confucian scholarship.",
         "Korea's Joseon dynasty, founded in 1392, made Neo-Confucianism the basis of its government and schools.",
-        "The Mexica were in Mesoamerica and had no contact with Song ideas.",
-        "The Inca system developed independently in the Andes.",
+        "The yam system was a Mongol institution, not a product of Neo-Confucian learning.",
+        "The shogunate rested on hereditary warrior status, not Confucian examinations.",
       ],
       nearMissIndex: 3,
       distinguisher:
-        "Buddhism and Shinto continued in Japan, and Confucian ideas there developed differently from Korea's.",
+        "Japan also absorbed Confucian ideas, but its shogunate rested on hereditary warrior rule rather than Confucian state education.",
       stimulusId: "mock3-song-china",
       stimulusBlocks: [excerpts.m3Song],
     },

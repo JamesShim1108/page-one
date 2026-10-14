@@ -291,7 +291,7 @@ export const bank = {
         "It was the largest source of revenue for the British Empire",
         "It was collected only from the wealthy Indian princes",
         "It hit poor Indians and symbolized British control",
-        "It had been created by Gandhi's political opponents",
+        "It was a new tax introduced by Britain in 1930",
       ],
       correctAnswer: 2,
       explanation:
@@ -301,7 +301,7 @@ export const bank = {
         "The passage does not claim the tax was the largest source of revenue.",
         "The passage says the burden fell on poor Indians.",
         "The passage says the tax fell heavily on the poor, and the salt monopoly showed British power over everyday life.",
-        "The passage describes the tax as a British law.",
+        "The salt monopoly and tax were long-standing, not new in 1930.",
       ],
       nearMissIndex: 0,
       distinguisher:

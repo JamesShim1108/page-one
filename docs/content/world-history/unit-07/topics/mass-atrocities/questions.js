@@ -356,36 +356,6 @@ export const bank = {
       stimulusId: "mock3-holocaust-escalation",
       stimulusBlocks: [excerpts.m3Holocaust],
     },
-    {
-      id: "world-7-8-m3-12d",
-      topicId: "world-7-8",
-      concept: "holocaust",
-      difficulty: "Apply",
-      skill: "sourcing",
-      prompt:
-        "Which kind of evidence would best help historians show when German leaders coordinated the killing of European Jews?",
-      choices: [
-        "Newspaper articles written by foreign visitors in 1933",
-        "Letters that German families sent to relatives in 1939",
-        "Records of the Wannsee Conference and related orders",
-        "Maps of German railroads published before the Nazi rise",
-      ],
-      correctAnswer: 2,
-      explanation:
-        "Records of the officials' meeting and orders to units show planning and coordination.",
-      sourceIds: ["ced-topic-7-8"],
-      choiceExplanations: [
-        "Early press accounts could show persecution but not a plan for mass murder.",
-        "Family letters might describe daily life but not plans of the leadership.",
-        "Records of the officials' meeting and orders to units show planning and coordination.",
-        "Railroad maps before 1933 predate the planning.",
-      ],
-      nearMissIndex: 3,
-      distinguisher:
-        "Railroads were used for deportations, but the date of maps shows they cannot document planning.",
-      stimulusId: "mock3-holocaust-escalation",
-      stimulusBlocks: [excerpts.m3Holocaust],
-    },
     // END mock exam questions
   ],
   quizzes: [

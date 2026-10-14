@@ -368,7 +368,7 @@ export const bank = {
       prompt:
         "Which belief helped unite people against German rule, according to the passage?",
       choices: [
-        "That German officials would leave if given gifts of cotton",
+        "That joining a Christian mission would protect their villages",
         "That the rebels would be protected by the British army",
         "That water blessed by a spirit would turn German bullets to water",
         "That the spirits of the ancestors would defeat the Germans in a single battle",
@@ -378,7 +378,7 @@ export const bank = {
         "The spirit medium Kinjikitile taught that the maji water would make German bullets harmless.",
       sourceIds: ["ced-topic-6-3"],
       choiceExplanations: [
-        "The passage does not suggest giving gifts to officials.",
+        "The passage names a spirit medium's blessed water, not Christian missions, as the uniting belief.",
         "The passage does not mention the British.",
         "The spirit medium Kinjikitile taught that the maji water would make German bullets harmless.",
         "The passage describes a belief about water, not a single battle.",
@@ -399,7 +399,7 @@ export const bank = {
       prompt: "Which German colonial policy most directly helped trigger the rebellion?",
       choices: [
         "A ban on missionary schools in the colony",
-        "A requirement that villagers serve in the German navy",
+        "A requirement that villagers move into German-built towns",
         "The seizure of all firearms owned by villagers",
         "Forced growing of cotton for export along with cash taxes",
       ],
@@ -409,7 +409,7 @@ export const bank = {
       sourceIds: ["ced-topic-6-3"],
       choiceExplanations: [
         "The passage does not mention missionary schools.",
-        "The passage does not mention naval service.",
+        "The passage blames forced cotton growing and cash taxes, not resettlement.",
         "The passage does not mention disarmament.",
         "The passage says officials imposed cash taxes and forced villagers to grow cotton on communal plots.",
       ],

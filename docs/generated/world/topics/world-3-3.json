@@ -221,27 +221,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-3-saq-02",
-        "title": "Unit 3 SAQ 02",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
-      },
-      {
-        "id": "world-3-saq-03",
-        "title": "Unit 3 SAQ 03",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
-      },
-      {
-        "id": "world-3-leq-comparison",
-        "title": "Unit 3 LEQ: Governing religious diversity",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
       }
     ]
   },

@@ -250,27 +250,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-7-saq-02",
-        "title": "Unit 7 SAQ 02",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
-      },
-      {
-        "id": "world-7-leq-comparison",
-        "title": "Unit 7 LEQ: Responses to the Great Depression",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
-      },
-      {
-        "id": "world-7-saq-03",
-        "title": "Unit 7 SAQ 03",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
       }
     ]
   },

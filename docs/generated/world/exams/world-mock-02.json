@@ -117,8 +117,8 @@
           "choices": [
             "The Inca demanded tribute in cacao and cloth, while the Mexica demanded labor service",
             "The Inca relied mainly on rotating labor service, while the Mexica relied mainly on tribute in goods",
-            "The Inca abolished all local customs, while the Mexica preserved every one",
-            "The Inca paid conquered peoples in coins, while the Mexica paid them in land"
+            "The Inca removed local lords, while the Mexica replaced every conquered ruler",
+            "The Inca relied on merchant guilds, while the Mexica relied on storehouses"
           ],
           "correctAnswer": 1,
           "explanation": "The Inca mit'a organized labor, whereas the Mexica collected tribute such as cloth, food, and cacao from conquered cities.",
@@ -128,8 +128,8 @@
           "choiceExplanations": [
             "The statement reverses the two systems.",
             "The Inca mit'a organized labor, whereas the Mexica collected tribute such as cloth, food, and cacao from conquered cities.",
-            "The Inca moved communities and spread Quechua but did not abolish every local custom, and the Mexica did not preserve them all.",
-            "Neither empire used coins as the passage and the topic describe."
+            "Both states usually governed through local rulers; the key contrast was labor service versus tribute in goods.",
+            "The Inca state, not merchants, organized labor and storehouses; the Mexica collected tribute."
           ],
           "nearMissIndex": 0,
           "distinguisher": "Both empires took resources from conquered peoples, but the form of what they took differed.",
@@ -853,7 +853,7 @@
           "prompt": "China's demand for silver in the 1500s and 1600s was most directly a result of",
           "choices": [
             "the Spanish founding of the port of Manila in 1571",
-            "a Chinese conquest of the Philippines in the 1500s",
+            "a Ming need for silver to pay Portuguese spice traders",
             "a Ming ban on exporting silk to Europe",
             "Ming taxes that had to be paid in silver"
           ],
@@ -864,7 +864,7 @@
           ],
           "choiceExplanations": [
             "Manila gave the Spanish a place to trade with China but did not create China's demand.",
-            "China did not conquer the Philippines.",
+            "Chinese demand came from domestic taxes and commerce, not from paying for spices.",
             "China exported silk; it did not ban silk exports.",
             "Because taxes were paid in silver, the Chinese economy needed large amounts of it."
           ],
@@ -1020,9 +1020,9 @@
           "reasoning": "continuity",
           "prompt": "Which statement best describes how the casta system worked in practice, according to the passage?",
           "choices": [
-            "It copied the caste system of India without any changes",
+            "It assigned legal status by religion rather than ancestry",
             "It prevented any mixing of ancestry among colonial groups",
-            "It guaranteed Indigenous peoples the highest rank in society",
+            "It applied only to enslaved Africans, not Indigenous peoples",
             "It was flexible: wealth or marriage could change status"
           ],
           "correctAnswer": 3,
@@ -1031,13 +1031,13 @@
             "ced-topic-4-7"
           ],
           "choiceExplanations": [
-            "The passage describes a Spanish American system, not the caste system of India.",
+            "The passage says casta labels recorded ancestry, not religion.",
             "The passage describes mestizos and mulattos, who had mixed ancestry.",
-            "Indigenous peoples ranked low in the passage.",
+            "Casta labels covered Indigenous, African, European, and mixed ancestry.",
             "The passage says people could sometimes change their standing through wealth or marriage."
           ],
-          "nearMissIndex": 2,
-          "distinguisher": "Both systems ranked people by birth, but they developed in different places and societies.",
+          "nearMissIndex": 0,
+          "distinguisher": "Religion shaped colonial life, but casta labels recorded ancestry, not faith.",
           "stimulusId": "mock2-spanish-american-hierarchy",
           "stimulusBlocks": [
             {
@@ -1089,7 +1089,7 @@
               "source": "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
               "amsco_review": "pending",
               "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
-              "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general, defeating Spanish, British, and French armies and ending slavery on the island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
+              "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
             }
           ],
           "skillLabel": "Claims and evidence in sources",
@@ -1131,7 +1131,7 @@
               "source": "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
               "amsco_review": "pending",
               "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
-              "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general, defeating Spanish, British, and French armies and ending slavery on the island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
+              "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
             }
           ],
           "skillLabel": "Making connections",
@@ -1174,7 +1174,7 @@
               "source": "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
               "amsco_review": "pending",
               "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
-              "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general, defeating Spanish, British, and French armies and ending slavery on the island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
+              "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
             }
           ],
           "skillLabel": "Making connections",
@@ -1216,7 +1216,7 @@
               "source": "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
               "amsco_review": "pending",
               "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
-              "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general, defeating Spanish, British, and French armies and ending slavery on the island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
+              "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
             }
           ],
           "skillLabel": "Contextualization",
@@ -1552,7 +1552,7 @@
               "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
               "amsco_review": "pending",
               "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
-              "text": "Between 1850 and 1882, tens of thousands of Chinese laborers migrated to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+              "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
             }
           ],
           "skillLabel": "Claims and evidence in sources",
@@ -1594,7 +1594,7 @@
               "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
               "amsco_review": "pending",
               "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
-              "text": "Between 1850 and 1882, tens of thousands of Chinese laborers migrated to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+              "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
             }
           ],
           "skillLabel": "Making connections",
@@ -1637,12 +1637,55 @@
               "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
               "amsco_review": "pending",
               "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
-              "text": "Between 1850 and 1882, tens of thousands of Chinese laborers migrated to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+              "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
             }
           ],
           "skillLabel": "Making connections",
           "skillCode": "5",
           "reasoningLabel": "Comparison"
+        },
+        {
+          "id": "world-6-7-m2-11d",
+          "topicId": "world-6-7",
+          "concept": "nativism",
+          "difficulty": "Apply",
+          "skill": "connections",
+          "reasoning": "causation",
+          "prompt": "Which of the following best explains why many Chinese migrants went to California in the 1850s and 1860s?",
+          "choices": [
+            "Indenture contracts bound most of them to plantation work",
+            "The Qing government sent settlers to claim land in America",
+            "Gold mining and railroad building offered work and wages",
+            "The Chinese Exclusion Act guaranteed them jobs and land"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The gold rush and the Central Pacific Railroad drew workers seeking wages higher than they could earn at home.",
+          "sourceIds": [
+            "ced-topic-6-7"
+          ],
+          "choiceExplanations": [
+            "Indenture bound many Chinese and Indian migrants in the Caribbean and Peru, but most Chinese in California came on credit, not plantation contracts.",
+            "The Qing government discouraged emigration and did not send settlers.",
+            "The gold rush and the Central Pacific Railroad drew workers seeking wages higher than they could earn at home.",
+            "The 1882 act barred Chinese laborers; it did not invite them."
+          ],
+          "nearMissIndex": 0,
+          "distinguisher": "Indentured labor was common elsewhere in the Americas, but Chinese migrants in California mostly worked for wages.",
+          "stimulusId": "mock2-chinese-migration",
+          "stimulusBlocks": [
+            {
+              "id": "mock2-chinese-migration",
+              "type": "source",
+              "sourceType": "original",
+              "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
+              "amsco_review": "pending",
+              "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
+              "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+            }
+          ],
+          "skillLabel": "Making connections",
+          "skillCode": "5",
+          "reasoningLabel": "Causation"
         },
         {
           "id": "world-7-1-m2-12a",
@@ -1774,51 +1817,6 @@
           "skillLabel": "Contextualization",
           "skillCode": "4",
           "reasoningLabel": "Continuity and change"
-        },
-        {
-          "id": "world-7-1-m2-12d",
-          "topicId": "world-7-1",
-          "concept": "revolutions",
-          "difficulty": "Apply",
-          "skill": "connections",
-          "reasoning": "causation",
-          "prompt": "How did the shortages Reed describes contribute to revolution?",
-          "choices": [
-            "Shortages led peasants to demand the return of the tsar",
-            "Food rationing helped bring the war with Germany to an end",
-            "Shortages convinced the Allies to recognize the new government",
-            "Hunger and war weariness weakened the Provisional Government"
-          ],
-          "correctAnswer": 3,
-          "explanation": "As bread grew scarcer and the war dragged on, more people listened to the Bolshevik promise of bread and peace.",
-          "sourceIds": [
-            "ced-topic-7-1"
-          ],
-          "choiceExplanations": [
-            "The tsar had already abdicated, and shortages hurt his reputation.",
-            "Russia remained at war until the Bolsheviks signed a peace in 1918.",
-            "The Allies did not recognize the Bolshevik government.",
-            "As bread grew scarcer and the war dragged on, more people listened to the Bolshevik promise of bread and peace."
-          ],
-          "nearMissIndex": 1,
-          "distinguisher": "Rationing was a response to shortage, but it did not stop the war.",
-          "stimulusId": "reed-petrograd",
-          "stimulusBlocks": [
-            {
-              "id": "reed-petrograd",
-              "type": "source",
-              "sourceType": "primary",
-              "source": "reed-ten-days",
-              "amsco_review": "pending",
-              "attribution": "John Reed, American journalist and socialist who witnessed the Russian Revolution in Petrograd, Ten Days That Shook the World, 1919",
-              "citation": "John Reed, Ten Days That Shook the World (1919), ch. 1. Project Gutenberg eBook #3076.",
-              "note": "The Bolsheviki were the Bolsheviks, led by Lenin. Soviets were councils of workers and soldiers. The Provisional Government ruled Russia between the tsar's abdication in March 1917 and the Bolshevik seizure of power in November 1917. The ellipsis after “treachery” appears in Reed's own text.",
-              "text": "In this atmosphere of corruption, of monstrous half-truths, one clear note sounded day after day, the deepening chorus of the Bolsheviki, \"All Power to the Soviets! All power to the direct representatives of millions on millions of common workers, soldiers, peasants. Land, bread, an end to the senseless war, an end to secret diplomacy, speculation, treachery. . . . The Revolution is in danger, and with it the cause of the people all over the world!\" . . .\n\nWeek by week food became scarcer. The daily allowance of bread fell from a pound and a half to a pound, then three quarters, half, and a quarter-pound. Toward the end there was a week without any bread at all."
-            }
-          ],
-          "skillLabel": "Making connections",
-          "skillCode": "5",
-          "reasoningLabel": "Causation"
         },
         {
           "id": "world-7-2-m2-13a",
@@ -2343,7 +2341,7 @@
           "prompt": "Nixon was most likely to raise environmental concerns in this address because",
           "choices": [
             "scientists had already agreed on a binding global treaty on pollution",
-            "the Soviet Union had just banned industrial pollution entirely",
+            "Congress had just ratified the Kyoto Protocol on climate",
             "public concern about pollution was growing and Earth Day was near",
             "industry leaders had asked Congress for stricter pollution rules"
           ],
@@ -2354,11 +2352,11 @@
           ],
           "choiceExplanations": [
             "No global treaty on pollution existed in 1970.",
-            "The Soviet Union did not ban industrial pollution.",
+            "The Kyoto Protocol was negotiated in 1997, decades after this address.",
             "Environmental concern was rising in 1969–1970, and Earth Day took place in April 1970.",
             "The passage describes the need for new regulation, not requests from industry."
           ],
-          "nearMissIndex": 1,
+          "nearMissIndex": 3,
           "distinguisher": "Industry did respond to regulation, but the pressure for it came from public concern.",
           "stimulusId": "nixon-sotu-1970-environment",
           "stimulusBlocks": [
@@ -2409,6 +2407,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "stimulusBlocks": [
                 {
                   "id": "mock2-black-death-debate",
@@ -2538,6 +2537,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "stimulusBlocks": [
                 {
                   "id": "gwbush-sotu-2003-aids",
@@ -2669,6 +2669,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "scaffold": [
                 {
                   "label": "Answer",
@@ -2778,6 +2779,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "scaffold": [
                 {
                   "label": "Answer",
@@ -2904,10 +2906,11 @@
               "title": "Unit 6 DBQ: New ideas and old hierarchies",
               "headline": "New ideas and old hierarchies",
               "promptTitle": "Document-based question",
-              "prompt": "Evaluate the extent to which new ideas about government, labor, and economic life challenged existing social and political hierarchies in the period 1750–1900.",
+              "prompt": "Evaluate the extent to which new ideas about government, labor, and economic life challenged existing social and political hierarchies in Europe and the Atlantic world in the period 1750–1870.",
               "instructions": "Use at least four documents to support an argument. For at least two documents, explain how the author's point of view, purpose, historical situation, or audience is relevant to your argument. Use at least one piece of specific historical evidence beyond the documents. Include contextualization and develop a complex argument. This is untimed self-assessment practice in AP format.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "dbq",
+              "examOnly": true,
               "availability": "available",
               "sourceIds": [
                 "paine-common-sense",
@@ -3241,7 +3244,7 @@
                   "status": "verified"
                 }
               ],
-              "modelResponse": "In 1750, most societies were organized around hierarchies of birth: monarchs and nobles ruled, women had few legal rights, and European empires governed colonies overseas. The Enlightenment questioned those arrangements by arguing that people had natural rights and that reason, not tradition, should guide government. Soon afterward, the Industrial Revolution created factories, a wage-earning working class, and a new middle class that sought influence.\n\nBetween 1750 and 1900, new ideas about government, labor, and economic life challenged hierarchies based on birth and monarchy, but they also created or justified new hierarchies of class, gender, and empire, so the challenge was significant but uneven.\n\nSeveral documents show direct challenges to traditional authority. Thomas Paine argued that \"society in every state is a blessing, but government even in its best state is but a necessary evil\" and mocked the idea that a continent should be governed by an island (Document 1). Writing as a pamphleteer in Philadelphia in 1776, Paine wanted to persuade ordinary colonists to support independence, so he used plain, forceful language, and his claim that freedom had been \"hunted round the globe\" was meant to move readers more than to describe every case accurately. Even so, the American Declaration of Independence soon echoed his challenge to hereditary authority. Mary Wollstonecraft extended the logic of reason to gender, demanding \"a revolution in female manners\" and women's power \"over themselves\" (Document 3). Because she was responding to Rousseau and wrote for educated readers, her argument focused on education rather than political rights, and she did not claim that women should rule men. Olympe de Gouges's Declaration of the Rights of Woman (1791) shows that some contemporaries asked for more.\n\nIdeas about labor and the economy also unsettled older hierarchies. Marx and Engels described history as \"the history of class struggles\" and called on workers to overthrow their rulers (Document 4). Writing for a political organization in 1848, they had reason to emphasize conflict and to treat workers as a unified force, which most British workers were not at the time. Samuel Smiles, in contrast, told readers that growth came from individual effort and that excessive government help made people \"helpless\" (Document 5). Writing for readers hoping to rise, Smiles challenged the idea that birth fixed a person's place, but he also argued against state help, a position that fit the interests of a growing middle class. Adam Smith's account of pin-making (Document 2) shows how the division of labor increased output, laying groundwork for factory production that would create both new wealth and the workers whom Marx described as an \"appendage of the machine.\"\n\nHowever, new ideas also reinforced hierarchies. Marx and Engels observed that capitalism \"compels all nations\" to adopt its mode of production (Document 6), but they also portrayed European industry as forcing other societies into a subordinate position. Mill, an official of the East India Company, argued that liberty applied only to people capable of improvement by free discussion and that despotism was legitimate for \"barbarians\" (Document 7). Because he worked for the company that governed much of India, his view helped justify colonial rule at a time when Britain was expanding its empire. The Indian Rebellion of 1857 and the partition of Africa after 1884 show how liberal states applied liberty selectively.\n\nIn conclusion, new ideas weakened hierarchies based on birth and absolute monarchy, but they also created class divisions and gave new justifications for empire, so they challenged existing hierarchies without ending inequality.",
+              "modelResponse": "In 1750, most societies were organized around hierarchies of birth: monarchs and nobles ruled, women had few legal rights, and European empires governed colonies overseas. The Enlightenment questioned those arrangements by arguing that people had natural rights and that reason, not tradition, should guide government. Soon afterward, the Industrial Revolution created factories, a wage-earning working class, and a new middle class that sought influence.\n\nBetween 1750 and 1870, new ideas about government, labor, and economic life challenged hierarchies based on birth and monarchy, but they also created or justified new hierarchies of class, gender, and empire, so the challenge was significant but uneven.\n\nSeveral documents show direct challenges to traditional authority. Thomas Paine argued that \"society in every state is a blessing, but government even in its best state is but a necessary evil\" and mocked the idea that a continent should be governed by an island (Document 1). Writing as a pamphleteer in Philadelphia in 1776, Paine wanted to persuade ordinary colonists to support independence, so he used plain, forceful language, and his claim that freedom had been \"hunted round the globe\" was meant to move readers more than to describe every case accurately. Even so, the American Declaration of Independence soon echoed his challenge to hereditary authority. Mary Wollstonecraft extended the logic of reason to gender, demanding \"a revolution in female manners\" and women's power \"over themselves\" (Document 3). Because she was responding to Rousseau and wrote for educated readers, her argument focused on education rather than political rights, and she did not claim that women should rule men. Olympe de Gouges's Declaration of the Rights of Woman (1791) shows that some contemporaries asked for more.\n\nIdeas about labor and the economy also unsettled older hierarchies. Marx and Engels described history as \"the history of class struggles\" and called on workers to overthrow their rulers (Document 4). Writing for a political organization in 1848, they had reason to emphasize conflict and to treat workers as a unified force, which most British workers were not at the time. Samuel Smiles, in contrast, told readers that growth came from individual effort and that excessive government help made people \"helpless\" (Document 5). Writing for readers hoping to rise, Smiles challenged the idea that birth fixed a person's place, but he also argued against state help, a position that fit the interests of a growing middle class. Adam Smith's account of pin-making (Document 2) shows how the division of labor increased output, laying groundwork for factory production that would create both new wealth and the workers whom Marx described as an \"appendage of the machine.\"\n\nHowever, new ideas also reinforced hierarchies. Marx and Engels observed that capitalism \"compels all nations\" to adopt its mode of production (Document 6), but they also portrayed European industry as forcing other societies into a subordinate position. Mill, an official of the East India Company, argued that liberty applied only to people capable of improvement by free discussion and that despotism was legitimate for \"barbarians\" (Document 7). Because he worked for the company that governed much of India, his view helped justify colonial rule at a time when Britain was expanding its empire. Britain's response to the Indian Rebellion of 1857 and France's conquest of Algeria after 1830 show how liberal states applied liberty selectively.\n\nIn conclusion, new ideas weakened hierarchies based on birth and absolute monarchy, but they also created class divisions and gave new justifications for empire, so they challenged existing hierarchies without ending inequality.",
               "modelNotes": [
                 {
                   "label": "Contextualization",
@@ -3257,7 +3260,7 @@
                 },
                 {
                   "label": "Evidence beyond the documents",
-                  "text": "The Declaration of Independence, Olympe de Gouges's declaration, the Indian Rebellion of 1857, and the partition of Africa are specific evidence not found in the documents."
+                  "text": "The Declaration of Independence, Olympe de Gouges's declaration, the Indian Rebellion of 1857, and the French conquest of Algeria are specific evidence not found in the documents."
                 },
                 {
                   "label": "Sourcing",
@@ -3309,6 +3312,7 @@
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-3-4",
                 "ced-topic-3-2"
@@ -3425,10 +3429,11 @@
               "title": "Unit 5 LEQ: Revolutions in the Atlantic world",
               "headline": "Revolutions in the Atlantic world",
               "promptTitle": "Long essay question",
-              "prompt": "Evaluate the similarities and differences between the American Revolution and the Haitian Revolution in their causes and outcomes.",
+              "prompt": "Evaluate the similarities and differences between the American Revolution and the Haitian Revolution in their causes and outcomes in the period 1775 to 1804.",
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-5-2",
                 "ced-topic-5-1"
@@ -3549,6 +3554,7 @@
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-7-4",
                 "ced-topic-7-6"
@@ -3724,7 +3730,7 @@
       }
     ]
   },
-  "revision": "d4820ce261f03961",
+  "revision": "940b4350515a5221",
   "sources": [
     {
       "id": "ced",

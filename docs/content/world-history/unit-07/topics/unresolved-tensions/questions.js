@@ -449,36 +449,6 @@ export const bank = {
       stimulusId: "keynes-peace",
       stimulusBlocks: [excerpts.keynesPeace],
     },
-    {
-      id: "world-7-5-m1-12d",
-      topicId: "world-7-5",
-      concept: "versailles",
-      difficulty: "Apply",
-      skill: "contextualization",
-      prompt:
-        "Which provision of the Treaty of Versailles most directly led to the economic concerns Keynes raised?",
-      choices: [
-        "A requirement that Germany pay large reparations",
-        "The war guilt clause blaming Germany for the war",
-        "The creation of mandates in the Middle East",
-        "A prohibition on German union with Austria",
-      ],
-      correctAnswer: 0,
-      explanation:
-        "Reparations drained German resources and strained its economy, which Keynes argued would destabilize all of Europe.",
-      sourceIds: ["ced-topic-7-5"],
-      choiceExplanations: [
-        "Reparations drained German resources and strained its economy, which Keynes argued would destabilize all of Europe.",
-        "The war guilt clause was the legal basis for reparations, but the economic burden came from the payments themselves.",
-        "Mandates governed former Ottoman and German colonies and had little effect on the German economy.",
-        "The ban on union with Austria limited German politics and did not directly affect the economy.",
-      ],
-      nearMissIndex: 1,
-      distinguisher:
-        "The war guilt clause justified reparations, but the payments are what weighed on the economy.",
-      stimulusId: "keynes-peace",
-      stimulusBlocks: [excerpts.keynesPeace],
-    },
     // END mock exam questions
   ],
   quizzes: [

@@ -221,27 +221,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-3-saq-02",
-        "title": "Unit 3 SAQ 02",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
-      },
-      {
-        "id": "world-3-saq-03",
-        "title": "Unit 3 SAQ 03",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
-      },
-      {
-        "id": "world-3-leq-comparison",
-        "title": "Unit 3 LEQ: Governing religious diversity",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
       }
     ]
   },
@@ -1418,7 +1397,7 @@
       "prompt": "What do the Taj Mahal and the Imam Mosque in Isfahan have in common?",
       "choices": [
         "Both were built to commemorate victories over European armies",
-        "Both were built of local timber in a style from China",
+        "Both were built as tombs for the rulers who ordered them",
         "Both used Persian-influenced decoration to glorify a ruler's reign",
         "Both were designed by the same Ottoman architect"
       ],
@@ -1429,7 +1408,7 @@
       ],
       "choiceExplanations": [
         "Neither commemorates a victory over European armies.",
-        "The passage describes white marble and colored tile, not timber.",
+        "The Taj Mahal is a tomb for Mumtaz Mahal; the Imam Mosque is a mosque, not a tomb.",
         "Persian decorative traditions, such as colored tile and refined ornament, shaped both monuments, which celebrated their rulers.",
         "Sinan designed the Süleymaniye Mosque in Istanbul, not these buildings."
       ],
@@ -1460,7 +1439,7 @@
       "prompt": "The mixing of Persian, Islamic, and Indian traditions in the Taj Mahal best reflects",
       "choices": [
         "a rejection of foreign influence by Mughal rulers",
-        "the influence of Protestant ideas on Indian architecture",
+        "the Mughal adoption of Chinese imperial palace design",
         "the replacement of Islamic art by European styles",
         "cultural blending in the Mughal Empire"
       ],
@@ -1471,11 +1450,11 @@
       ],
       "choiceExplanations": [
         "The passage shows foreign influence being welcomed.",
-        "Protestantism did not shape Mughal architecture.",
+        "The passage names Persian, Islamic, and Indian traditions, not Chinese ones.",
         "European styles did not replace Islamic art in Mughal buildings of this period.",
         "Mughal rulers drew on Persian court culture and Indian traditions, and their monuments show that mixture."
       ],
-      "nearMissIndex": 1,
+      "nearMissIndex": 0,
       "distinguisher": "Persian influence was foreign to India, but the Mughals combined it with local styles and did not reject it.",
       "stimulusId": "mock3-monumental-architecture",
       "stimulusBlocks": [

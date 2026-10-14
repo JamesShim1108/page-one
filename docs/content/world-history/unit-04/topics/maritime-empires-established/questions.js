@@ -567,7 +567,7 @@ export const bank = {
         "The VOC's capture of Portuguese strongholds in the Indian Ocean is best explained by",
       choices: [
         "a treaty in which Portugal gave its bases to the Dutch",
-        "the conquest of Portugal by the Ottoman navy",
+        "a Portuguese decision to leave Asia to focus on Brazil",
         "a Dutch alliance with the Mughal emperor against Portugal",
         "Dutch naval strength and the decline of Portuguese power",
       ],
@@ -577,13 +577,13 @@ export const bank = {
       sourceIds: ["ced-topic-4-4"],
       choiceExplanations: [
         "The Dutch took the strongholds by force and not by treaty.",
-        "The Ottomans did not conquer Portugal.",
+        "Portugal kept Goa, Macau, and other posts; it lost many strongholds to Dutch attacks.",
         "The VOC's campaigns were not part of an alliance with the Mughals.",
         "The Dutch had stronger ships and more capital, while Portugal was stretched thin and had been under Spanish rule from 1580 to 1640.",
       ],
       nearMissIndex: 1,
       distinguisher:
-        "The Ottomans did challenge Portugal in the Indian Ocean, but they were not the cause of the Dutch victories.",
+        "Portugal did turn toward Brazil later, but it lost its Asian strongholds to Dutch attacks rather than leaving them.",
       stimulusId: "mock3-dutch-east-india-company",
       stimulusBlocks: [excerpts.m3VOC],
     },
@@ -596,7 +596,7 @@ export const bank = {
       prompt: "The VOC's control of the spice trade most directly contributed to",
       choices: [
         "the end of Dutch interest in overseas trading colonies",
-        "the Dutch conquest of the Inca Empire in the Andes",
+        "the Dutch takeover of Spain's silver mines in the Americas",
         "a steep decline in the demand for spices in Europe",
         "Amsterdam's rise as a center of finance and trade",
       ],
@@ -606,7 +606,7 @@ export const bank = {
       sourceIds: ["ced-topic-4-4"],
       choiceExplanations: [
         "The VOC's success increased Dutch overseas interests.",
-        "The Dutch did not conquer the Inca Empire.",
+        "Spain kept its American silver mines; Dutch wealth came from Asian trade and finance.",
         "The passage does not suggest that demand for spices fell.",
         "The company's profits and its use of shares helped make Amsterdam an important financial center.",
       ],

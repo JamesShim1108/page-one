@@ -1626,10 +1626,12 @@ export const writingQuizzes = [
     sourceLocators: [
       {
         sourceId: "polo-yule-1903",
-        locator:
-          "vol. 1, Book I, ch. 6 and Book II, ch. 22; vol. 2, Book II, ch. 76 and Book III, chs. 9 and 25",
+        locator: "vol. 1, Book I, ch. 6 and Book II, ch. 22; vol. 2, Book II, ch. 76",
       },
-      { sourceId: "battuta-gibb-1929", locator: "ch. 4; scan p. 130" },
+      {
+        sourceId: "battuta-gibb-1929",
+        locator: "chs. 4, 8, and 14; scan pp. 130, 252, 351–352",
+      },
       { sourceId: "boccaccio-payne-1886", locator: "First Day, introduction" },
     ],
     topicId: "world-2-3",
@@ -1682,25 +1684,25 @@ export const writingQuizzes = [
       }),
       dbqDocument({
         id: "doc-5",
-        label: "Merchants and kings in northern Sumatra",
-        excerpt: excerpts.poloFerlec,
-        author: "Marco Polo, dictated to Rustichello of Pisa",
-        date: "c. 1298, describing a stop on the voyage home c. 1292",
-        setting: "Northern Sumatra, Southeast Asia",
-        audience: "European readers",
-        rights: "Public-domain translation (1903).",
-        sourceId: "polo-yule-1903",
+        label: "Justice and security in Mali",
+        excerpt: excerpts.battutaMali,
+        author: "Ibn Battuta, dictated to Ibn Juzayy",
+        date: "Visit 1352–1353; account dictated 1355",
+        setting: "The Mali Empire, West Africa",
+        audience: "Muslim readers in Morocco",
+        rights: "Public-domain translation in the United States (1929).",
+        sourceId: "battuta-gibb-1929",
       }),
       dbqDocument({
         id: "doc-6",
-        label: "Corsairs on the Malabar coast",
-        excerpt: excerpts.poloMelibar,
-        author: "Marco Polo, dictated to Rustichello of Pisa",
-        date: "c. 1298",
-        setting: "The Malabar coast of southwestern India",
-        audience: "European readers",
-        rights: "Public-domain translation (1903).",
-        sourceId: "polo-yule-1903",
+        label: "A port sultan on India's southwestern coast",
+        excerpt: excerpts.battutaHinawr,
+        author: "Ibn Battuta, dictated to Ibn Juzayy",
+        date: "Visit c. 1342; account dictated 1355",
+        setting: "Honavar, a port on India's southwestern coast",
+        audience: "Muslim readers in Morocco",
+        rights: "Public-domain translation in the United States (1929).",
+        sourceId: "battuta-gibb-1929",
       }),
       dbqDocument({
         id: "doc-7",
@@ -1715,7 +1717,7 @@ export const writingQuizzes = [
       }),
     ],
     modelResponse:
-      'By 1200, merchants already carried silk, spices, and gold across Eurasia and the Indian Ocean, but political power was fragmented after the fall of the Tang and the weakening of the Abbasid caliphate. In the 1200s the Mongol conquests rejoined much of Asia under related rulers, and states from China to the East African coast learned that taxing and protecting trade could pay for armies and courts.\n\nBetween 1200 and 1450, expanding exchange strengthened political authority where rulers could tax and protect commerce, but its effect was limited by distance, by violence that traveled with merchants, and by the diseases that followed the same routes.\n\nThe Yuan state shows the strongest case. Polo says foreign merchants crowded into suburbs of the capital, where 1,000 cart-loads of silk entered every day (Document 1), and that Hangzhou\'s trade yielded the Great Khan "an immense revenue from the duties" (Document 2). The Mongols also built the yam relay system to move messengers across the empire, which tied far provinces to the court. Polo wrote for Europeans eager for tales of wealth, so his numbers may be inflated; Document 2 is especially cautious because it is a report the Song queen reportedly sent to the Mongol general Bayan to persuade him to spare the city. Even so, a conqueror who had a reason to see the city as profitable had a reason to govern it carefully. On the East African coast, Ibn Battuta reports that Kilwa was a "very fine and substantially built town" and that gold dust reached Sufala for trade (Document 4). As a Muslim scholar writing for a Moroccan audience, he noted pious residents and mosques, and he relied on a merchant\'s report for Sufala, which he did not visit. Still, Kilwa\'s rulers did grow wealthy by controlling the gold trade.\n\nExchange did not always bring control. Polo says the island kingdoms of Sumatra called themselves subjects of the Great Khan but paid no tribute because they were too far away (Document 5), and he adds that Muslim merchants had converted townspeople there, a sign that trade carried new religious ties that no emperor directed. In Document 6, corsairs sailed from Malabar and Gujarat, and merchants armed their own ships, which suggests that local rulers could not or would not guarantee safe passage. Conquest could also destroy authority: Hulagu\'s capture of Baghdad in 1258 ended the Abbasid caliphate even though the city had been a great trading center (Document 3). Polo, however, gives the wrong year and writes decades later, which should make a historian cautious about his details.\n\nFinally, trade networks carried plague. Boccaccio, a Florentine writing a book of stories, describes the collapse of "the reverend authority of the laws" when officials died or fled (Document 7). His purpose was to set the scene for his tales, so he may exaggerate, but later events such as the English Statute of Labourers of 1351 show governments struggling to restore order after the plague.\n\nIn conclusion, exchange strengthened states that could tax and protect it, but it also exposed them to piracy, distance, and disease, so the gains in political authority were real but uneven.',
+      'By 1200, merchants already carried silk, spices, and gold across Eurasia and the Indian Ocean, but political power was fragmented after the fall of the Tang and the weakening of the Abbasid caliphate. In the 1200s the Mongol conquests rejoined much of Asia under related rulers, and states from China to the East African coast learned that taxing and protecting trade could pay for armies and courts.\n\nBetween 1200 and 1450, expanding exchange strengthened political authority where rulers could tax and protect commerce, but its effect was limited by distance, by violence that traveled with merchants, and by the diseases that followed the same routes.\n\nThe Yuan state shows the strongest case. Polo says foreign merchants crowded into suburbs of the capital, where 1,000 cart-loads of silk entered every day (Document 1), and that Hangzhou\'s trade yielded the Great Khan "an immense revenue from the duties" (Document 2). The Mongols also built the yam relay system to move messengers across the empire, which tied far provinces to the court. Polo wrote for Europeans eager for tales of wealth, so his numbers may be inflated; Document 2 is especially cautious because it is a report the Song queen reportedly sent to the Mongol general Bayan to persuade him to spare the city. Even so, a conqueror who had a reason to see the city as profitable had a reason to govern it carefully. On the East African coast, Ibn Battuta reports that Kilwa was a "very fine and substantially built town" and that gold dust reached Sufala for trade (Document 4). As a Muslim scholar writing for a Moroccan audience, he noted pious residents and mosques, and he relied on a merchant\'s report for Sufala, which he did not visit. Still, Kilwa\'s rulers did grow wealthy by controlling the gold trade. In West Africa, Ibn Battuta reports \"complete security\" in Mali and says its people did not seize the property of foreign merchants who died there (Document 5). Protecting traders kept North African merchants crossing the Sahara, and the gold and salt they exchanged paid for Mali\'s court. Because Ibn Battuta criticizes other Malian customs in the same passage, his praise of their justice is harder to dismiss as flattery.\n\nExchange did not always bring independent control. Honavar, a port whose people \"live by maritime commerce,\" had a powerful Muslim sultan, yet he ruled \"under the suzerainty\" of the Hindu ruler of Vijayanagara (Document 6), so trade wealth supported local rulers who still answered to a larger land-based state. Ibn Battuta, a Muslim judge, admired the town\'s Quran schools, and his religious outlook shaped what he chose to praise. Conquest could also destroy authority: Hulagu\'s capture of Baghdad in 1258 ended the Abbasid caliphate even though the city had been a great trading center (Document 3). Polo, however, gives the wrong year and writes decades later, which should make a historian cautious about his details.\n\nFinally, trade networks carried plague. Boccaccio, a Florentine writing a book of stories, describes the collapse of "the reverend authority of the laws" when officials died or fled (Document 7). His purpose was to set the scene for his tales, so he may exaggerate, but later events such as the English Statute of Labourers of 1351 show governments struggling to restore order after the plague.\n\nIn conclusion, exchange strengthened states that could tax and protect it, but it also left port rulers dependent on larger states and exposed everyone to conquest and disease, so the gains in political authority were real but uneven.',
     modelNotes: [
       {
         label: "Contextualization",
@@ -1735,15 +1737,15 @@ export const writingQuizzes = [
       },
       {
         label: "Sourcing",
-        text: "The essay explains Polo's audience and purpose, the purpose of the Song queen's report in Document 2, Ibn Battuta's reliance on a merchant for Sufala, and Boccaccio's purpose in writing his introduction.",
+        text: "The essay explains Polo's audience and purpose, the purpose of the Song queen's report in Document 2, Ibn Battuta's reliance on a merchant for Sufala, why his mixed judgment of Mali makes his praise credible, and Boccaccio's purpose in writing his introduction.",
       },
       {
         label: "Complexity",
-        text: "The argument qualifies its claim with piracy, distance, and plague, and it corroborates documents with outside evidence.",
+        text: "The argument qualifies its claim with Honavar's subordination to Vijayanagara, the conquest of Baghdad, and plague, and it corroborates documents with outside evidence.",
       },
     ],
     alternateModel:
-      "A different strong essay could argue that exchange strengthened merchant communities more than states, using Documents 1, 4, 5, and 6 to show merchants arming ships, converting townspeople, and settling in ports whatever rulers wished.",
+      "A different strong essay could argue that exchange strengthened merchant communities more than states, using Documents 1, 4, and 6 to show foreign merchants and Muslim scholars thriving in ports whatever rulers wished.",
     commonErrors: [
       "Summarizing each document in order instead of grouping them by claim.",
       "Treating a traveler's numbers as exact without asking who the traveler was writing for.",

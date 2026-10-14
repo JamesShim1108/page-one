@@ -237,20 +237,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-6-leq-causation",
-        "title": "Unit 6 LEQ: Causes of imperial expansion",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
-      },
-      {
-        "id": "world-6-dbq-ideas",
-        "title": "Unit 6 DBQ: New ideas and old hierarchies",
-        "partCount": 8,
-        "exerciseType": "dbq",
-        "availability": "available"
       }
     ]
   },
@@ -711,7 +697,7 @@
           "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
           "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
-          "text": "Between 1850 and 1882, tens of thousands of Chinese laborers migrated to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+          "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
         }
       ],
       "skillLabel": "Claims and evidence in sources",
@@ -753,7 +739,7 @@
           "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
           "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
-          "text": "Between 1850 and 1882, tens of thousands of Chinese laborers migrated to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+          "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
         }
       ],
       "skillLabel": "Making connections",
@@ -796,12 +782,55 @@
           "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
           "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
-          "text": "Between 1850 and 1882, tens of thousands of Chinese laborers migrated to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+          "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
         }
       ],
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-6-7-m2-11d",
+      "topicId": "world-6-7",
+      "concept": "nativism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why many Chinese migrants went to California in the 1850s and 1860s?",
+      "choices": [
+        "Indenture contracts bound most of them to plantation work",
+        "The Qing government sent settlers to claim land in America",
+        "Gold mining and railroad building offered work and wages",
+        "The Chinese Exclusion Act guaranteed them jobs and land"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The gold rush and the Central Pacific Railroad drew workers seeking wages higher than they could earn at home.",
+      "sourceIds": [
+        "ced-topic-6-7"
+      ],
+      "choiceExplanations": [
+        "Indenture bound many Chinese and Indian migrants in the Caribbean and Peru, but most Chinese in California came on credit, not plantation contracts.",
+        "The Qing government discouraged emigration and did not send settlers.",
+        "The gold rush and the Central Pacific Railroad drew workers seeking wages higher than they could earn at home.",
+        "The 1882 act barred Chinese laborers; it did not invite them."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Indentured labor was common elsewhere in the Americas, but Chinese migrants in California mostly worked for wages.",
+      "stimulusId": "mock2-chinese-migration",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-chinese-migration",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
+          "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     }
   ],
   "quizzes": [

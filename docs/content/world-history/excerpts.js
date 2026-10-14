@@ -2253,7 +2253,7 @@ export const excerpts = {
     amsco_review: "pending",
     attribution:
       "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
-    text: "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general, defeating Spanish, British, and French armies and ending slavery on the island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people.",
+    text: "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people.",
   },
   m2Steam: {
     id: "mock2-steam-transport",
@@ -2286,7 +2286,7 @@ export const excerpts = {
     amsco_review: "pending",
     attribution:
       "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
-    text: "Between 1850 and 1882, tens of thousands of Chinese laborers migrated to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943.",
+    text: "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943.",
   },
   m2July: {
     id: "mock2-july-crisis",

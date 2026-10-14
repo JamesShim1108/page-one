@@ -1,4 +1,6 @@
-// Builders for the writing prompts written for full-length mock exams. Each
+// Builders for the writing prompts written for full-length mock exams. Every
+// prompt they build is examOnly: it appears only inside a mock exam, never on a
+// unit page or at its own /writing route, so students meet it fresh. Each
 // builder fills in the course-wide parts of a prompt (instructions, rubric,
 // scaffold, response fields) so a unit's writing.js lists only what is unique
 // to the prompt. Unit practice prompts written earlier spell these out in full.
@@ -161,6 +163,7 @@ export function saq({
     instructions: saqInstructions,
     note: saqNote,
     exerciseType: "saq",
+    examOnly: true,
     ...(stimulusBlocks ? { stimulusBlocks } : {}),
     scaffold: saqScaffold,
     parts,
@@ -196,6 +199,7 @@ export function leq({
       "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
     note: essayNote,
     exerciseType: "leq",
+    examOnly: true,
     sourceIds,
     responseFields: [
       {
@@ -289,6 +293,7 @@ export function dbq({
       "Use at least four documents to support an argument. For at least two documents, explain how the author's point of view, purpose, historical situation, or audience is relevant to your argument. Use at least one piece of specific historical evidence beyond the documents. Include contextualization and develop a complex argument. This is untimed self-assessment practice in AP format.",
     note: essayNote,
     exerciseType: "dbq",
+    examOnly: true,
     availability: "available",
     sourceIds,
     ...(sourceLocators ? { sourceLocators } : {}),

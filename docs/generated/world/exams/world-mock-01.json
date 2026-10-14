@@ -35,7 +35,7 @@
             "Rising food output that could support people who did not farm",
             "A single law code issued by the Church for all of Europe",
             "A fall in population that raised the value of labor",
-            "The conquest of Byzantium by the Italian city-states"
+            "A decline in long-distance trade after the Crusades ended"
           ],
           "correctAnswer": 0,
           "explanation": "Better plows, horse collars, and the three-field system produced surplus food, which freed people to work in towns as merchants and artisans.",
@@ -46,7 +46,7 @@
             "Better plows, horse collars, and the three-field system produced surplus food, which freed people to work in towns as merchants and artisans.",
             "The passage describes no common law code, and the Church did not issue one.",
             "A fall in population came after the plague of the mid-1300s, not before the towns' growth described here.",
-            "The passage says nothing of conquering Byzantium; the Italian cities grew through trade."
+            "The passage describes trade expanding through Venice, Genoa, and the Champagne fairs, not declining."
           ],
           "nearMissIndex": 2,
           "distinguisher": "Population loss did raise wages in the late 1300s, but the growth of towns in the passage rests on a food surplus.",
@@ -74,9 +74,9 @@
           "prompt": "The study of Aristotle at European universities most directly reflects the influence of",
           "choices": [
             "the spread of printing presses that made books cheap across Europe",
-            "Mongol sponsorship of translation projects at the University of Paris",
+            "Byzantine scholars who brought Greek texts to Italy after 1453",
             "scholarship preserved and translated through the Islamic world",
-            "a Confucian curriculum carried west along Silk Road routes"
+            "the revival of Roman law studied at Bologna"
           ],
           "correctAnswer": 2,
           "explanation": "The passage says Aristotle's works were preserved and translated through the Islamic world before European scholars studied them.",
@@ -85,9 +85,9 @@
           ],
           "choiceExplanations": [
             "Movable-type printing in Europe began in the 1450s, after the period of the passage.",
-            "The Mongols did not sponsor scholars at European universities.",
+            "Greek scholars fleeing Constantinople came after 1453, long after universities began studying Aristotle.",
             "The passage says Aristotle's works were preserved and translated through the Islamic world before European scholars studied them.",
-            "Chinese examinations tested Confucian learning and did not shape European universities."
+            "Bologna revived Roman law, but the passage links Aristotle's works to translation through the Islamic world."
           ],
           "nearMissIndex": 0,
           "distinguisher": "Printing helped spread Renaissance and Reformation ideas, but the transfer of Aristotle's texts came centuries earlier through Islamic scholars.",
@@ -160,7 +160,7 @@
             "the manorial system that bound peasants to the land of their lords",
             "a commercial revival linking Europe to Afro-Eurasian trade",
             "the first European settlements established in the Americas",
-            "a Mongol tribute system that reached into western France"
+            "the Hanseatic League's control of Mediterranean shipping"
           ],
           "correctAnswer": 1,
           "explanation": "Fairs and Mediterranean shipping show Europe's merchants joining the long-distance trade that connected Afro-Eurasia.",
@@ -171,7 +171,7 @@
             "Manors organized rural labor; fairs and shipping were commercial.",
             "Fairs and Mediterranean shipping show Europe's merchants joining the long-distance trade that connected Afro-Eurasia.",
             "European settlement of the Americas began after 1492.",
-            "The Mongols did not collect tribute in France."
+            "The Hanseatic League traded in the Baltic and North Seas; Venice and Genoa led Mediterranean shipping."
           ],
           "nearMissIndex": 0,
           "distinguisher": "Manorialism was a real feature of medieval Europe, but it describes rural obligations, not trade.",
@@ -836,7 +836,7 @@
             "Indigenous conquest of European settlements in the Americas",
             "a deliberate gift from the Spanish crown to its Indigenous allies",
             "a transfer from Europe that changed Indigenous economies and warfare",
-            "the first introduction of horses to any part of the world"
+            "the domestication of a horse species native to the Plains"
           ],
           "correctAnswer": 2,
           "explanation": "Horses arrived with Europeans and were adopted by Plains peoples, changing hunting and warfare.",
@@ -847,10 +847,10 @@
             "The passage describes adoption of a European animal, not conquest.",
             "The passage describes diffusion, not a gift from the Spanish crown.",
             "Horses arrived with Europeans and were adopted by Plains peoples, changing hunting and warfare.",
-            "Horses had been used in Afro-Eurasia for thousands of years before 1492."
+            "Horses had died out in the Americas thousands of years earlier; Plains peoples adopted horses the Spanish brought."
           ],
           "nearMissIndex": 3,
-          "distinguisher": "Horses were new to the Americas after 1492, but they were not new to the world.",
+          "distinguisher": "Horses once lived in the Americas but died out long before 1492; Plains peoples adopted horses the Spanish brought.",
           "stimulusId": "mock1-columbian-exchange-crops",
           "stimulusBlocks": [
             {
@@ -1637,6 +1637,49 @@
           "skillCode": "6"
         },
         {
+          "id": "world-6-4-m1-11d",
+          "topicId": "world-6-4",
+          "concept": "export-economies",
+          "difficulty": "Apply",
+          "skill": "connections",
+          "reasoning": "comparison",
+          "prompt": "The colonial economy described in the passage was most similar to which other economy of the period 1870 to 1930?",
+          "choices": [
+            "Cotton grown for export in British-ruled Egypt",
+            "Silver mined at Potosí for Spanish colonial rulers",
+            "Textile factories built by the Meiji government in Japan",
+            "Rice grown for local markets in Tokugawa Japan"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Egyptian cotton, like Senegalese peanuts, was a single export crop grown for European industry and priced in European markets.",
+          "sourceIds": [
+            "ced-topic-6-4"
+          ],
+          "choiceExplanations": [
+            "Egyptian cotton, like Senegalese peanuts, was a single export crop grown for European industry and priced in European markets.",
+            "Potosí silver was a colonial export, but it was mined centuries earlier, from the 1540s.",
+            "Meiji Japan built its own industry; it was not a colonial export economy.",
+            "Tokugawa rice farming fed domestic markets and ended before 1870."
+          ],
+          "nearMissIndex": 1,
+          "distinguisher": "Potosí also sent a raw material to a colonial power, but it belongs to the period 1450 to 1750.",
+          "stimulusId": "mock1-senegal-peanuts",
+          "stimulusBlocks": [
+            {
+              "id": "mock1-senegal-peanuts",
+              "type": "source",
+              "sourceType": "original",
+              "source": "CED Topic 6.4 key concept: colonial economies were reshaped to export raw materials and cash crops",
+              "amsco_review": "pending",
+              "attribution": "Practice passage written for Page One, summarizing export farming in French West Africa, c. 1885–1935",
+              "text": "In the late 1800s, French colonial officials in Senegal encouraged African farmers to grow peanuts, which were exported to France to make soap and cooking oil. Railways connected the peanut-growing interior to the port of Dakar. Taxes that had to be paid in French currency pushed farmers to sell their crops for cash.\n\nExport earnings rose, but farmers who devoted land to peanuts grew less food, and prices depended on distant European markets. When prices fell in the 1930s, many farmers fell into debt."
+            }
+          ],
+          "skillLabel": "Making connections",
+          "skillCode": "5",
+          "reasoningLabel": "Comparison"
+        },
+        {
           "id": "world-7-5-m1-12a",
           "topicId": "world-7-5",
           "concept": "versailles",
@@ -1766,49 +1809,6 @@
           "skillLabel": "Making connections",
           "skillCode": "5",
           "reasoningLabel": "Causation"
-        },
-        {
-          "id": "world-7-5-m1-12d",
-          "topicId": "world-7-5",
-          "concept": "versailles",
-          "difficulty": "Apply",
-          "skill": "contextualization",
-          "prompt": "Which provision of the Treaty of Versailles most directly led to the economic concerns Keynes raised?",
-          "choices": [
-            "A requirement that Germany pay large reparations",
-            "The war guilt clause blaming Germany for the war",
-            "The creation of mandates in the Middle East",
-            "A prohibition on German union with Austria"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Reparations drained German resources and strained its economy, which Keynes argued would destabilize all of Europe.",
-          "sourceIds": [
-            "ced-topic-7-5"
-          ],
-          "choiceExplanations": [
-            "Reparations drained German resources and strained its economy, which Keynes argued would destabilize all of Europe.",
-            "The war guilt clause was the legal basis for reparations, but the economic burden came from the payments themselves.",
-            "Mandates governed former Ottoman and German colonies and had little effect on the German economy.",
-            "The ban on union with Austria limited German politics and did not directly affect the economy."
-          ],
-          "nearMissIndex": 1,
-          "distinguisher": "The war guilt clause justified reparations, but the payments are what weighed on the economy.",
-          "stimulusId": "keynes-peace",
-          "stimulusBlocks": [
-            {
-              "id": "keynes-peace",
-              "type": "source",
-              "sourceType": "primary",
-              "source": "keynes-consequences",
-              "amsco_review": "pending",
-              "attribution": "John Maynard Keynes, British economist and Treasury representative at the Paris Peace Conference who resigned in protest in June 1919, The Economic Consequences of the Peace, 1919",
-              "citation": "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), chs. 6–7. Project Gutenberg eBook #15776.",
-              "note": "The Central Empires were Germany and Austria-Hungary. “The late German war” is the First World War.",
-              "text": "This chapter must be one of pessimism. The Treaty includes no provisions for the economic rehabilitation of Europe,--nothing to make the defeated Central Empires into good neighbors, nothing to stabilize the new States of Europe, nothing to reclaim Russia . . . .\n\nIf we aim deliberately at the impoverishment of Central Europe, vengeance, I dare predict, will not limp. Nothing can then delay for very long that final civil war between the forces of Reaction and the despairing convulsions of Revolution, before which the horrors of the late German war will fade into nothing . . . ."
-            }
-          ],
-          "skillLabel": "Contextualization",
-          "skillCode": "4"
         },
         {
           "id": "world-7-7-m1-13a",
@@ -2029,8 +2029,8 @@
           "choices": [
             "a request from the United Nations that France administer the territory",
             "a wish to regain prestige and resources despite wartime weakness",
-            "pressure from Japan to continue colonial rule in Southeast Asia",
-            "an agreement with the Soviet Union to share control of the colony"
+            "the Atlantic Charter's promise to restore prewar colonial borders",
+            "a vote in which the Vietnamese chose to remain under France"
           ],
           "correctAnswer": 1,
           "explanation": "France had been occupied during the war and sought to restore its empire as part of recovering as a great power.",
@@ -2040,8 +2040,8 @@
           "choiceExplanations": [
             "The United Nations did not ask France to resume control.",
             "France had been occupied during the war and sought to restore its empire as part of recovering as a great power.",
-            "Japan had occupied Indochina and was defeated in 1945.",
-            "The Soviet Union supported anticolonial movements and had no such agreement."
+            "The Atlantic Charter endorsed self-determination, which nationalists used against colonial rule.",
+            "No such vote took place; Ho Chi Minh had declared independence, and France reclaimed Indochina by force."
           ],
           "nearMissIndex": 0,
           "distinguisher": "Japan had indeed controlled Indochina during the war, but its defeat in 1945 ended that control and created the opening France tried to fill.",
@@ -2397,6 +2397,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "stimulusBlocks": [
                 {
                   "id": "mock1-mexica-defeat",
@@ -2526,6 +2527,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "stimulusBlocks": [
                 {
                   "id": "luther-theses",
@@ -2657,6 +2659,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "scaffold": [
                 {
                   "label": "Answer",
@@ -2766,6 +2769,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "scaffold": [
                 {
                   "label": "Answer",
@@ -2897,6 +2901,7 @@
               "instructions": "Use at least four documents to support an argument. For at least two documents, explain how the author's point of view, purpose, historical situation, or audience is relevant to your argument. Use at least one piece of specific historical evidence beyond the documents. Include contextualization and develop a complex argument. This is untimed self-assessment practice in AP format.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "dbq",
+              "examOnly": true,
               "availability": "available",
               "sourceIds": [
                 "polo-yule-1903",
@@ -2908,11 +2913,11 @@
               "sourceLocators": [
                 {
                   "sourceId": "polo-yule-1903",
-                  "locator": "vol. 1, Book I, ch. 6 and Book II, ch. 22; vol. 2, Book II, ch. 76 and Book III, chs. 9 and 25"
+                  "locator": "vol. 1, Book I, ch. 6 and Book II, ch. 22; vol. 2, Book II, ch. 76"
                 },
                 {
                   "sourceId": "battuta-gibb-1929",
-                  "locator": "ch. 4; scan p. 130"
+                  "locator": "chs. 4, 8, and 14; scan pp. 130, 252, 351–352"
                 },
                 {
                   "sourceId": "boccaccio-payne-1886",
@@ -3180,43 +3185,43 @@
                 },
                 {
                   "id": "doc-5",
-                  "label": "Merchants and kings in northern Sumatra",
+                  "label": "Justice and security in Mali",
                   "sourceType": "primary",
-                  "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing northern Sumatra, which he passed on his voyage home, c. 1292",
-                  "content": "You see there are upon it eight kingdoms and eight crowned kings. The people are all Idolaters, and every kingdom has a language of its own. The Island hath great abundance of treasure, with costly spices, lign-aloes and spikenard and many others that never come into our parts. . . .\n\nThis kingdom, you must know, is so much frequented by the Saracen merchants that they have converted the natives to the Law of Mahommet--I mean the townspeople only . . . .\n\n[Basma] also is an independent kingdom, and the people have a language of their own . . . . They call themselves subjects of the Great Kaan, but they pay him no tribute; indeed they are so far away that his men could not go thither. Still all these Islanders declare themselves to be his subjects, and sometimes they send him curiosities as presents.",
-                  "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 9. Project Gutenberg eBook #12410.",
-                  "note": "“Java the Less” is Sumatra. Ferlec is Perlak, on Sumatra's northern tip. Saracen means Muslim; “Idolaters” was the translator's term for followers of Buddhist and Hindu traditions. Bracketed words replace “This” at the start of a sentence about the next kingdom.",
+                  "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
+                  "content": "[The people of Mali] possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. Their sultan shows no mercy to anyone who is guilty of the least act of it. There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. They do not confiscate the property of any white man who dies in their country, even if it be uncounted wealth. On the contrary, they give it into the charge of some trustworthy person among the whites, until the rightful heir takes possession of it. They are careful to observe the hours of prayer, and assiduous in attending them in congregations, and in bringing up their children to them. . . .\n\nYet another is their zeal for learning the Koran by heart. . . . Among their bad qualities are the following. . . . Then there is their custom of putting dust and ashes on their heads, as a mark of respect, and the grotesque ceremonies we have described when the poets recite their verses.",
+                  "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
+                  "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
                   "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
                   "metadata": {
-                    "author": "Marco Polo, dictated to Rustichello of Pisa",
-                    "date": "c. 1298, describing a stop on the voyage home c. 1292",
-                    "setting": "Northern Sumatra, Southeast Asia",
-                    "audience": "European readers",
-                    "rights": "Public-domain translation (1903)."
+                    "author": "Ibn Battuta, dictated to Ibn Juzayy",
+                    "date": "Visit 1352–1353; account dictated 1355",
+                    "setting": "The Mali Empire, West Africa",
+                    "audience": "Muslim readers in Morocco",
+                    "rights": "Public-domain translation in the United States (1929)."
                   },
                   "sourceIds": [
-                    "polo-yule-1903"
+                    "battuta-gibb-1929"
                   ],
                   "status": "verified"
                 },
                 {
                   "id": "doc-6",
-                  "label": "Corsairs on the Malabar coast",
+                  "label": "A port sultan on India's southwestern coast",
                   "sourceType": "primary",
-                  "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
-                  "content": "And you must know that from this kingdom of Melibar, and from another near it called Gozurat, there go forth every year more than a hundred corsair vessels on cruize. . . . But now the merchants are aware of this, and go so well manned and armed, and with such great ships, that they don't fear the corsairs. . . .\n\nShips come hither from many quarters, but especially from the great province of Manzi. Coarse spices are exported hence both to Manzi and to the west, and that which is carried by the merchants to Aden goes on to Alexandria, but the ships that go in the latter direction are not one to ten of those that go to the eastward",
-                  "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
-                  "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
+                  "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the port of Honavar on India's southwestern coast, c. 1342",
+                  "content": "Next day we reached the town of Hinawr [Honavar, Onore], which is on a large inlet navigable for large ships. . . . [The women of this town] are beautiful and virtuous, and each wears a gold ring in her nose. One peculiarity amongst them is that they all know the Koran by heart. I saw in the town thirteen schools for girls and twenty-three for boys, a thing which I have never seen elsewhere. Its inhabitants live by maritime commerce, and have no cultivated land. The ruler of Hinawr is Sultan Jalal ad-Din, who is one of the best and most powerful sultans. He is under the suzerainty of an infidel sultan named Haryab",
+                  "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 8. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 252.",
+                  "note": "Bracketed place names are Gibb's. “Haryab” is usually identified as Harihara, ruler of the Vijayanagara kingdom.",
                   "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
                   "metadata": {
-                    "author": "Marco Polo, dictated to Rustichello of Pisa",
-                    "date": "c. 1298",
-                    "setting": "The Malabar coast of southwestern India",
-                    "audience": "European readers",
-                    "rights": "Public-domain translation (1903)."
+                    "author": "Ibn Battuta, dictated to Ibn Juzayy",
+                    "date": "Visit c. 1342; account dictated 1355",
+                    "setting": "Honavar, a port on India's southwestern coast",
+                    "audience": "Muslim readers in Morocco",
+                    "rights": "Public-domain translation in the United States (1929)."
                   },
                   "sourceIds": [
-                    "polo-yule-1903"
+                    "battuta-gibb-1929"
                   ],
                   "status": "verified"
                 },
@@ -3242,7 +3247,7 @@
                   "status": "verified"
                 }
               ],
-              "modelResponse": "By 1200, merchants already carried silk, spices, and gold across Eurasia and the Indian Ocean, but political power was fragmented after the fall of the Tang and the weakening of the Abbasid caliphate. In the 1200s the Mongol conquests rejoined much of Asia under related rulers, and states from China to the East African coast learned that taxing and protecting trade could pay for armies and courts.\n\nBetween 1200 and 1450, expanding exchange strengthened political authority where rulers could tax and protect commerce, but its effect was limited by distance, by violence that traveled with merchants, and by the diseases that followed the same routes.\n\nThe Yuan state shows the strongest case. Polo says foreign merchants crowded into suburbs of the capital, where 1,000 cart-loads of silk entered every day (Document 1), and that Hangzhou's trade yielded the Great Khan \"an immense revenue from the duties\" (Document 2). The Mongols also built the yam relay system to move messengers across the empire, which tied far provinces to the court. Polo wrote for Europeans eager for tales of wealth, so his numbers may be inflated; Document 2 is especially cautious because it is a report the Song queen reportedly sent to the Mongol general Bayan to persuade him to spare the city. Even so, a conqueror who had a reason to see the city as profitable had a reason to govern it carefully. On the East African coast, Ibn Battuta reports that Kilwa was a \"very fine and substantially built town\" and that gold dust reached Sufala for trade (Document 4). As a Muslim scholar writing for a Moroccan audience, he noted pious residents and mosques, and he relied on a merchant's report for Sufala, which he did not visit. Still, Kilwa's rulers did grow wealthy by controlling the gold trade.\n\nExchange did not always bring control. Polo says the island kingdoms of Sumatra called themselves subjects of the Great Khan but paid no tribute because they were too far away (Document 5), and he adds that Muslim merchants had converted townspeople there, a sign that trade carried new religious ties that no emperor directed. In Document 6, corsairs sailed from Malabar and Gujarat, and merchants armed their own ships, which suggests that local rulers could not or would not guarantee safe passage. Conquest could also destroy authority: Hulagu's capture of Baghdad in 1258 ended the Abbasid caliphate even though the city had been a great trading center (Document 3). Polo, however, gives the wrong year and writes decades later, which should make a historian cautious about his details.\n\nFinally, trade networks carried plague. Boccaccio, a Florentine writing a book of stories, describes the collapse of \"the reverend authority of the laws\" when officials died or fled (Document 7). His purpose was to set the scene for his tales, so he may exaggerate, but later events such as the English Statute of Labourers of 1351 show governments struggling to restore order after the plague.\n\nIn conclusion, exchange strengthened states that could tax and protect it, but it also exposed them to piracy, distance, and disease, so the gains in political authority were real but uneven.",
+              "modelResponse": "By 1200, merchants already carried silk, spices, and gold across Eurasia and the Indian Ocean, but political power was fragmented after the fall of the Tang and the weakening of the Abbasid caliphate. In the 1200s the Mongol conquests rejoined much of Asia under related rulers, and states from China to the East African coast learned that taxing and protecting trade could pay for armies and courts.\n\nBetween 1200 and 1450, expanding exchange strengthened political authority where rulers could tax and protect commerce, but its effect was limited by distance, by violence that traveled with merchants, and by the diseases that followed the same routes.\n\nThe Yuan state shows the strongest case. Polo says foreign merchants crowded into suburbs of the capital, where 1,000 cart-loads of silk entered every day (Document 1), and that Hangzhou's trade yielded the Great Khan \"an immense revenue from the duties\" (Document 2). The Mongols also built the yam relay system to move messengers across the empire, which tied far provinces to the court. Polo wrote for Europeans eager for tales of wealth, so his numbers may be inflated; Document 2 is especially cautious because it is a report the Song queen reportedly sent to the Mongol general Bayan to persuade him to spare the city. Even so, a conqueror who had a reason to see the city as profitable had a reason to govern it carefully. On the East African coast, Ibn Battuta reports that Kilwa was a \"very fine and substantially built town\" and that gold dust reached Sufala for trade (Document 4). As a Muslim scholar writing for a Moroccan audience, he noted pious residents and mosques, and he relied on a merchant's report for Sufala, which he did not visit. Still, Kilwa's rulers did grow wealthy by controlling the gold trade. In West Africa, Ibn Battuta reports \"complete security\" in Mali and says its people did not seize the property of foreign merchants who died there (Document 5). Protecting traders kept North African merchants crossing the Sahara, and the gold and salt they exchanged paid for Mali's court. Because Ibn Battuta criticizes other Malian customs in the same passage, his praise of their justice is harder to dismiss as flattery.\n\nExchange did not always bring independent control. Honavar, a port whose people \"live by maritime commerce,\" had a powerful Muslim sultan, yet he ruled \"under the suzerainty\" of the Hindu ruler of Vijayanagara (Document 6), so trade wealth supported local rulers who still answered to a larger land-based state. Ibn Battuta, a Muslim judge, admired the town's Quran schools, and his religious outlook shaped what he chose to praise. Conquest could also destroy authority: Hulagu's capture of Baghdad in 1258 ended the Abbasid caliphate even though the city had been a great trading center (Document 3). Polo, however, gives the wrong year and writes decades later, which should make a historian cautious about his details.\n\nFinally, trade networks carried plague. Boccaccio, a Florentine writing a book of stories, describes the collapse of \"the reverend authority of the laws\" when officials died or fled (Document 7). His purpose was to set the scene for his tales, so he may exaggerate, but later events such as the English Statute of Labourers of 1351 show governments struggling to restore order after the plague.\n\nIn conclusion, exchange strengthened states that could tax and protect it, but it also left port rulers dependent on larger states and exposed everyone to conquest and disease, so the gains in political authority were real but uneven.",
               "modelNotes": [
                 {
                   "label": "Contextualization",
@@ -3262,14 +3267,14 @@
                 },
                 {
                   "label": "Sourcing",
-                  "text": "The essay explains Polo's audience and purpose, the purpose of the Song queen's report in Document 2, Ibn Battuta's reliance on a merchant for Sufala, and Boccaccio's purpose in writing his introduction."
+                  "text": "The essay explains Polo's audience and purpose, the purpose of the Song queen's report in Document 2, Ibn Battuta's reliance on a merchant for Sufala, why his mixed judgment of Mali makes his praise credible, and Boccaccio's purpose in writing his introduction."
                 },
                 {
                   "label": "Complexity",
-                  "text": "The argument qualifies its claim with piracy, distance, and plague, and it corroborates documents with outside evidence."
+                  "text": "The argument qualifies its claim with Honavar's subordination to Vijayanagara, the conquest of Baghdad, and plague, and it corroborates documents with outside evidence."
                 }
               ],
-              "alternateModel": "A different strong essay could argue that exchange strengthened merchant communities more than states, using Documents 1, 4, 5, and 6 to show merchants arming ships, converting townspeople, and settling in ports whatever rulers wished.",
+              "alternateModel": "A different strong essay could argue that exchange strengthened merchant communities more than states, using Documents 1, 4, and 6 to show foreign merchants and Muslim scholars thriving in ports whatever rulers wished.",
               "commonErrors": [
                 "Summarizing each document in order instead of grouping them by claim.",
                 "Treating a traveler's numbers as exact without asking who the traveler was writing for.",
@@ -3310,6 +3315,7 @@
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-4-2",
                 "ced-topic-4-1"
@@ -3430,6 +3436,7 @@
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-6-8",
                 "ced-topic-6-1",
@@ -3551,6 +3558,7 @@
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-8-9",
                 "ced-topic-8-5",
@@ -3727,7 +3735,7 @@
       }
     ]
   },
-  "revision": "b94d50809206d8fd",
+  "revision": "8e473e19870e6831",
   "sources": [
     {
       "id": "ced",

@@ -259,27 +259,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-5-saq-02",
-        "title": "Unit 5 SAQ 02",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
-      },
-      {
-        "id": "world-5-leq-comparison",
-        "title": "Unit 5 LEQ: Revolutions in the Atlantic world",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
-      },
-      {
-        "id": "world-5-leq-continuity",
-        "title": "Unit 5 LEQ: Industrialization and British workers",
-        "partCount": 2,
-        "exerciseType": "leq",
-        "availability": "available"
       }
     ]
   },
@@ -835,6 +814,49 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-3-m3-09d",
+      "topicId": "world-5-3",
+      "concept": "factories-textiles",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Smith's description of pin-making is best understood in the context of",
+      "choices": [
+        "guild control of craft production in medieval Italian towns",
+        "growing markets and manufacturing in eighteenth-century Britain",
+        "the spread of electric power to factories after 1880",
+        "the Soviet Five-Year Plans for heavy industry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smith wrote in 1776, as expanding markets and early industry were reorganizing British manufacturing.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Guilds regulated craft work, but Smith describes divided labor that broke tasks into steps, unlike guild craftsmanship.",
+        "Smith wrote in 1776, as expanding markets and early industry were reorganizing British manufacturing.",
+        "Electric power came a century after Smith wrote.",
+        "The Five-Year Plans began in 1928."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Guilds also organized manufacturing, but Smith describes a newer division of labor that guilds did not use.",
+      "stimulusId": "smith-pins",
+      "stimulusBlocks": [
+        {
+          "id": "smith-pins",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "smith-wealth-of-nations",
+          "amsco_review": "pending",
+          "attribution": "Adam Smith, Scottish philosopher and economist, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
+          "citation": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book I, ch. 1. Project Gutenberg eBook #3300.",
+          "note": "A manufactory is a workshop. Smith is describing the division of labor in pin-making.",
+          "text": "One man draws out the wire; another straights it; a third cuts it; a fourth points it; a fifth grinds it at the top for receiving the head; to make the head requires two or three distinct operations; to put it on is a peculiar business; to whiten the pins is another; it is even a trade by itself to put them into the paper; and the important business of making a pin is, in this manner, divided into about eighteen distinct operations, which, in some manufactories, are all performed by distinct hands, though in others the same man will sometimes perform two or three of them. I have seen a small manufactory of this kind, where ten men only were employed, and where some of them consequently performed two or three distinct operations."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
     }
   ],
   "quizzes": [

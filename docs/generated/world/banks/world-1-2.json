@@ -336,13 +336,6 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
-      },
-      {
-        "id": "world-1-saq-03",
-        "title": "Unit 1 SAQ 03",
-        "partCount": 3,
-        "exerciseType": "saq",
-        "availability": "available"
       }
     ]
   },

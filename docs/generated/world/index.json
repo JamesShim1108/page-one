@@ -388,13 +388,6 @@
           "partCount": 3,
           "exerciseType": "saq",
           "availability": "available"
-        },
-        {
-          "id": "world-1-saq-03",
-          "title": "Unit 1 SAQ 03",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
         }
       ]
     },
@@ -924,20 +917,6 @@
           "partCount": 1,
           "exerciseType": "skill",
           "availability": "available"
-        },
-        {
-          "id": "world-2-dbq-authority",
-          "title": "Unit 2 DBQ: Exchange and political authority",
-          "partCount": 8,
-          "exerciseType": "dbq",
-          "availability": "available"
-        },
-        {
-          "id": "world-2-saq-08",
-          "title": "Unit 2 SAQ 08",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
         }
       ]
     },
@@ -1151,27 +1130,6 @@
           "title": "Unit 3 SAQ 01",
           "partCount": 3,
           "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-3-saq-02",
-          "title": "Unit 3 SAQ 02",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-3-saq-03",
-          "title": "Unit 3 SAQ 03",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-3-leq-comparison",
-          "title": "Unit 3 LEQ: Governing religious diversity",
-          "partCount": 2,
-          "exerciseType": "leq",
           "availability": "available"
         }
       ]
@@ -1410,41 +1368,6 @@
           "title": "Unit 4 SAQ 01",
           "partCount": 3,
           "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-4-saq-02",
-          "title": "Unit 4 SAQ 02",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-4-saq-03",
-          "title": "Unit 4 SAQ 03",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-4-leq-causation",
-          "title": "Unit 4 LEQ: Causes of European exploration",
-          "partCount": 2,
-          "exerciseType": "leq",
-          "availability": "available"
-        },
-        {
-          "id": "world-4-saq-04",
-          "title": "Unit 4 SAQ 04",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-4-leq-continuity",
-          "title": "Unit 4 LEQ: Global trade and China's economy",
-          "partCount": 2,
-          "exerciseType": "leq",
           "availability": "available"
         }
       ]
@@ -1698,27 +1621,6 @@
           "partCount": 3,
           "exerciseType": "saq",
           "availability": "available"
-        },
-        {
-          "id": "world-5-saq-02",
-          "title": "Unit 5 SAQ 02",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-5-leq-comparison",
-          "title": "Unit 5 LEQ: Revolutions in the Atlantic world",
-          "partCount": 2,
-          "exerciseType": "leq",
-          "availability": "available"
-        },
-        {
-          "id": "world-5-leq-continuity",
-          "title": "Unit 5 LEQ: Industrialization and British workers",
-          "partCount": 2,
-          "exerciseType": "leq",
-          "availability": "available"
         }
       ]
     },
@@ -1948,20 +1850,6 @@
           "title": "Unit 6 SAQ 01",
           "partCount": 3,
           "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-6-leq-causation",
-          "title": "Unit 6 LEQ: Causes of imperial expansion",
-          "partCount": 2,
-          "exerciseType": "leq",
-          "availability": "available"
-        },
-        {
-          "id": "world-6-dbq-ideas",
-          "title": "Unit 6 DBQ: New ideas and old hierarchies",
-          "partCount": 8,
-          "exerciseType": "dbq",
           "availability": "available"
         }
       ]
@@ -2206,27 +2094,6 @@
           "partCount": 3,
           "exerciseType": "saq",
           "availability": "available"
-        },
-        {
-          "id": "world-7-saq-02",
-          "title": "Unit 7 SAQ 02",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-7-leq-comparison",
-          "title": "Unit 7 LEQ: Responses to the Great Depression",
-          "partCount": 2,
-          "exerciseType": "leq",
-          "availability": "available"
-        },
-        {
-          "id": "world-7-saq-03",
-          "title": "Unit 7 SAQ 03",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
         }
       ]
     },
@@ -2463,20 +2330,6 @@
           "partCount": 3,
           "exerciseType": "saq",
           "availability": "available"
-        },
-        {
-          "id": "world-8-leq-causation",
-          "title": "Unit 8 LEQ: Causes of decolonization",
-          "partCount": 2,
-          "exerciseType": "leq",
-          "availability": "available"
-        },
-        {
-          "id": "world-8-saq-02",
-          "title": "Unit 8 SAQ 02",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
         }
       ]
     },
@@ -2705,27 +2558,6 @@
           "partCount": 3,
           "exerciseType": "saq",
           "availability": "available"
-        },
-        {
-          "id": "world-9-saq-02",
-          "title": "Unit 9 SAQ 02",
-          "partCount": 3,
-          "exerciseType": "saq",
-          "availability": "available"
-        },
-        {
-          "id": "world-9-dbq-government",
-          "title": "Unit 9 DBQ: Ideas about the role of government",
-          "partCount": 8,
-          "exerciseType": "dbq",
-          "availability": "available"
-        },
-        {
-          "id": "world-9-leq-continuity",
-          "title": "Unit 9 LEQ: Technology and global connections",
-          "partCount": 2,
-          "exerciseType": "leq",
-          "availability": "available"
         }
       ]
     }
@@ -2741,7 +2573,7 @@
       "minutes": 195,
       "sectionCount": 4,
       "questionCount": 55,
-      "revision": "b94d50809206d8fd"
+      "revision": "8e473e19870e6831"
     },
     {
       "id": "world-mock-02",
@@ -2753,7 +2585,7 @@
       "minutes": 195,
       "sectionCount": 4,
       "questionCount": 55,
-      "revision": "d4820ce261f03961"
+      "revision": "940b4350515a5221"
     },
     {
       "id": "world-mock-03",
@@ -2765,7 +2597,7 @@
       "minutes": 195,
       "sectionCount": 4,
       "questionCount": 55,
-      "revision": "4f8639171a75c139"
+      "revision": "633afa2dfb4640fb"
     }
   ]
 }

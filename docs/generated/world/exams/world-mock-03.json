@@ -76,7 +76,7 @@
             "allowing two harvests a year and supporting more people",
             "replacing paper money as the main means of exchange",
             "removing the need for farmers to pay taxes to the state",
-            "making it possible to export rice to western Europe"
+            "replacing millet as the staple crop of the northern steppe"
           ],
           "correctAnswer": 0,
           "explanation": "Fast-ripening rice allowed more food per year, supporting more people and trade.",
@@ -87,7 +87,7 @@
             "Fast-ripening rice allowed more food per year, supporting more people and trade.",
             "Paper money and rice were separate developments, and the passage connects rice to harvests.",
             "The passage does not say rice reduced taxes.",
-            "The passage describes domestic growth and not grain exports to Europe."
+            "Champa rice grew in the wet south; it raised southern harvests rather than changing steppe diets."
           ],
           "nearMissIndex": 2,
           "distinguisher": "Song trade did expand, but the passage ties rice directly to farming output.",
@@ -115,10 +115,10 @@
           "reasoning": "causation",
           "prompt": "Which later development in East Asia was most directly influenced by Song-era Neo-Confucianism?",
           "choices": [
-            "The conversion of the Japanese court to Islam in the 1300s",
+            "The spread of Theravada Buddhism in Southeast Asian kingdoms",
             "Joseon Korea's use of Confucian education as state ideology",
-            "The adoption of the Mandate of Heaven by the Mexica rulers",
-            "The creation of the Inca civil service in the Andes"
+            "The Mongol use of relay stations to govern across Eurasia",
+            "Japan's shogunate built on hereditary warrior rule"
           ],
           "correctAnswer": 1,
           "explanation": "Korea's Joseon dynasty, founded in 1392, made Neo-Confucianism the basis of its government and schools.",
@@ -126,13 +126,13 @@
             "ced-topic-1-1"
           ],
           "choiceExplanations": [
-            "Islam did not become the religion of the Japanese court.",
+            "Theravada Buddhism spread from Sri Lanka, not from Song Neo-Confucian scholarship.",
             "Korea's Joseon dynasty, founded in 1392, made Neo-Confucianism the basis of its government and schools.",
-            "The Mexica were in Mesoamerica and had no contact with Song ideas.",
-            "The Inca system developed independently in the Andes."
+            "The yam system was a Mongol institution, not a product of Neo-Confucian learning.",
+            "The shogunate rested on hereditary warrior status, not Confucian examinations."
           ],
           "nearMissIndex": 3,
-          "distinguisher": "Buddhism and Shinto continued in Japan, and Confucian ideas there developed differently from Korea's.",
+          "distinguisher": "Japan also absorbed Confucian ideas, but its shogunate rested on hereditary warrior rule rather than Confucian state education.",
           "stimulusId": "mock3-song-china",
           "stimulusBlocks": [
             {
@@ -200,7 +200,7 @@
           "choices": [
             "It bought them from merchants with silver from imperial mines",
             "It captured them from enemies in wars on the steppe",
-            "It borrowed them from monasteries that kept large herds",
+            "It raised them on state ranches in southern China",
             "It required cities and villages near each station to provide them"
           ],
           "correctAnswer": 3,
@@ -211,7 +211,7 @@
           "choiceExplanations": [
             "The passage says the horses cost the Emperor nothing, so he did not buy them.",
             "The passage describes a regular demand on communities, not captured horses.",
-            "The passage does not mention monasteries.",
+            "Polo says nearby communities had to supply the horses, not state ranches.",
             "Polo says each community near a station had a fixed demand for horses."
           ],
           "nearMissIndex": 0,
@@ -592,8 +592,8 @@
           "choices": [
             "gave the Ottomans more control of routes and spurred sea voyages",
             "ended all trade between Europe and Asia for several decades",
-            "forced Portugal to give up its exploration of the African coast",
-            "caused Spain to adopt Ottoman ship designs and navigation"
+            "led European rulers to retake the city in a new crusade",
+            "made Portugal the main buyer of Ottoman spices"
           ],
           "correctAnswer": 0,
           "explanation": "Ottoman control of key land and Mediterranean routes gave European states and merchants a reason to look for alternatives.",
@@ -603,8 +603,8 @@
           "choiceExplanations": [
             "Ottoman control of key land and Mediterranean routes gave European states and merchants a reason to look for alternatives.",
             "Trade continued between Europe and Asia after 1453.",
-            "Portuguese exploration of Africa began before 1453 and continued.",
-            "Spain did not adopt Ottoman navigation technology as a result of the conquest."
+            "No crusade retook Constantinople; it remained the Ottoman capital.",
+            "Portugal sought a sea route around Africa precisely to avoid Ottoman and Venetian middlemen."
           ],
           "nearMissIndex": 1,
           "distinguisher": "Trade through Ottoman lands continued, which is why historians debate how large the effect was.",
@@ -675,7 +675,7 @@
           "prompt": "What do the Taj Mahal and the Imam Mosque in Isfahan have in common?",
           "choices": [
             "Both were built to commemorate victories over European armies",
-            "Both were built of local timber in a style from China",
+            "Both were built as tombs for the rulers who ordered them",
             "Both used Persian-influenced decoration to glorify a ruler's reign",
             "Both were designed by the same Ottoman architect"
           ],
@@ -686,7 +686,7 @@
           ],
           "choiceExplanations": [
             "Neither commemorates a victory over European armies.",
-            "The passage describes white marble and colored tile, not timber.",
+            "The Taj Mahal is a tomb for Mumtaz Mahal; the Imam Mosque is a mosque, not a tomb.",
             "Persian decorative traditions, such as colored tile and refined ornament, shaped both monuments, which celebrated their rulers.",
             "Sinan designed the Süleymaniye Mosque in Istanbul, not these buildings."
           ],
@@ -717,7 +717,7 @@
           "prompt": "The mixing of Persian, Islamic, and Indian traditions in the Taj Mahal best reflects",
           "choices": [
             "a rejection of foreign influence by Mughal rulers",
-            "the influence of Protestant ideas on Indian architecture",
+            "the Mughal adoption of Chinese imperial palace design",
             "the replacement of Islamic art by European styles",
             "cultural blending in the Mughal Empire"
           ],
@@ -728,11 +728,11 @@
           ],
           "choiceExplanations": [
             "The passage shows foreign influence being welcomed.",
-            "Protestantism did not shape Mughal architecture.",
+            "The passage names Persian, Islamic, and Indian traditions, not Chinese ones.",
             "European styles did not replace Islamic art in Mughal buildings of this period.",
             "Mughal rulers drew on Persian court culture and Indian traditions, and their monuments show that mixture."
           ],
-          "nearMissIndex": 1,
+          "nearMissIndex": 0,
           "distinguisher": "Persian influence was foreign to India, but the Mughals combined it with local styles and did not reject it.",
           "stimulusId": "mock3-monumental-architecture",
           "stimulusBlocks": [
@@ -843,7 +843,7 @@
           "prompt": "The VOC's capture of Portuguese strongholds in the Indian Ocean is best explained by",
           "choices": [
             "a treaty in which Portugal gave its bases to the Dutch",
-            "the conquest of Portugal by the Ottoman navy",
+            "a Portuguese decision to leave Asia to focus on Brazil",
             "a Dutch alliance with the Mughal emperor against Portugal",
             "Dutch naval strength and the decline of Portuguese power"
           ],
@@ -854,12 +854,12 @@
           ],
           "choiceExplanations": [
             "The Dutch took the strongholds by force and not by treaty.",
-            "The Ottomans did not conquer Portugal.",
+            "Portugal kept Goa, Macau, and other posts; it lost many strongholds to Dutch attacks.",
             "The VOC's campaigns were not part of an alliance with the Mughals.",
             "The Dutch had stronger ships and more capital, while Portugal was stretched thin and had been under Spanish rule from 1580 to 1640."
           ],
           "nearMissIndex": 1,
-          "distinguisher": "The Ottomans did challenge Portugal in the Indian Ocean, but they were not the cause of the Dutch victories.",
+          "distinguisher": "Portugal did turn toward Brazil later, but it lost its Asian strongholds to Dutch attacks rather than leaving them.",
           "stimulusId": "mock3-dutch-east-india-company",
           "stimulusBlocks": [
             {
@@ -885,7 +885,7 @@
           "prompt": "The VOC's control of the spice trade most directly contributed to",
           "choices": [
             "the end of Dutch interest in overseas trading colonies",
-            "the Dutch conquest of the Inca Empire in the Andes",
+            "the Dutch takeover of Spain's silver mines in the Americas",
             "a steep decline in the demand for spices in Europe",
             "Amsterdam's rise as a center of finance and trade"
           ],
@@ -896,7 +896,7 @@
           ],
           "choiceExplanations": [
             "The VOC's success increased Dutch overseas interests.",
-            "The Dutch did not conquer the Inca Empire.",
+            "Spain kept its American silver mines; Dutch wealth came from Asian trade and finance.",
             "The passage does not suggest that demand for spices fell.",
             "The company's profits and its use of shares helped make Amsterdam an important financial center."
           ],
@@ -1372,6 +1372,49 @@
           "reasoningLabel": "Comparison"
         },
         {
+          "id": "world-5-3-m3-09d",
+          "topicId": "world-5-3",
+          "concept": "factories-textiles",
+          "difficulty": "Apply",
+          "skill": "contextualization",
+          "prompt": "Smith's description of pin-making is best understood in the context of",
+          "choices": [
+            "guild control of craft production in medieval Italian towns",
+            "growing markets and manufacturing in eighteenth-century Britain",
+            "the spread of electric power to factories after 1880",
+            "the Soviet Five-Year Plans for heavy industry"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Smith wrote in 1776, as expanding markets and early industry were reorganizing British manufacturing.",
+          "sourceIds": [
+            "ced-topic-5-3"
+          ],
+          "choiceExplanations": [
+            "Guilds regulated craft work, but Smith describes divided labor that broke tasks into steps, unlike guild craftsmanship.",
+            "Smith wrote in 1776, as expanding markets and early industry were reorganizing British manufacturing.",
+            "Electric power came a century after Smith wrote.",
+            "The Five-Year Plans began in 1928."
+          ],
+          "nearMissIndex": 0,
+          "distinguisher": "Guilds also organized manufacturing, but Smith describes a newer division of labor that guilds did not use.",
+          "stimulusId": "smith-pins",
+          "stimulusBlocks": [
+            {
+              "id": "smith-pins",
+              "type": "source",
+              "sourceType": "primary",
+              "source": "smith-wealth-of-nations",
+              "amsco_review": "pending",
+              "attribution": "Adam Smith, Scottish philosopher and economist, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
+              "citation": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book I, ch. 1. Project Gutenberg eBook #3300.",
+              "note": "A manufactory is a workshop. Smith is describing the division of labor in pin-making.",
+              "text": "One man draws out the wire; another straights it; a third cuts it; a fourth points it; a fifth grinds it at the top for receiving the head; to make the head requires two or three distinct operations; to put it on is a peculiar business; to whiten the pins is another; it is even a trade by itself to put them into the paper; and the important business of making a pin is, in this manner, divided into about eighteen distinct operations, which, in some manufactories, are all performed by distinct hands, though in others the same man will sometimes perform two or three of them. I have seen a small manufactory of this kind, where ten men only were employed, and where some of them consequently performed two or three distinct operations."
+            }
+          ],
+          "skillLabel": "Contextualization",
+          "skillCode": "4"
+        },
+        {
           "id": "world-6-3-m3-10a",
           "topicId": "world-6-3",
           "concept": "religious-movements",
@@ -1379,7 +1422,7 @@
           "skill": "claims-evidence",
           "prompt": "Which belief helped unite people against German rule, according to the passage?",
           "choices": [
-            "That German officials would leave if given gifts of cotton",
+            "That joining a Christian mission would protect their villages",
             "That the rebels would be protected by the British army",
             "That water blessed by a spirit would turn German bullets to water",
             "That the spirits of the ancestors would defeat the Germans in a single battle"
@@ -1390,7 +1433,7 @@
             "ced-topic-6-3"
           ],
           "choiceExplanations": [
-            "The passage does not suggest giving gifts to officials.",
+            "The passage names a spirit medium's blessed water, not Christian missions, as the uniting belief.",
             "The passage does not mention the British.",
             "The spirit medium Kinjikitile taught that the maji water would make German bullets harmless.",
             "The passage describes a belief about water, not a single battle."
@@ -1422,7 +1465,7 @@
           "prompt": "Which German colonial policy most directly helped trigger the rebellion?",
           "choices": [
             "A ban on missionary schools in the colony",
-            "A requirement that villagers serve in the German navy",
+            "A requirement that villagers move into German-built towns",
             "The seizure of all firearms owned by villagers",
             "Forced growing of cotton for export along with cash taxes"
           ],
@@ -1433,7 +1476,7 @@
           ],
           "choiceExplanations": [
             "The passage does not mention missionary schools.",
-            "The passage does not mention naval service.",
+            "The passage blames forced cotton growing and cash taxes, not resettlement.",
             "The passage does not mention disarmament.",
             "The passage says officials imposed cash taxes and forced villagers to grow cotton on communal plots."
           ],
@@ -1550,7 +1593,7 @@
             "Treaties give other nations fair shares of the profits of trade",
             "Cheap goods act like artillery against foreign nations",
             "Missionaries persuade foreign rulers to change their laws",
-            "Gifts of machines are sent to every foreign government"
+            "Colonial armies force other nations to obey European laws"
           ],
           "correctAnswer": 1,
           "explanation": "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
@@ -1561,7 +1604,7 @@
             "The passage describes pressure, not fair sharing.",
             "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
             "The passage does not mention missionaries.",
-            "The passage does not describe gifts."
+            "Marx and Engels say cheap prices, not armies, are the bourgeoisie's “heavy artillery.”"
           ],
           "nearMissIndex": 2,
           "distinguisher": "Merchants did use force at times, but the passage's image is of cheap goods as a weapon.",
@@ -1794,47 +1837,6 @@
           "skillCode": "4"
         },
         {
-          "id": "world-7-8-m3-12d",
-          "topicId": "world-7-8",
-          "concept": "holocaust",
-          "difficulty": "Apply",
-          "skill": "sourcing",
-          "prompt": "Which kind of evidence would best help historians show when German leaders coordinated the killing of European Jews?",
-          "choices": [
-            "Newspaper articles written by foreign visitors in 1933",
-            "Letters that German families sent to relatives in 1939",
-            "Records of the Wannsee Conference and related orders",
-            "Maps of German railroads published before the Nazi rise"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Records of the officials' meeting and orders to units show planning and coordination.",
-          "sourceIds": [
-            "ced-topic-7-8"
-          ],
-          "choiceExplanations": [
-            "Early press accounts could show persecution but not a plan for mass murder.",
-            "Family letters might describe daily life but not plans of the leadership.",
-            "Records of the officials' meeting and orders to units show planning and coordination.",
-            "Railroad maps before 1933 predate the planning."
-          ],
-          "nearMissIndex": 3,
-          "distinguisher": "Railroads were used for deportations, but the date of maps shows they cannot document planning.",
-          "stimulusId": "mock3-holocaust-escalation",
-          "stimulusBlocks": [
-            {
-              "id": "mock3-holocaust-escalation",
-              "type": "source",
-              "sourceType": "original",
-              "source": "CED Topic 7.8 key concept: Nazi Germany carried out the Holocaust, the systematic murder of European Jews",
-              "amsco_review": "pending",
-              "attribution": "Practice passage written for Page One, summarizing the Holocaust, 1933–1945",
-              "text": "After the Nazi Party took power in Germany in 1933, the government excluded Jews from public life. The Nuremberg Laws of 1935 stripped German Jews of citizenship, and the violence of Kristallnacht in November 1938 destroyed synagogues and Jewish businesses. After Germany invaded the Soviet Union in 1941, special units shot hundreds of thousands of Jews, and in 1942 Nazi officials met at Wannsee, near Berlin, to coordinate the murder of all European Jews.\n\nMillions were deported to killing centers such as Auschwitz-Birkenau, where gas chambers were used. About six million Jews died. The Nazis also murdered Roma, people with disabilities, Polish and Soviet civilians, and political opponents."
-            }
-          ],
-          "skillLabel": "Sourcing and situation",
-          "skillCode": "2"
-        },
-        {
           "id": "world-7-3-m3-13a",
           "topicId": "world-7-3",
           "concept": "trench-warfare",
@@ -1970,7 +1972,7 @@
             "Khrushchev agreed to remove missiles and the United States agreed to nothing",
             "The United States promised not to invade Cuba and removed its Turkish missiles",
             "The United States removed its navy from the Caribbean while Soviet missiles stayed",
-            "The superpowers agreed to destroy all of their nuclear weapons"
+            "The Soviets removed their missiles in exchange for aid to Cuba"
           ],
           "correctAnswer": 1,
           "explanation": "Each side gave something: the Soviets withdrew missiles and the Americans promised not to invade Cuba and removed missiles from Turkey.",
@@ -1981,7 +1983,7 @@
             "The passage describes American promises in exchange.",
             "Each side gave something: the Soviets withdrew missiles and the Americans promised not to invade Cuba and removed missiles from Turkey.",
             "The passage says the missiles were removed.",
-            "The passage does not describe full nuclear disarmament."
+            "The passage names a promise not to invade Cuba and the removal of missiles from Turkey, not aid."
           ],
           "nearMissIndex": 0,
           "distinguisher": "Khrushchev did remove the missiles, but the passage shows the United States also made commitments.",
@@ -2051,8 +2053,8 @@
           "skill": "contextualization",
           "prompt": "The placement of Soviet missiles in Cuba is best explained by",
           "choices": [
-            "a Cuban request that the Soviets protect the island from Spain",
-            "a Soviet plan to invade the United States across the sea",
+            "a Soviet effort to restore Batista to power in Cuba",
+            "a Soviet plan to support Cuban troops fighting in Angola",
             "Cuba's alliance with the Soviet Union and the nuclear rivalry",
             "an agreement among Latin American states to host weapons"
           ],
@@ -2062,13 +2064,13 @@
             "ced-topic-8-3"
           ],
           "choiceExplanations": [
-            "Spain was not a threat to Cuba in the 1960s.",
-            "The passage does not describe a Soviet plan to invade the United States.",
+            "Batista was the dictator Castro overthrew; the Soviets backed Castro.",
+            "Cuban troops went to Angola in 1975, more than a decade later.",
             "After Fidel Castro's revolution, Cuba aligned with the Soviet Union, and Soviet leaders sought to offset American missiles near their borders.",
             "Latin American states did not agree to host weapons."
           ],
           "nearMissIndex": 0,
-          "distinguisher": "The Soviets feared an American invasion of Cuba, which fits the alliance, but they were not planning to invade the United States.",
+          "distinguisher": "The Soviets did back Cuba, but they supported Castro, who had overthrown Batista.",
           "stimulusId": "mock3-cuban-missile-crisis",
           "stimulusBlocks": [
             {
@@ -2095,7 +2097,7 @@
             "It was the largest source of revenue for the British Empire",
             "It was collected only from the wealthy Indian princes",
             "It hit poor Indians and symbolized British control",
-            "It had been created by Gandhi's political opponents"
+            "It was a new tax introduced by Britain in 1930"
           ],
           "correctAnswer": 2,
           "explanation": "The passage says the tax fell heavily on the poor, and the salt monopoly showed British power over everyday life.",
@@ -2106,7 +2108,7 @@
             "The passage does not claim the tax was the largest source of revenue.",
             "The passage says the burden fell on poor Indians.",
             "The passage says the tax fell heavily on the poor, and the salt monopoly showed British power over everyday life.",
-            "The passage describes the tax as a British law."
+            "The salt monopoly and tax were long-standing, not new in 1930."
           ],
           "nearMissIndex": 0,
           "distinguisher": "The tax raised revenue, but its value for the campaign lay in its meaning for ordinary people.",
@@ -2219,7 +2221,7 @@
           "choices": [
             "That the agreement would raise taxes on factories",
             "That cheap imported corn would harm small farmers",
-            "That it would give Mexico control over trade in Canada",
+            "That it would end Mexico's oil exports to the United States",
             "That it would ban the sale of Mexican corn abroad"
           ],
           "correctAnswer": 1,
@@ -2230,10 +2232,10 @@
           "choiceExplanations": [
             "The passage does not mention taxes on factories.",
             "The Zapatistas argued that competition from imported corn would hurt small farmers.",
-            "NAFTA lowered barriers among the three countries and did not give Mexico control over Canada.",
+            "The passage names cheap imported corn, not oil, as the Zapatistas' concern.",
             "The concern was about imports, not a ban on exports."
           ],
-          "nearMissIndex": 2,
+          "nearMissIndex": 3,
           "distinguisher": "NAFTA did affect Mexican trade, but the Zapatistas' stated concern was imported crops.",
           "stimulusId": "mock3-zapatistas",
           "stimulusBlocks": [
@@ -2407,6 +2409,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "stimulusBlocks": [
                 {
                   "id": "mock3-appeasement-debate",
@@ -2536,6 +2539,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "stimulusBlocks": [
                 {
                   "id": "montaigne-cannibals",
@@ -2667,6 +2671,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "scaffold": [
                 {
                   "label": "Answer",
@@ -2776,6 +2781,7 @@
               "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
               "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
               "exerciseType": "saq",
+              "examOnly": true,
               "scaffold": [
                 {
                   "label": "Answer",
@@ -2903,10 +2909,11 @@
               "title": "Unit 9 DBQ: Ideas about the role of government",
               "headline": "Ideas about the role of government",
               "promptTitle": "Document-based question",
-              "prompt": "Evaluate the extent to which ideas about the proper role of government changed in the period 1917–2000.",
+              "prompt": "Evaluate the extent to which ideas in Europe and the United States about the proper role of government in economic life changed in the period 1917–2000.",
               "instructions": "Use at least four documents to support an argument. For at least two documents, explain how the author's point of view, purpose, historical situation, or audience is relevant to your argument. Use at least one piece of specific historical evidence beyond the documents. Include contextualization and develop a complex argument. This is untimed self-assessment practice in AP format.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "dbq",
+              "examOnly": true,
               "availability": "available",
               "sourceIds": [
                 "reed-ten-days",
@@ -3310,6 +3317,7 @@
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-4-5",
                 "ced-topic-4-8"
@@ -3430,6 +3438,7 @@
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-5-10",
                 "ced-topic-5-9",
@@ -3551,6 +3560,7 @@
               "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "leq",
+              "examOnly": true,
               "sourceIds": [
                 "ced-topic-9-9",
                 "ced-topic-9-1"
@@ -3726,7 +3736,7 @@
       }
     ]
   },
-  "revision": "4f8639171a75c139",
+  "revision": "633afa2dfb4640fb",
   "sources": [
     {
       "id": "ced",

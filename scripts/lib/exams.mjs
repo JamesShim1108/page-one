@@ -14,6 +14,7 @@ import {
 const SECTION_KINDS = new Set(["mcq", "saq", "dbq", "leq"]);
 const STIMULUS_RULES = new Set(["primary", "secondary", "none", "any"]);
 const EXAM_STATUSES = new Set(["ready", "soon"]);
+export const MAX_DOCUMENTS_PER_AUTHOR = 3;
 
 const positiveInteger = (value) => Number.isInteger(value) && value > 0;
 
@@ -259,6 +260,20 @@ export function resolveExam(
             promptAt,
             `${id} is not an available DBQ`,
           );
+        if (section.kind === "dbq") {
+          // Sourcing points depend on contrasting viewpoints, so no author dominates.
+          const byAuthor = new Map();
+          for (const document of quiz.documents || []) {
+            const author = document.metadata?.author || document.attribution;
+            byAuthor.set(author, (byAuthor.get(author) || 0) + 1);
+          }
+          for (const [author, count] of byAuthor)
+            requireValue(
+              count <= MAX_DOCUMENTS_PER_AUTHOR,
+              promptAt,
+              `${id} uses ${count} documents by ${author}; use at most ${MAX_DOCUMENTS_PER_AUTHOR}`,
+            );
+        }
         checkStimulus(quiz, prompt.stimulus, promptAt);
         const maxPoints = writingMaxPoints(quiz);
         requireValue(maxPoints > 0, promptAt, `${id} has no scorable points`);

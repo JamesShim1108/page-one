@@ -416,7 +416,7 @@ export const bank = {
         "Indigenous conquest of European settlements in the Americas",
         "a deliberate gift from the Spanish crown to its Indigenous allies",
         "a transfer from Europe that changed Indigenous economies and warfare",
-        "the first introduction of horses to any part of the world",
+        "the domestication of a horse species native to the Plains",
       ],
       correctAnswer: 2,
       explanation:
@@ -426,11 +426,11 @@ export const bank = {
         "The passage describes adoption of a European animal, not conquest.",
         "The passage describes diffusion, not a gift from the Spanish crown.",
         "Horses arrived with Europeans and were adopted by Plains peoples, changing hunting and warfare.",
-        "Horses had been used in Afro-Eurasia for thousands of years before 1492.",
+        "Horses had died out in the Americas thousands of years earlier; Plains peoples adopted horses the Spanish brought.",
       ],
       nearMissIndex: 3,
       distinguisher:
-        "Horses were new to the Americas after 1492, but they were not new to the world.",
+        "Horses once lived in the Americas but died out long before 1492; Plains peoples adopted horses the Spanish brought.",
       stimulusId: "mock1-columbian-exchange-crops",
       stimulusBlocks: [excerpts.m1Crops],
     },

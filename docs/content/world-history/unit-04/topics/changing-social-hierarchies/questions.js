@@ -347,9 +347,9 @@ export const bank = {
       prompt:
         "Which statement best describes how the casta system worked in practice, according to the passage?",
       choices: [
-        "It copied the caste system of India without any changes",
+        "It assigned legal status by religion rather than ancestry",
         "It prevented any mixing of ancestry among colonial groups",
-        "It guaranteed Indigenous peoples the highest rank in society",
+        "It applied only to enslaved Africans, not Indigenous peoples",
         "It was flexible: wealth or marriage could change status",
       ],
       correctAnswer: 3,
@@ -357,14 +357,14 @@ export const bank = {
         "The passage says people could sometimes change their standing through wealth or marriage.",
       sourceIds: ["ced-topic-4-7"],
       choiceExplanations: [
-        "The passage describes a Spanish American system, not the caste system of India.",
+        "The passage says casta labels recorded ancestry, not religion.",
         "The passage describes mestizos and mulattos, who had mixed ancestry.",
-        "Indigenous peoples ranked low in the passage.",
+        "Casta labels covered Indigenous, African, European, and mixed ancestry.",
         "The passage says people could sometimes change their standing through wealth or marriage.",
       ],
-      nearMissIndex: 2,
+      nearMissIndex: 0,
       distinguisher:
-        "Both systems ranked people by birth, but they developed in different places and societies.",
+        "Religion shaped colonial life, but casta labels recorded ancestry, not faith.",
       stimulusId: "mock2-spanish-american-hierarchy",
       stimulusBlocks: [excerpts.m2Casta],
     },
