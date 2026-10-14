@@ -524,4 +524,69 @@ export const sources = [
     note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
   },
   // END unit-05
+  // BEGIN unit-06
+  {
+    id: "ced-topic-6-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Rationales for Imperialism from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: State Expansion from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Indigenous Responses to State Expansion from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Global Economic Development from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Economic Imperialism from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causes of Migration in an Interconnected World.",
+  },
+  {
+    id: "ced-topic-6-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Effects of Migration.",
+  },
+  {
+    id: "ced-topic-6-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causation in the Imperial Age.",
+  },
+  {
+    id: "mill-on-liberty",
+    label:
+      "John Stuart Mill, On Liberty (1859; London: Walter Scott Publishing, with an introduction by W. L. Courtney), Project Gutenberg eBook #34901",
+    url: "https://www.gutenberg.org/ebooks/34901",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-06
 ];

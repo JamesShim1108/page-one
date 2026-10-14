@@ -1215,4 +1215,219 @@ export const excerpts = {
     text: "Between 1750 and 1900, ideas of natural rights and national self-government spread widely, and new nations formed across the Americas and Europe. Machines and fossil fuels transformed how goods were made and moved.\n\nYet much continued. Most people in the world still farmed, monarchies still ruled many states, and the new industrial wealth was concentrated in a few countries. Political rights expanded for some groups while women, colonized peoples, and many workers remained excluded.",
   },
   // END unit-05
+  // BEGIN unit-06
+  millDespotism: {
+    id: "mill-despotism",
+    type: "source",
+    sourceType: "primary",
+    source: "mill-on-liberty",
+    amsco_review: "pending",
+    attribution:
+      "John Stuart Mill, British philosopher and official of the East India Company from 1823 to 1858, On Liberty, 1859",
+    citation:
+      "John Stuart Mill, On Liberty, ch. 1, Introductory. Project Gutenberg eBook #34901.",
+    note: "“This doctrine” is Mill's principle that people should be free to act as they choose unless they harm others. “Nonage” means childhood or immaturity. Akbar was the Mughal emperor.",
+    text: "It is, perhaps, hardly necessary to say that this doctrine is meant to apply only to human beings in the maturity of their faculties. . . . For the same reason, we may leave out of consideration those backward states of society in which the race itself may be considered as in its nonage. . . . Despotism is a legitimate mode of government in dealing with barbarians, provided the end be their improvement, and the means justified by actually effecting that end. Liberty, as a principle, has no application to any state of things anterior to the time when mankind have become capable of being improved by free and equal discussion. Until then, there is nothing for them but implicit obedience to an Akbar or a Charlemagne, if they are so fortunate as to find one.",
+  },
+  manifestoWorldMarket: {
+    id: "manifesto-world-market",
+    type: "source",
+    sourceType: "primary",
+    source: "marx-engels-1888",
+    amsco_review: "pending",
+    attribution:
+      "Karl Marx and Friedrich Engels, German political philosophers, Manifesto of the Communist Party, 1848",
+    citation:
+      "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, English edition of 1888, trans. Samuel Moore, section I. Project Gutenberg eBook #61.",
+    note: "The bourgeoisie are the owners of capital. Marx and Engels use words such as “barbarian” sarcastically, echoing how European capitalists described other peoples. “Chinese walls” refers to China's limits on foreign trade.",
+    text: "The bourgeoisie, by the rapid improvement of all instruments of production, by the immensely facilitated means of communication, draws all, even the most barbarian, nations into civilisation. The cheap prices of its commodities are the heavy artillery with which it batters down all Chinese walls, with which it forces the barbarians' intensely obstinate hatred of foreigners to capitulate. It compels all nations, on pain of extinction, to adopt the bourgeois mode of production . . . . In one word, it creates a world after its own image.",
+  },
+  originalSocialDarwinism: {
+    id: "original-social-darwinism",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.1 key concept: Europeans and Americans justified imperialism with ideologies such as Social Darwinism, nationalism, and the concept of a civilizing mission",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Social Darwinism, c. 1860–1914",
+    text: "In 1859 Charles Darwin argued that species change through natural selection. Writers such as Herbert Spencer, who coined the phrase “survival of the fittest,” applied similar ideas to human societies. They claimed that nations and races competed for survival and that the strongest deserved to dominate.\n\nScientists today reject this reasoning. Darwin's theory described biological change in species, not a ranking of human groups. But in the late 1800s, Social Darwinism gave politicians and writers a scientific-sounding justification for conquest and for racial hierarchy at home and abroad.",
+  },
+  originalCivilizingMission: {
+    id: "original-civilizing-mission",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.1 key concept: a desire to spread Christianity and the concept of a civilizing mission were used to justify imperialism",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the idea of a civilizing mission, c. 1850–1914",
+    text: "Many Europeans believed they had a duty to bring Christianity, Western education, and their own laws to colonized peoples. Missionaries founded schools and hospitals across Africa and Asia. In 1899 the British poet Rudyard Kipling published “The White Man's Burden,” urging the United States to take up the duty of ruling the Philippines.\n\nColonized people often saw things differently. Mission schools could open new opportunities, and some graduates became leaders of later independence movements. But the civilizing mission assumed that colonized cultures were inferior, and it was used to justify taking land, labor, and political power.",
+  },
+  originalScramble: {
+    id: "original-scramble-africa",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.2 key concept: European states and Japan established new empires, including in Africa",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the partition of Africa, 1880–1914",
+    text: "In 1880 Europeans controlled only about 10 percent of Africa, mostly along the coasts. At the Berlin Conference of 1884 to 1885, European leaders set rules for claiming African territory. No African rulers were invited. A state could claim land if it could show “effective occupation.”\n\nBy 1914, European powers controlled about 90 percent of the continent. Only Ethiopia and Liberia remained independent. Machine guns, steamships, and the drug quinine, which protected Europeans from malaria, made the rapid conquest possible.",
+  },
+  originalBritishIndia: {
+    id: "original-british-india",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.2 key concept: states with existing colonies, such as Britain in India and the Netherlands in Indonesia, strengthened their control over those colonies",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the change from company rule to Crown rule in India, 1757–1877",
+    text: "From the 1750s, the British East India Company expanded its control over India, collecting taxes and keeping its own army of Indian soldiers called sepoys. After the rebellion of 1857, the British government took direct control. The British Crown ruled India from 1858, and in 1877 Queen Victoria was proclaimed Empress of India.\n\nBritish rule built railways and telegraph lines and introduced English-language education for a small elite. It also shaped India's economy to export raw materials such as cotton and import British manufactured goods.",
+  },
+  originalNewEmpires: {
+    id: "original-new-empires",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.2 key concept: the United States, Russia, and Japan expanded their territories and established new empires",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing imperial expansion by Japan, the United States, and Russia, 1860–1910",
+    text: "Industrial powers outside western Europe also built empires. After defeating China in 1895, Japan took Taiwan, and in 1910 it annexed Korea. The United States annexed Hawaii in 1898 and took the Philippines, Puerto Rico, and Guam from Spain after the Spanish-American War. Russia conquered much of Central Asia, taking Tashkent in 1865.\n\nThese powers used many of the same justifications as European empires, including the claim that they were spreading civilization.",
+  },
+  originalRebellion1857: {
+    id: "original-indian-rebellion",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.3 key concept: resistance to imperial rule included rebellions, such as the 1857 rebellion in India",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Indian Rebellion of 1857",
+    text: "In 1857, sepoys in the East India Company's army mutinied after rumors spread that new rifle cartridges were greased with cow and pig fat, which offended both Hindu and Muslim soldiers. The revolt drew on deeper grievances: lands taken by the company, heavy taxes, and fears that British rule threatened Indian religions and customs.\n\nRebels restored the aging Mughal emperor in Delhi as a symbol of resistance. British forces crushed the rebellion by 1858 with great brutality. The British government then ended company rule, exiled the last Mughal emperor, and governed India directly.",
+  },
+  originalAdwa: {
+    id: "original-adwa",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.3 key concept: resistance to imperialism, including Ethiopia's successful defense of its independence",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Ethiopia's victory at Adwa in 1896",
+    text: "Emperor Menelik II of Ethiopia bought modern rifles and artillery from European suppliers in the 1880s and 1890s and built a large, well-armed army. When Italy invaded, Ethiopian forces defeated the Italian army at the Battle of Adwa in 1896.\n\nThe victory forced Italy to recognize Ethiopia's independence. Ethiopia became a symbol of African resistance, and it was one of only two African states that remained independent during the partition of the continent.",
+  },
+  originalSpiritualResistance: {
+    id: "original-spiritual-resistance",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.3 key concept: religious movements, such as the Ghost Dance and the Xhosa cattle-killing movement, were among responses to imperial expansion",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, comparing two religious responses to colonial expansion, 1856–1890",
+    text: "In 1856, a young Xhosa woman named Nongqawuse in southern Africa reported a prophecy: if the Xhosa killed their cattle and destroyed their crops, their ancestors would return and drive the British into the sea. Many followed the prophecy. The result was a famine in which tens of thousands died, and the British took more Xhosa land.\n\nIn the 1880s, the Ghost Dance spread among Native American peoples of the western United States. Followers believed the dance would restore the buffalo and the old way of life. In 1890, US troops killed more than 250 Lakota people at Wounded Knee.",
+  },
+  originalCashCrops: {
+    id: "original-cash-crops",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.4 key concept: as industrialization spread, demand for raw materials such as cotton, rubber, and palm oil, and for food, reshaped economies in colonized regions",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing export economies in colonized regions, 1850–1914",
+    text: "Factories in industrial countries needed raw materials. Egypt and India grew cotton for British mills. Rubber, needed for bicycle and automobile tires, came from the Amazon and from the Congo, where King Leopold II of Belgium ran the Congo Free State as his personal colony from 1885 to 1908. Workers there who failed to meet rubber quotas were beaten or mutilated.\n\nMany colonized regions came to depend on exporting one or two crops. When world prices fell, these economies suffered, and land once used to grow food was given over to export crops.",
+  },
+  originalFoodExports: {
+    id: "original-food-exports",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.4 key concept: the global economy expanded as industrial technologies such as railroads and refrigerated ships connected food-producing regions to industrial markets",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Argentina's export economy, 1870–1914",
+    text: "In the 1870s and 1880s, refrigerated steamships made it possible to carry fresh meat across oceans. Argentina, with vast grasslands, became a leading exporter of beef and wheat to Europe. British investors financed many of its railroads, which carried grain and cattle from the interior to the port of Buenos Aires.\n\nArgentina grew wealthy, and millions of European immigrants arrived to work its farms and docks. Yet its economy depended heavily on foreign markets and foreign capital.",
+  },
+  originalOpiumWars: {
+    id: "original-opium-wars",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.5 key concept: economic imperialism, as in the Opium Wars, forced states such as China to open to foreign trade",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Opium Wars, 1839–1860",
+    text: "British merchants sold opium grown in India to China, reversing the flow of silver that had long gone into China. When the Qing official Lin Zexu destroyed British opium stocks in 1839, Britain went to war. British steamships and modern guns defeated Qing forces.\n\nThe Treaty of Nanjing in 1842 forced China to give Hong Kong to Britain, open five ports to foreign trade, and pay a large indemnity. A second war from 1856 to 1860 opened more ports and legalized the opium trade. Historians call these unequal treaties because China gained nothing in return.",
+  },
+  originalLatinInvestment: {
+    id: "original-latin-investment",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.5 key concept: economic imperialism also took the form of foreign investment, as with British and US investment in Latin America",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing foreign investment in Latin America, 1870–1914",
+    text: "Latin American countries were politically independent by 1900, but much of their economic infrastructure was owned by foreigners. British investors financed railroads, ports, and mines in Argentina, Chile, and Mexico. American companies built banana plantations in Central America and gained great influence over local governments.\n\nHistorians describe this as economic imperialism: foreign powers gained profits and influence without formal colonial rule.",
+  },
+  originalMigrationCauses: {
+    id: "original-migration-causes",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.6 key concept: changes in food production, population growth, and industrialization led to migration",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing causes of migration, 1840–1914",
+    text: "Between 1840 and 1914, tens of millions of Europeans left their homelands. Some fled disaster: during the Irish famine of 1845 to 1852, about a million people died and more than a million emigrated. Others left because farmland was scarce as population grew, or because industrial jobs paid more in the Americas.\n\nSteamships and railroads made migration cheaper and faster. Letters and money sent home by earlier migrants encouraged relatives to follow.",
+  },
+  originalIndenture: {
+    id: "original-indenture",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.6 key concept: migrants included indentured servants, such as South Asian and Chinese laborers, who worked on plantations and in mines after the end of slavery",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing indentured labor migration, 1834–1917",
+    text: "After Britain abolished slavery in 1833, plantation owners in the Caribbean, Mauritius, Fiji, and southern Africa needed new workers. More than a million laborers from India signed contracts of indenture, agreeing to work for a set number of years, usually five, in exchange for passage, wages, and sometimes a return ticket. Chinese laborers went under similar contracts to Cuba, Peru, and Southeast Asia.\n\nIndentured workers were not enslaved, but many faced harsh conditions, low pay, and penalties for leaving their employers. Many stayed after their contracts ended and formed lasting communities.",
+  },
+  originalExclusion: {
+    id: "original-exclusion",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.7 key concept: receiving societies did not always embrace immigrants, as seen in the Chinese Exclusion Act and the White Australia Policy",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing anti-immigrant laws in the United States and Australia, 1882–1901",
+    text: "Chinese workers helped build the western United States, including the transcontinental railroad completed in 1869. As jobs grew scarce in the 1870s, some white workers and politicians blamed Chinese immigrants. In 1882 Congress passed the Chinese Exclusion Act, which banned Chinese laborers from entering the country.\n\nIn 1901, the new nation of Australia passed laws designed to keep out non-European immigrants, a set of policies known as the White Australia Policy. Both measures reflected nativism and racial ideas of the time.",
+  },
+  originalEnclaves: {
+    id: "original-enclaves",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.7 key concept: migrants often created ethnic enclaves, and migration affected gender roles in home societies",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the effects of migration on communities, 1850–1914",
+    text: "Migrants often settled together in ethnic enclaves, where they could speak their own language, worship in familiar ways, and help each other find work. Chinese communities grew in Southeast Asia, the Caribbean, and San Francisco, and Indian communities grew in East Africa and the Caribbean.\n\nMigration also changed the societies migrants left. Most migrants were young men. In southern Italy and southern China, women often took on more responsibility for farms and family businesses while men worked abroad and sent money home.",
+  },
+  originalCausation6: {
+    id: "original-imperial-causation",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.8 key concept: causation in the imperial age, linking industrialization, imperialism, and migration",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how industrialization shaped imperialism and migration, 1750–1900",
+    text: "Industrialization gave a few states unprecedented power. Their factories needed raw materials and markets, their steamships and telegraphs let them project power around the world, and their weapons gave them a decisive military advantage.\n\nThe results reached far beyond Europe. Colonized economies were reorganized to export raw materials, millions of people migrated in search of work, and imperial powers justified their rule with ideas of racial hierarchy that would shape the century to come.",
+  },
+  // END unit-06
 };

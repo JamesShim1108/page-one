@@ -13,7 +13,7 @@ import {
 import { allocateSession } from "../docs/app/session/selection.js";
 
 // Ready World History topics, one custom-practice pool each. Update when a unit is added.
-const READY_TOPICS = 36;
+const READY_TOPICS = 44;
 
 const root = new URL("../", import.meta.url);
 const generated = async (path) =>

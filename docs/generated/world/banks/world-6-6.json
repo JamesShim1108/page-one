@@ -1,0 +1,755 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-6",
+    "courseId": "world",
+    "number": 6,
+    "title": "Consequences of Industrialization",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study why industrial states built empires, how colonized peoples resisted, how economies were reshaped, and why millions of people migrated.",
+    "quizzes": [
+      {
+        "id": "world-6-practice-test",
+        "courseId": "world",
+        "unitId": "world-6",
+        "title": "Unit 6 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t01",
+              "world-6-1-t02",
+              "world-6-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t04",
+              "world-6-1-t05",
+              "world-6-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t07",
+              "world-6-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t01",
+              "world-6-2-t02",
+              "world-6-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t04",
+              "world-6-2-t05",
+              "world-6-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t07",
+              "world-6-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t01",
+              "world-6-3-t02",
+              "world-6-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t04",
+              "world-6-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t06",
+              "world-6-3-t07",
+              "world-6-3-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t01",
+              "world-6-4-t02",
+              "world-6-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t04",
+              "world-6-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t01",
+              "world-6-5-t02",
+              "world-6-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t04",
+              "world-6-5-t05",
+              "world-6-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t07",
+              "world-6-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t01",
+              "world-6-6-t02",
+              "world-6-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t04",
+              "world-6-6-t05",
+              "world-6-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t01",
+              "world-6-7-t02",
+              "world-6-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t04",
+              "world-6-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-8",
+            "questionIds": [
+              "world-6-8-t01",
+              "world-6-8-t02",
+              "world-6-8-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-6-practice-test",
+      "title": "Unit 6 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-6-1-quiz",
+        "title": "Rationales for Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-2-quiz",
+        "title": "State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-3-quiz",
+        "title": "Indigenous Responses to State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-4-quiz",
+        "title": "Global Economic Development from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-5-quiz",
+        "title": "Economic Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-6-quiz",
+        "title": "Causes of Migration in an Interconnected World topic quiz"
+      },
+      {
+        "id": "world-6-7-quiz",
+        "title": "Effects of Migration topic quiz"
+      },
+      {
+        "id": "world-6-8-quiz",
+        "title": "Causation in the Imperial Age topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-6-1",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 1,
+      "code": "6.1",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-6-saq-01",
+        "title": "Unit 6 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-6-6",
+    "courseId": "world",
+    "unitId": "world-6",
+    "order": 6,
+    "code": "6.6",
+    "title": "Causes of Migration in an Interconnected World",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "Why millions of people migrated, including free migrants escaping hardship and indentured laborers recruited for plantations."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "f52fb166526528b6",
+  "questions": [
+    {
+      "id": "world-6-6-q01",
+      "topicId": "world-6-6",
+      "concept": "push-pull",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following was a major push factor for Irish emigration?",
+      "choices": [
+        "Rising wages in Ireland",
+        "A ban on travel to the Americas",
+        "A rapid expansion of Irish industry",
+        "The famine of 1845 to 1852"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The famine killed about a million and drove over a million abroad.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "Wages were not rising.",
+        "Travel was allowed.",
+        "Ireland had limited industry.",
+        "The famine killed about a million and drove over a million abroad."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Ireland had little industry; famine drove people abroad.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-6-q02",
+      "topicId": "world-6-6",
+      "concept": "indenture",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Indentured servants were workers who",
+      "choices": [
+        "signed contracts to work for a set number of years",
+        "were enslaved for life",
+        "owned the plantations they worked on",
+        "signed contracts to work for life without any pay or rights"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They worked for a set term in exchange for passage and wages.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "They worked for a set term in exchange for passage and wages.",
+        "They were not enslaved.",
+        "They worked for owners.",
+        "Contracts had limits and wages."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Contracts were for a set term, usually five years, with wages.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-6-q03",
+      "topicId": "world-6-6",
+      "concept": "indenture",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The demand for indentured workers after 1834 was most directly caused by",
+      "choices": [
+        "the partition of Africa",
+        "the abolition of serfdom in the Russian Empire in 1861",
+        "the abolition of slavery in the British Empire",
+        "the opening of the Suez Canal in 1869"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Abolition left plantation owners seeking new workers.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "Partition came later.",
+        "Russia's change did not drive Caribbean labor demand.",
+        "Abolition left plantation owners seeking new workers.",
+        "The canal opened in 1869."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Russian emancipation came in 1861 and did not affect Caribbean plantations.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-6-q04",
+      "topicId": "world-6-6",
+      "concept": "push-pull",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Many Japanese migrants in the late 1800s went to",
+      "choices": [
+        "Ireland and Italy",
+        "Australia and India",
+        "Russia and Egypt",
+        "Hawaii and Brazil"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Japanese migrants worked on plantations in Hawaii and later Brazil.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "These sent emigrants.",
+        "Australia restricted Asian migration.",
+        "These were not major destinations.",
+        "Japanese migrants worked on plantations in Hawaii and later Brazil."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Australia restricted non-European immigration after 1901.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-6-q05",
+      "topicId": "world-6-6",
+      "concept": "push-pull",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which of the following best explains the scale of migration after 1840?",
+      "choices": [
+        "Steamship travel alone, without push factors",
+        "Push factors at home and cheaper steamship travel",
+        "Governments forced all migrants to leave",
+        "Migration became more expensive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hardship pushed people out, and cheap transport made leaving possible.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "Push factors were also needed.",
+        "Hardship pushed people out, and cheap transport made leaving possible.",
+        "Most migration was voluntary.",
+        "It became cheaper."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Cheaper travel mattered, but people left because of famine, land shortage, and wages.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-6-6-t01",
+      "topicId": "world-6-6",
+      "concept": "push-pull",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, the Irish famine led to",
+      "choices": [
+        "about a million deaths and over a million emigrants",
+        "a rapid rise in Ireland's population",
+        "the industrialization of Ireland",
+        "about a million emigrants but very few deaths from hunger"
+      ],
+      "correctAnswer": 0,
+      "explanation": "About a million died, and over a million left.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "About a million died, and over a million left.",
+        "Population fell.",
+        "Industrialization is not mentioned.",
+        "About a million died."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The passage says about a million died.",
+      "stimulusId": "original-migration-causes",
+      "stimulusBlocks": [
+        {
+          "id": "original-migration-causes",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.6 key concept: changes in food production, population growth, and industrialization led to migration",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing causes of migration, 1840–1914",
+          "text": "Between 1840 and 1914, tens of millions of Europeans left their homelands. Some fled disaster: during the Irish famine of 1845 to 1852, about a million people died and more than a million emigrated. Others left because farmland was scarce as population grew, or because industrial jobs paid more in the Americas.\n\nSteamships and railroads made migration cheaper and faster. Letters and money sent home by earlier migrants encouraged relatives to follow."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-6-t02",
+      "topicId": "world-6-6",
+      "concept": "push-pull",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, which of the following made migration cheaper and faster?",
+      "choices": [
+        "Sailing ships and canals",
+        "Telegraphs alone",
+        "Steamships and railroads",
+        "Caravans and camels"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage names steamships and railroads.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "Steam replaced sail.",
+        "Telegraphs carried messages, not people.",
+        "The passage names steamships and railroads.",
+        "Caravans belong to earlier trade."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Steam, not sail, made travel cheaper and faster.",
+      "stimulusId": "original-migration-causes",
+      "stimulusBlocks": [
+        {
+          "id": "original-migration-causes",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.6 key concept: changes in food production, population growth, and industrialization led to migration",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing causes of migration, 1840–1914",
+          "text": "Between 1840 and 1914, tens of millions of Europeans left their homelands. Some fled disaster: during the Irish famine of 1845 to 1852, about a million people died and more than a million emigrated. Others left because farmland was scarce as population grew, or because industrial jobs paid more in the Americas.\n\nSteamships and railroads made migration cheaper and faster. Letters and money sent home by earlier migrants encouraged relatives to follow."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-6-t03",
+      "topicId": "world-6-6",
+      "concept": "push-pull",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "According to the passage, letters and money sent home by migrants",
+      "choices": [
+        "discouraged further migration",
+        "ended migration by 1900",
+        "were banned by governments",
+        "encouraged relatives to follow"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Earlier migrants' letters and money encouraged others.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "They encouraged it.",
+        "Migration continued.",
+        "No bans are mentioned.",
+        "Earlier migrants' letters and money encouraged others."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The passage says they encouraged relatives to follow.",
+      "stimulusId": "original-migration-causes",
+      "stimulusBlocks": [
+        {
+          "id": "original-migration-causes",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.6 key concept: changes in food production, population growth, and industrialization led to migration",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing causes of migration, 1840–1914",
+          "text": "Between 1840 and 1914, tens of millions of Europeans left their homelands. Some fled disaster: during the Irish famine of 1845 to 1852, about a million people died and more than a million emigrated. Others left because farmland was scarce as population grew, or because industrial jobs paid more in the Americas.\n\nSteamships and railroads made migration cheaper and faster. Letters and money sent home by earlier migrants encouraged relatives to follow."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-6-t04",
+      "topicId": "world-6-6",
+      "concept": "indenture",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, indentured workers usually agreed to work for",
+      "choices": [
+        "fifty years",
+        "about five years",
+        "their entire lives",
+        "one month"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Contracts were usually for five years.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "Contracts were shorter.",
+        "Contracts were usually for five years.",
+        "That would be slavery.",
+        "Contracts were longer."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Indenture was for a set term, not for life.",
+      "stimulusId": "original-indenture",
+      "stimulusBlocks": [
+        {
+          "id": "original-indenture",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.6 key concept: migrants included indentured servants, such as South Asian and Chinese laborers, who worked on plantations and in mines after the end of slavery",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing indentured labor migration, 1834–1917",
+          "text": "After Britain abolished slavery in 1833, plantation owners in the Caribbean, Mauritius, Fiji, and southern Africa needed new workers. More than a million laborers from India signed contracts of indenture, agreeing to work for a set number of years, usually five, in exchange for passage, wages, and sometimes a return ticket. Chinese laborers went under similar contracts to Cuba, Peru, and Southeast Asia.\n\nIndentured workers were not enslaved, but many faced harsh conditions, low pay, and penalties for leaving their employers. Many stayed after their contracts ended and formed lasting communities."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-6-t05",
+      "topicId": "world-6-6",
+      "concept": "indenture",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Based on the passage, indentured labor differed from slavery in that indentured workers",
+      "choices": [
+        "owned the plantations they worked",
+        "worked without any wages at all",
+        "signed contracts for a limited term",
+        "were never mistreated by employers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "They signed contracts for a set term with wages.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "They worked for owners.",
+        "They received wages.",
+        "They signed contracts for a set term with wages.",
+        "Many faced harsh conditions."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The passage notes harsh conditions, so mistreatment occurred.",
+      "stimulusId": "original-indenture",
+      "stimulusBlocks": [
+        {
+          "id": "original-indenture",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.6 key concept: migrants included indentured servants, such as South Asian and Chinese laborers, who worked on plantations and in mines after the end of slavery",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing indentured labor migration, 1834–1917",
+          "text": "After Britain abolished slavery in 1833, plantation owners in the Caribbean, Mauritius, Fiji, and southern Africa needed new workers. More than a million laborers from India signed contracts of indenture, agreeing to work for a set number of years, usually five, in exchange for passage, wages, and sometimes a return ticket. Chinese laborers went under similar contracts to Cuba, Peru, and Southeast Asia.\n\nIndentured workers were not enslaved, but many faced harsh conditions, low pay, and penalties for leaving their employers. Many stayed after their contracts ended and formed lasting communities."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-6-6-t06",
+      "topicId": "world-6-6",
+      "concept": "indenture",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The passage suggests that indentured migration was caused mainly by",
+      "choices": [
+        "the abolition of slavery",
+        "the end of plantation agriculture",
+        "Chinese laws requiring migration",
+        "the Irish famine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After abolition, planters needed new workers.",
+      "sourceIds": [
+        "ced-topic-6-6"
+      ],
+      "choiceExplanations": [
+        "After abolition, planters needed new workers.",
+        "Plantations continued.",
+        "No such laws are mentioned.",
+        "The famine concerns Ireland."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The famine drove Irish migration, not indenture to plantations.",
+      "stimulusId": "original-indenture",
+      "stimulusBlocks": [
+        {
+          "id": "original-indenture",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.6 key concept: migrants included indentured servants, such as South Asian and Chinese laborers, who worked on plantations and in mines after the end of slavery",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing indentured labor migration, 1834–1917",
+          "text": "After Britain abolished slavery in 1833, plantation owners in the Caribbean, Mauritius, Fiji, and southern Africa needed new workers. More than a million laborers from India signed contracts of indenture, agreeing to work for a set number of years, usually five, in exchange for passage, wages, and sometimes a return ticket. Chinese laborers went under similar contracts to Cuba, Peru, and Southeast Asia.\n\nIndentured workers were not enslaved, but many faced harsh conditions, low pay, and penalties for leaving their employers. Many stayed after their contracts ended and formed lasting communities."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-6-6-quick",
+      "courseId": "world",
+      "unitId": "world-6",
+      "topicId": "world-6-6",
+      "title": "Topic 6.6 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-6-6-q01",
+        "world-6-6-q02",
+        "world-6-6-q03"
+      ]
+    },
+    {
+      "id": "world-6-6-quiz",
+      "courseId": "world",
+      "unitId": "world-6",
+      "topicId": "world-6-6",
+      "title": "Causes of Migration in an Interconnected World topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-6-6-q01",
+        "world-6-6-q02",
+        "world-6-6-q03",
+        "world-6-6-q04",
+        "world-6-6-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "push-pull": {
+      "id": "push-pull",
+      "title": "Push and pull factors",
+      "section": "push-pull",
+      "topicId": "world-6-6"
+    },
+    "indenture": {
+      "id": "indenture",
+      "title": "Indentured labor",
+      "section": "indenture",
+      "topicId": "world-6-6"
+    }
+  },
+  "assets": {}
+}

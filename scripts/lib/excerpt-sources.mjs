@@ -54,6 +54,10 @@ export const EXCERPT_SOURCES = Object.freeze({
     files: ["smiles-self-help.txt"],
     label: "Project Gutenberg #935 (Smiles, Self-Help, 1897 edition)",
   },
+  "mill-": {
+    files: ["mill-on-liberty.txt"],
+    label: "Project Gutenberg #34901 (Mill, On Liberty)",
+  },
 });
 
 export function excerptSourceFor(id) {
