@@ -21,6 +21,7 @@ import {
 import { loadAssets, mergeAssets, usedAssets } from "./lib/assets.mjs";
 import { validateTermSet } from "./lib/terms.mjs";
 import { resolveGlossary, selectGlossary } from "./lib/glossary.mjs";
+import { resolveExam, validateExamFormat } from "./lib/exams.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -308,6 +309,7 @@ export async function compileContent(root = projectRoot) {
       writing: {},
       terms: {},
       "term-set": {},
+      exam: {},
     };
     function route(type, id, path) {
       requireId(id, `${folder} route`);
@@ -476,6 +478,8 @@ export async function compileContent(root = projectRoot) {
       });
     }
     const readyTopics = [];
+    // Every writing prompt in the course, so mock exams can refer to any of them.
+    const courseWriting = new Map();
     for (const record of units) {
       const { unit, unitRoot } = record;
       const reservedQuestionIds = new Set(
@@ -965,12 +969,69 @@ export async function compileContent(root = projectRoot) {
       }
       for (const quiz of writing) {
         validateWriting(quiz, topics, framework, unit, unitRoot, sources);
+        courseWriting.set(quiz.id, { quiz, unit });
         route("writing", quiz.id, `${course.id}/writing/${quiz.id}.json`);
         emit(routes.writing[quiz.id], { course, unit: unitInfo, framework, quiz });
       }
     }
+    // Mock exams assemble existing questions and prompts into the course's exam format.
+    const examSummaries = [];
+    const examsRoot = join(courseRoot, "exams");
+    const formatFile = join(courseRoot, "exam-format.js");
+    // The format is checked even before any exam uses it.
+    const format = (await exists(formatFile))
+      ? validateExamFormat(
+          await readModule(formatFile, "examFormat"),
+          sources,
+          formatFile,
+        )
+      : null;
+    if (await exists(examsRoot)) {
+      requireValue(
+        Boolean(format),
+        examsRoot,
+        "mock exams need the course's exam-format.js",
+      );
+      for (const filename of (await readdir(examsRoot))
+        .filter((name) => name.endsWith(".js"))
+        .sort()) {
+        const file = join(examsRoot, filename);
+        const { summary, payload } = resolveExam(
+          await readModule(file, "exam"),
+          {
+            course,
+            format,
+            topics,
+            writing: courseWriting,
+            labelQuestion: (question) => withSkillLabels(question, skills),
+          },
+          file,
+        );
+        requireValue(
+          !examSummaries.some((item) => item.id === summary.id),
+          file,
+          `duplicate exam ID ${summary.id}`,
+        );
+        if (payload) {
+          route("exam", summary.id, `${course.id}/exams/${summary.id}.json`);
+          const revision = createHash("sha256")
+            .update(json(payload))
+            .digest("hex")
+            .slice(0, 16);
+          emit(routes.exam[summary.id], {
+            ...payload,
+            course,
+            framework,
+            revision,
+            sources: format.sourceIds.map((id) => sources.get(id)),
+          });
+          examSummaries.push({ ...summary, revision });
+        } else examSummaries.push(summary);
+      }
+    }
     const catalogEntry = {
       ...course,
+      ...(examSummaries.length ? { examCount: examSummaries.length } : {}),
       readyTopicCount: readyTopics.length,
       previewTopics: readyTopics.slice(0, 3),
       firstTopic: readyTopics[0] || null,
@@ -994,6 +1055,7 @@ export async function compileContent(root = projectRoot) {
     emit(catalogEntry.indexPath, {
       course: catalogEntry,
       units: units.map((record) => record.info),
+      ...(examSummaries.length ? { exams: examSummaries } : {}),
     });
     emit(catalogEntry.routesPath, routes);
     const customPracticeRevision = createHash("sha256")

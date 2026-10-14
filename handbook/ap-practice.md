@@ -65,7 +65,7 @@ Each ready unit can have one Practice Test that mirrors the AP multiple-choice s
 - The answer-length limits above also apply to the test as a whole. **Checked.**
 - A unit with a Practice Test also has at least one SAQ with a stimulus. **Checked.**
 
-The timed mock exam shell (timer and section flow) is not built yet; the Practice Test is untimed.
+The Practice Test is untimed. Full-length timed mock exams that reuse these questions are described in [Mock exams](mock-exams.md).
 
 ## Stimulus provenance
 

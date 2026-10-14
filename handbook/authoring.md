@@ -18,6 +18,7 @@ All paths start at the repository root. The current course folder is `docs/conte
 | Topic questions and quiz selections        | Same topic folder, `questions.js`                   |
 | Unit study guide                           | Unit folder's `study-guide.js`                      |
 | Writing questions, criteria, model answers | Unit folder's `writing.js`                          |
+| Full mock exams ([guide](mock-exams.md))   | Course folder's `exams/` and `exam-format.js`       |
 | Shared citations                           | Course folder's `sources.js`                        |
 | AP skill list for practice questions       | Course folder's `skills.js`                         |
 | Primary-source excerpts and passages       | Course folder's `excerpts.js`                       |

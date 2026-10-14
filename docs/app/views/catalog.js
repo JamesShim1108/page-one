@@ -157,7 +157,26 @@ export function courseListPage({ courses }) {
   </div>`;
 }
 
-export function coursePage({ course, units }) {
+// Mock exams appear only when a course has authored at least one.
+function mockExamList(exams = []) {
+  if (!exams.length) return "";
+  const rows = exams
+    .map((exam) => {
+      const ready = exam.status === "ready";
+      const hours = Math.floor(exam.minutes / 60);
+      const minutes = exam.minutes % 60;
+      const time =
+        `${hours ? `${hours} h ` : ""}${minutes ? `${minutes} min` : ""}`.trim();
+      const body = `<div><h3>${esc(exam.title)}</h3><p>${esc(exam.description)}</p><p class="muted">${esc(time)} · ${exam.sectionCount} parts${ready ? ` · ${exam.questionCount} multiple-choice questions` : ""}</p></div><div class="status">${badge(ready ? "ready" : "soon", ready ? "Available now" : "In preparation")}${ready ? '<span class="big-arrow" aria-hidden="true">&#8594;</span>' : ""}</div>`;
+      return ready
+        ? `<a href="#/exam/${esc(exam.id)}" class="unit-row is-ready exam-row">${body}</a>`
+        : `<div class="unit-row exam-row">${body}</div>`;
+    })
+    .join("");
+  return `<div class="section-heading"><h2>Full mock exams</h2></div><div class="unit-list">${rows}</div>`;
+}
+
+export function coursePage({ course, units, exams = [] }) {
   const firstTopic = course.firstTopic;
   if (!units.length && course.emptyShell) {
     return `<div class="container">${breadcrumbs([["Courses", "/courses"], [course.shortTitle]])}
@@ -177,6 +196,7 @@ export function coursePage({ course, units }) {
         </a>`;
         })
         .join("")}</div>
+      ${mockExamList(exams)}
     </div><aside class="side-note"><p class="eyebrow">Start small</p><h3>One topic is enough for today.</h3>
       ${firstTopic ? `<p>${esc(firstTopic.summary)}</p>${link(`/topic/${firstTopic.id}`, `Start Topic ${esc(firstTopic.code)} ${arrow}`, "btn")}` : "<p>Lessons are being prepared.</p>"}
     </aside></div>

@@ -1,0 +1,315 @@
+/* Full mock exams: intro, timed sections, break, and results. */
+.exam-page {
+  max-width: 980px;
+  margin: 0 auto 4rem;
+}
+
+.exam-header,
+.exam-section-intro {
+  margin: 1.5rem 0 2rem;
+}
+
+.exam-section-intro {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  padding: 1.5rem;
+  border-radius: 6px;
+}
+
+.exam-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 0;
+  list-style: none;
+  font-weight: 700;
+}
+
+.exam-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.exam-mode-card,
+.exam-resume,
+.exam-estimate,
+.exam-submit-panel {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  padding: 1.25rem;
+  border-radius: 6px;
+  margin: 0 0 1.5rem;
+}
+
+.exam-submit-panel {
+  border-color: var(--amber);
+  background: var(--amber-bg);
+}
+
+.exam-table-sub {
+  display: block;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.exam-save-state {
+  color: var(--muted);
+}
+
+.exam-save-state.is-warning {
+  color: var(--red);
+  font-weight: 700;
+}
+
+/* The section bar stays visible while scrolling long sources and essays. */
+.exam-bar {
+  position: sticky;
+  /* The controller sets --exam-bar-top to the sticky site header's height. */
+  top: var(--exam-bar-top, 0);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--white);
+}
+
+.exam-bar .eyebrow,
+.exam-progress {
+  margin: 0;
+}
+
+.exam-clock {
+  display: grid;
+  justify-items: end;
+  font-family: var(--mono);
+}
+
+.exam-section-intro .exam-clock {
+  justify-items: start;
+  margin: 1rem 0;
+}
+
+.exam-clock span {
+  white-space: nowrap;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.exam-clock strong {
+  font-size: 1.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.exam-clock.is-warning strong {
+  color: var(--red);
+}
+
+/* Exam choices have no answer marks, so the letter stays beside the text. */
+.exam-question .choice {
+  flex-wrap: nowrap;
+}
+
+.exam-question .choice > span:last-child {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.exam-navigator {
+  margin: 0 0 1rem;
+}
+
+.exam-navigator summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.exam-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(2.75rem, 1fr));
+  gap: 0.35rem;
+  margin: 0.5rem 0;
+}
+
+.exam-nav-item {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+
+.exam-nav-item.is-answered {
+  background: var(--soft);
+  border-color: var(--green);
+}
+
+.exam-nav-item.is-flagged {
+  box-shadow: inset 0 -4px 0 var(--amber);
+}
+
+.exam-nav-item[aria-current="true"] {
+  outline: 2px solid var(--green);
+  outline-offset: 1px;
+  font-weight: 700;
+}
+
+.exam-question-actions,
+.exam-submit-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.exam-reading-note {
+  border-left: 4px solid var(--amber);
+  background: var(--amber-bg);
+  padding: 0.75rem 1rem;
+}
+
+.exam-prompt {
+  margin: 2rem 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.exam-choice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border: 0;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.exam-choice legend {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.exam-documents {
+  display: grid;
+  gap: 1rem;
+}
+
+.exam-prompt-text {
+  font-weight: 700;
+}
+
+.exam-response {
+  margin: 1rem 0;
+}
+
+.exam-response label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.exam-response textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  /* 16px keeps iOS from zooming when the field is focused. */
+  font-size: max(1rem, 16px);
+  line-height: 1.5;
+}
+
+.exam-word-count {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.exam-estimate-value {
+  font-family: var(--serif);
+  font-size: 2.5rem;
+  margin: 0.25rem 0;
+}
+
+.exam-result-section {
+  margin: 2.5rem 0;
+}
+
+.exam-score-line {
+  font-weight: 700;
+}
+
+.exam-review-item,
+.exam-result-item {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  background: var(--white);
+}
+
+.exam-review-item summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.exam-review-item.is-incorrect summary {
+  color: var(--red);
+}
+
+.exam-self-score {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+
+.exam-criterion label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+.exam-criterion select {
+  min-height: 44px;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  font-size: max(1rem, 16px);
+}
+
+.exam-row h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .exam-mode-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exam-bar {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .exam-clock strong {
+    font-size: 1.2rem;
+  }
+}
