@@ -55,7 +55,8 @@ let currentPage = () => "",
   currentSession = null,
   currentPrint = null,
   currentBackup = null,
-  currentOffline = null;
+  currentOffline = null,
+  currentExam = null;
 let stopCarousel = () => {},
   currentRoute = parseRoute(location.hash),
   routeGeneration = 0;
@@ -464,6 +465,22 @@ async function selectPage(route, data, generation) {
         readingPreferences: readingPreferences.values,
         offlineReading,
       });
+  } else if (route.type === "exam") {
+    const { createExamStore } = await import("./exam/store.js");
+    const { createExamController } = await import("./exam/controller.js");
+    if (generation !== routeGeneration) return null;
+    const store = createExamStore({ adapter: persistence, exam: data });
+    await store.ready;
+    if (generation !== routeGeneration) return null;
+    selected.exam = createExamController(data, store, {
+      repaint,
+      navigate,
+      view: route.params.get("view") || "",
+    });
+    selected.title = data.exam.title;
+    selected.description = data.exam.description;
+    selected.html = selected.exam.page;
+    selected.enhance = selected.exam.enhance;
   } else if (route.type === "writing") {
     const { createWritingStore } = await import("./writing/store.js");
     const { createWritingController } = await import("./writing/controller.js");
@@ -520,6 +537,8 @@ async function render(focus = false) {
   currentPrint = null;
   currentBackup = null;
   currentOffline = null;
+  currentExam?.destroy();
+  currentExam = null;
   main.setAttribute("aria-busy", "true");
   main.innerHTML = '<div class="page-loading" role="status">Loading...</div>';
   const loadingTimer = setTimeout(() => {
@@ -547,6 +566,7 @@ async function render(focus = false) {
     currentPrint = page.print || null;
     currentBackup = page.backup || null;
     currentOffline = page.offline || null;
+    currentExam = page.exam || null;
     enhancePage = page.enhance || (() => () => {});
     currentPage = page.html;
     pageTitle(page.title, page.description);
@@ -706,6 +726,7 @@ function focusDestination(route, data, focus) {
 
 // One delegated listener per event keeps handlers intact when pages are replaced.
 document.addEventListener("input", (event) => {
+  if (currentExam?.input(event)) return;
   if (currentWriting?.input(event)) return;
   reportController.input(event);
 });
@@ -735,6 +756,7 @@ document.addEventListener("change", (event) => {
       });
     return;
   }
+  if (currentExam?.change(event)) return;
   if (reportController.change(event)) return;
   if (currentBackup?.change(event)) return;
   if (currentOffline?.change(event)) return;
@@ -752,6 +774,7 @@ document.addEventListener("submit", (event) => {
   if (!currentWriting?.submit(event)) currentQuiz?.submit(event);
 });
 document.addEventListener("click", (event) => {
+  if (currentExam?.click(event)) return;
   if (reportController.click(event)) return;
   if (shareController.click(event)) return;
   if (currentBackup?.click(event)) return;
@@ -862,8 +885,14 @@ document.addEventListener("click", (event) => {
   }
 });
 document.addEventListener("keydown", (event) => currentTerms?.keydown(event));
-document.addEventListener("visibilitychange", () => currentWriting?.visibility());
-window.addEventListener("pagehide", () => currentWriting?.flush());
+document.addEventListener("visibilitychange", () => {
+  currentWriting?.visibility();
+  currentExam?.visibility();
+});
+window.addEventListener("pagehide", () => {
+  currentWriting?.flush();
+  currentExam?.flush();
+});
 window.addEventListener("hashchange", () => render(true));
 render();
 

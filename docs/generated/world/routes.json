@@ -284,5 +284,6 @@
   "term-set": {
     "world-period-1-a": "world/terms/world-period-1-a.json",
     "world-period-1-b": "world/terms/world-period-1-b.json"
-  }
+  },
+  "exam": {}
 }
