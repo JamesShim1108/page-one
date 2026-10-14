@@ -205,6 +205,7 @@ function scopeMatches(record, scope) {
         "conflict-copy",
         "draft-checkpoint",
         "imported-archive",
+        "mock-exam",
         "offline-pack",
         "reading-mark",
         "reading-position",
@@ -240,6 +241,8 @@ function scopeMatches(record, scope) {
         record.payload?.original?.recordId === quizId)
     );
   }
+  if (scope.startsWith("exam:"))
+    return record.kind === "mock-exam" && record.recordId === scope.slice("exam:".length);
   if (scope.startsWith("attempt:")) {
     const attemptId = scope.slice("attempt:".length);
     return (
