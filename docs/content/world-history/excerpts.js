@@ -1872,4 +1872,210 @@ export const excerpts = {
     text: "The Cold War and decolonization unfolded together. World War II weakened the colonial powers at the same moment it made the United States and the Soviet Union dominant. As dozens of new states won independence, each superpower competed to win them as allies.\n\nThat competition brought aid, weapons, and sometimes war to newly independent countries. Some leaders played the superpowers against each other; others joined the Non-Aligned Movement. When the Soviet Union collapsed in 1991, many conflicts that the superpowers had fueled lost their outside support.",
   },
   // END unit-08
+  // BEGIN unit-09
+  gwbushAids: {
+    id: "gwbush-sotu-2003-aids",
+    type: "source",
+    sourceType: "primary",
+    source: "gwbush-sotu-2003",
+    amsco_review: "pending",
+    attribution:
+      "George W. Bush, president of the United States, State of the Union address to Congress, January 28, 2003",
+    citation:
+      "George W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 28, 2003. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/2003-GWBush.txt).",
+    note: "Anti-retroviral drugs slow the HIV virus and extend the lives of people with AIDS. Bush proposed the program that became the President's Emergency Plan for AIDS Relief (PEPFAR).",
+    text: "Today, on the continent of Africa, nearly 30 million people have the AIDS virus - including three million children under the age of 15. There are whole countries in Africa where more than one-third of the adult population carries the infection. More than four million require immediate drug treatment. Yet across that continent, only 50,000 AIDS victims - only 50,000 - are receiving the medicine they need. . . .\n\nAIDS can be prevented. Anti-retroviral drugs can extend life for many years. And the cost of those drugs has dropped from 12,000 dollars a year to under 300 dollars a year - which places a tremendous possibility within our grasp. . . .\n\nI ask the Congress to commit 15 billion dollars over the next five years, including nearly ten billion dollars in new money, to turn the tide against AIDS in the most afflicted nations of Africa and the Caribbean.",
+  },
+  nixonEnvironment: {
+    id: "nixon-sotu-1970-environment",
+    type: "source",
+    sourceType: "primary",
+    source: "nixon-sotu-1970",
+    amsco_review: "pending",
+    attribution:
+      "Richard Nixon, president of the United States, State of the Union address to Congress, January 22, 1970",
+    citation:
+      "Richard Nixon, Annual Message to the Congress on the State of the Union, January 22, 1970. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/1970-Nixon.txt, converted to UTF-8).",
+    note: "Three months later, millions of Americans took part in the first Earth Day, and in December 1970 the federal Environmental Protection Agency began work.",
+    text: "The great question of the seventies is, shall we surrender to our surroundings, or shall we make our peace with nature and begin to make reparations for the damage we have done to our air, to our land, and to our water? . . .\n\nWe still think of air as free. But clean air is not free, and neither is clean water. The price tag on pollution control is high. Through our years of past carelessness we incurred a debt to nature, and now that debt is being called. . . .\n\nWe can no longer afford to consider air and water common property, free to be abused by anyone without regard to the consequences. . . . This requires comprehensive new regulations. It also requires that, to the extent possible, the price of goods should be made to include the costs of producing and disposing of them without damage to the environment.",
+  },
+  reaganGovernment: {
+    id: "reagan-inaugural-1981-government",
+    type: "source",
+    sourceType: "primary",
+    source: "reagan-inaugural-1981",
+    amsco_review: "pending",
+    attribution:
+      "Ronald Reagan, president of the United States, inaugural address, January 20, 1981",
+    citation:
+      "Ronald Reagan, Inaugural Address, January 20, 1981. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1981-Reagan.txt).",
+    note: "The transcript used to check this excerpt ends the third paragraph's sentence at “problem”; as delivered, Reagan continued, “government is the problem.” In 1980, US inflation was above 12 percent.",
+    text: "These United States are confronted with an economic affliction of great proportions. We suffer from the longest and one of the worst sustained inflations in our national history. . . .\n\nBut great as our tax burden is, it has not kept pace with public spending. For decades, we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present. . . .\n\nIn this present crisis, government is not the solution to our problem . . . .\n\nIn the days ahead I will propose removing the roadblocks that have slowed our economy and reduced productivity.",
+  },
+  clintonGlobalization: {
+    id: "clinton-sotu-2000-globalization",
+    type: "source",
+    sourceType: "primary",
+    source: "clinton-sotu-2000",
+    amsco_review: "pending",
+    attribution:
+      "Bill Clinton, president of the United States, State of the Union address to Congress, January 27, 2000",
+    citation:
+      "William J. Clinton, Address Before a Joint Session of the Congress on the State of the Union, January 27, 2000. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/2000-Clinton.txt).",
+    note: "Two months earlier, tens of thousands of protesters had disrupted a World Trade Organization meeting in Seattle.",
+    text: "To realize the full possibilities of this economy, we must reach beyond our own borders, to shape the revolution that is tearing down barriers and building new networks among nations and individuals and economies and cultures: globalization. It's the central reality of our time.\n\nOf course, change this profound is both liberating and threatening to people. But there's no turning back. . . .\n\nThe first thing we have got to do is to forge a new consensus on trade. Now, those of us who believe passionately in the power of open trade, we have to ensure that it lifts both our living standards and our values, never tolerating abusive child labor or a race to the bottom in the environment and worker protection. But others must recognize that open markets and rule-based trade are the best engines we know of for raising living standards, reducing global poverty and environmental destruction, and assuring the free flow of ideas.",
+  },
+  originalCommunication: {
+    id: "original-communication-transport",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.1 key concept: new modes of communication and transportation reduced the problem of geographic distance",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing advances in communication and transportation after 1900",
+    text: "In the 1920s, radio broadcasts began reaching millions of homes. After World War II, jet airliners cut the time to cross an ocean from days to hours, and in 1956 the first ship carrying standardized steel shipping containers sailed from New Jersey. Containers could move from ship to train to truck without unloading, which made shipping goods across the world far cheaper.\n\nThe internet grew from a US military research network of 1969 into a worldwide system after the World Wide Web appeared in 1991. By the 2020s, most of the world's people carried a mobile phone.",
+  },
+  originalGreenRevolution: {
+    id: "original-green-revolution",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.1 key concept: the Green Revolution and commercial agriculture increased productivity and sustained a growing population",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Green Revolution, 1940s–1980s",
+    text: "Beginning in Mexico in the 1940s, scientists including Norman Borlaug bred high-yield varieties of wheat. In the 1960s these seeds, along with chemical fertilizers, pesticides, and irrigation, spread to India, Pakistan, and other countries. India's wheat harvest more than doubled within a decade, and famines that had been feared did not occur.\n\nThe Green Revolution had costs. The new methods required money for seeds, fertilizer, and pumps, so wealthier farmers often benefited most. Heavy use of chemicals and groundwater damaged soil and water supplies in some regions.",
+  },
+  originalDiseases: {
+    id: "original-disease-after-1900",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.2 key concept: diseases associated with poverty persisted, new epidemics emerged, and longer lives brought other diseases",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing disease and medicine after 1900",
+    text: "The influenza pandemic of 1918 to 1919 killed tens of millions of people worldwide. Later in the century, vaccines and antibiotics transformed medicine. A global vaccination campaign led by the World Health Organization eradicated smallpox by 1980.\n\nYet diseases associated with poverty, such as malaria, tuberculosis, and cholera, continued to kill millions, especially where clean water and health care were scarce. In wealthier societies, as people lived longer, heart disease, cancer, and Alzheimer's disease became leading causes of death.",
+  },
+  originalClimate: {
+    id: "original-climate-debates",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.3 key concept: the release of greenhouse gases caused global warming, and debates arose over how to respond",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing environmental debates, 1977–2015",
+    text: "In 1977, Wangari Maathai founded the Green Belt Movement in Kenya, which organized women to plant tens of millions of trees to fight deforestation and soil erosion. She later won the Nobel Peace Prize.\n\nBy the 1990s, scientists warned that carbon dioxide from burning fossil fuels was warming the planet. The Kyoto Protocol of 1997 required wealthy industrialized countries to cut emissions but not developing countries such as China and India, which argued that rich nations had caused most of the problem. The Paris Agreement of 2015 asked nearly every country to set its own targets.",
+  },
+  originalFreeMarket: {
+    id: "original-free-market-reforms",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.4 key concept: some states adopted free-market economic policies in the late twentieth century",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing free-market reforms, 1973–1991",
+    text: "After 1979, British prime minister Margaret Thatcher sold state-owned companies such as British Telecom to private investors and limited the power of labor unions. In Chile, economists trained in the United States advised the military government of Augusto Pinochet to cut tariffs and privatize industries.\n\nIn China, Deng Xiaoping allowed peasants to sell surplus crops at market prices and opened special economic zones to foreign investment after 1978. China's economy grew by roughly 10 percent a year for three decades, while the Communist Party kept its monopoly on political power.",
+  },
+  originalAsianTigers: {
+    id: "original-asian-tigers",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.4 key concept: new economic centers developed in Asia, and multinational corporations shifted production around the world",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the rise of new Asian economies, 1960–2000",
+    text: "From the 1960s, South Korea, Taiwan, Hong Kong, and Singapore grew rapidly by producing goods for export. These Asian Tigers began with textiles and toys and moved into steel, ships, and electronics, investing heavily in education.\n\nMultinational corporations moved factories to countries where wages were lower and shifted research and design to cities with skilled workers. Wealthy countries increasingly built knowledge economies, in which more people worked in finance, technology, and services than in manufacturing.",
+  },
+  originalRights: {
+    id: "original-rights-discourses",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.5 key concept: rights-based discourses challenged old assumptions about race, class, gender, and religion",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing rights movements after 1945",
+    text: "In 1948, the United Nations adopted the Universal Declaration of Human Rights, which declared that all people are born free and equal in dignity and rights, without distinction of race, sex, religion, or birth. It was not binding law, but activists around the world cited it.\n\nWomen's movements won the vote in most countries by the 1970s and pushed for equal access to education and work. In India, the 1950 constitution abolished untouchability and reserved places in universities and government jobs for members of the lowest castes.",
+  },
+  originalReformResponses: {
+    id: "original-reform-responses",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.5 key concept: movements for reform drew on religion and other traditions, and states responded in different ways",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing reform movements and state responses, 1960–1990",
+    text: "In Latin America in the 1960s and 1970s, some Catholic priests developed liberation theology, which taught that the church should work for social justice for the poor. Military governments often treated these priests as subversives, and in 1980 Archbishop Óscar Romero of El Salvador was assassinated while saying Mass.\n\nIn China in 1989, students gathered in Tiananmen Square to demand political freedom. The government declared martial law, and the army cleared the square by force.",
+  },
+  originalConsumerCulture: {
+    id: "original-consumer-culture",
+    type: "source",
+    sourceType: "original",
+    source: "CED Topic 9.6 key concept: popular and consumer culture became more global",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the spread of global consumer culture after 1950",
+    text: "After World War II, American brands such as Coca-Cola and McDonald's opened in country after country, and Hollywood films reached audiences worldwide. Critics warned of “Americanization,” the replacement of local cultures with American products.\n\nCultural influence also flowed in many directions. India's film industry, centered in Mumbai and known as Bollywood, produces more films each year than Hollywood and has audiences across Asia, Africa, and the Middle East. Japanese anime and South Korean pop music developed global fan bases, often spread by social media.",
+  },
+  originalSportsMusic: {
+    id: "original-sports-music",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.6 key concept: arts, entertainment, and sports increasingly reflected the influence of a globalized society",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing global sports and music after 1960",
+    text: "Reggae music, which developed in Jamaica in the 1960s, spread worldwide through artists such as Bob Marley, whose songs about poverty and resistance found audiences in Africa and Europe.\n\nSports also became global. Hundreds of millions of people watch the FIFA World Cup, and cricket, spread by the British Empire, became a national passion in India, Pakistan, and the Caribbean. Players now move between leagues on different continents.",
+  },
+  originalWTOProtest: {
+    id: "original-anti-globalization",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.7 key concept: movements emerged that resisted economic globalization and its effects",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing resistance to globalization, 1994–2001",
+    text: "On January 1, 1994, the day the North American Free Trade Agreement took effect, the Zapatista Army of National Liberation rose up in Chiapas, Mexico. The rebels, mostly Indigenous farmers, argued that free trade would destroy small farmers who could not compete with cheap imported corn.\n\nIn 1999, tens of thousands of labor union members, environmentalists, and students protested a World Trade Organization meeting in Seattle. In 2001, activists founded the World Social Forum in Brazil under the slogan “Another world is possible.”",
+  },
+  originalInstitutions: {
+    id: "original-global-institutions",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.8 key concept: new international organizations formed to maintain world peace and facilitate cooperation",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing international organizations after 1945",
+    text: "The United Nations, founded in 1945, sent peacekeepers to conflicts from Cyprus to Cambodia, and its World Health Organization coordinated campaigns against disease. Two institutions planned in 1944, the International Monetary Fund and the World Bank, lent money to countries for stability and development, often requiring governments to cut spending in return.\n\nNongovernmental organizations also grew. Amnesty International, founded in 1961, campaigned for political prisoners, and Doctors Without Borders, founded in 1971, sent medical teams to war zones and disaster areas.",
+  },
+  originalRegional: {
+    id: "original-regional-organizations",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.8 key concept: regional and global organizations facilitated trade and cooperation",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing regional and trade organizations, 1957–2002",
+    text: "Six Western European states formed a common market in 1957. It grew into the European Union in 1993, and in 1999 many members adopted a shared currency, the euro. Members gave up some control over trade and borders in exchange for economic growth and lasting peace.\n\nOther regions formed their own organizations, including the Association of Southeast Asian Nations in 1967 and the African Union in 2002. In 1995, the World Trade Organization replaced an earlier agreement on tariffs and began settling trade disputes among its members.",
+  },
+  originalCausation9: {
+    id: "original-globalization-continuity",
+    type: "source",
+    sourceType: "original",
+    source: "CED Topic 9.9 key concept: continuity and change in a globalized world",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing continuity and change in global connections after 1900",
+    text: "Long-distance trade, migration, and the exchange of ideas are as old as the Silk Roads. What changed after 1900 was their speed and scale. Goods, money, and information that once took months to cross the world now move in days or seconds, and more people than ever migrate for work.\n\nOld patterns also persisted. Many former colonies still export raw materials, wealth remains unequally divided between and within countries, and states continue to defend their borders and interests even as they join global institutions.",
+  },
+  // END unit-09
 };

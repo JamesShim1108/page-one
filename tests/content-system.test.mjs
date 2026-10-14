@@ -17,8 +17,8 @@ import { renderBlocks } from "../docs/app/blocks.js";
 import { prepareImage } from "../scripts/prepare-image.mjs";
 
 // Ready World History topics and quiz routes. Update when a unit is added.
-const READY_TOPICS = 62;
-const QUIZ_ROUTES = 136;
+const READY_TOPICS = 71;
+const QUIZ_ROUTES = 155;
 
 const root = new URL("../", import.meta.url);
 const readGenerated = async (path) =>

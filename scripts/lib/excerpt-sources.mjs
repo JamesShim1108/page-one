@@ -82,6 +82,23 @@ export const EXCERPT_SOURCES = Object.freeze({
     files: ["sotu-1990-Bush.txt"],
     label: "NLTK State of the Union corpus, 1990-Bush.txt (C-SPAN transcript)",
   },
+  "nixon-sotu-1970-": {
+    files: ["sotu-1970-Nixon.txt"],
+    label:
+      "NLTK State of the Union corpus, 1970-Nixon.txt (C-SPAN transcript), converted from Latin-1 to UTF-8",
+  },
+  "reagan-inaugural-": {
+    files: ["inaugural-1981-Reagan.txt"],
+    label: "NLTK inaugural corpus, 1981-Reagan.txt (C-SPAN transcript)",
+  },
+  "clinton-sotu-2000-": {
+    files: ["sotu-2000-Clinton.txt"],
+    label: "NLTK State of the Union corpus, 2000-Clinton.txt (C-SPAN transcript)",
+  },
+  "gwbush-sotu-2003-": {
+    files: ["sotu-2003-GWBush.txt"],
+    label: "NLTK State of the Union corpus, 2003-GWBush.txt (C-SPAN transcript)",
+  },
 });
 
 export function excerptSourceFor(id) {

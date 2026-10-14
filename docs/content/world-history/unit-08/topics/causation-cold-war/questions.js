@@ -162,7 +162,7 @@ export const bank = {
       sourceIds: ["ced-topic-8-9"],
       choiceExplanations: [
         "The war weakened colonial powers and created two superpowers.",
-        "That began in 1492.",
+        "The Columbian Exchange was a much earlier process.",
         "That was in the thirteenth century.",
         "That began in the eighteenth century.",
       ],

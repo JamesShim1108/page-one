@@ -749,4 +749,92 @@ export const sources = [
     note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
   },
   // END unit-08
+  // BEGIN unit-09
+  {
+    id: "ced-topic-9-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Advances in Technology and Exchange After 1900.",
+  },
+  {
+    id: "ced-topic-9-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Technological Advances and Limitations After 1900: Disease.",
+  },
+  {
+    id: "ced-topic-9-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Technological Advances: Debates About the Environment After 1900.",
+  },
+  {
+    id: "ced-topic-9-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Economics in the Global Age.",
+  },
+  {
+    id: "ced-topic-9-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Calls for Reform and Responses After 1900.",
+  },
+  {
+    id: "ced-topic-9-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Globalized Culture After 1900.",
+  },
+  {
+    id: "ced-topic-9-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Resistance to Globalization After 1900.",
+  },
+  {
+    id: "ced-topic-9-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Institutions Developing in a Globalized World.",
+  },
+  {
+    id: "ced-topic-9-9",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.9.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Continuity and Change in a Globalized World.",
+  },
+  {
+    id: "nixon-sotu-1970",
+    label:
+      "Richard Nixon, Annual Message to the Congress on the State of the Union, January 22, 1970",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
+  },
+  {
+    id: "reagan-inaugural-1981",
+    label: "Ronald Reagan, Inaugural Address, January 20, 1981",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK inaugural corpus.",
+  },
+  {
+    id: "clinton-sotu-2000",
+    label:
+      "William J. Clinton, Address Before a Joint Session of the Congress on the State of the Union, January 27, 2000",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
+  },
+  {
+    id: "gwbush-sotu-2003",
+    label:
+      "George W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 28, 2003",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
+  },
+  // END unit-09
 ];

@@ -1,0 +1,529 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-9",
+    "courseId": "world",
+    "number": 9,
+    "title": "Globalization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how technology, disease, and environmental change reshaped the world, how the global economy and culture developed, and how people and institutions responded to globalization.",
+    "quizzes": [
+      {
+        "id": "world-9-practice-test",
+        "courseId": "world",
+        "unitId": "world-9",
+        "title": "Unit 9 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-9-1",
+            "questionIds": [
+              "world-9-1-t01",
+              "world-9-1-t02",
+              "world-9-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-1",
+            "questionIds": [
+              "world-9-1-t04",
+              "world-9-1-t05",
+              "world-9-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-2",
+            "questionIds": [
+              "world-9-2-t01",
+              "world-9-2-t02",
+              "world-9-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-2",
+            "questionIds": [
+              "world-9-2-t04",
+              "world-9-2-t05",
+              "world-9-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-3",
+            "questionIds": [
+              "world-9-3-t01",
+              "world-9-3-t02",
+              "world-9-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-3",
+            "questionIds": [
+              "world-9-3-t04",
+              "world-9-3-t05",
+              "world-9-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t01",
+              "world-9-4-t02",
+              "world-9-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t04",
+              "world-9-4-t05",
+              "world-9-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t07",
+              "world-9-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-9-5",
+            "questionIds": [
+              "world-9-5-t01",
+              "world-9-5-t02",
+              "world-9-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-5",
+            "questionIds": [
+              "world-9-5-t04",
+              "world-9-5-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-6",
+            "questionIds": [
+              "world-9-6-t01",
+              "world-9-6-t02",
+              "world-9-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-6",
+            "questionIds": [
+              "world-9-6-t04",
+              "world-9-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-7",
+            "questionIds": [
+              "world-9-7-t01",
+              "world-9-7-t02",
+              "world-9-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-7",
+            "questionIds": [
+              "world-9-7-t04",
+              "world-9-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-8",
+            "questionIds": [
+              "world-9-8-t01",
+              "world-9-8-t02",
+              "world-9-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-8",
+            "questionIds": [
+              "world-9-8-t04",
+              "world-9-8-t05",
+              "world-9-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-9",
+            "questionIds": [
+              "world-9-9-t01",
+              "world-9-9-t02",
+              "world-9-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-9-practice-test",
+      "title": "Unit 9 Practice Test",
+      "questionCount": 50
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-9-1-quiz",
+        "title": "Technology and Exchange topic quiz"
+      },
+      {
+        "id": "world-9-2-quiz",
+        "title": "Disease After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-3-quiz",
+        "title": "Debates About the Environment topic quiz"
+      },
+      {
+        "id": "world-9-4-quiz",
+        "title": "Economics in the Global Age topic quiz"
+      },
+      {
+        "id": "world-9-5-quiz",
+        "title": "Calls for Reform and Responses After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-6-quiz",
+        "title": "Globalized Culture After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-7-quiz",
+        "title": "Resistance to Globalization topic quiz"
+      },
+      {
+        "id": "world-9-8-quiz",
+        "title": "Global Institutions topic quiz"
+      },
+      {
+        "id": "world-9-9-quiz",
+        "title": "Continuity and Change in a Globalized World topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-9-1",
+      "courseId": "world",
+      "unitId": "world-9",
+      "order": 1,
+      "code": "9.1",
+      "title": "Advances in Technology and Exchange After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How new communication, transportation, agriculture, and medicine shrank distances and lengthened lives."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-9-saq-01",
+        "title": "Unit 9 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-9-9",
+    "courseId": "world",
+    "unitId": "world-9",
+    "order": 9,
+    "code": "9.9",
+    "title": "Continuity and Change in a Globalized World",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "What changed, and what stayed the same, as the world became more connected."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "71b57cc3a95ff6af",
+  "questions": [
+    {
+      "id": "world-9-9-q01",
+      "topicId": "world-9-9",
+      "concept": "continuity-change",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which of the following best describes a change in global exchange after 1900?",
+      "choices": [
+        "Long-distance trade began for the first time",
+        "Exchange became much faster and larger in scale",
+        "Trade between continents ended",
+        "Migration stopped"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Technology greatly increased the speed and scale of exchange.",
+      "sourceIds": [
+        "ced-topic-9-9"
+      ],
+      "choiceExplanations": [
+        "Long-distance trade is centuries old.",
+        "Technology greatly increased the speed and scale of exchange.",
+        "Trade between continents grew rather than ended.",
+        "Migration increased."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Long-distance trade existed for centuries; its speed and scale changed.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-9-9-q02",
+      "topicId": "world-9-9",
+      "concept": "continuity-change",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which of the following is a continuity in the global economy after 1900?",
+      "choices": [
+        "Many former colonies still export raw materials",
+        "Shipping containers were introduced",
+        "The internet connected the world",
+        "The WTO was founded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Patterns from the colonial economy persisted.",
+      "sourceIds": [
+        "ced-topic-9-9"
+      ],
+      "choiceExplanations": [
+        "Patterns from the colonial economy persisted.",
+        "Containers were a new technology after 1956.",
+        "The internet was a new development of the late twentieth century.",
+        "The WTO was a new institution founded in 1995."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The WTO's founding in 1995 was a new development.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-9-9-t01",
+      "topicId": "world-9-9",
+      "concept": "continuity-change",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The author's main argument is that after 1900, global exchange",
+      "choices": [
+        "grew faster while old patterns persisted",
+        "began for the first time in human history",
+        "ended inequality between rich and poor countries",
+        "stopped crossing borders as states closed them"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage describes both change and continuity.",
+      "sourceIds": [
+        "ced-topic-9-9"
+      ],
+      "choiceExplanations": [
+        "The passage describes both change and continuity.",
+        "It compares modern exchange to the Silk Roads.",
+        "Inequality persisted.",
+        "Exchange grew."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage says exchange is as old as the Silk Roads.",
+      "stimulusId": "original-globalization-continuity",
+      "stimulusBlocks": [
+        {
+          "id": "original-globalization-continuity",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.9 key concept: continuity and change in a globalized world",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing continuity and change in global connections after 1900",
+          "text": "Long-distance trade, migration, and the exchange of ideas are as old as the Silk Roads. What changed after 1900 was their speed and scale. Goods, money, and information that once took months to cross the world now move in days or seconds, and more people than ever migrate for work.\n\nOld patterns also persisted. Many former colonies still export raw materials, wealth remains unequally divided between and within countries, and states continue to defend their borders and interests even as they join global institutions."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-9-9-t02",
+      "topicId": "world-9-9",
+      "concept": "continuity-change",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which of the following does the passage present as a continuity?",
+      "choices": [
+        "Unequal division of wealth",
+        "Information moving in seconds",
+        "Faster movement of goods",
+        "More people migrating for work"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wealth remains unequally divided.",
+      "sourceIds": [
+        "ced-topic-9-9"
+      ],
+      "choiceExplanations": [
+        "Wealth remains unequally divided.",
+        "That is a change.",
+        "That is a change.",
+        "That is a change in scale."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Migration is old, but the passage stresses its larger scale today.",
+      "stimulusId": "original-globalization-continuity",
+      "stimulusBlocks": [
+        {
+          "id": "original-globalization-continuity",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.9 key concept: continuity and change in a globalized world",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing continuity and change in global connections after 1900",
+          "text": "Long-distance trade, migration, and the exchange of ideas are as old as the Silk Roads. What changed after 1900 was their speed and scale. Goods, money, and information that once took months to cross the world now move in days or seconds, and more people than ever migrate for work.\n\nOld patterns also persisted. Many former colonies still export raw materials, wealth remains unequally divided between and within countries, and states continue to defend their borders and interests even as they join global institutions."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-9-9-t03",
+      "topicId": "world-9-9",
+      "concept": "continuity-change",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The passage would best support which claim about globalization?",
+      "choices": [
+        "It changed exchange's speed more than its patterns",
+        "It ended the power of states over their economies",
+        "It had no connection to earlier trade networks",
+        "It equalized wealth among the world's countries"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Speed and scale changed; inequality and state power continued.",
+      "sourceIds": [
+        "ced-topic-9-9"
+      ],
+      "choiceExplanations": [
+        "Speed and scale changed; inequality and state power continued.",
+        "States still defend their interests.",
+        "The passage links it to the Silk Roads.",
+        "Wealth remains unequal."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "States joined institutions but continued to defend their own interests.",
+      "stimulusId": "original-globalization-continuity",
+      "stimulusBlocks": [
+        {
+          "id": "original-globalization-continuity",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.9 key concept: continuity and change in a globalized world",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing continuity and change in global connections after 1900",
+          "text": "Long-distance trade, migration, and the exchange of ideas are as old as the Silk Roads. What changed after 1900 was their speed and scale. Goods, money, and information that once took months to cross the world now move in days or seconds, and more people than ever migrate for work.\n\nOld patterns also persisted. Many former colonies still export raw materials, wealth remains unequally divided between and within countries, and states continue to defend their borders and interests even as they join global institutions."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-9-9-quick",
+      "courseId": "world",
+      "unitId": "world-9",
+      "topicId": "world-9-9",
+      "title": "Topic 9.9 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-9-9-q01",
+        "world-9-9-q02"
+      ]
+    },
+    {
+      "id": "world-9-9-quiz",
+      "courseId": "world",
+      "unitId": "world-9",
+      "topicId": "world-9-9",
+      "title": "Continuity and Change in a Globalized World topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-9-9-q01",
+        "world-9-9-q02"
+      ]
+    }
+  ],
+  "concepts": {
+    "continuity-change": {
+      "id": "continuity-change",
+      "title": "Faster, larger, and still unequal",
+      "section": "continuity-change",
+      "topicId": "world-9-9"
+    }
+  },
+  "assets": {}
+}
