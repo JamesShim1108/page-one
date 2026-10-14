@@ -11,6 +11,7 @@ import {
   validateMetadata,
   validateLesson,
   validateSelections,
+  validatePracticeTest,
   validateWriting,
   validateBlocks,
   validateDefinitionCoverage,
@@ -512,9 +513,23 @@ export async function compileContent(root = projectRoot) {
           count: set.cards.length,
         };
       });
+      const practiceTest =
+        unit.status === "ready"
+          ? (unit.quizzes || []).find((quiz) => quiz.practiceTest === true)
+          : null;
       const unitInfo = {
         ...unit,
         quizzes: unit.status === "ready" ? unit.quizzes || [] : [],
+        practiceTest: practiceTest
+          ? {
+              id: practiceTest.id,
+              title: practiceTest.title,
+              questionCount: practiceTest.selections.reduce(
+                (sum, selection) => sum + selection.questionIds.length,
+                0,
+              ),
+            }
+          : null,
         termSets: unitTermSets,
         topicQuizzes: availableTopics.flatMap(({ bank }) =>
           bank.quizzes
@@ -668,6 +683,28 @@ export async function compileContent(root = projectRoot) {
           unitRoot,
           "unit quiz needs unique questions",
         );
+        if (quiz.practiceTest === true) {
+          const lookup = new Map(
+            quiz.selections.flatMap((selection) =>
+              topics
+                .get(selection.topicId)
+                .bank.questions.map((question) => [question.id, question]),
+            ),
+          );
+          validatePracticeTest(
+            quiz,
+            ids.map((id) => lookup.get(id)),
+            `${unitRoot} ${quiz.id}`,
+          );
+          requireValue(
+            writing.some(
+              (item) =>
+                (item.exerciseType || "saq") === "saq" && item.stimulusBlocks?.length,
+            ),
+            unitRoot,
+            "a unit with a practice test needs at least one SAQ with a stimulus",
+          );
+        }
         route("quiz", quiz.id, `${course.id}/quizzes/${quiz.id}.json`);
         emit(routes.quiz[quiz.id], {
           course,

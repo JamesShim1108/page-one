@@ -1,5 +1,15 @@
 // Content contracts run before generated browser data is written.
+import { excerptSourceFor } from "./excerpt-sources.mjs";
+
 const SOURCE_BLOCK_TYPES = new Set(["primary", "secondary", "original"]);
+const AMSCO_REVIEW_STATES = new Set(["pending", "complete"]);
+
+// AP-format unit Practice Tests: every question belongs to a text stimulus set.
+export const PRACTICE_TEST = Object.freeze({
+  maxQuestions: 55,
+  minPerStimulus: 2,
+  maxPerStimulus: 4,
+});
 
 // Multiple-choice answer-length limits. When the correct choice is reliably the
 // longest, students can score by test-taking habit instead of history, so these
@@ -197,6 +207,22 @@ export function validateBlocks(blocks, assets, location, stableIds = new Set()) 
         requireText(block.text, at);
         if (block.sourceType !== "original") requireText(block.citation, at);
         if (block.note !== undefined) requireText(block.note, at);
+        // Provenance: a source record ID for quotations, or the CED key concept
+        // a Page One practice passage is based on.
+        requireText(block.source, `${at} source`);
+        requireValue(
+          AMSCO_REVIEW_STATES.has(block.amsco_review),
+          at,
+          "source block amsco_review must be pending or complete",
+        );
+        if (block.sourceType === "primary") {
+          requireId(block.id, at);
+          requireValue(
+            Boolean(excerptSourceFor(block.id)),
+            at,
+            `primary excerpt ${block.id} has no registered edition in scripts/lib/excerpt-sources.mjs`,
+          );
+        }
         break;
       default:
         throw new Error(`${at}: unsupported block type ${block.type}`);
@@ -806,4 +832,83 @@ function validateTypedWriting(quiz, topics, framework, unit, location, sourceMap
       requireText(review.label, location);
     }
   }
+}
+
+function normalizedStem(text) {
+  return String(text).replace(/\s+/g, " ").trim().toLowerCase();
+}
+
+// A unit Practice Test mirrors the AP multiple-choice section: sets of two to
+// four questions that each depend on one text stimulus, with no stand-alone items.
+export function validatePracticeTest(quiz, questions, location) {
+  requireValue(quiz.practiceTest === true, location, "not a practice test");
+  requireValue(
+    questions.length > 0 && questions.length <= PRACTICE_TEST.maxQuestions,
+    location,
+    `a practice test needs 1 to ${PRACTICE_TEST.maxQuestions} questions`,
+  );
+  const sets = new Map();
+  const stems = new Set();
+  let previous = null;
+  for (const question of questions) {
+    const at = `${location}: ${question.id}`;
+    requireId(question.stimulusId, `${at} stimulusId`);
+    const blocks = question.stimulusBlocks || [];
+    requireValue(
+      blocks.length > 0 && blocks.every((block) => block.type === "source"),
+      at,
+      "practice test questions need text source stimulusBlocks",
+    );
+    requireValue(
+      blocks.some((block) => block.id === question.stimulusId),
+      at,
+      `stimulusId ${question.stimulusId} does not match a stimulus block`,
+    );
+    const signature = blocks.map((block) => block.id).join("+");
+    const set = sets.get(question.stimulusId);
+    if (set) {
+      requireValue(
+        set.signature === signature,
+        at,
+        `questions on ${question.stimulusId} must share the same stimulus blocks`,
+      );
+      requireValue(
+        previous === question.stimulusId,
+        at,
+        `questions on ${question.stimulusId} must appear together`,
+      );
+      set.count += 1;
+    } else sets.set(question.stimulusId, { signature, blocks, count: 1 });
+    previous = question.stimulusId;
+    const stem = normalizedStem(question.prompt);
+    requireValue(!stems.has(stem), at, "question stem repeats within this test");
+    stems.add(stem);
+    requireValue(
+      Array.isArray(question.choiceExplanations) &&
+        question.choiceExplanations.length === question.choices.length,
+      at,
+      "practice test questions explain every choice",
+    );
+    requireValue(
+      Number.isInteger(question.nearMissIndex),
+      at,
+      "practice test questions record their near-miss distractor",
+    );
+  }
+  for (const [id, set] of sets)
+    requireValue(
+      set.count >= PRACTICE_TEST.minPerStimulus &&
+        set.count <= PRACTICE_TEST.maxPerStimulus,
+      location,
+      `stimulus ${id} is used by ${set.count} questions; use ${PRACTICE_TEST.minPerStimulus} to ${PRACTICE_TEST.maxPerStimulus}`,
+    );
+  requireValue(
+    [...sets.values()].some((set) =>
+      set.blocks.some((block) => ["primary", "original"].includes(block.sourceType)),
+    ),
+    location,
+    "a practice test needs at least one primary or original stimulus",
+  );
+  validateQuestionQuality(questions, location);
+  return { questionCount: questions.length, setCount: sets.size };
 }

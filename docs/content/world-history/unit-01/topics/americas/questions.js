@@ -1,5 +1,6 @@
 // Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
 // Each question names an AP skill from ../../../skills.js. Stimulus excerpts come from ../../../excerpts.js.
+import { excerpts } from "../../../excerpts.js";
 
 export const bank = {
   questions: [
@@ -359,6 +360,253 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher: "A city's decline is not the end of a people.",
     },
+    // BEGIN unit-01 practice test
+    // Unit 1 Practice Test items (t-numbered): AP-style sets that each depend on one stimulus.
+    {
+      id: "world-1-4-t01",
+      topicId: "world-1-4",
+      concept: "americas-mexica",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "Based on the passage, which of the following best describes how the Mexica governed conquered peoples?",
+      choices: [
+        "They resettled conquered peoples to work on state farms",
+        "They left local rulers in place and demanded rotating labor service",
+        "They replaced local rulers with officials from Tenochtitlan",
+        "They left local rulers in place and demanded regular tribute",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Local rulers stayed, and conquered towns delivered tribute goods recorded on tribute lists.",
+      sourceIds: ["ced-topic-1-4"],
+      choiceExplanations: [
+        "Large resettlement policies are associated with the Inca, not with the passage's description.",
+        "The Mexica collected goods such as maize, cloth, and cacao rather than labor turns.",
+        "The passage says the Mexica usually left local rulers in place.",
+        "Local rulers stayed, and conquered towns delivered tribute goods recorded on tribute lists.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Rotating labor service describes the Inca mit'a. The Mexica demanded goods.",
+      stimulusId: "original-mexica-tribute",
+      stimulusBlocks: [excerpts.originalMexicaTribute],
+    },
+    {
+      id: "world-1-4-t02",
+      topicId: "world-1-4",
+      concept: "americas-mexica",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "The passage suggests which of the following was an effect of the Mexica tribute system?",
+      choices: [
+        "It created resentment that led subject peoples to overthrow the Mexica before 1519",
+        "It created resentment that later helped Spanish forces find allies",
+        "It ended warfare among the peoples of central Mexico",
+        "It caused the Mexica to abandon Tenochtitlan for a new capital",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The passage says resentment led several subject and rival peoples to fight alongside the Spanish.",
+      sourceIds: ["ced-topic-1-4"],
+      choiceExplanations: [
+        "No overthrow happened before the Spanish arrived; resentment mattered during the Spanish invasion.",
+        "The passage says resentment led several subject and rival peoples to fight alongside the Spanish.",
+        "The system was enforced by the threat of war, so it did not end warfare.",
+        "Tribute flowed into Tenochtitlan, which remained the capital.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Resentment is right, but the Mexica remained in power until the Spanish and their Indigenous allies attacked after 1519.",
+      stimulusId: "original-mexica-tribute",
+      stimulusBlocks: [excerpts.originalMexicaTribute],
+    },
+    {
+      id: "world-1-4-t03",
+      topicId: "world-1-4",
+      concept: "americas-mexica",
+      difficulty: "Challenge",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "The Mexica system described in the passage was most similar to which of the following in Afro-Eurasia?",
+      choices: [
+        "Mongol rulers' appointment of their own governors to replace every conquered local prince",
+        "Song China's use of examination-selected officials in every county",
+        "Mongol rulers' collection of tribute from conquered states that kept their own princes",
+        "European manors, where serfs owed labor directly to resident lords",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "In places such as the Rus principalities, Mongols collected tribute while local princes kept power, as Mexica allies did.",
+      sourceIds: ["ced-topic-1-4"],
+      choiceExplanations: [
+        "Replacing every prince would be direct rule, which the Mexica generally avoided.",
+        "Song officials governed directly, unlike the Mexica.",
+        "In places such as the Rus principalities, Mongols collected tribute while local princes kept power, as Mexica allies did.",
+        "Manorial labor was owed locally to lords, not as imperial tribute.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Mongol rule did use governors in some places, but the comparison that fits the Mexica is indirect rule through local rulers who paid tribute.",
+      stimulusId: "original-mexica-tribute",
+      stimulusBlocks: [excerpts.originalMexicaTribute],
+    },
+    {
+      id: "world-1-4-t04",
+      topicId: "world-1-4",
+      concept: "americas-inca",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "According to the passage, the Inca state obtained most of its resources through",
+      choices: [
+        "labor obligations owed by communities on a rotating basis",
+        "tribute in goods that conquered rulers delivered to Cusco",
+        "taxes paid in grain to officials who kept written ledgers",
+        "taxes paid in silver coins by each household",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Communities owed mit'a, rotating labor that farmed state lands and built infrastructure.",
+      sourceIds: ["ced-topic-1-4"],
+      choiceExplanations: [
+        "Communities owed mit'a, rotating labor that farmed state lands and built infrastructure.",
+        "Tribute deliveries describe the Mexica more than the Inca.",
+        "The Inca had no written ledgers; khipu recorded numbers.",
+        "The passage says the state collected little in goods or money from households.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Tribute in goods was the Mexica pattern. The Inca counted obligations in labor.",
+      stimulusId: "original-inca-administration",
+      stimulusBlocks: [excerpts.originalIncaAdministration],
+    },
+    {
+      id: "world-1-4-t05",
+      topicId: "world-1-4",
+      concept: "americas-inca",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which of the following details from the passage best supports the claim that the Inca developed effective administrative tools?",
+      choices: [
+        "Officials tracked people and goods with khipu",
+        "Communities sent soldiers to serve in the army",
+        "Workers produced cloth for the state",
+        "The state expanded from Cusco in the fifteenth century",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Khipu let officials record people, labor, and stores without writing, a key administrative tool.",
+      sourceIds: ["ced-topic-1-4"],
+      choiceExplanations: [
+        "Khipu let officials record people, labor, and stores without writing, a key administrative tool.",
+        "Military service is an obligation, not a tool of administration.",
+        "Cloth shows the results of labor but not how officials administered it.",
+        "Expansion describes growth, not the tools that managed it.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Cloth production shows what labor produced; the claim is about how officials kept track of it.",
+      stimulusId: "original-inca-administration",
+      stimulusBlocks: [excerpts.originalIncaAdministration],
+    },
+    {
+      id: "world-1-4-t06",
+      topicId: "world-1-4",
+      concept: "americas-inca",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which of the following best explains why the Inca built the road network described in the passage?",
+      choices: [
+        "To connect the Andes with Mexica cities in central Mexico",
+        "To carry messages, since khipu could not be carried by runners",
+        "To carry messages and move troops and supplies across difficult terrain",
+        "To allow merchants to sell goods in markets across the empire",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Relay runners and way stations moved information, soldiers, and supplies through the mountains.",
+      sourceIds: ["ced-topic-1-4"],
+      choiceExplanations: [
+        "There was no road link between the Andes and central Mexico.",
+        "Runners could carry khipu with them; nothing prevented it.",
+        "Relay runners and way stations moved information, soldiers, and supplies through the mountains.",
+        "Inca roads served the state; private merchant trade was limited.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Runners did carry messages, and they could carry khipu; the error is the claim that khipu could not travel.",
+      stimulusId: "original-inca-administration",
+      stimulusBlocks: [excerpts.originalIncaAdministration],
+    },
+    {
+      id: "world-1-4-t07",
+      topicId: "world-1-4",
+      concept: "americas-north",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "The archaeologists described in the passage use elite burials as evidence that Cahokia",
+      choices: [
+        "was abandoned because of warfare with neighboring peoples",
+        "was a ranked society with access to goods from distant regions",
+        "was founded by migrants from the Mexica Empire",
+        "was a ranked society that kept written records of trade",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Burials with valuable goods from far away suggest a ranked society tied to long-distance exchange.",
+      sourceIds: ["ced-topic-1-4"],
+      choiceExplanations: [
+        "The passage does not give warfare as the cause of decline.",
+        "Burials with valuable goods from far away suggest a ranked society tied to long-distance exchange.",
+        "Cahokia was a Mississippian center that predates the Mexica Empire.",
+        "Cahokia had no writing; the evidence is archaeological.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Rank is supported, but no written records are mentioned; the evidence is material objects.",
+      stimulusId: "original-cahokia",
+      stimulusBlocks: [excerpts.originalCahokia],
+    },
+    {
+      id: "world-1-4-t08",
+      topicId: "world-1-4",
+      concept: "americas-north",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which of the following best explains Cahokia's ability to support a large population?",
+      choices: [
+        "Tribute collected from Andean communities",
+        "Maize farming made possible by terraced mountain slopes",
+        "Trade with Spanish settlers along the Mississippi",
+        "Maize farming in a fertile river floodplain",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage links Cahokia's population to maize grown in fertile floodplain soil.",
+      sourceIds: ["ced-topic-1-4"],
+      choiceExplanations: [
+        "Cahokia had no contact with the Andes.",
+        "Terraces were an Andean technique; Cahokia lay in a river valley.",
+        "Cahokia declined long before Spanish arrival.",
+        "The passage links Cahokia's population to maize grown in fertile floodplain soil.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Maize is correct, but terraces belong to the Andes; Cahokia farmed a flat river floodplain.",
+      stimulusId: "original-cahokia",
+      stimulusBlocks: [excerpts.originalCahokia],
+    },
+    // END unit-01 practice test
   ],
   quizzes: [
     {

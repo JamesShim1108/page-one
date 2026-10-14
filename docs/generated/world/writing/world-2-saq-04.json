@@ -213,6 +213,7 @@
         ]
       }
     ],
+    "practiceTest": null,
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -446,6 +447,8 @@
         "id": "battuta-mali",
         "type": "source",
         "sourceType": "primary",
+        "source": "battuta-gibb-1929",
+        "amsco_review": "pending",
         "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
         "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
         "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",

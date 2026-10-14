@@ -195,19 +195,34 @@ export function unitPage(data, peekAttempt = () => null) {
     ["DBQ", writing.filter((item) => item.exerciseType === "dbq")],
     ["Skills", writing.filter((item) => item.exerciseType === "skill")],
   ].filter(([, items]) => items.length);
+  // The AP-format Practice Test has its own card; other unit quizzes stay under
+  // Practice Quiz with the topic quizzes.
+  const test = unit.practiceTest || null,
+    practiceQuizzes = quizzes.filter((quiz) => quiz.practiceTest !== true);
   const practice =
-    quizzes.length === 1 ? `/quiz/${quizzes[0].id}` : `/unit/${unit.id}?section=practice`;
+    practiceQuizzes.length === 1
+      ? `/quiz/${practiceQuizzes[0].id}`
+      : `/unit/${unit.id}?section=practice`;
   const modes = [
     {
+      title: "Practice Test",
+      label: "01 · Exam format",
+      text: test
+        ? `${test.questionCount} multiple-choice questions in AP-style source sets.`
+        : "An AP-style practice test will appear here.",
+      path: test ? `/quiz/${test.id}` : "",
+      available: Boolean(test),
+    },
+    {
       title: "Practice Quiz",
-      label: "01 · Test yourself",
+      label: "02 · Test yourself",
       text: "Check your understanding and find what to review.",
       path: practice,
-      available: Boolean(quizzes.length || unit.topicQuizzes?.length),
+      available: Boolean(practiceQuizzes.length || unit.topicQuizzes?.length),
     },
     {
       title: "Terms",
-      label: "02 · Build recall",
+      label: "03 · Build recall",
       text: unit.termSets.length
         ? `${unit.termSets.length} class sets. Lists and flashcards.`
         : "Class term sets will appear here.",
@@ -217,7 +232,7 @@ export function unitPage(data, peekAttempt = () => null) {
     },
     {
       title: "Writing Practice",
-      label: "03 · Explain it",
+      label: "04 · Explain it",
       text: "Practice a response and review your reasoning.",
       path:
         writing.length === 1
@@ -227,7 +242,7 @@ export function unitPage(data, peekAttempt = () => null) {
     },
     {
       title: "Reading / Learn",
-      label: "04 · Understand",
+      label: "05 · Understand",
       text: "Explore the lessons, one topic at a time.",
       path: `/unit/${unit.id}?section=learn`,
       available: unit.topicCount > 0,
@@ -236,14 +251,14 @@ export function unitPage(data, peekAttempt = () => null) {
       ? [
           {
             title: "Study Guide",
-            label: "05 · Connect ideas",
+            label: "06 · Connect ideas",
             text: "Timelines, comparisons, and reading prompts.",
             path: `/guide/${unit.id}`,
             available: true,
           },
           {
             title: "Maps & Connections",
-            label: "06 · See the networks",
+            label: "07 · See the networks",
             text: "Explore places, routes, seasonal planning, and evidence connections.",
             path: `/guide/${unit.id}?section=networks`,
             available: true,
@@ -279,8 +294,9 @@ export function unitPage(data, peekAttempt = () => null) {
         .join("")}</div>
       ${topics.length ? "" : '<p class="study-empty">Lessons for this unit are being prepared.</p>'}
       <div id="practice" class="unit-tools">
-        ${unit.quizzes.map((quiz) => `<div class="unit-tool"><p class="eyebrow">PRACTICE</p><h3>${esc(quiz.title)}</h3><p>${quiz.selections.reduce((sum, selection) => sum + selection.questionIds.length, 0)} questions selected from the Unit ${unit.number} question banks.</p>${quizEntry(quiz, peekAttempt(quiz.id), "Start unit practice")}</div>`).join("")}
-        ${!quizzes.length ? (unit.topicQuizzes || []).map((quiz) => `<div class="unit-tool"><h3>${esc(quiz.title)}</h3>${quizEntry(quiz, peekAttempt(quiz.id))}</div>`).join("") : ""}
+        ${test ? `<div class="unit-tool"><p class="eyebrow">PRACTICE TEST</p><h3>${esc(test.title)}</h3><p>${test.questionCount} questions. Each set of two to four questions is based on one source, as on the AP exam. Timing is not enforced.</p>${quizEntry(test, peekAttempt(test.id), "Start practice test")}</div>` : ""}
+        ${practiceQuizzes.map((quiz) => `<div class="unit-tool"><p class="eyebrow">PRACTICE</p><h3>${esc(quiz.title)}</h3><p>${quiz.selections.reduce((sum, selection) => sum + selection.questionIds.length, 0)} questions selected from the Unit ${unit.number} question banks.</p>${quizEntry(quiz, peekAttempt(quiz.id), "Start unit practice")}</div>`).join("")}
+        ${!practiceQuizzes.length ? (unit.topicQuizzes || []).map((quiz) => `<div class="unit-tool"><h3>${esc(quiz.title)}</h3>${quizEntry(quiz, peekAttempt(quiz.id))}</div>`).join("") : ""}
       </div>
       <div id="writing" class="unit-tools writing-groups">${writingGroups.map(([group, items]) => `<section class="writing-group"><p class="eyebrow">${group}</p>${items.map((quiz) => `<div class="unit-tool writing-tool"><h3>${esc(quiz.title)}</h3><p>${quiz.exerciseType === "dbq" && quiz.availability === "blocked" ? "Blocked pending source verification." : `${quiz.partCount} response field${quiz.partCount === 1 ? "" : "s"}. Untimed practice with self-assessment.`}</p>${quiz.availability === "blocked" ? `<span class="muted">Unavailable until verified documents are added.</span>` : link(`/writing/${quiz.id}`, "Open writing practice", "btn")}</div>`).join("")}</section>`).join("")}</div>
     </div><aside class="side-note"><p class="eyebrow">Make the connection</p><h3>Explain it in your own words.</h3><p>Compare ideas across topics and support your explanation with specific evidence.</p></aside></div>

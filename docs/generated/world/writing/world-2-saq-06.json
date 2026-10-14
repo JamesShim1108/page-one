@@ -213,6 +213,7 @@
         ]
       }
     ],
+    "practiceTest": null,
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -446,6 +447,8 @@
         "id": "boccaccio-society",
         "type": "source",
         "sourceType": "primary",
+        "source": "boccaccio-payne-1886",
+        "amsco_review": "pending",
         "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, completed c. 1353, describing Florence and its countryside during the plague of 1348",
         "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
         "note": "Husbandmen are farmers. Payne's 1886 English imitates older usage.",

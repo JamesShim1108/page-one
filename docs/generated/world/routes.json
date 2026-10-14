@@ -42,6 +42,7 @@
     "world-1-7-quiz": "world/banks/world-1-7.json",
     "world-1-7-quick": "world/banks/world-1-7.json",
     "world-1-practice": "world/quizzes/world-1-practice.json",
+    "world-1-practice-test": "world/quizzes/world-1-practice-test.json",
     "world-2-1-quick": "world/banks/world-2-1.json",
     "world-2-1-quiz": "world/banks/world-2-1.json",
     "world-2-2-quick": "world/banks/world-2-2.json",
@@ -66,6 +67,7 @@
   },
   "writing": {
     "world-1-saq": "world/writing/world-1-saq.json",
+    "world-1-saq-02": "world/writing/world-1-saq-02.json",
     "world-2-saq-01": "world/writing/world-2-saq-01.json",
     "world-2-saq-02": "world/writing/world-2-saq-02.json",
     "world-2-saq-03": "world/writing/world-2-saq-03.json",

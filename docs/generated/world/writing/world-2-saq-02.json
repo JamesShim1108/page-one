@@ -213,6 +213,7 @@
         ]
       }
     ],
+    "practiceTest": null,
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -446,6 +447,8 @@
         "id": "original-mongol-interpretation",
         "type": "source",
         "sourceType": "original",
+        "source": "CED Topic 2.2, KC-3.2.II.A.ii: interregional contacts and conflicts, including those of the Mongols, encouraged significant technological and cultural transfers",
+        "amsco_review": "pending",
         "attribution": "Practice passage written for Page One, summarizing how historians' interpretations of the Mongol Empire have changed",
         "text": "Historians once described the Mongols chiefly as destroyers, emphasizing the massacres at cities that resisted, such as Baghdad in 1258. More recent scholarship has stressed what the Mongols built: relay stations for official travel, protection for merchants, and the movement of artisans, physicians, and astronomers between courts from China to Persia. In this view, Mongol rule left Eurasia more connected than ever before.\n\nThese two pictures are not opposites. The same empire that destroyed cities also moved their surviving craftsmen to new capitals, and the security merchants enjoyed was built on overwhelming violence. A convincing account of the Mongols has to hold both together."
       }

@@ -213,6 +213,7 @@
         ]
       }
     ],
+    "practiceTest": null,
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -629,6 +630,8 @@
           "id": "battuta-hinawr",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the port of Honavar on India's southwestern coast, c. 1342",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 8. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 252.",
           "note": "Bracketed place names are Gibb's. “Haryab” is usually identified as Harihara, ruler of the Vijayanagara kingdom.",
@@ -688,6 +691,8 @@
           "id": "battuta-hinawr",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the port of Honavar on India's southwestern coast, c. 1342",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 8. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 252.",
           "note": "Bracketed place names are Gibb's. “Haryab” is usually identified as Harihara, ruler of the Vijayanagara kingdom.",
@@ -747,6 +752,8 @@
           "id": "battuta-hinawr",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the port of Honavar on India's southwestern coast, c. 1342",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 8. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 252.",
           "note": "Bracketed place names are Gibb's. “Haryab” is usually identified as Harihara, ruler of the Vijayanagara kingdom.",
@@ -879,6 +886,8 @@
           "id": "battuta-zaytun",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his arrival at Quanzhou, China, c. 1345",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 12. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 310.",
           "note": "Zaytun is Quanzhou. A qadi is a Muslim judge. Tabriz is a city in northwestern Iran.",
@@ -931,6 +940,8 @@
           "id": "battuta-zaytun",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his arrival at Quanzhou, China, c. 1345",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 12. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 310.",
           "note": "Zaytun is Quanzhou. A qadi is a Muslim judge. Tabriz is a city in northwestern Iran.",
@@ -983,6 +994,8 @@
           "id": "battuta-zaytun",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his arrival at Quanzhou, China, c. 1345",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 12. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 310.",
           "note": "Zaytun is Quanzhou. A qadi is a Muslim judge. Tabriz is a city in northwestern Iran.",
@@ -1178,6 +1191,8 @@
           "id": "original-cultural-diffusion",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.5, KC-3.1.III.D: networks of exchange spread religious, scientific, and cultural traditions, which receiving societies adapted",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing how historians describe cultural exchange in Afro-Eurasia, c. 1200–1450",
           "text": "Historians increasingly describe cultural exchange in this period as translation rather than transfer. When Persian astronomers worked at the Yuan court, when Arabic medical texts circulated in Latin translation, or when Swahili towns built coral-stone mosques, the receiving society did not simply copy what arrived. People selected what was useful, reinterpreted it through existing beliefs and institutions, and often produced something new.\n\nThis view shifts attention from the ideas themselves to the people who carried them: merchants, scholars, pilgrims, and officials whose movement depended on trade routes and the policies of rulers."
         }
@@ -1223,6 +1238,8 @@
           "id": "original-cultural-diffusion",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.5, KC-3.1.III.D: networks of exchange spread religious, scientific, and cultural traditions, which receiving societies adapted",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing how historians describe cultural exchange in Afro-Eurasia, c. 1200–1450",
           "text": "Historians increasingly describe cultural exchange in this period as translation rather than transfer. When Persian astronomers worked at the Yuan court, when Arabic medical texts circulated in Latin translation, or when Swahili towns built coral-stone mosques, the receiving society did not simply copy what arrived. People selected what was useful, reinterpreted it through existing beliefs and institutions, and often produced something new.\n\nThis view shifts attention from the ideas themselves to the people who carried them: merchants, scholars, pilgrims, and officials whose movement depended on trade routes and the policies of rulers."
         }

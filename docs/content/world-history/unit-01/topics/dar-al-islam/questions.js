@@ -1,5 +1,6 @@
 // Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
 // Each question names an AP skill from ../../../skills.js.
+import { excerpts } from "../../../excerpts.js";
 
 export const bank = {
   questions: [
@@ -239,6 +240,251 @@ export const bank = {
         "Translation widened access to knowledge. Readers could interpret or build on ideas, so intellectual transfer could also support further innovation.",
       topicId: "world-1-2",
     },
+    // BEGIN unit-01 practice test
+    // Unit 1 Practice Test items (t-numbered): AP-style sets that each depend on one stimulus.
+    {
+      id: "world-1-2-t01",
+      topicId: "world-1-2",
+      concept: "islam-states",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "The capture of Baudas described in the passage is best understood in the context of",
+      choices: [
+        "the rise of the Ottoman Empire in Anatolia and the Balkans",
+        "the expansion of the Mongol Empire into western Europe",
+        "the Crusades, in which European armies sought to control Jerusalem",
+        "the expansion of the Mongol Empire across Eurasia",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Hulagu, brother of Kublai Khan, led the Mongol campaign that took Baghdad in 1258.",
+      sourceIds: ["ced-topic-1-2", "polo-yule-1903"],
+      choiceExplanations: [
+        "The Ottomans rose later and did not take Baghdad until the 1500s.",
+        "The capture of Baghdad was part of Mongol expansion into Southwest Asia, not western Europe.",
+        "Crusader armies fought for the Levant, but Alaue (Hulagu) was a Mongol prince, not a crusader.",
+        "Hulagu, brother of Kublai Khan, led the Mongol campaign that took Baghdad in 1258.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The Mongols did expand west, but their main campaigns into Europe did not take or hold western Europe; Hulagu's army moved into Southwest Asia.",
+      stimulusId: "polo-baudas",
+      stimulusBlocks: [excerpts.poloBaudas],
+    },
+    {
+      id: "world-1-2-t02",
+      topicId: "world-1-2",
+      concept: "islam-states",
+      difficulty: "Challenge",
+      skill: "claims-evidence",
+      prompt:
+        "Which of the following pieces of evidence would most directly challenge Polo's final claim in the passage?",
+      choices: [
+        "Mamluk sultans in Cairo defeated a Mongol army at Ayn Jalut in 1260 and halted its advance",
+        "Mamluk sultans in Cairo installed members of the Abbasid family as caliphs after 1261",
+        "Muslim scholars continued to work at observatories under Mongol rule",
+        "Baghdad remained a center of silk weaving after the Mongol conquest",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Polo claims there was never another caliph; the Mamluks' Abbasid caliphs in Cairo show that the office continued, though with little power.",
+      sourceIds: ["ced-topic-1-2", "polo-yule-1903"],
+      choiceExplanations: [
+        "Ayn Jalut checked Mongol expansion but says nothing about whether a caliph existed.",
+        "Polo claims there was never another caliph; the Mamluks' Abbasid caliphs in Cairo show that the office continued, though with little power.",
+        "Continued scholarship is true but does not address whether there were caliphs.",
+        "Silk weaving concerns Baghdad's economy, not the existence of the caliphate.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Ayn Jalut is a real Mamluk victory, but Polo's claim is about caliphs, not about Mongol defeats.",
+      stimulusId: "polo-baudas",
+      stimulusBlocks: [excerpts.poloBaudas],
+    },
+    {
+      id: "world-1-2-t03",
+      topicId: "world-1-2",
+      concept: "islam-states",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The passage best illustrates which of the following developments in Dar al-Islam?",
+      choices: [
+        "The weakening of Abbasid power by Seljuk Turks after 1200",
+        "The unification of Muslim lands under a single strong caliph",
+        "The final end of Abbasid political power in Baghdad",
+        "The conversion of the Mongol rulers of Persia to Christianity",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Hulagu's capture of Baghdad and the caliph's death ended Abbasid rule there.",
+      sourceIds: ["ced-topic-1-2", "polo-yule-1903"],
+      choiceExplanations: [
+        "Seljuk dominance began in the eleventh century, and the passage describes a Mongol conquest.",
+        "The passage describes the caliph's defeat and death, not unification.",
+        "Hulagu's capture of Baghdad and the caliph's death ended Abbasid rule there.",
+        "The Ilkhans of Persia eventually converted to Islam, not Christianity.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Seljuk sultans did reduce the caliph's power, but before 1200; the passage shows the Mongol blow of 1258.",
+      stimulusId: "polo-baudas",
+      stimulusBlocks: [excerpts.poloBaudas],
+    },
+    {
+      id: "world-1-2-t04",
+      topicId: "world-1-2",
+      concept: "islam-states",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "Based on the passage, which of the following best describes how new Islamic states emerged in this period?",
+      choices: [
+        "Military elites, many of Turkic origin, took power as caliphal authority weakened",
+        "European crusaders created Muslim client states in Egypt and India",
+        "Military elites, many of Turkic origin, ruled as caliphs in place of the Abbasids",
+        "Arab tribal leaders rebuilt the caliphate's authority in Baghdad",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Seljuks, Mamluks, and the Delhi sultans were military elites who rose as the caliph lost power.",
+      sourceIds: ["ced-topic-1-2"],
+      choiceExplanations: [
+        "Seljuks, Mamluks, and the Delhi sultans were military elites who rose as the caliph lost power.",
+        "Crusaders did not create the Mamluk or Delhi states.",
+        "These rulers used the title sultan; the passage says the caliph remained a religious figurehead.",
+        "The passage describes Turkic and Mamluk military rulers, not a revival led by Arab tribes.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The Seljuks ruled as sultans and kept the caliph as a figurehead; they did not take the title of caliph.",
+      stimulusId: "original-turkic-states",
+      stimulusBlocks: [excerpts.originalTurkicStates],
+    },
+    {
+      id: "world-1-2-t05",
+      topicId: "world-1-2",
+      concept: "islam-states",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "The rulers described in the passage were most similar to which of the following in how they gained legitimacy?",
+      choices: [
+        "Ethiopian kings, who supported religious institutions such as monasteries",
+        "Inca rulers, who recorded labor obligations on knotted cords",
+        "Song emperors, who claimed authority through the Mandate of Heaven and Confucian learning",
+        "Mexica rulers, who used tribute lists to record conquered towns",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Like sultans who built mosques and supported scholars, Ethiopian kings sponsored monasteries to tie their rule to faith.",
+      sourceIds: ["ced-topic-1-2"],
+      choiceExplanations: [
+        "Like sultans who built mosques and supported scholars, Ethiopian kings sponsored monasteries to tie their rule to faith.",
+        "Khipu recorded obligations; they were a record-keeping tool, not a claim to legitimacy.",
+        "Song legitimacy used Confucian ideas, which is related, but the passage stresses patronage of religious institutions.",
+        "Tribute lists were an administrative tool, not a source of religious legitimacy.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Song rulers also used ideas to justify rule, but Confucianism is a philosophy of government, not support for a religious institution like mosques or monasteries.",
+      stimulusId: "original-turkic-states",
+      stimulusBlocks: [excerpts.originalTurkicStates],
+    },
+    {
+      id: "world-1-2-t06",
+      topicId: "world-1-2",
+      concept: "islam-learning",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which of the following best describes the author's view of scholars in Dar al-Islam?",
+      choices: [
+        "They preserved older works but rejected ideas from India",
+        "They mainly copied Greek texts without adding new ideas",
+        "They preserved older works and also produced new knowledge",
+        "They stopped working after the Mongol conquests of the 1250s",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Translation preserved older knowledge, and figures such as al-Tusi added new models and findings.",
+      sourceIds: ["ced-topic-1-2"],
+      choiceExplanations: [
+        "The passage lists Indian works among those translated into Arabic.",
+        "The passage says scholars “did more than preserve,” giving al-Tusi and medical writers as examples.",
+        "Translation preserved older knowledge, and figures such as al-Tusi added new models and findings.",
+        "Al-Tusi worked at Maragha under Mongol rulers, so scholarship continued.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Preservation is part of the story, but the passage names Indian works among those translated.",
+      stimulusId: "original-islamic-scholarship",
+      stimulusBlocks: [excerpts.originalIslamicScholarship],
+    },
+    {
+      id: "world-1-2-t07",
+      topicId: "world-1-2",
+      concept: "islam-exchange",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which of the following was a direct effect of the developments in Iberia described in the second paragraph?",
+      choices: [
+        "European universities gained access to Chinese printing techniques",
+        "European universities gained access to Greek and Arabic learning",
+        "Arabic replaced Latin as the language of European universities",
+        "Muslim rulers expanded their control over all of Iberia",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Latin translations from Toledo brought Aristotle and Arabic science into European universities.",
+      sourceIds: ["ced-topic-1-2"],
+      choiceExplanations: [
+        "The translations described concerned philosophy, medicine, and mathematics, not printing.",
+        "Latin translations from Toledo brought Aristotle and Arabic science into European universities.",
+        "Latin remained the language of European universities; translation moved texts into Latin.",
+        "The passage describes Christian kingdoms capturing cities such as Toledo, the opposite of Muslim expansion.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Translation moved books between languages, but the passage concerns philosophy, medicine, and mathematics, not printing.",
+      stimulusId: "original-islamic-scholarship",
+      stimulusBlocks: [excerpts.originalIslamicScholarship],
+    },
+    {
+      id: "world-1-2-t08",
+      topicId: "world-1-2",
+      concept: "islam-learning",
+      difficulty: "Apply",
+      skill: "argumentation",
+      prompt:
+        "Which of the following would most directly support the author's argument in the first paragraph?",
+      choices: [
+        "Evidence that Islamic astronomers copied Greek star tables exactly",
+        "Evidence that the House of Wisdom was destroyed in 1258",
+        "Evidence that Arabic texts were later printed in Europe",
+        "Evidence that Islamic astronomers corrected earlier Greek models",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Corrections to Greek models show scholars going beyond what they inherited, the author's central claim.",
+      sourceIds: ["ced-topic-1-2"],
+      choiceExplanations: [
+        "Copying would support preservation, not the claim that scholars did more than preserve.",
+        "Destruction in 1258 says nothing about whether scholars added new knowledge.",
+        "Later printing concerns the spread of texts, not original contributions.",
+        "Corrections to Greek models show scholars going beyond what they inherited, the author's central claim.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Exact copying would show preservation only; the argument is that scholars added something new.",
+      stimulusId: "original-islamic-scholarship",
+      stimulusBlocks: [excerpts.originalIslamicScholarship],
+    },
+    // END unit-01 practice test
   ],
   quizzes: [
     {

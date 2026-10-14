@@ -370,6 +370,251 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher: "Vernacular means local, everyday language.",
     },
+    // BEGIN unit-01 practice test
+    // Unit 1 Practice Test items (t-numbered): AP-style sets that each depend on one stimulus.
+    {
+      id: "world-1-6-t01",
+      topicId: "world-1-6",
+      concept: "europe-agriculture",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "According to Boccaccio, the authority of the laws collapsed in Florence because",
+      choices: [
+        "the Church had excommunicated the city's rulers",
+        "the officials who enforced the laws had abandoned the city for the countryside",
+        "the city's merchants had overthrown the government",
+        "the officials who enforced the laws were dead, sick, or without assistants",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "He writes that the ministers of the law were dead, sick, or left without followers, so no one could enforce it.",
+      sourceIds: ["ced-topic-1-6", "boccaccio-payne-1886"],
+      choiceExplanations: [
+        "No excommunication appears in the passage.",
+        "Flight is described for ordinary people, not given as the reason officials failed.",
+        "Boccaccio describes no political revolt.",
+        "He writes that the ministers of the law were dead, sick, or left without followers, so no one could enforce it.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Boccaccio says many people fled, but he blames the collapse of law on officials being dead, sick, or without followers.",
+      stimulusId: "boccaccio-laws",
+      stimulusBlocks: [excerpts.boccaccioLaws],
+    },
+    {
+      id: "world-1-6-t02",
+      topicId: "world-1-6",
+      concept: "europe-agriculture",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which of the following was a long-term effect of the crisis Boccaccio describes in parts of western Europe?",
+      choices: [
+        "Labor shortages that led lords to free all serfs voluntarily",
+        "Labor shortages that strengthened the bargaining power of surviving workers",
+        "The immediate end of serfdom in every European kingdom",
+        "The rapid growth of European population in the following decades",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "So many deaths left fewer workers, who in some regions could demand higher wages and better terms.",
+      sourceIds: ["ced-topic-1-6", "boccaccio-payne-1886"],
+      choiceExplanations: [
+        "Lords often resisted change, and laws tried to limit wages and mobility.",
+        "So many deaths left fewer workers, who in some regions could demand higher wages and better terms.",
+        "Serfdom declined unevenly and lasted for centuries in eastern Europe.",
+        "The plague sharply reduced population; recovery took generations.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Labor shortages were real, but lords and governments often tried to hold down wages and keep peasants bound.",
+      stimulusId: "boccaccio-laws",
+      stimulusBlocks: [excerpts.boccaccioLaws],
+    },
+    {
+      id: "world-1-6-t03",
+      topicId: "world-1-6",
+      concept: "europe-faith",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "Boccaccio's reference to laws both “human and divine” most directly reflects",
+      choices: [
+        "the role of the Church as the only real government in western Europe at the time",
+        "the spread of Islamic law in Italian city-states",
+        "the role of the Church as a source of authority alongside secular governments",
+        "the rule of Florence by a council of bishops",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Divine law refers to the Church's authority, which existed beside the city's own laws.",
+      sourceIds: ["ced-topic-1-6", "boccaccio-payne-1886"],
+      choiceExplanations: [
+        "Secular rulers and city governments existed alongside the Church.",
+        "Divine law here means Christian teaching, not Islamic law.",
+        "Divine law refers to the Church's authority, which existed beside the city's own laws.",
+        "Florence was a republic governed by its citizens' councils, not by bishops.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Church was powerful, but kings, nobles, and city governments also ruled; authority was divided.",
+      stimulusId: "boccaccio-laws",
+      stimulusBlocks: [excerpts.boccaccioLaws],
+    },
+    {
+      id: "world-1-6-t04",
+      topicId: "world-1-6",
+      concept: "europe-power",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "Based on the passage, which of the following best describes political authority in much of western Europe?",
+      choices: [
+        "Authority was divided between kings and landholding nobles",
+        "Authority was held mainly by elected town councils",
+        "Authority was divided between kings and Mongol governors",
+        "Authority was centralized in salaried officials chosen by examination",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Kings depended on nobles who held land, collected rents, held courts, and kept armed followers.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "Kings depended on nobles who held land, collected rents, held courts, and kept armed followers.",
+        "Towns gained some rights, but nobles controlled most local authority.",
+        "Mongol rule did not extend into western Europe.",
+        "Examination-selected bureaucrats describe Song China, not Europe.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Towns did win charters, but the passage shows nobles, not town councils, holding most local power.",
+      stimulusId: "original-feudalism",
+      stimulusBlocks: [excerpts.originalFeudalism],
+    },
+    {
+      id: "world-1-6-t05",
+      topicId: "world-1-6",
+      concept: "europe-manors",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which of the following details from the passage best supports the claim that the manorial system was not uniform?",
+      choices: [
+        "Free peasants rented land for money",
+        "Kings had to bargain with nobles to raise armies",
+        "Serfs owed their lords days of labor each week",
+        "Lords held courts and kept armed followers",
+      ],
+      correctAnswer: 0,
+      explanation: "Free peasants paying rent show that not everyone was a serf.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "Free peasants paying rent show that not everyone was a serf.",
+        "Bargaining concerns kings and nobles, not variation among peasants.",
+        "Labor dues show the typical pattern, not variation.",
+        "Courts and armed followers describe lords' power, not variation in the system.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Labor dues describe how manors usually worked; the claim needs an exception to the pattern.",
+      stimulusId: "original-feudalism",
+      stimulusBlocks: [excerpts.originalFeudalism],
+    },
+    {
+      id: "world-1-6-t06",
+      topicId: "world-1-6",
+      concept: "europe-manors",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "The labor obligations of serfs described in the passage were most similar to",
+      choices: [
+        "the rotating labor service owed by Mexica nobles to their emperor",
+        "the wages paid to factory workers in industrial cities",
+        "the rotating labor service owed by communities to the Inca state",
+        "the examinations that qualified men for office in Song China",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Both serfs and Inca communities paid obligations in labor rather than money.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "The Mexica collected tribute in goods; rotating labor service was an Inca practice.",
+        "Factory wages belong to a much later period, and serfs were not wage workers.",
+        "Both serfs and Inca communities paid obligations in labor rather than money.",
+        "Examinations selected officials; they were not labor obligations.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Rotating labor service is the right comparison, but it was owed by Inca communities, not Mexica nobles.",
+      stimulusId: "original-feudalism",
+      stimulusBlocks: [excerpts.originalFeudalism],
+    },
+    {
+      id: "world-1-6-t07",
+      topicId: "world-1-6",
+      concept: "europe-learning",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "According to the passage, which of the following contributed to the work of scholars such as Thomas Aquinas?",
+      choices: [
+        "Translations of Aristotle made by Mongol officials in Baghdad",
+        "Translations of Aristotle that reached Latin readers largely through Arabic",
+        "Printed books produced on Gutenberg's press",
+        "Greek texts brought by scholars fleeing the fall of Constantinople",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The passage says Aristotle reached Latin readers largely through translations from Arabic.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "Mongol officials did not produce these translations; Iberian centers such as Toledo did.",
+        "The passage says Aristotle reached Latin readers largely through translations from Arabic.",
+        "Gutenberg's press came about two centuries after Aquinas.",
+        "Constantinople fell in 1453, long after Aquinas.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Byzantine scholars did bring Greek texts west, but mostly after 1453, long after Aquinas died in 1274.",
+      stimulusId: "original-europe-learning",
+      stimulusBlocks: [excerpts.originalEuropeLearning],
+    },
+    {
+      id: "world-1-6-t08",
+      topicId: "world-1-6",
+      concept: "europe-faith",
+      difficulty: "Apply",
+      skill: "argumentation",
+      prompt:
+        "Which of the following would most directly support the claim in the second paragraph?",
+      choices: [
+        "Evidence that universities taught theology alongside law and medicine",
+        "Evidence that popes supported crusades in the eastern Mediterranean",
+        "Evidence that most European peasants attended church regularly",
+        "Evidence that kings and popes disputed control over appointing bishops",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Disputes over appointing bishops show rulers contesting Church authority, which is the claim.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "University teaching shows the Church's role in education, not opposition to it.",
+        "Supporting crusades demonstrates papal power rather than a challenge to it.",
+        "Church attendance shows influence, not challenges to it.",
+        "Disputes over appointing bishops show rulers contesting Church authority, which is the claim.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Crusades show papal influence; the claim is that the Church's authority was challenged.",
+      stimulusId: "original-europe-learning",
+      stimulusBlocks: [excerpts.originalEuropeLearning],
+    },
+    // END unit-01 practice test
   ],
   quizzes: [
     {

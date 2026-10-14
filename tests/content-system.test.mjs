@@ -38,7 +38,7 @@ test("the generated catalog preserves every ready Unit 1 topic and stable route"
 
   const routes = await readGenerated("world/routes.json");
   assert.equal(Object.keys(routes.topic).length, 14);
-  assert.equal(Object.keys(routes.quiz).length, 32);
+  assert.equal(Object.keys(routes.quiz).length, 33);
   assert.equal(routes.topic["world-1-2"], "world/topics/world-1-2.json");
   assert.equal(routes.writing["world-1-saq"], "world/writing/world-1-saq.json");
 
@@ -87,7 +87,7 @@ test("unit practice loads only the seven selected topic banks", async () => {
   });
   const page = await store.page("quiz", "world-1-practice");
   assert.equal(page.quiz.questionIds.length, 21);
-  assert.equal(page.bank.questions.length, 79);
+  assert.equal(page.bank.questions.length, 134);
   assert.equal(requested.filter((path) => path.includes("/banks/")).length, 7);
   assert.equal(
     requested.some((path) => path.includes("/topics/")),

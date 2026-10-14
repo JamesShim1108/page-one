@@ -1,5 +1,6 @@
 // Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
 // Each question names an AP skill from ../../../skills.js.
+import { excerpts } from "../../../excerpts.js";
 
 export const bank = {
   questions: [
@@ -203,6 +204,249 @@ export const bank = {
       explanation:
         "Multiple traditions coexisted, sometimes in tension and sometimes influencing each other. Their influence reached societies beyond China and extended beyond government.",
     },
+    // BEGIN unit-01 practice test
+    // Unit 1 Practice Test items (t-numbered): AP-style sets that each depend on one stimulus.
+    {
+      id: "world-1-1-t01",
+      topicId: "world-1-1",
+      concept: "economy",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Based on the passage, which of the following best describes the economy of Kinsay?",
+      choices: [
+        "It relied on large estates where serfs produced goods for their lords",
+        "It depended mainly on tribute that farmers delivered to the imperial court",
+        "It combined specialized craft production with trade that supplied other cities",
+        "It was organized around foreign merchants who controlled most of the city's manufacturing",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Guilds of craftsmen supply “many other cities,” and merchants handle enormous amounts of goods. That is specialized, commercial production.",
+      sourceIds: ["ced-topic-1-1", "polo-yule-1903"],
+      choiceExplanations: [
+        "Serfs and lords describe European manorialism, not the urban guilds Polo describes.",
+        "The passage stresses guild workshops and merchants, not tribute from farmers.",
+        "Guilds of craftsmen supply “many other cities,” and merchants handle enormous amounts of goods. That is specialized, commercial production.",
+        "The passage describes the city's own guilds and merchants; it does not say foreigners controlled manufacturing.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Merchants appear in the passage, but the crafts are organized in local guilds and houses of workers, not run by foreigners.",
+      stimulusId: "polo-kinsay",
+      stimulusBlocks: [excerpts.poloKinsay],
+    },
+    {
+      id: "world-1-1-t02",
+      topicId: "world-1-1",
+      concept: "economy",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "Which of the following developments best explains the prosperity described in the passage?",
+      choices: [
+        "Song commercialization, supported by greater rice output and canal transport",
+        "The arrival of American food crops, which allowed Chinese cities to grow rapidly",
+        "The commercialization of the Song economy, made possible by a lack of state taxation",
+        "The rise of factory production powered by coal and steam engines",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Champa rice, the Grand Canal, and growing markets supported a commercial economy and large cities such as Hangzhou.",
+      sourceIds: ["ced-topic-1-1", "polo-yule-1903"],
+      choiceExplanations: [
+        "Champa rice, the Grand Canal, and growing markets supported a commercial economy and large cities such as Hangzhou.",
+        "American crops reached China only after 1500, through the Columbian Exchange.",
+        "The Song and Yuan governments taxed trade; Polo notes the Kaan's “immense revenue” from duties.",
+        "Factory production with steam power belongs to the Industrial Revolution after 1750.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Song commerce grew strongly, but the state taxed it heavily; the passage itself mentions large duties on trade.",
+      stimulusId: "polo-kinsay",
+      stimulusBlocks: [excerpts.poloKinsay],
+    },
+    {
+      id: "world-1-1-t03",
+      topicId: "world-1-1",
+      concept: "economy",
+      difficulty: "Challenge",
+      skill: "sourcing",
+      prompt:
+        "The purpose of the document Polo relies on most likely affects the passage's reliability in which of the following ways?",
+      choices: [
+        "The document was meant to save the city, so it probably described its crafts and merchants accurately",
+        "The document was a tax record, so it probably understated the city's wealth",
+        "The document was written by a foreign visitor who never saw the city",
+        "The document was meant to save the city, so it may exaggerate the city's size and wealth",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The Queen wanted the Kaan to spare the city, a strong motive to stress its grandeur; figures such as 12,000 houses per guild suggest exaggeration.",
+      sourceIds: ["ced-topic-1-1", "polo-yule-1903"],
+      choiceExplanations: [
+        "The purpose is identified correctly, but a motive to impress the conqueror makes accuracy less certain, not more.",
+        "Polo describes a statement sent to the conqueror, not a tax register.",
+        "Polo says the Queen of the realm sent the document, so it came from inside the city's ruling family.",
+        "The Queen wanted the Kaan to spare the city, a strong motive to stress its grandeur; figures such as 12,000 houses per guild suggest exaggeration.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Purpose explains how a source might be distorted. A plea to spare a city gives a reason to make it sound as impressive as possible.",
+      stimulusId: "polo-kinsay",
+      stimulusBlocks: [excerpts.poloKinsay],
+    },
+    {
+      id: "world-1-1-t04",
+      topicId: "world-1-1",
+      concept: "governance",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt: "Which of the following claims is best supported by the passage?",
+      choices: [
+        "The examination system ended the political influence of wealthy families",
+        "The examination system spread Confucian values beyond those who held office",
+        "The examination system allowed women to serve as local officials",
+        "The examination system was used mainly to choose military commanders",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Many degree holders became teachers and community leaders, spreading shared values about loyalty and hierarchy beyond government posts.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "The passage says most successful candidates came from families with land or commercial wealth.",
+        "Many degree holders became teachers and community leaders, spreading shared values about loyalty and hierarchy beyond government posts.",
+        "The passage states that women could not sit for the examinations.",
+        "The examinations tested the Confucian classics and selected civil officials.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The passage says the system was more open than hereditary rule but that wealthy families still dominated success.",
+      stimulusId: "original-song-exams",
+      stimulusBlocks: [excerpts.originalSongExams],
+    },
+    {
+      id: "world-1-1-t05",
+      topicId: "world-1-1",
+      concept: "governance",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Which of the following best describes a difference between Song government and government in western Europe in the same period?",
+      choices: [
+        "Song rulers shared power with an elected assembly, while European kings ruled without limits",
+        "Song rulers relied on an educated bureaucracy, while European kings relied heavily on landholding nobles",
+        "Song rulers depended on a written legal code, while European kingdoms had no written laws at all",
+        "Song rulers relied on an educated bureaucracy, while European kings relied mainly on salaried university scholars",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Song emperors used examination-selected officials; European monarchs depended on nobles who held land in return for service.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "Song China had no elected assembly, and European kings were limited by nobles and the Church.",
+        "Song emperors used examination-selected officials; European monarchs depended on nobles who held land in return for service.",
+        "European kingdoms had written laws and charters, such as Magna Carta.",
+        "Clergy served kings as advisers, but feudal nobles, not salaried scholars, carried most local power in Europe.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Europe had universities and clergy, but royal power rested chiefly on nobles bound by land and military service.",
+      stimulusId: "original-song-exams",
+      stimulusBlocks: [excerpts.originalSongExams],
+    },
+    {
+      id: "world-1-1-t06",
+      topicId: "world-1-1",
+      concept: "beliefs",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "The ideas promoted by the system described in the passage are most directly associated with which of the following?",
+      choices: [
+        "Legalism, which relied on strict punishments rather than moral education",
+        "Theravada Buddhism, which emphasized monastic life and personal liberation",
+        "Neo-Confucianism, which rejected family duty and ancestor rites in favor of loyalty to the state",
+        "Neo-Confucianism, which blended Confucian ethics with ideas from Buddhism and Daoism",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Song thinkers renewed Confucian ethics while responding to Buddhist and Daoist ideas, and examinations rewarded mastery of these texts.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "Legalism was an older school associated with the Qin; Song examinations tested Confucian classics.",
+        "Theravada Buddhism was prominent in Sri Lanka and mainland Southeast Asia, not in Song examinations.",
+        "Neo-Confucianism stressed filial piety and family hierarchy as the base of social order.",
+        "Song thinkers renewed Confucian ethics while responding to Buddhist and Daoist ideas, and examinations rewarded mastery of these texts.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The term is right, but Neo-Confucianism kept family duty, including filial piety, at its center.",
+      stimulusId: "original-song-exams",
+      stimulusBlocks: [excerpts.originalSongExams],
+    },
+    {
+      id: "world-1-1-t07",
+      topicId: "world-1-1",
+      concept: "influence",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt: "The author's main argument is that Korea and Japan",
+      choices: [
+        "borrowed from China selectively in ways that served local elites",
+        "borrowed from China selectively, keeping its examination system intact",
+        "rejected Chinese influence in order to protect their own traditions",
+        "were ruled directly by Chinese officials during this period",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The passage concludes that local elites kept what strengthened them and reshaped the rest.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "The passage concludes that local elites kept what strengthened them and reshaped the rest.",
+        "Korea used examinations, but Japan's shogun governed through warrior vassals instead.",
+        "Both societies adopted many Chinese practices, so rejection is the wrong description.",
+        "Neither society was ruled directly by China; tribute and cultural influence are not direct rule.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Selective borrowing is right, but Japan's power had moved to warrior families who did not govern through examinations.",
+      stimulusId: "original-east-asia-adaptation",
+      stimulusBlocks: [excerpts.originalEastAsiaAdaptation],
+    },
+    {
+      id: "world-1-1-t08",
+      topicId: "world-1-1",
+      concept: "influence",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Based on the passage, which of the following best explains a difference between Korea and Japan in this period?",
+      choices: [
+        "Korea used Confucian examinations, while Japan copied the Song bureaucracy",
+        "Korea adopted Buddhism, while Japan remained entirely Shinto",
+        "Korea used Confucian examinations, while Japan was governed by warrior elites",
+        "Korea was isolated from China, while Japan traded widely with China",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Korea adopted Chinese-style examinations; in Japan the shogun ruled through warrior vassals.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "Japan's earlier court used Chinese titles, but the shogun governed through warriors, not a Song-style bureaucracy.",
+        "Buddhism was important in both societies, alongside Shinto in Japan.",
+        "Korea adopted Chinese-style examinations; in Japan the shogun ruled through warrior vassals.",
+        "The passage describes strong Chinese influence on Korea, not isolation.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Japan had borrowed bureaucratic titles earlier, but by this period warrior families held real power.",
+      stimulusId: "original-east-asia-adaptation",
+      stimulusBlocks: [excerpts.originalEastAsiaAdaptation],
+    },
+    // END unit-01 practice test
   ],
   quizzes: [
     {

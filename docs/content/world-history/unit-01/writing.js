@@ -1,4 +1,5 @@
 // Writing prompts and criteria are content. Saving and review behavior live in app/writing/.
+import { excerpts } from "../excerpts.js";
 
 export const writingQuizzes = [
   {
@@ -137,4 +138,125 @@ export const writingQuizzes = [
       ],
     },
   },
+  // BEGIN unit-01 stimulus saq
+  // Stimulus-based SAQ paired with the Unit 1 Practice Test.
+  {
+    id: "world-1-saq-02",
+    version: 1,
+    courseId: "world",
+    unitId: "world-1",
+    title: "Unit 1 SAQ 02",
+    headline: "Merchants, faith, and states in Southeast Asia",
+    promptTitle: "Primary-source short-answer question",
+    prompt: "Use the passage below to answer all parts of the question.",
+    instructions:
+      "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    note: "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    exerciseType: "saq",
+    stimulusBlocks: [excerpts.poloFerlec],
+    scaffold: [
+      {
+        label: "Answer",
+        text: "Respond directly to the task verb: identify, describe, or explain.",
+      },
+      {
+        label: "Prove",
+        text: "Name a specific person, place, institution, or development.",
+      },
+      {
+        label: "Explain",
+        text: "Show how or why the evidence answers the question.",
+      },
+    ],
+    parts: [
+      {
+        id: "a",
+        lenses: ["C", "E"],
+        prompt:
+          "Identify ONE way the passage shows a connection between trade and religion in Southeast Asia.",
+        criteria: [
+          "Names a specific connection stated in the passage.",
+          "Links trade (merchants, goods, or ports) with religious change.",
+        ],
+        model: {
+          answer:
+            "The passage shows that Muslim merchants spread Islam to the towns they traded with.",
+          prove:
+            "Polo writes that Ferlec was so frequented by Saracen merchants that they converted the townspeople to Islam.",
+          explain:
+            "Regular commercial visits created the contact through which a new faith was introduced, so trade served as a path for religious change.",
+        },
+        alternatives:
+          "Answers can also note that conversion was limited to the towns, which shows that religion followed the routes merchants used.",
+        review: [
+          {
+            topicId: "world-1-3",
+            sectionId: "asia-sea",
+            label: "Ports and Islam",
+          },
+        ],
+      },
+      {
+        id: "b",
+        lenses: ["P", "S"],
+        prompt:
+          "Explain ONE reason why Islam spread in coastal Southeast Asia during the period c. 1200 to c. 1450.",
+        criteria: [
+          "Gives a specific historical reason, not only a restatement of the passage.",
+          "Explains how that reason encouraged conversion or the growth of Muslim communities.",
+        ],
+        model: {
+          answer:
+            "Rulers of port cities adopted Islam because it strengthened their ties to Muslim trading partners.",
+          prove:
+            "Melaka became a Muslim sultanate in the fifteenth century and grew into a major port linking the Indian Ocean and the South China Sea.",
+          explain:
+            "A shared faith built trust with Muslim merchants from Gujarat, Arabia, and Persia, which attracted trade and revenue to the port and encouraged others to convert.",
+        },
+        alternatives:
+          "The work of Sufi teachers, intermarriage between merchants and local families, and the growth of Muslim merchant communities in ports can also earn the point if explained.",
+        review: [
+          {
+            topicId: "world-1-3",
+            sectionId: "asia-sea",
+            label: "Melaka and maritime states",
+          },
+          {
+            topicId: "world-1-3",
+            sectionId: "asia-devotion",
+            label: "Sufism",
+          },
+        ],
+      },
+      {
+        id: "c",
+        lenses: ["C"],
+        prompt:
+          "Explain ONE way Marco Polo's point of view might affect how historians use this passage as evidence.",
+        criteria: [
+          "Identifies a specific feature of Polo's point of view, purpose, or situation.",
+          "Explains how that feature affects the passage's usefulness or reliability.",
+        ],
+        model: {
+          answer:
+            "Polo was a European Christian outsider, so he described local beliefs in dismissive terms.",
+          prove:
+            "He calls the island's people “Idolaters,” a label that lumps together Buddhist, Hindu, and local traditions, and he passed this coast only briefly on his voyage home.",
+          explain:
+            "Historians can use the passage as evidence that Islam was spreading through ports, but they should not trust his descriptions of non-Muslim beliefs without other sources.",
+        },
+        alternatives:
+          "Answers can also explain that Polo dictated the book years later from memory, or that he wrote to impress European readers with distant marvels.",
+        review: [
+          {
+            topicId: "world-1-3",
+            sectionId: "asia-beliefs",
+            label: "Beliefs in South and Southeast Asia",
+          },
+        ],
+      },
+    ],
+    sourceIds: ["polo-yule-1903", "ced-topic-1-3", "ced"],
+  },
+  // END unit-01 stimulus saq
 ];

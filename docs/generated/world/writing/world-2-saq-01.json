@@ -213,6 +213,7 @@
         ]
       }
     ],
+    "practiceTest": null,
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -446,6 +447,8 @@
         "id": "polo-paper-money",
         "type": "source",
         "sourceType": "primary",
+        "source": "polo-yule-1903",
+        "amsco_review": "pending",
         "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing Yuan China",
         "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 1, Book II, ch. 24. Project Gutenberg eBook #10636.",
         "note": "In this translation, “the Great Kaan” and “the Emperor” refer to Kublai Khan.",

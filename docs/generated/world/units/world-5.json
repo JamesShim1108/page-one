@@ -20,6 +20,7 @@
     "status": "soon",
     "description": "",
     "quizzes": [],
+    "practiceTest": null,
     "termSets": [],
     "topicQuizzes": [],
     "topicCount": 0,

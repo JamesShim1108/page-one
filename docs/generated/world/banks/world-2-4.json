@@ -213,6 +213,7 @@
         ]
       }
     ],
+    "practiceTest": null,
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -629,6 +630,8 @@
           "id": "battuta-taghaza",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
           "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
@@ -692,6 +695,8 @@
           "id": "battuta-taghaza",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
           "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
@@ -755,6 +760,8 @@
           "id": "battuta-taghaza",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
           "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
@@ -889,6 +896,8 @@
           "id": "battuta-mali",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
           "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
@@ -947,6 +956,8 @@
           "id": "battuta-mali",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
           "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
@@ -1005,6 +1016,8 @@
           "id": "battuta-mali",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
           "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
@@ -1206,6 +1219,8 @@
           "id": "original-musa-legacy",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.4, KC-3.1.I.E.ii: expanding empires such as Mali drew new peoples and regions into trade networks",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing how historians interpret Mansa Musa's reign",
           "text": "Historians often treat Mansa Musa's pilgrimage to Mecca in 1324–1325 as a turning point in how the wider Islamic world viewed West Africa. Writers in Cairo later recorded that his large company spent and gave away so much gold that its value there stayed lower for years. After his return, Musa sponsored mosques and Islamic scholarship in cities such as Timbuktu.\n\nYet historians also caution against reading Mali's power through one ruler's wealth. The empire rested on farming, tribute from subject peoples, and control of the routes that linked gold fields, salt sources, and Saharan markets. Many people in the empire continued local religious practices alongside, or instead of, Islam."
         }
@@ -1251,6 +1266,8 @@
           "id": "original-musa-legacy",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.4, KC-3.1.I.E.ii: expanding empires such as Mali drew new peoples and regions into trade networks",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing how historians interpret Mansa Musa's reign",
           "text": "Historians often treat Mansa Musa's pilgrimage to Mecca in 1324–1325 as a turning point in how the wider Islamic world viewed West Africa. Writers in Cairo later recorded that his large company spent and gave away so much gold that its value there stayed lower for years. After his return, Musa sponsored mosques and Islamic scholarship in cities such as Timbuktu.\n\nYet historians also caution against reading Mali's power through one ruler's wealth. The empire rested on farming, tribute from subject peoples, and control of the routes that linked gold fields, salt sources, and Saharan markets. Many people in the empire continued local religious practices alongside, or instead of, Islam."
         }

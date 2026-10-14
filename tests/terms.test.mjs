@@ -250,10 +250,18 @@ test("all unit hubs put modes first and never make unavailable practice clickabl
     const unit = data(`world/units/world-${number}.json`);
     const html = unitPage(unit);
     assert.ok(html.indexOf('aria-label="Unit study modes"') < html.indexOf('id="learn"'));
-    for (const title of ["Practice Quiz", "Terms", "Writing Practice", "Reading / Learn"])
+    for (const title of [
+      "Practice Test",
+      "Practice Quiz",
+      "Terms",
+      "Writing Practice",
+      "Reading / Learn",
+    ])
       assert.ok(html.includes(`<h2>${title}</h2>`));
     assert.ok(html.includes(`href="#/terms/world-${number}"`));
-    if (number > 2) assert.ok(html.includes('aria-disabled="true"'));
+    if (unit.unit.status !== "ready") assert.ok(html.includes('aria-disabled="true"'));
+    if (unit.unit.practiceTest)
+      assert.ok(html.includes(`href="#/quiz/${unit.unit.practiceTest.id}"`));
     assert.equal(unit.unit.termSets.length, number <= 2 ? 2 : 0);
     if (number > 2) assert.ok(termsIndexPage(unit).includes("No class term sets yet"));
   }

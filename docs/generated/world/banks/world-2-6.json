@@ -213,6 +213,7 @@
         ]
       }
     ],
+    "practiceTest": null,
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -633,6 +634,8 @@
           "id": "boccaccio-arrival",
           "type": "source",
           "sourceType": "primary",
+          "source": "boccaccio-payne-1886",
+          "amsco_review": "pending",
           "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, a collection of stories completed c. 1353",
           "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
           "note": "Bracketed words are the translator's. Payne's 1886 English imitates older usage.",
@@ -685,6 +688,8 @@
           "id": "boccaccio-arrival",
           "type": "source",
           "sourceType": "primary",
+          "source": "boccaccio-payne-1886",
+          "amsco_review": "pending",
           "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, a collection of stories completed c. 1353",
           "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
           "note": "Bracketed words are the translator's. Payne's 1886 English imitates older usage.",
@@ -737,6 +742,8 @@
           "id": "boccaccio-arrival",
           "type": "source",
           "sourceType": "primary",
+          "source": "boccaccio-payne-1886",
+          "amsco_review": "pending",
           "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, a collection of stories completed c. 1353",
           "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
           "note": "Bracketed words are the translator's. Payne's 1886 English imitates older usage.",
@@ -863,6 +870,8 @@
           "id": "boccaccio-society",
           "type": "source",
           "sourceType": "primary",
+          "source": "boccaccio-payne-1886",
+          "amsco_review": "pending",
           "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, completed c. 1353, describing Florence and its countryside during the plague of 1348",
           "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
           "note": "Husbandmen are farmers. Payne's 1886 English imitates older usage.",
@@ -916,6 +925,8 @@
           "id": "boccaccio-society",
           "type": "source",
           "sourceType": "primary",
+          "source": "boccaccio-payne-1886",
+          "amsco_review": "pending",
           "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, completed c. 1353, describing Florence and its countryside during the plague of 1348",
           "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
           "note": "Husbandmen are farmers. Payne's 1886 English imitates older usage.",
@@ -969,6 +980,8 @@
           "id": "boccaccio-society",
           "type": "source",
           "sourceType": "primary",
+          "source": "boccaccio-payne-1886",
+          "amsco_review": "pending",
           "attribution": "Giovanni Boccaccio, Florentine writer, introduction to The Decameron, completed c. 1353, describing Florence and its countryside during the plague of 1348",
           "citation": "The Decameron of Giovanni Boccaccio, trans. John Payne (London: Villon Society, 1886), First Day, introduction. Project Gutenberg eBook #23700.",
           "note": "Husbandmen are farmers. Payne's 1886 English imitates older usage.",
@@ -1164,6 +1177,8 @@
           "id": "original-crop-diffusion",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.6, KC-3.1.IV: networks of exchange spread crops and pathogens, with uneven environmental effects",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing how historians explain crop diffusion, c. 1000–1450",
           "text": "Champa rice, a fast-ripening variety from mainland Southeast Asia, was promoted by the Song government in the early 1000s, and its spread in southern China allowed some farmers to harvest more than once a year. Bananas, first domesticated in Southeast Asia and New Guinea, had spread across the Indian Ocean to Africa well before this period and became staple foods in parts of East Africa.\n\nIn both cases historians stress that a crop's arrival did not determine its effect. Farmers had to adapt planting methods, water management, and labor to local conditions, and the crops' impact varied widely from one region to another."
         }
@@ -1209,6 +1224,8 @@
           "id": "original-crop-diffusion",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.6, KC-3.1.IV: networks of exchange spread crops and pathogens, with uneven environmental effects",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing how historians explain crop diffusion, c. 1000–1450",
           "text": "Champa rice, a fast-ripening variety from mainland Southeast Asia, was promoted by the Song government in the early 1000s, and its spread in southern China allowed some farmers to harvest more than once a year. Bananas, first domesticated in Southeast Asia and New Guinea, had spread across the Indian Ocean to Africa well before this period and became staple foods in parts of East Africa.\n\nIn both cases historians stress that a crop's arrival did not determine its effect. Farmers had to adapt planting methods, water management, and labor to local conditions, and the crops' impact varied widely from one region to another."
         }

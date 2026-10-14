@@ -263,4 +263,42 @@ export const sources = [
     url: "https://www.gutenberg.org/ebooks/23700",
     note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
   },
+  // BEGIN unit-01
+  {
+    id: "ced-topic-1-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  // END unit-01
 ];

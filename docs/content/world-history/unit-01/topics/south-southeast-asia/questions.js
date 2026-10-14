@@ -1,5 +1,6 @@
 // Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
 // Each question names an AP skill from ../../../skills.js. Stimulus excerpts come from ../../../excerpts.js.
+import { excerpts } from "../../../excerpts.js";
 
 export const bank = {
   questions: [
@@ -370,6 +371,250 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher: "Match each state with its main religious institution.",
     },
+    // BEGIN unit-01 practice test
+    // Unit 1 Practice Test items (t-numbered): AP-style sets that each depend on one stimulus.
+    {
+      id: "world-1-3-t01",
+      topicId: "world-1-3",
+      concept: "asia-sea",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt: "According to the passage, Islam spread in Ferlec mainly through",
+      choices: [
+        "contact with Muslim merchants in the hill country",
+        "the conquest of the kingdom by a Muslim army",
+        "contact with Muslim merchants in the towns",
+        "the orders of a ruler appointed by the Great Kaan",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Polo says Saracen merchants frequented Ferlec and converted the townspeople.",
+      sourceIds: ["ced-topic-1-3", "polo-yule-1903"],
+      choiceExplanations: [
+        "Polo specifies “the townspeople only,” excluding the hill people.",
+        "Polo names merchants, not an army, as the cause of conversion.",
+        "Polo says Saracen merchants frequented Ferlec and converted the townspeople.",
+        "The Great Kaan's men could not even reach these islands, according to the passage.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Merchants are the right agents, but Polo limits conversion to townspeople, not the hill people.",
+      stimulusId: "polo-ferlec",
+      stimulusBlocks: [excerpts.poloFerlec],
+    },
+    {
+      id: "world-1-3-t02",
+      topicId: "world-1-3",
+      concept: "asia-sea",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which of the following best explains why the process described in the passage occurred in coastal towns first?",
+      choices: [
+        "Ports were visited regularly by merchants who belonged to Indian Ocean Muslim networks",
+        "Coastal rulers were forced to convert by the Delhi Sultanate's navy",
+        "Muslim scholars avoided inland areas because of strict local laws",
+        "Ports were visited regularly by merchants who were required by law to convert local rulers",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Regular trade brought Muslim merchants and teachers to ports, where conversion could also ease commercial ties.",
+      sourceIds: ["ced-topic-1-3", "polo-yule-1903"],
+      choiceExplanations: [
+        "Regular trade brought Muslim merchants and teachers to ports, where conversion could also ease commercial ties.",
+        "The Delhi Sultanate was a land-based state in northern India and did not conquer Sumatra.",
+        "The passage gives no evidence of such laws; access, not prohibition, explains the coastal pattern.",
+        "Merchants spread Islam through contact and community, not under any requirement to convert rulers.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Merchant contact explains the pattern, but no rule required merchants to convert rulers; conversion was voluntary and gradual.",
+      stimulusId: "polo-ferlec",
+      stimulusBlocks: [excerpts.poloFerlec],
+    },
+    {
+      id: "world-1-3-t03",
+      topicId: "world-1-3",
+      concept: "asia-states",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "Polo's description of Basma's relationship with the Great Kaan is best understood in the context of",
+      choices: [
+        "Chinese tribute relationships in which distant rulers paid heavy annual taxes",
+        "the spread of Christianity among Southeast Asian islanders",
+        "the Mongol conquest and direct rule of maritime Southeast Asia",
+        "Chinese tribute relationships in which distant rulers sent gifts as a sign of respect",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Rulers declared themselves subjects and sent presents, a symbolic relationship common in Chinese diplomacy.",
+      sourceIds: ["ced-topic-1-3", "polo-yule-1903"],
+      choiceExplanations: [
+        "The passage says Basma's people pay the Kaan no tribute.",
+        "The passage mentions Islam and local beliefs, not Christianity.",
+        "Polo says the Kaan's men could not reach Basma, so there was no direct rule.",
+        "Rulers declared themselves subjects and sent presents, a symbolic relationship common in Chinese diplomacy.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Tribute relationships are the right context, but Polo says Basma pays no tribute, only sends curiosities as presents.",
+      stimulusId: "polo-ferlec",
+      stimulusBlocks: [excerpts.poloFerlec],
+    },
+    {
+      id: "world-1-3-t04",
+      topicId: "world-1-3",
+      concept: "asia-devotion",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt: "The passage provides evidence for which of the following?",
+      choices: [
+        "Buddhist and Muslim pilgrims agreed that the mountain held the Buddha's tomb",
+        "Buddhist and Muslim pilgrims both treated the same mountain as sacred",
+        "Muslim rulers had forced Buddhists in Sri Lanka to abandon pilgrimage",
+        "Christian missionaries had converted most of the people of Sri Lanka",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Polo says Idolaters (Buddhists) and Saracens (Muslims) both come on pilgrimage to the mountain.",
+      sourceIds: ["ced-topic-1-3", "polo-yule-1903"],
+      choiceExplanations: [
+        "Muslims identified the site as Adam's tomb, not the Buddha's.",
+        "Polo says Idolaters (Buddhists) and Saracens (Muslims) both come on pilgrimage to the mountain.",
+        "The passage shows both groups making pilgrimages, not one forcing the other out.",
+        "Polo compares the pilgrimage to a Christian shrine in Spain; he does not describe Christians in Sri Lanka.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Both groups revered the site, but Polo says each identified it differently: the Buddha for one, Adam for the other.",
+      stimulusId: "polo-seilan",
+      stimulusBlocks: [excerpts.poloSeilan],
+    },
+    {
+      id: "world-1-3-t05",
+      topicId: "world-1-3",
+      concept: "asia-devotion",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Polo's comparison of the pilgrimage to the shrine of Saint James in Gallicia most likely reflects",
+      choices: [
+        "his belief that Buddhism and Christianity were the same religion",
+        "his effort to explain an unfamiliar practice to European readers",
+        "his effort to convince Buddhists to visit Christian shrines",
+        "his belief that pilgrimage was unknown in Europe",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Polo wrote for Europeans and used a familiar Christian pilgrimage to make the practice understandable.",
+      sourceIds: ["ced-topic-1-3", "polo-yule-1903"],
+      choiceExplanations: [
+        "Polo still calls the Buddhists Idolaters, so he clearly saw the religions as different.",
+        "Polo wrote for Europeans and used a familiar Christian pilgrimage to make the practice understandable.",
+        "Polo's audience was European, not Buddhist.",
+        "Polo's comparison only works because Europeans already knew pilgrimage well.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The comparison is about the practice of pilgrimage. Polo still calls the Buddhists “Idolaters,” so he did not think the religions were the same.",
+      stimulusId: "polo-seilan",
+      stimulusBlocks: [excerpts.poloSeilan],
+    },
+    {
+      id: "world-1-3-t06",
+      topicId: "world-1-3",
+      concept: "asia-states",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Based on the passage, which of the following was a similarity between the Delhi Sultanate and the Vijayanagara Empire?",
+      choices: [
+        "Both converted most of their subjects to the rulers' religion",
+        "Both were founded by Turkic and Afghan military elites",
+        "Both relied on trade revenue rather than agricultural taxes",
+        "Both relied on agricultural revenue to support their armies",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The Delhi sultans collected land revenue and Vijayanagara built power on agricultural revenue, each funding a large army.",
+      sourceIds: ["ced-topic-1-3"],
+      choiceExplanations: [
+        "The passage says most of the Sultanate's subjects did not convert.",
+        "Only the Delhi Sultanate was founded by Turkic and Afghan elites.",
+        "Both used land revenue; trade was an addition, not a replacement.",
+        "The Delhi sultans collected land revenue and Vijayanagara built power on agricultural revenue, each funding a large army.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Vijayanagara did profit from trade, but the passage says both states depended on land or agricultural revenue.",
+      stimulusId: "original-south-asia-states",
+      stimulusBlocks: [excerpts.originalSouthAsiaStates],
+    },
+    {
+      id: "world-1-3-t07",
+      topicId: "world-1-3",
+      concept: "asia-states",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The passage best supports which of the following conclusions about South Asia in this period?",
+      choices: [
+        "Political power was divided among rival states with different religious traditions",
+        "The Delhi Sultanate unified the subcontinent under a single Muslim government",
+        "Hindu temples lost their economic role after the arrival of Muslim rulers",
+        "Political power was divided among states that all shared one religious tradition",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "A Muslim-ruled sultanate in the north and a Hindu-patron empire in the south competed for power.",
+      sourceIds: ["ced-topic-1-3"],
+      choiceExplanations: [
+        "A Muslim-ruled sultanate in the north and a Hindu-patron empire in the south competed for power.",
+        "The passage stresses regional rivals and a separate southern empire, not unification.",
+        "Vijayanagara temples remained centers of landholding and economic life.",
+        "The two states had different ruling religions, so they did not share one tradition.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Power was divided, but the passage contrasts a Muslim-ruled sultanate with a Hindu-patron empire.",
+      stimulusId: "original-south-asia-states",
+      stimulusBlocks: [excerpts.originalSouthAsiaStates],
+    },
+    {
+      id: "world-1-3-t08",
+      topicId: "world-1-3",
+      concept: "asia-states",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which of the following best explains why Vijayanagara rulers gave rich gifts to temples?",
+      choices: [
+        "Temples were the only institutions that could train soldiers",
+        "Temple patronage strengthened rulers' claims to be descended from the Buddha himself",
+        "Temple patronage strengthened rulers' legitimacy and ties to local economic life",
+        "Temples were required by Delhi sultans to pay tribute on the rulers' behalf",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Supporting temples presented kings as protectors of Hindu tradition and linked them to centers of land and wealth.",
+      sourceIds: ["ced-topic-1-3"],
+      choiceExplanations: [
+        "The passage describes temples as centers of worship and economic life, not military training.",
+        "Vijayanagara rulers claimed to protect Hindu tradition, not descent from the Buddha.",
+        "Supporting temples presented kings as protectors of Hindu tradition and linked them to centers of land and wealth.",
+        "Vijayanagara was a rival of the Delhi Sultanate, not its tributary.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Patronage did support legitimacy, but Vijayanagara presented itself as protector of Hindu, not Buddhist, tradition.",
+      stimulusId: "original-south-asia-states",
+      stimulusBlocks: [excerpts.originalSouthAsiaStates],
+    },
+    // END unit-01 practice test
   ],
   quizzes: [
     {
