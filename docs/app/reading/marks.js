@@ -1,5 +1,6 @@
 import { escapeHtml as esc, breadcrumbs, contextCrumbs, link } from "../ui.js";
 import { saveNavigationContext, readNavigationContext } from "../navigation-context.js";
+import { icon } from "../icons.js";
 
 export const READING_MARK_LIMIT = 2000;
 
@@ -183,8 +184,13 @@ export function createReadingMarkStore(adapter, context) {
   };
 }
 
-function markButton(action, label, description, describedBy = "") {
-  return `<button type="button" class="reading-mark-button" data-reading-mark-action="${esc(action)}" aria-pressed="false"${describedBy ? ` aria-describedby="${esc(describedBy)}"` : ""} title="${esc(description)}">${esc(label)}</button>`;
+// A symbol button keeps its words for screen readers and as a tooltip, so the
+// paragraph toolbar can stay quiet without losing its names.
+function markButton(action, label, description, describedBy = "", iconName = "") {
+  const content = iconName
+    ? `${icon(iconName)}<span class="visually-hidden">${esc(label)}</span>`
+    : esc(label);
+  return `<button type="button" class="reading-mark-button${iconName ? " reading-mark-button--icon" : ""}" data-reading-mark-action="${esc(action)}" aria-pressed="false"${describedBy ? ` aria-describedby="${esc(describedBy)}"` : ""} title="${esc(description)}">${content}</button>`;
 }
 
 export function readingMarkControls({
@@ -201,8 +207,8 @@ export function readingMarkControls({
   const descriptionId = `reading-mark-description-${targetType}-${targetId}`;
   return `<div class="reading-mark-controls" data-reading-mark-target="${esc(targetType)}" data-reading-mark-target-id="${esc(targetId)}" data-reading-mark-section="${esc(sectionId)}" data-reading-mark-excerpt="${esc(excerpt)}" data-reading-mark-label="${esc(label)}">
     <span class="visually-hidden" id="${esc(descriptionId)}" data-reading-mark-description>${esc(targetDescription)}</span>
-    ${isSection ? `${markButton("read", "Read", "Mark this section read.", descriptionId)}${markButton("understood", "Understood", "Report that you can explain this section.", descriptionId)}` : markButton("review", "Review this", "Keep this passage in your private review list.", descriptionId)}
-    <details class="reading-note-disclosure"><summary>Private note</summary><label>Private note for ${esc(label)}<textarea maxlength="${READING_MARK_LIMIT}" rows="3" data-reading-mark-note placeholder="Only saved in this browser."></textarea></label><button type="button" class="text-button" data-reading-mark-action="save-note">Save note</button><p class="reading-mark-status" role="status" aria-live="polite"></p></details>
+    ${isSection ? `${markButton("read", "Read", "Mark this section read.", descriptionId)}${markButton("understood", "Understood", "Report that you can explain this section.", descriptionId)}` : markButton("review", "Review this", "Keep this passage in your private review list.", descriptionId, "bookmark")}
+    <details class="reading-note-disclosure${isSection ? "" : " reading-note-disclosure--icon"}"><summary${isSection ? "" : ' title="Private note"'}>${isSection ? "Private note" : `${icon("pen")}<span class="visually-hidden">Private note</span>`}</summary><div class="reading-note-panel"><label>Private note for ${esc(label)}<textarea maxlength="${READING_MARK_LIMIT}" rows="3" data-reading-mark-note placeholder="Only saved in this browser."></textarea></label><button type="button" class="text-button" data-reading-mark-action="save-note">Save note</button><p class="reading-mark-status" role="status" aria-live="polite"></p></div></details>
     <span class="reading-mark-status" role="status" aria-live="polite"></span>
   </div>`;
 }

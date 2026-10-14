@@ -20,6 +20,9 @@ const paths = {
     '<rect x="5" y="11" width="14" height="9.5" rx="2"/><path d="M8.5 11V8a3.5 3.5 0 0 1 6.8-1.2"/>',
   person:
     '<circle cx="12" cy="8.5" r="3.8"/><path d="M5 20a7 7 0 0 1 14 0"/><path d="M4 4l16 16"/>',
+  bookmark: '<path d="M7 4.5h10v15l-5-3.5-5 3.5z"/>',
+  link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',
+  flag: '<path d="M6 21V4"/><path d="M6 4h11l-2 4 2 4H6"/>',
 };
 
 export function icon(name, className = "") {

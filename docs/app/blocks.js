@@ -2,6 +2,7 @@ import { escapeHtml as esc } from "./ui.js";
 import { readingMarkControls } from "./reading/marks.js";
 import { readingPath } from "./share/links.js";
 import { reportButton } from "./share/views.js";
+import { icon } from "./icons.js";
 
 export function stableBlockId(block, sectionId, index) {
   return block?.id || `${sectionId}-block-${index + 1}`;
@@ -44,7 +45,7 @@ function readingAnchor(block, html, sectionId, index, reportContext = null) {
   return `<div class="reading-block" id="${id}" data-reading-block="${id}" data-reading-section="${esc(sectionId)}">
     ${html}
     <div class="reading-block-actions">
-      <button type="button" class="reading-block-action" data-reading-action="copy-section" data-reading-section="${esc(sectionId)}" data-reading-block="${id}">Copy block link</button>
+      <button type="button" class="reading-block-action reading-block-action--icon" data-reading-action="copy-section" data-reading-section="${esc(sectionId)}" data-reading-block="${id}" title="Copy block link">${icon("link")}<span class="visually-hidden">Copy block link</span></button>
       ${readingMarkControls({
         targetType: "block",
         targetId: stableBlockId(block, sectionId, index),
@@ -63,6 +64,7 @@ function readingAnchor(block, html, sectionId, index, reportContext = null) {
               revision: reportContext.revision,
               path: readingPath(reportContext.route, sectionId, stableId),
               label: "Report an issue",
+              iconOnly: true,
             })
           : ""
       }
