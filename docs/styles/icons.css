@@ -100,6 +100,10 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  margin-bottom: 0.4rem;
+}
+.mode-head .eyebrow {
+  margin: 0;
 }
 .mode-icon {
   width: 40px;

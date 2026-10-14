@@ -49,6 +49,9 @@
   line-height: 1.2;
   margin: 0.6rem 0;
 }
+.study-mode h2 {
+  margin-bottom: 0.9rem;
+}
 .study-mode p,
 .term-set-card p {
   color: var(--muted);
