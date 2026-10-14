@@ -1,0 +1,667 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-4",
+    "courseId": "world",
+    "number": 4,
+    "title": "Transoceanic Interconnections",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how new maritime technology, state-sponsored voyages, the Columbian Exchange, and coerced labor connected the world's oceans and reshaped societies.",
+    "quizzes": [
+      {
+        "id": "world-4-practice-test",
+        "courseId": "world",
+        "unitId": "world-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t01",
+              "world-4-1-t02",
+              "world-4-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t04",
+              "world-4-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t01",
+              "world-4-2-t02",
+              "world-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t04",
+              "world-4-2-t05",
+              "world-4-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t07",
+              "world-4-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t01",
+              "world-4-3-t02",
+              "world-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t04",
+              "world-4-3-t05",
+              "world-4-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t01",
+              "world-4-4-t02",
+              "world-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t04",
+              "world-4-4-t05",
+              "world-4-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t07",
+              "world-4-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t01",
+              "world-4-5-t02",
+              "world-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t04",
+              "world-4-5-t05",
+              "world-4-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t07",
+              "world-4-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t09",
+              "world-4-5-t10"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t01",
+              "world-4-6-t02",
+              "world-4-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t04",
+              "world-4-6-t05",
+              "world-4-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t01",
+              "world-4-7-t02",
+              "world-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t04",
+              "world-4-7-t05",
+              "world-4-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t01",
+              "world-4-8-t02",
+              "world-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t04",
+              "world-4-8-t05"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 54
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-4-1-quiz",
+        "title": "Technological Innovations from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-2-quiz",
+        "title": "Exploration: Causes and Events from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-3-quiz",
+        "title": "Columbian Exchange topic quiz"
+      },
+      {
+        "id": "world-4-4-quiz",
+        "title": "Maritime Empires Established topic quiz"
+      },
+      {
+        "id": "world-4-5-quiz",
+        "title": "Maritime Empires Maintained and Developed topic quiz"
+      },
+      {
+        "id": "world-4-6-quiz",
+        "title": "Internal and External Challenges to State Power from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-7-quiz",
+        "title": "Changing Social Hierarchies from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-8-quiz",
+        "title": "Continuity and Change from 1450 to 1750 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-4-1",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-4-8",
+    "courseId": "world",
+    "unitId": "world-4",
+    "order": 8,
+    "code": "4.8",
+    "title": "Continuity and Change from 1450 to 1750",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "What changed and what stayed the same as sea routes connected the world from 1450 to 1750."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "9f8bea4087ce4b16",
+  "questions": [
+    {
+      "id": "world-4-8-q01",
+      "topicId": "world-4-8",
+      "concept": "what-continued",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which of the following best illustrates continuity from before 1450 to 1750?",
+      "choices": [
+        "American silver began flowing across the Pacific to China",
+        "Asian merchants continued to carry most Indian Ocean trade",
+        "Ships began to link every inhabited continent",
+        "Millions of Africans were forced to the Americas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Asian merchants dominated Indian Ocean trade before and after 1450.",
+      "sourceIds": [
+        "ced-topic-4-8"
+      ],
+      "choiceExplanations": [
+        "The American silver trade was new.",
+        "Asian merchants dominated Indian Ocean trade before and after 1450.",
+        "Global sea links were new.",
+        "The Atlantic slave trade on this scale was new."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Silver flows to China were new after the 1550s, which makes them a change.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-4-8-q02",
+      "topicId": "world-4-8",
+      "concept": "what-changed",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which of the following was the most significant change in the Americas from 1450 to 1750?",
+      "choices": [
+        "The continued isolation of the Americas from trade and contact with Afro-Eurasia",
+        "The creation of new societies shaped by conquest, disease, and slavery",
+        "The continuation of Inca rule in the Andes",
+        "The end of all trade between Europe and the Americas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "European conquest, epidemic disease, and the slave trade transformed American societies.",
+      "sourceIds": [
+        "ced-topic-4-8"
+      ],
+      "choiceExplanations": [
+        "The Americas became connected to Afro-Eurasia.",
+        "European conquest, epidemic disease, and the slave trade transformed American societies.",
+        "Spain conquered the Inca in the 1530s.",
+        "Atlantic trade grew."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Americas became more connected, not less.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-4-8-q03",
+      "topicId": "world-4-8",
+      "concept": "what-continued",
+      "difficulty": "Core",
+      "skill": "argumentation",
+      "prompt": "Which of the following best supports the claim that Europeans had not dominated Asia by 1750?",
+      "choices": [
+        "Portugal held fortified ports such as Goa on the coast of India",
+        "The VOC controlled the spice trade in the Banda Islands",
+        "Spanish ships carried silver to Manila",
+        "Land-based empires such as the Mughals and Qing remained powerful"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Powerful Asian empires controlled vast territories and the terms of trade.",
+      "sourceIds": [
+        "ced-topic-4-8"
+      ],
+      "choiceExplanations": [
+        "A few forts do not show domination of Asia.",
+        "VOC control of small islands shows limited, local power.",
+        "Silver shipments show trade, not domination.",
+        "Powerful Asian empires controlled vast territories and the terms of trade."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Holding a few ports shows European presence, not domination of Asia.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-4-8-t01",
+      "topicId": "world-4-8",
+      "concept": "what-changed",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to Smith, the discoveries harmed the natives of the East and West Indies mainly because",
+      "choices": [
+        "the new trade routes bypassed their markets",
+        "they refused to trade with Europeans",
+        "Europeans had superior goods that ruined local industries",
+        "Europeans had a superiority of force that let them act unjustly"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Smith says Europeans' superior force let them commit every sort of injustice.",
+      "sourceIds": [
+        "ced-topic-4-8",
+        "smith-wealth-of-nations"
+      ],
+      "choiceExplanations": [
+        "Smith does not say markets were bypassed.",
+        "Smith blames European conduct.",
+        "Smith points to force, not goods.",
+        "Smith says Europeans' superior force let them commit every sort of injustice."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Smith blames force and injustice, not competition from European goods.",
+      "stimulusId": "smith-discovery",
+      "stimulusBlocks": [
+        {
+          "id": "smith-discovery",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "smith-wealth-of-nations",
+          "amsco_review": "pending",
+          "attribution": "Adam Smith, Scottish philosopher and economist, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
+          "citation": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book IV, ch. 7, part 3. Project Gutenberg eBook #3300.",
+          "note": "The East Indies and West Indies mean South and Southeast Asia and the Americas. The mercantile system is mercantilism, which Smith criticized.",
+          "text": "The discovery of America, and that of a passage to the East Indies by the Cape of Good Hope, are the two greatest and most important events recorded in the history of mankind. . . . By uniting in some measure the most distant parts of the world, by enabling them to relieve one another's wants, to increase one another's enjoyments, and to encourage one another's industry, their general tendency would seem to be beneficial. To the natives, however, both of the East and West Indies, all the commercial benefits which can have resulted from those events have been sunk and lost in the dreadful misfortunes which they have occasioned. . . . At the particular time when these discoveries were made, the superiority of force happened to be so great on the side of the Europeans, that they were enabled to commit with impunity every sort of injustice in those remote countries.\n\nIn the mean time, one of the principal effects of those discoveries has been, to raise the mercantile system to a degree of splendour and glory which it could never otherwise have attained to."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-8-t02",
+      "topicId": "world-4-8",
+      "concept": "what-changed",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Smith's view of the mercantile system was most likely shaped by",
+      "choices": [
+        "his argument that colonies should be closed to trade with every foreign nation",
+        "his argument that free trade would benefit nations more than mercantilism",
+        "his work as a director of the VOC",
+        "his role as a Spanish colonial governor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smith wrote The Wealth of Nations to argue for freer trade, so he describes mercantilism skeptically.",
+      "sourceIds": [
+        "ced-topic-4-8",
+        "smith-wealth-of-nations"
+      ],
+      "choiceExplanations": [
+        "Smith opposed restrictions.",
+        "Smith wrote The Wealth of Nations to argue for freer trade, so he describes mercantilism skeptically.",
+        "Smith did not work for the VOC.",
+        "Smith was Scottish."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Smith criticized restrictions on trade; he did not want colonies closed.",
+      "stimulusId": "smith-discovery",
+      "stimulusBlocks": [
+        {
+          "id": "smith-discovery",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "smith-wealth-of-nations",
+          "amsco_review": "pending",
+          "attribution": "Adam Smith, Scottish philosopher and economist, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
+          "citation": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book IV, ch. 7, part 3. Project Gutenberg eBook #3300.",
+          "note": "The East Indies and West Indies mean South and Southeast Asia and the Americas. The mercantile system is mercantilism, which Smith criticized.",
+          "text": "The discovery of America, and that of a passage to the East Indies by the Cape of Good Hope, are the two greatest and most important events recorded in the history of mankind. . . . By uniting in some measure the most distant parts of the world, by enabling them to relieve one another's wants, to increase one another's enjoyments, and to encourage one another's industry, their general tendency would seem to be beneficial. To the natives, however, both of the East and West Indies, all the commercial benefits which can have resulted from those events have been sunk and lost in the dreadful misfortunes which they have occasioned. . . . At the particular time when these discoveries were made, the superiority of force happened to be so great on the side of the Europeans, that they were enabled to commit with impunity every sort of injustice in those remote countries.\n\nIn the mean time, one of the principal effects of those discoveries has been, to raise the mercantile system to a degree of splendour and glory which it could never otherwise have attained to."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-4-8-t03",
+      "topicId": "world-4-8",
+      "concept": "what-changed",
+      "difficulty": "Challenge",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Smith's passage best supports which claim about the period 1450 to 1750?",
+      "choices": [
+        "Ocean voyages connected distant regions, and colonized peoples benefited the most from them",
+        "Ocean voyages connected distant regions but brought great harm to colonized peoples",
+        "Ocean voyages had little effect on world trade",
+        "Colonized peoples gained the most from the discoveries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smith says the discoveries united distant parts of the world but caused dreadful misfortunes to natives.",
+      "sourceIds": [
+        "ced-topic-4-8",
+        "smith-wealth-of-nations"
+      ],
+      "choiceExplanations": [
+        "Smith says colonized peoples suffered.",
+        "Smith says the discoveries united distant parts of the world but caused dreadful misfortunes to natives.",
+        "Smith calls them the most important events in history.",
+        "Smith says natives suffered."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Smith says benefits to colonized peoples were sunk and lost in misfortune.",
+      "stimulusId": "smith-discovery",
+      "stimulusBlocks": [
+        {
+          "id": "smith-discovery",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "smith-wealth-of-nations",
+          "amsco_review": "pending",
+          "attribution": "Adam Smith, Scottish philosopher and economist, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
+          "citation": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book IV, ch. 7, part 3. Project Gutenberg eBook #3300.",
+          "note": "The East Indies and West Indies mean South and Southeast Asia and the Americas. The mercantile system is mercantilism, which Smith criticized.",
+          "text": "The discovery of America, and that of a passage to the East Indies by the Cape of Good Hope, are the two greatest and most important events recorded in the history of mankind. . . . By uniting in some measure the most distant parts of the world, by enabling them to relieve one another's wants, to increase one another's enjoyments, and to encourage one another's industry, their general tendency would seem to be beneficial. To the natives, however, both of the East and West Indies, all the commercial benefits which can have resulted from those events have been sunk and lost in the dreadful misfortunes which they have occasioned. . . . At the particular time when these discoveries were made, the superiority of force happened to be so great on the side of the Europeans, that they were enabled to commit with impunity every sort of injustice in those remote countries.\n\nIn the mean time, one of the principal effects of those discoveries has been, to raise the mercantile system to a degree of splendour and glory which it could never otherwise have attained to."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-4-8-t04",
+      "topicId": "world-4-8",
+      "concept": "what-continued",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which of the following is presented in the passage as a continuity?",
+      "choices": [
+        "The forced migration of Africans to the Americas",
+        "Sea routes linking every inhabited continent",
+        "The creation of new Atlantic societies",
+        "Demand for Chinese and Indian manufactured goods"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage says Chinese and Indian goods remained in high demand.",
+      "sourceIds": [
+        "ced-topic-4-8"
+      ],
+      "choiceExplanations": [
+        "This is described as a change in the Atlantic world.",
+        "Global sea links were new.",
+        "New Atlantic societies were a change.",
+        "The passage says Chinese and Indian goods remained in high demand."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The forced migration of Africans to the Americas is described as part of what changed.",
+      "stimulusId": "original-continuity-1450-1750",
+      "stimulusBlocks": [
+        {
+          "id": "original-continuity-1450-1750",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.8 key concept: continuity and change in economic systems, labor, and global trade from 1450 to 1750",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing continuity and change in global trade, 1450–1750",
+          "text": "Between 1450 and 1750, sea routes linked every inhabited continent for the first time. Yet many older patterns continued. Asian merchants still carried most Indian Ocean trade, Chinese and Indian manufactured goods remained in high demand, and land-based empires such as the Ottomans and Mughals remained far larger and richer than any European colony in Asia.\n\nWhat changed most was the Atlantic world. There, European empires, new crops and diseases, and the forced migration of Africans created societies that had no earlier parallel."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-8-t05",
+      "topicId": "world-4-8",
+      "concept": "what-changed",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The author would most likely agree that the greatest changes from 1450 to 1750 occurred",
+      "choices": [
+        "in the Atlantic world",
+        "in the interior of the Mughal Empire",
+        "in Indian Ocean trade",
+        "in Chinese manufacturing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The author says what changed most was the Atlantic world.",
+      "sourceIds": [
+        "ced-topic-4-8"
+      ],
+      "choiceExplanations": [
+        "The author says what changed most was the Atlantic world.",
+        "The Mughals remained powerful and largely unchanged.",
+        "Indian Ocean trade showed continuity.",
+        "Chinese goods remained in demand."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The author says Indian Ocean trade largely continued in Asian hands.",
+      "stimulusId": "original-continuity-1450-1750",
+      "stimulusBlocks": [
+        {
+          "id": "original-continuity-1450-1750",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.8 key concept: continuity and change in economic systems, labor, and global trade from 1450 to 1750",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing continuity and change in global trade, 1450–1750",
+          "text": "Between 1450 and 1750, sea routes linked every inhabited continent for the first time. Yet many older patterns continued. Asian merchants still carried most Indian Ocean trade, Chinese and Indian manufactured goods remained in high demand, and land-based empires such as the Ottomans and Mughals remained far larger and richer than any European colony in Asia.\n\nWhat changed most was the Atlantic world. There, European empires, new crops and diseases, and the forced migration of Africans created societies that had no earlier parallel."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-4-8-quick",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-8",
+      "title": "Topic 4.8 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-4-8-q01",
+        "world-4-8-q02",
+        "world-4-8-q03"
+      ]
+    },
+    {
+      "id": "world-4-8-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-8",
+      "title": "Continuity and Change from 1450 to 1750 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-4-8-q01",
+        "world-4-8-q02",
+        "world-4-8-q03"
+      ]
+    }
+  ],
+  "concepts": {
+    "what-changed": {
+      "id": "what-changed",
+      "title": "What changed",
+      "section": "what-changed",
+      "topicId": "world-4-8"
+    },
+    "what-continued": {
+      "id": "what-continued",
+      "title": "What continued",
+      "section": "what-continued",
+      "topicId": "world-4-8"
+    }
+  },
+  "assets": {}
+}

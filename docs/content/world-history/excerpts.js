@@ -740,4 +740,230 @@ export const excerpts = {
     text: "Each of the great land empires was ruled by a minority. Turkic Ottomans governed Greeks, Arabs, Slavs, and Armenians. Muslim Mughals governed a Hindu majority. Manchu Qing emperors governed millions of Han Chinese. To hold power, rulers combined force with inclusion: they recruited outsiders into the army and bureaucracy, kept many local institutions, and presented themselves in different ways to different subjects.\n\nWhen inclusion gave way to policies that alienated important groups, revolts and frontier wars became harder to contain.",
   },
   // END unit-03
+  // BEGIN unit-04
+  smithDiscovery: {
+    id: "smith-discovery",
+    type: "source",
+    sourceType: "primary",
+    source: "smith-wealth-of-nations",
+    amsco_review: "pending",
+    attribution:
+      "Adam Smith, Scottish philosopher and economist, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
+    citation:
+      "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book IV, ch. 7, part 3. Project Gutenberg eBook #3300.",
+    note: "The East Indies and West Indies mean South and Southeast Asia and the Americas. The mercantile system is mercantilism, which Smith criticized.",
+    text: "The discovery of America, and that of a passage to the East Indies by the Cape of Good Hope, are the two greatest and most important events recorded in the history of mankind. . . . By uniting in some measure the most distant parts of the world, by enabling them to relieve one another's wants, to increase one another's enjoyments, and to encourage one another's industry, their general tendency would seem to be beneficial. To the natives, however, both of the East and West Indies, all the commercial benefits which can have resulted from those events have been sunk and lost in the dreadful misfortunes which they have occasioned. . . . At the particular time when these discoveries were made, the superiority of force happened to be so great on the side of the Europeans, that they were enabled to commit with impunity every sort of injustice in those remote countries.\n\nIn the mean time, one of the principal effects of those discoveries has been, to raise the mercantile system to a degree of splendour and glory which it could never otherwise have attained to.",
+  },
+  montaigneCannibals: {
+    id: "montaigne-cannibals",
+    type: "source",
+    sourceType: "primary",
+    source: "montaigne-cotton-1877",
+    amsco_review: "pending",
+    attribution:
+      "Michel de Montaigne, French writer and landowner, essay “Of Cannibals,” published in 1580, discussing the Tupinamba people of Brazil",
+    citation:
+      "The Essays of Montaigne, trans. Charles Cotton, ed. William Carew Hazlitt (1877), Book I, ch. 30, “Of Cannibals.” Project Gutenberg eBook #3600.",
+    note: "Antarctic France was a short-lived French colony in Brazil founded by Villegaignon in 1555. “This nation” means the Tupinamba. The last lines refer to cruelty during France's wars of religion.",
+    text: "I long had a man in my house that lived ten or twelve years in the New World, discovered in these latter days, and in that part of it where Villegaignon landed, . . . which he called Antarctic France. . . .\n\nNow, to return to my subject, I find that there is nothing barbarous and savage in this nation, by anything that I can gather, excepting, that every one gives the title of barbarism to everything that is not in use in his own country. . . .\n\nI am not sorry that we should here take notice of the barbarous horror of so cruel an action, but that, seeing so clearly into their faults, we should be so blind to our own. I conceive there is more barbarity in eating a man alive, than when he is dead; in tearing a body limb from limb by racks and torments, that is yet in perfect sense; . . . (as we have not only read, but lately seen, not amongst inveterate and mortal enemies, but among neighbours and fellow-citizens, and, which is worse, under colour of piety and religion), than to roast and eat him after he is dead.",
+  },
+  originalNavTech: {
+    id: "original-navigation-technology",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.1 key concept: knowledge, scientific learning, and technology from the Classical, Islamic, and Asian worlds spread, enabling European maritime innovation",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how historians explain European navigation technology, c. 1400–1600",
+    text: "Few of the tools European sailors used in the 1400s were European inventions. The magnetic compass came from China. The astrolabe, refined by scholars in the Islamic world, let navigators measure latitude by the height of the sun or stars. The triangular lateen sail, used for centuries by sailors in the Indian Ocean and Mediterranean, let ships sail closer to the wind.\n\nPortuguese shipbuilders combined these elements in the caravel, a small, maneuverable ship with both square and lateen sails. Its design allowed sailors to explore the West African coast and return against the prevailing winds.",
+  },
+  originalWinds: {
+    id: "original-winds-currents",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.1 key concept: new tools, ship designs, and an improved understanding of regional wind and current patterns made transoceanic travel and trade possible",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how sailors used Atlantic and Indian Ocean wind systems, c. 1450–1600",
+    text: "Sailing home from West Africa was harder than sailing out, because winds blew steadily from the north. Portuguese captains learned to swing far west into the open Atlantic, where westerly winds could carry them back to Europe. This long loop, sometimes called the volta do mar, depended on knowledge of wind patterns built up over many voyages.\n\nIn the Indian Ocean, European ships entered a world that already had detailed knowledge of the monsoon winds. When Vasco da Gama reached East Africa in 1498, he hired a local pilot to guide his fleet across the ocean to Calicut.",
+  },
+  originalPortugueseVoyages: {
+    id: "original-portuguese-voyages",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.2 key concept: new state-supported transoceanic maritime exploration occurred in this period, led at first by Portugal",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Portuguese exploration, 1415–1500",
+    text: "In the early 1400s, Prince Henry of Portugal sponsored voyages down the West African coast. His motives combined a search for gold, a desire to reach Africa's gold-producing regions without going through Muslim middlemen in North Africa, crusading zeal, and curiosity about the coast. The Portuguese crown claimed a share of the profits.\n\nBartolomeu Dias rounded the southern tip of Africa in 1488. Ten years later, Vasco da Gama reached Calicut in India, opening a sea route that bypassed the Venetian and Ottoman middlemen who had controlled the spice trade into Europe.",
+  },
+  originalSpanishVoyages: {
+    id: "original-spanish-voyages",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.2 key concept: Spanish sponsorship of the first Columbian and subsequent voyages across the Atlantic and Pacific dramatically increased European interest in transoceanic travel and trade",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Spanish exploration, 1492–1522",
+    text: "Christopher Columbus, a Genoese navigator, sailed for the Spanish monarchs Ferdinand and Isabella in 1492, hoping to reach Asia by sailing west. Instead he reached the Caribbean. In 1494 the Treaty of Tordesillas divided newly claimed lands outside Europe between Spain and Portugal along a line in the Atlantic, which later gave Portugal its claim to Brazil.\n\nFrom 1519 to 1522 an expedition led at first by Ferdinand Magellan sailed around the world. Magellan was killed in the Philippines, but one ship returned to Spain, proving that the Americas lay between Europe and Asia and that the oceans were connected.",
+  },
+  originalNorthernAtlantic: {
+    id: "original-northern-atlantic",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.2 key concept: northern Atlantic crossings were undertaken under English, French, and Dutch sponsorship, often with the goal of finding alternative sea routes to Asia",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing English, French, and Dutch voyages to North America, 1497–1610",
+    text: "Sailing for England in 1497, John Cabot reached the coast of Newfoundland. French voyages under Jacques Cartier in the 1530s explored the St. Lawrence River. Both searched for a northwest passage to Asia, and neither found one.\n\nWhat they found instead were rich fishing grounds and a trade in furs with Indigenous peoples. By the early 1600s, French traders in New France and Dutch traders along the Hudson River were exchanging metal tools, cloth, and guns for beaver pelts, which were in high demand in Europe for hats.",
+  },
+  originalDisease: {
+    id: "original-disease",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.3 key concept: European colonization of the Americas led to the unintentional transfer of disease vectors, including smallpox and measles, that devastated Indigenous populations",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how historians explain population decline in the Americas after 1492",
+    text: "Before 1492, people in the Americas had no exposure to smallpox, measles, or influenza, diseases that had circulated in Afro-Eurasia for centuries. When these diseases arrived, they spread faster than the Europeans themselves. A smallpox epidemic struck Tenochtitlan in 1520, during the Spanish campaign against the Mexica, and smallpox reached the Andes before Francisco Pizarro did.\n\nHistorians estimate that the Indigenous population of the Americas fell by as much as 90 percent in the century after contact. They add that disease worked together with war, forced labor, and displacement, which left survivors less able to recover.",
+  },
+  originalCrops: {
+    id: "original-crops-animals",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.3 key concept: American foods became staple crops in various parts of Europe, Asia, and Africa, while Afro-Eurasian crops and animals transformed the Americas",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the exchange of plants and animals after 1492",
+    text: "Maize, potatoes, and manioc, all first domesticated in the Americas, became staple foods across Afro-Eurasia. Potatoes grew well in cool northern Europe, maize spread through Africa and China, and manioc became important in West and Central Africa. Some historians link these crops to population growth in the 1700s.\n\nIn the other direction, Europeans brought wheat, sugarcane, horses, cattle, and pigs to the Americas. Grazing animals changed landscapes and Indigenous ways of life. On the Great Plains, horses transformed hunting and warfare. Sugar, grown on plantations by enslaved Africans, became one of the most profitable crops in the world.",
+  },
+  originalTradingPosts: {
+    id: "original-trading-posts",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.4 key concept: Europeans established new trading posts in Africa and Asia, which proved profitable for the rulers and merchants involved in new global trade networks",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Portuguese trading-post empire, 1498–1600",
+    text: "The Portuguese did not conquer large territories in Asia. Instead they seized fortified ports at key points: Goa in India in 1510, Malacca in 1511, and Hormuz near the Persian Gulf. From these bases they required Asian merchant ships to buy a pass, the cartaz, and pay duties at Portuguese ports, or risk being attacked.\n\nThis system brought large profits but limited control. Most Indian Ocean trade continued to be carried by Asian merchants, and powerful land empires such as the Mughals were largely unaffected by Portuguese naval power.",
+  },
+  originalVOC: {
+    id: "original-voc",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.4 key concept: European merchants' role in Asian trade was characterized by joint-stock companies and by efforts to dominate trade in specific goods",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Dutch East India Company, 1602–1700",
+    text: "In 1602 the Dutch government chartered the Dutch East India Company, known by its Dutch initials VOC. As a joint-stock company, it raised money by selling shares to many investors, who shared the profits and the risks of long, dangerous voyages. The company could build forts, keep soldiers, and make treaties.\n\nFrom its headquarters at Batavia on Java, founded in 1619, the VOC used force to control the trade in nutmeg, cloves, and mace. On the Banda Islands in the 1620s, company forces killed or enslaved much of the population and replaced them with plantations worked by enslaved laborers.",
+  },
+  originalAfricanStates: {
+    id: "original-african-states",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.4 key concept: expansion of maritime trading networks fostered the growth of states in Africa, including the Asante and the Kingdom of the Kongo",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how Kongo and Asante took part in Atlantic trade, c. 1490–1750",
+    text: "The Kingdom of Kongo in west-central Africa established relations with Portugal in the 1480s. King Afonso I, who ruled from about 1509 to 1542, converted to Christianity and exchanged ambassadors with Portugal, but he also wrote letters protesting that Portuguese traders were enslaving his subjects.\n\nThe Asante kingdom, which rose in the forests of present-day Ghana around 1700, grew powerful by selling gold and enslaved war captives to European traders on the coast in exchange for firearms and cloth. Its rulers used the firearms to expand their state.",
+  },
+  originalLaborSystems: {
+    id: "original-labor-systems",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.5 key concept: the demand for labor intensified, and colonial economies in the Americas depended on coerced labor such as the encomienda, hacienda, and Spanish adaptation of the mit'a",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing labor systems in Spanish America, c. 1500–1700",
+    text: "Under the encomienda system, the Spanish crown granted colonists the right to demand labor and tribute from Indigenous communities, in return for protecting them and teaching them Christianity. Abuses were widespread, and the crown restricted the system after the 1540s. Large estates called haciendas later relied on Indigenous workers bound by debt.\n\nIn the Andes, Spanish officials adapted the Inca mit'a. Communities had to send a share of their adult men to work for months in the silver mines of Potosí, discovered in 1545. The work was dangerous, and many workers died from accidents and mercury poisoning.",
+  },
+  originalAtlanticSlavery: {
+    id: "original-atlantic-slavery",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.5 key concept: the Atlantic trading system involved the movement of goods, wealth, and free and unfree laborers, and chattel slavery grew with plantation economies",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the growth of the Atlantic slave trade, c. 1500–1750",
+    text: "Sugar plantations in Brazil and the Caribbean demanded huge amounts of labor. As Indigenous populations collapsed, planters turned to enslaved Africans. Over the course of the transatlantic slave trade, about 12.5 million Africans were forced onto ships, and nearly 2 million died during the Middle Passage. Most went to Brazil and the Caribbean.\n\nAtlantic slavery differed from many earlier forms of slavery. Enslaved status was inherited and tied to race, and enslaved people were treated as property, a system called chattel slavery. Yet enslaved Africans kept languages, beliefs, and skills, including rice cultivation, that shaped American societies.",
+  },
+  originalSilver: {
+    id: "original-silver-trade",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.5 key concept: the global flow of silver from the Americas and Japan, much of it to China, connected maritime empires and Asian economies",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the global silver trade, c. 1550–1700",
+    text: "After 1571, when Spain founded Manila in the Philippines, ships called the Manila galleons carried silver from Mexico across the Pacific. In Manila, Chinese merchants traded silk and porcelain for the silver. China's economy had a huge demand for silver, partly because the Ming government collected taxes in it.\n\nHistorians describe this as the first truly global trade network, linking the Americas, Asia, and Europe. The flood of silver also caused inflation in Spain, which spent much of its wealth on wars and imports instead of investing at home.",
+  },
+  originalRestrictions: {
+    id: "original-trade-restrictions",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.5 key concept: some Asian states, such as Tokugawa Japan and Qing China, sought to limit the disruptive effects of European trade through restrictive policies",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Japanese and Chinese limits on European trade, c. 1630–1760",
+    text: "In the 1630s, the Tokugawa shogunate banned Christianity, expelled Portuguese traders, and forbade Japanese from traveling abroad. Only Dutch and Chinese merchants were allowed to trade, and the Dutch were confined to a small island in Nagasaki harbor. Japan continued to trade with China and Korea.\n\nThe Qing also controlled European trade. By the 1750s, European merchants were limited to the port of Canton and could deal only with licensed Chinese merchant houses. Both states welcomed some trade but tried to keep foreign influence under control.",
+  },
+  originalPuebloRevolt: {
+    id: "original-pueblo-revolt",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.6 key concept: as states expanded and centralized, resistance to state power by Indigenous peoples and others increased",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Pueblo Revolt of 1680",
+    text: "By the 1670s, Pueblo communities in present-day New Mexico had endured decades of Spanish rule. Spanish colonists demanded labor and tribute, and Franciscan missionaries tried to suppress Pueblo religious ceremonies. Drought and raids made life harder still.\n\nIn 1680, led by a religious leader named Popé, many Pueblo towns rose together, killed about 400 Spanish colonists and priests, and drove the survivors south out of the region. The Spanish returned in the 1690s, but afterward they generally tolerated more Pueblo religious practice and relied less on forced labor.",
+  },
+  originalStateChallenges: {
+    id: "original-state-challenges",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.6 key concept: as states expanded and centralized, resistance to state power increased, from elites, peasants, and rival groups",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing challenges to state power in three regions, c. 1620–1700",
+    text: "In west-central Africa, Queen Nzinga of Ndongo and Matamba resisted Portuguese expansion from the 1620s to the 1660s, combining diplomacy, warfare, and alliances with the Dutch. In France, nobles and Paris officials rose against the young Louis XIV in the Fronde between 1648 and 1653. In India, the Maratha leader Shivaji built an independent kingdom in the 1670s and fought the Mughal Empire.\n\nThe causes differed. Nzinga resisted a foreign colonial power, the Fronde opposed the growth of royal authority, and the Marathas challenged an empire they saw as foreign and burdensome.",
+  },
+  originalCasta: {
+    id: "original-casta",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.7 key concept: the casta system in the Americas reflected new social hierarchies based on ancestry, as colonial societies combined European, African, and Indigenous peoples",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing social hierarchy in Spanish America, c. 1600–1750",
+    text: "Spanish American society was ranked largely by ancestry. At the top were peninsulares, people born in Spain, who held the highest offices. Below them were creoles, people of Spanish descent born in the Americas. Mestizos had mixed Spanish and Indigenous ancestry, and mulattoes had mixed Spanish and African ancestry. Indigenous people and enslaved Africans were near the bottom.\n\nIn the 1700s, painters produced casta paintings that labeled many categories of mixed ancestry. Historians note that the categories were not always fixed in practice: wealth, occupation, and reputation could change how a person was classified.",
+  },
+  originalContinuity4: {
+    id: "original-continuity-1450-1750",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.8 key concept: continuity and change in economic systems, labor, and global trade from 1450 to 1750",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing continuity and change in global trade, 1450–1750",
+    text: "Between 1450 and 1750, sea routes linked every inhabited continent for the first time. Yet many older patterns continued. Asian merchants still carried most Indian Ocean trade, Chinese and Indian manufactured goods remained in high demand, and land-based empires such as the Ottomans and Mughals remained far larger and richer than any European colony in Asia.\n\nWhat changed most was the Atlantic world. There, European empires, new crops and diseases, and the forced migration of Africans created societies that had no earlier parallel.",
+  },
+  // END unit-04
 };

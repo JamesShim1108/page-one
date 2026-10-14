@@ -345,4 +345,76 @@ export const sources = [
     note: "Public domain. The Ninety-five Theses are Project Gutenberg #274. Excerpts are checked with scripts/verify-excerpts.mjs.",
   },
   // END unit-03
+  // BEGIN unit-04
+  {
+    id: "ced-topic-4-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Technological Innovations from 1450 to 1750.",
+  },
+  {
+    id: "ced-topic-4-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Exploration: Causes and Events from 1450 to 1750.",
+  },
+  {
+    id: "ced-topic-4-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Columbian Exchange.",
+  },
+  {
+    id: "ced-topic-4-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Maritime Empires Established.",
+  },
+  {
+    id: "ced-topic-4-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Maritime Empires Maintained and Developed.",
+  },
+  {
+    id: "ced-topic-4-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Internal and External Challenges to State Power from 1450 to 1750.",
+  },
+  {
+    id: "ced-topic-4-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Changing Social Hierarchies from 1450 to 1750.",
+  },
+  {
+    id: "ced-topic-4-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Continuity and Change from 1450 to 1750.",
+  },
+  {
+    id: "smith-wealth-of-nations",
+    label:
+      "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations (London, 1776), Project Gutenberg eBook #3300",
+    url: "https://www.gutenberg.org/ebooks/3300",
+    note: "Public domain. The Project Gutenberg text does not state which edition it reproduces. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "montaigne-cotton-1877",
+    label:
+      "The Essays of Montaigne, trans. Charles Cotton, ed. William Carew Hazlitt (1877), Project Gutenberg eBook #3600",
+    url: "https://www.gutenberg.org/ebooks/3600",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-04
 ];

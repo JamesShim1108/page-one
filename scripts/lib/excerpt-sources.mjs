@@ -24,6 +24,15 @@ export const EXCERPT_SOURCES = Object.freeze({
     files: ["luther-theses.txt"],
     label: "Project Gutenberg #274 (Works of Martin Luther, vol. 1, 1915)",
   },
+  "smith-": {
+    files: ["smith-wealth.txt"],
+    label:
+      "Project Gutenberg #3300 (Adam Smith, The Wealth of Nations), converted to UTF-8",
+  },
+  "montaigne-": {
+    files: ["montaigne-essays.txt"],
+    label: "Project Gutenberg #3600 (Cotton's Montaigne, ed. Hazlitt, 1877)",
+  },
 });
 
 export function excerptSourceFor(id) {

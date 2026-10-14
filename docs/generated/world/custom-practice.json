@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "world",
-  "revision": "6a7eb3efa5d1cdc7",
+  "revision": "29ddee767c337331",
   "pools": [
     {
       "id": "world-1-1:world-1-1-quiz",
@@ -323,6 +323,143 @@
         "world-3-4-q01",
         "world-3-4-q02",
         "world-3-4-q03"
+      ]
+    },
+    {
+      "id": "world-4-1:world-4-1-quiz",
+      "quizId": "world-4-1-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-1",
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "bankPath": "world/banks/world-4-1.json",
+      "questionIds": [
+        "world-4-1-q01",
+        "world-4-1-q02",
+        "world-4-1-q03",
+        "world-4-1-q04",
+        "world-4-1-q05",
+        "world-4-1-q06"
+      ]
+    },
+    {
+      "id": "world-4-2:world-4-2-quiz",
+      "quizId": "world-4-2-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-2",
+      "code": "4.2",
+      "title": "Exploration: Causes and Events from 1450 to 1750",
+      "bankPath": "world/banks/world-4-2.json",
+      "questionIds": [
+        "world-4-2-q01",
+        "world-4-2-q02",
+        "world-4-2-q03",
+        "world-4-2-q04",
+        "world-4-2-q05",
+        "world-4-2-q06"
+      ]
+    },
+    {
+      "id": "world-4-3:world-4-3-quiz",
+      "quizId": "world-4-3-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-3",
+      "code": "4.3",
+      "title": "Columbian Exchange",
+      "bankPath": "world/banks/world-4-3.json",
+      "questionIds": [
+        "world-4-3-q01",
+        "world-4-3-q02",
+        "world-4-3-q03",
+        "world-4-3-q04",
+        "world-4-3-q05",
+        "world-4-3-q06"
+      ]
+    },
+    {
+      "id": "world-4-4:world-4-4-quiz",
+      "quizId": "world-4-4-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-4",
+      "code": "4.4",
+      "title": "Maritime Empires Established",
+      "bankPath": "world/banks/world-4-4.json",
+      "questionIds": [
+        "world-4-4-q01",
+        "world-4-4-q02",
+        "world-4-4-q03",
+        "world-4-4-q04",
+        "world-4-4-q05",
+        "world-4-4-q06"
+      ]
+    },
+    {
+      "id": "world-4-5:world-4-5-quiz",
+      "quizId": "world-4-5-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-5",
+      "code": "4.5",
+      "title": "Maritime Empires Maintained and Developed",
+      "bankPath": "world/banks/world-4-5.json",
+      "questionIds": [
+        "world-4-5-q01",
+        "world-4-5-q02",
+        "world-4-5-q03",
+        "world-4-5-q04",
+        "world-4-5-q05",
+        "world-4-5-q06"
+      ]
+    },
+    {
+      "id": "world-4-6:world-4-6-quiz",
+      "quizId": "world-4-6-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-6",
+      "code": "4.6",
+      "title": "Internal and External Challenges to State Power from 1450 to 1750",
+      "bankPath": "world/banks/world-4-6.json",
+      "questionIds": [
+        "world-4-6-q01",
+        "world-4-6-q02",
+        "world-4-6-q03",
+        "world-4-6-q04"
+      ]
+    },
+    {
+      "id": "world-4-7:world-4-7-quiz",
+      "quizId": "world-4-7-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-7",
+      "code": "4.7",
+      "title": "Changing Social Hierarchies from 1450 to 1750",
+      "bankPath": "world/banks/world-4-7.json",
+      "questionIds": [
+        "world-4-7-q01",
+        "world-4-7-q02",
+        "world-4-7-q03",
+        "world-4-7-q04"
+      ]
+    },
+    {
+      "id": "world-4-8:world-4-8-quiz",
+      "quizId": "world-4-8-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-8",
+      "code": "4.8",
+      "title": "Continuity and Change from 1450 to 1750",
+      "bankPath": "world/banks/world-4-8.json",
+      "questionIds": [
+        "world-4-8-q01",
+        "world-4-8-q02",
+        "world-4-8-q03"
       ]
     }
   ]

@@ -1,0 +1,561 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-4",
+    "courseId": "world",
+    "number": 4,
+    "title": "Transoceanic Interconnections",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how new maritime technology, state-sponsored voyages, the Columbian Exchange, and coerced labor connected the world's oceans and reshaped societies.",
+    "quizzes": [
+      {
+        "id": "world-4-practice-test",
+        "courseId": "world",
+        "unitId": "world-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t01",
+              "world-4-1-t02",
+              "world-4-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t04",
+              "world-4-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t01",
+              "world-4-2-t02",
+              "world-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t04",
+              "world-4-2-t05",
+              "world-4-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t07",
+              "world-4-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t01",
+              "world-4-3-t02",
+              "world-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t04",
+              "world-4-3-t05",
+              "world-4-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t01",
+              "world-4-4-t02",
+              "world-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t04",
+              "world-4-4-t05",
+              "world-4-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t07",
+              "world-4-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t01",
+              "world-4-5-t02",
+              "world-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t04",
+              "world-4-5-t05",
+              "world-4-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t07",
+              "world-4-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t09",
+              "world-4-5-t10"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t01",
+              "world-4-6-t02",
+              "world-4-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t04",
+              "world-4-6-t05",
+              "world-4-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t01",
+              "world-4-7-t02",
+              "world-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t04",
+              "world-4-7-t05",
+              "world-4-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t01",
+              "world-4-8-t02",
+              "world-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t04",
+              "world-4-8-t05"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 54
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-4-1-quiz",
+        "title": "Technological Innovations from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-2-quiz",
+        "title": "Exploration: Causes and Events from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-3-quiz",
+        "title": "Columbian Exchange topic quiz"
+      },
+      {
+        "id": "world-4-4-quiz",
+        "title": "Maritime Empires Established topic quiz"
+      },
+      {
+        "id": "world-4-5-quiz",
+        "title": "Maritime Empires Maintained and Developed topic quiz"
+      },
+      {
+        "id": "world-4-6-quiz",
+        "title": "Internal and External Challenges to State Power from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-7-quiz",
+        "title": "Changing Social Hierarchies from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-8-quiz",
+        "title": "Continuity and Change from 1450 to 1750 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-4-1",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-4-4",
+    "courseId": "world",
+    "unitId": "world-4",
+    "order": 4,
+    "code": "4.4",
+    "title": "Maritime Empires Established",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How European states built trading-post empires, joint-stock companies, and colonies, and how some African and Asian states grew through new trade."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "638f8b50d172cfe8",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-4-4",
+    "unitId": "world-4",
+    "courseId": "world",
+    "code": "4.4",
+    "title": "Maritime Empires Established",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "order": 4,
+    "summary": "How European states built trading-post empires, joint-stock companies, and colonies, and how some African and Asian states grew through new trade.",
+    "minutes": 12,
+    "learningGoals": [
+      "Explain the process of state building and expansion among maritime empires from 1450 to 1750.",
+      "Explain how joint-stock companies and trading posts operated.",
+      "Explain how African states such as Kongo and Asante took part in new trade networks."
+    ],
+    "bigIdea": "European maritime empires grew through fortified trading posts, chartered companies, and conquest, while some African and Asian states used new trade to grow stronger.",
+    "context": "Once sea routes were known, European states and merchants competed to control them. Their methods ranged from naval force at Asian ports to conquest of entire American empires.",
+    "sections": [
+      {
+        "id": "trading-post-empires",
+        "title": "Trading-post empires",
+        "conceptTitle": "Trading-post empires",
+        "lenses": [
+          "P",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Portugal seized fortified ports such as Goa in 1510 and Malacca in 1511. It required Asian ships to buy passes and pay duties, enforcing the system with armed ships."
+          },
+          {
+            "type": "paragraph",
+            "text": "Most Indian Ocean trade remained in Asian hands, and land empires such as the Mughals were barely affected. A trading-post empire controlled points on the coast, not whole regions."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Do not describe Portugal as ruling India. It held a handful of coastal forts while powerful Asian states ruled the interior."
+          }
+        ],
+        "takeaway": "Trading-post empires used naval force to profit from trade without governing large territories.",
+        "sourceIds": [
+          "ced-topic-4-4"
+        ]
+      },
+      {
+        "id": "joint-stock-companies",
+        "title": "Joint-stock companies",
+        "conceptTitle": "Joint-stock companies",
+        "lenses": [
+          "E",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The English East India Company, chartered in 1600, and the Dutch East India Company, or VOC, chartered in 1602, raised money by selling shares to investors. These joint-stock companies spread the risk of long voyages among many owners."
+          },
+          {
+            "type": "paragraph",
+            "text": "Governments gave the companies the right to build forts, keep armies, and make treaties. The VOC, based at Batavia on Java from 1619, used force to control the spice trade."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Long voyages were costly and risky, so merchants pooled money in joint-stock companies, which let them fund fleets and armies and compete for control of Asian trade."
+          }
+        ],
+        "takeaway": "Joint-stock companies combined private investment with state-like powers.",
+        "sourceIds": [
+          "ced-topic-4-4"
+        ]
+      },
+      {
+        "id": "spanish-conquests",
+        "title": "Conquest in the Americas",
+        "conceptTitle": "Conquest in the Americas",
+        "lenses": [
+          "P",
+          "In"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Hernán Cortés, with tens of thousands of Indigenous allies, defeated the Mexica between 1519 and 1521. Francisco Pizarro captured the Inca ruler Atahualpa in 1532 during a civil war within the empire."
+          },
+          {
+            "type": "paragraph",
+            "text": "Spain built a land empire in the Americas with viceroys, colonial courts, and the Catholic Church. Portugal colonized Brazil, while France, England, and the Netherlands founded colonies in North America and the Caribbean."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "A small number of Spanish soldiers did not conquer the Mexica alone. Indigenous allies, disease, and internal divisions were essential."
+          }
+        ],
+        "takeaway": "In the Americas, Europeans built territorial empires rather than trading posts.",
+        "sourceIds": [
+          "ced-topic-4-4"
+        ]
+      },
+      {
+        "id": "african-states",
+        "title": "African states and Atlantic trade",
+        "conceptTitle": "African states and Atlantic trade",
+        "lenses": [
+          "P",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Kingdom of Kongo established ties with Portugal in the 1480s. King Afonso I adopted Christianity but protested Portuguese slave raiding. The Asante kingdom, rising around 1700, sold gold and enslaved war captives to Europeans for firearms and cloth."
+          },
+          {
+            "type": "paragraph",
+            "text": "European traders on the West African coast generally depended on African rulers and merchants, who controlled access to the interior."
+          }
+        ],
+        "takeaway": "Some African states grew stronger by taking part in Atlantic trade, including the slave trade.",
+        "sourceIds": [
+          "ced-topic-4-4"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "trading-post-empire",
+        "topicId": "world-4-4",
+        "term": "trading-post empire",
+        "definition": "An empire that controlled trade through fortified coastal ports rather than by ruling large territories."
+      },
+      {
+        "id": "joint-stock-company",
+        "topicId": "world-4-4",
+        "term": "joint-stock companies",
+        "definition": "Businesses that raised money by selling shares to investors, who shared profits and risks; some held state-like powers."
+      },
+      {
+        "id": "voc",
+        "topicId": "world-4-4",
+        "term": "VOC",
+        "definition": "The Dutch East India Company, a joint-stock company chartered in 1602 that controlled much of the spice trade."
+      },
+      {
+        "id": "kingdom-of-kongo",
+        "topicId": "world-4-4",
+        "term": "Kingdom of Kongo",
+        "definition": "A west-central African kingdom whose rulers adopted Christianity and traded with Portugal from the late 1400s."
+      },
+      {
+        "id": "asante",
+        "topicId": "world-4-4",
+        "term": "Asante",
+        "definition": "A West African kingdom that rose around 1700 and grew powerful through trade in gold and enslaved captives."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-4-trading-post-empire",
+        "world-4-joint-stock-company",
+        "world-4-voc",
+        "world-4-kingdom-of-kongo",
+        "world-4-asante"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Unit 3 bridge",
+        "title": "Land and sea empires",
+        "body": "The Ottomans, Safavids, and Mughals expanded over land, while Portugal and the Netherlands built empires of ports and sea lanes.",
+        "transferQuestion": "Explain one difference between a land-based empire and a trading-post empire.",
+        "feedback": "Name an example of each and explain how each controlled territory or trade.",
+        "links": [
+          {
+            "topicId": "world-3-1",
+            "sectionId": "islamic-empires",
+            "label": "Review land-based empires"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-4-4",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-4-4.json",
+  "glossary": [
+    {
+      "id": "world-4-trading-post-empire",
+      "term": "trading-post empire",
+      "definition": "An empire that controlled trade through fortified coastal ports rather than by ruling large territories.",
+      "aliases": [],
+      "sourceLabel": "Topic 4.4 glossary"
+    },
+    {
+      "id": "world-4-joint-stock-company",
+      "term": "joint-stock companies",
+      "definition": "Businesses that raised money by selling shares to investors, who shared profits and risks; some held state-like powers.",
+      "aliases": [
+        "joint-stock company"
+      ],
+      "sourceLabel": "Topic 4.4 glossary"
+    },
+    {
+      "id": "world-4-voc",
+      "term": "VOC",
+      "definition": "The Dutch East India Company, a joint-stock company chartered in 1602 that controlled much of the spice trade.",
+      "aliases": [],
+      "sourceLabel": "Topic 4.4 glossary"
+    },
+    {
+      "id": "world-4-kingdom-of-kongo",
+      "term": "Kingdom of Kongo",
+      "definition": "A west-central African kingdom whose rulers adopted Christianity and traded with Portugal from the late 1400s.",
+      "aliases": [],
+      "sourceLabel": "Topic 4.4 glossary"
+    },
+    {
+      "id": "world-4-asante",
+      "term": "Asante",
+      "definition": "A West African kingdom that rose around 1700 and grew powerful through trade in gold and enslaved captives.",
+      "aliases": [],
+      "sourceLabel": "Topic 4.4 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-4-4",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 4.4.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Maritime Empires Established."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}
