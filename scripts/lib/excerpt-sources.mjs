@@ -3,6 +3,10 @@
 // build only checks that every quoted excerpt belongs to a registered edition.
 // Project Gutenberg plain-text files can be downloaded from gutenberg.org or
 // from the GITenberg mirror on GitHub, which republishes the same files.
+// Presidential addresses are US government works. Their check files are the
+// C-SPAN transcripts in the NLTK data repository on GitHub
+// (packages/corpora/inaugural.zip and state_union.zip), renamed with an
+// inaugural- or sotu- prefix because both corpora use names like 1981-Reagan.txt.
 export const EXCERPT_SOURCES = Object.freeze({
   "polo-": {
     files: ["polo-v1.txt", "polo-v2.txt"],
@@ -65,6 +69,18 @@ export const EXCERPT_SOURCES = Object.freeze({
   "keynes-": {
     files: ["keynes-consequences.txt"],
     label: "Project Gutenberg #15776 (Keynes, The Economic Consequences of the Peace)",
+  },
+  "truman-inaugural-": {
+    files: ["inaugural-1949-Truman.txt"],
+    label: "NLTK inaugural corpus, 1949-Truman.txt (C-SPAN transcript)",
+  },
+  "kennedy-inaugural-": {
+    files: ["inaugural-1961-Kennedy.txt"],
+    label: "NLTK inaugural corpus, 1961-Kennedy.txt (C-SPAN transcript)",
+  },
+  "bush-sotu-1990-": {
+    files: ["sotu-1990-Bush.txt"],
+    label: "NLTK State of the Union corpus, 1990-Bush.txt (C-SPAN transcript)",
   },
 });
 

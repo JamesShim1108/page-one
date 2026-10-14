@@ -1,0 +1,489 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-8",
+    "courseId": "world",
+    "number": 8,
+    "title": "Cold War and Decolonization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how the Cold War divided the world, how colonies won independence, how new states and movements challenged established power, and why the Cold War ended.",
+    "quizzes": [
+      {
+        "id": "world-8-practice-test",
+        "courseId": "world",
+        "unitId": "world-8",
+        "title": "Unit 8 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t01",
+              "world-8-1-t02",
+              "world-8-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t04",
+              "world-8-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t01",
+              "world-8-2-t02",
+              "world-8-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t04",
+              "world-8-2-t05",
+              "world-8-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t07",
+              "world-8-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t01",
+              "world-8-3-t02",
+              "world-8-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t04",
+              "world-8-3-t05",
+              "world-8-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t01",
+              "world-8-4-t02",
+              "world-8-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t04",
+              "world-8-4-t05",
+              "world-8-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t01",
+              "world-8-5-t02",
+              "world-8-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t04",
+              "world-8-5-t05",
+              "world-8-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t07",
+              "world-8-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t01",
+              "world-8-6-t02",
+              "world-8-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t04",
+              "world-8-6-t05",
+              "world-8-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t01",
+              "world-8-7-t02",
+              "world-8-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t04",
+              "world-8-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t01",
+              "world-8-8-t02",
+              "world-8-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t04",
+              "world-8-8-t05",
+              "world-8-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-9",
+            "questionIds": [
+              "world-8-9-t01",
+              "world-8-9-t02",
+              "world-8-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-8-practice-test",
+      "title": "Unit 8 Practice Test",
+      "questionCount": 53
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-8-1-quiz",
+        "title": "Setting the Stage topic quiz"
+      },
+      {
+        "id": "world-8-2-quiz",
+        "title": "The Cold War topic quiz"
+      },
+      {
+        "id": "world-8-3-quiz",
+        "title": "Effects of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-4-quiz",
+        "title": "Spread of Communism topic quiz"
+      },
+      {
+        "id": "world-8-5-quiz",
+        "title": "Decolonization topic quiz"
+      },
+      {
+        "id": "world-8-6-quiz",
+        "title": "Newly Independent States topic quiz"
+      },
+      {
+        "id": "world-8-7-quiz",
+        "title": "Global Resistance topic quiz"
+      },
+      {
+        "id": "world-8-8-quiz",
+        "title": "End of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-9-quiz",
+        "title": "Causation in the Cold War Era topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-8-1",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 1,
+      "code": "8.1",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How World War II left two superpowers, exhausted colonial empires, and new demands for independence."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-8-saq-01",
+        "title": "Unit 8 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-8-8",
+    "courseId": "world",
+    "unitId": "world-8",
+    "order": 8,
+    "code": "8.8",
+    "title": "End of the Cold War",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How Soviet economic weakness, Gorbachev's reforms, and the revolutions of 1989 ended the Cold War."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "ce76e0c9edb509b1",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-8-8",
+    "unitId": "world-8",
+    "courseId": "world",
+    "code": "8.8",
+    "title": "End of the Cold War",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "order": 8,
+    "summary": "How Soviet economic weakness, Gorbachev's reforms, and the revolutions of 1989 ended the Cold War.",
+    "minutes": 9,
+    "learningGoals": [
+      "Explain the causes of the end of the Cold War."
+    ],
+    "bigIdea": "Economic stagnation, costly commitments, and reforms that loosened control allowed Eastern Europeans to overthrow communism and the Soviet Union to dissolve.",
+    "context": "By the 1980s, the Soviet economy could not keep pace with Western technology or consumer goods.",
+    "sections": [
+      {
+        "id": "soviet-decline",
+        "title": "Soviet decline and reform",
+        "conceptTitle": "Soviet decline and reform",
+        "lenses": [
+          "E",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In the 1970s, détente, a relaxation of tensions, produced arms control treaties, but it ended when the Soviet Union invaded Afghanistan in 1979. The war cost lives and money for a decade. Meanwhile, the Soviet economy stagnated, and falling oil prices in the 1980s cut its income."
+          },
+          {
+            "type": "paragraph",
+            "text": "US President Ronald Reagan increased military spending. Mikhail Gorbachev, the Soviet leader from 1985, introduced glasnost, or openness, which allowed more criticism, and perestroika, a restructuring of the economy. He also negotiated arms reductions with the United States."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Gorbachev's reforms were meant to save the Soviet system, but openness let people criticize it, and restructuring disrupted the economy."
+          }
+        ],
+        "takeaway": "Economic weakness and Gorbachev's reforms loosened the Soviet grip at home and abroad.",
+        "sourceIds": [
+          "ced-topic-8-8"
+        ]
+      },
+      {
+        "id": "revolutions-1989",
+        "title": "1989 and 1991",
+        "conceptTitle": "1989 and 1991",
+        "lenses": [
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In Poland, the trade union Solidarity, led by Lech Wałęsa, won a semi-free election in 1989. Gorbachev refused to send troops, and the revolutions of 1989 spread across Eastern Europe. The Berlin Wall fell in November, and Germany reunited in 1990."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nationalist movements inside the Soviet Union demanded independence. After a failed coup by hard-liners in August 1991, the Soviet Union dissolved in December into fifteen independent states."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "The Cold War did not end only because of US pressure. Soviet economic problems, Gorbachev's choices, and protests in Eastern Europe were all essential."
+          }
+        ],
+        "takeaway": "Popular revolutions and Soviet restraint ended communist rule in Eastern Europe.",
+        "sourceIds": [
+          "ced-topic-8-8"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "detente",
+        "topicId": "world-8-8",
+        "term": "détente",
+        "definition": "The easing of tensions between the superpowers in the 1970s."
+      },
+      {
+        "id": "glasnost",
+        "topicId": "world-8-8",
+        "term": "glasnost",
+        "definition": "Gorbachev's policy of openness, which allowed more criticism and freedom of expression."
+      },
+      {
+        "id": "perestroika",
+        "topicId": "world-8-8",
+        "term": "perestroika",
+        "definition": "Gorbachev's policy of restructuring the Soviet economy."
+      },
+      {
+        "id": "solidarity",
+        "topicId": "world-8-8",
+        "term": "Solidarity",
+        "definition": "The Polish independent trade union, led by Lech Wałęsa, that challenged communist rule."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-8-detente",
+        "world-8-glasnost",
+        "world-8-perestroika",
+        "world-8-solidarity"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Looking ahead",
+        "title": "A globalizing world",
+        "body": "The end of the Cold War opened former communist states to world trade, a theme of Unit 9.",
+        "transferQuestion": "How did the end of the Cold War affect the global economy?",
+        "feedback": "Name a country that opened to trade and explain the effect.",
+        "links": [
+          {
+            "topicId": "world-8-8",
+            "sectionId": "revolutions-1989",
+            "label": "Review 1989 and 1991"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-8-8",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-8-8.json",
+  "glossary": [
+    {
+      "id": "world-8-detente",
+      "term": "détente",
+      "definition": "The easing of tensions between the superpowers in the 1970s.",
+      "aliases": [],
+      "sourceLabel": "Topic 8.8 glossary"
+    },
+    {
+      "id": "world-8-glasnost",
+      "term": "glasnost",
+      "definition": "Gorbachev's policy of openness, which allowed more criticism and freedom of expression.",
+      "aliases": [],
+      "sourceLabel": "Topic 8.8 glossary"
+    },
+    {
+      "id": "world-8-perestroika",
+      "term": "perestroika",
+      "definition": "Gorbachev's policy of restructuring the Soviet economy.",
+      "aliases": [],
+      "sourceLabel": "Topic 8.8 glossary"
+    },
+    {
+      "id": "world-8-solidarity",
+      "term": "Solidarity",
+      "definition": "The Polish independent trade union, led by Lech Wałęsa, that challenged communist rule.",
+      "aliases": [],
+      "sourceLabel": "Topic 8.8 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-8-8",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 8.8.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: End of the Cold War."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

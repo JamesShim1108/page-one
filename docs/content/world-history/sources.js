@@ -668,4 +668,85 @@ export const sources = [
     note: "Public domain in the United States. Excerpts are checked with scripts/verify-excerpts.mjs.",
   },
   // END unit-07
+  // BEGIN unit-08
+  {
+    id: "ced-topic-8-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Setting the Stage for the Cold War and Decolonization.",
+  },
+  {
+    id: "ced-topic-8-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: The Cold War.",
+  },
+  {
+    id: "ced-topic-8-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Effects of the Cold War.",
+  },
+  {
+    id: "ced-topic-8-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Spread of Communism After 1900.",
+  },
+  {
+    id: "ced-topic-8-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Decolonization After 1900.",
+  },
+  {
+    id: "ced-topic-8-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Newly Independent States.",
+  },
+  {
+    id: "ced-topic-8-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Global Resistance to Established Power Structures After 1900.",
+  },
+  {
+    id: "ced-topic-8-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: End of the Cold War.",
+  },
+  {
+    id: "ced-topic-8-9",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.9.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causation in the Age of the Cold War and Decolonization.",
+  },
+  {
+    id: "truman-inaugural-1949",
+    label: "Harry S. Truman, Inaugural Address, January 20, 1949",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK inaugural corpus.",
+  },
+  {
+    id: "kennedy-inaugural-1961",
+    label: "John F. Kennedy, Inaugural Address, January 20, 1961",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK inaugural corpus.",
+  },
+  {
+    id: "bush-sotu-1990",
+    label:
+      "George H. W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 31, 1990",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
+  },
+  // END unit-08
 ];

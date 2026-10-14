@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "world",
-  "revision": "b79e173d16dfd489",
+  "revision": "f572c734da9ee141",
   "pools": [
     {
       "id": "world-1-1:world-1-1-quiz",
@@ -910,6 +910,157 @@
       "questionIds": [
         "world-7-9-q01",
         "world-7-9-q02"
+      ]
+    },
+    {
+      "id": "world-8-1:world-8-1-quiz",
+      "quizId": "world-8-1-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-1",
+      "code": "8.1",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "bankPath": "world/banks/world-8-1.json",
+      "questionIds": [
+        "world-8-1-q01",
+        "world-8-1-q02",
+        "world-8-1-q03",
+        "world-8-1-q04",
+        "world-8-1-q05"
+      ]
+    },
+    {
+      "id": "world-8-2:world-8-2-quiz",
+      "quizId": "world-8-2-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-2",
+      "code": "8.2",
+      "title": "The Cold War",
+      "bankPath": "world/banks/world-8-2.json",
+      "questionIds": [
+        "world-8-2-q01",
+        "world-8-2-q02",
+        "world-8-2-q03",
+        "world-8-2-q04",
+        "world-8-2-q05"
+      ]
+    },
+    {
+      "id": "world-8-3:world-8-3-quiz",
+      "quizId": "world-8-3-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-3",
+      "code": "8.3",
+      "title": "Effects of the Cold War",
+      "bankPath": "world/banks/world-8-3.json",
+      "questionIds": [
+        "world-8-3-q01",
+        "world-8-3-q02",
+        "world-8-3-q03",
+        "world-8-3-q04",
+        "world-8-3-q05"
+      ]
+    },
+    {
+      "id": "world-8-4:world-8-4-quiz",
+      "quizId": "world-8-4-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-4",
+      "code": "8.4",
+      "title": "Spread of Communism After 1900",
+      "bankPath": "world/banks/world-8-4.json",
+      "questionIds": [
+        "world-8-4-q01",
+        "world-8-4-q02",
+        "world-8-4-q03",
+        "world-8-4-q04",
+        "world-8-4-q05"
+      ]
+    },
+    {
+      "id": "world-8-5:world-8-5-quiz",
+      "quizId": "world-8-5-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-5",
+      "code": "8.5",
+      "title": "Decolonization After 1900",
+      "bankPath": "world/banks/world-8-5.json",
+      "questionIds": [
+        "world-8-5-q01",
+        "world-8-5-q02",
+        "world-8-5-q03",
+        "world-8-5-q04",
+        "world-8-5-q05"
+      ]
+    },
+    {
+      "id": "world-8-6:world-8-6-quiz",
+      "quizId": "world-8-6-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-6",
+      "code": "8.6",
+      "title": "Newly Independent States",
+      "bankPath": "world/banks/world-8-6.json",
+      "questionIds": [
+        "world-8-6-q01",
+        "world-8-6-q02",
+        "world-8-6-q03",
+        "world-8-6-q04",
+        "world-8-6-q05"
+      ]
+    },
+    {
+      "id": "world-8-7:world-8-7-quiz",
+      "quizId": "world-8-7-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-7",
+      "code": "8.7",
+      "title": "Global Resistance to Established Power Structures After 1900",
+      "bankPath": "world/banks/world-8-7.json",
+      "questionIds": [
+        "world-8-7-q01",
+        "world-8-7-q02",
+        "world-8-7-q03",
+        "world-8-7-q04",
+        "world-8-7-q05"
+      ]
+    },
+    {
+      "id": "world-8-8:world-8-8-quiz",
+      "quizId": "world-8-8-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-8",
+      "code": "8.8",
+      "title": "End of the Cold War",
+      "bankPath": "world/banks/world-8-8.json",
+      "questionIds": [
+        "world-8-8-q01",
+        "world-8-8-q02",
+        "world-8-8-q03",
+        "world-8-8-q04",
+        "world-8-8-q05"
+      ]
+    },
+    {
+      "id": "world-8-9:world-8-9-quiz",
+      "quizId": "world-8-9-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-9",
+      "code": "8.9",
+      "title": "Causation in the Age of the Cold War and Decolonization",
+      "bankPath": "world/banks/world-8-9.json",
+      "questionIds": [
+        "world-8-9-q01",
+        "world-8-9-q02",
+        "world-8-9-q03"
       ]
     }
   ]

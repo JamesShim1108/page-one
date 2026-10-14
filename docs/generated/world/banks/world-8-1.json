@@ -1,0 +1,716 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-8",
+    "courseId": "world",
+    "number": 8,
+    "title": "Cold War and Decolonization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how the Cold War divided the world, how colonies won independence, how new states and movements challenged established power, and why the Cold War ended.",
+    "quizzes": [
+      {
+        "id": "world-8-practice-test",
+        "courseId": "world",
+        "unitId": "world-8",
+        "title": "Unit 8 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t01",
+              "world-8-1-t02",
+              "world-8-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t04",
+              "world-8-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t01",
+              "world-8-2-t02",
+              "world-8-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t04",
+              "world-8-2-t05",
+              "world-8-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t07",
+              "world-8-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t01",
+              "world-8-3-t02",
+              "world-8-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t04",
+              "world-8-3-t05",
+              "world-8-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t01",
+              "world-8-4-t02",
+              "world-8-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t04",
+              "world-8-4-t05",
+              "world-8-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t01",
+              "world-8-5-t02",
+              "world-8-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t04",
+              "world-8-5-t05",
+              "world-8-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t07",
+              "world-8-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t01",
+              "world-8-6-t02",
+              "world-8-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t04",
+              "world-8-6-t05",
+              "world-8-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t01",
+              "world-8-7-t02",
+              "world-8-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t04",
+              "world-8-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t01",
+              "world-8-8-t02",
+              "world-8-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t04",
+              "world-8-8-t05",
+              "world-8-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-9",
+            "questionIds": [
+              "world-8-9-t01",
+              "world-8-9-t02",
+              "world-8-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-8-practice-test",
+      "title": "Unit 8 Practice Test",
+      "questionCount": 53
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-8-1-quiz",
+        "title": "Setting the Stage topic quiz"
+      },
+      {
+        "id": "world-8-2-quiz",
+        "title": "The Cold War topic quiz"
+      },
+      {
+        "id": "world-8-3-quiz",
+        "title": "Effects of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-4-quiz",
+        "title": "Spread of Communism topic quiz"
+      },
+      {
+        "id": "world-8-5-quiz",
+        "title": "Decolonization topic quiz"
+      },
+      {
+        "id": "world-8-6-quiz",
+        "title": "Newly Independent States topic quiz"
+      },
+      {
+        "id": "world-8-7-quiz",
+        "title": "Global Resistance topic quiz"
+      },
+      {
+        "id": "world-8-8-quiz",
+        "title": "End of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-9-quiz",
+        "title": "Causation in the Cold War Era topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-8-1",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 1,
+      "code": "8.1",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How World War II left two superpowers, exhausted colonial empires, and new demands for independence."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-8-saq-01",
+        "title": "Unit 8 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-8-1",
+    "courseId": "world",
+    "unitId": "world-8",
+    "order": 1,
+    "code": "8.1",
+    "title": "Setting the Stage for the Cold War and Decolonization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How World War II left two superpowers, exhausted colonial empires, and new demands for independence."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "e20547be18ef3a4b",
+  "questions": [
+    {
+      "id": "world-8-1-q01",
+      "topicId": "world-8-1",
+      "concept": "two-superpowers",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which two states emerged as superpowers after World War II?",
+      "choices": [
+        "Britain and France, the war's European victors",
+        "The United States and the Soviet Union",
+        "Germany and Japan after their reconstruction",
+        "The United States and Great Britain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only the United States and the Soviet Union had the military and economic strength to dominate the postwar world.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "Britain and France won but were weakened and indebted.",
+        "Only the United States and the Soviet Union had the military and economic strength to dominate the postwar world.",
+        "Germany and Japan were defeated and occupied.",
+        "Britain was a close US ally but too indebted to remain a superpower."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Britain was on the winning side but did not have superpower strength after 1945.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-8-1-q02",
+      "topicId": "world-8-1",
+      "concept": "two-superpowers",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why the wartime alliance between the United States and the Soviet Union broke down after 1945?",
+      "choices": [
+        "The Soviet Union had refused to fight Germany until the war's final months",
+        "The two powers fought a border war in Europe in 1946",
+        "Without a common enemy, their opposing systems and goals clashed",
+        "Both states were too weakened by the war to help rebuild Europe"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Once Germany was defeated, capitalist democracy and Soviet communism competed for influence.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "The Soviet Union bore the heaviest share of the fighting against Germany.",
+        "The superpowers never fought a war against each other, in 1946 or later.",
+        "Once Germany was defeated, capitalist democracy and Soviet communism competed for influence.",
+        "Both emerged far stronger than the European powers."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The superpowers were the two strongest states, not the weakest.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-1-q03",
+      "topicId": "world-8-1",
+      "concept": "empires-weakened",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following was a way World War II encouraged decolonization?",
+      "choices": [
+        "It left Britain and France richer and better able to pay for their empires",
+        "It led Asian nationalists to abandon demands for independence",
+        "Japan's early victories showed European colonial powers could be beaten",
+        "It gave colonial powers large new armies to hold their colonies by force"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Japan's conquests of 1941 and 1942 broke the image of European invincibility.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "Britain and France ended the war deeply in debt.",
+        "Nationalist movements grew stronger after the war.",
+        "Japan's conquests of 1941 and 1942 broke the image of European invincibility.",
+        "The colonial powers were exhausted and demobilizing."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Britain and France were on the winning side, but the war weakened their economies.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-1-q04",
+      "topicId": "world-8-1",
+      "concept": "empires-weakened",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "prompt": "Nationalist demands for self-determination after 1945 are best understood in the context of",
+      "choices": [
+        "the Atlantic Charter and colonial subjects' wartime service",
+        "the Congress of Vienna's restoration of monarchs",
+        "the Berlin Conference's division of Africa",
+        "the Treaty of Versailles granting independence to all colonies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Colonial peoples who had fought for the Allies cited the Charter's promise of self-government.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "Colonial peoples who had fought for the Allies cited the Charter's promise of self-government.",
+        "The Congress of Vienna met in 1815 to restore European monarchies.",
+        "The Berlin Conference of 1884 divided Africa among colonizers.",
+        "The 1919 settlement created mandates rather than freeing colonies."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The 1919 peace spoke of self-determination but applied it only in Europe.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-8-1-q05",
+      "topicId": "world-8-1",
+      "concept": "two-superpowers",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The structure of the United Nations Security Council reflected the postwar world because",
+      "choices": [
+        "it excluded every country that had fought in the war",
+        "it gave the war's main victors permanent seats and a veto",
+        "it gave colonies an equal vote with their rulers",
+        "it gave every member nation a permanent seat and a veto"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The United States, the Soviet Union, Britain, France, and China held permanent seats.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "The founders were the war's victors.",
+        "The United States, the Soviet Union, Britain, France, and China held permanent seats.",
+        "Colonies were not members.",
+        "Only five members hold permanent seats with a veto."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The veto belongs only to the five permanent members, not to every member.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-8-1-t01",
+      "topicId": "world-8-1",
+      "concept": "two-superpowers",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which piece of evidence from the passage best supports the claim that the United States emerged from the war in a strong position?",
+      "choices": [
+        "Fifty nations met in San Francisco to found the United Nations",
+        "Britain and France, its allies, were deeply in debt after the war",
+        "It produced about half of the world's manufactured goods",
+        "Millions of refugees were on the move across Europe and Asia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Economic output on that scale shows American strength in 1945.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "The San Francisco meeting shows cooperation, not American strength.",
+        "That describes the weakness of other powers rather than US strength.",
+        "Economic output on that scale shows American strength in 1945.",
+        "Refugees show the war's destruction."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "European debt shows others' weakness; the question asks for evidence of US strength.",
+      "stimulusId": "original-postwar-world",
+      "stimulusBlocks": [
+        {
+          "id": "original-postwar-world",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.1 key concept: World War II weakened the European powers and left the United States and the Soviet Union as rival superpowers",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the world in 1945",
+          "text": "In 1945, much of Europe and East Asia lay in ruins. Cities from Warsaw to Tokyo had been bombed, and millions of refugees were on the move. Britain and France had won the war but were deeply in debt.\n\nThe United States, untouched by fighting at home, produced about half of the world's manufactured goods and alone possessed the atomic bomb. The Soviet Union had lost about 27 million people, but its armies occupied Eastern Europe. Fifty nations met in San Francisco that year to found the United Nations, hoping to prevent another world war."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-1-t02",
+      "topicId": "world-8-1",
+      "concept": "two-superpowers",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The founding of the United Nations described in the passage is best understood as a response to",
+      "choices": [
+        "the failure of the League of Nations to prevent World War II",
+        "the League of Nations' success in stopping aggression in the 1930s",
+        "the Communist victory in China's civil war in 1949",
+        "the collapse of the Soviet Union and its Eastern European allies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The founders hoped a stronger organization would succeed where the League had failed.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "The founders hoped a stronger organization would succeed where the League had failed.",
+        "The League failed to stop aggression in the 1930s.",
+        "The UN was founded in 1945, four years before the communist victory in China.",
+        "The Soviet Union was a founding member."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The League existed in the 1930s, but it failed rather than succeeded.",
+      "stimulusId": "original-postwar-world",
+      "stimulusBlocks": [
+        {
+          "id": "original-postwar-world",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.1 key concept: World War II weakened the European powers and left the United States and the Soviet Union as rival superpowers",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the world in 1945",
+          "text": "In 1945, much of Europe and East Asia lay in ruins. Cities from Warsaw to Tokyo had been bombed, and millions of refugees were on the move. Britain and France had won the war but were deeply in debt.\n\nThe United States, untouched by fighting at home, produced about half of the world's manufactured goods and alone possessed the atomic bomb. The Soviet Union had lost about 27 million people, but its armies occupied Eastern Europe. Fifty nations met in San Francisco that year to found the United Nations, hoping to prevent another world war."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-8-1-t03",
+      "topicId": "world-8-1",
+      "concept": "two-superpowers",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The Soviet occupation of Eastern Europe described in the passage most directly contributed to",
+      "choices": [
+        "the immediate independence of Eastern European states",
+        "tension between the Soviet Union and the Western powers",
+        "the end of the Soviet Communist Party",
+        "the Soviet Union's withdrawal of its troops from all of Eastern Europe in 1946"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Western leaders saw Soviet-backed governments in Eastern Europe as a threat.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "Eastern European states came under Soviet-backed governments.",
+        "Western leaders saw Soviet-backed governments in Eastern Europe as a threat.",
+        "The Communist Party ruled the Soviet Union until 1991.",
+        "Soviet troops stayed in Eastern Europe for decades."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Soviet troops remained in Eastern Europe until the end of the Cold War.",
+      "stimulusId": "original-postwar-world",
+      "stimulusBlocks": [
+        {
+          "id": "original-postwar-world",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.1 key concept: World War II weakened the European powers and left the United States and the Soviet Union as rival superpowers",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the world in 1945",
+          "text": "In 1945, much of Europe and East Asia lay in ruins. Cities from Warsaw to Tokyo had been bombed, and millions of refugees were on the move. Britain and France had won the war but were deeply in debt.\n\nThe United States, untouched by fighting at home, produced about half of the world's manufactured goods and alone possessed the atomic bomb. The Soviet Union had lost about 27 million people, but its armies occupied Eastern Europe. Fifty nations met in San Francisco that year to found the United Nations, hoping to prevent another world war."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-1-t04",
+      "topicId": "world-8-1",
+      "concept": "empires-weakened",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The passage suggests that the Atlantic Charter",
+      "choices": [
+        "brought an immediate end to British rule in India",
+        "was written by Asian and African nationalist leaders",
+        "was used by nationalists to challenge colonial rule",
+        "was rejected by nationalists as irrelevant to colonies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nationalists quoted its promise of self-government back to the colonizers.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "India won independence in 1947, six years later.",
+        "Britain and the United States issued it.",
+        "Nationalists quoted its promise of self-government back to the colonizers.",
+        "Nationalists embraced its words."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Charter fed nationalist demands, but India's independence came later.",
+      "stimulusId": "original-empires-weakened",
+      "stimulusBlocks": [
+        {
+          "id": "original-empires-weakened",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.1 key concept: World War II weakened colonial empires and strengthened demands for independence",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how World War II weakened colonial empires",
+          "text": "Japan's conquest of Malaya, Singapore, the Dutch East Indies, and Burma in 1941 and 1942 shattered the image of European power in Asia. About 2.5 million Indians served in the British Indian Army during the war, and hundreds of thousands of Africans fought for Britain and France.\n\nIn the Atlantic Charter of 1941, Britain and the United States declared that all peoples had the right to choose their own government. Nationalist leaders across Asia and Africa quoted those words back to the colonial powers after the war."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-1-t05",
+      "topicId": "world-8-1",
+      "concept": "empires-weakened",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The passage would best support which argument?",
+      "choices": [
+        "World War II strengthened colonial rule in Asia",
+        "Colonial subjects played no role in World War II",
+        "World War II weakened the foundations of colonial rule",
+        "Japan's conquests made Europeans more secure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Japanese victories, colonial service, and the Charter all undermined imperial authority.",
+      "sourceIds": [
+        "ced-topic-8-1"
+      ],
+      "choiceExplanations": [
+        "The passage describes colonial power being shaken.",
+        "Millions of Indians and Africans served.",
+        "Japanese victories, colonial service, and the Charter all undermined imperial authority.",
+        "Japan's victories shattered European prestige."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Japan's victories in Asia undermined European colonial rule rather than strengthening it.",
+      "stimulusId": "original-empires-weakened",
+      "stimulusBlocks": [
+        {
+          "id": "original-empires-weakened",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.1 key concept: World War II weakened colonial empires and strengthened demands for independence",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how World War II weakened colonial empires",
+          "text": "Japan's conquest of Malaya, Singapore, the Dutch East Indies, and Burma in 1941 and 1942 shattered the image of European power in Asia. About 2.5 million Indians served in the British Indian Army during the war, and hundreds of thousands of Africans fought for Britain and France.\n\nIn the Atlantic Charter of 1941, Britain and the United States declared that all peoples had the right to choose their own government. Nationalist leaders across Asia and Africa quoted those words back to the colonial powers after the war."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-8-1-quick",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-1",
+      "title": "Topic 8.1 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-8-1-q01",
+        "world-8-1-q02",
+        "world-8-1-q03"
+      ]
+    },
+    {
+      "id": "world-8-1-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-1",
+      "title": "Setting the Stage topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-8-1-q01",
+        "world-8-1-q02",
+        "world-8-1-q03",
+        "world-8-1-q04",
+        "world-8-1-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "two-superpowers": {
+      "id": "two-superpowers",
+      "title": "A world with two superpowers",
+      "section": "two-superpowers",
+      "topicId": "world-8-1"
+    },
+    "empires-weakened": {
+      "id": "empires-weakened",
+      "title": "Empires under pressure",
+      "section": "empires-weakened",
+      "topicId": "world-8-1"
+    }
+  },
+  "assets": {}
+}

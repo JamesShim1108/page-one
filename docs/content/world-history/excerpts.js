@@ -1656,4 +1656,220 @@ export const excerpts = {
     text: "Many historians see the two world wars as connected. The First World War destroyed four empires, left millions dead, and produced a peace settlement that satisfied few. The Great Depression then weakened democracies and helped extremist movements gain power.\n\nThe Second World War, in turn, weakened European empires and left the United States and the Soviet Union as the world's strongest powers, setting the stage for the Cold War and for decolonization.",
   },
   // END unit-07
+  // BEGIN unit-08
+  trumanCommunism: {
+    id: "truman-inaugural-1949-communism",
+    type: "source",
+    sourceType: "primary",
+    source: "truman-inaugural-1949",
+    amsco_review: "pending",
+    attribution:
+      "Harry S. Truman, president of the United States, inaugural address, January 20, 1949",
+    citation:
+      "Harry S. Truman, Inaugural Address, January 20, 1949. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1949-Truman.txt).",
+    note: "“That regime” is the government of the Soviet Union. Truman spoke two years after announcing aid to Greece and Turkey and while the Berlin airlift was still under way.",
+    text: "That regime adheres to a false philosophy which purports to offer freedom, security, and greater opportunity to mankind. Misled by this philosophy, many peoples have sacrificed their liberties only to learn to their sorrow that deceit and mockery, poverty and tyranny, are their reward.\n\nThat false philosophy is communism.\n\nCommunism is based on the belief that man is so weak and inadequate that he is unable to govern himself, and therefore requires the rule of strong masters.\n\nDemocracy is based on the conviction that man has the moral and intellectual capacity, as well as the inalienable right, to govern himself with reason and justice. . . .\n\nCommunism holds that the world is so deeply divided into opposing classes that war is inevitable.\n\nDemocracy holds that free nations can settle differences justly and maintain lasting peace.",
+  },
+  kennedyPledge: {
+    id: "kennedy-inaugural-1961-pledge",
+    type: "source",
+    sourceType: "primary",
+    source: "kennedy-inaugural-1961",
+    amsco_review: "pending",
+    attribution:
+      "John F. Kennedy, president of the United States, inaugural address, January 20, 1961",
+    citation:
+      "John F. Kennedy, Inaugural Address, January 20, 1961. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1961-Kennedy.txt).",
+    note: "“New States” are countries that had recently won independence from colonial rule; seventeen African colonies became independent in 1960 alone. “The deadly atom” refers to nuclear weapons.",
+    text: "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty. . . .\n\nTo those new States whom we welcome to the ranks of the free, we pledge our word that one form of colonial control shall not have passed away merely to be replaced by a far more iron tyranny. We shall not always expect to find them supporting our view. . . .\n\nBut neither can two great and powerful groups of nations take comfort from our present course -- both sides overburdened by the cost of modern weapons, both rightly alarmed by the steady spread of the deadly atom, yet both racing to alter that uncertain balance of terror that stays the hand of mankind's final war.",
+  },
+  bushRevolution89: {
+    id: "bush-sotu-1990-revolution",
+    type: "source",
+    sourceType: "primary",
+    source: "bush-sotu-1990",
+    amsco_review: "pending",
+    attribution:
+      "George H. W. Bush, president of the United States, State of the Union address to Congress, January 31, 1990",
+    citation:
+      "George H. W. Bush, Address on the State of the Union, January 31, 1990. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/1990-Bush.txt).",
+    note: "Names appear as printed in the transcript, without diacritical marks: Lech Wałęsa led the Polish trade union Solidarity, and Václav Havel was a dissident Czech playwright. Erich Honecker led East Germany until October 1989.",
+    text: "The events of the year just ended, the Revolution of '89, have been a chain reaction, changes so striking that it marks the beginning of a new era in the world's affairs. . . .\n\nA year ago in Poland, Lech Walesa declared that he was ready to open a dialog with the Communist rulers of that country; and today, with the future of a free Poland in their own hands, members of Solidarity lead the Polish Government.\n\nA year ago, freedom's playwright, Vaclav Havel, languished as a prisoner in Prague. And today it's Vaclav Havel, President of Czechoslovakia.\n\nAnd 1 year ago, Erich Honecker of East Germany claimed history as his guide, and he predicted the Berlin Wall would last another hundred years. And today, less than 1 year later, it's the Wall that's history.",
+  },
+  originalPostwarWorld: {
+    id: "original-postwar-world",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.1 key concept: World War II weakened the European powers and left the United States and the Soviet Union as rival superpowers",
+    amsco_review: "pending",
+    attribution: "Practice passage written for Page One, summarizing the world in 1945",
+    text: "In 1945, much of Europe and East Asia lay in ruins. Cities from Warsaw to Tokyo had been bombed, and millions of refugees were on the move. Britain and France had won the war but were deeply in debt.\n\nThe United States, untouched by fighting at home, produced about half of the world's manufactured goods and alone possessed the atomic bomb. The Soviet Union had lost about 27 million people, but its armies occupied Eastern Europe. Fifty nations met in San Francisco that year to found the United Nations, hoping to prevent another world war.",
+  },
+  originalEmpiresWeakened: {
+    id: "original-empires-weakened",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.1 key concept: World War II weakened colonial empires and strengthened demands for independence",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how World War II weakened colonial empires",
+    text: "Japan's conquest of Malaya, Singapore, the Dutch East Indies, and Burma in 1941 and 1942 shattered the image of European power in Asia. About 2.5 million Indians served in the British Indian Army during the war, and hundreds of thousands of Africans fought for Britain and France.\n\nIn the Atlantic Charter of 1941, Britain and the United States declared that all peoples had the right to choose their own government. Nationalist leaders across Asia and Africa quoted those words back to the colonial powers after the war.",
+  },
+  originalContainment: {
+    id: "original-containment",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.2 key concept: the United States and the Soviet Union competed for influence through alliances, aid, and military power",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the early Cold War in Europe, 1947–1955",
+    text: "In 1947, President Truman asked Congress for aid to Greece and Turkey to keep them from falling under communist control. This policy of containment aimed to stop the spread of Soviet influence. The Marshall Plan then sent about $13 billion to rebuild Western Europe's economies.\n\nWhen the Soviet Union blockaded West Berlin in 1948, the United States and Britain supplied the city by air for almost a year. In 1949 the Western powers formed the NATO military alliance. The Soviet Union tested its first atomic bomb that year, and in 1955 it organized the Warsaw Pact with its Eastern European satellites.",
+  },
+  originalNonAligned: {
+    id: "original-non-aligned",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.2 key concept: some newly independent states sought to remain neutral in the Cold War through the Non-Aligned Movement",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Bandung Conference and the Non-Aligned Movement, 1955–1961",
+    text: "In 1955, leaders of twenty-nine Asian and African countries met at Bandung, Indonesia. They condemned colonialism and called for economic cooperation among poorer nations. Many of the delegates had led independence struggles only a few years earlier.\n\nIn 1961, India's Jawaharlal Nehru, Egypt's Gamal Abdel Nasser, Indonesia's Sukarno, Ghana's Kwame Nkrumah, and Yugoslavia's Josip Broz Tito helped found the Non-Aligned Movement. Its members refused to join either Cold War bloc, though several accepted aid from both superpowers.",
+  },
+  originalProxyWars: {
+    id: "original-proxy-wars",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.3 key concept: the superpowers supported opposing sides in proxy wars in Asia, Africa, and Latin America",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Cold War proxy wars, 1950–1989",
+    text: "The superpowers never fought each other directly, but they backed opposing sides in wars around the world. In Korea from 1950 to 1953, a US-led United Nations force fought North Korean and Chinese troops supplied by the Soviet Union. The war ended near where it began, along the 38th parallel.\n\nIn Angola after independence in 1975, a government backed by the Soviet Union and thousands of Cuban troops fought rebels supported by the United States and South Africa. In Afghanistan from 1979 to 1989, Soviet troops fought Islamic guerrillas armed by the United States through Pakistan.",
+  },
+  originalChineseRevolution: {
+    id: "original-chinese-revolution",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.4 key concept: the Chinese Communist Party won the civil war and transformed China's society and economy",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Chinese Communist Revolution, 1927–1962",
+    text: "After 1927, China's Nationalist government under Chiang Kai-shek fought the Chinese Communist Party. The Communists, led by Mao Zedong, built support among peasants by promising land, and they gained strength resisting the Japanese invasion. In 1949 Mao proclaimed the People's Republic of China, and the Nationalists fled to Taiwan.\n\nThe new government seized land from landlords and redistributed it, then organized peasants into collective farms. In 1958 Mao launched the Great Leap Forward to industrialize rapidly. Unrealistic production targets and the diversion of farm labor caused a famine that killed tens of millions of people.",
+  },
+  originalLandReform: {
+    id: "original-land-reform",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.4 key concept: movements to redistribute land and resources developed in Asia, Africa, and Latin America, sometimes drawing Cold War intervention",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing land reform movements in Latin America, 1952–1961",
+    text: "In Latin America, a small number of families and foreign companies owned much of the best land. In 1952, Guatemala's elected president Jacobo Árbenz began to redistribute unused land, including property of the US-owned United Fruit Company. In 1954 a coup backed by the US Central Intelligence Agency overthrew him.\n\nIn Cuba, Fidel Castro's revolutionaries took power in 1959. They seized large estates and nationalized US-owned sugar mills and oil refineries. When the United States cut off trade, Castro turned to the Soviet Union for aid and declared Cuba a socialist state.",
+  },
+  originalIndiaIndependence: {
+    id: "original-india-independence",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.5 key concept: some colonies, such as India, achieved independence largely through negotiation and mass nonviolent movements",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Indian independence, 1942–1947",
+    text: "During World War II, Mohandas Gandhi and the Indian National Congress launched the Quit India Movement in 1942, demanding an immediate end to British rule. The British jailed tens of thousands of its members. After the war, Britain was exhausted and no longer able to hold India by force.\n\nThe Muslim League, led by Muhammad Ali Jinnah, demanded a separate state for Muslims. In August 1947 British India was divided into two independent countries, India and Pakistan, in negotiations that both nationalist parties joined.",
+  },
+  originalGhanaAlgeria: {
+    id: "original-ghana-algeria",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.5 key concept: independence came through negotiation in some colonies and through armed struggle in others",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, comparing independence in Ghana and Algeria, 1950–1962",
+    text: "In the British colony of the Gold Coast, Kwame Nkrumah organized strikes and boycotts and won elections under a new constitution. Britain negotiated a gradual transfer of power, and in 1957 the colony became independent Ghana, one of the first African colonies south of the Sahara to win independence.\n\nIn Algeria, about one million European settlers lived under French rule, and France treated Algeria as part of France itself. The National Liberation Front began an armed revolt in 1954. The war lasted eight years, both sides committed atrocities, and Algeria won independence in 1962.",
+  },
+  originalArmedStruggle: {
+    id: "original-armed-struggle",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.5 key concept: armed independence movements developed where colonial powers or settler populations resisted decolonization",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing armed independence struggles in Vietnam and Kenya, 1945–1963",
+    text: "When France tried to reclaim Indochina after World War II, the Viet Minh under Ho Chi Minh fought back. Their victory at Dien Bien Phu in 1954 ended French rule, though Vietnam was divided into a communist north and an anticommunist south.\n\nIn Kenya, Kikuyu farmers who had lost land to white settlers formed the Mau Mau movement and rebelled in 1952. British forces crushed the revolt and detained tens of thousands of Kenyans in camps, but Britain granted Kenya independence in 1963.",
+  },
+  originalPartition: {
+    id: "original-partition-migration",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.6 key concept: the redrawing of boundaries after independence caused mass migration and conflict",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing migration after the partition of India and the founding of Israel, 1947–1960",
+    text: "The partition of India in 1947 set off one of the largest migrations in history. About 15 million people crossed the new borders, Hindus and Sikhs moving to India and Muslims to Pakistan. Communal violence killed hundreds of thousands, and some estimates reach two million.\n\nWhen Israel declared independence in 1948, war followed with neighboring Arab states, and about 700,000 Palestinian Arabs fled or were expelled from their homes. Migration also flowed toward the former colonial powers: people from the Caribbean and South Asia moved to Britain, and Algerians moved to France, often to fill postwar labor shortages.",
+  },
+  originalNasser: {
+    id: "original-nasser-development",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.6 key concept: some newly independent states pursued state-led economic development",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing state-led development in Egypt and India, 1951–1970",
+    text: "Gamal Abdel Nasser came to power in Egypt after army officers overthrew the king in 1952. He broke up large estates and, in 1956, nationalized the Suez Canal, which had been run by a British and French company. Britain, France, and Israel invaded, but pressure from the United States and the Soviet Union forced them to withdraw.\n\nIndia's first prime minister, Jawaharlal Nehru, launched Five-Year Plans in 1951 that directed investment into steel, dams, and heavy industry while leaving farms and many businesses in private hands.",
+  },
+  originalNonviolence: {
+    id: "original-nonviolent-movements",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.7 key concept: movements used nonviolent resistance to challenge discrimination and colonial or minority rule",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the US civil rights movement and the struggle against apartheid, 1948–1994",
+    text: "In the United States, Martin Luther King Jr. drew on Gandhi's example. The Montgomery bus boycott of 1955 and 1956 and the March on Washington in 1963 helped win the Civil Rights Act of 1964 and the Voting Rights Act of 1965.\n\nIn South Africa, the white minority government imposed apartheid after 1948. The African National Congress at first used nonviolent protest, but after police killed 69 protesters at Sharpeville in 1960 and the government banned the party, it formed an armed wing. Nelson Mandela spent twenty-seven years in prison before he was released in 1990. In 1994 he was elected president in South Africa's first election open to all races.",
+  },
+  originalArmedMovements: {
+    id: "original-challenges-and-repression",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.7 key concept: some groups challenged existing power through violence, and some governments responded to protest with force",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing armed movements and state repression, 1968–1992",
+    text: "In 1968, reformers in Czechoslovakia tried to create “socialism with a human face,” loosening censorship. In August, Warsaw Pact armies invaded and ended the Prague Spring.\n\nIn Peru, the Maoist Shining Path began an armed campaign in 1980 to overthrow the government. Its attacks on villages, and the army's brutal response, left tens of thousands dead before its leader was captured in 1992.",
+  },
+  originalGorbachev: {
+    id: "original-soviet-collapse",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.8 key concept: Soviet economic weakness, costly military commitments, and Gorbachev's reforms led to the end of the Cold War",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the end of the Cold War, 1979–1991",
+    text: "By the 1980s, the Soviet economy was stagnating. The war in Afghanistan drained money and morale, falling oil prices cut export earnings, and a US military buildup under President Ronald Reagan raised the cost of competing.\n\nMikhail Gorbachev, who took power in 1985, introduced glasnost, or openness, and perestroika, the restructuring of the economy. When Eastern Europeans rose up in 1989, he refused to send troops. The reforms weakened central control, and in December 1991 the Soviet Union dissolved into fifteen independent states.",
+  },
+  originalCausation8: {
+    id: "original-cold-war-causation",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.9 key concept: causation in the age of the Cold War and decolonization",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing connections between the Cold War and decolonization, 1945–1991",
+    text: "The Cold War and decolonization unfolded together. World War II weakened the colonial powers at the same moment it made the United States and the Soviet Union dominant. As dozens of new states won independence, each superpower competed to win them as allies.\n\nThat competition brought aid, weapons, and sometimes war to newly independent countries. Some leaders played the superpowers against each other; others joined the Non-Aligned Movement. When the Soviet Union collapsed in 1991, many conflicts that the superpowers had fueled lost their outside support.",
+  },
+  // END unit-08
 };
