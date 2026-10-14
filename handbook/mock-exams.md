@@ -1,20 +1,21 @@
 # Mock exams
 
-A mock exam is a full-length, timed practice exam in the AP format. The infrastructure is in place; no World History mock exam has been authored yet, so none appears on the site.
+A mock exam is a full-length, timed practice exam in the AP format. World History has three: `world-mock-01` (causation essays), `world-mock-02` (comparison essays), and `world-mock-03` (continuity and change essays). Each has 55 new multiple-choice questions, three new short-answer questions, a new DBQ, and three new essay prompts; no question or prompt is shared between exams.
 
 ## How it fits together
 
-| Piece                  | File                                                    |
-| ---------------------- | ------------------------------------------------------- |
-| Exam structure         | Course folder's `exam-format.js`                        |
-| One mock exam          | Course folder's `exams/<name>.js`                       |
-| Template               | `handbook/templates/exam.js`                            |
-| Build checks           | `scripts/lib/exams.mjs`                                 |
-| Rules, timer, scoring  | `docs/app/exam/engine.js` (no DOM, fully tested)        |
-| Saving and history     | `docs/app/exam/store.js`                                |
-| Pages and interactions | `docs/app/exam/views.js`, `docs/app/exam/controller.js` |
-| Styles                 | `docs/styles/exam.css`                                  |
-| Tests                  | `tests/mock-exam.test.mjs`                              |
+| Piece                   | File                                                    |
+| ----------------------- | ------------------------------------------------------- |
+| Exam structure          | Course folder's `exam-format.js`                        |
+| One mock exam           | Course folder's `exams/<name>.js`                       |
+| Template                | `handbook/templates/exam.js`                            |
+| Writing prompt builders | `docs/content/world-history/writing-kit.js`             |
+| Build checks            | `scripts/lib/exams.mjs`                                 |
+| Rules, timer, scoring   | `docs/app/exam/engine.js` (no DOM, fully tested)        |
+| Saving and history      | `docs/app/exam/store.js`                                |
+| Pages and interactions  | `docs/app/exam/views.js`, `docs/app/exam/controller.js` |
+| Styles                  | `docs/styles/exam.css`                                  |
+| Tests                   | `tests/mock-exam.test.mjs`                              |
 
 `exam-format.js` describes the AP World History: Modern exam: Section I Part A (55 multiple-choice questions, 55 minutes, 40%), Part B (three short-answer questions with a choice between Questions 3 and 4, 40 minutes, 20%), a 10-minute break, then the DBQ (60 minutes including a 15-minute suggested reading period, 25%) and the LEQ (choose one of three, 40 minutes, 15%). Check it against the College Board's exam description each year; every exam follows it automatically, and the build rejects any exam that no longer fits.
 
@@ -22,7 +23,7 @@ A mock exam is a full-length, timed practice exam in the AP format. The infrastr
 
 Exams never contain their own questions. They select existing multiple-choice questions from topic banks and existing writing prompts from unit `writing.js` files, so a correction reaches every exam that uses an item.
 
-1. Write any missing questions or prompts in their topic bank or unit `writing.js` first, following [AP practice standards](ap-practice.md).
+1. Write any missing questions or prompts in their topic bank or unit `writing.js` first, following [AP practice standards](ap-practice.md). See "Writing items for a mock exam" below.
 2. Copy `handbook/templates/exam.js` into `docs/content/world-history/exams/` and fill every slot.
 3. Run `npm run build` and `npm run check`.
 
@@ -36,6 +37,16 @@ The build checks that:
 - options in a "choose one" slot are worth the same points.
 
 An exam with `status: "soon"` needs only its identity, title, and description. It is listed on the course page without a link.
+
+## Writing items for a mock exam
+
+Mock exams should be original. Write new items for each exam instead of reusing practice questions, so a student who has finished the unit Practice Tests still meets fresh material.
+
+- **Multiple choice.** Add the question to the bank of the topic it tests, with an ID of the form `<topic>-m<exam>-<set><letter>`, for example `world-4-4-m3-06a`. These questions follow every rule for Practice Test questions: a text source stimulus shared by two to four questions, four choices, a `choiceExplanations` entry for each, a `nearMissIndex` and `distinguisher`, and a skill (plus a reasoning process for `connections`). Leave them out of every `quizzes` list, so they never appear in topic practice, custom practice, or a unit Practice Test. The build still checks the bank as a whole, so balance answer lengths across it: the correct choice should be the longest in 10% to 40% of the bank's questions. Tests that count practice questions ignore IDs with `-m<digit>-`.
+- **Stimuli.** Use a verified primary excerpt from `excerpts.js` or write a new Page One practice passage (`sourceType: "original"`) that summarizes scholarship and never invents a quotation. Do not add a new quotation unless you can check it against the edition; the excerpt check needs the full text.
+- **Repeats.** Keep every source, stimulus, and DBQ document different within one exam. Verified primary excerpts are limited, so a source may return in another exam with new questions.
+- **Writing.** Build SAQs, essays, and DBQs with `saq`, `leq`, `dbq`, and `dbqDocument` from `writing-kit.js` in the unit's `writing.js`. DBQ documents reuse a verified excerpt unchanged.
+- **Essay choice.** An exam's three essay prompts should test one reasoning process (comparison, causation, or continuity and change) across 1200–1750, 1750–1900, and 1900 to the present, as the AP exam does.
 
 ## What students get
 

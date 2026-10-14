@@ -536,6 +536,20 @@
         "partCount": 1,
         "exerciseType": "skill",
         "availability": "available"
+      },
+      {
+        "id": "world-2-dbq-authority",
+        "title": "Unit 2 DBQ: Exchange and political authority",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "available"
+      },
+      {
+        "id": "world-2-saq-08",
+        "title": "Unit 2 SAQ 08",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
       }
     ]
   },

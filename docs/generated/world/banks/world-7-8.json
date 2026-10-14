@@ -250,6 +250,27 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-7-saq-02",
+        "title": "Unit 7 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-7-leq-comparison",
+        "title": "Unit 7 LEQ: Responses to the Great Depression",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-7-saq-03",
+        "title": "Unit 7 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
       }
     ]
   },
@@ -672,6 +693,172 @@
       ],
       "skillLabel": "Argumentation",
       "skillCode": "6"
+    },
+    {
+      "id": "world-7-8-m3-12a",
+      "topicId": "world-7-8",
+      "concept": "holocaust",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which pattern is shown by the sequence of events in the passage?",
+      "choices": [
+        "An escalation from legal exclusion to organized mass murder",
+        "A steady improvement in the legal status of Jews",
+        "A sudden outbreak of violence with no earlier policies",
+        "A policy of encouraging Jewish emigration with state aid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage moves from exclusion and citizenship laws to violence and then systematic killing.",
+      "sourceIds": [
+        "ced-topic-7-8"
+      ],
+      "choiceExplanations": [
+        "The passage moves from exclusion and citizenship laws to violence and then systematic killing.",
+        "The passage describes worsening conditions.",
+        "The passage describes policies beginning in 1933, years before the killing centers.",
+        "The passage describes violence and killing, not state-aided emigration."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Emigration was forced on many Jews in the 1930s, but the passage shows the policy turning to killing.",
+      "stimulusId": "mock3-holocaust-escalation",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-holocaust-escalation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.8 key concept: Nazi Germany carried out the Holocaust, the systematic murder of European Jews",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Holocaust, 1933–1945",
+          "text": "After the Nazi Party took power in Germany in 1933, the government excluded Jews from public life. The Nuremberg Laws of 1935 stripped German Jews of citizenship, and the violence of Kristallnacht in November 1938 destroyed synagogues and Jewish businesses. After Germany invaded the Soviet Union in 1941, special units shot hundreds of thousands of Jews, and in 1942 Nazi officials met at Wannsee, near Berlin, to coordinate the murder of all European Jews.\n\nMillions were deported to killing centers such as Auschwitz-Birkenau, where gas chambers were used. About six million Jews died. The Nazis also murdered Roma, people with disabilities, Polish and Soviet civilians, and political opponents."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-8-m3-12b",
+      "topicId": "world-7-8",
+      "concept": "holocaust",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The German invasion of the Soviet Union in 1941 contributed to the Holocaust by",
+      "choices": [
+        "ending all persecution of Jews living inside Germany",
+        "making Germany an ally of the Soviet Union in the war",
+        "removing Germany's authority over occupied Poland and France",
+        "opening the way to mass shootings by special units"
+      ],
+      "correctAnswer": 3,
+      "explanation": "After the invasion, special units followed the army and shot large numbers of Jews.",
+      "sourceIds": [
+        "ced-topic-7-8"
+      ],
+      "choiceExplanations": [
+        "Persecution did not end.",
+        "Germany and the Soviet Union were at war.",
+        "Germany still controlled occupied Poland.",
+        "After the invasion, special units followed the army and shot large numbers of Jews."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Germany had signed a pact with the Soviet Union in 1939, but the 1941 invasion ended it.",
+      "stimulusId": "mock3-holocaust-escalation",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-holocaust-escalation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.8 key concept: Nazi Germany carried out the Holocaust, the systematic murder of European Jews",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Holocaust, 1933–1945",
+          "text": "After the Nazi Party took power in Germany in 1933, the government excluded Jews from public life. The Nuremberg Laws of 1935 stripped German Jews of citizenship, and the violence of Kristallnacht in November 1938 destroyed synagogues and Jewish businesses. After Germany invaded the Soviet Union in 1941, special units shot hundreds of thousands of Jews, and in 1942 Nazi officials met at Wannsee, near Berlin, to coordinate the murder of all European Jews.\n\nMillions were deported to killing centers such as Auschwitz-Birkenau, where gas chambers were used. About six million Jews died. The Nazis also murdered Roma, people with disabilities, Polish and Soviet civilians, and political opponents."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-8-m3-12c",
+      "topicId": "world-7-8",
+      "concept": "holocaust",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The Holocaust took place in the context of",
+      "choices": [
+        "a long decline in the power of the German state",
+        "a war in which racial ideology guided state policy",
+        "a period of economic prosperity in Eastern Europe",
+        "a postwar settlement that protected minority rights"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nazi ideology divided people by race, and the war gave the regime the means and cover for mass murder.",
+      "sourceIds": [
+        "ced-topic-7-8"
+      ],
+      "choiceExplanations": [
+        "The Nazi state was powerful and centralized.",
+        "Nazi ideology divided people by race, and the war gave the regime the means and cover for mass murder.",
+        "The war devastated Eastern Europe.",
+        "The postwar settlement came after the Holocaust."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Economic hardship helped the Nazis win support, but the Holocaust took place during the war.",
+      "stimulusId": "mock3-holocaust-escalation",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-holocaust-escalation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.8 key concept: Nazi Germany carried out the Holocaust, the systematic murder of European Jews",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Holocaust, 1933–1945",
+          "text": "After the Nazi Party took power in Germany in 1933, the government excluded Jews from public life. The Nuremberg Laws of 1935 stripped German Jews of citizenship, and the violence of Kristallnacht in November 1938 destroyed synagogues and Jewish businesses. After Germany invaded the Soviet Union in 1941, special units shot hundreds of thousands of Jews, and in 1942 Nazi officials met at Wannsee, near Berlin, to coordinate the murder of all European Jews.\n\nMillions were deported to killing centers such as Auschwitz-Birkenau, where gas chambers were used. About six million Jews died. The Nazis also murdered Roma, people with disabilities, Polish and Soviet civilians, and political opponents."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-7-8-m3-12d",
+      "topicId": "world-7-8",
+      "concept": "holocaust",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Which kind of evidence would best help historians show when German leaders coordinated the killing of European Jews?",
+      "choices": [
+        "Newspaper articles written by foreign visitors in 1933",
+        "Letters that German families sent to relatives in 1939",
+        "Records of the Wannsee Conference and related orders",
+        "Maps of German railroads published before the Nazi rise"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Records of the officials' meeting and orders to units show planning and coordination.",
+      "sourceIds": [
+        "ced-topic-7-8"
+      ],
+      "choiceExplanations": [
+        "Early press accounts could show persecution but not a plan for mass murder.",
+        "Family letters might describe daily life but not plans of the leadership.",
+        "Records of the officials' meeting and orders to units show planning and coordination.",
+        "Railroad maps before 1933 predate the planning."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Railroads were used for deportations, but the date of maps shows they cannot document planning.",
+      "stimulusId": "mock3-holocaust-escalation",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-holocaust-escalation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.8 key concept: Nazi Germany carried out the Holocaust, the systematic murder of European Jews",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Holocaust, 1933–1945",
+          "text": "After the Nazi Party took power in Germany in 1933, the government excluded Jews from public life. The Nuremberg Laws of 1935 stripped German Jews of citizenship, and the violence of Kristallnacht in November 1938 destroyed synagogues and Jewish businesses. After Germany invaded the Soviet Union in 1941, special units shot hundreds of thousands of Jews, and in 1942 Nazi officials met at Wannsee, near Berlin, to coordinate the murder of all European Jews.\n\nMillions were deported to killing centers such as Auschwitz-Birkenau, where gas chambers were used. About six million Jews died. The Nazis also murdered Roma, people with disabilities, Polish and Soviet civilians, and political opponents."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
     }
   ],
   "quizzes": [

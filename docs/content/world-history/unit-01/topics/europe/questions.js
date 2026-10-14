@@ -615,6 +615,129 @@ export const bank = {
       stimulusBlocks: [excerpts.originalEuropeLearning],
     },
     // END unit-01 practice test
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-1-6-m1-01a",
+      topicId: "world-1-6",
+      concept: "europe-agriculture",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which development in the passage most directly made possible the growth of towns?",
+      choices: [
+        "Rising food output that could support people who did not farm",
+        "A single law code issued by the Church for all of Europe",
+        "A fall in population that raised the value of labor",
+        "The conquest of Byzantium by the Italian city-states",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Better plows, horse collars, and the three-field system produced surplus food, which freed people to work in towns as merchants and artisans.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "Better plows, horse collars, and the three-field system produced surplus food, which freed people to work in towns as merchants and artisans.",
+        "The passage describes no common law code, and the Church did not issue one.",
+        "A fall in population came after the plague of the mid-1300s, not before the towns' growth described here.",
+        "The passage says nothing of conquering Byzantium; the Italian cities grew through trade.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Population loss did raise wages in the late 1300s, but the growth of towns in the passage rests on a food surplus.",
+      stimulusId: "mock1-europe-growth",
+      stimulusBlocks: [excerpts.m1Europe],
+    },
+    {
+      id: "world-1-6-m1-01b",
+      topicId: "world-1-6",
+      concept: "europe-learning",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The study of Aristotle at European universities most directly reflects the influence of",
+      choices: [
+        "the spread of printing presses that made books cheap across Europe",
+        "Mongol sponsorship of translation projects at the University of Paris",
+        "scholarship preserved and translated through the Islamic world",
+        "a Confucian curriculum carried west along Silk Road routes",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The passage says Aristotle's works were preserved and translated through the Islamic world before European scholars studied them.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "Movable-type printing in Europe began in the 1450s, after the period of the passage.",
+        "The Mongols did not sponsor scholars at European universities.",
+        "The passage says Aristotle's works were preserved and translated through the Islamic world before European scholars studied them.",
+        "Chinese examinations tested Confucian learning and did not shape European universities.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Printing helped spread Renaissance and Reformation ideas, but the transfer of Aristotle's texts came centuries earlier through Islamic scholars.",
+      stimulusId: "mock1-europe-growth",
+      stimulusBlocks: [excerpts.m1Europe],
+    },
+    {
+      id: "world-1-6-m1-01c",
+      topicId: "world-1-6",
+      concept: "europe-power",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Which statement best explains the passage's claim that European kings were weaker than Chinese or Islamic rulers?",
+      choices: [
+        "European kings commanded no armies of their own and relied on mercenaries",
+        "Europe produced no agricultural surplus that rulers could tax",
+        "Towns and the Church lost their independence to powerful regional nobles",
+        "Power was divided among kings, nobles, towns, and the Church",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage ends by noting that power was divided among several competing authorities, which limited what any king could do.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "Kings had armies, and the passage does not describe reliance on foreign mercenaries.",
+        "The passage describes rising food output, so a surplus did exist.",
+        "The passage shows towns and the Church gaining importance, not being abolished.",
+        "The passage ends by noting that power was divided among several competing authorities, which limited what any king could do.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Kings did raise armies, but they had to bargain with nobles, towns, and the Church for money and support.",
+      stimulusId: "mock1-europe-growth",
+      stimulusBlocks: [excerpts.m1Europe],
+    },
+    {
+      id: "world-1-6-m1-01d",
+      topicId: "world-1-6",
+      concept: "europe-exchange",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "The fairs of Champagne and the ships of Venice and Genoa are best understood as part of",
+      choices: [
+        "the manorial system that bound peasants to the land of their lords",
+        "a commercial revival linking Europe to Afro-Eurasian trade",
+        "the first European settlements established in the Americas",
+        "a Mongol tribute system that reached into western France",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Fairs and Mediterranean shipping show Europe's merchants joining the long-distance trade that connected Afro-Eurasia.",
+      sourceIds: ["ced-topic-1-6"],
+      choiceExplanations: [
+        "Manors organized rural labor; fairs and shipping were commercial.",
+        "Fairs and Mediterranean shipping show Europe's merchants joining the long-distance trade that connected Afro-Eurasia.",
+        "European settlement of the Americas began after 1492.",
+        "The Mongols did not collect tribute in France.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Manorialism was a real feature of medieval Europe, but it describes rural obligations, not trade.",
+      stimulusId: "mock1-europe-growth",
+      stimulusBlocks: [excerpts.m1Europe],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

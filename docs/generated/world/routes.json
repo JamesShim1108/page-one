@@ -247,6 +247,7 @@
   "writing": {
     "world-1-saq": "world/writing/world-1-saq.json",
     "world-1-saq-02": "world/writing/world-1-saq-02.json",
+    "world-1-saq-03": "world/writing/world-1-saq-03.json",
     "world-2-saq-01": "world/writing/world-2-saq-01.json",
     "world-2-saq-02": "world/writing/world-2-saq-02.json",
     "world-2-saq-03": "world/writing/world-2-saq-03.json",
@@ -262,13 +263,36 @@
     "world-2-skill-context": "world/writing/world-2-skill-context.json",
     "world-2-skill-evidence": "world/writing/world-2-skill-evidence.json",
     "world-2-skill-sourcing": "world/writing/world-2-skill-sourcing.json",
+    "world-2-dbq-authority": "world/writing/world-2-dbq-authority.json",
+    "world-2-saq-08": "world/writing/world-2-saq-08.json",
     "world-3-saq-01": "world/writing/world-3-saq-01.json",
+    "world-3-saq-02": "world/writing/world-3-saq-02.json",
+    "world-3-saq-03": "world/writing/world-3-saq-03.json",
+    "world-3-leq-comparison": "world/writing/world-3-leq-comparison.json",
     "world-4-saq-01": "world/writing/world-4-saq-01.json",
+    "world-4-saq-02": "world/writing/world-4-saq-02.json",
+    "world-4-saq-03": "world/writing/world-4-saq-03.json",
+    "world-4-leq-causation": "world/writing/world-4-leq-causation.json",
+    "world-4-saq-04": "world/writing/world-4-saq-04.json",
+    "world-4-leq-continuity": "world/writing/world-4-leq-continuity.json",
     "world-5-saq-01": "world/writing/world-5-saq-01.json",
+    "world-5-saq-02": "world/writing/world-5-saq-02.json",
+    "world-5-leq-comparison": "world/writing/world-5-leq-comparison.json",
+    "world-5-leq-continuity": "world/writing/world-5-leq-continuity.json",
     "world-6-saq-01": "world/writing/world-6-saq-01.json",
+    "world-6-leq-causation": "world/writing/world-6-leq-causation.json",
+    "world-6-dbq-ideas": "world/writing/world-6-dbq-ideas.json",
     "world-7-saq-01": "world/writing/world-7-saq-01.json",
+    "world-7-saq-02": "world/writing/world-7-saq-02.json",
+    "world-7-leq-comparison": "world/writing/world-7-leq-comparison.json",
+    "world-7-saq-03": "world/writing/world-7-saq-03.json",
     "world-8-saq-01": "world/writing/world-8-saq-01.json",
-    "world-9-saq-01": "world/writing/world-9-saq-01.json"
+    "world-8-leq-causation": "world/writing/world-8-leq-causation.json",
+    "world-8-saq-02": "world/writing/world-8-saq-02.json",
+    "world-9-saq-01": "world/writing/world-9-saq-01.json",
+    "world-9-saq-02": "world/writing/world-9-saq-02.json",
+    "world-9-dbq-government": "world/writing/world-9-dbq-government.json",
+    "world-9-leq-continuity": "world/writing/world-9-leq-continuity.json"
   },
   "terms": {
     "world-1": "world/units/world-1.json",
@@ -285,5 +309,9 @@
     "world-period-1-a": "world/terms/world-period-1-a.json",
     "world-period-1-b": "world/terms/world-period-1-b.json"
   },
-  "exam": {}
+  "exam": {
+    "world-mock-01": "world/exams/world-mock-01.json",
+    "world-mock-02": "world/exams/world-mock-02.json",
+    "world-mock-03": "world/exams/world-mock-03.json"
+  }
 }

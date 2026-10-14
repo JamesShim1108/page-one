@@ -272,6 +272,97 @@ export const bank = {
       stimulusId: "original-enclaves",
       stimulusBlocks: [excerpts.originalEnclaves],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-6-7-m2-11a",
+      topicId: "world-6-7",
+      concept: "enclaves",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which detail shows how Chinese immigrants responded to discrimination?",
+      choices: [
+        "They returned to China in large numbers after 1882",
+        "They won the right to vote in California in the 1870s",
+        "They left railroad work to search for gold in the Sierra Nevada mountains",
+        "They formed associations that gave credit, housing, and aid",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Community associations supported newcomers who faced hostility and low wages.",
+      sourceIds: ["ced-topic-6-7"],
+      choiceExplanations: [
+        "The passage does not describe a mass return in 1882.",
+        "The passage describes exclusion, not voting rights.",
+        "Many worked in gold mines and railroads at the same time, and the passage describes no change from railroad to mining work.",
+        "Community associations supported newcomers who faced hostility and low wages.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Some Chinese immigrants did return home, but the passage's example of response is organization within the United States.",
+      stimulusId: "mock2-chinese-migration",
+      stimulusBlocks: [excerpts.m2Chinese],
+    },
+    {
+      id: "world-6-7-m2-11b",
+      topicId: "world-6-7",
+      concept: "nativism",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "The Chinese Exclusion Act of 1882 was most directly a response to",
+      choices: [
+        "pressure from the Chinese government to stop emigration to America",
+        "a shortage of laborers needed to finish the railroads",
+        "a treaty with Britain that limited migration from Asia",
+        "competition for jobs and racial prejudice in a depression",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage links the law to the economic depression of the 1870s and anti-Chinese violence.",
+      sourceIds: ["ced-topic-6-7"],
+      choiceExplanations: [
+        "The Qing government did not ask for exclusion.",
+        "Exclusion came after the Central Pacific Railroad was finished.",
+        "The law was passed by Congress and not tied to a treaty with Britain.",
+        "The passage links the law to the economic depression of the 1870s and anti-Chinese violence.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Railroad construction had drawn Chinese workers earlier, but the law followed the end of that demand.",
+      stimulusId: "mock2-chinese-migration",
+      stimulusBlocks: [excerpts.m2Chinese],
+    },
+    {
+      id: "world-6-7-m2-11c",
+      topicId: "world-6-7",
+      concept: "nativism",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt: "Which policy was most similar in purpose to the Chinese Exclusion Act?",
+      choices: [
+        "Australia's Immigration Restriction Act of 1901",
+        "Britain's laws ending the Atlantic slave trade in 1807",
+        "Canada's confederation of provinces into a dominion in 1867",
+        "Japan's opening of ports to Western ships in 1854",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Both laws restricted immigration from Asia in white-majority settler societies.",
+      sourceIds: ["ced-topic-6-7"],
+      choiceExplanations: [
+        "Both laws restricted immigration from Asia in white-majority settler societies.",
+        "Britain's 1807 law ended a trade in people, and was not an immigration restriction.",
+        "Confederation created a Canadian federal government.",
+        "Japan's treaty ports opened trade rather than restricting migration.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Britain's law concerned migration of a sort, but it ended forced transport instead of limiting free immigrants.",
+      stimulusId: "mock2-chinese-migration",
+      stimulusBlocks: [excerpts.m2Chinese],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

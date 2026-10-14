@@ -1,0 +1,418 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-3-saq-03",
+        "title": "Unit 3 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-3-leq-comparison",
+        "title": "Unit 3 LEQ: Governing religious diversity",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "quiz": {
+    "id": "world-3-leq-comparison",
+    "version": 1,
+    "courseId": "world",
+    "unitId": "world-3",
+    "title": "Unit 3 LEQ: Governing religious diversity",
+    "headline": "Governing religious diversity",
+    "promptTitle": "Long essay question",
+    "prompt": "Evaluate the similarities and differences in how the Ottoman and Mughal Empires governed the religious diversity of their populations in the period 1500 to 1750.",
+    "instructions": "Develop an argument in one organized essay. Include a thesis, contextualization, specific evidence, and historical reasoning. This is untimed practice in AP long-essay format, not a full exam simulation.",
+    "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
+    "exerciseType": "leq",
+    "sourceIds": [
+      "ced-topic-3-4",
+      "ced-topic-3-2"
+    ],
+    "responseFields": [
+      {
+        "id": "outline",
+        "label": "Optional outline",
+        "prompt": "Plan your claim, context, evidence, and reasoning before drafting.",
+        "required": false,
+        "rows": 6,
+        "help": "Optional planning notes; the essay is the required response.",
+        "review": [
+          {
+            "topicId": "world-3-4",
+            "sectionId": "compare-religion",
+            "label": "Comparing religious policy"
+          }
+        ]
+      },
+      {
+        "id": "essay",
+        "label": "Essay response",
+        "prompt": "Write the full essay. Make the line of reasoning visible and explain why each example supports the claim.",
+        "required": true,
+        "rows": 16,
+        "help": "Informational word count only. No timer or automatic grading.",
+        "review": [
+          {
+            "topicId": "world-3-4",
+            "sectionId": "compare-religion",
+            "label": "Comparing religious policy"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "thesis",
+        "label": "Thesis",
+        "points": 1,
+        "guidance": "Responds to the prompt with a historically defensible thesis or claim that establishes a line of reasoning."
+      },
+      {
+        "id": "context",
+        "label": "Contextualization",
+        "points": 1,
+        "guidance": "Describes a broader historical context relevant to the prompt: developments before, during, or continuing after the period."
+      },
+      {
+        "id": "evidence",
+        "label": "Evidence",
+        "points": 2,
+        "guidance": "1 point: provides at least two specific historical examples relevant to the prompt. 2 points: uses specific and relevant examples to support an argument in response to the prompt."
+      },
+      {
+        "id": "analysis",
+        "label": "Analysis and reasoning",
+        "points": 2,
+        "guidance": "1 point: uses comparison, causation, or continuity and change to frame or structure the argument. 2 points: demonstrates a complex understanding, for example by explaining multiple causes, weighing similarities and differences, or using evidence to qualify or modify the argument."
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Claim",
+        "text": "Answer the prompt and preview your line of reasoning."
+      },
+      {
+        "label": "Context",
+        "text": "Describe a broader development before or during the period."
+      },
+      {
+        "label": "Evidence",
+        "text": "Use at least two specific examples, and explain each one."
+      },
+      {
+        "label": "Reasoning",
+        "text": "Structure the essay around the reasoning process and qualify your claim."
+      }
+    ],
+    "modelResponse": "Both the Ottoman and Mughal Empires grew out of Turkic and Mongol traditions of conquest and Islamic rule. After the Ottomans took Constantinople in 1453 and Babur defeated the Delhi sultan at Panipat in 1526, each empire ruled large populations that did not share the ruler's faith, including Christians and Jews in the Ottoman lands and a Hindu majority in northern India.\n\nThe Ottoman and Mughal Empires were similar in practical accommodation of non-Muslims within states led by Sunni rulers, but they differed in method: the Ottomans organized religious communities into semi-self-governing groups, while the Mughals under Akbar tried to bring Hindu elites into the ruling class, though later policy shifted under Aurangzeb.\n\nBoth empires accepted that non-Muslims could practice their religions. Ottoman rulers allowed Christians and Jews to worship and to pay the jizya in exchange for protection, and in 1492 Sultan Bayezid II welcomed Jews expelled from Spain. Akbar likewise permitted Hindu worship, and in the early Mughal period non-Muslims also paid the jizya until he abolished it in 1564. In each case, rulers valued the stability and tax revenue that came from keeping diverse subjects content.\n\nThe empires differed in how they organized that diversity. The Ottomans formalized the millet system, in which Orthodox Christians, Armenians, and Jews ran their own courts and schools under religious leaders who answered to the sultan. By contrast, Akbar integrated Hindu leaders directly into the state. He married Rajput princesses, gave Rajputs high ranks in the mansabdar system, and promoted a policy of sulh-i-kul, or peace with all. Ottoman integration of non-Muslims was more through separate communities; Mughal integration was more through shared offices.\n\nPolicy also changed over time in the Mughal case. Aurangzeb reimposed the jizya in 1679 and ordered some temples destroyed, and his long wars with the Marathas, Rajputs, and Sikhs strained the empire. The Ottoman system was more stable over this period, though Ottoman rulers treated Shi'a as threats during the wars against the Safavids.\n\nIn conclusion, both empires governed religious diversity pragmatically, but the Ottomans relied on separate, self-governing communities while Akbar's Mughals integrated Hindu elites into the state, a policy later reversed with costly consequences.",
+    "modelNotes": [
+      {
+        "label": "Contextualization",
+        "text": "The first paragraph describes the Turkic-Mongol origins of both empires and their conquests of Constantinople and northern India, which created religiously diverse states."
+      },
+      {
+        "label": "Thesis",
+        "text": "The thesis names a similarity and a difference and states the reasons for each, so it establishes a line of reasoning."
+      },
+      {
+        "label": "Evidence",
+        "text": "The jizya, Bayezid II and Spanish Jews, the millet system, Akbar's Rajput policy and sulh-i-kul, and Aurangzeb's reimposition of the jizya are specific and used to support comparison."
+      },
+      {
+        "label": "Analysis and reasoning",
+        "text": "The essay is organized by points of comparison, explains why the approaches differed, and qualifies the comparison by noting that Mughal policy changed and that Ottoman tolerance had limits."
+      }
+    ],
+    "alternateModel": "A different strong essay could compare the Ottoman and Safavid empires, arguing that both used religion to legitimize rule but differed because the Safavids imposed Shi'ism on a mostly Sunni population while the Ottomans governed a religiously mixed empire with formal communities.",
+    "commonErrors": [
+      "Describing the Ottoman Empire, then the Mughal Empire, without comparing them directly.",
+      "Treating Akbar's policies as if they described the whole Mughal period.",
+      "Claiming that either empire practiced modern religious equality.",
+      "Using dates outside 1500 to 1750 as the main evidence."
+    ]
+  }
+}

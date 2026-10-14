@@ -235,6 +235,27 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-9-saq-02",
+        "title": "Unit 9 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-9-dbq-government",
+        "title": "Unit 9 DBQ: Ideas about the role of government",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "available"
+      },
+      {
+        "id": "world-9-leq-continuity",
+        "title": "Unit 9 LEQ: Technology and global connections",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
       }
     ]
   },

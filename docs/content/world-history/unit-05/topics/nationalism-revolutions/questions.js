@@ -422,6 +422,130 @@ export const bank = {
       stimulusId: "original-nationalism",
       stimulusBlocks: [excerpts.originalNationalism],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-5-2-m2-08a",
+      topicId: "world-5-2",
+      concept: "haiti-latin-america",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which detail best shows the importance of disease in the outcome of the revolution?",
+      choices: [
+        "Toussaint Louverture was captured and taken to France",
+        "Spanish and British armies were defeated by the rebels",
+        "Dessalines declared Haitian independence on January 1, 1804",
+        "The French army suffered heavily from yellow fever",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Yellow fever weakened the French expedition and helped the rebels win.",
+      sourceIds: ["ced-topic-5-2"],
+      choiceExplanations: [
+        "Louverture's capture shows French success, not the role of disease.",
+        "Defeating armies shows the rebels' strength, not disease.",
+        "Declaring independence was an outcome, not evidence of disease.",
+        "Yellow fever weakened the French expedition and helped the rebels win.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The rebels fought well, but the passage names yellow fever specifically as what hurt the French.",
+      stimulusId: "mock2-haitian-revolution",
+      stimulusBlocks: [excerpts.m2Haiti],
+    },
+    {
+      id: "world-5-2-m2-08b",
+      topicId: "world-5-2",
+      concept: "haiti-latin-america",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "The Haitian Revolution differed from the American Revolution mainly because it",
+      choices: [
+        "was fought to end the rule of a European colonial power",
+        "ended slavery and was led by formerly enslaved people",
+        "drew heavily on Enlightenment ideas about natural rights",
+        "created an independent republic in the Western Hemisphere",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "In Haiti the rebels were enslaved people who abolished slavery, whereas the American Revolution left slavery in place.",
+      sourceIds: ["ced-topic-5-2"],
+      choiceExplanations: [
+        "Both revolutions fought European rule.",
+        "In Haiti the rebels were enslaved people who abolished slavery, whereas the American Revolution left slavery in place.",
+        "Both revolutions drew on Enlightenment ideas.",
+        "Both created independent states in the Americas.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Enlightenment ideas inspired both revolutions, but Haiti applied them to enslaved people.",
+      stimulusId: "mock2-haitian-revolution",
+      stimulusBlocks: [excerpts.m2Haiti],
+    },
+    {
+      id: "world-5-2-m2-08c",
+      topicId: "world-5-2",
+      concept: "haiti-latin-america",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which development in France most directly influenced the revolt in Saint-Domingue?",
+      choices: [
+        "The French Revolution's declaration of the rights of man",
+        "Napoleon's coronation as emperor of the French in 1804",
+        "The Congress of Vienna's settlement of Europe after Napoleon",
+        "The Edict of Nantes granting toleration to Protestants",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The revolution in France in 1789 spread ideas of liberty and equality that people in the colony applied to slavery and rights.",
+      sourceIds: ["ced-topic-5-2"],
+      choiceExplanations: [
+        "The revolution in France in 1789 spread ideas of liberty and equality that people in the colony applied to slavery and rights.",
+        "Napoleon's coronation took place in 1804, after the revolt began.",
+        "The Congress of Vienna met in 1814–1815, after Haitian independence.",
+        "The Edict of Nantes was issued in 1598.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Napoleon shaped the later phase of the conflict, but the revolt began in 1791, before his rule.",
+      stimulusId: "mock2-haitian-revolution",
+      stimulusBlocks: [excerpts.m2Haiti],
+    },
+    {
+      id: "world-5-2-m2-08d",
+      topicId: "world-5-2",
+      concept: "haiti-latin-america",
+      difficulty: "Challenge",
+      skill: "contextualization",
+      prompt:
+        "How did the Haitian Revolution most directly affect later independence movements in Latin America?",
+      choices: [
+        "It convinced Spain to grant independence to its colonies peacefully",
+        "It alarmed many creole elites, who feared a similar uprising",
+        "It led Latin American leaders to adopt the same constitution",
+        "It ended all European interest in colonies in the Americas",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Haiti's example frightened slaveholding elites, who often wanted independence from Spain without a social revolution.",
+      sourceIds: ["ced-topic-5-2"],
+      choiceExplanations: [
+        "Spain did not grant independence peacefully.",
+        "Haiti's example frightened slaveholding elites, who often wanted independence from Spain without a social revolution.",
+        "Latin American states wrote their own constitutions.",
+        "European powers remained involved in the Americas.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Haiti did inspire some leaders, such as Simón Bolívar, who received help there, but many elites feared similar uprisings.",
+      stimulusId: "mock2-haitian-revolution",
+      stimulusBlocks: [excerpts.m2Haiti],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

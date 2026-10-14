@@ -259,6 +259,27 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-5-leq-comparison",
+        "title": "Unit 5 LEQ: Revolutions in the Atlantic world",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-5-leq-continuity",
+        "title": "Unit 5 LEQ: Industrialization and British workers",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
       }
     ]
   },

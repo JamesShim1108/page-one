@@ -243,6 +243,20 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-8-leq-causation",
+        "title": "Unit 8 LEQ: Causes of decolonization",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-8-saq-02",
+        "title": "Unit 8 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
       }
     ]
   },
@@ -712,6 +726,131 @@
       ],
       "skillLabel": "Argumentation",
       "skillCode": "6"
+    },
+    {
+      "id": "world-8-3-m3-14a",
+      "topicId": "world-8-3",
+      "concept": "arms-race",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which detail shows that both superpowers made concessions to end the crisis?",
+      "choices": [
+        "Khrushchev agreed to remove missiles and the United States agreed to nothing",
+        "The United States promised not to invade Cuba and removed its Turkish missiles",
+        "The United States removed its navy from the Caribbean while Soviet missiles stayed",
+        "The superpowers agreed to destroy all of their nuclear weapons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each side gave something: the Soviets withdrew missiles and the Americans promised not to invade Cuba and removed missiles from Turkey.",
+      "sourceIds": [
+        "ced-topic-8-3"
+      ],
+      "choiceExplanations": [
+        "The passage describes American promises in exchange.",
+        "Each side gave something: the Soviets withdrew missiles and the Americans promised not to invade Cuba and removed missiles from Turkey.",
+        "The passage says the missiles were removed.",
+        "The passage does not describe full nuclear disarmament."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Khrushchev did remove the missiles, but the passage shows the United States also made commitments.",
+      "stimulusId": "mock3-cuban-missile-crisis",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-cuban-missile-crisis",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.3 key concept: the nuclear arms race and crises such as the Cuban Missile Crisis shaped superpower relations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Cuban Missile Crisis, October 1962",
+          "text": "In October 1962, American reconnaissance photographs showed Soviet nuclear missile sites under construction in Cuba, about 90 miles from Florida. President John F. Kennedy announced a naval quarantine of Cuba and demanded that the missiles be removed. For several days the superpowers came close to nuclear war.\n\nThe crisis ended when Soviet leader Nikita Khrushchev agreed to remove the missiles in return for a public American promise not to invade Cuba and a private agreement to remove American missiles from Turkey. In 1963 the two powers installed a telephone hotline between Washington and Moscow and signed a treaty banning nuclear tests in the atmosphere."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-3-m3-14b",
+      "topicId": "world-8-3",
+      "concept": "arms-race",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which long-term result of the crisis is shown in the passage?",
+      "choices": [
+        "A permanent American military base on the island of Cuba",
+        "A hotline and test ban to reduce the risk of nuclear war",
+        "The end of the arms race between the two superpowers",
+        "A Soviet withdrawal from the United Nations in 1963"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In 1963 the powers installed a hotline and signed a treaty banning atmospheric tests.",
+      "sourceIds": [
+        "ced-topic-8-3"
+      ],
+      "choiceExplanations": [
+        "The passage says the United States promised not to invade Cuba.",
+        "In 1963 the powers installed a hotline and signed a treaty banning atmospheric tests.",
+        "The arms race continued for decades.",
+        "The passage does not describe a Soviet withdrawal from the UN."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The test ban was a step toward arms control, but it did not end the arms race.",
+      "stimulusId": "mock3-cuban-missile-crisis",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-cuban-missile-crisis",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.3 key concept: the nuclear arms race and crises such as the Cuban Missile Crisis shaped superpower relations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Cuban Missile Crisis, October 1962",
+          "text": "In October 1962, American reconnaissance photographs showed Soviet nuclear missile sites under construction in Cuba, about 90 miles from Florida. President John F. Kennedy announced a naval quarantine of Cuba and demanded that the missiles be removed. For several days the superpowers came close to nuclear war.\n\nThe crisis ended when Soviet leader Nikita Khrushchev agreed to remove the missiles in return for a public American promise not to invade Cuba and a private agreement to remove American missiles from Turkey. In 1963 the two powers installed a telephone hotline between Washington and Moscow and signed a treaty banning nuclear tests in the atmosphere."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-3-m3-14c",
+      "topicId": "world-8-3",
+      "concept": "proxy-wars",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The placement of Soviet missiles in Cuba is best explained by",
+      "choices": [
+        "a Cuban request that the Soviets protect the island from Spain",
+        "a Soviet plan to invade the United States across the sea",
+        "Cuba's alliance with the Soviet Union and the nuclear rivalry",
+        "an agreement among Latin American states to host weapons"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After Fidel Castro's revolution, Cuba aligned with the Soviet Union, and Soviet leaders sought to offset American missiles near their borders.",
+      "sourceIds": [
+        "ced-topic-8-3"
+      ],
+      "choiceExplanations": [
+        "Spain was not a threat to Cuba in the 1960s.",
+        "The passage does not describe a Soviet plan to invade the United States.",
+        "After Fidel Castro's revolution, Cuba aligned with the Soviet Union, and Soviet leaders sought to offset American missiles near their borders.",
+        "Latin American states did not agree to host weapons."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Soviets feared an American invasion of Cuba, which fits the alliance, but they were not planning to invade the United States.",
+      "stimulusId": "mock3-cuban-missile-crisis",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-cuban-missile-crisis",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.3 key concept: the nuclear arms race and crises such as the Cuban Missile Crisis shaped superpower relations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Cuban Missile Crisis, October 1962",
+          "text": "In October 1962, American reconnaissance photographs showed Soviet nuclear missile sites under construction in Cuba, about 90 miles from Florida. President John F. Kennedy announced a naval quarantine of Cuba and demanded that the missiles be removed. For several days the superpowers came close to nuclear war.\n\nThe crisis ended when Soviet leader Nikita Khrushchev agreed to remove the missiles in return for a public American promise not to invade Cuba and a private agreement to remove American missiles from Turkey. In 1963 the two powers installed a telephone hotline between Washington and Moscow and signed a treaty banning nuclear tests in the atmosphere."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
     }
   ],
   "quizzes": [

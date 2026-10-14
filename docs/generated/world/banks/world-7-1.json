@@ -250,6 +250,27 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-7-saq-02",
+        "title": "Unit 7 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-7-leq-comparison",
+        "title": "Unit 7 LEQ: Responses to the Great Depression",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-7-saq-03",
+        "title": "Unit 7 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
       }
     ]
   },
@@ -806,6 +827,182 @@
       ],
       "skillLabel": "Contextualization",
       "skillCode": "4"
+    },
+    {
+      "id": "world-7-1-m2-12a",
+      "topicId": "world-7-1",
+      "concept": "revolutions",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which demand is part of the Bolshevik slogan quoted in the passage?",
+      "choices": [
+        "A return to rule by the tsar",
+        "Unrestricted private trade in grain",
+        "Land, bread, and an end to the senseless war",
+        "Allied military support for the government"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The slogan calls for land, bread, and an end to the war, along with power for the soviets.",
+      "sourceIds": [
+        "ced-topic-7-1"
+      ],
+      "choiceExplanations": [
+        "The Bolsheviks opposed the old tsarist order.",
+        "The slogan appeals to workers, soldiers, and peasants and does not mention private trade.",
+        "The slogan calls for land, bread, and an end to the war, along with power for the soviets.",
+        "The Bolsheviks wanted an end to the war."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Bread was scarce, but the slogan did not call for private grain markets.",
+      "stimulusId": "reed-petrograd",
+      "stimulusBlocks": [
+        {
+          "id": "reed-petrograd",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "reed-ten-days",
+          "amsco_review": "pending",
+          "attribution": "John Reed, American journalist and socialist who witnessed the Russian Revolution in Petrograd, Ten Days That Shook the World, 1919",
+          "citation": "John Reed, Ten Days That Shook the World (1919), ch. 1. Project Gutenberg eBook #3076.",
+          "note": "The Bolsheviki were the Bolsheviks, led by Lenin. Soviets were councils of workers and soldiers. The Provisional Government ruled Russia between the tsar's abdication in March 1917 and the Bolshevik seizure of power in November 1917. The ellipsis after “treachery” appears in Reed's own text.",
+          "text": "In this atmosphere of corruption, of monstrous half-truths, one clear note sounded day after day, the deepening chorus of the Bolsheviki, \"All Power to the Soviets! All power to the direct representatives of millions on millions of common workers, soldiers, peasants. Land, bread, an end to the senseless war, an end to secret diplomacy, speculation, treachery. . . . The Revolution is in danger, and with it the cause of the people all over the world!\" . . .\n\nWeek by week food became scarcer. The daily allowance of bread fell from a pound and a half to a pound, then three quarters, half, and a quarter-pound. Toward the end there was a week without any bread at all."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-1-m2-12b",
+      "topicId": "world-7-1",
+      "concept": "revolutions",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Reed's position as an American socialist who witnessed the events most likely affected his account by",
+      "choices": [
+        "making him an official spokesman for the Provisional Government",
+        "making him sympathetic to the revolution and its supporters",
+        "preventing him from observing the events in Petrograd",
+        "leading him to oppose socialist ideas of every kind"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reed supported the Bolsheviks and wrote as an eyewitness who highlighted their message.",
+      "sourceIds": [
+        "ced-topic-7-1"
+      ],
+      "choiceExplanations": [
+        "He supported the revolution, not the Provisional Government.",
+        "Reed supported the Bolsheviks and wrote as an eyewitness who highlighted their message.",
+        "He witnessed events in Petrograd.",
+        "Reed was a socialist."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "His eyewitness position gives him access, but his sympathies shape what he selects and emphasizes.",
+      "stimulusId": "reed-petrograd",
+      "stimulusBlocks": [
+        {
+          "id": "reed-petrograd",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "reed-ten-days",
+          "amsco_review": "pending",
+          "attribution": "John Reed, American journalist and socialist who witnessed the Russian Revolution in Petrograd, Ten Days That Shook the World, 1919",
+          "citation": "John Reed, Ten Days That Shook the World (1919), ch. 1. Project Gutenberg eBook #3076.",
+          "note": "The Bolsheviki were the Bolsheviks, led by Lenin. Soviets were councils of workers and soldiers. The Provisional Government ruled Russia between the tsar's abdication in March 1917 and the Bolshevik seizure of power in November 1917. The ellipsis after “treachery” appears in Reed's own text.",
+          "text": "In this atmosphere of corruption, of monstrous half-truths, one clear note sounded day after day, the deepening chorus of the Bolsheviki, \"All Power to the Soviets! All power to the direct representatives of millions on millions of common workers, soldiers, peasants. Land, bread, an end to the senseless war, an end to secret diplomacy, speculation, treachery. . . . The Revolution is in danger, and with it the cause of the people all over the world!\" . . .\n\nWeek by week food became scarcer. The daily allowance of bread fell from a pound and a half to a pound, then three quarters, half, and a quarter-pound. Toward the end there was a week without any bread at all."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-7-1-m2-12c",
+      "topicId": "world-7-1",
+      "concept": "revolutions",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "reasoning": "continuity",
+      "prompt": "Which event had occurred before the situation Reed describes?",
+      "choices": [
+        "The Treaty of Brest-Litovsk with Germany in 1918",
+        "The tsar's abdication in March 1917",
+        "The Allied intervention in the Russian Civil War",
+        "The founding of the Soviet Union in December 1922"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reed describes Bolshevik agitation against the Provisional Government, which had formed after the tsar abdicated.",
+      "sourceIds": [
+        "ced-topic-7-1"
+      ],
+      "choiceExplanations": [
+        "The treaty ending Russia's war with Germany came in March 1918, after the Bolsheviks took power.",
+        "Reed describes Bolshevik agitation against the Provisional Government, which had formed after the tsar abdicated.",
+        "Allied intervention in the civil war followed the Bolshevik seizure of power.",
+        "The Soviet Union was formed in 1922."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Treaty of Brest-Litovsk responded to the Bolshevik demand for peace, so it came after, not before, the scene Reed describes.",
+      "stimulusId": "reed-petrograd",
+      "stimulusBlocks": [
+        {
+          "id": "reed-petrograd",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "reed-ten-days",
+          "amsco_review": "pending",
+          "attribution": "John Reed, American journalist and socialist who witnessed the Russian Revolution in Petrograd, Ten Days That Shook the World, 1919",
+          "citation": "John Reed, Ten Days That Shook the World (1919), ch. 1. Project Gutenberg eBook #3076.",
+          "note": "The Bolsheviki were the Bolsheviks, led by Lenin. Soviets were councils of workers and soldiers. The Provisional Government ruled Russia between the tsar's abdication in March 1917 and the Bolshevik seizure of power in November 1917. The ellipsis after “treachery” appears in Reed's own text.",
+          "text": "In this atmosphere of corruption, of monstrous half-truths, one clear note sounded day after day, the deepening chorus of the Bolsheviki, \"All Power to the Soviets! All power to the direct representatives of millions on millions of common workers, soldiers, peasants. Land, bread, an end to the senseless war, an end to secret diplomacy, speculation, treachery. . . . The Revolution is in danger, and with it the cause of the people all over the world!\" . . .\n\nWeek by week food became scarcer. The daily allowance of bread fell from a pound and a half to a pound, then three quarters, half, and a quarter-pound. Toward the end there was a week without any bread at all."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-7-1-m2-12d",
+      "topicId": "world-7-1",
+      "concept": "revolutions",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "How did the shortages Reed describes contribute to revolution?",
+      "choices": [
+        "Shortages led peasants to demand the return of the tsar",
+        "Food rationing helped bring the war with Germany to an end",
+        "Shortages convinced the Allies to recognize the new government",
+        "Hunger and war weariness weakened the Provisional Government"
+      ],
+      "correctAnswer": 3,
+      "explanation": "As bread grew scarcer and the war dragged on, more people listened to the Bolshevik promise of bread and peace.",
+      "sourceIds": [
+        "ced-topic-7-1"
+      ],
+      "choiceExplanations": [
+        "The tsar had already abdicated, and shortages hurt his reputation.",
+        "Russia remained at war until the Bolsheviks signed a peace in 1918.",
+        "The Allies did not recognize the Bolshevik government.",
+        "As bread grew scarcer and the war dragged on, more people listened to the Bolshevik promise of bread and peace."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Rationing was a response to shortage, but it did not stop the war.",
+      "stimulusId": "reed-petrograd",
+      "stimulusBlocks": [
+        {
+          "id": "reed-petrograd",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "reed-ten-days",
+          "amsco_review": "pending",
+          "attribution": "John Reed, American journalist and socialist who witnessed the Russian Revolution in Petrograd, Ten Days That Shook the World, 1919",
+          "citation": "John Reed, Ten Days That Shook the World (1919), ch. 1. Project Gutenberg eBook #3076.",
+          "note": "The Bolsheviki were the Bolsheviks, led by Lenin. Soviets were councils of workers and soldiers. The Provisional Government ruled Russia between the tsar's abdication in March 1917 and the Bolshevik seizure of power in November 1917. The ellipsis after “treachery” appears in Reed's own text.",
+          "text": "In this atmosphere of corruption, of monstrous half-truths, one clear note sounded day after day, the deepening chorus of the Bolsheviki, \"All Power to the Soviets! All power to the direct representatives of millions on millions of common workers, soldiers, peasants. Land, bread, an end to the senseless war, an end to secret diplomacy, speculation, treachery. . . . The Revolution is in danger, and with it the cause of the people all over the world!\" . . .\n\nWeek by week food became scarcer. The daily allowance of bread fell from a pound and a half to a pound, then three quarters, half, and a quarter-pound. Toward the end there was a week without any bread at all."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     }
   ],
   "quizzes": [

@@ -64,7 +64,9 @@ async function compileWith(files) {
   const temp = await mkdtemp(join(tmpdir(), "page-one-exam-"));
   await cp(join(root, "docs"), join(temp, "docs"), {
     recursive: true,
-    filter: (path) => !path.includes(`${join("docs", "generated")}`),
+    filter: (path) =>
+      !path.includes(`${join("docs", "generated")}`) &&
+      !path.includes(join("docs", "content", "world-history", "exams")),
   });
   const examsRoot = join(temp, "docs/content/world-history/exams");
   await mkdir(examsRoot, { recursive: true });
@@ -126,16 +128,50 @@ test("the World History exam format matches the AP structure and weights", () =>
   );
 });
 
-test("the published site has no mock exams until one is authored", async () => {
+test("the published site lists three complete mock exams written for the course", async () => {
   const { readFile } = await import("node:fs/promises");
-  const routes = JSON.parse(
-    await readFile(join(root, "docs/generated/world/routes.json"), "utf8"),
+  const read = async (path) =>
+    JSON.parse(await readFile(join(root, "docs/generated", path), "utf8"));
+  const routes = await read("world/routes.json");
+  const ids = ["world-mock-01", "world-mock-02", "world-mock-03"];
+  assert.deepEqual(Object.keys(routes.exam).sort(), ids);
+  const index = await read("world/index.json");
+  assert.deepEqual(
+    index.exams.map((item) => [item.id, item.status, item.questionCount]),
+    ids.map((id) => [id, "ready", 55]),
   );
-  assert.deepEqual(routes.exam, {});
-  const index = JSON.parse(
-    await readFile(join(root, "docs/generated/world/index.json"), "utf8"),
-  );
-  assert.equal(index.exams, undefined);
+  const questionIds = new Set();
+  const promptIds = new Set();
+  let items = 0;
+  for (const id of ids) {
+    const exam = await read(routes.exam[id]);
+    assert.deepEqual(
+      exam.sections.map((section) => [section.id, section.maxPoints]),
+      [
+        ["mcq", 55],
+        ["saq", 9],
+        ["dbq", 7],
+        ["leq", 6],
+      ],
+    );
+    for (const section of exam.sections) {
+      const entries =
+        section.kind === "mcq"
+          ? section.questions
+          : section.prompts.flatMap((prompt) => prompt.options);
+      for (const entry of entries) {
+        const seen = section.kind === "mcq" ? questionIds : promptIds;
+        assert.equal(seen.has(entry.id), false, `${entry.id} appears in two exams`);
+        seen.add(entry.id);
+        items += 1;
+      }
+    }
+    // Questions are written for mock exams, not borrowed from topic practice.
+    for (const question of exam.sections[0].questions)
+      assert.match(question.id, new RegExp(`-m${id.slice(-1)}-`));
+  }
+  assert.equal(questionIds.size, 165);
+  assert.ok(items > 165);
 });
 
 test("a ready mock exam resolves existing questions and prompts into one payload", async () => {

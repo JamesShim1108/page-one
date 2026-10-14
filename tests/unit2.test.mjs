@@ -68,7 +68,8 @@ test("Unit 2 has seven cited lessons and complete question metadata", async () =
     const topic = await readGenerated(`world/topics/world-2-${number}.json`);
     const bank = await readGenerated(`world/banks/world-2-${number}.json`);
     const lesson = topic.lesson;
-    const questions = bank.questions;
+    // Questions written only for full-length mock exams are not part of topic practice.
+    const questions = bank.questions.filter((question) => !/-m\d-/.test(question.id));
 
     assert.equal(lesson.id, `world-2-${number}`);
     assert.deepEqual(

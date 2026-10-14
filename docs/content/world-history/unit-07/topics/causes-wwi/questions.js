@@ -272,6 +272,98 @@ export const bank = {
       stimulusId: "original-july-crisis",
       stimulusBlocks: [excerpts.originalJulyCrisis],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-7-2-m2-13a",
+      topicId: "world-7-2",
+      concept: "july-crisis",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which factor does the passage identify as turning a regional dispute into a general war?",
+      choices: [
+        "The Russian Revolution of 1917 and the fall of the tsar",
+        "A German decision to attack Britain's colonies in Africa",
+        "American entry into the war on the side of the Allies",
+        "Alliances that bound the major powers to one another",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage concludes that alliances turned the dispute into a war among the major powers.",
+      sourceIds: ["ced-topic-7-2"],
+      choiceExplanations: [
+        "The Russian Revolution came three years later.",
+        "Germany's quarrel with Britain was over Europe and the navy; the passage does not mention colonies in Africa.",
+        "The United States entered the war in 1917.",
+        "The passage concludes that alliances turned the dispute into a war among the major powers.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "American entry changed the war's outcome, but it came after the dispute had become a general war.",
+      stimulusId: "mock2-july-crisis",
+      stimulusBlocks: [excerpts.m2July],
+    },
+    {
+      id: "world-7-2-m2-13b",
+      topicId: "world-7-2",
+      concept: "long-term-causes",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt: "Germany's promise of support to Austria-Hungary is an example of",
+      choices: [
+        "collective security through an international organization",
+        "the policy of appeasement toward aggressive states",
+        "the alliance system that divided Europe into rival blocs",
+        "the balance of power maintained by the Concert of Europe",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Germany and Austria-Hungary were allies, and their commitment to one another was part of Europe's rival alliance blocs.",
+      sourceIds: ["ced-topic-7-2"],
+      choiceExplanations: [
+        "No international organization for collective security existed in 1914.",
+        "Appeasement was a policy of the 1930s.",
+        "Germany and Austria-Hungary were allies, and their commitment to one another was part of Europe's rival alliance blocs.",
+        "The Concert of Europe had weakened by 1914; the rival alliances replaced it.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "The Concert of Europe sought balance through cooperation, but the 1914 alliances were hostile blocs.",
+      stimulusId: "mock2-july-crisis",
+      stimulusBlocks: [excerpts.m2July],
+    },
+    {
+      id: "world-7-2-m2-13c",
+      topicId: "world-7-2",
+      concept: "long-term-causes",
+      difficulty: "Apply",
+      skill: "contextualization",
+      reasoning: "causation",
+      prompt:
+        "Which longer-term development contributed to the readiness of European states to fight in 1914?",
+      choices: [
+        "Widespread pacifist movements that influenced governments",
+        "Nationalism and military and imperial rivalry among the great powers",
+        "A decline in the size of European armies",
+        "Agreements among the powers to submit disputes to a world court",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Nationalism, arms races, and imperial competition made governments see war as a way to protect their interests.",
+      sourceIds: ["ced-topic-7-2"],
+      choiceExplanations: [
+        "Pacifist movements existed but had little influence on government decisions in 1914.",
+        "Nationalism, arms races, and imperial competition made governments see war as a way to protect their interests.",
+        "European armies had grown in the decades before 1914.",
+        "No effective world court bound the great powers.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Peace congresses were held at The Hague, but they did not stop the arms race.",
+      stimulusId: "mock2-july-crisis",
+      stimulusBlocks: [excerpts.m2July],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

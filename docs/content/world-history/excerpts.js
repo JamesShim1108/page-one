@@ -2078,4 +2078,380 @@ export const excerpts = {
     text: "Long-distance trade, migration, and the exchange of ideas are as old as the Silk Roads. What changed after 1900 was their speed and scale. Goods, money, and information that once took months to cross the world now move in days or seconds, and more people than ever migrate for work.\n\nOld patterns also persisted. Many former colonies still export raw materials, wealth remains unequally divided between and within countries, and states continue to defend their borders and interests even as they join global institutions.",
   },
   // END unit-09
+  // BEGIN mock exam passages
+  m1Europe: {
+    id: "mock1-europe-growth",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 1.6 key concept: Europe's agricultural, commercial, and educational growth, c. 1200–1450",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing growth and authority in Western Europe, c. 1200–1450",
+    text: "By 1200, a growing population and better farming methods, including heavier plows, horse collars, and the three-field system, had increased food output in Western Europe. Towns expanded, and merchants and artisans formed guilds to regulate their trades. Italian cities such as Venice and Genoa used their ships to carry goods between the Mediterranean and Europe's interior, and fairs in Champagne drew merchants from many regions.\n\nThe Catholic Church shaped learning. Universities in Bologna, Paris, and Oxford trained clergy and lawyers, and scholars studied works of Aristotle that had been preserved and translated through the Islamic world. Historians add that European kings were weaker than the rulers of China or the great Islamic states, because power was divided among kings, nobles, towns, and the Church.",
+  },
+  m1SilkRoads: {
+    id: "mock1-silk-road-practice",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 2.1 key concept: commercial practices and technologies facilitated trade and the growth of cities, c. 1200–1450",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how trade worked along Eurasian overland routes, c. 1200–1450",
+    text: "Between about 1200 and 1450, goods and travelers crossed Eurasia along a web of overland routes. Caravanserais, roadside inns built by rulers and wealthy patrons, gave merchants and their animals shelter and supplies. Merchants used bills of exchange and letters of credit so that they did not have to carry large amounts of coin, and partnerships let several investors share the risk of a long journey.\n\nFew merchants traveled the whole distance. Goods usually passed through many hands, as traders in oasis cities such as Samarkand bought from one group and sold to the next. Historians use this pattern to explain why silk and spices could reach distant markets, and also why ideas, crops, and diseases moved along the same routes.",
+  },
+  m1Monsoon: {
+    id: "mock1-indian-ocean-ports",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 2.3 key concept: the Indian Ocean network, shaped by the monsoons, linked port cities and diaspora communities, c. 1200–1450",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Indian Ocean trade and its port communities, c. 1200–1450",
+    text: "Sailors in the Indian Ocean relied on the monsoon winds, which blow from the southwest in summer and from the northeast in winter. A ship could leave Arabia or East Africa for India in one season and return in another, so merchants planned voyages around the wind calendar. Port cities such as Calicut, Kilwa, and Malacca grew rich by hosting these merchants and taxing their cargoes.\n\nForeign merchants often stayed in a port for months, waiting for the winds to change. Many married locally and settled, forming communities of Arab, Persian, Indian, and Chinese traders. In the early 1400s the Ming dynasty sent large fleets under Zheng He to ports across the ocean, but the voyages ended in the 1430s, and Indian Ocean trade continued under the merchants and port rulers who had long run it.",
+  },
+  m1Safavid: {
+    id: "mock1-safavid-ottoman",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.3 key concept: Sunni–Shi'a divisions shaped the rivalry between the Ottoman and Safavid empires",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the early Safavid state and its conflict with the Ottomans, 1501–1639",
+    text: "In 1501 Shah Ismail founded the Safavid dynasty in Persia and made Twelver Shi'ism the state religion, even though most of his subjects were Sunni. He brought Shi'i scholars from Lebanon and Iraq to teach the faith, and Safavid rulers pressed their subjects to convert.\n\nThe Ottoman sultans were Sunni and saw the Safavids as both heretics and a military threat. In 1514 an Ottoman army armed with muskets and cannon defeated Safavid cavalry at Chaldiran and briefly occupied the Safavid capital of Tabriz. The two empires fought over their borders for more than a century.",
+  },
+  m1Crops: {
+    id: "mock1-columbian-exchange-crops",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.3 key concept: the Columbian Exchange moved plants and animals across the Atlantic and shaped labor systems",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the exchange of plants and animals after 1492",
+    text: "After 1492, plants and animals crossed the Atlantic in both directions. Maize and potatoes from the Americas spread across Europe, Africa, and Asia, where they produced more calories per acre than many older crops and supported population growth. In China, maize and sweet potatoes could be grown on hillsides unsuited to rice. Horses, cattle, pigs, and sheep brought from Europe changed life in the Americas; Plains peoples, for example, adopted the horse and built new ways of hunting and warfare.\n\nEuropeans also introduced sugarcane to the Caribbean and Brazil. Planters grew it on large estates, and as Indigenous workers died from disease and overwork, they turned increasingly to enslaved Africans.",
+  },
+  m1Factories: {
+    id: "mock1-factory-reform-britain",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.8 key concept: workers' movements and government reforms responded to industrial conditions",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing worker organization and reform in industrial Britain, 1799–1871",
+    text: "The first factories of the late 1700s employed women and children for long hours at low pay. Workers who tried to form unions were prosecuted under the Combination Acts of 1799 and 1800, which Parliament repealed in 1824. Reformers pressed for change. The Factory Act of 1833 limited the working hours of children in textile mills and created inspectors to enforce the law. In 1867 Parliament extended the vote to many urban working men, and in 1871 trade unions received legal protection.\n\nMarx and Engels, who wrote in this industrial world, argued in 1848 that workers should overthrow capitalism entirely. Most British workers, however, sought gradual reform through Parliament and their unions.",
+  },
+  m1Peanuts: {
+    id: "mock1-senegal-peanuts",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.4 key concept: colonial economies were reshaped to export raw materials and cash crops",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing export farming in French West Africa, c. 1885–1935",
+    text: "In the late 1800s, French colonial officials in Senegal encouraged African farmers to grow peanuts, which were exported to France to make soap and cooking oil. Railways connected the peanut-growing interior to the port of Dakar. Taxes that had to be paid in French currency pushed farmers to sell their crops for cash.\n\nExport earnings rose, but farmers who devoted land to peanuts grew less food, and prices depended on distant European markets. When prices fell in the 1930s, many farmers fell into debt.",
+  },
+  m1TotalWar2: {
+    id: "mock1-mobilization-wwii",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.7 key concept: governments mobilized economies and civilians for total war in World War II",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing economic mobilization and bombing in World War II, 1939–1945",
+    text: "During World War II, governments mobilized entire economies. In the United States, factories that had made cars built tanks and aircraft, and millions of women took jobs in war industries. In the Soviet Union, Stalin ordered factories moved east of the Ural Mountains ahead of the German advance, and they produced weapons in huge numbers that helped the Red Army turn back the invasion. Britain rationed food and fuel and drafted women into war work and the armed forces.\n\nCivilians became targets as well. German bombing of London and Coventry and Allied bombing of Dresden and Tokyo killed hundreds of thousands of people.",
+  },
+  m1Vietnam: {
+    id: "mock1-vietnam-independence",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.5 key concept: some independence movements used armed struggle, and Cold War rivalry shaped the outcome",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Vietnamese struggle against French rule, 1945–1954",
+    text: "After World War II, France tried to restore its rule in Indochina. Ho Chi Minh, who had declared Vietnam's independence in 1945, led the Viet Minh, a coalition of nationalists and communists, in a guerrilla war against the French. In 1954 Viet Minh forces under General Vo Nguyen Giap besieged the French base at Dien Bien Phu and forced its surrender.\n\nAt the Geneva Conference that followed, the great powers divided Vietnam temporarily at the 17th parallel, with the communists governing the north. The United States, fearing that communism would spread, supported a non-communist government in the south, and the conflict continued.",
+  },
+  m1Conquest: {
+    id: "mock1-mexica-defeat",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.4 key concept: Spanish conquests depended on Indigenous alliances, disease, and technology",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing historians' explanations of the Spanish victory over the Mexica, 1519–1521",
+    text: "Historians have long asked how a few hundred Spaniards led by Hernán Cortés defeated the Mexica empire in 1521. Older accounts credited Spanish steel weapons, horses, and military skill. More recent historians emphasize that Cortés fought with tens of thousands of Indigenous allies, such as the Tlaxcalans, who resented the tribute the Mexica demanded and who supplied most of the fighters in the final siege of Tenochtitlan.\n\nHistorians also stress the role of disease. A smallpox epidemic that began in 1520 killed many Mexica, including the ruler Cuitláhuac, and weakened the city's defense. Together, these historians argue, alliances and disease, rather than technology alone, explain the outcome.",
+  },
+  m2Inca: {
+    id: "mock2-inca-state",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 1.4 key concept: the Inca state organized labor, records, and roads to govern a large empire",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Inca administration, c. 1438–1532",
+    text: "The Inca Empire, which expanded rapidly from Cuzco after about 1438 under the ruler Pachacuti, had no money economy and no written script like those of Afro-Eurasian states. Instead the state organized the labor of its subjects. Households owed the mit'a, a rotating labor service, which built roads, terraces, and storehouses and supplied soldiers. In return the state stored food and cloth for use in famine and held feasts at which rulers rewarded loyalty.\n\nOfficials recorded census data, labor obligations, and the contents of storehouses on quipus, knotted cords that trained specialists could read. The Inca also moved communities, called mitmaq colonists, to newly conquered regions to farm and to spread the Quechua language and Inca administration. A network of roads linked the four quarters of the empire.",
+  },
+  m2Qing: {
+    id: "mock2-qing-rule",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.1 key concept: the Qing dynasty expanded and governed China by combining Manchu and Chinese institutions",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the rise and expansion of the Qing dynasty, 1644–1760",
+    text: "The Qing dynasty began as a Manchu state in northeastern Asia. In 1644 Manchu armies, invited into Beijing to help put down a rebellion, took power and established Qing rule over China. The Manchu rulers organized their soldiers into banners, military units that included Manchu, Mongol, and Han Chinese families, and they kept the Confucian examination system so that educated Han scholars could serve as officials. Under the emperors Kangxi and Qianlong, Qing armies conquered Taiwan, Mongolia, Tibet, and Xinjiang, roughly doubling the empire's size by the mid-1700s.\n\nThe Qing required Han men to wear the queue, a Manchu hairstyle, as a sign of submission, but they let Tibetan Buddhist and Mongol institutions govern daily life in many frontier regions.",
+  },
+  m2Catholic: {
+    id: "mock2-catholic-reformation",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.3 key concept: the Catholic Reformation responded to Protestant challenges through reform and missionary work",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Catholic Reformation, 1540–1600",
+    text: "In response to the Protestant Reformation, the Catholic Church held the Council of Trent between 1545 and 1563. The council reaffirmed teachings that Protestants rejected, including the authority of the pope and the value of both faith and good works. It also ended the sale of indulgences, required bishops to live in their dioceses, and ordered seminaries to train priests.\n\nThe Society of Jesus, founded by Ignatius of Loyola and approved in 1540, ran schools across Europe and sent missionaries to Asia and the Americas, such as Francis Xavier in India and Japan. Catholic rulers, including Philip II of Spain, also used the Inquisition to suppress heresy.",
+  },
+  m2Silver: {
+    id: "mock2-potosi-silver",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.5 key concept: silver from the Americas and coerced labor linked the economies of the Americas, Europe, and China",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing silver mining and trade, c. 1545–1650",
+    text: "In 1545 Spanish miners found a mountain of silver at Potosí, in the Andes of present-day Bolivia. To obtain labor, the Spanish adapted the Inca mit'a into a system in which Indigenous communities had to send a share of their men to work in the mines for pay far below the value of the silver they produced. Mining relied on mercury, and many miners died from accidents and poisoning.\n\nMuch of the silver crossed the Atlantic to Spain, but a large share went to China by way of the Manila galleons, because Chinese merchants demanded silver for silk and porcelain. Historians note that the silver trade tied together the economies of the Americas, Europe, and China.",
+  },
+  m2Casta: {
+    id: "mock2-spanish-american-hierarchy",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.7 key concept: Spanish American society was organized into hierarchies based on birth and ancestry",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing social hierarchy in Spanish America, c. 1600–1750",
+    text: "By the 1700s, Spanish America had a social hierarchy based on birth and ancestry. At the top were peninsulares, officials born in Spain, who held the highest offices in government and the Church. Below them were criollos, people of Spanish descent born in the Americas, who owned much of the land and many mines but were barred from most top positions.\n\nMestizos, people of mixed Spanish and Indigenous ancestry, and mulattos, people of mixed European and African ancestry, held a lower rank. Indigenous peoples, who owed tribute and labor, and enslaved Africans ranked lower still. Officials used casta labels that recorded ancestry in detail to assign legal status, though in practice people could sometimes change their standing through wealth or marriage.",
+  },
+  m2Haiti: {
+    id: "mock2-haitian-revolution",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+    text: "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general, defeating Spanish, British, and French armies and ending slavery on the island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people.",
+  },
+  m2Steam: {
+    id: "mock2-steam-transport",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.5 key concept: steam-powered transport and the telegraph transformed communication and trade",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing transport and communication technologies, 1825–1900",
+    text: "In the 1800s, steam power changed transportation. Railroads, first built in Britain in the 1820s, carried raw materials to factories and finished goods to cities and ports at lower cost. Steamships crossed the Atlantic in weeks rather than months and, after the opening of the Suez Canal in 1869, shortened the voyage between Europe and Asia. The telegraph, which sent messages along wires in seconds, linked markets and governments; a transatlantic cable laid in 1866 connected the United States to Europe.\n\nLater in the century, new sources of energy, including electricity and petroleum, led to a second wave of industrial growth.",
+  },
+  m2Opium: {
+    id: "mock2-opium-wars",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.5 key concept: Britain used military force to open China to trade in opium and other goods",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Opium Wars, 1839–1860",
+    text: "In the early 1800s, British merchants paid for Chinese tea, silk, and porcelain largely with silver. To reverse the flow, they sold opium grown in British India to Chinese buyers. As addiction spread and silver left China, the Qing official Lin Zexu destroyed more than 20,000 chests of opium at Guangzhou in 1839. Britain sent warships, and the Qing were defeated in the First Opium War.\n\nThe Treaty of Nanjing in 1842 forced China to pay an indemnity, give Hong Kong to Britain, and open five ports to foreign trade. A second war, ending in 1860, opened more ports and allowed foreign merchants and missionaries to travel inland.",
+  },
+  m2Chinese: {
+    id: "mock2-chinese-migration",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
+    text: "Between 1850 and 1882, tens of thousands of Chinese laborers migrated to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943.",
+  },
+  m2July: {
+    id: "mock2-july-crisis",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.2 key concept: alliances and rivalries turned a regional crisis into a general war in 1914",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the outbreak of World War I, June–August 1914",
+    text: "On June 28, 1914, a Bosnian Serb nationalist assassinated Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, in Sarajevo. Austria-Hungary, with Germany's promise of support, sent Serbia an ultimatum and declared war on July 28. Russia began to mobilize to defend Serbia, and Germany declared war on Russia and then on France, Russia's ally.\n\nWhen German armies invaded neutral Belgium to attack France, Britain declared war. Within a week, a regional dispute had become a war among the major European powers because of the alliances that bound them together.",
+  },
+  m2Glasnost: {
+    id: "mock2-gorbachev-reforms",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.8 key concept: reforms in the Soviet Union and revolutions in Eastern Europe ended the Cold War",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Soviet reform and collapse, 1985–1991",
+    text: "When Mikhail Gorbachev became leader of the Soviet Union in 1985, the economy was stagnating and the war in Afghanistan, begun in 1979, was costly. He introduced perestroika, a restructuring of the economy that allowed limited private enterprise, and glasnost, a policy of openness that loosened censorship. Glasnost allowed citizens and the press to criticize the government and the Communist Party.\n\nIn 1989 Gorbachev refused to send Soviet troops to prevent Eastern European communist governments from falling, and by the end of 1991 the Soviet Union had dissolved into fifteen independent states.",
+  },
+  m2Plague: {
+    id: "mock2-black-death-debate",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 2.6 key concept: pandemic disease spread along trade networks and changed labor and society",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing historians' views of the Black Death, 1346–1400",
+    text: "The Black Death, a pandemic of plague that reached the Mediterranean in 1347, killed an estimated third to half of Europe's people within a few years. Historians have long linked the plague to Mongol-era trade networks: plague bacteria circulated among rodents in Central Asia, and traders, armies, and ships carried infected fleas along the routes that joined Asia, the Middle East, and Europe.\n\nMany historians argue that the plague's long-term effects included higher wages for surviving workers in Western Europe, because labor had become scarce. Landlords tried to hold wages down, and peasants in several regions resisted, but the old system of serfdom weakened. Other historians stress that effects varied by region and that some landlords, especially in Eastern Europe, tightened their control over peasants instead.",
+  },
+  m3Song: {
+    id: "mock3-song-china",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 1.1 key concept: Song China combined an examination-based bureaucracy, Neo-Confucianism, and commercial growth",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing government and economy in Song China, 960–1279",
+    text: "Song China (960–1279) governed through a large civil service. Officials were chosen by examinations on Confucian texts, and a successful candidate could rise regardless of birth, although the long years of study favored families that could afford teachers. Neo-Confucian scholars revived Confucian ideas about duty and self-cultivation, which shaped education.\n\nThe economy grew quickly. Farmers planted fast-ripening Champa rice, introduced from Southeast Asia, which allowed two harvests a year in some regions. Printing spread books and examination texts, and by the 1100s the government issued paper money. Foot binding, which spread among elite families during the Song, limited the mobility of many women.",
+  },
+  m3Mehmed: {
+    id: "mock3-fall-of-constantinople",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.1 key concept: gunpowder weapons helped the Ottomans conquer Constantinople and build a multiethnic empire",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Ottoman conquest of Constantinople, 1453",
+    text: "In 1453 the Ottoman sultan Mehmed II besieged Constantinople, the capital of the Byzantine Empire, with a large army and powerful cannon, including bronze guns cast by a Hungarian engineer named Urban. The city's walls had held for a thousand years, but they could not withstand sustained bombardment, and the Ottomans took the city on May 29.\n\nMehmed made it his capital, now called Istanbul, rebuilt its markets and population, and converted the Hagia Sophia from a church into a mosque. He allowed the Greek Orthodox patriarch to remain in office, and he encouraged Greeks, Jews, and Armenians to settle in the city.",
+  },
+  m3Architecture: {
+    id: "mock3-monumental-architecture",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.2 key concept: rulers of land-based empires used art and monumental architecture to display power and legitimacy",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing architecture in land-based empires, c. 1550–1700",
+    text: "Land-based empires used architecture to display their power and faith. The Ottoman architect Sinan designed the Süleymaniye Mosque in Istanbul, completed in 1557 for Suleiman I, with a vast central dome and four minarets. In Persia, Shah Abbas I made Isfahan his capital in 1598 and rebuilt it with a great public square and the Imam Mosque, covered in colored tile.\n\nIn India, the Mughal emperor Shah Jahan built the Taj Mahal in the 1630s and 1640s as a tomb for his wife Mumtaz Mahal. Built of white marble, it combined Persian, Islamic, and Indian decorative traditions. In China, the Qing emperors maintained and expanded the Forbidden City in Beijing as the center of imperial ceremony.",
+  },
+  m3VOC: {
+    id: "mock3-dutch-east-india-company",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.4 key concept: joint-stock companies such as the Dutch East India Company combined private investment with state backing",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Dutch East India Company, 1602–1700",
+    text: "In 1602 Dutch merchants combined several trading firms into the Dutch East India Company (VOC), which the Dutch government chartered with a monopoly over Dutch trade east of the Cape of Good Hope. The company raised money by selling shares to investors, which spread the risk of expensive voyages, and it was allowed to wage war, make treaties, and build forts.\n\nThe VOC took Portuguese strongholds in the Indian Ocean, founded Batavia on Java in 1619 as its Asian headquarters, and controlled much of the spice trade by forcing growers in places such as the Banda Islands to sell only to the company. By the late 1600s, Amsterdam was one of the leading financial centers of Europe.",
+  },
+  m3Pueblo: {
+    id: "mock3-pueblo-revolt",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 4.6 key concept: Indigenous peoples resisted colonial rule, and some revolts forced changes in colonial policy",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Pueblo Revolt, 1680–1692",
+    text: "In 1680 the Pueblo peoples of what is now New Mexico rose against Spanish rule. For decades Spanish authorities and Franciscan missionaries had forced Pueblo communities to pay tribute in goods and labor and had punished traditional religious practices such as dances and kachina ceremonies. A religious leader named Popé organized the Pueblo villages, which spoke different languages, and runners carried knotted cords to coordinate the date of the revolt.\n\nPueblo forces killed about 400 Spaniards, including many priests, and drove the survivors south to El Paso. The Spanish did not retake the region until 1692, and when they did, they allowed Pueblo communities more religious freedom than before.",
+  },
+  m3MajiMaji: {
+    id: "mock3-maji-maji",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 6.3 key concept: indigenous peoples resisted imperial expansion through armed and religious movements",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Maji Maji Rebellion, 1905–1907",
+    text: "In 1905 people in German East Africa, in what is now Tanzania, rose against colonial rule. German officials had imposed taxes payable in cash and forced villagers to grow cotton for export on communal plots, work that took time from food crops. A spirit medium named Kinjikitile Ngwale taught that water blessed by a spirit, maji in Swahili, would turn German bullets to water.\n\nPeople from many different ethnic groups joined the rebellion, which spread across a large region. German forces used machine guns and then destroyed crops and villages to starve the rebels, and historians estimate that between 100,000 and 300,000 Africans died, most from famine. After the rebellion, German officials reduced the worst abuses of forced labor.",
+  },
+  m3Holocaust: {
+    id: "mock3-holocaust-escalation",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.8 key concept: Nazi Germany carried out the Holocaust, the systematic murder of European Jews",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Holocaust, 1933–1945",
+    text: "After the Nazi Party took power in Germany in 1933, the government excluded Jews from public life. The Nuremberg Laws of 1935 stripped German Jews of citizenship, and the violence of Kristallnacht in November 1938 destroyed synagogues and Jewish businesses. After Germany invaded the Soviet Union in 1941, special units shot hundreds of thousands of Jews, and in 1942 Nazi officials met at Wannsee, near Berlin, to coordinate the murder of all European Jews.\n\nMillions were deported to killing centers such as Auschwitz-Birkenau, where gas chambers were used. About six million Jews died. The Nazis also murdered Roma, people with disabilities, Polish and Soviet civilians, and political opponents.",
+  },
+  m3Trenches: {
+    id: "mock3-western-front",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.3 key concept: trench warfare and new weapons made World War I a war of attrition",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing fighting on the Western Front, 1914–1918",
+    text: "On the Western Front after 1914, armies dug trenches that stretched from the English Channel to Switzerland. Machine guns, barbed wire, and artillery made infantry attacks extremely costly. At Verdun in 1916, French and German forces fought for ten months and suffered about 700,000 casualties combined. At the Somme later that year, British forces suffered nearly 60,000 casualties on the first day of the battle.\n\nBoth sides tried new weapons, including poison gas, tanks, and aircraft, but the front moved only a few miles. The stalemate ended in 1918, when Germany's spring offensives failed, American troops arrived in large numbers, and Allied armies advanced.",
+  },
+  m3Cuba: {
+    id: "mock3-cuban-missile-crisis",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.3 key concept: the nuclear arms race and crises such as the Cuban Missile Crisis shaped superpower relations",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Cuban Missile Crisis, October 1962",
+    text: "In October 1962, American reconnaissance photographs showed Soviet nuclear missile sites under construction in Cuba, about 90 miles from Florida. President John F. Kennedy announced a naval quarantine of Cuba and demanded that the missiles be removed. For several days the superpowers came close to nuclear war.\n\nThe crisis ended when Soviet leader Nikita Khrushchev agreed to remove the missiles in return for a public American promise not to invade Cuba and a private agreement to remove American missiles from Turkey. In 1963 the two powers installed a telephone hotline between Washington and Moscow and signed a treaty banning nuclear tests in the atmosphere.",
+  },
+  m3SaltMarch: {
+    id: "mock3-salt-march",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 8.7 key concept: movements used nonviolent resistance to challenge colonial rule",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Gandhi's Salt March, 1930",
+    text: "In March 1930, Mohandas Gandhi led a march of several dozen followers from his ashram near Ahmedabad to the Arabian Sea coast at Dandi, about 240 miles away, where he picked up natural salt. British law gave the government a monopoly on salt and taxed it, a burden that fell heavily on poor Indians.\n\nThousands of Indians soon made or sold salt in defiance of the law, and about 60,000 people were arrested, including Gandhi. The campaign drew worldwide press attention. Gandhi called his method satyagraha, a commitment to truth through nonviolent noncooperation. The campaign did not end British rule, but it showed that the Indian National Congress could mobilize millions of people across class and region.",
+  },
+  m3Zapatistas: {
+    id: "mock3-zapatistas",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 9.7 key concept: groups resisted globalization, defending local economies and cultures",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Zapatista uprising, 1994",
+    text: "On January 1, 1994, the day the North American Free Trade Agreement (NAFTA) took effect, a rebel group calling itself the Zapatista Army of National Liberation seized several towns in the southern Mexican state of Chiapas. Its members were mostly Indigenous Maya farmers. They demanded land, better schools and health care, and political rights, and they argued that NAFTA would harm small farmers by exposing them to competition from cheap imported corn.\n\nAfter about twelve days of fighting, the Mexican government declared a cease-fire and began talks. The Zapatistas used the internet and the international press to spread their message, and the movement became a symbol for critics of globalization around the world.",
+  },
+  m3Appeasement: {
+    id: "mock3-appeasement-debate",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.6 key concept: appeasement and the failure of collective security contributed to the outbreak of World War II",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing historians' debate over appeasement, 1938–1939",
+    text: "In 1938 British prime minister Neville Chamberlain and French premier Édouard Daladier agreed at Munich to let Germany annex the Sudetenland, a border region of Czechoslovakia, in the hope of avoiding war. For decades after 1945, many writers condemned the policy of appeasement as a failure of nerve that encouraged Hitler to demand more. Germany occupied the rest of Czechoslovakia in March 1939 and invaded Poland in September.\n\nSome historians now argue that Britain and France had good reasons to avoid war in 1938. Their armies were not ready, public opinion in Britain and in the empire opposed another war so soon after 1918, and the Munich agreement gave them time to rearm. Other historians reply that Germany was relatively weaker in 1938 than it would be later, so waiting did not help the Allies.",
+  },
+  // END mock exam passages
 };

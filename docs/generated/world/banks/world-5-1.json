@@ -259,6 +259,27 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-5-leq-comparison",
+        "title": "Unit 5 LEQ: Revolutions in the Atlantic world",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-5-leq-continuity",
+        "title": "Unit 5 LEQ: Industrialization and British workers",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
       }
     ]
   },
@@ -837,6 +858,380 @@
           "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing reform movements influenced by Enlightenment ideas, 1780–1900",
           "text": "Enlightenment arguments about natural rights gave reformers a powerful language. Abolitionists, many of them also motivated by religious belief, pressed Britain to end its slave trade in 1807 and to abolish slavery in most of its empire in 1833. Russia emancipated its serfs in 1861. In 1848, activists meeting at Seneca Falls, New York, demanded rights for women, including the vote.\n\nChange came slowly and unevenly. The United States ended slavery only in 1865 after a civil war, Brazil in 1888. New Zealand became the first country to allow women to vote in national elections in 1893."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-5-1-m1-08a",
+      "topicId": "world-5-1",
+      "concept": "natural-rights",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "According to Locke in the passage, a government loses its legitimacy when",
+      "choices": [
+        "citizens refuse to pay taxes that the government has levied",
+        "it allows too many people to share in making the laws",
+        "the government fails to establish an official state religion",
+        "rulers take away the people's property and liberty by arbitrary power"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Locke says legislators who destroy the people's property or reduce them to slavery under arbitrary power forfeit their authority.",
+      "sourceIds": [
+        "ced-topic-5-1"
+      ],
+      "choiceExplanations": [
+        "Locke does not say that refusing taxes ends legitimacy.",
+        "Locke says people are by nature equal and can be governed only with consent, not that broad participation destroys legitimacy.",
+        "The passage does not mention an official religion.",
+        "Locke says legislators who destroy the people's property or reduce them to slavery under arbitrary power forfeit their authority."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Locke accepted that governments could tax with consent; his test was arbitrary seizure of property and liberty.",
+      "stimulusId": "locke-consent",
+      "stimulusBlocks": [
+        {
+          "id": "locke-consent",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "locke-second-treatise",
+          "amsco_review": "pending",
+          "attribution": "John Locke, English philosopher, Second Treatise of Government, 1690",
+          "citation": "John Locke, Second Treatise of Government, sections 95 and 222. Project Gutenberg eBook #7370.",
+          "note": "Locke uses “property” to mean people's lives, liberties, and estates. The legislative is the lawmaking power.",
+          "text": "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. . . .\n\n. . . whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience . . . . Whensoever therefore the legislative shall transgress this fundamental rule of society; and either by ambition, fear, folly or corruption, endeavour to grasp themselves, or put into the hands of any other, an absolute power over the lives, liberties, and estates of the people; by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty . . . ."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-1-m1-08b",
+      "topicId": "world-5-1",
+      "concept": "natural-rights",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "reasoning": "continuity",
+      "prompt": "Which later event most directly reflects Locke's idea that people may resume their liberty?",
+      "choices": [
+        "The American Declaration of Independence in 1776",
+        "The Congress of Vienna's settlement of Europe in 1815",
+        "The Meiji Restoration's modernization of Japan in 1868",
+        "The Taiping Rebellion against the Qing in the 1850s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Declaration claimed that when a government violates natural rights, the people may abolish it, echoing Locke.",
+      "sourceIds": [
+        "ced-topic-5-1"
+      ],
+      "choiceExplanations": [
+        "The Declaration claimed that when a government violates natural rights, the people may abolish it, echoing Locke.",
+        "The Congress of Vienna sought to restore monarchies after Napoleon.",
+        "The Meiji Restoration was a program of state-led modernization in Japan.",
+        "The Taiping Rebellion was a religious and social movement in China that did not draw on Locke."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The Congress of Vienna dealt with revolution, but its aim was to restore monarchies rather than to affirm a right of resistance.",
+      "stimulusId": "locke-consent",
+      "stimulusBlocks": [
+        {
+          "id": "locke-consent",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "locke-second-treatise",
+          "amsco_review": "pending",
+          "attribution": "John Locke, English philosopher, Second Treatise of Government, 1690",
+          "citation": "John Locke, Second Treatise of Government, sections 95 and 222. Project Gutenberg eBook #7370.",
+          "note": "Locke uses “property” to mean people's lives, liberties, and estates. The legislative is the lawmaking power.",
+          "text": "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. . . .\n\n. . . whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience . . . . Whensoever therefore the legislative shall transgress this fundamental rule of society; and either by ambition, fear, folly or corruption, endeavour to grasp themselves, or put into the hands of any other, an absolute power over the lives, liberties, and estates of the people; by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty . . . ."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-5-1-m1-08c",
+      "topicId": "world-5-1",
+      "concept": "natural-rights",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Locke wrote in 1690, shortly after England's Glorious Revolution. How does that context help explain the passage?",
+      "choices": [
+        "The monarchy had just been abolished in favor of a republic",
+        "Locke wrote to defend the divine right of kings against Parliament",
+        "Locke was responding to the outbreak of the French Revolution",
+        "Parliament had just limited the monarch's power, and Locke defended it"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In 1688–1689 Parliament removed James II and set limits on the crown, and Locke's theory justified that outcome.",
+      "sourceIds": [
+        "ced-topic-5-1"
+      ],
+      "choiceExplanations": [
+        "England's republic belonged to the 1650s and had ended in 1660.",
+        "The passage rejects absolute power, the opposite of divine right.",
+        "The French Revolution began in 1789, a century after Locke wrote.",
+        "In 1688–1689 Parliament removed James II and set limits on the crown, and Locke's theory justified that outcome."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "England had been a republic earlier in the 1600s, but the Glorious Revolution kept the monarchy and limited it.",
+      "stimulusId": "locke-consent",
+      "stimulusBlocks": [
+        {
+          "id": "locke-consent",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "locke-second-treatise",
+          "amsco_review": "pending",
+          "attribution": "John Locke, English philosopher, Second Treatise of Government, 1690",
+          "citation": "John Locke, Second Treatise of Government, sections 95 and 222. Project Gutenberg eBook #7370.",
+          "note": "Locke uses “property” to mean people's lives, liberties, and estates. The legislative is the lawmaking power.",
+          "text": "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. . . .\n\n. . . whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience . . . . Whensoever therefore the legislative shall transgress this fundamental rule of society; and either by ambition, fear, folly or corruption, endeavour to grasp themselves, or put into the hands of any other, an absolute power over the lives, liberties, and estates of the people; by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty . . . ."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-5-1-m1-08d",
+      "topicId": "world-5-1",
+      "concept": "natural-rights",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Locke's argument differs most sharply from which earlier justification for royal authority?",
+      "choices": [
+        "The Mandate of Heaven, which held that heaven could withdraw approval from a ruler",
+        "Natural law, which held that reason revealed universal moral rules",
+        "The separation of powers among branches of government",
+        "Divine right, which held that kings answered to God rather than to their subjects"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Divine right made a king accountable to God alone, while Locke made rulers accountable to the people who consented to be governed.",
+      "sourceIds": [
+        "ced-topic-5-1"
+      ],
+      "choiceExplanations": [
+        "The Mandate of Heaven allowed rebellion against bad rulers, so it resembles Locke's view.",
+        "Natural law was part of Locke's own reasoning.",
+        "Separation of powers was a limit on rulers that thinkers like Locke and Montesquieu supported.",
+        "Divine right made a king accountable to God alone, while Locke made rulers accountable to the people who consented to be governed."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Mandate of Heaven was Chinese and did not rest on consent, but it too allowed removal of a ruler who failed, so it is closer to Locke than divine right.",
+      "stimulusId": "locke-consent",
+      "stimulusBlocks": [
+        {
+          "id": "locke-consent",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "locke-second-treatise",
+          "amsco_review": "pending",
+          "attribution": "John Locke, English philosopher, Second Treatise of Government, 1690",
+          "citation": "John Locke, Second Treatise of Government, sections 95 and 222. Project Gutenberg eBook #7370.",
+          "note": "Locke uses “property” to mean people's lives, liberties, and estates. The legislative is the lawmaking power.",
+          "text": "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. . . .\n\n. . . whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience . . . . Whensoever therefore the legislative shall transgress this fundamental rule of society; and either by ambition, fear, folly or corruption, endeavour to grasp themselves, or put into the hands of any other, an absolute power over the lives, liberties, and estates of the people; by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty . . . ."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-1-m3-08a",
+      "topicId": "world-5-1",
+      "concept": "reform-movements",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Over whom does Wollstonecraft say she wants women to have power?",
+      "choices": [
+        "Men, in a reversal of the current order",
+        "Themselves, rather than men",
+        "Children, within the household",
+        "Their governments, through voting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "She says she does not wish women to have power over men but over themselves.",
+      "sourceIds": [
+        "ced-topic-5-1"
+      ],
+      "choiceExplanations": [
+        "She explicitly says she does not want power over men.",
+        "She says she does not wish women to have power over men but over themselves.",
+        "The passage does not discuss power over children.",
+        "The passage does not mention voting or governments."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "She did argue for women's education, but the passage focuses on self-command, not political rights.",
+      "stimulusId": "wollstonecraft-reason",
+      "stimulusBlocks": [
+        {
+          "id": "wollstonecraft-reason",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "wollstonecraft-vindication",
+          "amsco_review": "pending",
+          "attribution": "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792",
+          "citation": "Mary Wollstonecraft, A Vindication of the Rights of Woman, chs. 3–4. Project Gutenberg eBook #3420.",
+          "note": "Wollstonecraft is responding to the French Enlightenment writer Jean-Jacques Rousseau, who argued that women should be educated to please men. Bracketed words replace “they.”",
+          "edits": [
+            {
+              "shown": "[Women]",
+              "original": "they"
+            }
+          ],
+          "text": "It is time to effect a revolution in female manners, time to restore to them their lost dignity, and make them, as a part of the human species, labour by reforming themselves to reform the world. . . .\n\n[Women] would be more respectable members of society, and discharge the important duties of life by the light of their own reason. \"Educate women like men,\" says Rousseau, \"and the more they resemble our sex the less power will they have over us.\" This is the very point I aim at. I do not wish them to have power over men; but over themselves."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-1-m3-08b",
+      "topicId": "world-5-1",
+      "concept": "reform-movements",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Wollstonecraft's reference to Rousseau shows that she was",
+      "choices": [
+        "agreeing with Rousseau's claim that women should be educated to please men",
+        "writing to defend the French monarchy against its revolutionary critics",
+        "translating Rousseau's work for English readers who could not read French",
+        "answering an Enlightenment thinker whose view of women she rejected"
+      ],
+      "correctAnswer": 3,
+      "explanation": "She quotes Rousseau's argument about educating women and then says it is “the very point I aim at,” turning it against his conclusion.",
+      "sourceIds": [
+        "ced-topic-5-1"
+      ],
+      "choiceExplanations": [
+        "She rejects Rousseau's view of women's education.",
+        "She writes in favor of reform, not monarchy.",
+        "She is writing her own argument, not translating.",
+        "She quotes Rousseau's argument about educating women and then says it is “the very point I aim at,” turning it against his conclusion."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "She used Rousseau's own language, but she did so to reach a different conclusion.",
+      "stimulusId": "wollstonecraft-reason",
+      "stimulusBlocks": [
+        {
+          "id": "wollstonecraft-reason",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "wollstonecraft-vindication",
+          "amsco_review": "pending",
+          "attribution": "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792",
+          "citation": "Mary Wollstonecraft, A Vindication of the Rights of Woman, chs. 3–4. Project Gutenberg eBook #3420.",
+          "note": "Wollstonecraft is responding to the French Enlightenment writer Jean-Jacques Rousseau, who argued that women should be educated to please men. Bracketed words replace “they.”",
+          "edits": [
+            {
+              "shown": "[Women]",
+              "original": "they"
+            }
+          ],
+          "text": "It is time to effect a revolution in female manners, time to restore to them their lost dignity, and make them, as a part of the human species, labour by reforming themselves to reform the world. . . .\n\n[Women] would be more respectable members of society, and discharge the important duties of life by the light of their own reason. \"Educate women like men,\" says Rousseau, \"and the more they resemble our sex the less power will they have over us.\" This is the very point I aim at. I do not wish them to have power over men; but over themselves."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-5-1-m3-08c",
+      "topicId": "world-5-1",
+      "concept": "natural-rights",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Wollstonecraft's argument is an example of",
+      "choices": [
+        "Enlightenment reasoning applied to the rights of women",
+        "a conservative defense of traditional gender roles in society",
+        "a socialist call for workers to seize private property",
+        "a nationalist demand for independence from Great Britain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "She argued that women, as rational beings, should be educated and respected.",
+      "sourceIds": [
+        "ced-topic-5-1"
+      ],
+      "choiceExplanations": [
+        "She argued that women, as rational beings, should be educated and respected.",
+        "She challenges traditional roles.",
+        "The passage does not concern property or workers.",
+        "The passage does not concern independence."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Enlightenment writers often limited rights to men; she pushed the same logic to include women.",
+      "stimulusId": "wollstonecraft-reason",
+      "stimulusBlocks": [
+        {
+          "id": "wollstonecraft-reason",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "wollstonecraft-vindication",
+          "amsco_review": "pending",
+          "attribution": "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792",
+          "citation": "Mary Wollstonecraft, A Vindication of the Rights of Woman, chs. 3–4. Project Gutenberg eBook #3420.",
+          "note": "Wollstonecraft is responding to the French Enlightenment writer Jean-Jacques Rousseau, who argued that women should be educated to please men. Bracketed words replace “they.”",
+          "edits": [
+            {
+              "shown": "[Women]",
+              "original": "they"
+            }
+          ],
+          "text": "It is time to effect a revolution in female manners, time to restore to them their lost dignity, and make them, as a part of the human species, labour by reforming themselves to reform the world. . . .\n\n[Women] would be more respectable members of society, and discharge the important duties of life by the light of their own reason. \"Educate women like men,\" says Rousseau, \"and the more they resemble our sex the less power will they have over us.\" This is the very point I aim at. I do not wish them to have power over men; but over themselves."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-1-m3-08d",
+      "topicId": "world-5-1",
+      "concept": "reform-movements",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which later development did arguments like Wollstonecraft's help inspire?",
+      "choices": [
+        "The Congress of Vienna's restoration of monarchies in 1815",
+        "The Meiji government's reforms to modernize Japan",
+        "Women's rights movements such as the Seneca Falls meeting",
+        "The Taiping Rebellion's program of land reform in China"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Seneca Falls adopted a declaration of women's rights modeled on the Declaration of Independence.",
+      "sourceIds": [
+        "ced-topic-5-1"
+      ],
+      "choiceExplanations": [
+        "The Congress of Vienna sought to restore conservative rule.",
+        "Meiji reforms concerned state-led modernization.",
+        "Seneca Falls adopted a declaration of women's rights modeled on the Declaration of Independence.",
+        "The Taiping program included some equality for women in China but did not draw on Wollstonecraft."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Taipings offered women some roles, but their movement arose from different ideas.",
+      "stimulusId": "wollstonecraft-reason",
+      "stimulusBlocks": [
+        {
+          "id": "wollstonecraft-reason",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "wollstonecraft-vindication",
+          "amsco_review": "pending",
+          "attribution": "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792",
+          "citation": "Mary Wollstonecraft, A Vindication of the Rights of Woman, chs. 3–4. Project Gutenberg eBook #3420.",
+          "note": "Wollstonecraft is responding to the French Enlightenment writer Jean-Jacques Rousseau, who argued that women should be educated to please men. Bracketed words replace “they.”",
+          "edits": [
+            {
+              "shown": "[Women]",
+              "original": "they"
+            }
+          ],
+          "text": "It is time to effect a revolution in female manners, time to restore to them their lost dignity, and make them, as a part of the human species, labour by reforming themselves to reform the world. . . .\n\n[Women] would be more respectable members of society, and discharge the important duties of life by the light of their own reason. \"Educate women like men,\" says Rousseau, \"and the more they resemble our sex the less power will they have over us.\" This is the very point I aim at. I do not wish them to have power over men; but over themselves."
         }
       ],
       "skillLabel": "Making connections",

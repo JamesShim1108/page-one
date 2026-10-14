@@ -620,6 +620,191 @@ export const bank = {
       stimulusId: "original-qing-expansion",
       stimulusBlocks: [excerpts.originalQingExpansion],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-3-1-m2-04a",
+      topicId: "world-3-1",
+      concept: "qing-expansion",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which detail best supports the claim that the Qing combined Manchu and Chinese institutions?",
+      choices: [
+        "They required Han men to wear the Manchu queue as a sign of submission",
+        "They kept the exams and mixed Manchu, Mongol, and Han families in banners",
+        "They conquered Taiwan, Mongolia, Tibet, and Xinjiang in the 1600s and 1700s",
+        "They took Beijing in 1644 after a rebellion against the Ming dynasty",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Keeping the Confucian examinations welcomed Han officials, while the banners mixed Manchu, Mongol, and Han families.",
+      sourceIds: ["ced-topic-3-1"],
+      choiceExplanations: [
+        "The queue was a Manchu requirement imposed on Han men, not a blending of traditions.",
+        "Keeping the Confucian examinations welcomed Han officials, while the banners mixed Manchu, Mongol, and Han families.",
+        "Conquest shows expansion, not blending of institutions.",
+        "Taking Beijing shows how the dynasty began, not how it governed.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The queue was a Manchu custom, but the passage presents it as a sign of submission, not as blending.",
+      stimulusId: "mock2-qing-rule",
+      stimulusBlocks: [excerpts.m2Qing],
+    },
+    {
+      id: "world-3-1-m2-04b",
+      topicId: "world-3-1",
+      concept: "qing-expansion",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "Which institution did the Qing keep to win the cooperation of the Han elite?",
+      choices: [
+        "The Confucian civil service examinations",
+        "The mansabdar system of ranked officials",
+        "The timar system of land grants to cavalry",
+        "The daimyo domains of hereditary lords",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The examinations offered educated Han men a path into the bureaucracy.",
+      sourceIds: ["ced-topic-3-1"],
+      choiceExplanations: [
+        "The examinations offered educated Han men a path into the bureaucracy.",
+        "Mansabdars served the Mughal emperors in India.",
+        "Timar grants supported Ottoman cavalrymen.",
+        "Daimyo ruled domains in Tokugawa Japan.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The Mughal mansabdar system also ranked officials by the ruler's appointment, but it belonged to a different empire.",
+      stimulusId: "mock2-qing-rule",
+      stimulusBlocks: [excerpts.m2Qing],
+    },
+    {
+      id: "world-3-1-m2-04c",
+      topicId: "world-3-1",
+      concept: "qing-expansion",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Qing rule over China was most similar to Mughal rule under Akbar in that both",
+      choices: [
+        "ruled a majority population with the help of local elites",
+        "banned the religions of the peoples they had conquered",
+        "divided their empires into hereditary feudal domains",
+        "ended taxes on agricultural production across the realm",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The Qing relied on Han scholar-officials, and Akbar relied on Rajput and other Hindu nobles, to govern populations unlike the ruling group.",
+      sourceIds: ["ced-topic-3-1"],
+      choiceExplanations: [
+        "The Qing relied on Han scholar-officials, and Akbar relied on Rajput and other Hindu nobles, to govern populations unlike the ruling group.",
+        "Akbar allowed Hindu practice and the Qing let Tibetan Buddhist and Mongol institutions function.",
+        "Neither empire organized itself as a set of hereditary feudal domains.",
+        "Both empires depended on taxes from agriculture.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Akbar's descendants later reimposed some religious distinctions, but his own policy was inclusion, as in Qing frontier rule.",
+      stimulusId: "mock2-qing-rule",
+      stimulusBlocks: [excerpts.m2Qing],
+    },
+    {
+      id: "world-3-1-m3-04a",
+      topicId: "world-3-1",
+      concept: "gunpowder-armies",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      reasoning: "causation",
+      prompt:
+        "Which factor does the passage identify as important to the Ottoman conquest of Constantinople?",
+      choices: [
+        "A naval blockade that cut off all supplies to the city",
+        "Betrayal by Byzantine nobles who opened the gates",
+        "Support from the armies of other European kingdoms",
+        "Large cannon that could break the city's walls",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage says the walls could not withstand sustained bombardment from large cannon.",
+      sourceIds: ["ced-topic-3-1"],
+      choiceExplanations: [
+        "The passage does not mention a blockade.",
+        "The passage does not mention betrayal.",
+        "The passage describes an Ottoman siege and no European relief force.",
+        "The passage says the walls could not withstand sustained bombardment from large cannon.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Ottoman ships did play a role in the siege, but the passage stresses the cannon.",
+      stimulusId: "mock3-fall-of-constantinople",
+      stimulusBlocks: [excerpts.m3Mehmed],
+    },
+    {
+      id: "world-3-1-m3-04b",
+      topicId: "world-3-1",
+      concept: "islamic-empires",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "Mehmed's treatment of Constantinople after the conquest reflects which Ottoman practice?",
+      choices: [
+        "Letting religious communities keep their own leaders in office",
+        "Forcing every subject of the new capital to convert to Islam",
+        "Expelling the city's Christians and Jews from the empire",
+        "Dividing the city among Ottoman military commanders as private lands",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Allowing the patriarch to stay and inviting settlers reflects the Ottoman approach to religious communities.",
+      sourceIds: ["ced-topic-3-1"],
+      choiceExplanations: [
+        "Allowing the patriarch to stay and inviting settlers reflects the Ottoman approach to religious communities.",
+        "The passage describes keeping the patriarch and inviting Jews and Armenians.",
+        "The passage describes settlement of Jews, Greeks, and Armenians.",
+        "The passage describes rebuilding the city as the sultan's capital.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Mehmed did convert Hagia Sophia, but he did not require conversion of the population.",
+      stimulusId: "mock3-fall-of-constantinople",
+      stimulusBlocks: [excerpts.m3Mehmed],
+    },
+    {
+      id: "world-3-1-m3-04c",
+      topicId: "world-3-1",
+      concept: "rivalries",
+      difficulty: "Challenge",
+      skill: "contextualization",
+      reasoning: "causation",
+      prompt:
+        "Historians connect the fall of Constantinople to European exploration because it",
+      choices: [
+        "gave the Ottomans more control of routes and spurred sea voyages",
+        "ended all trade between Europe and Asia for several decades",
+        "forced Portugal to give up its exploration of the African coast",
+        "caused Spain to adopt Ottoman ship designs and navigation",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Ottoman control of key land and Mediterranean routes gave European states and merchants a reason to look for alternatives.",
+      sourceIds: ["ced-topic-3-1"],
+      choiceExplanations: [
+        "Ottoman control of key land and Mediterranean routes gave European states and merchants a reason to look for alternatives.",
+        "Trade continued between Europe and Asia after 1453.",
+        "Portuguese exploration of Africa began before 1453 and continued.",
+        "Spain did not adopt Ottoman navigation technology as a result of the conquest.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Trade through Ottoman lands continued, which is why historians debate how large the effect was.",
+      stimulusId: "mock3-fall-of-constantinople",
+      stimulusBlocks: [excerpts.m3Mehmed],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

@@ -235,6 +235,27 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-9-saq-02",
+        "title": "Unit 9 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-9-dbq-government",
+        "title": "Unit 9 DBQ: Ideas about the role of government",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "available"
+      },
+      {
+        "id": "world-9-leq-continuity",
+        "title": "Unit 9 LEQ: Technology and global connections",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
       }
     ]
   },
@@ -661,6 +682,172 @@
       ],
       "skillLabel": "Argumentation",
       "skillCode": "6"
+    },
+    {
+      "id": "world-9-7-m3-16a",
+      "topicId": "world-9-7",
+      "concept": "protest",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which concern about NAFTA did the Zapatistas express?",
+      "choices": [
+        "That the agreement would raise taxes on factories",
+        "That cheap imported corn would harm small farmers",
+        "That it would give Mexico control over trade in Canada",
+        "That it would ban the sale of Mexican corn abroad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Zapatistas argued that competition from imported corn would hurt small farmers.",
+      "sourceIds": [
+        "ced-topic-9-7"
+      ],
+      "choiceExplanations": [
+        "The passage does not mention taxes on factories.",
+        "The Zapatistas argued that competition from imported corn would hurt small farmers.",
+        "NAFTA lowered barriers among the three countries and did not give Mexico control over Canada.",
+        "The concern was about imports, not a ban on exports."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "NAFTA did affect Mexican trade, but the Zapatistas' stated concern was imported crops.",
+      "stimulusId": "mock3-zapatistas",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-zapatistas",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.7 key concept: groups resisted globalization, defending local economies and cultures",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Zapatista uprising, 1994",
+          "text": "On January 1, 1994, the day the North American Free Trade Agreement (NAFTA) took effect, a rebel group calling itself the Zapatista Army of National Liberation seized several towns in the southern Mexican state of Chiapas. Its members were mostly Indigenous Maya farmers. They demanded land, better schools and health care, and political rights, and they argued that NAFTA would harm small farmers by exposing them to competition from cheap imported corn.\n\nAfter about twelve days of fighting, the Mexican government declared a cease-fire and began talks. The Zapatistas used the internet and the international press to spread their message, and the movement became a symbol for critics of globalization around the world."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-9-7-m3-16b",
+      "topicId": "world-9-7",
+      "concept": "defending-local",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "The Zapatistas' use of the internet and international press shows that",
+      "choices": [
+        "globalization had not yet reached Mexico by 1994",
+        "the Mexican government controlled all news and information",
+        "only governments had the means to use global communications",
+        "global technology could be used by critics of globalization"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The movement spread its message widely using global communications.",
+      "sourceIds": [
+        "ced-topic-9-7"
+      ],
+      "choiceExplanations": [
+        "NAFTA took effect in 1994, which shows Mexico was affected.",
+        "The Zapatistas reached international audiences.",
+        "A rebel group used the internet.",
+        "The movement spread its message widely using global communications."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Governments had more resources, but the passage shows a small movement also reaching world audiences.",
+      "stimulusId": "mock3-zapatistas",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-zapatistas",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.7 key concept: groups resisted globalization, defending local economies and cultures",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Zapatista uprising, 1994",
+          "text": "On January 1, 1994, the day the North American Free Trade Agreement (NAFTA) took effect, a rebel group calling itself the Zapatista Army of National Liberation seized several towns in the southern Mexican state of Chiapas. Its members were mostly Indigenous Maya farmers. They demanded land, better schools and health care, and political rights, and they argued that NAFTA would harm small farmers by exposing them to competition from cheap imported corn.\n\nAfter about twelve days of fighting, the Mexican government declared a cease-fire and began talks. The Zapatistas used the internet and the international press to spread their message, and the movement became a symbol for critics of globalization around the world."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-9-7-m3-16c",
+      "topicId": "world-9-7",
+      "concept": "protest",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Zapatista uprising was most similar to which other protest?",
+      "choices": [
+        "The Salt March against British rule in India",
+        "The 1999 WTO protests against trade rules in Seattle",
+        "The Russian Revolution of 1917 in Petrograd",
+        "The Boxer Rebellion against foreign influence in China"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both movements opposed the effects of global trade rules on workers, farmers, and local communities.",
+      "sourceIds": [
+        "ced-topic-9-7"
+      ],
+      "choiceExplanations": [
+        "The Salt March was a campaign against colonial rule.",
+        "Both movements opposed the effects of global trade rules on workers, farmers, and local communities.",
+        "The Russian Revolution overthrew a government.",
+        "The Boxer Rebellion opposed foreign influence in China in 1900."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Boxers also resisted outside influence, but they did so a century earlier and in a different setting.",
+      "stimulusId": "mock3-zapatistas",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-zapatistas",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.7 key concept: groups resisted globalization, defending local economies and cultures",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Zapatista uprising, 1994",
+          "text": "On January 1, 1994, the day the North American Free Trade Agreement (NAFTA) took effect, a rebel group calling itself the Zapatista Army of National Liberation seized several towns in the southern Mexican state of Chiapas. Its members were mostly Indigenous Maya farmers. They demanded land, better schools and health care, and political rights, and they argued that NAFTA would harm small farmers by exposing them to competition from cheap imported corn.\n\nAfter about twelve days of fighting, the Mexican government declared a cease-fire and began talks. The Zapatistas used the internet and the international press to spread their message, and the movement became a symbol for critics of globalization around the world."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-9-7-m3-16d",
+      "topicId": "world-9-7",
+      "concept": "protest",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "NAFTA, which took effect in 1994, is an example of",
+      "choices": [
+        "a military alliance created by states during the Cold War",
+        "a United Nations program to expand health care worldwide",
+        "a colonial trading company chartered by a European state",
+        "a trade agreement lowering barriers among three countries"
+      ],
+      "correctAnswer": 3,
+      "explanation": "NAFTA lowered tariffs and other barriers among its three members.",
+      "sourceIds": [
+        "ced-topic-9-7"
+      ],
+      "choiceExplanations": [
+        "NAFTA was an economic agreement, not an alliance like NATO.",
+        "NAFTA did not provide health care.",
+        "Colonial trading companies were from earlier centuries.",
+        "NAFTA lowered tariffs and other barriers among its three members."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "NATO was a regional organization too, but it concerned security and not trade.",
+      "stimulusId": "mock3-zapatistas",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-zapatistas",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.7 key concept: groups resisted globalization, defending local economies and cultures",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Zapatista uprising, 1994",
+          "text": "On January 1, 1994, the day the North American Free Trade Agreement (NAFTA) took effect, a rebel group calling itself the Zapatista Army of National Liberation seized several towns in the southern Mexican state of Chiapas. Its members were mostly Indigenous Maya farmers. They demanded land, better schools and health care, and political rights, and they argued that NAFTA would harm small farmers by exposing them to competition from cheap imported corn.\n\nAfter about twelve days of fighting, the Mexican government declared a cease-fire and began talks. The Zapatistas used the internet and the international press to spread their message, and the movement became a symbol for critics of globalization around the world."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
     }
   ],
   "quizzes": [

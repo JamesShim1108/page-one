@@ -1,0 +1,420 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-3-saq-03",
+        "title": "Unit 3 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-3-leq-comparison",
+        "title": "Unit 3 LEQ: Governing religious diversity",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "quiz": {
+    "id": "world-3-saq-02",
+    "version": 1,
+    "courseId": "world",
+    "unitId": "world-3",
+    "title": "Unit 3 SAQ 02",
+    "headline": "Luther and the sale of indulgences",
+    "promptTitle": "Primary-source short-answer question",
+    "prompt": "Use the passage below to answer all parts of the question.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
+    "stimulusBlocks": [
+      {
+        "id": "luther-theses",
+        "type": "source",
+        "sourceType": "primary",
+        "source": "luther-works-1915",
+        "amsco_review": "pending",
+        "attribution": "Martin Luther, German monk and professor of theology, Disputation on the Power and Efficacy of Indulgences (the Ninety-five Theses), Wittenberg, 1517",
+        "citation": "Works of Martin Luther, trans. and ed. Adolph Spaeth, L. D. Reed, Henry Eyster Jacobs, et al. (Philadelphia: A. J. Holman Company, 1915), vol. 1, pp. 29–38, theses 21, 27–28, 36, 50, and 86. Project Gutenberg eBook #274.",
+        "note": "Indulgences were grants from the Church said to reduce punishment for sins. “They preach man” means they preach human teaching rather than God's. Bracketed words are the translators'. Thesis 86 is one of several questions Luther says ordinary believers were asking.",
+        "text": "21. Therefore those preachers of indulgences are in error, who say that by the pope's indulgences a man is freed from every penalty, and saved; . . .\n\n27. They preach man who say that so soon as the penny jingles into the money-box, the soul flies out [of purgatory].\n\n28. It is certain that when the penny jingles into the money-box, gain and avarice can be increased, but the result of the intercession of the Church is in the power of God alone. . . .\n\n36. Every truly repentant Christian has a right to full remission of penalty and guilt, even without letters of pardon. . . .\n\n50. Christians are to be taught that if the pope knew the exactions of the pardon-preachers, he would rather that St. Peter's church should go to ashes, than that it should be built up with the skin, flesh and bones of his sheep. . . .\n\n86. Again:--\"Why does not the pope, whose wealth is to-day greater than the riches of the richest, build just this one church of St. Peter with his own money, rather than with the money of poor believers?\""
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Answer",
+        "text": "Respond directly to the task verb: identify, describe, or explain."
+      },
+      {
+        "label": "Prove",
+        "text": "Name a specific person, place, institution, or development."
+      },
+      {
+        "label": "Explain",
+        "text": "Show how or why the evidence answers the question."
+      }
+    ],
+    "parts": [
+      {
+        "id": "a",
+        "lenses": [
+          "C",
+          "E"
+        ],
+        "prompt": "Identify ONE criticism of the Church's sale of indulgences that Luther makes in the passage.",
+        "criteria": [
+          "States a specific criticism found in the passage.",
+          "Connects the criticism to the sale of indulgences, not to the Church in general."
+        ],
+        "model": {
+          "answer": "Luther criticizes preachers of indulgences for encouraging greed instead of true repentance.",
+          "prove": "He writes that when “the penny jingles into the money-box, gain and avarice can be increased,” and that the pope would rather see St. Peter's church burn than have it built with the “skin, flesh and bones” of his flock.",
+          "explain": "Both statements argue that the sale of pardons enriched the Church at the expense of ordinary believers, who could receive forgiveness through repentance without paying."
+        },
+        "alternatives": "The question in thesis 86 about why the pope does not build St. Peter's with his own wealth also earns the point. A general statement that Luther “disagreed with the Church” does not.",
+        "review": [
+          {
+            "topicId": "world-3-3",
+            "sectionId": "protestant-reformation",
+            "label": "The Protestant Reformation"
+          }
+        ]
+      },
+      {
+        "id": "b",
+        "lenses": [
+          "T",
+          "C"
+        ],
+        "prompt": "Explain ONE way the printing press contributed to the spread of Luther's ideas in the 1500s.",
+        "criteria": [
+          "Names a specific effect of printing, such as pamphlets or vernacular Bibles.",
+          "Explains how the effect spread Luther's ideas beyond the clergy or beyond Wittenberg."
+        ],
+        "model": {
+          "answer": "Printing let Luther's ideas reach large numbers of ordinary people faster than Church authorities could respond.",
+          "prove": "Printers in German towns produced Luther's pamphlets and, from 1522, his German translation of the New Testament in thousands of cheap copies.",
+          "explain": "Because the writings were in German and inexpensive, literate townspeople could read and discuss them without a priest, which spread reform beyond universities and Latin-reading clergy."
+        },
+        "alternatives": "Answers can also explain that printed woodcuts and sermons helped people who could not read follow the debate, or that printing let Reformers in other places, such as Zwingli and Calvin, circulate their own works.",
+        "review": [
+          {
+            "topicId": "world-3-3",
+            "sectionId": "protestant-reformation",
+            "label": "The Protestant Reformation"
+          }
+        ]
+      },
+      {
+        "id": "c",
+        "lenses": [
+          "P",
+          "C"
+        ],
+        "prompt": "Explain ONE political or religious result of the Protestant Reformation in Europe by 1650.",
+        "criteria": [
+          "Names a specific result, such as a treaty, a war, or a Catholic response.",
+          "Explains how the Reformation caused or shaped the result."
+        ],
+        "model": {
+          "answer": "The Reformation divided Europe into Protestant and Catholic states that fought over religion and borders.",
+          "prove": "The Peace of Augsburg in 1555 let each German prince choose Lutheranism or Catholicism for his territory, and the Thirty Years' War from 1618 to 1648 drew in Catholic and Protestant powers across Europe.",
+          "explain": "Because rulers could now tie their authority to different churches, religious disagreement became part of rivalries between states."
+        },
+        "alternatives": "Answers can also explain the Catholic Reformation, including the Council of Trent and the Jesuits, or the creation of state churches such as the Church of England.",
+        "review": [
+          {
+            "topicId": "world-3-3",
+            "sectionId": "catholic-reformation",
+            "label": "The Catholic Reformation"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "luther-works-1915",
+      "ced-topic-3-3"
+    ]
+  }
+}

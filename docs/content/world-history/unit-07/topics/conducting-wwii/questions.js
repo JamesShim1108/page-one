@@ -300,6 +300,98 @@ export const bank = {
       stimulusId: "original-atomic-bomb",
       stimulusBlocks: [excerpts.originalAtomic],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-7-7-m1-13a",
+      topicId: "world-7-7",
+      concept: "wwii-mobilization",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which pattern is shown by the examples in the passage?",
+      choices: [
+        "Governments ended rationing to raise morale",
+        "Civilians were kept away from the fighting",
+        "Governments redirected industry and labor to war production",
+        "Industry stayed in private hands with little state direction",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The United States, the Soviet Union, and Britain all shifted factories and workers to military needs.",
+      sourceIds: ["ced-topic-7-7"],
+      choiceExplanations: [
+        "The passage says Britain rationed food and fuel.",
+        "The passage says civilians were bombed and became targets.",
+        "The United States, the Soviet Union, and Britain all shifted factories and workers to military needs.",
+        "The examples show governments directing factories and labor, not leaving them alone.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "American industry stayed privately owned, but the government directed what it made, so the state was far from hands-off.",
+      stimulusId: "mock1-mobilization-wwii",
+      stimulusBlocks: [excerpts.m1TotalWar2],
+    },
+    {
+      id: "world-7-7-m1-13b",
+      topicId: "world-7-7",
+      concept: "wwii-mobilization",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Which statement best compares Soviet and American wartime economies as described in the passage?",
+      choices: [
+        "Both relied on factories relocated beyond the Ural Mountains",
+        "Both shifted to war production, but the Soviet state relocated whole industries",
+        "Only the Soviet Union employed women in war industries",
+        "The American government directed production while the Soviet government left it to private firms",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The passage notes Stalin's relocation of factories as a response to the German advance, which the United States did not face.",
+      sourceIds: ["ced-topic-7-7"],
+      choiceExplanations: [
+        "Only the Soviet Union relocated factories in the passage.",
+        "The passage notes Stalin's relocation of factories as a response to the German advance, which the United States did not face.",
+        "The passage says millions of American women worked in war industries.",
+        "The Soviet state owned its industries and directed them, so the contrast is false.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Both economies used women's labor, but only the Soviet Union had to move factories away from an invading army.",
+      stimulusId: "mock1-mobilization-wwii",
+      stimulusBlocks: [excerpts.m1TotalWar2],
+    },
+    {
+      id: "world-7-7-m1-13c",
+      topicId: "world-7-7",
+      concept: "wwii-mobilization",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The bombing of cities by both sides illustrates which feature of World War II?",
+      choices: [
+        "Trench warfare along fixed fronts of the kind seen in 1914",
+        "Nonviolent resistance to occupation by foreign armies",
+        "Wars of national unification like those of the 1800s",
+        "Total war, with civilians and factories as targets",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Bombing of London, Coventry, Dresden, and Tokyo aimed at civilian morale and industrial capacity.",
+      sourceIds: ["ced-topic-7-7"],
+      choiceExplanations: [
+        "Trench warfare was typical of World War I and is not shown in the passage.",
+        "The passage describes bombing, not nonviolent resistance.",
+        "National unification wars belong to the nineteenth century.",
+        "Bombing of London, Coventry, Dresden, and Tokyo aimed at civilian morale and industrial capacity.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "World War I also mobilized economies for total war, but massive bombing of cities was characteristic of World War II.",
+      stimulusId: "mock1-mobilization-wwii",
+      stimulusBlocks: [excerpts.m1TotalWar2],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

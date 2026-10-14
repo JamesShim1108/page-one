@@ -357,6 +357,129 @@ export const bank = {
       stimulusId: "original-anticolonial-interwar",
       stimulusBlocks: [excerpts.originalAnticolonial],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-7-5-m1-12a",
+      topicId: "world-7-5",
+      concept: "versailles",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which concern does Keynes express about the peace settlement in the passage?",
+      choices: [
+        "It treated Germany too leniently and left it strong enough to threaten Europe",
+        "It gave too much territory to Russia and its new government",
+        "It offered no plan for Europe's recovery and risked provoking revolution",
+        "It left the League of Nations without any power to enforce its decisions",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Keynes says the treaty had no provisions for rehabilitating Europe and warns of civil war and revolution if Central Europe is impoverished.",
+      sourceIds: ["ced-topic-7-5"],
+      choiceExplanations: [
+        "Keynes argues the settlement was too harsh, not too lenient.",
+        "The passage says the treaty did nothing to reclaim Russia, not that it enlarged it.",
+        "Keynes says the treaty had no provisions for rehabilitating Europe and warns of civil war and revolution if Central Europe is impoverished.",
+        "The passage does not discuss the League of Nations.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Germany was disarmed under the treaty, but Keynes's concern is economic ruin, not military limits.",
+      stimulusId: "keynes-peace",
+      stimulusBlocks: [excerpts.keynesPeace],
+    },
+    {
+      id: "world-7-5-m1-12b",
+      topicId: "world-7-5",
+      concept: "versailles",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Which feature of Keynes's situation most helps explain the tone of the passage?",
+      choices: [
+        "He was a German official appointed to defend Germany at Paris",
+        "He was a soldier who sought revenge for the war's destruction",
+        "He was an envoy sent by the League of Nations to the conference",
+        "He took part in the conference and resigned in protest over its results",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Keynes advised the British Treasury at Paris and left in June 1919 because he thought the settlement would harm Europe.",
+      sourceIds: ["ced-topic-7-5"],
+      choiceExplanations: [
+        "Keynes was British and represented the British Treasury.",
+        "Keynes was an economist, not a soldier.",
+        "The League of Nations had not yet been established when he resigned.",
+        "Keynes advised the British Treasury at Paris and left in June 1919 because he thought the settlement would harm Europe.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Keynes opposed harsh terms against Germany, but he did so as a member of the British delegation, not as a German advocate.",
+      stimulusId: "keynes-peace",
+      stimulusBlocks: [excerpts.keynesPeace],
+    },
+    {
+      id: "world-7-5-m1-12c",
+      topicId: "world-7-5",
+      concept: "versailles",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which events of the 1920s and 1930s most clearly support Keynes's prediction?",
+      choices: [
+        "Lasting prosperity in Germany and steady payment of reparations after 1919",
+        "Economic crisis in Germany and the rise of extremists such as the Nazi Party",
+        "The Russian Revolution of 1917 and the fall of the tsar",
+        "The creation of the mandate system in the Middle East",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Hyperinflation in 1923 and the Great Depression helped the Nazis gain support, as Keynes had warned that economic ruin could breed extremism.",
+      sourceIds: ["ced-topic-7-5"],
+      choiceExplanations: [
+        "Keynes predicted trouble, and Germany instead suffered inflation and depression.",
+        "Hyperinflation in 1923 and the Great Depression helped the Nazis gain support, as Keynes had warned that economic ruin could breed extremism.",
+        "The Russian Revolution took place two years before Keynes wrote, so it cannot confirm his prediction.",
+        "The mandates governed former Ottoman and German colonial lands and do not bear on Keynes's warning.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Revolution had already occurred in Russia, but Keynes was predicting what would follow the treaty.",
+      stimulusId: "keynes-peace",
+      stimulusBlocks: [excerpts.keynesPeace],
+    },
+    {
+      id: "world-7-5-m1-12d",
+      topicId: "world-7-5",
+      concept: "versailles",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "Which provision of the Treaty of Versailles most directly led to the economic concerns Keynes raised?",
+      choices: [
+        "A requirement that Germany pay large reparations",
+        "The war guilt clause blaming Germany for the war",
+        "The creation of mandates in the Middle East",
+        "A prohibition on German union with Austria",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Reparations drained German resources and strained its economy, which Keynes argued would destabilize all of Europe.",
+      sourceIds: ["ced-topic-7-5"],
+      choiceExplanations: [
+        "Reparations drained German resources and strained its economy, which Keynes argued would destabilize all of Europe.",
+        "The war guilt clause was the legal basis for reparations, but the economic burden came from the payments themselves.",
+        "Mandates governed former Ottoman and German colonies and had little effect on the German economy.",
+        "The ban on union with Austria limited German politics and did not directly affect the economy.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The war guilt clause justified reparations, but the payments are what weighed on the economy.",
+      stimulusId: "keynes-peace",
+      stimulusBlocks: [excerpts.keynesPeace],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

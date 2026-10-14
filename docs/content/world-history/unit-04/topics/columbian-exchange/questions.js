@@ -343,6 +343,127 @@ export const bank = {
       stimulusId: "original-crops-animals",
       stimulusBlocks: [excerpts.originalCrops],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-4-3-m1-06a",
+      topicId: "world-4-3",
+      concept: "crops-animals",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which statement about American crops in Asia is best supported by the passage?",
+      choices: [
+        "New crops let farmers use land that older crops could not use",
+        "American crops ended rice farming in China",
+        "Farmers rejected American crops because of high labor demands",
+        "Population growth in Asia came mainly from European migration",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Maize and sweet potatoes could be grown on hillsides unsuited to rice, adding food and supporting population growth.",
+      sourceIds: ["ced-topic-4-3"],
+      choiceExplanations: [
+        "Maize and sweet potatoes could be grown on hillsides unsuited to rice, adding food and supporting population growth.",
+        "The passage says maize and sweet potatoes supplemented rice and does not say rice farming ended.",
+        "The passage says the crops produced more calories per acre, not that farmers rejected them.",
+        "The passage ties population growth to food, not to European migration.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "American crops did become important in China, but as an addition on poorer land rather than as a replacement for rice.",
+      stimulusId: "mock1-columbian-exchange-crops",
+      stimulusBlocks: [excerpts.m1Crops],
+    },
+    {
+      id: "world-4-3-m1-06b",
+      topicId: "world-4-3",
+      concept: "environment-labor",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which factor best explains the shift to enslaved African labor described in the last sentence?",
+      choices: [
+        "Spanish laws forbade all labor by Europeans in the Caribbean",
+        "Disease and overwork reduced the Indigenous workforce that planters first used",
+        "African rulers asked European planters to buy their subjects",
+        "Sugar could be grown only with African farming techniques",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "As disease and overwork killed Indigenous workers, planters looked for another labor supply and turned to the Atlantic slave trade.",
+      sourceIds: ["ced-topic-4-3"],
+      choiceExplanations: [
+        "No law barred European labor; planters preferred not to do the work themselves.",
+        "As disease and overwork killed Indigenous workers, planters looked for another labor supply and turned to the Atlantic slave trade.",
+        "The passage describes planters turning to enslaved Africans, not African rulers asking them to.",
+        "The passage describes sugar grown on large estates and does not say it required African techniques.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The New Laws of 1542 limited the enslavement of Indigenous people in Spanish lands, but demand for labor on sugar estates is the main cause in the passage.",
+      stimulusId: "mock1-columbian-exchange-crops",
+      stimulusBlocks: [excerpts.m1Crops],
+    },
+    {
+      id: "world-4-3-m1-06c",
+      topicId: "world-4-3",
+      concept: "crops-animals",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt: "The adoption of the horse by Plains peoples is an example of",
+      choices: [
+        "Indigenous conquest of European settlements in the Americas",
+        "a deliberate gift from the Spanish crown to its Indigenous allies",
+        "a transfer from Europe that changed Indigenous economies and warfare",
+        "the first introduction of horses to any part of the world",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Horses arrived with Europeans and were adopted by Plains peoples, changing hunting and warfare.",
+      sourceIds: ["ced-topic-4-3"],
+      choiceExplanations: [
+        "The passage describes adoption of a European animal, not conquest.",
+        "The passage describes diffusion, not a gift from the Spanish crown.",
+        "Horses arrived with Europeans and were adopted by Plains peoples, changing hunting and warfare.",
+        "Horses had been used in Afro-Eurasia for thousands of years before 1492.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Horses were new to the Americas after 1492, but they were not new to the world.",
+      stimulusId: "mock1-columbian-exchange-crops",
+      stimulusBlocks: [excerpts.m1Crops],
+    },
+    {
+      id: "world-4-3-m1-06d",
+      topicId: "world-4-3",
+      concept: "environment-labor",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt: "The exchanges described in the passage are best understood as part of",
+      choices: [
+        "the Mongol creation of Eurasian trade networks in the 1200s",
+        "the Industrial Revolution's demand for raw materials and markets",
+        "the spread of Buddhism along the Silk Roads in earlier centuries",
+        "the creation of Atlantic networks linking four continents",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "After 1492 the Atlantic became a corridor connecting Europe, Africa, and the Americas, and later Asia.",
+      sourceIds: ["ced-topic-4-3"],
+      choiceExplanations: [
+        "Mongol networks were Eurasian and earlier, in the 1200s.",
+        "The Industrial Revolution began in the 1700s, after the exchanges described.",
+        "The spread of Buddhism along Silk Roads happened centuries earlier and did not involve American crops.",
+        "After 1492 the Atlantic became a corridor connecting Europe, Africa, and the Americas, and later Asia.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Mongol-era networks also moved crops and animals, but those networks did not include the Americas.",
+      stimulusId: "mock1-columbian-exchange-crops",
+      stimulusBlocks: [excerpts.m1Crops],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

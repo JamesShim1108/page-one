@@ -271,6 +271,187 @@ export const bank = {
       stimulusId: "original-food-exports",
       stimulusBlocks: [excerpts.originalFoodExports],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-6-4-m1-11a",
+      topicId: "world-6-4",
+      concept: "export-economies",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which policy does the passage identify as pushing African farmers to produce for export?",
+      choices: [
+        "Taxes that had to be paid in French currency",
+        "Laws banning the cultivation of food crops",
+        "Compulsory military service in French armies",
+        "A ban on trade with other European colonies",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Taxes payable in French currency forced farmers to sell crops for cash.",
+      sourceIds: ["ced-topic-6-4"],
+      choiceExplanations: [
+        "Taxes payable in French currency forced farmers to sell crops for cash.",
+        "The passage says farmers grew less food but does not say food crops were banned.",
+        "The passage does not mention military service.",
+        "The passage does not mention a ban on trade with other colonies.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Railways helped move the crop, but the passage names taxes as the pressure on farmers.",
+      stimulusId: "mock1-senegal-peanuts",
+      stimulusBlocks: [excerpts.m1Peanuts],
+    },
+    {
+      id: "world-6-4-m1-11b",
+      topicId: "world-6-4",
+      concept: "raw-materials",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "The economic arrangement in the passage most directly resulted from",
+      choices: [
+        "African rulers' adoption of laissez-faire policy toward foreign traders",
+        "competition among African states for European machinery and weapons",
+        "European demand for raw materials and colonial control of African land",
+        "Portuguese mercantilist controls on Atlantic trade with Senegal",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "France wanted peanuts for industry at home and used colonial power to organize their production and export.",
+      sourceIds: ["ced-topic-6-4"],
+      choiceExplanations: [
+        "The passage shows French officials directing production, not African rulers choosing laissez-faire.",
+        "The passage describes no competition among African states for machinery.",
+        "France wanted peanuts for industry at home and used colonial power to organize their production and export.",
+        "Portuguese mercantilism belonged to earlier Atlantic trade and a different empire.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Ending the Atlantic slave trade encouraged “legitimate” commerce in African products, but this passage describes the later period of colonial rule.",
+      stimulusId: "mock1-senegal-peanuts",
+      stimulusBlocks: [excerpts.m1Peanuts],
+    },
+    {
+      id: "world-6-4-m1-11c",
+      topicId: "world-6-4",
+      concept: "export-economies",
+      difficulty: "Apply",
+      skill: "argumentation",
+      prompt:
+        "Which of the following was a vulnerability of the economy described in the passage?",
+      choices: [
+        "A complete lack of transportation connecting the interior to the coast",
+        "Dependence on a single export whose price was set in distant foreign markets",
+        "A shortage of buyers in France for the crop that farmers grew",
+        "Overproduction of manufactured goods in Senegalese factories",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "When peanut prices fell in the 1930s, farmers had no other source of cash income and fell into debt.",
+      sourceIds: ["ced-topic-6-4"],
+      choiceExplanations: [
+        "The passage describes railways connecting the interior to Dakar.",
+        "When peanut prices fell in the 1930s, farmers had no other source of cash income and fell into debt.",
+        "The passage describes strong French demand, not a shortage of buyers.",
+        "Senegal exported farm products and did not overproduce manufactured goods.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Colonial economies often lacked factories, but the passage's evidence of vulnerability is dependence on one crop and its price.",
+      stimulusId: "mock1-senegal-peanuts",
+      stimulusBlocks: [excerpts.m1Peanuts],
+    },
+    {
+      id: "world-6-4-m3-11a",
+      topicId: "world-6-4",
+      concept: "raw-materials",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "According to the passage, how does the bourgeoisie draw other nations into its system?",
+      choices: [
+        "Treaties give other nations fair shares of the profits of trade",
+        "Cheap goods act like artillery against foreign nations",
+        "Missionaries persuade foreign rulers to change their laws",
+        "Gifts of machines are sent to every foreign government",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
+      sourceIds: ["ced-topic-6-4"],
+      choiceExplanations: [
+        "The passage describes pressure, not fair sharing.",
+        "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
+        "The passage does not mention missionaries.",
+        "The passage does not describe gifts.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Merchants did use force at times, but the passage's image is of cheap goods as a weapon.",
+      stimulusId: "manifesto-world-market",
+      stimulusBlocks: [excerpts.manifestoWorldMarket],
+    },
+    {
+      id: "world-6-4-m3-11b",
+      topicId: "world-6-4",
+      concept: "raw-materials",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt: "The authors' use of the word “barbarian” is best understood as",
+      choices: [
+        "an ironic echo of how capitalists spoke of other peoples",
+        "a sincere statement of their own opinion of other peoples",
+        "a direct quotation from a letter by the Chinese emperor",
+        "a legal term used in nineteenth-century trade treaties",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The note explains that Marx and Engels use words such as “barbarian” sarcastically.",
+      sourceIds: ["ced-topic-6-4"],
+      choiceExplanations: [
+        "The note explains that Marx and Engels use words such as “barbarian” sarcastically.",
+        "The note says the authors use the term sarcastically.",
+        "The passage does not quote a Chinese emperor.",
+        "The passage does not present the word as a legal term.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The word reflects a contemporary European attitude, but the authors present it ironically.",
+      stimulusId: "manifesto-world-market",
+      stimulusBlocks: [excerpts.manifestoWorldMarket],
+    },
+    {
+      id: "world-6-4-m3-11c",
+      topicId: "world-6-4",
+      concept: "raw-materials",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "Which event of the mid-1800s best illustrates the passage's reference to battering down “Chinese walls”?",
+      choices: [
+        "The Opium Wars, in which Britain forced China to open ports to trade",
+        "The Taiping Rebellion, in which rebels attacked the Qing capital",
+        "The Meiji Restoration, in which Japan reorganized its government",
+        "The Indian Rebellion of 1857, in which soldiers fought the British East India Company",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Britain used warships to force China to accept foreign trade, as the passage's image describes.",
+      sourceIds: ["ced-topic-6-4"],
+      choiceExplanations: [
+        "Britain used warships to force China to accept foreign trade, as the passage's image describes.",
+        "The Taipings fought the Qing state, not foreign traders.",
+        "The Meiji reforms were a response by Japan, not a forced opening of China.",
+        "The Indian Rebellion concerned British rule in India.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "The Taipings weakened the Qing, but the passage concerns foreign trade pressure.",
+      stimulusId: "manifesto-world-market",
+      stimulusBlocks: [excerpts.manifestoWorldMarket],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

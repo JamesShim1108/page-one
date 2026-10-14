@@ -250,6 +250,27 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-7-saq-02",
+        "title": "Unit 7 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-7-leq-comparison",
+        "title": "Unit 7 LEQ: Responses to the Great Depression",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-7-saq-03",
+        "title": "Unit 7 SAQ 03",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
       }
     ]
   },
@@ -711,6 +732,131 @@
           "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, summarizing colonial participation in World War I",
           "text": "About 1.3 million soldiers and laborers from India served Britain in the war, in France, the Middle East, and East Africa. France recruited soldiers from West Africa, North Africa, and Indochina. China, which was neutral at first, sent about 140,000 laborers to work behind the lines in France.\n\nMany colonial soldiers expected their service to be rewarded with greater rights. When the peace brought little change, disappointment fueled demands for self-government."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-7-3-m3-13a",
+      "topicId": "world-7-3",
+      "concept": "trench-warfare",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which factors does the passage cite as making infantry attacks costly?",
+      "choices": [
+        "Tanks, aircraft, and poison gas",
+        "Shortages of food and ammunition",
+        "Machine guns, barbed wire, and artillery",
+        "Lack of training among soldiers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says these defensive weapons made attacks extremely costly.",
+      "sourceIds": [
+        "ced-topic-7-3"
+      ],
+      "choiceExplanations": [
+        "The passage lists these as new weapons that did not break the stalemate.",
+        "The passage does not cite shortages as the reason.",
+        "The passage says these defensive weapons made attacks extremely costly.",
+        "The passage does not discuss training."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Tanks and gas were new weapons, but the passage presents them as attempts to end the stalemate.",
+      "stimulusId": "mock3-western-front",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-western-front",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.3 key concept: trench warfare and new weapons made World War I a war of attrition",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing fighting on the Western Front, 1914–1918",
+          "text": "On the Western Front after 1914, armies dug trenches that stretched from the English Channel to Switzerland. Machine guns, barbed wire, and artillery made infantry attacks extremely costly. At Verdun in 1916, French and German forces fought for ten months and suffered about 700,000 casualties combined. At the Somme later that year, British forces suffered nearly 60,000 casualties on the first day of the battle.\n\nBoth sides tried new weapons, including poison gas, tanks, and aircraft, but the front moved only a few miles. The stalemate ended in 1918, when Germany's spring offensives failed, American troops arrived in large numbers, and Allied armies advanced."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-3-m3-13b",
+      "topicId": "world-7-3",
+      "concept": "trench-warfare",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The situation on the Western Front most directly resulted in",
+      "choices": [
+        "a quick German victory over France in 1914",
+        "heavy casualties and a search for new weapons",
+        "a decline in the use of artillery in war",
+        "widespread peace negotiations in 1915 and 1916"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Attacks failed against strong defenses, so both sides tried gas, tanks, and aircraft.",
+      "sourceIds": [
+        "ced-topic-7-3"
+      ],
+      "choiceExplanations": [
+        "The passage describes a stalemate lasting until 1918.",
+        "Attacks failed against strong defenses, so both sides tried gas, tanks, and aircraft.",
+        "Artillery remained central.",
+        "The passage describes major battles in 1916 and no early peace."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Germany hoped for a quick victory in 1914, but trench warfare ended that hope.",
+      "stimulusId": "mock3-western-front",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-western-front",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.3 key concept: trench warfare and new weapons made World War I a war of attrition",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing fighting on the Western Front, 1914–1918",
+          "text": "On the Western Front after 1914, armies dug trenches that stretched from the English Channel to Switzerland. Machine guns, barbed wire, and artillery made infantry attacks extremely costly. At Verdun in 1916, French and German forces fought for ten months and suffered about 700,000 casualties combined. At the Somme later that year, British forces suffered nearly 60,000 casualties on the first day of the battle.\n\nBoth sides tried new weapons, including poison gas, tanks, and aircraft, but the front moved only a few miles. The stalemate ended in 1918, when Germany's spring offensives failed, American troops arrived in large numbers, and Allied armies advanced."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-3-m3-13c",
+      "topicId": "world-7-3",
+      "concept": "total-war",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The arrival of American troops in 1918 mattered because",
+      "choices": [
+        "it gave the Allies fresh troops as Germany tired",
+        "it forced the Allies to give up the trenches they held",
+        "it ended Britain's naval blockade of Germany",
+        "it allowed Germany to move more troops east"
+      ],
+      "correctAnswer": 0,
+      "explanation": "American troops joined the Allies as Germany's spring offensives failed.",
+      "sourceIds": [
+        "ced-topic-7-3"
+      ],
+      "choiceExplanations": [
+        "American troops joined the Allies as Germany's spring offensives failed.",
+        "The Allies advanced in 1918 rather than giving up the trenches.",
+        "The blockade continued.",
+        "Germany's resources were stretched thin."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "American entry did not end the blockade, which continued until the armistice.",
+      "stimulusId": "mock3-western-front",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-western-front",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.3 key concept: trench warfare and new weapons made World War I a war of attrition",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing fighting on the Western Front, 1914–1918",
+          "text": "On the Western Front after 1914, armies dug trenches that stretched from the English Channel to Switzerland. Machine guns, barbed wire, and artillery made infantry attacks extremely costly. At Verdun in 1916, French and German forces fought for ten months and suffered about 700,000 casualties combined. At the Somme later that year, British forces suffered nearly 60,000 casualties on the first day of the battle.\n\nBoth sides tried new weapons, including poison gas, tanks, and aircraft, but the front moved only a few miles. The stalemate ended in 1918, when Germany's spring offensives failed, American troops arrived in large numbers, and Allied armies advanced."
         }
       ],
       "skillLabel": "Contextualization",

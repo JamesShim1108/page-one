@@ -266,6 +266,127 @@ export const bank = {
       stimulusId: "original-other-atrocities",
       stimulusBlocks: [excerpts.originalOtherAtrocities],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-7-8-m3-12a",
+      topicId: "world-7-8",
+      concept: "holocaust",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which pattern is shown by the sequence of events in the passage?",
+      choices: [
+        "An escalation from legal exclusion to organized mass murder",
+        "A steady improvement in the legal status of Jews",
+        "A sudden outbreak of violence with no earlier policies",
+        "A policy of encouraging Jewish emigration with state aid",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The passage moves from exclusion and citizenship laws to violence and then systematic killing.",
+      sourceIds: ["ced-topic-7-8"],
+      choiceExplanations: [
+        "The passage moves from exclusion and citizenship laws to violence and then systematic killing.",
+        "The passage describes worsening conditions.",
+        "The passage describes policies beginning in 1933, years before the killing centers.",
+        "The passage describes violence and killing, not state-aided emigration.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Emigration was forced on many Jews in the 1930s, but the passage shows the policy turning to killing.",
+      stimulusId: "mock3-holocaust-escalation",
+      stimulusBlocks: [excerpts.m3Holocaust],
+    },
+    {
+      id: "world-7-8-m3-12b",
+      topicId: "world-7-8",
+      concept: "holocaust",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "The German invasion of the Soviet Union in 1941 contributed to the Holocaust by",
+      choices: [
+        "ending all persecution of Jews living inside Germany",
+        "making Germany an ally of the Soviet Union in the war",
+        "removing Germany's authority over occupied Poland and France",
+        "opening the way to mass shootings by special units",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "After the invasion, special units followed the army and shot large numbers of Jews.",
+      sourceIds: ["ced-topic-7-8"],
+      choiceExplanations: [
+        "Persecution did not end.",
+        "Germany and the Soviet Union were at war.",
+        "Germany still controlled occupied Poland.",
+        "After the invasion, special units followed the army and shot large numbers of Jews.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Germany had signed a pact with the Soviet Union in 1939, but the 1941 invasion ended it.",
+      stimulusId: "mock3-holocaust-escalation",
+      stimulusBlocks: [excerpts.m3Holocaust],
+    },
+    {
+      id: "world-7-8-m3-12c",
+      topicId: "world-7-8",
+      concept: "holocaust",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt: "The Holocaust took place in the context of",
+      choices: [
+        "a long decline in the power of the German state",
+        "a war in which racial ideology guided state policy",
+        "a period of economic prosperity in Eastern Europe",
+        "a postwar settlement that protected minority rights",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Nazi ideology divided people by race, and the war gave the regime the means and cover for mass murder.",
+      sourceIds: ["ced-topic-7-8"],
+      choiceExplanations: [
+        "The Nazi state was powerful and centralized.",
+        "Nazi ideology divided people by race, and the war gave the regime the means and cover for mass murder.",
+        "The war devastated Eastern Europe.",
+        "The postwar settlement came after the Holocaust.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Economic hardship helped the Nazis win support, but the Holocaust took place during the war.",
+      stimulusId: "mock3-holocaust-escalation",
+      stimulusBlocks: [excerpts.m3Holocaust],
+    },
+    {
+      id: "world-7-8-m3-12d",
+      topicId: "world-7-8",
+      concept: "holocaust",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Which kind of evidence would best help historians show when German leaders coordinated the killing of European Jews?",
+      choices: [
+        "Newspaper articles written by foreign visitors in 1933",
+        "Letters that German families sent to relatives in 1939",
+        "Records of the Wannsee Conference and related orders",
+        "Maps of German railroads published before the Nazi rise",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Records of the officials' meeting and orders to units show planning and coordination.",
+      sourceIds: ["ced-topic-7-8"],
+      choiceExplanations: [
+        "Early press accounts could show persecution but not a plan for mass murder.",
+        "Family letters might describe daily life but not plans of the leadership.",
+        "Records of the officials' meeting and orders to units show planning and coordination.",
+        "Railroad maps before 1933 predate the planning.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Railroads were used for deportations, but the date of maps shows they cannot document planning.",
+      stimulusId: "mock3-holocaust-escalation",
+      stimulusBlocks: [excerpts.m3Holocaust],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

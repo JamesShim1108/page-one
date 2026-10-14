@@ -237,6 +237,20 @@
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
+      },
+      {
+        "id": "world-6-leq-causation",
+        "title": "Unit 6 LEQ: Causes of imperial expansion",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      },
+      {
+        "id": "world-6-dbq-ideas",
+        "title": "Unit 6 DBQ: New ideas and old hierarchies",
+        "partCount": 8,
+        "exerciseType": "dbq",
+        "availability": "available"
       }
     ]
   },

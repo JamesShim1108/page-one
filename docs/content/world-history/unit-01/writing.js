@@ -1,5 +1,6 @@
 // Writing prompts and criteria are content. Saving and review behavior live in app/writing/.
 import { excerpts } from "../excerpts.js";
+import { dbq, dbqDocument, leq, saq } from "../writing-kit.js";
 
 export const writingQuizzes = [
   {
@@ -259,4 +260,96 @@ export const writingQuizzes = [
     sourceIds: ["polo-yule-1903", "ced-topic-1-3", "ced"],
   },
   // END unit-01 stimulus saq
+  // BEGIN mock exam prompts (written for full-length mock exams)
+  saq({
+    id: "world-1-saq-03",
+    unitNumber: 1,
+    number: 3,
+    headline: "Authority in Song China and feudal Europe",
+    promptTitle: "Short-answer question without a stimulus",
+    prompt: "Answer all parts of the question.",
+    sourceIds: ["ced-topic-1-1", "ced-topic-1-6"],
+    parts: [
+      {
+        id: "a",
+        lenses: ["P", "S"],
+        prompt:
+          "Identify ONE way rulers of Song China chose officials for their government.",
+        criteria: [
+          "Names a specific method or institution.",
+          "Connects it to the Song bureaucracy.",
+        ],
+        model: {
+          answer: "Song rulers chose many officials through civil service examinations.",
+          prove:
+            "Candidates studied Confucian classics and took written examinations, and successful candidates received posts in the imperial bureaucracy.",
+          explain:
+            "The examinations let the emperor recruit educated officials whose careers depended on the central government instead of on aristocratic birth alone.",
+        },
+        alternatives:
+          "Answers can also identify the use of recommendations from officials or the use of examination degrees to rank officials.",
+        review: [
+          {
+            topicId: "world-1-1",
+            sectionId: "governance",
+            label: "Governance in East Asia",
+          },
+        ],
+      },
+      {
+        id: "b",
+        lenses: ["P", "E"],
+        prompt:
+          "Describe ONE way political authority in feudal Western Europe differed from political authority in Song China.",
+        criteria: [
+          "Describes a specific feature of European authority.",
+          "Makes the difference from Song China clear.",
+        ],
+        model: {
+          answer:
+            "Power in Western Europe was divided among kings, nobles, and the Church instead of being centralized in a bureaucracy.",
+          prove:
+            "Kings depended on lords who held land in return for military service, and the lords' own vassals owed loyalty to them, so a king could not directly command all his subjects.",
+          explain:
+            "Song emperors ruled through officials who answered to the court, so European rulers had less direct control over their territories.",
+        },
+        alternatives:
+          "Answers can also describe manorialism, in which lords controlled the labor of serfs, or the weakness of royal tax systems compared with Song revenues.",
+        review: [
+          {
+            topicId: "world-1-6",
+            sectionId: "europe-power",
+            label: "Power in medieval Europe",
+          },
+        ],
+      },
+      {
+        id: "c",
+        lenses: ["P", "C"],
+        prompt:
+          "Explain ONE way the Catholic Church influenced political authority in Western Europe between 1200 and 1450.",
+        criteria: [
+          "Names a specific action, institution, or conflict.",
+          "Explains how it affected rulers or their power.",
+        ],
+        model: {
+          answer: "The Church could pressure rulers by threatening spiritual penalties.",
+          prove:
+            "Pope Innocent III placed England under an interdict and excommunicated King John, and in 1213 John submitted and accepted the pope as his feudal lord.",
+          explain:
+            "Because most people believed these penalties affected their salvation, rulers who angered the pope risked losing support from their subjects.",
+        },
+        alternatives:
+          "Answers can also explain that the Church crowned kings and emperors, ran courts under canon law, or collected tithes that gave it wealth independent of rulers.",
+        review: [
+          {
+            topicId: "world-1-6",
+            sectionId: "europe-faith",
+            label: "Faith and the Church",
+          },
+        ],
+      },
+    ],
+  }),
+  // END mock exam prompts
 ];

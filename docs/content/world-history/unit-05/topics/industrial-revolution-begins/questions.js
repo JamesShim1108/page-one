@@ -278,6 +278,97 @@ export const bank = {
       stimulusId: "original-textile-machines",
       stimulusBlocks: [excerpts.originalTextiles],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-5-3-m3-09a",
+      topicId: "world-5-3",
+      concept: "factories-textiles",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which feature of production does Smith describe in the passage?",
+      choices: [
+        "Each worker makes an entire pin from start to finish",
+        "Machines replace human workers in making pins",
+        "Pin-makers work alone in their homes for merchants",
+        "Making a pin is divided into specialized steps carried out by different workers",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Smith lists the separate steps, such as drawing the wire, cutting it, and putting on the head, performed by different people.",
+      sourceIds: ["ced-topic-5-3"],
+      choiceExplanations: [
+        "He describes the opposite: workers who each do one or two operations.",
+        "The passage describes workers, not machines.",
+        "He describes a workshop, not home production.",
+        "Smith lists the separate steps, such as drawing the wire, cutting it, and putting on the head, performed by different people.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Some workers did two or three operations, but the point is the division into distinct tasks.",
+      stimulusId: "smith-pins",
+      stimulusBlocks: [excerpts.smithPins],
+    },
+    {
+      id: "world-5-3-m3-09b",
+      topicId: "world-5-3",
+      concept: "factories-textiles",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt: "The division of labor Smith describes most directly contributed to",
+      choices: [
+        "a return to artisan craft production in small shops",
+        "higher output per worker in factory production",
+        "the decline of manufacturing in Britain and Europe",
+        "the end of wage labor throughout industry",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Specialized tasks allowed workers to produce far more than if each made a whole product.",
+      sourceIds: ["ced-topic-5-3"],
+      choiceExplanations: [
+        "Division of labor moved production away from the craft model.",
+        "Specialized tasks allowed workers to produce far more than if each made a whole product.",
+        "It supported the growth of manufacturing.",
+        "Division of labor increased wage labor in factories.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Craftwork continued, but the division of labor changed how many goods were made.",
+      stimulusId: "smith-pins",
+      stimulusBlocks: [excerpts.smithPins],
+    },
+    {
+      id: "world-5-3-m3-09c",
+      topicId: "world-5-3",
+      concept: "factories-textiles",
+      difficulty: "Challenge",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "How would Marx and Engels in 1848 most likely have interpreted the kind of work Smith describes?",
+      choices: [
+        "As work that makes people “an appendage of the machine”",
+        "As a model for farm work organized under feudal lords",
+        "As proof that workers had become wealthier than capitalists",
+        "As an example of artisans controlling their own tools",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Marx and Engels wrote that division of labor had stripped workers' tasks of individual character.",
+      sourceIds: ["ced-topic-5-3"],
+      choiceExplanations: [
+        "Marx and Engels wrote that division of labor had stripped workers' tasks of individual character.",
+        "Marx and Engels were describing industrial work, not feudal farming.",
+        "They argued that workers were exploited, not wealthier.",
+        "They described workers losing control over their tools.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Smith saw division of labor as a source of prosperity, while Marx and Engels emphasized its human costs.",
+      stimulusId: "smith-pins",
+      stimulusBlocks: [excerpts.smithPins],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

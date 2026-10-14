@@ -91,7 +91,11 @@ test("unit practice loads only the seven selected topic banks", async () => {
   });
   const page = await store.page("quiz", "world-1-practice");
   assert.equal(page.quiz.questionIds.length, 21);
-  assert.equal(page.bank.questions.length, 134);
+  // Questions written only for full-length mock exams are not part of unit practice.
+  assert.equal(
+    page.bank.questions.filter((question) => !/-m\d-/.test(question.id)).length,
+    134,
+  );
   assert.equal(requested.filter((path) => path.includes("/banks/")).length, 7);
   assert.equal(
     requested.some((path) => path.includes("/topics/")),
