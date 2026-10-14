@@ -1,0 +1,511 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-7",
+    "courseId": "world",
+    "number": 7,
+    "title": "Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how empires collapsed, why two world wars were fought and how they were conducted, how the Depression reshaped economies, and how mass atrocities happened.",
+    "quizzes": [
+      {
+        "id": "world-7-practice-test",
+        "courseId": "world",
+        "unitId": "world-7",
+        "title": "Unit 7 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t01",
+              "world-7-1-t02",
+              "world-7-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t04",
+              "world-7-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t06",
+              "world-7-1-t07",
+              "world-7-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t01",
+              "world-7-2-t02",
+              "world-7-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t04",
+              "world-7-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t01",
+              "world-7-3-t02",
+              "world-7-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t04",
+              "world-7-3-t05",
+              "world-7-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t01",
+              "world-7-4-t02",
+              "world-7-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t04",
+              "world-7-4-t05",
+              "world-7-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t01",
+              "world-7-5-t02",
+              "world-7-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t04",
+              "world-7-5-t05",
+              "world-7-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t07",
+              "world-7-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t01",
+              "world-7-6-t02",
+              "world-7-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t04",
+              "world-7-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t06",
+              "world-7-6-t07",
+              "world-7-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t01",
+              "world-7-7-t02",
+              "world-7-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t04",
+              "world-7-7-t05",
+              "world-7-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t01",
+              "world-7-8-t02",
+              "world-7-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t04",
+              "world-7-8-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-9",
+            "questionIds": [
+              "world-7-9-t01",
+              "world-7-9-t02",
+              "world-7-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-7-practice-test",
+      "title": "Unit 7 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-7-1-quiz",
+        "title": "Shifting Power After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-2-quiz",
+        "title": "Causes of World War I topic quiz"
+      },
+      {
+        "id": "world-7-3-quiz",
+        "title": "Conducting World War I topic quiz"
+      },
+      {
+        "id": "world-7-4-quiz",
+        "title": "Economy in the Interwar Period topic quiz"
+      },
+      {
+        "id": "world-7-5-quiz",
+        "title": "Unresolved Tensions After World War I topic quiz"
+      },
+      {
+        "id": "world-7-6-quiz",
+        "title": "Causes of World War II topic quiz"
+      },
+      {
+        "id": "world-7-7-quiz",
+        "title": "Conducting World War II topic quiz"
+      },
+      {
+        "id": "world-7-8-quiz",
+        "title": "Mass Atrocities After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-9-quiz",
+        "title": "Causation in Global Conflict topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-7-saq-01",
+        "title": "Unit 7 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-7-5",
+    "courseId": "world",
+    "unitId": "world-7",
+    "order": 5,
+    "code": "7.5",
+    "title": "Unresolved Tensions After World War I",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How the peace settlement, the mandate system, and anticolonial movements left tensions that shaped the following decades."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "eb2b89938220c995",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-7-5",
+    "unitId": "world-7",
+    "courseId": "world",
+    "code": "7.5",
+    "title": "Unresolved Tensions After World War I",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "order": 5,
+    "summary": "How the peace settlement, the mandate system, and anticolonial movements left tensions that shaped the following decades.",
+    "minutes": 10,
+    "learningGoals": [
+      "Explain the continuities and changes in territorial holdings after World War I."
+    ],
+    "bigIdea": "The peace settlement punished Germany, redrew borders, and extended imperial control through mandates, leaving resentments that fed later conflict.",
+    "context": "The victors met in Paris in 1919 to remake the map of Europe and the Middle East.",
+    "sections": [
+      {
+        "id": "versailles",
+        "title": "The Treaty of Versailles",
+        "conceptTitle": "The Treaty of Versailles",
+        "lenses": [
+          "P",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Treaty of Versailles of 1919 blamed Germany for the war, took its colonies and some territory, limited its army, and required large reparations. The League of Nations was created to keep peace, but the United States never joined."
+          },
+          {
+            "type": "paragraph",
+            "text": "The economist John Maynard Keynes warned that a punishing peace would ruin Europe's economy and invite future conflict."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Harsh terms and reparations created German resentment, which extremists later exploited."
+          }
+        ],
+        "takeaway": "The peace settlement left Germany resentful and Europe unstable.",
+        "sourceIds": [
+          "ced-topic-7-5"
+        ]
+      },
+      {
+        "id": "mandates-anticolonial",
+        "title": "Mandates and anticolonial movements",
+        "conceptTitle": "Mandates and anticolonial movements",
+        "lenses": [
+          "P",
+          "C"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Former German colonies and Ottoman Arab lands became mandates under the League of Nations. France received Syria and Lebanon; Britain received Iraq, Palestine, and Transjordan. Many Arabs saw this as colonialism under a new name."
+          },
+          {
+            "type": "paragraph",
+            "text": "In China, the May Fourth Movement of 1919 protested the transfer of German rights in Shandong to Japan. In India, Gandhi led nonviolent campaigns, including the Salt March of 1930."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Mandates were not independence. Despite the language of preparation, they extended British and French control."
+          }
+        ],
+        "takeaway": "The settlement extended empire while anticolonial movements grew stronger.",
+        "sourceIds": [
+          "ced-topic-7-5"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "treaty-of-versailles",
+        "topicId": "world-7-5",
+        "term": "Treaty of Versailles",
+        "definition": "The 1919 peace treaty that blamed Germany for World War I and imposed territorial losses and reparations."
+      },
+      {
+        "id": "reparations",
+        "topicId": "world-7-5",
+        "term": "reparations",
+        "definition": "Payments a defeated country is required to make to compensate for war damage."
+      },
+      {
+        "id": "mandates",
+        "topicId": "world-7-5",
+        "term": "mandates",
+        "definition": "Former German and Ottoman territories placed under British or French control by the League of Nations after World War I."
+      },
+      {
+        "id": "league-of-nations",
+        "topicId": "world-7-5",
+        "term": "League of Nations",
+        "definition": "An international organization created after World War I to keep peace, which the United States never joined."
+      },
+      {
+        "id": "may-fourth",
+        "topicId": "world-7-5",
+        "term": "May Fourth Movement",
+        "definition": "A Chinese protest movement that began on May 4, 1919, against the transfer of German rights in Shandong to Japan."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-7-treaty-of-versailles",
+        "world-7-reparations",
+        "world-7-mandates",
+        "world-7-league-of-nations",
+        "world-7-may-fourth"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Looking ahead",
+        "title": "From mandates to independence",
+        "body": "The mandates of the Middle East became independent states after World War II, a process studied in Unit 8.",
+        "transferQuestion": "Why might mandates have produced resentment among Arab nationalists?",
+        "feedback": "Connect wartime expectations with the outcome of the peace.",
+        "links": [
+          {
+            "topicId": "world-7-5",
+            "sectionId": "mandates-anticolonial",
+            "label": "Review mandates"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-7-5",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-7-5.json",
+  "glossary": [
+    {
+      "id": "world-7-treaty-of-versailles",
+      "term": "Treaty of Versailles",
+      "definition": "The 1919 peace treaty that blamed Germany for World War I and imposed territorial losses and reparations.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.5 glossary"
+    },
+    {
+      "id": "world-7-reparations",
+      "term": "reparations",
+      "definition": "Payments a defeated country is required to make to compensate for war damage.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.5 glossary"
+    },
+    {
+      "id": "world-7-mandates",
+      "term": "mandates",
+      "definition": "Former German and Ottoman territories placed under British or French control by the League of Nations after World War I.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.5 glossary"
+    },
+    {
+      "id": "world-7-league-of-nations",
+      "term": "League of Nations",
+      "definition": "An international organization created after World War I to keep peace, which the United States never joined.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.5 glossary"
+    },
+    {
+      "id": "world-7-may-fourth",
+      "term": "May Fourth Movement",
+      "definition": "A Chinese protest movement that began on May 4, 1919, against the transfer of German rights in Shandong to Japan.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.5 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-7-5",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 7.5.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Unresolved Tensions After World War I."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

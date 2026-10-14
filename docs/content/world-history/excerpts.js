@@ -1430,4 +1430,230 @@ export const excerpts = {
     text: "Industrialization gave a few states unprecedented power. Their factories needed raw materials and markets, their steamships and telegraphs let them project power around the world, and their weapons gave them a decisive military advantage.\n\nThe results reached far beyond Europe. Colonized economies were reorganized to export raw materials, millions of people migrated in search of work, and imperial powers justified their rule with ideas of racial hierarchy that would shape the century to come.",
   },
   // END unit-06
+  // BEGIN unit-07
+  reedPetrograd: {
+    id: "reed-petrograd",
+    type: "source",
+    sourceType: "primary",
+    source: "reed-ten-days",
+    amsco_review: "pending",
+    attribution:
+      "John Reed, American journalist and socialist who witnessed the Russian Revolution in Petrograd, Ten Days That Shook the World, 1919",
+    citation:
+      "John Reed, Ten Days That Shook the World (1919), ch. 1. Project Gutenberg eBook #3076.",
+    note: "The Bolsheviki were the Bolsheviks, led by Lenin. Soviets were councils of workers and soldiers. The Provisional Government ruled Russia between the tsar's abdication in March 1917 and the Bolshevik seizure of power in November 1917. The ellipsis after “treachery” appears in Reed's own text.",
+    text: 'In this atmosphere of corruption, of monstrous half-truths, one clear note sounded day after day, the deepening chorus of the Bolsheviki, "All Power to the Soviets! All power to the direct representatives of millions on millions of common workers, soldiers, peasants. Land, bread, an end to the senseless war, an end to secret diplomacy, speculation, treachery. . . . The Revolution is in danger, and with it the cause of the people all over the world!" . . .\n\nWeek by week food became scarcer. The daily allowance of bread fell from a pound and a half to a pound, then three quarters, half, and a quarter-pound. Toward the end there was a week without any bread at all.',
+  },
+  keynesPeace: {
+    id: "keynes-peace",
+    type: "source",
+    sourceType: "primary",
+    source: "keynes-consequences",
+    amsco_review: "pending",
+    attribution:
+      "John Maynard Keynes, British economist and Treasury representative at the Paris Peace Conference who resigned in protest in June 1919, The Economic Consequences of the Peace, 1919",
+    citation:
+      "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), chs. 6–7. Project Gutenberg eBook #15776.",
+    note: "The Central Empires were Germany and Austria-Hungary. “The late German war” is the First World War.",
+    text: "This chapter must be one of pessimism. The Treaty includes no provisions for the economic rehabilitation of Europe,--nothing to make the defeated Central Empires into good neighbors, nothing to stabilize the new States of Europe, nothing to reclaim Russia . . . .\n\nIf we aim deliberately at the impoverishment of Central Europe, vengeance, I dare predict, will not limp. Nothing can then delay for very long that final civil war between the forces of Reaction and the despairing convulsions of Revolution, before which the horrors of the late German war will fade into nothing . . . .",
+  },
+  originalQingCollapse: {
+    id: "original-qing-collapse",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.1 key concept: states around the world challenged the existing political and social order, including the collapse of the Qing, Ottoman, and Russian empires",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the fall of the Qing dynasty, 1898–1912",
+    text: "After defeats by Japan in 1895 and by foreign armies during the Boxer Rebellion of 1899 to 1901, many Chinese blamed the Qing for failing to defend the country. Revolutionaries led by Sun Yat-sen called for nationalism, democracy, and the people's livelihood. An army uprising in 1911 spread quickly, and the last emperor abdicated in 1912.\n\nThe new Republic of China was weak. Regional military leaders known as warlords controlled much of the country, and the nation would not be fully unified again for decades.",
+  },
+  originalMexicanRevolution: {
+    id: "original-mexican-revolution",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.1 key concept: the Mexican Revolution challenged the existing political and social order",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Mexican Revolution, 1910–1920",
+    text: "Porfirio Díaz ruled Mexico for more than thirty years, welcoming foreign investment while a small elite owned most of the land. In 1910 a revolt against him began, and Díaz fled in 1911. Leaders such as Emiliano Zapata demanded land for peasants under the slogan “Land and Liberty.”\n\nThe fighting lasted a decade and killed perhaps a million people. The Constitution of 1917 promised land reform, workers' rights, and national ownership of mineral resources, though many of its promises were carried out only later.",
+  },
+  originalWWICauses: {
+    id: "original-wwi-causes",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.2 key concept: the causes of World War I included imperialist expansion and competition, territorial and nationalist disputes, alliance systems, and militarism",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing long-term causes of World War I",
+    text: "By 1914, Europe's great powers had divided into two alliance systems: Germany and Austria-Hungary on one side, and France, Russia, and Britain on the other. Germany and Britain had raced to build battleships, and every great power kept large armies with detailed plans for rapid mobilization.\n\nImperial rivalries over colonies, and nationalism in the Balkans, where Serbs and other Slavic peoples wanted their own states, raised tensions further. Historians debate how much weight each cause deserves, but most agree that no single factor explains the war.",
+  },
+  originalJulyCrisis: {
+    id: "original-july-crisis",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.2 key concept: an assassination in the Balkans triggered a crisis that alliance systems turned into a general war",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the July Crisis of 1914",
+    text: "On June 28, 1914, a Bosnian Serb nationalist assassinated Archduke Franz Ferdinand, heir to the throne of Austria-Hungary, in Sarajevo. With German support, Austria-Hungary sent Serbia an ultimatum and then declared war. Russia mobilized to protect Serbia.\n\nGermany's war plan called for defeating France quickly before turning on Russia, so Germany declared war on Russia and France and invaded neutral Belgium. Britain then declared war on Germany. Within about a week, a regional crisis had become a war among the great powers.",
+  },
+  originalTotalWar1: {
+    id: "original-total-war-wwi",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.3 key concept: World War I was the first total war, in which governments used propaganda and directed economies to mobilize entire populations",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing total war in 1914–1918",
+    text: "World War I was a total war. Governments took control of industries, rationed food, and drafted millions of men. With men at the front, women took jobs in factories, offices, and transportation. Propaganda posters and newspapers portrayed the enemy as monstrous and urged civilians to buy war bonds.\n\nNew weapons made the fighting deadly. Machine guns and artillery forced armies into trenches on the Western Front, and attacks across open ground killed hundreds of thousands for small gains. Poison gas, first used on a large scale in 1915, and tanks, introduced in 1916, did not break the stalemate.",
+  },
+  originalColonialTroops1: {
+    id: "original-colonial-troops-wwi",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.3 key concept: imperial powers recruited soldiers and laborers from their colonies to fight World War I",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing colonial participation in World War I",
+    text: "About 1.3 million soldiers and laborers from India served Britain in the war, in France, the Middle East, and East Africa. France recruited soldiers from West Africa, North Africa, and Indochina. China, which was neutral at first, sent about 140,000 laborers to work behind the lines in France.\n\nMany colonial soldiers expected their service to be rewarded with greater rights. When the peace brought little change, disappointment fueled demands for self-government.",
+  },
+  originalDepression: {
+    id: "original-great-depression",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.4 key concept: following World War I and the Great Depression, governments took a more active role in economic life",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Great Depression, 1929–1939",
+    text: "In October 1929, stock prices in New York collapsed. Banks failed, factories closed, and the value of world trade shrank by about two-thirds over the next few years as countries raised tariffs to protect their own industries. By 1933, about one in four American workers was unemployed. Countries that exported raw materials, such as Brazil and its coffee growers, were hit hard as prices fell.\n\nThe crisis discredited the idea that markets would recover on their own. Governments everywhere experimented with new ways to manage their economies.",
+  },
+  originalStateEconomies: {
+    id: "original-state-economies",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.4 key concept: governments responded to economic crisis with the New Deal, Soviet Five-Year Plans, and fascist corporatist economies",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, comparing government responses to economic crisis, 1928–1939",
+    text: "In the United States, Franklin Roosevelt's New Deal, begun in 1933, created public works jobs, regulated banks, and established Social Security, while keeping private property and markets. In the Soviet Union, Joseph Stalin's Five-Year Plans, begun in 1928, put the entire economy under state control, building heavy industry at great speed and forcing peasants onto collective farms. The collectivization of farms contributed to a famine in Ukraine in 1932 and 1933 that killed millions.\n\nIn fascist Italy and Nazi Germany, private companies remained, but the state directed industry toward national goals such as rearmament.",
+  },
+  originalMandates: {
+    id: "original-mandates",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.5 key concept: after World War I, the mandate system and the Paris peace settlement left unresolved tensions, especially in the former Ottoman territories",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the mandate system after World War I",
+    text: "The peace settlement after World War I gave Germany's colonies and the Ottoman Empire's Arab lands to the victors as mandates, territories to be supervised under the League of Nations until they were judged ready for independence. France received Syria and Lebanon, and Britain received Iraq, Palestine, and Transjordan.\n\nMany Arabs had fought against the Ottomans expecting independence. To them, the mandates looked like colonialism under a new name. In Palestine, Britain had also promised support for a Jewish national home, which set the stage for lasting conflict.",
+  },
+  originalAnticolonial: {
+    id: "original-anticolonial-interwar",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.5 key concept: nationalist and anticolonial movements grew after World War I, as in India and China",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing anticolonial movements after World War I",
+    text: "On May 4, 1919, students in Beijing protested the decision at Paris to give Germany's rights in China's Shandong province to Japan. The May Fourth Movement spread across China and called for national strength and modern reforms.\n\nIn India, Mohandas Gandhi led campaigns of nonviolent noncooperation against British rule. In 1930 he led the Salt March to protest the British tax on salt. These movements drew millions of ordinary people into politics.",
+  },
+  originalFascism: {
+    id: "original-fascism",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.6 key concept: the causes of World War II included the rise of fascist and totalitarian regimes that used violence and propaganda and pursued expansion",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the rise of fascism, 1919–1939",
+    text: "Fascism glorified the nation, rejected democracy and communism, and demanded obedience to a single leader. Benito Mussolini took power in Italy in 1922. In Germany, the Depression and resentment of the Versailles treaty helped Adolf Hitler's Nazi Party grow, and Hitler became chancellor in 1933.\n\nThe Nazis quickly destroyed democracy, banned other parties, and persecuted Jews. Both regimes used propaganda and violence to control society and promised to restore national greatness through expansion.",
+  },
+  originalAppeasement: {
+    id: "original-appeasement",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.6 key concept: the failure of the Paris peace settlement and the policy of appeasement contributed to the outbreak of World War II",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing appeasement and the outbreak of war in Europe, 1936–1939",
+    text: "Hitler rearmed Germany in violation of the Versailles treaty and annexed Austria in 1938. Britain and France, still scarred by World War I, tried to avoid another war through appeasement. At Munich in September 1938, they agreed to let Germany take the Sudetenland from Czechoslovakia.\n\nIn August 1939, Germany and the Soviet Union signed a pact not to attack each other. On September 1, 1939, Germany invaded Poland, and Britain and France declared war.",
+  },
+  originalJapanExpansion: {
+    id: "original-japan-expansion",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.6 key concept: Japanese imperial expansion in Asia was a cause of World War II",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Japanese expansion, 1931–1941",
+    text: "Seeking raw materials and markets during the Depression, Japanese army officers seized Manchuria in northeastern China in 1931. Japan launched a full-scale war against China in 1937; when Japanese troops captured Nanjing, they killed many thousands of civilians and prisoners.\n\nWhen the United States cut off oil exports to Japan in 1941, Japanese leaders decided to seize the resource-rich colonies of Southeast Asia. On December 7, 1941, Japan attacked the US naval base at Pearl Harbor.",
+  },
+  originalTotalWar2: {
+    id: "original-total-war-wwii",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.7 key concept: World War II was a total war in which governments mobilized economies, populations, and propaganda, and new technology increased civilian casualties",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing total war in 1939–1945",
+    text: "World War II was fought by entire societies. The United States converted car factories to build tanks and planes, and millions of women took industrial jobs. The Soviet Union moved whole factories east, beyond the reach of German armies. Governments rationed food and fuel and used films and posters to build support.\n\nCivilians were targets as never before. Bombing destroyed cities in Britain, Germany, the Soviet Union, China, and Japan. The war killed an estimated 70 to 85 million people, more than half of them civilians, including about 27 million Soviet citizens.",
+  },
+  originalAtomic: {
+    id: "original-atomic-bomb",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.7 key concept: technological advances, including the atomic bomb, changed the conduct and outcome of World War II",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the decision to use the atomic bomb, 1945",
+    text: "In August 1945, the United States dropped atomic bombs on Hiroshima and Nagasaki, killing more than 100,000 people immediately and many more from injuries and radiation afterward. Japan surrendered days later.\n\nHistorians still debate the decision. Some argue that the bombs ended the war without an invasion that would have cost many lives on both sides. Others argue that Japan was near surrender or that US leaders also wanted to show the Soviet Union the power of the new weapon.",
+  },
+  originalHolocaust: {
+    id: "original-holocaust",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.8 key concept: during the twentieth century, governments carried out genocide and mass atrocities, including the Holocaust",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Holocaust, 1933–1945",
+    text: "The Nazi regime first stripped German Jews of their rights. The Nuremberg Laws of 1935 took away their citizenship and banned marriage between Jews and other Germans. After the invasion of the Soviet Union in 1941, mobile killing units shot hundreds of thousands of Jews.\n\nIn January 1942, Nazi officials met at Wannsee to coordinate the systematic murder of Europe's Jews. About six million Jews were killed, many in death camps such as Auschwitz. The Nazis also murdered Roma, disabled people, and others they considered inferior.",
+  },
+  originalOtherAtrocities: {
+    id: "original-other-atrocities",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.8 key concept: mass atrocities in the twentieth century included the Armenian genocide, the Cambodian genocide, and the Rwandan genocide",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing several twentieth-century genocides",
+    text: "During World War I, the Ottoman government deported and killed a large share of its Armenian population, beginning in 1915. In Cambodia, the Khmer Rouge regime emptied the cities and forced people into rural labor from 1975 to 1979; between 1.5 and 2 million people died. In Rwanda in 1994, Hutu extremists killed an estimated 500,000 to 800,000 people, mostly Tutsi, in about one hundred days.\n\nIn each case, the killers used propaganda that described the victims as enemies of the nation.",
+  },
+  originalCausation7: {
+    id: "original-global-conflict-causation",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 7.9 key concept: causation in global conflict, linking the First World War, the interwar crises, and the Second World War",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing causes and effects of global conflict, 1900–1945",
+    text: "Many historians see the two world wars as connected. The First World War destroyed four empires, left millions dead, and produced a peace settlement that satisfied few. The Great Depression then weakened democracies and helped extremist movements gain power.\n\nThe Second World War, in turn, weakened European empires and left the United States and the Soviet Union as the world's strongest powers, setting the stage for the Cold War and for decolonization.",
+  },
+  // END unit-07
 };

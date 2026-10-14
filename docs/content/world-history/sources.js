@@ -589,4 +589,83 @@ export const sources = [
     note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
   },
   // END unit-06
+  // BEGIN unit-07
+  {
+    id: "ced-topic-7-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Shifting Power After 1900.",
+  },
+  {
+    id: "ced-topic-7-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causes of World War I.",
+  },
+  {
+    id: "ced-topic-7-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Conducting World War I.",
+  },
+  {
+    id: "ced-topic-7-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Economy in the Interwar Period.",
+  },
+  {
+    id: "ced-topic-7-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Unresolved Tensions After World War I.",
+  },
+  {
+    id: "ced-topic-7-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causes of World War II.",
+  },
+  {
+    id: "ced-topic-7-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Conducting World War II.",
+  },
+  {
+    id: "ced-topic-7-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Mass Atrocities After 1900.",
+  },
+  {
+    id: "ced-topic-7-9",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.9.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causation in Global Conflict.",
+  },
+  {
+    id: "keynes-consequences",
+    label:
+      "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), Project Gutenberg eBook #15776",
+    url: "https://www.gutenberg.org/ebooks/15776",
+    note: "Public domain in the United States. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "reed-ten-days",
+    label:
+      "John Reed, Ten Days That Shook the World (1919), Project Gutenberg eBook #3076",
+    url: "https://www.gutenberg.org/ebooks/3076",
+    note: "Public domain in the United States. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-07
 ];

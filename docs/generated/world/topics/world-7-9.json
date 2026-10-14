@@ -1,0 +1,427 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-7",
+    "courseId": "world",
+    "number": 7,
+    "title": "Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how empires collapsed, why two world wars were fought and how they were conducted, how the Depression reshaped economies, and how mass atrocities happened.",
+    "quizzes": [
+      {
+        "id": "world-7-practice-test",
+        "courseId": "world",
+        "unitId": "world-7",
+        "title": "Unit 7 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t01",
+              "world-7-1-t02",
+              "world-7-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t04",
+              "world-7-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t06",
+              "world-7-1-t07",
+              "world-7-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t01",
+              "world-7-2-t02",
+              "world-7-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t04",
+              "world-7-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t01",
+              "world-7-3-t02",
+              "world-7-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t04",
+              "world-7-3-t05",
+              "world-7-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t01",
+              "world-7-4-t02",
+              "world-7-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t04",
+              "world-7-4-t05",
+              "world-7-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t01",
+              "world-7-5-t02",
+              "world-7-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t04",
+              "world-7-5-t05",
+              "world-7-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t07",
+              "world-7-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t01",
+              "world-7-6-t02",
+              "world-7-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t04",
+              "world-7-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t06",
+              "world-7-6-t07",
+              "world-7-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t01",
+              "world-7-7-t02",
+              "world-7-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t04",
+              "world-7-7-t05",
+              "world-7-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t01",
+              "world-7-8-t02",
+              "world-7-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t04",
+              "world-7-8-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-9",
+            "questionIds": [
+              "world-7-9-t01",
+              "world-7-9-t02",
+              "world-7-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-7-practice-test",
+      "title": "Unit 7 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-7-1-quiz",
+        "title": "Shifting Power After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-2-quiz",
+        "title": "Causes of World War I topic quiz"
+      },
+      {
+        "id": "world-7-3-quiz",
+        "title": "Conducting World War I topic quiz"
+      },
+      {
+        "id": "world-7-4-quiz",
+        "title": "Economy in the Interwar Period topic quiz"
+      },
+      {
+        "id": "world-7-5-quiz",
+        "title": "Unresolved Tensions After World War I topic quiz"
+      },
+      {
+        "id": "world-7-6-quiz",
+        "title": "Causes of World War II topic quiz"
+      },
+      {
+        "id": "world-7-7-quiz",
+        "title": "Conducting World War II topic quiz"
+      },
+      {
+        "id": "world-7-8-quiz",
+        "title": "Mass Atrocities After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-9-quiz",
+        "title": "Causation in Global Conflict topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-7-saq-01",
+        "title": "Unit 7 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-7-9",
+    "courseId": "world",
+    "unitId": "world-7",
+    "order": 9,
+    "code": "7.9",
+    "title": "Causation in Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How the world wars, the Depression, and the interwar crises were connected."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "3cabe4cd340fbcff",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-7-9",
+    "unitId": "world-7",
+    "courseId": "world",
+    "code": "7.9",
+    "title": "Causation in Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "order": 9,
+    "summary": "How the world wars, the Depression, and the interwar crises were connected.",
+    "minutes": 6,
+    "learningGoals": [
+      "Explain the relative significance of the causes of global conflict in the period 1900 to the present."
+    ],
+    "bigIdea": "The two world wars were connected through the unresolved settlement of 1919 and the crises of the 1930s, and together they reshaped global power.",
+    "context": "Causation is an AP reasoning process. Strong answers trace chains of cause and effect.",
+    "sections": [
+      {
+        "id": "chain-of-conflict",
+        "title": "A chain of conflict",
+        "conceptTitle": "A chain of conflict",
+        "lenses": [
+          "P",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "World War I destroyed four empires and produced a resented peace. The Great Depression weakened democracies and strengthened extremists. Fascist and Japanese expansion then led to World War II."
+          },
+          {
+            "type": "paragraph",
+            "text": "World War II weakened European empires and left the United States and Soviet Union as superpowers, setting the stage for the Cold War and decolonization."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Each crisis created conditions for the next: war led to a flawed peace, the Depression to extremism, and extremism to a second war."
+          }
+        ],
+        "takeaway": "Global conflicts from 1914 to 1945 formed a connected chain of causes.",
+        "sourceIds": [
+          "ced-topic-7-9"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "superpowers",
+        "topicId": "world-7-9",
+        "term": "superpowers",
+        "definition": "The United States and the Soviet Union, the two dominant world powers after World War II."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-7-superpowers"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Looking ahead",
+        "title": "From world war to Cold War",
+        "body": "Unit 8 traces how the superpowers' rivalry and the decline of empires shaped the world after 1945.",
+        "transferQuestion": "How did World War II set the stage for the Cold War?",
+        "feedback": "Explain the shift in global power.",
+        "links": [
+          {
+            "topicId": "world-7-9",
+            "sectionId": "chain-of-conflict",
+            "label": "Review the chain of conflict"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-7-9",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-7-9.json",
+  "glossary": [
+    {
+      "id": "world-7-superpowers",
+      "term": "superpowers",
+      "definition": "The United States and the Soviet Union, the two dominant world powers after World War II.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.9 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-7-9",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 7.9.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Causation in Global Conflict."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

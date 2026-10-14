@@ -58,6 +58,14 @@ export const EXCERPT_SOURCES = Object.freeze({
     files: ["mill-on-liberty.txt"],
     label: "Project Gutenberg #34901 (Mill, On Liberty)",
   },
+  "reed-": {
+    files: ["reed-ten-days.txt"],
+    label: "Project Gutenberg #3076 (Reed, Ten Days That Shook the World)",
+  },
+  "keynes-": {
+    files: ["keynes-consequences.txt"],
+    label: "Project Gutenberg #15776 (Keynes, The Economic Consequences of the Peace)",
+  },
 });
 
 export function excerptSourceFor(id) {

@@ -54,7 +54,16 @@
     "world-6-5": "world/topics/world-6-5.json",
     "world-6-6": "world/topics/world-6-6.json",
     "world-6-7": "world/topics/world-6-7.json",
-    "world-6-8": "world/topics/world-6-8.json"
+    "world-6-8": "world/topics/world-6-8.json",
+    "world-7-1": "world/topics/world-7-1.json",
+    "world-7-2": "world/topics/world-7-2.json",
+    "world-7-3": "world/topics/world-7-3.json",
+    "world-7-4": "world/topics/world-7-4.json",
+    "world-7-5": "world/topics/world-7-5.json",
+    "world-7-6": "world/topics/world-7-6.json",
+    "world-7-7": "world/topics/world-7-7.json",
+    "world-7-8": "world/topics/world-7-8.json",
+    "world-7-9": "world/topics/world-7-9.json"
   },
   "quiz": {
     "world-1-1-quiz": "world/banks/world-1-1.json",
@@ -154,7 +163,26 @@
     "world-6-7-quiz": "world/banks/world-6-7.json",
     "world-6-8-quick": "world/banks/world-6-8.json",
     "world-6-8-quiz": "world/banks/world-6-8.json",
-    "world-6-practice-test": "world/quizzes/world-6-practice-test.json"
+    "world-6-practice-test": "world/quizzes/world-6-practice-test.json",
+    "world-7-1-quick": "world/banks/world-7-1.json",
+    "world-7-1-quiz": "world/banks/world-7-1.json",
+    "world-7-2-quick": "world/banks/world-7-2.json",
+    "world-7-2-quiz": "world/banks/world-7-2.json",
+    "world-7-3-quick": "world/banks/world-7-3.json",
+    "world-7-3-quiz": "world/banks/world-7-3.json",
+    "world-7-4-quick": "world/banks/world-7-4.json",
+    "world-7-4-quiz": "world/banks/world-7-4.json",
+    "world-7-5-quick": "world/banks/world-7-5.json",
+    "world-7-5-quiz": "world/banks/world-7-5.json",
+    "world-7-6-quick": "world/banks/world-7-6.json",
+    "world-7-6-quiz": "world/banks/world-7-6.json",
+    "world-7-7-quick": "world/banks/world-7-7.json",
+    "world-7-7-quiz": "world/banks/world-7-7.json",
+    "world-7-8-quick": "world/banks/world-7-8.json",
+    "world-7-8-quiz": "world/banks/world-7-8.json",
+    "world-7-9-quick": "world/banks/world-7-9.json",
+    "world-7-9-quiz": "world/banks/world-7-9.json",
+    "world-7-practice-test": "world/quizzes/world-7-practice-test.json"
   },
   "guide": {
     "world-1": "world/guides/world-1.json",
@@ -181,7 +209,8 @@
     "world-3-saq-01": "world/writing/world-3-saq-01.json",
     "world-4-saq-01": "world/writing/world-4-saq-01.json",
     "world-5-saq-01": "world/writing/world-5-saq-01.json",
-    "world-6-saq-01": "world/writing/world-6-saq-01.json"
+    "world-6-saq-01": "world/writing/world-6-saq-01.json",
+    "world-7-saq-01": "world/writing/world-7-saq-01.json"
   },
   "terms": {
     "world-1": "world/units/world-1.json",

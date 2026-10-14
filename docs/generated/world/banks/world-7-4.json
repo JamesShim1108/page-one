@@ -1,0 +1,768 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-7",
+    "courseId": "world",
+    "number": 7,
+    "title": "Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how empires collapsed, why two world wars were fought and how they were conducted, how the Depression reshaped economies, and how mass atrocities happened.",
+    "quizzes": [
+      {
+        "id": "world-7-practice-test",
+        "courseId": "world",
+        "unitId": "world-7",
+        "title": "Unit 7 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t01",
+              "world-7-1-t02",
+              "world-7-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t04",
+              "world-7-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t06",
+              "world-7-1-t07",
+              "world-7-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t01",
+              "world-7-2-t02",
+              "world-7-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t04",
+              "world-7-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t01",
+              "world-7-3-t02",
+              "world-7-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t04",
+              "world-7-3-t05",
+              "world-7-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t01",
+              "world-7-4-t02",
+              "world-7-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t04",
+              "world-7-4-t05",
+              "world-7-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t01",
+              "world-7-5-t02",
+              "world-7-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t04",
+              "world-7-5-t05",
+              "world-7-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t07",
+              "world-7-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t01",
+              "world-7-6-t02",
+              "world-7-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t04",
+              "world-7-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t06",
+              "world-7-6-t07",
+              "world-7-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t01",
+              "world-7-7-t02",
+              "world-7-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t04",
+              "world-7-7-t05",
+              "world-7-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t01",
+              "world-7-8-t02",
+              "world-7-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t04",
+              "world-7-8-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-9",
+            "questionIds": [
+              "world-7-9-t01",
+              "world-7-9-t02",
+              "world-7-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-7-practice-test",
+      "title": "Unit 7 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-7-1-quiz",
+        "title": "Shifting Power After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-2-quiz",
+        "title": "Causes of World War I topic quiz"
+      },
+      {
+        "id": "world-7-3-quiz",
+        "title": "Conducting World War I topic quiz"
+      },
+      {
+        "id": "world-7-4-quiz",
+        "title": "Economy in the Interwar Period topic quiz"
+      },
+      {
+        "id": "world-7-5-quiz",
+        "title": "Unresolved Tensions After World War I topic quiz"
+      },
+      {
+        "id": "world-7-6-quiz",
+        "title": "Causes of World War II topic quiz"
+      },
+      {
+        "id": "world-7-7-quiz",
+        "title": "Conducting World War II topic quiz"
+      },
+      {
+        "id": "world-7-8-quiz",
+        "title": "Mass Atrocities After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-9-quiz",
+        "title": "Causation in Global Conflict topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-7-saq-01",
+        "title": "Unit 7 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-7-4",
+    "courseId": "world",
+    "unitId": "world-7",
+    "order": 4,
+    "code": "7.4",
+    "title": "Economy in the Interwar Period",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How the Great Depression spread around the world and how governments responded with new economic policies."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "4d545de6db0a722e",
+  "questions": [
+    {
+      "id": "world-7-4-q01",
+      "topicId": "world-7-4",
+      "concept": "great-depression",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following helped spread the Great Depression around the world?",
+      "choices": [
+        "The opening of new markets in Asia",
+        "Falling tariffs that expanded world trade",
+        "Rising tariffs that shrank world trade",
+        "The end of all trade in 1929"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Countries raised tariffs, and trade shrank, spreading the crisis.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "Markets contracted.",
+        "Tariffs rose.",
+        "Countries raised tariffs, and trade shrank, spreading the crisis.",
+        "Trade shrank but did not end."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Tariffs rose, not fell, during the Depression.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-4-q02",
+      "topicId": "world-7-4",
+      "concept": "state-responses",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The New Deal differed from Stalin's Five-Year Plans in that the New Deal",
+      "choices": [
+        "put the entire economy under state control",
+        "forced peasants onto collective farms",
+        "abolished private banks in the United States",
+        "kept private property and markets"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The New Deal regulated but preserved private property and markets.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "That describes the Soviet plans.",
+        "That describes Soviet collectivization.",
+        "Banks were regulated, not abolished.",
+        "The New Deal regulated but preserved private property and markets."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The New Deal regulated banks rather than abolishing them.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-7-4-q03",
+      "topicId": "world-7-4",
+      "concept": "state-responses",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The famine in Ukraine in 1932 and 1933 was linked to",
+      "choices": [
+        "Soviet policies that raised peasants' grain supplies",
+        "Soviet collectivization of agriculture",
+        "the American New Deal",
+        "the Treaty of Versailles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Forced collectivization and grain seizures contributed to the famine.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "Peasants lost grain.",
+        "Forced collectivization and grain seizures contributed to the famine.",
+        "The New Deal was American.",
+        "The treaty did not cause the famine."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Collectivization took grain from peasants; it did not raise their supplies.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-7-4-q04",
+      "topicId": "world-7-4",
+      "concept": "great-depression",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Countries that exported raw materials were hurt by the Depression mainly because",
+      "choices": [
+        "they had no trade with industrial countries",
+        "the prices of their exports rose sharply",
+        "the prices of their exports fell sharply",
+        "demand for their goods rose too quickly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Falling prices for goods such as coffee cut their income.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "They depended on trade with industrial countries.",
+        "Prices fell.",
+        "Falling prices for goods such as coffee cut their income.",
+        "Demand fell."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Prices fell, not rose.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-7-4-q05",
+      "topicId": "world-7-4",
+      "concept": "state-responses",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which claim about responses to the Depression is most defensible?",
+      "choices": [
+        "Governments of many kinds expanded their economic role",
+        "Every government returned to laissez-faire",
+        "Only democracies responded to the crisis",
+        "Governments reduced their economic role"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Democratic, communist, and fascist states all took on new economic roles.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "Democratic, communist, and fascist states all took on new economic roles.",
+        "Most rejected laissez-faire.",
+        "Soviet and fascist states also responded.",
+        "Their role grew."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Few governments relied on laissez-faire after 1929.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-7-4-t01",
+      "topicId": "world-7-4",
+      "concept": "great-depression",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, by 1933 about what share of American workers was unemployed?",
+      "choices": [
+        "Almost none",
+        "About one in four",
+        "About one in a hundred",
+        "About three in four"
+      ],
+      "correctAnswer": 1,
+      "explanation": "About one in four workers was unemployed.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "Unemployment was severe.",
+        "About one in four workers was unemployed.",
+        "Unemployment was far higher.",
+        "The share was one in four."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "One in four, not three in four.",
+      "stimulusId": "original-great-depression",
+      "stimulusBlocks": [
+        {
+          "id": "original-great-depression",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.4 key concept: following World War I and the Great Depression, governments took a more active role in economic life",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Great Depression, 1929–1939",
+          "text": "In October 1929, stock prices in New York collapsed. Banks failed, factories closed, and the value of world trade shrank by about two-thirds over the next few years as countries raised tariffs to protect their own industries. By 1933, about one in four American workers was unemployed. Countries that exported raw materials, such as Brazil and its coffee growers, were hit hard as prices fell.\n\nThe crisis discredited the idea that markets would recover on their own. Governments everywhere experimented with new ways to manage their economies."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-4-t02",
+      "topicId": "world-7-4",
+      "concept": "great-depression",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Based on the passage, the Depression spread internationally partly because",
+      "choices": [
+        "countries lowered tariffs and trade grew",
+        "the United States ended all foreign trade",
+        "Brazil's coffee prices rose sharply as demand grew",
+        "countries raised tariffs and world trade shrank"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rising tariffs helped cut the value of world trade by about two-thirds.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "Tariffs rose.",
+        "The value of world trade fell sharply, but trade continued.",
+        "Coffee prices fell.",
+        "Rising tariffs helped cut the value of world trade by about two-thirds."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Prices fell, hurting exporters such as Brazil.",
+      "stimulusId": "original-great-depression",
+      "stimulusBlocks": [
+        {
+          "id": "original-great-depression",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.4 key concept: following World War I and the Great Depression, governments took a more active role in economic life",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Great Depression, 1929–1939",
+          "text": "In October 1929, stock prices in New York collapsed. Banks failed, factories closed, and the value of world trade shrank by about two-thirds over the next few years as countries raised tariffs to protect their own industries. By 1933, about one in four American workers was unemployed. Countries that exported raw materials, such as Brazil and its coffee growers, were hit hard as prices fell.\n\nThe crisis discredited the idea that markets would recover on their own. Governments everywhere experimented with new ways to manage their economies."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-4-t03",
+      "topicId": "world-7-4",
+      "concept": "great-depression",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The final paragraph best supports which claim?",
+      "choices": [
+        "The Depression led governments to try new economic policies",
+        "The Depression proved markets always recover on their own",
+        "Governments stopped intervening in economies",
+        "The Depression had no political effects"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage says governments experimented with new ways to manage economies.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "The passage says governments experimented with new ways to manage economies.",
+        "The crisis discredited that idea.",
+        "Governments intervened more.",
+        "It had major effects."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage says the crisis discredited that idea.",
+      "stimulusId": "original-great-depression",
+      "stimulusBlocks": [
+        {
+          "id": "original-great-depression",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.4 key concept: following World War I and the Great Depression, governments took a more active role in economic life",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Great Depression, 1929–1939",
+          "text": "In October 1929, stock prices in New York collapsed. Banks failed, factories closed, and the value of world trade shrank by about two-thirds over the next few years as countries raised tariffs to protect their own industries. By 1933, about one in four American workers was unemployed. Countries that exported raw materials, such as Brazil and its coffee growers, were hit hard as prices fell.\n\nThe crisis discredited the idea that markets would recover on their own. Governments everywhere experimented with new ways to manage their economies."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-7-4-t04",
+      "topicId": "world-7-4",
+      "concept": "state-responses",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, the New Deal",
+      "choices": [
+        "forced peasants onto collective farms",
+        "directed industry toward rearmament",
+        "created jobs and regulated banks while keeping markets",
+        "put the entire American economy under direct state control"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It created jobs, regulated banks, and kept private property.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "That describes Soviet collectivization.",
+        "That describes fascist economies.",
+        "It created jobs, regulated banks, and kept private property.",
+        "That describes the Soviet plans."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Rearmament describes fascist Italy and Nazi Germany.",
+      "stimulusId": "original-state-economies",
+      "stimulusBlocks": [
+        {
+          "id": "original-state-economies",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.4 key concept: governments responded to economic crisis with the New Deal, Soviet Five-Year Plans, and fascist corporatist economies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing government responses to economic crisis, 1928–1939",
+          "text": "In the United States, Franklin Roosevelt's New Deal, begun in 1933, created public works jobs, regulated banks, and established Social Security, while keeping private property and markets. In the Soviet Union, Joseph Stalin's Five-Year Plans, begun in 1928, put the entire economy under state control, building heavy industry at great speed and forcing peasants onto collective farms. The collectivization of farms contributed to a famine in Ukraine in 1932 and 1933 that killed millions.\n\nIn fascist Italy and Nazi Germany, private companies remained, but the state directed industry toward national goals such as rearmament."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-4-t05",
+      "topicId": "world-7-4",
+      "concept": "state-responses",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Based on the passage, fascist economies differed from the Soviet economy in that fascist states",
+      "choices": [
+        "abolished all private property",
+        "collectivized agriculture",
+        "left industry entirely to private owners without direction",
+        "kept private companies under state direction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Private companies remained but served state goals.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "That describes the Soviet Union.",
+        "Collectivization was a Soviet policy.",
+        "The state directed industry.",
+        "Private companies remained but served state goals."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Fascist states directed private firms; they did not leave them alone.",
+      "stimulusId": "original-state-economies",
+      "stimulusBlocks": [
+        {
+          "id": "original-state-economies",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.4 key concept: governments responded to economic crisis with the New Deal, Soviet Five-Year Plans, and fascist corporatist economies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing government responses to economic crisis, 1928–1939",
+          "text": "In the United States, Franklin Roosevelt's New Deal, begun in 1933, created public works jobs, regulated banks, and established Social Security, while keeping private property and markets. In the Soviet Union, Joseph Stalin's Five-Year Plans, begun in 1928, put the entire economy under state control, building heavy industry at great speed and forcing peasants onto collective farms. The collectivization of farms contributed to a famine in Ukraine in 1932 and 1933 that killed millions.\n\nIn fascist Italy and Nazi Germany, private companies remained, but the state directed industry toward national goals such as rearmament."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-7-4-t06",
+      "topicId": "world-7-4",
+      "concept": "state-responses",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, the collectivization of farms contributed to",
+      "choices": [
+        "the success of the New Deal",
+        "a famine in Ukraine that killed millions",
+        "rapid growth in Ukrainian food supplies",
+        "the end of the Five-Year Plans"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Collectivization contributed to the 1932 to 1933 famine.",
+      "sourceIds": [
+        "ced-topic-7-4"
+      ],
+      "choiceExplanations": [
+        "The New Deal was American.",
+        "Collectivization contributed to the 1932 to 1933 famine.",
+        "Food supplies fell.",
+        "The plans continued."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Food supplies collapsed during the famine.",
+      "stimulusId": "original-state-economies",
+      "stimulusBlocks": [
+        {
+          "id": "original-state-economies",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.4 key concept: governments responded to economic crisis with the New Deal, Soviet Five-Year Plans, and fascist corporatist economies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing government responses to economic crisis, 1928–1939",
+          "text": "In the United States, Franklin Roosevelt's New Deal, begun in 1933, created public works jobs, regulated banks, and established Social Security, while keeping private property and markets. In the Soviet Union, Joseph Stalin's Five-Year Plans, begun in 1928, put the entire economy under state control, building heavy industry at great speed and forcing peasants onto collective farms. The collectivization of farms contributed to a famine in Ukraine in 1932 and 1933 that killed millions.\n\nIn fascist Italy and Nazi Germany, private companies remained, but the state directed industry toward national goals such as rearmament."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-7-4-quick",
+      "courseId": "world",
+      "unitId": "world-7",
+      "topicId": "world-7-4",
+      "title": "Topic 7.4 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-7-4-q01",
+        "world-7-4-q02",
+        "world-7-4-q03"
+      ]
+    },
+    {
+      "id": "world-7-4-quiz",
+      "courseId": "world",
+      "unitId": "world-7",
+      "topicId": "world-7-4",
+      "title": "Economy in the Interwar Period topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-7-4-q01",
+        "world-7-4-q02",
+        "world-7-4-q03",
+        "world-7-4-q04",
+        "world-7-4-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "great-depression": {
+      "id": "great-depression",
+      "title": "The Great Depression",
+      "section": "great-depression",
+      "topicId": "world-7-4"
+    },
+    "state-responses": {
+      "id": "state-responses",
+      "title": "Government responses",
+      "section": "state-responses",
+      "topicId": "world-7-4"
+    }
+  },
+  "assets": {}
+}

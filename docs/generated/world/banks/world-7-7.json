@@ -1,0 +1,766 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-7",
+    "courseId": "world",
+    "number": 7,
+    "title": "Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how empires collapsed, why two world wars were fought and how they were conducted, how the Depression reshaped economies, and how mass atrocities happened.",
+    "quizzes": [
+      {
+        "id": "world-7-practice-test",
+        "courseId": "world",
+        "unitId": "world-7",
+        "title": "Unit 7 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t01",
+              "world-7-1-t02",
+              "world-7-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t04",
+              "world-7-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t06",
+              "world-7-1-t07",
+              "world-7-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t01",
+              "world-7-2-t02",
+              "world-7-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t04",
+              "world-7-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t01",
+              "world-7-3-t02",
+              "world-7-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t04",
+              "world-7-3-t05",
+              "world-7-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t01",
+              "world-7-4-t02",
+              "world-7-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t04",
+              "world-7-4-t05",
+              "world-7-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t01",
+              "world-7-5-t02",
+              "world-7-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t04",
+              "world-7-5-t05",
+              "world-7-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t07",
+              "world-7-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t01",
+              "world-7-6-t02",
+              "world-7-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t04",
+              "world-7-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t06",
+              "world-7-6-t07",
+              "world-7-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t01",
+              "world-7-7-t02",
+              "world-7-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t04",
+              "world-7-7-t05",
+              "world-7-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t01",
+              "world-7-8-t02",
+              "world-7-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t04",
+              "world-7-8-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-9",
+            "questionIds": [
+              "world-7-9-t01",
+              "world-7-9-t02",
+              "world-7-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-7-practice-test",
+      "title": "Unit 7 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-7-1-quiz",
+        "title": "Shifting Power After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-2-quiz",
+        "title": "Causes of World War I topic quiz"
+      },
+      {
+        "id": "world-7-3-quiz",
+        "title": "Conducting World War I topic quiz"
+      },
+      {
+        "id": "world-7-4-quiz",
+        "title": "Economy in the Interwar Period topic quiz"
+      },
+      {
+        "id": "world-7-5-quiz",
+        "title": "Unresolved Tensions After World War I topic quiz"
+      },
+      {
+        "id": "world-7-6-quiz",
+        "title": "Causes of World War II topic quiz"
+      },
+      {
+        "id": "world-7-7-quiz",
+        "title": "Conducting World War II topic quiz"
+      },
+      {
+        "id": "world-7-8-quiz",
+        "title": "Mass Atrocities After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-9-quiz",
+        "title": "Causation in Global Conflict topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-7-saq-01",
+        "title": "Unit 7 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-7-7",
+    "courseId": "world",
+    "unitId": "world-7",
+    "order": 7,
+    "code": "7.7",
+    "title": "Conducting World War II",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How governments mobilized for total war, how new technology increased civilian deaths, and how the atomic bomb ended the war."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "5622a8fea5dcb5ee",
+  "questions": [
+    {
+      "id": "world-7-7-q01",
+      "topicId": "world-7-7",
+      "concept": "wwii-mobilization",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which of the following was part of US mobilization in World War II?",
+      "choices": [
+        "Converting car factories to build tanks and planes",
+        "Moving whole factories east of the Ural Mountains to safety",
+        "Ending the employment of women",
+        "Closing factories to save fuel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "US industry was converted to war production.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "US industry was converted to war production.",
+        "That was the Soviet Union.",
+        "Women's employment grew.",
+        "Factories expanded."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Moving factories east of the Urals was a Soviet policy.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-7-7-q02",
+      "topicId": "world-7-7",
+      "concept": "atomic-bomb",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The atomic bombs were dropped on",
+      "choices": [
+        "Pearl Harbor and Manila",
+        "Berlin and Dresden",
+        "Hiroshima and Nagasaki",
+        "Tokyo and Osaka"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The US dropped atomic bombs on Hiroshima and Nagasaki in August 1945.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "These were attacked by Japan.",
+        "Germany had surrendered before the bombs were ready.",
+        "The US dropped atomic bombs on Hiroshima and Nagasaki in August 1945.",
+        "Tokyo was firebombed with conventional weapons."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Tokyo was heavily firebombed, but the atomic bombs hit Hiroshima and Nagasaki.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-7-7-q03",
+      "topicId": "world-7-7",
+      "concept": "wwii-mobilization",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "World War II differed from World War I in that World War II",
+      "choices": [
+        "killed fewer civilians than World War I",
+        "killed more civilians than soldiers",
+        "involved no new technology",
+        "was fought only in Europe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "More than half of the war's dead were civilians.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "Civilian deaths were much higher.",
+        "More than half of the war's dead were civilians.",
+        "New technology was central.",
+        "It was fought worldwide."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "World War II killed far more civilians.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-7-7-q04",
+      "topicId": "world-7-7",
+      "concept": "atomic-bomb",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which statement best reflects the historical debate about the atomic bombs?",
+      "choices": [
+        "All historians agree the bombs were unnecessary",
+        "The bombs had no effect on Japan's surrender",
+        "All historians agree the bombs were the only option left to US leaders",
+        "Historians disagree about whether the bombs were necessary"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Historians weigh arguments on both sides.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "Some defend the decision.",
+        "Japan surrendered days later.",
+        "Historians debate it.",
+        "Historians weigh arguments on both sides."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Historians do not agree on this question.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-7-7-q05",
+      "topicId": "world-7-7",
+      "concept": "wwii-mobilization",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Bombing of cities in World War II most directly resulted in",
+      "choices": [
+        "fewer civilian deaths than in World War I",
+        "the protection of civilians from attack",
+        "very high civilian casualties",
+        "the end of total war"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bombing killed huge numbers of civilians.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "Deaths were higher.",
+        "Civilians became targets.",
+        "Bombing killed huge numbers of civilians.",
+        "Total war intensified."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Civilian deaths were far higher than in World War I.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-7-t01",
+      "topicId": "world-7-7",
+      "concept": "wwii-mobilization",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, the Soviet Union protected its industry by",
+      "choices": [
+        "ending all rationing",
+        "moving factories west toward the German border",
+        "moving factories east beyond German armies",
+        "converting car factories in Detroit"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Soviets moved factories east.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "Governments rationed.",
+        "They moved east.",
+        "The Soviets moved factories east.",
+        "That describes the United States."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Factories moved east, away from the invaders.",
+      "stimulusId": "original-total-war-wwii",
+      "stimulusBlocks": [
+        {
+          "id": "original-total-war-wwii",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.7 key concept: World War II was a total war in which governments mobilized economies, populations, and propaganda, and new technology increased civilian casualties",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing total war in 1939–1945",
+          "text": "World War II was fought by entire societies. The United States converted car factories to build tanks and planes, and millions of women took industrial jobs. The Soviet Union moved whole factories east, beyond the reach of German armies. Governments rationed food and fuel and used films and posters to build support.\n\nCivilians were targets as never before. Bombing destroyed cities in Britain, Germany, the Soviet Union, China, and Japan. The war killed an estimated 70 to 85 million people, more than half of them civilians, including about 27 million Soviet citizens."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-7-t02",
+      "topicId": "world-7-7",
+      "concept": "wwii-mobilization",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, about how many Soviet citizens died in the war?",
+      "choices": [
+        "About 27 million",
+        "About 2.7 million",
+        "About 270,000",
+        "About 70 million"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage says about 27 million.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "The passage says about 27 million.",
+        "The figure is ten times higher.",
+        "The figure is far higher.",
+        "That is the total for the whole war."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "70 to 85 million is the estimate for all deaths in the war.",
+      "stimulusId": "original-total-war-wwii",
+      "stimulusBlocks": [
+        {
+          "id": "original-total-war-wwii",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.7 key concept: World War II was a total war in which governments mobilized economies, populations, and propaganda, and new technology increased civilian casualties",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing total war in 1939–1945",
+          "text": "World War II was fought by entire societies. The United States converted car factories to build tanks and planes, and millions of women took industrial jobs. The Soviet Union moved whole factories east, beyond the reach of German armies. Governments rationed food and fuel and used films and posters to build support.\n\nCivilians were targets as never before. Bombing destroyed cities in Britain, Germany, the Soviet Union, China, and Japan. The war killed an estimated 70 to 85 million people, more than half of them civilians, including about 27 million Soviet citizens."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-7-t03",
+      "topicId": "world-7-7",
+      "concept": "wwii-mobilization",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Based on the passage, World War II differed from earlier wars mainly in",
+      "choices": [
+        "the scale of civilian deaths",
+        "the absence of propaganda",
+        "the lack of economic mobilization",
+        "the use of only professional armies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "More than half of the dead were civilians.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "More than half of the dead were civilians.",
+        "Propaganda was used.",
+        "Economies were mobilized.",
+        "Mass armies fought."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Propaganda was widely used.",
+      "stimulusId": "original-total-war-wwii",
+      "stimulusBlocks": [
+        {
+          "id": "original-total-war-wwii",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.7 key concept: World War II was a total war in which governments mobilized economies, populations, and propaganda, and new technology increased civilian casualties",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing total war in 1939–1945",
+          "text": "World War II was fought by entire societies. The United States converted car factories to build tanks and planes, and millions of women took industrial jobs. The Soviet Union moved whole factories east, beyond the reach of German armies. Governments rationed food and fuel and used films and posters to build support.\n\nCivilians were targets as never before. Bombing destroyed cities in Britain, Germany, the Soviet Union, China, and Japan. The war killed an estimated 70 to 85 million people, more than half of them civilians, including about 27 million Soviet citizens."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-7-7-t04",
+      "topicId": "world-7-7",
+      "concept": "atomic-bomb",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, some historians argue that US leaders used the bombs partly to",
+      "choices": [
+        "help Japan rebuild",
+        "test the weapon on an uninhabited island",
+        "show the Soviet Union the power of the weapon",
+        "start a war with the Soviet Union"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says some see a message to the Soviet Union.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "Rebuilding Japan came after the war and is not discussed.",
+        "The cities were inhabited.",
+        "The passage says some see a message to the Soviet Union.",
+        "The passage mentions showing power, not starting a war."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "No historian in the passage says the US wanted war with the Soviets.",
+      "stimulusId": "original-atomic-bomb",
+      "stimulusBlocks": [
+        {
+          "id": "original-atomic-bomb",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.7 key concept: technological advances, including the atomic bomb, changed the conduct and outcome of World War II",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the decision to use the atomic bomb, 1945",
+          "text": "In August 1945, the United States dropped atomic bombs on Hiroshima and Nagasaki, killing more than 100,000 people immediately and many more from injuries and radiation afterward. Japan surrendered days later.\n\nHistorians still debate the decision. Some argue that the bombs ended the war without an invasion that would have cost many lives on both sides. Others argue that Japan was near surrender or that US leaders also wanted to show the Soviet Union the power of the new weapon."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-7-t05",
+      "topicId": "world-7-7",
+      "concept": "atomic-bomb",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The second paragraph of the passage is best described as",
+      "choices": [
+        "describing the design of the bombs",
+        "presenting competing historical interpretations",
+        "proving that the bombs were unnecessary",
+        "proving that the bombs were the only option"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It sets out several historians' arguments.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "It discusses the decision, not design.",
+        "It sets out several historians' arguments.",
+        "It presents a debate.",
+        "It does not settle the question for either side."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The passage presents both sides without proving one.",
+      "stimulusId": "original-atomic-bomb",
+      "stimulusBlocks": [
+        {
+          "id": "original-atomic-bomb",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.7 key concept: technological advances, including the atomic bomb, changed the conduct and outcome of World War II",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the decision to use the atomic bomb, 1945",
+          "text": "In August 1945, the United States dropped atomic bombs on Hiroshima and Nagasaki, killing more than 100,000 people immediately and many more from injuries and radiation afterward. Japan surrendered days later.\n\nHistorians still debate the decision. Some argue that the bombs ended the war without an invasion that would have cost many lives on both sides. Others argue that Japan was near surrender or that US leaders also wanted to show the Soviet Union the power of the new weapon."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-7-7-t06",
+      "topicId": "world-7-7",
+      "concept": "atomic-bomb",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The use of atomic bombs in 1945 most directly contributed to",
+      "choices": [
+        "the end of all weapons research by the great powers",
+        "Japan's victory in the war",
+        "the start of World War II",
+        "the beginning of a nuclear age in the Cold War"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nuclear weapons shaped superpower rivalry after 1945.",
+      "sourceIds": [
+        "ced-topic-7-7"
+      ],
+      "choiceExplanations": [
+        "Research expanded.",
+        "Japan surrendered days after the bombings.",
+        "The war began in the 1930s.",
+        "Nuclear weapons shaped superpower rivalry after 1945."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Japan surrendered.",
+      "stimulusId": "original-atomic-bomb",
+      "stimulusBlocks": [
+        {
+          "id": "original-atomic-bomb",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.7 key concept: technological advances, including the atomic bomb, changed the conduct and outcome of World War II",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the decision to use the atomic bomb, 1945",
+          "text": "In August 1945, the United States dropped atomic bombs on Hiroshima and Nagasaki, killing more than 100,000 people immediately and many more from injuries and radiation afterward. Japan surrendered days later.\n\nHistorians still debate the decision. Some argue that the bombs ended the war without an invasion that would have cost many lives on both sides. Others argue that Japan was near surrender or that US leaders also wanted to show the Soviet Union the power of the new weapon."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-7-7-quick",
+      "courseId": "world",
+      "unitId": "world-7",
+      "topicId": "world-7-7",
+      "title": "Topic 7.7 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-7-7-q01",
+        "world-7-7-q02",
+        "world-7-7-q03"
+      ]
+    },
+    {
+      "id": "world-7-7-quiz",
+      "courseId": "world",
+      "unitId": "world-7",
+      "topicId": "world-7-7",
+      "title": "Conducting World War II topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-7-7-q01",
+        "world-7-7-q02",
+        "world-7-7-q03",
+        "world-7-7-q04",
+        "world-7-7-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "wwii-mobilization": {
+      "id": "wwii-mobilization",
+      "title": "Mobilization and civilians",
+      "section": "wwii-mobilization",
+      "topicId": "world-7-7"
+    },
+    "atomic-bomb": {
+      "id": "atomic-bomb",
+      "title": "The atomic bomb",
+      "section": "atomic-bomb",
+      "topicId": "world-7-7"
+    }
+  },
+  "assets": {}
+}
