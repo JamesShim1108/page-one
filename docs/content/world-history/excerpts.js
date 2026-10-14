@@ -966,4 +966,253 @@ export const excerpts = {
     text: "Between 1450 and 1750, sea routes linked every inhabited continent for the first time. Yet many older patterns continued. Asian merchants still carried most Indian Ocean trade, Chinese and Indian manufactured goods remained in high demand, and land-based empires such as the Ottomans and Mughals remained far larger and richer than any European colony in Asia.\n\nWhat changed most was the Atlantic world. There, European empires, new crops and diseases, and the forced migration of Africans created societies that had no earlier parallel.",
   },
   // END unit-04
+  // BEGIN unit-05
+  lockeConsent: {
+    id: "locke-consent",
+    type: "source",
+    sourceType: "primary",
+    source: "locke-second-treatise",
+    amsco_review: "pending",
+    attribution: "John Locke, English philosopher, Second Treatise of Government, 1690",
+    citation:
+      "John Locke, Second Treatise of Government, sections 95 and 222. Project Gutenberg eBook #7370.",
+    note: "Locke uses “property” to mean people's lives, liberties, and estates. The legislative is the lawmaking power.",
+    text: "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. . . .\n\n. . . whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience . . . . Whensoever therefore the legislative shall transgress this fundamental rule of society; and either by ambition, fear, folly or corruption, endeavour to grasp themselves, or put into the hands of any other, an absolute power over the lives, liberties, and estates of the people; by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty . . . .",
+  },
+  wollstonecraftReason: {
+    id: "wollstonecraft-reason",
+    type: "source",
+    sourceType: "primary",
+    source: "wollstonecraft-vindication",
+    amsco_review: "pending",
+    attribution:
+      "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792",
+    citation:
+      "Mary Wollstonecraft, A Vindication of the Rights of Woman, chs. 3–4. Project Gutenberg eBook #3420.",
+    note: "Wollstonecraft is responding to the French Enlightenment writer Jean-Jacques Rousseau, who argued that women should be educated to please men. Bracketed words replace “they.”",
+    edits: [
+      {
+        shown: "[Women]",
+        original: "they",
+      },
+    ],
+    text: 'It is time to effect a revolution in female manners, time to restore to them their lost dignity, and make them, as a part of the human species, labour by reforming themselves to reform the world. . . .\n\n[Women] would be more respectable members of society, and discharge the important duties of life by the light of their own reason. "Educate women like men," says Rousseau, "and the more they resemble our sex the less power will they have over us." This is the very point I aim at. I do not wish them to have power over men; but over themselves.',
+  },
+  paineCommonSense: {
+    id: "paine-common-sense",
+    type: "source",
+    sourceType: "primary",
+    source: "paine-common-sense",
+    amsco_review: "pending",
+    attribution:
+      "Thomas Paine, English-born writer living in Philadelphia, Common Sense, pamphlet published in January 1776",
+    citation:
+      "Thomas Paine, Common Sense (1776), introduction and parts 1 and 3. Project Gutenberg eBook #147.",
+    note: "“The continent” is the thirteen British colonies in North America; “the island” is Great Britain.",
+    text: "The cause of America is in a great measure the cause of all mankind. . . .\n\nSociety in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island. . . .\n\nO ye that love mankind! Ye that dare oppose, not only the tyranny, but the tyrant, stand forth! Every spot of the old world is overrun with oppression. Freedom hath been hunted round the globe.",
+  },
+  smithPins: {
+    id: "smith-pins",
+    type: "source",
+    sourceType: "primary",
+    source: "smith-wealth-of-nations",
+    amsco_review: "pending",
+    attribution:
+      "Adam Smith, Scottish philosopher and economist, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
+    citation:
+      "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book I, ch. 1. Project Gutenberg eBook #3300.",
+    note: "A manufactory is a workshop. Smith is describing the division of labor in pin-making.",
+    text: "One man draws out the wire; another straights it; a third cuts it; a fourth points it; a fifth grinds it at the top for receiving the head; to make the head requires two or three distinct operations; to put it on is a peculiar business; to whiten the pins is another; it is even a trade by itself to put them into the paper; and the important business of making a pin is, in this manner, divided into about eighteen distinct operations, which, in some manufactories, are all performed by distinct hands, though in others the same man will sometimes perform two or three of them. I have seen a small manufactory of this kind, where ten men only were employed, and where some of them consequently performed two or three distinct operations.",
+  },
+  manifestoClass: {
+    id: "manifesto-class-struggle",
+    type: "source",
+    sourceType: "primary",
+    source: "marx-engels-1888",
+    amsco_review: "pending",
+    attribution:
+      "Karl Marx and Friedrich Engels, German political philosophers, Manifesto of the Communist Party, 1848",
+    citation:
+      "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, English edition of 1888, trans. Samuel Moore, sections I and IV. Project Gutenberg eBook #61.",
+    note: "The bourgeoisie are the owners of factories and capital; the proletarians are industrial wage workers.",
+    text: "The history of all hitherto existing societies is the history of class struggles. . . .\n\nThe need of a constantly expanding market for its products chases the bourgeoisie over the whole surface of the globe. It must nestle everywhere, settle everywhere, establish connexions everywhere. . . .\n\nOwing to the extensive use of machinery and to division of labour, the work of the proletarians has lost all individual character, and consequently, all charm for the workman. He becomes an appendage of the machine . . . .\n\nLet the ruling classes tremble at a Communistic revolution. The proletarians have nothing to lose but their chains. They have a world to win.",
+  },
+  smilesSelfHelp: {
+    id: "smiles-self-help",
+    type: "source",
+    sourceType: "primary",
+    source: "smiles-self-help",
+    amsco_review: "pending",
+    attribution:
+      "Samuel Smiles, Scottish writer and reformer, Self-Help, first published in 1859",
+    citation:
+      "Samuel Smiles, Self-Help (London: John Murray, 1897), ch. 1. Project Gutenberg eBook #935.",
+    text: '"HEAVEN helps those who help themselves" is a well-tried maxim, embodying in a small compass the results of vast human experience. The spirit of self-help is the root of all genuine growth in the individual; and, exhibited in the lives of many, it constitutes the true source of national vigour and strength. Help from without is often enfeebling in its effects, but help from within invariably invigorates. Whatever is done for men or classes, to a certain extent takes away the stimulus and necessity of doing for themselves; and where men are subjected to over-guidance and over-government, the inevitable tendency is to render them comparatively helpless.',
+  },
+  originalReformMovements: {
+    id: "original-reform-movements",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.1 key concept: Enlightenment ideas and religious ideals influenced reform movements, including the abolition of slavery, the end of serfdom, and the expansion of political rights",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing reform movements influenced by Enlightenment ideas, 1780–1900",
+    text: "Enlightenment arguments about natural rights gave reformers a powerful language. Abolitionists, many of them also motivated by religious belief, pressed Britain to end its slave trade in 1807 and to abolish slavery in most of its empire in 1833. Russia emancipated its serfs in 1861. In 1848, activists meeting at Seneca Falls, New York, demanded rights for women, including the vote.\n\nChange came slowly and unevenly. The United States ended slavery only in 1865 after a civil war, Brazil in 1888. New Zealand became the first country to allow women to vote in national elections in 1893.",
+  },
+  originalHaiti: {
+    id: "original-haitian-revolution",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.2 key concept: people around the world developed a new sense of commonality, and slave resistance challenged existing authorities in the Americas, as in the Haitian Revolution",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+    text: "Saint-Domingue, a French colony on the island of Hispaniola, was the richest colony in the Caribbean, producing much of Europe's sugar and coffee with the labor of about 500,000 enslaved Africans. In 1791, enslaved people rose in revolt. Under leaders such as Toussaint Louverture, they defeated French, Spanish, and British forces, and in 1804 declared the independent nation of Haiti.\n\nHaiti was the only state founded by a successful revolt of enslaved people. Its independence alarmed slaveholders across the Americas, and France demanded a large payment from Haiti in 1825 in exchange for recognition.",
+  },
+  originalLatinAmerica: {
+    id: "original-latin-american-independence",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.2 key concept: discontent with monarchist and imperial rule encouraged the development of political ideologies, and Enlightenment ideas inspired independence movements in Latin America",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Latin American independence movements, 1810–1825",
+    text: "When Napoleon invaded Spain in 1808, Spanish rule in the Americas was thrown into confusion. Creole elites, people of Spanish descent born in the Americas, had long resented that the highest offices went to men born in Spain. Leaders such as Simón Bolívar and José de San Martín led armies that won independence for most of Spanish South America by 1825.\n\nIndependence did not overturn the colonial social order. Creoles took the top positions, while most Indigenous people, mestizos, and people of African descent remained poor and excluded from power.",
+  },
+  originalNationalism: {
+    id: "original-nationalism",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.2 key concept: nationalism, a sense of commonality based on language, religion, social customs, and territory, led to the unification of Italy and Germany",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing Italian and German unification, 1848–1871",
+    text: "In the early 1800s, Italy and Germany were divided into many states. Nationalists argued that people who shared a language and culture should share a government. In Italy, Count Camillo di Cavour, prime minister of Piedmont-Sardinia, used diplomacy and war, while Giuseppe Garibaldi's volunteers conquered southern Italy. The Kingdom of Italy was proclaimed in 1861.\n\nIn Germany, the Prussian minister Otto von Bismarck fought three wars, against Denmark, Austria, and France, and proclaimed the German Empire in 1871. Bismarck said great questions would be decided by “iron and blood,” not by speeches.",
+  },
+  originalWhyBritain: {
+    id: "original-why-britain",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.3 key concept: a variety of factors led to the rise of industrial production, including Europe's location on the Atlantic, geographic distribution of coal, iron, and timber, urbanization, and access to foreign resources",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing why industrialization began in Britain, c. 1750–1830",
+    text: "Historians point to several reasons that industrial production began in Britain. Britain had large deposits of coal and iron ore near rivers and ports. Improvements in farming, along with the enclosure of common lands, raised food output and pushed laborers toward towns. Merchants and landowners had capital to invest, and banks and a stable government protected property.\n\nOverseas trade mattered too. Colonies and the Atlantic trade supplied raw cotton and markets for finished cloth. Some historians stress that cheap coal and high wages made it profitable for British manufacturers to replace workers with machines.",
+  },
+  originalTextiles: {
+    id: "original-textile-machines",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.3 key concept: the development of machines, including steam engines, and the factory system transformed production, beginning with textiles",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the mechanization of British cotton manufacturing, 1760–1830",
+    text: "Cotton spinning was transformed first. The spinning jenny of the 1760s let one worker spin many threads at once, and Richard Arkwright's water frame, patented in 1769, used water power to spin strong thread. Arkwright built mills that gathered hundreds of workers under one roof, keeping them on fixed hours.\n\nWhen steam engines replaced water wheels, mills no longer had to be built beside fast rivers and could be placed in cities near coal and workers. Manchester grew from a market town into the center of a world cotton industry.",
+  },
+  originalSpread: {
+    id: "original-industrial-spread",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.4 key concept: industrialization spread from Great Britain to western Europe, the United States, Russia, and Japan, while production in some regions, such as India's textile industry, declined",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the spread of industrialization, 1830–1900",
+    text: "Belgium, France, and the German states began to industrialize in the early 1800s, often by copying British machines and hiring British engineers. By 1900 the United States and Germany produced more steel than Britain. Russia and Japan began rapid industrialization in the late 1800s, with strong government support.\n\nIndustrialization also had losers. Cheap machine-made cloth from British mills flooded markets in India, where hand spinners and weavers had once supplied much of the world's cotton cloth. India became a major exporter of raw cotton instead.",
+  },
+  originalSteam: {
+    id: "original-steam-technology",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.5 key concept: the development of the steam engine, railroads, steamships, and the telegraph, and later electricity and steel, transformed production, transportation, and communication",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing new technologies of the industrial age, 1770–1900",
+    text: "James Watt's improvements to the steam engine, patented in 1769, made it far more efficient. Steam soon powered factories, then locomotives and ships. The Liverpool and Manchester Railway opened in 1830, and by 1900 railroads crossed every inhabited continent. Steamships cut the time of ocean voyages and no longer depended on the wind.\n\nThe telegraph carried messages by electric signal; a cable across the Atlantic worked from 1866. In the late 1800s, a second wave of innovation brought cheap steel, electricity, chemicals, and the internal combustion engine.",
+  },
+  originalMeiji: {
+    id: "original-meiji",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.6 key concept: as states industrialized, they also expanded existing overseas colonies and established new ones; in Japan, the Meiji government promoted industrialization",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing state-led industrialization in Meiji Japan, 1868–1900",
+    text: "In 1868 a group of young samurai overthrew the Tokugawa shogunate and restored power to the Meiji emperor. The new leaders feared that Japan would be colonized like parts of China unless it built modern industry and armed forces. They abolished the samurai class, created a conscript army, sent students and officials to study in Europe and the United States, and built railroads, telegraph lines, and model factories.\n\nThe government later sold many factories to private firms. Some of these grew into large family-controlled business groups called zaibatsu. By 1900 Japan was the most industrialized country in Asia.",
+  },
+  originalEgyptOttoman: {
+    id: "original-egypt-ottoman-reform",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.6 key concept: state-sponsored industrialization in the Ottoman Empire and Egypt under Muhammad Ali",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing state-led industrialization in Egypt, 1805–1848",
+    text: "Muhammad Ali, who governed Egypt from 1805 to 1848 as a nominal subject of the Ottoman sultan, wanted a strong army and an independent state. He built state-owned factories to make textiles and weapons, brought in European advisers, and required farmers to grow cotton, which the state bought cheaply and sold abroad.\n\nThe factories struggled with high costs and competition from British goods. After European powers forced him to reduce his army and open Egypt's markets in 1841, many factories closed, and Egypt's economy came to depend on exporting raw cotton.",
+  },
+  originalCorporations: {
+    id: "original-corporations",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.7 key concept: as the influence of the industrial states grew, new financial instruments and transnational businesses developed, along with laissez-faire capitalism",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing new business organizations, 1850–1900",
+    text: "Laws allowing limited liability, passed in Britain in 1855 and in other countries soon after, meant that investors could lose only the money they had put into a company. This encouraged many people to buy stocks, and stock exchanges grew. Large banks and companies began to operate across borders. The Hongkong and Shanghai Banking Corporation, founded in 1865, financed trade across Asia.\n\nSupporters of laissez-faire capitalism argued that markets worked best with little government interference. Critics pointed to monopolies, harsh working conditions, and periodic economic crises.",
+  },
+  originalUnions: {
+    id: "original-labor-unions",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.8 key concept: workers established labor unions and movements promoting reforms, and some governments responded with reforms",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing workers' movements and reforms in Britain, 1810–1900",
+    text: "Early workers' protests in Britain included the Luddites, who smashed textile machines between 1811 and 1816. Over time, workers formed trade unions to bargain for higher wages and shorter hours. The Chartists of the 1830s and 1840s gathered millions of signatures demanding that all men be allowed to vote.\n\nParliament responded with gradual reforms. The Factory Act of 1833 limited child labor in textile mills, and voting rights expanded in 1867 and 1884 to include many working men. Socialists argued that such reforms were not enough.",
+  },
+  originalSelfStrengthening: {
+    id: "original-self-strengthening",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.8 key concept: as the industrial states grew stronger, some states, such as China and the Ottoman Empire, attempted reforms, with mixed results",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing reform efforts in Qing China and the Ottoman Empire, 1839–1895",
+    text: "After defeats by Britain and France, Qing officials launched the Self-Strengthening Movement in the 1860s. They built arsenals, shipyards, and a modern navy while keeping Confucian values and the imperial system. Conservative officials resisted deeper change, and Japan destroyed much of the new Chinese navy in 1895.\n\nThe Ottoman Tanzimat reforms, from 1839 to 1876, reorganized the army, courts, and schools along European lines and declared all subjects equal under the law. Critics complained that the reforms increased European influence without stopping the empire's loss of territory.",
+  },
+  originalFactoryLife: {
+    id: "original-factory-life",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.9 key concept: new social classes, including the middle class and the industrial working class, developed, and family dynamics, gender roles, and demographics changed",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing social change in industrial cities, 1800–1900",
+    text: "Industrial cities grew faster than housing, water, and sewers. Working families crowded into tenements, and diseases such as cholera spread through polluted water. Factory work ran on the clock, often for twelve or more hours a day, and women and children worked in mills for lower pay than men.\n\nA growing middle class of managers, professionals, and shopkeepers developed new ideals. Middle-class families often expected women to manage the home rather than work for wages, an ideal called separate spheres that few working-class families could afford to follow.",
+  },
+  originalContinuity5: {
+    id: "original-continuity-1750-1900",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 5.10 key concept: continuity and change in political ideas, economies, and societies during the age of revolutions and industrialization",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing continuity and change, 1750–1900",
+    text: "Between 1750 and 1900, ideas of natural rights and national self-government spread widely, and new nations formed across the Americas and Europe. Machines and fossil fuels transformed how goods were made and moved.\n\nYet much continued. Most people in the world still farmed, monarchies still ruled many states, and the new industrial wealth was concentrated in a few countries. Political rights expanded for some groups while women, colonized peoples, and many workers remained excluded.",
+  },
+  // END unit-05
 };

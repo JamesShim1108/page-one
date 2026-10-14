@@ -1,0 +1,508 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-5",
+    "courseId": "world",
+    "number": 5,
+    "title": "Revolutions",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-5-10",
+    "courseId": "world",
+    "unitId": "world-5",
+    "order": 10,
+    "code": "5.10",
+    "title": "Continuity and Change in the Industrial Age",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "What changed and what continued as revolutions and industrialization transformed the world from 1750 to 1900."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "eed01de3ecc05ac0",
+  "questions": [
+    {
+      "id": "world-5-10-q01",
+      "topicId": "world-5-10",
+      "concept": "industrial-change",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which of the following best illustrates continuity from 1750 to 1900?",
+      "choices": [
+        "Most of the world's people still worked in agriculture",
+        "Machines transformed textile production",
+        "New nations formed in Latin America after independence",
+        "Railroads crossed every inhabited continent by 1900"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Agriculture remained the main occupation worldwide.",
+      "sourceIds": [
+        "ced-topic-5-10"
+      ],
+      "choiceExplanations": [
+        "Agriculture remained the main occupation worldwide.",
+        "Mechanized textile production was new after 1750, so it is a change.",
+        "New Latin American nations formed after 1810, which is a change.",
+        "Railroads were built only after 1830, which is a change."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Mechanized textiles are a change, not a continuity.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-5-10-q02",
+      "topicId": "world-5-10",
+      "concept": "industrial-change",
+      "difficulty": "Core",
+      "skill": "argumentation",
+      "prompt": "Which claim about the period 1750 to 1900 is most defensible?",
+      "choices": [
+        "Political rights expanded equally for everyone",
+        "Political rights shrank everywhere as monarchs regained power",
+        "Political rights expanded only in Asia, especially in Meiji Japan",
+        "Political rights expanded for some groups while many remained excluded"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Some men gained votes while women and colonized peoples were excluded.",
+      "sourceIds": [
+        "ced-topic-5-10"
+      ],
+      "choiceExplanations": [
+        "Expansion was unequal.",
+        "Rights expanded for some.",
+        "Expansion was concentrated in Europe and the Americas.",
+        "Some men gained votes while women and colonized peoples were excluded."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Rights did not expand equally; women and colonized peoples were often excluded.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-5-10-t01",
+      "topicId": "world-5-10",
+      "concept": "industrial-change",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which of the following does the passage present as a continuity?",
+      "choices": [
+        "Most people still farmed",
+        "New nations formed",
+        "Machines transformed production",
+        "Natural rights ideas spread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage says most people still farmed.",
+      "sourceIds": [
+        "ced-topic-5-10"
+      ],
+      "choiceExplanations": [
+        "The passage says most people still farmed.",
+        "The passage lists the formation of new nations among the changes.",
+        "The passage says machines transformed production, a change.",
+        "The spread of natural rights ideas is described as new."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The formation of new nations is described as a change.",
+      "stimulusId": "original-continuity-1750-1900",
+      "stimulusBlocks": [
+        {
+          "id": "original-continuity-1750-1900",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.10 key concept: continuity and change in political ideas, economies, and societies during the age of revolutions and industrialization",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing continuity and change, 1750–1900",
+          "text": "Between 1750 and 1900, ideas of natural rights and national self-government spread widely, and new nations formed across the Americas and Europe. Machines and fossil fuels transformed how goods were made and moved.\n\nYet much continued. Most people in the world still farmed, monarchies still ruled many states, and the new industrial wealth was concentrated in a few countries. Political rights expanded for some groups while women, colonized peoples, and many workers remained excluded."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-10-t02",
+      "topicId": "world-5-10",
+      "concept": "industrial-change",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The author would most likely agree that political change from 1750 to 1900 was",
+      "choices": [
+        "nonexistent outside Europe",
+        "limited entirely to monarchies",
+        "significant but limited to some groups",
+        "complete and equal for all people, including women and colonized peoples"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rights expanded for some while others remained excluded.",
+      "sourceIds": [
+        "ced-topic-5-10"
+      ],
+      "choiceExplanations": [
+        "New nations formed in the Americas.",
+        "New nations included republics.",
+        "Rights expanded for some while others remained excluded.",
+        "Change was unequal."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The author says women, colonized peoples, and many workers were excluded.",
+      "stimulusId": "original-continuity-1750-1900",
+      "stimulusBlocks": [
+        {
+          "id": "original-continuity-1750-1900",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.10 key concept: continuity and change in political ideas, economies, and societies during the age of revolutions and industrialization",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing continuity and change, 1750–1900",
+          "text": "Between 1750 and 1900, ideas of natural rights and national self-government spread widely, and new nations formed across the Americas and Europe. Machines and fossil fuels transformed how goods were made and moved.\n\nYet much continued. Most people in the world still farmed, monarchies still ruled many states, and the new industrial wealth was concentrated in a few countries. Political rights expanded for some groups while women, colonized peoples, and many workers remained excluded."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-5-10-quick",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-10",
+      "title": "Topic 5.10 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-5-10-q01",
+        "world-5-10-q02"
+      ]
+    },
+    {
+      "id": "world-5-10-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-10",
+      "title": "Continuity and Change in the Industrial Age topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-5-10-q01",
+        "world-5-10-q02"
+      ]
+    }
+  ],
+  "concepts": {
+    "industrial-change": {
+      "id": "industrial-change",
+      "title": "Weighing change and continuity",
+      "section": "industrial-change",
+      "topicId": "world-5-10"
+    }
+  },
+  "assets": {}
+}

@@ -33,6 +33,27 @@ export const EXCERPT_SOURCES = Object.freeze({
     files: ["montaigne-essays.txt"],
     label: "Project Gutenberg #3600 (Cotton's Montaigne, ed. Hazlitt, 1877)",
   },
+  "locke-": {
+    files: ["locke-second-treatise.txt"],
+    label: "Project Gutenberg #7370 (Locke, Second Treatise of Government)",
+  },
+  "wollstonecraft-": {
+    files: ["wollstonecraft-vindication.txt"],
+    label:
+      "Project Gutenberg #3420 (Wollstonecraft, A Vindication of the Rights of Woman)",
+  },
+  "paine-": {
+    files: ["paine-common-sense.txt"],
+    label: "Project Gutenberg #147 (Paine, Common Sense)",
+  },
+  "manifesto-": {
+    files: ["communist-manifesto.txt"],
+    label: "Project Gutenberg #61 (Communist Manifesto, 1888 English edition)",
+  },
+  "smiles-": {
+    files: ["smiles-self-help.txt"],
+    label: "Project Gutenberg #935 (Smiles, Self-Help, 1897 edition)",
+  },
 });
 
 export function excerptSourceFor(id) {

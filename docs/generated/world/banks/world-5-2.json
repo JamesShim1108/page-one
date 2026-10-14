@@ -1,0 +1,962 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-5",
+    "courseId": "world",
+    "number": 5,
+    "title": "Revolutions",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-5-2",
+    "courseId": "world",
+    "unitId": "world-5",
+    "order": 2,
+    "code": "5.2",
+    "title": "Nationalism and Revolutions in the Period from 1750 to 1900",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How the American, French, Haitian, and Latin American revolutions and the rise of nationalism reshaped states."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "20eaf6616122425c",
+  "questions": [
+    {
+      "id": "world-5-2-q01",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The Haitian Revolution was unique because it",
+      "choices": [
+        "created a state through a revolt led mainly by French settlers",
+        "created a state through a successful revolt of enslaved people",
+        "was led by Spanish-born officials",
+        "ended without any fighting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Haiti was founded in 1804 after enslaved people defeated French, Spanish, and British forces.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Enslaved people, not French settlers, led the revolt.",
+        "Haiti was founded in 1804 after enslaved people defeated French, Spanish, and British forces.",
+        "The leaders were formerly enslaved people.",
+        "The revolution involved years of war."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "French colonists did not lead it; formerly enslaved people such as Toussaint Louverture did.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-2-q02",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following was an immediate trigger for Latin American independence movements?",
+      "choices": [
+        "The Haitian declaration of independence in 1776",
+        "Napoleon's invasion of Britain in 1808",
+        "Napoleon's invasion of Spain in 1808",
+        "The unification of Germany in 1871"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The invasion threw Spanish rule into confusion and gave creoles an opening.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Haiti declared independence in 1804; 1776 is the American declaration.",
+        "Napoleon never invaded Britain.",
+        "The invasion threw Spanish rule into confusion and gave creoles an opening.",
+        "German unification came long after."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Napoleon invaded Spain, not Britain, which disrupted Spanish rule in the Americas.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-2-q03",
+      "topicId": "world-5-2",
+      "concept": "nationalism-unification",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "German unification in 1871 was achieved mainly through",
+      "choices": [
+        "wars led by Prussia under Otto von Bismarck",
+        "a revolution led by German workers",
+        "a vote by all German-speaking people",
+        "wars led by Austria under Bismarck"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bismarck used wars against Denmark, Austria, and France to unify Germany.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Bismarck used wars against Denmark, Austria, and France to unify Germany.",
+        "Unification was led from above by Prussia.",
+        "No such vote occurred.",
+        "Prussia, not Austria, led unification."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Bismarck was Prussian, and one of his wars was against Austria.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-2-q04",
+      "topicId": "world-5-2",
+      "concept": "atlantic-revolutions",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The American and French revolutions were similar in that both",
+      "choices": [
+        "justified revolt with Enlightenment ideas about rights",
+        "ended slavery in all of their territories",
+        "restored absolute monarchies",
+        "justified revolt with the divine right of kings to rule their subjects"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both drew on natural rights and consent.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Both drew on natural rights and consent.",
+        "Slavery continued in the United States.",
+        "Both challenged monarchy.",
+        "Both rejected divine right."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Divine right was the idea both revolutions rejected.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-2-q05",
+      "topicId": "world-5-2",
+      "concept": "nationalism-unification",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Nationalism most threatened which of the following in the 1800s?",
+      "choices": [
+        "The United States after its civil war",
+        "Multiethnic empires such as Britain's small island colonies in the Caribbean",
+        "Multiethnic empires such as the Austrian and Ottoman empires",
+        "Small states that shared one language"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nationalist movements among many peoples threatened empires that ruled many nationalities.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "The US is not the main example here.",
+        "The classic cases are Austria and the Ottomans.",
+        "Nationalist movements among many peoples threatened empires that ruled many nationalities.",
+        "Such states could be strengthened by nationalism."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Multiethnic empires were threatened, but the clearest examples were land empires such as Austria and the Ottomans.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-2-t01",
+      "topicId": "world-5-2",
+      "concept": "atlantic-revolutions",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Paine's argument in the third paragraph is that",
+      "choices": [
+        "it makes sense for colonies to remain under British protection",
+        "it makes no sense for a continent to be ruled by an island",
+        "small islands should govern large continents",
+        "Britain should rule America forever"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Paine calls it absurd for a continent to be perpetually governed by an island.",
+      "sourceIds": [
+        "ced-topic-5-2",
+        "paine-common-sense"
+      ],
+      "choiceExplanations": [
+        "He rejects continued British rule.",
+        "Paine calls it absurd for a continent to be perpetually governed by an island.",
+        "He says the reverse.",
+        "He argues for independence."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Paine says protection suits small islands, not a continent like America.",
+      "stimulusId": "paine-common-sense",
+      "stimulusBlocks": [
+        {
+          "id": "paine-common-sense",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "paine-common-sense",
+          "amsco_review": "pending",
+          "attribution": "Thomas Paine, English-born writer living in Philadelphia, Common Sense, pamphlet published in January 1776",
+          "citation": "Thomas Paine, Common Sense (1776), introduction and parts 1 and 3. Project Gutenberg eBook #147.",
+          "note": "“The continent” is the thirteen British colonies in North America; “the island” is Great Britain.",
+          "text": "The cause of America is in a great measure the cause of all mankind. . . .\n\nSociety in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island. . . .\n\nO ye that love mankind! Ye that dare oppose, not only the tyranny, but the tyrant, stand forth! Every spot of the old world is overrun with oppression. Freedom hath been hunted round the globe."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-2-t02",
+      "topicId": "world-5-2",
+      "concept": "atlantic-revolutions",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Paine's purpose in writing the pamphlet was most likely to",
+      "choices": [
+        "persuade France to end its monarchy",
+        "persuade colonists to remain loyal to the king",
+        "persuade colonists to support independence",
+        "persuade Parliament to lower taxes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Common Sense urged colonists to break with Britain.",
+      "sourceIds": [
+        "ced-topic-5-2",
+        "paine-common-sense"
+      ],
+      "choiceExplanations": [
+        "His focus was America.",
+        "He urged independence.",
+        "Common Sense urged colonists to break with Britain.",
+        "Paine wrote for colonists, not Parliament."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Paine attacked British rule and urged a break.",
+      "stimulusId": "paine-common-sense",
+      "stimulusBlocks": [
+        {
+          "id": "paine-common-sense",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "paine-common-sense",
+          "amsco_review": "pending",
+          "attribution": "Thomas Paine, English-born writer living in Philadelphia, Common Sense, pamphlet published in January 1776",
+          "citation": "Thomas Paine, Common Sense (1776), introduction and parts 1 and 3. Project Gutenberg eBook #147.",
+          "note": "“The continent” is the thirteen British colonies in North America; “the island” is Great Britain.",
+          "text": "The cause of America is in a great measure the cause of all mankind. . . .\n\nSociety in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island. . . .\n\nO ye that love mankind! Ye that dare oppose, not only the tyranny, but the tyrant, stand forth! Every spot of the old world is overrun with oppression. Freedom hath been hunted round the globe."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-5-2-t03",
+      "topicId": "world-5-2",
+      "concept": "atlantic-revolutions",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Paine's claim that America's cause is the cause of all mankind is most similar to",
+      "choices": [
+        "French revolutionaries' claims about the universal rights of man",
+        "Bismarck's view that great questions are decided by iron and blood",
+        "Japanese leaders' fear of Western domination",
+        "French revolutionaries' claims about the divine right of kings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both presented their cause as universal rights for all people.",
+      "sourceIds": [
+        "ced-topic-5-2",
+        "paine-common-sense"
+      ],
+      "choiceExplanations": [
+        "Both presented their cause as universal rights for all people.",
+        "Bismarck stressed power, not universal rights.",
+        "This concerns Japan's security.",
+        "Divine right was rejected."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "French revolutionaries rejected divine right.",
+      "stimulusId": "paine-common-sense",
+      "stimulusBlocks": [
+        {
+          "id": "paine-common-sense",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "paine-common-sense",
+          "amsco_review": "pending",
+          "attribution": "Thomas Paine, English-born writer living in Philadelphia, Common Sense, pamphlet published in January 1776",
+          "citation": "Thomas Paine, Common Sense (1776), introduction and parts 1 and 3. Project Gutenberg eBook #147.",
+          "note": "“The continent” is the thirteen British colonies in North America; “the island” is Great Britain.",
+          "text": "The cause of America is in a great measure the cause of all mankind. . . .\n\nSociety in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island. . . .\n\nO ye that love mankind! Ye that dare oppose, not only the tyranny, but the tyrant, stand forth! Every spot of the old world is overrun with oppression. Freedom hath been hunted round the globe."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-2-t04",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, Saint-Domingue was important to France mainly because it",
+      "choices": [
+        "produced much of Europe's sugar and coffee",
+        "had the largest French army in the Americas",
+        "was France's main source of silver",
+        "produced much of Europe's cotton and tobacco"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It was the richest Caribbean colony, producing sugar and coffee.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "It was the richest Caribbean colony, producing sugar and coffee.",
+        "The passage gives no figure for the size of the French army.",
+        "Silver came from Spanish America.",
+        "The passage names sugar and coffee."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The passage names sugar and coffee, not cotton and tobacco.",
+      "stimulusId": "original-haitian-revolution",
+      "stimulusBlocks": [
+        {
+          "id": "original-haitian-revolution",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: people around the world developed a new sense of commonality, and slave resistance challenged existing authorities in the Americas, as in the Haitian Revolution",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+          "text": "Saint-Domingue, a French colony on the island of Hispaniola, was the richest colony in the Caribbean, producing much of Europe's sugar and coffee with the labor of about 500,000 enslaved Africans. In 1791, enslaved people rose in revolt. Under leaders such as Toussaint Louverture, they defeated French, Spanish, and British forces, and in 1804 declared the independent nation of Haiti.\n\nHaiti was the only state founded by a successful revolt of enslaved people. Its independence alarmed slaveholders across the Americas, and France demanded a large payment from Haiti in 1825 in exchange for recognition."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-2-t05",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, one effect of Haitian independence was",
+      "choices": [
+        "the restoration of French rule in 1825",
+        "alarm among abolitionists in Britain",
+        "alarm among slaveholders across the Americas",
+        "the immediate end of slavery in the United States"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Haiti's success frightened slaveholders throughout the Americas.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "France demanded payment for recognition in 1825 but did not rule Haiti again.",
+        "Abolitionists drew inspiration, not alarm.",
+        "Haiti's success frightened slaveholders throughout the Americas.",
+        "US slavery ended in 1865."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Slaveholders, not abolitionists, were alarmed.",
+      "stimulusId": "original-haitian-revolution",
+      "stimulusBlocks": [
+        {
+          "id": "original-haitian-revolution",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: people around the world developed a new sense of commonality, and slave resistance challenged existing authorities in the Americas, as in the Haitian Revolution",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+          "text": "Saint-Domingue, a French colony on the island of Hispaniola, was the richest colony in the Caribbean, producing much of Europe's sugar and coffee with the labor of about 500,000 enslaved Africans. In 1791, enslaved people rose in revolt. Under leaders such as Toussaint Louverture, they defeated French, Spanish, and British forces, and in 1804 declared the independent nation of Haiti.\n\nHaiti was the only state founded by a successful revolt of enslaved people. Its independence alarmed slaveholders across the Americas, and France demanded a large payment from Haiti in 1825 in exchange for recognition."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-2-t06",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Haitian Revolution differed from Latin American independence movements in that it",
+      "choices": [
+        "was led by creole elites",
+        "was led by formerly enslaved people",
+        "was inspired by Enlightenment ideas",
+        "ended colonial rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Haiti's revolution was led by formerly enslaved people, unlike creole-led movements.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "That describes Latin America.",
+        "Haiti's revolution was led by formerly enslaved people, unlike creole-led movements.",
+        "Both drew on Enlightenment ideas.",
+        "Both ended colonial rule."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Creole elites led most Latin American movements, not Haiti's.",
+      "stimulusId": "original-haitian-revolution",
+      "stimulusBlocks": [
+        {
+          "id": "original-haitian-revolution",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: people around the world developed a new sense of commonality, and slave resistance challenged existing authorities in the Americas, as in the Haitian Revolution",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+          "text": "Saint-Domingue, a French colony on the island of Hispaniola, was the richest colony in the Caribbean, producing much of Europe's sugar and coffee with the labor of about 500,000 enslaved Africans. In 1791, enslaved people rose in revolt. Under leaders such as Toussaint Louverture, they defeated French, Spanish, and British forces, and in 1804 declared the independent nation of Haiti.\n\nHaiti was the only state founded by a successful revolt of enslaved people. Its independence alarmed slaveholders across the Americas, and France demanded a large payment from Haiti in 1825 in exchange for recognition."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-2-t07",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, creole elites resented Spanish rule because",
+      "choices": [
+        "they were forced to work in silver mines",
+        "they were not allowed to own land",
+        "the highest offices went to Indigenous leaders",
+        "the highest offices went to men born in Spain"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Creoles were excluded from top offices held by Spanish-born men.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Mine labor fell on Indigenous people.",
+        "Creoles owned much land.",
+        "Peninsulares held top offices.",
+        "Creoles were excluded from top offices held by Spanish-born men."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Offices went to Spanish-born peninsulares, not Indigenous leaders.",
+      "stimulusId": "original-latin-american-independence",
+      "stimulusBlocks": [
+        {
+          "id": "original-latin-american-independence",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: discontent with monarchist and imperial rule encouraged the development of political ideologies, and Enlightenment ideas inspired independence movements in Latin America",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Latin American independence movements, 1810–1825",
+          "text": "When Napoleon invaded Spain in 1808, Spanish rule in the Americas was thrown into confusion. Creole elites, people of Spanish descent born in the Americas, had long resented that the highest offices went to men born in Spain. Leaders such as Simón Bolívar and José de San Martín led armies that won independence for most of Spanish South America by 1825.\n\nIndependence did not overturn the colonial social order. Creoles took the top positions, while most Indigenous people, mestizos, and people of African descent remained poor and excluded from power."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-2-t08",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "The second paragraph best illustrates",
+      "choices": [
+        "the rise of Indigenous governments",
+        "continuity in Spanish rule over the new nations after independence",
+        "continuity in social hierarchy after independence",
+        "the end of all inequality in Latin America"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Creoles took power while the poor remained excluded.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Creoles took power.",
+        "Spanish rule ended.",
+        "Creoles took power while the poor remained excluded.",
+        "Inequality continued."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Spanish rule ended; the social hierarchy continued.",
+      "stimulusId": "original-latin-american-independence",
+      "stimulusBlocks": [
+        {
+          "id": "original-latin-american-independence",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: discontent with monarchist and imperial rule encouraged the development of political ideologies, and Enlightenment ideas inspired independence movements in Latin America",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Latin American independence movements, 1810–1825",
+          "text": "When Napoleon invaded Spain in 1808, Spanish rule in the Americas was thrown into confusion. Creole elites, people of Spanish descent born in the Americas, had long resented that the highest offices went to men born in Spain. Leaders such as Simón Bolívar and José de San Martín led armies that won independence for most of Spanish South America by 1825.\n\nIndependence did not overturn the colonial social order. Creoles took the top positions, while most Indigenous people, mestizos, and people of African descent remained poor and excluded from power."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-5-2-t09",
+      "topicId": "world-5-2",
+      "concept": "nationalism-unification",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, nationalists argued that",
+      "choices": [
+        "people sharing a language and culture should share a government",
+        "empires should rule many peoples",
+        "religious leaders should govern states",
+        "people sharing a religion should share a government, whatever their language"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nationalists said a shared language and culture should mean a shared state.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Nationalists said a shared language and culture should mean a shared state.",
+        "Nationalism challenged multiethnic empires.",
+        "The passage says nothing of this.",
+        "Language and culture are stressed."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The passage stresses language and culture.",
+      "stimulusId": "original-nationalism",
+      "stimulusBlocks": [
+        {
+          "id": "original-nationalism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: nationalism, a sense of commonality based on language, religion, social customs, and territory, led to the unification of Italy and Germany",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Italian and German unification, 1848–1871",
+          "text": "In the early 1800s, Italy and Germany were divided into many states. Nationalists argued that people who shared a language and culture should share a government. In Italy, Count Camillo di Cavour, prime minister of Piedmont-Sardinia, used diplomacy and war, while Giuseppe Garibaldi's volunteers conquered southern Italy. The Kingdom of Italy was proclaimed in 1861.\n\nIn Germany, the Prussian minister Otto von Bismarck fought three wars, against Denmark, Austria, and France, and proclaimed the German Empire in 1871. Bismarck said great questions would be decided by “iron and blood,” not by speeches."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-2-t10",
+      "topicId": "world-5-2",
+      "concept": "nationalism-unification",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Italian and German unification were similar in that both",
+      "choices": [
+        "were achieved through peaceful elections only",
+        "created republics",
+        "were led by Austria",
+        "involved war and diplomacy led by a leading state"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Piedmont-Sardinia and Prussia used diplomacy and war.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Both involved war.",
+        "Both created monarchies.",
+        "Austria opposed both.",
+        "Piedmont-Sardinia and Prussia used diplomacy and war."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Both involved war, so they were not peaceful.",
+      "stimulusId": "original-nationalism",
+      "stimulusBlocks": [
+        {
+          "id": "original-nationalism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: nationalism, a sense of commonality based on language, religion, social customs, and territory, led to the unification of Italy and Germany",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Italian and German unification, 1848–1871",
+          "text": "In the early 1800s, Italy and Germany were divided into many states. Nationalists argued that people who shared a language and culture should share a government. In Italy, Count Camillo di Cavour, prime minister of Piedmont-Sardinia, used diplomacy and war, while Giuseppe Garibaldi's volunteers conquered southern Italy. The Kingdom of Italy was proclaimed in 1861.\n\nIn Germany, the Prussian minister Otto von Bismarck fought three wars, against Denmark, Austria, and France, and proclaimed the German Empire in 1871. Bismarck said great questions would be decided by “iron and blood,” not by speeches."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-5-2-quick",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-2",
+      "title": "Topic 5.2 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-5-2-q01",
+        "world-5-2-q02",
+        "world-5-2-q03"
+      ]
+    },
+    {
+      "id": "world-5-2-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-2",
+      "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-5-2-q01",
+        "world-5-2-q02",
+        "world-5-2-q03",
+        "world-5-2-q04",
+        "world-5-2-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "atlantic-revolutions": {
+      "id": "atlantic-revolutions",
+      "title": "American and French revolutions",
+      "section": "atlantic-revolutions",
+      "topicId": "world-5-2"
+    },
+    "haiti-latin-america": {
+      "id": "haiti-latin-america",
+      "title": "Haiti and Latin America",
+      "section": "haiti-latin-america",
+      "topicId": "world-5-2"
+    },
+    "nationalism-unification": {
+      "id": "nationalism-unification",
+      "title": "Nationalism and unification",
+      "section": "nationalism-unification",
+      "topicId": "world-5-2"
+    }
+  },
+  "assets": {}
+}

@@ -417,4 +417,111 @@ export const sources = [
     note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
   },
   // END unit-04
+  // BEGIN unit-05
+  {
+    id: "ced-topic-5-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: The Enlightenment.",
+  },
+  {
+    id: "ced-topic-5-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Nationalism and Revolutions in the Period from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-5-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Industrial Revolution Begins.",
+  },
+  {
+    id: "ced-topic-5-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Industrialization Spreads in the Period from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-5-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Technology of the Industrial Age.",
+  },
+  {
+    id: "ced-topic-5-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Industrialization: Government's Role from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-5-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Economic Developments and Innovations in the Industrial Age.",
+  },
+  {
+    id: "ced-topic-5-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Reactions to the Industrial Economy from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-5-9",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.9.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Society and the Industrial Age.",
+  },
+  {
+    id: "ced-topic-5-10",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.10.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Continuity and Change in the Industrial Age.",
+  },
+  {
+    id: "locke-second-treatise",
+    label:
+      "John Locke, Second Treatise of Government (1690), Project Gutenberg eBook #7370",
+    url: "https://www.gutenberg.org/ebooks/7370",
+    note: "Public domain text of Locke's treatise. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "wollstonecraft-vindication",
+    label:
+      "Mary Wollstonecraft, A Vindication of the Rights of Woman (1792), Project Gutenberg eBook #3420",
+    url: "https://www.gutenberg.org/ebooks/3420",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "paine-common-sense",
+    label:
+      "Thomas Paine, Common Sense (Philadelphia, 1776), Project Gutenberg eBook #147",
+    url: "https://www.gutenberg.org/ebooks/147",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "marx-engels-1888",
+    label:
+      "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, English edition of 1888, trans. Samuel Moore, ed. Friedrich Engels, Project Gutenberg eBook #61",
+    url: "https://www.gutenberg.org/ebooks/61",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "smiles-self-help",
+    label:
+      "Samuel Smiles, Self-Help (first published 1859; London: John Murray, 1897 edition), Project Gutenberg eBook #935",
+    url: "https://www.gutenberg.org/ebooks/935",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-05
 ];

@@ -17,16 +17,361 @@
     "number": 5,
     "title": "Revolutions",
     "period": "c. 1750–1900",
-    "status": "soon",
-    "description": "",
-    "quizzes": [],
-    "practiceTest": null,
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
     "termSets": [],
-    "topicQuizzes": [],
-    "topicCount": 0,
-    "firstTopic": null,
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    {
+      "id": "world-5-2",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 2,
+      "code": "5.2",
+      "title": "Nationalism and Revolutions in the Period from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How the American, French, Haitian, and Latin American revolutions and the rise of nationalism reshaped states."
+    },
+    {
+      "id": "world-5-3",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 3,
+      "code": "5.3",
+      "title": "Industrial Revolution Begins",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "Why industrial production began in Britain, and how machines, steam power, and factories transformed textile manufacturing."
+    },
+    {
+      "id": "world-5-4",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 4,
+      "code": "5.4",
+      "title": "Industrialization Spreads in the Period from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How industrialization spread to western Europe, the United States, Russia, and Japan, and how it hurt older manufacturing in places such as India."
+    },
+    {
+      "id": "world-5-5",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 5,
+      "code": "5.5",
+      "title": "Technology of the Industrial Age",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How steam engines, railroads, steamships, the telegraph, and later steel and electricity transformed production, transport, and communication."
+    },
+    {
+      "id": "world-5-6",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 6,
+      "code": "5.6",
+      "title": "Industrialization: Government's Role from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How states such as Meiji Japan, Egypt under Muhammad Ali, and Russia promoted industrialization."
+    },
+    {
+      "id": "world-5-7",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 7,
+      "code": "5.7",
+      "title": "Economic Developments and Innovations in the Industrial Age",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How laissez-faire ideas, limited liability, stock markets, and transnational businesses changed economies."
+    },
+    {
+      "id": "world-5-8",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 8,
+      "code": "5.8",
+      "title": "Reactions to the Industrial Economy from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How workers, socialists, and governments responded to industrial capitalism, and how China and the Ottoman Empire attempted reform."
+    },
+    {
+      "id": "world-5-9",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 9,
+      "code": "5.9",
+      "title": "Society and the Industrial Age",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How industrialization created new social classes, changed family and gender roles, and transformed cities."
+    },
+    {
+      "id": "world-5-10",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 10,
+      "code": "5.10",
+      "title": "Continuity and Change in the Industrial Age",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "What changed and what continued as revolutions and industrialization transformed the world from 1750 to 1900."
+    }
+  ]
 }

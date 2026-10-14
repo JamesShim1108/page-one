@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "world",
-  "revision": "29ddee767c337331",
+  "revision": "3add6b09063eb7f5",
   "pools": [
     {
       "id": "world-1-1:world-1-1-quiz",
@@ -460,6 +460,173 @@
         "world-4-8-q01",
         "world-4-8-q02",
         "world-4-8-q03"
+      ]
+    },
+    {
+      "id": "world-5-1:world-5-1-quiz",
+      "quizId": "world-5-1-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-1",
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "bankPath": "world/banks/world-5-1.json",
+      "questionIds": [
+        "world-5-1-q01",
+        "world-5-1-q02",
+        "world-5-1-q03",
+        "world-5-1-q04",
+        "world-5-1-q05"
+      ]
+    },
+    {
+      "id": "world-5-2:world-5-2-quiz",
+      "quizId": "world-5-2-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-2",
+      "code": "5.2",
+      "title": "Nationalism and Revolutions in the Period from 1750 to 1900",
+      "bankPath": "world/banks/world-5-2.json",
+      "questionIds": [
+        "world-5-2-q01",
+        "world-5-2-q02",
+        "world-5-2-q03",
+        "world-5-2-q04",
+        "world-5-2-q05"
+      ]
+    },
+    {
+      "id": "world-5-3:world-5-3-quiz",
+      "quizId": "world-5-3-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-3",
+      "code": "5.3",
+      "title": "Industrial Revolution Begins",
+      "bankPath": "world/banks/world-5-3.json",
+      "questionIds": [
+        "world-5-3-q01",
+        "world-5-3-q02",
+        "world-5-3-q03",
+        "world-5-3-q04",
+        "world-5-3-q05"
+      ]
+    },
+    {
+      "id": "world-5-4:world-5-4-quiz",
+      "quizId": "world-5-4-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-4",
+      "code": "5.4",
+      "title": "Industrialization Spreads in the Period from 1750 to 1900",
+      "bankPath": "world/banks/world-5-4.json",
+      "questionIds": [
+        "world-5-4-q01",
+        "world-5-4-q02",
+        "world-5-4-q03",
+        "world-5-4-q04",
+        "world-5-4-q05"
+      ]
+    },
+    {
+      "id": "world-5-5:world-5-5-quiz",
+      "quizId": "world-5-5-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-5",
+      "code": "5.5",
+      "title": "Technology of the Industrial Age",
+      "bankPath": "world/banks/world-5-5.json",
+      "questionIds": [
+        "world-5-5-q01",
+        "world-5-5-q02",
+        "world-5-5-q03",
+        "world-5-5-q04",
+        "world-5-5-q05"
+      ]
+    },
+    {
+      "id": "world-5-6:world-5-6-quiz",
+      "quizId": "world-5-6-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-6",
+      "code": "5.6",
+      "title": "Industrialization: Government's Role from 1750 to 1900",
+      "bankPath": "world/banks/world-5-6.json",
+      "questionIds": [
+        "world-5-6-q01",
+        "world-5-6-q02",
+        "world-5-6-q03",
+        "world-5-6-q04",
+        "world-5-6-q05"
+      ]
+    },
+    {
+      "id": "world-5-7:world-5-7-quiz",
+      "quizId": "world-5-7-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-7",
+      "code": "5.7",
+      "title": "Economic Developments and Innovations in the Industrial Age",
+      "bankPath": "world/banks/world-5-7.json",
+      "questionIds": [
+        "world-5-7-q01",
+        "world-5-7-q02",
+        "world-5-7-q03",
+        "world-5-7-q04",
+        "world-5-7-q05"
+      ]
+    },
+    {
+      "id": "world-5-8:world-5-8-quiz",
+      "quizId": "world-5-8-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-8",
+      "code": "5.8",
+      "title": "Reactions to the Industrial Economy from 1750 to 1900",
+      "bankPath": "world/banks/world-5-8.json",
+      "questionIds": [
+        "world-5-8-q01",
+        "world-5-8-q02",
+        "world-5-8-q03",
+        "world-5-8-q04",
+        "world-5-8-q05"
+      ]
+    },
+    {
+      "id": "world-5-9:world-5-9-quiz",
+      "quizId": "world-5-9-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-9",
+      "code": "5.9",
+      "title": "Society and the Industrial Age",
+      "bankPath": "world/banks/world-5-9.json",
+      "questionIds": [
+        "world-5-9-q01",
+        "world-5-9-q02",
+        "world-5-9-q03",
+        "world-5-9-q04",
+        "world-5-9-q05"
+      ]
+    },
+    {
+      "id": "world-5-10:world-5-10-quiz",
+      "quizId": "world-5-10-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-10",
+      "code": "5.10",
+      "title": "Continuity and Change in the Industrial Age",
+      "bankPath": "world/banks/world-5-10.json",
+      "questionIds": [
+        "world-5-10-q01",
+        "world-5-10-q02"
       ]
     }
   ]
