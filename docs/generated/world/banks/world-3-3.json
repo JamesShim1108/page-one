@@ -1,0 +1,1074 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-3-3",
+    "courseId": "world",
+    "unitId": "world-3",
+    "order": 3,
+    "code": "3.3",
+    "title": "Empires: Belief Systems",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How the Protestant and Catholic reformations, the Sunni and Shi'a rivalry, and the rise of Sikhism changed belief systems from 1450 to 1750."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "3d91c55d48a3d1dd",
+  "questions": [
+    {
+      "id": "world-3-3-q01",
+      "topicId": "world-3-3",
+      "concept": "protestant-reformation",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Martin Luther's challenge to the Catholic Church in 1517 focused first on",
+      "choices": [
+        "the power of the Holy Roman Emperor",
+        "the sale of church land to merchants",
+        "the sale of indulgences",
+        "the translation of the Bible into Latin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Ninety-five Theses attacked the sale of indulgences.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Luther's target was Church practice, not the emperor.",
+        "Indulgences, not land sales, prompted the theses.",
+        "The Ninety-five Theses attacked the sale of indulgences.",
+        "The Bible was already in Latin; Luther later translated it into German."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Luther objected to money and salvation being linked, but his target was indulgences, not land sales.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-3-q02",
+      "topicId": "world-3-3",
+      "concept": "protestant-reformation",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why the Protestant Reformation spread quickly?",
+      "choices": [
+        "The printing press circulated reformers' ideas and some rulers supported them",
+        "The pope endorsed Luther's ideas at the Council of Trent",
+        "Ottoman sultans required their Christian subjects to become Protestant",
+        "The printing press circulated reformers' ideas but rulers opposed them everywhere"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Printed pamphlets spread Luther's ideas, and princes who gained power and property supported them.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Printed pamphlets spread Luther's ideas, and princes who gained power and property supported them.",
+        "The Council of Trent rejected Protestant teachings.",
+        "The Ottomans did not impose Protestantism on anyone.",
+        "Many German princes and some kings supported the reformers."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Printing mattered, but the movement lasted because many princes and kings backed it.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-3-q03",
+      "topicId": "world-3-3",
+      "concept": "catholic-reformation",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The Jesuits contributed to the Catholic Reformation mainly by",
+      "choices": [
+        "leading the armies of the Holy Roman Empire",
+        "translating the Bible into Arabic for Christian readers in the Ottoman Empire",
+        "founding schools that taught Protestant theology",
+        "founding schools and sending missionaries around the world"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Society of Jesus ran schools and missions in Europe, Asia, Africa, and the Americas.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The Jesuits were a religious order, not an army.",
+        "Their main work was education and missions, not Arabic translation for Ottomans.",
+        "Jesuit schools taught Catholic teaching to counter Protestantism.",
+        "The Society of Jesus ran schools and missions in Europe, Asia, Africa, and the Americas."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Schools were central, but the Jesuits taught Catholic doctrine to strengthen the Church.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-3-q04",
+      "topicId": "world-3-3",
+      "concept": "sunni-shia",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "The Safavid decision to make Twelver Shi'ism the state religion most directly led to",
+      "choices": [
+        "an alliance between the Safavids and the Ottoman Empire",
+        "increased conflict with the Sunni Ottoman Empire",
+        "the conversion of the Mughal Empire to Shi'ism",
+        "increased conflict with the Shi'a Ottoman Empire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Sunni Ottomans saw Safavid Shi'ism as a threat, leading to war at Chaldiran in 1514 and after.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The two empires were rivals and fought repeatedly.",
+        "The Sunni Ottomans saw Safavid Shi'ism as a threat, leading to war at Chaldiran in 1514 and after.",
+        "The Mughals remained Sunni.",
+        "The Ottomans were Sunni, not Shi'a."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Conflict is right, but the Ottomans were Sunni, which is why the Safavids' Shi'ism alarmed them.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-3-q05",
+      "topicId": "world-3-3",
+      "concept": "sikhism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which of the following best describes the development of Sikhism?",
+      "choices": [
+        "It drew on Hindu and Islamic traditions and kept the full caste system in its worship",
+        "It drew on Hindu and Islamic devotional traditions but became a distinct religion",
+        "It was imposed on the Punjab by Mughal emperors",
+        "It began as a reform movement inside the Catholic Church"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sikhism shares ideas with bhakti and Sufism but developed its own scripture and institutions.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Community kitchens served people of every caste, reflecting rejection of caste distinctions.",
+        "Sikhism shares ideas with bhakti and Sufism but developed its own scripture and institutions.",
+        "Sikhism began with Guru Nanak's teaching, not Mughal policy.",
+        "Sikhism arose in South Asia, not within Christianity."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The blending is right, but Guru Nanak rejected caste distinctions in worship.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-3-3-q06",
+      "topicId": "world-3-3",
+      "concept": "catholic-reformation",
+      "difficulty": "Challenge",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following was a political effect of the Reformation in Europe?",
+      "choices": [
+        "The pope gained direct control over the Holy Roman Empire",
+        "All European states became Protestant by 1648",
+        "Rulers gave up control over religion to independent religious councils",
+        "Rulers gained more control over the religion of their own states"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Peace of Augsburg and the Peace of Westphalia let rulers decide their states' religion.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Papal power over rulers declined in this period.",
+        "Many states, including France and Spain, remained Catholic.",
+        "Settlements placed religious choice in rulers' hands.",
+        "The Peace of Augsburg and the Peace of Westphalia let rulers decide their states' religion."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Councils mattered to Catholics, but Augsburg and Westphalia gave religious choice to rulers.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-3-q07",
+      "topicId": "world-3-3",
+      "concept": "protestant-reformation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Protestant Reformation and the Ottoman and Safavid rivalry were similar in that both",
+      "choices": [
+        "connected religious differences to conflicts between rulers",
+        "were caused mainly by the spread of the printing press",
+        "connected religious differences to rivalries between merchant guilds",
+        "were resolved by the conversion of all subjects to one faith"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In both cases rulers used and fought over religious differences, turning them into political divisions.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "In both cases rulers used and fought over religious differences, turning them into political divisions.",
+        "Printing mattered for the Reformation but not for the Ottoman and Safavid rivalry.",
+        "The conflicts were between states and dynasties.",
+        "Both left lasting religious divisions rather than one faith."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Both involved conflict, but between rulers and states, not merchant guilds.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-3-t01",
+      "topicId": "world-3-3",
+      "concept": "protestant-reformation",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which of the following best summarizes Luther's argument in the excerpt?",
+      "choices": [
+        "Christians should stop giving charity to the poor",
+        "The sale of indulgences was acceptable if the money built churches",
+        "The sale of indulgences misled believers and enriched the Church",
+        "The pope should be replaced by a council of German princes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Luther says indulgence preachers err, gain and avarice increase, and repentance, not payment, brings remission.",
+      "sourceIds": [
+        "ced-topic-3-3",
+        "luther-works-1915"
+      ],
+      "choiceExplanations": [
+        "Other theses praise giving to the poor over buying pardons.",
+        "Theses 50 and 86 reject funding St. Peter's this way.",
+        "Luther says indulgence preachers err, gain and avarice increase, and repentance, not payment, brings remission.",
+        "The theses do not call for replacing the pope with princes."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Thesis 50 says the pope would rather St. Peter's burn than be built from his flock's suffering, so building churches did not justify the sale.",
+      "stimulusId": "luther-theses",
+      "stimulusBlocks": [
+        {
+          "id": "luther-theses",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "luther-works-1915",
+          "amsco_review": "pending",
+          "attribution": "Martin Luther, German monk and professor of theology, Disputation on the Power and Efficacy of Indulgences (the Ninety-five Theses), Wittenberg, 1517",
+          "citation": "Works of Martin Luther, trans. and ed. Adolph Spaeth, L. D. Reed, Henry Eyster Jacobs, et al. (Philadelphia: A. J. Holman Company, 1915), vol. 1, pp. 29–38, theses 21, 27–28, 36, 50, and 86. Project Gutenberg eBook #274.",
+          "note": "Indulgences were grants from the Church said to reduce punishment for sins. “They preach man” means they preach human teaching rather than God's. Bracketed words are the translators'. Thesis 86 is one of several questions Luther says ordinary believers were asking.",
+          "text": "21. Therefore those preachers of indulgences are in error, who say that by the pope's indulgences a man is freed from every penalty, and saved; . . .\n\n27. They preach man who say that so soon as the penny jingles into the money-box, the soul flies out [of purgatory].\n\n28. It is certain that when the penny jingles into the money-box, gain and avarice can be increased, but the result of the intercession of the Church is in the power of God alone. . . .\n\n36. Every truly repentant Christian has a right to full remission of penalty and guilt, even without letters of pardon. . . .\n\n50. Christians are to be taught that if the pope knew the exactions of the pardon-preachers, he would rather that St. Peter's church should go to ashes, than that it should be built up with the skin, flesh and bones of his sheep. . . .\n\n86. Again:--\"Why does not the pope, whose wealth is to-day greater than the riches of the richest, build just this one church of St. Peter with his own money, rather than with the money of poor believers?\""
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-3-t02",
+      "topicId": "world-3-3",
+      "concept": "protestant-reformation",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The ideas in the excerpt spread quickly across Europe mainly because of",
+      "choices": [
+        "the printing press, which made copies of reformers' writings widely available",
+        "the Council of Trent, which publicized Luther's theses",
+        "the Ottoman conquest of Constantinople",
+        "the printing press, which the Catholic Church used to distribute copies of the theses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Printed copies of Luther's writings spread across German lands within weeks.",
+      "sourceIds": [
+        "ced-topic-3-3",
+        "luther-works-1915"
+      ],
+      "choiceExplanations": [
+        "Printed copies of Luther's writings spread across German lands within weeks.",
+        "Trent began in 1545 and rejected Protestant teaching.",
+        "The fall of Constantinople had no direct link to the theses.",
+        "The Church opposed Luther's ideas."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Printing spread the theses, but printers and supporters, not the Church, circulated them.",
+      "stimulusId": "luther-theses",
+      "stimulusBlocks": [
+        {
+          "id": "luther-theses",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "luther-works-1915",
+          "amsco_review": "pending",
+          "attribution": "Martin Luther, German monk and professor of theology, Disputation on the Power and Efficacy of Indulgences (the Ninety-five Theses), Wittenberg, 1517",
+          "citation": "Works of Martin Luther, trans. and ed. Adolph Spaeth, L. D. Reed, Henry Eyster Jacobs, et al. (Philadelphia: A. J. Holman Company, 1915), vol. 1, pp. 29–38, theses 21, 27–28, 36, 50, and 86. Project Gutenberg eBook #274.",
+          "note": "Indulgences were grants from the Church said to reduce punishment for sins. “They preach man” means they preach human teaching rather than God's. Bracketed words are the translators'. Thesis 86 is one of several questions Luther says ordinary believers were asking.",
+          "text": "21. Therefore those preachers of indulgences are in error, who say that by the pope's indulgences a man is freed from every penalty, and saved; . . .\n\n27. They preach man who say that so soon as the penny jingles into the money-box, the soul flies out [of purgatory].\n\n28. It is certain that when the penny jingles into the money-box, gain and avarice can be increased, but the result of the intercession of the Church is in the power of God alone. . . .\n\n36. Every truly repentant Christian has a right to full remission of penalty and guilt, even without letters of pardon. . . .\n\n50. Christians are to be taught that if the pope knew the exactions of the pardon-preachers, he would rather that St. Peter's church should go to ashes, than that it should be built up with the skin, flesh and bones of his sheep. . . .\n\n86. Again:--\"Why does not the pope, whose wealth is to-day greater than the riches of the richest, build just this one church of St. Peter with his own money, rather than with the money of poor believers?\""
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-3-3-t03",
+      "topicId": "world-3-3",
+      "concept": "protestant-reformation",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Thesis 86, which reports a question about the pope's wealth, was most likely included in order to",
+      "choices": [
+        "praise the pope's generosity toward the poor",
+        "announce that Luther had left the Catholic Church",
+        "show that ordinary believers wanted indulgences to cost more",
+        "show that ordinary believers resented paying for St. Peter's"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Luther presents the question as one ordinary believers were asking, which suggests popular resentment.",
+      "sourceIds": [
+        "ced-topic-3-3",
+        "luther-works-1915"
+      ],
+      "choiceExplanations": [
+        "The question criticizes the pope's wealth.",
+        "In 1517 Luther was still a monk seeking debate within the Church.",
+        "The question objects to taking money from poor believers.",
+        "Luther presents the question as one ordinary believers were asking, which suggests popular resentment."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The question shows resentment of the cost, the opposite of wanting higher prices.",
+      "stimulusId": "luther-theses",
+      "stimulusBlocks": [
+        {
+          "id": "luther-theses",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "luther-works-1915",
+          "amsco_review": "pending",
+          "attribution": "Martin Luther, German monk and professor of theology, Disputation on the Power and Efficacy of Indulgences (the Ninety-five Theses), Wittenberg, 1517",
+          "citation": "Works of Martin Luther, trans. and ed. Adolph Spaeth, L. D. Reed, Henry Eyster Jacobs, et al. (Philadelphia: A. J. Holman Company, 1915), vol. 1, pp. 29–38, theses 21, 27–28, 36, 50, and 86. Project Gutenberg eBook #274.",
+          "note": "Indulgences were grants from the Church said to reduce punishment for sins. “They preach man” means they preach human teaching rather than God's. Bracketed words are the translators'. Thesis 86 is one of several questions Luther says ordinary believers were asking.",
+          "text": "21. Therefore those preachers of indulgences are in error, who say that by the pope's indulgences a man is freed from every penalty, and saved; . . .\n\n27. They preach man who say that so soon as the penny jingles into the money-box, the soul flies out [of purgatory].\n\n28. It is certain that when the penny jingles into the money-box, gain and avarice can be increased, but the result of the intercession of the Church is in the power of God alone. . . .\n\n36. Every truly repentant Christian has a right to full remission of penalty and guilt, even without letters of pardon. . . .\n\n50. Christians are to be taught that if the pope knew the exactions of the pardon-preachers, he would rather that St. Peter's church should go to ashes, than that it should be built up with the skin, flesh and bones of his sheep. . . .\n\n86. Again:--\"Why does not the pope, whose wealth is to-day greater than the riches of the richest, build just this one church of St. Peter with his own money, rather than with the money of poor believers?\""
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-3-3-t04",
+      "topicId": "world-3-3",
+      "concept": "catholic-reformation",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Based on the passage, the Catholic Reformation included all of the following EXCEPT",
+      "choices": [
+        "founding new religious orders such as the Jesuits",
+        "accepting Protestant teachings in order to reunite Christians",
+        "ordering bishops to correct abuses",
+        "reaffirming Catholic teachings at the Council of Trent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Trent reaffirmed Catholic doctrine rather than accepting Protestant teaching, and Christians stayed divided.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The Jesuits were founded in 1540.",
+        "Trent reaffirmed Catholic doctrine rather than accepting Protestant teaching, and Christians stayed divided.",
+        "Trent ordered bishops to correct abuses such as selling church offices.",
+        "Trent reaffirmed Catholic teachings."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Correcting abuses was part of reform; accepting Protestant teaching was not.",
+      "stimulusId": "original-catholic-reform",
+      "stimulusBlocks": [
+        {
+          "id": "original-catholic-reform",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.i: the Protestant Reformation marked a break with established Christian traditions, and the Catholic Reformation responded",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Catholic Reformation, 1540–1600",
+          "text": "The Catholic Church answered the Protestant challenge in several ways. The Council of Trent, which met between 1545 and 1563, reaffirmed Catholic teachings on the sacraments and the authority of Church tradition, while ordering bishops to correct abuses such as the sale of church offices. New religious orders, especially the Society of Jesus, or Jesuits, founded in 1540, opened schools and sent missionaries to Asia, Africa, and the Americas.\n\nThe result was not reunion. Europe remained divided between Catholic and Protestant states, and religious difference fed wars such as the Thirty Years' War of 1618 to 1648."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-3-t05",
+      "topicId": "world-3-3",
+      "concept": "catholic-reformation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, religious divisions in Europe contributed to",
+      "choices": [
+        "wars between the Ottomans and the Safavids",
+        "wars such as the Thirty Years' War",
+        "the immediate reunion of Catholic and Protestant churches",
+        "the end of Jesuit missions in Asia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage names the Thirty Years' War as fed by religious difference.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "That conflict was between Muslim empires and is not in this passage.",
+        "The passage names the Thirty Years' War as fed by religious difference.",
+        "The passage says the result was not reunion.",
+        "Jesuit missions expanded."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Ottoman and Safavid wars involved a religious divide, but within Islam and outside Europe.",
+      "stimulusId": "original-catholic-reform",
+      "stimulusBlocks": [
+        {
+          "id": "original-catholic-reform",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.i: the Protestant Reformation marked a break with established Christian traditions, and the Catholic Reformation responded",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Catholic Reformation, 1540–1600",
+          "text": "The Catholic Church answered the Protestant challenge in several ways. The Council of Trent, which met between 1545 and 1563, reaffirmed Catholic teachings on the sacraments and the authority of Church tradition, while ordering bishops to correct abuses such as the sale of church offices. New religious orders, especially the Society of Jesus, or Jesuits, founded in 1540, opened schools and sent missionaries to Asia, Africa, and the Americas.\n\nThe result was not reunion. Europe remained divided between Catholic and Protestant states, and religious difference fed wars such as the Thirty Years' War of 1618 to 1648."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-3-t06",
+      "topicId": "world-3-3",
+      "concept": "catholic-reformation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Jesuit missions described in the passage were most similar to which earlier development?",
+      "choices": [
+        "Mongol armies spreading their rule across Eurasia",
+        "Song officials spreading Confucian ideas through the civil service examinations",
+        "Sufi teachers spreading Islam through military conquest",
+        "Sufi teachers spreading Islam through travel and personal instruction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Like Sufis, Jesuits spread a faith by traveling, teaching, and building communities.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Mongol conquest spread political rule, not a missionary faith.",
+        "Examinations selected officials within China rather than spreading a faith abroad.",
+        "Sufi influence came through teaching, not armies.",
+        "Like Sufis, Jesuits spread a faith by traveling, teaching, and building communities."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Sufis did spread Islam, but through teaching and example rather than conquest.",
+      "stimulusId": "original-catholic-reform",
+      "stimulusBlocks": [
+        {
+          "id": "original-catholic-reform",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.i: the Protestant Reformation marked a break with established Christian traditions, and the Catholic Reformation responded",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Catholic Reformation, 1540–1600",
+          "text": "The Catholic Church answered the Protestant challenge in several ways. The Council of Trent, which met between 1545 and 1563, reaffirmed Catholic teachings on the sacraments and the authority of Church tradition, while ordering bishops to correct abuses such as the sale of church offices. New religious orders, especially the Society of Jesus, or Jesuits, founded in 1540, opened schools and sent missionaries to Asia, Africa, and the Americas.\n\nThe result was not reunion. Europe remained divided between Catholic and Protestant states, and religious difference fed wars such as the Thirty Years' War of 1618 to 1648."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-3-t07",
+      "topicId": "world-3-3",
+      "concept": "sunni-shia",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The author's main claim is that the Ottoman and Safavid rivalry",
+      "choices": [
+        "turned a religious difference into a political boundary",
+        "ended the division between Sunni and Shi'a Islam",
+        "was caused mainly by competition over the Indian Ocean trade",
+        "turned a political boundary into a religious difference"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage concludes that the rivalry turned a religious difference into a political boundary.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The passage concludes that the rivalry turned a religious difference into a political boundary.",
+        "The division continued and hardened.",
+        "The passage does not mention the Indian Ocean.",
+        "The Sunni and Shi'a split long predated the border."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The order matters: the religious difference came first, and the rivalry made it a border.",
+      "stimulusId": "original-sunni-shia",
+      "stimulusBlocks": [
+        {
+          "id": "original-sunni-shia",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.ii: within Islam, the Sunni–Shi'a split was widened by the political rivalry between the Ottoman and Safavid empires",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Ottoman–Safavid rivalry, 1501–1639",
+          "text": "When Ismail I founded the Safavid dynasty in Persia in 1501, he declared Twelver Shi'ism the official religion and pressed his largely Sunni subjects to convert. The neighboring Ottomans, who were Sunni, saw Safavid preachers among Anatolian tribes as a threat. Sultan Selim I defeated Ismail at the Battle of Chaldiran in 1514, where Ottoman cannons and muskets overwhelmed Safavid cavalry.\n\nThe two empires fought repeatedly until a treaty in 1639 set a lasting border. Their rivalry turned a religious difference into a political boundary, and Persia remained mostly Shi'a while Ottoman lands remained mostly Sunni."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-3-t08",
+      "topicId": "world-3-3",
+      "concept": "sunni-shia",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains the Ottoman victory at Chaldiran in 1514?",
+      "choices": [
+        "The Mughals sent troops to fight for the Ottomans",
+        "Safavid cannons and muskets failed in cold weather",
+        "Ottoman cannons and muskets overwhelmed Safavid cavalry",
+        "The Safavids converted to Sunni Islam before the battle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says Ottoman firearms overwhelmed the Safavid cavalry.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The Mughals did not fight at Chaldiran.",
+        "The Safavid army relied on cavalry at Chaldiran.",
+        "The passage says Ottoman firearms overwhelmed the Safavid cavalry.",
+        "The Safavids remained Shi'a."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Firearms decided the battle, but they were Ottoman weapons; the Safavids relied mainly on cavalry.",
+      "stimulusId": "original-sunni-shia",
+      "stimulusBlocks": [
+        {
+          "id": "original-sunni-shia",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.ii: within Islam, the Sunni–Shi'a split was widened by the political rivalry between the Ottoman and Safavid empires",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Ottoman–Safavid rivalry, 1501–1639",
+          "text": "When Ismail I founded the Safavid dynasty in Persia in 1501, he declared Twelver Shi'ism the official religion and pressed his largely Sunni subjects to convert. The neighboring Ottomans, who were Sunni, saw Safavid preachers among Anatolian tribes as a threat. Sultan Selim I defeated Ismail at the Battle of Chaldiran in 1514, where Ottoman cannons and muskets overwhelmed Safavid cavalry.\n\nThe two empires fought repeatedly until a treaty in 1639 set a lasting border. Their rivalry turned a religious difference into a political boundary, and Persia remained mostly Shi'a while Ottoman lands remained mostly Sunni."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-3-t09",
+      "topicId": "world-3-3",
+      "concept": "sunni-shia",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Ismail I's religious policy is best understood as part of",
+      "choices": [
+        "the spread of Protestantism into Southwest Asia",
+        "a Mongol policy of tolerating all religions equally",
+        "efforts by rulers to separate religion completely from the work of government",
+        "efforts by rulers to strengthen their states through official religion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Like European princes choosing their state church, Ismail used an official religion to unify his state.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Protestantism did not spread to Persia.",
+        "Ismail pressed subjects to convert rather than tolerating all religions.",
+        "Ismail tied religion closely to his rule.",
+        "Like European princes choosing their state church, Ismail used an official religion to unify his state."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Ismail did the opposite of separating religion and government: he made Shi'ism the state religion.",
+      "stimulusId": "original-sunni-shia",
+      "stimulusBlocks": [
+        {
+          "id": "original-sunni-shia",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.ii: within Islam, the Sunni–Shi'a split was widened by the political rivalry between the Ottoman and Safavid empires",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Ottoman–Safavid rivalry, 1501–1639",
+          "text": "When Ismail I founded the Safavid dynasty in Persia in 1501, he declared Twelver Shi'ism the official religion and pressed his largely Sunni subjects to convert. The neighboring Ottomans, who were Sunni, saw Safavid preachers among Anatolian tribes as a threat. Sultan Selim I defeated Ismail at the Battle of Chaldiran in 1514, where Ottoman cannons and muskets overwhelmed Safavid cavalry.\n\nThe two empires fought repeatedly until a treaty in 1639 set a lasting border. Their rivalry turned a religious difference into a political boundary, and Persia remained mostly Shi'a while Ottoman lands remained mostly Sunni."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-3-3-t10",
+      "topicId": "world-3-3",
+      "concept": "sikhism",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which of the following details from the passage best supports the claim that Sikhism challenged existing social hierarchies?",
+      "choices": [
+        "The fifth Guru compiled the Adi Granth in 1604",
+        "Community kitchens served everyone regardless of caste",
+        "Guru Nanak lived from 1469 to 1539",
+        "Sikhism began in the Punjab region"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eating together across caste lines directly challenged caste hierarchy.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Compiling scripture shows institution-building, not a challenge to caste.",
+        "Eating together across caste lines directly challenged caste hierarchy.",
+        "Dates of Nanak's life do not address hierarchy.",
+        "Location does not address hierarchy."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The scripture shows Sikhs building institutions; the kitchens show the challenge to caste.",
+      "stimulusId": "original-sikhism",
+      "stimulusBlocks": [
+        {
+          "id": "original-sikhism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.iii: some belief systems, such as Sikhism, developed as a blend of existing traditions",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the origins of Sikhism, c. 1500–1604",
+          "text": "Sikhism began in the Punjab region of northern India with Guru Nanak, who lived from 1469 to 1539. Nanak taught devotion to one God and rejected the idea that ritual, caste, or religious labels made a person closer to the divine. His followers ate together in community kitchens open to all, regardless of caste.\n\nScholars see connections between Nanak's teachings and both Hindu bhakti devotion and Islamic Sufism, which were widespread in the region. Yet his successors built distinct institutions, and in 1604 the fifth Guru compiled the Adi Granth, the Sikh scripture."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-3-t11",
+      "topicId": "world-3-3",
+      "concept": "sikhism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "The development of Sikhism best illustrates which pattern from 1450 to 1750?",
+      "choices": [
+        "Religious change occurred only in Europe",
+        "New belief systems could emerge only through conquest",
+        "New belief systems could emerge from the blending of existing traditions",
+        "Empires required all of their subjects to follow the ruler's own religion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sikhism drew on bhakti and Sufism yet became a distinct religion.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Sikhism shows religious change in South Asia.",
+        "The passage describes teaching, not conquest.",
+        "Sikhism drew on bhakti and Sufism yet became a distinct religion.",
+        "Sikhism developed outside of state policy."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Sikhism grew through teaching and community, not conquest.",
+      "stimulusId": "original-sikhism",
+      "stimulusBlocks": [
+        {
+          "id": "original-sikhism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.iii: some belief systems, such as Sikhism, developed as a blend of existing traditions",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the origins of Sikhism, c. 1500–1604",
+          "text": "Sikhism began in the Punjab region of northern India with Guru Nanak, who lived from 1469 to 1539. Nanak taught devotion to one God and rejected the idea that ritual, caste, or religious labels made a person closer to the divine. His followers ate together in community kitchens open to all, regardless of caste.\n\nScholars see connections between Nanak's teachings and both Hindu bhakti devotion and Islamic Sufism, which were widespread in the region. Yet his successors built distinct institutions, and in 1604 the fifth Guru compiled the Adi Granth, the Sikh scripture."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-3-3-t12",
+      "topicId": "world-3-3",
+      "concept": "sikhism",
+      "difficulty": "Challenge",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Guru Nanak's teachings were most similar to the Protestant Reformation in that both",
+      "choices": [
+        "challenged the idea that ritual and religious hierarchy were required to reach God",
+        "were sponsored by the rulers of large empires",
+        "began in the Holy Roman Empire",
+        "challenged ritual while supporting the authority of a single high priest over all believers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nanak rejected ritual and caste as paths to God, and Luther rejected paid indulgences and Church tradition as the highest authority.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Nanak rejected ritual and caste as paths to God, and Luther rejected paid indulgences and Church tradition as the highest authority.",
+        "Neither began under imperial sponsorship.",
+        "Sikhism began in the Punjab.",
+        "Both movements challenged religious hierarchy rather than supporting it."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Both questioned ritual, but neither supported a single high priest; Luther challenged the pope's authority.",
+      "stimulusId": "original-sikhism",
+      "stimulusBlocks": [
+        {
+          "id": "original-sikhism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3, KC-4.1.VI.iii: some belief systems, such as Sikhism, developed as a blend of existing traditions",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the origins of Sikhism, c. 1500–1604",
+          "text": "Sikhism began in the Punjab region of northern India with Guru Nanak, who lived from 1469 to 1539. Nanak taught devotion to one God and rejected the idea that ritual, caste, or religious labels made a person closer to the divine. His followers ate together in community kitchens open to all, regardless of caste.\n\nScholars see connections between Nanak's teachings and both Hindu bhakti devotion and Islamic Sufism, which were widespread in the region. Yet his successors built distinct institutions, and in 1604 the fifth Guru compiled the Adi Granth, the Sikh scripture."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-3-3-quick",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-3",
+      "title": "Topic 3.3 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-3-3-q01",
+        "world-3-3-q02",
+        "world-3-3-q03"
+      ]
+    },
+    {
+      "id": "world-3-3-quiz",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-3",
+      "title": "Empires: Belief Systems topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-3-3-q01",
+        "world-3-3-q02",
+        "world-3-3-q03",
+        "world-3-3-q04",
+        "world-3-3-q05",
+        "world-3-3-q06",
+        "world-3-3-q07"
+      ]
+    }
+  ],
+  "concepts": {
+    "protestant-reformation": {
+      "id": "protestant-reformation",
+      "title": "The Protestant Reformation",
+      "section": "protestant-reformation",
+      "topicId": "world-3-3"
+    },
+    "catholic-reformation": {
+      "id": "catholic-reformation",
+      "title": "The Catholic Reformation",
+      "section": "catholic-reformation",
+      "topicId": "world-3-3"
+    },
+    "sunni-shia": {
+      "id": "sunni-shia",
+      "title": "Sunni and Shi'a rivalry",
+      "section": "sunni-shia",
+      "topicId": "world-3-3"
+    },
+    "sikhism": {
+      "id": "sikhism",
+      "title": "The rise of Sikhism",
+      "section": "sikhism",
+      "topicId": "world-3-3"
+    }
+  },
+  "assets": {}
+}

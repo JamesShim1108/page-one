@@ -1,0 +1,581 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-3-2",
+    "courseId": "world",
+    "unitId": "world-3",
+    "order": 2,
+    "code": "3.2",
+    "title": "Empires: Administration",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How rulers used officials, soldiers, religion, monuments, and taxes to legitimize and consolidate power."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "14ad3b1473b67c67",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-3-2",
+    "unitId": "world-3",
+    "courseId": "world",
+    "code": "3.2",
+    "title": "Empires: Administration",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "order": 2,
+    "summary": "How rulers used officials, soldiers, religion, monuments, and taxes to legitimize and consolidate power.",
+    "minutes": 14,
+    "learningGoals": [
+      "Explain how rulers used bureaucratic elites and military professionals to keep control.",
+      "Explain how religion, art, and architecture legitimized rule.",
+      "Compare the methods empires used to collect revenue."
+    ],
+    "bigIdea": "Rulers kept large empires together by recruiting loyal officials and soldiers, linking their authority to religion and spectacle, and finding reliable ways to collect taxes.",
+    "context": "Conquest created empires, but administration kept them. Rulers from Europe to East Asia faced the same problems: finding loyal servants, persuading subjects to obey, and paying for armies and courts.",
+    "sections": [
+      {
+        "id": "bureaucracy-military",
+        "title": "Loyal officials and soldiers",
+        "conceptTitle": "Loyal officials and soldiers",
+        "lenses": [
+          "P",
+          "S"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Ottomans used the devshirme, a system in which Christian boys from the Balkans were taken from their families, converted to Islam, and trained to serve the sultan. The most talented became administrators; many others joined the Janissaries. Because they had no noble family to support them, they depended on the sultan."
+          },
+          {
+            "type": "paragraph",
+            "text": "In Japan, the Tokugawa shogunate, established in 1603, moved samurai into castle towns and paid them fixed rice stipends. The alternate attendance system required daimyo, the regional lords, to live part of the time in Edo and leave their families there as hostages."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Qing kept the Ming examination system, so Chinese scholars staffed most offices. Many top posts were shared by one Manchu and one Han Chinese official."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Rulers feared powerful nobles, so they recruited servants who owed everything to the throne, which reduced the chance that officials would build rival power bases."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "The devshirme was coercive. Describing it only as a path to opportunity leaves out that boys were taken from their families by force."
+          }
+        ],
+        "takeaway": "Rulers sought officials and soldiers whose loyalty depended on the ruler, not on their own family wealth.",
+        "sourceIds": [
+          "ced-topic-3-2"
+        ]
+      },
+      {
+        "id": "religion-legitimacy",
+        "title": "Religion and the right to rule",
+        "conceptTitle": "Religion and the right to rule",
+        "lenses": [
+          "C",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Many European monarchs claimed divine right, the belief that God chose kings and that resisting them was resisting God. Louis XIV of France, who ruled from 1643 to 1715, became a model of absolutism, ruling without calling France's representative assembly."
+          },
+          {
+            "type": "paragraph",
+            "text": "In Songhai, Askia Muhammad, who ruled from 1493 to 1528, promoted Islam, appointed Muslim judges, and made a pilgrimage to Mecca. Earlier, Mexica rulers had linked their power to sacred duties, including human sacrifice to the sun god."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ottoman sultans took the title of caliph and protected the holy cities of Mecca and Medina after 1517. Safavid shahs presented themselves as leaders of Shi'a Islam."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Religious legitimacy did not mean everyone shared the ruler's faith. Askia Muhammad's promotion of Islam left rural religious practice largely unchanged."
+          }
+        ],
+        "takeaway": "Rulers tied their authority to religious ideas so that obedience seemed a sacred duty.",
+        "sourceIds": [
+          "ced-topic-3-2"
+        ]
+      },
+      {
+        "id": "art-architecture",
+        "title": "Art and monumental architecture",
+        "conceptTitle": "Art and monumental architecture",
+        "lenses": [
+          "C"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Mughal emperor Shah Jahan built the Taj Mahal as a tomb for his wife, blending Persian, Indian, and Islamic designs. The architect Sinan designed the Süleymaniye Mosque for Suleiman I. Louis XIV moved his court to Versailles in 1682 and turned daily life there into ceremony centered on the king."
+          },
+          {
+            "type": "paragraph",
+            "text": "Qing emperors commissioned portraits showing themselves as Confucian scholars, Buddhist patrons, and Manchu warriors. In the Americas, the Inca had covered the Temple of the Sun at Cusco with gold."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Rulers needed subjects and rivals to see their power, so they spent heavily on monuments, which displayed wealth and piety and gave the dynasty a lasting public image."
+          }
+        ],
+        "takeaway": "Monuments and art turned royal power into something people could see.",
+        "sourceIds": [
+          "ced-topic-3-2"
+        ]
+      },
+      {
+        "id": "taxes-revenue",
+        "title": "Collecting revenue",
+        "conceptTitle": "Collecting revenue",
+        "lenses": [
+          "E",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In Mughal India, zamindars, local landholders, collected taxes from peasants and kept a share. Ottoman rulers increasingly used tax farming, selling the right to collect certain taxes to bidders who paid in advance."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Mexica had recorded tribute owed by conquered towns in painted lists. In Ming China, reforms in the late 1500s merged many taxes and labor duties into one payment in silver, which increased Chinese demand for silver from Japan and the Americas."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Tax farming raised money quickly but let collectors squeeze peasants. Do not describe any system as simply efficient without naming its costs."
+          }
+        ],
+        "takeaway": "Revenue systems relied on intermediaries, which made collection possible but also created room for abuse.",
+        "sourceIds": [
+          "ced-topic-3-2"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "devshirme",
+        "topicId": "world-3-2",
+        "term": "devshirme",
+        "definition": "The Ottoman practice of taking Christian boys from the Balkans, converting them to Islam, and training them as soldiers or officials loyal to the sultan."
+      },
+      {
+        "id": "divine-right",
+        "topicId": "world-3-2",
+        "term": "divine right",
+        "definition": "The belief that monarchs received their authority from God and answered to God alone."
+      },
+      {
+        "id": "absolutism",
+        "topicId": "world-3-2",
+        "term": "absolutism",
+        "definition": "A system in which a monarch claims complete authority and rules without sharing power with nobles or representative assemblies."
+      },
+      {
+        "id": "zamindars",
+        "topicId": "world-3-2",
+        "term": "zamindars",
+        "definition": "Landholders in Mughal India who collected taxes from peasants and passed a share to the state."
+      },
+      {
+        "id": "tax-farming",
+        "topicId": "world-3-2",
+        "term": "tax farming",
+        "definition": "A system in which a government sells the right to collect taxes to private bidders, who pay in advance and keep what they collect beyond that amount."
+      },
+      {
+        "id": "daimyo",
+        "topicId": "world-3-2",
+        "term": "daimyo",
+        "definition": "Regional lords in Japan who controlled lands and samurai under the authority of the shogun."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-3-devshirme",
+        "world-3-divine-right",
+        "world-3-absolutism",
+        "world-3-zamindars",
+        "world-3-tax-farming",
+        "world-3-daimyo"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Unit 1 bridge",
+        "title": "Examinations and loyalty",
+        "body": "Song China selected officials by examination in Unit 1. The Qing kept that system, while the Ottomans relied on the devshirme. Both aimed to staff government with servants loyal to the ruler.",
+        "transferQuestion": "How did the Qing and the Ottomans each try to make officials loyal to the ruler?",
+        "feedback": "Name each method and explain why it limited the power of independent elites.",
+        "links": [
+          {
+            "topicId": "world-1-1",
+            "sectionId": "governance",
+            "label": "Review Song government"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "type": "Within Unit 3",
+        "title": "Legitimacy and religious change",
+        "body": "Rulers used religion to support their authority, but religious movements such as the Reformation and the Sunni and Shi'a split could also divide subjects and spark wars.",
+        "transferQuestion": "How could religion both strengthen and weaken a ruler's authority?",
+        "feedback": "Give one example of each and explain the mechanism.",
+        "links": [
+          {
+            "topicId": "world-3-3",
+            "sectionId": "sunni-shia",
+            "label": "Review the Ottoman and Safavid rivalry"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-3-2",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-3-2.json",
+  "glossary": [
+    {
+      "id": "world-3-devshirme",
+      "term": "devshirme",
+      "definition": "The Ottoman practice of taking Christian boys from the Balkans, converting them to Islam, and training them as soldiers or officials loyal to the sultan.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.2 glossary"
+    },
+    {
+      "id": "world-3-divine-right",
+      "term": "divine right",
+      "definition": "The belief that monarchs received their authority from God and answered to God alone.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.2 glossary"
+    },
+    {
+      "id": "world-3-absolutism",
+      "term": "absolutism",
+      "definition": "A system in which a monarch claims complete authority and rules without sharing power with nobles or representative assemblies.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.2 glossary"
+    },
+    {
+      "id": "world-3-zamindars",
+      "term": "zamindars",
+      "definition": "Landholders in Mughal India who collected taxes from peasants and passed a share to the state.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.2 glossary"
+    },
+    {
+      "id": "world-3-tax-farming",
+      "term": "tax farming",
+      "definition": "A system in which a government sells the right to collect taxes to private bidders, who pay in advance and keep what they collect beyond that amount.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.2 glossary"
+    },
+    {
+      "id": "world-3-daimyo",
+      "term": "daimyo",
+      "definition": "Regional lords in Japan who controlled lands and samurai under the authority of the shogun.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.2 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-3-2",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 3.2.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Empires: Administration."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

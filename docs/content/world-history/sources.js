@@ -301,4 +301,48 @@ export const sources = [
     url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
   },
   // END unit-01
+  // BEGIN unit-03
+  {
+    id: "ced-topic-3-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 3.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Empires Expand.",
+  },
+  {
+    id: "ced-topic-3-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 3.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Empires: Administration.",
+  },
+  {
+    id: "ced-topic-3-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 3.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Empires: Belief Systems.",
+  },
+  {
+    id: "ced-topic-3-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 3.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Comparison in Land-Based Empires.",
+  },
+  {
+    id: "busbecq-forster-1881",
+    label:
+      "The Life and Letters of Ogier Ghiselin de Busbecq, trans. Charles Thornton Forster and F. H. Blackburne Daniell (London: C. Kegan Paul, 1881)",
+    url: "https://www.gutenberg.org/ebooks/53629",
+    note: "Public domain. Volume 1 is Project Gutenberg #53629. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "luther-works-1915",
+    label:
+      "Works of Martin Luther, vol. 1, trans. and ed. Adolph Spaeth, L. D. Reed, Henry Eyster Jacobs, et al. (Philadelphia: A. J. Holman Company, 1915)",
+    url: "https://www.gutenberg.org/ebooks/274",
+    note: "Public domain. The Ninety-five Theses are Project Gutenberg #274. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-03
 ];

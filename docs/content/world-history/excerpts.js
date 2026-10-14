@@ -514,4 +514,230 @@ export const excerpts = {
     text: "Many states of this period built on older foundations. Song officials used Confucian ideas that were more than a thousand years old, and Ethiopian kings drew on a Christian tradition dating back to Aksum. At the same time, new forms of rule appeared. Turkic military elites replaced Abbasid authority across much of Dar al-Islam, and the Inca created one of the largest empires in the world within about a century.\n\nHistorians therefore describe the period as one in which states reused inherited ideas and institutions while adapting them to new circumstances.",
   },
   // END unit-01
+  // BEGIN unit-03
+  busbecqMerit: {
+    id: "busbecq-merit",
+    type: "source",
+    sourceType: "primary",
+    source: "busbecq-forster-1881",
+    amsco_review: "pending",
+    attribution:
+      "Ogier Ghiselin de Busbecq, ambassador of the Habsburg ruler Ferdinand I to the court of the Ottoman sultan Suleiman I, letter written in 1555 describing his audience with the sultan, published in Latin in 1589",
+    citation:
+      "The Life and Letters of Ogier Ghiselin de Busbecq, trans. Charles Thornton Forster and F. H. Blackburne Daniell (London: C. Kegan Paul, 1881), vol. 1, Letter I. Project Gutenberg eBook #53629.",
+    note: "Spahis were cavalry; Janissaries were infantry recruited through the devshirme. Busbecq's letter was addressed to a friend in the Habsburg lands.",
+    text: "The Sultan's hall was crowded with people, among whom were several officers of high rank. Besides these there were all the troopers of the Imperial guard, Spahis, Ghourebas, Ouloufedgis, and a large force of Janissaries; but there was not in all that great assembly a single man who owed his position to aught save his valour and his merit. No distinction is attached to birth among the Turks; the deference to be paid to a man is measured by the position he holds in the public service. . . . Those who receive the highest offices from the Sultan are for the most part the sons of shepherds or herdsmen, and so far from being ashamed of their parentage, they actually glory in it . . . .\n\nThis is the reason that they are successful in their undertakings, that they lord it over others, and are daily extending the bounds of their empire. These are not our ideas, with us there is no opening left for merit; birth is the standard for everything; the prestige of birth is the sole key to advancement in the public service.",
+  },
+  lutherTheses: {
+    id: "luther-theses",
+    type: "source",
+    sourceType: "primary",
+    source: "luther-works-1915",
+    amsco_review: "pending",
+    attribution:
+      "Martin Luther, German monk and professor of theology, Disputation on the Power and Efficacy of Indulgences (the Ninety-five Theses), Wittenberg, 1517",
+    citation:
+      "Works of Martin Luther, trans. and ed. Adolph Spaeth, L. D. Reed, Henry Eyster Jacobs, et al. (Philadelphia: A. J. Holman Company, 1915), vol. 1, pp. 29–38, theses 21, 27–28, 36, 50, and 86. Project Gutenberg eBook #274.",
+    note: "Indulgences were grants from the Church said to reduce punishment for sins. “They preach man” means they preach human teaching rather than God's. Bracketed words are the translators'. Thesis 86 is one of several questions Luther says ordinary believers were asking.",
+    text: "21. Therefore those preachers of indulgences are in error, who say that by the pope's indulgences a man is freed from every penalty, and saved; . . .\n\n27. They preach man who say that so soon as the penny jingles into the money-box, the soul flies out [of purgatory].\n\n28. It is certain that when the penny jingles into the money-box, gain and avarice can be increased, but the result of the intercession of the Church is in the power of God alone. . . .\n\n36. Every truly repentant Christian has a right to full remission of penalty and guilt, even without letters of pardon. . . .\n\n50. Christians are to be taught that if the pope knew the exactions of the pardon-preachers, he would rather that St. Peter's church should go to ashes, than that it should be built up with the skin, flesh and bones of his sheep. . . .\n\n86. Again:--\"Why does not the pope, whose wealth is to-day greater than the riches of the richest, build just this one church of St. Peter with his own money, rather than with the money of poor believers?\"",
+  },
+  originalGunpowder: {
+    id: "original-gunpowder-ottoman",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.1, KC-4.3.II: imperial expansion relied on the increased use of gunpowder, cannons, and armed trade",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how historians describe the Ottoman conquest of Constantinople in 1453",
+    text: "When Sultan Mehmed II besieged Constantinople in 1453, he brought dozens of cannons, including giant bombards cast for the campaign by a Hungarian founder. For weeks the guns battered walls that had protected the city for a thousand years. Ottoman ships were dragged overland into the city's harbor to tighten the siege. After the city fell, Mehmed made it his capital.\n\nHistorians stress that cannons alone did not win the siege. The Ottomans also had a disciplined standing infantry, the Janissaries, a state able to pay and supply a large army, and engineers and gunners recruited from many backgrounds.",
+  },
+  originalSafavidMughal: {
+    id: "original-safavid-mughal",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.1, KC-4.3.III.i: political and religious disputes led to rivalries and conflict between states; the Safavid–Mughal conflict is an illustrative example",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the conflict between the Safavid and Mughal empires, c. 1550–1650",
+    text: "The fortress city of Kandahar sat on the main route between Persia and northern India. Whoever held it controlled caravans, tolls, and an invasion path. The Mughals took Kandahar in 1595, the Safavid shah Abbas I captured it in 1622, the Mughals regained it in 1638, and the Safavids took it back for good in 1649. Three Mughal sieges between 1649 and 1653 failed.\n\nThe rivalry was not mainly religious. Both dynasties had Turkic and Persian roots, and Persian was the language of both courts. The conflict was about trade, prestige, and a strategic frontier.",
+  },
+  originalSonghaiMorocco: {
+    id: "original-songhai-morocco",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.1, KC-4.3.III.i: political and religious disputes led to rivalries and conflict between states; the Songhai Empire's conflict with Morocco is an illustrative example",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Moroccan invasion of the Songhai Empire in 1591",
+    text: "In the late 1400s and 1500s, Songhai rulers controlled the middle Niger River and the cities of Gao and Timbuktu, taxing the trans-Saharan trade in gold and salt. In 1591 the Moroccan sultan Ahmad al-Mansur sent an army of about 4,000 soldiers, many armed with firearms, across the Sahara. At the Battle of Tondibi, Moroccan musketeers defeated a much larger Songhai force that relied on cavalry and spears.\n\nMorocco hoped to seize the gold trade. It held Timbuktu and Gao for a time, but the conquest proved costly to maintain, and the region split into smaller states.",
+  },
+  originalQingExpansion: {
+    id: "original-qing-expansion",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.1, KC-4.3.II.B: land empires included the Manchu, Mughal, Ottoman, and Safavid",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the rise and expansion of the Qing dynasty, 1644–1760",
+    text: "The Manchus, a people from northeast of the Great Wall, organized their warriors into military units called banners. In 1644, after rebels captured Beijing and the last Ming emperor died, Manchu armies entered China and founded the Qing dynasty. Over the next century, Qing emperors defeated remaining Ming loyalists, took Taiwan in 1683, and in the 1750s conquered the Zunghar Mongols, adding Xinjiang to the empire.\n\nBy 1760 the Qing ruled roughly twice the territory of the Ming. Manchus were a small minority, so they governed with Chinese officials while keeping key military commands in Manchu hands.",
+  },
+  originalMughalAkbar: {
+    id: "original-mughal-akbar",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.1, KC-4.3.II.B: land empires included the Manchu, Mughal, Ottoman, and Safavid",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the founding and expansion of the Mughal Empire, 1526–1605",
+    text: "In 1526 Babur, a Central Asian prince descended from Timur, defeated the Sultan of Delhi at Panipat with field cannons and matchlock muskets. His grandson Akbar, who ruled from 1556 to 1605, turned these conquests into a lasting empire. Akbar expanded across northern India, made alliances with Rajput princes by marriage and by giving them high military rank, and ranked officers in a system of mansabs that tied their pay to the number of troops they kept.\n\nMost of Akbar's subjects were Hindu. His policy of including Hindu elites in government helped him rule a population far larger than the Muslim ruling class.",
+  },
+  originalTaxes: {
+    id: "original-tax-systems",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.2, KC-4.3.I.D: rulers used tribute collection, tax farming, and innovative tax-collection systems to generate revenue",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, comparing tax collection in three empires, c. 1550–1700",
+    text: "Large empires needed steady revenue, and each solved the problem differently. In Mughal India, zamindars, local landholders, collected land taxes from peasants and passed a share to the state. The Ottomans increasingly sold the right to collect certain taxes to tax farmers, who paid the treasury in advance and then collected what they could. In Ming China, reforms in the late 1500s combined many taxes and labor duties into a single payment in silver.\n\nEach method raised money, but each had costs. Intermediaries could keep too much, squeeze peasants, or build local power that rivaled the central government.",
+  },
+  originalTokugawa: {
+    id: "original-tokugawa",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.2, KC-4.3.I.C: rulers used bureaucratic elites and military professionals to consolidate power; salaried samurai are an illustrative example",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how the Tokugawa shoguns governed Japan after 1603",
+    text: "After decades of civil war, Tokugawa Ieyasu became shogun in 1603. His successors required the daimyo, the regional lords, to spend every other year in the capital at Edo and to leave their families there when they returned home. This alternate attendance system was expensive and kept the daimyo under watch.\n\nSamurai were moved off the land and into castle towns, where they received fixed stipends paid in rice. Many became administrators rather than active warriors. A strict social order ranked samurai above peasants, artisans, and merchants, even as merchants in cities such as Osaka grew wealthy.",
+  },
+  originalMonuments: {
+    id: "original-monuments",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas, art, and monumental architecture to legitimize their rule",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how rulers used architecture and art, c. 1450–1750",
+    text: "Rulers built on a massive scale to display power. The Mughal emperor Shah Jahan built the Taj Mahal in Agra as a tomb for his wife Mumtaz Mahal, using white marble and Persian, Indian, and Islamic designs. The Ottoman architect Sinan designed the Süleymaniye Mosque in Istanbul for Suleiman I. In France, Louis XIV moved his court to the palace of Versailles in 1682, where nobles competed for his attention through elaborate ceremonies.\n\nSuch projects were expensive, but they presented the ruler as wealthy, pious, and permanent. They also employed thousands of artisans and turned the capital into a stage for royal authority.",
+  },
+  originalDivineRight: {
+    id: "original-divine-right",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas to legitimize their rule; European notions of divine right are an illustrative example",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the idea of divine right in Europe, c. 1600–1715",
+    text: "Many European monarchs of the 1600s claimed to rule by divine right, the idea that God chose kings and that subjects owed them obedience as they owed obedience to God. Supporters of Louis XIV, who ruled France from 1643 to 1715, argued that the king answered to God alone, not to nobles or representative assemblies. Louis never called France's old assembly of estates, the Estates-General, and relied instead on royal officials sent to the provinces.\n\nCritics pointed to the costs: long wars and heavy taxes fell hardest on peasants. In England, conflict over royal power led to civil war in the 1640s and the execution of King Charles I in 1649.",
+  },
+  originalSongaiIslam: {
+    id: "original-songhai-islam",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas to legitimize their rule; the Songhai promotion of Islam is an illustrative example",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how Askia Muhammad of Songhai used Islam, 1493–1528",
+    text: "Askia Muhammad seized the Songhai throne in 1493 from the son of Sunni Ali, a ruler whom Muslim scholars had criticized for mixing Islam with local religious practices. Askia Muhammad made a pilgrimage to Mecca in 1496 and 1497 and returned with the title of caliph's deputy for West Africa. He appointed Muslim judges, supported scholars in Timbuktu, and encouraged Islamic law in the towns.\n\nIn the countryside, many farmers and fishers kept older beliefs. Askia Muhammad's Islam strengthened his ties to merchants and scholars, but it did not erase local religion.",
+  },
+  originalQingAdministration: {
+    id: "original-qing-administration",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.2, KC-4.3.I.C and KC-4.3.I.A: rulers used bureaucratic elites and religious and artistic patronage to consolidate power",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how the Qing dynasty governed China, c. 1650–1750",
+    text: "The Qing kept the Ming bureaucracy and the civil service examinations, so Chinese scholars continued to staff most government offices. At the highest levels, many posts were held jointly by one Manchu and one Han Chinese official. The Kangxi emperor, who ruled from 1661 to 1722, studied the Confucian classics and sponsored large scholarly projects.\n\nAt the same time, the Qing required Han Chinese men to wear the Manchu queue hairstyle as a sign of loyalty, and they commissioned portraits that showed emperors as Confucian rulers, Buddhist patrons, and Manchu warriors for different audiences.",
+  },
+  originalCatholicReform: {
+    id: "original-catholic-reform",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.3, KC-4.1.VI.i: the Protestant Reformation marked a break with established Christian traditions, and the Catholic Reformation responded",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Catholic Reformation, 1540–1600",
+    text: "The Catholic Church answered the Protestant challenge in several ways. The Council of Trent, which met between 1545 and 1563, reaffirmed Catholic teachings on the sacraments and the authority of Church tradition, while ordering bishops to correct abuses such as the sale of church offices. New religious orders, especially the Society of Jesus, or Jesuits, founded in 1540, opened schools and sent missionaries to Asia, Africa, and the Americas.\n\nThe result was not reunion. Europe remained divided between Catholic and Protestant states, and religious difference fed wars such as the Thirty Years' War of 1618 to 1648.",
+  },
+  originalSunniShia: {
+    id: "original-sunni-shia",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.3, KC-4.1.VI.ii: within Islam, the Sunni–Shi'a split was widened by the political rivalry between the Ottoman and Safavid empires",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the Ottoman–Safavid rivalry, 1501–1639",
+    text: "When Ismail I founded the Safavid dynasty in Persia in 1501, he declared Twelver Shi'ism the official religion and pressed his largely Sunni subjects to convert. The neighboring Ottomans, who were Sunni, saw Safavid preachers among Anatolian tribes as a threat. Sultan Selim I defeated Ismail at the Battle of Chaldiran in 1514, where Ottoman cannons and muskets overwhelmed Safavid cavalry.\n\nThe two empires fought repeatedly until a treaty in 1639 set a lasting border. Their rivalry turned a religious difference into a political boundary, and Persia remained mostly Shi'a while Ottoman lands remained mostly Sunni.",
+  },
+  originalSikhism: {
+    id: "original-sikhism",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.3, KC-4.1.VI.iii: some belief systems, such as Sikhism, developed as a blend of existing traditions",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing the origins of Sikhism, c. 1500–1604",
+    text: "Sikhism began in the Punjab region of northern India with Guru Nanak, who lived from 1469 to 1539. Nanak taught devotion to one God and rejected the idea that ritual, caste, or religious labels made a person closer to the divine. His followers ate together in community kitchens open to all, regardless of caste.\n\nScholars see connections between Nanak's teachings and both Hindu bhakti devotion and Islamic Sufism, which were widespread in the region. Yet his successors built distinct institutions, and in 1604 the fifth Guru compiled the Adi Granth, the Sikh scripture.",
+  },
+  originalReligiousPolicyA: {
+    id: "original-religious-policy-ottoman",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.4, KC-4.3 and KC-4.1.VI: comparison of how land-based empires ruled religiously diverse populations",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage A written for Page One, describing Ottoman rule over religious communities",
+    text: "Passage A: The Ottoman sultans were Sunni Muslims, but millions of their subjects were Orthodox Christians, Armenians, or Jews. These communities were allowed to keep their religious leaders, courts for family matters, and places of worship. Non-Muslims paid a special tax, the jizya, and faced legal limits, but they could rise in commerce and some served the state as translators and bankers.",
+  },
+  originalReligiousPolicyB: {
+    id: "original-religious-policy-mughal",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.4, KC-4.3 and KC-4.1.VI: comparison of how land-based empires ruled religiously diverse populations",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage B written for Page One, describing Mughal religious policy under Akbar and Aurangzeb",
+    text: "Passage B: The Mughal emperor Akbar abolished the jizya on non-Muslims in 1564, invited scholars of many faiths to debate at his court, and appointed Hindu Rajputs to high command. A century later, Aurangzeb, a stricter Sunni ruler, restored the jizya in 1679 and ordered some temples destroyed. Historians link Aurangzeb's policies to revolts that weakened the empire after his death in 1707.",
+  },
+  originalGunpowderDebate: {
+    id: "original-gunpowder-debate",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.4, KC-4.3.II: comparison of how land empires expanded and the role of gunpowder",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing a historians' debate about the label “gunpowder empires”",
+    text: "In the twentieth century, some historians called the Ottoman, Safavid, and Mughal states “gunpowder empires,” arguing that firearms and cannons allowed these dynasties to build large, centralized states. The label is still common in textbooks.\n\nMore recent historians have questioned it. They point out that cavalry, alliances with local elites, tax systems, and religious legitimacy mattered as much as guns, and that the Safavids adopted firearms only gradually. Gunpowder helped these empires expand, these historians argue, but it does not by itself explain how they lasted.",
+  },
+  originalLegitimacyCompare: {
+    id: "original-legitimacy-compare",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.4, KC-4.3: comparison of how land-based empires legitimized and consolidated their rule",
+    amsco_review: "pending",
+    attribution:
+      "Practice passage written for Page One, comparing how land-based empires governed diverse populations, c. 1450–1750",
+    text: "Each of the great land empires was ruled by a minority. Turkic Ottomans governed Greeks, Arabs, Slavs, and Armenians. Muslim Mughals governed a Hindu majority. Manchu Qing emperors governed millions of Han Chinese. To hold power, rulers combined force with inclusion: they recruited outsiders into the army and bureaucracy, kept many local institutions, and presented themselves in different ways to different subjects.\n\nWhen inclusion gave way to policies that alienated important groups, revolts and frontier wars became harder to contain.",
+  },
+  // END unit-03
 };

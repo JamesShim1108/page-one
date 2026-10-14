@@ -16,6 +16,14 @@ export const EXCERPT_SOURCES = Object.freeze({
     files: ["gibb-ocr.txt"],
     label: "Internet Archive full-text OCR of travelsinasiaafr0000ibnb (Gibb, 1929)",
   },
+  "busbecq-": {
+    files: ["busbecq-v1.txt"],
+    label: "Project Gutenberg #53629 (Forster and Daniell's Busbecq, 1881, vol. 1)",
+  },
+  "luther-": {
+    files: ["luther-theses.txt"],
+    label: "Project Gutenberg #274 (Works of Martin Luther, vol. 1, 1915)",
+  },
 });
 
 export function excerptSourceFor(id) {

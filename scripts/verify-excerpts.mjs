@@ -53,6 +53,7 @@ function normalize(text) {
     .replace(/\s+/g, " ")
     .replace(/\[NOTE ?\d+\]/g, "")
     .replace(/\[scan p\.\d+\] ?/g, "")
+    .replace(/\[\d+\]/g, "")
     .replace(/_/g, "")
     .replace(/ +/g, " ");
 }

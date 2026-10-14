@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "world",
-  "revision": "1461698efa098ae1",
+  "revision": "6a7eb3efa5d1cdc7",
   "pools": [
     {
       "id": "world-1-1:world-1-1-quiz",
@@ -251,6 +251,78 @@
         "world-2-7-q14",
         "world-2-7-q15",
         "world-2-7-q16"
+      ]
+    },
+    {
+      "id": "world-3-1:world-3-1-quiz",
+      "quizId": "world-3-1-quiz",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-1",
+      "code": "3.1",
+      "title": "Empires Expand",
+      "bankPath": "world/banks/world-3-1.json",
+      "questionIds": [
+        "world-3-1-q01",
+        "world-3-1-q02",
+        "world-3-1-q03",
+        "world-3-1-q04",
+        "world-3-1-q05",
+        "world-3-1-q06",
+        "world-3-1-q07"
+      ]
+    },
+    {
+      "id": "world-3-2:world-3-2-quiz",
+      "quizId": "world-3-2-quiz",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-2",
+      "code": "3.2",
+      "title": "Empires: Administration",
+      "bankPath": "world/banks/world-3-2.json",
+      "questionIds": [
+        "world-3-2-q01",
+        "world-3-2-q02",
+        "world-3-2-q03",
+        "world-3-2-q04",
+        "world-3-2-q05",
+        "world-3-2-q06",
+        "world-3-2-q07"
+      ]
+    },
+    {
+      "id": "world-3-3:world-3-3-quiz",
+      "quizId": "world-3-3-quiz",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-3",
+      "code": "3.3",
+      "title": "Empires: Belief Systems",
+      "bankPath": "world/banks/world-3-3.json",
+      "questionIds": [
+        "world-3-3-q01",
+        "world-3-3-q02",
+        "world-3-3-q03",
+        "world-3-3-q04",
+        "world-3-3-q05",
+        "world-3-3-q06",
+        "world-3-3-q07"
+      ]
+    },
+    {
+      "id": "world-3-4:world-3-4-quiz",
+      "quizId": "world-3-4-quiz",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-4",
+      "code": "3.4",
+      "title": "Comparison in Land-Based Empires",
+      "bankPath": "world/banks/world-3-4.json",
+      "questionIds": [
+        "world-3-4-q01",
+        "world-3-4-q02",
+        "world-3-4-q03"
       ]
     }
   ]

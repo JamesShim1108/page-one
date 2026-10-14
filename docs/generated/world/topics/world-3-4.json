@@ -1,0 +1,485 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-3-4",
+    "courseId": "world",
+    "unitId": "world-3",
+    "order": 4,
+    "code": "3.4",
+    "title": "Comparison in Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How the Ottoman, Safavid, Mughal, and Qing empires compared in expansion, legitimacy, and their treatment of diverse subjects."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "fd399b6858337a4d",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-3-4",
+    "unitId": "world-3",
+    "courseId": "world",
+    "code": "3.4",
+    "title": "Comparison in Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "order": 4,
+    "summary": "How the Ottoman, Safavid, Mughal, and Qing empires compared in expansion, legitimacy, and their treatment of diverse subjects.",
+    "minutes": 10,
+    "learningGoals": [
+      "Compare how land-based empires expanded and increased their influence from 1450 to 1750.",
+      "Compare how rulers legitimized power and governed diverse populations.",
+      "Make a defensible comparative claim supported with specific evidence."
+    ],
+    "bigIdea": "Land-based empires shared common problems, but they solved them in different ways depending on their rulers, subjects, and resources.",
+    "context": "Comparison is a core AP skill. A strong comparison names the same feature in two empires, gives evidence for both, and explains why the similarity or difference mattered.",
+    "sections": [
+      {
+        "id": "compare-expansion",
+        "title": "Comparing expansion",
+        "conceptTitle": "Comparing expansion",
+        "lenses": [
+          "P",
+          "T"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "All four major land empires used gunpowder weapons, but in different ways. The Ottomans built a large salaried infantry, the Janissaries. The Mughals used field cannons at Panipat but relied heavily on cavalry and alliances with Rajput princes. The Qing banners combined cavalry traditions with firearms."
+          },
+          {
+            "type": "paragraph",
+            "text": "Each empire expanded at frontiers where rivals were weak or divided. The Qing defeated the Zunghar Mongols, the Ottomans advanced into Hungary, and the Mughals pushed south into the Deccan."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "A comparison needs both sides. Saying the Ottomans used Janissaries is a description; adding how the Mughals differed makes it a comparison."
+          }
+        ],
+        "takeaway": "Similar weapons led to different military systems shaped by each empire's society.",
+        "sourceIds": [
+          "ced-topic-3-4"
+        ]
+      },
+      {
+        "id": "compare-legitimacy",
+        "title": "Comparing legitimacy",
+        "conceptTitle": "Comparing legitimacy",
+        "lenses": [
+          "C",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Rulers combined religion, ceremony, and monuments. Ottoman sultans claimed the title of caliph, Safavid shahs led Shi'a Islam, Mughal emperors built grand tombs and mosques, and Qing emperors presented themselves as Confucian rulers to Chinese subjects and as Buddhist patrons to Tibetans and Mongols."
+          },
+          {
+            "type": "paragraph",
+            "text": "Each dynasty was a ruling minority. Inclusion of local elites, such as Rajputs in Mughal service or Han Chinese officials in the Qing bureaucracy, made rule more stable."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Because rulers governed populations very different from themselves, they adopted multiple ways of claiming authority, which helped them win the cooperation of different groups."
+          }
+        ],
+        "takeaway": "Empires that spoke to several audiences at once were better able to hold diverse subjects.",
+        "sourceIds": [
+          "ced-topic-3-4"
+        ]
+      },
+      {
+        "id": "compare-religion",
+        "title": "Comparing religious policy",
+        "conceptTitle": "Comparing religious policy",
+        "lenses": [
+          "C",
+          "S",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Ottomans allowed Christian and Jewish communities to keep their own religious leaders and courts for family matters, while non-Muslims paid the jizya tax. Akbar abolished the jizya in 1564 and brought Hindu nobles into high office. Aurangzeb restored it in 1679, and revolts followed."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Safavids, by contrast, pressed for conversion to Shi'ism. Religious policy could unify a ruling group, but it could also alienate subjects."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Tolerance in this period did not mean equality. Ottoman non-Muslims paid extra taxes and faced legal limits even while practicing their faith."
+          }
+        ],
+        "takeaway": "Religious policy ranged from accommodation to pressure, with real effects on stability.",
+        "sourceIds": [
+          "ced-topic-3-4"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "jizya",
+        "topicId": "world-3-4",
+        "term": "jizya",
+        "definition": "A tax paid by non-Muslim subjects in many Muslim-ruled states, abolished by Akbar and restored by Aurangzeb in Mughal India."
+      },
+      {
+        "id": "rajputs",
+        "topicId": "world-3-4",
+        "term": "Rajputs",
+        "definition": "Hindu warrior princes of northern and western India, many of whom served the Mughal emperors after Akbar made alliances with them."
+      },
+      {
+        "id": "banners",
+        "topicId": "world-3-4",
+        "term": "banners",
+        "definition": "Manchu military and social units that organized the Qing army and its families."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-3-jizya",
+        "world-3-rajputs",
+        "world-3-banners"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Looking ahead",
+        "title": "From land empires to maritime empires",
+        "body": "Unit 4 turns to empires built by sea. Comparing land-based and maritime empires helps explain why some states focused on frontiers while others built networks of ports and colonies.",
+        "transferQuestion": "What is one difference between how a land-based empire and a maritime empire expanded?",
+        "feedback": "Name a specific land empire and explain how its expansion depended on territory rather than sea routes.",
+        "links": [
+          {
+            "topicId": "world-3-1",
+            "sectionId": "islamic-empires",
+            "label": "Review land-based expansion"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-3-4",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-3-4.json",
+  "glossary": [
+    {
+      "id": "world-3-jizya",
+      "term": "jizya",
+      "definition": "A tax paid by non-Muslim subjects in many Muslim-ruled states, abolished by Akbar and restored by Aurangzeb in Mughal India.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.4 glossary"
+    },
+    {
+      "id": "world-3-rajputs",
+      "term": "Rajputs",
+      "definition": "Hindu warrior princes of northern and western India, many of whom served the Mughal emperors after Akbar made alliances with them.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.4 glossary"
+    },
+    {
+      "id": "world-3-banners",
+      "term": "banners",
+      "definition": "Manchu military and social units that organized the Qing army and its families.",
+      "aliases": [],
+      "sourceLabel": "Topic 3.4 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-3-4",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 3.4.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Comparison in Land-Based Empires."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

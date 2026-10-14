@@ -1,0 +1,796 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-3-4",
+    "courseId": "world",
+    "unitId": "world-3",
+    "order": 4,
+    "code": "3.4",
+    "title": "Comparison in Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How the Ottoman, Safavid, Mughal, and Qing empires compared in expansion, legitimacy, and their treatment of diverse subjects."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "fd399b6858337a4d",
+  "questions": [
+    {
+      "id": "world-3-4-q01",
+      "topicId": "world-3-4",
+      "concept": "compare-religion",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which of the following best describes a difference between Akbar's and Aurangzeb's religious policies?",
+      "choices": [
+        "Akbar expelled Hindu officials, while Aurangzeb promoted them",
+        "Akbar abolished the jizya, while Aurangzeb extended it to Muslims",
+        "Akbar abolished the jizya, while Aurangzeb restored it",
+        "Akbar made Shi'ism the state religion, while Aurangzeb restored Sunni Islam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Akbar ended the jizya in 1564, and Aurangzeb reimposed it in 1679.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "Akbar included Hindu elites; Aurangzeb's policies were stricter.",
+        "Aurangzeb restored the jizya on non-Muslims only.",
+        "Akbar ended the jizya in 1564, and Aurangzeb reimposed it in 1679.",
+        "The Mughals were Sunni; making Shi'ism the state religion was a Safavid policy."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The jizya was a tax on non-Muslims; Aurangzeb restored it, he did not apply it to Muslims.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-4-q02",
+      "topicId": "world-3-4",
+      "concept": "compare-legitimacy",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which of the following was a similarity among the Ottoman, Mughal, and Qing empires?",
+      "choices": [
+        "Each was ruled by a Muslim dynasty",
+        "Each relied entirely on examinations to choose officials",
+        "Each was ruled by a dynasty that shared its subjects' main religion",
+        "Each was ruled by a dynasty that differed from most of its subjects"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Turkic Ottomans, Muslim Mughals, and Manchu Qing each ruled populations unlike themselves.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "The Qing were Manchu, not Muslim.",
+        "Only the Qing used examinations widely.",
+        "Mughal rulers were Muslim and most subjects Hindu, so this fails.",
+        "Turkic Ottomans, Muslim Mughals, and Manchu Qing each ruled populations unlike themselves."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Mughal emperors were Muslim while most subjects were Hindu, so the dynasty did not share the majority religion.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-4-q03",
+      "topicId": "world-3-4",
+      "concept": "compare-expansion",
+      "difficulty": "Core",
+      "skill": "argumentation",
+      "prompt": "Which of the following claims about land-based empires is most defensible?",
+      "choices": [
+        "Gunpowder weapons alone explain why these empires grew",
+        "Gunpowder helped expansion, but alliances and revenue also shaped success",
+        "Land-based empires grew mainly by sending fleets of ships to distant colonies",
+        "Gunpowder made alliances with local elites unnecessary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This claim recognizes gunpowder's role and the other factors that shaped expansion.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "Weapons mattered but do not explain everything, such as the Mughal alliances with Rajputs.",
+        "This claim recognizes gunpowder's role and the other factors that shaped expansion.",
+        "Land-based empires expanded over land frontiers.",
+        "The Mughals and Qing depended heavily on alliances with local elites."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Gunpowder was important, but a claim that it alone explains growth ignores alliances and revenue.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-3-4-t01",
+      "topicId": "world-3-4",
+      "concept": "compare-religion",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which of the following best describes a similarity between the policies in Passage A and Akbar's policies in Passage B?",
+      "choices": [
+        "Both allowed non-Muslims to practice their faith and serve the state",
+        "Both required non-Muslims to convert to Islam",
+        "Both abolished the jizya on non-Muslims",
+        "Both allowed non-Muslims to serve the state but banned their worship"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ottoman non-Muslims kept their worship and some served the state; Akbar appointed Hindu Rajputs to high command.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "Ottoman non-Muslims kept their worship and some served the state; Akbar appointed Hindu Rajputs to high command.",
+        "Neither required conversion.",
+        "Only Akbar abolished the jizya; the Ottomans collected it.",
+        "Both allowed non-Muslim worship."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Akbar abolished the jizya, but the Ottomans continued to collect it, so this is a difference.",
+      "stimulusId": "original-religious-policy-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "original-religious-policy-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3 and KC-4.1.VI: comparison of how land-based empires ruled religiously diverse populations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage A written for Page One, describing Ottoman rule over religious communities",
+          "text": "Passage A: The Ottoman sultans were Sunni Muslims, but millions of their subjects were Orthodox Christians, Armenians, or Jews. These communities were allowed to keep their religious leaders, courts for family matters, and places of worship. Non-Muslims paid a special tax, the jizya, and faced legal limits, but they could rise in commerce and some served the state as translators and bankers."
+        },
+        {
+          "id": "original-religious-policy-mughal",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3 and KC-4.1.VI: comparison of how land-based empires ruled religiously diverse populations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage B written for Page One, describing Mughal religious policy under Akbar and Aurangzeb",
+          "text": "Passage B: The Mughal emperor Akbar abolished the jizya on non-Muslims in 1564, invited scholars of many faiths to debate at his court, and appointed Hindu Rajputs to high command. A century later, Aurangzeb, a stricter Sunni ruler, restored the jizya in 1679 and ordered some temples destroyed. Historians link Aurangzeb's policies to revolts that weakened the empire after his death in 1707."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-4-t02",
+      "topicId": "world-3-4",
+      "concept": "compare-religion",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Passage B best illustrates which of the following?",
+      "choices": [
+        "The spread of Shi'ism into India",
+        "Change over time in Ottoman religious policy",
+        "Change over time in one empire's religious policy",
+        "Continuity in Mughal policy from Akbar to Aurangzeb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Akbar abolished the jizya and Aurangzeb restored it, a clear change over time.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "Both rulers were Sunni.",
+        "Passage B concerns the Mughals, not the Ottomans.",
+        "Akbar abolished the jizya and Aurangzeb restored it, a clear change over time.",
+        "Aurangzeb restored the jizya, reversing Akbar."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Aurangzeb reversed Akbar's policy, so the passage shows change, not continuity.",
+      "stimulusId": "original-religious-policy-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "original-religious-policy-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3 and KC-4.1.VI: comparison of how land-based empires ruled religiously diverse populations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage A written for Page One, describing Ottoman rule over religious communities",
+          "text": "Passage A: The Ottoman sultans were Sunni Muslims, but millions of their subjects were Orthodox Christians, Armenians, or Jews. These communities were allowed to keep their religious leaders, courts for family matters, and places of worship. Non-Muslims paid a special tax, the jizya, and faced legal limits, but they could rise in commerce and some served the state as translators and bankers."
+        },
+        {
+          "id": "original-religious-policy-mughal",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3 and KC-4.1.VI: comparison of how land-based empires ruled religiously diverse populations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage B written for Page One, describing Mughal religious policy under Akbar and Aurangzeb",
+          "text": "Passage B: The Mughal emperor Akbar abolished the jizya on non-Muslims in 1564, invited scholars of many faiths to debate at his court, and appointed Hindu Rajputs to high command. A century later, Aurangzeb, a stricter Sunni ruler, restored the jizya in 1679 and ordered some temples destroyed. Historians link Aurangzeb's policies to revolts that weakened the empire after his death in 1707."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-3-4-t03",
+      "topicId": "world-3-4",
+      "concept": "compare-religion",
+      "difficulty": "Challenge",
+      "skill": "argumentation",
+      "prompt": "Which of the following claims is best supported by both passages?",
+      "choices": [
+        "Religious accommodation always ended once a new ruler took power",
+        "Religious accommodation could help rulers govern diverse empires",
+        "Muslim rulers always treated non-Muslims as legal equals",
+        "Religious policy had no effect on imperial stability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ottoman accommodation and Akbar's inclusion helped govern diverse subjects, while Aurangzeb's reversal is linked to revolts.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "Passage A shows accommodation as a lasting Ottoman policy.",
+        "Ottoman accommodation and Akbar's inclusion helped govern diverse subjects, while Aurangzeb's reversal is linked to revolts.",
+        "Passage A notes special taxes and legal limits.",
+        "Passage B links Aurangzeb's policies to revolts."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Aurangzeb changed course, but the Ottoman passage shows accommodation lasting; “always ended” overstates it.",
+      "stimulusId": "original-religious-policy-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "original-religious-policy-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3 and KC-4.1.VI: comparison of how land-based empires ruled religiously diverse populations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage A written for Page One, describing Ottoman rule over religious communities",
+          "text": "Passage A: The Ottoman sultans were Sunni Muslims, but millions of their subjects were Orthodox Christians, Armenians, or Jews. These communities were allowed to keep their religious leaders, courts for family matters, and places of worship. Non-Muslims paid a special tax, the jizya, and faced legal limits, but they could rise in commerce and some served the state as translators and bankers."
+        },
+        {
+          "id": "original-religious-policy-mughal",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3 and KC-4.1.VI: comparison of how land-based empires ruled religiously diverse populations",
+          "amsco_review": "pending",
+          "attribution": "Practice passage B written for Page One, describing Mughal religious policy under Akbar and Aurangzeb",
+          "text": "Passage B: The Mughal emperor Akbar abolished the jizya on non-Muslims in 1564, invited scholars of many faiths to debate at his court, and appointed Hindu Rajputs to high command. A century later, Aurangzeb, a stricter Sunni ruler, restored the jizya in 1679 and ordered some temples destroyed. Historians link Aurangzeb's policies to revolts that weakened the empire after his death in 1707."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-3-4-t04",
+      "topicId": "world-3-4",
+      "concept": "compare-expansion",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The historians described in the second paragraph argue that the label “gunpowder empires”",
+      "choices": [
+        "should be applied to every empire in world history",
+        "is accurate because firearms explain everything important about these states",
+        "explains how these empires lasted but not how they expanded",
+        "explains expansion but not the full story of how these empires lasted"
+      ],
+      "correctAnswer": 3,
+      "explanation": "They say gunpowder helped expansion but cavalry, alliances, taxes, and legitimacy explain how the empires lasted.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "They narrow the label rather than widening it.",
+        "They argue against a guns-only explanation.",
+        "They grant the role of guns in expansion and question it for survival.",
+        "They say gunpowder helped expansion but cavalry, alliances, taxes, and legitimacy explain how the empires lasted."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The order is reversed: they accept that guns helped expansion, and question whether guns explain survival.",
+      "stimulusId": "original-gunpowder-debate",
+      "stimulusBlocks": [
+        {
+          "id": "original-gunpowder-debate",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3.II: comparison of how land empires expanded and the role of gunpowder",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing a historians' debate about the label “gunpowder empires”",
+          "text": "In the twentieth century, some historians called the Ottoman, Safavid, and Mughal states “gunpowder empires,” arguing that firearms and cannons allowed these dynasties to build large, centralized states. The label is still common in textbooks.\n\nMore recent historians have questioned it. They point out that cavalry, alliances with local elites, tax systems, and religious legitimacy mattered as much as guns, and that the Safavids adopted firearms only gradually. Gunpowder helped these empires expand, these historians argue, but it does not by itself explain how they lasted."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-4-t05",
+      "topicId": "world-3-4",
+      "concept": "compare-expansion",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which of the following pieces of evidence would most directly support the historians in the second paragraph?",
+      "choices": [
+        "Evidence that Babur used field guns at Panipat",
+        "Evidence that the Safavids bought cannons from European merchants",
+        "Evidence that Mughal power depended on alliances with Rajput princes",
+        "Evidence that the Ottomans used cannons at Constantinople"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alliances show that factors other than guns held the empire together.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "Field guns at Panipat support the older view.",
+        "This stresses firearms, the older argument.",
+        "Alliances show that factors other than guns held the empire together.",
+        "Cannons at Constantinople support the older view."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Buying cannons shows the importance of firearms, which supports the older label rather than its critics.",
+      "stimulusId": "original-gunpowder-debate",
+      "stimulusBlocks": [
+        {
+          "id": "original-gunpowder-debate",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3.II: comparison of how land empires expanded and the role of gunpowder",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing a historians' debate about the label “gunpowder empires”",
+          "text": "In the twentieth century, some historians called the Ottoman, Safavid, and Mughal states “gunpowder empires,” arguing that firearms and cannons allowed these dynasties to build large, centralized states. The label is still common in textbooks.\n\nMore recent historians have questioned it. They point out that cavalry, alliances with local elites, tax systems, and religious legitimacy mattered as much as guns, and that the Safavids adopted firearms only gradually. Gunpowder helped these empires expand, these historians argue, but it does not by itself explain how they lasted."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-3-4-t06",
+      "topicId": "world-3-4",
+      "concept": "compare-legitimacy",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which of the following best states the author's argument?",
+      "choices": [
+        "Minority rulers held diverse empires by combining force with inclusion",
+        "Land-based empires were ruled by the majority group in each region",
+        "Force alone allowed rulers to govern diverse subjects",
+        "Minority rulers held diverse empires by forcing subjects to adopt their culture"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The author says rulers combined force with recruitment, local institutions, and varied self-presentation.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "The author says rulers combined force with recruitment, local institutions, and varied self-presentation.",
+        "The author says each empire was ruled by a minority.",
+        "The author says force was combined with inclusion.",
+        "The passage says rulers kept many local institutions."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The author stresses inclusion and keeping local institutions, not forced cultural change.",
+      "stimulusId": "original-legitimacy-compare",
+      "stimulusBlocks": [
+        {
+          "id": "original-legitimacy-compare",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3: comparison of how land-based empires legitimized and consolidated their rule",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing how land-based empires governed diverse populations, c. 1450–1750",
+          "text": "Each of the great land empires was ruled by a minority. Turkic Ottomans governed Greeks, Arabs, Slavs, and Armenians. Muslim Mughals governed a Hindu majority. Manchu Qing emperors governed millions of Han Chinese. To hold power, rulers combined force with inclusion: they recruited outsiders into the army and bureaucracy, kept many local institutions, and presented themselves in different ways to different subjects.\n\nWhen inclusion gave way to policies that alienated important groups, revolts and frontier wars became harder to contain."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-4-t07",
+      "topicId": "world-3-4",
+      "concept": "compare-legitimacy",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The final sentence of the passage would best explain which of the following?",
+      "choices": [
+        "The founding of the Safavid Empire in 1501",
+        "The Ottoman conquest of Constantinople in 1453",
+        "The success of Akbar's alliances with Rajput princes",
+        "Revolts in the Mughal Empire after Aurangzeb's policies alienated Hindu groups"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Aurangzeb's policies alienated important groups, and revolts followed, as the sentence predicts.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "The Safavid founding is not about the end of inclusion.",
+        "The conquest of Constantinople concerns expansion, not alienation.",
+        "This is an example of inclusion succeeding.",
+        "Aurangzeb's policies alienated important groups, and revolts followed, as the sentence predicts."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Akbar's alliances show inclusion working; the final sentence is about what happens when inclusion ends.",
+      "stimulusId": "original-legitimacy-compare",
+      "stimulusBlocks": [
+        {
+          "id": "original-legitimacy-compare",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3: comparison of how land-based empires legitimized and consolidated their rule",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing how land-based empires governed diverse populations, c. 1450–1750",
+          "text": "Each of the great land empires was ruled by a minority. Turkic Ottomans governed Greeks, Arabs, Slavs, and Armenians. Muslim Mughals governed a Hindu majority. Manchu Qing emperors governed millions of Han Chinese. To hold power, rulers combined force with inclusion: they recruited outsiders into the army and bureaucracy, kept many local institutions, and presented themselves in different ways to different subjects.\n\nWhen inclusion gave way to policies that alienated important groups, revolts and frontier wars became harder to contain."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-4-t08",
+      "topicId": "world-3-4",
+      "concept": "compare-legitimacy",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which of the following best fits the pattern described in the passage?",
+      "choices": [
+        "Qing emperors abolishing the examinations in order to exclude Han Chinese officials",
+        "Qing emperors appearing as Buddhist patrons to Tibetans and Mongols",
+        "Luther posting his theses on indulgences",
+        "Moroccan musketeers defeating Songhai cavalry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Presenting themselves differently to different subjects is the pattern the author describes.",
+      "sourceIds": [
+        "ced-topic-3-4"
+      ],
+      "choiceExplanations": [
+        "The Qing kept the examinations.",
+        "Presenting themselves differently to different subjects is the pattern the author describes.",
+        "Luther's theses are about religious reform, not minority rule.",
+        "The battle concerns military technology."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Qing kept the examinations, which included Han Chinese in government.",
+      "stimulusId": "original-legitimacy-compare",
+      "stimulusBlocks": [
+        {
+          "id": "original-legitimacy-compare",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.4, KC-4.3: comparison of how land-based empires legitimized and consolidated their rule",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing how land-based empires governed diverse populations, c. 1450–1750",
+          "text": "Each of the great land empires was ruled by a minority. Turkic Ottomans governed Greeks, Arabs, Slavs, and Armenians. Muslim Mughals governed a Hindu majority. Manchu Qing emperors governed millions of Han Chinese. To hold power, rulers combined force with inclusion: they recruited outsiders into the army and bureaucracy, kept many local institutions, and presented themselves in different ways to different subjects.\n\nWhen inclusion gave way to policies that alienated important groups, revolts and frontier wars became harder to contain."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-3-4-quick",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-4",
+      "title": "Topic 3.4 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-3-4-q01",
+        "world-3-4-q02",
+        "world-3-4-q03"
+      ]
+    },
+    {
+      "id": "world-3-4-quiz",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-4",
+      "title": "Comparison in Land-Based Empires topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-3-4-q01",
+        "world-3-4-q02",
+        "world-3-4-q03"
+      ]
+    }
+  ],
+  "concepts": {
+    "compare-expansion": {
+      "id": "compare-expansion",
+      "title": "Comparing expansion",
+      "section": "compare-expansion",
+      "topicId": "world-3-4"
+    },
+    "compare-legitimacy": {
+      "id": "compare-legitimacy",
+      "title": "Comparing legitimacy",
+      "section": "compare-legitimacy",
+      "topicId": "world-3-4"
+    },
+    "compare-religion": {
+      "id": "compare-religion",
+      "title": "Comparing religious policy",
+      "section": "compare-religion",
+      "topicId": "world-3-4"
+    }
+  },
+  "assets": {}
+}

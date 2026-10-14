@@ -16,6 +16,10 @@ import { createWritingStore } from "../docs/app/writing/store.js";
 import { renderBlocks } from "../docs/app/blocks.js";
 import { prepareImage } from "../scripts/prepare-image.mjs";
 
+// Ready World History topics and quiz routes. Update when a unit is added.
+const READY_TOPICS = 18;
+const QUIZ_ROUTES = 43;
+
 const root = new URL("../", import.meta.url);
 const readGenerated = async (path) =>
   JSON.parse(await readFile(new URL(`docs/generated/${path}`, root), "utf8"));
@@ -34,11 +38,11 @@ test("the generated catalog preserves every ready Unit 1 topic and stable route"
   assert.equal(catalog.schemaVersion, 1);
   assert.equal(catalog.courses.length, 2);
   assert.equal(catalog.courses[0].id, "world");
-  assert.equal(catalog.courses[0].readyTopicCount, 14);
+  assert.equal(catalog.courses[0].readyTopicCount, READY_TOPICS);
 
   const routes = await readGenerated("world/routes.json");
-  assert.equal(Object.keys(routes.topic).length, 14);
-  assert.equal(Object.keys(routes.quiz).length, 34);
+  assert.equal(Object.keys(routes.topic).length, READY_TOPICS);
+  assert.equal(Object.keys(routes.quiz).length, QUIZ_ROUTES);
   assert.equal(routes.topic["world-1-2"], "world/topics/world-1-2.json");
   assert.equal(routes.writing["world-1-saq"], "world/writing/world-1-saq.json");
 
@@ -553,6 +557,12 @@ test("content compiles from folder discovery rather than a hardcoded topic list"
     new URL("../", import.meta.url).pathname.replace(/\/$/, ""),
   );
   assert.equal(output.has("catalog.json"), true);
-  assert.equal([...output.keys()].filter((path) => path.includes("/topics/")).length, 14);
-  assert.equal([...output.keys()].filter((path) => path.includes("/banks/")).length, 14);
+  assert.equal(
+    [...output.keys()].filter((path) => path.includes("/topics/")).length,
+    READY_TOPICS,
+  );
+  assert.equal(
+    [...output.keys()].filter((path) => path.includes("/banks/")).length,
+    READY_TOPICS,
+  );
 });

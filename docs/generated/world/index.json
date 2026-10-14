@@ -9,7 +9,7 @@
     "period": "c. 1200–present",
     "order": 1,
     "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present.",
-    "readyTopicCount": 14,
+    "readyTopicCount": 18,
     "previewTopics": [
       {
         "id": "world-1-1",
@@ -926,16 +926,212 @@
       "number": 3,
       "title": "Land-Based Empires",
       "period": "c. 1450–1750",
-      "status": "soon",
-      "description": "",
-      "quizzes": [],
-      "practiceTest": null,
+      "status": "ready",
+      "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+      "quizzes": [
+        {
+          "id": "world-3-practice-test",
+          "courseId": "world",
+          "unitId": "world-3",
+          "title": "Unit 3 Practice Test",
+          "quizType": "unit",
+          "practiceTest": true,
+          "selections": [
+            {
+              "topicId": "world-3-1",
+              "questionIds": [
+                "world-3-1-t01",
+                "world-3-1-t02",
+                "world-3-1-t03"
+              ]
+            },
+            {
+              "topicId": "world-3-1",
+              "questionIds": [
+                "world-3-1-t04",
+                "world-3-1-t05",
+                "world-3-1-t06"
+              ]
+            },
+            {
+              "topicId": "world-3-1",
+              "questionIds": [
+                "world-3-1-t07",
+                "world-3-1-t08"
+              ]
+            },
+            {
+              "topicId": "world-3-1",
+              "questionIds": [
+                "world-3-1-t09",
+                "world-3-1-t10",
+                "world-3-1-t11"
+              ]
+            },
+            {
+              "topicId": "world-3-1",
+              "questionIds": [
+                "world-3-1-t12",
+                "world-3-1-t13",
+                "world-3-1-t14"
+              ]
+            },
+            {
+              "topicId": "world-3-2",
+              "questionIds": [
+                "world-3-2-t01",
+                "world-3-2-t02",
+                "world-3-2-t03"
+              ]
+            },
+            {
+              "topicId": "world-3-2",
+              "questionIds": [
+                "world-3-2-t04",
+                "world-3-2-t05",
+                "world-3-2-t06"
+              ]
+            },
+            {
+              "topicId": "world-3-2",
+              "questionIds": [
+                "world-3-2-t07",
+                "world-3-2-t08",
+                "world-3-2-t09"
+              ]
+            },
+            {
+              "topicId": "world-3-2",
+              "questionIds": [
+                "world-3-2-t10",
+                "world-3-2-t11"
+              ]
+            },
+            {
+              "topicId": "world-3-2",
+              "questionIds": [
+                "world-3-2-t12",
+                "world-3-2-t13"
+              ]
+            },
+            {
+              "topicId": "world-3-2",
+              "questionIds": [
+                "world-3-2-t14",
+                "world-3-2-t15"
+              ]
+            },
+            {
+              "topicId": "world-3-2",
+              "questionIds": [
+                "world-3-2-t16",
+                "world-3-2-t17"
+              ]
+            },
+            {
+              "topicId": "world-3-3",
+              "questionIds": [
+                "world-3-3-t01",
+                "world-3-3-t02",
+                "world-3-3-t03"
+              ]
+            },
+            {
+              "topicId": "world-3-3",
+              "questionIds": [
+                "world-3-3-t04",
+                "world-3-3-t05",
+                "world-3-3-t06"
+              ]
+            },
+            {
+              "topicId": "world-3-3",
+              "questionIds": [
+                "world-3-3-t07",
+                "world-3-3-t08",
+                "world-3-3-t09"
+              ]
+            },
+            {
+              "topicId": "world-3-3",
+              "questionIds": [
+                "world-3-3-t10",
+                "world-3-3-t11",
+                "world-3-3-t12"
+              ]
+            },
+            {
+              "topicId": "world-3-4",
+              "questionIds": [
+                "world-3-4-t01",
+                "world-3-4-t02",
+                "world-3-4-t03"
+              ]
+            },
+            {
+              "topicId": "world-3-4",
+              "questionIds": [
+                "world-3-4-t04",
+                "world-3-4-t05"
+              ]
+            },
+            {
+              "topicId": "world-3-4",
+              "questionIds": [
+                "world-3-4-t06",
+                "world-3-4-t07",
+                "world-3-4-t08"
+              ]
+            }
+          ]
+        }
+      ],
+      "practiceTest": {
+        "id": "world-3-practice-test",
+        "title": "Unit 3 Practice Test",
+        "questionCount": 51
+      },
       "termSets": [],
-      "topicQuizzes": [],
-      "topicCount": 0,
-      "firstTopic": null,
+      "topicQuizzes": [
+        {
+          "id": "world-3-1-quiz",
+          "title": "Empires Expand topic quiz"
+        },
+        {
+          "id": "world-3-2-quiz",
+          "title": "Empires: Administration topic quiz"
+        },
+        {
+          "id": "world-3-3-quiz",
+          "title": "Empires: Belief Systems topic quiz"
+        },
+        {
+          "id": "world-3-4-quiz",
+          "title": "Comparison in Land-Based Empires topic quiz"
+        }
+      ],
+      "topicCount": 4,
+      "firstTopic": {
+        "id": "world-3-1",
+        "courseId": "world",
+        "unitId": "world-3",
+        "order": 1,
+        "code": "3.1",
+        "title": "Empires Expand",
+        "period": "c. 1450–1750",
+        "status": "ready",
+        "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+      },
       "hasGuide": false,
-      "writingQuizzes": []
+      "writingQuizzes": [
+        {
+          "id": "world-3-saq-01",
+          "title": "Unit 3 SAQ 01",
+          "partCount": 3,
+          "exerciseType": "saq",
+          "availability": "available"
+        }
+      ]
     },
     {
       "schemaVersion": 1,
