@@ -1,0 +1,1279 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-3-2",
+    "courseId": "world",
+    "unitId": "world-3",
+    "order": 2,
+    "code": "3.2",
+    "title": "Empires: Administration",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How rulers used officials, soldiers, religion, monuments, and taxes to legitimize and consolidate power."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "14ad3b1473b67c67",
+  "questions": [
+    {
+      "id": "world-3-2-q01",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The devshirme system helped Ottoman sultans by",
+      "choices": [
+        "creating officials and soldiers who were paid by local Christian communities",
+        "creating officials and soldiers who owed their careers to the sultan",
+        "allowing Christian nobles to inherit high offices in the Balkans",
+        "selecting officials through written examinations on the Quran"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Boys taken from their families and trained by the state owed their careers to the sultan.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "The state, not local communities, paid and trained the recruits.",
+        "Boys taken from their families and trained by the state owed their careers to the sultan.",
+        "The system took boys from Christian families; it did not let Christian nobles inherit offices.",
+        "Recruits were selected and trained, not chosen by written examination."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Recruits came from Christian communities, but they were paid and trained by the state, which is why they owed loyalty to the sultan.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-2-q02",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The Tokugawa alternate attendance system was designed to",
+      "choices": [
+        "keep regional lords in their home domains and far away from Edo",
+        "encourage daimyo to invest in overseas trade",
+        "keep regional lords under the shogun's watch and control",
+        "train samurai as merchants in the castle towns"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Daimyo spent alternate years in Edo and left families there, which kept them watched and costly to resist.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Daimyo had to live in Edo every other year, not stay away from it.",
+        "The system concerned political control, not trade.",
+        "Daimyo spent alternate years in Edo and left families there, which kept them watched and costly to resist.",
+        "Samurai were turned into stipend-paid administrators, not merchants."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The system did the opposite: it pulled daimyo to Edo for long stays.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-2-q03",
+      "topicId": "world-3-2",
+      "concept": "religion-legitimacy",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Louis XIV's claim to rule by divine right is an example of",
+      "choices": [
+        "a ruler using religious ideas to legitimize authority",
+        "a ruler using religious ideas to justify religious tolerance",
+        "a ruler giving the Church control over royal officials",
+        "a ruler sharing power with a representative assembly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Divine right linked the king's authority to God's will, making resistance seem sinful.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Divine right linked the king's authority to God's will, making resistance seem sinful.",
+        "Louis XIV actually revoked toleration for Protestants in 1685.",
+        "Louis XIV controlled his officials himself.",
+        "Louis XIV ruled without calling France's representative assembly."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Religion is involved, but divine right justified obedience to the king, not tolerance of other faiths.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-2-q04",
+      "topicId": "world-3-2",
+      "concept": "taxes-revenue",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Which of the following is an example of tax farming?",
+      "choices": [
+        "Ottoman rulers selling the right to collect taxes to private bidders",
+        "Ming officials collecting a single tax payment in silver",
+        "Mughal rulers paying zamindars a fixed salary to manage state farms",
+        "Mexica officials recording tribute on painted lists"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bidders paid the treasury in advance and then collected taxes themselves, which is tax farming.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Bidders paid the treasury in advance and then collected taxes themselves, which is tax farming.",
+        "The single silver payment simplified taxes but did not sell collection rights.",
+        "Zamindars collected taxes from peasants; they were not paid to farm.",
+        "Tribute lists recorded what conquered towns owed; they were not sales of collection rights."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Zamindars collected revenue, but they were landholders who kept a share, not salaried farm workers.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-2-q05",
+      "topicId": "world-3-2",
+      "concept": "art-architecture",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Taj Mahal and the palace of Versailles were similar in that both",
+      "choices": [
+        "displayed the wealth of rulers who shared power with assemblies",
+        "were built as tombs for members of a royal family",
+        "displayed the wealth and authority of a ruling dynasty",
+        "were paid for by merchants rather than rulers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both monuments presented their rulers as rich, refined, and powerful.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Both rulers governed without representative assemblies.",
+        "Only the Taj Mahal was a tomb; Versailles was a palace.",
+        "Both monuments presented their rulers as rich, refined, and powerful.",
+        "Both were royal projects funded by the state."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Display of wealth is right, but neither Shah Jahan nor Louis XIV shared power with an assembly.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-2-q06",
+      "topicId": "world-3-2",
+      "concept": "taxes-revenue",
+      "difficulty": "Challenge",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Ming reforms that required taxes to be paid in silver most directly led to",
+      "choices": [
+        "the replacement of the examination system with tax farming",
+        "greater Chinese demand for silver from Japan and the Americas",
+        "the end of farming as the main source of Chinese wealth",
+        "greater Chinese demand for gold from West Africa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Collecting taxes in silver created huge demand, much of it met by silver from Japan and the Americas.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "The examination system continued under the Ming and Qing.",
+        "Collecting taxes in silver created huge demand, much of it met by silver from Japan and the Americas.",
+        "Agriculture remained the base of China's economy.",
+        "China's demand was for silver, not West African gold."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The reform did raise demand for precious metal, but it was silver, much of it from Japan and the Spanish Americas.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-2-q07",
+      "topicId": "world-3-2",
+      "concept": "religion-legitimacy",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Askia Muhammad of Songhai and the Safavid shahs were similar in that both",
+      "choices": [
+        "rejected Islamic law in favor of local customs",
+        "used their roles as religious leaders to win European allies",
+        "converted their entire populations to their own faith",
+        "used their roles as religious leaders to strengthen their rule"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Askia Muhammad promoted Islam and the Safavids led Shi'a Islam, and both used this to legitimize rule.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Both promoted forms of Islam rather than rejecting Islamic law.",
+        "Their religious roles were aimed at subjects and scholars, not at Europe.",
+        "Neither converted everyone; rural Songhai and many Safavid subjects kept older practices for a long time.",
+        "Askia Muhammad promoted Islam and the Safavids led Shi'a Islam, and both used this to legitimize rule."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Both used religion politically, but their audiences were their own subjects and Muslim scholars, not European powers.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-2-t01",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which of the following best describes Busbecq's main claim about the Ottoman court?",
+      "choices": [
+        "Officials were chosen through examinations on Islamic law",
+        "Officials inherited their offices from fathers who had served the sultan",
+        "Officials rose through ability, and most came from wealthy merchant families",
+        "Officials rose through ability and service rather than noble birth"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Busbecq says no one owed his position to anything but valor and merit.",
+      "sourceIds": [
+        "ced-topic-3-2",
+        "busbecq-forster-1881"
+      ],
+      "choiceExplanations": [
+        "He describes the sultan judging each man's character and ability, not an examination.",
+        "He says birth gave no distinction among the Turks.",
+        "He says most high officials were sons of shepherds or herdsmen.",
+        "Busbecq says no one owed his position to anything but valor and merit."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Merit is Busbecq's point, but he says the highest officials were mostly sons of shepherds or herdsmen.",
+      "stimulusId": "busbecq-merit",
+      "stimulusBlocks": [
+        {
+          "id": "busbecq-merit",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "busbecq-forster-1881",
+          "amsco_review": "pending",
+          "attribution": "Ogier Ghiselin de Busbecq, ambassador of the Habsburg ruler Ferdinand I to the court of the Ottoman sultan Suleiman I, letter written in 1555 describing his audience with the sultan, published in Latin in 1589",
+          "citation": "The Life and Letters of Ogier Ghiselin de Busbecq, trans. Charles Thornton Forster and F. H. Blackburne Daniell (London: C. Kegan Paul, 1881), vol. 1, Letter I. Project Gutenberg eBook #53629.",
+          "note": "Spahis were cavalry; Janissaries were infantry recruited through the devshirme. Busbecq's letter was addressed to a friend in the Habsburg lands.",
+          "text": "The Sultan's hall was crowded with people, among whom were several officers of high rank. Besides these there were all the troopers of the Imperial guard, Spahis, Ghourebas, Ouloufedgis, and a large force of Janissaries; but there was not in all that great assembly a single man who owed his position to aught save his valour and his merit. No distinction is attached to birth among the Turks; the deference to be paid to a man is measured by the position he holds in the public service. . . . Those who receive the highest offices from the Sultan are for the most part the sons of shepherds or herdsmen, and so far from being ashamed of their parentage, they actually glory in it . . . .\n\nThis is the reason that they are successful in their undertakings, that they lord it over others, and are daily extending the bounds of their empire. These are not our ideas, with us there is no opening left for merit; birth is the standard for everything; the prestige of birth is the sole key to advancement in the public service."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-2-t02",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The system Busbecq describes is best explained by which Ottoman practice?",
+      "choices": [
+        "The millet system, which let religious communities manage their own affairs",
+        "The devshirme, which allowed Muslim nobles to buy offices for their sons",
+        "The devshirme, which trained recruits taken as boys to serve the sultan",
+        "Tax farming, which sold the right to collect revenue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The devshirme produced Janissaries and officials who owed their rise to training and the sultan's favor.",
+      "sourceIds": [
+        "ced-topic-3-2",
+        "busbecq-forster-1881"
+      ],
+      "choiceExplanations": [
+        "Religious community self-government does not explain how officials were chosen.",
+        "The devshirme recruited Christian boys; it was not a way for nobles to buy offices.",
+        "The devshirme produced Janissaries and officials who owed their rise to training and the sultan's favor.",
+        "Tax farming concerned revenue, not the selection of officials."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The devshirme is right, but it took Christian boys and excluded the purchase of office by nobles.",
+      "stimulusId": "busbecq-merit",
+      "stimulusBlocks": [
+        {
+          "id": "busbecq-merit",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "busbecq-forster-1881",
+          "amsco_review": "pending",
+          "attribution": "Ogier Ghiselin de Busbecq, ambassador of the Habsburg ruler Ferdinand I to the court of the Ottoman sultan Suleiman I, letter written in 1555 describing his audience with the sultan, published in Latin in 1589",
+          "citation": "The Life and Letters of Ogier Ghiselin de Busbecq, trans. Charles Thornton Forster and F. H. Blackburne Daniell (London: C. Kegan Paul, 1881), vol. 1, Letter I. Project Gutenberg eBook #53629.",
+          "note": "Spahis were cavalry; Janissaries were infantry recruited through the devshirme. Busbecq's letter was addressed to a friend in the Habsburg lands.",
+          "text": "The Sultan's hall was crowded with people, among whom were several officers of high rank. Besides these there were all the troopers of the Imperial guard, Spahis, Ghourebas, Ouloufedgis, and a large force of Janissaries; but there was not in all that great assembly a single man who owed his position to aught save his valour and his merit. No distinction is attached to birth among the Turks; the deference to be paid to a man is measured by the position he holds in the public service. . . . Those who receive the highest offices from the Sultan are for the most part the sons of shepherds or herdsmen, and so far from being ashamed of their parentage, they actually glory in it . . . .\n\nThis is the reason that they are successful in their undertakings, that they lord it over others, and are daily extending the bounds of their empire. These are not our ideas, with us there is no opening left for merit; birth is the standard for everything; the prestige of birth is the sole key to advancement in the public service."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-3-2-t03",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Challenge",
+      "skill": "sourcing",
+      "prompt": "Busbecq's description of the Ottoman system was most likely shaped by",
+      "choices": [
+        "his desire to criticize a European system based on birth",
+        "his role as an Ottoman official seeking promotion",
+        "his wish to persuade the sultan to adopt European customs",
+        "his desire to show that European nobles were better soldiers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "He contrasts Ottoman merit with European societies where birth was the sole key to advancement.",
+      "sourceIds": [
+        "ced-topic-3-2",
+        "busbecq-forster-1881"
+      ],
+      "choiceExplanations": [
+        "He contrasts Ottoman merit with European societies where birth was the sole key to advancement.",
+        "Busbecq was a Habsburg ambassador, not an Ottoman official.",
+        "He wrote to a friend in Europe, not to the sultan.",
+        "He says Ottoman merit explains Ottoman success, the opposite of praising European nobles."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Busbecq compares Europe with the Ottomans, but he praises Ottoman merit, not European nobles.",
+      "stimulusId": "busbecq-merit",
+      "stimulusBlocks": [
+        {
+          "id": "busbecq-merit",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "busbecq-forster-1881",
+          "amsco_review": "pending",
+          "attribution": "Ogier Ghiselin de Busbecq, ambassador of the Habsburg ruler Ferdinand I to the court of the Ottoman sultan Suleiman I, letter written in 1555 describing his audience with the sultan, published in Latin in 1589",
+          "citation": "The Life and Letters of Ogier Ghiselin de Busbecq, trans. Charles Thornton Forster and F. H. Blackburne Daniell (London: C. Kegan Paul, 1881), vol. 1, Letter I. Project Gutenberg eBook #53629.",
+          "note": "Spahis were cavalry; Janissaries were infantry recruited through the devshirme. Busbecq's letter was addressed to a friend in the Habsburg lands.",
+          "text": "The Sultan's hall was crowded with people, among whom were several officers of high rank. Besides these there were all the troopers of the Imperial guard, Spahis, Ghourebas, Ouloufedgis, and a large force of Janissaries; but there was not in all that great assembly a single man who owed his position to aught save his valour and his merit. No distinction is attached to birth among the Turks; the deference to be paid to a man is measured by the position he holds in the public service. . . . Those who receive the highest offices from the Sultan are for the most part the sons of shepherds or herdsmen, and so far from being ashamed of their parentage, they actually glory in it . . . .\n\nThis is the reason that they are successful in their undertakings, that they lord it over others, and are daily extending the bounds of their empire. These are not our ideas, with us there is no opening left for merit; birth is the standard for everything; the prestige of birth is the sole key to advancement in the public service."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-3-2-t04",
+      "topicId": "world-3-2",
+      "concept": "taxes-revenue",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Based on the passage, which of the following was a similarity among the three tax systems?",
+      "choices": [
+        "Each required peasants to pay taxes directly to the emperor in person",
+        "Each collected taxes only in silver",
+        "Each relied on intermediaries who were salaried officials appointed by the imperial court",
+        "Each relied on intermediaries or reforms to collect revenue from a large population"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Zamindars, tax farmers, and simplified silver payments were all ways to collect from vast populations.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Peasants paid through local collectors, not to the emperor in person.",
+        "Only the Ming reform required silver.",
+        "Zamindars and tax farmers kept part of what they collected rather than drawing salaries.",
+        "Zamindars, tax farmers, and simplified silver payments were all ways to collect from vast populations."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Intermediaries were common, but zamindars and tax farmers kept shares; they were not salaried court officials.",
+      "stimulusId": "original-tax-systems",
+      "stimulusBlocks": [
+        {
+          "id": "original-tax-systems",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.D: rulers used tribute collection, tax farming, and innovative tax-collection systems to generate revenue",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing tax collection in three empires, c. 1550–1700",
+          "text": "Large empires needed steady revenue, and each solved the problem differently. In Mughal India, zamindars, local landholders, collected land taxes from peasants and passed a share to the state. The Ottomans increasingly sold the right to collect certain taxes to tax farmers, who paid the treasury in advance and then collected what they could. In Ming China, reforms in the late 1500s combined many taxes and labor duties into a single payment in silver.\n\nEach method raised money, but each had costs. Intermediaries could keep too much, squeeze peasants, or build local power that rivaled the central government."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-2-t05",
+      "topicId": "world-3-2",
+      "concept": "taxes-revenue",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The author's concluding claim in the passage is that",
+      "choices": [
+        "tax systems that used intermediaries always caused the empires that used them to collapse",
+        "tax systems that used intermediaries carried risks for rulers and peasants",
+        "tax farming was the most efficient system in the world",
+        "silver payments ended corruption in Ming China"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The author says intermediaries could keep too much, squeeze peasants, or build rival power.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "The passage describes risks, not inevitable collapse.",
+        "The author says intermediaries could keep too much, squeeze peasants, or build rival power.",
+        "The author does not rank systems by efficiency.",
+        "The passage does not say silver ended corruption."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The author names risks, but “always caused collapse” is far stronger than the passage claims.",
+      "stimulusId": "original-tax-systems",
+      "stimulusBlocks": [
+        {
+          "id": "original-tax-systems",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.D: rulers used tribute collection, tax farming, and innovative tax-collection systems to generate revenue",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing tax collection in three empires, c. 1550–1700",
+          "text": "Large empires needed steady revenue, and each solved the problem differently. In Mughal India, zamindars, local landholders, collected land taxes from peasants and passed a share to the state. The Ottomans increasingly sold the right to collect certain taxes to tax farmers, who paid the treasury in advance and then collected what they could. In Ming China, reforms in the late 1500s combined many taxes and labor duties into a single payment in silver.\n\nEach method raised money, but each had costs. Intermediaries could keep too much, squeeze peasants, or build local power that rivaled the central government."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-2-t06",
+      "topicId": "world-3-2",
+      "concept": "taxes-revenue",
+      "difficulty": "Challenge",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The Ming reform described in the passage most directly contributed to",
+      "choices": [
+        "global flows of gold from China to the Americas",
+        "global flows of silver from the Americas and Japan into China",
+        "the end of the Silk Roads",
+        "the abolition of the examination system"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Requiring silver for taxes raised Chinese demand, drawing silver from Japan and the Spanish Americas.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Silver flowed into China, not gold out of it to the Americas.",
+        "Requiring silver for taxes raised Chinese demand, drawing silver from Japan and the Spanish Americas.",
+        "Overland trade continued.",
+        "The examination system continued."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Global flows are right, but silver moved into China; China paid with goods such as silk and porcelain.",
+      "stimulusId": "original-tax-systems",
+      "stimulusBlocks": [
+        {
+          "id": "original-tax-systems",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.D: rulers used tribute collection, tax farming, and innovative tax-collection systems to generate revenue",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing tax collection in three empires, c. 1550–1700",
+          "text": "Large empires needed steady revenue, and each solved the problem differently. In Mughal India, zamindars, local landholders, collected land taxes from peasants and passed a share to the state. The Ottomans increasingly sold the right to collect certain taxes to tax farmers, who paid the treasury in advance and then collected what they could. In Ming China, reforms in the late 1500s combined many taxes and labor duties into a single payment in silver.\n\nEach method raised money, but each had costs. Intermediaries could keep too much, squeeze peasants, or build local power that rivaled the central government."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-2-t07",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, the alternate attendance system helped the shogun mainly by",
+      "choices": [
+        "giving daimyo seats in an elected council",
+        "encouraging daimyo to raise larger private armies",
+        "keeping regional lords on their estates all year",
+        "keeping regional lords watched and costly to support"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Daimyo had to live in Edo every other year and leave families there, which kept them under watch and spending money.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "There was no elected council.",
+        "The system aimed to weaken, not strengthen, the daimyo.",
+        "Daimyo spent alternate years in Edo.",
+        "Daimyo had to live in Edo every other year and leave families there, which kept them under watch and spending money."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The system pulled lords to Edo every other year; it did not keep them home.",
+      "stimulusId": "original-tokugawa",
+      "stimulusBlocks": [
+        {
+          "id": "original-tokugawa",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.C: rulers used bureaucratic elites and military professionals to consolidate power; salaried samurai are an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how the Tokugawa shoguns governed Japan after 1603",
+          "text": "After decades of civil war, Tokugawa Ieyasu became shogun in 1603. His successors required the daimyo, the regional lords, to spend every other year in the capital at Edo and to leave their families there when they returned home. This alternate attendance system was expensive and kept the daimyo under watch.\n\nSamurai were moved off the land and into castle towns, where they received fixed stipends paid in rice. Many became administrators rather than active warriors. A strict social order ranked samurai above peasants, artisans, and merchants, even as merchants in cities such as Osaka grew wealthy."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-2-t08",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Tokugawa treatment of samurai described in the passage was most similar to",
+      "choices": [
+        "the Ottoman use of salaried Janissaries loyal to the sultan",
+        "the European practice of nobles holding land in return for service",
+        "the Mughal use of zamindars to collect land taxes",
+        "the Ottoman use of tax farmers to pay soldiers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both regimes turned warriors into salaried servants of the central ruler.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Both regimes turned warriors into salaried servants of the central ruler.",
+        "Samurai lost their land and received stipends instead.",
+        "Zamindars were tax collectors, not salaried warriors.",
+        "Tax farming was a revenue system, not a way of paying a professional class."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Land in return for service describes how samurai had lived before; Tokugawa policy moved them off the land and paid stipends.",
+      "stimulusId": "original-tokugawa",
+      "stimulusBlocks": [
+        {
+          "id": "original-tokugawa",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.C: rulers used bureaucratic elites and military professionals to consolidate power; salaried samurai are an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how the Tokugawa shoguns governed Japan after 1603",
+          "text": "After decades of civil war, Tokugawa Ieyasu became shogun in 1603. His successors required the daimyo, the regional lords, to spend every other year in the capital at Edo and to leave their families there when they returned home. This alternate attendance system was expensive and kept the daimyo under watch.\n\nSamurai were moved off the land and into castle towns, where they received fixed stipends paid in rice. Many became administrators rather than active warriors. A strict social order ranked samurai above peasants, artisans, and merchants, even as merchants in cities such as Osaka grew wealthy."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-2-t09",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The policies described in the passage are best understood as a response to",
+      "choices": [
+        "the arrival of Protestant missionaries in Edo",
+        "a long period of peace that made samurai unnecessary",
+        "a long period of civil war among regional lords",
+        "Mongol invasions of Japan in the 1600s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After decades of war among daimyo, the Tokugawa built a system to keep lords from rebelling.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Missionaries were restricted, but they were not the cause of these policies.",
+        "The policies followed civil war; peace was their result.",
+        "After decades of war among daimyo, the Tokugawa built a system to keep lords from rebelling.",
+        "The Mongol invasions of Japan were in the 1200s."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Peace came after these policies, but the policies responded to decades of civil war.",
+      "stimulusId": "original-tokugawa",
+      "stimulusBlocks": [
+        {
+          "id": "original-tokugawa",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.C: rulers used bureaucratic elites and military professionals to consolidate power; salaried samurai are an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how the Tokugawa shoguns governed Japan after 1603",
+          "text": "After decades of civil war, Tokugawa Ieyasu became shogun in 1603. His successors required the daimyo, the regional lords, to spend every other year in the capital at Edo and to leave their families there when they returned home. This alternate attendance system was expensive and kept the daimyo under watch.\n\nSamurai were moved off the land and into castle towns, where they received fixed stipends paid in rice. Many became administrators rather than active warriors. A strict social order ranked samurai above peasants, artisans, and merchants, even as merchants in cities such as Osaka grew wealthy."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-3-2-t10",
+      "topicId": "world-3-2",
+      "concept": "art-architecture",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The author's main argument is that monumental building",
+      "choices": [
+        "was paid for mainly by merchants seeking royal favor",
+        "presented rulers as pious while hiding their wealth from subjects",
+        "drained royal treasuries and caused the fall of these dynasties",
+        "presented rulers as wealthy, pious, and permanent"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The author says such projects presented the ruler as wealthy, pious, and permanent.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "The passage describes royal projects, not merchant funding.",
+        "The monuments openly displayed royal wealth.",
+        "The passage notes costs but does not link the monuments to dynastic collapse.",
+        "The author says such projects presented the ruler as wealthy, pious, and permanent."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Piety is part of the argument, but the monuments displayed wealth rather than hiding it.",
+      "stimulusId": "original-monuments",
+      "stimulusBlocks": [
+        {
+          "id": "original-monuments",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas, art, and monumental architecture to legitimize their rule",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how rulers used architecture and art, c. 1450–1750",
+          "text": "Rulers built on a massive scale to display power. The Mughal emperor Shah Jahan built the Taj Mahal in Agra as a tomb for his wife Mumtaz Mahal, using white marble and Persian, Indian, and Islamic designs. The Ottoman architect Sinan designed the Süleymaniye Mosque in Istanbul for Suleiman I. In France, Louis XIV moved his court to the palace of Versailles in 1682, where nobles competed for his attention through elaborate ceremonies.\n\nSuch projects were expensive, but they presented the ruler as wealthy, pious, and permanent. They also employed thousands of artisans and turned the capital into a stage for royal authority."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-2-t11",
+      "topicId": "world-3-2",
+      "concept": "art-architecture",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Louis XIV's use of Versailles differed from Shah Jahan's purpose for the Taj Mahal in that Versailles",
+      "choices": [
+        "was built as a grand tomb to honor a beloved member of the royal family",
+        "served as a working court where nobles competed for royal attention",
+        "was built to show the ruler's religious devotion",
+        "used designs borrowed from several cultures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Versailles housed the court and its ceremonies, which kept nobles close to the king.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Only the Taj Mahal was a tomb.",
+        "Versailles housed the court and its ceremonies, which kept nobles close to the king.",
+        "The Taj Mahal is the monument tied to religious devotion here.",
+        "The passage stresses mixed designs at the Taj Mahal."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "This describes the Taj Mahal, which was a tomb; Versailles was a palace for the living court.",
+      "stimulusId": "original-monuments",
+      "stimulusBlocks": [
+        {
+          "id": "original-monuments",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas, art, and monumental architecture to legitimize their rule",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how rulers used architecture and art, c. 1450–1750",
+          "text": "Rulers built on a massive scale to display power. The Mughal emperor Shah Jahan built the Taj Mahal in Agra as a tomb for his wife Mumtaz Mahal, using white marble and Persian, Indian, and Islamic designs. The Ottoman architect Sinan designed the Süleymaniye Mosque in Istanbul for Suleiman I. In France, Louis XIV moved his court to the palace of Versailles in 1682, where nobles competed for his attention through elaborate ceremonies.\n\nSuch projects were expensive, but they presented the ruler as wealthy, pious, and permanent. They also employed thousands of artisans and turned the capital into a stage for royal authority."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-2-t12",
+      "topicId": "world-3-2",
+      "concept": "religion-legitimacy",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, supporters of divine right argued that",
+      "choices": [
+        "kings should share power with nobles in representative assemblies",
+        "kings answered to the pope, who could remove them",
+        "kings answered to God alone, not to nobles or assemblies",
+        "kings should be elected by the clergy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says the king answered to God alone.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Louis XIV never called the Estates-General during his reign.",
+        "Supporters claimed kings answered directly to God, not the pope.",
+        "The passage says the king answered to God alone.",
+        "Divine right rejected election by any group."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Divine right tied kings to God, but it bypassed the pope as well as nobles and assemblies.",
+      "stimulusId": "original-divine-right",
+      "stimulusBlocks": [
+        {
+          "id": "original-divine-right",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas to legitimize their rule; European notions of divine right are an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the idea of divine right in Europe, c. 1600–1715",
+          "text": "Many European monarchs of the 1600s claimed to rule by divine right, the idea that God chose kings and that subjects owed them obedience as they owed obedience to God. Supporters of Louis XIV, who ruled France from 1643 to 1715, argued that the king answered to God alone, not to nobles or representative assemblies. Louis never called France's old assembly of estates, the Estates-General, and relied instead on royal officials sent to the provinces.\n\nCritics pointed to the costs: long wars and heavy taxes fell hardest on peasants. In England, conflict over royal power led to civil war in the 1640s and the execution of King Charles I in 1649."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-2-t13",
+      "topicId": "world-3-2",
+      "concept": "religion-legitimacy",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The events in England described in the passage best illustrate",
+      "choices": [
+        "resistance to claims of unlimited royal power",
+        "the success of absolutism in every European state",
+        "the spread of Islam in western Europe",
+        "resistance to royal power led by the Catholic Church"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Conflict over royal power led to civil war and the execution of Charles I in 1649.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Conflict over royal power led to civil war and the execution of Charles I in 1649.",
+        "England shows that absolutism was contested.",
+        "The passage concerns royal power, not Islam.",
+        "The English opposition centered on Parliament, not the Catholic Church."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Resistance is right, but the English conflict was led by Parliament and its supporters, not the Catholic Church.",
+      "stimulusId": "original-divine-right",
+      "stimulusBlocks": [
+        {
+          "id": "original-divine-right",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas to legitimize their rule; European notions of divine right are an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the idea of divine right in Europe, c. 1600–1715",
+          "text": "Many European monarchs of the 1600s claimed to rule by divine right, the idea that God chose kings and that subjects owed them obedience as they owed obedience to God. Supporters of Louis XIV, who ruled France from 1643 to 1715, argued that the king answered to God alone, not to nobles or representative assemblies. Louis never called France's old assembly of estates, the Estates-General, and relied instead on royal officials sent to the provinces.\n\nCritics pointed to the costs: long wars and heavy taxes fell hardest on peasants. In England, conflict over royal power led to civil war in the 1640s and the execution of King Charles I in 1649."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-2-t14",
+      "topicId": "world-3-2",
+      "concept": "religion-legitimacy",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Based on the passage, Askia Muhammad used Islam mainly to",
+      "choices": [
+        "strengthen his authority and ties to merchants and scholars",
+        "convert every rural community in Songhai",
+        "end trade with North African Muslims",
+        "strengthen his authority by rejecting the scholars of Timbuktu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "He appointed Muslim judges, supported scholars, and made a pilgrimage, which strengthened his rule and ties to Muslim networks.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "He appointed Muslim judges, supported scholars, and made a pilgrimage, which strengthened his rule and ties to Muslim networks.",
+        "The passage says many rural people kept older beliefs.",
+        "Islam strengthened ties to Muslim merchants.",
+        "He supported scholars in Timbuktu."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Authority is right, but Askia Muhammad supported Timbuktu's scholars rather than rejecting them.",
+      "stimulusId": "original-songhai-islam",
+      "stimulusBlocks": [
+        {
+          "id": "original-songhai-islam",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas to legitimize their rule; the Songhai promotion of Islam is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how Askia Muhammad of Songhai used Islam, 1493–1528",
+          "text": "Askia Muhammad seized the Songhai throne in 1493 from the son of Sunni Ali, a ruler whom Muslim scholars had criticized for mixing Islam with local religious practices. Askia Muhammad made a pilgrimage to Mecca in 1496 and 1497 and returned with the title of caliph's deputy for West Africa. He appointed Muslim judges, supported scholars in Timbuktu, and encouraged Islamic law in the towns.\n\nIn the countryside, many farmers and fishers kept older beliefs. Askia Muhammad's Islam strengthened his ties to merchants and scholars, but it did not erase local religion."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-2-t15",
+      "topicId": "world-3-2",
+      "concept": "religion-legitimacy",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Askia Muhammad's pilgrimage to Mecca is most similar to which earlier development?",
+      "choices": [
+        "Ibn Battuta's journey across the Sahara in 1352",
+        "Mansa Musa's conquest of Morocco in 1324",
+        "Mansa Musa's pilgrimage from Mali in 1324",
+        "the Mongol capture of Baghdad in 1258"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both West African rulers used pilgrimage to display faith and build ties with the Islamic world.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "Ibn Battuta was a traveler, not a ruler building legitimacy.",
+        "Mali did not conquer Morocco.",
+        "Both West African rulers used pilgrimage to display faith and build ties with the Islamic world.",
+        "The Mongol capture of Baghdad was a conquest, not a pilgrimage."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Mansa Musa made a famous pilgrimage, but he did not conquer Morocco.",
+      "stimulusId": "original-songhai-islam",
+      "stimulusBlocks": [
+        {
+          "id": "original-songhai-islam",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.A: rulers used religious ideas to legitimize their rule; the Songhai promotion of Islam is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how Askia Muhammad of Songhai used Islam, 1493–1528",
+          "text": "Askia Muhammad seized the Songhai throne in 1493 from the son of Sunni Ali, a ruler whom Muslim scholars had criticized for mixing Islam with local religious practices. Askia Muhammad made a pilgrimage to Mecca in 1496 and 1497 and returned with the title of caliph's deputy for West Africa. He appointed Muslim judges, supported scholars in Timbuktu, and encouraged Islamic law in the towns.\n\nIn the countryside, many farmers and fishers kept older beliefs. Askia Muhammad's Islam strengthened his ties to merchants and scholars, but it did not erase local religion."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-3-2-t16",
+      "topicId": "world-3-2",
+      "concept": "bureaucracy-military",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Based on the passage, which of the following best describes how the Qing governed?",
+      "choices": [
+        "They kept Chinese institutions and abandoned all Manchu customs",
+        "They kept Chinese institutions while asserting Manchu identity and control",
+        "They abolished the examination system and ruled through Manchu nobles only",
+        "They adopted Islam to win the loyalty of Central Asian subjects"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Qing kept the examinations and bureaucracy while requiring the queue and sharing top posts with Manchus.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "The queue requirement shows Manchu customs were kept and imposed.",
+        "The Qing kept the examinations and bureaucracy while requiring the queue and sharing top posts with Manchus.",
+        "The Qing kept the examinations.",
+        "The passage describes Confucian and Buddhist imagery, not conversion to Islam."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Qing kept Chinese institutions, but they imposed the queue and kept Manchu identity.",
+      "stimulusId": "original-qing-administration",
+      "stimulusBlocks": [
+        {
+          "id": "original-qing-administration",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.C and KC-4.3.I.A: rulers used bureaucratic elites and religious and artistic patronage to consolidate power",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how the Qing dynasty governed China, c. 1650–1750",
+          "text": "The Qing kept the Ming bureaucracy and the civil service examinations, so Chinese scholars continued to staff most government offices. At the highest levels, many posts were held jointly by one Manchu and one Han Chinese official. The Kangxi emperor, who ruled from 1661 to 1722, studied the Confucian classics and sponsored large scholarly projects.\n\nAt the same time, the Qing required Han Chinese men to wear the Manchu queue hairstyle as a sign of loyalty, and they commissioned portraits that showed emperors as Confucian rulers, Buddhist patrons, and Manchu warriors for different audiences."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-2-t17",
+      "topicId": "world-3-2",
+      "concept": "art-architecture",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which of the following best explains why Qing emperors commissioned different kinds of portraits?",
+      "choices": [
+        "They wanted to hide that they were Manchu",
+        "They believed portraits would replace the need for officials",
+        "They presented themselves only as Confucian scholar-rulers to every group of subjects",
+        "They presented themselves in different roles to win support from different groups"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Portraits as Confucian ruler, Buddhist patron, and Manchu warrior each spoke to a different audience.",
+      "sourceIds": [
+        "ced-topic-3-2"
+      ],
+      "choiceExplanations": [
+        "The warrior portraits emphasized Manchu identity.",
+        "Portraits supported legitimacy; they did not replace government.",
+        "The passage says they used several images, not one.",
+        "Portraits as Confucian ruler, Buddhist patron, and Manchu warrior each spoke to a different audience."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Confucian imagery was one role among several; the point is that the image changed with the audience.",
+      "stimulusId": "original-qing-administration",
+      "stimulusBlocks": [
+        {
+          "id": "original-qing-administration",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.2, KC-4.3.I.C and KC-4.3.I.A: rulers used bureaucratic elites and religious and artistic patronage to consolidate power",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how the Qing dynasty governed China, c. 1650–1750",
+          "text": "The Qing kept the Ming bureaucracy and the civil service examinations, so Chinese scholars continued to staff most government offices. At the highest levels, many posts were held jointly by one Manchu and one Han Chinese official. The Kangxi emperor, who ruled from 1661 to 1722, studied the Confucian classics and sponsored large scholarly projects.\n\nAt the same time, the Qing required Han Chinese men to wear the Manchu queue hairstyle as a sign of loyalty, and they commissioned portraits that showed emperors as Confucian rulers, Buddhist patrons, and Manchu warriors for different audiences."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-3-2-quick",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-2",
+      "title": "Topic 3.2 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-3-2-q01",
+        "world-3-2-q02",
+        "world-3-2-q03"
+      ]
+    },
+    {
+      "id": "world-3-2-quiz",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-2",
+      "title": "Empires: Administration topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-3-2-q01",
+        "world-3-2-q02",
+        "world-3-2-q03",
+        "world-3-2-q04",
+        "world-3-2-q05",
+        "world-3-2-q06",
+        "world-3-2-q07"
+      ]
+    }
+  ],
+  "concepts": {
+    "bureaucracy-military": {
+      "id": "bureaucracy-military",
+      "title": "Loyal officials and soldiers",
+      "section": "bureaucracy-military",
+      "topicId": "world-3-2"
+    },
+    "religion-legitimacy": {
+      "id": "religion-legitimacy",
+      "title": "Religion and the right to rule",
+      "section": "religion-legitimacy",
+      "topicId": "world-3-2"
+    },
+    "art-architecture": {
+      "id": "art-architecture",
+      "title": "Art and monumental architecture",
+      "section": "art-architecture",
+      "topicId": "world-3-2"
+    },
+    "taxes-revenue": {
+      "id": "taxes-revenue",
+      "title": "Collecting revenue",
+      "section": "taxes-revenue",
+      "topicId": "world-3-2"
+    }
+  },
+  "assets": {}
+}

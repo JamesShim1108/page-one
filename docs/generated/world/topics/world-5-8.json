@@ -1,0 +1,528 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-5",
+    "courseId": "world",
+    "number": 5,
+    "title": "Revolutions",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-5-8",
+    "courseId": "world",
+    "unitId": "world-5",
+    "order": 8,
+    "code": "5.8",
+    "title": "Reactions to the Industrial Economy from 1750 to 1900",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How workers, socialists, and governments responded to industrial capitalism, and how China and the Ottoman Empire attempted reform."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "952a84dd1c4b5e8b",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-5-8",
+    "unitId": "world-5",
+    "courseId": "world",
+    "code": "5.8",
+    "title": "Reactions to the Industrial Economy from 1750 to 1900",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "order": 8,
+    "summary": "How workers, socialists, and governments responded to industrial capitalism, and how China and the Ottoman Empire attempted reform.",
+    "minutes": 10,
+    "learningGoals": [
+      "Explain the causes and effects of calls for changes in industrial societies.",
+      "Explain how some states attempted reforms in response to industrial powers."
+    ],
+    "bigIdea": "Industrial capitalism produced workers' movements, socialist ideas, and government reforms, while states facing industrial powers attempted reforms of their own.",
+    "context": "Long hours, low wages, and dangerous conditions led workers to organize. Thinkers debated whether reform or revolution was the answer.",
+    "sections": [
+      {
+        "id": "workers-movements",
+        "title": "Workers and reform",
+        "conceptTitle": "Workers and reform",
+        "lenses": [
+          "S",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Luddites smashed machines in Britain between 1811 and 1816. Over time, workers formed labor unions to bargain for better wages and hours. Chartists demanded voting rights for all men."
+          },
+          {
+            "type": "paragraph",
+            "text": "Britain's Factory Act of 1833 limited child labor, and voting rights expanded in 1867 and 1884."
+          }
+        ],
+        "takeaway": "Workers organized, and governments gradually responded with reforms.",
+        "sourceIds": [
+          "ced-topic-5-8"
+        ]
+      },
+      {
+        "id": "socialism",
+        "title": "Socialism and Marxism",
+        "conceptTitle": "Socialism and Marxism",
+        "lenses": [
+          "C",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Socialists argued that workers or society as a whole should own the means of production. Karl Marx and Friedrich Engels published the Communist Manifesto in 1848, arguing that history was a struggle between classes and predicting a workers' revolution."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Harsh factory conditions and inequality led critics to argue that capitalism itself must change, which produced socialist and communist movements."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Not all socialists were revolutionaries. Many sought change through elections, unions, and laws."
+          }
+        ],
+        "takeaway": "Marxism offered a revolutionary critique of industrial capitalism.",
+        "sourceIds": [
+          "ced-topic-5-8"
+        ]
+      },
+      {
+        "id": "state-reforms",
+        "title": "Reform in China and the Ottoman Empire",
+        "conceptTitle": "Reform in China and the Ottoman Empire",
+        "lenses": [
+          "P",
+          "T"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "China's Self-Strengthening Movement of the 1860s built arsenals and shipyards while keeping Confucian institutions. Defeat by Japan in 1895 exposed its limits."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Ottoman Tanzimat reforms of 1839 to 1876 reorganized the army, courts, and schools and declared legal equality for all subjects."
+          }
+        ],
+        "takeaway": "Reforms in China and the Ottoman Empire borrowed Western methods but faced resistance and limited success.",
+        "sourceIds": [
+          "ced-topic-5-8"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "labor-unions",
+        "topicId": "world-5-8",
+        "term": "labor unions",
+        "definition": "Organizations of workers formed to bargain with employers for better wages, hours, and conditions."
+      },
+      {
+        "id": "socialism",
+        "topicId": "world-5-8",
+        "term": "Socialism",
+        "definition": "An economic and political system in which workers or society as a whole own the means of production."
+      },
+      {
+        "id": "self-strengthening-movement",
+        "topicId": "world-5-8",
+        "term": "Self-Strengthening Movement",
+        "definition": "A Qing reform effort of the 1860s to the 1890s that adopted Western military technology while preserving Confucian institutions."
+      },
+      {
+        "id": "tanzimat",
+        "topicId": "world-5-8",
+        "term": "Tanzimat",
+        "definition": "Ottoman reforms from 1839 to 1876 that modernized the army, courts, and schools and declared legal equality for subjects."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-5-labor-unions",
+        "world-5-socialism",
+        "world-5-self-strengthening-movement",
+        "world-5-tanzimat"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Looking ahead",
+        "title": "Communism in the 1900s",
+        "body": "Marx's ideas inspired revolutions in Russia and China in the 1900s, studied in Units 7 and 8.",
+        "transferQuestion": "Why might Marx's ideas appeal to people in agrarian societies such as Russia or China?",
+        "feedback": "Connect inequality and revolutionary promises to those societies.",
+        "links": [
+          {
+            "topicId": "world-5-8",
+            "sectionId": "socialism",
+            "label": "Review socialism"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-5-8",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-5-8.json",
+  "glossary": [
+    {
+      "id": "world-5-labor-unions",
+      "term": "labor unions",
+      "definition": "Organizations of workers formed to bargain with employers for better wages, hours, and conditions.",
+      "aliases": [],
+      "sourceLabel": "Topic 5.8 glossary"
+    },
+    {
+      "id": "world-5-socialism",
+      "term": "Socialism",
+      "definition": "An economic and political system in which workers or society as a whole own the means of production.",
+      "aliases": [
+        "Socialists"
+      ],
+      "sourceLabel": "Topic 5.8 glossary"
+    },
+    {
+      "id": "world-5-self-strengthening-movement",
+      "term": "Self-Strengthening Movement",
+      "definition": "A Qing reform effort of the 1860s to the 1890s that adopted Western military technology while preserving Confucian institutions.",
+      "aliases": [],
+      "sourceLabel": "Topic 5.8 glossary"
+    },
+    {
+      "id": "world-5-tanzimat",
+      "term": "Tanzimat",
+      "definition": "Ottoman reforms from 1839 to 1876 that modernized the army, courts, and schools and declared legal equality for subjects.",
+      "aliases": [],
+      "sourceLabel": "Topic 5.8 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-5-8",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 5.8.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Reactions to the Industrial Economy from 1750 to 1900."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

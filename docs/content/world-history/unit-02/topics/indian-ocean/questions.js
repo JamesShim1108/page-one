@@ -168,6 +168,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Use Polo's comparison of shiploads.",
+      stimulusId: "polo-zayton",
       stimulusBlocks: [excerpts.poloZayton],
     },
     {
@@ -206,6 +207,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Read the detail closely: a duty on imported goods.",
+      stimulusId: "polo-zayton",
       stimulusBlocks: [excerpts.poloZayton],
     },
     {
@@ -244,6 +246,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Audience shapes comparisons: Polo picks a reference his readers understood.",
+      stimulusId: "polo-zayton",
       stimulusBlocks: [excerpts.poloZayton],
     },
     {
@@ -346,6 +349,7 @@ export const bank = {
       ],
       nearMissIndex: 0,
       distinguisher: "The passage shows both the risk and the response.",
+      stimulusId: "polo-melibar",
       stimulusBlocks: [excerpts.poloMelibar],
     },
     {
@@ -384,6 +388,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Look for the pattern the two sources share.",
+      stimulusId: "polo-melibar",
       stimulusBlocks: [excerpts.poloMelibar],
     },
     {
@@ -422,6 +427,7 @@ export const bank = {
       nearMissIndex: 2,
       distinguisher:
         "Context explains why goods flowed east: the size of the Chinese market.",
+      stimulusId: "polo-melibar",
       stimulusBlocks: [excerpts.poloMelibar],
     },
     {
@@ -594,6 +600,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Follow the gold in the passage: interior to coast.",
+      stimulusId: "battuta-swahili",
       stimulusBlocks: [excerpts.battutaSwahili],
     },
     {
@@ -631,6 +638,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Point of view affects what a writer notices and praises.",
+      stimulusId: "battuta-swahili",
       stimulusBlocks: [excerpts.battutaSwahili],
     },
     {

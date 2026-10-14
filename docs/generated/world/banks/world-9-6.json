@@ -1,0 +1,710 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-9",
+    "courseId": "world",
+    "number": 9,
+    "title": "Globalization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how technology, disease, and environmental change reshaped the world, how the global economy and culture developed, and how people and institutions responded to globalization.",
+    "quizzes": [
+      {
+        "id": "world-9-practice-test",
+        "courseId": "world",
+        "unitId": "world-9",
+        "title": "Unit 9 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-9-1",
+            "questionIds": [
+              "world-9-1-t01",
+              "world-9-1-t02",
+              "world-9-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-1",
+            "questionIds": [
+              "world-9-1-t04",
+              "world-9-1-t05",
+              "world-9-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-2",
+            "questionIds": [
+              "world-9-2-t01",
+              "world-9-2-t02",
+              "world-9-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-2",
+            "questionIds": [
+              "world-9-2-t04",
+              "world-9-2-t05",
+              "world-9-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-3",
+            "questionIds": [
+              "world-9-3-t01",
+              "world-9-3-t02",
+              "world-9-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-3",
+            "questionIds": [
+              "world-9-3-t04",
+              "world-9-3-t05",
+              "world-9-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t01",
+              "world-9-4-t02",
+              "world-9-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t04",
+              "world-9-4-t05",
+              "world-9-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t07",
+              "world-9-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-9-5",
+            "questionIds": [
+              "world-9-5-t01",
+              "world-9-5-t02",
+              "world-9-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-5",
+            "questionIds": [
+              "world-9-5-t04",
+              "world-9-5-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-6",
+            "questionIds": [
+              "world-9-6-t01",
+              "world-9-6-t02",
+              "world-9-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-6",
+            "questionIds": [
+              "world-9-6-t04",
+              "world-9-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-7",
+            "questionIds": [
+              "world-9-7-t01",
+              "world-9-7-t02",
+              "world-9-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-7",
+            "questionIds": [
+              "world-9-7-t04",
+              "world-9-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-8",
+            "questionIds": [
+              "world-9-8-t01",
+              "world-9-8-t02",
+              "world-9-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-8",
+            "questionIds": [
+              "world-9-8-t04",
+              "world-9-8-t05",
+              "world-9-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-9",
+            "questionIds": [
+              "world-9-9-t01",
+              "world-9-9-t02",
+              "world-9-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-9-practice-test",
+      "title": "Unit 9 Practice Test",
+      "questionCount": 50
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-9-1-quiz",
+        "title": "Technology and Exchange topic quiz"
+      },
+      {
+        "id": "world-9-2-quiz",
+        "title": "Disease After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-3-quiz",
+        "title": "Debates About the Environment topic quiz"
+      },
+      {
+        "id": "world-9-4-quiz",
+        "title": "Economics in the Global Age topic quiz"
+      },
+      {
+        "id": "world-9-5-quiz",
+        "title": "Calls for Reform and Responses After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-6-quiz",
+        "title": "Globalized Culture After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-7-quiz",
+        "title": "Resistance to Globalization topic quiz"
+      },
+      {
+        "id": "world-9-8-quiz",
+        "title": "Global Institutions topic quiz"
+      },
+      {
+        "id": "world-9-9-quiz",
+        "title": "Continuity and Change in a Globalized World topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-9-1",
+      "courseId": "world",
+      "unitId": "world-9",
+      "order": 1,
+      "code": "9.1",
+      "title": "Advances in Technology and Exchange After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How new communication, transportation, agriculture, and medicine shrank distances and lengthened lives."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-9-saq-01",
+        "title": "Unit 9 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-9-6",
+    "courseId": "world",
+    "unitId": "world-9",
+    "order": 6,
+    "code": "9.6",
+    "title": "Globalized Culture After 1900",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How consumer culture, film, music, and sports spread across the world in many directions."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "d89a099fcee56231",
+  "questions": [
+    {
+      "id": "world-9-6-q01",
+      "topicId": "world-9-6",
+      "concept": "global-culture",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which of the following is an example of non-Western culture gaining a global audience?",
+      "choices": [
+        "The spread of McDonald's restaurants to Asia",
+        "The popularity of Bollywood films in Africa",
+        "Hollywood films shown in European theaters",
+        "Coca-Cola sold in markets across Asia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Indian films reached audiences across Asia and Africa.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "McDonald's is an American company.",
+        "Indian films reached audiences across Asia and Africa.",
+        "Hollywood is American.",
+        "Coca-Cola is American."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "McDonald's spread globally, but it is an American brand.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-9-6-q02",
+      "topicId": "world-9-6",
+      "concept": "global-culture",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains the rapid global spread of Korean pop music?",
+      "choices": [
+        "Social media and the internet",
+        "Korea's colonial empire in Asia",
+        "Trade along the old Silk Roads",
+        "Government bans on Western music"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Online platforms let fans worldwide share and watch music.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "Online platforms let fans worldwide share and watch music.",
+        "Korea was colonized, not a colonizer, in the twentieth century.",
+        "The Silk Roads were premodern.",
+        "Western music remained widely available."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Korea was ruled by Japan from 1910 to 1945, not a colonial power.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-9-6-q03",
+      "topicId": "world-9-6",
+      "concept": "global-culture",
+      "difficulty": "Core",
+      "skill": "argumentation",
+      "prompt": "Which claim about global culture after 1945 is most defensible?",
+      "choices": [
+        "It was entirely American",
+        "It flowed in many directions",
+        "Local cultures disappeared",
+        "It was limited to Europe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Indian, Jamaican, Japanese, and Korean culture spread too.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "Non-Western culture spread widely.",
+        "Indian, Jamaican, Japanese, and Korean culture spread too.",
+        "Local cultures adapted.",
+        "It reached every continent."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "American brands spread widely, but culture also flowed from elsewhere.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-9-6-q04",
+      "topicId": "world-9-6",
+      "concept": "sports",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "The popularity of cricket in India and the Caribbean shows",
+      "choices": [
+        "a continuity from the era of British imperialism",
+        "the lasting influence of the Mongol Empire",
+        "a rejection of British culture after independence",
+        "the spread of American culture after 1945"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cricket spread through the British Empire and remained popular.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "Cricket spread through the British Empire and remained popular.",
+        "Cricket is British.",
+        "Cricket remained popular after independence.",
+        "Cricket is British, not American."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Former colonies kept cricket after independence and made it their own.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-9-6-q05",
+      "topicId": "world-9-6",
+      "concept": "sports",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Television and satellite broadcasting affected sports by",
+      "choices": [
+        "making them global events",
+        "ending international competition",
+        "limiting audiences",
+        "banning the World Cup"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Broadcasts created worldwide audiences.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "Broadcasts created worldwide audiences.",
+        "Competition grew.",
+        "Audiences grew.",
+        "The World Cup grew."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Broadcasting expanded audiences rather than limiting them.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-9-6-t01",
+      "topicId": "world-9-6",
+      "concept": "global-culture",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, critics of American brands worried about",
+      "choices": [
+        "the decline of Hollywood's film studios",
+        "the replacement of local cultures",
+        "the spread of Bollywood films",
+        "the end of social media platforms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They feared Americanization.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "Hollywood films reached audiences worldwide.",
+        "They feared Americanization.",
+        "Bollywood is presented as a counterexample.",
+        "The passage does not say that."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Bollywood's success shows influence flowing toward the United States and others, not the critics' worry.",
+      "stimulusId": "original-consumer-culture",
+      "stimulusBlocks": [
+        {
+          "id": "original-consumer-culture",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.6 key concept: popular and consumer culture became more global",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the spread of global consumer culture after 1950",
+          "text": "After World War II, American brands such as Coca-Cola and McDonald's opened in country after country, and Hollywood films reached audiences worldwide. Critics warned of “Americanization,” the replacement of local cultures with American products.\n\nCultural influence also flowed in many directions. India's film industry, centered in Mumbai and known as Bollywood, produces more films each year than Hollywood and has audiences across Asia, Africa, and the Middle East. Japanese anime and South Korean pop music developed global fan bases, often spread by social media."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-9-6-t02",
+      "topicId": "world-9-6",
+      "concept": "global-culture",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The second paragraph of the passage is used to",
+      "choices": [
+        "support the critics' argument about Americanization",
+        "qualify the claim that global culture was American",
+        "argue that Hollywood made more films than Bollywood",
+        "show that culture stopped spreading after 1950"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It shows culture flowing from India, Japan, and Korea.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "It complicates their argument.",
+        "It shows culture flowing from India, Japan, and Korea.",
+        "Bollywood makes more films.",
+        "It describes culture spreading."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The paragraph complicates the critics' view rather than supporting it.",
+      "stimulusId": "original-consumer-culture",
+      "stimulusBlocks": [
+        {
+          "id": "original-consumer-culture",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.6 key concept: popular and consumer culture became more global",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the spread of global consumer culture after 1950",
+          "text": "After World War II, American brands such as Coca-Cola and McDonald's opened in country after country, and Hollywood films reached audiences worldwide. Critics warned of “Americanization,” the replacement of local cultures with American products.\n\nCultural influence also flowed in many directions. India's film industry, centered in Mumbai and known as Bollywood, produces more films each year than Hollywood and has audiences across Asia, Africa, and the Middle East. Japanese anime and South Korean pop music developed global fan bases, often spread by social media."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-9-6-t03",
+      "topicId": "world-9-6",
+      "concept": "global-culture",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The developments in the passage were made possible mainly by",
+      "choices": [
+        "new communication technologies",
+        "the decline of world trade after 1950",
+        "the Columbian Exchange",
+        "the end of large-scale migration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Film, television, and social media carried culture across borders.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "Film, television, and social media carried culture across borders.",
+        "World trade grew after 1950.",
+        "The Columbian Exchange began centuries before film and television.",
+        "Migration continued."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Global brands spread as trade expanded, not as it declined.",
+      "stimulusId": "original-consumer-culture",
+      "stimulusBlocks": [
+        {
+          "id": "original-consumer-culture",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.6 key concept: popular and consumer culture became more global",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the spread of global consumer culture after 1950",
+          "text": "After World War II, American brands such as Coca-Cola and McDonald's opened in country after country, and Hollywood films reached audiences worldwide. Critics warned of “Americanization,” the replacement of local cultures with American products.\n\nCultural influence also flowed in many directions. India's film industry, centered in Mumbai and known as Bollywood, produces more films each year than Hollywood and has audiences across Asia, Africa, and the Middle East. Japanese anime and South Korean pop music developed global fan bases, often spread by social media."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-9-6-t04",
+      "topicId": "world-9-6",
+      "concept": "sports",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, Bob Marley's reggae found audiences in Africa and Europe partly because of",
+      "choices": [
+        "its songs about poverty and resistance",
+        "its use at the opening of the World Cup",
+        "support from the British government",
+        "its origins in Mumbai's film industry"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Its themes resonated with listeners far from Jamaica.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "Its themes resonated with listeners far from Jamaica.",
+        "The passage does not link reggae to the World Cup.",
+        "The passage does not mention government support.",
+        "Reggae developed in Jamaica."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Mumbai is the center of Bollywood; reggae came from Jamaica.",
+      "stimulusId": "original-sports-music",
+      "stimulusBlocks": [
+        {
+          "id": "original-sports-music",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.6 key concept: arts, entertainment, and sports increasingly reflected the influence of a globalized society",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing global sports and music after 1960",
+          "text": "Reggae music, which developed in Jamaica in the 1960s, spread worldwide through artists such as Bob Marley, whose songs about poverty and resistance found audiences in Africa and Europe.\n\nSports also became global. Hundreds of millions of people watch the FIFA World Cup, and cricket, spread by the British Empire, became a national passion in India, Pakistan, and the Caribbean. Players now move between leagues on different continents."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-9-6-t05",
+      "topicId": "world-9-6",
+      "concept": "sports",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "The passage's description of cricket best illustrates",
+      "choices": [
+        "a cultural legacy of empire",
+        "the rejection of colonial culture",
+        "the decline of team sports",
+        "the spread of American culture"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cricket spread through the British Empire and endured.",
+      "sourceIds": [
+        "ced-topic-9-6"
+      ],
+      "choiceExplanations": [
+        "Cricket spread through the British Empire and endured.",
+        "Former colonies embraced cricket.",
+        "Sports became more popular.",
+        "Cricket is British in origin."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Former colonies kept cricket rather than rejecting it.",
+      "stimulusId": "original-sports-music",
+      "stimulusBlocks": [
+        {
+          "id": "original-sports-music",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.6 key concept: arts, entertainment, and sports increasingly reflected the influence of a globalized society",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing global sports and music after 1960",
+          "text": "Reggae music, which developed in Jamaica in the 1960s, spread worldwide through artists such as Bob Marley, whose songs about poverty and resistance found audiences in Africa and Europe.\n\nSports also became global. Hundreds of millions of people watch the FIFA World Cup, and cricket, spread by the British Empire, became a national passion in India, Pakistan, and the Caribbean. Players now move between leagues on different continents."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-9-6-quick",
+      "courseId": "world",
+      "unitId": "world-9",
+      "topicId": "world-9-6",
+      "title": "Topic 9.6 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-9-6-q01",
+        "world-9-6-q02",
+        "world-9-6-q03"
+      ]
+    },
+    {
+      "id": "world-9-6-quiz",
+      "courseId": "world",
+      "unitId": "world-9",
+      "topicId": "world-9-6",
+      "title": "Globalized Culture After 1900 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-9-6-q01",
+        "world-9-6-q02",
+        "world-9-6-q03",
+        "world-9-6-q04",
+        "world-9-6-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "global-culture": {
+      "id": "global-culture",
+      "title": "Culture in many directions",
+      "section": "global-culture",
+      "topicId": "world-9-6"
+    },
+    "sports": {
+      "id": "sports",
+      "title": "Global sports",
+      "section": "sports",
+      "topicId": "world-9-6"
+    }
+  },
+  "assets": {}
+}

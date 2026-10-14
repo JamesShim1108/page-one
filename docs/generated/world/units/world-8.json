@@ -17,15 +17,334 @@
     "number": 8,
     "title": "Cold War and Decolonization",
     "period": "c. 1900–present",
-    "status": "soon",
-    "description": "",
-    "quizzes": [],
+    "status": "ready",
+    "description": "Study how the Cold War divided the world, how colonies won independence, how new states and movements challenged established power, and why the Cold War ended.",
+    "quizzes": [
+      {
+        "id": "world-8-practice-test",
+        "courseId": "world",
+        "unitId": "world-8",
+        "title": "Unit 8 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t01",
+              "world-8-1-t02",
+              "world-8-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t04",
+              "world-8-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t01",
+              "world-8-2-t02",
+              "world-8-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t04",
+              "world-8-2-t05",
+              "world-8-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t07",
+              "world-8-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t01",
+              "world-8-3-t02",
+              "world-8-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t04",
+              "world-8-3-t05",
+              "world-8-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t01",
+              "world-8-4-t02",
+              "world-8-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t04",
+              "world-8-4-t05",
+              "world-8-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t01",
+              "world-8-5-t02",
+              "world-8-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t04",
+              "world-8-5-t05",
+              "world-8-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t07",
+              "world-8-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t01",
+              "world-8-6-t02",
+              "world-8-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t04",
+              "world-8-6-t05",
+              "world-8-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t01",
+              "world-8-7-t02",
+              "world-8-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t04",
+              "world-8-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t01",
+              "world-8-8-t02",
+              "world-8-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t04",
+              "world-8-8-t05",
+              "world-8-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-9",
+            "questionIds": [
+              "world-8-9-t01",
+              "world-8-9-t02",
+              "world-8-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-8-practice-test",
+      "title": "Unit 8 Practice Test",
+      "questionCount": 53
+    },
     "termSets": [],
-    "topicQuizzes": [],
-    "topicCount": 0,
-    "firstTopic": null,
+    "topicQuizzes": [
+      {
+        "id": "world-8-1-quiz",
+        "title": "Setting the Stage topic quiz"
+      },
+      {
+        "id": "world-8-2-quiz",
+        "title": "The Cold War topic quiz"
+      },
+      {
+        "id": "world-8-3-quiz",
+        "title": "Effects of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-4-quiz",
+        "title": "Spread of Communism topic quiz"
+      },
+      {
+        "id": "world-8-5-quiz",
+        "title": "Decolonization topic quiz"
+      },
+      {
+        "id": "world-8-6-quiz",
+        "title": "Newly Independent States topic quiz"
+      },
+      {
+        "id": "world-8-7-quiz",
+        "title": "Global Resistance topic quiz"
+      },
+      {
+        "id": "world-8-8-quiz",
+        "title": "End of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-9-quiz",
+        "title": "Causation in the Cold War Era topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-8-1",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 1,
+      "code": "8.1",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How World War II left two superpowers, exhausted colonial empires, and new demands for independence."
+    },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "world-8-saq-01",
+        "title": "Unit 8 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "world-8-1",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 1,
+      "code": "8.1",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How World War II left two superpowers, exhausted colonial empires, and new demands for independence."
+    },
+    {
+      "id": "world-8-2",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 2,
+      "code": "8.2",
+      "title": "The Cold War",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the United States and the Soviet Union competed through ideology, alliances, aid, and nuclear weapons."
+    },
+    {
+      "id": "world-8-3",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 3,
+      "code": "8.3",
+      "title": "Effects of the Cold War",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the superpowers kept their influence through proxy wars, the arms race, and aid."
+    },
+    {
+      "id": "world-8-4",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 4,
+      "code": "8.4",
+      "title": "Spread of Communism After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How communist and socialist movements won power in China, Cuba, and Vietnam, and how land reform shaped them."
+    },
+    {
+      "id": "world-8-5",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 5,
+      "code": "8.5",
+      "title": "Decolonization After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How colonies in Asia and Africa won independence, some through negotiation and others through war."
+    },
+    {
+      "id": "world-8-6",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 6,
+      "code": "8.6",
+      "title": "Newly Independent States",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How new borders caused mass migration and how new states pursued economic independence."
+    },
+    {
+      "id": "world-8-7",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 7,
+      "code": "8.7",
+      "title": "Global Resistance to Established Power Structures After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How movements used nonviolence, and sometimes violence, to challenge discrimination and authoritarian rule."
+    },
+    {
+      "id": "world-8-8",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 8,
+      "code": "8.8",
+      "title": "End of the Cold War",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How Soviet economic weakness, Gorbachev's reforms, and the revolutions of 1989 ended the Cold War."
+    },
+    {
+      "id": "world-8-9",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 9,
+      "code": "8.9",
+      "title": "Causation in the Age of the Cold War and Decolonization",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Cold War and decolonization shaped each other."
+    }
+  ]
 }

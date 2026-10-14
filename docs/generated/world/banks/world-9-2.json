@@ -1,0 +1,755 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-9",
+    "courseId": "world",
+    "number": 9,
+    "title": "Globalization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how technology, disease, and environmental change reshaped the world, how the global economy and culture developed, and how people and institutions responded to globalization.",
+    "quizzes": [
+      {
+        "id": "world-9-practice-test",
+        "courseId": "world",
+        "unitId": "world-9",
+        "title": "Unit 9 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-9-1",
+            "questionIds": [
+              "world-9-1-t01",
+              "world-9-1-t02",
+              "world-9-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-1",
+            "questionIds": [
+              "world-9-1-t04",
+              "world-9-1-t05",
+              "world-9-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-2",
+            "questionIds": [
+              "world-9-2-t01",
+              "world-9-2-t02",
+              "world-9-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-2",
+            "questionIds": [
+              "world-9-2-t04",
+              "world-9-2-t05",
+              "world-9-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-3",
+            "questionIds": [
+              "world-9-3-t01",
+              "world-9-3-t02",
+              "world-9-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-3",
+            "questionIds": [
+              "world-9-3-t04",
+              "world-9-3-t05",
+              "world-9-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t01",
+              "world-9-4-t02",
+              "world-9-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t04",
+              "world-9-4-t05",
+              "world-9-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-4",
+            "questionIds": [
+              "world-9-4-t07",
+              "world-9-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-9-5",
+            "questionIds": [
+              "world-9-5-t01",
+              "world-9-5-t02",
+              "world-9-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-5",
+            "questionIds": [
+              "world-9-5-t04",
+              "world-9-5-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-6",
+            "questionIds": [
+              "world-9-6-t01",
+              "world-9-6-t02",
+              "world-9-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-6",
+            "questionIds": [
+              "world-9-6-t04",
+              "world-9-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-7",
+            "questionIds": [
+              "world-9-7-t01",
+              "world-9-7-t02",
+              "world-9-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-7",
+            "questionIds": [
+              "world-9-7-t04",
+              "world-9-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-9-8",
+            "questionIds": [
+              "world-9-8-t01",
+              "world-9-8-t02",
+              "world-9-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-9-8",
+            "questionIds": [
+              "world-9-8-t04",
+              "world-9-8-t05",
+              "world-9-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-9-9",
+            "questionIds": [
+              "world-9-9-t01",
+              "world-9-9-t02",
+              "world-9-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-9-practice-test",
+      "title": "Unit 9 Practice Test",
+      "questionCount": 50
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-9-1-quiz",
+        "title": "Technology and Exchange topic quiz"
+      },
+      {
+        "id": "world-9-2-quiz",
+        "title": "Disease After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-3-quiz",
+        "title": "Debates About the Environment topic quiz"
+      },
+      {
+        "id": "world-9-4-quiz",
+        "title": "Economics in the Global Age topic quiz"
+      },
+      {
+        "id": "world-9-5-quiz",
+        "title": "Calls for Reform and Responses After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-6-quiz",
+        "title": "Globalized Culture After 1900 topic quiz"
+      },
+      {
+        "id": "world-9-7-quiz",
+        "title": "Resistance to Globalization topic quiz"
+      },
+      {
+        "id": "world-9-8-quiz",
+        "title": "Global Institutions topic quiz"
+      },
+      {
+        "id": "world-9-9-quiz",
+        "title": "Continuity and Change in a Globalized World topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-9-1",
+      "courseId": "world",
+      "unitId": "world-9",
+      "order": 1,
+      "code": "9.1",
+      "title": "Advances in Technology and Exchange After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How new communication, transportation, agriculture, and medicine shrank distances and lengthened lives."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-9-saq-01",
+        "title": "Unit 9 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-9-2",
+    "courseId": "world",
+    "unitId": "world-9",
+    "order": 2,
+    "code": "9.2",
+    "title": "Technological Advances and Limitations After 1900: Disease",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How medicine defeated some diseases while poverty-related diseases persisted and new epidemics emerged."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "92faf29503a1b78d",
+  "questions": [
+    {
+      "id": "world-9-2-q01",
+      "topicId": "world-9-2",
+      "concept": "epidemics",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which of the following is an example of a disease associated with poverty?",
+      "choices": [
+        "Alzheimer's disease in aging societies",
+        "Cholera spread by unclean water",
+        "Heart disease linked to longer lives",
+        "Smallpox after its eradication in 1980"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cholera persists where clean water is scarce.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "Alzheimer's is associated with longer lives.",
+        "Cholera persists where clean water is scarce.",
+        "Heart disease became common as people lived longer.",
+        "Smallpox no longer occurs."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Heart disease rose with longevity and changing lifestyles, not poverty.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-9-2-q02",
+      "topicId": "world-9-2",
+      "concept": "epidemics",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following helped the influenza pandemic of 1918 spread?",
+      "choices": [
+        "Troop movements at the end of World War I",
+        "Trade carried in the first shipping containers",
+        "Passengers on early jet airliners",
+        "Crowded cities fed by Green Revolution harvests"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Troops carried the virus as they moved and returned home.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "Troops carried the virus as they moved and returned home.",
+        "Containers came after 1956.",
+        "Jet airliners came into use in the 1950s.",
+        "The Green Revolution began in the 1940s."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Global shipping spread disease, but containers did not exist until 1956.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-9-2-q03",
+      "topicId": "world-9-2",
+      "concept": "medical-advances",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The eradication of smallpox by 1980 resulted from",
+      "choices": [
+        "the discovery of antibiotics",
+        "a global vaccination campaign",
+        "the end of global travel",
+        "the Green Revolution"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The World Health Organization led a worldwide vaccination effort.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "Antibiotics fight bacteria; smallpox is a virus.",
+        "The World Health Organization led a worldwide vaccination effort.",
+        "Travel grew.",
+        "That increased food production."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Antibiotics treat bacterial infections; a vaccine stopped the smallpox virus.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-9-2-q04",
+      "topicId": "world-9-2",
+      "concept": "medical-advances",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Rising rates of heart disease and Alzheimer's disease were mainly a result of",
+      "choices": [
+        "people living longer lives",
+        "the influenza pandemic of 1918",
+        "unclean water supplies",
+        "the decline of medicine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Longer lives made diseases of old age more common.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "Longer lives made diseases of old age more common.",
+        "The 1918 pandemic was a viral outbreak.",
+        "Unclean water spreads diseases like cholera.",
+        "Medicine advanced."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Unclean water causes diseases of poverty, not diseases of old age.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-9-2-q05",
+      "topicId": "world-9-2",
+      "concept": "epidemics",
+      "difficulty": "Core",
+      "skill": "argumentation",
+      "prompt": "Which claim about disease after 1900 is most defensible?",
+      "choices": [
+        "Medicine ended the threat of new epidemics by 1980",
+        "Medical advances were real but unevenly shared",
+        "Diseases of poverty disappeared after 1950",
+        "Epidemics stopped crossing national borders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wealthy regions gained access to treatment long before poor ones.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "HIV and COVID-19 were later epidemics.",
+        "Wealthy regions gained access to treatment long before poor ones.",
+        "Malaria and tuberculosis persisted.",
+        "Travel spread epidemics faster."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Medicine defeated smallpox, but new epidemics continued to emerge.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-9-2-t01",
+      "topicId": "world-9-2",
+      "concept": "medical-advances",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Bush's purpose in this passage was most likely to",
+      "choices": [
+        "persuade Congress to fund AIDS treatment in Africa",
+        "argue that AIDS could not be treated",
+        "praise African governments for ending AIDS",
+        "warn Americans against travel to Africa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "He asks Congress to commit $15 billion.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "He asks Congress to commit $15 billion.",
+        "He says drugs can extend life.",
+        "He describes a growing crisis.",
+        "He proposes aid, not travel limits."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Bush describes African nations, but as places in crisis rather than places that had ended AIDS.",
+      "stimulusId": "gwbush-sotu-2003-aids",
+      "stimulusBlocks": [
+        {
+          "id": "gwbush-sotu-2003-aids",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "gwbush-sotu-2003",
+          "amsco_review": "pending",
+          "attribution": "George W. Bush, president of the United States, State of the Union address to Congress, January 28, 2003",
+          "citation": "George W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 28, 2003. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/2003-GWBush.txt).",
+          "note": "Anti-retroviral drugs slow the HIV virus and extend the lives of people with AIDS. Bush proposed the program that became the President's Emergency Plan for AIDS Relief (PEPFAR).",
+          "text": "Today, on the continent of Africa, nearly 30 million people have the AIDS virus - including three million children under the age of 15. There are whole countries in Africa where more than one-third of the adult population carries the infection. More than four million require immediate drug treatment. Yet across that continent, only 50,000 AIDS victims - only 50,000 - are receiving the medicine they need. . . .\n\nAIDS can be prevented. Anti-retroviral drugs can extend life for many years. And the cost of those drugs has dropped from 12,000 dollars a year to under 300 dollars a year - which places a tremendous possibility within our grasp. . . .\n\nI ask the Congress to commit 15 billion dollars over the next five years, including nearly ten billion dollars in new money, to turn the tide against AIDS in the most afflicted nations of Africa and the Caribbean."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-9-2-t02",
+      "topicId": "world-9-2",
+      "concept": "medical-advances",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which evidence in the passage best supports Bush's claim that treatment was within reach?",
+      "choices": [
+        "Nearly 30 million Africans had the virus",
+        "Only 50,000 Africans received the medicine",
+        "Drug costs had fallen to under $300 a year",
+        "Three million children had the virus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Falling prices made mass treatment affordable.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "That shows the crisis's size.",
+        "That shows how few were treated.",
+        "Falling prices made mass treatment affordable.",
+        "That shows the crisis's toll on children."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "That figure shows how far treatment fell short, not that it was achievable.",
+      "stimulusId": "gwbush-sotu-2003-aids",
+      "stimulusBlocks": [
+        {
+          "id": "gwbush-sotu-2003-aids",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "gwbush-sotu-2003",
+          "amsco_review": "pending",
+          "attribution": "George W. Bush, president of the United States, State of the Union address to Congress, January 28, 2003",
+          "citation": "George W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 28, 2003. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/2003-GWBush.txt).",
+          "note": "Anti-retroviral drugs slow the HIV virus and extend the lives of people with AIDS. Bush proposed the program that became the President's Emergency Plan for AIDS Relief (PEPFAR).",
+          "text": "Today, on the continent of Africa, nearly 30 million people have the AIDS virus - including three million children under the age of 15. There are whole countries in Africa where more than one-third of the adult population carries the infection. More than four million require immediate drug treatment. Yet across that continent, only 50,000 AIDS victims - only 50,000 - are receiving the medicine they need. . . .\n\nAIDS can be prevented. Anti-retroviral drugs can extend life for many years. And the cost of those drugs has dropped from 12,000 dollars a year to under 300 dollars a year - which places a tremendous possibility within our grasp. . . .\n\nI ask the Congress to commit 15 billion dollars over the next five years, including nearly ten billion dollars in new money, to turn the tide against AIDS in the most afflicted nations of Africa and the Caribbean."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-9-2-t03",
+      "topicId": "world-9-2",
+      "concept": "epidemics",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The crisis Bush describes is best understood in the context of",
+      "choices": [
+        "the global spread of HIV after the 1980s",
+        "the influenza pandemic that followed World War I",
+        "the eradication of smallpox in Africa and Asia",
+        "the Columbian Exchange of diseases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "HIV spread worldwide and hit sub-Saharan Africa hardest.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "HIV spread worldwide and hit sub-Saharan Africa hardest.",
+        "That pandemic ended in 1919.",
+        "Smallpox was eradicated by 1980.",
+        "That exchange began in 1492."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Both were pandemics, but the 1918 outbreak was influenza.",
+      "stimulusId": "gwbush-sotu-2003-aids",
+      "stimulusBlocks": [
+        {
+          "id": "gwbush-sotu-2003-aids",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "gwbush-sotu-2003",
+          "amsco_review": "pending",
+          "attribution": "George W. Bush, president of the United States, State of the Union address to Congress, January 28, 2003",
+          "citation": "George W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 28, 2003. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/2003-GWBush.txt).",
+          "note": "Anti-retroviral drugs slow the HIV virus and extend the lives of people with AIDS. Bush proposed the program that became the President's Emergency Plan for AIDS Relief (PEPFAR).",
+          "text": "Today, on the continent of Africa, nearly 30 million people have the AIDS virus - including three million children under the age of 15. There are whole countries in Africa where more than one-third of the adult population carries the infection. More than four million require immediate drug treatment. Yet across that continent, only 50,000 AIDS victims - only 50,000 - are receiving the medicine they need. . . .\n\nAIDS can be prevented. Anti-retroviral drugs can extend life for many years. And the cost of those drugs has dropped from 12,000 dollars a year to under 300 dollars a year - which places a tremendous possibility within our grasp. . . .\n\nI ask the Congress to commit 15 billion dollars over the next five years, including nearly ten billion dollars in new money, to turn the tide against AIDS in the most afflicted nations of Africa and the Caribbean."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-9-2-t04",
+      "topicId": "world-9-2",
+      "concept": "epidemics",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, diseases such as malaria and cholera persisted mainly where",
+      "choices": [
+        "people lived the longest and ate the most",
+        "clean water and health care were scarce",
+        "smallpox had been eradicated first",
+        "antibiotics were most widely overused"
+      ],
+      "correctAnswer": 1,
+      "explanation": "These diseases are associated with poverty.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "Long lives bring diseases such as heart disease.",
+        "These diseases are associated with poverty.",
+        "Smallpox was eradicated everywhere.",
+        "The passage links them to poverty."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Longer lives brought heart disease and cancer, not malaria.",
+      "stimulusId": "original-disease-after-1900",
+      "stimulusBlocks": [
+        {
+          "id": "original-disease-after-1900",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.2 key concept: diseases associated with poverty persisted, new epidemics emerged, and longer lives brought other diseases",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing disease and medicine after 1900",
+          "text": "The influenza pandemic of 1918 to 1919 killed tens of millions of people worldwide. Later in the century, vaccines and antibiotics transformed medicine. A global vaccination campaign led by the World Health Organization eradicated smallpox by 1980.\n\nYet diseases associated with poverty, such as malaria, tuberculosis, and cholera, continued to kill millions, especially where clean water and health care were scarce. In wealthier societies, as people lived longer, heart disease, cancer, and Alzheimer's disease became leading causes of death."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-9-2-t05",
+      "topicId": "world-9-2",
+      "concept": "medical-advances",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The passage contrasts wealthier and poorer societies by showing that",
+      "choices": [
+        "both mainly suffered from cholera and malaria",
+        "neither benefited from vaccines or antibiotics",
+        "they faced different leading causes of death",
+        "only poorer societies had longer lives"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Poverty-related diseases persisted in poor regions; diseases of age rose in rich ones.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "Cholera was common where water was unclean.",
+        "Vaccines eradicated smallpox everywhere.",
+        "Poverty-related diseases persisted in poor regions; diseases of age rose in rich ones.",
+        "Wealthier societies had longer lives."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Cholera affected poorer regions, while wealthier ones faced diseases of old age.",
+      "stimulusId": "original-disease-after-1900",
+      "stimulusBlocks": [
+        {
+          "id": "original-disease-after-1900",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.2 key concept: diseases associated with poverty persisted, new epidemics emerged, and longer lives brought other diseases",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing disease and medicine after 1900",
+          "text": "The influenza pandemic of 1918 to 1919 killed tens of millions of people worldwide. Later in the century, vaccines and antibiotics transformed medicine. A global vaccination campaign led by the World Health Organization eradicated smallpox by 1980.\n\nYet diseases associated with poverty, such as malaria, tuberculosis, and cholera, continued to kill millions, especially where clean water and health care were scarce. In wealthier societies, as people lived longer, heart disease, cancer, and Alzheimer's disease became leading causes of death."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-9-2-t06",
+      "topicId": "world-9-2",
+      "concept": "medical-advances",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The passage best supports which claim about medicine after 1900?",
+      "choices": [
+        "It eliminated all infectious diseases by 1980",
+        "It won major victories but did not end disease",
+        "It had no measurable effect on life expectancy",
+        "It succeeded mainly in the poorest countries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smallpox was eradicated, but many diseases persisted.",
+      "sourceIds": [
+        "ced-topic-9-2"
+      ],
+      "choiceExplanations": [
+        "Malaria, tuberculosis, and cholera persisted.",
+        "Smallpox was eradicated, but many diseases persisted.",
+        "People lived longer.",
+        "Wealthy countries benefited most."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Smallpox was eliminated, but other infectious diseases were not.",
+      "stimulusId": "original-disease-after-1900",
+      "stimulusBlocks": [
+        {
+          "id": "original-disease-after-1900",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 9.2 key concept: diseases associated with poverty persisted, new epidemics emerged, and longer lives brought other diseases",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing disease and medicine after 1900",
+          "text": "The influenza pandemic of 1918 to 1919 killed tens of millions of people worldwide. Later in the century, vaccines and antibiotics transformed medicine. A global vaccination campaign led by the World Health Organization eradicated smallpox by 1980.\n\nYet diseases associated with poverty, such as malaria, tuberculosis, and cholera, continued to kill millions, especially where clean water and health care were scarce. In wealthier societies, as people lived longer, heart disease, cancer, and Alzheimer's disease became leading causes of death."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-9-2-quick",
+      "courseId": "world",
+      "unitId": "world-9",
+      "topicId": "world-9-2",
+      "title": "Topic 9.2 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-9-2-q01",
+        "world-9-2-q02",
+        "world-9-2-q03"
+      ]
+    },
+    {
+      "id": "world-9-2-quiz",
+      "courseId": "world",
+      "unitId": "world-9",
+      "topicId": "world-9-2",
+      "title": "Disease After 1900 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-9-2-q01",
+        "world-9-2-q02",
+        "world-9-2-q03",
+        "world-9-2-q04",
+        "world-9-2-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "epidemics": {
+      "id": "epidemics",
+      "title": "Old and new epidemics",
+      "section": "epidemics",
+      "topicId": "world-9-2"
+    },
+    "medical-advances": {
+      "id": "medical-advances",
+      "title": "Medical advances and longer lives",
+      "section": "medical-advances",
+      "topicId": "world-9-2"
+    }
+  },
+  "assets": {}
+}

@@ -263,4 +263,578 @@ export const sources = [
     url: "https://www.gutenberg.org/ebooks/23700",
     note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
   },
+  // BEGIN unit-01
+  {
+    id: "ced-topic-1-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  {
+    id: "ced-topic-1-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 1.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+  },
+  // END unit-01
+  // BEGIN unit-03
+  {
+    id: "ced-topic-3-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 3.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Empires Expand.",
+  },
+  {
+    id: "ced-topic-3-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 3.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Empires: Administration.",
+  },
+  {
+    id: "ced-topic-3-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 3.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Empires: Belief Systems.",
+  },
+  {
+    id: "ced-topic-3-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 3.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Comparison in Land-Based Empires.",
+  },
+  {
+    id: "busbecq-forster-1881",
+    label:
+      "The Life and Letters of Ogier Ghiselin de Busbecq, trans. Charles Thornton Forster and F. H. Blackburne Daniell (London: C. Kegan Paul, 1881)",
+    url: "https://www.gutenberg.org/ebooks/53629",
+    note: "Public domain. Volume 1 is Project Gutenberg #53629. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "luther-works-1915",
+    label:
+      "Works of Martin Luther, vol. 1, trans. and ed. Adolph Spaeth, L. D. Reed, Henry Eyster Jacobs, et al. (Philadelphia: A. J. Holman Company, 1915)",
+    url: "https://www.gutenberg.org/ebooks/274",
+    note: "Public domain. The Ninety-five Theses are Project Gutenberg #274. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-03
+  // BEGIN unit-04
+  {
+    id: "ced-topic-4-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Technological Innovations from 1450 to 1750.",
+  },
+  {
+    id: "ced-topic-4-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Exploration: Causes and Events from 1450 to 1750.",
+  },
+  {
+    id: "ced-topic-4-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Columbian Exchange.",
+  },
+  {
+    id: "ced-topic-4-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Maritime Empires Established.",
+  },
+  {
+    id: "ced-topic-4-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Maritime Empires Maintained and Developed.",
+  },
+  {
+    id: "ced-topic-4-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Internal and External Challenges to State Power from 1450 to 1750.",
+  },
+  {
+    id: "ced-topic-4-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Changing Social Hierarchies from 1450 to 1750.",
+  },
+  {
+    id: "ced-topic-4-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 4.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Continuity and Change from 1450 to 1750.",
+  },
+  {
+    id: "smith-wealth-of-nations",
+    label:
+      "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations (London, 1776), Project Gutenberg eBook #3300",
+    url: "https://www.gutenberg.org/ebooks/3300",
+    note: "Public domain. The Project Gutenberg text does not state which edition it reproduces. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "montaigne-cotton-1877",
+    label:
+      "The Essays of Montaigne, trans. Charles Cotton, ed. William Carew Hazlitt (1877), Project Gutenberg eBook #3600",
+    url: "https://www.gutenberg.org/ebooks/3600",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-04
+  // BEGIN unit-05
+  {
+    id: "ced-topic-5-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: The Enlightenment.",
+  },
+  {
+    id: "ced-topic-5-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Nationalism and Revolutions in the Period from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-5-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Industrial Revolution Begins.",
+  },
+  {
+    id: "ced-topic-5-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Industrialization Spreads in the Period from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-5-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Technology of the Industrial Age.",
+  },
+  {
+    id: "ced-topic-5-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Industrialization: Government's Role from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-5-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Economic Developments and Innovations in the Industrial Age.",
+  },
+  {
+    id: "ced-topic-5-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Reactions to the Industrial Economy from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-5-9",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.9.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Society and the Industrial Age.",
+  },
+  {
+    id: "ced-topic-5-10",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 5.10.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Continuity and Change in the Industrial Age.",
+  },
+  {
+    id: "locke-second-treatise",
+    label:
+      "John Locke, Second Treatise of Government (1690), Project Gutenberg eBook #7370",
+    url: "https://www.gutenberg.org/ebooks/7370",
+    note: "Public domain text of Locke's treatise. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "wollstonecraft-vindication",
+    label:
+      "Mary Wollstonecraft, A Vindication of the Rights of Woman (1792), Project Gutenberg eBook #3420",
+    url: "https://www.gutenberg.org/ebooks/3420",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "paine-common-sense",
+    label:
+      "Thomas Paine, Common Sense (Philadelphia, 1776), Project Gutenberg eBook #147",
+    url: "https://www.gutenberg.org/ebooks/147",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "marx-engels-1888",
+    label:
+      "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, English edition of 1888, trans. Samuel Moore, ed. Friedrich Engels, Project Gutenberg eBook #61",
+    url: "https://www.gutenberg.org/ebooks/61",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "smiles-self-help",
+    label:
+      "Samuel Smiles, Self-Help (first published 1859; London: John Murray, 1897 edition), Project Gutenberg eBook #935",
+    url: "https://www.gutenberg.org/ebooks/935",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-05
+  // BEGIN unit-06
+  {
+    id: "ced-topic-6-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Rationales for Imperialism from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: State Expansion from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Indigenous Responses to State Expansion from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Global Economic Development from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Economic Imperialism from 1750 to 1900.",
+  },
+  {
+    id: "ced-topic-6-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causes of Migration in an Interconnected World.",
+  },
+  {
+    id: "ced-topic-6-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Effects of Migration.",
+  },
+  {
+    id: "ced-topic-6-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 6.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causation in the Imperial Age.",
+  },
+  {
+    id: "mill-on-liberty",
+    label:
+      "John Stuart Mill, On Liberty (1859; London: Walter Scott Publishing, with an introduction by W. L. Courtney), Project Gutenberg eBook #34901",
+    url: "https://www.gutenberg.org/ebooks/34901",
+    note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-06
+  // BEGIN unit-07
+  {
+    id: "ced-topic-7-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Shifting Power After 1900.",
+  },
+  {
+    id: "ced-topic-7-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causes of World War I.",
+  },
+  {
+    id: "ced-topic-7-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Conducting World War I.",
+  },
+  {
+    id: "ced-topic-7-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Economy in the Interwar Period.",
+  },
+  {
+    id: "ced-topic-7-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Unresolved Tensions After World War I.",
+  },
+  {
+    id: "ced-topic-7-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causes of World War II.",
+  },
+  {
+    id: "ced-topic-7-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Conducting World War II.",
+  },
+  {
+    id: "ced-topic-7-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Mass Atrocities After 1900.",
+  },
+  {
+    id: "ced-topic-7-9",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 7.9.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causation in Global Conflict.",
+  },
+  {
+    id: "keynes-consequences",
+    label:
+      "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), Project Gutenberg eBook #15776",
+    url: "https://www.gutenberg.org/ebooks/15776",
+    note: "Public domain in the United States. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "reed-ten-days",
+    label:
+      "John Reed, Ten Days That Shook the World (1919), Project Gutenberg eBook #3076",
+    url: "https://www.gutenberg.org/ebooks/3076",
+    note: "Public domain in the United States. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  // END unit-07
+  // BEGIN unit-08
+  {
+    id: "ced-topic-8-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Setting the Stage for the Cold War and Decolonization.",
+  },
+  {
+    id: "ced-topic-8-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: The Cold War.",
+  },
+  {
+    id: "ced-topic-8-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Effects of the Cold War.",
+  },
+  {
+    id: "ced-topic-8-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Spread of Communism After 1900.",
+  },
+  {
+    id: "ced-topic-8-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Decolonization After 1900.",
+  },
+  {
+    id: "ced-topic-8-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Newly Independent States.",
+  },
+  {
+    id: "ced-topic-8-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Global Resistance to Established Power Structures After 1900.",
+  },
+  {
+    id: "ced-topic-8-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: End of the Cold War.",
+  },
+  {
+    id: "ced-topic-8-9",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 8.9.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Causation in the Age of the Cold War and Decolonization.",
+  },
+  {
+    id: "truman-inaugural-1949",
+    label: "Harry S. Truman, Inaugural Address, January 20, 1949",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK inaugural corpus.",
+  },
+  {
+    id: "kennedy-inaugural-1961",
+    label: "John F. Kennedy, Inaugural Address, January 20, 1961",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK inaugural corpus.",
+  },
+  {
+    id: "bush-sotu-1990",
+    label:
+      "George H. W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 31, 1990",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
+  },
+  // END unit-08
+  // BEGIN unit-09
+  {
+    id: "ced-topic-9-1",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.1.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Advances in Technology and Exchange After 1900.",
+  },
+  {
+    id: "ced-topic-9-2",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.2.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Technological Advances and Limitations After 1900: Disease.",
+  },
+  {
+    id: "ced-topic-9-3",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.3.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Technological Advances: Debates About the Environment After 1900.",
+  },
+  {
+    id: "ced-topic-9-4",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.4.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Economics in the Global Age.",
+  },
+  {
+    id: "ced-topic-9-5",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.5.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Calls for Reform and Responses After 1900.",
+  },
+  {
+    id: "ced-topic-9-6",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.6.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Globalized Culture After 1900.",
+  },
+  {
+    id: "ced-topic-9-7",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.7.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Resistance to Globalization After 1900.",
+  },
+  {
+    id: "ced-topic-9-8",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.8.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Institutions Developing in a Globalized World.",
+  },
+  {
+    id: "ced-topic-9-9",
+    label:
+      "College Board AP World History: Modern Course and Exam Description, Topic 9.9.",
+    url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+    note: "Topic framework: Continuity and Change in a Globalized World.",
+  },
+  {
+    id: "nixon-sotu-1970",
+    label:
+      "Richard Nixon, Annual Message to the Congress on the State of the Union, January 22, 1970",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
+  },
+  {
+    id: "reagan-inaugural-1981",
+    label: "Ronald Reagan, Inaugural Address, January 20, 1981",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK inaugural corpus.",
+  },
+  {
+    id: "clinton-sotu-2000",
+    label:
+      "William J. Clinton, Address Before a Joint Session of the Congress on the State of the Union, January 27, 2000",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
+  },
+  {
+    id: "gwbush-sotu-2003",
+    label:
+      "George W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 28, 2003",
+    note: "US government work in the public domain. Excerpts are checked with scripts/verify-excerpts.mjs against the C-SPAN transcript distributed in the NLTK State of the Union corpus.",
+  },
+  // END unit-09
 ];

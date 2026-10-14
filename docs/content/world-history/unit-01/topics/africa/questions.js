@@ -1,5 +1,6 @@
 // Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
 // Each question names an AP skill from ../../../skills.js. Stimulus excerpts come from ../../../excerpts.js.
+import { excerpts } from "../../../excerpts.js";
 
 export const bank = {
   questions: [
@@ -355,6 +356,248 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher: "The Swahili coast faces the Indian Ocean.",
     },
+    // BEGIN unit-01 practice test
+    // Unit 1 Practice Test items (t-numbered): AP-style sets that each depend on one stimulus.
+    {
+      id: "world-1-5-t01",
+      topicId: "world-1-5",
+      concept: "africa-ethiopia",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which of the following conclusions about Abash is best supported by the passage?",
+      choices: [
+        "It was isolated from contact with other states and religions",
+        "It was a Christian state ruled directly by the Byzantine emperor",
+        "It was a Christian state whose ruler had authority over other kings",
+        "It was a Muslim sultanate allied with the ruler of Aden",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Polo says the greatest of the six kings is a Christian to whom the others are subject.",
+      sourceIds: ["ced-topic-1-5", "polo-yule-1903"],
+      choiceExplanations: [
+        "The passage mentions wars with neighbors and a pilgrimage to Jerusalem, evidence of contact.",
+        "Polo describes a Christian king of Abash, not Byzantine rule.",
+        "Polo says the greatest of the six kings is a Christian to whom the others are subject.",
+        "Polo describes Abash as at war with the Soldan of Aden.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Ethiopia was Christian, but it had its own kings; Polo says the greatest of its six kings was its overlord.",
+      stimulusId: "polo-abash",
+      stimulusBlocks: [excerpts.poloAbash],
+    },
+    {
+      id: "world-1-5-t02",
+      topicId: "world-1-5",
+      concept: "africa-ethiopia",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "The Christian kingship described in the passage is best understood in the context of",
+      choices: [
+        "a Christian tradition in the region dating back to the kingdom of Aksum",
+        "a Christian tradition introduced to the region by crusaders from Europe",
+        "Mongol conquests that spread Christianity in Northeast Africa",
+        "the recent arrival of Portuguese missionaries on the East African coast",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Ethiopian Christianity grew out of Aksum's conversion in the fourth century, and the Solomonic dynasty claimed that heritage.",
+      sourceIds: ["ced-topic-1-5", "polo-yule-1903"],
+      choiceExplanations: [
+        "Ethiopian Christianity grew out of Aksum's conversion in the fourth century, and the Solomonic dynasty claimed that heritage.",
+        "Ethiopian Christianity was much older than the Crusades.",
+        "The Mongols did not conquer Northeast Africa.",
+        "Portuguese missionaries arrived after 1500, too late for Polo's account.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "There was a long Christian tradition, but it came from Aksum's conversion centuries earlier, not from crusaders.",
+      stimulusId: "polo-abash",
+      stimulusBlocks: [excerpts.poloAbash],
+    },
+    {
+      id: "world-1-5-t03",
+      topicId: "world-1-5",
+      concept: "africa-ethiopia",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Which of the following most limits the usefulness of the passage as evidence about Ethiopia?",
+      choices: [
+        "Polo wrote it in Arabic for a Muslim audience in Aden",
+        "Polo based it on Ethiopian royal chronicles that he translated",
+        "Polo wrote it while serving as an official of the Ethiopian king",
+        "Polo based it on reports he heard rather than on his own observation",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Polo did not visit Ethiopia, so his description relies on secondhand reports that may be inaccurate.",
+      sourceIds: ["ced-topic-1-5", "polo-yule-1903"],
+      choiceExplanations: [
+        "Polo's book was written for European readers, not in Arabic.",
+        "There is no evidence Polo read or translated Ethiopian chronicles.",
+        "Polo never served the Ethiopian king.",
+        "Polo did not visit Ethiopia, so his description relies on secondhand reports that may be inaccurate.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Using reports is the issue, but Polo did not translate Ethiopian chronicles; he relied on what traders told him.",
+      stimulusId: "polo-abash",
+      stimulusBlocks: [excerpts.poloAbash],
+    },
+    {
+      id: "world-1-5-t04",
+      topicId: "world-1-5",
+      concept: "africa-zimbabwe",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "The Chinese porcelain and Persian pottery found at Great Zimbabwe are best used as evidence that",
+      choices: [
+        "Great Zimbabwe was built by merchants from China and Persia",
+        "Great Zimbabwe was connected to Indian Ocean trade networks",
+        "Great Zimbabwe was connected to trans-Saharan trade routes",
+        "Great Zimbabwe produced porcelain for export",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Goods from China and Persia reached the site through the Swahili coast and Indian Ocean trade.",
+      sourceIds: ["ced-topic-1-5"],
+      choiceExplanations: [
+        "Imported goods show connection, not foreign builders; the passage rejects that claim.",
+        "Goods from China and Persia reached the site through the Swahili coast and Indian Ocean trade.",
+        "Great Zimbabwe traded toward the east coast, not across the Sahara.",
+        "The porcelain was imported, not made at the site.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Long-distance connection is right, but Great Zimbabwe's goods moved toward the Swahili coast and the Indian Ocean, not across the Sahara.",
+      stimulusId: "original-great-zimbabwe",
+      stimulusBlocks: [excerpts.originalGreatZimbabwe],
+    },
+    {
+      id: "world-1-5-t05",
+      topicId: "world-1-5",
+      concept: "africa-zimbabwe",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "The claims made by some European writers in the 1800s, described in the passage, were most likely shaped by",
+      choices: [
+        "the oral traditions of Shona-speaking communities",
+        "racist assumptions used to justify European colonial expansion",
+        "careful study of Arabic accounts written by visiting merchants",
+        "careful archaeological excavation of the stone enclosures",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Denying African achievement supported racist ideas used to justify colonial rule in the 1800s.",
+      sourceIds: ["ced-topic-1-5"],
+      choiceExplanations: [
+        "Shona traditions connected the site to their own ancestors, contradicting the writers' claim.",
+        "Denying African achievement supported racist ideas used to justify colonial rule in the 1800s.",
+        "No such accounts support the writers' claim; it rested on assumptions, not evidence.",
+        "Archaeological research disproved the claim.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Shona oral traditions linked the site to African ancestors; they would not support the claim that Africans could not build it.",
+      stimulusId: "original-great-zimbabwe",
+      stimulusBlocks: [excerpts.originalGreatZimbabwe],
+    },
+    {
+      id: "world-1-5-t06",
+      topicId: "world-1-5",
+      concept: "africa-mali",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which aspect of Mali's government does Ibn Battuta praise most directly in the passage?",
+      choices: [
+        "Its policy of forcing all subjects to convert to Islam",
+        "Its success in keeping order by confiscating foreign property",
+        "Its system of examinations for selecting officials",
+        "Its success in keeping order and protecting travelers",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "He stresses security: neither travelers nor residents feared robbers.",
+      sourceIds: ["ced-topic-1-5", "battuta-gibb-1929"],
+      choiceExplanations: [
+        "He praises Muslim devotion but does not describe forced conversion.",
+        "He says the property of a foreigner who dies is kept safe for the rightful heir.",
+        "Mali did not use civil service examinations.",
+        "He stresses security: neither travelers nor residents feared robbers.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Order is right, but Ibn Battuta says Mali did not confiscate the property of foreigners who died there.",
+      stimulusId: "battuta-mali",
+      stimulusBlocks: [excerpts.battutaMali],
+    },
+    {
+      id: "world-1-5-t07",
+      topicId: "world-1-5",
+      concept: "africa-mali",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "Ibn Battuta's observations of Islamic practice in Mali are best explained by",
+      choices: [
+        "the spread of Islam through trans-Saharan trade and the patronage of Mali's rulers",
+        "the conquest of Mali by Mamluk armies from Egypt",
+        "the spread of Islam through trans-Saharan trade, which quickly ended all local traditions",
+        "the work of Christian missionaries who taught Arabic in Timbuktu",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Muslim merchants and rulers such as Mansa Musa supported mosques and learning in Mali.",
+      sourceIds: ["ced-topic-1-5", "battuta-gibb-1929"],
+      choiceExplanations: [
+        "Muslim merchants and rulers such as Mansa Musa supported mosques and learning in Mali.",
+        "Mali was never conquered by the Mamluks.",
+        "Ibn Battuta criticizes customs such as dust on heads, which shows local traditions continued.",
+        "Islamic learning in Timbuktu was supported by Muslim scholars, not Christian missionaries.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Trade did spread Islam, but Ibn Battuta's own complaints show local customs continued.",
+      stimulusId: "battuta-mali",
+      stimulusBlocks: [excerpts.battutaMali],
+    },
+    {
+      id: "world-1-5-t08",
+      topicId: "world-1-5",
+      concept: "africa-culture",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt: "Ibn Battuta's criticism of some customs in Mali is most likely shaped by",
+      choices: [
+        "his desire to attract European merchants to West Africa",
+        "his background as a merchant seeking to buy Malian gold",
+        "his background as a Muslim legal scholar from North Africa",
+        "his role as an official of the Mali government",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "As a scholar of Islamic law, he judged local customs against his own standards of proper Muslim practice.",
+      sourceIds: ["ced-topic-1-5", "battuta-gibb-1929"],
+      choiceExplanations: [
+        "His account was written for a Muslim audience in Morocco.",
+        "His criticisms concern religious and social customs, not the gold trade.",
+        "As a scholar of Islamic law, he judged local customs against his own standards of proper Muslim practice.",
+        "He was a visitor, not an official of Mali.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Ibn Battuta traveled widely and traded at times, but his judgments about proper practice reflect his training in Islamic law.",
+      stimulusId: "battuta-mali",
+      stimulusBlocks: [excerpts.battutaMali],
+    },
+    // END unit-01 practice test
   ],
   quizzes: [
     {

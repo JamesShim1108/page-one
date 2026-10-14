@@ -1,0 +1,521 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-4",
+    "courseId": "world",
+    "number": 4,
+    "title": "Transoceanic Interconnections",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how new maritime technology, state-sponsored voyages, the Columbian Exchange, and coerced labor connected the world's oceans and reshaped societies.",
+    "quizzes": [
+      {
+        "id": "world-4-practice-test",
+        "courseId": "world",
+        "unitId": "world-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t01",
+              "world-4-1-t02",
+              "world-4-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t04",
+              "world-4-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t01",
+              "world-4-2-t02",
+              "world-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t04",
+              "world-4-2-t05",
+              "world-4-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t07",
+              "world-4-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t01",
+              "world-4-3-t02",
+              "world-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t04",
+              "world-4-3-t05",
+              "world-4-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t01",
+              "world-4-4-t02",
+              "world-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t04",
+              "world-4-4-t05",
+              "world-4-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t07",
+              "world-4-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t01",
+              "world-4-5-t02",
+              "world-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t04",
+              "world-4-5-t05",
+              "world-4-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t07",
+              "world-4-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t09",
+              "world-4-5-t10"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t01",
+              "world-4-6-t02",
+              "world-4-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t04",
+              "world-4-6-t05",
+              "world-4-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t01",
+              "world-4-7-t02",
+              "world-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t04",
+              "world-4-7-t05",
+              "world-4-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t01",
+              "world-4-8-t02",
+              "world-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t04",
+              "world-4-8-t05"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 54
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-4-1-quiz",
+        "title": "Technological Innovations from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-2-quiz",
+        "title": "Exploration: Causes and Events from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-3-quiz",
+        "title": "Columbian Exchange topic quiz"
+      },
+      {
+        "id": "world-4-4-quiz",
+        "title": "Maritime Empires Established topic quiz"
+      },
+      {
+        "id": "world-4-5-quiz",
+        "title": "Maritime Empires Maintained and Developed topic quiz"
+      },
+      {
+        "id": "world-4-6-quiz",
+        "title": "Internal and External Challenges to State Power from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-7-quiz",
+        "title": "Changing Social Hierarchies from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-8-quiz",
+        "title": "Continuity and Change from 1450 to 1750 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-4-1",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-4-1",
+    "courseId": "world",
+    "unitId": "world-4",
+    "order": 1,
+    "code": "4.1",
+    "title": "Technological Innovations from 1450 to 1750",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "722b81736dd1ef52",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-4-1",
+    "unitId": "world-4",
+    "courseId": "world",
+    "code": "4.1",
+    "title": "Technological Innovations from 1450 to 1750",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "order": 1,
+    "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible.",
+    "minutes": 9,
+    "learningGoals": [
+      "Explain how cross-cultural interactions spread technology that changed patterns of trade and travel.",
+      "Describe the ship designs and navigational tools that made long ocean voyages practical."
+    ],
+    "bigIdea": "Europeans combined navigational knowledge and tools from Asia and the Islamic world with new ship designs, which made voyages across open oceans possible.",
+    "context": "Before 1450, sailors in the Indian Ocean, South China Sea, and Mediterranean had long used compasses, lateen sails, and seasonal winds. Atlantic Europeans built on this knowledge.",
+    "sections": [
+      {
+        "id": "borrowed-knowledge",
+        "title": "Borrowed knowledge",
+        "conceptTitle": "Borrowed knowledge",
+        "lenses": [
+          "T",
+          "C"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The magnetic compass came from China. The astrolabe, refined by scholars in the Islamic world, measured the height of stars to find latitude. The lateen sail, a triangular sail used in the Indian Ocean and Mediterranean, let ships sail closer to the wind."
+          },
+          {
+            "type": "paragraph",
+            "text": "European mapmakers also drew on Greek, Arabic, and Chinese geographic knowledge. Printing spread new maps and sailing guides quickly."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Do not describe these tools as European inventions. The AP framework stresses that knowledge from the Classical, Islamic, and Asian worlds made European voyages possible."
+          }
+        ],
+        "takeaway": "European exploration rested on knowledge gathered across Afro-Eurasia.",
+        "sourceIds": [
+          "ced-topic-4-1"
+        ]
+      },
+      {
+        "id": "ships-navigation",
+        "title": "New ships",
+        "conceptTitle": "New ships",
+        "lenses": [
+          "T",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Portuguese builders developed the caravel, a small ship with square and lateen sails that could explore coasts and sail against the wind. Larger carracks carried more cargo and guns for long trading voyages."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Dutch later built the fluyt, a cargo ship designed to carry large loads with a small crew. Lower shipping costs helped the Dutch dominate European trade in the 1600s."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Better ships lowered the cost and risk of long voyages, which made regular ocean trade profitable and encouraged states and merchants to invest in it."
+          }
+        ],
+        "takeaway": "Ship design responded to the goals of exploration, warfare, and cheap cargo transport.",
+        "sourceIds": [
+          "ced-topic-4-1"
+        ]
+      },
+      {
+        "id": "winds-currents",
+        "title": "Winds and currents",
+        "conceptTitle": "Winds and currents",
+        "lenses": [
+          "In",
+          "T"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Sailors learned that Atlantic winds move in large circles. Portuguese captains returning from West Africa swung far west to catch winds blowing toward Europe. Columbus used the trade winds that blow west near the Canary Islands."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the Indian Ocean, monsoon winds had long set the rhythm of trade. When Vasco da Gama reached East Africa in 1498, he hired a local pilot who knew the route to India."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Europeans did not discover the monsoons. They learned the Indian Ocean system from sailors who had used it for centuries."
+          }
+        ],
+        "takeaway": "Understanding wind patterns turned dangerous voyages into repeatable routes.",
+        "sourceIds": [
+          "ced-topic-4-1"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "astrolabe",
+        "topicId": "world-4-1",
+        "term": "astrolabe",
+        "definition": "An instrument, refined in the Islamic world, that measures the angle of the sun or stars to help find latitude."
+      },
+      {
+        "id": "lateen-sail",
+        "topicId": "world-4-1",
+        "term": "lateen sail",
+        "definition": "A triangular sail, long used in the Indian Ocean and Mediterranean, that lets a ship sail closer to the direction of the wind."
+      },
+      {
+        "id": "caravel",
+        "topicId": "world-4-1",
+        "term": "caravel",
+        "definition": "A small, maneuverable Portuguese ship with square and lateen sails, used for exploring the African coast."
+      },
+      {
+        "id": "fluyt",
+        "topicId": "world-4-1",
+        "term": "fluyt",
+        "definition": "A Dutch cargo ship designed to carry large loads with a small crew, which lowered shipping costs."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-4-astrolabe",
+        "world-4-lateen-sail",
+        "world-4-caravel",
+        "world-4-fluyt"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Unit 2 bridge",
+        "title": "Indian Ocean knowledge",
+        "body": "Unit 2 described monsoon sailing and the compass in Indian Ocean trade. Those same tools and wind patterns made Portuguese voyages to Asia possible.",
+        "transferQuestion": "How did knowledge from Indian Ocean trade help European sailors after 1450?",
+        "feedback": "Name a tool or wind pattern and explain how Europeans used it.",
+        "links": [
+          {
+            "topicId": "world-2-3",
+            "sectionId": "monsoon-navigation",
+            "label": "Review the monsoon system"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-4-1",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-4-1.json",
+  "glossary": [
+    {
+      "id": "world-4-astrolabe",
+      "term": "astrolabe",
+      "definition": "An instrument, refined in the Islamic world, that measures the angle of the sun or stars to help find latitude.",
+      "aliases": [],
+      "sourceLabel": "Topic 4.1 glossary"
+    },
+    {
+      "id": "world-4-lateen-sail",
+      "term": "lateen sail",
+      "definition": "A triangular sail, long used in the Indian Ocean and Mediterranean, that lets a ship sail closer to the direction of the wind.",
+      "aliases": [],
+      "sourceLabel": "Topic 4.1 glossary"
+    },
+    {
+      "id": "world-4-caravel",
+      "term": "caravel",
+      "definition": "A small, maneuverable Portuguese ship with square and lateen sails, used for exploring the African coast.",
+      "aliases": [],
+      "sourceLabel": "Topic 4.1 glossary"
+    },
+    {
+      "id": "world-4-fluyt",
+      "term": "fluyt",
+      "definition": "A Dutch cargo ship designed to carry large loads with a small crew, which lowered shipping costs.",
+      "aliases": [],
+      "sourceLabel": "Topic 4.1 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-4-1",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 4.1.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Technological Innovations from 1450 to 1750."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

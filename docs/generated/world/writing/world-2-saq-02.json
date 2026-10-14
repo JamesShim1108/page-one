@@ -211,8 +211,169 @@
             ]
           }
         ]
+      },
+      {
+        "id": "world-2-practice-test",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q06",
+              "world-2-1-q07",
+              "world-2-1-q08"
+            ]
+          },
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q11",
+              "world-2-1-q12",
+              "world-2-1-q13"
+            ]
+          },
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q05",
+              "world-2-2-q06",
+              "world-2-2-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q10",
+              "world-2-2-q11",
+              "world-2-2-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q05",
+              "world-2-3-q06",
+              "world-2-3-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q10",
+              "world-2-3-q11",
+              "world-2-3-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q05",
+              "world-2-4-q06",
+              "world-2-4-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q10",
+              "world-2-4-q11",
+              "world-2-4-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q05",
+              "world-2-5-q06",
+              "world-2-5-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q10",
+              "world-2-5-q11",
+              "world-2-5-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q05",
+              "world-2-6-q06",
+              "world-2-6-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q10",
+              "world-2-6-q11",
+              "world-2-6-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q05",
+              "world-2-7-q06",
+              "world-2-7-q07"
+            ]
+          }
+        ]
       }
     ],
+    "practiceTest": {
+      "id": "world-2-practice-test",
+      "title": "Unit 2 Practice Test",
+      "questionCount": 51
+    },
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -446,6 +607,8 @@
         "id": "original-mongol-interpretation",
         "type": "source",
         "sourceType": "original",
+        "source": "CED Topic 2.2, KC-3.2.II.A.ii: interregional contacts and conflicts, including those of the Mongols, encouraged significant technological and cultural transfers",
+        "amsco_review": "pending",
         "attribution": "Practice passage written for Page One, summarizing how historians' interpretations of the Mongol Empire have changed",
         "text": "Historians once described the Mongols chiefly as destroyers, emphasizing the massacres at cities that resisted, such as Baghdad in 1258. More recent scholarship has stressed what the Mongols built: relay stations for official travel, protection for merchants, and the movement of artisans, physicians, and astronomers between courts from China to Persia. In this view, Mongol rule left Eurasia more connected than ever before.\n\nThese two pictures are not opposites. The same empire that destroyed cities also moved their surviving craftsmen to new capitals, and the security merchants enjoyed was built on overwhelming violence. A convincing account of the Mongols has to hold both together."
       }

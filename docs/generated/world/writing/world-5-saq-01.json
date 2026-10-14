@@ -1,0 +1,437 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-5",
+    "courseId": "world",
+    "number": 5,
+    "title": "Revolutions",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "quiz": {
+    "id": "world-5-saq-01",
+    "version": 1,
+    "courseId": "world",
+    "unitId": "world-5",
+    "title": "Unit 5 SAQ 01",
+    "headline": "Locke and the right of revolution",
+    "promptTitle": "Primary-source short-answer question",
+    "prompt": "Use the passage below to answer all parts of the question.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
+    "stimulusBlocks": [
+      {
+        "id": "locke-consent",
+        "type": "source",
+        "sourceType": "primary",
+        "source": "locke-second-treatise",
+        "amsco_review": "pending",
+        "attribution": "John Locke, English philosopher, Second Treatise of Government, 1690",
+        "citation": "John Locke, Second Treatise of Government, sections 95 and 222. Project Gutenberg eBook #7370.",
+        "note": "Locke uses “property” to mean people's lives, liberties, and estates. The legislative is the lawmaking power.",
+        "text": "MEN being, as has been said, by nature, all free, equal, and independent, no one can be put out of this estate, and subjected to the political power of another, without his own consent. . . .\n\n. . . whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience . . . . Whensoever therefore the legislative shall transgress this fundamental rule of society; and either by ambition, fear, folly or corruption, endeavour to grasp themselves, or put into the hands of any other, an absolute power over the lives, liberties, and estates of the people; by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who have a right to resume their original liberty . . . ."
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Answer",
+        "text": "Respond directly to the task verb: identify, describe, or explain."
+      },
+      {
+        "label": "Prove",
+        "text": "Name a specific person, place, institution, or development."
+      },
+      {
+        "label": "Explain",
+        "text": "Show how or why the evidence answers the question."
+      }
+    ],
+    "parts": [
+      {
+        "id": "a",
+        "lenses": [
+          "P",
+          "C"
+        ],
+        "prompt": "Identify ONE argument Locke makes about the source of political authority.",
+        "criteria": [
+          "States a specific argument from the passage.",
+          "Connects it to where authority comes from."
+        ],
+        "model": {
+          "answer": "Locke argues that political authority comes from the consent of the people.",
+          "prove": "He writes that no one can be subjected to the political power of another “without his own consent.”",
+          "explain": "If authority rests on consent, rulers hold power only as long as they serve the people who gave it."
+        },
+        "alternatives": "Answers can also identify his claim that rulers who seize arbitrary power forfeit it and that power then devolves to the people.",
+        "review": [
+          {
+            "topicId": "world-5-1",
+            "sectionId": "natural-rights",
+            "label": "Natural rights"
+          }
+        ]
+      },
+      {
+        "id": "b",
+        "lenses": [
+          "P"
+        ],
+        "prompt": "Explain ONE way ideas like Locke's influenced a revolution in the period 1750 to 1900.",
+        "criteria": [
+          "Names a specific revolution.",
+          "Explains how natural rights or consent shaped it."
+        ],
+        "model": {
+          "answer": "Locke's ideas shaped the American colonists' justification for independence.",
+          "prove": "The Declaration of Independence of 1776 said governments derive their powers from the consent of the governed and may be replaced when they destroy people's rights.",
+          "explain": "Colonists used Locke's argument to claim that Britain had broken its trust, which made revolt a defense of rights rather than rebellion."
+        },
+        "alternatives": "Answers can also explain the French Declaration of the Rights of Man, the Haitian Revolution's claims to liberty, or Latin American independence.",
+        "review": [
+          {
+            "topicId": "world-5-2",
+            "sectionId": "atlantic-revolutions",
+            "label": "American and French revolutions"
+          }
+        ]
+      },
+      {
+        "id": "c",
+        "lenses": [
+          "S",
+          "C"
+        ],
+        "prompt": "Explain ONE way the application of ideas like Locke's was limited in the period 1750 to 1900.",
+        "criteria": [
+          "Names a specific group or situation.",
+          "Explains how rights were limited for that group."
+        ],
+        "model": {
+          "answer": "Many revolutionaries did not extend natural rights to enslaved people.",
+          "prove": "The United States declared that all men are created equal in 1776, yet kept slavery until 1865.",
+          "explain": "Leaders who claimed rights for themselves protected slavery for economic and political reasons, which shows the limits of Enlightenment ideals in practice."
+        },
+        "alternatives": "Answers can also explain the exclusion of women, shown by Wollstonecraft's and Olympe de Gouges's protests, or the exclusion of Indigenous and colonized peoples.",
+        "review": [
+          {
+            "topicId": "world-5-1",
+            "sectionId": "reform-movements",
+            "label": "Reform movements"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "locke-second-treatise",
+      "ced-topic-5-1",
+      "ced"
+    ]
+  }
+}

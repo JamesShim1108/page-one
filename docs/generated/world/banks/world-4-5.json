@@ -1,0 +1,973 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-4",
+    "courseId": "world",
+    "number": 4,
+    "title": "Transoceanic Interconnections",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how new maritime technology, state-sponsored voyages, the Columbian Exchange, and coerced labor connected the world's oceans and reshaped societies.",
+    "quizzes": [
+      {
+        "id": "world-4-practice-test",
+        "courseId": "world",
+        "unitId": "world-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t01",
+              "world-4-1-t02",
+              "world-4-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t04",
+              "world-4-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t01",
+              "world-4-2-t02",
+              "world-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t04",
+              "world-4-2-t05",
+              "world-4-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t07",
+              "world-4-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t01",
+              "world-4-3-t02",
+              "world-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t04",
+              "world-4-3-t05",
+              "world-4-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t01",
+              "world-4-4-t02",
+              "world-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t04",
+              "world-4-4-t05",
+              "world-4-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t07",
+              "world-4-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t01",
+              "world-4-5-t02",
+              "world-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t04",
+              "world-4-5-t05",
+              "world-4-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t07",
+              "world-4-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t09",
+              "world-4-5-t10"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t01",
+              "world-4-6-t02",
+              "world-4-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t04",
+              "world-4-6-t05",
+              "world-4-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t01",
+              "world-4-7-t02",
+              "world-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t04",
+              "world-4-7-t05",
+              "world-4-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t01",
+              "world-4-8-t02",
+              "world-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t04",
+              "world-4-8-t05"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 54
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-4-1-quiz",
+        "title": "Technological Innovations from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-2-quiz",
+        "title": "Exploration: Causes and Events from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-3-quiz",
+        "title": "Columbian Exchange topic quiz"
+      },
+      {
+        "id": "world-4-4-quiz",
+        "title": "Maritime Empires Established topic quiz"
+      },
+      {
+        "id": "world-4-5-quiz",
+        "title": "Maritime Empires Maintained and Developed topic quiz"
+      },
+      {
+        "id": "world-4-6-quiz",
+        "title": "Internal and External Challenges to State Power from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-7-quiz",
+        "title": "Changing Social Hierarchies from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-8-quiz",
+        "title": "Continuity and Change from 1450 to 1750 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-4-1",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-4-5",
+    "courseId": "world",
+    "unitId": "world-4",
+    "order": 5,
+    "code": "4.5",
+    "title": "Maritime Empires Maintained and Developed",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How coerced labor, the Atlantic slave trade, the silver trade, and Asian trade restrictions shaped maritime empires."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "db6b316d27c8eacb",
+  "questions": [
+    {
+      "id": "world-4-5-q01",
+      "topicId": "world-4-5",
+      "concept": "labor-systems",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The encomienda system granted Spanish colonists",
+      "choices": [
+        "the right to demand labor while paying fair wages",
+        "the right to demand labor and tribute from Indigenous communities",
+        "ownership of enslaved Africans brought to the Americas",
+        "land titles on the condition that they pay wages to Indigenous workers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Encomenderos could demand labor and tribute in return for protection and religious instruction.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "The system was coerced, not waged.",
+        "Encomenderos could demand labor and tribute in return for protection and religious instruction.",
+        "The encomienda concerned Indigenous communities, not enslaved Africans.",
+        "It did not require wages."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Labor is right, but the encomienda was not a wage system.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-5-q02",
+      "topicId": "world-4-5",
+      "concept": "atlantic-slave-trade",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following most directly increased the demand for enslaved Africans in the Americas?",
+      "choices": [
+        "The end of the encomienda system in Peru",
+        "The opening of Japanese ports to Dutch traders",
+        "The growth of fur trading between French traders and Indigenous hunters in New France",
+        "The growth of sugar plantations and the decline of Indigenous populations"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sugar's profits and the loss of Indigenous workers led planters to buy enslaved Africans.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Changes to the encomienda did not drive the slave trade.",
+        "Japanese trade policy did not affect Atlantic labor demand.",
+        "The fur trade depended on Indigenous peoples.",
+        "Sugar's profits and the loss of Indigenous workers led planters to buy enslaved Africans."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The fur trade relied on Indigenous hunters, not enslaved Africans.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-4-5-q03",
+      "topicId": "world-4-5",
+      "concept": "silver-trade",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why so much silver flowed to China after 1550?",
+      "choices": [
+        "Spanish laws requiring silver to be stored in Manila",
+        "Chinese demand for silver to pay European armies",
+        "Chinese demand for silver, including for paying taxes",
+        "Chinese demand for European manufactured goods such as clocks and textiles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taxes paid in silver and a growing economy created strong demand.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "No such law existed.",
+        "China did not pay European armies.",
+        "Taxes paid in silver and a growing economy created strong demand.",
+        "Europeans had few goods China wanted, so they paid in silver."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "China mainly exported goods; it did not import many European manufactures, so silver flowed in to pay for Chinese products.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-4-5-q04",
+      "topicId": "world-4-5",
+      "concept": "trade-restrictions",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Tokugawa policies of the 1630s were intended mainly to",
+      "choices": [
+        "limit foreign influence while allowing some controlled trade",
+        "end all contact with every foreign country, including China and Korea",
+        "encourage Japanese merchants to settle overseas",
+        "limit trade while welcoming Christian missionaries"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shogunate banned Christianity and limited trade to tightly controlled partners.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "The shogunate banned Christianity and limited trade to tightly controlled partners.",
+        "Trade continued with the Dutch, Chinese, and Koreans.",
+        "Japanese were forbidden to travel abroad.",
+        "Christianity was banned."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Japan kept trading with the Dutch, China, and Korea; it controlled contact rather than ending it.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-5-q05",
+      "topicId": "world-4-5",
+      "concept": "labor-systems",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Spanish mit'a at Potosí differed from the Inca mit'a in that the Spanish version",
+      "choices": [
+        "required no labor from Indigenous communities",
+        "used rotating labor drafts drawn from the local Indigenous communities",
+        "paid workers wages equal to Spanish miners",
+        "forced workers into dangerous silver mining for colonial profit"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Spain turned the draft into deadly mine labor that enriched the colonial state.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "The Spanish mit'a required labor.",
+        "Both used rotating drafts, so this is a similarity.",
+        "Mit'a workers were poorly paid and coerced.",
+        "Spain turned the draft into deadly mine labor that enriched the colonial state."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Rotating drafts were common to both; the difference was the deadly mining and colonial purpose.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-4-5-q06",
+      "topicId": "world-4-5",
+      "concept": "atlantic-slave-trade",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Chattel slavery in the Atlantic world was distinctive because",
+      "choices": [
+        "enslaved status ended with the death of the enslaver",
+        "enslaved status was hereditary and tied to race",
+        "enslaved people could easily buy their freedom",
+        "it existed only in North America"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Children of enslaved mothers were enslaved, and slavery was defined by race.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "The status was inherited.",
+        "Children of enslaved mothers were enslaved, and slavery was defined by race.",
+        "Freedom was rare and difficult to obtain.",
+        "Most enslaved Africans went to Brazil and the Caribbean."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Enslaved status passed to children; it did not end with the enslaver's death.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-5-t01",
+      "topicId": "world-4-5",
+      "concept": "labor-systems",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, Spanish officials adapted the Inca mit'a in order to",
+      "choices": [
+        "supply workers for the silver mines of Potosí",
+        "build roads for the Inca state",
+        "recruit soldiers for European wars",
+        "supply workers for sugar plantations in Brazil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Communities had to send men to work in the Potosí mines.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Communities had to send men to work in the Potosí mines.",
+        "The Inca state had been conquered.",
+        "Workers were sent to mines, not armies.",
+        "Brazil's plantations relied on enslaved Africans."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The mit'a supplied mine workers in the Andes; Brazilian plantations used enslaved Africans.",
+      "stimulusId": "original-labor-systems",
+      "stimulusBlocks": [
+        {
+          "id": "original-labor-systems",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: the demand for labor intensified, and colonial economies in the Americas depended on coerced labor such as the encomienda, hacienda, and Spanish adaptation of the mit'a",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing labor systems in Spanish America, c. 1500–1700",
+          "text": "Under the encomienda system, the Spanish crown granted colonists the right to demand labor and tribute from Indigenous communities, in return for protecting them and teaching them Christianity. Abuses were widespread, and the crown restricted the system after the 1540s. Large estates called haciendas later relied on Indigenous workers bound by debt.\n\nIn the Andes, Spanish officials adapted the Inca mit'a. Communities had to send a share of their adult men to work for months in the silver mines of Potosí, discovered in 1545. The work was dangerous, and many workers died from accidents and mercury poisoning."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-5-t02",
+      "topicId": "world-4-5",
+      "concept": "labor-systems",
+      "difficulty": "Challenge",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "The adaptation of the mit'a best illustrates",
+      "choices": [
+        "the end of all coerced labor in the Andes",
+        "change in the form of the labor draft combined with continuity in its purpose",
+        "continuity in form combined with change in purpose and conditions",
+        "complete continuity with Inca practice"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The rotating draft continued, but it now served deadly colonial mining.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Coerced labor continued.",
+        "The rotating form continued while the purpose changed.",
+        "The rotating draft continued, but it now served deadly colonial mining.",
+        "Conditions and purpose changed greatly."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The order is reversed: the form stayed similar, while the purpose changed to colonial mining.",
+      "stimulusId": "original-labor-systems",
+      "stimulusBlocks": [
+        {
+          "id": "original-labor-systems",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: the demand for labor intensified, and colonial economies in the Americas depended on coerced labor such as the encomienda, hacienda, and Spanish adaptation of the mit'a",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing labor systems in Spanish America, c. 1500–1700",
+          "text": "Under the encomienda system, the Spanish crown granted colonists the right to demand labor and tribute from Indigenous communities, in return for protecting them and teaching them Christianity. Abuses were widespread, and the crown restricted the system after the 1540s. Large estates called haciendas later relied on Indigenous workers bound by debt.\n\nIn the Andes, Spanish officials adapted the Inca mit'a. Communities had to send a share of their adult men to work for months in the silver mines of Potosí, discovered in 1545. The work was dangerous, and many workers died from accidents and mercury poisoning."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-4-5-t03",
+      "topicId": "world-4-5",
+      "concept": "labor-systems",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Based on the passage, which of the following describes the encomienda system?",
+      "choices": [
+        "Colonists demanded labor and paid Indigenous workers generous wages in return",
+        "Colonists could demand labor and tribute in return for protection",
+        "Indigenous communities hired Spanish colonists as wage workers",
+        "Colonists bought enslaved Africans for mining"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The crown granted labor and tribute in return for protection and Christian teaching.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Workers were not paid generous wages.",
+        "The crown granted labor and tribute in return for protection and Christian teaching.",
+        "The system ran the other way.",
+        "The encomienda concerned Indigenous communities."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The encomienda demanded labor without generous wages; abuses were widespread.",
+      "stimulusId": "original-labor-systems",
+      "stimulusBlocks": [
+        {
+          "id": "original-labor-systems",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: the demand for labor intensified, and colonial economies in the Americas depended on coerced labor such as the encomienda, hacienda, and Spanish adaptation of the mit'a",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing labor systems in Spanish America, c. 1500–1700",
+          "text": "Under the encomienda system, the Spanish crown granted colonists the right to demand labor and tribute from Indigenous communities, in return for protecting them and teaching them Christianity. Abuses were widespread, and the crown restricted the system after the 1540s. Large estates called haciendas later relied on Indigenous workers bound by debt.\n\nIn the Andes, Spanish officials adapted the Inca mit'a. Communities had to send a share of their adult men to work for months in the silver mines of Potosí, discovered in 1545. The work was dangerous, and many workers died from accidents and mercury poisoning."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-5-t04",
+      "topicId": "world-4-5",
+      "concept": "atlantic-slave-trade",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, most enslaved Africans were taken to",
+      "choices": [
+        "North America",
+        "Europe",
+        "Spanish Mexico",
+        "Brazil and the Caribbean"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage says most went to Brazil and the Caribbean.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "North America received a much smaller share.",
+        "Very few were taken to Europe.",
+        "Mexico received fewer than Brazil and the Caribbean.",
+        "The passage says most went to Brazil and the Caribbean."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "North America received a small share compared with Brazil and the Caribbean.",
+      "stimulusId": "original-atlantic-slavery",
+      "stimulusBlocks": [
+        {
+          "id": "original-atlantic-slavery",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: the Atlantic trading system involved the movement of goods, wealth, and free and unfree laborers, and chattel slavery grew with plantation economies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the growth of the Atlantic slave trade, c. 1500–1750",
+          "text": "Sugar plantations in Brazil and the Caribbean demanded huge amounts of labor. As Indigenous populations collapsed, planters turned to enslaved Africans. Over the course of the transatlantic slave trade, about 12.5 million Africans were forced onto ships, and nearly 2 million died during the Middle Passage. Most went to Brazil and the Caribbean.\n\nAtlantic slavery differed from many earlier forms of slavery. Enslaved status was inherited and tied to race, and enslaved people were treated as property, a system called chattel slavery. Yet enslaved Africans kept languages, beliefs, and skills, including rice cultivation, that shaped American societies."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-5-t05",
+      "topicId": "world-4-5",
+      "concept": "atlantic-slave-trade",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "According to the passage, Atlantic slavery differed from many earlier forms of slavery because it",
+      "choices": [
+        "existed in Africa before 1450",
+        "allowed enslaved people to keep property",
+        "was hereditary and tied to race",
+        "involved forced labor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says status was inherited, tied to race, and treated people as property.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Slavery existing earlier is not a difference.",
+        "Chattel slavery treated people as property.",
+        "The passage says status was inherited, tied to race, and treated people as property.",
+        "All slavery involved forced labor."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Forced labor was common to all slavery, so it cannot be the difference.",
+      "stimulusId": "original-atlantic-slavery",
+      "stimulusBlocks": [
+        {
+          "id": "original-atlantic-slavery",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: the Atlantic trading system involved the movement of goods, wealth, and free and unfree laborers, and chattel slavery grew with plantation economies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the growth of the Atlantic slave trade, c. 1500–1750",
+          "text": "Sugar plantations in Brazil and the Caribbean demanded huge amounts of labor. As Indigenous populations collapsed, planters turned to enslaved Africans. Over the course of the transatlantic slave trade, about 12.5 million Africans were forced onto ships, and nearly 2 million died during the Middle Passage. Most went to Brazil and the Caribbean.\n\nAtlantic slavery differed from many earlier forms of slavery. Enslaved status was inherited and tied to race, and enslaved people were treated as property, a system called chattel slavery. Yet enslaved Africans kept languages, beliefs, and skills, including rice cultivation, that shaped American societies."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-4-5-t06",
+      "topicId": "world-4-5",
+      "concept": "atlantic-slave-trade",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The final sentence of the passage would best support which claim?",
+      "choices": [
+        "Enslaved Africans shaped the cultures of American societies",
+        "Enslaved Africans lost all of their cultural traditions",
+        "Rice cultivation began in Europe",
+        "Enslaved Africans shaped American cultures only after 1900"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Languages, beliefs, and skills such as rice cultivation shaped American societies.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Languages, beliefs, and skills such as rice cultivation shaped American societies.",
+        "The passage says they kept many traditions.",
+        "The passage links rice skills to Africa.",
+        "Their influence began during slavery."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage says enslaved Africans kept languages, beliefs, and skills.",
+      "stimulusId": "original-atlantic-slavery",
+      "stimulusBlocks": [
+        {
+          "id": "original-atlantic-slavery",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: the Atlantic trading system involved the movement of goods, wealth, and free and unfree laborers, and chattel slavery grew with plantation economies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the growth of the Atlantic slave trade, c. 1500–1750",
+          "text": "Sugar plantations in Brazil and the Caribbean demanded huge amounts of labor. As Indigenous populations collapsed, planters turned to enslaved Africans. Over the course of the transatlantic slave trade, about 12.5 million Africans were forced onto ships, and nearly 2 million died during the Middle Passage. Most went to Brazil and the Caribbean.\n\nAtlantic slavery differed from many earlier forms of slavery. Enslaved status was inherited and tied to race, and enslaved people were treated as property, a system called chattel slavery. Yet enslaved Africans kept languages, beliefs, and skills, including rice cultivation, that shaped American societies."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-4-5-t07",
+      "topicId": "world-4-5",
+      "concept": "silver-trade",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, why did historians call the Manila trade the first truly global network?",
+      "choices": [
+        "It was the first trade between China and Southeast Asia",
+        "It ended trade across the Indian Ocean",
+        "It linked Africa and Europe by sea for the very first time in history",
+        "It linked the Americas, Asia, and Europe through one trade"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Silver from Mexico paid for Chinese goods that reached Europe, linking three continents.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "China and Southeast Asia had traded for centuries.",
+        "Indian Ocean trade continued.",
+        "Africa and Europe were linked long before.",
+        "Silver from Mexico paid for Chinese goods that reached Europe, linking three continents."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Africa and Europe had traded for centuries; the novelty was linking the Americas with Asia.",
+      "stimulusId": "original-silver-trade",
+      "stimulusBlocks": [
+        {
+          "id": "original-silver-trade",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: the global flow of silver from the Americas and Japan, much of it to China, connected maritime empires and Asian economies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the global silver trade, c. 1550–1700",
+          "text": "After 1571, when Spain founded Manila in the Philippines, ships called the Manila galleons carried silver from Mexico across the Pacific. In Manila, Chinese merchants traded silk and porcelain for the silver. China's economy had a huge demand for silver, partly because the Ming government collected taxes in it.\n\nHistorians describe this as the first truly global trade network, linking the Americas, Asia, and Europe. The flood of silver also caused inflation in Spain, which spent much of its wealth on wars and imports instead of investing at home."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-5-t08",
+      "topicId": "world-4-5",
+      "concept": "silver-trade",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, one effect of the silver trade on Spain was",
+      "choices": [
+        "falling prices as silver left Spain",
+        "inflation as silver flowed in",
+        "rapid industrial growth",
+        "the end of Spanish wars in Europe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The flood of silver raised prices in Spain.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Silver caused inflation.",
+        "The flood of silver raised prices in Spain.",
+        "Spain spent silver on wars and imports, not industry.",
+        "Spain kept fighting wars."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Prices rose, not fell, as American silver entered Spain.",
+      "stimulusId": "original-silver-trade",
+      "stimulusBlocks": [
+        {
+          "id": "original-silver-trade",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: the global flow of silver from the Americas and Japan, much of it to China, connected maritime empires and Asian economies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the global silver trade, c. 1550–1700",
+          "text": "After 1571, when Spain founded Manila in the Philippines, ships called the Manila galleons carried silver from Mexico across the Pacific. In Manila, Chinese merchants traded silk and porcelain for the silver. China's economy had a huge demand for silver, partly because the Ming government collected taxes in it.\n\nHistorians describe this as the first truly global trade network, linking the Americas, Asia, and Europe. The flood of silver also caused inflation in Spain, which spent much of its wealth on wars and imports instead of investing at home."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-4-5-t09",
+      "topicId": "world-4-5",
+      "concept": "trade-restrictions",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, which of the following best describes Japanese policy after the 1630s?",
+      "choices": [
+        "Trade continued with all European countries equally",
+        "Trade continued under strict limits on European contact",
+        "Japan ended all foreign trade",
+        "Japan welcomed Portuguese missionaries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Japan limited Europeans to the Dutch at Nagasaki while trading with China and Korea.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Only the Dutch among Europeans could trade.",
+        "Japan limited Europeans to the Dutch at Nagasaki while trading with China and Korea.",
+        "Trade continued with several partners.",
+        "Portuguese traders were expelled and Christianity banned."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Only the Dutch were allowed among Europeans, so trade was not equal.",
+      "stimulusId": "original-trade-restrictions",
+      "stimulusBlocks": [
+        {
+          "id": "original-trade-restrictions",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: some Asian states, such as Tokugawa Japan and Qing China, sought to limit the disruptive effects of European trade through restrictive policies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Japanese and Chinese limits on European trade, c. 1630–1760",
+          "text": "In the 1630s, the Tokugawa shogunate banned Christianity, expelled Portuguese traders, and forbade Japanese from traveling abroad. Only Dutch and Chinese merchants were allowed to trade, and the Dutch were confined to a small island in Nagasaki harbor. Japan continued to trade with China and Korea.\n\nThe Qing also controlled European trade. By the 1750s, European merchants were limited to the port of Canton and could deal only with licensed Chinese merchant houses. Both states welcomed some trade but tried to keep foreign influence under control."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-5-t10",
+      "topicId": "world-4-5",
+      "concept": "trade-restrictions",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Tokugawa and Qing policies described in the passage were similar in that both",
+      "choices": [
+        "banned all trade with Europeans",
+        "gave European companies control of their ports",
+        "allowed unlimited trade with Europeans",
+        "allowed some foreign trade but kept it under state control"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both permitted trade in limited places and under strict rules.",
+      "sourceIds": [
+        "ced-topic-4-5"
+      ],
+      "choiceExplanations": [
+        "Each allowed some European trade.",
+        "Both kept control of their ports.",
+        "Both strictly limited trade.",
+        "Both permitted trade in limited places and under strict rules."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Both allowed some European trade: the Dutch at Nagasaki and merchants at Canton.",
+      "stimulusId": "original-trade-restrictions",
+      "stimulusBlocks": [
+        {
+          "id": "original-trade-restrictions",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.5 key concept: some Asian states, such as Tokugawa Japan and Qing China, sought to limit the disruptive effects of European trade through restrictive policies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Japanese and Chinese limits on European trade, c. 1630–1760",
+          "text": "In the 1630s, the Tokugawa shogunate banned Christianity, expelled Portuguese traders, and forbade Japanese from traveling abroad. Only Dutch and Chinese merchants were allowed to trade, and the Dutch were confined to a small island in Nagasaki harbor. Japan continued to trade with China and Korea.\n\nThe Qing also controlled European trade. By the 1750s, European merchants were limited to the port of Canton and could deal only with licensed Chinese merchant houses. Both states welcomed some trade but tried to keep foreign influence under control."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-4-5-quick",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-5",
+      "title": "Topic 4.5 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-4-5-q01",
+        "world-4-5-q02",
+        "world-4-5-q03"
+      ]
+    },
+    {
+      "id": "world-4-5-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-5",
+      "title": "Maritime Empires Maintained and Developed topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-4-5-q01",
+        "world-4-5-q02",
+        "world-4-5-q03",
+        "world-4-5-q04",
+        "world-4-5-q05",
+        "world-4-5-q06"
+      ]
+    }
+  ],
+  "concepts": {
+    "labor-systems": {
+      "id": "labor-systems",
+      "title": "Coerced labor in Spanish America",
+      "section": "labor-systems",
+      "topicId": "world-4-5"
+    },
+    "atlantic-slave-trade": {
+      "id": "atlantic-slave-trade",
+      "title": "The Atlantic slave trade",
+      "section": "atlantic-slave-trade",
+      "topicId": "world-4-5"
+    },
+    "silver-trade": {
+      "id": "silver-trade",
+      "title": "Silver and global trade",
+      "section": "silver-trade",
+      "topicId": "world-4-5"
+    },
+    "trade-restrictions": {
+      "id": "trade-restrictions",
+      "title": "Asian states set limits",
+      "section": "trade-restrictions",
+      "topicId": "world-4-5"
+    }
+  },
+  "assets": {}
+}

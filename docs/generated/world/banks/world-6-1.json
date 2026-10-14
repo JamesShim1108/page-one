@@ -1,0 +1,840 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-6",
+    "courseId": "world",
+    "number": 6,
+    "title": "Consequences of Industrialization",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study why industrial states built empires, how colonized peoples resisted, how economies were reshaped, and why millions of people migrated.",
+    "quizzes": [
+      {
+        "id": "world-6-practice-test",
+        "courseId": "world",
+        "unitId": "world-6",
+        "title": "Unit 6 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t01",
+              "world-6-1-t02",
+              "world-6-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t04",
+              "world-6-1-t05",
+              "world-6-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t07",
+              "world-6-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t01",
+              "world-6-2-t02",
+              "world-6-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t04",
+              "world-6-2-t05",
+              "world-6-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t07",
+              "world-6-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t01",
+              "world-6-3-t02",
+              "world-6-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t04",
+              "world-6-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t06",
+              "world-6-3-t07",
+              "world-6-3-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t01",
+              "world-6-4-t02",
+              "world-6-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t04",
+              "world-6-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t01",
+              "world-6-5-t02",
+              "world-6-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t04",
+              "world-6-5-t05",
+              "world-6-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t07",
+              "world-6-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t01",
+              "world-6-6-t02",
+              "world-6-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t04",
+              "world-6-6-t05",
+              "world-6-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t01",
+              "world-6-7-t02",
+              "world-6-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t04",
+              "world-6-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-8",
+            "questionIds": [
+              "world-6-8-t01",
+              "world-6-8-t02",
+              "world-6-8-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-6-practice-test",
+      "title": "Unit 6 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-6-1-quiz",
+        "title": "Rationales for Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-2-quiz",
+        "title": "State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-3-quiz",
+        "title": "Indigenous Responses to State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-4-quiz",
+        "title": "Global Economic Development from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-5-quiz",
+        "title": "Economic Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-6-quiz",
+        "title": "Causes of Migration in an Interconnected World topic quiz"
+      },
+      {
+        "id": "world-6-7-quiz",
+        "title": "Effects of Migration topic quiz"
+      },
+      {
+        "id": "world-6-8-quiz",
+        "title": "Causation in the Imperial Age topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-6-1",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 1,
+      "code": "6.1",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-6-saq-01",
+        "title": "Unit 6 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-6-1",
+    "courseId": "world",
+    "unitId": "world-6",
+    "order": 1,
+    "code": "6.1",
+    "title": "Rationales for Imperialism from 1750 to 1900",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "4272bff2ee45f1e6",
+  "questions": [
+    {
+      "id": "world-6-1-q01",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Social Darwinism was used in the late 1800s to argue that",
+      "choices": [
+        "all societies were equal and should not compete",
+        "species never change over time",
+        "stronger nations should protect the independence of weaker ones",
+        "stronger nations and races deserved to dominate weaker ones"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Social Darwinists claimed that competition between nations and races justified domination.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "It ranked societies rather than treating them as equal.",
+        "Darwin argued that species do change.",
+        "It justified domination, not protection of independence.",
+        "Social Darwinists claimed that competition between nations and races justified domination."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Social Darwinists claimed the strong deserved to dominate, not to protect the independence of others.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-1-q02",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The civilizing mission was the idea that",
+      "choices": [
+        "Europeans had a duty to leave colonized cultures entirely unchanged",
+        "Europeans had a duty to spread their religion, education, and laws",
+        "colonized peoples should govern European nations",
+        "Europeans should adopt the cultures of colonized peoples in Asia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It claimed Europeans should bring Christianity, schooling, and law to colonized peoples.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "It sought to change colonized societies.",
+        "It claimed Europeans should bring Christianity, schooling, and law to colonized peoples.",
+        "It assumed European rule over others.",
+        "It assumed European culture was superior."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The civilizing mission aimed to change colonized cultures, not to leave them unchanged.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-1-q03",
+      "topicId": "world-6-1",
+      "concept": "motives",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why industrial states sought colonies in Africa and Asia?",
+      "choices": [
+        "Factories needed workers from Europe to move to Africa and Asia",
+        "Factories needed raw materials and markets for manufactured goods",
+        "European populations were shrinking rapidly after 1850",
+        "African and Asian rulers invited Europeans to govern them"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Industrial demand for cotton, rubber, and markets drove expansion.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "Few colonies received many European factory workers.",
+        "Industrial demand for cotton, rubber, and markets drove expansion.",
+        "European populations grew in this period.",
+        "Most colonies were taken by force."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Colonies supplied raw materials and markets; they were not mainly destinations for European factory workers.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-1-q04",
+      "topicId": "world-6-1",
+      "concept": "motives",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Steamships increased the importance of colonies because they",
+      "choices": [
+        "could sail only within the Mediterranean and along European coasts",
+        "depended entirely on monsoon winds for long ocean voyages",
+        "needed coaling stations only in their home countries",
+        "needed coaling stations and naval bases around the world"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Coal-burning ships needed refueling stations along global routes.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "Steamships crossed oceans.",
+        "Steamships did not depend on wind.",
+        "They needed coal along the way.",
+        "Coal-burning ships needed refueling stations along global routes."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Steamships needed fuel along their routes, not only at home.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-1-q05",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which of the following claims about the civilizing mission is most defensible?",
+      "choices": [
+        "It justified empire by treating colonized cultures as inferior",
+        "It was the only reason Europeans built empires in Africa and Asia",
+        "It was rejected by nearly all European missionaries and teachers",
+        "It treated colonized cultures as fully equal to European cultures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It presented empire as a duty while treating other cultures as inferior.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "It presented empire as a duty while treating other cultures as inferior.",
+        "Economic and strategic motives also mattered.",
+        "Many missionaries embraced it.",
+        "It assumed inequality."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The civilizing mission assumed European superiority.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-6-1-t01",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which of the following best summarizes Mill's argument in the passage?",
+      "choices": [
+        "Liberty applies only to societies he considered advanced",
+        "All people everywhere deserve the same liberty",
+        "Despotism is never a legitimate form of government",
+        "Liberty applies only to societies ruled by kings"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mill says liberty has no application until people can be improved by free discussion, excusing despotism over “barbarians.”",
+      "sourceIds": [
+        "ced-topic-6-1",
+        "mill-on-liberty"
+      ],
+      "choiceExplanations": [
+        "Mill says liberty has no application until people can be improved by free discussion, excusing despotism over “barbarians.”",
+        "He excludes some societies.",
+        "He calls despotism legitimate in some cases.",
+        "He distinguishes societies by development, not by kings."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Mill excludes societies he called backward from his principle of liberty.",
+      "stimulusId": "mill-despotism",
+      "stimulusBlocks": [
+        {
+          "id": "mill-despotism",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "mill-on-liberty",
+          "amsco_review": "pending",
+          "attribution": "John Stuart Mill, British philosopher and official of the East India Company from 1823 to 1858, On Liberty, 1859",
+          "citation": "John Stuart Mill, On Liberty, ch. 1, Introductory. Project Gutenberg eBook #34901.",
+          "note": "“This doctrine” is Mill's principle that people should be free to act as they choose unless they harm others. “Nonage” means childhood or immaturity. Akbar was the Mughal emperor.",
+          "text": "It is, perhaps, hardly necessary to say that this doctrine is meant to apply only to human beings in the maturity of their faculties. . . . For the same reason, we may leave out of consideration those backward states of society in which the race itself may be considered as in its nonage. . . . Despotism is a legitimate mode of government in dealing with barbarians, provided the end be their improvement, and the means justified by actually effecting that end. Liberty, as a principle, has no application to any state of things anterior to the time when mankind have become capable of being improved by free and equal discussion. Until then, there is nothing for them but implicit obedience to an Akbar or a Charlemagne, if they are so fortunate as to find one."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-1-t02",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Mill's views in the passage were most likely shaped by",
+      "choices": [
+        "his own experience as a sepoy in the Indian army",
+        "his leadership of the Indian Rebellion",
+        "his opposition to all forms of empire",
+        "his decades of work for the East India Company"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mill worked for the company that ruled India, which shaped his acceptance of rule over “backward” societies.",
+      "sourceIds": [
+        "ced-topic-6-1",
+        "mill-on-liberty"
+      ],
+      "choiceExplanations": [
+        "Mill was British.",
+        "Mill did not lead the rebellion.",
+        "The passage defends rule over some peoples.",
+        "Mill worked for the company that ruled India, which shaped his acceptance of rule over “backward” societies."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Mill defended British rule in India; he did not oppose all empire.",
+      "stimulusId": "mill-despotism",
+      "stimulusBlocks": [
+        {
+          "id": "mill-despotism",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "mill-on-liberty",
+          "amsco_review": "pending",
+          "attribution": "John Stuart Mill, British philosopher and official of the East India Company from 1823 to 1858, On Liberty, 1859",
+          "citation": "John Stuart Mill, On Liberty, ch. 1, Introductory. Project Gutenberg eBook #34901.",
+          "note": "“This doctrine” is Mill's principle that people should be free to act as they choose unless they harm others. “Nonage” means childhood or immaturity. Akbar was the Mughal emperor.",
+          "text": "It is, perhaps, hardly necessary to say that this doctrine is meant to apply only to human beings in the maturity of their faculties. . . . For the same reason, we may leave out of consideration those backward states of society in which the race itself may be considered as in its nonage. . . . Despotism is a legitimate mode of government in dealing with barbarians, provided the end be their improvement, and the means justified by actually effecting that end. Liberty, as a principle, has no application to any state of things anterior to the time when mankind have become capable of being improved by free and equal discussion. Until then, there is nothing for them but implicit obedience to an Akbar or a Charlemagne, if they are so fortunate as to find one."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-6-1-t03",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Challenge",
+      "skill": "contextualization",
+      "prompt": "The ideas in the passage are best understood as an example of",
+      "choices": [
+        "European claims that colonized peoples should rule themselves",
+        "European claims that empire would improve colonized peoples",
+        "resistance to British rule in India",
+        "Marxist criticism of capitalism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mill presents despotic rule as justified by the goal of improvement, like the civilizing mission.",
+      "sourceIds": [
+        "ced-topic-6-1",
+        "mill-on-liberty"
+      ],
+      "choiceExplanations": [
+        "Mill argues against self-rule for such societies.",
+        "Mill presents despotic rule as justified by the goal of improvement, like the civilizing mission.",
+        "Mill was not resisting British rule.",
+        "Mill was a liberal, not a Marxist."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Mill denies self-rule to societies he calls backward.",
+      "stimulusId": "mill-despotism",
+      "stimulusBlocks": [
+        {
+          "id": "mill-despotism",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "mill-on-liberty",
+          "amsco_review": "pending",
+          "attribution": "John Stuart Mill, British philosopher and official of the East India Company from 1823 to 1858, On Liberty, 1859",
+          "citation": "John Stuart Mill, On Liberty, ch. 1, Introductory. Project Gutenberg eBook #34901.",
+          "note": "“This doctrine” is Mill's principle that people should be free to act as they choose unless they harm others. “Nonage” means childhood or immaturity. Akbar was the Mughal emperor.",
+          "text": "It is, perhaps, hardly necessary to say that this doctrine is meant to apply only to human beings in the maturity of their faculties. . . . For the same reason, we may leave out of consideration those backward states of society in which the race itself may be considered as in its nonage. . . . Despotism is a legitimate mode of government in dealing with barbarians, provided the end be their improvement, and the means justified by actually effecting that end. Liberty, as a principle, has no application to any state of things anterior to the time when mankind have become capable of being improved by free and equal discussion. Until then, there is nothing for them but implicit obedience to an Akbar or a Charlemagne, if they are so fortunate as to find one."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-6-1-t04",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, Social Darwinists claimed that",
+      "choices": [
+        "nations and races should cooperate rather than compete for survival",
+        "nations and races competed, and the strongest deserved to rule",
+        "species never change over time",
+        "all races were equal in ability"
+      ],
+      "correctAnswer": 1,
+      "explanation": "They applied competition and survival of the fittest to human groups.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "They stressed competition.",
+        "They applied competition and survival of the fittest to human groups.",
+        "Darwin argued species change.",
+        "They ranked races."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Social Darwinists stressed competition, not cooperation.",
+      "stimulusId": "original-social-darwinism",
+      "stimulusBlocks": [
+        {
+          "id": "original-social-darwinism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.1 key concept: Europeans and Americans justified imperialism with ideologies such as Social Darwinism, nationalism, and the concept of a civilizing mission",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Social Darwinism, c. 1860–1914",
+          "text": "In 1859 Charles Darwin argued that species change through natural selection. Writers such as Herbert Spencer, who coined the phrase “survival of the fittest,” applied similar ideas to human societies. They claimed that nations and races competed for survival and that the strongest deserved to dominate.\n\nScientists today reject this reasoning. Darwin's theory described biological change in species, not a ranking of human groups. But in the late 1800s, Social Darwinism gave politicians and writers a scientific-sounding justification for conquest and for racial hierarchy at home and abroad."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-1-t05",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The author's view of Social Darwinism is that it",
+      "choices": [
+        "was an accurate description of human societies",
+        "was invented by Darwin himself",
+        "correctly ranked human groups by ability",
+        "misapplied a theory about species to human groups"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The author says Darwin's theory described species, not a ranking of humans.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "The author says scientists reject it.",
+        "Writers such as Spencer applied it.",
+        "The author rejects such ranking.",
+        "The author says Darwin's theory described species, not a ranking of humans."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Spencer, not Darwin, applied the ideas to societies.",
+      "stimulusId": "original-social-darwinism",
+      "stimulusBlocks": [
+        {
+          "id": "original-social-darwinism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.1 key concept: Europeans and Americans justified imperialism with ideologies such as Social Darwinism, nationalism, and the concept of a civilizing mission",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Social Darwinism, c. 1860–1914",
+          "text": "In 1859 Charles Darwin argued that species change through natural selection. Writers such as Herbert Spencer, who coined the phrase “survival of the fittest,” applied similar ideas to human societies. They claimed that nations and races competed for survival and that the strongest deserved to dominate.\n\nScientists today reject this reasoning. Darwin's theory described biological change in species, not a ranking of human groups. But in the late 1800s, Social Darwinism gave politicians and writers a scientific-sounding justification for conquest and for racial hierarchy at home and abroad."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-6-1-t06",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Social Darwinism most directly contributed to",
+      "choices": [
+        "justifications for conquest and racial hierarchy",
+        "the end of European empires",
+        "the abolition of slavery in Brazil",
+        "justifications for independence movements in the colonies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage says it gave a scientific-sounding justification for conquest.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "The passage says it gave a scientific-sounding justification for conquest.",
+        "It supported empire.",
+        "Abolition came from other ideas.",
+        "It justified domination."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Social Darwinism justified domination, not independence.",
+      "stimulusId": "original-social-darwinism",
+      "stimulusBlocks": [
+        {
+          "id": "original-social-darwinism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.1 key concept: Europeans and Americans justified imperialism with ideologies such as Social Darwinism, nationalism, and the concept of a civilizing mission",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Social Darwinism, c. 1860–1914",
+          "text": "In 1859 Charles Darwin argued that species change through natural selection. Writers such as Herbert Spencer, who coined the phrase “survival of the fittest,” applied similar ideas to human societies. They claimed that nations and races competed for survival and that the strongest deserved to dominate.\n\nScientists today reject this reasoning. Darwin's theory described biological change in species, not a ranking of human groups. But in the late 1800s, Social Darwinism gave politicians and writers a scientific-sounding justification for conquest and for racial hierarchy at home and abroad."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-1-t07",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, Kipling's poem urged the United States to",
+      "choices": [
+        "stay out of Asian affairs",
+        "take up the duty of ruling Cuba and Puerto Rico",
+        "take up the duty of ruling the Philippines",
+        "grant independence to the Philippines"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kipling urged the US to rule the Philippines.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "He urged involvement.",
+        "The passage names the Philippines.",
+        "Kipling urged the US to rule the Philippines.",
+        "He urged rule, not independence."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage names the Philippines.",
+      "stimulusId": "original-civilizing-mission",
+      "stimulusBlocks": [
+        {
+          "id": "original-civilizing-mission",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.1 key concept: a desire to spread Christianity and the concept of a civilizing mission were used to justify imperialism",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the idea of a civilizing mission, c. 1850–1914",
+          "text": "Many Europeans believed they had a duty to bring Christianity, Western education, and their own laws to colonized peoples. Missionaries founded schools and hospitals across Africa and Asia. In 1899 the British poet Rudyard Kipling published “The White Man's Burden,” urging the United States to take up the duty of ruling the Philippines.\n\nColonized people often saw things differently. Mission schools could open new opportunities, and some graduates became leaders of later independence movements. But the civilizing mission assumed that colonized cultures were inferior, and it was used to justify taking land, labor, and political power."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-1-t08",
+      "topicId": "world-6-1",
+      "concept": "ideologies",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The second paragraph best supports which claim?",
+      "choices": [
+        "Mission schools had no effect on colonized societies",
+        "Colonized peoples all welcomed the civilizing mission",
+        "Mission schools had only harmful effects for everyone",
+        "Mission schools had mixed effects for colonized peoples"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Schools opened opportunities while the idea assumed inferiority.",
+      "sourceIds": [
+        "ced-topic-6-1"
+      ],
+      "choiceExplanations": [
+        "Schools had effects.",
+        "Many saw things differently.",
+        "Some graduates benefited.",
+        "Schools opened opportunities while the idea assumed inferiority."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The passage notes that some graduates became leaders, so effects were not only harmful.",
+      "stimulusId": "original-civilizing-mission",
+      "stimulusBlocks": [
+        {
+          "id": "original-civilizing-mission",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.1 key concept: a desire to spread Christianity and the concept of a civilizing mission were used to justify imperialism",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the idea of a civilizing mission, c. 1850–1914",
+          "text": "Many Europeans believed they had a duty to bring Christianity, Western education, and their own laws to colonized peoples. Missionaries founded schools and hospitals across Africa and Asia. In 1899 the British poet Rudyard Kipling published “The White Man's Burden,” urging the United States to take up the duty of ruling the Philippines.\n\nColonized people often saw things differently. Mission schools could open new opportunities, and some graduates became leaders of later independence movements. But the civilizing mission assumed that colonized cultures were inferior, and it was used to justify taking land, labor, and political power."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-6-1-quick",
+      "courseId": "world",
+      "unitId": "world-6",
+      "topicId": "world-6-1",
+      "title": "Topic 6.1 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-6-1-q01",
+        "world-6-1-q02",
+        "world-6-1-q03"
+      ]
+    },
+    {
+      "id": "world-6-1-quiz",
+      "courseId": "world",
+      "unitId": "world-6",
+      "topicId": "world-6-1",
+      "title": "Rationales for Imperialism from 1750 to 1900 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-6-1-q01",
+        "world-6-1-q02",
+        "world-6-1-q03",
+        "world-6-1-q04",
+        "world-6-1-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "motives": {
+      "id": "motives",
+      "title": "Economic and national motives",
+      "section": "motives",
+      "topicId": "world-6-1"
+    },
+    "ideologies": {
+      "id": "ideologies",
+      "title": "Justifying empire",
+      "section": "ideologies",
+      "topicId": "world-6-1"
+    }
+  },
+  "assets": {}
+}

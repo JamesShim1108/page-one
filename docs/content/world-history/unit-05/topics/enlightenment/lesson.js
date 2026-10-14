@@ -1,0 +1,137 @@
+// Original Page One lesson for CED Topic 5.1. Reading definitions come from
+// this lesson's vocabulary through ../../../glossary/unit-05.js.
+
+export const lesson = {
+  schemaVersion: 1,
+  id: "world-5-1",
+  unitId: "world-5",
+  courseId: "world",
+  code: "5.1",
+  title: "The Enlightenment",
+  period: "c. 1750–1900",
+  status: "ready",
+  order: 1,
+  summary:
+    "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements.",
+  minutes: 11,
+  learningGoals: [
+    "Explain the intellectual and ideological context in which revolutions swept the Atlantic world.",
+    "Explain how Enlightenment ideas influenced reform movements, including abolition and women's rights.",
+  ],
+  bigIdea:
+    "Enlightenment thinkers used reason to question inherited authority, and their ideas about natural rights and consent fueled revolutions and reform movements.",
+  context:
+    "The Scientific Revolution showed that reason and observation could explain nature. Thinkers of the 1700s applied the same methods to politics, religion, and society.",
+  sections: [
+    {
+      id: "natural-rights",
+      title: "Natural rights and the social contract",
+      conceptTitle: "Natural rights and the social contract",
+      lenses: ["P", "C"],
+      blocks: [
+        {
+          type: "paragraph",
+          text: "John Locke argued in 1690 that people have natural rights to life, liberty, and property, and that government rests on the consent of the governed. If rulers violate those rights, the people may replace them.",
+        },
+        {
+          type: "paragraph",
+          text: "Jean-Jacques Rousseau described a social contract in which citizens together form the general will. Montesquieu argued for the separation of powers among branches of government, and Voltaire championed religious tolerance and free expression.",
+        },
+        {
+          type: "callout",
+          title: "Cause and effect",
+          text: "Ideas that authority comes from the people undermined divine right, which encouraged colonists and subjects to justify revolt against kings.",
+        },
+        {
+          type: "callout",
+          title: "Common trap",
+          text: "Enlightenment thinkers did not all agree, and many did not apply their ideas to women, enslaved people, or colonized peoples.",
+        },
+      ],
+      takeaway: "Natural rights and consent became the language of revolution.",
+      sourceIds: ["ced-topic-5-1"],
+    },
+    {
+      id: "reform-movements",
+      title: "Reform movements",
+      conceptTitle: "Reform movements",
+      lenses: ["S", "C"],
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Abolitionists drew on natural rights and on religious belief. Britain ended its slave trade in 1807 and abolished slavery in most of its empire in 1833. Russia emancipated its serfs in 1861.",
+        },
+        {
+          type: "paragraph",
+          text: "Mary Wollstonecraft argued in 1792 that women deserved the same education as men. At Seneca Falls in 1848, activists demanded women's suffrage, the right to vote. New Zealand granted women the national vote in 1893.",
+        },
+      ],
+      takeaway:
+        "Reformers used Enlightenment principles to demand rights for groups that had been excluded.",
+      sourceIds: ["ced-topic-5-1"],
+    },
+  ],
+  vocabulary: [
+    {
+      id: "natural-rights",
+      topicId: "world-5-1",
+      term: "natural rights",
+      definition:
+        "Rights that people have by nature, such as life, liberty, and property, which governments must protect.",
+    },
+    {
+      id: "social-contract",
+      topicId: "world-5-1",
+      term: "social contract",
+      definition:
+        "The idea that government is based on an agreement among people, who give up some freedom in exchange for order and protection of their rights.",
+    },
+    {
+      id: "separation-of-powers",
+      topicId: "world-5-1",
+      term: "separation of powers",
+      definition:
+        "Montesquieu's idea that government power should be divided among branches so no one branch becomes too strong.",
+    },
+    {
+      id: "suffrage",
+      topicId: "world-5-1",
+      term: "suffrage",
+      definition: "The right to vote in political elections.",
+    },
+    {
+      id: "abolitionists",
+      topicId: "world-5-1",
+      term: "Abolitionists",
+      definition: "Reformers who worked to end the slave trade and slavery.",
+    },
+  ],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "world-5-natural-rights",
+      "world-5-social-contract",
+      "world-5-separation-of-powers",
+      "world-5-suffrage",
+      "world-5-abolitionists",
+    ],
+  },
+  connections: [
+    {
+      id: "c1",
+      type: "Unit 3 bridge",
+      title: "From divine right to consent",
+      body: "Unit 3 described rulers such as Louis XIV who claimed divine right. Enlightenment thinkers argued instead that legitimate government rests on the consent of the governed.",
+      transferQuestion: "How did natural rights challenge the idea of divine right?",
+      feedback: "Name the source of authority in each idea and explain the conflict.",
+      links: [
+        {
+          topicId: "world-3-2",
+          sectionId: "religion-legitimacy",
+          label: "Review divine right",
+        },
+      ],
+    },
+  ],
+  sourceIds: ["ced-topic-5-1", "ced"],
+};

@@ -1,0 +1,487 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-5",
+    "courseId": "world",
+    "number": 5,
+    "title": "Revolutions",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-5-5",
+    "courseId": "world",
+    "unitId": "world-5",
+    "order": 5,
+    "code": "5.5",
+    "title": "Technology of the Industrial Age",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How steam engines, railroads, steamships, the telegraph, and later steel and electricity transformed production, transport, and communication."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "4d388e281bf7d548",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-5-5",
+    "unitId": "world-5",
+    "courseId": "world",
+    "code": "5.5",
+    "title": "Technology of the Industrial Age",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "order": 5,
+    "summary": "How steam engines, railroads, steamships, the telegraph, and later steel and electricity transformed production, transport, and communication.",
+    "minutes": 8,
+    "learningGoals": [
+      "Explain how technology shaped economic production over time.",
+      "Distinguish the first industrial technologies from the second wave after 1850."
+    ],
+    "bigIdea": "New energy sources and machines transformed how goods were made and moved and how information traveled.",
+    "context": "The steam engine was the key early technology. Later, steel, electricity, and chemistry produced a second wave of industrial change.",
+    "sections": [
+      {
+        "id": "steam-transport",
+        "title": "Steam and transport",
+        "conceptTitle": "Steam and transport",
+        "lenses": [
+          "T",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "James Watt's improvements to the steam engine made it far more efficient. Steam powered factories, then locomotives and ships. The Liverpool and Manchester Railway opened in 1830."
+          },
+          {
+            "type": "paragraph",
+            "text": "Railroads and steamships lowered transport costs and tied distant regions into national and global markets. The telegraph sent messages almost instantly; a transatlantic cable worked from 1866."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Cheaper and faster transport and communication expanded markets, which encouraged larger factories and more specialized production."
+          }
+        ],
+        "takeaway": "Steam and electricity shrank distances for goods and information.",
+        "sourceIds": [
+          "ced-topic-5-5"
+        ]
+      },
+      {
+        "id": "second-industrial",
+        "title": "A second wave",
+        "conceptTitle": "A second wave",
+        "lenses": [
+          "T"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "After 1850, the Bessemer process made steel cheap. Electricity, chemicals, and the internal combustion engine created new industries."
+          },
+          {
+            "type": "paragraph",
+            "text": "Germany and the United States led many of these industries, investing in research laboratories and engineers."
+          }
+        ],
+        "takeaway": "Science-based industries made Germany and the United States industrial leaders.",
+        "sourceIds": [
+          "ced-topic-5-5"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "steam-engine",
+        "topicId": "world-5-5",
+        "term": "steam engine",
+        "definition": "A machine that turns the heat of burning fuel into mechanical power, improved by James Watt in the late 1700s."
+      },
+      {
+        "id": "telegraph",
+        "topicId": "world-5-5",
+        "term": "telegraph",
+        "definition": "A system that sends messages over wires by electric signal."
+      },
+      {
+        "id": "bessemer-process",
+        "topicId": "world-5-5",
+        "term": "Bessemer process",
+        "definition": "A method developed in the 1850s for making steel cheaply from iron."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-5-steam-engine",
+        "world-5-telegraph",
+        "world-5-bessemer-process"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Unit 4 bridge",
+        "title": "From sail to steam",
+        "body": "Unit 4 described ships that depended on winds and currents. Steamships freed ocean travel from the wind.",
+        "transferQuestion": "How did steamships change ocean travel compared with sailing ships?",
+        "feedback": "Compare dependence on wind and the speed or reliability of voyages.",
+        "links": [
+          {
+            "topicId": "world-4-1",
+            "sectionId": "winds-currents",
+            "label": "Review sailing technology"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-5-5",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-5-5.json",
+  "glossary": [
+    {
+      "id": "world-5-steam-engine",
+      "term": "steam engine",
+      "definition": "A machine that turns the heat of burning fuel into mechanical power, improved by James Watt in the late 1700s.",
+      "aliases": [],
+      "sourceLabel": "Topic 5.5 glossary"
+    },
+    {
+      "id": "world-5-telegraph",
+      "term": "telegraph",
+      "definition": "A system that sends messages over wires by electric signal.",
+      "aliases": [],
+      "sourceLabel": "Topic 5.5 glossary"
+    },
+    {
+      "id": "world-5-bessemer-process",
+      "term": "Bessemer process",
+      "definition": "A method developed in the 1850s for making steel cheaply from iron.",
+      "aliases": [],
+      "sourceLabel": "Topic 5.5 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-5-5",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 5.5.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Technology of the Industrial Age."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

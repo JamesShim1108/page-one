@@ -1,0 +1,492 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-8",
+    "courseId": "world",
+    "number": 8,
+    "title": "Cold War and Decolonization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how the Cold War divided the world, how colonies won independence, how new states and movements challenged established power, and why the Cold War ended.",
+    "quizzes": [
+      {
+        "id": "world-8-practice-test",
+        "courseId": "world",
+        "unitId": "world-8",
+        "title": "Unit 8 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t01",
+              "world-8-1-t02",
+              "world-8-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t04",
+              "world-8-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t01",
+              "world-8-2-t02",
+              "world-8-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t04",
+              "world-8-2-t05",
+              "world-8-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t07",
+              "world-8-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t01",
+              "world-8-3-t02",
+              "world-8-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t04",
+              "world-8-3-t05",
+              "world-8-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t01",
+              "world-8-4-t02",
+              "world-8-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t04",
+              "world-8-4-t05",
+              "world-8-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t01",
+              "world-8-5-t02",
+              "world-8-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t04",
+              "world-8-5-t05",
+              "world-8-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t07",
+              "world-8-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t01",
+              "world-8-6-t02",
+              "world-8-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t04",
+              "world-8-6-t05",
+              "world-8-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t01",
+              "world-8-7-t02",
+              "world-8-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t04",
+              "world-8-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t01",
+              "world-8-8-t02",
+              "world-8-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t04",
+              "world-8-8-t05",
+              "world-8-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-9",
+            "questionIds": [
+              "world-8-9-t01",
+              "world-8-9-t02",
+              "world-8-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-8-practice-test",
+      "title": "Unit 8 Practice Test",
+      "questionCount": 53
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-8-1-quiz",
+        "title": "Setting the Stage topic quiz"
+      },
+      {
+        "id": "world-8-2-quiz",
+        "title": "The Cold War topic quiz"
+      },
+      {
+        "id": "world-8-3-quiz",
+        "title": "Effects of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-4-quiz",
+        "title": "Spread of Communism topic quiz"
+      },
+      {
+        "id": "world-8-5-quiz",
+        "title": "Decolonization topic quiz"
+      },
+      {
+        "id": "world-8-6-quiz",
+        "title": "Newly Independent States topic quiz"
+      },
+      {
+        "id": "world-8-7-quiz",
+        "title": "Global Resistance topic quiz"
+      },
+      {
+        "id": "world-8-8-quiz",
+        "title": "End of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-9-quiz",
+        "title": "Causation in the Cold War Era topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-8-1",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 1,
+      "code": "8.1",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How World War II left two superpowers, exhausted colonial empires, and new demands for independence."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-8-saq-01",
+        "title": "Unit 8 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-8-4",
+    "courseId": "world",
+    "unitId": "world-8",
+    "order": 4,
+    "code": "8.4",
+    "title": "Spread of Communism After 1900",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How communist and socialist movements won power in China, Cuba, and Vietnam, and how land reform shaped them."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "c1812d3c322b540c",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-8-4",
+    "unitId": "world-8",
+    "courseId": "world",
+    "code": "8.4",
+    "title": "Spread of Communism After 1900",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "order": 4,
+    "summary": "How communist and socialist movements won power in China, Cuba, and Vietnam, and how land reform shaped them.",
+    "minutes": 9,
+    "learningGoals": [
+      "Explain the causes and consequences of China's communist revolution.",
+      "Explain how movements to redistribute land and resources developed in the twentieth century."
+    ],
+    "bigIdea": "Communism spread most where peasants wanted land and nationalists wanted independence, but its rapid transformations often caused enormous suffering.",
+    "context": "By the mid-twentieth century, most people in Asia, Africa, and Latin America were poor farmers, and many did not own the land they worked.",
+    "sections": [
+      {
+        "id": "chinese-revolution",
+        "title": "The Chinese Revolution",
+        "conceptTitle": "The Chinese Revolution",
+        "lenses": [
+          "P",
+          "S",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Chinese Communist Party, led by Mao Zedong, fought the Nationalist government of Chiang Kai-shek for more than two decades. Mao built support among peasants, who were the vast majority of the population, by promising land. The Communists won the civil war, and in 1949 Mao proclaimed the People's Republic of China."
+          },
+          {
+            "type": "paragraph",
+            "text": "The new government carried out land reform, taking land from landlords and redistributing it to peasants, then organized farms into collectives. The Great Leap Forward of 1958 to 1962 tried to industrialize China rapidly, but it caused a famine that killed tens of millions. The Cultural Revolution of 1966 to 1976 mobilized young Red Guards to attack teachers, officials, and traditional culture."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Unlike Marx's prediction, communism in China came to power through a peasant revolution, not through industrial workers."
+          }
+        ],
+        "takeaway": "Communists won China by promising land to peasants, but Mao's campaigns caused famine and upheaval.",
+        "sourceIds": [
+          "ced-topic-8-4"
+        ]
+      },
+      {
+        "id": "land-and-revolution",
+        "title": "Land reform and revolution elsewhere",
+        "conceptTitle": "Land reform and revolution elsewhere",
+        "lenses": [
+          "E",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In Vietnam, Ho Chi Minh combined communism with nationalism, fighting first France and then the United States. In Cuba, Fidel Castro's revolution of 1959 seized large estates and nationalized US-owned businesses, and Cuba became a Soviet ally."
+          },
+          {
+            "type": "paragraph",
+            "text": "Land reform was not always communist. In Guatemala, an elected government began redistributing unused land in 1952, but a US-backed coup overthrew it in 1954. The United States often saw land reform as a step toward communism."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Unequal land ownership made revolutionary promises appealing to peasants, and Cold War fears led the United States to oppose many reform movements."
+          }
+        ],
+        "takeaway": "Demands for land fueled revolutions, and the Cold War shaped how the superpowers responded.",
+        "sourceIds": [
+          "ced-topic-8-4"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "mao-zedong",
+        "topicId": "world-8-4",
+        "term": "Mao Zedong",
+        "definition": "Leader of the Chinese Communist Party who founded the People's Republic of China in 1949."
+      },
+      {
+        "id": "land-reform",
+        "topicId": "world-8-4",
+        "term": "land reform",
+        "definition": "The redistribution of land from large landowners to peasants or the state."
+      },
+      {
+        "id": "great-leap-forward",
+        "topicId": "world-8-4",
+        "term": "Great Leap Forward",
+        "definition": "Mao's 1958–1962 campaign to industrialize China rapidly, which caused a famine that killed tens of millions."
+      },
+      {
+        "id": "cultural-revolution",
+        "topicId": "world-8-4",
+        "term": "Cultural Revolution",
+        "definition": "Mao's 1966–1976 campaign in which Red Guards attacked officials, teachers, and traditional culture."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-8-mao-zedong",
+        "world-8-land-reform",
+        "world-8-great-leap-forward",
+        "world-8-cultural-revolution"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Unit 7 bridge",
+        "title": "From the Russian Revolution",
+        "body": "The Bolshevik Revolution of 1917 created the first communist state, which later aided communist movements in China, Vietnam, and Cuba.",
+        "transferQuestion": "Compare the Russian and Chinese communist revolutions.",
+        "feedback": "Name one similarity, such as promises of land, and one difference, such as the role of peasants.",
+        "links": [
+          {
+            "topicId": "world-7-1",
+            "sectionId": "revolutions",
+            "label": "Review the Russian Revolution"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-8-4",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-8-4.json",
+  "glossary": [
+    {
+      "id": "world-8-mao-zedong",
+      "term": "Mao Zedong",
+      "definition": "Leader of the Chinese Communist Party who founded the People's Republic of China in 1949.",
+      "aliases": [],
+      "sourceLabel": "Topic 8.4 glossary"
+    },
+    {
+      "id": "world-8-land-reform",
+      "term": "land reform",
+      "definition": "The redistribution of land from large landowners to peasants or the state.",
+      "aliases": [],
+      "sourceLabel": "Topic 8.4 glossary"
+    },
+    {
+      "id": "world-8-great-leap-forward",
+      "term": "Great Leap Forward",
+      "definition": "Mao's 1958–1962 campaign to industrialize China rapidly, which caused a famine that killed tens of millions.",
+      "aliases": [],
+      "sourceLabel": "Topic 8.4 glossary"
+    },
+    {
+      "id": "world-8-cultural-revolution",
+      "term": "Cultural Revolution",
+      "definition": "Mao's 1966–1976 campaign in which Red Guards attacked officials, teachers, and traditional culture.",
+      "aliases": [],
+      "sourceLabel": "Topic 8.4 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-8-4",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 8.4.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Spread of Communism After 1900."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

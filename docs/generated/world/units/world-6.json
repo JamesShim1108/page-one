@@ -17,15 +17,317 @@
     "number": 6,
     "title": "Consequences of Industrialization",
     "period": "c. 1750–1900",
-    "status": "soon",
-    "description": "",
-    "quizzes": [],
+    "status": "ready",
+    "description": "Study why industrial states built empires, how colonized peoples resisted, how economies were reshaped, and why millions of people migrated.",
+    "quizzes": [
+      {
+        "id": "world-6-practice-test",
+        "courseId": "world",
+        "unitId": "world-6",
+        "title": "Unit 6 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t01",
+              "world-6-1-t02",
+              "world-6-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t04",
+              "world-6-1-t05",
+              "world-6-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t07",
+              "world-6-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t01",
+              "world-6-2-t02",
+              "world-6-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t04",
+              "world-6-2-t05",
+              "world-6-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t07",
+              "world-6-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t01",
+              "world-6-3-t02",
+              "world-6-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t04",
+              "world-6-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t06",
+              "world-6-3-t07",
+              "world-6-3-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t01",
+              "world-6-4-t02",
+              "world-6-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t04",
+              "world-6-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t01",
+              "world-6-5-t02",
+              "world-6-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t04",
+              "world-6-5-t05",
+              "world-6-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t07",
+              "world-6-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t01",
+              "world-6-6-t02",
+              "world-6-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t04",
+              "world-6-6-t05",
+              "world-6-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t01",
+              "world-6-7-t02",
+              "world-6-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t04",
+              "world-6-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-8",
+            "questionIds": [
+              "world-6-8-t01",
+              "world-6-8-t02",
+              "world-6-8-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-6-practice-test",
+      "title": "Unit 6 Practice Test",
+      "questionCount": 51
+    },
     "termSets": [],
-    "topicQuizzes": [],
-    "topicCount": 0,
-    "firstTopic": null,
+    "topicQuizzes": [
+      {
+        "id": "world-6-1-quiz",
+        "title": "Rationales for Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-2-quiz",
+        "title": "State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-3-quiz",
+        "title": "Indigenous Responses to State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-4-quiz",
+        "title": "Global Economic Development from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-5-quiz",
+        "title": "Economic Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-6-quiz",
+        "title": "Causes of Migration in an Interconnected World topic quiz"
+      },
+      {
+        "id": "world-6-7-quiz",
+        "title": "Effects of Migration topic quiz"
+      },
+      {
+        "id": "world-6-8-quiz",
+        "title": "Causation in the Imperial Age topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-6-1",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 1,
+      "code": "6.1",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+    },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "world-6-saq-01",
+        "title": "Unit 6 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "world-6-1",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 1,
+      "code": "6.1",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+    },
+    {
+      "id": "world-6-2",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 2,
+      "code": "6.2",
+      "title": "State Expansion from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How European states, Japan, the United States, and Russia expanded their empires through conquest, settler colonies, and stronger control of existing colonies."
+    },
+    {
+      "id": "world-6-3",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 3,
+      "code": "6.3",
+      "title": "Indigenous Responses to State Expansion from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How colonized and Indigenous peoples resisted through rebellion, warfare, religious movements, and the defense of independent states."
+    },
+    {
+      "id": "world-6-4",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 4,
+      "code": "6.4",
+      "title": "Global Economic Development from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How industrial demand for raw materials and food reshaped economies around the world, and how new technology connected them."
+    },
+    {
+      "id": "world-6-5",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 5,
+      "code": "6.5",
+      "title": "Economic Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How industrial powers used war, unequal treaties, and investment to gain economic control, as in China and Latin America."
+    },
+    {
+      "id": "world-6-6",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 6,
+      "code": "6.6",
+      "title": "Causes of Migration in an Interconnected World",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "Why millions of people migrated, including free migrants escaping hardship and indentured laborers recruited for plantations."
+    },
+    {
+      "id": "world-6-7",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 7,
+      "code": "6.7",
+      "title": "Effects of Migration",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How migrants formed ethnic enclaves, how migration changed home societies, and how some receiving societies responded with exclusion."
+    },
+    {
+      "id": "world-6-8",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 8,
+      "code": "6.8",
+      "title": "Causation in the Imperial Age",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How industrialization caused imperial expansion, economic change, and migration from 1750 to 1900."
+    }
+  ]
 }

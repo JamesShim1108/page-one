@@ -170,6 +170,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Note who lived and worked at Taghaza.",
+      stimulusId: "battuta-taghaza",
       stimulusBlocks: [excerpts.battutaTaghaza],
     },
     {
@@ -210,6 +211,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Value comes from demand where a good is scarce, not abundance where it is mined.",
+      stimulusId: "battuta-taghaza",
       stimulusBlocks: [excerpts.battutaTaghaza],
     },
     {
@@ -248,6 +250,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Separate observation from judgment.",
+      stimulusId: "battuta-taghaza",
       stimulusBlocks: [excerpts.battutaTaghaza],
     },
     {
@@ -349,6 +352,7 @@ export const bank = {
       ],
       nearMissIndex: 0,
       distinguisher: "Choose the claim the passage states directly.",
+      stimulusId: "battuta-mali",
       stimulusBlocks: [excerpts.battutaMali],
     },
     {
@@ -386,6 +390,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Context links the passage to the networks that carried Islam.",
+      stimulusId: "battuta-mali",
       stimulusBlocks: [excerpts.battutaMali],
     },
     {
@@ -423,6 +428,7 @@ export const bank = {
       ],
       nearMissIndex: 2,
       distinguisher: "Point of view explains judgments; it does not cancel observations.",
+      stimulusId: "battuta-mali",
       stimulusBlocks: [excerpts.battutaMali],
     },
     {
@@ -588,6 +594,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Find the passage's main claim and its qualification.",
+      stimulusId: "original-musa-legacy",
       stimulusBlocks: [excerpts.originalMusaLegacy],
     },
     {
@@ -621,6 +628,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Match evidence to the specific part of the argument.",
+      stimulusId: "original-musa-legacy",
       stimulusBlocks: [excerpts.originalMusaLegacy],
     },
     {

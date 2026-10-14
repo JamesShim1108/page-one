@@ -122,7 +122,7 @@ test("Unit 2 has seven cited lessons and complete question metadata", async () =
 
 test("Unit 2 practice forms partition the 28 reserved questions", async () => {
   const { unit } = await readGenerated("world/units/world-2.json");
-  const forms = unit.quizzes;
+  const forms = unit.quizzes.filter((quiz) => quiz.practiceTest !== true);
   assert.equal(forms.length, 3);
   const ids = forms.map((form) =>
     form.selections.flatMap((selection) => selection.questionIds),

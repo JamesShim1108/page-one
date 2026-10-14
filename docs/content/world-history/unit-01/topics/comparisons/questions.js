@@ -1,5 +1,6 @@
 // Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
 // Each question names an AP skill from ../../../skills.js. Stimulus excerpts come from ../../../excerpts.js.
+import { excerpts } from "../../../excerpts.js";
 
 export const bank = {
   questions: [
@@ -362,6 +363,219 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher: "Payments and labor are economic.",
     },
+    // BEGIN unit-01 practice test
+    // Unit 1 Practice Test items (t-numbered): AP-style sets that each depend on one stimulus.
+    {
+      id: "world-1-7-t01",
+      topicId: "world-1-7",
+      concept: "compare-governance",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Which of the following best describes a difference between the two passages?",
+      choices: [
+        "Song China collected obligations in labor, while the Inca collected coin",
+        "Song China used written records, while the Inca used no records at all",
+        "Song China used written records, while the Inca used knotted cords",
+        "Song China relied on local hereditary leaders, while the Inca relied on rotating officials",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Passage A mentions written records; Passage B says Inca obligations were recorded on knotted cords.",
+      sourceIds: ["ced-topic-1-7"],
+      choiceExplanations: [
+        "This also reverses them: the Inca counted obligations in work, while the Song taxed grain, cloth, and coin.",
+        "Passage B says the Inca kept records with knotted cords, so they did have records.",
+        "Passage A mentions written records; Passage B says Inca obligations were recorded on knotted cords.",
+        "This reverses the passages: the Song rotated officials, while the Inca used local kurakas.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The Inca had no alphabetic writing, but Passage B says they recorded obligations on knotted cords.",
+      stimulusId: "original-compare-song",
+      stimulusBlocks: [excerpts.originalCompareSong, excerpts.originalCompareInca],
+    },
+    {
+      id: "world-1-7-t02",
+      topicId: "world-1-7",
+      concept: "compare-governance",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Which of the following best describes a similarity between the states in the two passages?",
+      choices: [
+        "Both used systems for tracking the obligations of subjects",
+        "Both relied mainly on merchants to collect taxes",
+        "Both selected officials from the hereditary nobility only",
+        "Both selected officials through written examinations",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Song written records and Inca knotted cords both tracked what subjects owed the state.",
+      sourceIds: ["ced-topic-1-7"],
+      choiceExplanations: [
+        "Song written records and Inca knotted cords both tracked what subjects owed the state.",
+        "Neither passage describes merchants collecting taxes.",
+        "Song officials were selected mostly through examinations, not by birth.",
+        "Only the Song used examinations.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The Inca filled high posts from their nobility, but Song officials were mostly chosen by examination.",
+      stimulusId: "original-compare-song",
+      stimulusBlocks: [excerpts.originalCompareSong, excerpts.originalCompareInca],
+    },
+    {
+      id: "world-1-7-t03",
+      topicId: "world-1-7",
+      concept: "compare-governance",
+      difficulty: "Challenge",
+      skill: "argumentation",
+      prompt: "Which of the following claims would best use both passages as evidence?",
+      choices: [
+        "Large states could only be governed by officials who could read and write",
+        "Large states always replaced local leaders with officials sent out from the capital city",
+        "Large states developed similar tax systems based on coin",
+        "Large states developed different methods to organize and record what subjects owed",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Both states organized obligations and kept records, but in different ways, so both passages support this claim.",
+      sourceIds: ["ced-topic-1-7"],
+      choiceExplanations: [
+        "Passage B shows the Inca governing without alphabetic writing.",
+        "The Inca kept local leaders in place.",
+        "The Inca counted obligations in work, not coin.",
+        "Both states organized obligations and kept records, but in different ways, so both passages support this claim.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The Song rotated officials, but the Inca kept local kurakas in place, so “always replaced” fails for Passage B.",
+      stimulusId: "original-compare-song",
+      stimulusBlocks: [excerpts.originalCompareSong, excerpts.originalCompareInca],
+    },
+    {
+      id: "world-1-7-t04",
+      topicId: "world-1-7",
+      concept: "compare-beliefs",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt: "The passage best supports which of the following comparisons?",
+      choices: [
+        "Rulers of different faiths rejected support for religious institutions",
+        "Rulers of different faiths used religious patronage to strengthen their authority",
+        "Rulers of different faiths required all subjects to adopt the ruler's religion",
+        "Rulers of the same faith formed alliances across Africa and Asia",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Muslim, Hindu, and Christian rulers all supported religious institutions to tie their rule to faith.",
+      sourceIds: ["ced-topic-1-7"],
+      choiceExplanations: [
+        "Each ruler supported religious institutions; none rejected them.",
+        "Muslim, Hindu, and Christian rulers all supported religious institutions to tie their rule to faith.",
+        "The passage says many subjects continued older local practices.",
+        "The three rulers followed different religions, and the passage describes no alliance.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Patronage linked rulers to religion, but the passage notes that many subjects kept older practices.",
+      stimulusId: "original-legitimacy",
+      stimulusBlocks: [excerpts.originalLegitimacy],
+    },
+    {
+      id: "world-1-7-t05",
+      topicId: "world-1-7",
+      concept: "compare-beliefs",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "Which of the following would be most useful in explaining the Solomonic kings' claim of descent from King Solomon?",
+      choices: [
+        "Portuguese explorers who reached Ethiopia in the 1500s",
+        "Ethiopian traditions connecting the royal line to biblical history",
+        "Muslim scholars in Timbuktu who wrote histories of Mali",
+        "Ethiopian traditions connecting the royal line to the Prophet Muhammad",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Ethiopian tradition linked the dynasty to Solomon and the Queen of Sheba, rooting royal authority in Christian scripture.",
+      sourceIds: ["ced-topic-1-7"],
+      choiceExplanations: [
+        "The Portuguese arrived long after the claim was established in 1270.",
+        "Ethiopian tradition linked the dynasty to Solomon and the Queen of Sheba, rooting royal authority in Christian scripture.",
+        "Timbuktu's scholars wrote about West Africa, not Ethiopian kingship.",
+        "The Solomonic claim was biblical, not Islamic.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "The claim did rest on Ethiopian tradition, but on biblical Solomon, not on the Prophet Muhammad.",
+      stimulusId: "original-legitimacy",
+      stimulusBlocks: [excerpts.originalLegitimacy],
+    },
+    {
+      id: "world-1-7-t06",
+      topicId: "world-1-7",
+      concept: "compare-change",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "continuity",
+      prompt:
+        "Which of the following examples from the passage best illustrates continuity?",
+      choices: [
+        "The rapid creation of the Inca Empire",
+        "Turkic elites founding new sultanates in India",
+        "Turkic elites replacing Abbasid authority",
+        "Song officials using long-standing Confucian ideas",
+      ],
+      correctAnswer: 3,
+      explanation: "Using ideas more than a thousand years old shows continuity.",
+      sourceIds: ["ced-topic-1-7"],
+      choiceExplanations: [
+        "A new empire built within a century is an example of change.",
+        "A new sultanate represents a change in political power.",
+        "New rulers replacing old ones is an example of change.",
+        "Using ideas more than a thousand years old shows continuity.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Founding a new sultanate is a change in who rules, even if the rulers kept Islamic traditions.",
+      stimulusId: "original-continuity",
+      stimulusBlocks: [excerpts.originalContinuity],
+    },
+    {
+      id: "world-1-7-t07",
+      topicId: "world-1-7",
+      concept: "compare-change",
+      difficulty: "Apply",
+      skill: "argumentation",
+      prompt: "Which of the following best describes the author's overall argument?",
+      choices: [
+        "States in this period adapted inherited ideas while creating new institutions",
+        "States in this period were shaped mainly by contact with Europe",
+        "States in this period preserved their earlier traditions and institutions without real change",
+        "States in this period broke completely with earlier traditions",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The conclusion says states reused inherited ideas and institutions while adapting them.",
+      sourceIds: ["ced-topic-1-7"],
+      choiceExplanations: [
+        "The conclusion says states reused inherited ideas and institutions while adapting them.",
+        "The passage does not discuss European contact as a cause.",
+        "The passage gives several examples of new forms of rule.",
+        "The passage stresses that many states built on older foundations.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Inherited ideas mattered, but the passage also stresses new forms of rule such as Turkic sultanates and the Inca Empire.",
+      stimulusId: "original-continuity",
+      stimulusBlocks: [excerpts.originalContinuity],
+    },
+    // END unit-01 practice test
   ],
   quizzes: [
     {

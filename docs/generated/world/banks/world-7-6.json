@@ -1,0 +1,852 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-7",
+    "courseId": "world",
+    "number": 7,
+    "title": "Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how empires collapsed, why two world wars were fought and how they were conducted, how the Depression reshaped economies, and how mass atrocities happened.",
+    "quizzes": [
+      {
+        "id": "world-7-practice-test",
+        "courseId": "world",
+        "unitId": "world-7",
+        "title": "Unit 7 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t01",
+              "world-7-1-t02",
+              "world-7-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t04",
+              "world-7-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t06",
+              "world-7-1-t07",
+              "world-7-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t01",
+              "world-7-2-t02",
+              "world-7-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t04",
+              "world-7-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t01",
+              "world-7-3-t02",
+              "world-7-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t04",
+              "world-7-3-t05",
+              "world-7-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t01",
+              "world-7-4-t02",
+              "world-7-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t04",
+              "world-7-4-t05",
+              "world-7-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t01",
+              "world-7-5-t02",
+              "world-7-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t04",
+              "world-7-5-t05",
+              "world-7-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t07",
+              "world-7-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t01",
+              "world-7-6-t02",
+              "world-7-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t04",
+              "world-7-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t06",
+              "world-7-6-t07",
+              "world-7-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t01",
+              "world-7-7-t02",
+              "world-7-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t04",
+              "world-7-7-t05",
+              "world-7-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t01",
+              "world-7-8-t02",
+              "world-7-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t04",
+              "world-7-8-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-9",
+            "questionIds": [
+              "world-7-9-t01",
+              "world-7-9-t02",
+              "world-7-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-7-practice-test",
+      "title": "Unit 7 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-7-1-quiz",
+        "title": "Shifting Power After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-2-quiz",
+        "title": "Causes of World War I topic quiz"
+      },
+      {
+        "id": "world-7-3-quiz",
+        "title": "Conducting World War I topic quiz"
+      },
+      {
+        "id": "world-7-4-quiz",
+        "title": "Economy in the Interwar Period topic quiz"
+      },
+      {
+        "id": "world-7-5-quiz",
+        "title": "Unresolved Tensions After World War I topic quiz"
+      },
+      {
+        "id": "world-7-6-quiz",
+        "title": "Causes of World War II topic quiz"
+      },
+      {
+        "id": "world-7-7-quiz",
+        "title": "Conducting World War II topic quiz"
+      },
+      {
+        "id": "world-7-8-quiz",
+        "title": "Mass Atrocities After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-9-quiz",
+        "title": "Causation in Global Conflict topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-7-saq-01",
+        "title": "Unit 7 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-7-6",
+    "courseId": "world",
+    "unitId": "world-7",
+    "order": 6,
+    "code": "7.6",
+    "title": "Causes of World War II",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How fascism, the failure of the peace settlement, appeasement, and Japanese expansion led to a second world war."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "eb7e4fd11efaa560",
+  "questions": [
+    {
+      "id": "world-7-6-q01",
+      "topicId": "world-7-6",
+      "concept": "fascism",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which of the following was a feature of fascism?",
+      "choices": [
+        "Support for free elections and competition among many parties",
+        "Belief in international communism",
+        "Support for democracy and a strong leader",
+        "Rejection of democracy and obedience to one leader"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fascism demanded obedience to a single leader and rejected democracy.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Fascists banned other parties.",
+        "Fascists opposed communism.",
+        "Fascists wanted a single leader, not elections.",
+        "Fascism demanded obedience to a single leader and rejected democracy."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Fascists rejected democracy.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-7-6-q02",
+      "topicId": "world-7-6",
+      "concept": "road-to-war",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "At the Munich conference in 1938, Britain and France",
+      "choices": [
+        "allowed Germany to take the Sudetenland",
+        "declared war on Germany",
+        "forced Germany to leave Austria",
+        "allowed Germany to take Poland"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They agreed to let Germany take the Sudetenland.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "They agreed to let Germany take the Sudetenland.",
+        "War came in 1939.",
+        "Germany kept Austria.",
+        "Poland was invaded in 1939, which led to war."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Munich agreement concerned Czechoslovakia's Sudetenland, not Poland.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-7-6-q03",
+      "topicId": "world-7-6",
+      "concept": "road-to-war",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Japan's attack on Pearl Harbor is best explained by",
+      "choices": [
+        "Japan's alliance with the United States",
+        "the US oil sales that Japan wished to expand into a formal alliance",
+        "the US oil embargo and Japan's plan to seize Southeast Asia",
+        "a US invasion of Japan in 1940"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After the oil embargo, Japan planned to seize resource-rich colonies and attacked the US fleet.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Japan and the US were rivals.",
+        "The US had cut off oil.",
+        "After the oil embargo, Japan planned to seize resource-rich colonies and attacked the US fleet.",
+        "There was no such invasion."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The US had cut off oil sales; Japan was not trying to expand them.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-6-q04",
+      "topicId": "world-7-6",
+      "concept": "fascism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following helped the Nazi Party gain support?",
+      "choices": [
+        "Economic prosperity and full employment in Germany in the early 1930s",
+        "German satisfaction with the peace settlement",
+        "Support from the League of Nations",
+        "The Depression and resentment of the Versailles treaty"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Economic crisis and resentment of the treaty boosted the Nazis.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Germany suffered depression.",
+        "Germans resented the treaty.",
+        "The League did not support the Nazis.",
+        "Economic crisis and resentment of the treaty boosted the Nazis."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Germany was in depression, not prosperity, in the early 1930s.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-6-q05",
+      "topicId": "world-7-6",
+      "concept": "road-to-war",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which claim about the causes of World War II is most defensible?",
+      "choices": [
+        "The war was caused only by events in Asia",
+        "Unchecked aggression in Europe and Asia led to a global war",
+        "The war began only when Germany invaded Poland in September 1939",
+        "Appeasement stopped Hitler's expansion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "German, Italian, and Japanese expansion together produced global war.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "European aggression mattered too.",
+        "German, Italian, and Japanese expansion together produced global war.",
+        "Fighting in Asia began earlier.",
+        "Appeasement failed."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Japan's war in China began in 1937, before the invasion of Poland.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-7-6-t01",
+      "topicId": "world-7-6",
+      "concept": "fascism",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, fascism",
+      "choices": [
+        "supported many political parties",
+        "favored international communism",
+        "rejected communism but supported democracy",
+        "rejected democracy and communism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fascism rejected both democracy and communism.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Fascists banned other parties.",
+        "Fascists opposed communism.",
+        "The passage says fascism rejected democracy too.",
+        "Fascism rejected both democracy and communism."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Fascism rejected democracy as well as communism.",
+      "stimulusId": "original-fascism",
+      "stimulusBlocks": [
+        {
+          "id": "original-fascism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.6 key concept: the causes of World War II included the rise of fascist and totalitarian regimes that used violence and propaganda and pursued expansion",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the rise of fascism, 1919–1939",
+          "text": "Fascism glorified the nation, rejected democracy and communism, and demanded obedience to a single leader. Benito Mussolini took power in Italy in 1922. In Germany, the Depression and resentment of the Versailles treaty helped Adolf Hitler's Nazi Party grow, and Hitler became chancellor in 1933.\n\nThe Nazis quickly destroyed democracy, banned other parties, and persecuted Jews. Both regimes used propaganda and violence to control society and promised to restore national greatness through expansion."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-6-t02",
+      "topicId": "world-7-6",
+      "concept": "fascism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, which helped Hitler's party grow?",
+      "choices": [
+        "Support from the Soviet Union",
+        "The Depression and resentment of Versailles",
+        "Germany's victory over France and Russia in World War I",
+        "Prosperity in the 1920s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage names the Depression and resentment of the treaty.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "The Nazis were hostile to Soviet communism in the 1930s.",
+        "The passage names the Depression and resentment of the treaty.",
+        "Germany lost.",
+        "The Depression mattered."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Germany lost World War I.",
+      "stimulusId": "original-fascism",
+      "stimulusBlocks": [
+        {
+          "id": "original-fascism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.6 key concept: the causes of World War II included the rise of fascist and totalitarian regimes that used violence and propaganda and pursued expansion",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the rise of fascism, 1919–1939",
+          "text": "Fascism glorified the nation, rejected democracy and communism, and demanded obedience to a single leader. Benito Mussolini took power in Italy in 1922. In Germany, the Depression and resentment of the Versailles treaty helped Adolf Hitler's Nazi Party grow, and Hitler became chancellor in 1933.\n\nThe Nazis quickly destroyed democracy, banned other parties, and persecuted Jews. Both regimes used propaganda and violence to control society and promised to restore national greatness through expansion."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-6-t03",
+      "topicId": "world-7-6",
+      "concept": "fascism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Fascist Italy and Nazi Germany were similar in that both",
+      "choices": [
+        "rejected expansion in favor of peace with their neighbors",
+        "used propaganda and violence to control society",
+        "were founded by communists",
+        "supported free elections"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both used propaganda and violence and promised expansion.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Both pursued expansion.",
+        "Both used propaganda and violence and promised expansion.",
+        "Both opposed communism.",
+        "Both ended free elections."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Both promised expansion.",
+      "stimulusId": "original-fascism",
+      "stimulusBlocks": [
+        {
+          "id": "original-fascism",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.6 key concept: the causes of World War II included the rise of fascist and totalitarian regimes that used violence and propaganda and pursued expansion",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the rise of fascism, 1919–1939",
+          "text": "Fascism glorified the nation, rejected democracy and communism, and demanded obedience to a single leader. Benito Mussolini took power in Italy in 1922. In Germany, the Depression and resentment of the Versailles treaty helped Adolf Hitler's Nazi Party grow, and Hitler became chancellor in 1933.\n\nThe Nazis quickly destroyed democracy, banned other parties, and persecuted Jews. Both regimes used propaganda and violence to control society and promised to restore national greatness through expansion."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-7-6-t04",
+      "topicId": "world-7-6",
+      "concept": "road-to-war",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, Britain and France pursued appeasement because they",
+      "choices": [
+        "wanted to help Germany expand eastward against the Soviet Union",
+        "had defeated Germany in 1938",
+        "were allied with the Soviet Union",
+        "were scarred by World War I and wanted to avoid war"
+      ],
+      "correctAnswer": 3,
+      "explanation": "They were scarred by World War I and hoped to avoid another war.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "They hoped to avoid war.",
+        "No war was fought in 1938.",
+        "Germany signed a pact with the Soviets.",
+        "They were scarred by World War I and hoped to avoid another war."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "They hoped to avoid war, not to help Germany.",
+      "stimulusId": "original-appeasement",
+      "stimulusBlocks": [
+        {
+          "id": "original-appeasement",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.6 key concept: the failure of the Paris peace settlement and the policy of appeasement contributed to the outbreak of World War II",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing appeasement and the outbreak of war in Europe, 1936–1939",
+          "text": "Hitler rearmed Germany in violation of the Versailles treaty and annexed Austria in 1938. Britain and France, still scarred by World War I, tried to avoid another war through appeasement. At Munich in September 1938, they agreed to let Germany take the Sudetenland from Czechoslovakia.\n\nIn August 1939, Germany and the Soviet Union signed a pact not to attack each other. On September 1, 1939, Germany invaded Poland, and Britain and France declared war."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-6-t05",
+      "topicId": "world-7-6",
+      "concept": "road-to-war",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, the immediate cause of war between Britain and Germany was",
+      "choices": [
+        "Germany's invasion of Poland",
+        "Germany's annexation of Austria",
+        "Japan's attack on Pearl Harbor",
+        "the Munich agreement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Britain and France declared war after Germany invaded Poland.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Britain and France declared war after Germany invaded Poland.",
+        "Austria was annexed without war.",
+        "Pearl Harbor came in 1941.",
+        "Munich was an attempt to avoid war."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The annexation of Austria in 1938 did not lead to war.",
+      "stimulusId": "original-appeasement",
+      "stimulusBlocks": [
+        {
+          "id": "original-appeasement",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.6 key concept: the failure of the Paris peace settlement and the policy of appeasement contributed to the outbreak of World War II",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing appeasement and the outbreak of war in Europe, 1936–1939",
+          "text": "Hitler rearmed Germany in violation of the Versailles treaty and annexed Austria in 1938. Britain and France, still scarred by World War I, tried to avoid another war through appeasement. At Munich in September 1938, they agreed to let Germany take the Sudetenland from Czechoslovakia.\n\nIn August 1939, Germany and the Soviet Union signed a pact not to attack each other. On September 1, 1939, Germany invaded Poland, and Britain and France declared war."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-6-t06",
+      "topicId": "world-7-6",
+      "concept": "road-to-war",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, Japan seized Manchuria in 1931 mainly to gain",
+      "choices": [
+        "a naval base in Hawaii",
+        "an alliance with China",
+        "raw materials and markets",
+        "democratic reforms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says Japan sought raw materials and markets.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Hawaii is not mentioned in this context.",
+        "Japan attacked China.",
+        "The passage says Japan sought raw materials and markets.",
+        "The passage concerns resources."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Japan sought resources, not reforms.",
+      "stimulusId": "original-japan-expansion",
+      "stimulusBlocks": [
+        {
+          "id": "original-japan-expansion",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.6 key concept: Japanese imperial expansion in Asia was a cause of World War II",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Japanese expansion, 1931–1941",
+          "text": "Seeking raw materials and markets during the Depression, Japanese army officers seized Manchuria in northeastern China in 1931. Japan launched a full-scale war against China in 1937; when Japanese troops captured Nanjing, they killed many thousands of civilians and prisoners.\n\nWhen the United States cut off oil exports to Japan in 1941, Japanese leaders decided to seize the resource-rich colonies of Southeast Asia. On December 7, 1941, Japan attacked the US naval base at Pearl Harbor."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-6-t07",
+      "topicId": "world-7-6",
+      "concept": "road-to-war",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, the US oil embargo led Japanese leaders to",
+      "choices": [
+        "withdraw from China",
+        "ally with the United States",
+        "end the war in China",
+        "plan to seize Southeast Asian colonies"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Japan decided to seize resource-rich colonies.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Japan stayed in China.",
+        "Japan attacked the US.",
+        "The war continued.",
+        "Japan decided to seize resource-rich colonies."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Japan did not withdraw from China.",
+      "stimulusId": "original-japan-expansion",
+      "stimulusBlocks": [
+        {
+          "id": "original-japan-expansion",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.6 key concept: Japanese imperial expansion in Asia was a cause of World War II",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Japanese expansion, 1931–1941",
+          "text": "Seeking raw materials and markets during the Depression, Japanese army officers seized Manchuria in northeastern China in 1931. Japan launched a full-scale war against China in 1937; when Japanese troops captured Nanjing, they killed many thousands of civilians and prisoners.\n\nWhen the United States cut off oil exports to Japan in 1941, Japanese leaders decided to seize the resource-rich colonies of Southeast Asia. On December 7, 1941, Japan attacked the US naval base at Pearl Harbor."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-7-6-t08",
+      "topicId": "world-7-6",
+      "concept": "road-to-war",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Japan's seizure of Manchuria in 1931 is best understood in the context of",
+      "choices": [
+        "the prosperity of the 1920s and rising world trade",
+        "the Great Depression and competition for resources",
+        "the end of World War II",
+        "Japan's alliance with the Soviet Union"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage links the seizure to the search for raw materials and markets during the Depression.",
+      "sourceIds": [
+        "ced-topic-7-6"
+      ],
+      "choiceExplanations": [
+        "Trade was shrinking by 1931.",
+        "The passage links the seizure to the search for raw materials and markets during the Depression.",
+        "World War II ended in 1945.",
+        "Japan was not allied with the Soviet Union."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The seizure came as the Depression shrank trade, not during prosperity.",
+      "stimulusId": "original-japan-expansion",
+      "stimulusBlocks": [
+        {
+          "id": "original-japan-expansion",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 7.6 key concept: Japanese imperial expansion in Asia was a cause of World War II",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Japanese expansion, 1931–1941",
+          "text": "Seeking raw materials and markets during the Depression, Japanese army officers seized Manchuria in northeastern China in 1931. Japan launched a full-scale war against China in 1937; when Japanese troops captured Nanjing, they killed many thousands of civilians and prisoners.\n\nWhen the United States cut off oil exports to Japan in 1941, Japanese leaders decided to seize the resource-rich colonies of Southeast Asia. On December 7, 1941, Japan attacked the US naval base at Pearl Harbor."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-7-6-quick",
+      "courseId": "world",
+      "unitId": "world-7",
+      "topicId": "world-7-6",
+      "title": "Topic 7.6 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-7-6-q01",
+        "world-7-6-q02",
+        "world-7-6-q03"
+      ]
+    },
+    {
+      "id": "world-7-6-quiz",
+      "courseId": "world",
+      "unitId": "world-7",
+      "topicId": "world-7-6",
+      "title": "Causes of World War II topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-7-6-q01",
+        "world-7-6-q02",
+        "world-7-6-q03",
+        "world-7-6-q04",
+        "world-7-6-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "fascism": {
+      "id": "fascism",
+      "title": "The rise of fascism",
+      "section": "fascism",
+      "topicId": "world-7-6"
+    },
+    "road-to-war": {
+      "id": "road-to-war",
+      "title": "Appeasement and expansion",
+      "section": "road-to-war",
+      "topicId": "world-7-6"
+    }
+  },
+  "assets": {}
+}

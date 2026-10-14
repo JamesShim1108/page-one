@@ -1,0 +1,404 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "quiz": {
+    "id": "world-3-saq-01",
+    "version": 1,
+    "courseId": "world",
+    "unitId": "world-3",
+    "title": "Unit 3 SAQ 01",
+    "headline": "Merit and power at the Ottoman court",
+    "promptTitle": "Primary-source short-answer question",
+    "prompt": "Use the passage below to answer all parts of the question.",
+    "instructions": "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.",
+    "note": "Original Page One practice in AP short-answer format. Model answers show one strong response; other accurate, well-supported answers can earn the point.",
+    "exerciseType": "saq",
+    "stimulusBlocks": [
+      {
+        "id": "busbecq-merit",
+        "type": "source",
+        "sourceType": "primary",
+        "source": "busbecq-forster-1881",
+        "amsco_review": "pending",
+        "attribution": "Ogier Ghiselin de Busbecq, ambassador of the Habsburg ruler Ferdinand I to the court of the Ottoman sultan Suleiman I, letter written in 1555 describing his audience with the sultan, published in Latin in 1589",
+        "citation": "The Life and Letters of Ogier Ghiselin de Busbecq, trans. Charles Thornton Forster and F. H. Blackburne Daniell (London: C. Kegan Paul, 1881), vol. 1, Letter I. Project Gutenberg eBook #53629.",
+        "note": "Spahis were cavalry; Janissaries were infantry recruited through the devshirme. Busbecq's letter was addressed to a friend in the Habsburg lands.",
+        "text": "The Sultan's hall was crowded with people, among whom were several officers of high rank. Besides these there were all the troopers of the Imperial guard, Spahis, Ghourebas, Ouloufedgis, and a large force of Janissaries; but there was not in all that great assembly a single man who owed his position to aught save his valour and his merit. No distinction is attached to birth among the Turks; the deference to be paid to a man is measured by the position he holds in the public service. . . . Those who receive the highest offices from the Sultan are for the most part the sons of shepherds or herdsmen, and so far from being ashamed of their parentage, they actually glory in it . . . .\n\nThis is the reason that they are successful in their undertakings, that they lord it over others, and are daily extending the bounds of their empire. These are not our ideas, with us there is no opening left for merit; birth is the standard for everything; the prestige of birth is the sole key to advancement in the public service."
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Answer",
+        "text": "Respond directly to the task verb: identify, describe, or explain."
+      },
+      {
+        "label": "Prove",
+        "text": "Name a specific person, place, institution, or development."
+      },
+      {
+        "label": "Explain",
+        "text": "Show how or why the evidence answers the question."
+      }
+    ],
+    "parts": [
+      {
+        "id": "a",
+        "lenses": [
+          "P",
+          "S"
+        ],
+        "prompt": "Identify ONE claim Busbecq makes about how officials were chosen in the Ottoman Empire.",
+        "criteria": [
+          "States a specific claim from the passage.",
+          "Connects the claim to how officials or soldiers were chosen or promoted."
+        ],
+        "model": {
+          "answer": "Busbecq claims that Ottoman officials rose through merit rather than noble birth.",
+          "prove": "He writes that no one at the court owed his position to anything but valor and merit, and that most high officials were sons of shepherds or herdsmen.",
+          "explain": "By stressing humble origins and ability, he shows that the sultan promoted men for service, not for family rank."
+        },
+        "alternatives": "Answers can also identify his claim that the sultan judged each man's character and ability, or that this system explains Ottoman success.",
+        "review": [
+          {
+            "topicId": "world-3-2",
+            "sectionId": "bureaucracy-military",
+            "label": "Ottoman administration"
+          }
+        ]
+      },
+      {
+        "id": "b",
+        "lenses": [
+          "P",
+          "S"
+        ],
+        "prompt": "Explain ONE Ottoman practice from the period 1450 to 1750 that helps account for the system Busbecq describes.",
+        "criteria": [
+          "Names a specific Ottoman practice.",
+          "Explains how it produced officials or soldiers loyal to the sultan."
+        ],
+        "model": {
+          "answer": "The devshirme produced officials and soldiers who owed their careers to the sultan.",
+          "prove": "Under the devshirme, Christian boys from the Balkans were taken from their families, converted to Islam, and trained as Janissaries or administrators.",
+          "explain": "Because recruits had no noble family to rely on, their rank depended on training and the sultan's favor, which matches Busbecq's picture of promotion without regard to birth."
+        },
+        "alternatives": "Answers can also explain the Janissaries as a salaried standing army, or the palace schools that trained officials, if they connect the practice to loyalty or merit.",
+        "review": [
+          {
+            "topicId": "world-3-2",
+            "sectionId": "bureaucracy-military",
+            "label": "The devshirme"
+          },
+          {
+            "topicId": "world-3-1",
+            "sectionId": "gunpowder-armies",
+            "label": "The Janissaries"
+          }
+        ]
+      },
+      {
+        "id": "c",
+        "lenses": [
+          "C"
+        ],
+        "prompt": "Explain ONE way Busbecq's purpose or audience might affect the reliability of his description.",
+        "criteria": [
+          "Identifies a specific feature of Busbecq's purpose, audience, or situation.",
+          "Explains how it could make the description more or less reliable."
+        ],
+        "model": {
+          "answer": "Busbecq used the Ottomans to criticize his own society, so he may have exaggerated how fair the Ottoman system was.",
+          "prove": "He ends by contrasting Ottoman merit with Europe, where “birth is the standard for everything,” and asks his reader to keep the comparison private.",
+          "explain": "A writer who wants to make a point about his own society has reason to idealize the other side, and he leaves out that the devshirme took boys from their families by force."
+        },
+        "alternatives": "Answers can also note that as an ambassador he saw the court during formal audiences, or that he had diplomatic reasons to study Ottoman strength closely, which could make parts of the account more informed.",
+        "review": [
+          {
+            "topicId": "world-3-2",
+            "sectionId": "bureaucracy-military",
+            "label": "The devshirme"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "busbecq-forster-1881",
+      "ced-topic-3-2",
+      "ced"
+    ]
+  }
+}

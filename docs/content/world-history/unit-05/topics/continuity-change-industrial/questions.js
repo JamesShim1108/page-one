@@ -1,0 +1,138 @@
+// Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// q-numbered items are topic practice; t-numbered items belong to the Unit 5 Practice Test.
+import { excerpts } from "../../../excerpts.js";
+
+export const bank = {
+  questions: [
+    {
+      id: "world-5-10-q01",
+      topicId: "world-5-10",
+      concept: "industrial-change",
+      difficulty: "Core",
+      skill: "connections",
+      reasoning: "continuity",
+      prompt: "Which of the following best illustrates continuity from 1750 to 1900?",
+      choices: [
+        "Most of the world's people still worked in agriculture",
+        "Machines transformed textile production",
+        "New nations formed in Latin America after independence",
+        "Railroads crossed every inhabited continent by 1900",
+      ],
+      correctAnswer: 0,
+      explanation: "Agriculture remained the main occupation worldwide.",
+      sourceIds: ["ced-topic-5-10"],
+      choiceExplanations: [
+        "Agriculture remained the main occupation worldwide.",
+        "Mechanized textile production was new after 1750, so it is a change.",
+        "New Latin American nations formed after 1810, which is a change.",
+        "Railroads were built only after 1830, which is a change.",
+      ],
+      nearMissIndex: 1,
+      distinguisher: "Mechanized textiles are a change, not a continuity.",
+    },
+    {
+      id: "world-5-10-q02",
+      topicId: "world-5-10",
+      concept: "industrial-change",
+      difficulty: "Core",
+      skill: "argumentation",
+      prompt: "Which claim about the period 1750 to 1900 is most defensible?",
+      choices: [
+        "Political rights expanded equally for everyone",
+        "Political rights shrank everywhere as monarchs regained power",
+        "Political rights expanded only in Asia, especially in Meiji Japan",
+        "Political rights expanded for some groups while many remained excluded",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Some men gained votes while women and colonized peoples were excluded.",
+      sourceIds: ["ced-topic-5-10"],
+      choiceExplanations: [
+        "Expansion was unequal.",
+        "Rights expanded for some.",
+        "Expansion was concentrated in Europe and the Americas.",
+        "Some men gained votes while women and colonized peoples were excluded.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Rights did not expand equally; women and colonized peoples were often excluded.",
+    },
+    {
+      id: "world-5-10-t01",
+      topicId: "world-5-10",
+      concept: "industrial-change",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt: "Which of the following does the passage present as a continuity?",
+      choices: [
+        "Most people still farmed",
+        "New nations formed",
+        "Machines transformed production",
+        "Natural rights ideas spread",
+      ],
+      correctAnswer: 0,
+      explanation: "The passage says most people still farmed.",
+      sourceIds: ["ced-topic-5-10"],
+      choiceExplanations: [
+        "The passage says most people still farmed.",
+        "The passage lists the formation of new nations among the changes.",
+        "The passage says machines transformed production, a change.",
+        "The spread of natural rights ideas is described as new.",
+      ],
+      nearMissIndex: 1,
+      distinguisher: "The formation of new nations is described as a change.",
+      stimulusId: "original-continuity-1750-1900",
+      stimulusBlocks: [excerpts.originalContinuity5],
+    },
+    {
+      id: "world-5-10-t02",
+      topicId: "world-5-10",
+      concept: "industrial-change",
+      difficulty: "Apply",
+      skill: "argumentation",
+      prompt:
+        "The author would most likely agree that political change from 1750 to 1900 was",
+      choices: [
+        "nonexistent outside Europe",
+        "limited entirely to monarchies",
+        "significant but limited to some groups",
+        "complete and equal for all people, including women and colonized peoples",
+      ],
+      correctAnswer: 2,
+      explanation: "Rights expanded for some while others remained excluded.",
+      sourceIds: ["ced-topic-5-10"],
+      choiceExplanations: [
+        "New nations formed in the Americas.",
+        "New nations included republics.",
+        "Rights expanded for some while others remained excluded.",
+        "Change was unequal.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "The author says women, colonized peoples, and many workers were excluded.",
+      stimulusId: "original-continuity-1750-1900",
+      stimulusBlocks: [excerpts.originalContinuity5],
+    },
+  ],
+  quizzes: [
+    {
+      id: "world-5-10-quick",
+      courseId: "world",
+      unitId: "world-5",
+      topicId: "world-5-10",
+      title: "Topic 5.10 quick check",
+      quizType: "quick",
+      questionIds: ["world-5-10-q01", "world-5-10-q02"],
+    },
+    {
+      id: "world-5-10-quiz",
+      courseId: "world",
+      unitId: "world-5",
+      topicId: "world-5-10",
+      title: "Continuity and Change in the Industrial Age topic quiz",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: ["world-5-10-q01", "world-5-10-q02"],
+    },
+  ],
+};

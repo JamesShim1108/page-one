@@ -88,8 +88,183 @@
             ]
           }
         ]
+      },
+      {
+        "id": "world-1-practice-test",
+        "courseId": "world",
+        "unitId": "world-1",
+        "title": "Unit 1 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-1-1",
+            "questionIds": [
+              "world-1-1-t01",
+              "world-1-1-t02",
+              "world-1-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-1-1",
+            "questionIds": [
+              "world-1-1-t04",
+              "world-1-1-t05",
+              "world-1-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-1-1",
+            "questionIds": [
+              "world-1-1-t07",
+              "world-1-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-1-2",
+            "questionIds": [
+              "world-1-2-t01",
+              "world-1-2-t02",
+              "world-1-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-1-2",
+            "questionIds": [
+              "world-1-2-t04",
+              "world-1-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-1-2",
+            "questionIds": [
+              "world-1-2-t06",
+              "world-1-2-t07",
+              "world-1-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-1-3",
+            "questionIds": [
+              "world-1-3-t01",
+              "world-1-3-t02",
+              "world-1-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-1-3",
+            "questionIds": [
+              "world-1-3-t04",
+              "world-1-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-1-3",
+            "questionIds": [
+              "world-1-3-t06",
+              "world-1-3-t07",
+              "world-1-3-t08"
+            ]
+          },
+          {
+            "topicId": "world-1-4",
+            "questionIds": [
+              "world-1-4-t01",
+              "world-1-4-t02",
+              "world-1-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-1-4",
+            "questionIds": [
+              "world-1-4-t04",
+              "world-1-4-t05",
+              "world-1-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-1-4",
+            "questionIds": [
+              "world-1-4-t07",
+              "world-1-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-1-5",
+            "questionIds": [
+              "world-1-5-t01",
+              "world-1-5-t02",
+              "world-1-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-1-5",
+            "questionIds": [
+              "world-1-5-t04",
+              "world-1-5-t05"
+            ]
+          },
+          {
+            "topicId": "world-1-5",
+            "questionIds": [
+              "world-1-5-t06",
+              "world-1-5-t07",
+              "world-1-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-1-6",
+            "questionIds": [
+              "world-1-6-t01",
+              "world-1-6-t02",
+              "world-1-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-1-6",
+            "questionIds": [
+              "world-1-6-t04",
+              "world-1-6-t05",
+              "world-1-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-1-6",
+            "questionIds": [
+              "world-1-6-t07",
+              "world-1-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-1-7",
+            "questionIds": [
+              "world-1-7-t01",
+              "world-1-7-t02",
+              "world-1-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-1-7",
+            "questionIds": [
+              "world-1-7-t04",
+              "world-1-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-1-7",
+            "questionIds": [
+              "world-1-7-t06",
+              "world-1-7-t07"
+            ]
+          }
+        ]
       }
     ],
+    "practiceTest": {
+      "id": "world-1-practice-test",
+      "title": "Unit 1 Practice Test",
+      "questionCount": 55
+    },
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -151,6 +326,13 @@
       {
         "id": "world-1-saq",
         "title": "Unit 1 writing quiz",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "world-1-saq-02",
+        "title": "Unit 1 SAQ 02",
         "partCount": 3,
         "exerciseType": "saq",
         "availability": "available"
@@ -620,6 +802,370 @@
       "distinguisher": "The Swahili coast faces the Indian Ocean.",
       "skillLabel": "Developments and processes",
       "skillCode": "1"
+    },
+    {
+      "id": "world-1-5-t01",
+      "topicId": "world-1-5",
+      "concept": "africa-ethiopia",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which of the following conclusions about Abash is best supported by the passage?",
+      "choices": [
+        "It was isolated from contact with other states and religions",
+        "It was a Christian state ruled directly by the Byzantine emperor",
+        "It was a Christian state whose ruler had authority over other kings",
+        "It was a Muslim sultanate allied with the ruler of Aden"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Polo says the greatest of the six kings is a Christian to whom the others are subject.",
+      "sourceIds": [
+        "ced-topic-1-5",
+        "polo-yule-1903"
+      ],
+      "choiceExplanations": [
+        "The passage mentions wars with neighbors and a pilgrimage to Jerusalem, evidence of contact.",
+        "Polo describes a Christian king of Abash, not Byzantine rule.",
+        "Polo says the greatest of the six kings is a Christian to whom the others are subject.",
+        "Polo describes Abash as at war with the Soldan of Aden."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Ethiopia was Christian, but it had its own kings; Polo says the greatest of its six kings was its overlord.",
+      "stimulusId": "polo-abash",
+      "stimulusBlocks": [
+        {
+          "id": "polo-abash",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "polo-yule-1903",
+          "amsco_review": "pending",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Christian kingdom of Ethiopia from reports he heard in Indian Ocean ports",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 35. Project Gutenberg eBook #12410.",
+          "note": "Abash is Abyssinia (Ethiopia); Polo, like many Europeans, called distant lands a part of “India.” Saracens means Muslims. Aden is a port in Yemen. Polo did not visit Ethiopia.",
+          "text": "Abash is a very great Province, and you must know that it constitutes the MIDDLE INDIA; and it is on the mainland. There are in it six great Kings with six great Kingdoms; and of these six Kings there are three that are Christians and three that are Saracens; but the greatest of all the six is a Christian, and all the others are subject to him. . . .\n\nThe people here are excellent soldiers, and they go on horseback, for they have horses in plenty. Well they may; for they are in daily war with the Soldan of ADEN, and with the Nubians, and a variety of other nations. . . .\n\nYou must know that this Christian King, who is the Lord of the Province of Abash, declared his intention to go on pilgrimage to Jerusalem to adore the Holy Sepulchre of Our Lord God Jesus Christ the Saviour. But his Barons said that for him to go in person would be to run too great a risk; and they recommended him to send some bishop or prelate in his stead."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-1-5-t02",
+      "topicId": "world-1-5",
+      "concept": "africa-ethiopia",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The Christian kingship described in the passage is best understood in the context of",
+      "choices": [
+        "a Christian tradition in the region dating back to the kingdom of Aksum",
+        "a Christian tradition introduced to the region by crusaders from Europe",
+        "Mongol conquests that spread Christianity in Northeast Africa",
+        "the recent arrival of Portuguese missionaries on the East African coast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethiopian Christianity grew out of Aksum's conversion in the fourth century, and the Solomonic dynasty claimed that heritage.",
+      "sourceIds": [
+        "ced-topic-1-5",
+        "polo-yule-1903"
+      ],
+      "choiceExplanations": [
+        "Ethiopian Christianity grew out of Aksum's conversion in the fourth century, and the Solomonic dynasty claimed that heritage.",
+        "Ethiopian Christianity was much older than the Crusades.",
+        "The Mongols did not conquer Northeast Africa.",
+        "Portuguese missionaries arrived after 1500, too late for Polo's account."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "There was a long Christian tradition, but it came from Aksum's conversion centuries earlier, not from crusaders.",
+      "stimulusId": "polo-abash",
+      "stimulusBlocks": [
+        {
+          "id": "polo-abash",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "polo-yule-1903",
+          "amsco_review": "pending",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Christian kingdom of Ethiopia from reports he heard in Indian Ocean ports",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 35. Project Gutenberg eBook #12410.",
+          "note": "Abash is Abyssinia (Ethiopia); Polo, like many Europeans, called distant lands a part of “India.” Saracens means Muslims. Aden is a port in Yemen. Polo did not visit Ethiopia.",
+          "text": "Abash is a very great Province, and you must know that it constitutes the MIDDLE INDIA; and it is on the mainland. There are in it six great Kings with six great Kingdoms; and of these six Kings there are three that are Christians and three that are Saracens; but the greatest of all the six is a Christian, and all the others are subject to him. . . .\n\nThe people here are excellent soldiers, and they go on horseback, for they have horses in plenty. Well they may; for they are in daily war with the Soldan of ADEN, and with the Nubians, and a variety of other nations. . . .\n\nYou must know that this Christian King, who is the Lord of the Province of Abash, declared his intention to go on pilgrimage to Jerusalem to adore the Holy Sepulchre of Our Lord God Jesus Christ the Saviour. But his Barons said that for him to go in person would be to run too great a risk; and they recommended him to send some bishop or prelate in his stead."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-1-5-t03",
+      "topicId": "world-1-5",
+      "concept": "africa-ethiopia",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Which of the following most limits the usefulness of the passage as evidence about Ethiopia?",
+      "choices": [
+        "Polo wrote it in Arabic for a Muslim audience in Aden",
+        "Polo based it on Ethiopian royal chronicles that he translated",
+        "Polo wrote it while serving as an official of the Ethiopian king",
+        "Polo based it on reports he heard rather than on his own observation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Polo did not visit Ethiopia, so his description relies on secondhand reports that may be inaccurate.",
+      "sourceIds": [
+        "ced-topic-1-5",
+        "polo-yule-1903"
+      ],
+      "choiceExplanations": [
+        "Polo's book was written for European readers, not in Arabic.",
+        "There is no evidence Polo read or translated Ethiopian chronicles.",
+        "Polo never served the Ethiopian king.",
+        "Polo did not visit Ethiopia, so his description relies on secondhand reports that may be inaccurate."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Using reports is the issue, but Polo did not translate Ethiopian chronicles; he relied on what traders told him.",
+      "stimulusId": "polo-abash",
+      "stimulusBlocks": [
+        {
+          "id": "polo-abash",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "polo-yule-1903",
+          "amsco_review": "pending",
+          "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Christian kingdom of Ethiopia from reports he heard in Indian Ocean ports",
+          "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 35. Project Gutenberg eBook #12410.",
+          "note": "Abash is Abyssinia (Ethiopia); Polo, like many Europeans, called distant lands a part of “India.” Saracens means Muslims. Aden is a port in Yemen. Polo did not visit Ethiopia.",
+          "text": "Abash is a very great Province, and you must know that it constitutes the MIDDLE INDIA; and it is on the mainland. There are in it six great Kings with six great Kingdoms; and of these six Kings there are three that are Christians and three that are Saracens; but the greatest of all the six is a Christian, and all the others are subject to him. . . .\n\nThe people here are excellent soldiers, and they go on horseback, for they have horses in plenty. Well they may; for they are in daily war with the Soldan of ADEN, and with the Nubians, and a variety of other nations. . . .\n\nYou must know that this Christian King, who is the Lord of the Province of Abash, declared his intention to go on pilgrimage to Jerusalem to adore the Holy Sepulchre of Our Lord God Jesus Christ the Saviour. But his Barons said that for him to go in person would be to run too great a risk; and they recommended him to send some bishop or prelate in his stead."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-1-5-t04",
+      "topicId": "world-1-5",
+      "concept": "africa-zimbabwe",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The Chinese porcelain and Persian pottery found at Great Zimbabwe are best used as evidence that",
+      "choices": [
+        "Great Zimbabwe was built by merchants from China and Persia",
+        "Great Zimbabwe was connected to Indian Ocean trade networks",
+        "Great Zimbabwe was connected to trans-Saharan trade routes",
+        "Great Zimbabwe produced porcelain for export"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Goods from China and Persia reached the site through the Swahili coast and Indian Ocean trade.",
+      "sourceIds": [
+        "ced-topic-1-5"
+      ],
+      "choiceExplanations": [
+        "Imported goods show connection, not foreign builders; the passage rejects that claim.",
+        "Goods from China and Persia reached the site through the Swahili coast and Indian Ocean trade.",
+        "Great Zimbabwe traded toward the east coast, not across the Sahara.",
+        "The porcelain was imported, not made at the site."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Long-distance connection is right, but Great Zimbabwe's goods moved toward the Swahili coast and the Indian Ocean, not across the Sahara.",
+      "stimulusId": "original-great-zimbabwe",
+      "stimulusBlocks": [
+        {
+          "id": "original-great-zimbabwe",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.5, KC-3.2.I.D.ii: in Africa, state systems demonstrated continuity, innovation, and diversity; Great Zimbabwe is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing archaeological evidence about Great Zimbabwe, c. 1200–1450",
+          "text": "Great Zimbabwe, built by ancestors of the Shona people, was the capital of a state in southern Africa between about 1200 and 1450. Its stone enclosures were built without mortar, and the largest wall is more than 9 meters high in places. Cattle herding and farming supported the population, while rulers controlled trade in gold and ivory that moved toward the Swahili coast.\n\nArchaeologists have found Chinese porcelain, Persian pottery, and glass beads at the site. In the 1800s, some European writers claimed that Africans could not have built the walls. Archaeological research has shown that claim to be false."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-1-5-t05",
+      "topicId": "world-1-5",
+      "concept": "africa-zimbabwe",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "The claims made by some European writers in the 1800s, described in the passage, were most likely shaped by",
+      "choices": [
+        "the oral traditions of Shona-speaking communities",
+        "racist assumptions used to justify European colonial expansion",
+        "careful study of Arabic accounts written by visiting merchants",
+        "careful archaeological excavation of the stone enclosures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Denying African achievement supported racist ideas used to justify colonial rule in the 1800s.",
+      "sourceIds": [
+        "ced-topic-1-5"
+      ],
+      "choiceExplanations": [
+        "Shona traditions connected the site to their own ancestors, contradicting the writers' claim.",
+        "Denying African achievement supported racist ideas used to justify colonial rule in the 1800s.",
+        "No such accounts support the writers' claim; it rested on assumptions, not evidence.",
+        "Archaeological research disproved the claim."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Shona oral traditions linked the site to African ancestors; they would not support the claim that Africans could not build it.",
+      "stimulusId": "original-great-zimbabwe",
+      "stimulusBlocks": [
+        {
+          "id": "original-great-zimbabwe",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.5, KC-3.2.I.D.ii: in Africa, state systems demonstrated continuity, innovation, and diversity; Great Zimbabwe is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing archaeological evidence about Great Zimbabwe, c. 1200–1450",
+          "text": "Great Zimbabwe, built by ancestors of the Shona people, was the capital of a state in southern Africa between about 1200 and 1450. Its stone enclosures were built without mortar, and the largest wall is more than 9 meters high in places. Cattle herding and farming supported the population, while rulers controlled trade in gold and ivory that moved toward the Swahili coast.\n\nArchaeologists have found Chinese porcelain, Persian pottery, and glass beads at the site. In the 1800s, some European writers claimed that Africans could not have built the walls. Archaeological research has shown that claim to be false."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-1-5-t06",
+      "topicId": "world-1-5",
+      "concept": "africa-mali",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which aspect of Mali's government does Ibn Battuta praise most directly in the passage?",
+      "choices": [
+        "Its policy of forcing all subjects to convert to Islam",
+        "Its success in keeping order by confiscating foreign property",
+        "Its system of examinations for selecting officials",
+        "Its success in keeping order and protecting travelers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "He stresses security: neither travelers nor residents feared robbers.",
+      "sourceIds": [
+        "ced-topic-1-5",
+        "battuta-gibb-1929"
+      ],
+      "choiceExplanations": [
+        "He praises Muslim devotion but does not describe forced conversion.",
+        "He says the property of a foreigner who dies is kept safe for the rightful heir.",
+        "Mali did not use civil service examinations.",
+        "He stresses security: neither travelers nor residents feared robbers."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Order is right, but Ibn Battuta says Mali did not confiscate the property of foreigners who died there.",
+      "stimulusId": "battuta-mali",
+      "stimulusBlocks": [
+        {
+          "id": "battuta-mali",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
+          "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
+          "edits": [
+            {
+              "shown": "[The people of Mali]",
+              "original": "The negroes"
+            }
+          ],
+          "text": "[The people of Mali] possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. Their sultan shows no mercy to anyone who is guilty of the least act of it. There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. They do not confiscate the property of any white man who dies in their country, even if it be uncounted wealth. On the contrary, they give it into the charge of some trustworthy person among the whites, until the rightful heir takes possession of it. They are careful to observe the hours of prayer, and assiduous in attending them in congregations, and in bringing up their children to them. . . .\n\nYet another is their zeal for learning the Koran by heart. . . . Among their bad qualities are the following. . . . Then there is their custom of putting dust and ashes on their heads, as a mark of respect, and the grotesque ceremonies we have described when the poets recite their verses."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-1-5-t07",
+      "topicId": "world-1-5",
+      "concept": "africa-mali",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Ibn Battuta's observations of Islamic practice in Mali are best explained by",
+      "choices": [
+        "the spread of Islam through trans-Saharan trade and the patronage of Mali's rulers",
+        "the conquest of Mali by Mamluk armies from Egypt",
+        "the spread of Islam through trans-Saharan trade, which quickly ended all local traditions",
+        "the work of Christian missionaries who taught Arabic in Timbuktu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muslim merchants and rulers such as Mansa Musa supported mosques and learning in Mali.",
+      "sourceIds": [
+        "ced-topic-1-5",
+        "battuta-gibb-1929"
+      ],
+      "choiceExplanations": [
+        "Muslim merchants and rulers such as Mansa Musa supported mosques and learning in Mali.",
+        "Mali was never conquered by the Mamluks.",
+        "Ibn Battuta criticizes customs such as dust on heads, which shows local traditions continued.",
+        "Islamic learning in Timbuktu was supported by Muslim scholars, not Christian missionaries."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Trade did spread Islam, but Ibn Battuta's own complaints show local customs continued.",
+      "stimulusId": "battuta-mali",
+      "stimulusBlocks": [
+        {
+          "id": "battuta-mali",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
+          "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
+          "edits": [
+            {
+              "shown": "[The people of Mali]",
+              "original": "The negroes"
+            }
+          ],
+          "text": "[The people of Mali] possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. Their sultan shows no mercy to anyone who is guilty of the least act of it. There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. They do not confiscate the property of any white man who dies in their country, even if it be uncounted wealth. On the contrary, they give it into the charge of some trustworthy person among the whites, until the rightful heir takes possession of it. They are careful to observe the hours of prayer, and assiduous in attending them in congregations, and in bringing up their children to them. . . .\n\nYet another is their zeal for learning the Koran by heart. . . . Among their bad qualities are the following. . . . Then there is their custom of putting dust and ashes on their heads, as a mark of respect, and the grotesque ceremonies we have described when the poets recite their verses."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-1-5-t08",
+      "topicId": "world-1-5",
+      "concept": "africa-culture",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Ibn Battuta's criticism of some customs in Mali is most likely shaped by",
+      "choices": [
+        "his desire to attract European merchants to West Africa",
+        "his background as a merchant seeking to buy Malian gold",
+        "his background as a Muslim legal scholar from North Africa",
+        "his role as an official of the Mali government"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As a scholar of Islamic law, he judged local customs against his own standards of proper Muslim practice.",
+      "sourceIds": [
+        "ced-topic-1-5",
+        "battuta-gibb-1929"
+      ],
+      "choiceExplanations": [
+        "His account was written for a Muslim audience in Morocco.",
+        "His criticisms concern religious and social customs, not the gold trade.",
+        "As a scholar of Islamic law, he judged local customs against his own standards of proper Muslim practice.",
+        "He was a visitor, not an official of Mali."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Ibn Battuta traveled widely and traded at times, but his judgments about proper practice reflect his training in Islamic law.",
+      "stimulusId": "battuta-mali",
+      "stimulusBlocks": [
+        {
+          "id": "battuta-mali",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
+          "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
+          "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
+          "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
+          "edits": [
+            {
+              "shown": "[The people of Mali]",
+              "original": "The negroes"
+            }
+          ],
+          "text": "[The people of Mali] possess some admirable qualities. They are seldom unjust, and have a greater abhorrence of injustice than any other people. Their sultan shows no mercy to anyone who is guilty of the least act of it. There is complete security in their country. Neither traveller nor inhabitant in it has anything to fear from robbers or men of violence. They do not confiscate the property of any white man who dies in their country, even if it be uncounted wealth. On the contrary, they give it into the charge of some trustworthy person among the whites, until the rightful heir takes possession of it. They are careful to observe the hours of prayer, and assiduous in attending them in congregations, and in bringing up their children to them. . . .\n\nYet another is their zeal for learning the Koran by heart. . . . Among their bad qualities are the following. . . . Then there is their custom of putting dust and ashes on their heads, as a mark of respect, and the grotesque ceremonies we have described when the poets recite their verses."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
     }
   ],
   "quizzes": [

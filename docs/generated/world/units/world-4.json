@@ -17,15 +17,325 @@
     "number": 4,
     "title": "Transoceanic Interconnections",
     "period": "c. 1450–1750",
-    "status": "soon",
-    "description": "",
-    "quizzes": [],
+    "status": "ready",
+    "description": "Study how new maritime technology, state-sponsored voyages, the Columbian Exchange, and coerced labor connected the world's oceans and reshaped societies.",
+    "quizzes": [
+      {
+        "id": "world-4-practice-test",
+        "courseId": "world",
+        "unitId": "world-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t01",
+              "world-4-1-t02",
+              "world-4-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t04",
+              "world-4-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t01",
+              "world-4-2-t02",
+              "world-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t04",
+              "world-4-2-t05",
+              "world-4-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t07",
+              "world-4-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t01",
+              "world-4-3-t02",
+              "world-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t04",
+              "world-4-3-t05",
+              "world-4-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t01",
+              "world-4-4-t02",
+              "world-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t04",
+              "world-4-4-t05",
+              "world-4-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t07",
+              "world-4-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t01",
+              "world-4-5-t02",
+              "world-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t04",
+              "world-4-5-t05",
+              "world-4-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t07",
+              "world-4-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t09",
+              "world-4-5-t10"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t01",
+              "world-4-6-t02",
+              "world-4-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t04",
+              "world-4-6-t05",
+              "world-4-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t01",
+              "world-4-7-t02",
+              "world-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t04",
+              "world-4-7-t05",
+              "world-4-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t01",
+              "world-4-8-t02",
+              "world-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t04",
+              "world-4-8-t05"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 54
+    },
     "termSets": [],
-    "topicQuizzes": [],
-    "topicCount": 0,
-    "firstTopic": null,
+    "topicQuizzes": [
+      {
+        "id": "world-4-1-quiz",
+        "title": "Technological Innovations from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-2-quiz",
+        "title": "Exploration: Causes and Events from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-3-quiz",
+        "title": "Columbian Exchange topic quiz"
+      },
+      {
+        "id": "world-4-4-quiz",
+        "title": "Maritime Empires Established topic quiz"
+      },
+      {
+        "id": "world-4-5-quiz",
+        "title": "Maritime Empires Maintained and Developed topic quiz"
+      },
+      {
+        "id": "world-4-6-quiz",
+        "title": "Internal and External Challenges to State Power from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-7-quiz",
+        "title": "Changing Social Hierarchies from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-8-quiz",
+        "title": "Continuity and Change from 1450 to 1750 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-4-1",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+    },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "world-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "world-4-1",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+    },
+    {
+      "id": "world-4-2",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 2,
+      "code": "4.2",
+      "title": "Exploration: Causes and Events from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "Why European states sponsored ocean voyages, and how Portuguese, Spanish, English, French, and Dutch exploration unfolded."
+    },
+    {
+      "id": "world-4-3",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 3,
+      "code": "4.3",
+      "title": "Columbian Exchange",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How the transfer of diseases, crops, and animals between hemispheres after 1492 transformed populations, diets, and environments."
+    },
+    {
+      "id": "world-4-4",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 4,
+      "code": "4.4",
+      "title": "Maritime Empires Established",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How European states built trading-post empires, joint-stock companies, and colonies, and how some African and Asian states grew through new trade."
+    },
+    {
+      "id": "world-4-5",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 5,
+      "code": "4.5",
+      "title": "Maritime Empires Maintained and Developed",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How coerced labor, the Atlantic slave trade, the silver trade, and Asian trade restrictions shaped maritime empires."
+    },
+    {
+      "id": "world-4-6",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 6,
+      "code": "4.6",
+      "title": "Internal and External Challenges to State Power from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How Indigenous peoples, colonized societies, nobles, and rival groups resisted expanding states."
+    },
+    {
+      "id": "world-4-7",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 7,
+      "code": "4.7",
+      "title": "Changing Social Hierarchies from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How new hierarchies based on ancestry formed in colonial societies, and how empires treated religious and ethnic groups."
+    },
+    {
+      "id": "world-4-8",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 8,
+      "code": "4.8",
+      "title": "Continuity and Change from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "What changed and what stayed the same as sea routes connected the world from 1450 to 1750."
+    }
+  ]
 }

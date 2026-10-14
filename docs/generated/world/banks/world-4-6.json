@@ -1,0 +1,731 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-4",
+    "courseId": "world",
+    "number": 4,
+    "title": "Transoceanic Interconnections",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how new maritime technology, state-sponsored voyages, the Columbian Exchange, and coerced labor connected the world's oceans and reshaped societies.",
+    "quizzes": [
+      {
+        "id": "world-4-practice-test",
+        "courseId": "world",
+        "unitId": "world-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t01",
+              "world-4-1-t02",
+              "world-4-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t04",
+              "world-4-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t01",
+              "world-4-2-t02",
+              "world-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t04",
+              "world-4-2-t05",
+              "world-4-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t07",
+              "world-4-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t01",
+              "world-4-3-t02",
+              "world-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t04",
+              "world-4-3-t05",
+              "world-4-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t01",
+              "world-4-4-t02",
+              "world-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t04",
+              "world-4-4-t05",
+              "world-4-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t07",
+              "world-4-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t01",
+              "world-4-5-t02",
+              "world-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t04",
+              "world-4-5-t05",
+              "world-4-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t07",
+              "world-4-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t09",
+              "world-4-5-t10"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t01",
+              "world-4-6-t02",
+              "world-4-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t04",
+              "world-4-6-t05",
+              "world-4-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t01",
+              "world-4-7-t02",
+              "world-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t04",
+              "world-4-7-t05",
+              "world-4-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t01",
+              "world-4-8-t02",
+              "world-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t04",
+              "world-4-8-t05"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 54
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-4-1-quiz",
+        "title": "Technological Innovations from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-2-quiz",
+        "title": "Exploration: Causes and Events from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-3-quiz",
+        "title": "Columbian Exchange topic quiz"
+      },
+      {
+        "id": "world-4-4-quiz",
+        "title": "Maritime Empires Established topic quiz"
+      },
+      {
+        "id": "world-4-5-quiz",
+        "title": "Maritime Empires Maintained and Developed topic quiz"
+      },
+      {
+        "id": "world-4-6-quiz",
+        "title": "Internal and External Challenges to State Power from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-7-quiz",
+        "title": "Changing Social Hierarchies from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-8-quiz",
+        "title": "Continuity and Change from 1450 to 1750 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-4-1",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-4-6",
+    "courseId": "world",
+    "unitId": "world-4",
+    "order": 6,
+    "code": "4.6",
+    "title": "Internal and External Challenges to State Power from 1450 to 1750",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How Indigenous peoples, colonized societies, nobles, and rival groups resisted expanding states."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "f0267a1e203b83d0",
+  "questions": [
+    {
+      "id": "world-4-6-q01",
+      "topicId": "world-4-6",
+      "concept": "colonial-resistance",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following was a major cause of the Pueblo Revolt of 1680?",
+      "choices": [
+        "French attempts to take New Mexico from Spain",
+        "Pueblo efforts to join the Atlantic slave trade",
+        "Spanish efforts to protect and preserve traditional Pueblo religious ceremonies",
+        "Spanish demands for labor and suppression of Pueblo religion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Labor demands and attacks on Pueblo religion fueled the revolt.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "France was not involved.",
+        "The revolt opposed Spanish rule, not slave trading.",
+        "Missionaries tried to suppress Pueblo ceremonies.",
+        "Labor demands and attacks on Pueblo religion fueled the revolt."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Religion was central, but the Spanish suppressed Pueblo ceremonies rather than protecting them.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-4-6-q02",
+      "topicId": "world-4-6",
+      "concept": "internal-revolts",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Fronde and the Maratha challenge to the Mughals were similar in that both",
+      "choices": [
+        "challenged the authority of a powerful central ruler",
+        "were led by enslaved people",
+        "were led by European colonists",
+        "ended with the complete collapse of the state each one had challenged"
+      ],
+      "correctAnswer": 0,
+      "explanation": "French nobles and the Marathas both resisted a ruler's growing power.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "French nobles and the Marathas both resisted a ruler's growing power.",
+        "Neither was led by enslaved people.",
+        "The Marathas were Indian.",
+        "Louis XIV's power grew after the Fronde."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Mughals were weakened, but France came out of the Fronde with a stronger king.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-4-6-q03",
+      "topicId": "world-4-6",
+      "concept": "colonial-resistance",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Maroon communities were",
+      "choices": [
+        "Dutch trading posts in West Africa",
+        "settlements of free European laborers in the Caribbean",
+        "settlements formed by people who escaped slavery",
+        "Spanish missions in northern Mexico"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Escaped enslaved people founded maroon communities in Jamaica, Brazil, and elsewhere.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "Trading posts were European commercial bases.",
+        "Maroons had escaped slavery.",
+        "Escaped enslaved people founded maroon communities in Jamaica, Brazil, and elsewhere.",
+        "Missions were religious institutions."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Maroons were formerly enslaved people, not free European laborers.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-6-q04",
+      "topicId": "world-4-6",
+      "concept": "internal-revolts",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which of the following claims about resistance from 1450 to 1750 is best supported?",
+      "choices": [
+        "Only Indigenous peoples resisted state power",
+        "Resistance always succeeded in weakening states",
+        "Elites always supported centralizing rulers, while only peasants resisted them",
+        "Elites as well as ordinary people resisted centralizing states"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Fronde shows elites resisting, and the Pueblo Revolt shows ordinary people resisting.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "French nobles and Marathas also resisted.",
+        "The Fronde failed, and the French crown grew stronger.",
+        "French nobles rebelled in the Fronde.",
+        "The Fronde shows elites resisting, and the Pueblo Revolt shows ordinary people resisting."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The Fronde shows nobles resisting the crown, so elites did not always support centralization.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-4-6-t01",
+      "topicId": "world-4-6",
+      "concept": "colonial-resistance",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, causes of the Pueblo Revolt included",
+      "choices": [
+        "labor demands, religious suppression, and drought",
+        "French attacks on Spanish settlements",
+        "the arrival of the Atlantic slave trade",
+        "labor demands and Spanish support for Pueblo ceremonies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage names labor and tribute, suppression of ceremonies, drought, and raids.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "The passage names labor and tribute, suppression of ceremonies, drought, and raids.",
+        "France is not mentioned.",
+        "The slave trade is not mentioned.",
+        "Pueblo ceremonies were suppressed."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Missionaries tried to suppress Pueblo ceremonies rather than support them.",
+      "stimulusId": "original-pueblo-revolt",
+      "stimulusBlocks": [
+        {
+          "id": "original-pueblo-revolt",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.6 key concept: as states expanded and centralized, resistance to state power by Indigenous peoples and others increased",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Pueblo Revolt of 1680",
+          "text": "By the 1670s, Pueblo communities in present-day New Mexico had endured decades of Spanish rule. Spanish colonists demanded labor and tribute, and Franciscan missionaries tried to suppress Pueblo religious ceremonies. Drought and raids made life harder still.\n\nIn 1680, led by a religious leader named Popé, many Pueblo towns rose together, killed about 400 Spanish colonists and priests, and drove the survivors south out of the region. The Spanish returned in the 1690s, but afterward they generally tolerated more Pueblo religious practice and relied less on forced labor."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-6-t02",
+      "topicId": "world-4-6",
+      "concept": "colonial-resistance",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following was an effect of the Pueblo Revolt?",
+      "choices": [
+        "Pueblo communities converted to Christianity",
+        "Spanish rulers increased forced labor and religious suppression afterward",
+        "Spanish rulers later tolerated more Pueblo religious practice",
+        "Spain never returned to New Mexico"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After returning in the 1690s, the Spanish allowed more Pueblo practice.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "The revolt defended Pueblo religion.",
+        "Spain relied less on forced labor.",
+        "After returning in the 1690s, the Spanish allowed more Pueblo practice.",
+        "Spain returned in the 1690s."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage says Spain relied less on forced labor after returning.",
+      "stimulusId": "original-pueblo-revolt",
+      "stimulusBlocks": [
+        {
+          "id": "original-pueblo-revolt",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.6 key concept: as states expanded and centralized, resistance to state power by Indigenous peoples and others increased",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Pueblo Revolt of 1680",
+          "text": "By the 1670s, Pueblo communities in present-day New Mexico had endured decades of Spanish rule. Spanish colonists demanded labor and tribute, and Franciscan missionaries tried to suppress Pueblo religious ceremonies. Drought and raids made life harder still.\n\nIn 1680, led by a religious leader named Popé, many Pueblo towns rose together, killed about 400 Spanish colonists and priests, and drove the survivors south out of the region. The Spanish returned in the 1690s, but afterward they generally tolerated more Pueblo religious practice and relied less on forced labor."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-4-6-t03",
+      "topicId": "world-4-6",
+      "concept": "colonial-resistance",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Pueblo Revolt was most similar to which of the following?",
+      "choices": [
+        "the Fronde in France",
+        "the founding of the VOC",
+        "the Tokugawa ban on Christianity",
+        "Queen Nzinga's resistance to Portuguese expansion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both resisted European colonial expansion.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "The Fronde was a revolt by French elites against their own king.",
+        "The VOC was a company.",
+        "The Tokugawa ban was state policy.",
+        "Both resisted European colonial expansion."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Fronde resisted a ruler from within, while Nzinga and the Pueblo resisted a colonial power.",
+      "stimulusId": "original-pueblo-revolt",
+      "stimulusBlocks": [
+        {
+          "id": "original-pueblo-revolt",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.6 key concept: as states expanded and centralized, resistance to state power by Indigenous peoples and others increased",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Pueblo Revolt of 1680",
+          "text": "By the 1670s, Pueblo communities in present-day New Mexico had endured decades of Spanish rule. Spanish colonists demanded labor and tribute, and Franciscan missionaries tried to suppress Pueblo religious ceremonies. Drought and raids made life harder still.\n\nIn 1680, led by a religious leader named Popé, many Pueblo towns rose together, killed about 400 Spanish colonists and priests, and drove the survivors south out of the region. The Spanish returned in the 1690s, but afterward they generally tolerated more Pueblo religious practice and relied less on forced labor."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-4-6-t04",
+      "topicId": "world-4-6",
+      "concept": "internal-revolts",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The author's main point in the second paragraph is that the challenges described",
+      "choices": [
+        "were all led by peasants",
+        "had different causes",
+        "were all caused by European colonialism",
+        "all succeeded in overthrowing rulers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The author contrasts colonial resistance, opposition to royal power, and resistance to an empire.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "Leaders included a queen, nobles, and a Maratha leader.",
+        "The author contrasts colonial resistance, opposition to royal power, and resistance to an empire.",
+        "The Fronde and Maratha challenge were not colonial resistance.",
+        "The passage does not say all succeeded."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Only Nzinga resisted a colonial power; the Fronde and the Marathas had other causes.",
+      "stimulusId": "original-state-challenges",
+      "stimulusBlocks": [
+        {
+          "id": "original-state-challenges",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.6 key concept: as states expanded and centralized, resistance to state power increased, from elites, peasants, and rival groups",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing challenges to state power in three regions, c. 1620–1700",
+          "text": "In west-central Africa, Queen Nzinga of Ndongo and Matamba resisted Portuguese expansion from the 1620s to the 1660s, combining diplomacy, warfare, and alliances with the Dutch. In France, nobles and Paris officials rose against the young Louis XIV in the Fronde between 1648 and 1653. In India, the Maratha leader Shivaji built an independent kingdom in the 1670s and fought the Mughal Empire.\n\nThe causes differed. Nzinga resisted a foreign colonial power, the Fronde opposed the growth of royal authority, and the Marathas challenged an empire they saw as foreign and burdensome."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-6-t05",
+      "topicId": "world-4-6",
+      "concept": "internal-revolts",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The Fronde is best understood in the context of",
+      "choices": [
+        "Mughal expansion into the Deccan",
+        "declining royal power that left the nobles of France unchallenged",
+        "growing royal power that threatened the privileges of nobles",
+        "Spanish colonial expansion in the Americas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nobles and officials resisted the growth of royal authority.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "The Mughals were unrelated.",
+        "Royal power was growing.",
+        "Nobles and officials resisted the growth of royal authority.",
+        "The Fronde was a French domestic conflict."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Nobles revolted because royal power was growing, not declining.",
+      "stimulusId": "original-state-challenges",
+      "stimulusBlocks": [
+        {
+          "id": "original-state-challenges",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.6 key concept: as states expanded and centralized, resistance to state power increased, from elites, peasants, and rival groups",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing challenges to state power in three regions, c. 1620–1700",
+          "text": "In west-central Africa, Queen Nzinga of Ndongo and Matamba resisted Portuguese expansion from the 1620s to the 1660s, combining diplomacy, warfare, and alliances with the Dutch. In France, nobles and Paris officials rose against the young Louis XIV in the Fronde between 1648 and 1653. In India, the Maratha leader Shivaji built an independent kingdom in the 1670s and fought the Mughal Empire.\n\nThe causes differed. Nzinga resisted a foreign colonial power, the Fronde opposed the growth of royal authority, and the Marathas challenged an empire they saw as foreign and burdensome."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-4-6-t06",
+      "topicId": "world-4-6",
+      "concept": "colonial-resistance",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Queen Nzinga's resistance to Portugal included",
+      "choices": [
+        "warfare, diplomacy, and alliances with the Dutch",
+        "conversion to Islam to gain Ottoman support",
+        "an invasion of Portugal",
+        "warfare without any diplomacy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage names diplomacy, warfare, and Dutch alliances.",
+      "sourceIds": [
+        "ced-topic-4-6"
+      ],
+      "choiceExplanations": [
+        "The passage names diplomacy, warfare, and Dutch alliances.",
+        "No Ottoman link is mentioned.",
+        "Nzinga fought in Africa.",
+        "She also used diplomacy."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The passage stresses that Nzinga combined diplomacy with warfare.",
+      "stimulusId": "original-state-challenges",
+      "stimulusBlocks": [
+        {
+          "id": "original-state-challenges",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.6 key concept: as states expanded and centralized, resistance to state power increased, from elites, peasants, and rival groups",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing challenges to state power in three regions, c. 1620–1700",
+          "text": "In west-central Africa, Queen Nzinga of Ndongo and Matamba resisted Portuguese expansion from the 1620s to the 1660s, combining diplomacy, warfare, and alliances with the Dutch. In France, nobles and Paris officials rose against the young Louis XIV in the Fronde between 1648 and 1653. In India, the Maratha leader Shivaji built an independent kingdom in the 1670s and fought the Mughal Empire.\n\nThe causes differed. Nzinga resisted a foreign colonial power, the Fronde opposed the growth of royal authority, and the Marathas challenged an empire they saw as foreign and burdensome."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-4-6-quick",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-6",
+      "title": "Topic 4.6 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-4-6-q01",
+        "world-4-6-q02",
+        "world-4-6-q03"
+      ]
+    },
+    {
+      "id": "world-4-6-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-6",
+      "title": "Internal and External Challenges to State Power from 1450 to 1750 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-4-6-q01",
+        "world-4-6-q02",
+        "world-4-6-q03",
+        "world-4-6-q04"
+      ]
+    }
+  ],
+  "concepts": {
+    "colonial-resistance": {
+      "id": "colonial-resistance",
+      "title": "Resistance to colonial rule",
+      "section": "colonial-resistance",
+      "topicId": "world-4-6"
+    },
+    "internal-revolts": {
+      "id": "internal-revolts",
+      "title": "Challenges from within",
+      "section": "internal-revolts",
+      "topicId": "world-4-6"
+    }
+  },
+  "assets": {}
+}

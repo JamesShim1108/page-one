@@ -207,6 +207,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Stay with what the passage states. European names appear as an example, not as evidence of control.",
+      stimulusId: "polo-cambaluc-trade",
       stimulusBlocks: [excerpts.poloCambalucTrade],
     },
     {
@@ -245,6 +246,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Match the source's date and ruler (late 1200s, Kublai Khan) to the right context.",
+      stimulusId: "polo-cambaluc-trade",
       stimulusBlocks: [excerpts.poloCambalucTrade],
     },
     {
@@ -284,6 +286,7 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher:
         "Point of view means who wrote it and for whom. Here: a European merchant writing for Europeans.",
+      stimulusId: "polo-cambaluc-trade",
       stimulusBlocks: [excerpts.poloCambalucTrade],
     },
     {
@@ -361,9 +364,9 @@ export const bank = {
       prompt:
         "According to the passage, why did merchants accept the emperor's paper money?",
       choices: [
-        "They received notes worth more than the market value of their goods",
+        "They received notes worth more than the value of their goods",
         "They were paid promptly and could spend the notes across the empire",
-        "They were allowed to print their own notes once they traded at court",
+        "They could print their own notes once they traded at court",
         "They could exchange the notes for gold at any market outside China",
       ],
       correctAnswer: 1,
@@ -389,6 +392,7 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher:
         "Look for the reasons Polo lists: price, speed, and usability inside the empire.",
+      stimulusId: "polo-paper-money",
       stimulusBlocks: [excerpts.poloPaperMoney],
     },
     {
@@ -427,6 +431,7 @@ export const bank = {
       ],
       nearMissIndex: 2,
       distinguisher: "Polo is describing something new to Europeans, not new to China.",
+      stimulusId: "polo-paper-money",
       stimulusBlocks: [excerpts.poloPaperMoney],
     },
     {
@@ -465,6 +470,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Match the claim to what the source can show: state policy as seen by a foreign merchant.",
+      stimulusId: "polo-paper-money",
       stimulusBlocks: [excerpts.poloPaperMoney],
     },
     {
@@ -608,6 +614,7 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher:
         "A claim must rest on the passage. It shows one blocked journey, which limits what “usually” can mean.",
+      stimulusId: "polo-roads-closed",
       stimulusBlocks: [excerpts.poloRoadsClosed],
     },
     {
@@ -647,6 +654,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Strong arguments qualify. One counterexample limits a generalization without overturning it.",
+      stimulusId: "polo-roads-closed",
       stimulusBlocks: [excerpts.poloRoadsClosed],
     },
     {

@@ -1,0 +1,471 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-6",
+    "courseId": "world",
+    "number": 6,
+    "title": "Consequences of Industrialization",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study why industrial states built empires, how colonized peoples resisted, how economies were reshaped, and why millions of people migrated.",
+    "quizzes": [
+      {
+        "id": "world-6-practice-test",
+        "courseId": "world",
+        "unitId": "world-6",
+        "title": "Unit 6 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t01",
+              "world-6-1-t02",
+              "world-6-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t04",
+              "world-6-1-t05",
+              "world-6-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t07",
+              "world-6-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t01",
+              "world-6-2-t02",
+              "world-6-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t04",
+              "world-6-2-t05",
+              "world-6-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t07",
+              "world-6-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t01",
+              "world-6-3-t02",
+              "world-6-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t04",
+              "world-6-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t06",
+              "world-6-3-t07",
+              "world-6-3-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t01",
+              "world-6-4-t02",
+              "world-6-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t04",
+              "world-6-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t01",
+              "world-6-5-t02",
+              "world-6-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t04",
+              "world-6-5-t05",
+              "world-6-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t07",
+              "world-6-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t01",
+              "world-6-6-t02",
+              "world-6-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t04",
+              "world-6-6-t05",
+              "world-6-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t01",
+              "world-6-7-t02",
+              "world-6-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t04",
+              "world-6-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-8",
+            "questionIds": [
+              "world-6-8-t01",
+              "world-6-8-t02",
+              "world-6-8-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-6-practice-test",
+      "title": "Unit 6 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-6-1-quiz",
+        "title": "Rationales for Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-2-quiz",
+        "title": "State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-3-quiz",
+        "title": "Indigenous Responses to State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-4-quiz",
+        "title": "Global Economic Development from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-5-quiz",
+        "title": "Economic Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-6-quiz",
+        "title": "Causes of Migration in an Interconnected World topic quiz"
+      },
+      {
+        "id": "world-6-7-quiz",
+        "title": "Effects of Migration topic quiz"
+      },
+      {
+        "id": "world-6-8-quiz",
+        "title": "Causation in the Imperial Age topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-6-1",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 1,
+      "code": "6.1",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-6-saq-01",
+        "title": "Unit 6 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-6-1",
+    "courseId": "world",
+    "unitId": "world-6",
+    "order": 1,
+    "code": "6.1",
+    "title": "Rationales for Imperialism from 1750 to 1900",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "4272bff2ee45f1e6",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-6-1",
+    "unitId": "world-6",
+    "courseId": "world",
+    "code": "6.1",
+    "title": "Rationales for Imperialism from 1750 to 1900",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "order": 1,
+    "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire.",
+    "minutes": 9,
+    "learningGoals": [
+      "Explain how ideologies contributed to the development of imperialism from 1750 to 1900.",
+      "Distinguish economic motives from ideological justifications for empire."
+    ],
+    "bigIdea": "Industrial states built empires for economic and strategic reasons and justified them with ideas of racial and cultural superiority.",
+    "context": "By the late 1800s, industrial powers had the motives and the means to expand. They also developed ideas that made conquest seem natural or even generous.",
+    "sections": [
+      {
+        "id": "motives",
+        "title": "Economic and national motives",
+        "conceptTitle": "Economic and national motives",
+        "lenses": [
+          "E",
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Several forces drove imperialism in the 1800s. Factories needed raw materials such as cotton and rubber, and industrialists wanted new markets. Nationalism made colonies a matter of prestige: owning an empire showed that a nation was a great power."
+          },
+          {
+            "type": "paragraph",
+            "text": "Strategic needs mattered too. Steamships needed coaling stations, and navies needed bases around the world."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Industrial demand for raw materials and markets, combined with national rivalry, pushed states to seek colonies."
+          }
+        ],
+        "takeaway": "Economic needs and national prestige drove imperial expansion.",
+        "sourceIds": [
+          "ced-topic-6-1"
+        ]
+      },
+      {
+        "id": "ideologies",
+        "title": "Justifying empire",
+        "conceptTitle": "Justifying empire",
+        "lenses": [
+          "C",
+          "S"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Social Darwinism applied ideas of competition and survival of the fittest to human societies, claiming that stronger nations deserved to dominate. Scientists today reject this misuse of Darwin's theory."
+          },
+          {
+            "type": "paragraph",
+            "text": "The civilizing mission held that Europeans had a duty to spread Christianity, Western education, and their laws. Missionaries founded schools and hospitals, while the idea assumed colonized cultures were inferior."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Do not confuse motives with justifications. Economic gain was a motive; the civilizing mission was often a justification presented to the public."
+          }
+        ],
+        "takeaway": "Ideologies of racial and cultural superiority made conquest seem acceptable to many Europeans and Americans.",
+        "sourceIds": [
+          "ced-topic-6-1"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "social-darwinism",
+        "topicId": "world-6-1",
+        "term": "Social Darwinism",
+        "definition": "The false application of ideas of natural selection to human societies, used to claim that stronger nations or races deserved to dominate."
+      },
+      {
+        "id": "civilizing-mission",
+        "topicId": "world-6-1",
+        "term": "civilizing mission",
+        "definition": "The belief that Europeans had a duty to spread their religion, education, and laws to colonized peoples, used to justify empire."
+      },
+      {
+        "id": "imperialism",
+        "topicId": "world-6-1",
+        "term": "imperialism",
+        "definition": "The policy of extending a nation's power over other territories through conquest, colonization, or economic control."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-6-social-darwinism",
+        "world-6-civilizing-mission",
+        "world-6-imperialism"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Unit 5 bridge",
+        "title": "Industry creates demand",
+        "body": "Unit 5 described factories that needed raw cotton and markets. Those needs became motives for empire.",
+        "transferQuestion": "How did industrialization create motives for imperialism?",
+        "feedback": "Link a specific industrial need to a specific colonial resource.",
+        "links": [
+          {
+            "topicId": "world-5-4",
+            "sectionId": "deindustrialization",
+            "label": "Review raw materials and markets"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-6-1",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-6-1.json",
+  "glossary": [
+    {
+      "id": "world-6-social-darwinism",
+      "term": "Social Darwinism",
+      "definition": "The false application of ideas of natural selection to human societies, used to claim that stronger nations or races deserved to dominate.",
+      "aliases": [],
+      "sourceLabel": "Topic 6.1 glossary"
+    },
+    {
+      "id": "world-6-civilizing-mission",
+      "term": "civilizing mission",
+      "definition": "The belief that Europeans had a duty to spread their religion, education, and laws to colonized peoples, used to justify empire.",
+      "aliases": [],
+      "sourceLabel": "Topic 6.1 glossary"
+    },
+    {
+      "id": "world-6-imperialism",
+      "term": "imperialism",
+      "definition": "The policy of extending a nation's power over other territories through conquest, colonization, or economic control.",
+      "aliases": [],
+      "sourceLabel": "Topic 6.1 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-6-1",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 6.1.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Rationales for Imperialism from 1750 to 1900."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

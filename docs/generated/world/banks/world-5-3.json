@@ -1,0 +1,734 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-5",
+    "courseId": "world",
+    "number": 5,
+    "title": "Revolutions",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-5-3",
+    "courseId": "world",
+    "unitId": "world-5",
+    "order": 3,
+    "code": "5.3",
+    "title": "Industrial Revolution Begins",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "Why industrial production began in Britain, and how machines, steam power, and factories transformed textile manufacturing."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "96dc2f1e5290d627",
+  "questions": [
+    {
+      "id": "world-5-3-q01",
+      "topicId": "world-5-3",
+      "concept": "why-britain",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why industrialization began in Britain?",
+      "choices": [
+        "Britain's ban on trade with other countries",
+        "Coal and iron alone, without any role for labor, capital, or overseas trade",
+        "Coal and iron, available labor, capital, and access to markets",
+        "Britain's lack of overseas colonies"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Historians cite several factors working together.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Britain traded widely.",
+        "Resources alone do not explain it.",
+        "Historians cite several factors working together.",
+        "Britain had extensive colonies."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Coal and iron mattered, but historians combine them with labor, capital, and markets.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-3-q02",
+      "topicId": "world-5-3",
+      "concept": "factories-textiles",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The factory system is best described as",
+      "choices": [
+        "workers using machines in a central workplace on fixed hours",
+        "families spinning thread at home for merchants",
+        "guilds controlling production in towns",
+        "workers using machines in their own homes and on their own schedules"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factories gathered workers and machines under one roof on fixed schedules.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Factories gathered workers and machines under one roof on fixed schedules.",
+        "Home spinning was the putting-out system.",
+        "Guilds belong to earlier town economies.",
+        "Factories replaced home production and fixed the hours."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Work at home on one's own schedule describes the older putting-out system, not factories.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-3-q03",
+      "topicId": "world-5-3",
+      "concept": "factories-textiles",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Steam engines changed the location of factories because they",
+      "choices": [
+        "required factories to be built in rural mountain valleys",
+        "were powered by wind instead of water",
+        "freed mills from the need for any fuel",
+        "freed mills from the need to be built beside fast rivers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Steam power let mills move to cities near coal and workers.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Steam let mills move to cities.",
+        "Steam engines burned coal.",
+        "Steam engines needed coal.",
+        "Steam power let mills move to cities near coal and workers."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Steam freed mills from rivers, but it needed coal as fuel.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-3-q04",
+      "topicId": "world-5-3",
+      "concept": "why-britain",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "The enclosure movement contributed to industrialization by",
+      "choices": [
+        "pushing rural laborers to emigrate to India to work on British plantations",
+        "pushing rural laborers toward towns where factories needed workers",
+        "giving peasants more common land to farm",
+        "ending agriculture in Britain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Enclosure raised output and displaced laborers who moved to towns.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Displaced laborers mostly moved to British towns.",
+        "Enclosure raised output and displaced laborers who moved to towns.",
+        "Enclosure removed common land.",
+        "Farming continued and became more productive."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Enclosure pushed laborers to towns, not to India.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-3-q05",
+      "topicId": "world-5-3",
+      "concept": "why-britain",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which of the following would most directly support the argument that overseas trade contributed to British industrialization?",
+      "choices": [
+        "Evidence that British mills used water power",
+        "Evidence that raw cotton from the Americas supplied British mills",
+        "Evidence that Britain had large coal deposits",
+        "Evidence that British farms became more productive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Imported raw cotton shows overseas trade feeding industry.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Water power is domestic.",
+        "Imported raw cotton shows overseas trade feeding industry.",
+        "Coal is domestic.",
+        "Farm productivity is domestic."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Coal was important, but it is a domestic resource, not evidence about overseas trade.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-5-3-t01",
+      "topicId": "world-5-3",
+      "concept": "why-britain",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The author's main argument is that industrialization began in Britain because of",
+      "choices": [
+        "overseas trade alone",
+        "several factors working together",
+        "the discovery of coal alone",
+        "government ownership of factories"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The author lists coal, farming change, capital, government, and trade.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Trade is one factor.",
+        "The author lists coal, farming change, capital, government, and trade.",
+        "Coal is one factor among several.",
+        "The passage does not mention state factories."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Trade matters to the author, but as one of several factors.",
+      "stimulusId": "original-why-britain",
+      "stimulusBlocks": [
+        {
+          "id": "original-why-britain",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.3 key concept: a variety of factors led to the rise of industrial production, including Europe's location on the Atlantic, geographic distribution of coal, iron, and timber, urbanization, and access to foreign resources",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing why industrialization began in Britain, c. 1750–1830",
+          "text": "Historians point to several reasons that industrial production began in Britain. Britain had large deposits of coal and iron ore near rivers and ports. Improvements in farming, along with the enclosure of common lands, raised food output and pushed laborers toward towns. Merchants and landowners had capital to invest, and banks and a stable government protected property.\n\nOverseas trade mattered too. Colonies and the Atlantic trade supplied raw cotton and markets for finished cloth. Some historians stress that cheap coal and high wages made it profitable for British manufacturers to replace workers with machines."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-3-t02",
+      "topicId": "world-5-3",
+      "concept": "why-britain",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The historians mentioned in the final sentence would most likely agree that",
+      "choices": [
+        "machines replaced coal as a fuel",
+        "machines were adopted where they saved money",
+        "machines were adopted because labor was cheap",
+        "machines were invented only in Britain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cheap coal and high wages made machines profitable.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Machines used coal.",
+        "Cheap coal and high wages made machines profitable.",
+        "They say wages were high.",
+        "The historians discuss why machines paid off in Britain, not where they were invented."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "They stress high wages, not cheap labor, as the reason machines paid off.",
+      "stimulusId": "original-why-britain",
+      "stimulusBlocks": [
+        {
+          "id": "original-why-britain",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.3 key concept: a variety of factors led to the rise of industrial production, including Europe's location on the Atlantic, geographic distribution of coal, iron, and timber, urbanization, and access to foreign resources",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing why industrialization began in Britain, c. 1750–1830",
+          "text": "Historians point to several reasons that industrial production began in Britain. Britain had large deposits of coal and iron ore near rivers and ports. Improvements in farming, along with the enclosure of common lands, raised food output and pushed laborers toward towns. Merchants and landowners had capital to invest, and banks and a stable government protected property.\n\nOverseas trade mattered too. Colonies and the Atlantic trade supplied raw cotton and markets for finished cloth. Some historians stress that cheap coal and high wages made it profitable for British manufacturers to replace workers with machines."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-5-3-t03",
+      "topicId": "world-5-3",
+      "concept": "why-britain",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, enclosure contributed to industrialization by",
+      "choices": [
+        "giving peasants more land",
+        "ending food production",
+        "pushing capital out of Britain",
+        "pushing laborers toward towns"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Enclosure raised output and pushed laborers to towns.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "It removed common land.",
+        "Food output rose.",
+        "Enclosure appears in the passage as pushing laborers to towns, not as a capital flow.",
+        "Enclosure raised output and pushed laborers to towns."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Enclosure removed common land from peasants.",
+      "stimulusId": "original-why-britain",
+      "stimulusBlocks": [
+        {
+          "id": "original-why-britain",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.3 key concept: a variety of factors led to the rise of industrial production, including Europe's location on the Atlantic, geographic distribution of coal, iron, and timber, urbanization, and access to foreign resources",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing why industrialization began in Britain, c. 1750–1830",
+          "text": "Historians point to several reasons that industrial production began in Britain. Britain had large deposits of coal and iron ore near rivers and ports. Improvements in farming, along with the enclosure of common lands, raised food output and pushed laborers toward towns. Merchants and landowners had capital to invest, and banks and a stable government protected property.\n\nOverseas trade mattered too. Colonies and the Atlantic trade supplied raw cotton and markets for finished cloth. Some historians stress that cheap coal and high wages made it profitable for British manufacturers to replace workers with machines."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-3-t04",
+      "topicId": "world-5-3",
+      "concept": "factories-textiles",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, Arkwright's mills changed work by",
+      "choices": [
+        "gathering workers under one roof on fixed hours",
+        "letting workers spin thread at home for merchants",
+        "ending the use of water power in spinning mills",
+        "paying workers by the piece at home"
+      ],
+      "correctAnswer": 0,
+      "explanation": "His mills gathered hundreds of workers on fixed hours.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "His mills gathered hundreds of workers on fixed hours.",
+        "Mills replaced home spinning.",
+        "The water frame used water power.",
+        "That is the putting-out system."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Piecework at home describes the older putting-out system.",
+      "stimulusId": "original-textile-machines",
+      "stimulusBlocks": [
+        {
+          "id": "original-textile-machines",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.3 key concept: the development of machines, including steam engines, and the factory system transformed production, beginning with textiles",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the mechanization of British cotton manufacturing, 1760–1830",
+          "text": "Cotton spinning was transformed first. The spinning jenny of the 1760s let one worker spin many threads at once, and Richard Arkwright's water frame, patented in 1769, used water power to spin strong thread. Arkwright built mills that gathered hundreds of workers under one roof, keeping them on fixed hours.\n\nWhen steam engines replaced water wheels, mills no longer had to be built beside fast rivers and could be placed in cities near coal and workers. Manchester grew from a market town into the center of a world cotton industry."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-3-t05",
+      "topicId": "world-5-3",
+      "concept": "factories-textiles",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Based on the passage, the steam engine most directly allowed mills to",
+      "choices": [
+        "return to home production under the putting-out system",
+        "move closer to fast rivers",
+        "move into cities near coal and workers",
+        "stop using cotton from the Americas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Steam power let mills be built in cities such as Manchester.",
+      "sourceIds": [
+        "ced-topic-5-3"
+      ],
+      "choiceExplanations": [
+        "Production became more centralized.",
+        "Steam removed the need for rivers.",
+        "Steam power let mills be built in cities such as Manchester.",
+        "Mills still used cotton."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Steam freed mills from rivers.",
+      "stimulusId": "original-textile-machines",
+      "stimulusBlocks": [
+        {
+          "id": "original-textile-machines",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.3 key concept: the development of machines, including steam engines, and the factory system transformed production, beginning with textiles",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the mechanization of British cotton manufacturing, 1760–1830",
+          "text": "Cotton spinning was transformed first. The spinning jenny of the 1760s let one worker spin many threads at once, and Richard Arkwright's water frame, patented in 1769, used water power to spin strong thread. Arkwright built mills that gathered hundreds of workers under one roof, keeping them on fixed hours.\n\nWhen steam engines replaced water wheels, mills no longer had to be built beside fast rivers and could be placed in cities near coal and workers. Manchester grew from a market town into the center of a world cotton industry."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-5-3-quick",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-3",
+      "title": "Topic 5.3 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-5-3-q01",
+        "world-5-3-q02",
+        "world-5-3-q03"
+      ]
+    },
+    {
+      "id": "world-5-3-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-3",
+      "title": "Industrial Revolution Begins topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-5-3-q01",
+        "world-5-3-q02",
+        "world-5-3-q03",
+        "world-5-3-q04",
+        "world-5-3-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "why-britain": {
+      "id": "why-britain",
+      "title": "Why Britain",
+      "section": "why-britain",
+      "topicId": "world-5-3"
+    },
+    "factories-textiles": {
+      "id": "factories-textiles",
+      "title": "Machines and factories",
+      "section": "factories-textiles",
+      "topicId": "world-5-3"
+    }
+  },
+  "assets": {}
+}

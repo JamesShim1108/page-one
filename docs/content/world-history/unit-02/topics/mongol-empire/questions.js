@@ -172,6 +172,7 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher:
         "Notice who paid: the passage says local communities supplied the horses.",
+      stimulusId: "polo-post-stations",
       stimulusBlocks: [excerpts.poloPostStations],
     },
     {
@@ -210,6 +211,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Context explains why the practice existed: governing a huge empire.",
+      stimulusId: "polo-post-stations",
       stimulusBlocks: [excerpts.poloPostStations],
     },
     {
@@ -249,6 +251,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Sourcing should limit a claim to what the author's situation supports, without throwing out confirmed facts.",
+      stimulusId: "polo-post-stations",
       stimulusBlocks: [excerpts.poloPostStations],
     },
     {
@@ -355,6 +358,7 @@ export const bank = {
       nearMissIndex: 0,
       distinguisher:
         "Answer only what the passage says. Claims about politics need other evidence.",
+      stimulusId: "polo-tartar-customs",
       stimulusBlocks: [excerpts.poloTartarCustoms],
     },
     {
@@ -395,6 +399,7 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher:
         "Connect the economy described (pastoralism) to the military result (mobility).",
+      stimulusId: "polo-tartar-customs",
       stimulusBlocks: [excerpts.poloTartarCustoms],
     },
     {
@@ -434,6 +439,7 @@ export const bank = {
       nearMissIndex: 2,
       distinguisher:
         "A limitation narrows what a source can prove. It does not erase the source.",
+      stimulusId: "polo-tartar-customs",
       stimulusBlocks: [excerpts.poloTartarCustoms],
     },
     {
@@ -673,6 +679,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "Stay with what Kublai says: he honors all four.",
+      stimulusId: "polo-four-prophets",
       stimulusBlocks: [excerpts.poloFourProphets],
     },
     {
@@ -711,6 +718,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Look at transmission and audience together.",
+      stimulusId: "polo-four-prophets",
       stimulusBlocks: [excerpts.poloFourProphets],
     },
   ],

@@ -1,16 +1,20 @@
 // Checks every quoted run in docs/content/world-history/excerpts.js against
 // the full text of its edition. The source texts are not stored in this
-// repository; pass a folder containing:
-//   polo-v1.txt     Project Gutenberg #10636 (Yule–Cordier Marco Polo, vol. 1)
-//   polo-v2.txt     Project Gutenberg #12410 (Yule–Cordier Marco Polo, vol. 2)
-//   decameron.txt   Project Gutenberg #23700 (Payne's Decameron)
-//   gibb-ocr.txt    Internet Archive full-text OCR of travelsinasiaafr0000ibnb
-// Usage: node scripts/verify-excerpts.mjs path/to/source-texts
-import { readFile } from "node:fs/promises";
+// repository; pass a folder containing the files listed in
+// scripts/lib/excerpt-sources.mjs.
+// Project Gutenberg texts can be downloaded from gutenberg.org (or the
+// GITenberg mirror on GitHub, which republishes the same plain-text files).
+// Usage: node scripts/verify-excerpts.mjs path/to/source-texts [--require-all]
+//
+// An excerpt whose source file is missing is reported as "not checked". With
+// --require-all, a missing file fails the run; without it, only mismatches fail.
+import { access, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { excerpts } from "../docs/content/world-history/excerpts.js";
+import { excerptSourceFor } from "./lib/excerpt-sources.mjs";
 
 const folder = process.argv[2];
+const requireAll = process.argv.includes("--require-all");
 if (!folder) {
   console.error("Usage: node scripts/verify-excerpts.mjs path/to/source-texts");
   process.exit(2);
@@ -40,6 +44,8 @@ const gibbOcrCorrections = [
   ["apart- ments", "apartments"],
 ];
 
+const corrections = { "battuta-": gibbOcrCorrections };
+
 function normalize(text) {
   return text
     .replace(/[‘’]/g, "'")
@@ -47,31 +53,42 @@ function normalize(text) {
     .replace(/\s+/g, " ")
     .replace(/\[NOTE ?\d+\]/g, "")
     .replace(/\[scan p\.\d+\] ?/g, "")
+    .replace(/\[\d+\]/g, "")
     .replace(/_/g, "")
     .replace(/ +/g, " ");
 }
 
-async function load(name, corrections = []) {
-  let text = normalize(await readFile(join(folder, name), "utf8"));
-  for (const [wrong, right] of corrections) text = text.split(wrong).join(right);
-  return text;
+async function present(name) {
+  try {
+    await access(join(folder, name));
+    return true;
+  } catch {
+    return false;
+  }
 }
 
-const texts = {
-  polo: (await load("polo-v1.txt")) + " " + (await load("polo-v2.txt")),
-  decameron: await load("decameron.txt"),
-  gibb: await load("gibb-ocr.txt", gibbOcrCorrections),
-};
-
-function textFor(excerpt) {
-  if (excerpt.id.startsWith("polo-")) return texts.polo;
-  if (excerpt.id.startsWith("boccaccio-")) return texts.decameron;
-  if (excerpt.id.startsWith("battuta-")) return texts.gibb;
-  throw new Error(`${excerpt.id}: no source text is registered for this prefix`);
+const cache = new Map();
+async function textFor(excerpt) {
+  const registered = excerptSourceFor(excerpt.id);
+  if (!registered)
+    throw new Error(`${excerpt.id}: no source text is registered for this prefix`);
+  const { prefix, files } = registered;
+  if (cache.has(prefix)) return cache.get(prefix);
+  let text = null;
+  if ((await Promise.all(files.map(present))).every(Boolean)) {
+    text = "";
+    for (const name of files)
+      text += " " + normalize(await readFile(join(folder, name), "utf8"));
+    for (const [wrong, right] of corrections[prefix] || [])
+      text = text.split(wrong).join(right);
+  }
+  cache.set(prefix, text);
+  return text;
 }
 
 let failures = 0;
 let runs = 0;
+const skipped = [];
 const quoted = Object.values(excerpts).filter(
   (excerpt) => excerpt.sourceType !== "original",
 );
@@ -84,7 +101,11 @@ for (const excerpt of quoted) {
     }
     restored = restored.split(edit.shown).join(edit.original);
   }
-  const source = textFor(excerpt);
+  const source = await textFor(excerpt);
+  if (source === null) {
+    skipped.push(excerpt.id);
+    continue;
+  }
   const pieces = normalize(restored.replace(/\n{2,}/g, " ¶ "))
     .split(/ ?\. \. \.(?: \.)? ?|¶/)
     .map((piece) => piece.trim())
@@ -97,7 +118,18 @@ for (const excerpt of quoted) {
     }
   }
 }
+const edits = quoted.flatMap((excerpt) =>
+  (excerpt.edits || []).map(
+    (edit) => `  ${excerpt.id}: "${edit.shown}" replaces "${edit.original}"`,
+  ),
+);
+if (edits.length)
+  console.log(`Bracketed editorial edits (${edits.length}):\n${edits.join("\n")}`);
+if (skipped.length) {
+  console.log(`Not checked (source file missing): ${skipped.join(", ")}`);
+  if (requireAll) failures += skipped.length;
+}
 console.log(
-  `${runs} quoted runs checked across ${quoted.length} excerpts; ${failures} problem(s).`,
+  `${runs} quoted runs checked across ${quoted.length - skipped.length} of ${quoted.length} excerpts; ${failures} problem(s).`,
 );
 process.exit(failures ? 1 : 0);

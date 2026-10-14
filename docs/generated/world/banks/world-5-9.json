@@ -1,0 +1,738 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-5",
+    "courseId": "world",
+    "number": 5,
+    "title": "Revolutions",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-5-9",
+    "courseId": "world",
+    "unitId": "world-5",
+    "order": 9,
+    "code": "5.9",
+    "title": "Society and the Industrial Age",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How industrialization created new social classes, changed family and gender roles, and transformed cities."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "61b6b0d92aedd019",
+  "questions": [
+    {
+      "id": "world-5-9-q01",
+      "topicId": "world-5-9",
+      "concept": "new-classes",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which group grew most as a result of industrialization?",
+      "choices": [
+        "Serfs bound to the land",
+        "The hereditary nobility and the middle class of merchants and professionals",
+        "The industrial working class and the middle class",
+        "The hereditary nobility"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Factory workers and managers, professionals, and shopkeepers grew rapidly.",
+      "sourceIds": [
+        "ced-topic-5-9"
+      ],
+      "choiceExplanations": [
+        "Serfdom declined.",
+        "The nobility did not grow.",
+        "Factory workers and managers, professionals, and shopkeepers grew rapidly.",
+        "The nobility did not grow."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The middle class grew, but the nobility's relative importance declined.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-9-q02",
+      "topicId": "world-5-9",
+      "concept": "family-cities",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The ideal of separate spheres held that",
+      "choices": [
+        "men should earn wages and women should manage the home",
+        "women should work in factories and men at home",
+        "children should work for wages to support families",
+        "men and women should share all wage work and household work equally"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ideal assigned paid work to men and the home to women.",
+      "sourceIds": [
+        "ced-topic-5-9"
+      ],
+      "choiceExplanations": [
+        "The ideal assigned paid work to men and the home to women.",
+        "That reverses it.",
+        "Middle-class ideals discouraged child labor.",
+        "The ideal separated roles."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Separate spheres divided roles by gender; it did not call for equal sharing.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-9-q03",
+      "topicId": "world-5-9",
+      "concept": "family-cities",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Cholera outbreaks in industrial cities were most directly caused by",
+      "choices": [
+        "crowded housing and polluted water",
+        "the use of steam engines",
+        "the spread of labor unions",
+        "crowded housing and the use of telegraphs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Contaminated water in crowded neighborhoods spread cholera.",
+      "sourceIds": [
+        "ced-topic-5-9"
+      ],
+      "choiceExplanations": [
+        "Contaminated water in crowded neighborhoods spread cholera.",
+        "Steam engines did not cause cholera.",
+        "Unions did not cause disease.",
+        "Telegraphs did not spread disease."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Crowding mattered, but telegraphs have no connection to disease.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-9-q04",
+      "topicId": "world-5-9",
+      "concept": "new-classes",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which of the following best describes a change in social hierarchy during industrialization?",
+      "choices": [
+        "Social classes disappeared in industrial cities",
+        "Landholding nobles gained more status than at any earlier time",
+        "Wealth from business became a greater source of status",
+        "Birth became the only source of status"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Middle-class wealth gave new families influence.",
+      "sourceIds": [
+        "ced-topic-5-9"
+      ],
+      "choiceExplanations": [
+        "Class divisions remained.",
+        "Nobles lost relative status.",
+        "Middle-class wealth gave new families influence.",
+        "Status came increasingly from wealth."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Business wealth rose in importance relative to landed nobility.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-5-9-q05",
+      "topicId": "world-5-9",
+      "concept": "family-cities",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which evidence would best support the claim that separate spheres was mainly a middle-class ideal?",
+      "choices": [
+        "Children attended school more often by 1900",
+        "Many working-class women worked in mills for wages",
+        "Middle-class magazines praised women's domestic role",
+        "Men worked in factories and mines"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Working-class women's wage labor shows they could not follow the ideal.",
+      "sourceIds": [
+        "ced-topic-5-9"
+      ],
+      "choiceExplanations": [
+        "Schooling does not test the claim.",
+        "Working-class women's wage labor shows they could not follow the ideal.",
+        "This shows the ideal, not its limits.",
+        "Men's work does not test the claim."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Magazines show the ideal existed, not that it was limited to one class.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-5-9-t01",
+      "topicId": "world-5-9",
+      "concept": "new-classes",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Smiles's main argument is that",
+      "choices": [
+        "individuals improve themselves through their own effort",
+        "governments should provide for every citizen",
+        "workers should form unions",
+        "individuals improve mainly through help from governments and charities"
+      ],
+      "correctAnswer": 0,
+      "explanation": "He says self-help is the root of genuine growth.",
+      "sourceIds": [
+        "ced-topic-5-9",
+        "smiles-self-help"
+      ],
+      "choiceExplanations": [
+        "He says self-help is the root of genuine growth.",
+        "He warns against over-government.",
+        "He does not discuss unions.",
+        "He criticizes outside help."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Smiles says help from without is often enfeebling.",
+      "stimulusId": "smiles-self-help",
+      "stimulusBlocks": [
+        {
+          "id": "smiles-self-help",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "smiles-self-help",
+          "amsco_review": "pending",
+          "attribution": "Samuel Smiles, Scottish writer and reformer, Self-Help, first published in 1859",
+          "citation": "Samuel Smiles, Self-Help (London: John Murray, 1897), ch. 1. Project Gutenberg eBook #935.",
+          "text": "\"HEAVEN helps those who help themselves\" is a well-tried maxim, embodying in a small compass the results of vast human experience. The spirit of self-help is the root of all genuine growth in the individual; and, exhibited in the lives of many, it constitutes the true source of national vigour and strength. Help from without is often enfeebling in its effects, but help from within invariably invigorates. Whatever is done for men or classes, to a certain extent takes away the stimulus and necessity of doing for themselves; and where men are subjected to over-guidance and over-government, the inevitable tendency is to render them comparatively helpless."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-9-t02",
+      "topicId": "world-5-9",
+      "concept": "new-classes",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Smiles's ideas are best understood as reflecting the values of",
+      "choices": [
+        "the landed nobility",
+        "Marxist socialists",
+        "the Tokugawa samurai",
+        "the industrial middle class"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hard work, thrift, and self-improvement were middle-class ideals.",
+      "sourceIds": [
+        "ced-topic-5-9",
+        "smiles-self-help"
+      ],
+      "choiceExplanations": [
+        "Nobles relied on birth.",
+        "Socialists favored collective solutions.",
+        "Samurai belong to Japan.",
+        "Hard work, thrift, and self-improvement were middle-class ideals."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Marxists stressed collective action; Smiles stresses individual effort.",
+      "stimulusId": "smiles-self-help",
+      "stimulusBlocks": [
+        {
+          "id": "smiles-self-help",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "smiles-self-help",
+          "amsco_review": "pending",
+          "attribution": "Samuel Smiles, Scottish writer and reformer, Self-Help, first published in 1859",
+          "citation": "Samuel Smiles, Self-Help (London: John Murray, 1897), ch. 1. Project Gutenberg eBook #935.",
+          "text": "\"HEAVEN helps those who help themselves\" is a well-tried maxim, embodying in a small compass the results of vast human experience. The spirit of self-help is the root of all genuine growth in the individual; and, exhibited in the lives of many, it constitutes the true source of national vigour and strength. Help from without is often enfeebling in its effects, but help from within invariably invigorates. Whatever is done for men or classes, to a certain extent takes away the stimulus and necessity of doing for themselves; and where men are subjected to over-guidance and over-government, the inevitable tendency is to render them comparatively helpless."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-5-9-t03",
+      "topicId": "world-5-9",
+      "concept": "new-classes",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Smiles's view differs most sharply from which of the following?",
+      "choices": [
+        "Adam Smith's view of the division of labor in manufacturing",
+        "Marx and Engels's call for workers to unite",
+        "Adam Smith's support for free markets",
+        "middle-class praise of hard work"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smiles stresses individual effort; Marx calls for collective revolution.",
+      "sourceIds": [
+        "ced-topic-5-9",
+        "smiles-self-help"
+      ],
+      "choiceExplanations": [
+        "This is compatible with Smiles.",
+        "Smiles stresses individual effort; Marx calls for collective revolution.",
+        "Smith and Smiles both distrust government interference.",
+        "This matches Smiles."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Smiles's individualism fits with Smith, not against him.",
+      "stimulusId": "smiles-self-help",
+      "stimulusBlocks": [
+        {
+          "id": "smiles-self-help",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "smiles-self-help",
+          "amsco_review": "pending",
+          "attribution": "Samuel Smiles, Scottish writer and reformer, Self-Help, first published in 1859",
+          "citation": "Samuel Smiles, Self-Help (London: John Murray, 1897), ch. 1. Project Gutenberg eBook #935.",
+          "text": "\"HEAVEN helps those who help themselves\" is a well-tried maxim, embodying in a small compass the results of vast human experience. The spirit of self-help is the root of all genuine growth in the individual; and, exhibited in the lives of many, it constitutes the true source of national vigour and strength. Help from without is often enfeebling in its effects, but help from within invariably invigorates. Whatever is done for men or classes, to a certain extent takes away the stimulus and necessity of doing for themselves; and where men are subjected to over-guidance and over-government, the inevitable tendency is to render them comparatively helpless."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-9-t04",
+      "topicId": "world-5-9",
+      "concept": "family-cities",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, cholera spread in industrial cities because of",
+      "choices": [
+        "the separation of spheres",
+        "polluted water in crowded neighborhoods",
+        "long factory hours",
+        "middle-class housing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Polluted water in crowded areas spread cholera.",
+      "sourceIds": [
+        "ced-topic-5-9"
+      ],
+      "choiceExplanations": [
+        "That is a social ideal.",
+        "Polluted water in crowded areas spread cholera.",
+        "Hours did not spread disease.",
+        "The problem was working-class housing."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Long hours harmed workers but did not spread cholera.",
+      "stimulusId": "original-factory-life",
+      "stimulusBlocks": [
+        {
+          "id": "original-factory-life",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.9 key concept: new social classes, including the middle class and the industrial working class, developed, and family dynamics, gender roles, and demographics changed",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing social change in industrial cities, 1800–1900",
+          "text": "Industrial cities grew faster than housing, water, and sewers. Working families crowded into tenements, and diseases such as cholera spread through polluted water. Factory work ran on the clock, often for twelve or more hours a day, and women and children worked in mills for lower pay than men.\n\nA growing middle class of managers, professionals, and shopkeepers developed new ideals. Middle-class families often expected women to manage the home rather than work for wages, an ideal called separate spheres that few working-class families could afford to follow."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-9-t05",
+      "topicId": "world-5-9",
+      "concept": "family-cities",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The final sentence of the passage best supports which claim?",
+      "choices": [
+        "All women stopped working for wages",
+        "Working-class families rejected the ideal because they preferred factory work",
+        "Middle-class women worked in mills",
+        "Separate spheres was an ideal many working families could not follow"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage says few working-class families could afford to follow it.",
+      "sourceIds": [
+        "ced-topic-5-9"
+      ],
+      "choiceExplanations": [
+        "Many women worked.",
+        "The issue was affordability.",
+        "Middle-class women managed homes.",
+        "The passage says few working-class families could afford to follow it."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage says they could not afford it, not that they rejected it.",
+      "stimulusId": "original-factory-life",
+      "stimulusBlocks": [
+        {
+          "id": "original-factory-life",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.9 key concept: new social classes, including the middle class and the industrial working class, developed, and family dynamics, gender roles, and demographics changed",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing social change in industrial cities, 1800–1900",
+          "text": "Industrial cities grew faster than housing, water, and sewers. Working families crowded into tenements, and diseases such as cholera spread through polluted water. Factory work ran on the clock, often for twelve or more hours a day, and women and children worked in mills for lower pay than men.\n\nA growing middle class of managers, professionals, and shopkeepers developed new ideals. Middle-class families often expected women to manage the home rather than work for wages, an ideal called separate spheres that few working-class families could afford to follow."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-5-9-quick",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-9",
+      "title": "Topic 5.9 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-5-9-q01",
+        "world-5-9-q02",
+        "world-5-9-q03"
+      ]
+    },
+    {
+      "id": "world-5-9-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-9",
+      "title": "Society and the Industrial Age topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-5-9-q01",
+        "world-5-9-q02",
+        "world-5-9-q03",
+        "world-5-9-q04",
+        "world-5-9-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "new-classes": {
+      "id": "new-classes",
+      "title": "New social classes",
+      "section": "new-classes",
+      "topicId": "world-5-9"
+    },
+    "family-cities": {
+      "id": "family-cities",
+      "title": "Family life and cities",
+      "section": "family-cities",
+      "topicId": "world-5-9"
+    }
+  },
+  "assets": {}
+}

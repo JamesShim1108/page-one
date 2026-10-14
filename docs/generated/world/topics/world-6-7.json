@@ -1,0 +1,481 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-6",
+    "courseId": "world",
+    "number": 6,
+    "title": "Consequences of Industrialization",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study why industrial states built empires, how colonized peoples resisted, how economies were reshaped, and why millions of people migrated.",
+    "quizzes": [
+      {
+        "id": "world-6-practice-test",
+        "courseId": "world",
+        "unitId": "world-6",
+        "title": "Unit 6 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t01",
+              "world-6-1-t02",
+              "world-6-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t04",
+              "world-6-1-t05",
+              "world-6-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t07",
+              "world-6-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t01",
+              "world-6-2-t02",
+              "world-6-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t04",
+              "world-6-2-t05",
+              "world-6-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t07",
+              "world-6-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t01",
+              "world-6-3-t02",
+              "world-6-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t04",
+              "world-6-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t06",
+              "world-6-3-t07",
+              "world-6-3-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t01",
+              "world-6-4-t02",
+              "world-6-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t04",
+              "world-6-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t01",
+              "world-6-5-t02",
+              "world-6-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t04",
+              "world-6-5-t05",
+              "world-6-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t07",
+              "world-6-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t01",
+              "world-6-6-t02",
+              "world-6-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t04",
+              "world-6-6-t05",
+              "world-6-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t01",
+              "world-6-7-t02",
+              "world-6-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t04",
+              "world-6-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-8",
+            "questionIds": [
+              "world-6-8-t01",
+              "world-6-8-t02",
+              "world-6-8-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-6-practice-test",
+      "title": "Unit 6 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-6-1-quiz",
+        "title": "Rationales for Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-2-quiz",
+        "title": "State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-3-quiz",
+        "title": "Indigenous Responses to State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-4-quiz",
+        "title": "Global Economic Development from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-5-quiz",
+        "title": "Economic Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-6-quiz",
+        "title": "Causes of Migration in an Interconnected World topic quiz"
+      },
+      {
+        "id": "world-6-7-quiz",
+        "title": "Effects of Migration topic quiz"
+      },
+      {
+        "id": "world-6-8-quiz",
+        "title": "Causation in the Imperial Age topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-6-1",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 1,
+      "code": "6.1",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-6-saq-01",
+        "title": "Unit 6 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-6-7",
+    "courseId": "world",
+    "unitId": "world-6",
+    "order": 7,
+    "code": "6.7",
+    "title": "Effects of Migration",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How migrants formed ethnic enclaves, how migration changed home societies, and how some receiving societies responded with exclusion."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "649f944dc8cabefb",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-6-7",
+    "unitId": "world-6",
+    "courseId": "world",
+    "code": "6.7",
+    "title": "Effects of Migration",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "order": 7,
+    "summary": "How migrants formed ethnic enclaves, how migration changed home societies, and how some receiving societies responded with exclusion.",
+    "minutes": 8,
+    "learningGoals": [
+      "Explain how and why new patterns of migration affected society from 1750 to 1900.",
+      "Explain why some receiving societies passed laws restricting immigration."
+    ],
+    "bigIdea": "Migration created diverse communities around the world, changed gender roles at home, and provoked nativist laws in some receiving societies.",
+    "context": "Migrants carried languages, religions, and foods with them. Their arrival changed both the places they went and the places they left.",
+    "sections": [
+      {
+        "id": "enclaves",
+        "title": "Ethnic enclaves and home societies",
+        "conceptTitle": "Ethnic enclaves and home societies",
+        "lenses": [
+          "S",
+          "C"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Migrants often formed ethnic enclaves, such as Chinese communities in Southeast Asia, the Caribbean, and San Francisco, and Indian communities in East Africa and the Caribbean."
+          },
+          {
+            "type": "paragraph",
+            "text": "Most migrants were young men. Women in home societies, such as southern Italy and southern China, often took on more responsibility for farms and businesses."
+          }
+        ],
+        "takeaway": "Migration built diverse communities and changed family roles at home.",
+        "sourceIds": [
+          "ced-topic-6-7"
+        ]
+      },
+      {
+        "id": "nativism",
+        "title": "Nativism and exclusion",
+        "conceptTitle": "Nativism and exclusion",
+        "lenses": [
+          "P",
+          "S"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Some receiving societies reacted with nativism, hostility toward immigrants. The United States passed the Chinese Exclusion Act in 1882, and Australia adopted the White Australia Policy in 1901."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Economic competition and racial ideas led some workers and politicians to blame immigrants, which produced laws excluding them."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Exclusion laws targeted particular groups. The same countries welcomed many European immigrants."
+          }
+        ],
+        "takeaway": "Racial ideas shaped who receiving societies welcomed and excluded.",
+        "sourceIds": [
+          "ced-topic-6-7"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "ethnic-enclaves",
+        "topicId": "world-6-7",
+        "term": "ethnic enclaves",
+        "definition": "Neighborhoods or communities where migrants of the same origin settled together and kept their language and customs."
+      },
+      {
+        "id": "nativism",
+        "topicId": "world-6-7",
+        "term": "nativism",
+        "definition": "Hostility toward immigrants and the policy of favoring native-born residents over newcomers."
+      },
+      {
+        "id": "chinese-exclusion-act",
+        "topicId": "world-6-7",
+        "term": "Chinese Exclusion Act",
+        "definition": "An 1882 US law that banned Chinese laborers from entering the United States."
+      },
+      {
+        "id": "white-australia-policy",
+        "topicId": "world-6-7",
+        "term": "White Australia Policy",
+        "definition": "Laws adopted by Australia in 1901 to keep out non-European immigrants."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-6-ethnic-enclaves",
+        "world-6-nativism",
+        "world-6-chinese-exclusion-act",
+        "world-6-white-australia-policy"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Looking ahead",
+        "title": "Migration in the 1900s",
+        "body": "Unit 9 traces migration after 1900, including movement from former colonies to Europe.",
+        "transferQuestion": "How might patterns of migration change after empires end?",
+        "feedback": "Suggest a connection between former colonies and former imperial powers.",
+        "links": [
+          {
+            "topicId": "world-6-7",
+            "sectionId": "enclaves",
+            "label": "Review ethnic enclaves"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-6-7",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-6-7.json",
+  "glossary": [
+    {
+      "id": "world-6-ethnic-enclaves",
+      "term": "ethnic enclaves",
+      "definition": "Neighborhoods or communities where migrants of the same origin settled together and kept their language and customs.",
+      "aliases": [],
+      "sourceLabel": "Topic 6.7 glossary"
+    },
+    {
+      "id": "world-6-nativism",
+      "term": "nativism",
+      "definition": "Hostility toward immigrants and the policy of favoring native-born residents over newcomers.",
+      "aliases": [],
+      "sourceLabel": "Topic 6.7 glossary"
+    },
+    {
+      "id": "world-6-chinese-exclusion-act",
+      "term": "Chinese Exclusion Act",
+      "definition": "An 1882 US law that banned Chinese laborers from entering the United States.",
+      "aliases": [],
+      "sourceLabel": "Topic 6.7 glossary"
+    },
+    {
+      "id": "world-6-white-australia-policy",
+      "term": "White Australia Policy",
+      "definition": "Laws adopted by Australia in 1901 to keep out non-European immigrants.",
+      "aliases": [],
+      "sourceLabel": "Topic 6.7 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-6-7",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 6.7.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Effects of Migration."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

@@ -1,0 +1,843 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-8",
+    "courseId": "world",
+    "number": 8,
+    "title": "Cold War and Decolonization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how the Cold War divided the world, how colonies won independence, how new states and movements challenged established power, and why the Cold War ended.",
+    "quizzes": [
+      {
+        "id": "world-8-practice-test",
+        "courseId": "world",
+        "unitId": "world-8",
+        "title": "Unit 8 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t01",
+              "world-8-1-t02",
+              "world-8-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t04",
+              "world-8-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t01",
+              "world-8-2-t02",
+              "world-8-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t04",
+              "world-8-2-t05",
+              "world-8-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t07",
+              "world-8-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t01",
+              "world-8-3-t02",
+              "world-8-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t04",
+              "world-8-3-t05",
+              "world-8-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t01",
+              "world-8-4-t02",
+              "world-8-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t04",
+              "world-8-4-t05",
+              "world-8-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t01",
+              "world-8-5-t02",
+              "world-8-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t04",
+              "world-8-5-t05",
+              "world-8-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t07",
+              "world-8-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t01",
+              "world-8-6-t02",
+              "world-8-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t04",
+              "world-8-6-t05",
+              "world-8-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t01",
+              "world-8-7-t02",
+              "world-8-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t04",
+              "world-8-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t01",
+              "world-8-8-t02",
+              "world-8-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t04",
+              "world-8-8-t05",
+              "world-8-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-9",
+            "questionIds": [
+              "world-8-9-t01",
+              "world-8-9-t02",
+              "world-8-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-8-practice-test",
+      "title": "Unit 8 Practice Test",
+      "questionCount": 53
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-8-1-quiz",
+        "title": "Setting the Stage topic quiz"
+      },
+      {
+        "id": "world-8-2-quiz",
+        "title": "The Cold War topic quiz"
+      },
+      {
+        "id": "world-8-3-quiz",
+        "title": "Effects of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-4-quiz",
+        "title": "Spread of Communism topic quiz"
+      },
+      {
+        "id": "world-8-5-quiz",
+        "title": "Decolonization topic quiz"
+      },
+      {
+        "id": "world-8-6-quiz",
+        "title": "Newly Independent States topic quiz"
+      },
+      {
+        "id": "world-8-7-quiz",
+        "title": "Global Resistance topic quiz"
+      },
+      {
+        "id": "world-8-8-quiz",
+        "title": "End of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-9-quiz",
+        "title": "Causation in the Cold War Era topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-8-1",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 1,
+      "code": "8.1",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How World War II left two superpowers, exhausted colonial empires, and new demands for independence."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-8-saq-01",
+        "title": "Unit 8 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-8-5",
+    "courseId": "world",
+    "unitId": "world-8",
+    "order": 5,
+    "code": "8.5",
+    "title": "Decolonization After 1900",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How colonies in Asia and Africa won independence, some through negotiation and others through war."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "463629f4977332cf",
+  "questions": [
+    {
+      "id": "world-8-5-q01",
+      "topicId": "world-8-5",
+      "concept": "negotiated-independence",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Ghana won independence in 1957 mainly through",
+      "choices": [
+        "a long armed struggle against European settlers",
+        "mass organizing and negotiation with Britain",
+        "Soviet military support for a guerrilla army",
+        "a coup by African officers in the colonial army"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nkrumah's strikes, boycotts, and elections led Britain to negotiate.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Ghana was a British colony with few settlers.",
+        "Nkrumah's strikes, boycotts, and elections led Britain to negotiate.",
+        "The Soviet Union played no role in Ghana's independence.",
+        "Ghana's first coup came in 1966, after independence."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Armed struggle against settlers describes Algeria, not Ghana.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-8-5-q02",
+      "topicId": "world-8-5",
+      "concept": "armed-struggle",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why decolonization in Algeria was more violent than in Ghana?",
+      "choices": [
+        "Algeria had no organized nationalist movement until the 1970s",
+        "Algeria had many settlers, and France saw it as part of France",
+        "Britain refused to negotiate with any of its African colonies",
+        "Ghana had a larger European settler population than Algeria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Settlers and French claims to Algeria made France fight to keep it.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "The National Liberation Front led a strong movement.",
+        "Settlers and French claims to Algeria made France fight to keep it.",
+        "Britain negotiated with Ghana.",
+        "Ghana had few settlers."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The colony with many settlers was Algeria; Ghana had few.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-5-q03",
+      "topicId": "world-8-5",
+      "concept": "armed-struggle",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The Battle of Dien Bien Phu in 1954 resulted in",
+      "choices": [
+        "the end of French rule in Indochina",
+        "the start of British rule in Vietnam",
+        "a Japanese victory over France",
+        "a united, communist Vietnam in 1954"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Viet Minh victory forced France to leave.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "The Viet Minh victory forced France to leave.",
+        "Britain did not rule Vietnam.",
+        "Japan had surrendered in 1945.",
+        "Vietnam was divided until 1975."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "France left in 1954, but Vietnam was divided and unified only in 1975.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-8-5-q04",
+      "topicId": "world-8-5",
+      "concept": "negotiated-independence",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "India's independence movement and Ghana's independence movement were similar in that both",
+      "choices": [
+        "were led by communist parties allied with Moscow",
+        "used mass political movements to pressure Britain",
+        "won independence by defeating British armies",
+        "won independence from France after World War II"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gandhi and Nkrumah both organized mass, mostly nonviolent movements.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Neither the Congress nor Nkrumah's party was communist.",
+        "Gandhi and Nkrumah both organized mass, mostly nonviolent movements.",
+        "Both negotiated with Britain.",
+        "Both were British colonies."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Both pressured Britain politically; neither defeated a British army.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-8-5-q05",
+      "topicId": "world-8-5",
+      "concept": "armed-struggle",
+      "difficulty": "Core",
+      "skill": "argumentation",
+      "prompt": "Which claim about decolonization is most defensible?",
+      "choices": [
+        "All colonies had to win independence through armed struggle",
+        "All colonies won independence peacefully through negotiation",
+        "Colonial powers gave up their colonies without pressure",
+        "Paths to independence varied with local conditions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Negotiation and armed struggle both occurred, depending on circumstances.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Ghana and India negotiated.",
+        "Algeria, Vietnam, and Kenya saw wars.",
+        "Nationalist movements forced change.",
+        "Negotiation and armed struggle both occurred, depending on circumstances."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Some colonies fought for independence, but many negotiated.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-8-5-t01",
+      "topicId": "world-8-5",
+      "concept": "negotiated-independence",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, one reason Britain left India after the war was that",
+      "choices": [
+        "Britain could no longer hold India by force",
+        "India had defeated Britain in battle",
+        "the Muslim League asked Britain to stay",
+        "Gandhi joined the British government"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Britain was exhausted by the war.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Britain was exhausted by the war.",
+        "There was no such battle.",
+        "The League demanded a separate state.",
+        "Gandhi opposed British rule."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Britain was weakened, but Indians pressured it politically rather than militarily.",
+      "stimulusId": "original-india-independence",
+      "stimulusBlocks": [
+        {
+          "id": "original-india-independence",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.5 key concept: some colonies, such as India, achieved independence largely through negotiation and mass nonviolent movements",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Indian independence, 1942–1947",
+          "text": "During World War II, Mohandas Gandhi and the Indian National Congress launched the Quit India Movement in 1942, demanding an immediate end to British rule. The British jailed tens of thousands of its members. After the war, Britain was exhausted and no longer able to hold India by force.\n\nThe Muslim League, led by Muhammad Ali Jinnah, demanded a separate state for Muslims. In August 1947 British India was divided into two independent countries, India and Pakistan, in negotiations that both nationalist parties joined."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-5-t02",
+      "topicId": "world-8-5",
+      "concept": "negotiated-independence",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The Muslim League's demand described in the passage most directly led to",
+      "choices": [
+        "the creation of two states, India and Pakistan",
+        "Indian independence during World War II, in 1942",
+        "a united India governed by the Muslim League",
+        "continued British rule over India until 1960"
+      ],
+      "correctAnswer": 0,
+      "explanation": "British India was divided into two countries.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "British India was divided into two countries.",
+        "1942 was the year of Quit India; independence came in 1947.",
+        "India and Pakistan became separate states.",
+        "Britain left in 1947."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Quit India campaign began in 1942; independence came in 1947.",
+      "stimulusId": "original-india-independence",
+      "stimulusBlocks": [
+        {
+          "id": "original-india-independence",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.5 key concept: some colonies, such as India, achieved independence largely through negotiation and mass nonviolent movements",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Indian independence, 1942–1947",
+          "text": "During World War II, Mohandas Gandhi and the Indian National Congress launched the Quit India Movement in 1942, demanding an immediate end to British rule. The British jailed tens of thousands of its members. After the war, Britain was exhausted and no longer able to hold India by force.\n\nThe Muslim League, led by Muhammad Ali Jinnah, demanded a separate state for Muslims. In August 1947 British India was divided into two independent countries, India and Pakistan, in negotiations that both nationalist parties joined."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-5-t03",
+      "topicId": "world-8-5",
+      "concept": "negotiated-independence",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The Quit India Movement is best understood in the context of",
+      "choices": [
+        "World War II and British dependence on Indian soldiers",
+        "the Sepoy Rebellion of 1857 and the end of Company rule in India",
+        "the end of the Cold War and the breakup of empires",
+        "World War I and the mandate system in the Middle East"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Congress demanded independence while Britain needed India's help in the war.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Congress demanded independence while Britain needed India's help in the war.",
+        "The 1857 rebellion was much earlier.",
+        "The Cold War ended in 1991.",
+        "Quit India came during the second world war, not the first."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "India also served Britain in World War I, but the 1942 campaign came during World War II.",
+      "stimulusId": "original-india-independence",
+      "stimulusBlocks": [
+        {
+          "id": "original-india-independence",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.5 key concept: some colonies, such as India, achieved independence largely through negotiation and mass nonviolent movements",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Indian independence, 1942–1947",
+          "text": "During World War II, Mohandas Gandhi and the Indian National Congress launched the Quit India Movement in 1942, demanding an immediate end to British rule. The British jailed tens of thousands of its members. After the war, Britain was exhausted and no longer able to hold India by force.\n\nThe Muslim League, led by Muhammad Ali Jinnah, demanded a separate state for Muslims. In August 1947 British India was divided into two independent countries, India and Pakistan, in negotiations that both nationalist parties joined."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-8-5-t04",
+      "topicId": "world-8-5",
+      "concept": "armed-struggle",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which of the following best describes a difference shown in the passage?",
+      "choices": [
+        "Ghana negotiated independence; Algeria fought for it",
+        "Algeria won independence several years before Ghana did",
+        "Ghana had more European settlers than Algeria did",
+        "Algeria was a British colony, unlike Ghana"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ghana's path was electoral; Algeria's was an eight-year war.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Ghana's path was electoral; Algeria's was an eight-year war.",
+        "Ghana became independent in 1957, Algeria in 1962.",
+        "Algeria had about one million settlers.",
+        "Algeria was French."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Ghana's independence in 1957 came five years before Algeria's.",
+      "stimulusId": "original-ghana-algeria",
+      "stimulusBlocks": [
+        {
+          "id": "original-ghana-algeria",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.5 key concept: independence came through negotiation in some colonies and through armed struggle in others",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing independence in Ghana and Algeria, 1950–1962",
+          "text": "In the British colony of the Gold Coast, Kwame Nkrumah organized strikes and boycotts and won elections under a new constitution. Britain negotiated a gradual transfer of power, and in 1957 the colony became independent Ghana, one of the first African colonies south of the Sahara to win independence.\n\nIn Algeria, about one million European settlers lived under French rule, and France treated Algeria as part of France itself. The National Liberation Front began an armed revolt in 1954. The war lasted eight years, both sides committed atrocities, and Algeria won independence in 1962."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-8-5-t05",
+      "topicId": "world-8-5",
+      "concept": "armed-struggle",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The passage suggests that France fought to keep Algeria because",
+      "choices": [
+        "Algeria's government had already joined the Soviet bloc",
+        "the leaders of Ghana had asked France for military help",
+        "Algeria had many settlers and counted as part of France",
+        "Algeria had no independence movement before the 1970s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Settlers and France's legal claim made Algeria different.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "The passage does not mention the Soviet bloc.",
+        "Ghana was British.",
+        "Settlers and France's legal claim made Algeria different.",
+        "The National Liberation Front led a revolt."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Algeria had an armed independence movement, which France fought.",
+      "stimulusId": "original-ghana-algeria",
+      "stimulusBlocks": [
+        {
+          "id": "original-ghana-algeria",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.5 key concept: independence came through negotiation in some colonies and through armed struggle in others",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing independence in Ghana and Algeria, 1950–1962",
+          "text": "In the British colony of the Gold Coast, Kwame Nkrumah organized strikes and boycotts and won elections under a new constitution. Britain negotiated a gradual transfer of power, and in 1957 the colony became independent Ghana, one of the first African colonies south of the Sahara to win independence.\n\nIn Algeria, about one million European settlers lived under French rule, and France treated Algeria as part of France itself. The National Liberation Front began an armed revolt in 1954. The war lasted eight years, both sides committed atrocities, and Algeria won independence in 1962."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-5-t06",
+      "topicId": "world-8-5",
+      "concept": "armed-struggle",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The passage best supports which claim?",
+      "choices": [
+        "African independence movements all used the same methods",
+        "Britain and France fought to keep every colony",
+        "Independence movements were limited to Asia",
+        "Methods of winning independence varied by colony"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Negotiation in Ghana contrasts with war in Algeria.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Methods differed.",
+        "Britain negotiated with Ghana.",
+        "Both examples are African.",
+        "Negotiation in Ghana contrasts with war in Algeria."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "France fought for Algeria, but Britain negotiated over Ghana.",
+      "stimulusId": "original-ghana-algeria",
+      "stimulusBlocks": [
+        {
+          "id": "original-ghana-algeria",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.5 key concept: independence came through negotiation in some colonies and through armed struggle in others",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, comparing independence in Ghana and Algeria, 1950–1962",
+          "text": "In the British colony of the Gold Coast, Kwame Nkrumah organized strikes and boycotts and won elections under a new constitution. Britain negotiated a gradual transfer of power, and in 1957 the colony became independent Ghana, one of the first African colonies south of the Sahara to win independence.\n\nIn Algeria, about one million European settlers lived under French rule, and France treated Algeria as part of France itself. The National Liberation Front began an armed revolt in 1954. The war lasted eight years, both sides committed atrocities, and Algeria won independence in 1962."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-8-5-t07",
+      "topicId": "world-8-5",
+      "concept": "armed-struggle",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, the Mau Mau rebels in Kenya were motivated partly by",
+      "choices": [
+        "the loss of land to white settlers",
+        "support for continued French rule",
+        "a desire to join Ho Chi Minh's Vietnam",
+        "orders from Soviet advisers in Kenya"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kikuyu farmers had lost land to settlers.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Kikuyu farmers had lost land to settlers.",
+        "Kenya was ruled by Britain.",
+        "The movements were unrelated.",
+        "The passage describes local grievances."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Mau Mau rebels fought British rule; France governed Indochina, not Kenya.",
+      "stimulusId": "original-armed-struggle",
+      "stimulusBlocks": [
+        {
+          "id": "original-armed-struggle",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.5 key concept: armed independence movements developed where colonial powers or settler populations resisted decolonization",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing armed independence struggles in Vietnam and Kenya, 1945–1963",
+          "text": "When France tried to reclaim Indochina after World War II, the Viet Minh under Ho Chi Minh fought back. Their victory at Dien Bien Phu in 1954 ended French rule, though Vietnam was divided into a communist north and an anticommunist south.\n\nIn Kenya, Kikuyu farmers who had lost land to white settlers formed the Mau Mau movement and rebelled in 1952. British forces crushed the revolt and detained tens of thousands of Kenyans in camps, but Britain granted Kenya independence in 1963."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-5-t08",
+      "topicId": "world-8-5",
+      "concept": "armed-struggle",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The struggles in Vietnam and Kenya described in the passage were similar in that both",
+      "choices": [
+        "ended with communist governments taking power",
+        "involved armed resistance to colonial rule",
+        "were fought against the French army",
+        "ended with independence in 1954"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both movements used force against colonial powers.",
+      "sourceIds": [
+        "ced-topic-8-5"
+      ],
+      "choiceExplanations": [
+        "Only northern Vietnam became communist.",
+        "Both movements used force against colonial powers.",
+        "Kenya fought Britain.",
+        "Kenya won independence in 1963."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Vietnam fought France, but Kenya's rebels fought Britain.",
+      "stimulusId": "original-armed-struggle",
+      "stimulusBlocks": [
+        {
+          "id": "original-armed-struggle",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.5 key concept: armed independence movements developed where colonial powers or settler populations resisted decolonization",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing armed independence struggles in Vietnam and Kenya, 1945–1963",
+          "text": "When France tried to reclaim Indochina after World War II, the Viet Minh under Ho Chi Minh fought back. Their victory at Dien Bien Phu in 1954 ended French rule, though Vietnam was divided into a communist north and an anticommunist south.\n\nIn Kenya, Kikuyu farmers who had lost land to white settlers formed the Mau Mau movement and rebelled in 1952. British forces crushed the revolt and detained tens of thousands of Kenyans in camps, but Britain granted Kenya independence in 1963."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-8-5-quick",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-5",
+      "title": "Topic 8.5 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-8-5-q01",
+        "world-8-5-q02",
+        "world-8-5-q03"
+      ]
+    },
+    {
+      "id": "world-8-5-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-5",
+      "title": "Decolonization topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-8-5-q01",
+        "world-8-5-q02",
+        "world-8-5-q03",
+        "world-8-5-q04",
+        "world-8-5-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "negotiated-independence": {
+      "id": "negotiated-independence",
+      "title": "Negotiated independence",
+      "section": "negotiated-independence",
+      "topicId": "world-8-5"
+    },
+    "armed-struggle": {
+      "id": "armed-struggle",
+      "title": "Armed struggle",
+      "section": "armed-struggle",
+      "topicId": "world-8-5"
+    }
+  },
+  "assets": {}
+}

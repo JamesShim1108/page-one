@@ -1,0 +1,1147 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-3",
+    "courseId": "world",
+    "number": 3,
+    "title": "Land-Based Empires",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how gunpowder, administration, and religion helped land-based empires expand and hold power across Eurasia and Africa.",
+    "quizzes": [
+      {
+        "id": "world-3-practice-test",
+        "courseId": "world",
+        "unitId": "world-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t01",
+              "world-3-1-t02",
+              "world-3-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t04",
+              "world-3-1-t05",
+              "world-3-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t07",
+              "world-3-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t09",
+              "world-3-1-t10",
+              "world-3-1-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-1",
+            "questionIds": [
+              "world-3-1-t12",
+              "world-3-1-t13",
+              "world-3-1-t14"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t01",
+              "world-3-2-t02",
+              "world-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t04",
+              "world-3-2-t05",
+              "world-3-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t07",
+              "world-3-2-t08",
+              "world-3-2-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t10",
+              "world-3-2-t11"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t12",
+              "world-3-2-t13"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t14",
+              "world-3-2-t15"
+            ]
+          },
+          {
+            "topicId": "world-3-2",
+            "questionIds": [
+              "world-3-2-t16",
+              "world-3-2-t17"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t01",
+              "world-3-3-t02",
+              "world-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t04",
+              "world-3-3-t05",
+              "world-3-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t07",
+              "world-3-3-t08",
+              "world-3-3-t09"
+            ]
+          },
+          {
+            "topicId": "world-3-3",
+            "questionIds": [
+              "world-3-3-t10",
+              "world-3-3-t11",
+              "world-3-3-t12"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t01",
+              "world-3-4-t02",
+              "world-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t04",
+              "world-3-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-3-4",
+            "questionIds": [
+              "world-3-4-t06",
+              "world-3-4-t07",
+              "world-3-4-t08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-3-1-quiz",
+        "title": "Empires Expand topic quiz"
+      },
+      {
+        "id": "world-3-2-quiz",
+        "title": "Empires: Administration topic quiz"
+      },
+      {
+        "id": "world-3-3-quiz",
+        "title": "Empires: Belief Systems topic quiz"
+      },
+      {
+        "id": "world-3-4-quiz",
+        "title": "Comparison in Land-Based Empires topic quiz"
+      }
+    ],
+    "topicCount": 4,
+    "firstTopic": {
+      "id": "world-3-1",
+      "courseId": "world",
+      "unitId": "world-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Empires Expand",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-3-1",
+    "courseId": "world",
+    "unitId": "world-3",
+    "order": 1,
+    "code": "3.1",
+    "title": "Empires Expand",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "How gunpowder weapons, military organization, and rivalries shaped the growth of the Ottoman, Safavid, Mughal, Qing, and Songhai states."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "8ac6b9f9de37a7d0",
+  "questions": [
+    {
+      "id": "world-3-1-q01",
+      "topicId": "world-3-1",
+      "concept": "gunpowder-armies",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which of the following best explains why gunpowder weapons helped land-based empires expand after 1450?",
+      "choices": [
+        "They were available only to European states, which shared them with allies",
+        "They let poorly funded states defeat rivals without building standing armies",
+        "They made cavalry useless, so empires could disband their horse soldiers",
+        "They let well-funded states break fortifications and defeat rival armies"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cannons broke walls and muskets in disciplined hands beat older armies, but only states with revenue could afford them.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Gunpowder spread from China across Eurasia; it was not a European monopoly.",
+        "Guns and gunners were expensive, so they favored rich states with standing armies.",
+        "Cavalry stayed important in all of these empires.",
+        "Cannons broke walls and muskets in disciplined hands beat older armies, but only states with revenue could afford them."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Firearms favored states that could pay for them. Poor states without professional soldiers gained little.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-1-q02",
+      "topicId": "world-3-1",
+      "concept": "gunpowder-armies",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The Janissaries are best described as",
+      "choices": [
+        "Mughal officials who collected land taxes",
+        "a permanent Ottoman infantry force that used firearms",
+        "Safavid cavalry recruited from Turkic tribes",
+        "a permanent Ottoman cavalry force paid in land grants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Janissaries were a standing Ottoman infantry corps armed with firearms.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Mughal land taxes were collected through zamindars and officials, not Janissaries.",
+        "The Janissaries were a standing Ottoman infantry corps armed with firearms.",
+        "Safavid tribal cavalry were the qizilbash, not the Janissaries.",
+        "Ottoman cavalry supported by land grants were the sipahis; the Janissaries were salaried infantry."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Janissaries were infantry paid by the state, not cavalry supported by land grants.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-1-q03",
+      "topicId": "world-3-1",
+      "concept": "qing-expansion",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The Qing dynasty came to power in China in 1644 when",
+      "choices": [
+        "Mongol khans reunited the steppe and conquered Beijing",
+        "Manchu armies took advantage of rebellion and the fall of the Ming",
+        "Han Chinese rebels overthrew the Yuan dynasty",
+        "Manchu armies defeated a strong and united Ming empire in open battle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After rebels took Beijing and the last Ming emperor died, Manchu armies entered China and founded the Qing.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "The Mongol Yuan dynasty had fallen in 1368; the Qing were Manchu.",
+        "After rebels took Beijing and the last Ming emperor died, Manchu armies entered China and founded the Qing.",
+        "This describes the founding of the Ming in 1368, not the Qing.",
+        "The Ming had already collapsed internally; the Manchus exploited that weakness."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Manchus did conquer China, but the Ming was already collapsing from rebellion when they entered Beijing.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-1-q04",
+      "topicId": "world-3-1",
+      "concept": "islamic-empires",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which of the following was a similarity between the Ottoman and Mughal empires?",
+      "choices": [
+        "Both were founded by Persian Shi'a dynasties",
+        "Both converted most of their subjects to Islam within a century",
+        "Both were ruled by Muslim dynasties that governed from capitals in Central Asia",
+        "Both were ruled by Muslim dynasties that governed many non-Muslim subjects"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ottoman sultans ruled many Christians and Jews, and Mughal emperors ruled a Hindu majority.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Both dynasties were Sunni and Turkic in origin; the Safavids were Shi'a.",
+        "Large non-Muslim populations remained in both empires.",
+        "Their capitals were in Istanbul and in northern India.",
+        "Ottoman sultans ruled many Christians and Jews, and Mughal emperors ruled a Hindu majority."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Both dynasties had Central Asian roots, but their capitals were Istanbul and Delhi or Agra, not in Central Asia.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-1-q05",
+      "topicId": "world-3-1",
+      "concept": "rivalries",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains the Moroccan invasion of Songhai in 1591?",
+      "choices": [
+        "Morocco sought control of the gold trade that Songhai taxed",
+        "Songhai had attacked Moroccan ports on the Atlantic coast",
+        "Morocco sought control of the Atlantic slave trade to the Americas",
+        "Morocco wanted to spread Shi'a Islam into West Africa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ahmad al-Mansur hoped to seize the sources and routes of West African gold.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Ahmad al-Mansur hoped to seize the sources and routes of West African gold.",
+        "Songhai was an inland empire and did not attack Moroccan ports.",
+        "Morocco's aim was the gold that crossed the Sahara, not the Atlantic trade.",
+        "Morocco was Sunni, like Songhai's rulers."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Morocco had commercial motives, but the target was the trans-Saharan gold trade, not Atlantic slave trading.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-1-q06",
+      "topicId": "world-3-1",
+      "concept": "rivalries",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The Safavid and Mughal empires fought over Kandahar mainly because",
+      "choices": [
+        "it was a holy city for both Sunni and Shi'a Muslims",
+        "it was a holy city for Shi'a Muslims",
+        "it controlled a key route between Persia and India",
+        "it held the largest gunpowder factories in Asia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Whoever held Kandahar controlled caravans, tolls, and an invasion path between Persia and India.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "The conflict was about strategy and trade, not a shared holy site.",
+        "Kandahar was not a major Shi'a pilgrimage site.",
+        "Whoever held Kandahar controlled caravans, tolls, and an invasion path between Persia and India.",
+        "There is no evidence Kandahar was a center of gunpowder production."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Religion mattered elsewhere, but Kandahar's value was strategic: it guarded a trade and invasion route.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-1-q07",
+      "topicId": "world-3-1",
+      "concept": "islamic-empires",
+      "difficulty": "Challenge",
+      "skill": "contextualization",
+      "prompt": "Which development best explains the Ottoman capture of Constantinople in 1453?",
+      "choices": [
+        "An alliance between the Ottomans and the Mongol Golden Horde",
+        "The collapse of Byzantine trade after the Portuguese reached India",
+        "The use of large cannons supplied by Venetian allies of the sultan",
+        "The use of large cannons together with a disciplined standing army"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mehmed II used giant cannons and the Janissaries to break and storm the city's walls.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "The Golden Horde played no role in the siege.",
+        "The Portuguese reached India in 1498, after the city fell.",
+        "Venice was a rival that helped defend the city; the Ottomans cast their own guns.",
+        "Mehmed II used giant cannons and the Janissaries to break and storm the city's walls."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Cannons were central, but the largest guns were cast for Mehmed by a Hungarian founder, not supplied by Venice.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-3-1-t01",
+      "topicId": "world-3-1",
+      "concept": "gunpowder-armies",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, which of the following best explains the Ottoman success in 1453?",
+      "choices": [
+        "Cannons combined with a professional army and a state that could supply it",
+        "Cannons that the Byzantine defenders had never seen or heard of before",
+        "An alliance with the city's Christian population, who opened the gates",
+        "Cannons combined with a large navy that defeated the city's defenders at sea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage stresses cannons, the Janissaries, a state able to pay and supply the army, and skilled engineers.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "The passage stresses cannons, the Janissaries, a state able to pay and supply the army, and skilled engineers.",
+        "Gunpowder had been known in the region; the passage does not claim the weapons were unknown.",
+        "No such alliance appears in the passage.",
+        "The passage describes ships moved overland into the harbor, not a decisive sea battle."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Ships appear in the passage, but they were dragged overland to tighten the siege; the passage stresses guns, troops, and supply.",
+      "stimulusId": "original-gunpowder-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "original-gunpowder-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II: imperial expansion relied on the increased use of gunpowder, cannons, and armed trade",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe the Ottoman conquest of Constantinople in 1453",
+          "text": "When Sultan Mehmed II besieged Constantinople in 1453, he brought dozens of cannons, including giant bombards cast for the campaign by a Hungarian founder. For weeks the guns battered walls that had protected the city for a thousand years. Ottoman ships were dragged overland into the city's harbor to tighten the siege. After the city fell, Mehmed made it his capital.\n\nHistorians stress that cannons alone did not win the siege. The Ottomans also had a disciplined standing infantry, the Janissaries, a state able to pay and supply a large army, and engineers and gunners recruited from many backgrounds."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-1-t02",
+      "topicId": "world-3-1",
+      "concept": "gunpowder-armies",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The author's main argument in the second paragraph is that",
+      "choices": [
+        "the Ottoman army depended mostly on foreign mercenaries",
+        "military technology mattered more than any other factor in 1453",
+        "cannons made infantry unnecessary in Ottoman warfare",
+        "weapons mattered most when backed by organization and resources"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The author says cannons alone did not win and points to soldiers, supply, and engineers.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Engineers and gunners came from many backgrounds, but the army was not mostly mercenaries.",
+        "The author argues against a technology-only explanation.",
+        "The passage stresses the importance of infantry, the Janissaries.",
+        "The author says cannons alone did not win and points to soldiers, supply, and engineers."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage says cannons alone did not win; it names other factors, so “more than any other factor” goes too far.",
+      "stimulusId": "original-gunpowder-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "original-gunpowder-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II: imperial expansion relied on the increased use of gunpowder, cannons, and armed trade",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe the Ottoman conquest of Constantinople in 1453",
+          "text": "When Sultan Mehmed II besieged Constantinople in 1453, he brought dozens of cannons, including giant bombards cast for the campaign by a Hungarian founder. For weeks the guns battered walls that had protected the city for a thousand years. Ottoman ships were dragged overland into the city's harbor to tighten the siege. After the city fell, Mehmed made it his capital.\n\nHistorians stress that cannons alone did not win the siege. The Ottomans also had a disciplined standing infantry, the Janissaries, a state able to pay and supply a large army, and engineers and gunners recruited from many backgrounds."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-3-1-t03",
+      "topicId": "world-3-1",
+      "concept": "islamic-empires",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The conquest described in the passage most directly contributed to which of the following?",
+      "choices": [
+        "The spread of Protestant Christianity in eastern Europe",
+        "The Ottoman Empire's emergence as a major power linking Europe and Asia",
+        "The beginning of the Safavid Empire in Persia",
+        "The Ottoman Empire's conquest of Mughal India"
+      ],
+      "correctAnswer": 1,
+      "explanation": "With Constantinople as its capital, the Ottoman state controlled a key crossing between Europe and Asia and kept expanding.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "The Reformation began in 1517 and had no connection to this conquest.",
+        "With Constantinople as its capital, the Ottoman state controlled a key crossing between Europe and Asia and kept expanding.",
+        "The Safavid dynasty was founded in 1501 in Persia by Ismail I.",
+        "The Ottomans never conquered Mughal India."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The Safavids rose in Persia in 1501; Constantinople's fall made the Ottomans, not the Safavids, a power on two continents.",
+      "stimulusId": "original-gunpowder-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "original-gunpowder-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II: imperial expansion relied on the increased use of gunpowder, cannons, and armed trade",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe the Ottoman conquest of Constantinople in 1453",
+          "text": "When Sultan Mehmed II besieged Constantinople in 1453, he brought dozens of cannons, including giant bombards cast for the campaign by a Hungarian founder. For weeks the guns battered walls that had protected the city for a thousand years. Ottoman ships were dragged overland into the city's harbor to tighten the siege. After the city fell, Mehmed made it his capital.\n\nHistorians stress that cannons alone did not win the siege. The Ottomans also had a disciplined standing infantry, the Janissaries, a state able to pay and supply a large army, and engineers and gunners recruited from many backgrounds."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-3-1-t04",
+      "topicId": "world-3-1",
+      "concept": "islamic-empires",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "According to the passage, Akbar strengthened Mughal rule mainly by",
+      "choices": [
+        "converting the Hindu majority to Islam",
+        "including Hindu elites in the empire's military and government",
+        "abandoning gunpowder weapons in favor of cavalry",
+        "including Hindu elites only as tax collectors without military rank"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Akbar allied with Rajput princes by marriage and high rank and ranked officers in the mansab system.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "The passage says most subjects remained Hindu.",
+        "Akbar allied with Rajput princes by marriage and high rank and ranked officers in the mansab system.",
+        "The passage does not say Akbar abandoned firearms.",
+        "Rajputs received high military rank, not only tax duties."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Inclusion is right, but the passage says Rajput princes received high military rank.",
+      "stimulusId": "original-mughal-akbar",
+      "stimulusBlocks": [
+        {
+          "id": "original-mughal-akbar",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II.B: land empires included the Manchu, Mughal, Ottoman, and Safavid",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the founding and expansion of the Mughal Empire, 1526–1605",
+          "text": "In 1526 Babur, a Central Asian prince descended from Timur, defeated the Sultan of Delhi at Panipat with field cannons and matchlock muskets. His grandson Akbar, who ruled from 1556 to 1605, turned these conquests into a lasting empire. Akbar expanded across northern India, made alliances with Rajput princes by marriage and by giving them high military rank, and ranked officers in a system of mansabs that tied their pay to the number of troops they kept.\n\nMost of Akbar's subjects were Hindu. His policy of including Hindu elites in government helped him rule a population far larger than the Muslim ruling class."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-1-t05",
+      "topicId": "world-3-1",
+      "concept": "islamic-empires",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Akbar's approach described in the passage was most similar to which of the following?",
+      "choices": [
+        "The Spanish expulsion of Jews and Muslims from Iberia",
+        "The Qing requirement that Manchus hold every government post",
+        "The Safavid shahs' pressure on Sunni subjects to convert",
+        "The Qing use of Han Chinese officials to help rule China"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Like Akbar, Qing rulers governed a different majority by bringing local elites into government.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Expulsion excluded religious minorities rather than including them.",
+        "Han Chinese scholars staffed most Qing offices.",
+        "Safavid pressure for conversion is the opposite of Akbar's inclusion.",
+        "Like Akbar, Qing rulers governed a different majority by bringing local elites into government."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Qing kept military power in Manchu hands, but most offices were staffed by Han Chinese, which is the parallel to Akbar.",
+      "stimulusId": "original-mughal-akbar",
+      "stimulusBlocks": [
+        {
+          "id": "original-mughal-akbar",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II.B: land empires included the Manchu, Mughal, Ottoman, and Safavid",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the founding and expansion of the Mughal Empire, 1526–1605",
+          "text": "In 1526 Babur, a Central Asian prince descended from Timur, defeated the Sultan of Delhi at Panipat with field cannons and matchlock muskets. His grandson Akbar, who ruled from 1556 to 1605, turned these conquests into a lasting empire. Akbar expanded across northern India, made alliances with Rajput princes by marriage and by giving them high military rank, and ranked officers in a system of mansabs that tied their pay to the number of troops they kept.\n\nMost of Akbar's subjects were Hindu. His policy of including Hindu elites in government helped him rule a population far larger than the Muslim ruling class."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-1-t06",
+      "topicId": "world-3-1",
+      "concept": "gunpowder-armies",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Babur's victory at Panipat in 1526 is best understood in the context of",
+      "choices": [
+        "the spread of gunpowder weapons across Eurasia",
+        "the Portuguese conquest of the interior of India",
+        "the spread of gunpowder weapons from the Americas",
+        "the collapse of the Qing dynasty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Babur's field cannons and muskets reflect the spread of firearms across Eurasia.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Babur's field cannons and muskets reflect the spread of firearms across Eurasia.",
+        "The Portuguese held coastal ports, not the interior.",
+        "Gunpowder originated in China, not the Americas.",
+        "The Qing was founded in 1644, after Panipat."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Gunpowder spread is right, but it moved across Eurasia from China; it did not come from the Americas.",
+      "stimulusId": "original-mughal-akbar",
+      "stimulusBlocks": [
+        {
+          "id": "original-mughal-akbar",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II.B: land empires included the Manchu, Mughal, Ottoman, and Safavid",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the founding and expansion of the Mughal Empire, 1526–1605",
+          "text": "In 1526 Babur, a Central Asian prince descended from Timur, defeated the Sultan of Delhi at Panipat with field cannons and matchlock muskets. His grandson Akbar, who ruled from 1556 to 1605, turned these conquests into a lasting empire. Akbar expanded across northern India, made alliances with Rajput princes by marriage and by giving them high military rank, and ranked officers in a system of mansabs that tied their pay to the number of troops they kept.\n\nMost of Akbar's subjects were Hindu. His policy of including Hindu elites in government helped him rule a population far larger than the Muslim ruling class."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-3-1-t07",
+      "topicId": "world-3-1",
+      "concept": "rivalries",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The author's claim that the rivalry “was not mainly religious” is best supported by which evidence from the passage?",
+      "choices": [
+        "The Safavid shah Abbas I captured Kandahar in 1622",
+        "Kandahar changed hands between the two empires several times between 1595 and 1649",
+        "The dynasties shared roots, and the city guarded a strategic route",
+        "Three Mughal sieges between 1649 and 1653 failed"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Shared roots and the city's location on a trade and invasion route point to strategic motives.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "One capture does not explain the motive.",
+        "Frequent changes of control show the struggle lasted, not its cause.",
+        "Shared roots and the city's location on a trade and invasion route point to strategic motives.",
+        "Failed sieges show Safavid strength, not the reason for the conflict."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The repeated captures show the fight was intense, but they do not show what it was about.",
+      "stimulusId": "original-safavid-mughal",
+      "stimulusBlocks": [
+        {
+          "id": "original-safavid-mughal",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.III.i: political and religious disputes led to rivalries and conflict between states; the Safavid–Mughal conflict is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the conflict between the Safavid and Mughal empires, c. 1550–1650",
+          "text": "The fortress city of Kandahar sat on the main route between Persia and northern India. Whoever held it controlled caravans, tolls, and an invasion path. The Mughals took Kandahar in 1595, the Safavid shah Abbas I captured it in 1622, the Mughals regained it in 1638, and the Safavids took it back for good in 1649. Three Mughal sieges between 1649 and 1653 failed.\n\nThe rivalry was not mainly religious. Both dynasties had Turkic and Persian roots, and Persian was the language of both courts. The conflict was about trade, prestige, and a strategic frontier."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-1-t08",
+      "topicId": "world-3-1",
+      "concept": "rivalries",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The rivalry described in the passage differed from the Ottoman and Safavid rivalry in that it",
+      "choices": [
+        "involved the use of gunpowder weapons",
+        "ended with a peace treaty in 1639",
+        "was fought between two empires",
+        "was driven less by the Sunni and Shi'a divide"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ottoman and Safavid conflict was sharpened by religion, while the Kandahar rivalry was mainly strategic.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Both rivalries involved firearms, so this is not a difference.",
+        "The 1639 treaty belongs to the Ottoman and Safavid wars.",
+        "Both rivalries were between empires.",
+        "Ottoman and Safavid conflict was sharpened by religion, while the Kandahar rivalry was mainly strategic."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The 1639 treaty ended Ottoman and Safavid fighting, not the Kandahar conflict.",
+      "stimulusId": "original-safavid-mughal",
+      "stimulusBlocks": [
+        {
+          "id": "original-safavid-mughal",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.III.i: political and religious disputes led to rivalries and conflict between states; the Safavid–Mughal conflict is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the conflict between the Safavid and Mughal empires, c. 1550–1650",
+          "text": "The fortress city of Kandahar sat on the main route between Persia and northern India. Whoever held it controlled caravans, tolls, and an invasion path. The Mughals took Kandahar in 1595, the Safavid shah Abbas I captured it in 1622, the Mughals regained it in 1638, and the Safavids took it back for good in 1649. Three Mughal sieges between 1649 and 1653 failed.\n\nThe rivalry was not mainly religious. Both dynasties had Turkic and Persian roots, and Persian was the language of both courts. The conflict was about trade, prestige, and a strategic frontier."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-1-t09",
+      "topicId": "world-3-1",
+      "concept": "rivalries",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, Moroccan forces won at Tondibi mainly because",
+      "choices": [
+        "they outnumbered the Songhai army",
+        "their soldiers used firearms against an army of cavalry and spears",
+        "Songhai rulers had converted to Christianity",
+        "their soldiers used firearms supplied by the Songhai themselves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Moroccan musketeers defeated a larger force armed with cavalry and spears.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "The passage says Songhai's army was much larger.",
+        "Moroccan musketeers defeated a larger force armed with cavalry and spears.",
+        "Songhai rulers were Muslim.",
+        "The weapons belonged to the Moroccan army."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Firearms decided the battle, but they were Moroccan weapons brought across the Sahara.",
+      "stimulusId": "original-songhai-morocco",
+      "stimulusBlocks": [
+        {
+          "id": "original-songhai-morocco",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.III.i: political and religious disputes led to rivalries and conflict between states; the Songhai Empire's conflict with Morocco is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Moroccan invasion of the Songhai Empire in 1591",
+          "text": "In the late 1400s and 1500s, Songhai rulers controlled the middle Niger River and the cities of Gao and Timbuktu, taxing the trans-Saharan trade in gold and salt. In 1591 the Moroccan sultan Ahmad al-Mansur sent an army of about 4,000 soldiers, many armed with firearms, across the Sahara. At the Battle of Tondibi, Moroccan musketeers defeated a much larger Songhai force that relied on cavalry and spears.\n\nMorocco hoped to seize the gold trade. It held Timbuktu and Gao for a time, but the conquest proved costly to maintain, and the region split into smaller states."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-1-t10",
+      "topicId": "world-3-1",
+      "concept": "rivalries",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following was a long-term effect of the invasion described in the passage?",
+      "choices": [
+        "Songhai rulers reconquered Morocco within a decade",
+        "Morocco built a lasting empire that controlled the gold fields",
+        "The region broke into smaller states",
+        "Trans-Saharan trade ended completely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After the invasion, the region split into smaller states.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Songhai did not reconquer Morocco.",
+        "The passage says the conquest proved costly to maintain.",
+        "After the invasion, the region split into smaller states.",
+        "Trade continued, though its centers shifted."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Morocco won the battle, but the passage says the conquest was costly and did not last.",
+      "stimulusId": "original-songhai-morocco",
+      "stimulusBlocks": [
+        {
+          "id": "original-songhai-morocco",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.III.i: political and religious disputes led to rivalries and conflict between states; the Songhai Empire's conflict with Morocco is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Moroccan invasion of the Songhai Empire in 1591",
+          "text": "In the late 1400s and 1500s, Songhai rulers controlled the middle Niger River and the cities of Gao and Timbuktu, taxing the trans-Saharan trade in gold and salt. In 1591 the Moroccan sultan Ahmad al-Mansur sent an army of about 4,000 soldiers, many armed with firearms, across the Sahara. At the Battle of Tondibi, Moroccan musketeers defeated a much larger Songhai force that relied on cavalry and spears.\n\nMorocco hoped to seize the gold trade. It held Timbuktu and Gao for a time, but the conquest proved costly to maintain, and the region split into smaller states."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-1-t11",
+      "topicId": "world-3-1",
+      "concept": "rivalries",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The invasion described in the passage was most similar to which of the following?",
+      "choices": [
+        "The Ottoman use of cannons to take Constantinople",
+        "Akbar's alliances with Rajput princes",
+        "The Tokugawa policy of alternate attendance",
+        "The Ottoman use of cannons to defend Vienna"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both invaders used gunpowder weapons to defeat defenders relying on older methods.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Both invaders used gunpowder weapons to defeat defenders relying on older methods.",
+        "Alliances are a political strategy, not a gunpowder conquest.",
+        "Alternate attendance was a method of internal control.",
+        "Vienna was defended by the Habsburgs against the Ottomans."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Ottomans besieged Vienna in 1529; they attacked it rather than defending it.",
+      "stimulusId": "original-songhai-morocco",
+      "stimulusBlocks": [
+        {
+          "id": "original-songhai-morocco",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.III.i: political and religious disputes led to rivalries and conflict between states; the Songhai Empire's conflict with Morocco is an illustrative example",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Moroccan invasion of the Songhai Empire in 1591",
+          "text": "In the late 1400s and 1500s, Songhai rulers controlled the middle Niger River and the cities of Gao and Timbuktu, taxing the trans-Saharan trade in gold and salt. In 1591 the Moroccan sultan Ahmad al-Mansur sent an army of about 4,000 soldiers, many armed with firearms, across the Sahara. At the Battle of Tondibi, Moroccan musketeers defeated a much larger Songhai force that relied on cavalry and spears.\n\nMorocco hoped to seize the gold trade. It held Timbuktu and Gao for a time, but the conquest proved costly to maintain, and the region split into smaller states."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-1-t12",
+      "topicId": "world-3-1",
+      "concept": "qing-expansion",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Based on the passage, which of the following best describes Qing expansion after 1644?",
+      "choices": [
+        "It extended Chinese rule into Central Asia and Taiwan",
+        "It returned China to the borders of the Ming dynasty",
+        "It focused mainly on overseas colonies in Southeast Asia",
+        "It extended Chinese rule into Japan and Korea"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Qing took Taiwan in 1683 and added Xinjiang after defeating the Zunghars.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "The Qing took Taiwan in 1683 and added Xinjiang after defeating the Zunghars.",
+        "Qing territory grew to about twice that of the Ming.",
+        "The Qing expanded over land, not through overseas colonies.",
+        "The Qing did not conquer Japan or Korea."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Qing expanded far, but into Xinjiang and Taiwan, not Japan or Korea.",
+      "stimulusId": "original-qing-expansion",
+      "stimulusBlocks": [
+        {
+          "id": "original-qing-expansion",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II.B: land empires included the Manchu, Mughal, Ottoman, and Safavid",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the rise and expansion of the Qing dynasty, 1644–1760",
+          "text": "The Manchus, a people from northeast of the Great Wall, organized their warriors into military units called banners. In 1644, after rebels captured Beijing and the last Ming emperor died, Manchu armies entered China and founded the Qing dynasty. Over the next century, Qing emperors defeated remaining Ming loyalists, took Taiwan in 1683, and in the 1750s conquered the Zunghar Mongols, adding Xinjiang to the empire.\n\nBy 1760 the Qing ruled roughly twice the territory of the Ming. Manchus were a small minority, so they governed with Chinese officials while keeping key military commands in Manchu hands."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-1-t13",
+      "topicId": "world-3-1",
+      "concept": "qing-expansion",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, the Qing governed with Chinese officials mainly because",
+      "choices": [
+        "Chinese officials controlled the banner armies",
+        "Manchu rulers were the majority of China's population",
+        "Manchu rulers were a small minority in a vast empire",
+        "the Ming had already abolished the examination system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says Manchus were a small minority, so they relied on Chinese officials.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Military commands stayed in Manchu hands.",
+        "Manchus were a small minority.",
+        "The passage says Manchus were a small minority, so they relied on Chinese officials.",
+        "The examination system continued under the Qing."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The reason is the opposite: Manchus were a minority, so they needed Chinese officials.",
+      "stimulusId": "original-qing-expansion",
+      "stimulusBlocks": [
+        {
+          "id": "original-qing-expansion",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II.B: land empires included the Manchu, Mughal, Ottoman, and Safavid",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the rise and expansion of the Qing dynasty, 1644–1760",
+          "text": "The Manchus, a people from northeast of the Great Wall, organized their warriors into military units called banners. In 1644, after rebels captured Beijing and the last Ming emperor died, Manchu armies entered China and founded the Qing dynasty. Over the next century, Qing emperors defeated remaining Ming loyalists, took Taiwan in 1683, and in the 1750s conquered the Zunghar Mongols, adding Xinjiang to the empire.\n\nBy 1760 the Qing ruled roughly twice the territory of the Ming. Manchus were a small minority, so they governed with Chinese officials while keeping key military commands in Manchu hands."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-1-t14",
+      "topicId": "world-3-1",
+      "concept": "qing-expansion",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Qing conquest of China was most similar to which earlier development?",
+      "choices": [
+        "The Ming voyages of Zheng He in the Indian Ocean",
+        "The Mongol conquest of China and founding of the Yuan dynasty",
+        "The Song dynasty's adoption of Champa rice",
+        "The Mamluk defeat of the Mongols at Ayn Jalut"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In both cases a people from beyond the Great Wall conquered China and founded a new dynasty.",
+      "sourceIds": [
+        "ced-topic-3-1"
+      ],
+      "choiceExplanations": [
+        "Zheng He's voyages were maritime expeditions, not a conquest of China.",
+        "In both cases a people from beyond the Great Wall conquered China and founded a new dynasty.",
+        "Champa rice was an agricultural change, not a conquest.",
+        "Ayn Jalut was a Mamluk victory in Syria."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Ayn Jalut involved steppe armies, but it was a defeat of Mongols, not a conquest of China by outsiders.",
+      "stimulusId": "original-qing-expansion",
+      "stimulusBlocks": [
+        {
+          "id": "original-qing-expansion",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.1, KC-4.3.II.B: land empires included the Manchu, Mughal, Ottoman, and Safavid",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the rise and expansion of the Qing dynasty, 1644–1760",
+          "text": "The Manchus, a people from northeast of the Great Wall, organized their warriors into military units called banners. In 1644, after rebels captured Beijing and the last Ming emperor died, Manchu armies entered China and founded the Qing dynasty. Over the next century, Qing emperors defeated remaining Ming loyalists, took Taiwan in 1683, and in the 1750s conquered the Zunghar Mongols, adding Xinjiang to the empire.\n\nBy 1760 the Qing ruled roughly twice the territory of the Ming. Manchus were a small minority, so they governed with Chinese officials while keeping key military commands in Manchu hands."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-3-1-quick",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-1",
+      "title": "Topic 3.1 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-3-1-q01",
+        "world-3-1-q02",
+        "world-3-1-q03"
+      ]
+    },
+    {
+      "id": "world-3-1-quiz",
+      "courseId": "world",
+      "unitId": "world-3",
+      "topicId": "world-3-1",
+      "title": "Empires Expand topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-3-1-q01",
+        "world-3-1-q02",
+        "world-3-1-q03",
+        "world-3-1-q04",
+        "world-3-1-q05",
+        "world-3-1-q06",
+        "world-3-1-q07"
+      ]
+    }
+  ],
+  "concepts": {
+    "gunpowder-armies": {
+      "id": "gunpowder-armies",
+      "title": "Gunpowder and military organization",
+      "section": "gunpowder-armies",
+      "topicId": "world-3-1"
+    },
+    "islamic-empires": {
+      "id": "islamic-empires",
+      "title": "Ottoman, Safavid, and Mughal expansion",
+      "section": "islamic-empires",
+      "topicId": "world-3-1"
+    },
+    "qing-expansion": {
+      "id": "qing-expansion",
+      "title": "The Qing dynasty",
+      "section": "qing-expansion",
+      "topicId": "world-3-1"
+    },
+    "rivalries": {
+      "id": "rivalries",
+      "title": "Rivalries between states",
+      "section": "rivalries",
+      "topicId": "world-3-1"
+    }
+  },
+  "assets": {}
+}

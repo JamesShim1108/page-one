@@ -1,0 +1,498 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-7",
+    "courseId": "world",
+    "number": 7,
+    "title": "Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how empires collapsed, why two world wars were fought and how they were conducted, how the Depression reshaped economies, and how mass atrocities happened.",
+    "quizzes": [
+      {
+        "id": "world-7-practice-test",
+        "courseId": "world",
+        "unitId": "world-7",
+        "title": "Unit 7 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t01",
+              "world-7-1-t02",
+              "world-7-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t04",
+              "world-7-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t06",
+              "world-7-1-t07",
+              "world-7-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t01",
+              "world-7-2-t02",
+              "world-7-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t04",
+              "world-7-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t01",
+              "world-7-3-t02",
+              "world-7-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t04",
+              "world-7-3-t05",
+              "world-7-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t01",
+              "world-7-4-t02",
+              "world-7-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t04",
+              "world-7-4-t05",
+              "world-7-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t01",
+              "world-7-5-t02",
+              "world-7-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t04",
+              "world-7-5-t05",
+              "world-7-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t07",
+              "world-7-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t01",
+              "world-7-6-t02",
+              "world-7-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t04",
+              "world-7-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t06",
+              "world-7-6-t07",
+              "world-7-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t01",
+              "world-7-7-t02",
+              "world-7-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t04",
+              "world-7-7-t05",
+              "world-7-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t01",
+              "world-7-8-t02",
+              "world-7-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t04",
+              "world-7-8-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-9",
+            "questionIds": [
+              "world-7-9-t01",
+              "world-7-9-t02",
+              "world-7-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-7-practice-test",
+      "title": "Unit 7 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-7-1-quiz",
+        "title": "Shifting Power After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-2-quiz",
+        "title": "Causes of World War I topic quiz"
+      },
+      {
+        "id": "world-7-3-quiz",
+        "title": "Conducting World War I topic quiz"
+      },
+      {
+        "id": "world-7-4-quiz",
+        "title": "Economy in the Interwar Period topic quiz"
+      },
+      {
+        "id": "world-7-5-quiz",
+        "title": "Unresolved Tensions After World War I topic quiz"
+      },
+      {
+        "id": "world-7-6-quiz",
+        "title": "Causes of World War II topic quiz"
+      },
+      {
+        "id": "world-7-7-quiz",
+        "title": "Conducting World War II topic quiz"
+      },
+      {
+        "id": "world-7-8-quiz",
+        "title": "Mass Atrocities After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-9-quiz",
+        "title": "Causation in Global Conflict topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-7-saq-01",
+        "title": "Unit 7 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-7-3",
+    "courseId": "world",
+    "unitId": "world-7",
+    "order": 3,
+    "code": "7.3",
+    "title": "Conducting World War I",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How governments waged total war, how new weapons created stalemate, and how colonial peoples were drawn into the fighting."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "fe859b50f8b59af2",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-7-3",
+    "unitId": "world-7",
+    "courseId": "world",
+    "code": "7.3",
+    "title": "Conducting World War I",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "order": 3,
+    "summary": "How governments waged total war, how new weapons created stalemate, and how colonial peoples were drawn into the fighting.",
+    "minutes": 9,
+    "learningGoals": [
+      "Explain how governments used a variety of methods to conduct war."
+    ],
+    "bigIdea": "World War I was a total war in which governments mobilized entire societies and empires, and industrial weapons produced unprecedented casualties.",
+    "context": "Generals expected a short war. Instead, industrial weapons created a long, deadly stalemate.",
+    "sections": [
+      {
+        "id": "total-war",
+        "title": "Total war",
+        "conceptTitle": "Total war",
+        "lenses": [
+          "P",
+          "S",
+          "E"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In total war, governments directed industry, rationed food, and drafted millions. Women took jobs in factories and transportation. Propaganda portrayed enemies as monstrous and urged civilians to support the war."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Because the war required vast amounts of weapons and soldiers, governments took control of economies, which drew women into new kinds of work."
+          }
+        ],
+        "takeaway": "Total war mobilized entire societies.",
+        "sourceIds": [
+          "ced-topic-7-3"
+        ]
+      },
+      {
+        "id": "trench-warfare",
+        "title": "Trenches and new weapons",
+        "conceptTitle": "Trenches and new weapons",
+        "lenses": [
+          "T"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Machine guns and artillery forced armies into trenches on the Western Front. Attacks across open ground killed hundreds of thousands. Poison gas, used on a large scale from 1915, and tanks, from 1916, did not end the stalemate."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "New weapons did not bring quick victory. Most new technologies added to the killing without breaking the stalemate."
+          }
+        ],
+        "takeaway": "Industrial weapons made defense stronger than attack, producing a war of attrition.",
+        "sourceIds": [
+          "ced-topic-7-3"
+        ]
+      },
+      {
+        "id": "empire-at-war",
+        "title": "Empires at war",
+        "conceptTitle": "Empires at war",
+        "lenses": [
+          "P",
+          "S"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "About 1.3 million Indian soldiers and laborers served Britain. France recruited troops from West Africa, North Africa, and Indochina, and China sent about 140,000 laborers to France."
+          },
+          {
+            "type": "paragraph",
+            "text": "Many colonial soldiers expected rewards for their service. Disappointment after the war fed demands for self-government."
+          }
+        ],
+        "takeaway": "Colonial participation in the war strengthened demands for independence.",
+        "sourceIds": [
+          "ced-topic-7-3"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "total-war",
+        "topicId": "world-7-3",
+        "term": "total war",
+        "definition": "A war in which governments mobilize entire economies and populations and civilians become part of the war effort."
+      },
+      {
+        "id": "propaganda",
+        "topicId": "world-7-3",
+        "term": "Propaganda",
+        "definition": "Information, often biased or misleading, spread by governments to shape public opinion."
+      },
+      {
+        "id": "trench-warfare",
+        "topicId": "world-7-3",
+        "term": "trenches",
+        "definition": "Long ditches dug by armies for protection, which produced a deadly stalemate on the Western Front in World War I."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-7-total-war",
+        "world-7-propaganda",
+        "world-7-trench-warfare"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Within Unit 7",
+        "title": "From one war to the next",
+        "body": "Total war returned on an even larger scale in World War II, studied in Topic 7.7.",
+        "transferQuestion": "Compare total war in World War I with World War II.",
+        "feedback": "Name a similarity in mobilization and a difference in the targeting of civilians.",
+        "links": [
+          {
+            "topicId": "world-7-7",
+            "sectionId": "wwii-mobilization",
+            "label": "Review total war in World War II"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-7-3",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-7-3.json",
+  "glossary": [
+    {
+      "id": "world-7-total-war",
+      "term": "total war",
+      "definition": "A war in which governments mobilize entire economies and populations and civilians become part of the war effort.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.3 glossary"
+    },
+    {
+      "id": "world-7-propaganda",
+      "term": "Propaganda",
+      "definition": "Information, often biased or misleading, spread by governments to shape public opinion.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.3 glossary"
+    },
+    {
+      "id": "world-7-trench-warfare",
+      "term": "trenches",
+      "definition": "Long ditches dug by armies for protection, which produced a deadly stalemate on the Western Front in World War I.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.3 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-7-3",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 7.3.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Conducting World War I."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

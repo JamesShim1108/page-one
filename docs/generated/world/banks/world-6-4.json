@@ -1,0 +1,710 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-6",
+    "courseId": "world",
+    "number": 6,
+    "title": "Consequences of Industrialization",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study why industrial states built empires, how colonized peoples resisted, how economies were reshaped, and why millions of people migrated.",
+    "quizzes": [
+      {
+        "id": "world-6-practice-test",
+        "courseId": "world",
+        "unitId": "world-6",
+        "title": "Unit 6 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t01",
+              "world-6-1-t02",
+              "world-6-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t04",
+              "world-6-1-t05",
+              "world-6-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t07",
+              "world-6-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t01",
+              "world-6-2-t02",
+              "world-6-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t04",
+              "world-6-2-t05",
+              "world-6-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t07",
+              "world-6-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t01",
+              "world-6-3-t02",
+              "world-6-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t04",
+              "world-6-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t06",
+              "world-6-3-t07",
+              "world-6-3-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t01",
+              "world-6-4-t02",
+              "world-6-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t04",
+              "world-6-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t01",
+              "world-6-5-t02",
+              "world-6-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t04",
+              "world-6-5-t05",
+              "world-6-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t07",
+              "world-6-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t01",
+              "world-6-6-t02",
+              "world-6-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t04",
+              "world-6-6-t05",
+              "world-6-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t01",
+              "world-6-7-t02",
+              "world-6-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t04",
+              "world-6-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-8",
+            "questionIds": [
+              "world-6-8-t01",
+              "world-6-8-t02",
+              "world-6-8-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-6-practice-test",
+      "title": "Unit 6 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-6-1-quiz",
+        "title": "Rationales for Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-2-quiz",
+        "title": "State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-3-quiz",
+        "title": "Indigenous Responses to State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-4-quiz",
+        "title": "Global Economic Development from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-5-quiz",
+        "title": "Economic Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-6-quiz",
+        "title": "Causes of Migration in an Interconnected World topic quiz"
+      },
+      {
+        "id": "world-6-7-quiz",
+        "title": "Effects of Migration topic quiz"
+      },
+      {
+        "id": "world-6-8-quiz",
+        "title": "Causation in the Imperial Age topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-6-1",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 1,
+      "code": "6.1",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-6-saq-01",
+        "title": "Unit 6 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-6-4",
+    "courseId": "world",
+    "unitId": "world-6",
+    "order": 4,
+    "code": "6.4",
+    "title": "Global Economic Development from 1750 to 1900",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How industrial demand for raw materials and food reshaped economies around the world, and how new technology connected them."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "c6651f202a2b3aa2",
+  "questions": [
+    {
+      "id": "world-6-4-q01",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Rubber was in high demand in the late 1800s mainly because it was used for",
+      "choices": [
+        "making porcelain",
+        "bicycle frames and steel rails",
+        "bicycle and automobile tires",
+        "building railroads and bridges"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tires for bicycles and cars drove rubber demand.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Porcelain is made from clay.",
+        "Frames and rails were steel.",
+        "Tires for bicycles and cars drove rubber demand.",
+        "Railroads used iron and steel."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Frames and rails were metal; rubber was needed for tires.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-4-q02",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Refrigerated steamships most directly allowed Argentina to",
+      "choices": [
+        "import manufactured goods from Asia",
+        "end its trade with Britain",
+        "export fresh beef to China and Japan",
+        "export fresh beef to Europe"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Refrigeration let fresh meat cross the Atlantic to Europe.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "The technology concerned exporting food.",
+        "Trade with Britain grew.",
+        "Europe was the main market.",
+        "Refrigeration let fresh meat cross the Atlantic to Europe."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Argentina's main beef market was Europe.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-4-q03",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Dependence on one or two export crops most often left economies",
+      "choices": [
+        "vulnerable mainly to rising world prices",
+        "vulnerable to falling world prices",
+        "protected from changes in world markets",
+        "independent of foreign capital"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When prices fell, export-dependent economies suffered.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Rising prices helped exporters.",
+        "When prices fell, export-dependent economies suffered.",
+        "They were exposed to markets.",
+        "They depended on foreign capital."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Falling prices, not rising ones, hurt exporters.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-4-q04",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Which of the following was exported from Peru as fertilizer in the 1800s?",
+      "choices": [
+        "Palm oil",
+        "Cotton",
+        "Guano",
+        "Rubber"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Peru exported guano, bird droppings used as fertilizer.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Palm oil came from West Africa.",
+        "Cotton came from Egypt, India, and the US.",
+        "Peru exported guano, bird droppings used as fertilizer.",
+        "Rubber came from the Amazon and Congo."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Palm oil was a West African export used for soap and lubricants.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-4-q05",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which of the following best supports the claim that export economies could harm local people?",
+      "choices": [
+        "Congo workers were mutilated for missing rubber quotas",
+        "Argentina built railroads from the interior to its ports",
+        "Steamships carried goods faster and more cheaply",
+        "Factories in Britain used cotton"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Brutality in the Congo shows how export demands harmed workers.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Brutality in the Congo shows how export demands harmed workers.",
+        "Railroads show investment.",
+        "Faster shipping is not evidence of harm.",
+        "This concerns British factories."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Railroads are evidence of growth, not of harm.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-6-4-t01",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, the Congo Free State was",
+      "choices": [
+        "ruled by the elected Belgian parliament from 1850 onward",
+        "ruled by King Leopold II as his personal colony",
+        "an independent African kingdom",
+        "a British colony from 1858"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Leopold ruled it personally from 1885 to 1908.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Leopold ruled it personally.",
+        "Leopold ruled it personally from 1885 to 1908.",
+        "It was a colony.",
+        "It was not British."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Belgian state took over only in 1908; before that it was Leopold's.",
+      "stimulusId": "original-cash-crops",
+      "stimulusBlocks": [
+        {
+          "id": "original-cash-crops",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: as industrialization spread, demand for raw materials such as cotton, rubber, and palm oil, and for food, reshaped economies in colonized regions",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing export economies in colonized regions, 1850–1914",
+          "text": "Factories in industrial countries needed raw materials. Egypt and India grew cotton for British mills. Rubber, needed for bicycle and automobile tires, came from the Amazon and from the Congo, where King Leopold II of Belgium ran the Congo Free State as his personal colony from 1885 to 1908. Workers there who failed to meet rubber quotas were beaten or mutilated.\n\nMany colonized regions came to depend on exporting one or two crops. When world prices fell, these economies suffered, and land once used to grow food was given over to export crops."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-4-t02",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Based on the passage, dependence on export crops affected colonized economies by",
+      "choices": [
+        "making them industrial powers",
+        "increasing the amount of land used for growing local food",
+        "exposing them to price drops and shrinking land for food",
+        "protecting them from changes in world markets"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Falling prices hurt them, and food land was used for exports.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "They remained raw material exporters.",
+        "Food land decreased.",
+        "Falling prices hurt them, and food land was used for exports.",
+        "They were exposed to markets."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage says land for food was given over to export crops.",
+      "stimulusId": "original-cash-crops",
+      "stimulusBlocks": [
+        {
+          "id": "original-cash-crops",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: as industrialization spread, demand for raw materials such as cotton, rubber, and palm oil, and for food, reshaped economies in colonized regions",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing export economies in colonized regions, 1850–1914",
+          "text": "Factories in industrial countries needed raw materials. Egypt and India grew cotton for British mills. Rubber, needed for bicycle and automobile tires, came from the Amazon and from the Congo, where King Leopold II of Belgium ran the Congo Free State as his personal colony from 1885 to 1908. Workers there who failed to meet rubber quotas were beaten or mutilated.\n\nMany colonized regions came to depend on exporting one or two crops. When world prices fell, these economies suffered, and land once used to grow food was given over to export crops."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-4-t03",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Demand for rubber described in the passage is best understood in the context of",
+      "choices": [
+        "the second industrial revolution and new products",
+        "the Columbian Exchange",
+        "the Mongol Empire's trade routes",
+        "the decline of global trade after 1850"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bicycles and automobiles of the late 1800s created demand for rubber.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Bicycles and automobiles of the late 1800s created demand for rubber.",
+        "The Columbian Exchange began in 1492.",
+        "The Mongol Empire was much earlier.",
+        "Trade expanded."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Global trade expanded after 1850.",
+      "stimulusId": "original-cash-crops",
+      "stimulusBlocks": [
+        {
+          "id": "original-cash-crops",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: as industrialization spread, demand for raw materials such as cotton, rubber, and palm oil, and for food, reshaped economies in colonized regions",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing export economies in colonized regions, 1850–1914",
+          "text": "Factories in industrial countries needed raw materials. Egypt and India grew cotton for British mills. Rubber, needed for bicycle and automobile tires, came from the Amazon and from the Congo, where King Leopold II of Belgium ran the Congo Free State as his personal colony from 1885 to 1908. Workers there who failed to meet rubber quotas were beaten or mutilated.\n\nMany colonized regions came to depend on exporting one or two crops. When world prices fell, these economies suffered, and land once used to grow food was given over to export crops."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-6-4-t04",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, British investors in Argentina financed",
+      "choices": [
+        "railroads",
+        "factories making automobiles",
+        "banana plantations",
+        "steel mills"
+      ],
+      "correctAnswer": 0,
+      "explanation": "British investors financed railroads that carried crops to Buenos Aires.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "British investors financed railroads that carried crops to Buenos Aires.",
+        "The passage does not mention auto factories.",
+        "Banana plantations were in Central America.",
+        "The passage does not mention steel mills."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Banana plantations were US investments in Central America.",
+      "stimulusId": "original-food-exports",
+      "stimulusBlocks": [
+        {
+          "id": "original-food-exports",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: the global economy expanded as industrial technologies such as railroads and refrigerated ships connected food-producing regions to industrial markets",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Argentina's export economy, 1870–1914",
+          "text": "In the 1870s and 1880s, refrigerated steamships made it possible to carry fresh meat across oceans. Argentina, with vast grasslands, became a leading exporter of beef and wheat to Europe. British investors financed many of its railroads, which carried grain and cattle from the interior to the port of Buenos Aires.\n\nArgentina grew wealthy, and millions of European immigrants arrived to work its farms and docks. Yet its economy depended heavily on foreign markets and foreign capital."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-4-t05",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The last sentence of the passage best supports which conclusion about Argentina's growth?",
+      "choices": [
+        "Argentina had no foreign investment",
+        "Export growth always ended dependence",
+        "Export growth could bring wealth along with dependence",
+        "Argentina became fully independent of foreign markets and capital"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Argentina grew wealthy but depended on foreign markets and capital.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "British investors financed railroads.",
+        "Dependence continued.",
+        "Argentina grew wealthy but depended on foreign markets and capital.",
+        "It depended on them."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The passage says Argentina depended on foreign markets and capital.",
+      "stimulusId": "original-food-exports",
+      "stimulusBlocks": [
+        {
+          "id": "original-food-exports",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: the global economy expanded as industrial technologies such as railroads and refrigerated ships connected food-producing regions to industrial markets",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Argentina's export economy, 1870–1914",
+          "text": "In the 1870s and 1880s, refrigerated steamships made it possible to carry fresh meat across oceans. Argentina, with vast grasslands, became a leading exporter of beef and wheat to Europe. British investors financed many of its railroads, which carried grain and cattle from the interior to the port of Buenos Aires.\n\nArgentina grew wealthy, and millions of European immigrants arrived to work its farms and docks. Yet its economy depended heavily on foreign markets and foreign capital."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-6-4-quick",
+      "courseId": "world",
+      "unitId": "world-6",
+      "topicId": "world-6-4",
+      "title": "Topic 6.4 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-6-4-q01",
+        "world-6-4-q02",
+        "world-6-4-q03"
+      ]
+    },
+    {
+      "id": "world-6-4-quiz",
+      "courseId": "world",
+      "unitId": "world-6",
+      "topicId": "world-6-4",
+      "title": "Global Economic Development from 1750 to 1900 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-6-4-q01",
+        "world-6-4-q02",
+        "world-6-4-q03",
+        "world-6-4-q04",
+        "world-6-4-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "raw-materials": {
+      "id": "raw-materials",
+      "title": "Raw materials for industry",
+      "section": "raw-materials",
+      "topicId": "world-6-4"
+    },
+    "export-economies": {
+      "id": "export-economies",
+      "title": "Export economies and dependence",
+      "section": "export-economies",
+      "topicId": "world-6-4"
+    }
+  },
+  "assets": {}
+}

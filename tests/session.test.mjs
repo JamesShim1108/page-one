@@ -12,6 +12,9 @@ import {
 } from "../docs/app/session/config.js";
 import { allocateSession } from "../docs/app/session/selection.js";
 
+// Ready World History topics, one custom-practice pool each. Update when a unit is added.
+const READY_TOPICS = 71;
+
 const root = new URL("../", import.meta.url);
 const generated = async (path) =>
   JSON.parse(await readFile(new URL(`docs/generated/${path}`, root), "utf8"));
@@ -104,7 +107,7 @@ test("the generated eligibility ledger excludes reserved unit-form questions and
       quiz.selections.flatMap((selection) => selection.questionIds),
     ),
   );
-  assert.equal(ledger.pools.length, 14);
+  assert.equal(ledger.pools.length, READY_TOPICS);
   for (const pool of ledger.pools) {
     assert.ok(pool.questionIds.length > 0);
     assert.ok(pool.questionIds.every((id) => !reserved.has(id)));
@@ -118,7 +121,7 @@ test("session content loads the ledger and only the selected topic banks", async
     fetchJson: (path) => generated(path),
   });
   const data = await store.sessionData("world");
-  assert.equal(data.ledger.pools.length, 14);
+  assert.equal(data.ledger.pools.length, READY_TOPICS);
   const selected = await store.sessionContent("world", ["world-1-1"]);
   assert.equal(selected.banks.length, 1);
   assert.equal(selected.banks[0].topic.id, "world-1-1");

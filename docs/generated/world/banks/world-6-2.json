@@ -1,0 +1,843 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-6",
+    "courseId": "world",
+    "number": 6,
+    "title": "Consequences of Industrialization",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study why industrial states built empires, how colonized peoples resisted, how economies were reshaped, and why millions of people migrated.",
+    "quizzes": [
+      {
+        "id": "world-6-practice-test",
+        "courseId": "world",
+        "unitId": "world-6",
+        "title": "Unit 6 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t01",
+              "world-6-1-t02",
+              "world-6-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t04",
+              "world-6-1-t05",
+              "world-6-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-1",
+            "questionIds": [
+              "world-6-1-t07",
+              "world-6-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t01",
+              "world-6-2-t02",
+              "world-6-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t04",
+              "world-6-2-t05",
+              "world-6-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-2",
+            "questionIds": [
+              "world-6-2-t07",
+              "world-6-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t01",
+              "world-6-3-t02",
+              "world-6-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t04",
+              "world-6-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-3",
+            "questionIds": [
+              "world-6-3-t06",
+              "world-6-3-t07",
+              "world-6-3-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t01",
+              "world-6-4-t02",
+              "world-6-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-4",
+            "questionIds": [
+              "world-6-4-t04",
+              "world-6-4-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t01",
+              "world-6-5-t02",
+              "world-6-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t04",
+              "world-6-5-t05",
+              "world-6-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-5",
+            "questionIds": [
+              "world-6-5-t07",
+              "world-6-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t01",
+              "world-6-6-t02",
+              "world-6-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-6",
+            "questionIds": [
+              "world-6-6-t04",
+              "world-6-6-t05",
+              "world-6-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t01",
+              "world-6-7-t02",
+              "world-6-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-6-7",
+            "questionIds": [
+              "world-6-7-t04",
+              "world-6-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-6-8",
+            "questionIds": [
+              "world-6-8-t01",
+              "world-6-8-t02",
+              "world-6-8-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-6-practice-test",
+      "title": "Unit 6 Practice Test",
+      "questionCount": 51
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-6-1-quiz",
+        "title": "Rationales for Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-2-quiz",
+        "title": "State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-3-quiz",
+        "title": "Indigenous Responses to State Expansion from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-4-quiz",
+        "title": "Global Economic Development from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-5-quiz",
+        "title": "Economic Imperialism from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-6-6-quiz",
+        "title": "Causes of Migration in an Interconnected World topic quiz"
+      },
+      {
+        "id": "world-6-7-quiz",
+        "title": "Effects of Migration topic quiz"
+      },
+      {
+        "id": "world-6-8-quiz",
+        "title": "Causation in the Imperial Age topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-6-1",
+      "courseId": "world",
+      "unitId": "world-6",
+      "order": 1,
+      "code": "6.1",
+      "title": "Rationales for Imperialism from 1750 to 1900",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How economic motives, nationalism, religious missions, and ideas such as Social Darwinism and the civilizing mission were used to justify empire."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-6-saq-01",
+        "title": "Unit 6 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-6-2",
+    "courseId": "world",
+    "unitId": "world-6",
+    "order": 2,
+    "code": "6.2",
+    "title": "State Expansion from 1750 to 1900",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How European states, Japan, the United States, and Russia expanded their empires through conquest, settler colonies, and stronger control of existing colonies."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "bfaaa7acd1e695df",
+  "questions": [
+    {
+      "id": "world-6-2-q01",
+      "topicId": "world-6-2",
+      "concept": "scramble-africa",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The Berlin Conference of 1884 to 1885",
+      "choices": [
+        "set rules among European powers for withdrawing from African territory",
+        "set rules among European powers for claiming African territory",
+        "ended European colonization of Africa",
+        "was led by African rulers who divided the continent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "European powers agreed on how to claim land; no Africans attended.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "It concerned claiming land.",
+        "European powers agreed on how to claim land; no Africans attended.",
+        "It accelerated colonization.",
+        "No African rulers attended."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The conference sped up claims rather than setting rules for leaving.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-2-q02",
+      "topicId": "world-6-2",
+      "concept": "scramble-africa",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following most directly made the rapid conquest of Africa possible?",
+      "choices": [
+        "The end of the Atlantic slave trade",
+        "Machine guns supplied by African kingdoms",
+        "Machine guns, steamships, and quinine",
+        "Alliances between Ethiopia and Liberia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Industrial weapons, transport, and protection from malaria gave Europeans the advantage.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "Ending the slave trade did not enable conquest.",
+        "Europeans, not Africans, had the machine guns.",
+        "Industrial weapons, transport, and protection from malaria gave Europeans the advantage.",
+        "Ethiopia and Liberia stayed independent but did not cause conquest."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Industrial weapons gave Europeans the advantage; African states mostly lacked them.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-2-q03",
+      "topicId": "world-6-2",
+      "concept": "existing-colonies",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "After 1858, India was governed by",
+      "choices": [
+        "the British Crown directly",
+        "the East India Company",
+        "the Mughal emperor",
+        "a council of Indian princes elected by the people"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The British government took direct control in 1858.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "The British government took direct control in 1858.",
+        "Company rule ended in 1858.",
+        "The last Mughal emperor was exiled.",
+        "India was under British rule."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The company ruled before 1858; the Crown took over after the rebellion.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-2-q04",
+      "topicId": "world-6-2",
+      "concept": "new-empires",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Japanese and US expansion around 1900 were similar in that both",
+      "choices": [
+        "took territory in Asia and the Pacific",
+        "were driven out of all their colonies by 1910",
+        "rejected the idea of empire",
+        "took territory in Africa and South America"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Japan took Taiwan and Korea; the US took Hawaii and the Philippines.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "Japan took Taiwan and Korea; the US took Hawaii and the Philippines.",
+        "Both kept their colonies.",
+        "Both built empires.",
+        "Their new territories were in Asia and the Pacific."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Both expanded in Asia and the Pacific, not Africa or South America.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-6-2-q05",
+      "topicId": "world-6-2",
+      "concept": "new-empires",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Siam remained independent mainly because it",
+      "choices": [
+        "was protected by a military alliance with Japan",
+        "was protected by the United States",
+        "served as a buffer between British and French colonies",
+        "defeated Britain in a major war in the 1880s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Its position between rival empires and its reforms helped it stay independent.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "Japan did not protect Siam.",
+        "The US did not protect Siam.",
+        "Its position between rival empires and its reforms helped it stay independent.",
+        "Siam did not defeat Britain."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Siam avoided war with Britain; it survived as a buffer.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-6-2-t01",
+      "topicId": "world-6-2",
+      "concept": "scramble-africa",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, European control of Africa changed between 1880 and 1914 from about",
+      "choices": [
+        "1 percent to 25 percent",
+        "10 percent to 90 percent",
+        "50 percent to 60 percent",
+        "90 percent to 10 percent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "European control grew from about 10 to about 90 percent.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "The passage gives 10 and 90 percent.",
+        "European control grew from about 10 to about 90 percent.",
+        "The passage gives 10 and 90 percent.",
+        "Control increased."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "This reverses the change; control grew.",
+      "stimulusId": "original-scramble-africa",
+      "stimulusBlocks": [
+        {
+          "id": "original-scramble-africa",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.2 key concept: European states and Japan established new empires, including in Africa",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the partition of Africa, 1880–1914",
+          "text": "In 1880 Europeans controlled only about 10 percent of Africa, mostly along the coasts. At the Berlin Conference of 1884 to 1885, European leaders set rules for claiming African territory. No African rulers were invited. A state could claim land if it could show “effective occupation.”\n\nBy 1914, European powers controlled about 90 percent of the continent. Only Ethiopia and Liberia remained independent. Machine guns, steamships, and the drug quinine, which protected Europeans from malaria, made the rapid conquest possible."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-2-t02",
+      "topicId": "world-6-2",
+      "concept": "scramble-africa",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "The absence of African rulers from the Berlin Conference best illustrates",
+      "choices": [
+        "that the conference had no effect",
+        "that African rulers secretly controlled the conference from outside",
+        "that Europeans treated Africa as land to divide among themselves",
+        "that African rulers supported partition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Excluding Africans shows that Europeans decided Africa's fate among themselves.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "It shaped partition.",
+        "They had no role.",
+        "Excluding Africans shows that Europeans decided Africa's fate among themselves.",
+        "They were not consulted."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Africans had no role in the conference's decisions.",
+      "stimulusId": "original-scramble-africa",
+      "stimulusBlocks": [
+        {
+          "id": "original-scramble-africa",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.2 key concept: European states and Japan established new empires, including in Africa",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the partition of Africa, 1880–1914",
+          "text": "In 1880 Europeans controlled only about 10 percent of Africa, mostly along the coasts. At the Berlin Conference of 1884 to 1885, European leaders set rules for claiming African territory. No African rulers were invited. A state could claim land if it could show “effective occupation.”\n\nBy 1914, European powers controlled about 90 percent of the continent. Only Ethiopia and Liberia remained independent. Machine guns, steamships, and the drug quinine, which protected Europeans from malaria, made the rapid conquest possible."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-6-2-t03",
+      "topicId": "world-6-2",
+      "concept": "scramble-africa",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, quinine helped European conquest by",
+      "choices": [
+        "protecting Europeans from malaria",
+        "powering steamships",
+        "improving machine guns",
+        "protecting African soldiers from malaria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quinine protected Europeans from malaria.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "Quinine protected Europeans from malaria.",
+        "Coal powered steamships.",
+        "Quinine is a drug.",
+        "The passage says it protected Europeans."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Quinine protected European troops and officials.",
+      "stimulusId": "original-scramble-africa",
+      "stimulusBlocks": [
+        {
+          "id": "original-scramble-africa",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.2 key concept: European states and Japan established new empires, including in Africa",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the partition of Africa, 1880–1914",
+          "text": "In 1880 Europeans controlled only about 10 percent of Africa, mostly along the coasts. At the Berlin Conference of 1884 to 1885, European leaders set rules for claiming African territory. No African rulers were invited. A state could claim land if it could show “effective occupation.”\n\nBy 1914, European powers controlled about 90 percent of the continent. Only Ethiopia and Liberia remained independent. Machine guns, steamships, and the drug quinine, which protected Europeans from malaria, made the rapid conquest possible."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-2-t04",
+      "topicId": "world-6-2",
+      "concept": "existing-colonies",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, the British government took direct control of India after",
+      "choices": [
+        "the rebellion of 1857",
+        "the Opium Wars",
+        "the Berlin Conference",
+        "the Battle of Adwa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Direct rule began in 1858 after the rebellion.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "Direct rule began in 1858 after the rebellion.",
+        "These were in China.",
+        "The conference concerned Africa.",
+        "Adwa was in Ethiopia."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Opium Wars concerned China.",
+      "stimulusId": "original-british-india",
+      "stimulusBlocks": [
+        {
+          "id": "original-british-india",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.2 key concept: states with existing colonies, such as Britain in India and the Netherlands in Indonesia, strengthened their control over those colonies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the change from company rule to Crown rule in India, 1757–1877",
+          "text": "From the 1750s, the British East India Company expanded its control over India, collecting taxes and keeping its own army of Indian soldiers called sepoys. After the rebellion of 1857, the British government took direct control. The British Crown ruled India from 1858, and in 1877 Queen Victoria was proclaimed Empress of India.\n\nBritish rule built railways and telegraph lines and introduced English-language education for a small elite. It also shaped India's economy to export raw materials such as cotton and import British manufactured goods."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-2-t05",
+      "topicId": "world-6-2",
+      "concept": "existing-colonies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Based on the passage, British rule shaped India's economy by",
+      "choices": [
+        "ending all trade between India and Britain",
+        "making India an importer of raw cotton from Britain",
+        "making India export raw materials and import British goods",
+        "building India into the world's leading industrial power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "India exported cotton and imported British manufactured goods.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "Trade grew.",
+        "India exported cotton.",
+        "India exported cotton and imported British manufactured goods.",
+        "India did not become an industrial leader."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "India exported raw cotton; it did not import it from Britain.",
+      "stimulusId": "original-british-india",
+      "stimulusBlocks": [
+        {
+          "id": "original-british-india",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.2 key concept: states with existing colonies, such as Britain in India and the Netherlands in Indonesia, strengthened their control over those colonies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the change from company rule to Crown rule in India, 1757–1877",
+          "text": "From the 1750s, the British East India Company expanded its control over India, collecting taxes and keeping its own army of Indian soldiers called sepoys. After the rebellion of 1857, the British government took direct control. The British Crown ruled India from 1858, and in 1877 Queen Victoria was proclaimed Empress of India.\n\nBritish rule built railways and telegraph lines and introduced English-language education for a small elite. It also shaped India's economy to export raw materials such as cotton and import British manufactured goods."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-2-t06",
+      "topicId": "world-6-2",
+      "concept": "existing-colonies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "British rule in India after 1858 was most similar to",
+      "choices": [
+        "the Chinese Exclusion Act",
+        "Dutch control of Indonesia",
+        "British investment in Argentina",
+        "Ethiopia's independence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both were direct colonial rule over Asian territories.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "This is a US immigration law.",
+        "Both were direct colonial rule over Asian territories.",
+        "Argentina was independent.",
+        "Ethiopia was independent."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Investment in Argentina did not involve ruling it.",
+      "stimulusId": "original-british-india",
+      "stimulusBlocks": [
+        {
+          "id": "original-british-india",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.2 key concept: states with existing colonies, such as Britain in India and the Netherlands in Indonesia, strengthened their control over those colonies",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the change from company rule to Crown rule in India, 1757–1877",
+          "text": "From the 1750s, the British East India Company expanded its control over India, collecting taxes and keeping its own army of Indian soldiers called sepoys. After the rebellion of 1857, the British government took direct control. The British Crown ruled India from 1858, and in 1877 Queen Victoria was proclaimed Empress of India.\n\nBritish rule built railways and telegraph lines and introduced English-language education for a small elite. It also shaped India's economy to export raw materials such as cotton and import British manufactured goods."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-6-2-t07",
+      "topicId": "world-6-2",
+      "concept": "new-empires",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, which of the following did the United States acquire from Spain in 1898?",
+      "choices": [
+        "Korea on the Asian mainland",
+        "the island of Taiwan",
+        "the city of Tashkent in Central Asia",
+        "the Philippines in Southeast Asia"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The US took the Philippines after the Spanish-American War.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "Korea was annexed by Japan.",
+        "Taiwan went to Japan.",
+        "Tashkent was taken by Russia.",
+        "The US took the Philippines after the Spanish-American War."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Taiwan went to Japan in 1895.",
+      "stimulusId": "original-new-empires",
+      "stimulusBlocks": [
+        {
+          "id": "original-new-empires",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.2 key concept: the United States, Russia, and Japan expanded their territories and established new empires",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing imperial expansion by Japan, the United States, and Russia, 1860–1910",
+          "text": "Industrial powers outside western Europe also built empires. After defeating China in 1895, Japan took Taiwan, and in 1910 it annexed Korea. The United States annexed Hawaii in 1898 and took the Philippines, Puerto Rico, and Guam from Spain after the Spanish-American War. Russia conquered much of Central Asia, taking Tashkent in 1865.\n\nThese powers used many of the same justifications as European empires, including the claim that they were spreading civilization."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-2-t08",
+      "topicId": "world-6-2",
+      "concept": "new-empires",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "The final sentence of the passage best supports which claim?",
+      "choices": [
+        "Only European states built empires",
+        "Non-European empires never used force",
+        "Non-European empires used justifications like European ones",
+        "Non-European empires rejected the idea of spreading civilization"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says they claimed to spread civilization too.",
+      "sourceIds": [
+        "ced-topic-6-2"
+      ],
+      "choiceExplanations": [
+        "Japan, the US, and Russia built empires.",
+        "They used force.",
+        "The passage says they claimed to spread civilization too.",
+        "They used the idea."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The passage says they used the same justifications.",
+      "stimulusId": "original-new-empires",
+      "stimulusBlocks": [
+        {
+          "id": "original-new-empires",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.2 key concept: the United States, Russia, and Japan expanded their territories and established new empires",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing imperial expansion by Japan, the United States, and Russia, 1860–1910",
+          "text": "Industrial powers outside western Europe also built empires. After defeating China in 1895, Japan took Taiwan, and in 1910 it annexed Korea. The United States annexed Hawaii in 1898 and took the Philippines, Puerto Rico, and Guam from Spain after the Spanish-American War. Russia conquered much of Central Asia, taking Tashkent in 1865.\n\nThese powers used many of the same justifications as European empires, including the claim that they were spreading civilization."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-6-2-quick",
+      "courseId": "world",
+      "unitId": "world-6",
+      "topicId": "world-6-2",
+      "title": "Topic 6.2 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-6-2-q01",
+        "world-6-2-q02",
+        "world-6-2-q03"
+      ]
+    },
+    {
+      "id": "world-6-2-quiz",
+      "courseId": "world",
+      "unitId": "world-6",
+      "topicId": "world-6-2",
+      "title": "State Expansion from 1750 to 1900 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-6-2-q01",
+        "world-6-2-q02",
+        "world-6-2-q03",
+        "world-6-2-q04",
+        "world-6-2-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "scramble-africa": {
+      "id": "scramble-africa",
+      "title": "The partition of Africa",
+      "section": "scramble-africa",
+      "topicId": "world-6-2"
+    },
+    "existing-colonies": {
+      "id": "existing-colonies",
+      "title": "Tightening control and settler colonies",
+      "section": "existing-colonies",
+      "topicId": "world-6-2"
+    },
+    "new-empires": {
+      "id": "new-empires",
+      "title": "Japan, the United States, and Russia",
+      "section": "new-empires",
+      "topicId": "world-6-2"
+    }
+  },
+  "assets": {}
+}

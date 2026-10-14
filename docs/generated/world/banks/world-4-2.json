@@ -1,0 +1,887 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-4",
+    "courseId": "world",
+    "number": 4,
+    "title": "Transoceanic Interconnections",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "description": "Study how new maritime technology, state-sponsored voyages, the Columbian Exchange, and coerced labor connected the world's oceans and reshaped societies.",
+    "quizzes": [
+      {
+        "id": "world-4-practice-test",
+        "courseId": "world",
+        "unitId": "world-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t01",
+              "world-4-1-t02",
+              "world-4-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-1",
+            "questionIds": [
+              "world-4-1-t04",
+              "world-4-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t01",
+              "world-4-2-t02",
+              "world-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t04",
+              "world-4-2-t05",
+              "world-4-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-2",
+            "questionIds": [
+              "world-4-2-t07",
+              "world-4-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t01",
+              "world-4-3-t02",
+              "world-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-3",
+            "questionIds": [
+              "world-4-3-t04",
+              "world-4-3-t05",
+              "world-4-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t01",
+              "world-4-4-t02",
+              "world-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t04",
+              "world-4-4-t05",
+              "world-4-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-4",
+            "questionIds": [
+              "world-4-4-t07",
+              "world-4-4-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t01",
+              "world-4-5-t02",
+              "world-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t04",
+              "world-4-5-t05",
+              "world-4-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t07",
+              "world-4-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-4-5",
+            "questionIds": [
+              "world-4-5-t09",
+              "world-4-5-t10"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t01",
+              "world-4-6-t02",
+              "world-4-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-6",
+            "questionIds": [
+              "world-4-6-t04",
+              "world-4-6-t05",
+              "world-4-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t01",
+              "world-4-7-t02",
+              "world-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-7",
+            "questionIds": [
+              "world-4-7-t04",
+              "world-4-7-t05",
+              "world-4-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t01",
+              "world-4-8-t02",
+              "world-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-4-8",
+            "questionIds": [
+              "world-4-8-t04",
+              "world-4-8-t05"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 54
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-4-1-quiz",
+        "title": "Technological Innovations from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-2-quiz",
+        "title": "Exploration: Causes and Events from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-3-quiz",
+        "title": "Columbian Exchange topic quiz"
+      },
+      {
+        "id": "world-4-4-quiz",
+        "title": "Maritime Empires Established topic quiz"
+      },
+      {
+        "id": "world-4-5-quiz",
+        "title": "Maritime Empires Maintained and Developed topic quiz"
+      },
+      {
+        "id": "world-4-6-quiz",
+        "title": "Internal and External Challenges to State Power from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-7-quiz",
+        "title": "Changing Social Hierarchies from 1450 to 1750 topic quiz"
+      },
+      {
+        "id": "world-4-8-quiz",
+        "title": "Continuity and Change from 1450 to 1750 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "world-4-1",
+      "courseId": "world",
+      "unitId": "world-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Technological Innovations from 1450 to 1750",
+      "period": "c. 1450–1750",
+      "status": "ready",
+      "summary": "How tools, ship designs, and knowledge of winds and currents, much of it borrowed, made transoceanic voyages possible."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-4-2",
+    "courseId": "world",
+    "unitId": "world-4",
+    "order": 2,
+    "code": "4.2",
+    "title": "Exploration: Causes and Events from 1450 to 1750",
+    "period": "c. 1450–1750",
+    "status": "ready",
+    "summary": "Why European states sponsored ocean voyages, and how Portuguese, Spanish, English, French, and Dutch exploration unfolded."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "99da12159cec56c4",
+  "questions": [
+    {
+      "id": "world-4-2-q01",
+      "topicId": "world-4-2",
+      "concept": "motives",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why Portugal sought a sea route to Asia?",
+      "choices": [
+        "To trade for spices because overland routes had been closed by the Mongols",
+        "To trade for spices without paying Venetian and Ottoman middlemen",
+        "To escape the spread of the plague in western Europe",
+        "To find new lands for Portuguese farmers to settle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A direct sea route let Portugal bypass the merchants who controlled the spice trade.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Mongol rule had ended long before; middlemen, not closed roads, were the issue.",
+        "A direct sea route let Portugal bypass the merchants who controlled the spice trade.",
+        "The plague does not explain the voyages.",
+        "Portugal sought trade, not farmland, in Asia."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Spices were the goal, but the Mongol Empire had long since broken up; the problem was the profit taken by middlemen.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-4-2-q02",
+      "topicId": "world-4-2",
+      "concept": "spanish-voyages",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The Treaty of Tordesillas in 1494",
+      "choices": [
+        "gave England control of North America",
+        "divided newly claimed lands among all European kingdoms",
+        "divided newly claimed lands between Spain and Portugal",
+        "ended a war between Spain and the Ottoman Empire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The treaty drew a line dividing claims between Spain and Portugal.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "England was not a party.",
+        "Only Spain and Portugal were included.",
+        "The treaty drew a line dividing claims between Spain and Portugal.",
+        "It did not concern the Ottomans."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The treaty divided lands, but only between Spain and Portugal; other kingdoms rejected it.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-2-q03",
+      "topicId": "world-4-2",
+      "concept": "northern-atlantic",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "English and French voyages to North America in the 1500s most directly led to",
+      "choices": [
+        "a fur trade and fisheries involving Indigenous peoples",
+        "the conquest of the Mexica Empire",
+        "a fur trade run entirely by European trappers, excluding Indigenous peoples",
+        "the discovery of a northwest passage to Asia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The voyages led to fishing and to trade in beaver pelts with Indigenous peoples.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "The voyages led to fishing and to trade in beaver pelts with Indigenous peoples.",
+        "Spain conquered the Mexica.",
+        "Indigenous peoples supplied the furs.",
+        "No northwest passage was found."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The fur trade depended on Indigenous hunters and traders.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-4-2-q04",
+      "topicId": "world-4-2",
+      "concept": "motives",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "According to mercantilism, a state grows wealthy mainly by",
+      "choices": [
+        "exporting more than it imports and gathering precious metals",
+        "removing all restrictions on trade",
+        "importing more goods than it exports",
+        "exporting more than it imports and avoiding the expense of overseas colonies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mercantilists stressed a favorable balance of trade and stores of gold and silver.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Mercantilists stressed a favorable balance of trade and stores of gold and silver.",
+        "Free trade was the later argument of critics such as Adam Smith.",
+        "Mercantilists wanted to import less, not more.",
+        "Mercantilists sought colonies."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Exporting more is right, but mercantilists saw colonies as essential sources of raw materials and markets.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-2-q05",
+      "topicId": "world-4-2",
+      "concept": "portuguese-voyages",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Which of the following was the first European to reach India by sailing around Africa?",
+      "choices": [
+        "Bartolomeu Dias",
+        "Ferdinand Magellan",
+        "Vasco da Gama",
+        "Christopher Columbus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Da Gama reached Calicut in 1498.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Dias rounded Africa's tip in 1488 but turned back.",
+        "Magellan's expedition sailed around the world, reaching Asia by the Pacific.",
+        "Da Gama reached Calicut in 1498.",
+        "Columbus sailed west and reached the Caribbean."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Dias rounded the southern tip of Africa in 1488 but did not continue to India.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-2-q06",
+      "topicId": "world-4-2",
+      "concept": "spanish-voyages",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The voyage of Magellan's expedition from 1519 to 1522 demonstrated that",
+      "choices": [
+        "the oceans were connected and Asia lay just west of Europe",
+        "the world's oceans were connected and the Americas lay between Europe and Asia",
+        "the world was round, which no educated European had believed",
+        "a northwest passage connected the Atlantic and Pacific"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sailing around the world showed how the oceans linked and where the Americas lay.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "The voyage revealed the vast Pacific between the Americas and Asia.",
+        "Sailing around the world showed how the oceans linked and where the Americas lay.",
+        "Educated Europeans already knew the earth was round.",
+        "Magellan sailed through a strait at South America's southern tip, not a northwest passage."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The oceans were connected, but the voyage showed a huge ocean and two continents between Europe and Asia.",
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-2-t01",
+      "topicId": "world-4-2",
+      "concept": "motives",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, which of the following was a motive for Portuguese voyages?",
+      "choices": [
+        "Reaching sources of gold without Muslim middlemen",
+        "Finding farmland for Portuguese settlers in Asia",
+        "Escaping religious persecution in Portugal",
+        "Reaching sources of silver in the Americas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Henry sought West African gold without going through North African middlemen.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Henry sought West African gold without going through North African middlemen.",
+        "The voyages sought trade, not farmland.",
+        "The passage does not mention persecution.",
+        "The passage concerns Africa and Asia."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Portuguese sought precious metal, but in Africa; the American silver trade belonged to Spain.",
+      "stimulusId": "original-portuguese-voyages",
+      "stimulusBlocks": [
+        {
+          "id": "original-portuguese-voyages",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.2 key concept: new state-supported transoceanic maritime exploration occurred in this period, led at first by Portugal",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Portuguese exploration, 1415–1500",
+          "text": "In the early 1400s, Prince Henry of Portugal sponsored voyages down the West African coast. His motives combined a search for gold, a desire to reach Africa's gold-producing regions without going through Muslim middlemen in North Africa, crusading zeal, and curiosity about the coast. The Portuguese crown claimed a share of the profits.\n\nBartolomeu Dias rounded the southern tip of Africa in 1488. Ten years later, Vasco da Gama reached Calicut in India, opening a sea route that bypassed the Venetian and Ottoman middlemen who had controlled the spice trade into Europe."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-2-t02",
+      "topicId": "world-4-2",
+      "concept": "portuguese-voyages",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Vasco da Gama's voyage of 1498 most directly affected the spice trade by",
+      "choices": [
+        "giving Portugal control of spice production in India",
+        "creating a land route through the Ottoman Empire",
+        "creating a sea route that bypassed Venetian and Ottoman middlemen",
+        "ending all of the spice trade that passed through the Mediterranean"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sea route let Portugal buy spices without going through Venice or the Ottomans.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Portugal traded for spices but did not control production in India.",
+        "Da Gama's route was by sea.",
+        "The sea route let Portugal buy spices without going through Venice or the Ottomans.",
+        "Mediterranean trade continued."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Mediterranean spice trade continued for decades; the sea route competed with it rather than ending it.",
+      "stimulusId": "original-portuguese-voyages",
+      "stimulusBlocks": [
+        {
+          "id": "original-portuguese-voyages",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.2 key concept: new state-supported transoceanic maritime exploration occurred in this period, led at first by Portugal",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Portuguese exploration, 1415–1500",
+          "text": "In the early 1400s, Prince Henry of Portugal sponsored voyages down the West African coast. His motives combined a search for gold, a desire to reach Africa's gold-producing regions without going through Muslim middlemen in North Africa, crusading zeal, and curiosity about the coast. The Portuguese crown claimed a share of the profits.\n\nBartolomeu Dias rounded the southern tip of Africa in 1488. Ten years later, Vasco da Gama reached Calicut in India, opening a sea route that bypassed the Venetian and Ottoman middlemen who had controlled the spice trade into Europe."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-4-2-t03",
+      "topicId": "world-4-2",
+      "concept": "motives",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Portuguese motives described in the passage were most similar to which of the following?",
+      "choices": [
+        "the Tokugawa decision to limit foreign trade",
+        "the Mughal policy of alliances with Rajputs",
+        "Spain's goal of avoiding all contact with Asia",
+        "Spain's goal of reaching Asian trade by sailing west"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both kingdoms sought direct access to Asian trade.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Tokugawa policy limited trade.",
+        "Mughal alliances concerned governing India.",
+        "Columbus sailed to reach Asia.",
+        "Both kingdoms sought direct access to Asian trade."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Spain wanted to reach Asia, which is why Columbus sailed west.",
+      "stimulusId": "original-portuguese-voyages",
+      "stimulusBlocks": [
+        {
+          "id": "original-portuguese-voyages",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.2 key concept: new state-supported transoceanic maritime exploration occurred in this period, led at first by Portugal",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Portuguese exploration, 1415–1500",
+          "text": "In the early 1400s, Prince Henry of Portugal sponsored voyages down the West African coast. His motives combined a search for gold, a desire to reach Africa's gold-producing regions without going through Muslim middlemen in North Africa, crusading zeal, and curiosity about the coast. The Portuguese crown claimed a share of the profits.\n\nBartolomeu Dias rounded the southern tip of Africa in 1488. Ten years later, Vasco da Gama reached Calicut in India, opening a sea route that bypassed the Venetian and Ottoman middlemen who had controlled the spice trade into Europe."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-4-2-t04",
+      "topicId": "world-4-2",
+      "concept": "spanish-voyages",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, the Treaty of Tordesillas later gave Portugal",
+      "choices": [
+        "its claim to Florida",
+        "its claim to Brazil",
+        "its claim to the Philippines",
+        "control of Mexico"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The line placed eastern South America on the Portuguese side, giving Portugal Brazil.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Florida was claimed by Spain.",
+        "The line placed eastern South America on the Portuguese side, giving Portugal Brazil.",
+        "Spain claimed the Philippines.",
+        "Spain conquered Mexico."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The Philippines were claimed by Spain after Magellan's expedition.",
+      "stimulusId": "original-spanish-voyages",
+      "stimulusBlocks": [
+        {
+          "id": "original-spanish-voyages",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.2 key concept: Spanish sponsorship of the first Columbian and subsequent voyages across the Atlantic and Pacific dramatically increased European interest in transoceanic travel and trade",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Spanish exploration, 1492–1522",
+          "text": "Christopher Columbus, a Genoese navigator, sailed for the Spanish monarchs Ferdinand and Isabella in 1492, hoping to reach Asia by sailing west. Instead he reached the Caribbean. In 1494 the Treaty of Tordesillas divided newly claimed lands outside Europe between Spain and Portugal along a line in the Atlantic, which later gave Portugal its claim to Brazil.\n\nFrom 1519 to 1522 an expedition led at first by Ferdinand Magellan sailed around the world. Magellan was killed in the Philippines, but one ship returned to Spain, proving that the Americas lay between Europe and Asia and that the oceans were connected."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-2-t05",
+      "topicId": "world-4-2",
+      "concept": "spanish-voyages",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "The return of Magellan's expedition to Spain in 1522 demonstrated that",
+      "choices": [
+        "Asia could be reached in a few weeks by sailing west",
+        "the oceans were connected by a route through Africa",
+        "the Atlantic and Pacific oceans were connected",
+        "a northwest passage existed through North America"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sailing around the world proved the oceans were linked.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "The voyage took three years and showed how vast the Pacific was.",
+        "The expedition entered the Pacific through a strait in South America.",
+        "Sailing around the world proved the oceans were linked.",
+        "No northwest passage was found."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The oceans were connected, but the expedition passed the southern tip of South America, not Africa, to reach the Pacific.",
+      "stimulusId": "original-spanish-voyages",
+      "stimulusBlocks": [
+        {
+          "id": "original-spanish-voyages",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.2 key concept: Spanish sponsorship of the first Columbian and subsequent voyages across the Atlantic and Pacific dramatically increased European interest in transoceanic travel and trade",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Spanish exploration, 1492–1522",
+          "text": "Christopher Columbus, a Genoese navigator, sailed for the Spanish monarchs Ferdinand and Isabella in 1492, hoping to reach Asia by sailing west. Instead he reached the Caribbean. In 1494 the Treaty of Tordesillas divided newly claimed lands outside Europe between Spain and Portugal along a line in the Atlantic, which later gave Portugal its claim to Brazil.\n\nFrom 1519 to 1522 an expedition led at first by Ferdinand Magellan sailed around the world. Magellan was killed in the Philippines, but one ship returned to Spain, proving that the Americas lay between Europe and Asia and that the oceans were connected."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-4-2-t06",
+      "topicId": "world-4-2",
+      "concept": "spanish-voyages",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Columbus's voyage of 1492 is best understood in the context of",
+      "choices": [
+        "competition among Atlantic kingdoms to reach Asian trade",
+        "the spread of the plague along Silk Road routes",
+        "Spanish efforts to escape Mughal power",
+        "competition among Atlantic kingdoms to settle Africa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Portugal's route around Africa pushed Spain to back a western route to Asia.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Portugal's route around Africa pushed Spain to back a western route to Asia.",
+        "The plague had peaked in the 1300s.",
+        "The Mughals arose in 1526 and did not threaten Spain.",
+        "Columbus aimed for Asia."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Competition is right, but Columbus sought Asia, not African settlement.",
+      "stimulusId": "original-spanish-voyages",
+      "stimulusBlocks": [
+        {
+          "id": "original-spanish-voyages",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.2 key concept: Spanish sponsorship of the first Columbian and subsequent voyages across the Atlantic and Pacific dramatically increased European interest in transoceanic travel and trade",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Spanish exploration, 1492–1522",
+          "text": "Christopher Columbus, a Genoese navigator, sailed for the Spanish monarchs Ferdinand and Isabella in 1492, hoping to reach Asia by sailing west. Instead he reached the Caribbean. In 1494 the Treaty of Tordesillas divided newly claimed lands outside Europe between Spain and Portugal along a line in the Atlantic, which later gave Portugal its claim to Brazil.\n\nFrom 1519 to 1522 an expedition led at first by Ferdinand Magellan sailed around the world. Magellan was killed in the Philippines, but one ship returned to Spain, proving that the Americas lay between Europe and Asia and that the oceans were connected."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-4-2-t07",
+      "topicId": "world-4-2",
+      "concept": "northern-atlantic",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, English and French voyages failed to",
+      "choices": [
+        "find a northwest passage to Asia",
+        "reach the coast of North America",
+        "establish any trade with Indigenous peoples",
+        "find fishing grounds in the Atlantic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Neither Cabot nor Cartier found a northwest passage.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "Neither Cabot nor Cartier found a northwest passage.",
+        "Cabot reached Newfoundland.",
+        "A fur trade developed with Indigenous peoples.",
+        "The voyages found rich fisheries."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The passage says they found rich fishing grounds.",
+      "stimulusId": "original-northern-atlantic",
+      "stimulusBlocks": [
+        {
+          "id": "original-northern-atlantic",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.2 key concept: northern Atlantic crossings were undertaken under English, French, and Dutch sponsorship, often with the goal of finding alternative sea routes to Asia",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing English, French, and Dutch voyages to North America, 1497–1610",
+          "text": "Sailing for England in 1497, John Cabot reached the coast of Newfoundland. French voyages under Jacques Cartier in the 1530s explored the St. Lawrence River. Both searched for a northwest passage to Asia, and neither found one.\n\nWhat they found instead were rich fishing grounds and a trade in furs with Indigenous peoples. By the early 1600s, French traders in New France and Dutch traders along the Hudson River were exchanging metal tools, cloth, and guns for beaver pelts, which were in high demand in Europe for hats."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-4-2-t08",
+      "topicId": "world-4-2",
+      "concept": "northern-atlantic",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The fur trade described in the passage was driven mainly by",
+      "choices": [
+        "Spanish laws requiring colonists to trap animals",
+        "European demand for beaver meat as food",
+        "European demand for beaver pelts used in hats",
+        "Indigenous demand for European silver"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Beaver pelts were in high demand in Europe for hats.",
+      "sourceIds": [
+        "ced-topic-4-2"
+      ],
+      "choiceExplanations": [
+        "The trade was French and Dutch, not Spanish.",
+        "The pelts, not the meat, drove the trade.",
+        "Beaver pelts were in high demand in Europe for hats.",
+        "Indigenous traders sought metal tools, cloth, and guns."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Beavers were hunted for their pelts, which made fashionable felt hats.",
+      "stimulusId": "original-northern-atlantic",
+      "stimulusBlocks": [
+        {
+          "id": "original-northern-atlantic",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 4.2 key concept: northern Atlantic crossings were undertaken under English, French, and Dutch sponsorship, often with the goal of finding alternative sea routes to Asia",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing English, French, and Dutch voyages to North America, 1497–1610",
+          "text": "Sailing for England in 1497, John Cabot reached the coast of Newfoundland. French voyages under Jacques Cartier in the 1530s explored the St. Lawrence River. Both searched for a northwest passage to Asia, and neither found one.\n\nWhat they found instead were rich fishing grounds and a trade in furs with Indigenous peoples. By the early 1600s, French traders in New France and Dutch traders along the Hudson River were exchanging metal tools, cloth, and guns for beaver pelts, which were in high demand in Europe for hats."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-4-2-quick",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-2",
+      "title": "Topic 4.2 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-4-2-q01",
+        "world-4-2-q02",
+        "world-4-2-q03"
+      ]
+    },
+    {
+      "id": "world-4-2-quiz",
+      "courseId": "world",
+      "unitId": "world-4",
+      "topicId": "world-4-2",
+      "title": "Exploration: Causes and Events from 1450 to 1750 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-4-2-q01",
+        "world-4-2-q02",
+        "world-4-2-q03",
+        "world-4-2-q04",
+        "world-4-2-q05",
+        "world-4-2-q06"
+      ]
+    }
+  ],
+  "concepts": {
+    "motives": {
+      "id": "motives",
+      "title": "Why states sponsored voyages",
+      "section": "motives",
+      "topicId": "world-4-2"
+    },
+    "portuguese-voyages": {
+      "id": "portuguese-voyages",
+      "title": "Portugal reaches Asia",
+      "section": "portuguese-voyages",
+      "topicId": "world-4-2"
+    },
+    "spanish-voyages": {
+      "id": "spanish-voyages",
+      "title": "Spain crosses the Atlantic",
+      "section": "spanish-voyages",
+      "topicId": "world-4-2"
+    },
+    "northern-atlantic": {
+      "id": "northern-atlantic",
+      "title": "English, French, and Dutch voyages",
+      "section": "northern-atlantic",
+      "topicId": "world-4-2"
+    }
+  },
+  "assets": {}
+}

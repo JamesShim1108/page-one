@@ -16,6 +16,10 @@ import { createWritingStore } from "../docs/app/writing/store.js";
 import { renderBlocks } from "../docs/app/blocks.js";
 import { prepareImage } from "../scripts/prepare-image.mjs";
 
+// Ready World History topics and quiz routes. Update when a unit is added.
+const READY_TOPICS = 71;
+const QUIZ_ROUTES = 155;
+
 const root = new URL("../", import.meta.url);
 const readGenerated = async (path) =>
   JSON.parse(await readFile(new URL(`docs/generated/${path}`, root), "utf8"));
@@ -34,11 +38,11 @@ test("the generated catalog preserves every ready Unit 1 topic and stable route"
   assert.equal(catalog.schemaVersion, 1);
   assert.equal(catalog.courses.length, 2);
   assert.equal(catalog.courses[0].id, "world");
-  assert.equal(catalog.courses[0].readyTopicCount, 14);
+  assert.equal(catalog.courses[0].readyTopicCount, READY_TOPICS);
 
   const routes = await readGenerated("world/routes.json");
-  assert.equal(Object.keys(routes.topic).length, 14);
-  assert.equal(Object.keys(routes.quiz).length, 32);
+  assert.equal(Object.keys(routes.topic).length, READY_TOPICS);
+  assert.equal(Object.keys(routes.quiz).length, QUIZ_ROUTES);
   assert.equal(routes.topic["world-1-2"], "world/topics/world-1-2.json");
   assert.equal(routes.writing["world-1-saq"], "world/writing/world-1-saq.json");
 
@@ -46,7 +50,7 @@ test("the generated catalog preserves every ready Unit 1 topic and stable route"
   assert.equal(unit.topics.length, 7);
   const unit2 = await readGenerated("world/units/world-2.json");
   assert.equal(unit2.topics.length, 7);
-  assert.equal(unit2.unit.quizzes.length, 3);
+  assert.equal(unit2.unit.quizzes.length, 4);
   assert.equal(
     unit.unit.quizzes[0].selections.flatMap((selection) => selection.questionIds).length,
     21,
@@ -87,7 +91,7 @@ test("unit practice loads only the seven selected topic banks", async () => {
   });
   const page = await store.page("quiz", "world-1-practice");
   assert.equal(page.quiz.questionIds.length, 21);
-  assert.equal(page.bank.questions.length, 79);
+  assert.equal(page.bank.questions.length, 134);
   assert.equal(requested.filter((path) => path.includes("/banks/")).length, 7);
   assert.equal(
     requested.some((path) => path.includes("/topics/")),
@@ -553,6 +557,12 @@ test("content compiles from folder discovery rather than a hardcoded topic list"
     new URL("../", import.meta.url).pathname.replace(/\/$/, ""),
   );
   assert.equal(output.has("catalog.json"), true);
-  assert.equal([...output.keys()].filter((path) => path.includes("/topics/")).length, 14);
-  assert.equal([...output.keys()].filter((path) => path.includes("/banks/")).length, 14);
+  assert.equal(
+    [...output.keys()].filter((path) => path.includes("/topics/")).length,
+    READY_TOPICS,
+  );
+  assert.equal(
+    [...output.keys()].filter((path) => path.includes("/banks/")).length,
+    READY_TOPICS,
+  );
 });

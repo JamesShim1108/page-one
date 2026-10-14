@@ -211,8 +211,169 @@
             ]
           }
         ]
+      },
+      {
+        "id": "world-2-practice-test",
+        "courseId": "world",
+        "unitId": "world-2",
+        "title": "Unit 2 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q06",
+              "world-2-1-q07",
+              "world-2-1-q08"
+            ]
+          },
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q11",
+              "world-2-1-q12",
+              "world-2-1-q13"
+            ]
+          },
+          {
+            "topicId": "world-2-1",
+            "questionIds": [
+              "world-2-1-q17",
+              "world-2-1-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q05",
+              "world-2-2-q06",
+              "world-2-2-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q10",
+              "world-2-2-q11",
+              "world-2-2-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-2",
+            "questionIds": [
+              "world-2-2-q19",
+              "world-2-2-q20"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q05",
+              "world-2-3-q06",
+              "world-2-3-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q10",
+              "world-2-3-q11",
+              "world-2-3-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-3",
+            "questionIds": [
+              "world-2-3-q17",
+              "world-2-3-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q05",
+              "world-2-4-q06",
+              "world-2-4-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q10",
+              "world-2-4-q11",
+              "world-2-4-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-4",
+            "questionIds": [
+              "world-2-4-q17",
+              "world-2-4-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q05",
+              "world-2-5-q06",
+              "world-2-5-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q10",
+              "world-2-5-q11",
+              "world-2-5-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-5",
+            "questionIds": [
+              "world-2-5-q17",
+              "world-2-5-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q05",
+              "world-2-6-q06",
+              "world-2-6-q07"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q10",
+              "world-2-6-q11",
+              "world-2-6-q12"
+            ]
+          },
+          {
+            "topicId": "world-2-6",
+            "questionIds": [
+              "world-2-6-q17",
+              "world-2-6-q18"
+            ]
+          },
+          {
+            "topicId": "world-2-7",
+            "questionIds": [
+              "world-2-7-q05",
+              "world-2-7-q06",
+              "world-2-7-q07"
+            ]
+          }
+        ]
       }
     ],
+    "practiceTest": {
+      "id": "world-2-practice-test",
+      "title": "Unit 2 Practice Test",
+      "questionCount": 51
+    },
     "termSets": [
       {
         "id": "world-period-1-a",
@@ -625,11 +786,14 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Find both halves of the passage's argument.",
+      "stimulusId": "original-network-comparison",
       "stimulusBlocks": [
         {
           "id": "original-network-comparison",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.7, KC-3.1: growth and comparison of the Silk Roads, Indian Ocean, and trans-Saharan networks",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, comparing three Afro-Eurasian trade networks, c. 1200–1450",
           "text": "The Silk Roads, the Indian Ocean, and the trans-Saharan routes are often taught as separate systems, but merchants and goods moved among them. Gold from West Africa crossed the Sahara to North African and Egyptian markets that also traded with the Indian Ocean. Chinese porcelain reached East African ports by sea, while Chinese silk moved west by both land and sea.\n\nWhat distinguished the networks was less what they connected than how. Desert crossings depended on camels, oases, and the knowledge of guides; maritime routes depended on the monsoon calendar and port cities where ships waited for the winds to change. These conditions shaped which goods traveled, which cities grew, and which rulers could profit."
         }
@@ -671,11 +835,14 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "Use the passage's explanation: conditions of travel.",
+      "stimulusId": "original-network-comparison",
       "stimulusBlocks": [
         {
           "id": "original-network-comparison",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.7, KC-3.1: growth and comparison of the Silk Roads, Indian Ocean, and trans-Saharan networks",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, comparing three Afro-Eurasian trade networks, c. 1200–1450",
           "text": "The Silk Roads, the Indian Ocean, and the trans-Saharan routes are often taught as separate systems, but merchants and goods moved among them. Gold from West Africa crossed the Sahara to North African and Egyptian markets that also traded with the Indian Ocean. Chinese porcelain reached East African ports by sea, while Chinese silk moved west by both land and sea.\n\nWhat distinguished the networks was less what they connected than how. Desert crossings depended on camels, oases, and the knowledge of guides; maritime routes depended on the monsoon calendar and port cities where ships waited for the winds to change. These conditions shaped which goods traveled, which cities grew, and which rulers could profit."
         }
@@ -717,11 +884,14 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "The first paragraph is about overlap.",
+      "stimulusId": "original-network-comparison",
       "stimulusBlocks": [
         {
           "id": "original-network-comparison",
           "type": "source",
           "sourceType": "original",
+          "source": "CED Topic 2.7, KC-3.1: growth and comparison of the Silk Roads, Indian Ocean, and trans-Saharan networks",
+          "amsco_review": "pending",
           "attribution": "Practice passage written for Page One, comparing three Afro-Eurasian trade networks, c. 1200–1450",
           "text": "The Silk Roads, the Indian Ocean, and the trans-Saharan routes are often taught as separate systems, but merchants and goods moved among them. Gold from West Africa crossed the Sahara to North African and Egyptian markets that also traded with the Indian Ocean. Chinese porcelain reached East African ports by sea, while Chinese silk moved west by both land and sea.\n\nWhat distinguished the networks was less what they connected than how. Desert crossings depended on camels, oases, and the knowledge of guides; maritime routes depended on the monsoon calendar and port cities where ships waited for the winds to change. These conditions shaped which goods traveled, which cities grew, and which rulers could profit."
         }
@@ -844,11 +1014,14 @@
       ],
       "nearMissIndex": 0,
       "distinguisher": "Find what both passages show, not what only one shows.",
+      "stimulusId": "polo-melibar",
       "stimulusBlocks": [
         {
           "id": "polo-melibar",
           "type": "source",
           "sourceType": "primary",
+          "source": "polo-yule-1903",
+          "amsco_review": "pending",
           "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
           "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
           "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
@@ -858,6 +1031,8 @@
           "id": "battuta-taghaza",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
           "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
@@ -921,11 +1096,14 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Compare the same feature, here the risks each network faced.",
+      "stimulusId": "polo-melibar",
       "stimulusBlocks": [
         {
           "id": "polo-melibar",
           "type": "source",
           "sourceType": "primary",
+          "source": "polo-yule-1903",
+          "amsco_review": "pending",
           "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
           "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
           "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
@@ -935,6 +1113,8 @@
           "id": "battuta-taghaza",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
           "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
@@ -998,11 +1178,14 @@
       ],
       "nearMissIndex": 2,
       "distinguisher": "Independent sources from different settings strengthen comparison.",
+      "stimulusId": "polo-melibar",
       "stimulusBlocks": [
         {
           "id": "polo-melibar",
           "type": "source",
           "sourceType": "primary",
+          "source": "polo-yule-1903",
+          "amsco_review": "pending",
           "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Malabar coast of southwestern India",
           "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book III, ch. 25. Project Gutenberg eBook #12410.",
           "note": "Melibar is Malabar; Gozurat is Gujarat; Manzi is southern China.",
@@ -1012,6 +1195,8 @@
           "id": "battuta-taghaza",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his journey south across the Sahara toward Mali, 1352",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 339.",
           "note": "Bracketed words replace the translator's dated terms for West Africa and West Africans. Sijilmasa was a Moroccan caravan city; the Massufa were a Berber group.",
@@ -1297,11 +1482,14 @@
       ],
       "nearMissIndex": 1,
       "distinguisher": "Check each half against its own passage.",
+      "stimulusId": "polo-zayton",
       "stimulusBlocks": [
         {
           "id": "polo-zayton",
           "type": "source",
           "sourceType": "primary",
+          "source": "polo-yule-1903",
+          "amsco_review": "pending",
           "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
           "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
           "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
@@ -1311,6 +1499,8 @@
           "id": "battuta-mali",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
           "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",
@@ -1370,11 +1560,14 @@
       ],
       "nearMissIndex": 3,
       "distinguisher": "Use each source for what it shows.",
+      "stimulusId": "polo-zayton",
       "stimulusBlocks": [
         {
           "id": "polo-zayton",
           "type": "source",
           "sourceType": "primary",
+          "source": "polo-yule-1903",
+          "amsco_review": "pending",
           "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the port of Quanzhou in southern China",
           "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 2, Book II, ch. 82. Project Gutenberg eBook #12410.",
           "note": "Zayton is Quanzhou. “The Great Kaan” is Kublai Khan. Christendom means Christian Europe.",
@@ -1384,6 +1577,8 @@
           "id": "battuta-mali",
           "type": "source",
           "sourceType": "primary",
+          "source": "battuta-gibb-1929",
+          "amsco_review": "pending",
           "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
           "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 14. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan pp. 351–352.",
           "note": "Bracketed words replace the translator's dated term for West Africans. “White men” refers to North African and Arab visitors and merchants.",

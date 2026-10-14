@@ -163,6 +163,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Notice the political relationship in the last sentence.",
+      stimulusId: "battuta-hinawr",
       stimulusBlocks: [excerpts.battutaHinawr],
     },
     {
@@ -203,6 +204,7 @@ export const bank = {
       nearMissIndex: 1,
       distinguisher:
         "Check dates and geography: trade came long before these other events.",
+      stimulusId: "battuta-hinawr",
       stimulusBlocks: [excerpts.battutaHinawr],
     },
     {
@@ -241,6 +243,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "His comparison comes from his wide travel within the Muslim world.",
+      stimulusId: "battuta-hinawr",
       stimulusBlocks: [excerpts.battutaHinawr],
     },
     {
@@ -344,6 +347,7 @@ export const bank = {
       ],
       nearMissIndex: 0,
       distinguisher: "The passage names Muslim institutions in the city.",
+      stimulusId: "battuta-zaytun",
       stimulusBlocks: [excerpts.battutaZaytun],
     },
     {
@@ -382,6 +386,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Look for the long-term pattern behind the scene.",
+      stimulusId: "battuta-zaytun",
       stimulusBlocks: [excerpts.battutaZaytun],
     },
     {
@@ -394,7 +399,7 @@ export const bank = {
       choices: [
         "He highlights the welcome and support Muslims gave a fellow Muslim abroad",
         "He wants to prove that he never borrowed money during his travels",
-        "He highlights the welcome Muslims gave him to criticize Chinese officials",
+        "He stresses the welcome Muslims gave him to criticize Chinese officials",
         "He wants to show that Chinese merchants controlled trade with India",
       ],
       correctAnswer: 0,
@@ -419,6 +424,7 @@ export const bank = {
       ],
       nearMissIndex: 2,
       distinguisher: "What does the passage go out of its way to show?",
+      stimulusId: "battuta-zaytun",
       stimulusBlocks: [excerpts.battutaZaytun],
     },
     {
@@ -584,6 +590,7 @@ export const bank = {
       ],
       nearMissIndex: 3,
       distinguisher: "Translation versus transfer.",
+      stimulusId: "original-cultural-diffusion",
       stimulusBlocks: [excerpts.originalCulturalDiffusion],
     },
     {
@@ -617,6 +624,7 @@ export const bank = {
       ],
       nearMissIndex: 1,
       distinguisher: "The best evidence shows adaptation.",
+      stimulusId: "original-cultural-diffusion",
       stimulusBlocks: [excerpts.originalCulturalDiffusion],
     },
     {

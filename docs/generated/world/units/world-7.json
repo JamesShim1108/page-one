@@ -17,15 +17,341 @@
     "number": 7,
     "title": "Global Conflict",
     "period": "c. 1900–present",
-    "status": "soon",
-    "description": "",
-    "quizzes": [],
+    "status": "ready",
+    "description": "Study how empires collapsed, why two world wars were fought and how they were conducted, how the Depression reshaped economies, and how mass atrocities happened.",
+    "quizzes": [
+      {
+        "id": "world-7-practice-test",
+        "courseId": "world",
+        "unitId": "world-7",
+        "title": "Unit 7 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t01",
+              "world-7-1-t02",
+              "world-7-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t04",
+              "world-7-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t06",
+              "world-7-1-t07",
+              "world-7-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t01",
+              "world-7-2-t02",
+              "world-7-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t04",
+              "world-7-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t01",
+              "world-7-3-t02",
+              "world-7-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t04",
+              "world-7-3-t05",
+              "world-7-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t01",
+              "world-7-4-t02",
+              "world-7-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t04",
+              "world-7-4-t05",
+              "world-7-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t01",
+              "world-7-5-t02",
+              "world-7-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t04",
+              "world-7-5-t05",
+              "world-7-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t07",
+              "world-7-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t01",
+              "world-7-6-t02",
+              "world-7-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t04",
+              "world-7-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t06",
+              "world-7-6-t07",
+              "world-7-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t01",
+              "world-7-7-t02",
+              "world-7-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t04",
+              "world-7-7-t05",
+              "world-7-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t01",
+              "world-7-8-t02",
+              "world-7-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t04",
+              "world-7-8-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-9",
+            "questionIds": [
+              "world-7-9-t01",
+              "world-7-9-t02",
+              "world-7-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-7-practice-test",
+      "title": "Unit 7 Practice Test",
+      "questionCount": 55
+    },
     "termSets": [],
-    "topicQuizzes": [],
-    "topicCount": 0,
-    "firstTopic": null,
+    "topicQuizzes": [
+      {
+        "id": "world-7-1-quiz",
+        "title": "Shifting Power After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-2-quiz",
+        "title": "Causes of World War I topic quiz"
+      },
+      {
+        "id": "world-7-3-quiz",
+        "title": "Conducting World War I topic quiz"
+      },
+      {
+        "id": "world-7-4-quiz",
+        "title": "Economy in the Interwar Period topic quiz"
+      },
+      {
+        "id": "world-7-5-quiz",
+        "title": "Unresolved Tensions After World War I topic quiz"
+      },
+      {
+        "id": "world-7-6-quiz",
+        "title": "Causes of World War II topic quiz"
+      },
+      {
+        "id": "world-7-7-quiz",
+        "title": "Conducting World War II topic quiz"
+      },
+      {
+        "id": "world-7-8-quiz",
+        "title": "Mass Atrocities After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-9-quiz",
+        "title": "Causation in Global Conflict topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "world-7-saq-01",
+        "title": "Unit 7 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
+    {
+      "id": "world-7-2",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 2,
+      "code": "7.2",
+      "title": "Causes of World War I",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How alliances, militarism, imperial rivalry, and nationalism turned an assassination into a world war."
+    },
+    {
+      "id": "world-7-3",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 3,
+      "code": "7.3",
+      "title": "Conducting World War I",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How governments waged total war, how new weapons created stalemate, and how colonial peoples were drawn into the fighting."
+    },
+    {
+      "id": "world-7-4",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 4,
+      "code": "7.4",
+      "title": "Economy in the Interwar Period",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Great Depression spread around the world and how governments responded with new economic policies."
+    },
+    {
+      "id": "world-7-5",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 5,
+      "code": "7.5",
+      "title": "Unresolved Tensions After World War I",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the peace settlement, the mandate system, and anticolonial movements left tensions that shaped the following decades."
+    },
+    {
+      "id": "world-7-6",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 6,
+      "code": "7.6",
+      "title": "Causes of World War II",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How fascism, the failure of the peace settlement, appeasement, and Japanese expansion led to a second world war."
+    },
+    {
+      "id": "world-7-7",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 7,
+      "code": "7.7",
+      "title": "Conducting World War II",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How governments mobilized for total war, how new technology increased civilian deaths, and how the atomic bomb ended the war."
+    },
+    {
+      "id": "world-7-8",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 8,
+      "code": "7.8",
+      "title": "Mass Atrocities After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How governments and armed groups carried out genocide and mass killing in the twentieth century, including the Holocaust."
+    },
+    {
+      "id": "world-7-9",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 9,
+      "code": "7.9",
+      "title": "Causation in Global Conflict",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the world wars, the Depression, and the interwar crises were connected."
+    }
+  ]
 }

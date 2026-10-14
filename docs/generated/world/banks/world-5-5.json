@@ -1,0 +1,652 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-5",
+    "courseId": "world",
+    "number": 5,
+    "title": "Revolutions",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "description": "Study how Enlightenment ideas fueled political revolutions and nationalism, and how industrialization transformed economies, governments, and societies.",
+    "quizzes": [
+      {
+        "id": "world-5-practice-test",
+        "courseId": "world",
+        "unitId": "world-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t01",
+              "world-5-1-t02",
+              "world-5-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t04",
+              "world-5-1-t05",
+              "world-5-1-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-1",
+            "questionIds": [
+              "world-5-1-t07",
+              "world-5-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t01",
+              "world-5-2-t02",
+              "world-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t04",
+              "world-5-2-t05",
+              "world-5-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t07",
+              "world-5-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-2",
+            "questionIds": [
+              "world-5-2-t09",
+              "world-5-2-t10"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t01",
+              "world-5-3-t02",
+              "world-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-3",
+            "questionIds": [
+              "world-5-3-t04",
+              "world-5-3-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-4",
+            "questionIds": [
+              "world-5-4-t01",
+              "world-5-4-t02",
+              "world-5-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-5",
+            "questionIds": [
+              "world-5-5-t01",
+              "world-5-5-t02",
+              "world-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t01",
+              "world-5-6-t02",
+              "world-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-6",
+            "questionIds": [
+              "world-5-6-t04",
+              "world-5-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t01",
+              "world-5-7-t02",
+              "world-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-7",
+            "questionIds": [
+              "world-5-7-t04",
+              "world-5-7-t05",
+              "world-5-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t01",
+              "world-5-8-t02",
+              "world-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t04",
+              "world-5-8-t05",
+              "world-5-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-5-8",
+            "questionIds": [
+              "world-5-8-t07",
+              "world-5-8-t08"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t01",
+              "world-5-9-t02",
+              "world-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "world-5-9",
+            "questionIds": [
+              "world-5-9-t04",
+              "world-5-9-t05"
+            ]
+          },
+          {
+            "topicId": "world-5-10",
+            "questionIds": [
+              "world-5-10-t01",
+              "world-5-10-t02"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-5-1-quiz",
+        "title": "The Enlightenment topic quiz"
+      },
+      {
+        "id": "world-5-2-quiz",
+        "title": "Nationalism and Revolutions in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-3-quiz",
+        "title": "Industrial Revolution Begins topic quiz"
+      },
+      {
+        "id": "world-5-4-quiz",
+        "title": "Industrialization Spreads in the Period from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-5-quiz",
+        "title": "Technology of the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-6-quiz",
+        "title": "Industrialization: Government's Role from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-7-quiz",
+        "title": "Economic Developments and Innovations in the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-8-quiz",
+        "title": "Reactions to the Industrial Economy from 1750 to 1900 topic quiz"
+      },
+      {
+        "id": "world-5-9-quiz",
+        "title": "Society and the Industrial Age topic quiz"
+      },
+      {
+        "id": "world-5-10-quiz",
+        "title": "Continuity and Change in the Industrial Age topic quiz"
+      }
+    ],
+    "topicCount": 10,
+    "firstTopic": {
+      "id": "world-5-1",
+      "courseId": "world",
+      "unitId": "world-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "The Enlightenment",
+      "period": "c. 1750–1900",
+      "status": "ready",
+      "summary": "How Enlightenment thinkers applied reason to government and society, and how their ideas inspired reform movements."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-5-5",
+    "courseId": "world",
+    "unitId": "world-5",
+    "order": 5,
+    "code": "5.5",
+    "title": "Technology of the Industrial Age",
+    "period": "c. 1750–1900",
+    "status": "ready",
+    "summary": "How steam engines, railroads, steamships, the telegraph, and later steel and electricity transformed production, transport, and communication."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "4d388e281bf7d548",
+  "questions": [
+    {
+      "id": "world-5-5-q01",
+      "topicId": "world-5-5",
+      "concept": "steam-transport",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Railroads and steamships most directly affected trade by",
+      "choices": [
+        "raising transport costs for most bulky goods such as coal and grain",
+        "lowering transport costs and linking distant markets",
+        "ending the use of coal in industry",
+        "making sailing ships faster than steamships"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cheaper, faster transport tied regions into larger markets.",
+      "sourceIds": [
+        "ced-topic-5-5"
+      ],
+      "choiceExplanations": [
+        "They lowered costs.",
+        "Cheaper, faster transport tied regions into larger markets.",
+        "Both used coal.",
+        "Steamships replaced sail on many routes."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Railroads and steamships lowered costs for bulky goods rather than raising them.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-5-q02",
+      "topicId": "world-5-5",
+      "concept": "steam-transport",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "The telegraph changed communication by",
+      "choices": [
+        "carrying mail by steam locomotive",
+        "printing newspapers faster",
+        "sending messages by steamship across oceans faster than any sailing ship",
+        "sending messages by electric signal almost instantly"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Electric signals let messages travel almost instantly.",
+      "sourceIds": [
+        "ced-topic-5-5"
+      ],
+      "choiceExplanations": [
+        "That describes railway mail.",
+        "Printing is a different technology.",
+        "The telegraph used wires and cables, not ships.",
+        "Electric signals let messages travel almost instantly."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Ships carried mail, but the telegraph used electric signals over wires and cables.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-5-q03",
+      "topicId": "world-5-5",
+      "concept": "second-industrial",
+      "difficulty": "Core",
+      "skill": "developments",
+      "prompt": "Which of the following was part of the second wave of industrialization after 1850?",
+      "choices": [
+        "The water frame",
+        "The caravel",
+        "Cheap steel and electricity",
+        "The spinning jenny"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Steel, electricity, and chemicals marked the second wave.",
+      "sourceIds": [
+        "ced-topic-5-5"
+      ],
+      "choiceExplanations": [
+        "The water frame dates to 1769.",
+        "The caravel was a 1400s ship.",
+        "Steel, electricity, and chemicals marked the second wave.",
+        "The jenny dates to the 1760s."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The spinning jenny belonged to the first, textile-based phase in the 1760s.",
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-5-q04",
+      "topicId": "world-5-5",
+      "concept": "steam-transport",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which of the following best describes a difference between steamships and earlier sailing ships?",
+      "choices": [
+        "Steamships did not depend on the wind",
+        "Steamships could not cross oceans",
+        "Steamships used lateen sails",
+        "Steamships depended more on monsoon winds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Steam power freed ships from the wind.",
+      "sourceIds": [
+        "ced-topic-5-5"
+      ],
+      "choiceExplanations": [
+        "Steam power freed ships from the wind.",
+        "Steamships crossed oceans.",
+        "Lateen sails belong to sailing ships.",
+        "Steamships depended less on the wind."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Steamships were less, not more, dependent on winds such as the monsoons.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-5-q05",
+      "topicId": "world-5-5",
+      "concept": "second-industrial",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Germany and the United States led many new industries after 1850 mainly because they",
+      "choices": [
+        "had the oldest textile mills and the most experienced workers",
+        "refused to build railroads and relied on canals instead",
+        "invested only in hand production in small workshops",
+        "invested in research, engineers, and new technologies"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Research labs and engineering education helped them lead in steel, chemicals, and electricity.",
+      "sourceIds": [
+        "ced-topic-5-5"
+      ],
+      "choiceExplanations": [
+        "Britain had the oldest mills.",
+        "Both built huge rail networks.",
+        "They invested in machines.",
+        "Research labs and engineering education helped them lead in steel, chemicals, and electricity."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Britain had the oldest mills; Germany and the US led in newer science-based industries.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-5-t01",
+      "topicId": "world-5-5",
+      "concept": "steam-transport",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Based on the passage, steamships differed from sailing ships because they",
+      "choices": [
+        "no longer depended on the wind",
+        "were slower on ocean voyages",
+        "used telegraph signals to navigate",
+        "depended more on ocean currents"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage says steamships no longer depended on the wind.",
+      "sourceIds": [
+        "ced-topic-5-5"
+      ],
+      "choiceExplanations": [
+        "The passage says steamships no longer depended on the wind.",
+        "Steamships cut voyage times.",
+        "The telegraph was separate.",
+        "They depended less on winds and currents."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Steamships were less dependent on wind and currents.",
+      "stimulusId": "original-steam-technology",
+      "stimulusBlocks": [
+        {
+          "id": "original-steam-technology",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.5 key concept: the development of the steam engine, railroads, steamships, and the telegraph, and later electricity and steel, transformed production, transportation, and communication",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing new technologies of the industrial age, 1770–1900",
+          "text": "James Watt's improvements to the steam engine, patented in 1769, made it far more efficient. Steam soon powered factories, then locomotives and ships. The Liverpool and Manchester Railway opened in 1830, and by 1900 railroads crossed every inhabited continent. Steamships cut the time of ocean voyages and no longer depended on the wind.\n\nThe telegraph carried messages by electric signal; a cable across the Atlantic worked from 1866. In the late 1800s, a second wave of innovation brought cheap steel, electricity, chemicals, and the internal combustion engine."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-5-t02",
+      "topicId": "world-5-5",
+      "concept": "second-industrial",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Which of the following does the passage describe as part of the second wave of industrialization?",
+      "choices": [
+        "Cheap steel and electricity",
+        "Watt's steam engine",
+        "The Liverpool and Manchester Railway",
+        "The water frame"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The late 1800s brought cheap steel, electricity, and chemicals.",
+      "sourceIds": [
+        "ced-topic-5-5"
+      ],
+      "choiceExplanations": [
+        "The late 1800s brought cheap steel, electricity, and chemicals.",
+        "Watt's engine came first.",
+        "The railway opened in 1830.",
+        "The water frame came in 1769."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Watt's engine belongs to the first phase of industrialization.",
+      "stimulusId": "original-steam-technology",
+      "stimulusBlocks": [
+        {
+          "id": "original-steam-technology",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.5 key concept: the development of the steam engine, railroads, steamships, and the telegraph, and later electricity and steel, transformed production, transportation, and communication",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing new technologies of the industrial age, 1770–1900",
+          "text": "James Watt's improvements to the steam engine, patented in 1769, made it far more efficient. Steam soon powered factories, then locomotives and ships. The Liverpool and Manchester Railway opened in 1830, and by 1900 railroads crossed every inhabited continent. Steamships cut the time of ocean voyages and no longer depended on the wind.\n\nThe telegraph carried messages by electric signal; a cable across the Atlantic worked from 1866. In the late 1800s, a second wave of innovation brought cheap steel, electricity, chemicals, and the internal combustion engine."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-5-5-t03",
+      "topicId": "world-5-5",
+      "concept": "steam-transport",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The telegraph and transatlantic cable most directly affected global trade by",
+      "choices": [
+        "ending the need for railroads",
+        "allowing merchants to ship goods across oceans by electric signal",
+        "allowing merchants to send information almost instantly",
+        "replacing ships for carrying goods"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fast information let merchants and governments coordinate across distances.",
+      "sourceIds": [
+        "ced-topic-5-5"
+      ],
+      "choiceExplanations": [
+        "Railroads expanded.",
+        "Goods could not be sent by signal.",
+        "Fast information let merchants and governments coordinate across distances.",
+        "Ships still carried goods."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The telegraph moved information, not goods.",
+      "stimulusId": "original-steam-technology",
+      "stimulusBlocks": [
+        {
+          "id": "original-steam-technology",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.5 key concept: the development of the steam engine, railroads, steamships, and the telegraph, and later electricity and steel, transformed production, transportation, and communication",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing new technologies of the industrial age, 1770–1900",
+          "text": "James Watt's improvements to the steam engine, patented in 1769, made it far more efficient. Steam soon powered factories, then locomotives and ships. The Liverpool and Manchester Railway opened in 1830, and by 1900 railroads crossed every inhabited continent. Steamships cut the time of ocean voyages and no longer depended on the wind.\n\nThe telegraph carried messages by electric signal; a cable across the Atlantic worked from 1866. In the late 1800s, a second wave of innovation brought cheap steel, electricity, chemicals, and the internal combustion engine."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-5-5-quick",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-5",
+      "title": "Topic 5.5 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-5-5-q01",
+        "world-5-5-q02",
+        "world-5-5-q03"
+      ]
+    },
+    {
+      "id": "world-5-5-quiz",
+      "courseId": "world",
+      "unitId": "world-5",
+      "topicId": "world-5-5",
+      "title": "Technology of the Industrial Age topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-5-5-q01",
+        "world-5-5-q02",
+        "world-5-5-q03",
+        "world-5-5-q04",
+        "world-5-5-q05"
+      ]
+    }
+  ],
+  "concepts": {
+    "steam-transport": {
+      "id": "steam-transport",
+      "title": "Steam and transport",
+      "section": "steam-transport",
+      "topicId": "world-5-5"
+    },
+    "second-industrial": {
+      "id": "second-industrial",
+      "title": "A second wave",
+      "section": "second-industrial",
+      "topicId": "world-5-5"
+    }
+  },
+  "assets": {}
+}

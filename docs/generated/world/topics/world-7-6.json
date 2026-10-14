@@ -1,0 +1,482 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-7",
+    "courseId": "world",
+    "number": 7,
+    "title": "Global Conflict",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how empires collapsed, why two world wars were fought and how they were conducted, how the Depression reshaped economies, and how mass atrocities happened.",
+    "quizzes": [
+      {
+        "id": "world-7-practice-test",
+        "courseId": "world",
+        "unitId": "world-7",
+        "title": "Unit 7 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t01",
+              "world-7-1-t02",
+              "world-7-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t04",
+              "world-7-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-1",
+            "questionIds": [
+              "world-7-1-t06",
+              "world-7-1-t07",
+              "world-7-1-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t01",
+              "world-7-2-t02",
+              "world-7-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-2",
+            "questionIds": [
+              "world-7-2-t04",
+              "world-7-2-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t01",
+              "world-7-3-t02",
+              "world-7-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-3",
+            "questionIds": [
+              "world-7-3-t04",
+              "world-7-3-t05",
+              "world-7-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t01",
+              "world-7-4-t02",
+              "world-7-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-4",
+            "questionIds": [
+              "world-7-4-t04",
+              "world-7-4-t05",
+              "world-7-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t01",
+              "world-7-5-t02",
+              "world-7-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t04",
+              "world-7-5-t05",
+              "world-7-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-5",
+            "questionIds": [
+              "world-7-5-t07",
+              "world-7-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t01",
+              "world-7-6-t02",
+              "world-7-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t04",
+              "world-7-6-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-6",
+            "questionIds": [
+              "world-7-6-t06",
+              "world-7-6-t07",
+              "world-7-6-t08"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t01",
+              "world-7-7-t02",
+              "world-7-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-7",
+            "questionIds": [
+              "world-7-7-t04",
+              "world-7-7-t05",
+              "world-7-7-t06"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t01",
+              "world-7-8-t02",
+              "world-7-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-7-8",
+            "questionIds": [
+              "world-7-8-t04",
+              "world-7-8-t05"
+            ]
+          },
+          {
+            "topicId": "world-7-9",
+            "questionIds": [
+              "world-7-9-t01",
+              "world-7-9-t02",
+              "world-7-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-7-practice-test",
+      "title": "Unit 7 Practice Test",
+      "questionCount": 55
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-7-1-quiz",
+        "title": "Shifting Power After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-2-quiz",
+        "title": "Causes of World War I topic quiz"
+      },
+      {
+        "id": "world-7-3-quiz",
+        "title": "Conducting World War I topic quiz"
+      },
+      {
+        "id": "world-7-4-quiz",
+        "title": "Economy in the Interwar Period topic quiz"
+      },
+      {
+        "id": "world-7-5-quiz",
+        "title": "Unresolved Tensions After World War I topic quiz"
+      },
+      {
+        "id": "world-7-6-quiz",
+        "title": "Causes of World War II topic quiz"
+      },
+      {
+        "id": "world-7-7-quiz",
+        "title": "Conducting World War II topic quiz"
+      },
+      {
+        "id": "world-7-8-quiz",
+        "title": "Mass Atrocities After 1900 topic quiz"
+      },
+      {
+        "id": "world-7-9-quiz",
+        "title": "Causation in Global Conflict topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-7-1",
+      "courseId": "world",
+      "unitId": "world-7",
+      "order": 1,
+      "code": "7.1",
+      "title": "Shifting Power After 1900",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How the Qing, Ottoman, and Russian empires collapsed and how revolutions in China, Russia, and Mexico challenged the old order."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-7-saq-01",
+        "title": "Unit 7 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-7-6",
+    "courseId": "world",
+    "unitId": "world-7",
+    "order": 6,
+    "code": "7.6",
+    "title": "Causes of World War II",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How fascism, the failure of the peace settlement, appeasement, and Japanese expansion led to a second world war."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "eb7e4fd11efaa560",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "world-7-6",
+    "unitId": "world-7",
+    "courseId": "world",
+    "code": "7.6",
+    "title": "Causes of World War II",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "order": 6,
+    "summary": "How fascism, the failure of the peace settlement, appeasement, and Japanese expansion led to a second world war.",
+    "minutes": 9,
+    "learningGoals": [
+      "Explain the causes and consequences of World War II."
+    ],
+    "bigIdea": "Fascist expansion, Japanese imperialism, and the failure of other powers to stop them led to World War II.",
+    "context": "The Depression and the unpopular peace settlement weakened democracies and strengthened extremists.",
+    "sections": [
+      {
+        "id": "fascism",
+        "title": "The rise of fascism",
+        "conceptTitle": "The rise of fascism",
+        "lenses": [
+          "P",
+          "C"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Fascism glorified the nation, rejected democracy and communism, and demanded obedience to a single leader. Mussolini took power in Italy in 1922, and Hitler became chancellor of Germany in 1933."
+          },
+          {
+            "type": "paragraph",
+            "text": "Both regimes used propaganda and violence and promised national greatness through expansion. The Nazis persecuted Jews from the start."
+          }
+        ],
+        "takeaway": "Fascist regimes rejected democracy and pursued expansion by force.",
+        "sourceIds": [
+          "ced-topic-7-6"
+        ]
+      },
+      {
+        "id": "road-to-war",
+        "title": "Appeasement and expansion",
+        "conceptTitle": "Appeasement and expansion",
+        "lenses": [
+          "P"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Britain and France tried appeasement, giving in to some demands to avoid war. At Munich in 1938 they allowed Germany to take the Sudetenland. Germany invaded Poland on September 1, 1939."
+          },
+          {
+            "type": "paragraph",
+            "text": "In Asia, Japan seized Manchuria in 1931 and invaded China in 1937. After the United States cut off oil, Japan attacked Pearl Harbor on December 7, 1941."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Fascist and Japanese expansion went unchecked by appeasement, which encouraged further aggression until war broke out."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "World War II began in Asia before 1939. Japan's war in China started in 1937."
+          }
+        ],
+        "takeaway": "Unchecked aggression in Europe and Asia produced a global war.",
+        "sourceIds": [
+          "ced-topic-7-6"
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "fascism",
+        "topicId": "world-7-6",
+        "term": "Fascism",
+        "definition": "A political movement that glorifies the nation, rejects democracy and communism, and demands obedience to one leader."
+      },
+      {
+        "id": "appeasement",
+        "topicId": "world-7-6",
+        "term": "appeasement",
+        "definition": "The policy of giving in to an aggressor's demands to avoid war, as Britain and France did at Munich in 1938."
+      },
+      {
+        "id": "manchuria",
+        "topicId": "world-7-6",
+        "term": "Manchuria",
+        "definition": "A region of northeastern China that Japan seized in 1931."
+      }
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "world-7-fascism",
+        "world-7-appeasement",
+        "world-7-manchuria"
+      ]
+    },
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Within Unit 7",
+        "title": "From Versailles to war",
+        "body": "Resentment of the Treaty of Versailles helped the Nazis win support, linking the end of one war to the start of the next.",
+        "transferQuestion": "How did the outcome of World War I contribute to World War II?",
+        "feedback": "Name a specific result of the first war and explain its effect.",
+        "links": [
+          {
+            "topicId": "world-7-5",
+            "sectionId": "versailles",
+            "label": "Review the Treaty of Versailles"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced-topic-7-6",
+      "ced"
+    ]
+  },
+  "bankPath": "world/banks/world-7-6.json",
+  "glossary": [
+    {
+      "id": "world-7-fascism",
+      "term": "Fascism",
+      "definition": "A political movement that glorifies the nation, rejects democracy and communism, and demands obedience to one leader.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.6 glossary"
+    },
+    {
+      "id": "world-7-appeasement",
+      "term": "appeasement",
+      "definition": "The policy of giving in to an aggressor's demands to avoid war, as Britain and France did at Munich in 1938.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.6 glossary"
+    },
+    {
+      "id": "world-7-manchuria",
+      "term": "Manchuria",
+      "definition": "A region of northeastern China that Japan seized in 1931.",
+      "aliases": [],
+      "sourceLabel": "Topic 7.6 glossary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced-topic-7-6",
+      "label": "College Board AP World History: Modern Course and Exam Description, Topic 7.6.",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Topic framework: Causes of World War II."
+    },
+    {
+      "id": "ced",
+      "label": "College Board: AP World History: Modern Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf",
+      "note": "Course scope and learning objectives for Topics 1.1 through 1.7."
+    }
+  ],
+  "assets": {}
+}

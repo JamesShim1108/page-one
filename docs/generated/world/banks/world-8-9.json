@@ -1,0 +1,568 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "world",
+    "title": "AP World History: Modern",
+    "shortTitle": "AP World",
+    "description": "Understand the people, ideas, and connections that shaped the world from c. 1200 to the present.",
+    "status": "ready",
+    "period": "c. 1200–present",
+    "order": 1,
+    "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "world-8",
+    "courseId": "world",
+    "number": 8,
+    "title": "Cold War and Decolonization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "description": "Study how the Cold War divided the world, how colonies won independence, how new states and movements challenged established power, and why the Cold War ended.",
+    "quizzes": [
+      {
+        "id": "world-8-practice-test",
+        "courseId": "world",
+        "unitId": "world-8",
+        "title": "Unit 8 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t01",
+              "world-8-1-t02",
+              "world-8-1-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-1",
+            "questionIds": [
+              "world-8-1-t04",
+              "world-8-1-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t01",
+              "world-8-2-t02",
+              "world-8-2-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t04",
+              "world-8-2-t05",
+              "world-8-2-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-2",
+            "questionIds": [
+              "world-8-2-t07",
+              "world-8-2-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t01",
+              "world-8-3-t02",
+              "world-8-3-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-3",
+            "questionIds": [
+              "world-8-3-t04",
+              "world-8-3-t05",
+              "world-8-3-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t01",
+              "world-8-4-t02",
+              "world-8-4-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-4",
+            "questionIds": [
+              "world-8-4-t04",
+              "world-8-4-t05",
+              "world-8-4-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t01",
+              "world-8-5-t02",
+              "world-8-5-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t04",
+              "world-8-5-t05",
+              "world-8-5-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-5",
+            "questionIds": [
+              "world-8-5-t07",
+              "world-8-5-t08"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t01",
+              "world-8-6-t02",
+              "world-8-6-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-6",
+            "questionIds": [
+              "world-8-6-t04",
+              "world-8-6-t05",
+              "world-8-6-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t01",
+              "world-8-7-t02",
+              "world-8-7-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-7",
+            "questionIds": [
+              "world-8-7-t04",
+              "world-8-7-t05"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t01",
+              "world-8-8-t02",
+              "world-8-8-t03"
+            ]
+          },
+          {
+            "topicId": "world-8-8",
+            "questionIds": [
+              "world-8-8-t04",
+              "world-8-8-t05",
+              "world-8-8-t06"
+            ]
+          },
+          {
+            "topicId": "world-8-9",
+            "questionIds": [
+              "world-8-9-t01",
+              "world-8-9-t02",
+              "world-8-9-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "world-8-practice-test",
+      "title": "Unit 8 Practice Test",
+      "questionCount": 53
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "world-8-1-quiz",
+        "title": "Setting the Stage topic quiz"
+      },
+      {
+        "id": "world-8-2-quiz",
+        "title": "The Cold War topic quiz"
+      },
+      {
+        "id": "world-8-3-quiz",
+        "title": "Effects of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-4-quiz",
+        "title": "Spread of Communism topic quiz"
+      },
+      {
+        "id": "world-8-5-quiz",
+        "title": "Decolonization topic quiz"
+      },
+      {
+        "id": "world-8-6-quiz",
+        "title": "Newly Independent States topic quiz"
+      },
+      {
+        "id": "world-8-7-quiz",
+        "title": "Global Resistance topic quiz"
+      },
+      {
+        "id": "world-8-8-quiz",
+        "title": "End of the Cold War topic quiz"
+      },
+      {
+        "id": "world-8-9-quiz",
+        "title": "Causation in the Cold War Era topic quiz"
+      }
+    ],
+    "topicCount": 9,
+    "firstTopic": {
+      "id": "world-8-1",
+      "courseId": "world",
+      "unitId": "world-8",
+      "order": 1,
+      "code": "8.1",
+      "title": "Setting the Stage for the Cold War and Decolonization",
+      "period": "c. 1900–present",
+      "status": "ready",
+      "summary": "How World War II left two superpowers, exhausted colonial empires, and new demands for independence."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "world-8-saq-01",
+        "title": "Unit 8 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "world-8-9",
+    "courseId": "world",
+    "unitId": "world-8",
+    "order": 9,
+    "code": "8.9",
+    "title": "Causation in the Age of the Cold War and Decolonization",
+    "period": "c. 1900–present",
+    "status": "ready",
+    "summary": "How the Cold War and decolonization shaped each other."
+  },
+  "framework": {
+    "id": "inspect",
+    "name": "InSPECT",
+    "title": "Use InSPECT to choose your evidence",
+    "intro": "A fact can connect to more than one lens. Choose the lens that helps answer the prompt.",
+    "sourceNote": "Based on the class Early Religions + InSPECT slides, pages 5-17.",
+    "themes": [
+      {
+        "id": "In",
+        "title": "Interactions of humans with the environment",
+        "question": "How did geography, crops, resources, or disease shape choices?",
+        "example": "Andean terraces made steep slopes more usable for farming.",
+        "shortTitle": "Environment"
+      },
+      {
+        "id": "S",
+        "title": "Social interactions and organization",
+        "question": "Who had status, opportunities, or obligations?",
+        "example": "Examination preparation favored families that could afford education.",
+        "shortTitle": "Social"
+      },
+      {
+        "id": "P",
+        "title": "Political systems and governance",
+        "question": "How did rulers gain authority and administer territory?",
+        "example": "Song officials carried imperial decisions into local government.",
+        "shortTitle": "Political"
+      },
+      {
+        "id": "E",
+        "title": "Economic systems",
+        "question": "How were goods produced, exchanged, taxed, or distributed?",
+        "example": "Mali drew revenue from commerce through its territory.",
+        "shortTitle": "Economic"
+      },
+      {
+        "id": "C",
+        "title": "Cultural developments and interactions",
+        "question": "How did beliefs, learning, and artistic practices influence society?",
+        "example": "Buddhist monasteries connected religious practice with education.",
+        "shortTitle": "Cultural"
+      },
+      {
+        "id": "T",
+        "title": "Technology and innovation",
+        "question": "What techniques or tools changed what people could do?",
+        "example": "Inca roads and knotted records helped officials coordinate resources.",
+        "shortTitle": "Technology"
+      }
+    ]
+  },
+  "contentRevision": "abc156ca27216175",
+  "questions": [
+    {
+      "id": "world-8-9-q01",
+      "topicId": "world-8-9",
+      "concept": "intertwined",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains how decolonization affected the Cold War?",
+      "choices": [
+        "It ended superpower rivalry",
+        "It created new states that the superpowers competed to influence",
+        "It strengthened the European empires",
+        "It united all new states under the Soviet Union"
+      ],
+      "correctAnswer": 1,
+      "explanation": "New states became targets for aid, alliances, and proxy wars.",
+      "sourceIds": [
+        "ced-topic-8-9"
+      ],
+      "choiceExplanations": [
+        "The rivalry continued until 1991.",
+        "New states became targets for aid, alliances, and proxy wars.",
+        "Empires ended.",
+        "Many new states were nonaligned or pro-Western."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Some new states leaned toward Moscow, but many did not.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-9-q02",
+      "topicId": "world-8-9",
+      "concept": "intertwined",
+      "difficulty": "Core",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following was an effect of Cold War rivalry on newly independent states?",
+      "choices": [
+        "Superpower aid and weapons, and sometimes proxy wars",
+        "An end to all foreign involvement",
+        "Restoration of colonial rule",
+        "Guaranteed democracy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The superpowers competed through aid and armed conflict.",
+      "sourceIds": [
+        "ced-topic-8-9"
+      ],
+      "choiceExplanations": [
+        "The superpowers competed through aid and armed conflict.",
+        "Foreign involvement increased.",
+        "Colonial rule ended.",
+        "Both superpowers backed authoritarian allies."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The superpowers promoted their systems but often backed dictators.",
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-9-q03",
+      "topicId": "world-8-9",
+      "concept": "intertwined",
+      "difficulty": "Core",
+      "skill": "argumentation",
+      "prompt": "Which claim about the relationship between the Cold War and decolonization is most defensible?",
+      "choices": [
+        "They were unrelated",
+        "Decolonization ended before the Cold War began",
+        "Each process shaped the other",
+        "The Cold War caused all independence movements"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Superpower rivalry shaped new states, and new states shaped the rivalry.",
+      "sourceIds": [
+        "ced-topic-8-9"
+      ],
+      "choiceExplanations": [
+        "They overlapped in time and place.",
+        "They overlapped from 1945 to 1975.",
+        "Superpower rivalry shaped new states, and new states shaped the rivalry.",
+        "Independence movements had local roots."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Cold War shaped independence movements, but they began earlier and had local roots.",
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-8-9-t01",
+      "topicId": "world-8-9",
+      "concept": "intertwined",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "The author's main argument is that the Cold War and decolonization",
+      "choices": [
+        "happened in different centuries and regions",
+        "unfolded together and influenced each other",
+        "were both caused by the Soviet collapse",
+        "strengthened the old colonial powers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage traces how each shaped the other.",
+      "sourceIds": [
+        "ced-topic-8-9"
+      ],
+      "choiceExplanations": [
+        "Both happened after 1945.",
+        "The passage traces how each shaped the other.",
+        "The collapse came at the end.",
+        "Colonial powers were weakened."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Both took place in the second half of the twentieth century.",
+      "stimulusId": "original-cold-war-causation",
+      "stimulusBlocks": [
+        {
+          "id": "original-cold-war-causation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.9 key concept: causation in the age of the Cold War and decolonization",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing connections between the Cold War and decolonization, 1945–1991",
+          "text": "The Cold War and decolonization unfolded together. World War II weakened the colonial powers at the same moment it made the United States and the Soviet Union dominant. As dozens of new states won independence, each superpower competed to win them as allies.\n\nThat competition brought aid, weapons, and sometimes war to newly independent countries. Some leaders played the superpowers against each other; others joined the Non-Aligned Movement. When the Soviet Union collapsed in 1991, many conflicts that the superpowers had fueled lost their outside support."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-9-t02",
+      "topicId": "world-8-9",
+      "concept": "intertwined",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "According to the passage, the Soviet collapse in 1991 affected conflicts in new states by",
+      "choices": [
+        "increasing Soviet aid to its allies",
+        "ending outside support for many conflicts",
+        "restoring colonial rule in parts of Africa",
+        "starting new proxy wars across Africa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conflicts the superpowers had fueled lost outside support.",
+      "sourceIds": [
+        "ced-topic-8-9"
+      ],
+      "choiceExplanations": [
+        "Soviet aid ended.",
+        "Conflicts the superpowers had fueled lost outside support.",
+        "Colonial rule did not return.",
+        "The passage says outside support ended."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Soviet Union's collapse ended its aid rather than increasing it.",
+      "stimulusId": "original-cold-war-causation",
+      "stimulusBlocks": [
+        {
+          "id": "original-cold-war-causation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.9 key concept: causation in the age of the Cold War and decolonization",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing connections between the Cold War and decolonization, 1945–1991",
+          "text": "The Cold War and decolonization unfolded together. World War II weakened the colonial powers at the same moment it made the United States and the Soviet Union dominant. As dozens of new states won independence, each superpower competed to win them as allies.\n\nThat competition brought aid, weapons, and sometimes war to newly independent countries. Some leaders played the superpowers against each other; others joined the Non-Aligned Movement. When the Soviet Union collapsed in 1991, many conflicts that the superpowers had fueled lost their outside support."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-9-t03",
+      "topicId": "world-8-9",
+      "concept": "intertwined",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The developments described in the passage are best understood in the context of",
+      "choices": [
+        "the weakening of Europe in World War II",
+        "the Columbian Exchange",
+        "the rise of the Mongol Empire",
+        "the Industrial Revolution's beginnings in Britain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The war weakened colonial powers and created two superpowers.",
+      "sourceIds": [
+        "ced-topic-8-9"
+      ],
+      "choiceExplanations": [
+        "The war weakened colonial powers and created two superpowers.",
+        "The Columbian Exchange was a much earlier process.",
+        "That was in the thirteenth century.",
+        "That began in the eighteenth century."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Industrialization built empires; World War II weakened them.",
+      "stimulusId": "original-cold-war-causation",
+      "stimulusBlocks": [
+        {
+          "id": "original-cold-war-causation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.9 key concept: causation in the age of the Cold War and decolonization",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing connections between the Cold War and decolonization, 1945–1991",
+          "text": "The Cold War and decolonization unfolded together. World War II weakened the colonial powers at the same moment it made the United States and the Soviet Union dominant. As dozens of new states won independence, each superpower competed to win them as allies.\n\nThat competition brought aid, weapons, and sometimes war to newly independent countries. Some leaders played the superpowers against each other; others joined the Non-Aligned Movement. When the Soviet Union collapsed in 1991, many conflicts that the superpowers had fueled lost their outside support."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "world-8-9-quick",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-9",
+      "title": "Topic 8.9 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "world-8-9-q01",
+        "world-8-9-q02",
+        "world-8-9-q03"
+      ]
+    },
+    {
+      "id": "world-8-9-quiz",
+      "courseId": "world",
+      "unitId": "world-8",
+      "topicId": "world-8-9",
+      "title": "Causation in the Cold War Era topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "world-8-9-q01",
+        "world-8-9-q02",
+        "world-8-9-q03"
+      ]
+    }
+  ],
+  "concepts": {
+    "intertwined": {
+      "id": "intertwined",
+      "title": "Two processes, one era",
+      "section": "intertwined",
+      "topicId": "world-8-9"
+    }
+  },
+  "assets": {}
+}

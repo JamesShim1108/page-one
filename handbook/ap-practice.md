@@ -53,6 +53,26 @@ node scripts/verify-excerpts.mjs path/to/source-texts
 
 The script lists the file names it expects. Project Gutenberg texts can be downloaded from gutenberg.org; for Gibb's Ibn Battuta, save the Internet Archive full-text OCR. The source texts are not stored in this repository.
 
+## Unit Practice Tests
+
+Each ready unit can have one Practice Test that mirrors the AP multiple-choice section. It is a unit quiz in `unit.js` with `practiceTest: true` and one `selections` entry per stimulus set, in exam order. Its questions live in the topic banks with `t`-numbered IDs; because a unit quiz reserves them, they never appear in custom topic practice. The Study Hub shows it as the first card.
+
+- At most 55 questions. Build fewer rather than pad with weak items. **Checked.**
+- Every question names a `stimulusId` that matches the `id` of one of its `stimulusBlocks`. **Checked.**
+- Each stimulus is used by two to four questions, and a set's questions appear together. **Checked.**
+- Stimuli are text `source` blocks only; at least one is `primary` or `original`. **Checked.**
+- No question stem repeats within a test, every choice has an explanation, and every question records its near-miss distractor. **Checked.**
+- The answer-length limits above also apply to the test as a whole. **Checked.**
+- A unit with a Practice Test also has at least one SAQ with a stimulus. **Checked.**
+
+The timed mock exam shell (timer and section flow) is not built yet; the Practice Test is untimed.
+
+## Stimulus provenance
+
+Every `source` block records `source` and `amsco_review` (`pending` until checked against the class AMSCO reading, then `complete`). **Checked.** For a quotation, `source` is the edition's ID in `sources.js` and the excerpt ID prefix must be registered in `scripts/lib/excerpt-sources.mjs` with the edition files used for verification. For a practice passage, `source` names the CED topic and key concept it is based on. Practice passages never present invented words as a historical quotation.
+
+`node scripts/verify-excerpts.mjs path/to/source-texts` lists every bracketed edit and reports any excerpt whose edition file was not supplied as "not checked"; add `--require-all` to fail in that case. Do not publish a quotation that fails this check.
+
 ## Writing
 
 - **SAQs** follow the exam mix: primary source, secondary source, and no stimulus. Each part has a task verb (identify, describe, explain), specific criteria, and a model Answer–Prove–Explain response.
