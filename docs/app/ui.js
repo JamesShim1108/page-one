@@ -1,3 +1,5 @@
+import { icon } from "./icons.js";
+
 // All authored text passes through escapeHtml before entering a template.
 export function escapeHtml(value) {
   return String(value ?? "").replace(
@@ -13,7 +15,7 @@ export function escapeHtml(value) {
   );
 }
 
-export const arrow = '<span aria-hidden="true">&#8594;</span>';
+export const arrow = icon("arrow", "arrow-icon");
 
 export function link(path, label, className = "") {
   return `<a href="#${escapeHtml(path)}" class="${escapeHtml(className)}">${label}</a>`;
@@ -47,8 +49,15 @@ export function pageTitle(title, description) {
   document.querySelector('meta[name="description"]').content = description;
 }
 
-export function badge(status, label) {
-  return `<span class="pill ${status === "soon" ? "soon" : ""}">${escapeHtml(label || (status === "soon" ? "Coming soon" : "Available now"))}</span>`;
+// Status is shown as a symbol. Without a visible label, the words stay available
+// to screen readers, so an icon-only badge still has a text name.
+export function badge(status, label, glyphName) {
+  const soon = status === "soon";
+  const name = soon ? "Coming soon" : "Available now";
+  const glyph = icon(glyphName || (soon ? "clock" : "check"), "pill-icon");
+  return label
+    ? `<span class="pill ${soon ? "soon" : ""}">${glyph}<span>${escapeHtml(label)}</span></span>`
+    : `<span class="pill pill--icon ${soon ? "soon" : ""}">${glyph}<span class="visually-hidden">${name}</span></span>`;
 }
 
 export function quizButton(

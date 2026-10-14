@@ -7,21 +7,22 @@ import {
   contextCrumbs,
   quizEntry,
 } from "../ui.js";
+import { icon } from "../icons.js";
 
 function courseCard(course, index) {
   const available = course.status === "ready" && course.readyTopicCount > 0;
   const hasCoursePage = available || course.emptyShell === true;
   return `<article class="course-feature course-catalog-card" aria-labelledby="course-${esc(course.id)}-title">
-    <div class="catalog-number" aria-hidden="true"><span>COURSE</span><strong>${String(index + 1).padStart(2, "0")}</strong></div>
+    <div class="catalog-number" aria-hidden="true"><strong>${String(index + 1).padStart(2, "0")}</strong></div>
     <div class="catalog-description">
-      ${badge(available ? "ready" : "soon", available ? `${course.readyTopicCount} topics available` : null)}
+      ${badge(available ? "ready" : "soon", available ? `${course.readyTopicCount} topics` : null)}
       <h2 id="course-${esc(course.id)}-title">${esc(course.title)}</h2>
       <p class="period">${esc(course.period)}</p><p class="feature-info">${esc(course.description)}</p>
     </div>
-    <div class="catalog-entry"><p class="eyebrow">${available ? "Ready to study" : "In development"}</p>
+    <div class="catalog-entry">
+      ${available ? `<p class="eyebrow">${icon("book")}<span class="visually-hidden">Ready to study</span></p>` : ""}
       ${course.previewTopics.length ? `<ul class="catalog-topics">${course.previewTopics.map((topic) => `<li><span>${esc(topic.code)}</span>${esc(topic.title)}</li>`).join("")}</ul>` : `<p class="catalog-empty">No lessons added yet.</p>`}
       ${hasCoursePage ? link(`/course/${course.id}`, available ? `Open course ${arrow}` : `View course ${arrow}`, "btn") : badge("soon")}
-      <p class="feature-foot">${available ? "More topics are on the way." : course.emptyShell ? "Lessons and practice are coming soon." : "Lessons and practice are being prepared."}</p>
     </div>
   </article>`;
 }
@@ -35,10 +36,10 @@ function coursePreview(courses) {
   const cards = Array.from({ length: cycle * 3 + 1 }, (_, index) => {
     const course = available[index % available.length];
     return `<div class="preview-card preview-course${index === cycle * 2 ? " is-active" : ""}">
-      <div class="preview-meta"><span class="preview-code">${esc(course.shortTitle)}</span><span class="preview-label">Available now</span></div>
+      <div class="preview-meta"><span class="preview-code">${esc(course.shortTitle)}</span><span class="preview-label">${icon("check", "pill-icon")}<span class="visually-hidden">Available now</span></span></div>
       <h3>${esc(course.title)}</h3><p class="preview-period">${esc(course.period)}</p>
       <p class="preview-description">${esc(course.previewDescription || course.description)}</p>
-      <div class="preview-foot">${course.readyTopicCount} topics available</div>
+      <div class="preview-foot">${icon("book")}<span>${course.readyTopicCount} topics</span></div>
     </div>`;
   }).join("");
   return `<aside class="course-preview" aria-label="Available courses" data-cycle-length="${cycle}">
@@ -117,7 +118,7 @@ export function homePage({ courses }, recent = null) {
         <div class="actions">${resume ? link(resume.route, `Resume ${arrow}`, "btn") : link("/?section=courses", `Browse courses ${arrow}`, "btn")}
           ${link("/session", `Build a short session ${arrow}`, "text-link")}
         </div>
-        <p class="free-note">Free access · No account needed</p>
+        <p class="free-note"><span>${icon("unlock")}Free access</span><span>${icon("person")}No account needed</span></p>
       </div>${coursePreview(courses)}
     </section>
     ${recentWorkSection(work)}
@@ -143,7 +144,7 @@ export function homePage({ courses }, recent = null) {
       ]
         .map(
           ([title, text], index) =>
-            `<div class="step"><div class="step-index">0${index + 1}</div><div><h3>${title}</h3><p>${text}</p></div></div>`,
+            `<div class="step"><div class="step-index"><span class="visually-hidden">Step ${index + 1}</span>${icon(["book", "pen", "refresh"][index])}</div><div><h3>${title}</h3><p>${text}</p></div></div>`,
         )
         .join("")}</div>
     </section>
@@ -155,6 +156,12 @@ export function courseListPage({ courses }) {
     <div class="page-intro"><p class="eyebrow">Choose your starting point</p><h1>Your course. Your pace.</h1><p>Start with a topic, understand the connections, and test what you know.</p></div>
     <div class="courses-list course-catalog">${courses.map(courseCard).join("")}</div>
   </div>`;
+}
+
+function unitStatus(unit, ready) {
+  if (ready) return badge("ready", `${unit.topicCount} topics`);
+  if (unit.termSets?.length) return badge("ready", "Terms", "cards");
+  return badge("soon");
 }
 
 export function coursePage({ course, units }) {
@@ -173,7 +180,7 @@ export function coursePage({ course, units }) {
           const ready = unit.status === "ready";
           return `<a href="#/unit/${esc(unit.id)}" class="unit-row is-ready">
           <span class="unit-number">${String(unit.number).padStart(2, "0")}</span><div><h3>${esc(unit.title)}</h3><p>${esc(unit.period)}</p></div>
-          <div class="status">${badge(ready || unit.termSets?.length ? "ready" : "soon", ready ? `${unit.topicCount} topics ready` : unit.termSets?.length ? "Terms available" : "In preparation")}<span class="big-arrow" aria-hidden="true">&#8594;</span></div>
+          <div class="status">${unitStatus(unit, ready)}<span class="big-arrow" aria-hidden="true">${icon("arrow")}</span></div>
         </a>`;
         })
         .join("")}</div>
@@ -206,7 +213,8 @@ export function unitPage(data, peekAttempt = () => null) {
   const modes = [
     {
       title: "Practice Test",
-      label: "01 · Exam format",
+      number: "01",
+      icon: "clipboard",
       text: test
         ? `${test.questionCount} multiple-choice questions in AP-style source sets.`
         : "An AP-style practice test will appear here.",
@@ -215,14 +223,16 @@ export function unitPage(data, peekAttempt = () => null) {
     },
     {
       title: "Practice Quiz",
-      label: "02 · Test yourself",
+      number: "02",
+      icon: "target",
       text: "Check your understanding and find what to review.",
       path: practice,
       available: Boolean(practiceQuizzes.length || unit.topicQuizzes?.length),
     },
     {
       title: "Terms",
-      label: "03 · Build recall",
+      number: "03",
+      icon: "cards",
       text: unit.termSets.length
         ? `${unit.termSets.length} class sets. Lists and flashcards.`
         : "Class term sets will appear here.",
@@ -232,7 +242,8 @@ export function unitPage(data, peekAttempt = () => null) {
     },
     {
       title: "Writing Practice",
-      label: "04 · Explain it",
+      number: "04",
+      icon: "pen",
       text: "Practice a response and review your reasoning.",
       path:
         writing.length === 1
@@ -242,7 +253,8 @@ export function unitPage(data, peekAttempt = () => null) {
     },
     {
       title: "Reading / Learn",
-      label: "05 · Understand",
+      number: "05",
+      icon: "book",
       text: "Explore the lessons, one topic at a time.",
       path: `/unit/${unit.id}?section=learn`,
       available: unit.topicCount > 0,
@@ -251,14 +263,16 @@ export function unitPage(data, peekAttempt = () => null) {
       ? [
           {
             title: "Study Guide",
-            label: "06 · Connect ideas",
+            number: "06",
+            icon: "list",
             text: "Timelines, comparisons, and reading prompts.",
             path: `/guide/${unit.id}`,
             available: true,
           },
           {
             title: "Maps & Connections",
-            label: "07 · See the networks",
+            number: "07",
+            icon: "map",
             text: "Explore places, routes, seasonal planning, and evidence connections.",
             path: `/guide/${unit.id}?section=networks`,
             available: true,
@@ -273,7 +287,12 @@ export function unitPage(data, peekAttempt = () => null) {
     </header>
     <nav class="study-mode-grid" aria-label="Unit study modes">${modes
       .map((mode) => {
-        const body = `<span class="eyebrow">${mode.label}</span><h2>${mode.title}</h2><p>${mode.text}</p><span class="study-mode__entry">${!mode.available ? "Coming soon" : mode.pending ? "No sets yet" : `Open ${arrow}`}</span>`;
+        const state = !mode.available
+          ? `${icon("clock")}<span class="visually-hidden">Coming soon</span>`
+          : mode.pending
+            ? `${icon("clock")}<span class="visually-hidden">No sets yet</span>`
+            : `<span class="visually-hidden">Open</span>${arrow}`;
+        const body = `<span class="mode-head">${icon(mode.icon, "mode-icon")}<span class="eyebrow">${mode.number}</span></span><h2>${mode.title}</h2><p>${mode.text}</p><span class="study-mode__entry">${state}</span>`;
         return mode.available
           ? `<a class="study-mode" href="#${esc(mode.path)}">${body}</a>`
           : `<div class="study-mode study-mode--soon" aria-disabled="true">${body}</div>`;
@@ -281,21 +300,21 @@ export function unitPage(data, peekAttempt = () => null) {
       .join("")}</nav>
     ${unit.description ? `<p class="hub-description">${esc(unit.description)}</p>` : '<p class="hub-description">More study modes will become available as this unit is prepared.</p>'}
     <section id="learn" class="hub-section" aria-labelledby="learn-title">
-    <div class="course-layout"><div><div class="section-heading"><h2 id="learn-title">Choose a topic</h2><small class="muted">Learn → Review → Practice</small></div>
+    <div class="course-layout"><div><div class="section-heading"><h2 id="learn-title">Choose a topic</h2><small class="muted flow" role="img" aria-label="Learn, review, then practice">${icon("book")}${arrow}${icon("refresh")}${arrow}${icon("target")}</small></div>
       <div class="topic-list">${topics
         .map((topic) => {
           const ready = unit.status === "ready" && topic.status === "ready",
             tag = ready ? "a" : "div";
           return `<${tag} ${ready ? `href="#/topic/${esc(topic.id)}"` : ""} class="topic-row ${ready ? "ready" : ""}">
           <span class="topic-code">${esc(topic.code)}</span><div><h3>${esc(topic.title)}, ${esc(topic.period)}</h3><p>${esc(topic.summary)}</p></div>
-          ${ready ? '<span class="big-arrow" aria-hidden="true">&#8594;</span>' : badge("soon")}
+          ${ready ? `<span class="big-arrow" aria-hidden="true">${icon("arrow")}</span>` : badge("soon")}
         </${tag}>`;
         })
         .join("")}</div>
       ${topics.length ? "" : '<p class="study-empty">Lessons for this unit are being prepared.</p>'}
       <div id="practice" class="unit-tools">
-        ${test ? `<div class="unit-tool"><p class="eyebrow">PRACTICE TEST</p><h3>${esc(test.title)}</h3><p>${test.questionCount} questions. Each set of two to four questions is based on one source, as on the AP exam. Timing is not enforced.</p>${quizEntry(test, peekAttempt(test.id), "Start practice test")}</div>` : ""}
-        ${practiceQuizzes.map((quiz) => `<div class="unit-tool"><p class="eyebrow">PRACTICE</p><h3>${esc(quiz.title)}</h3><p>${quiz.selections.reduce((sum, selection) => sum + selection.questionIds.length, 0)} questions selected from the Unit ${unit.number} question banks.</p>${quizEntry(quiz, peekAttempt(quiz.id), "Start unit practice")}</div>`).join("")}
+        ${test ? `<div class="unit-tool"><p class="eyebrow">${icon("clipboard")}<span class="visually-hidden">Practice test</span></p><h3>${esc(test.title)}</h3><p>${test.questionCount} questions. Each set of two to four questions is based on one source, as on the AP exam. Timing is not enforced.</p>${quizEntry(test, peekAttempt(test.id), "Start practice test")}</div>` : ""}
+        ${practiceQuizzes.map((quiz) => `<div class="unit-tool"><p class="eyebrow">${icon("target")}<span class="visually-hidden">Practice</span></p><h3>${esc(quiz.title)}</h3><p>${quiz.selections.reduce((sum, selection) => sum + selection.questionIds.length, 0)} questions selected from the Unit ${unit.number} question banks.</p>${quizEntry(quiz, peekAttempt(quiz.id), "Start unit practice")}</div>`).join("")}
         ${!practiceQuizzes.length ? (unit.topicQuizzes || []).map((quiz) => `<div class="unit-tool"><h3>${esc(quiz.title)}</h3>${quizEntry(quiz, peekAttempt(quiz.id))}</div>`).join("") : ""}
       </div>
       <div id="writing" class="unit-tools writing-groups">${writingGroups.map(([group, items]) => `<section class="writing-group"><p class="eyebrow">${group}</p>${items.map((quiz) => `<div class="unit-tool writing-tool"><h3>${esc(quiz.title)}</h3><p>${quiz.exerciseType === "dbq" && quiz.availability === "blocked" ? "Blocked pending source verification." : `${quiz.partCount} response field${quiz.partCount === 1 ? "" : "s"}. Untimed practice with self-assessment.`}</p>${quiz.availability === "blocked" ? `<span class="muted">Unavailable until verified documents are added.</span>` : link(`/writing/${quiz.id}`, "Open writing practice", "btn")}</div>`).join("")}</section>`).join("")}</div>
