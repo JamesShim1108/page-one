@@ -23,6 +23,7 @@ import {
   endBreak,
   remainingMs,
   scoreSheet,
+  scoringCriteria,
   setScore,
   startSection,
   submitSection,
@@ -53,21 +54,24 @@ const fixtureExam = {
       q2: ["world-2-saq-01"],
       q3: ["world-2-saq-03", "world-2-saq-07"],
     },
-    dbq: { q1: ["world-2-dbq-connectivity"] },
+    // The published Mock Exam 1 DBQ; exams may share prompts with each other.
+    dbq: { q1: ["world-2-dbq-authority"] },
     leq: {
       q2: ["world-2-leq-causation", "world-2-leq-comparison", "world-2-leq-continuity"],
     },
   },
 };
 
-async function compileWith(files) {
+async function compileWith(files, { remove = [] } = {}) {
   const temp = await mkdtemp(join(tmpdir(), "page-one-exam-"));
   await cp(join(root, "docs"), join(temp, "docs"), {
     recursive: true,
+    // The published exams stay in place: their exam-only prompts must remain used.
     filter: (path) => !path.includes(`${join("docs", "generated")}`),
   });
   const examsRoot = join(temp, "docs/content/world-history/exams");
   await mkdir(examsRoot, { recursive: true });
+  for (const name of remove) await rm(join(examsRoot, name));
   for (const [name, exam] of Object.entries(files))
     await writeFile(
       join(examsRoot, name),
@@ -126,16 +130,50 @@ test("the World History exam format matches the AP structure and weights", () =>
   );
 });
 
-test("the published site has no mock exams until one is authored", async () => {
+test("the published site lists three complete mock exams written for the course", async () => {
   const { readFile } = await import("node:fs/promises");
-  const routes = JSON.parse(
-    await readFile(join(root, "docs/generated/world/routes.json"), "utf8"),
+  const read = async (path) =>
+    JSON.parse(await readFile(join(root, "docs/generated", path), "utf8"));
+  const routes = await read("world/routes.json");
+  const ids = ["world-mock-01", "world-mock-02", "world-mock-03"];
+  assert.deepEqual(Object.keys(routes.exam).sort(), ids);
+  const index = await read("world/index.json");
+  assert.deepEqual(
+    index.exams.map((item) => [item.id, item.status, item.questionCount]),
+    ids.map((id) => [id, "ready", 55]),
   );
-  assert.deepEqual(routes.exam, {});
-  const index = JSON.parse(
-    await readFile(join(root, "docs/generated/world/index.json"), "utf8"),
-  );
-  assert.equal(index.exams, undefined);
+  const questionIds = new Set();
+  const promptIds = new Set();
+  let items = 0;
+  for (const id of ids) {
+    const exam = await read(routes.exam[id]);
+    assert.deepEqual(
+      exam.sections.map((section) => [section.id, section.maxPoints]),
+      [
+        ["mcq", 55],
+        ["saq", 9],
+        ["dbq", 7],
+        ["leq", 6],
+      ],
+    );
+    for (const section of exam.sections) {
+      const entries =
+        section.kind === "mcq"
+          ? section.questions
+          : section.prompts.flatMap((prompt) => prompt.options);
+      for (const entry of entries) {
+        const seen = section.kind === "mcq" ? questionIds : promptIds;
+        assert.equal(seen.has(entry.id), false, `${entry.id} appears in two exams`);
+        seen.add(entry.id);
+        items += 1;
+      }
+    }
+    // Questions are written for mock exams, not borrowed from topic practice.
+    for (const question of exam.sections[0].questions)
+      assert.match(question.id, new RegExp(`-m${id.slice(-1)}-`));
+  }
+  assert.equal(questionIds.size, 165);
+  assert.ok(items > 165);
 });
 
 test("a ready mock exam resolves existing questions and prompts into one payload", async () => {
@@ -165,10 +203,13 @@ test("a ready mock exam resolves existing questions and prompts into one payload
     [
       ["world-mock-fixture", "ready"],
       ["world-mock-later", "soon"],
+      ["world-mock-01", "ready"],
+      ["world-mock-02", "ready"],
+      ["world-mock-03", "ready"],
     ],
   );
   const catalog = read("catalog.json");
-  assert.equal(catalog.courses.find((course) => course.id === "world").examCount, 2);
+  assert.equal(catalog.courses.find((course) => course.id === "world").examCount, 5);
   const html = coursePage({ ...index, units: index.units });
   assert.match(html, /Full mock exams/);
   assert.match(html, /#\/exam\/world-mock-fixture/);
@@ -187,6 +228,12 @@ test("exam validation rejects slots that do not match the format", async () => {
     });
   }
   const writing = new Map();
+  // Exam-only prompts have no /writing page; read them from a published exam.
+  const mock1 = read("world/exams/world-mock-01.json");
+  writing.set("world-2-dbq-authority", {
+    quiz: mock1.sections[2].prompts[0].options[0],
+    unit: { status: "ready" },
+  });
   for (const id of [
     "world-2-saq-01",
     "world-2-saq-02",
@@ -232,6 +279,11 @@ test("exam validation rejects slots that do not match the format", async () => {
   assert.throws(
     () => resolveExam({ ...fixtureExam, id: "mock-1" }, context, "fixture"),
     /must start with world-/,
+  );
+  // The Unit 2 practice DBQ has four documents by Ibn Battuta, too many for an exam.
+  assert.throws(
+    () => resolve({ dbq: { q1: ["world-2-dbq-connectivity"] } }),
+    /uses 4 documents by Ibn Battuta.*at most 3/,
   );
   assert.equal(writingMaxPoints(writing.get("world-2-dbq-connectivity").quiz), 7);
 });
@@ -450,4 +502,68 @@ test("exam views render each stage without leaking unescaped text", async () => 
   assert.match(results, /Weighted estimate/);
   assert.match(results, /not an AP score/);
   assert.match(results, /0 of 55 correct/);
+});
+
+// AP World History: Modern CED unit weights for the multiple-choice section.
+const UNIT_WEIGHTS = {
+  1: [8, 10],
+  2: [8, 10],
+  3: [12, 15],
+  4: [12, 15],
+  5: [12, 15],
+  6: [12, 15],
+  7: [8, 10],
+  8: [8, 10],
+  9: [8, 10],
+};
+
+test("published exams keep their prompts unseen and follow the AP unit weights", async () => {
+  const { readFile } = await import("node:fs/promises");
+  const read = async (path) =>
+    JSON.parse(await readFile(join(root, "docs/generated", path), "utf8"));
+  const routes = await read("world/routes.json");
+  const hubIds = new Set();
+  for (let number = 1; number <= 9; number += 1)
+    for (const item of (await read(`world/units/world-${number}.json`)).unit
+      .writingQuizzes)
+      hubIds.add(item.id);
+  for (const id of Object.keys(routes.exam)) {
+    const exam = await read(routes.exam[id]);
+    for (const section of exam.sections.slice(1))
+      for (const option of section.prompts.flatMap((prompt) => prompt.options)) {
+        assert.equal(option.examOnly, true, `${option.id} should be exam-only`);
+        assert.equal(routes.writing[option.id], undefined, `${option.id} has a page`);
+        assert.equal(hubIds.has(option.id), false, `${option.id} is on a unit page`);
+      }
+    // Unit groups, as the CED reports them, must sit inside the summed ranges.
+    const counts = {};
+    for (const question of exam.sections[0].questions) {
+      const unit = Number(question.topicId.split("-")[1]);
+      counts[unit] = (counts[unit] || 0) + 1;
+    }
+    for (const units of [
+      [1, 2],
+      [3, 4, 5, 6],
+      [7, 8, 9],
+    ]) {
+      const share =
+        (units.reduce((sum, unit) => sum + (counts[unit] || 0), 0) / 55) * 100;
+      const low = units.reduce((sum, unit) => sum + UNIT_WEIGHTS[unit][0], 0);
+      const high = units.reduce((sum, unit) => sum + UNIT_WEIGHTS[unit][1], 0);
+      assert.ok(
+        share >= low && share <= high,
+        `${id} Units ${units.join("-")}: ${share.toFixed(1)}% is outside ${low}-${high}%`,
+      );
+    }
+    // Essay rubric guidance reaches the self-scoring view.
+    const leq = exam.sections[3].prompts[0].options[0];
+    assert.ok(scoringCriteria(leq).every((row) => row.description.length > 0));
+  }
+});
+
+test("an exam-only prompt that no exam uses is rejected", async () => {
+  await assert.rejects(
+    compileWith({}, { remove: ["mock-03.js"] }),
+    /is examOnly but no ready mock exam uses it/,
+  );
 });

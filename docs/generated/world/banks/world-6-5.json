@@ -795,6 +795,174 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-6-5-m2-10a",
+      "topicId": "world-6-5",
+      "concept": "opium-wars",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, why did British merchants sell opium in China?",
+      "choices": [
+        "To reverse the outflow of silver paid for Chinese goods",
+        "To weaken the Qing army before a planned invasion of China",
+        "Because the Qing government had asked them to supply it",
+        "To raise money for schools run by Christian missionaries"
+      ],
+      "correctAnswer": 0,
+      "explanation": "British merchants wanted to stop paying for tea, silk, and porcelain with silver.",
+      "sourceIds": [
+        "ced-topic-6-5"
+      ],
+      "choiceExplanations": [
+        "British merchants wanted to stop paying for tea, silk, and porcelain with silver.",
+        "The passage does not link opium sales to an invasion plan.",
+        "The Qing banned opium, and Lin Zexu destroyed it.",
+        "The passage does not mention missionary schools."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Opium did harm Chinese society, but the passage presents the merchants' motive as economic.",
+      "stimulusId": "mock2-opium-wars",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-opium-wars",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.5 key concept: Britain used military force to open China to trade in opium and other goods",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Opium Wars, 1839–1860",
+          "text": "In the early 1800s, British merchants paid for Chinese tea, silk, and porcelain largely with silver. To reverse the flow, they sold opium grown in British India to Chinese buyers. As addiction spread and silver left China, the Qing official Lin Zexu destroyed more than 20,000 chests of opium at Guangzhou in 1839. Britain sent warships, and the Qing were defeated in the First Opium War.\n\nThe Treaty of Nanjing in 1842 forced China to pay an indemnity, give Hong Kong to Britain, and open five ports to foreign trade. A second war, ending in 1860, opened more ports and allowed foreign merchants and missionaries to travel inland."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-5-m2-10b",
+      "topicId": "world-6-5",
+      "concept": "opium-wars",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which result of the wars best shows the weakening of Qing control over China's trade?",
+      "choices": [
+        "The Qing agreed to pay a yearly tax to British merchants",
+        "The Qing opened an embassy in London to negotiate",
+        "The Qing abolished the civil service examination system",
+        "The Qing had to open ports and give up Hong Kong"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Opening treaty ports and ceding Hong Kong placed parts of China's trade and territory under foreign terms.",
+      "sourceIds": [
+        "ced-topic-6-5"
+      ],
+      "choiceExplanations": [
+        "The Qing paid an indemnity after losing, but a payment is not a loss of control over ports.",
+        "An embassy was a diplomatic step, not a sign of lost control.",
+        "The examination system lasted until 1905.",
+        "Opening treaty ports and ceding Hong Kong placed parts of China's trade and territory under foreign terms."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Qing did pay an indemnity, but opening ports and ceding territory more directly limited their control.",
+      "stimulusId": "mock2-opium-wars",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-opium-wars",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.5 key concept: Britain used military force to open China to trade in opium and other goods",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Opium Wars, 1839–1860",
+          "text": "In the early 1800s, British merchants paid for Chinese tea, silk, and porcelain largely with silver. To reverse the flow, they sold opium grown in British India to Chinese buyers. As addiction spread and silver left China, the Qing official Lin Zexu destroyed more than 20,000 chests of opium at Guangzhou in 1839. Britain sent warships, and the Qing were defeated in the First Opium War.\n\nThe Treaty of Nanjing in 1842 forced China to pay an indemnity, give Hong Kong to Britain, and open five ports to foreign trade. A second war, ending in 1860, opened more ports and allowed foreign merchants and missionaries to travel inland."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-5-m2-10c",
+      "topicId": "world-6-5",
+      "concept": "opium-wars",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "The Opium Wars are best understood as an example of",
+      "choices": [
+        "a religious war between Christians and Confucians",
+        "economic imperialism backed by industrial military power",
+        "a nationalist movement for the unification of China",
+        "a colonial revolt against European rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Britain used warships to force open a market and protect its merchants' trade.",
+      "sourceIds": [
+        "ced-topic-6-5"
+      ],
+      "choiceExplanations": [
+        "The conflict was about trade and sovereignty, not religion.",
+        "Britain used warships to force open a market and protect its merchants' trade.",
+        "The Opium Wars were not about unifying China.",
+        "The Qing were defending their sovereignty; they were not colonial subjects in revolt."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Missionaries gained access after the wars, but religion was not the cause of the conflict.",
+      "stimulusId": "mock2-opium-wars",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-opium-wars",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.5 key concept: Britain used military force to open China to trade in opium and other goods",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Opium Wars, 1839–1860",
+          "text": "In the early 1800s, British merchants paid for Chinese tea, silk, and porcelain largely with silver. To reverse the flow, they sold opium grown in British India to Chinese buyers. As addiction spread and silver left China, the Qing official Lin Zexu destroyed more than 20,000 chests of opium at Guangzhou in 1839. Britain sent warships, and the Qing were defeated in the First Opium War.\n\nThe Treaty of Nanjing in 1842 forced China to pay an indemnity, give Hong Kong to Britain, and open five ports to foreign trade. A second war, ending in 1860, opened more ports and allowed foreign merchants and missionaries to travel inland."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-6-5-m2-10d",
+      "topicId": "world-6-5",
+      "concept": "opium-wars",
+      "difficulty": "Challenge",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which later Chinese response was most directly shaped by the defeats described in the passage?",
+      "choices": [
+        "The Meiji Restoration, which strengthened imperial rule in Japan",
+        "The Xinhai Revolution, which ended the monarchy in 1911",
+        "The Self-Strengthening Movement's adoption of Western weapons",
+        "The Boxer Rebellion, a rising against foreign influence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After the defeats, Qing officials started arsenals and shipyards in the 1860s to learn from Western military technology.",
+      "sourceIds": [
+        "ced-topic-6-5"
+      ],
+      "choiceExplanations": [
+        "The Meiji Restoration took place in Japan.",
+        "The 1911 revolution came decades later and had many other causes.",
+        "After the defeats, Qing officials started arsenals and shipyards in the 1860s to learn from Western military technology.",
+        "The Boxer Rebellion came in 1899, and was a rejection of foreign influence and not a program of adopting technology."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Boxers also reacted to foreign pressure, but their response was to attack foreigners, not to modernize.",
+      "stimulusId": "mock2-opium-wars",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-opium-wars",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.5 key concept: Britain used military force to open China to trade in opium and other goods",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Opium Wars, 1839–1860",
+          "text": "In the early 1800s, British merchants paid for Chinese tea, silk, and porcelain largely with silver. To reverse the flow, they sold opium grown in British India to Chinese buyers. As addiction spread and silver left China, the Qing official Lin Zexu destroyed more than 20,000 chests of opium at Guangzhou in 1839. Britain sent warships, and the Qing were defeated in the First Opium War.\n\nThe Treaty of Nanjing in 1842 forced China to pay an indemnity, give Hong Kong to Britain, and open five ports to foreign trade. A second war, ending in 1860, opened more ports and allowed foreign merchants and missionaries to travel inland."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     }
   ],
   "quizzes": [

@@ -661,6 +661,176 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-7-m2-11a",
+      "topicId": "world-6-7",
+      "concept": "enclaves",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which detail shows how Chinese immigrants responded to discrimination?",
+      "choices": [
+        "They returned to China in large numbers after 1882",
+        "They won the right to vote in California in the 1870s",
+        "They left railroad work to search for gold in the Sierra Nevada mountains",
+        "They formed associations that gave credit, housing, and aid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Community associations supported newcomers who faced hostility and low wages.",
+      "sourceIds": [
+        "ced-topic-6-7"
+      ],
+      "choiceExplanations": [
+        "The passage does not describe a mass return in 1882.",
+        "The passage describes exclusion, not voting rights.",
+        "Many worked in gold mines and railroads at the same time, and the passage describes no change from railroad to mining work.",
+        "Community associations supported newcomers who faced hostility and low wages."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Some Chinese immigrants did return home, but the passage's example of response is organization within the United States.",
+      "stimulusId": "mock2-chinese-migration",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-chinese-migration",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
+          "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-7-m2-11b",
+      "topicId": "world-6-7",
+      "concept": "nativism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The Chinese Exclusion Act of 1882 was most directly a response to",
+      "choices": [
+        "pressure from the Chinese government to stop emigration to America",
+        "a shortage of laborers needed to finish the railroads",
+        "a treaty with Britain that limited migration from Asia",
+        "competition for jobs and racial prejudice in a depression"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage links the law to the economic depression of the 1870s and anti-Chinese violence.",
+      "sourceIds": [
+        "ced-topic-6-7"
+      ],
+      "choiceExplanations": [
+        "The Qing government did not ask for exclusion.",
+        "Exclusion came after the Central Pacific Railroad was finished.",
+        "The law was passed by Congress and not tied to a treaty with Britain.",
+        "The passage links the law to the economic depression of the 1870s and anti-Chinese violence."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Railroad construction had drawn Chinese workers earlier, but the law followed the end of that demand.",
+      "stimulusId": "mock2-chinese-migration",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-chinese-migration",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
+          "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-7-m2-11c",
+      "topicId": "world-6-7",
+      "concept": "nativism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which policy was most similar in purpose to the Chinese Exclusion Act?",
+      "choices": [
+        "Australia's Immigration Restriction Act of 1901",
+        "Britain's laws ending the Atlantic slave trade in 1807",
+        "Canada's confederation of provinces into a dominion in 1867",
+        "Japan's opening of ports to Western ships in 1854"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both laws restricted immigration from Asia in white-majority settler societies.",
+      "sourceIds": [
+        "ced-topic-6-7"
+      ],
+      "choiceExplanations": [
+        "Both laws restricted immigration from Asia in white-majority settler societies.",
+        "Britain's 1807 law ended a trade in people, and was not an immigration restriction.",
+        "Confederation created a Canadian federal government.",
+        "Japan's treaty ports opened trade rather than restricting migration."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Britain's law concerned migration of a sort, but it ended forced transport instead of limiting free immigrants.",
+      "stimulusId": "mock2-chinese-migration",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-chinese-migration",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
+          "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-6-7-m2-11d",
+      "topicId": "world-6-7",
+      "concept": "nativism",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which of the following best explains why many Chinese migrants went to California in the 1850s and 1860s?",
+      "choices": [
+        "Indenture contracts bound most of them to plantation work",
+        "The Qing government sent settlers to claim land in America",
+        "Gold mining and railroad building offered work and wages",
+        "The Chinese Exclusion Act guaranteed them jobs and land"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The gold rush and the Central Pacific Railroad drew workers seeking wages higher than they could earn at home.",
+      "sourceIds": [
+        "ced-topic-6-7"
+      ],
+      "choiceExplanations": [
+        "Indenture bound many Chinese and Indian migrants in the Caribbean and Peru, but most Chinese in California came on credit, not plantation contracts.",
+        "The Qing government discouraged emigration and did not send settlers.",
+        "The gold rush and the Central Pacific Railroad drew workers seeking wages higher than they could earn at home.",
+        "The 1882 act barred Chinese laborers; it did not invite them."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Indentured labor was common elsewhere in the Americas, but Chinese migrants in California mostly worked for wages.",
+      "stimulusId": "mock2-chinese-migration",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-chinese-migration",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.7 key concept: migrants formed enclaves, and nativist reactions led to restrictions on immigration",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Chinese immigration to the United States, 1850–1943",
+          "text": "Between 1850 and 1882, roughly 300,000 Chinese migrants came to the United States, many to work in California gold mines and to build the Central Pacific Railroad. Facing low wages and hostility from white workers, many Chinese formed their own neighborhoods with associations that provided credit, housing, and aid.\n\nIn the 1870s an economic depression increased anti-Chinese violence, and in 1882 Congress passed the Chinese Exclusion Act, which banned the immigration of Chinese laborers for ten years. The law was renewed and made permanent in 1902 and stayed in force until 1943."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     }
   ],
   "quizzes": [

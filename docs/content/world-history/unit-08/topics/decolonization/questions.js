@@ -362,6 +362,98 @@ export const bank = {
       stimulusId: "original-armed-struggle",
       stimulusBlocks: [excerpts.originalArmedStruggle],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-8-5-m1-14a",
+      topicId: "world-8-5",
+      concept: "armed-struggle",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which detail best supports the claim that Vietnam's struggle became tied to Cold War rivalry?",
+      choices: [
+        "Ho Chi Minh's declaration of Vietnamese independence in 1945",
+        "American support for a non-communist government in the south",
+        "The Viet Minh siege of the French base at Dien Bien Phu",
+        "The mix of nationalists and communists within the Viet Minh",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "American support for the southern government, motivated by fear of communism, tied the conflict to the global contest between the superpowers.",
+      sourceIds: ["ced-topic-8-5"],
+      choiceExplanations: [
+        "A declaration of independence shows nationalism but not Cold War involvement.",
+        "American support for the southern government, motivated by fear of communism, tied the conflict to the global contest between the superpowers.",
+        "A siege shows the military struggle against France.",
+        "A mixed coalition shows the movement's makeup, but it does not show outside powers' involvement.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Viet Minh coalition included communists, but the outside involvement that made the war a Cold War conflict was American support for the south.",
+      stimulusId: "mock1-vietnam-independence",
+      stimulusBlocks: [excerpts.m1Vietnam],
+    },
+    {
+      id: "world-8-5-m1-14b",
+      topicId: "world-8-5",
+      concept: "armed-struggle",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt: "Vietnam's path to independence differed from India's primarily because",
+      choices: [
+        "Vietnam received independence by peaceful agreement, while India had to fight a long war",
+        "Vietnam was never colonized by a European power but was ruled only by Japan",
+        "Vietnam's independence was won by war, while India's came mainly through nonviolent pressure",
+        "India was divided by the great powers at an international conference in Geneva",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The Viet Minh waged guerrilla war and won at Dien Bien Phu, while India's movement under Gandhi and Nehru relied on mass nonviolent protest and talks with Britain.",
+      sourceIds: ["ced-topic-8-5"],
+      choiceExplanations: [
+        "The reverse is true: Vietnam fought and India negotiated.",
+        "France ruled Indochina, including Vietnam, for decades.",
+        "The Viet Minh waged guerrilla war and won at Dien Bien Phu, while India's movement under Gandhi and Nehru relied on mass nonviolent protest and talks with Britain.",
+        "India was partitioned by Britain at independence; the Geneva Conference concerned Vietnam.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Both Vietnam and India were divided as they became independent, but India was partitioned by Britain, not by a great-power conference.",
+      stimulusId: "mock1-vietnam-independence",
+      stimulusBlocks: [excerpts.m1Vietnam],
+    },
+    {
+      id: "world-8-5-m1-14c",
+      topicId: "world-8-5",
+      concept: "armed-struggle",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "France's attempt to restore control in Indochina after 1945 is best explained by",
+      choices: [
+        "a request from the United Nations that France administer the territory",
+        "a wish to regain prestige and resources despite wartime weakness",
+        "the Atlantic Charter's promise to restore prewar colonial borders",
+        "a vote in which the Vietnamese chose to remain under France",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "France had been occupied during the war and sought to restore its empire as part of recovering as a great power.",
+      sourceIds: ["ced-topic-8-5"],
+      choiceExplanations: [
+        "The United Nations did not ask France to resume control.",
+        "France had been occupied during the war and sought to restore its empire as part of recovering as a great power.",
+        "The Atlantic Charter endorsed self-determination, which nationalists used against colonial rule.",
+        "No such vote took place; Ho Chi Minh had declared independence, and France reclaimed Indochina by force.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Japan had indeed controlled Indochina during the war, but its defeat in 1945 ended that control and created the opening France tried to fill.",
+      stimulusId: "mock1-vietnam-independence",
+      stimulusBlocks: [excerpts.m1Vietnam],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

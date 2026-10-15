@@ -307,6 +307,127 @@ export const bank = {
       stimulusId: "original-climate-debates",
       stimulusBlocks: [excerpts.originalClimate],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-9-3-m2-16a",
+      topicId: "world-9-3",
+      concept: "environmental-debates",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "What does Nixon argue about the cost of clean air and water?",
+      choices: [
+        "They are free resources that should not be regulated",
+        "They have a price that should be built into the cost of goods",
+        "Their costs should be paid for entirely by the national government",
+        "They are too costly for the nation to try to restore",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Nixon says clean air and water are not free and that prices should reflect the costs of avoiding environmental damage.",
+      sourceIds: ["ced-topic-9-3"],
+      choiceExplanations: [
+        "Nixon says air and water can no longer be considered free common property.",
+        "Nixon says clean air and water are not free and that prices should reflect the costs of avoiding environmental damage.",
+        "He calls for the price of goods to include these costs, not for government to cover all of them.",
+        "He calls for action, not for giving up.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Nixon recognized that pollution control is expensive, but he did not conclude that restoration should be abandoned.",
+      stimulusId: "nixon-sotu-1970-environment",
+      stimulusBlocks: [excerpts.nixonEnvironment],
+    },
+    {
+      id: "world-9-3-m2-16b",
+      topicId: "world-9-3",
+      concept: "environmental-debates",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt: "Which development is most directly linked to the call in the passage?",
+      choices: [
+        "The Montreal Protocol to protect the ozone layer",
+        "The Kyoto Protocol limiting greenhouse gases",
+        "The Green Revolution's spread of high-yield crops",
+        "The creation of the Environmental Protection Agency in 1970",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Later in 1970 the federal government created the EPA to enforce new regulation.",
+      sourceIds: ["ced-topic-9-3"],
+      choiceExplanations: [
+        "The Montreal Protocol was signed in 1987.",
+        "The Kyoto Protocol was adopted in 1997.",
+        "The Green Revolution was about agriculture and began earlier in the century.",
+        "Later in 1970 the federal government created the EPA to enforce new regulation.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Montreal Protocol was a major environmental agreement, but it came later and dealt with ozone.",
+      stimulusId: "nixon-sotu-1970-environment",
+      stimulusBlocks: [excerpts.nixonEnvironment],
+    },
+    {
+      id: "world-9-3-m2-16c",
+      topicId: "world-9-3",
+      concept: "environmental-debates",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Nixon's view of government in 1970 differs from Reagan's view in 1981 in that Nixon",
+      choices: [
+        "called for new regulation, while Reagan said government was not the solution",
+        "opposed all government action, while Reagan favored more regulation",
+        "wanted to end the Cold War at once, while Reagan wanted to expand it",
+        "supported free trade among nations, while Reagan supported high tariffs",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Nixon asked for comprehensive new regulation, while Reagan argued that government was a cause of economic problems.",
+      sourceIds: ["ced-topic-9-3"],
+      choiceExplanations: [
+        "Nixon asked for comprehensive new regulation, while Reagan argued that government was a cause of economic problems.",
+        "Nixon favored regulation of pollution.",
+        "The passage concerns domestic policy, and both presidents pursued strategies in the Cold War.",
+        "The passages do not discuss tariffs.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Both were Republican presidents, but they took different views of how the government should address problems.",
+      stimulusId: "nixon-sotu-1970-environment",
+      stimulusBlocks: [excerpts.nixonEnvironment],
+    },
+    {
+      id: "world-9-3-m2-16d",
+      topicId: "world-9-3",
+      concept: "environmental-debates",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Nixon was most likely to raise environmental concerns in this address because",
+      choices: [
+        "scientists had already agreed on a binding global treaty on pollution",
+        "Congress had just ratified the Kyoto Protocol on climate",
+        "public concern about pollution was growing and Earth Day was near",
+        "industry leaders had asked Congress for stricter pollution rules",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Environmental concern was rising in 1969–1970, and Earth Day took place in April 1970.",
+      sourceIds: ["ced-topic-9-3"],
+      choiceExplanations: [
+        "No global treaty on pollution existed in 1970.",
+        "The Kyoto Protocol was negotiated in 1997, decades after this address.",
+        "Environmental concern was rising in 1969–1970, and Earth Day took place in April 1970.",
+        "The passage describes the need for new regulation, not requests from industry.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Industry did respond to regulation, but the pressure for it came from public concern.",
+      stimulusId: "nixon-sotu-1970-environment",
+      stimulusBlocks: [excerpts.nixonEnvironment],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

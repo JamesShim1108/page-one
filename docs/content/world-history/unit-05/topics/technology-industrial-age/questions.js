@@ -226,6 +226,98 @@ export const bank = {
       stimulusId: "original-steam-technology",
       stimulusBlocks: [excerpts.originalSteam],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-5-5-m2-09a",
+      topicId: "world-5-5",
+      concept: "steam-transport",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which effect of railroads is supported by the passage?",
+      choices: [
+        "They lowered the cost of moving both raw materials and finished goods",
+        "They replaced the telegraph as the fastest means of communication",
+        "They made ocean shipping unnecessary",
+        "They reduced the demand for coal",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The passage says railroads carried raw materials and goods at lower cost.",
+      sourceIds: ["ced-topic-5-5"],
+      choiceExplanations: [
+        "The passage says railroads carried raw materials and goods at lower cost.",
+        "The telegraph sent messages in seconds, which railroads could not match.",
+        "Steamships and the Suez Canal made ocean shipping more important.",
+        "The passage does not say demand for coal fell; steam transport used coal.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Railroads sped travel on land, but they did not replace sea shipping or the telegraph.",
+      stimulusId: "mock2-steam-transport",
+      stimulusBlocks: [excerpts.m2Steam],
+    },
+    {
+      id: "world-5-5-m2-09b",
+      topicId: "world-5-5",
+      concept: "steam-transport",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "The opening of the Suez Canal in 1869 most directly encouraged",
+      choices: [
+        "The decline of steamship travel between Europe and India after 1869",
+        "The end of British interest in the political affairs of Egypt",
+        "A shift of the main trade routes from the Atlantic to the Pacific Ocean",
+        "Easier European trade and control in Asia through a shorter route east",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The canal cut the voyage between Europe and Asia, which made trade and imperial control easier.",
+      sourceIds: ["ced-topic-5-5"],
+      choiceExplanations: [
+        "The canal made steamship travel to India more attractive.",
+        "Britain became more interested in Egypt and took control in 1882.",
+        "The canal connected the Mediterranean and the Red Sea, not the Atlantic and Pacific.",
+        "The canal cut the voyage between Europe and Asia, which made trade and imperial control easier.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Panama Canal later shortened Atlantic–Pacific travel, but the Suez Canal served the route to Asia.",
+      stimulusId: "mock2-steam-transport",
+      stimulusBlocks: [excerpts.m2Steam],
+    },
+    {
+      id: "world-5-5-m2-09c",
+      topicId: "world-5-5",
+      concept: "second-industrial",
+      difficulty: "Apply",
+      skill: "contextualization",
+      reasoning: "continuity",
+      prompt:
+        "The growth of electricity and petroleum in the late 1800s is best described as",
+      choices: [
+        "the end of industrial growth in Britain and Europe",
+        "a return to hand production in small family workshops",
+        "a second wave of industry that built on steam power",
+        "the first use of machines in the manufacture of goods",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "New energy sources and industries expanded on the factories and transport that steam had created.",
+      sourceIds: ["ced-topic-5-5"],
+      choiceExplanations: [
+        "Industrial growth continued and spread to Germany and the United States.",
+        "Industry used more machines, not fewer.",
+        "New energy sources and industries expanded on the factories and transport that steam had created.",
+        "Machines had been used in textile mills since the late 1700s.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Britain led the first wave, but the second wave brought rapid growth elsewhere, especially in Germany and the United States.",
+      stimulusId: "mock2-steam-transport",
+      stimulusBlocks: [excerpts.m2Steam],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

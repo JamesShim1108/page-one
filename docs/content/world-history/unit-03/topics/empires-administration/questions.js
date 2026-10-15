@@ -704,6 +704,188 @@ export const bank = {
       stimulusId: "original-qing-administration",
       stimulusBlocks: [excerpts.originalQingAdministration],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-3-2-m1-04a",
+      topicId: "world-3-2",
+      concept: "bureaucracy-military",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Busbecq's position as a Habsburg ambassador most likely shaped his letter by",
+      choices: [
+        "requiring him to praise the sultan's religious teachings to Habsburg readers",
+        "preventing him from seeing how Ottoman officials were chosen and promoted",
+        "leading him to contrast Ottoman merit with advancement by birth at home",
+        "encouraging him to exaggerate the size of Habsburg armies to impress the sultan",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "As a European noble-born diplomat, he noticed the difference between Ottoman and European ways of rewarding service and said so to a friend at home.",
+      sourceIds: ["ced-topic-3-2"],
+      choiceExplanations: [
+        "He wrote about government and the army, not Ottoman religious teaching.",
+        "He was received at the court and describes the assembly in detail.",
+        "As a European noble-born diplomat, he noticed the difference between Ottoman and European ways of rewarding service and said so to a friend at home.",
+        "The passage compares Ottoman and Habsburg systems of promotion, not the size of armies.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Diplomats often reported on military strength, but this passage concerns how officials were chosen.",
+      stimulusId: "busbecq-merit",
+      stimulusBlocks: [excerpts.busbecqMerit],
+    },
+    {
+      id: "world-3-2-m1-04b",
+      topicId: "world-3-2",
+      concept: "bureaucracy-military",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "Which Ottoman institution most directly produced many of the officials and soldiers whose rise Busbecq describes?",
+      choices: [
+        "The timar system, which granted tax revenue to cavalrymen in return for service",
+        "The devshirme, which recruited Christian boys to serve as soldiers and officials",
+        "The millet system, which let religious communities govern their own affairs",
+        "The civil service examinations, which tested candidates on Confucian learning",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Boys taken through the devshirme owed their careers to the sultan, and many rose to be Janissaries or high officials regardless of birth.",
+      sourceIds: ["ced-topic-3-2"],
+      choiceExplanations: [
+        "Timar grants supported cavalry, mostly from established families, not the shepherds' sons Busbecq mentions.",
+        "Boys taken through the devshirme owed their careers to the sultan, and many rose to be Janissaries or high officials regardless of birth.",
+        "The millet system managed religious communities and did not train officials.",
+        "Confucian examinations were a Chinese institution.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Timar holders were an important part of the army, but the officials who rose from humble backgrounds came from the devshirme.",
+      stimulusId: "busbecq-merit",
+      stimulusBlocks: [excerpts.busbecqMerit],
+    },
+    {
+      id: "world-3-2-m1-04c",
+      topicId: "world-3-2",
+      concept: "bureaucracy-military",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "Busbecq's description of Ottoman promotion is most similar to which practice in another land-based empire?",
+      choices: [
+        "The Qing use of civil service examinations to recruit officials",
+        "The Safavid reliance on hereditary tribal chiefs for high offices",
+        "The Tokugawa grant of hereditary domains to lords",
+        "The French sale of offices to nobles",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Both systems gave ability a path into government, at least in part, instead of relying only on birth.",
+      sourceIds: ["ced-topic-3-2"],
+      choiceExplanations: [
+        "Both systems gave ability a path into government, at least in part, instead of relying only on birth.",
+        "Safavid tribal chiefs held rank by descent, so the comparison with merit fails.",
+        "Tokugawa domain lords held land by inheritance.",
+        "Selling offices to nobles rewarded wealth and birth rather than merit.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Early Safavid power rested on tribal chiefs, a birth-based system, so it contrasts with the Ottoman approach.",
+      stimulusId: "busbecq-merit",
+      stimulusBlocks: [excerpts.busbecqMerit],
+    },
+    {
+      id: "world-3-2-m3-05a",
+      topicId: "world-3-2",
+      concept: "art-architecture",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which purpose of monumental building is best supported by the passage?",
+      choices: [
+        "Housing the large armies that defended the empire",
+        "Collecting taxes from the communities near each monument",
+        "Showing the ruler's power, wealth, and religious devotion",
+        "Providing shelter for merchants traveling the trade routes",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The passage begins by saying that empires used architecture to display power and faith.",
+      sourceIds: ["ced-topic-3-2"],
+      choiceExplanations: [
+        "The passage does not describe barracks.",
+        "The passage describes mosques, a tomb, and a palace and does not describe taxation.",
+        "The passage begins by saying that empires used architecture to display power and faith.",
+        "The passage does not describe caravanserais.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Rulers did also build for practical purposes, but the passage stresses display.",
+      stimulusId: "mock3-monumental-architecture",
+      stimulusBlocks: [excerpts.m3Architecture],
+    },
+    {
+      id: "world-3-2-m3-05b",
+      topicId: "world-3-2",
+      concept: "art-architecture",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt: "What do the Taj Mahal and the Imam Mosque in Isfahan have in common?",
+      choices: [
+        "Both were built to commemorate victories over European armies",
+        "Both were built as tombs for the rulers who ordered them",
+        "Both used Persian-influenced decoration to glorify a ruler's reign",
+        "Both were designed by the same Ottoman architect",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Persian decorative traditions, such as colored tile and refined ornament, shaped both monuments, which celebrated their rulers.",
+      sourceIds: ["ced-topic-3-2"],
+      choiceExplanations: [
+        "Neither commemorates a victory over European armies.",
+        "The Taj Mahal is a tomb for Mumtaz Mahal; the Imam Mosque is a mosque, not a tomb.",
+        "Persian decorative traditions, such as colored tile and refined ornament, shaped both monuments, which celebrated their rulers.",
+        "Sinan designed the Süleymaniye Mosque in Istanbul, not these buildings.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Sinan was a famous imperial architect, but his work belonged to the Ottoman Empire.",
+      stimulusId: "mock3-monumental-architecture",
+      stimulusBlocks: [excerpts.m3Architecture],
+    },
+    {
+      id: "world-3-2-m3-05c",
+      topicId: "world-3-2",
+      concept: "art-architecture",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The mixing of Persian, Islamic, and Indian traditions in the Taj Mahal best reflects",
+      choices: [
+        "a rejection of foreign influence by Mughal rulers",
+        "the Mughal adoption of Chinese imperial palace design",
+        "the replacement of Islamic art by European styles",
+        "cultural blending in the Mughal Empire",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Mughal rulers drew on Persian court culture and Indian traditions, and their monuments show that mixture.",
+      sourceIds: ["ced-topic-3-2"],
+      choiceExplanations: [
+        "The passage shows foreign influence being welcomed.",
+        "The passage names Persian, Islamic, and Indian traditions, not Chinese ones.",
+        "European styles did not replace Islamic art in Mughal buildings of this period.",
+        "Mughal rulers drew on Persian court culture and Indian traditions, and their monuments show that mixture.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Persian influence was foreign to India, but the Mughals combined it with local styles and did not reject it.",
+      stimulusId: "mock3-monumental-architecture",
+      stimulusBlocks: [excerpts.m3Architecture],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

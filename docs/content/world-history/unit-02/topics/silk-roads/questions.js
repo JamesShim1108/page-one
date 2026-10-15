@@ -725,6 +725,129 @@ export const bank = {
       distinguisher:
         "“To what extent” calls for a claim about degree that also names limits.",
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-2-1-m1-02a",
+      topicId: "world-2-1",
+      concept: "commercial-practices",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which practice does the passage identify as a way merchants reduced the risks of long-distance trade?",
+      choices: [
+        "Carrying large reserves of coin on every journey",
+        "Using credit instruments and shared investment partnerships",
+        "Traveling the entire route to guard their goods personally",
+        "Relying on state monopolies over all foreign trade",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Bills of exchange, letters of credit, and partnerships let merchants avoid carrying coin and spread risk among investors.",
+      sourceIds: ["ced-topic-2-1"],
+      choiceExplanations: [
+        "The passage says credit let merchants avoid carrying large amounts of coin.",
+        "Bills of exchange, letters of credit, and partnerships let merchants avoid carrying coin and spread risk among investors.",
+        "The passage says few merchants traveled the whole distance.",
+        "The passage does not mention state monopolies.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Merchants did carry some coin, but the passage presents credit as the way they limited that risk.",
+      stimulusId: "mock1-silk-road-practice",
+      stimulusBlocks: [excerpts.m1SilkRoads],
+    },
+    {
+      id: "world-2-1-m1-02b",
+      topicId: "world-2-1",
+      concept: "cities-production",
+      difficulty: "Apply",
+      skill: "developments",
+      reasoning: "comparison",
+      prompt:
+        "The role of Samarkand as described in the passage was most similar to the role of",
+      choices: [
+        "Cuzco, where the Inca state organized labor service for its roads",
+        "Paris, where scholars from across Europe gathered at a university",
+        "Malacca, where merchants from different seas exchanged goods",
+        "Tenochtitlan, where the Mexica collected tribute from conquered peoples",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Samarkand served as a point where traders passed goods from one group to the next, as Malacca did for ships from different seas.",
+      sourceIds: ["ced-topic-2-1"],
+      choiceExplanations: [
+        "Cuzco was the center of an Inca labor and administrative system, not a market where traders met.",
+        "Paris was a center of learning, not an exchange point on a trade route.",
+        "Samarkand served as a point where traders passed goods from one group to the next, as Malacca did for ships from different seas.",
+        "Tenochtitlan collected tribute from conquered peoples; exchange there was secondary to that system.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Tenochtitlan had large markets, but the Mexica capital drew wealth mainly by tribute instead of acting as a meeting point between trade networks.",
+      stimulusId: "mock1-silk-road-practice",
+      stimulusBlocks: [excerpts.m1SilkRoads],
+    },
+    {
+      id: "world-2-1-m1-02c",
+      topicId: "world-2-1",
+      concept: "exchange-limits",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "Which conclusion is best supported by the final sentence of the passage?",
+      choices: [
+        "A common language united all of Eurasia",
+        "Intermediaries were eliminated from long-distance trade",
+        "A single state controlled every trade route",
+        "Trade routes could spread diseases as well as goods",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage says ideas, crops, and diseases moved along the routes, so the same networks that carried silk could carry illness.",
+      sourceIds: ["ced-topic-2-1"],
+      choiceExplanations: [
+        "The passage does not mention a common Eurasian language.",
+        "The passage says goods passed through many hands, so intermediaries were common.",
+        "The passage describes many separate traders and cities, not one controlling state.",
+        "The passage says ideas, crops, and diseases moved along the routes, so the same networks that carried silk could carry illness.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Mongol rule did make some routes safer, but the passage shows many traders, not control by one state.",
+      stimulusId: "mock1-silk-road-practice",
+      stimulusBlocks: [excerpts.m1SilkRoads],
+    },
+    {
+      id: "world-2-1-m1-02d",
+      topicId: "world-2-1",
+      concept: "trade-growth",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "Which development of the 1200s most directly contributed to the safety of the overland routes described in the passage?",
+      choices: [
+        "The Ottoman capture of Constantinople and its Black Sea ports",
+        "Portuguese voyages along the African coast toward India",
+        "Mongol conquests that united much of Eurasia",
+        "The reunification of China under the Tang dynasty in the 600s",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The Mongol conquests joined much of Eurasia under related rulers, who protected merchants and travelers.",
+      sourceIds: ["ced-topic-2-1"],
+      choiceExplanations: [
+        "The Ottoman capture of Constantinople took place in 1453, after the period.",
+        "Portuguese voyages along Africa began in the 1400s and shifted trade to sea routes.",
+        "The Mongol conquests joined much of Eurasia under related rulers, who protected merchants and travelers.",
+        "Tang rule ended in 907 and helped earlier trade, but it was not a development of the 1200s.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "The Tang dynasty encouraged Silk Road trade, but it fell centuries before the period of the passage.",
+      stimulusId: "mock1-silk-road-practice",
+      stimulusBlocks: [excerpts.m1SilkRoads],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

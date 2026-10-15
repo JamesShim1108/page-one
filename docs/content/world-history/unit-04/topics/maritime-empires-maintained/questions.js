@@ -459,6 +459,128 @@ export const bank = {
       stimulusId: "original-trade-restrictions",
       stimulusBlocks: [excerpts.originalRestrictions],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-4-5-m2-06a",
+      topicId: "world-4-5",
+      concept: "labor-systems",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt: "The Spanish system for obtaining labor at Potosí was adapted from",
+      choices: [
+        "the Ottoman devshirme levy",
+        "the Inca mit'a labor service",
+        "the Atlantic plantation slave trade",
+        "the Mongol yam relay stations",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The passage says the Spanish adapted the Inca mit'a, requiring communities to send men to the mines.",
+      sourceIds: ["ced-topic-4-5"],
+      choiceExplanations: [
+        "The devshirme drafted boys for Ottoman service and was unrelated.",
+        "The passage says the Spanish adapted the Inca mit'a, requiring communities to send men to the mines.",
+        "Plantation slavery used enslaved Africans bought through the Atlantic trade.",
+        "The yam was a relay system for messengers, not a labor draft.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The Spanish also used the encomienda, but the Potosí system borrowed from the Inca mit'a.",
+      stimulusId: "mock2-potosi-silver",
+      stimulusBlocks: [excerpts.m2Silver],
+    },
+    {
+      id: "world-4-5-m2-06b",
+      topicId: "world-4-5",
+      concept: "silver-trade",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which statement is supported by the passage's description of the silver trade?",
+      choices: [
+        "Chinese silver mines supplied most of the silver that Europe used",
+        "Spain kept all of the silver from its colonies in its own treasury",
+        "Mining at Potosí had little effect on the Indigenous communities",
+        "American silver linked the Americas, Europe, and China",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Silver flowed from the Americas to Spain and, through Manila, to China.",
+      sourceIds: ["ced-topic-4-5"],
+      choiceExplanations: [
+        "The passage describes silver moving to China, not from it.",
+        "The passage says a large share of the silver went to China.",
+        "The passage says many miners died and communities had to send men to the mines.",
+        "Silver flowed from the Americas to Spain and, through Manila, to China.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Spain received much silver, but the passage shows that a large share did not stay there.",
+      stimulusId: "mock2-potosi-silver",
+      stimulusBlocks: [excerpts.m2Silver],
+    },
+    {
+      id: "world-4-5-m2-06c",
+      topicId: "world-4-5",
+      concept: "silver-trade",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "China's demand for silver in the 1500s and 1600s was most directly a result of",
+      choices: [
+        "the Spanish founding of the port of Manila in 1571",
+        "a Ming need for silver to pay Portuguese spice traders",
+        "a Ming ban on exporting silk to Europe",
+        "Ming taxes that had to be paid in silver",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Because taxes were paid in silver, the Chinese economy needed large amounts of it.",
+      sourceIds: ["ced-topic-4-5"],
+      choiceExplanations: [
+        "Manila gave the Spanish a place to trade with China but did not create China's demand.",
+        "Chinese demand came from domestic taxes and commerce, not from paying for spices.",
+        "China exported silk; it did not ban silk exports.",
+        "Because taxes were paid in silver, the Chinese economy needed large amounts of it.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The founding of Manila made the Pacific trade possible, but demand for silver existed in China before it.",
+      stimulusId: "mock2-potosi-silver",
+      stimulusBlocks: [excerpts.m2Silver],
+    },
+    {
+      id: "world-4-5-m2-06d",
+      topicId: "world-4-5",
+      concept: "silver-trade",
+      difficulty: "Apply",
+      skill: "contextualization",
+      reasoning: "continuity",
+      prompt: "Which long-term effect did the flow of American silver have on Spain?",
+      choices: [
+        "Inflation and costly wars that weakened its economy",
+        "A permanent trade surplus with Asia",
+        "A decline in imports of luxury goods",
+        "The growth of a large class of Spanish manufacturers",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Silver raised prices in Spain, and the crown spent much of it on wars and imports instead of building local industry.",
+      sourceIds: ["ced-topic-4-5"],
+      choiceExplanations: [
+        "Silver raised prices in Spain, and the crown spent much of it on wars and imports instead of building local industry.",
+        "Spain bought Asian goods and depended on silver to pay for them.",
+        "Silver encouraged imports of goods.",
+        "Spain relied on imports rather than building up its own manufacturing.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Spain gained great wealth, but the wealth did not produce lasting economic strength.",
+      stimulusId: "mock2-potosi-silver",
+      stimulusBlocks: [excerpts.m2Silver],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

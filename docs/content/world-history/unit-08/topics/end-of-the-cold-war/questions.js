@@ -307,6 +307,99 @@ export const bank = {
       stimulusId: "original-soviet-collapse",
       stimulusBlocks: [excerpts.originalGorbachev],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-8-8-m2-15a",
+      topicId: "world-8-8",
+      concept: "revolutions-1989",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which action best shows how Gorbachev changed Soviet policy toward Eastern Europe?",
+      choices: [
+        "He sent troops into Czechoslovakia to end its reforms",
+        "He refused to send troops to save communist governments",
+        "He ordered a wall built to divide the city of Berlin",
+        "He founded the Warsaw Pact to defend Eastern Europe",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "In 1989 Gorbachev let Eastern European governments fall, reversing earlier Soviet interventions.",
+      sourceIds: ["ced-topic-8-8"],
+      choiceExplanations: [
+        "The Soviets sent troops into Czechoslovakia in 1968, before Gorbachev.",
+        "In 1989 Gorbachev let Eastern European governments fall, reversing earlier Soviet interventions.",
+        "The Berlin Wall was built in 1961.",
+        "The Warsaw Pact was signed in 1955.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Soviet troops had put down reform in 1968, which makes his refusal in 1989 a reversal.",
+      stimulusId: "mock2-gorbachev-reforms",
+      stimulusBlocks: [excerpts.m2Glasnost],
+    },
+    {
+      id: "world-8-8-m2-15b",
+      topicId: "world-8-8",
+      concept: "soviet-decline",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "Glasnost contributed to the collapse of the Soviet Union primarily by",
+      choices: [
+        "restoring strict censorship in the Soviet republics",
+        "ending the war in Afghanistan and withdrawing troops",
+        "restoring private ownership of all Soviet industry",
+        "allowing criticism of the party and encouraging nationalism",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Openness let citizens criticize the party, and nationalist movements in republics such as the Baltic states gained strength.",
+      sourceIds: ["ced-topic-8-8"],
+      choiceExplanations: [
+        "Glasnost loosened censorship.",
+        "The war in Afghanistan ended in 1989, but glasnost was a policy of openness.",
+        "Perestroika allowed limited private enterprise, and not all industry.",
+        "Openness let citizens criticize the party, and nationalist movements in republics such as the Baltic states gained strength.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Ending the Afghan war eased a burden, but it did not weaken the party's control in the way open criticism did.",
+      stimulusId: "mock2-gorbachev-reforms",
+      stimulusBlocks: [excerpts.m2Glasnost],
+    },
+    {
+      id: "world-8-8-m2-15c",
+      topicId: "world-8-8",
+      concept: "soviet-decline",
+      difficulty: "Challenge",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "A key difference between Gorbachev's reforms and those of Deng Xiaoping in China was that",
+      choices: [
+        "Gorbachev kept the party's monopoly while Deng allowed multiparty elections",
+        "Deng ended state ownership of all industry and Gorbachev did not",
+        "Deng allowed market reforms while keeping the Communist Party's political monopoly",
+        "Gorbachev opened special economic zones for foreign investment",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Deng combined economic liberalization with strict party control, while Gorbachev's openness weakened the party's grip.",
+      sourceIds: ["ced-topic-8-8"],
+      choiceExplanations: [
+        "The statement reverses the two leaders' approaches.",
+        "Neither leader ended state ownership of all industry.",
+        "Deng combined economic liberalization with strict party control, while Gorbachev's openness weakened the party's grip.",
+        "Deng, not Gorbachev, opened special economic zones.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Both leaders introduced reform, but the Chinese leadership kept political control as it opened the economy.",
+      stimulusId: "mock2-gorbachev-reforms",
+      stimulusBlocks: [excerpts.m2Glasnost],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

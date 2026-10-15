@@ -447,6 +447,126 @@ export const bank = {
       stimulusBlocks: [excerpts.originalEastAsiaAdaptation],
     },
     // END unit-01 practice test
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-1-1-m3-01a",
+      topicId: "world-1-1",
+      concept: "governance",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which statement about Song officials is best supported by the passage?",
+      choices: [
+        "Officials inherited their posts from fathers who had served the emperor",
+        "Only military commanders could hold civil offices in the government",
+        "Women who were wealthy enough were allowed to sit the examinations",
+        "Advancement by examination was open to more than nobles, but costly",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage says candidates could rise regardless of birth but that the long years of study favored families who could afford teachers.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "The passage describes selection by examination, not inheritance.",
+        "The passage describes civil service examinations on Confucian texts.",
+        "The passage says nothing about women taking examinations.",
+        "The passage says candidates could rise regardless of birth but that the long years of study favored families who could afford teachers.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Wealth gave an advantage in preparing for the examinations, but the passage does not make posts hereditary.",
+      stimulusId: "mock3-song-china",
+      stimulusBlocks: [excerpts.m3Song],
+    },
+    {
+      id: "world-1-1-m3-01b",
+      topicId: "world-1-1",
+      concept: "economy",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt: "Champa rice contributed to the Song economy primarily by",
+      choices: [
+        "allowing two harvests a year and supporting more people",
+        "replacing paper money as the main means of exchange",
+        "removing the need for farmers to pay taxes to the state",
+        "replacing millet as the staple crop of the northern steppe",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Fast-ripening rice allowed more food per year, supporting more people and trade.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "Fast-ripening rice allowed more food per year, supporting more people and trade.",
+        "Paper money and rice were separate developments, and the passage connects rice to harvests.",
+        "The passage does not say rice reduced taxes.",
+        "Champa rice grew in the wet south; it raised southern harvests rather than changing steppe diets.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Song trade did expand, but the passage ties rice directly to farming output.",
+      stimulusId: "mock3-song-china",
+      stimulusBlocks: [excerpts.m3Song],
+    },
+    {
+      id: "world-1-1-m3-01c",
+      topicId: "world-1-1",
+      concept: "influence",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which later development in East Asia was most directly influenced by Song-era Neo-Confucianism?",
+      choices: [
+        "The spread of Theravada Buddhism in Southeast Asian kingdoms",
+        "Joseon Korea's use of Confucian education as state ideology",
+        "The Mongol use of relay stations to govern across Eurasia",
+        "Japan's shogunate built on hereditary warrior rule",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Korea's Joseon dynasty, founded in 1392, made Neo-Confucianism the basis of its government and schools.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "Theravada Buddhism spread from Sri Lanka, not from Song Neo-Confucian scholarship.",
+        "Korea's Joseon dynasty, founded in 1392, made Neo-Confucianism the basis of its government and schools.",
+        "The yam system was a Mongol institution, not a product of Neo-Confucian learning.",
+        "The shogunate rested on hereditary warrior status, not Confucian examinations.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Japan also absorbed Confucian ideas, but its shogunate rested on hereditary warrior rule rather than Confucian state education.",
+      stimulusId: "mock3-song-china",
+      stimulusBlocks: [excerpts.m3Song],
+    },
+    {
+      id: "world-1-1-m3-01d",
+      topicId: "world-1-1",
+      concept: "beliefs",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt: "The spread of foot binding among Song elites is best seen as evidence of",
+      choices: [
+        "a rejection of Confucian ideas about family and gender roles",
+        "Buddhist reforms intended to improve the health of women",
+        "patriarchal norms that limited the mobility of elite women",
+        "Mongol customs that elite Chinese families adopted early",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Foot binding limited the mobility of women and reflected expectations about gender within elite families.",
+      sourceIds: ["ced-topic-1-1"],
+      choiceExplanations: [
+        "Confucian ideas about family hierarchy supported, not rejected, these norms.",
+        "Foot binding was painful and harmful to women, not a health reform.",
+        "Foot binding limited the mobility of women and reflected expectations about gender within elite families.",
+        "The Mongols did not conquer China until the late 1200s, and foot binding began earlier.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Mongols later ruled China, but the practice spread under the Song and continued after them.",
+      stimulusId: "mock3-song-china",
+      stimulusBlocks: [excerpts.m3Song],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

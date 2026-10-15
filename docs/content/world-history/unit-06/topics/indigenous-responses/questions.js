@@ -358,6 +358,127 @@ export const bank = {
       stimulusId: "original-spiritual-resistance",
       stimulusBlocks: [excerpts.originalSpiritualResistance],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-6-3-m3-10a",
+      topicId: "world-6-3",
+      concept: "religious-movements",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which belief helped unite people against German rule, according to the passage?",
+      choices: [
+        "That joining a Christian mission would protect their villages",
+        "That the rebels would be protected by the British army",
+        "That water blessed by a spirit would turn German bullets to water",
+        "That the spirits of the ancestors would defeat the Germans in a single battle",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The spirit medium Kinjikitile taught that the maji water would make German bullets harmless.",
+      sourceIds: ["ced-topic-6-3"],
+      choiceExplanations: [
+        "The passage names a spirit medium's blessed water, not Christian missions, as the uniting belief.",
+        "The passage does not mention the British.",
+        "The spirit medium Kinjikitile taught that the maji water would make German bullets harmless.",
+        "The passage describes a belief about water, not a single battle.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "The rebels' beliefs involved spirits, but the passage ties unity to the water that protected them.",
+      stimulusId: "mock3-maji-maji",
+      stimulusBlocks: [excerpts.m3MajiMaji],
+    },
+    {
+      id: "world-6-3-m3-10b",
+      topicId: "world-6-3",
+      concept: "armed-resistance",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "Which German colonial policy most directly helped trigger the rebellion?",
+      choices: [
+        "A ban on missionary schools in the colony",
+        "A requirement that villagers move into German-built towns",
+        "The seizure of all firearms owned by villagers",
+        "Forced growing of cotton for export along with cash taxes",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage says officials imposed cash taxes and forced villagers to grow cotton on communal plots.",
+      sourceIds: ["ced-topic-6-3"],
+      choiceExplanations: [
+        "The passage does not mention missionary schools.",
+        "The passage blames forced cotton growing and cash taxes, not resettlement.",
+        "The passage does not mention disarmament.",
+        "The passage says officials imposed cash taxes and forced villagers to grow cotton on communal plots.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Colonial governments often disarmed local populations, but the cause named here was forced labor.",
+      stimulusId: "mock3-maji-maji",
+      stimulusBlocks: [excerpts.m3MajiMaji],
+    },
+    {
+      id: "world-6-3-m3-10c",
+      topicId: "world-6-3",
+      concept: "armed-resistance",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt: "The Maji Maji Rebellion was most similar to which other movement?",
+      choices: [
+        "The Meiji Restoration, which adopted Western technology to strengthen Japan",
+        "The Boxer Rebellion, which mixed ritual with armed resistance",
+        "The Indian National Congress, which used petitions and boycotts",
+        "The Taiping program for land reform and social change in China",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Both rebellions used spiritual beliefs about protection to rally fighters against foreign control.",
+      sourceIds: ["ced-topic-6-3"],
+      choiceExplanations: [
+        "The Meiji Restoration was a government program, not a rebellion.",
+        "Both rebellions used spiritual beliefs about protection to rally fighters against foreign control.",
+        "The Congress used political pressure and was not primarily an armed rebellion.",
+        "The Taipings challenged the Qing state from within China and not a foreign power.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Congress resisted British rule, but it used methods different from the Maji Maji fighters.",
+      stimulusId: "mock3-maji-maji",
+      stimulusBlocks: [excerpts.m3MajiMaji],
+    },
+    {
+      id: "world-6-3-m3-10d",
+      topicId: "world-6-3",
+      concept: "armed-resistance",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt: "The Maji Maji Rebellion is best understood as part of",
+      choices: [
+        "African resistance to the new imperialism of the 1900s",
+        "the spread of Islam into East Africa along trade routes",
+        "the collapse of the Mali Empire in West Africa after 1450",
+        "the decolonization movements of the 1950s and 1960s",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The rebellion took place in a colony created during the partition of Africa after the Berlin Conference.",
+      sourceIds: ["ced-topic-6-3"],
+      choiceExplanations: [
+        "The rebellion took place in a colony created during the partition of Africa after the Berlin Conference.",
+        "The rebellion was a reaction to colonial rule, not an Islamic expansion.",
+        "Mali declined long before 1905.",
+        "The 1950s were half a century later.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Anticolonial resistance continued into the 1950s, but the rebellion took place at the height of imperial expansion.",
+      stimulusId: "mock3-maji-maji",
+      stimulusBlocks: [excerpts.m3MajiMaji],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

@@ -309,6 +309,97 @@ export const bank = {
       stimulusId: "original-proxy-wars",
       stimulusBlocks: [excerpts.originalProxyWars],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-8-3-m3-14a",
+      topicId: "world-8-3",
+      concept: "arms-race",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which detail shows that both superpowers made concessions to end the crisis?",
+      choices: [
+        "Khrushchev agreed to remove missiles and the United States agreed to nothing",
+        "The United States promised not to invade Cuba and removed its Turkish missiles",
+        "The United States removed its navy from the Caribbean while Soviet missiles stayed",
+        "The Soviets removed their missiles in exchange for aid to Cuba",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Each side gave something: the Soviets withdrew missiles and the Americans promised not to invade Cuba and removed missiles from Turkey.",
+      sourceIds: ["ced-topic-8-3"],
+      choiceExplanations: [
+        "The passage describes American promises in exchange.",
+        "Each side gave something: the Soviets withdrew missiles and the Americans promised not to invade Cuba and removed missiles from Turkey.",
+        "The passage says the missiles were removed.",
+        "The passage names a promise not to invade Cuba and the removal of missiles from Turkey, not aid.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Khrushchev did remove the missiles, but the passage shows the United States also made commitments.",
+      stimulusId: "mock3-cuban-missile-crisis",
+      stimulusBlocks: [excerpts.m3Cuba],
+    },
+    {
+      id: "world-8-3-m3-14b",
+      topicId: "world-8-3",
+      concept: "arms-race",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "Which long-term result of the crisis is shown in the passage?",
+      choices: [
+        "A permanent American military base on the island of Cuba",
+        "A hotline and test ban to reduce the risk of nuclear war",
+        "The end of the arms race between the two superpowers",
+        "A Soviet withdrawal from the United Nations in 1963",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "In 1963 the powers installed a hotline and signed a treaty banning atmospheric tests.",
+      sourceIds: ["ced-topic-8-3"],
+      choiceExplanations: [
+        "The passage says the United States promised not to invade Cuba.",
+        "In 1963 the powers installed a hotline and signed a treaty banning atmospheric tests.",
+        "The arms race continued for decades.",
+        "The passage does not describe a Soviet withdrawal from the UN.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The test ban was a step toward arms control, but it did not end the arms race.",
+      stimulusId: "mock3-cuban-missile-crisis",
+      stimulusBlocks: [excerpts.m3Cuba],
+    },
+    {
+      id: "world-8-3-m3-14c",
+      topicId: "world-8-3",
+      concept: "proxy-wars",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt: "The placement of Soviet missiles in Cuba is best explained by",
+      choices: [
+        "a Soviet effort to restore Batista to power in Cuba",
+        "a Soviet plan to support Cuban troops fighting in Angola",
+        "Cuba's alliance with the Soviet Union and the nuclear rivalry",
+        "an agreement among Latin American states to host weapons",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "After Fidel Castro's revolution, Cuba aligned with the Soviet Union, and Soviet leaders sought to offset American missiles near their borders.",
+      sourceIds: ["ced-topic-8-3"],
+      choiceExplanations: [
+        "Batista was the dictator Castro overthrew; the Soviets backed Castro.",
+        "Cuban troops went to Angola in 1975, more than a decade later.",
+        "After Fidel Castro's revolution, Cuba aligned with the Soviet Union, and Soviet leaders sought to offset American missiles near their borders.",
+        "Latin American states did not agree to host weapons.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Soviets did back Cuba, but they supported Castro, who had overthrown Batista.",
+      stimulusId: "mock3-cuban-missile-crisis",
+      stimulusBlocks: [excerpts.m3Cuba],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

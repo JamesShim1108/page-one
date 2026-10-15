@@ -494,6 +494,14 @@ export async function compileContent(root = projectRoot) {
         [],
       );
       uniqueById(writing, unitRoot);
+      // Prompts written for mock exams stay off unit pages so the exam stays unseen.
+      for (const quiz of writing)
+        requireValue(
+          quiz.examOnly === undefined || typeof quiz.examOnly === "boolean",
+          unitRoot,
+          `${quiz.id}.examOnly must be boolean`,
+        );
+      const practiceWriting = writing.filter((quiz) => !quiz.examOnly);
       const availableTopics = record.topics.filter(
         (topic) =>
           course.status === "ready" &&
@@ -545,7 +553,7 @@ export async function compileContent(root = projectRoot) {
           ? topicSummary(availableTopics[0].lesson)
           : null,
         hasGuide: Boolean(guide) && unit.status === "ready",
-        writingQuizzes: (unit.status === "ready" ? writing : []).map((quiz) => ({
+        writingQuizzes: (unit.status === "ready" ? practiceWriting : []).map((quiz) => ({
           id: quiz.id,
           title: quiz.title,
           partCount: quiz.parts?.length || quiz.responseFields?.length || 0,
@@ -701,7 +709,7 @@ export async function compileContent(root = projectRoot) {
             `${unitRoot} ${quiz.id}`,
           );
           requireValue(
-            writing.some(
+            practiceWriting.some(
               (item) =>
                 (item.exerciseType || "saq") === "saq" && item.stimulusBlocks?.length,
             ),
@@ -970,12 +978,14 @@ export async function compileContent(root = projectRoot) {
       for (const quiz of writing) {
         validateWriting(quiz, topics, framework, unit, unitRoot, sources);
         courseWriting.set(quiz.id, { quiz, unit });
+        if (quiz.examOnly) continue;
         route("writing", quiz.id, `${course.id}/writing/${quiz.id}.json`);
         emit(routes.writing[quiz.id], { course, unit: unitInfo, framework, quiz });
       }
     }
     // Mock exams assemble existing questions and prompts into the course's exam format.
     const examSummaries = [];
+    const examWritingIds = new Set();
     const examsRoot = join(courseRoot, "exams");
     const formatFile = join(courseRoot, "exam-format.js");
     // The format is checked even before any exam uses it.
@@ -1026,9 +1036,19 @@ export async function compileContent(root = projectRoot) {
             sources: format.sourceIds.map((id) => sources.get(id)),
           });
           examSummaries.push({ ...summary, revision });
+          for (const section of payload.sections)
+            for (const prompt of section.prompts || [])
+              prompt.options.forEach((option) => examWritingIds.add(option.id));
         } else examSummaries.push(summary);
       }
     }
+    // An exam-only prompt that no ready exam uses would be unreachable.
+    for (const [id, { quiz }] of courseWriting)
+      requireValue(
+        !quiz.examOnly || examWritingIds.has(id),
+        folder,
+        `${id} is examOnly but no ready mock exam uses it`,
+      );
     const catalogEntry = {
       ...course,
       ...(examSummaries.length ? { examCount: examSummaries.length } : {}),

@@ -9,6 +9,7 @@
     "period": "c. 1200–present",
     "order": 1,
     "previewDescription": "Explore how states rose, belief systems spread, trade networks connected regions, and revolutions reshaped societies from c. 1200 to the present.",
+    "examCount": 3,
     "readyTopicCount": 71,
     "previewTopics": [
       {
@@ -2559,6 +2560,44 @@
           "availability": "available"
         }
       ]
+    }
+  ],
+  "exams": [
+    {
+      "id": "world-mock-01",
+      "courseId": "world",
+      "title": "Mock Exam 1",
+      "description": "A full-length practice exam covering Units 1-9, with new questions and prompts written for this exam: 55 multiple-choice questions, three short-answer questions, a document-based question on cities and exchange, and an essay choice on causation.",
+      "status": "ready",
+      "formatId": "ap-world-modern",
+      "minutes": 195,
+      "sectionCount": 4,
+      "questionCount": 55,
+      "revision": "8e473e19870e6831"
+    },
+    {
+      "id": "world-mock-02",
+      "courseId": "world",
+      "title": "Mock Exam 2",
+      "description": "A full-length practice exam covering Units 1-9, with new questions and prompts written for this exam: 55 multiple-choice questions, three short-answer questions, a document-based question on new ideas in the age of revolution and industry, and an essay choice on comparison.",
+      "status": "ready",
+      "formatId": "ap-world-modern",
+      "minutes": 195,
+      "sectionCount": 4,
+      "questionCount": 55,
+      "revision": "940b4350515a5221"
+    },
+    {
+      "id": "world-mock-03",
+      "courseId": "world",
+      "title": "Mock Exam 3",
+      "description": "A full-length practice exam covering Units 1-9, with new questions and prompts written for this exam: 55 multiple-choice questions, three short-answer questions, a document-based question on the role of government, and an essay choice on continuity and change.",
+      "status": "ready",
+      "formatId": "ap-world-modern",
+      "minutes": 195,
+      "sectionCount": 4,
+      "questionCount": 55,
+      "revision": "633afa2dfb4640fb"
     }
   ]
 }

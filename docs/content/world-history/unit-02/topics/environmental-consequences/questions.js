@@ -697,6 +697,97 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher: "Extent questions call for a weighed claim with qualification.",
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-2-6-m3-03a",
+      topicId: "world-2-6",
+      concept: "demographic-economic",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which detail in the passage points to an economic effect of the plague?",
+      choices: [
+        "Oxen and sheep were driven out of their houses",
+        "Few friends were willing to give help to the sick",
+        "Physicians could not cure the farmers' families",
+        "Servants who nursed the sick demanded high wages",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage says servants were attracted by “high and extravagant wage,” a sign that labor had become scarce.",
+      sourceIds: ["ced-topic-2-6"],
+      choiceExplanations: [
+        "Straying animals show the collapse of farm life but not the price of labor.",
+        "The shortage of friends shows social effects, not a labor market.",
+        "The lack of physicians shows the limits of medicine.",
+        "The passage says servants were attracted by “high and extravagant wage,” a sign that labor had become scarce.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The animals and crops show disruption, but wages are the economic detail that signals labor scarcity.",
+      stimulusId: "boccaccio-society",
+      stimulusBlocks: [excerpts.boccaccioSociety],
+    },
+    {
+      id: "world-2-6-m3-03b",
+      topicId: "world-2-6",
+      concept: "pathogen-networks",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Boccaccio wrote this passage as the introduction to a book of stories. How does that affect its use as evidence?",
+      choices: [
+        "It is eyewitness evidence, but the setting may shape its details",
+        "It is useless as evidence because stories cannot contain true events",
+        "It is reliable in every detail because he lived in Florence then",
+        "It describes only life in the countryside and not in the city",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Boccaccio lived through the plague, so his account is valuable, but his literary purpose may have shaped how he described it.",
+      sourceIds: ["ced-topic-2-6"],
+      choiceExplanations: [
+        "Boccaccio lived through the plague, so his account is valuable, but his literary purpose may have shaped how he described it.",
+        "A literary work can still preserve eyewitness evidence.",
+        "A writer's purpose can affect which details he emphasizes.",
+        "The passage describes the countryside and refers to the city too.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Boccaccio's presence in Florence strengthens the account, but it does not remove the need to consider his purpose.",
+      stimulusId: "boccaccio-society",
+      stimulusBlocks: [excerpts.boccaccioSociety],
+    },
+    {
+      id: "world-2-6-m3-03c",
+      topicId: "world-2-6",
+      concept: "demographic-economic",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "The abandoned crops described in the passage most directly led to",
+      choices: [
+        "a collapse in demand for grain across the Mediterranean region",
+        "food shortages and labor scarcity that strengthened surviving workers",
+        "the immediate end of serfdom in all of the European kingdoms",
+        "the rise of a large new class of landowning peasants in Europe",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Unharvested fields and fewer workers meant less food and more demand for the labor that remained.",
+      sourceIds: ["ced-topic-2-6"],
+      choiceExplanations: [
+        "The shortage of food would raise demand for grain.",
+        "Unharvested fields and fewer workers meant less food and more demand for the labor that remained.",
+        "Serfdom weakened in parts of Western Europe over time, not in all kingdoms at once.",
+        "Some peasants improved their position, but the change was not universal.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Serfdom did decline in much of Western Europe, but the change was gradual and varied by region.",
+      stimulusId: "boccaccio-society",
+      stimulusBlocks: [excerpts.boccaccioSociety],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

@@ -358,6 +358,98 @@ export const bank = {
       stimulusId: "original-self-strengthening",
       stimulusBlocks: [excerpts.originalSelfStrengthening],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-5-8-m1-09a",
+      topicId: "world-5-8",
+      concept: "state-reforms",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which evidence in the passage best supports the claim that many British workers sought gradual reform?",
+      choices: [
+        "Factory legislation and the vote were won through acts of Parliament",
+        "Marx and Engels called for workers to overthrow capitalism",
+        "The Combination Acts were used to prosecute union organizers",
+        "Early factories employed women and children for long hours",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The 1833 Factory Act, the 1867 vote, and the 1871 union protections were gains made through Parliament.",
+      sourceIds: ["ced-topic-5-8"],
+      choiceExplanations: [
+        "The 1833 Factory Act, the 1867 vote, and the 1871 union protections were gains made through Parliament.",
+        "Marx and Engels called for revolution, the opposite of gradual reform.",
+        "The Combination Acts show repression, not workers' reform strategy.",
+        "Factory conditions explain why reform was sought but not how workers sought it.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Marx and Engels addressed workers, but the passage says most British workers did not follow their call.",
+      stimulusId: "mock1-factory-reform-britain",
+      stimulusBlocks: [excerpts.m1Factories],
+    },
+    {
+      id: "world-5-8-m1-09b",
+      topicId: "world-5-8",
+      concept: "socialism",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt:
+        "The argument of Marx and Engels in 1848 is best understood as a response to",
+      choices: [
+        "Enlightenment demands for equality before the law for all citizens",
+        "mercantilist controls on colonial trade and manufacturing",
+        "the Napoleonic reorganization of the German states in 1806",
+        "class divisions and harsh conditions in industrial capitalism",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Marx and Engels wrote about factory workers, owners, and conflict between classes in an industrializing society.",
+      sourceIds: ["ced-topic-5-8"],
+      choiceExplanations: [
+        "Enlightenment ideals influenced them, but their 1848 argument targets industrial class conflict.",
+        "Mercantilism concerned state control of colonial trade and was in decline by 1848.",
+        "Napoleonic reorganization had ended decades before and was not the subject of the Manifesto.",
+        "Marx and Engels wrote about factory workers, owners, and conflict between classes in an industrializing society.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Enlightenment equality shaped socialist thought, but the specific complaint in 1848 was about capitalists and wage workers.",
+      stimulusId: "mock1-factory-reform-britain",
+      stimulusBlocks: [excerpts.m1Factories],
+    },
+    {
+      id: "world-5-8-m1-09c",
+      topicId: "world-5-8",
+      concept: "workers-movements",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "continuity",
+      prompt: "The repeal of the Combination Acts in 1824 is best seen as evidence of",
+      choices: [
+        "an end to child labor in the textile mills of Britain",
+        "the replacement of capitalism with state ownership of industry",
+        "a ban on all strikes and trade unions in Britain",
+        "growing acceptance that workers could organize to bargain",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Repeal removed the criminal penalties for forming unions, a first step toward legal labor organization.",
+      sourceIds: ["ced-topic-5-8"],
+      choiceExplanations: [
+        "Child labor was limited by the Factory Act of 1833 and was not ended in 1824.",
+        "Repeal did not change who owned industry.",
+        "Repeal ended the ban on unions and did not create one.",
+        "Repeal removed the criminal penalties for forming unions, a first step toward legal labor organization.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The Factory Act of 1833 was a real labor reform, but it limited child labor and did not concern the right to organize.",
+      stimulusId: "mock1-factory-reform-britain",
+      stimulusBlocks: [excerpts.m1Factories],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

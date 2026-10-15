@@ -810,6 +810,137 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-7-5-m1-12a",
+      "topicId": "world-7-5",
+      "concept": "versailles",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which concern does Keynes express about the peace settlement in the passage?",
+      "choices": [
+        "It treated Germany too leniently and left it strong enough to threaten Europe",
+        "It gave too much territory to Russia and its new government",
+        "It offered no plan for Europe's recovery and risked provoking revolution",
+        "It left the League of Nations without any power to enforce its decisions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Keynes says the treaty had no provisions for rehabilitating Europe and warns of civil war and revolution if Central Europe is impoverished.",
+      "sourceIds": [
+        "ced-topic-7-5"
+      ],
+      "choiceExplanations": [
+        "Keynes argues the settlement was too harsh, not too lenient.",
+        "The passage says the treaty did nothing to reclaim Russia, not that it enlarged it.",
+        "Keynes says the treaty had no provisions for rehabilitating Europe and warns of civil war and revolution if Central Europe is impoverished.",
+        "The passage does not discuss the League of Nations."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Germany was disarmed under the treaty, but Keynes's concern is economic ruin, not military limits.",
+      "stimulusId": "keynes-peace",
+      "stimulusBlocks": [
+        {
+          "id": "keynes-peace",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "keynes-consequences",
+          "amsco_review": "pending",
+          "attribution": "John Maynard Keynes, British economist and Treasury representative at the Paris Peace Conference who resigned in protest in June 1919, The Economic Consequences of the Peace, 1919",
+          "citation": "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), chs. 6–7. Project Gutenberg eBook #15776.",
+          "note": "The Central Empires were Germany and Austria-Hungary. “The late German war” is the First World War.",
+          "text": "This chapter must be one of pessimism. The Treaty includes no provisions for the economic rehabilitation of Europe,--nothing to make the defeated Central Empires into good neighbors, nothing to stabilize the new States of Europe, nothing to reclaim Russia . . . .\n\nIf we aim deliberately at the impoverishment of Central Europe, vengeance, I dare predict, will not limp. Nothing can then delay for very long that final civil war between the forces of Reaction and the despairing convulsions of Revolution, before which the horrors of the late German war will fade into nothing . . . ."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-7-5-m1-12b",
+      "topicId": "world-7-5",
+      "concept": "versailles",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Which feature of Keynes's situation most helps explain the tone of the passage?",
+      "choices": [
+        "He was a German official appointed to defend Germany at Paris",
+        "He was a soldier who sought revenge for the war's destruction",
+        "He was an envoy sent by the League of Nations to the conference",
+        "He took part in the conference and resigned in protest over its results"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Keynes advised the British Treasury at Paris and left in June 1919 because he thought the settlement would harm Europe.",
+      "sourceIds": [
+        "ced-topic-7-5"
+      ],
+      "choiceExplanations": [
+        "Keynes was British and represented the British Treasury.",
+        "Keynes was an economist, not a soldier.",
+        "The League of Nations had not yet been established when he resigned.",
+        "Keynes advised the British Treasury at Paris and left in June 1919 because he thought the settlement would harm Europe."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Keynes opposed harsh terms against Germany, but he did so as a member of the British delegation, not as a German advocate.",
+      "stimulusId": "keynes-peace",
+      "stimulusBlocks": [
+        {
+          "id": "keynes-peace",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "keynes-consequences",
+          "amsco_review": "pending",
+          "attribution": "John Maynard Keynes, British economist and Treasury representative at the Paris Peace Conference who resigned in protest in June 1919, The Economic Consequences of the Peace, 1919",
+          "citation": "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), chs. 6–7. Project Gutenberg eBook #15776.",
+          "note": "The Central Empires were Germany and Austria-Hungary. “The late German war” is the First World War.",
+          "text": "This chapter must be one of pessimism. The Treaty includes no provisions for the economic rehabilitation of Europe,--nothing to make the defeated Central Empires into good neighbors, nothing to stabilize the new States of Europe, nothing to reclaim Russia . . . .\n\nIf we aim deliberately at the impoverishment of Central Europe, vengeance, I dare predict, will not limp. Nothing can then delay for very long that final civil war between the forces of Reaction and the despairing convulsions of Revolution, before which the horrors of the late German war will fade into nothing . . . ."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-7-5-m1-12c",
+      "topicId": "world-7-5",
+      "concept": "versailles",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which events of the 1920s and 1930s most clearly support Keynes's prediction?",
+      "choices": [
+        "Lasting prosperity in Germany and steady payment of reparations after 1919",
+        "Economic crisis in Germany and the rise of extremists such as the Nazi Party",
+        "The Russian Revolution of 1917 and the fall of the tsar",
+        "The creation of the mandate system in the Middle East"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hyperinflation in 1923 and the Great Depression helped the Nazis gain support, as Keynes had warned that economic ruin could breed extremism.",
+      "sourceIds": [
+        "ced-topic-7-5"
+      ],
+      "choiceExplanations": [
+        "Keynes predicted trouble, and Germany instead suffered inflation and depression.",
+        "Hyperinflation in 1923 and the Great Depression helped the Nazis gain support, as Keynes had warned that economic ruin could breed extremism.",
+        "The Russian Revolution took place two years before Keynes wrote, so it cannot confirm his prediction.",
+        "The mandates governed former Ottoman and German colonial lands and do not bear on Keynes's warning."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Revolution had already occurred in Russia, but Keynes was predicting what would follow the treaty.",
+      "stimulusId": "keynes-peace",
+      "stimulusBlocks": [
+        {
+          "id": "keynes-peace",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "keynes-consequences",
+          "amsco_review": "pending",
+          "attribution": "John Maynard Keynes, British economist and Treasury representative at the Paris Peace Conference who resigned in protest in June 1919, The Economic Consequences of the Peace, 1919",
+          "citation": "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), chs. 6–7. Project Gutenberg eBook #15776.",
+          "note": "The Central Empires were Germany and Austria-Hungary. “The late German war” is the First World War.",
+          "text": "This chapter must be one of pessimism. The Treaty includes no provisions for the economic rehabilitation of Europe,--nothing to make the defeated Central Empires into good neighbors, nothing to stabilize the new States of Europe, nothing to reclaim Russia . . . .\n\nIf we aim deliberately at the impoverishment of Central Europe, vengeance, I dare predict, will not limp. Nothing can then delay for very long that final civil war between the forces of Reaction and the despairing convulsions of Revolution, before which the horrors of the late German war will fade into nothing . . . ."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     }
   ],
   "quizzes": [

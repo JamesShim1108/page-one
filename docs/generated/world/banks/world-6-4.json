@@ -659,6 +659,303 @@
       ],
       "skillLabel": "Argumentation",
       "skillCode": "6"
+    },
+    {
+      "id": "world-6-4-m1-11a",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which policy does the passage identify as pushing African farmers to produce for export?",
+      "choices": [
+        "Taxes that had to be paid in French currency",
+        "Laws banning the cultivation of food crops",
+        "Compulsory military service in French armies",
+        "A ban on trade with other European colonies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Taxes payable in French currency forced farmers to sell crops for cash.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Taxes payable in French currency forced farmers to sell crops for cash.",
+        "The passage says farmers grew less food but does not say food crops were banned.",
+        "The passage does not mention military service.",
+        "The passage does not mention a ban on trade with other colonies."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Railways helped move the crop, but the passage names taxes as the pressure on farmers.",
+      "stimulusId": "mock1-senegal-peanuts",
+      "stimulusBlocks": [
+        {
+          "id": "mock1-senegal-peanuts",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: colonial economies were reshaped to export raw materials and cash crops",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing export farming in French West Africa, c. 1885–1935",
+          "text": "In the late 1800s, French colonial officials in Senegal encouraged African farmers to grow peanuts, which were exported to France to make soap and cooking oil. Railways connected the peanut-growing interior to the port of Dakar. Taxes that had to be paid in French currency pushed farmers to sell their crops for cash.\n\nExport earnings rose, but farmers who devoted land to peanuts grew less food, and prices depended on distant European markets. When prices fell in the 1930s, many farmers fell into debt."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-4-m1-11b",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The economic arrangement in the passage most directly resulted from",
+      "choices": [
+        "African rulers' adoption of laissez-faire policy toward foreign traders",
+        "competition among African states for European machinery and weapons",
+        "European demand for raw materials and colonial control of African land",
+        "Portuguese mercantilist controls on Atlantic trade with Senegal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "France wanted peanuts for industry at home and used colonial power to organize their production and export.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "The passage shows French officials directing production, not African rulers choosing laissez-faire.",
+        "The passage describes no competition among African states for machinery.",
+        "France wanted peanuts for industry at home and used colonial power to organize their production and export.",
+        "Portuguese mercantilism belonged to earlier Atlantic trade and a different empire."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Ending the Atlantic slave trade encouraged “legitimate” commerce in African products, but this passage describes the later period of colonial rule.",
+      "stimulusId": "mock1-senegal-peanuts",
+      "stimulusBlocks": [
+        {
+          "id": "mock1-senegal-peanuts",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: colonial economies were reshaped to export raw materials and cash crops",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing export farming in French West Africa, c. 1885–1935",
+          "text": "In the late 1800s, French colonial officials in Senegal encouraged African farmers to grow peanuts, which were exported to France to make soap and cooking oil. Railways connected the peanut-growing interior to the port of Dakar. Taxes that had to be paid in French currency pushed farmers to sell their crops for cash.\n\nExport earnings rose, but farmers who devoted land to peanuts grew less food, and prices depended on distant European markets. When prices fell in the 1930s, many farmers fell into debt."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-6-4-m1-11c",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Apply",
+      "skill": "argumentation",
+      "prompt": "Which of the following was a vulnerability of the economy described in the passage?",
+      "choices": [
+        "A complete lack of transportation connecting the interior to the coast",
+        "Dependence on a single export whose price was set in distant foreign markets",
+        "A shortage of buyers in France for the crop that farmers grew",
+        "Overproduction of manufactured goods in Senegalese factories"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When peanut prices fell in the 1930s, farmers had no other source of cash income and fell into debt.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "The passage describes railways connecting the interior to Dakar.",
+        "When peanut prices fell in the 1930s, farmers had no other source of cash income and fell into debt.",
+        "The passage describes strong French demand, not a shortage of buyers.",
+        "Senegal exported farm products and did not overproduce manufactured goods."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Colonial economies often lacked factories, but the passage's evidence of vulnerability is dependence on one crop and its price.",
+      "stimulusId": "mock1-senegal-peanuts",
+      "stimulusBlocks": [
+        {
+          "id": "mock1-senegal-peanuts",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: colonial economies were reshaped to export raw materials and cash crops",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing export farming in French West Africa, c. 1885–1935",
+          "text": "In the late 1800s, French colonial officials in Senegal encouraged African farmers to grow peanuts, which were exported to France to make soap and cooking oil. Railways connected the peanut-growing interior to the port of Dakar. Taxes that had to be paid in French currency pushed farmers to sell their crops for cash.\n\nExport earnings rose, but farmers who devoted land to peanuts grew less food, and prices depended on distant European markets. When prices fell in the 1930s, many farmers fell into debt."
+        }
+      ],
+      "skillLabel": "Argumentation",
+      "skillCode": "6"
+    },
+    {
+      "id": "world-6-4-m1-11d",
+      "topicId": "world-6-4",
+      "concept": "export-economies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The colonial economy described in the passage was most similar to which other economy of the period 1870 to 1930?",
+      "choices": [
+        "Cotton grown for export in British-ruled Egypt",
+        "Silver mined at Potosí for Spanish colonial rulers",
+        "Textile factories built by the Meiji government in Japan",
+        "Rice grown for local markets in Tokugawa Japan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Egyptian cotton, like Senegalese peanuts, was a single export crop grown for European industry and priced in European markets.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Egyptian cotton, like Senegalese peanuts, was a single export crop grown for European industry and priced in European markets.",
+        "Potosí silver was a colonial export, but it was mined centuries earlier, from the 1540s.",
+        "Meiji Japan built its own industry; it was not a colonial export economy.",
+        "Tokugawa rice farming fed domestic markets and ended before 1870."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Potosí also sent a raw material to a colonial power, but it belongs to the period 1450 to 1750.",
+      "stimulusId": "mock1-senegal-peanuts",
+      "stimulusBlocks": [
+        {
+          "id": "mock1-senegal-peanuts",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 6.4 key concept: colonial economies were reshaped to export raw materials and cash crops",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing export farming in French West Africa, c. 1885–1935",
+          "text": "In the late 1800s, French colonial officials in Senegal encouraged African farmers to grow peanuts, which were exported to France to make soap and cooking oil. Railways connected the peanut-growing interior to the port of Dakar. Taxes that had to be paid in French currency pushed farmers to sell their crops for cash.\n\nExport earnings rose, but farmers who devoted land to peanuts grew less food, and prices depended on distant European markets. When prices fell in the 1930s, many farmers fell into debt."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-6-4-m3-11a",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "According to the passage, how does the bourgeoisie draw other nations into its system?",
+      "choices": [
+        "Treaties give other nations fair shares of the profits of trade",
+        "Cheap goods act like artillery against foreign nations",
+        "Missionaries persuade foreign rulers to change their laws",
+        "Colonial armies force other nations to obey European laws"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "The passage describes pressure, not fair sharing.",
+        "The authors say cheap prices are “the heavy artillery” that forces nations to adopt the bourgeois mode of production.",
+        "The passage does not mention missionaries.",
+        "Marx and Engels say cheap prices, not armies, are the bourgeoisie's “heavy artillery.”"
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Merchants did use force at times, but the passage's image is of cheap goods as a weapon.",
+      "stimulusId": "manifesto-world-market",
+      "stimulusBlocks": [
+        {
+          "id": "manifesto-world-market",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "marx-engels-1888",
+          "amsco_review": "pending",
+          "attribution": "Karl Marx and Friedrich Engels, German political philosophers, Manifesto of the Communist Party, 1848",
+          "citation": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, English edition of 1888, trans. Samuel Moore, section I. Project Gutenberg eBook #61.",
+          "note": "The bourgeoisie are the owners of capital. Marx and Engels use words such as “barbarian” sarcastically, echoing how European capitalists described other peoples. “Chinese walls” refers to China's limits on foreign trade.",
+          "text": "The bourgeoisie, by the rapid improvement of all instruments of production, by the immensely facilitated means of communication, draws all, even the most barbarian, nations into civilisation. The cheap prices of its commodities are the heavy artillery with which it batters down all Chinese walls, with which it forces the barbarians' intensely obstinate hatred of foreigners to capitulate. It compels all nations, on pain of extinction, to adopt the bourgeois mode of production . . . . In one word, it creates a world after its own image."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-6-4-m3-11b",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "The authors' use of the word “barbarian” is best understood as",
+      "choices": [
+        "an ironic echo of how capitalists spoke of other peoples",
+        "a sincere statement of their own opinion of other peoples",
+        "a direct quotation from a letter by the Chinese emperor",
+        "a legal term used in nineteenth-century trade treaties"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The note explains that Marx and Engels use words such as “barbarian” sarcastically.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "The note explains that Marx and Engels use words such as “barbarian” sarcastically.",
+        "The note says the authors use the term sarcastically.",
+        "The passage does not quote a Chinese emperor.",
+        "The passage does not present the word as a legal term."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The word reflects a contemporary European attitude, but the authors present it ironically.",
+      "stimulusId": "manifesto-world-market",
+      "stimulusBlocks": [
+        {
+          "id": "manifesto-world-market",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "marx-engels-1888",
+          "amsco_review": "pending",
+          "attribution": "Karl Marx and Friedrich Engels, German political philosophers, Manifesto of the Communist Party, 1848",
+          "citation": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, English edition of 1888, trans. Samuel Moore, section I. Project Gutenberg eBook #61.",
+          "note": "The bourgeoisie are the owners of capital. Marx and Engels use words such as “barbarian” sarcastically, echoing how European capitalists described other peoples. “Chinese walls” refers to China's limits on foreign trade.",
+          "text": "The bourgeoisie, by the rapid improvement of all instruments of production, by the immensely facilitated means of communication, draws all, even the most barbarian, nations into civilisation. The cheap prices of its commodities are the heavy artillery with which it batters down all Chinese walls, with which it forces the barbarians' intensely obstinate hatred of foreigners to capitulate. It compels all nations, on pain of extinction, to adopt the bourgeois mode of production . . . . In one word, it creates a world after its own image."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-6-4-m3-11c",
+      "topicId": "world-6-4",
+      "concept": "raw-materials",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Which event of the mid-1800s best illustrates the passage's reference to battering down “Chinese walls”?",
+      "choices": [
+        "The Opium Wars, in which Britain forced China to open ports to trade",
+        "The Taiping Rebellion, in which rebels attacked the Qing capital",
+        "The Meiji Restoration, in which Japan reorganized its government",
+        "The Indian Rebellion of 1857, in which soldiers fought the British East India Company"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Britain used warships to force China to accept foreign trade, as the passage's image describes.",
+      "sourceIds": [
+        "ced-topic-6-4"
+      ],
+      "choiceExplanations": [
+        "Britain used warships to force China to accept foreign trade, as the passage's image describes.",
+        "The Taipings fought the Qing state, not foreign traders.",
+        "The Meiji reforms were a response by Japan, not a forced opening of China.",
+        "The Indian Rebellion concerned British rule in India."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Taipings weakened the Qing, but the passage concerns foreign trade pressure.",
+      "stimulusId": "manifesto-world-market",
+      "stimulusBlocks": [
+        {
+          "id": "manifesto-world-market",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "marx-engels-1888",
+          "amsco_review": "pending",
+          "attribution": "Karl Marx and Friedrich Engels, German political philosophers, Manifesto of the Communist Party, 1848",
+          "citation": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, English edition of 1888, trans. Samuel Moore, section I. Project Gutenberg eBook #61.",
+          "note": "The bourgeoisie are the owners of capital. Marx and Engels use words such as “barbarian” sarcastically, echoing how European capitalists described other peoples. “Chinese walls” refers to China's limits on foreign trade.",
+          "text": "The bourgeoisie, by the rapid improvement of all instruments of production, by the immensely facilitated means of communication, draws all, even the most barbarian, nations into civilisation. The cheap prices of its commodities are the heavy artillery with which it batters down all Chinese walls, with which it forces the barbarians' intensely obstinate hatred of foreigners to capitulate. It compels all nations, on pain of extinction, to adopt the bourgeois mode of production . . . . In one word, it creates a world after its own image."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     }
   ],
   "quizzes": [

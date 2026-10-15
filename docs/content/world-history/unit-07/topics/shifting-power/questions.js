@@ -359,6 +359,97 @@ export const bank = {
       stimulusId: "original-mexican-revolution",
       stimulusBlocks: [excerpts.originalMexicanRevolution],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-7-1-m2-12a",
+      topicId: "world-7-1",
+      concept: "revolutions",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which demand is part of the Bolshevik slogan quoted in the passage?",
+      choices: [
+        "A return to rule by the tsar",
+        "Unrestricted private trade in grain",
+        "Land, bread, and an end to the senseless war",
+        "Allied military support for the government",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The slogan calls for land, bread, and an end to the war, along with power for the soviets.",
+      sourceIds: ["ced-topic-7-1"],
+      choiceExplanations: [
+        "The Bolsheviks opposed the old tsarist order.",
+        "The slogan appeals to workers, soldiers, and peasants and does not mention private trade.",
+        "The slogan calls for land, bread, and an end to the war, along with power for the soviets.",
+        "The Bolsheviks wanted an end to the war.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Bread was scarce, but the slogan did not call for private grain markets.",
+      stimulusId: "reed-petrograd",
+      stimulusBlocks: [excerpts.reedPetrograd],
+    },
+    {
+      id: "world-7-1-m2-12b",
+      topicId: "world-7-1",
+      concept: "revolutions",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Reed's position as an American socialist who witnessed the events most likely affected his account by",
+      choices: [
+        "making him an official spokesman for the Provisional Government",
+        "making him sympathetic to the revolution and its supporters",
+        "preventing him from observing the events in Petrograd",
+        "leading him to oppose socialist ideas of every kind",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Reed supported the Bolsheviks and wrote as an eyewitness who highlighted their message.",
+      sourceIds: ["ced-topic-7-1"],
+      choiceExplanations: [
+        "He supported the revolution, not the Provisional Government.",
+        "Reed supported the Bolsheviks and wrote as an eyewitness who highlighted their message.",
+        "He witnessed events in Petrograd.",
+        "Reed was a socialist.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "His eyewitness position gives him access, but his sympathies shape what he selects and emphasizes.",
+      stimulusId: "reed-petrograd",
+      stimulusBlocks: [excerpts.reedPetrograd],
+    },
+    {
+      id: "world-7-1-m2-12c",
+      topicId: "world-7-1",
+      concept: "revolutions",
+      difficulty: "Apply",
+      skill: "contextualization",
+      reasoning: "continuity",
+      prompt: "Which event had occurred before the situation Reed describes?",
+      choices: [
+        "The Treaty of Brest-Litovsk with Germany in 1918",
+        "The tsar's abdication in March 1917",
+        "The Allied intervention in the Russian Civil War",
+        "The founding of the Soviet Union in December 1922",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Reed describes Bolshevik agitation against the Provisional Government, which had formed after the tsar abdicated.",
+      sourceIds: ["ced-topic-7-1"],
+      choiceExplanations: [
+        "The treaty ending Russia's war with Germany came in March 1918, after the Bolsheviks took power.",
+        "Reed describes Bolshevik agitation against the Provisional Government, which had formed after the tsar abdicated.",
+        "Allied intervention in the civil war followed the Bolshevik seizure of power.",
+        "The Soviet Union was formed in 1922.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Treaty of Brest-Litovsk responded to the Bolshevik demand for peace, so it came after, not before, the scene Reed describes.",
+      stimulusId: "reed-petrograd",
+      stimulusBlocks: [excerpts.reedPetrograd],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

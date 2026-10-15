@@ -697,6 +697,98 @@ export const bank = {
       nearMissIndex: 3,
       distinguisher: "Evaluate means weighing different effects.",
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-2-4-m2-03a",
+      topicId: "world-2-4",
+      concept: "mali-state-trade",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which quality of Mali does Ibn Battuta stress most strongly in the first paragraph?",
+      choices: [
+        "Wealth gained from taxing the export of gold and salt",
+        "Military power it used to dominate neighboring states",
+        "Safety for travelers and protection for foreigners' property",
+        "Elaborate ceremonies performed at the sultan's court",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "He says the people hate injustice, that travelers have nothing to fear, and that the property of dead foreigners is protected.",
+      sourceIds: ["ced-topic-2-4"],
+      choiceExplanations: [
+        "The passage does not mention gold or salt exports.",
+        "The passage does not describe Mali's armies.",
+        "He says the people hate injustice, that travelers have nothing to fear, and that the property of dead foreigners is protected.",
+        "He criticizes the court ceremonies in the second paragraph as a bad quality.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Ibn Battuta mentions court ceremonies, but he lists them among Mali's faults.",
+      stimulusId: "battuta-mali",
+      stimulusBlocks: [excerpts.battutaMali],
+    },
+    {
+      id: "world-2-4-m2-03b",
+      topicId: "world-2-4",
+      concept: "accounts-local-life",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Which feature of Ibn Battuta's background most affects the criticisms he makes in the second paragraph?",
+      choices: [
+        "He was a Muslim legal scholar from North Africa judging by his own norms",
+        "He was an official sent to collect taxes for the sultan of Mali and his court",
+        "He was a West African poet who knew the customs of the royal court well",
+        "He was a merchant who wanted to protect his trade with the kingdom of Mali",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "As a scholar of Islamic law from Morocco, he judged practices such as dust on heads and the poets' ceremonies against the norms he knew.",
+      sourceIds: ["ced-topic-2-4"],
+      choiceExplanations: [
+        "As a scholar of Islamic law from Morocco, he judged practices such as dust on heads and the poets' ceremonies against the norms he knew.",
+        "Ibn Battuta was a visitor from Morocco, not an official of Mali.",
+        "He was not a West African and did not belong to the court.",
+        "He traveled as a scholar and not primarily as a merchant.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "He traveled in trading networks, but his criticisms reflect his religious training more than commercial interest.",
+      stimulusId: "battuta-mali",
+      stimulusBlocks: [excerpts.battutaMali],
+    },
+    {
+      id: "world-2-4-m2-03c",
+      topicId: "world-2-4",
+      concept: "mali-state-trade",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The account most directly illustrates which development of the period 1200–1450?",
+      choices: [
+        "The replacement of Islam by older religions across West Africa",
+        "The conquest of West Africa by the armies of the Mongol khans",
+        "The decline of trans-Saharan trade after the arrival of the plague",
+        "Islam taking root in West Africa through trans-Saharan contacts",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Daily prayer and Koran memorization in Mali show that Islam had taken root there through trade and scholarship.",
+      sourceIds: ["ced-topic-2-4"],
+      choiceExplanations: [
+        "The passage shows Islam being observed, not replaced.",
+        "The Mongols did not reach West Africa.",
+        "The passage describes secure trade and does not mention a decline.",
+        "Daily prayer and Koran memorization in Mali show that Islam had taken root there through trade and scholarship.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Plague did strike Afro-Eurasia in the 1300s, but this passage shows a thriving state in the 1350s.",
+      stimulusId: "battuta-mali",
+      stimulusBlocks: [excerpts.battutaMali],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {
