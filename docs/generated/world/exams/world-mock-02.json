@@ -2906,7 +2906,7 @@
               "title": "Unit 6 DBQ: New ideas and old hierarchies",
               "headline": "New ideas and old hierarchies",
               "promptTitle": "Document-based question",
-              "prompt": "Evaluate the extent to which new ideas about government, labor, and economic life challenged existing social and political hierarchies in Europe and the Atlantic world in the period 1750–1870.",
+              "prompt": "Evaluate the extent to which new ideas about government, society, and economic life challenged existing social and political hierarchies in the period 1750–1900.",
               "instructions": "Use at least four documents to support an argument. For at least two documents, explain how the author's point of view, purpose, historical situation, or audience is relevant to your argument. Use at least one piece of specific historical evidence beyond the documents. Include contextualization and develop a complex argument. This is untimed self-assessment practice in AP format.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "dbq",
@@ -2914,13 +2914,16 @@
               "availability": "available",
               "sourceIds": [
                 "paine-common-sense",
-                "smith-wealth-of-nations",
                 "wollstonecraft-vindication",
+                "backhouse-bland-annals-1914",
+                "rammohun-roy-1906",
                 "marx-engels-1888",
-                "smiles-self-help",
                 "mill-on-liberty",
+                "rizal-century-hence-1912",
                 "ced-topic-5-1",
-                "ced-topic-5-8"
+                "ced-topic-5-8",
+                "ced-topic-6-2",
+                "ced-topic-6-3"
               ],
               "responseFields": [
                 {
@@ -3120,27 +3123,6 @@
                 },
                 {
                   "id": "doc-2",
-                  "label": "Division of labor in a pin factory",
-                  "sourceType": "primary",
-                  "attribution": "Adam Smith, Scottish philosopher and economist, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776",
-                  "content": "One man draws out the wire; another straights it; a third cuts it; a fourth points it; a fifth grinds it at the top for receiving the head; to make the head requires two or three distinct operations; to put it on is a peculiar business; to whiten the pins is another; it is even a trade by itself to put them into the paper; and the important business of making a pin is, in this manner, divided into about eighteen distinct operations, which, in some manufactories, are all performed by distinct hands, though in others the same man will sometimes perform two or three of them. I have seen a small manufactory of this kind, where ten men only were employed, and where some of them consequently performed two or three distinct operations.",
-                  "citation": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book I, ch. 1. Project Gutenberg eBook #3300.",
-                  "note": "A manufactory is a workshop. Smith is describing the division of labor in pin-making.",
-                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
-                  "metadata": {
-                    "author": "Adam Smith",
-                    "date": "1776",
-                    "setting": "Great Britain, at the start of the Industrial Revolution",
-                    "audience": "Educated British readers",
-                    "rights": "Public-domain text."
-                  },
-                  "sourceIds": [
-                    "smith-wealth-of-nations"
-                  ],
-                  "status": "verified"
-                },
-                {
-                  "id": "doc-3",
                   "label": "A call for women's education",
                   "sourceType": "primary",
                   "attribution": "Mary Wollstonecraft, English writer, A Vindication of the Rights of Woman, 1792",
@@ -3161,7 +3143,49 @@
                   "status": "verified"
                 },
                 {
+                  "id": "doc-3",
+                  "label": "The emperor answers the British king",
+                  "sourceType": "primary",
+                  "attribution": "The Qianlong Emperor of the Qing dynasty, edict to King George III of Great Britain, 1793, answering the requests of the British embassy led by Lord Macartney",
+                  "content": "How can our dynasty alter its whole procedure and system of etiquette, established for more than a century, in order to meet your individual views? If it be said that your object is to exercise control over your country's trade, your nationals have had full liberty to trade at Canton for many a year, and have received the greatest consideration at our hands. . . .\n\nSwaying the wide world, I have but one aim in view, namely, to maintain a perfect governance and to fulfil the duties of the State: strange and costly objects do not interest me. . . . Our dynasty's majestic virtue has penetrated unto every country under Heaven, and Kings of all nations have offered their costly tribute by land and sea. As your Ambassador can see for himself, we possess all things. I set no value on objects strange or ingenious, and have no use for your country's manufactures. . . . It behoves you, O King, to respect my sentiments and to display even greater devotion and loyalty in future, so that, by perpetual submission to our Throne, you may secure peace and prosperity for your country hereafter.",
+                  "citation": "E. Backhouse and J. O. P. Bland, Annals & Memoirs of the Court of Peking (London: William Heinemann, 1914), pp. 322–325. Checked against Internet Archive scan cu31924023125796.",
+                  "note": "Macartney had asked for a permanent British envoy at Beijing and wider trade beyond Canton (Guangzhou). “Celestial dynasty” is the Qing. Backhouse is known to have forged other sources, but this edict is preserved in Qing court records.",
+                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
+                  "metadata": {
+                    "author": "The Qianlong Emperor",
+                    "date": "1793",
+                    "setting": "Beijing, after the Macartney embassy asked for an envoy at court and wider trade",
+                    "audience": "King George III of Great Britain",
+                    "rights": "Public-domain translation (1914)."
+                  },
+                  "sourceIds": [
+                    "backhouse-bland-annals-1914"
+                  ],
+                  "status": "verified"
+                },
+                {
                   "id": "doc-4",
+                  "label": "A Bengali reformer on education",
+                  "sourceType": "primary",
+                  "attribution": "Ram Mohan Roy, Bengali Hindu reformer and founder of the Brahmo Sabha, letter to Lord Amherst, British governor-general of India, 1823",
+                  "content": "The present rulers of India, coming from a distance of many thousand miles to govern a people whose language, literature, manners, customs, and ideas, are almost entirely new and strange to them, cannot easily become so intimately acquainted with their real circumstances as the natives of the country are themselves. . . .\n\nWe find that the Government are establishing a Sanscrit school under Hindu Pandits to impart such knowledge as is already current in India. This seminary (similar in character to those which existed in Europe before the time of Lord Bacon) can only be expected to load the minds of youth with grammatical niceties and metaphysical distinctions of little or no practical use to the possessors or to society. . . .\n\nIn the same manner the Sanscrit system of education would be the best calculated to keep this country in darkness, if such had been the policy of the British legislature. But as the improvement of the native population is the object of the Government, it will consequently promote a more liberal and enlightened system of instruction, embracing Mathematics, Natural Philosophy, Chemistry, Anatomy, with other useful sciences, which may be accomplished with the sums proposed by employing a few gentlemen of talent and learning educated in Europe and providing a College furnished with necessary books, instruments, and other apparatus.",
+                  "citation": "The English Works of Raja Rammohun Roy (Allahabad: Panini Office, 1906), “A Letter on English Education,” pp. 471–474. Checked against the Internet Archive scan the-english-works-of-raja-rammohan-ray-1906.",
+                  "note": "The East India Company government had decided to fund a new Sanskrit college in Calcutta. Sanskrit was the classical language of Hindu scholarship, taught by pandits (learned Brahmins). Francis Bacon was an English philosopher of experimental science.",
+                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
+                  "metadata": {
+                    "author": "Ram Mohan Roy",
+                    "date": "1823",
+                    "setting": "Calcutta, under East India Company rule",
+                    "audience": "Lord Amherst, governor-general of India",
+                    "rights": "Public-domain text (1906 edition)."
+                  },
+                  "sourceIds": [
+                    "rammohun-roy-1906"
+                  ],
+                  "status": "verified"
+                },
+                {
+                  "id": "doc-5",
                   "label": "Class struggle and the factory worker",
                   "sourceType": "primary",
                   "attribution": "Karl Marx and Friedrich Engels, German political philosophers, Manifesto of the Communist Party, 1848",
@@ -3182,48 +3206,7 @@
                   "status": "verified"
                 },
                 {
-                  "id": "doc-5",
-                  "label": "The value of self-help",
-                  "sourceType": "primary",
-                  "attribution": "Samuel Smiles, Scottish writer and reformer, Self-Help, first published in 1859",
-                  "content": "\"HEAVEN helps those who help themselves\" is a well-tried maxim, embodying in a small compass the results of vast human experience. The spirit of self-help is the root of all genuine growth in the individual; and, exhibited in the lives of many, it constitutes the true source of national vigour and strength. Help from without is often enfeebling in its effects, but help from within invariably invigorates. Whatever is done for men or classes, to a certain extent takes away the stimulus and necessity of doing for themselves; and where men are subjected to over-guidance and over-government, the inevitable tendency is to render them comparatively helpless.",
-                  "citation": "Samuel Smiles, Self-Help (London: John Murray, 1897), ch. 1. Project Gutenberg eBook #935.",
-                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
-                  "metadata": {
-                    "author": "Samuel Smiles",
-                    "date": "1859",
-                    "setting": "Victorian Britain",
-                    "audience": "Working-class and middle-class readers seeking self-improvement",
-                    "rights": "Public-domain text."
-                  },
-                  "sourceIds": [
-                    "smiles-self-help"
-                  ],
-                  "status": "verified"
-                },
-                {
                   "id": "doc-6",
-                  "label": "Capitalism and the world market",
-                  "sourceType": "primary",
-                  "attribution": "Karl Marx and Friedrich Engels, German political philosophers, Manifesto of the Communist Party, 1848",
-                  "content": "The bourgeoisie, by the rapid improvement of all instruments of production, by the immensely facilitated means of communication, draws all, even the most barbarian, nations into civilisation. The cheap prices of its commodities are the heavy artillery with which it batters down all Chinese walls, with which it forces the barbarians' intensely obstinate hatred of foreigners to capitulate. It compels all nations, on pain of extinction, to adopt the bourgeois mode of production . . . . In one word, it creates a world after its own image.",
-                  "citation": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, English edition of 1888, trans. Samuel Moore, section I. Project Gutenberg eBook #61.",
-                  "note": "The bourgeoisie are the owners of capital. Marx and Engels use words such as “barbarian” sarcastically, echoing how European capitalists described other peoples. “Chinese walls” refers to China's limits on foreign trade.",
-                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
-                  "metadata": {
-                    "author": "Karl Marx and Friedrich Engels",
-                    "date": "1848",
-                    "setting": "Europe, at the height of European industrial and imperial power",
-                    "audience": "Workers and members of the Communist League",
-                    "rights": "Public-domain translation (1888)."
-                  },
-                  "sourceIds": [
-                    "marx-engels-1888"
-                  ],
-                  "status": "verified"
-                },
-                {
-                  "id": "doc-7",
                   "label": "Liberty and “backward” societies",
                   "sourceType": "primary",
                   "attribution": "John Stuart Mill, British philosopher and official of the East India Company from 1823 to 1858, On Liberty, 1859",
@@ -3242,17 +3225,38 @@
                     "mill-on-liberty"
                   ],
                   "status": "verified"
+                },
+                {
+                  "id": "doc-7",
+                  "label": "A Filipino reformer warns Spain",
+                  "sourceType": "primary",
+                  "attribution": "José Rizal, Filipino physician and reformer, “The Philippines a Century Hence,” published in the Filipino reform newspaper La Solidaridad in Madrid, 1889–1890",
+                  "content": "The Islands cannot remain in the condition they are without requiring from the sovereign country more liberty Mutatis mutandis. For new men, a new social order. . . .\n\nThe Philippines, then, will remain under Spanish domination, but with more law and greater liberty, or they will declare themselves independent, after steeping themselves and the mother country in blood. . . .\n\nNo one ceases to be a man, no one forfeits his rights to civilization merely by being more or less uncultured, and since the Filipino is regarded as a fit citizen when he is asked to pay taxes or shed his blood to defend the fatherland, why must this fitness be denied him when the question arises of granting him some right?",
+                  "citation": "José Rizal, The Philippines a Century Hence, trans. Charles Derbyshire, ed. Austin Craig (Manila: Philippine Education Company, 1912). Project Gutenberg eBook #35899.",
+                  "note": "The Philippines were a Spanish colony. The Cortes was the Spanish parliament, in which the Philippines had no seats. Mutatis mutandis is Latin for “with the necessary changes.”",
+                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
+                  "metadata": {
+                    "author": "José Rizal",
+                    "date": "1889–1890",
+                    "setting": "Madrid, where Filipino reformers published La Solidaridad",
+                    "audience": "Spanish readers and Filipino reformers",
+                    "rights": "Public-domain translation in the United States (1912)."
+                  },
+                  "sourceIds": [
+                    "rizal-century-hence-1912"
+                  ],
+                  "status": "verified"
                 }
               ],
-              "modelResponse": "In 1750, most societies were organized around hierarchies of birth: monarchs and nobles ruled, women had few legal rights, and European empires governed colonies overseas. The Enlightenment questioned those arrangements by arguing that people had natural rights and that reason, not tradition, should guide government. Soon afterward, the Industrial Revolution created factories, a wage-earning working class, and a new middle class that sought influence.\n\nBetween 1750 and 1870, new ideas about government, labor, and economic life challenged hierarchies based on birth and monarchy, but they also created or justified new hierarchies of class, gender, and empire, so the challenge was significant but uneven.\n\nSeveral documents show direct challenges to traditional authority. Thomas Paine argued that \"society in every state is a blessing, but government even in its best state is but a necessary evil\" and mocked the idea that a continent should be governed by an island (Document 1). Writing as a pamphleteer in Philadelphia in 1776, Paine wanted to persuade ordinary colonists to support independence, so he used plain, forceful language, and his claim that freedom had been \"hunted round the globe\" was meant to move readers more than to describe every case accurately. Even so, the American Declaration of Independence soon echoed his challenge to hereditary authority. Mary Wollstonecraft extended the logic of reason to gender, demanding \"a revolution in female manners\" and women's power \"over themselves\" (Document 3). Because she was responding to Rousseau and wrote for educated readers, her argument focused on education rather than political rights, and she did not claim that women should rule men. Olympe de Gouges's Declaration of the Rights of Woman (1791) shows that some contemporaries asked for more.\n\nIdeas about labor and the economy also unsettled older hierarchies. Marx and Engels described history as \"the history of class struggles\" and called on workers to overthrow their rulers (Document 4). Writing for a political organization in 1848, they had reason to emphasize conflict and to treat workers as a unified force, which most British workers were not at the time. Samuel Smiles, in contrast, told readers that growth came from individual effort and that excessive government help made people \"helpless\" (Document 5). Writing for readers hoping to rise, Smiles challenged the idea that birth fixed a person's place, but he also argued against state help, a position that fit the interests of a growing middle class. Adam Smith's account of pin-making (Document 2) shows how the division of labor increased output, laying groundwork for factory production that would create both new wealth and the workers whom Marx described as an \"appendage of the machine.\"\n\nHowever, new ideas also reinforced hierarchies. Marx and Engels observed that capitalism \"compels all nations\" to adopt its mode of production (Document 6), but they also portrayed European industry as forcing other societies into a subordinate position. Mill, an official of the East India Company, argued that liberty applied only to people capable of improvement by free discussion and that despotism was legitimate for \"barbarians\" (Document 7). Because he worked for the company that governed much of India, his view helped justify colonial rule at a time when Britain was expanding its empire. Britain's response to the Indian Rebellion of 1857 and France's conquest of Algeria after 1830 show how liberal states applied liberty selectively.\n\nIn conclusion, new ideas weakened hierarchies based on birth and absolute monarchy, but they also created class divisions and gave new justifications for empire, so they challenged existing hierarchies without ending inequality.",
+              "modelResponse": "In 1750, most societies were organized around hierarchies of birth and rank: monarchs and nobles ruled in Europe, women had few legal rights, Qing emperors treated foreign rulers as tribute-bearing inferiors, and European companies and empires governed colonies from India to the Americas. The Enlightenment questioned those arrangements by arguing that people had natural rights and that reason, not tradition, should guide government. Industrialization and empire then carried new ideas and European power around the world.\n\nBetween 1750 and 1900, new ideas about rights, reason, and economic life challenged hierarchies of birth, gender, and colonial rule from the Atlantic world to Asia, but the challenge was uneven: established rulers rejected these ideas, and the same ideas were used to justify new hierarchies of class and empire.\n\nIn the Atlantic world, the new ideas attacked traditional authority directly. Thomas Paine called government \"a necessary evil\" and mocked the idea of \"a continent to be perpetually governed by an island\" (Document 1). Writing as a pamphleteer in Philadelphia in 1776, Paine wanted to move ordinary colonists to support independence, so he used plain, forceful language rather than careful argument. The Declaration of Independence soon echoed his challenge, and the Haitian Revolution showed enslaved people turning the language of rights against slavery itself. Mary Wollstonecraft extended the logic of reason to gender, demanding \"a revolution in female manners\" (Document 2). Because she was answering Rousseau for educated readers, she focused on education rather than political rights.\n\nColonial subjects adapted the same ideas to challenge hierarchies at home and in empire. Ram Mohan Roy urged the British to fund \"Mathematics, Natural Philosophy, Chemistry, Anatomy\" instead of a Sanskrit college that would \"keep this country in darkness\" (Document 4). His proposal challenged the authority of Brahmin pandits over learning, and he also campaigned against sati, which the British banned in 1829. Roy was writing to the governor-general, so he presented his plan as serving the government's own goal of \"the improvement of the native population\"; this tactful framing was a strategy to persuade a foreign ruler, not proof that he accepted British rule without question. José Rizal argued that a Filipino regarded as \"a fit citizen when he is asked to pay taxes or shed his blood\" deserved rights as well, and he warned that without \"more law and greater liberty\" Filipinos would \"declare themselves independent, after steeping themselves and the mother country in blood\" (Document 7). Because Rizal published in Madrid for Spanish readers, he framed his demands as reforms within Spanish rule, such as a free press and Filipino seats in the Spanish Cortes; the Philippine Revolution that began in 1896, the year Spain executed him, shows how quickly reform could become revolt.\n\nHowever, older hierarchies resisted, and new ideas built new ones. The Qianlong Emperor refused a British envoy, declared that \"we possess all things\" and had \"no use for your country's manufactures,\" and told George III to show \"perpetual submission to our Throne\" (Document 3). As an official edict to a foreign king, the document's purpose was to restate the tribute system's hierarchy, not to describe China's economy; Britain's victory in the Opium War of 1839–1842 later forced the Qing to open more ports. Marx and Engels challenged the rule of the bourgeoisie, but their description of the worker as \"an appendage of the machine\" shows that industrial capitalism had created a new class hierarchy (Document 5). Writing for a revolutionary organization in 1848, they had reason to stress conflict. John Stuart Mill limited liberty to people capable of \"free and equal discussion\" and called despotism \"legitimate\" for \"barbarians\" (Document 6). As an official of the East India Company, Mill had a stake in justifying colonial rule, and Britain's harsh response to the Indian Rebellion of 1857 showed how liberal states applied liberty selectively.\n\nIn conclusion, new ideas weakened hierarchies of birth and inspired reformers from Philadelphia to Calcutta and Manila, but rulers such as the Qianlong Emperor rejected them, and liberal and industrial thinkers also justified new divisions of class and empire, so the challenge was real but incomplete.",
               "modelNotes": [
                 {
                   "label": "Contextualization",
-                  "text": "The first paragraph describes birth-based hierarchies, the Enlightenment, and the start of industrialization."
+                  "text": "The first paragraph describes hierarchies of birth, gender, and empire in Europe, China, and the colonies, along with the Enlightenment and industrialization."
                 },
                 {
                   "label": "Thesis",
-                  "text": "The thesis makes a qualified claim about the extent of change and previews two lines of reasoning: challenges to old hierarchies and the creation of new ones."
+                  "text": "The thesis makes a qualified claim about extent and previews three lines of reasoning: challenges in the Atlantic world, colonial reformers adapting new ideas, and resistance and new hierarchies."
                 },
                 {
                   "label": "Evidence from the documents",
@@ -3260,21 +3264,22 @@
                 },
                 {
                   "label": "Evidence beyond the documents",
-                  "text": "The Declaration of Independence, Olympe de Gouges's declaration, the Indian Rebellion of 1857, and the French conquest of Algeria are specific evidence not found in the documents."
+                  "text": "The Declaration of Independence, the Haitian Revolution, the ban on sati in 1829, the Opium War, the Indian Rebellion of 1857, and the Philippine Revolution of 1896 are specific evidence not found in the documents."
                 },
                 {
                   "label": "Sourcing",
-                  "text": "The essay explains Paine's purpose and audience, Wollstonecraft's response to Rousseau, the purpose of Marx and Engels's pamphlet, Smiles's audience, and Mill's employment by the East India Company."
+                  "text": "The essay explains Paine's purpose and audience, Wollstonecraft's response to Rousseau, Roy's audience, Rizal's Spanish readers, the purpose of the Qianlong edict, Marx and Engels's purpose, and Mill's employment by the East India Company."
                 },
                 {
                   "label": "Complexity",
-                  "text": "The argument shows how ideas challenged some hierarchies while creating or justifying others, and it uses outside evidence to qualify the documents."
+                  "text": "The argument shows how ideas challenged some hierarchies while others resisted or new ones formed, and it compares responses in the Atlantic world, South Asia, Southeast Asia, and China."
                 }
               ],
-              "alternateModel": "A different strong essay could argue that economic ideas changed society more than political ideas, grouping Documents 2, 4, 5, and 6 as evidence of a new industrial order and Documents 1 and 3 as demands that took longer to change law.",
+              "alternateModel": "A different strong essay could compare where challenges came from, grouping Documents 1, 2, and 5 as challenges raised inside Europe and the Atlantic world, Documents 4 and 7 as colonial subjects using liberal ideas to demand reform, and Documents 3 and 6 as rulers in Qing China and Britain defending hierarchy.",
               "commonErrors": [
                 "Summarizing each document in order instead of grouping them by claim.",
-                "Treating Marx and Engels as speaking for all workers.",
+                "Treating the Qianlong Emperor's edict as simple ignorance instead of a statement of the tribute system's hierarchy.",
+                "Calling Roy or Rizal pro-British or pro-Spanish without explaining whom each was trying to persuade.",
                 "Quoting Mill without noting his employment by the East India Company.",
                 "Writing “the author is biased” without explaining how that affects the argument."
               ],
@@ -3730,7 +3735,7 @@
       }
     ]
   },
-  "revision": "940b4350515a5221",
+  "revision": "02eaa91510b3e6df",
   "sources": [
     {
       "id": "ced",

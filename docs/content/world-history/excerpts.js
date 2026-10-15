@@ -2454,4 +2454,110 @@ export const excerpts = {
     text: "In 1938 British prime minister Neville Chamberlain and French premier Édouard Daladier agreed at Munich to let Germany annex the Sudetenland, a border region of Czechoslovakia, in the hope of avoiding war. For decades after 1945, many writers condemned the policy of appeasement as a failure of nerve that encouraged Hitler to demand more. Germany occupied the rest of Czechoslovakia in March 1939 and invaded Poland in September.\n\nSome historians now argue that Britain and France had good reasons to avoid war in 1938. Their armies were not ready, public opinion in Britain and in the empire opposed another war so soon after 1918, and the Munich agreement gave them time to rearm. Other historians reply that Germany was relatively weaker in 1938 than it would be later, so waiting did not help the Allies.",
   },
   // END mock exam passages
+  // BEGIN global DBQ sources (Asian, African, and Latin American writers)
+  zhaoSrivijaya: {
+    id: "zhao-srivijaya",
+    type: "source",
+    sourceType: "primary",
+    source: "zhao-hirth-rockhill-1911",
+    amsco_review: "pending",
+    attribution:
+      "Zhao Rugua (Chau Ju-kua), Song dynasty official supervising foreign trade at the port of Quanzhou, Description of Foreign Peoples (Zhu fan zhi), 1225, describing Srivijaya",
+    citation:
+      "Chau Ju-kua: His Work on the Chinese and Arab Trade in the Twelfth and Thirteenth Centuries, trans. Friedrich Hirth and W. W. Rockhill (St. Petersburg: Imperial Academy of Sciences, 1911), Part I, ch. 7, pp. 61–62. Checked against Internet Archive scan b29353087.",
+    note: "San-fo-ts'i, called “this country” here, is Srivijaya, a trading kingdom centered on Palembang in Sumatra. Samshu is rice wine. Parentheses are the translators'; the Chinese characters they printed beside some words are omitted.",
+    text: "The foreign traders who gather together in this country give in exchange gold, silver, porcelain-ware, silk brocades, skeins of silk, silk gauzes, sugar, iron, samshu, rice, dried galangal, rhubarb and camphor.\n\nThis country, lying in the ocean and controlling the straits (lit., gullet) through which the foreigners' sea and land (lit., ship and cart) traffic in either direction must pass, in olden times used an iron chain as a barrier to keep the pirates of other countries in check. . . .\n\nIf a merchant ship passes by without entering, their boats go forth to make a combined attack, and all are ready to die (in the attempt). This is the reason why this country is a great shipping centre.",
+  },
+  baraniMarkets: {
+    id: "barani-markets",
+    type: "source",
+    sourceType: "primary",
+    source: "elliot-dowson-v3-1871",
+    amsco_review: "pending",
+    attribution:
+      "Ziauddin Barani, Muslim scholar and courtier of the Delhi Sultanate, History of Firuz Shah (Tarikh-i Firoz Shahi), c. 1357, describing the reign of Sultan Alauddin Khalji (r. 1296–1316)",
+    citation:
+      "The History of India, as Told by Its Own Historians, ed. H. M. Elliot and John Dowson, vol. 3 (London: Trübner, 1871), pp. 192–193. Checked against Internet Archive scan bub_gb_dB7qafVTrKkC.",
+    note: "The first sentence is Sultan Alauddin speaking to his advisers, who had warned him that his treasury could not pay a large army against Mongol invaders. ’Alau-d din is Alauddin; a dang was a small coin; Dehli is Delhi.",
+    text: "I am very desirous of having a large army, well horsed, well accoutred, picked men and archers, ready for service year after year. . . . His councillors replied that the necessaries of life would never become cheap until the price of grain was fixed by regulations and tariffs. Cheapness of grain is a universal benefit. So some regulations were issued, which kept down the price for some years. . . .\n\nThis scale of prices was maintained as long as ’Alau-d din lived, and grain never rose one dang, whether the rains were abundant or scanty. This unvarying price of grain in the markets was looked upon as one of the wonders of the time. . . .\n\nBy these means so much royal grain came to Dehli that there never was a time when there were not two or three royal granaries full of grain in the city. When there was a deficiency of rain, or when for any reason the caravans did not arrive, and grain became scarce in the markets, then the royal stores were opened and the corn was sold at the tariff price, according to the wants of the people.",
+  },
+  qianlongGeorge: {
+    id: "qianlong-george-iii",
+    type: "source",
+    sourceType: "primary",
+    source: "backhouse-bland-annals-1914",
+    amsco_review: "pending",
+    attribution:
+      "The Qianlong Emperor of the Qing dynasty, edict to King George III of Great Britain, 1793, answering the requests of the British embassy led by Lord Macartney",
+    citation:
+      "E. Backhouse and J. O. P. Bland, Annals & Memoirs of the Court of Peking (London: William Heinemann, 1914), pp. 322–325. Checked against Internet Archive scan cu31924023125796.",
+    note: "Macartney had asked for a permanent British envoy at Beijing and wider trade beyond Canton (Guangzhou). “Celestial dynasty” is the Qing. Backhouse is known to have forged other sources, but this edict is preserved in Qing court records.",
+    text: "How can our dynasty alter its whole procedure and system of etiquette, established for more than a century, in order to meet your individual views? If it be said that your object is to exercise control over your country's trade, your nationals have had full liberty to trade at Canton for many a year, and have received the greatest consideration at our hands. . . .\n\nSwaying the wide world, I have but one aim in view, namely, to maintain a perfect governance and to fulfil the duties of the State: strange and costly objects do not interest me. . . . Our dynasty's majestic virtue has penetrated unto every country under Heaven, and Kings of all nations have offered their costly tribute by land and sea. As your Ambassador can see for himself, we possess all things. I set no value on objects strange or ingenious, and have no use for your country's manufactures. . . . It behoves you, O King, to respect my sentiments and to display even greater devotion and loyalty in future, so that, by perpetual submission to our Throne, you may secure peace and prosperity for your country hereafter.",
+  },
+  royEducation: {
+    id: "roy-english-education",
+    type: "source",
+    sourceType: "primary",
+    source: "rammohun-roy-1906",
+    amsco_review: "pending",
+    attribution:
+      "Ram Mohan Roy, Bengali Hindu reformer and founder of the Brahmo Sabha, letter to Lord Amherst, British governor-general of India, 1823",
+    citation:
+      "The English Works of Raja Rammohun Roy (Allahabad: Panini Office, 1906), “A Letter on English Education,” pp. 471–474. Checked against the Internet Archive scan the-english-works-of-raja-rammohan-ray-1906.",
+    note: "The East India Company government had decided to fund a new Sanskrit college in Calcutta. Sanskrit was the classical language of Hindu scholarship, taught by pandits (learned Brahmins). Francis Bacon was an English philosopher of experimental science.",
+    text: "The present rulers of India, coming from a distance of many thousand miles to govern a people whose language, literature, manners, customs, and ideas, are almost entirely new and strange to them, cannot easily become so intimately acquainted with their real circumstances as the natives of the country are themselves. . . .\n\nWe find that the Government are establishing a Sanscrit school under Hindu Pandits to impart such knowledge as is already current in India. This seminary (similar in character to those which existed in Europe before the time of Lord Bacon) can only be expected to load the minds of youth with grammatical niceties and metaphysical distinctions of little or no practical use to the possessors or to society. . . .\n\nIn the same manner the Sanscrit system of education would be the best calculated to keep this country in darkness, if such had been the policy of the British legislature. But as the improvement of the native population is the object of the Government, it will consequently promote a more liberal and enlightened system of instruction, embracing Mathematics, Natural Philosophy, Chemistry, Anatomy, with other useful sciences, which may be accomplished with the sums proposed by employing a few gentlemen of talent and learning educated in Europe and providing a College furnished with necessary books, instruments, and other apparatus.",
+  },
+  rizalCenturyHence: {
+    id: "rizal-century-hence",
+    type: "source",
+    sourceType: "primary",
+    source: "rizal-century-hence-1912",
+    amsco_review: "pending",
+    attribution:
+      "José Rizal, Filipino physician and reformer, “The Philippines a Century Hence,” published in the Filipino reform newspaper La Solidaridad in Madrid, 1889–1890",
+    citation:
+      "José Rizal, The Philippines a Century Hence, trans. Charles Derbyshire, ed. Austin Craig (Manila: Philippine Education Company, 1912). Project Gutenberg eBook #35899.",
+    note: "The Philippines were a Spanish colony. The Cortes was the Spanish parliament, in which the Philippines had no seats. Mutatis mutandis is Latin for “with the necessary changes.”",
+    text: "The Islands cannot remain in the condition they are without requiring from the sovereign country more liberty Mutatis mutandis. For new men, a new social order. . . .\n\nThe Philippines, then, will remain under Spanish domination, but with more law and greater liberty, or they will declare themselves independent, after steeping themselves and the mother country in blood. . . .\n\nNo one ceases to be a man, no one forfeits his rights to civilization merely by being more or less uncultured, and since the Filipino is regarded as a fit citizen when he is asked to pay taxes or shed his blood to defend the fatherland, why must this fitness be denied him when the question arises of granting him some right?",
+  },
+  mexicoArticle27: {
+    id: "mexico-constitution-1917-article-27",
+    type: "source",
+    sourceType: "primary",
+    source: "mexico-constitution-1917-branch",
+    amsco_review: "pending",
+    attribution:
+      "Constitution of Mexico, Article 27, adopted by the constitutional convention at Querétaro during the Mexican Revolution, February 1917",
+    citation:
+      "Political Constitution of the United States of Mexico, trans. H. N. Branch, The Mexican Review 1, no. 6 (Washington, D.C., March 1917), Art. 27. Checked against Internet Archive scan mexicanconstitut00mexi.",
+    note: "In 1910 a small number of landowners and foreign companies held most of Mexico's farmland, mines, and oil fields.",
+    text: "The ownership of lands and waters within the limits of the national territory is vested originally in the Nation, which has had and has the right to transmit title thereof to private persons, thereby constituting private property. . . .\n\nThe Nation shall have at all times the right to impose on private property such limitations as the public interest may demand as well as the right to regulate the development of natural resources, which are susceptible of appropriation, in order to conserve them and equitably to distribute the public wealth. For this purpose necessary measures shall be taken to divide large landed estates; to develop small landed holdings . . . . In the Nation is vested direct ownership of all minerals or substances which in veins, masses, or beds constitute deposits whose nature is different from the components of the land, such as minerals from which metals and metaloids used for industrial purposes are extracted; . . . solid mineral fuels; petroleum and all hydrocarbons . . . .",
+  },
+  gandhiSwadeshi: {
+    id: "gandhi-swadeshi",
+    type: "source",
+    sourceType: "primary",
+    source: "gandhi-wheel-of-fortune-1922",
+    amsco_review: "pending",
+    attribution:
+      "Mohandas K. Gandhi, leader of the Indian independence movement, “Swadeshi,” in his weekly newspaper Young India, August 18, 1920",
+    citation:
+      "Mahatma Gandhi, The Wheel of Fortune (Madras: Ganesh & Co., 1922), “Swadeshi.” Project Gutenberg eBook #41954.",
+    note: "Swadeshi (“of one's own country”) was the campaign to buy Indian-made goods instead of British imports. Lancashire was the center of the British cotton industry. A lac (lakh) is 100,000.",
+    text: "I have no quarrel with the mills. My views are incredibly simple. India requires nearly 13 yards of cloth per head per year. She produces, I believe, less than half the amount. India grows all the cotton she needs. She exports several million bales of cotton to Japan and Lancashire and receives much of it back in manufactured calico although she is capable of producing all the cloth and all the yarn necessary for supplying her wants by hand-weaving and hand-spinning. . . . It is not true to say that economic pressure and modern machinery destroyed hand-spinning and hand-weaving. This great industry was destroyed or almost destroyed by extraordinary and immoral means adopted by the East India Company. . . .\n\nIf this employment were revived, it would prevent sixty million rupees from being annually drained from the country and distribute the amount among lacs of poor women in their own cottages. I therefore consider Swadeshi as an automatic, though partial, solution of the problem of India's grinding poverty.",
+  },
+  sunDevelopment: {
+    id: "sun-yatsen-development",
+    type: "source",
+    sourceType: "primary",
+    source: "sun-yatsen-development-1922",
+    amsco_review: "pending",
+    attribution:
+      "Sun Yat-sen, Chinese revolutionary leader and founder of the Nationalist Party (Guomindang), The International Development of China, written in English, 1922",
+    citation:
+      "Sun Yat-sen, The International Development of China (New York: G. P. Putnam's Sons, 1922), Program I and Conclusion. Project Gutenberg eBook #45188.",
+    note: "Sun began the plan after the armistice of 1918 and addressed it to the governments and bankers of the industrial powers, hoping they would lend money for China's development.",
+    text: "The industrial development of China should be carried out along two lines: (1) by private enterprise and (2) by national undertaking. All matters that can be and are better carried out by private enterprise should be left to private hands which should be encouraged and fully protected by liberal laws. . . . All matters that cannot be taken up by private concerns and those that possess monopolistic character should be taken up as national undertakings. . . . In this national undertaking, foreign capital have to be invited, foreign experts and organizers have to be enlisted, and gigantic methods have to be adopted. The property thus created will be state owned and will be managed for the benefit of the whole nation. . . .\n\nThe goal of material civilization is not private profit but public profit. And the shortest route to it is not competition but coöperation. . . . In a nutshell, it is my idea to make capitalism create socialism in China so that these two economic forces of human evolution will work side by side in future civilization.",
+  },
+  // END global DBQ sources
 };

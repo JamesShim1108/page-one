@@ -2909,19 +2909,19 @@
               "title": "Unit 9 DBQ: Ideas about the role of government",
               "headline": "Ideas about the role of government",
               "promptTitle": "Document-based question",
-              "prompt": "Evaluate the extent to which ideas in Europe and the United States about the proper role of government in economic life changed in the period 1917–2000.",
+              "prompt": "Evaluate the extent to which ideas about the proper role of government in economic life changed in the period 1917–2000.",
               "instructions": "Use at least four documents to support an argument. For at least two documents, explain how the author's point of view, purpose, historical situation, or audience is relevant to your argument. Use at least one piece of specific historical evidence beyond the documents. Include contextualization and develop a complex argument. This is untimed self-assessment practice in AP format.",
               "note": "Original Page One practice. Rubric categories follow the structure of the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
               "exerciseType": "dbq",
               "examOnly": true,
               "availability": "available",
               "sourceIds": [
+                "mexico-constitution-1917-branch",
                 "reed-ten-days",
-                "keynes-consequences",
+                "gandhi-wheel-of-fortune-1922",
+                "sun-yatsen-development-1922",
                 "truman-inaugural-1949",
-                "nixon-sotu-1970",
                 "reagan-inaugural-1981",
-                "bush-sotu-1990",
                 "clinton-sotu-2000",
                 "ced-topic-9-4",
                 "ced-topic-8-8"
@@ -3103,6 +3103,27 @@
               "documents": [
                 {
                   "id": "doc-1",
+                  "label": "The nation's ownership of land and oil",
+                  "sourceType": "primary",
+                  "attribution": "Constitution of Mexico, Article 27, adopted by the constitutional convention at Querétaro during the Mexican Revolution, February 1917",
+                  "content": "The ownership of lands and waters within the limits of the national territory is vested originally in the Nation, which has had and has the right to transmit title thereof to private persons, thereby constituting private property. . . .\n\nThe Nation shall have at all times the right to impose on private property such limitations as the public interest may demand as well as the right to regulate the development of natural resources, which are susceptible of appropriation, in order to conserve them and equitably to distribute the public wealth. For this purpose necessary measures shall be taken to divide large landed estates; to develop small landed holdings . . . . In the Nation is vested direct ownership of all minerals or substances which in veins, masses, or beds constitute deposits whose nature is different from the components of the land, such as minerals from which metals and metaloids used for industrial purposes are extracted; . . . solid mineral fuels; petroleum and all hydrocarbons . . . .",
+                  "citation": "Political Constitution of the United States of Mexico, trans. H. N. Branch, The Mexican Review 1, no. 6 (Washington, D.C., March 1917), Art. 27. Checked against Internet Archive scan mexicanconstitut00mexi.",
+                  "note": "In 1910 a small number of landowners and foreign companies held most of Mexico's farmland, mines, and oil fields.",
+                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
+                  "metadata": {
+                    "author": "Mexican constitutional convention",
+                    "date": "February 1917",
+                    "setting": "Querétaro, Mexico, during the Mexican Revolution",
+                    "audience": "Mexican citizens; this translation was published in Washington for American readers",
+                    "rights": "Public-domain translation (1917)."
+                  },
+                  "sourceIds": [
+                    "mexico-constitution-1917-branch"
+                  ],
+                  "status": "verified"
+                },
+                {
+                  "id": "doc-2",
                   "label": "“All Power to the Soviets!”",
                   "sourceType": "primary",
                   "attribution": "John Reed, American journalist and socialist who witnessed the Russian Revolution in Petrograd, Ten Days That Shook the World, 1919",
@@ -3123,28 +3144,49 @@
                   "status": "verified"
                 },
                 {
-                  "id": "doc-2",
-                  "label": "A warning about the peace settlement",
+                  "id": "doc-3",
+                  "label": "Hand-spinning and India's poverty",
                   "sourceType": "primary",
-                  "attribution": "John Maynard Keynes, British economist and Treasury representative at the Paris Peace Conference who resigned in protest in June 1919, The Economic Consequences of the Peace, 1919",
-                  "content": "This chapter must be one of pessimism. The Treaty includes no provisions for the economic rehabilitation of Europe,--nothing to make the defeated Central Empires into good neighbors, nothing to stabilize the new States of Europe, nothing to reclaim Russia . . . .\n\nIf we aim deliberately at the impoverishment of Central Europe, vengeance, I dare predict, will not limp. Nothing can then delay for very long that final civil war between the forces of Reaction and the despairing convulsions of Revolution, before which the horrors of the late German war will fade into nothing . . . .",
-                  "citation": "John Maynard Keynes, The Economic Consequences of the Peace (New York: Harcourt, Brace and Howe, 1920), chs. 6–7. Project Gutenberg eBook #15776.",
-                  "note": "The Central Empires were Germany and Austria-Hungary. “The late German war” is the First World War.",
+                  "attribution": "Mohandas K. Gandhi, leader of the Indian independence movement, “Swadeshi,” in his weekly newspaper Young India, August 18, 1920",
+                  "content": "I have no quarrel with the mills. My views are incredibly simple. India requires nearly 13 yards of cloth per head per year. She produces, I believe, less than half the amount. India grows all the cotton she needs. She exports several million bales of cotton to Japan and Lancashire and receives much of it back in manufactured calico although she is capable of producing all the cloth and all the yarn necessary for supplying her wants by hand-weaving and hand-spinning. . . . It is not true to say that economic pressure and modern machinery destroyed hand-spinning and hand-weaving. This great industry was destroyed or almost destroyed by extraordinary and immoral means adopted by the East India Company. . . .\n\nIf this employment were revived, it would prevent sixty million rupees from being annually drained from the country and distribute the amount among lacs of poor women in their own cottages. I therefore consider Swadeshi as an automatic, though partial, solution of the problem of India's grinding poverty.",
+                  "citation": "Mahatma Gandhi, The Wheel of Fortune (Madras: Ganesh & Co., 1922), “Swadeshi.” Project Gutenberg eBook #41954.",
+                  "note": "Swadeshi (“of one's own country”) was the campaign to buy Indian-made goods instead of British imports. Lancashire was the center of the British cotton industry. A lac (lakh) is 100,000.",
                   "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
                   "metadata": {
-                    "author": "John Maynard Keynes",
-                    "date": "1919",
-                    "setting": "Britain, after the Paris Peace Conference",
-                    "audience": "British and international readers",
-                    "rights": "Public-domain text."
+                    "author": "Mohandas K. Gandhi",
+                    "date": "August 18, 1920",
+                    "setting": "India, under British rule, during the noncooperation movement",
+                    "audience": "Readers of Gandhi's weekly Young India",
+                    "rights": "Public-domain text (1922 collection)."
                   },
                   "sourceIds": [
-                    "keynes-consequences"
+                    "gandhi-wheel-of-fortune-1922"
                   ],
                   "status": "verified"
                 },
                 {
-                  "id": "doc-3",
+                  "id": "doc-4",
+                  "label": "A plan for China's development",
+                  "sourceType": "primary",
+                  "attribution": "Sun Yat-sen, Chinese revolutionary leader and founder of the Nationalist Party (Guomindang), The International Development of China, written in English, 1922",
+                  "content": "The industrial development of China should be carried out along two lines: (1) by private enterprise and (2) by national undertaking. All matters that can be and are better carried out by private enterprise should be left to private hands which should be encouraged and fully protected by liberal laws. . . . All matters that cannot be taken up by private concerns and those that possess monopolistic character should be taken up as national undertakings. . . . In this national undertaking, foreign capital have to be invited, foreign experts and organizers have to be enlisted, and gigantic methods have to be adopted. The property thus created will be state owned and will be managed for the benefit of the whole nation. . . .\n\nThe goal of material civilization is not private profit but public profit. And the shortest route to it is not competition but coöperation. . . . In a nutshell, it is my idea to make capitalism create socialism in China so that these two economic forces of human evolution will work side by side in future civilization.",
+                  "citation": "Sun Yat-sen, The International Development of China (New York: G. P. Putnam's Sons, 1922), Program I and Conclusion. Project Gutenberg eBook #45188.",
+                  "note": "Sun began the plan after the armistice of 1918 and addressed it to the governments and bankers of the industrial powers, hoping they would lend money for China's development.",
+                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
+                  "metadata": {
+                    "author": "Sun Yat-sen",
+                    "date": "1922; written from 1918",
+                    "setting": "China, divided among warlords and foreign spheres of influence",
+                    "audience": "Foreign governments and bankers, and English-speaking readers",
+                    "rights": "Public-domain text."
+                  },
+                  "sourceIds": [
+                    "sun-yatsen-development-1922"
+                  ],
+                  "status": "verified"
+                },
+                {
+                  "id": "doc-5",
                   "label": "Democracy and communism",
                   "sourceType": "primary",
                   "attribution": "Harry S. Truman, president of the United States, inaugural address, January 20, 1949",
@@ -3165,28 +3207,7 @@
                   "status": "verified"
                 },
                 {
-                  "id": "doc-4",
-                  "label": "A call for environmental regulation",
-                  "sourceType": "primary",
-                  "attribution": "Richard Nixon, president of the United States, State of the Union address to Congress, January 22, 1970",
-                  "content": "The great question of the seventies is, shall we surrender to our surroundings, or shall we make our peace with nature and begin to make reparations for the damage we have done to our air, to our land, and to our water? . . .\n\nWe still think of air as free. But clean air is not free, and neither is clean water. The price tag on pollution control is high. Through our years of past carelessness we incurred a debt to nature, and now that debt is being called. . . .\n\nWe can no longer afford to consider air and water common property, free to be abused by anyone without regard to the consequences. . . . This requires comprehensive new regulations. It also requires that, to the extent possible, the price of goods should be made to include the costs of producing and disposing of them without damage to the environment.",
-                  "citation": "Richard Nixon, Annual Message to the Congress on the State of the Union, January 22, 1970. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/1970-Nixon.txt, converted to UTF-8).",
-                  "note": "Three months later, millions of Americans took part in the first Earth Day, and in December 1970 the federal Environmental Protection Agency began work.",
-                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
-                  "metadata": {
-                    "author": "Richard Nixon",
-                    "date": "January 22, 1970",
-                    "setting": "Washington, as environmental concern was growing",
-                    "audience": "Congress and the American public",
-                    "rights": "Work of the United States government."
-                  },
-                  "sourceIds": [
-                    "nixon-sotu-1970"
-                  ],
-                  "status": "verified"
-                },
-                {
-                  "id": "doc-5",
+                  "id": "doc-6",
                   "label": "“Government is not the solution”",
                   "sourceType": "primary",
                   "attribution": "Ronald Reagan, president of the United States, inaugural address, January 20, 1981",
@@ -3203,27 +3224,6 @@
                   },
                   "sourceIds": [
                     "reagan-inaugural-1981"
-                  ],
-                  "status": "verified"
-                },
-                {
-                  "id": "doc-6",
-                  "label": "The Revolution of 1989",
-                  "sourceType": "primary",
-                  "attribution": "George H. W. Bush, president of the United States, State of the Union address to Congress, January 31, 1990",
-                  "content": "The events of the year just ended, the Revolution of '89, have been a chain reaction, changes so striking that it marks the beginning of a new era in the world's affairs. . . .\n\nA year ago in Poland, Lech Walesa declared that he was ready to open a dialog with the Communist rulers of that country; and today, with the future of a free Poland in their own hands, members of Solidarity lead the Polish Government.\n\nA year ago, freedom's playwright, Vaclav Havel, languished as a prisoner in Prague. And today it's Vaclav Havel, President of Czechoslovakia.\n\nAnd 1 year ago, Erich Honecker of East Germany claimed history as his guide, and he predicted the Berlin Wall would last another hundred years. And today, less than 1 year later, it's the Wall that's history.",
-                  "citation": "George H. W. Bush, Address on the State of the Union, January 31, 1990. Text checked against the C-SPAN transcript in the NLTK corpus (state_union/1990-Bush.txt).",
-                  "note": "Names appear as printed in the transcript, without diacritical marks: Lech Wałęsa led the Polish trade union Solidarity, and Václav Havel was a dissident Czech playwright. Erich Honecker led East Germany until October 1989.",
-                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
-                  "metadata": {
-                    "author": "George H. W. Bush",
-                    "date": "January 31, 1990",
-                    "setting": "Washington, after the fall of communist governments in Eastern Europe",
-                    "audience": "Congress and the American public",
-                    "rights": "Work of the United States government."
-                  },
-                  "sourceIds": [
-                    "bush-sotu-1990"
                   ],
                   "status": "verified"
                 },
@@ -3249,11 +3249,11 @@
                   "status": "verified"
                 }
               ],
-              "modelResponse": "In 1900, most governments played a limited role in daily economic life, but the First World War, the Russian Revolution, and the Great Depression led many people to ask whether governments should take on much more. The Cold War then divided the world between states with market economies and states with planned economies, and the late twentieth century produced new debates about markets and regulation.\n\nBetween 1917 and 2000, ideas about the role of government changed substantially, moving from confidence in an active state in the early and middle decades toward greater trust in markets after 1980, but the shift was incomplete because governments continued to regulate, to set rules for trade, and to defend political systems.\n\nIn the first half of the century, many writers expected governments to act. In Petrograd, the Bolsheviks called for \"All Power to the Soviets\" and promised land, bread, and peace as the Provisional Government failed to feed the city (Document 1). John Reed, an American socialist who supported the revolution, had reason to highlight the Bolsheviks' appeal, but his description of falling bread rations helps explain why many Russians turned to a government that promised to take control of the economy. After the war, Keynes warned that the Treaty of Versailles had \"no provisions for the economic rehabilitation of Europe\" and predicted revolution if Central Europe were impoverished (Document 2). Writing after resigning from the British delegation, Keynes wanted to persuade readers that governments had a responsibility to plan for recovery. The Great Depression and the New Deal in the United States confirmed this view: governments took on responsibility for employment and relief.\n\nDuring the Cold War, the debate was about which kind of government should rule. President Truman described communism as based on the belief that people need \"strong masters,\" while democracy rested on the \"capacity . . . to govern himself\" (Document 3). Speaking in 1949 during the Berlin airlift, Truman had a purpose of rallying Americans and allies behind containment, so his contrast is stark. Yet he did not oppose government action: the Marshall Plan committed billions of dollars in public aid to rebuild Western Europe. Nixon's 1970 call for \"comprehensive new regulations\" on pollution (Document 4) shows that active government remained a mainstream view in a Republican administration, and he used it to respond to growing public concern and the creation of the Environmental Protection Agency.\n\nAfter 1975, confidence in the state declined. Reagan said that \"government is not the solution to our problem\" and proposed to remove \"roadblocks\" to the economy (Document 5). He spoke after a decade of inflation and slow growth, and his inaugural address was meant to justify tax cuts and deregulation. Similar ideas shaped Margaret Thatcher's privatizations in Britain and the market reforms of Deng Xiaoping in China. The collapse of communist governments in 1989, celebrated by Bush (Document 6), seemed to confirm the failure of central planning, though Bush was also claiming credit for his country's Cold War policy. Gorbachev's perestroika and glasnost had opened the way.\n\nBy 2000, the debate had shifted again. Clinton described globalization as \"the central reality of our time\" and urged \"rule-based trade\" that would not tolerate \"a race to the bottom\" in the environment and worker protection (Document 7). Speaking soon after the protests at the WTO meeting in Seattle, he had a political reason to show that he took critics seriously. His position shows that even leaders who praised markets accepted a role for government in setting rules.\n\nIn conclusion, ideas about government moved from confidence in state direction to greater trust in markets, but governments never stopped regulating, protecting, and setting the terms of exchange, so the change was real but incomplete.",
+              "modelResponse": "Before 1914, the leading industrial states generally left most economic decisions to markets, while colonial governments managed the economies of Asia and Africa largely for the benefit of the colonizing countries. The First World War, the Russian Revolution, the rise of anticolonial nationalism, and later the Great Depression led people around the world to ask whether governments should own resources, plan development, or protect national industry.\n\nBetween 1917 and 2000, ideas about government's role in economic life changed substantially, moving from widespread confidence that states should own, plan, or protect key parts of the economy toward greater trust in markets after 1980, but the change was incomplete, because even leaders who praised markets still expected governments to set the rules of trade.\n\nIn the years after 1917, revolutionaries and nationalists across the world called for governments to take control of economic life. Mexico's 1917 constitution vested ownership of land and \"petroleum and all hydrocarbons\" in \"the Nation\" and ordered the division of \"large landed estates\" (Document 1). This translation appeared in a Washington journal devoted to explaining Mexico's revolutionary government to \"the American people,\" so it presented the constitution favorably even though Article 27 threatened American-owned oil and mining companies; in 1938 President Cárdenas used it to nationalize Mexico's oil. In Russia the Bolsheviks promised \"Land, bread\" as rations fell (Document 2). John Reed, an American socialist who supported the revolution, had reason to stress the Bolsheviks' appeal, but the Soviet state soon nationalized industry and, under Stalin, adopted Five-Year Plans. Sun Yat-sen proposed a mixed economy: private enterprise for most matters, but monopolies \"taken up as national undertakings,\" so as \"to make capitalism create socialism in China\" (Document 4). Because Sun addressed foreign governments and bankers, he emphasized that their capital would be repaid; his goal of national development without foreign domination was shared by many anticolonial leaders.\n\nNot every critic of the old order wanted a stronger state. Gandhi blamed \"the East India Company\" for destroying India's hand-spinning industry and called Swadeshi a solution to \"India's grinding poverty\" (Document 3). Writing in Young India for supporters of the noncooperation movement, Gandhi wanted to persuade Indians to boycott British cloth and spin their own, so his program relied on village self-help rather than government planning. After independence, however, Nehru chose state-led industrialization through Five-Year Plans, showing that the idea of an active developmental state proved stronger than Gandhi's alternative.\n\nDuring the Cold War, the debate became a contest between political systems. Truman contrasted communism, which required \"the rule of strong masters,\" with democracy, based on the right \"to govern himself\" (Document 5). Speaking in 1949 to rally Americans and allies behind containment, Truman painted the contrast starkly, yet his administration was spending billions in public money on the Marshall Plan. Across the decolonizing world, states such as Nasser's Egypt, which nationalized the Suez Canal in 1956, also kept a strong economic role.\n\nAfter 1975, confidence in the state declined. Reagan declared that \"government is not the solution to our problem\" and promised to remove \"roadblocks\" to the economy (Document 6). He spoke after a decade of inflation, and his address was meant to justify tax cuts and deregulation. Similar ideas shaped Margaret Thatcher's privatizations in Britain and Deng Xiaoping's market reforms in China. Yet by 2000, Clinton urged \"rule-based trade\" that would not tolerate \"a race to the bottom\" in the environment and worker protection (Document 7). Speaking soon after the protests at the WTO meeting in Seattle, he had a political reason to show he took critics seriously, and his position shows that even leaders who praised markets assigned governments the job of setting rules.\n\nIn conclusion, ideas about government moved from confidence in state ownership and planning, voiced in Mexico, Russia, and China after 1917, toward greater trust in markets after 1980, but governments never stopped regulating and setting the terms of exchange, so the change was real but incomplete.",
               "modelNotes": [
                 {
                   "label": "Contextualization",
-                  "text": "The first paragraph describes the role of governments before 1917, the effects of the world wars and the Depression, and the Cold War division."
+                  "text": "The first paragraph describes the limited economic role of industrial governments before 1914, colonial economies, and the effects of the First World War, revolution, nationalism, and the Depression."
                 },
                 {
                   "label": "Thesis",
@@ -3261,25 +3261,25 @@
                 },
                 {
                   "label": "Evidence from the documents",
-                  "text": "All seven documents are used as evidence, grouped by period."
+                  "text": "All seven documents are used as evidence, grouped by period and argument."
                 },
                 {
                   "label": "Evidence beyond the documents",
-                  "text": "The New Deal, the Marshall Plan, the Environmental Protection Agency, Thatcher's privatizations, Deng Xiaoping's reforms, and Gorbachev's reforms are specific evidence not found in the documents."
+                  "text": "Cárdenas's oil nationalization, the Soviet Five-Year Plans, Nehru's Five-Year Plans, the Marshall Plan, the nationalization of the Suez Canal, Thatcher's privatizations, and Deng Xiaoping's reforms are specific evidence not found in the documents."
                 },
                 {
                   "label": "Sourcing",
-                  "text": "The essay explains Reed's sympathies, Keynes's purpose after resigning, Truman's Cold War audience, Reagan's response to inflation, Bush's claim to credit, and Clinton's political situation after the Seattle protests."
+                  "text": "The essay explains the purpose of the Washington journal that published the Mexican constitution, Reed's sympathies, Sun's foreign audience, Gandhi's readers and purpose, Truman's Cold War audience, Reagan's response to inflation, and Clinton's political situation after the Seattle protests."
                 },
                 {
                   "label": "Complexity",
-                  "text": "The essay qualifies the claim of a shift toward markets by showing continuing regulation in Nixon's and Clinton's addresses and by noting that Bush and Truman were also political speakers."
+                  "text": "The essay qualifies the claim of a shift toward markets by showing Gandhi's alternative to state planning and the continuing role of rules in Clinton's address, and it compares ideas in Latin America, Russia, South Asia, East Asia, and the United States."
                 }
               ],
-              "alternateModel": "A different strong essay could argue that the central change was not the size of government but its purpose, grouping Documents 1–3 as arguments about which political system should rule and Documents 4–7 as arguments about how far markets should be regulated.",
+              "alternateModel": "A different strong essay could argue that the sharpest divide was between colonized or developing countries and industrial powers, grouping Documents 1, 3, and 4 as nationalist programs that used economic policy to escape foreign control and Documents 2, 5, 6, and 7 as arguments among the great powers about planning and markets.",
               "commonErrors": [
-                "Treating the documents, most of which are by American presidents, as evidence for the whole world.",
-                "Summarizing each document in order instead of grouping them by claim.",
+                "Treating Gandhi's call for hand-spinning as a demand for government ownership; he wanted Indians to boycott British cloth and produce their own.",
+                "Generalizing about the whole world after 1945 from three American presidential speeches without outside evidence from other regions.",
                 "Claiming that government's role simply grew or simply shrank throughout the century.",
                 "Quoting speeches without noting that political speakers have purposes and audiences."
               ],
@@ -3736,7 +3736,7 @@
       }
     ]
   },
-  "revision": "633afa2dfb4640fb",
+  "revision": "99e01dd0c3a92426",
   "sources": [
     {
       "id": "ced",

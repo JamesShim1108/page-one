@@ -2904,20 +2904,31 @@
               "examOnly": true,
               "availability": "available",
               "sourceIds": [
+                "zhao-hirth-rockhill-1911",
                 "polo-yule-1903",
+                "elliot-dowson-v3-1871",
                 "battuta-gibb-1929",
                 "boccaccio-payne-1886",
+                "ced-topic-1-3",
                 "ced-topic-2-2",
                 "ced-topic-2-3"
               ],
               "sourceLocators": [
                 {
+                  "sourceId": "zhao-hirth-rockhill-1911",
+                  "locator": "Part I, ch. 7, pp. 61–62"
+                },
+                {
                   "sourceId": "polo-yule-1903",
-                  "locator": "vol. 1, Book I, ch. 6 and Book II, ch. 22; vol. 2, Book II, ch. 76"
+                  "locator": "vol. 1, Book II, ch. 22; vol. 2, Book II, ch. 76"
+                },
+                {
+                  "sourceId": "elliot-dowson-v3-1871",
+                  "locator": "Barani, Tarikh-i Firoz Shahi, pp. 192–193"
                 },
                 {
                   "sourceId": "battuta-gibb-1929",
-                  "locator": "chs. 4, 8, and 14; scan pp. 130, 252, 351–352"
+                  "locator": "chs. 4 and 14; scan pp. 130, 351–352"
                 },
                 {
                   "sourceId": "boccaccio-payne-1886",
@@ -3101,6 +3112,27 @@
               "documents": [
                 {
                   "id": "doc-1",
+                  "label": "A port kingdom that controlled the strait",
+                  "sourceType": "primary",
+                  "attribution": "Zhao Rugua (Chau Ju-kua), Song dynasty official supervising foreign trade at the port of Quanzhou, Description of Foreign Peoples (Zhu fan zhi), 1225, describing Srivijaya",
+                  "content": "The foreign traders who gather together in this country give in exchange gold, silver, porcelain-ware, silk brocades, skeins of silk, silk gauzes, sugar, iron, samshu, rice, dried galangal, rhubarb and camphor.\n\nThis country, lying in the ocean and controlling the straits (lit., gullet) through which the foreigners' sea and land (lit., ship and cart) traffic in either direction must pass, in olden times used an iron chain as a barrier to keep the pirates of other countries in check. . . .\n\nIf a merchant ship passes by without entering, their boats go forth to make a combined attack, and all are ready to die (in the attempt). This is the reason why this country is a great shipping centre.",
+                  "citation": "Chau Ju-kua: His Work on the Chinese and Arab Trade in the Twelfth and Thirteenth Centuries, trans. Friedrich Hirth and W. W. Rockhill (St. Petersburg: Imperial Academy of Sciences, 1911), Part I, ch. 7, pp. 61–62. Checked against Internet Archive scan b29353087.",
+                  "note": "San-fo-ts'i, called “this country” here, is Srivijaya, a trading kingdom centered on Palembang in Sumatra. Samshu is rice wine. Parentheses are the translators'; the Chinese characters they printed beside some words are omitted.",
+                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
+                  "metadata": {
+                    "author": "Zhao Rugua",
+                    "date": "1225",
+                    "setting": "Quanzhou, China's leading port under the Southern Song, describing Srivijaya in Sumatra",
+                    "audience": "Chinese officials concerned with maritime trade",
+                    "rights": "Public-domain translation in the United States (1911)."
+                  },
+                  "sourceIds": [
+                    "zhao-hirth-rockhill-1911"
+                  ],
+                  "status": "verified"
+                },
+                {
+                  "id": "doc-2",
                   "label": "Merchants at the Yuan capital",
                   "sourceType": "primary",
                   "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing the Yuan capital",
@@ -3121,7 +3153,7 @@
                   "status": "verified"
                 },
                 {
-                  "id": "doc-2",
+                  "id": "doc-3",
                   "label": "Revenue from the trade of Hangzhou",
                   "sourceType": "primary",
                   "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing Hangzhou, the former Southern Song capital, soon after the Mongol conquest of 1276",
@@ -3142,28 +3174,28 @@
                   "status": "verified"
                 },
                 {
-                  "id": "doc-3",
-                  "label": "The fall of Baghdad",
+                  "id": "doc-4",
+                  "label": "Fixed grain prices in Delhi",
                   "sourceType": "primary",
-                  "attribution": "Marco Polo, Venetian merchant who traveled in Mongol-ruled Asia c. 1271–1295, account dictated to the writer Rustichello of Pisa, c. 1298, describing Baghdad",
-                  "content": "Baudas is a great city, which used to be the seat of the Calif of all the Saracens in the world, just as Rome is the seat of the Pope of all the Christians. A very great river flows through the city, and by this you can descend to the Sea of India. There is a great traffic of merchants with their goods this way . . . .\n\nIn Baudas they weave many different kinds of silk stuffs and gold brocades . . . . It is the noblest and greatest city in all those regions.\n\nNow it came to pass on a day in the year of Christ 1255, that the Lord of the Tartars of the Levant, whose name was Alaue, brother to the Great Kaan now reigning, gathered a mighty host and came up against Baudas and took it by storm. . . . Howbeit, since that time, there has been never another Calif, either at Baudas or anywhere else.",
-                  "citation": "The Book of Ser Marco Polo, trans. Henry Yule, rev. Henri Cordier, 3rd ed. (London: John Murray, 1903), vol. 1, Book I, ch. 6. Project Gutenberg eBook #10636.",
-                  "note": "Baudas is Baghdad. Saracens means Muslims. Alaue is Hulagu, brother of Kublai Khan, and the Calif was the Abbasid caliph. Baghdad fell to Hulagu in 1258; Polo gives the year as 1255.",
+                  "attribution": "Ziauddin Barani, Muslim scholar and courtier of the Delhi Sultanate, History of Firuz Shah (Tarikh-i Firoz Shahi), c. 1357, describing the reign of Sultan Alauddin Khalji (r. 1296–1316)",
+                  "content": "I am very desirous of having a large army, well horsed, well accoutred, picked men and archers, ready for service year after year. . . . His councillors replied that the necessaries of life would never become cheap until the price of grain was fixed by regulations and tariffs. Cheapness of grain is a universal benefit. So some regulations were issued, which kept down the price for some years. . . .\n\nThis scale of prices was maintained as long as ’Alau-d din lived, and grain never rose one dang, whether the rains were abundant or scanty. This unvarying price of grain in the markets was looked upon as one of the wonders of the time. . . .\n\nBy these means so much royal grain came to Dehli that there never was a time when there were not two or three royal granaries full of grain in the city. When there was a deficiency of rain, or when for any reason the caravans did not arrive, and grain became scarce in the markets, then the royal stores were opened and the corn was sold at the tariff price, according to the wants of the people.",
+                  "citation": "The History of India, as Told by Its Own Historians, ed. H. M. Elliot and John Dowson, vol. 3 (London: Trübner, 1871), pp. 192–193. Checked against Internet Archive scan bub_gb_dB7qafVTrKkC.",
+                  "note": "The first sentence is Sultan Alauddin speaking to his advisers, who had warned him that his treasury could not pay a large army against Mongol invaders. ’Alau-d din is Alauddin; a dang was a small coin; Dehli is Delhi.",
                   "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
                   "metadata": {
-                    "author": "Marco Polo, dictated to Rustichello of Pisa",
-                    "date": "c. 1298, describing events of 1258",
-                    "setting": "Baghdad, the former seat of the Abbasid caliphs",
-                    "audience": "European readers",
-                    "rights": "Public-domain translation (1903)."
+                    "author": "Ziauddin Barani",
+                    "date": "c. 1357, describing the reign of Alauddin Khalji (1296–1316)",
+                    "setting": "The Delhi Sultanate, during the reign of Firuz Shah Tughluq",
+                    "audience": "Muslim courtiers and rulers of the Delhi Sultanate",
+                    "rights": "Public-domain translation in the United States (1871)."
                   },
                   "sourceIds": [
-                    "polo-yule-1903"
+                    "elliot-dowson-v3-1871"
                   ],
                   "status": "verified"
                 },
                 {
-                  "id": "doc-4",
+                  "id": "doc-5",
                   "label": "Mombasa and Kilwa",
                   "sourceType": "primary",
                   "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the East African coast, c. 1331",
@@ -3184,7 +3216,7 @@
                   "status": "verified"
                 },
                 {
-                  "id": "doc-5",
+                  "id": "doc-6",
                   "label": "Justice and security in Mali",
                   "sourceType": "primary",
                   "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing his stay in the Mali Empire, 1352–1353",
@@ -3196,27 +3228,6 @@
                     "author": "Ibn Battuta, dictated to Ibn Juzayy",
                     "date": "Visit 1352–1353; account dictated 1355",
                     "setting": "The Mali Empire, West Africa",
-                    "audience": "Muslim readers in Morocco",
-                    "rights": "Public-domain translation in the United States (1929)."
-                  },
-                  "sourceIds": [
-                    "battuta-gibb-1929"
-                  ],
-                  "status": "verified"
-                },
-                {
-                  "id": "doc-6",
-                  "label": "A port sultan on India's southwestern coast",
-                  "sourceType": "primary",
-                  "attribution": "Ibn Battuta, Muslim legal scholar from Morocco who traveled c. 1325–1354, account dictated to the writer Ibn Juzayy, 1355, describing the port of Honavar on India's southwestern coast, c. 1342",
-                  "content": "Next day we reached the town of Hinawr [Honavar, Onore], which is on a large inlet navigable for large ships. . . . [The women of this town] are beautiful and virtuous, and each wears a gold ring in her nose. One peculiarity amongst them is that they all know the Koran by heart. I saw in the town thirteen schools for girls and twenty-three for boys, a thing which I have never seen elsewhere. Its inhabitants live by maritime commerce, and have no cultivated land. The ruler of Hinawr is Sultan Jalal ad-Din, who is one of the best and most powerful sultans. He is under the suzerainty of an infidel sultan named Haryab",
-                  "citation": "Ibn Battuta, Travels in Asia and Africa, 1325–1354, trans. H. A. R. Gibb (London: George Routledge & Sons, 1929), ch. 8. Checked against Internet Archive scan travelsinasiaafr0000ibnb, scan p. 252.",
-                  "note": "Bracketed place names are Gibb's. “Haryab” is usually identified as Harihara, ruler of the Vijayanagara kingdom.",
-                  "sourceNote": "Excerpt text is reused unchanged from Page One's excerpt library, where it is checked against the edition named in the citation.",
-                  "metadata": {
-                    "author": "Ibn Battuta, dictated to Ibn Juzayy",
-                    "date": "Visit c. 1342; account dictated 1355",
-                    "setting": "Honavar, a port on India's southwestern coast",
                     "audience": "Muslim readers in Morocco",
                     "rights": "Public-domain translation in the United States (1929)."
                   },
@@ -3247,15 +3258,15 @@
                   "status": "verified"
                 }
               ],
-              "modelResponse": "By 1200, merchants already carried silk, spices, and gold across Eurasia and the Indian Ocean, but political power was fragmented after the fall of the Tang and the weakening of the Abbasid caliphate. In the 1200s the Mongol conquests rejoined much of Asia under related rulers, and states from China to the East African coast learned that taxing and protecting trade could pay for armies and courts.\n\nBetween 1200 and 1450, expanding exchange strengthened political authority where rulers could tax and protect commerce, but its effect was limited by distance, by violence that traveled with merchants, and by the diseases that followed the same routes.\n\nThe Yuan state shows the strongest case. Polo says foreign merchants crowded into suburbs of the capital, where 1,000 cart-loads of silk entered every day (Document 1), and that Hangzhou's trade yielded the Great Khan \"an immense revenue from the duties\" (Document 2). The Mongols also built the yam relay system to move messengers across the empire, which tied far provinces to the court. Polo wrote for Europeans eager for tales of wealth, so his numbers may be inflated; Document 2 is especially cautious because it is a report the Song queen reportedly sent to the Mongol general Bayan to persuade him to spare the city. Even so, a conqueror who had a reason to see the city as profitable had a reason to govern it carefully. On the East African coast, Ibn Battuta reports that Kilwa was a \"very fine and substantially built town\" and that gold dust reached Sufala for trade (Document 4). As a Muslim scholar writing for a Moroccan audience, he noted pious residents and mosques, and he relied on a merchant's report for Sufala, which he did not visit. Still, Kilwa's rulers did grow wealthy by controlling the gold trade. In West Africa, Ibn Battuta reports \"complete security\" in Mali and says its people did not seize the property of foreign merchants who died there (Document 5). Protecting traders kept North African merchants crossing the Sahara, and the gold and salt they exchanged paid for Mali's court. Because Ibn Battuta criticizes other Malian customs in the same passage, his praise of their justice is harder to dismiss as flattery.\n\nExchange did not always bring independent control. Honavar, a port whose people \"live by maritime commerce,\" had a powerful Muslim sultan, yet he ruled \"under the suzerainty\" of the Hindu ruler of Vijayanagara (Document 6), so trade wealth supported local rulers who still answered to a larger land-based state. Ibn Battuta, a Muslim judge, admired the town's Quran schools, and his religious outlook shaped what he chose to praise. Conquest could also destroy authority: Hulagu's capture of Baghdad in 1258 ended the Abbasid caliphate even though the city had been a great trading center (Document 3). Polo, however, gives the wrong year and writes decades later, which should make a historian cautious about his details.\n\nFinally, trade networks carried plague. Boccaccio, a Florentine writing a book of stories, describes the collapse of \"the reverend authority of the laws\" when officials died or fled (Document 7). His purpose was to set the scene for his tales, so he may exaggerate, but later events such as the English Statute of Labourers of 1351 show governments struggling to restore order after the plague.\n\nIn conclusion, exchange strengthened states that could tax and protect it, but it also left port rulers dependent on larger states and exposed everyone to conquest and disease, so the gains in political authority were real but uneven.",
+              "modelResponse": "By 1200, merchants already carried silk, porcelain, spices, and gold across Eurasia, the Sahara, and the Indian Ocean, but political power was fragmented after the fall of the Tang and the weakening of the Abbasid caliphate. In the 1200s the Mongol conquests joined much of Asia under related rulers, Muslim sultanates expanded in South Asia and West Africa, and rulers from China to the East African coast learned that taxing and protecting trade could pay for armies and courts.\n\nBetween 1200 and 1450, expanding exchange strengthened political authority where rulers could tax, protect, or force trade into their ports, but the relationship ran both ways: strong states also bent trade to serve their armies, and the same networks carried plague that weakened authority.\n\nSeveral states drew power directly from the trade passing through them. Zhao Rugua reports that Srivijaya controlled the strait through which ships from the Arab world and China had to pass, and that if a ship tried to sail by, \"their boats go forth to make a combined attack,\" which was \"the reason why this country is a great shipping centre\" (Document 1). Zhao was a Song official in charge of foreign trade at Quanzhou who compiled his account from merchants' reports for other Chinese officials, so he did not see Srivijaya himself and he listed mainly the goods that interested China. Yet an official whose job was collecting trade revenue had good reason to understand how a port kingdom profited from force. Melaka later rose after 1400 by controlling the same strait, which supports his explanation. In the Yuan Empire, Polo describes foreign merchants crowding the suburbs of the capital (Document 2) and says the khan drew \"an immense revenue from the duties\" on Hangzhou's trade (Document 3). Polo wrote for Europeans eager for tales of Eastern wealth, and Document 3 draws on a report the Song empress dowager sent to the Mongol general Bayan to persuade him to spare the city, so its numbers are likely inflated. Even so, a conqueror who saw the city as profitable had a reason to govern it carefully, and the Mongols' yam relay system tied such provinces to the court. On the East African coast, Ibn Battuta reports that Kilwa was \"a very fine and substantially built town\" and that gold dust reached Sufala for trade (Document 5); Kilwa's sultans grew rich by controlling that gold. In Mali, he reports \"complete security\" and says the Malians did not seize the goods of foreign merchants who died there (Document 6). Protecting traders kept North African caravans crossing the Sahara. Because Ibn Battuta, a Muslim judge writing for Moroccan readers, criticizes other Malian customs in the same passage, his praise of their justice is harder to dismiss as flattery.\n\nHowever, the causation also ran the other way: political authority could reshape exchange. Barani reports that Sultan Alauddin Khalji wanted \"a large army\" and that his councillors told him provisions would never be cheap \"until the price of grain was fixed by regulations and tariffs\"; royal granaries then sold grain \"at the tariff price\" whenever caravans failed (Document 4). Here a ruler did not grow strong because trade expanded; he used power to control markets so that he could pay an army, which helped the Delhi Sultanate turn back repeated Mongol invasions around 1300. Barani wrote about forty years after Alauddin's death, as a courtier offering lessons to later sultans, so he may have exaggerated how well prices held. His account still shows that a land-based state could treat commerce as a tool of military power.\n\nFinally, trade networks carried plague. Boccaccio describes the collapse of \"the reverend authority of the laws\" in Florence in 1348, when officials died or fled (Document 7). His purpose was to set the scene for his stories, so he may exaggerate, but the English Statute of Labourers of 1351 shows governments struggling to restore order after the plague.\n\nIn conclusion, exchange strengthened rulers who could tax, protect, or compel it, from Srivijaya to Mali, but strong states also reshaped trade to serve their own ends, and the same routes spread a disease that undermined authority, so the gains in political power were real but uneven.",
               "modelNotes": [
                 {
                   "label": "Contextualization",
-                  "text": "The first paragraph describes earlier trade, the fragmentation after the Tang and Abbasid decline, and the Mongol conquests that set up the period."
+                  "text": "The first paragraph describes earlier trade, the fragmentation after the Tang and Abbasid decline, and the Mongol conquests and Muslim sultanates that set up the period."
                 },
                 {
                   "label": "Thesis",
-                  "text": "The thesis answers the question of extent and previews two lines of reasoning: where exchange strengthened rulers and where it limited them."
+                  "text": "The thesis answers the question of extent and previews two lines of reasoning: rulers who gained from trade, and rulers who reshaped trade, with plague as a limit."
                 },
                 {
                   "label": "Evidence from the documents",
@@ -3263,22 +3274,23 @@
                 },
                 {
                   "label": "Evidence beyond the documents",
-                  "text": "The yam system, the fall of the Abbasid caliphate in 1258, and the Statute of Labourers of 1351 are specific evidence not found in the documents."
+                  "text": "The rise of Melaka after 1400, the Mongol yam system, the Delhi Sultanate's defeat of Mongol invasions around 1300, and the Statute of Labourers of 1351 are specific evidence not found in the documents."
                 },
                 {
                   "label": "Sourcing",
-                  "text": "The essay explains Polo's audience and purpose, the purpose of the Song queen's report in Document 2, Ibn Battuta's reliance on a merchant for Sufala, why his mixed judgment of Mali makes his praise credible, and Boccaccio's purpose in writing his introduction."
+                  "text": "The essay explains Zhao Rugua's position and reliance on merchants, Polo's audience, the purpose of the Song report behind Document 3, Ibn Battuta's mixed judgment of Mali, Barani's distance from events and purpose, and Boccaccio's purpose in writing his introduction."
                 },
                 {
                   "label": "Complexity",
-                  "text": "The argument qualifies its claim with Honavar's subordination to Vijayanagara, the conquest of Baghdad, and plague, and it corroborates documents with outside evidence."
+                  "text": "The argument shows causation running in both directions, using Barani's account of price controls to qualify the claim that trade built states, and it corroborates documents with outside evidence."
                 }
               ],
-              "alternateModel": "A different strong essay could argue that exchange strengthened merchant communities more than states, using Documents 1, 4, and 6 to show foreign merchants and Muslim scholars thriving in ports whatever rulers wished.",
+              "alternateModel": "A different strong essay could argue that political authority shaped exchange more than exchange shaped authority, using Documents 1, 4, and 6 to show rulers who forced ships into port, fixed prices, and guaranteed merchants' property, and Documents 2, 3, and 5 as cases where rulers mainly taxed trade that was already flowing.",
               "commonErrors": [
                 "Summarizing each document in order instead of grouping them by claim.",
-                "Treating a traveler's numbers as exact without asking who the traveler was writing for.",
+                "Treating a traveler's or official's numbers as exact without asking who the writer was and whom he was writing for.",
                 "Writing “Polo was biased” without saying how his audience or purpose affects the document's use.",
+                "Using Barani's price controls as proof that trade made Alauddin strong, when the document shows the sultan's power reshaping trade.",
                 "Using developments after 1450 as the main outside evidence."
               ],
               "maxPoints": 7
@@ -3735,7 +3747,7 @@
       }
     ]
   },
-  "revision": "8e473e19870e6831",
+  "revision": "fa85b854cd9016f7",
   "sources": [
     {
       "id": "ced",
