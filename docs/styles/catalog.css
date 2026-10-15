@@ -239,7 +239,7 @@
 }
 .topic-row {
   display: grid;
-  grid-template-columns: 56px 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 1rem;
   align-items: center;
   padding: 1.25rem 1rem;
@@ -382,23 +382,15 @@
     font-size: 0.7rem;
   }
   .topic-row {
-    grid-template-columns: 38px 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 0.7rem;
     padding: 1rem 0.6rem;
   }
   .topic-row > .pill {
-    grid-column: 2;
-    justify-self: start;
-  }
-  .topic-row > .big-arrow {
-    grid-column: 2;
     justify-self: start;
   }
   .topic-row > .big-arrow {
     display: none;
-  }
-  .topic-code {
-    align-self: start;
   }
   .topic-row h3 {
     font-size: 1rem;
@@ -627,11 +619,6 @@
   border-bottom: 1px solid #628474;
   font-size: 1rem;
 }
-.catalog-topics span {
-  color: #c5d7c9;
-  font-family: var(--mono);
-  font-variant-numeric: tabular-nums;
-}
 .catalog-entry .btn {
   min-height: 48px;
 }
@@ -648,11 +635,6 @@
   color: var(--green);
 }
 .unit-number {
-  font-family: var(--mono);
-  color: var(--green);
-  font-size: 1.375rem;
-}
-.topic-code {
   font-family: var(--mono);
   color: var(--green);
   font-size: 1.375rem;

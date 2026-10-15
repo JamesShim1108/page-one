@@ -21,7 +21,7 @@ function courseCard(course, index) {
     </div>
     <div class="catalog-entry">
       ${available ? `<p class="eyebrow">${icon("book")}<span class="visually-hidden">Ready to study</span></p>` : ""}
-      ${course.previewTopics.length ? `<ul class="catalog-topics">${course.previewTopics.map((topic) => `<li><span>${esc(topic.code)}</span>${esc(topic.title)}</li>`).join("")}</ul>` : `<p class="catalog-empty">No lessons added yet.</p>`}
+      ${course.previewTopics.length ? `<ul class="catalog-topics">${course.previewTopics.map((topic) => `<li>${esc(topic.title)}</li>`).join("")}</ul>` : `<p class="catalog-empty">No lessons added yet.</p>`}
       ${hasCoursePage ? link(`/course/${course.id}`, available ? `Open course ${arrow}` : `View course ${arrow}`, "btn") : badge("soon")}
     </div>
   </article>`;
@@ -326,7 +326,7 @@ export function unitPage(data, peekAttempt = () => null) {
           const ready = unit.status === "ready" && topic.status === "ready",
             tag = ready ? "a" : "div";
           return `<${tag} ${ready ? `href="#/topic/${esc(topic.id)}"` : ""} class="topic-row ${ready ? "ready" : ""}">
-          <span class="topic-code">${esc(topic.code)}</span><div><h3>${esc(topic.title)}, ${esc(topic.period)}</h3><p>${esc(topic.summary)}</p></div>
+          <div><h3>${esc(topic.title)}, ${esc(topic.period)}</h3><p>${esc(topic.summary)}</p></div>
           ${ready ? `<span class="big-arrow" aria-hidden="true">${icon("arrow")}</span>` : badge("soon")}
         </${tag}>`;
         })
