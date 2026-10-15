@@ -577,7 +577,7 @@
   color: #f0f5ed;
 }
 .course-catalog-card .period {
-  font: 0.875rem/1.5 var(--mono);
+  font: 0.9375rem/1.5 var(--sans);
   color: #c5d7c9;
   margin: 0 0 18px;
 }

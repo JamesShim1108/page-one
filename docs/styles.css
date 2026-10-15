@@ -1,11 +1,11 @@
 /* Keep this order: shared defaults, then component styles. */
-@import url("./styles/tokens.css?v=e459b6a023");
-@import url("./styles/base.css?v=18fd2ffdbd");
+@import url("./styles/tokens.css?v=e501c95bbf");
+@import url("./styles/base.css?v=d4022f2b0b");
 @import url("./styles/icons.css?v=164452877e");
 @import url("./styles/layout.css?v=77f5210886");
-@import url("./styles/catalog.css?v=d241945afc");
-@import url("./styles/carousel.css?v=b3ef3012a8");
-@import url("./styles/lesson.css?v=b272337571");
+@import url("./styles/catalog.css?v=f7e850a074");
+@import url("./styles/carousel.css?v=fda279d7a9");
+@import url("./styles/lesson.css?v=beb66ac406");
 @import url("./styles/reading.css?v=c50dd209f1");
 @import url("./styles/quiz.css?v=3f8fe042d8");
 @import url("./styles/study.css?v=4ba155938d");

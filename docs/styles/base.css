@@ -17,6 +17,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
+  font-size: 1.0625rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -253,7 +254,7 @@ h1 {
   font-size: 3.5rem;
 }
 .eyebrow {
-  font: 0.875rem/1.5 var(--mono);
+  font: 600 0.875rem/1.5 var(--sans);
   color: var(--green);
   text-transform: none;
 }

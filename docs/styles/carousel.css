@@ -103,7 +103,7 @@
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 26px;
-  font: 0.8125rem/1.5 var(--mono);
+  font: 600 0.8125rem/1.5 var(--sans);
 }
 .preview-code {
   padding: 5px 9px;
@@ -120,7 +120,7 @@
 }
 .preview-card .preview-period {
   color: #405e51;
-  font: 0.875rem/1.6 var(--mono);
+  font: 0.9375rem/1.6 var(--sans);
   margin: 0 0 16px;
 }
 .preview-card .preview-description {

@@ -275,7 +275,7 @@
   min-width: 0;
 }
 .lesson-head .date-line {
-  font: 1rem/1.6 var(--mono);
+  font: 1rem/1.6 var(--sans);
 }
 .lesson-section h2 {
   font-size: 2rem;
