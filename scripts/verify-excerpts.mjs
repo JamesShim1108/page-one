@@ -38,6 +38,9 @@ const gibbOcrCorrections = [
   ["Kulw4", "Kulwa"],
   ['it." Kulwé', "it. Kulwa"],
   ["Sufála", "Sufala"],
+  // The current OCR (regenerated since the entries above) reads differently.
+  ["Suféla", "Sufala"],
+  ["do not 329 SELECTIONS FROM shi confiscate", "do not confiscate"],
   ["qAdi", "qadi"],
   ["every- one", "everyone"],
   ["inhabi- tants", "inhabitants"],
@@ -91,6 +94,8 @@ function normalize(text) {
     .replace(/\[NOTE ?\d+\]/g, "")
     .replace(/\[scan p\.\d+\] ?/g, "")
     .replace(/\[\d+\]/g, "")
+    .replace(/\{\d+\}/g, "")
+    .replace(/—/g, "--")
     .replace(/_/g, "")
     .replace(/ +/g, " ");
 }
