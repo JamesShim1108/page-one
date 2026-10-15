@@ -2,8 +2,6 @@ import { escapeHtml as esc, breadcrumbs, contextCrumbs, link } from "../ui.js";
 import { saveNavigationContext, readNavigationContext } from "../navigation-context.js";
 import { icon } from "../icons.js";
 
-export const READING_MARK_LIMIT = 2000;
-
 function keyFor(targetType, targetId) {
   return `${targetType}:${targetId}`;
 }
@@ -29,8 +27,6 @@ export function normalizeReadingMark(value) {
   if (typeof value.targetId !== "string" || !value.targetId.trim()) return null;
   if (typeof value.courseId !== "string" || !value.courseId.trim()) return null;
   if (typeof value.sectionId !== "string" || !value.sectionId.trim()) return null;
-  if (typeof value.note !== "string" || value.note.length > READING_MARK_LIMIT)
-    return null;
   return {
     schemaVersion: 1,
     pageId: value.pageId,
@@ -51,7 +47,6 @@ export function normalizeReadingMark(value) {
     understood: value.understood === true,
     review: value.review === true,
     confusing: value.confusing === true,
-    note: value.note,
     updatedAt:
       typeof value.updatedAt === "string" ? value.updatedAt : new Date().toISOString(),
   };
@@ -67,7 +62,6 @@ function blankMark(context, target, previous = {}) {
     targetId: target.targetId,
     sectionId: target.sectionId || previous.sectionId,
     excerpt: target.excerpt ?? previous.excerpt ?? "",
-    note: previous.note ?? "",
     updatedAt: new Date().toISOString(),
   });
 }
@@ -135,7 +129,7 @@ export function createReadingMarkStore(adapter, context) {
     const current = records.get(key)?.payload || {};
     const next = blankMark(base, target, { ...current, ...patch });
     if (!next) return { ok: false, status: "invalid" };
-    if (!next.read && !next.understood && !next.review && !next.confusing && !next.note) {
+    if (!next.read && !next.understood && !next.review && !next.confusing) {
       records.delete(key);
       if (adapter) {
         const writer = writerFor(target, next);
@@ -208,7 +202,6 @@ export function readingMarkControls({
   return `<div class="reading-mark-controls" data-reading-mark-target="${esc(targetType)}" data-reading-mark-target-id="${esc(targetId)}" data-reading-mark-section="${esc(sectionId)}" data-reading-mark-excerpt="${esc(excerpt)}" data-reading-mark-label="${esc(label)}">
     <span class="visually-hidden" id="${esc(descriptionId)}" data-reading-mark-description>${esc(targetDescription)}</span>
     ${isSection ? `${markButton("read", "Read", "Mark this section read.", descriptionId)}${markButton("understood", "Understood", "Report that you can explain this section.", descriptionId)}` : markButton("review", "Review this", "Keep this passage in your private review list.", descriptionId, "bookmark")}
-    <details class="reading-note-disclosure${isSection ? "" : " reading-note-disclosure--icon"}"><summary${isSection ? "" : ' title="Private note"'}>${isSection ? "Private note" : `${icon("pen")}<span class="visually-hidden">Private note</span>`}</summary><div class="reading-note-panel"><label>Private note for ${esc(label)}<textarea maxlength="${READING_MARK_LIMIT}" rows="3" data-reading-mark-note placeholder="Only saved in this browser."></textarea></label><button type="button" class="text-button" data-reading-mark-action="save-note">Save note</button><p class="reading-mark-status" role="status" aria-live="polite"></p></div></details>
     <span class="reading-mark-status" role="status" aria-live="polite"></span>
   </div>`;
 }
@@ -263,8 +256,6 @@ export function mountReadingMarks(
       button.setAttribute("aria-pressed", String(active));
       button.classList.toggle("is-active", active);
     }
-    const note = container.querySelector("[data-reading-mark-note]");
-    if (note && document.activeElement !== note) note.value = mark.note || "";
   }
 
   function status(container, result) {
@@ -300,9 +291,6 @@ export function mountReadingMarks(
     if (["read", "understood", "review"].includes(name)) {
       const current = store.get(targetFor(container)) || {};
       save(container, { [name]: current[name] !== true });
-    } else if (name === "save-note") {
-      const note = container.querySelector("[data-reading-mark-note]")?.value || "";
-      save(container, { note: note.slice(0, READING_MARK_LIMIT) });
     }
   }
 
@@ -341,8 +329,7 @@ function reviewRow(record, contextToken) {
     <p class="eyebrow">${esc(payload.courseTitle || payload.courseId)}${payload.unitTitle ? ` · ${esc(payload.unitTitle)}` : ""}</p>
     <h2>${esc(payload.pageTitle || "Reading")}</h2><p class="reading-review-location">${esc(location)} · ${esc(payload.sectionId)}</p>
     <blockquote>${esc(payload.excerpt || "Original passage unavailable.")}</blockquote>
-    ${payload.note ? `<p class="reading-review-note"><strong>Private note:</strong> ${esc(payload.note)}</p>` : ""}
-    ${stale ? '<p class="reading-review-orphan" role="status">Original passage changed or is unavailable. This note was not moved to another paragraph.</p>' : ""}
+    ${stale ? '<p class="reading-review-orphan" role="status">Original passage changed or is unavailable.</p>' : ""}
     <div class="actions">${link(destination, stale ? "Open surrounding section" : "Open passage", "btn secondary")}<button type="button" class="text-button" data-reading-review-remove="${esc(record.recordId)}">Remove from review</button></div>
   </article>`;
 }

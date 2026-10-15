@@ -230,7 +230,6 @@ const PAYLOAD_FIELDS = Object.freeze({
     "understood",
     "review",
     "confusing",
-    "note",
     "updatedAt",
   ],
   "reading-position": [

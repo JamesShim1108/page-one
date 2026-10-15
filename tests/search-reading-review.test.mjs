@@ -128,7 +128,7 @@ test("search index loading is on demand and does not fetch question banks", asyn
   assert.deepEqual(requested, ["catalog.json", "world/search.json"]);
 });
 
-test("reading marks keep read, understood, review, and private notes independent", async () => {
+test("reading marks keep read, understood, and review independent", async () => {
   const storage = memoryStorage();
   const options = {
     indexedDB: null,
@@ -165,24 +165,32 @@ test("reading marks keep read, understood, review, and private notes independent
     targetId: "section-a-block-1",
     excerpt: "Original passage.",
   };
-  const note = '<img src=x onerror="alert(1)">';
-  assert.equal((await store.update(block, { review: true, note })).ok, true);
+  assert.equal((await store.update(block, { review: true })).ok, true);
   const reloaded = createReadingMarkStore(createLocalAdapter(options), context);
   await reloaded.ready;
-  assert.equal(reloaded.get(block).note, note);
   assert.equal(reloaded.get(block).review, true);
   assert.equal((await reloaded.removeReview(block)).ok, true);
   const afterRemoval = createReadingMarkStore(createLocalAdapter(options), context);
   await afterRemoval.ready;
-  assert.equal(afterRemoval.get(block).review, false);
-  assert.equal(afterRemoval.get(block).note, note);
-  assert.equal(
-    normalizeReadingMark({ ...context, ...block, note: "x".repeat(2001) }),
-    null,
-  );
+  assert.equal(afterRemoval.get(block), null);
 });
 
-test("review list escapes notes and keeps removed passages visibly unresolved", () => {
+test("reading marks drop any saved note field instead of keeping it", () => {
+  const mark = normalizeReadingMark({
+    schemaVersion: 1,
+    pageId: "reading:topic:fixture-1-1",
+    courseId: "fixture",
+    targetType: "block",
+    targetId: "section-a-block-1",
+    sectionId: "section-a",
+    review: true,
+    note: "An old private note",
+  });
+  assert.equal(mark.review, true);
+  assert.equal("note" in mark, false);
+});
+
+test("review list keeps removed passages visibly unresolved and shows no notes", () => {
   const html = reviewPage({
     courses: [{ id: "fixture", title: "Fixture", status: "ready", readyTopicCount: 1 }],
     courseId: "fixture",
@@ -200,7 +208,6 @@ test("review list escapes notes and keeps removed passages visibly unresolved", 
           targetId: "block-a",
           sectionId: "section-a",
           excerpt: "Old passage",
-          note: "<b>private</b>",
           review: true,
           updatedAt: "2026-09-21T00:00:00.000Z",
         },
@@ -209,6 +216,5 @@ test("review list escapes notes and keeps removed passages visibly unresolved", 
     ],
   });
   assert.match(html, /Original passage changed or is unavailable/);
-  assert.match(html, /&lt;b&gt;private&lt;\/b&gt;/);
-  assert.doesNotMatch(html, /<b>private<\/b>/);
+  assert.doesNotMatch(html, /Private note/);
 });

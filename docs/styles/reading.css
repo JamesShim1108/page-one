@@ -79,44 +79,6 @@
   content: "✓ ";
 }
 
-.reading-note-disclosure {
-  position: relative;
-}
-
-.reading-note-disclosure summary {
-  min-height: 44px;
-  padding: 0.35rem 0.6rem;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  background: var(--white);
-  color: var(--green);
-  cursor: pointer;
-  font-size: 0.78rem;
-  font-weight: 650;
-  list-style-position: inside;
-}
-
-.reading-note-disclosure label {
-  display: grid;
-  gap: 0.35rem;
-  min-width: min(280px, calc(100vw - 3rem));
-  padding: 0.55rem;
-  border: 1px solid var(--line);
-  background: var(--white);
-  color: var(--muted);
-  font-size: 0.78rem;
-}
-
-.reading-note-disclosure textarea {
-  width: 100%;
-  min-height: 4rem;
-  padding: 0.45rem;
-  border: 1px solid var(--line);
-  color: var(--ink);
-  font: inherit;
-  resize: vertical;
-}
-
 .reading-mark-status {
   margin: 0;
   color: var(--muted);
@@ -174,12 +136,6 @@
   border-left: 2px solid var(--line);
   color: var(--ink);
   line-height: 1.55;
-}
-
-.reading-review-note {
-  padding: 0.65rem;
-  background: var(--soft);
-  white-space: pre-wrap;
 }
 
 .reading-review-orphan {
@@ -387,9 +343,7 @@
 
   .reading-heading-actions,
   .reading-block-actions,
-  .reading-mark-controls,
-  .reading-note-disclosure,
-  .reading-review-note {
+  .reading-mark-controls {
     display: none !important;
   }
 
@@ -427,15 +381,13 @@
   }
 
   .reading-block:hover .reading-block-actions,
-  .reading-block:focus-within .reading-block-actions,
-  .reading-block-actions:has(details[open]) {
+  .reading-block:focus-within .reading-block-actions {
     opacity: 1;
   }
 }
 
 .reading-block-actions .reading-block-action--icon,
 .reading-block-actions .reading-mark-button--icon,
-.reading-block-actions .reading-note-disclosure summary,
 .reading-block-actions .report-trigger--icon {
   display: inline-flex;
   align-items: center;
@@ -451,11 +403,6 @@
   color: var(--muted);
   font: inherit;
   cursor: pointer;
-  list-style: none;
-}
-
-.reading-block-actions .reading-note-disclosure summary::-webkit-details-marker {
-  display: none;
 }
 
 .reading-block-actions .icon {
@@ -466,7 +413,6 @@
 
 .reading-block-actions .reading-block-action--icon:hover,
 .reading-block-actions .reading-mark-button--icon:hover,
-.reading-block-actions .reading-note-disclosure summary:hover,
 .reading-block-actions .report-trigger--icon:hover {
   background: var(--soft);
   color: var(--green);
@@ -499,49 +445,6 @@
   display: none;
 }
 
-.reading-block-actions .reading-note-disclosure {
-  position: relative;
-  width: auto;
-  grid-column: auto;
-}
-
-.reading-block-actions .reading-note-panel {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 6px);
-  z-index: 12;
-  display: grid;
-  gap: 0.5rem;
-  width: min(300px, calc(100vw - 2.5rem));
-  padding: 0.75rem;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--white);
-  box-shadow: 0 10px 28px rgb(23 62 52 / 0.14);
-}
-
-.reading-block-actions .reading-note-panel label {
-  display: grid;
-  gap: 0.35rem;
-  min-width: 0;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  font-size: 0.85rem;
-}
-
-.reading-block-actions .reading-note-panel .text-button {
-  justify-self: end;
-  min-height: 36px;
-  font-size: 0.85rem;
-}
-
-.reading-block-actions .reading-note-panel .reading-mark-status {
-  margin: 0;
-}
-
 .reading-block-actions .report-trigger--icon {
   margin-left: 0;
 }
@@ -549,7 +452,6 @@
 @media (hover: none) {
   .reading-block-actions .reading-block-action--icon,
   .reading-block-actions .reading-mark-button--icon,
-  .reading-block-actions .reading-note-disclosure summary,
   .reading-block-actions .report-trigger--icon {
     width: 44px;
     height: 44px;
