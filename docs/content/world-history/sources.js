@@ -263,6 +263,62 @@ export const sources = [
     url: "https://www.gutenberg.org/ebooks/23700",
     note: "Public domain. Excerpts are checked with scripts/verify-excerpts.mjs.",
   },
+  {
+    id: "zhao-hirth-rockhill-1911",
+    label:
+      "Chau Ju-kua: His Work on the Chinese and Arab Trade in the Twelfth and Thirteenth Centuries, entitled Chu-fan-chi, trans. Friedrich Hirth and W. W. Rockhill (St. Petersburg: Imperial Academy of Sciences, 1911)",
+    url: "https://archive.org/details/b29353087",
+    note: "Public domain in the United States (published 1911). Excerpts are checked against the Internet Archive scan's full text; the Chinese characters printed beside some words are omitted.",
+  },
+  {
+    id: "elliot-dowson-v3-1871",
+    label:
+      "The History of India, as Told by Its Own Historians: The Muhammadan Period, ed. H. M. Elliot and John Dowson, vol. 3 (London: Trübner, 1871)",
+    url: "https://archive.org/details/bub_gb_dB7qafVTrKkC",
+    note: "Public domain in the United States (published 1871). Contains the translation of Ziauddin Barani's Tarikh-i Firoz Shahi. Excerpts are checked against the Internet Archive scan's full text; diacritics are omitted.",
+  },
+  {
+    id: "backhouse-bland-annals-1914",
+    label:
+      "E. Backhouse and J. O. P. Bland, Annals & Memoirs of the Court of Peking (London: William Heinemann, 1914)",
+    url: "https://archive.org/details/cu31924023125796",
+    note: "Public domain in the United States (published 1914). Used only for the Qianlong Emperor's 1793 edict to George III, which is preserved in Qing records; Backhouse forged other sources. Excerpts are checked against the Internet Archive scan's full text.",
+  },
+  {
+    id: "rammohun-roy-1906",
+    label:
+      "The English Works of Raja Rammohun Roy, with an English Translation of “Tuhfatul Muwahhiddin” (Allahabad: Panini Office, 1906)",
+    url: "https://archive.org/details/the-english-works-of-raja-rammohan-ray-1906",
+    note: "Public domain in the United States (published 1906; Roy wrote in English and died in 1833). Excerpts are checked against the Internet Archive scan's full text.",
+  },
+  {
+    id: "rizal-century-hence-1912",
+    label:
+      "José Rizal, The Philippines a Century Hence, trans. Charles Derbyshire, ed. Austin Craig (Manila: Philippine Education Company, 1912), Project Gutenberg eBook #35899",
+    url: "https://www.gutenberg.org/ebooks/35899",
+    note: "Public domain in the United States (translation published 1912). Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "mexico-constitution-1917-branch",
+    label:
+      "Political Constitution of the United States of Mexico, Signed January 31, 1917, and Promulgated February 3, 1917, trans. H. N. Branch, The Mexican Review 1, no. 6 (Washington, D.C., March 1917)",
+    url: "https://archive.org/details/mexicanconstitut00mexi",
+    note: "Public domain in the United States (published 1917). Excerpts are checked against the Internet Archive scan's full text.",
+  },
+  {
+    id: "gandhi-wheel-of-fortune-1922",
+    label:
+      "Mahatma Gandhi, The Wheel of Fortune (Madras: Ganesh & Co., 1922), Project Gutenberg eBook #41954",
+    url: "https://www.gutenberg.org/ebooks/41954",
+    note: "Public domain in the United States (published 1922). Collects Gandhi's English articles from Young India, 1920–1921. Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
+  {
+    id: "sun-yatsen-development-1922",
+    label:
+      "Sun Yat-sen, The International Development of China (New York: G. P. Putnam's Sons, 1922), Project Gutenberg eBook #45188",
+    url: "https://www.gutenberg.org/ebooks/45188",
+    note: "Public domain in the United States (published 1922). Excerpts are checked with scripts/verify-excerpts.mjs.",
+  },
   // BEGIN unit-01
   {
     id: "ced-topic-1-2",

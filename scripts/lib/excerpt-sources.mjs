@@ -7,6 +7,8 @@
 // C-SPAN transcripts in the NLTK data repository on GitHub
 // (packages/corpora/inaugural.zip and state_union.zip), renamed with an
 // inaugural- or sotu- prefix because both corpora use names like 1981-Reagan.txt.
+// Internet Archive files are the item's full-text OCR (<identifier>_djvu.txt);
+// scripts/verify-excerpts.mjs maps their scanner errors to the printed reading.
 export const EXCERPT_SOURCES = Object.freeze({
   "polo-": {
     files: ["polo-v1.txt", "polo-v2.txt"],
@@ -98,6 +100,44 @@ export const EXCERPT_SOURCES = Object.freeze({
   "gwbush-sotu-2003-": {
     files: ["sotu-2003-GWBush.txt"],
     label: "NLTK State of the Union corpus, 2003-GWBush.txt (C-SPAN transcript)",
+  },
+  "zhao-": {
+    files: ["zhao-hirth-rockhill-ocr.txt"],
+    label:
+      "Internet Archive full-text OCR of b29353087 (Hirth and Rockhill's Chau Ju-kua, 1911)",
+  },
+  "barani-": {
+    files: ["elliot-dowson-v3-ocr.txt"],
+    label:
+      "Internet Archive full-text OCR of bub_gb_dB7qafVTrKkC (Elliot and Dowson, History of India, vol. 3, 1871)",
+  },
+  "qianlong-": {
+    files: ["backhouse-bland-annals-ocr.txt"],
+    label:
+      "Internet Archive full-text OCR of cu31924023125796 (Backhouse and Bland, Annals & Memoirs of the Court of Peking, 1914)",
+  },
+  "roy-": {
+    files: ["rammohun-roy-1906-ocr.txt"],
+    label:
+      "Internet Archive full-text OCR of the-english-works-of-raja-rammohan-ray-1906 (Panini Office, 1906)",
+  },
+  "rizal-": {
+    files: ["rizal-century-hence.txt"],
+    label: "Project Gutenberg #35899 (Rizal, The Philippines a Century Hence, 1912)",
+  },
+  "mexico-constitution-1917-": {
+    files: ["mexican-review-1917-ocr.txt"],
+    label:
+      "Internet Archive full-text OCR of mexicanconstitut00mexi (Branch's translation in The Mexican Review, March 1917)",
+  },
+  "gandhi-": {
+    files: ["gandhi-wheel-of-fortune.txt"],
+    label: "Project Gutenberg #41954 (Gandhi, The Wheel of Fortune, 1922)",
+  },
+  "sun-yatsen-": {
+    files: ["sun-international-development.txt"],
+    label:
+      "Project Gutenberg #45188 (Sun Yat-sen, The International Development of China, 1922)",
   },
 });
 
