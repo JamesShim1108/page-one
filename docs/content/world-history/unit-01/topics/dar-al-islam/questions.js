@@ -263,7 +263,7 @@ export const bank = {
       choiceExplanations: [
         "The Ottomans rose later and did not take Baghdad until the 1500s.",
         "The capture of Baghdad was part of Mongol expansion into Southwest Asia, not western Europe.",
-        "Crusader armies fought for the Levant, but Alaue (Hulagu) was a Mongol prince, not a crusader.",
+        "Crusader armies fought for the Levant, but Alaü (Hulagu) was a Mongol prince, not a crusader.",
         "Hulagu, brother of Kublai Khan, led the Mongol campaign that took Baghdad in 1258.",
       ],
       nearMissIndex: 1,
