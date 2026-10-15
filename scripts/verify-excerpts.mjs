@@ -44,7 +44,44 @@ const gibbOcrCorrections = [
   ["apart- ments", "apartments"],
 ];
 
-const corrections = { "battuta-": gibbOcrCorrections };
+// Scanner errors in the other Internet Archive OCR texts, mapped to the printed
+// reading: line-break hyphens, running heads and page numbers that fall inside
+// a sentence, margin line numbers, and misread letters. For Hirth and Rockhill,
+// the Chinese characters the translators printed beside some words are removed,
+// as the excerpt notes say.
+const zhaoOcrCorrections = [
+  ["traders (番 商) who", "traders who"],
+  ["porcelain- ware, silk", "porcelain-ware, silk"],
+  ["iron, samslm, rice", "iron, samshu, rice"],
+  ["gullet 咽 喉)", "gullet)"],
+  ["go forth to 10 make", "go forth to make"],
+];
+const baraniOcrCorrections = [
+  [
+    "abundant Digitized by Google TABfKH.I FfROZ SHA'HT. 193 or scanty",
+    "abundant or scanty",
+  ],
+  ["and the com was sold", "and the corn was sold"],
+];
+const qianlongOcrCorrections = [
+  ["individual views ?", "individual views?"],
+  ["the State : strange", "the State: strange"],
+  ["majestic Adrtue", "majestic virtue"],
+];
+const royOcrCorrections = [
+  ["in dark- ness", "in darkness"],
+  ["the Govern- ment, it will", "the Government, it will"],
+];
+const mexicoOcrCorrections = [["¬ ", ""]];
+
+const corrections = {
+  "battuta-": gibbOcrCorrections,
+  "zhao-": zhaoOcrCorrections,
+  "barani-": baraniOcrCorrections,
+  "qianlong-": qianlongOcrCorrections,
+  "roy-": royOcrCorrections,
+  "mexico-constitution-1917-": mexicoOcrCorrections,
+};
 
 function normalize(text) {
   return text
