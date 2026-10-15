@@ -404,6 +404,219 @@ export const bank = {
       stimulusId: "original-african-states",
       stimulusBlocks: [excerpts.originalAfricanStates],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-4-4-m1-07a",
+      topicId: "world-4-4",
+      concept: "trading-post-empires",
+      difficulty: "Apply",
+      skill: "claims-evidence",
+      prompt:
+        "Which claim does Smith make about the effects of European voyages on the peoples of the Americas and Asia?",
+      choices: [
+        "Commerce brought peoples of the East and West Indies a lasting improvement in their lives",
+        "The benefits of commerce were swallowed up by the injustices Europeans committed",
+        "Local rulers successfully resisted European power in remote lands",
+        "European governments punished the injustices committed by their traders",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Smith says the benefits of commerce were “sunk and lost” in the misfortunes the discoveries caused for native peoples.",
+      sourceIds: ["ced-topic-4-4"],
+      choiceExplanations: [
+        "Smith says the opposite: any benefits were lost in the misfortunes.",
+        "Smith says the benefits of commerce were “sunk and lost” in the misfortunes the discoveries caused for native peoples.",
+        "Smith says European superiority of force let them act with impunity.",
+        "Smith says Europeans acted with impunity, so nothing suggests punishment.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Smith grants that commerce had a beneficial tendency in general, but he denies that native peoples shared the benefit.",
+      stimulusId: "smith-discovery",
+      stimulusBlocks: [excerpts.smithDiscovery],
+    },
+    {
+      id: "world-4-4-m1-07b",
+      topicId: "world-4-4",
+      concept: "joint-stock-companies",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Smith's criticism of the “mercantile system” is best understood in the context of",
+      choices: [
+        "Protestant arguments against the sale of indulgences in Germany",
+        "Spanish defenses of forced labor under the encomienda system",
+        "Enlightenment arguments for freer trade and against monopolies",
+        "Mughal attempts to tax foreign merchants in Indian ports",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Writing in 1776, Smith belonged to the Enlightenment tradition that questioned state control of trade.",
+      sourceIds: ["ced-topic-4-4"],
+      choiceExplanations: [
+        "Arguments over indulgences concerned the Church and belonged to the 1500s.",
+        "Defenders of the encomienda argued for forced labor, not for freer trade.",
+        "Writing in 1776, Smith belonged to the Enlightenment tradition that questioned state control of trade.",
+        "Smith was writing about European economic policy, not Mughal taxation.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Smith wrote about colonial trade, but his critique was of European monopoly policy, not of Spanish labor systems.",
+      stimulusId: "smith-discovery",
+      stimulusBlocks: [excerpts.smithDiscovery],
+    },
+    {
+      id: "world-4-4-m1-07c",
+      topicId: "world-4-4",
+      concept: "joint-stock-companies",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "Which development of the 1600s best illustrates the “mercantile system” Smith describes?",
+      choices: [
+        "Chartered joint-stock companies that held colonial trade monopolies",
+        "Tokugawa Japan's restrictions on dealings with foreign merchants",
+        "Ming tributary missions to ports across the Indian Ocean",
+        "Songhai taxes on caravans crossing the Sahara",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Companies such as the Dutch East India Company combined state backing with monopoly trading rights, a core feature of mercantilism.",
+      sourceIds: ["ced-topic-4-4"],
+      choiceExplanations: [
+        "Companies such as the Dutch East India Company combined state backing with monopoly trading rights, a core feature of mercantilism.",
+        "Tokugawa restrictions limited foreign contact but were not a system of colonial monopoly companies.",
+        "Ming missions ended in the 1430s and were not part of a European mercantile system.",
+        "Songhai taxes supported an African empire and were not part of European mercantilism.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Japanese restrictions were a form of trade control, but they were isolationist policy, not mercantilist colonial monopoly.",
+      stimulusId: "smith-discovery",
+      stimulusBlocks: [excerpts.smithDiscovery],
+    },
+    {
+      id: "world-4-4-m3-06a",
+      topicId: "world-4-4",
+      concept: "joint-stock-companies",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "Which feature of the VOC does the passage identify as a way of spreading the risk of long voyages?",
+      choices: [
+        "Selling shares in the company to many investors",
+        "Receiving a monopoly over all Dutch trade in Asia",
+        "Building forts at the ends of its trade routes",
+        "Allowing the company to make treaties with Asian rulers",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The passage says selling shares spread the risk of expensive voyages.",
+      sourceIds: ["ced-topic-4-4"],
+      choiceExplanations: [
+        "The passage says selling shares spread the risk of expensive voyages.",
+        "A monopoly gave the company exclusive rights but did not spread risk among investors.",
+        "Forts protected trade but did not spread financial risk.",
+        "Treaties secured trade but did not spread financial risk.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The monopoly helped the company profit, but the passage connects risk to the sale of shares.",
+      stimulusId: "mock3-dutch-east-india-company",
+      stimulusBlocks: [excerpts.m3VOC],
+    },
+    {
+      id: "world-4-4-m3-06b",
+      topicId: "world-4-4",
+      concept: "trading-post-empires",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt: "The VOC resembled a government in that it",
+      choices: [
+        "collected taxes from voters in the Dutch Republic",
+        "chose the officials who governed the Dutch Republic",
+        "was allowed to wage war, make treaties, and build forts",
+        "wrote laws for all European merchants in Asia",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The passage says the company was granted powers to wage war, make treaties, and build forts.",
+      sourceIds: ["ced-topic-4-4"],
+      choiceExplanations: [
+        "The passage describes no tax on voters in the Netherlands.",
+        "The company traded in Asia and did not appoint Dutch officials.",
+        "The passage says the company was granted powers to wage war, make treaties, and build forts.",
+        "The VOC did not write laws for other nations' merchants.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The company had the power to rule in its territories, but not to govern the Dutch state.",
+      stimulusId: "mock3-dutch-east-india-company",
+      stimulusBlocks: [excerpts.m3VOC],
+    },
+    {
+      id: "world-4-4-m3-06c",
+      topicId: "world-4-4",
+      concept: "trading-post-empires",
+      difficulty: "Apply",
+      skill: "developments",
+      reasoning: "causation",
+      prompt:
+        "The VOC's capture of Portuguese strongholds in the Indian Ocean is best explained by",
+      choices: [
+        "a treaty in which Portugal gave its bases to the Dutch",
+        "a Portuguese decision to leave Asia to focus on Brazil",
+        "a Dutch alliance with the Mughal emperor against Portugal",
+        "Dutch naval strength and the decline of Portuguese power",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The Dutch had stronger ships and more capital, while Portugal was stretched thin and had been under Spanish rule from 1580 to 1640.",
+      sourceIds: ["ced-topic-4-4"],
+      choiceExplanations: [
+        "The Dutch took the strongholds by force and not by treaty.",
+        "Portugal kept Goa, Macau, and other posts; it lost many strongholds to Dutch attacks.",
+        "The VOC's campaigns were not part of an alliance with the Mughals.",
+        "The Dutch had stronger ships and more capital, while Portugal was stretched thin and had been under Spanish rule from 1580 to 1640.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Portugal did turn toward Brazil later, but it lost its Asian strongholds to Dutch attacks rather than leaving them.",
+      stimulusId: "mock3-dutch-east-india-company",
+      stimulusBlocks: [excerpts.m3VOC],
+    },
+    {
+      id: "world-4-4-m3-06d",
+      topicId: "world-4-4",
+      concept: "joint-stock-companies",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt: "The VOC's control of the spice trade most directly contributed to",
+      choices: [
+        "the end of Dutch interest in overseas trading colonies",
+        "the Dutch takeover of Spain's silver mines in the Americas",
+        "a steep decline in the demand for spices in Europe",
+        "Amsterdam's rise as a center of finance and trade",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The company's profits and its use of shares helped make Amsterdam an important financial center.",
+      sourceIds: ["ced-topic-4-4"],
+      choiceExplanations: [
+        "The VOC's success increased Dutch overseas interests.",
+        "Spain kept its American silver mines; Dutch wealth came from Asian trade and finance.",
+        "The passage does not suggest that demand for spices fell.",
+        "The company's profits and its use of shares helped make Amsterdam an important financial center.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Dutch did have colonies in the Americas, but the VOC's focus was on Asia.",
+      stimulusId: "mock3-dutch-east-india-company",
+      stimulusBlocks: [excerpts.m3VOC],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

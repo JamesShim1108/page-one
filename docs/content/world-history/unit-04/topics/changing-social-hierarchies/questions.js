@@ -277,6 +277,98 @@ export const bank = {
       stimulusId: "montaigne-cannibals",
       stimulusBlocks: [excerpts.montaigneCannibals],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-4-7-m2-07a",
+      topicId: "world-4-7",
+      concept: "casta-system",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "According to the passage, what limited the opportunities of criollos?",
+      choices: [
+        "They owed tribute and labor service to the Spanish colonial officials",
+        "They were forbidden by law to own land or mines in the colonies",
+        "They were barred from most top posts in government and the Church",
+        "They were enslaved and could not leave the estates where they worked",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Criollos owned land and mines but were excluded from top offices, which went to peninsulares.",
+      sourceIds: ["ced-topic-4-7"],
+      choiceExplanations: [
+        "Tribute and labor were owed by Indigenous peoples.",
+        "The passage says criollos owned much of the land and many mines.",
+        "Criollos owned land and mines but were excluded from top offices, which went to peninsulares.",
+        "Enslaved Africans, not criollos, were enslaved.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Criollos had wealth, but the passage places the limit on office, not on property.",
+      stimulusId: "mock2-spanish-american-hierarchy",
+      stimulusBlocks: [excerpts.m2Casta],
+    },
+    {
+      id: "world-4-7-m2-07b",
+      topicId: "world-4-7",
+      concept: "casta-system",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The importance of birthplace and ancestry in Spanish America is best explained by",
+      choices: [
+        "Indigenous traditions of hereditary rank that the Spanish adopted",
+        "Enlightenment ideas that all people are born equal in rights",
+        "The abolition of slavery throughout the Spanish colonies by 1700",
+        "Spanish efforts to reserve power for people born in Spain",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "A hierarchy of conquerors above those of mixed or Indigenous ancestry served to protect Spanish control of the colonies.",
+      sourceIds: ["ced-topic-4-7"],
+      choiceExplanations: [
+        "The hierarchy was imposed by Spanish colonial authorities.",
+        "Enlightenment equality was a challenge to the casta hierarchy, not its cause.",
+        "Slavery was not abolished in Spanish America in this period.",
+        "A hierarchy of conquerors above those of mixed or Indigenous ancestry served to protect Spanish control of the colonies.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Indigenous societies had their own hierarchies, but the casta system was a Spanish creation.",
+      stimulusId: "mock2-spanish-american-hierarchy",
+      stimulusBlocks: [excerpts.m2Casta],
+    },
+    {
+      id: "world-4-7-m2-07c",
+      topicId: "world-4-7",
+      concept: "casta-system",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "continuity",
+      prompt:
+        "Which statement best describes how the casta system worked in practice, according to the passage?",
+      choices: [
+        "It assigned legal status by religion rather than ancestry",
+        "It prevented any mixing of ancestry among colonial groups",
+        "It applied only to enslaved Africans, not Indigenous peoples",
+        "It was flexible: wealth or marriage could change status",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage says people could sometimes change their standing through wealth or marriage.",
+      sourceIds: ["ced-topic-4-7"],
+      choiceExplanations: [
+        "The passage says casta labels recorded ancestry, not religion.",
+        "The passage describes mestizos and mulattos, who had mixed ancestry.",
+        "Casta labels covered Indigenous, African, European, and mixed ancestry.",
+        "The passage says people could sometimes change their standing through wealth or marriage.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Religion shaped colonial life, but casta labels recorded ancestry, not faith.",
+      stimulusId: "mock2-spanish-american-hierarchy",
+      stimulusBlocks: [excerpts.m2Casta],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

@@ -794,6 +794,268 @@
       ],
       "skillLabel": "Contextualization",
       "skillCode": "4"
+    },
+    {
+      "id": "world-8-2-m1-15a",
+      "topicId": "world-8-2",
+      "concept": "nonalignment",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which commitment does Kennedy make to newly independent states?",
+      "choices": [
+        "To require them to join American military alliances against communism",
+        "To restore the colonial rulers who had been removed after independence",
+        "To end all aid to countries that disagreed with American policy",
+        "To oppose new forms of control while accepting that they might disagree with the United States"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Kennedy pledges that colonial control would not be replaced by tyranny and says the United States would not always expect their support.",
+      "sourceIds": [
+        "ced-topic-8-2"
+      ],
+      "choiceExplanations": [
+        "He does not demand alliances.",
+        "He welcomes the new states to the ranks of the free.",
+        "He says the United States will not always expect agreement.",
+        "Kennedy pledges that colonial control would not be replaced by tyranny and says the United States would not always expect their support."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Kennedy promised support for freedom, but he did not tie that support to agreement with American policy.",
+      "stimulusId": "kennedy-inaugural-1961-pledge",
+      "stimulusBlocks": [
+        {
+          "id": "kennedy-inaugural-1961-pledge",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "kennedy-inaugural-1961",
+          "amsco_review": "pending",
+          "attribution": "John F. Kennedy, president of the United States, inaugural address, January 20, 1961",
+          "citation": "John F. Kennedy, Inaugural Address, January 20, 1961. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1961-Kennedy.txt).",
+          "note": "“New States” are countries that had recently won independence from colonial rule; seventeen African colonies became independent in 1960 alone. “The deadly atom” refers to nuclear weapons.",
+          "text": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty. . . .\n\nTo those new States whom we welcome to the ranks of the free, we pledge our word that one form of colonial control shall not have passed away merely to be replaced by a far more iron tyranny. We shall not always expect to find them supporting our view. . . .\n\nBut neither can two great and powerful groups of nations take comfort from our present course -- both sides overburdened by the cost of modern weapons, both rightly alarmed by the steady spread of the deadly atom, yet both racing to alter that uncertain balance of terror that stays the hand of mankind's final war."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-2-m1-15b",
+      "topicId": "world-8-2",
+      "concept": "containment",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "prompt": "Kennedy's audience for an inaugural address most likely led him to",
+      "choices": [
+        "give a technical description of how nuclear weapons worked",
+        "propose detailed treaties with specific countries and leaders",
+        "criticize the American public for past mistakes in policy",
+        "state broad principles that reassure allies and warn rivals"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An inaugural address speaks to the nation and the world, so it states general commitments such as paying “any price.”",
+      "sourceIds": [
+        "ced-topic-8-2"
+      ],
+      "choiceExplanations": [
+        "The address mentions the “deadly atom” but offers no technical detail.",
+        "The address states principles and not detailed treaties.",
+        "Inaugural addresses seek to unite listeners and do not blame them.",
+        "An inaugural address speaks to the nation and the world, so it states general commitments such as paying “any price.”"
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Kennedy addressed arms control briefly, but a speech to a mass audience focuses on principles instead of terms of treaties.",
+      "stimulusId": "kennedy-inaugural-1961-pledge",
+      "stimulusBlocks": [
+        {
+          "id": "kennedy-inaugural-1961-pledge",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "kennedy-inaugural-1961",
+          "amsco_review": "pending",
+          "attribution": "John F. Kennedy, president of the United States, inaugural address, January 20, 1961",
+          "citation": "John F. Kennedy, Inaugural Address, January 20, 1961. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1961-Kennedy.txt).",
+          "note": "“New States” are countries that had recently won independence from colonial rule; seventeen African colonies became independent in 1960 alone. “The deadly atom” refers to nuclear weapons.",
+          "text": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty. . . .\n\nTo those new States whom we welcome to the ranks of the free, we pledge our word that one form of colonial control shall not have passed away merely to be replaced by a far more iron tyranny. We shall not always expect to find them supporting our view. . . .\n\nBut neither can two great and powerful groups of nations take comfort from our present course -- both sides overburdened by the cost of modern weapons, both rightly alarmed by the steady spread of the deadly atom, yet both racing to alter that uncertain balance of terror that stays the hand of mankind's final war."
+        }
+      ],
+      "skillLabel": "Sourcing and situation",
+      "skillCode": "2"
+    },
+    {
+      "id": "world-8-2-m1-15c",
+      "topicId": "world-8-2",
+      "concept": "containment",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "The “balance of terror” Kennedy describes was most directly a result of",
+      "choices": [
+        "decolonization in Africa and Asia",
+        "the creation of the European Economic Community",
+        "the nuclear arms race between the superpowers",
+        "the founding of the Non-Aligned Movement in 1961"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both superpowers built nuclear arsenals large enough to destroy each other, which made direct war too dangerous.",
+      "sourceIds": [
+        "ced-topic-8-2"
+      ],
+      "choiceExplanations": [
+        "Decolonization changed the Cold War's map but did not create the nuclear balance.",
+        "The European Economic Community was an economic project and did not create a balance of terror.",
+        "Both superpowers built nuclear arsenals large enough to destroy each other, which made direct war too dangerous.",
+        "The Non-Aligned Movement, founded in 1961, was a response to superpower rivalry and not its cause."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The new states are mentioned in the passage, but the “balance of terror” refers to the weapons of the two powers.",
+      "stimulusId": "kennedy-inaugural-1961-pledge",
+      "stimulusBlocks": [
+        {
+          "id": "kennedy-inaugural-1961-pledge",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "kennedy-inaugural-1961",
+          "amsco_review": "pending",
+          "attribution": "John F. Kennedy, president of the United States, inaugural address, January 20, 1961",
+          "citation": "John F. Kennedy, Inaugural Address, January 20, 1961. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1961-Kennedy.txt).",
+          "note": "“New States” are countries that had recently won independence from colonial rule; seventeen African colonies became independent in 1960 alone. “The deadly atom” refers to nuclear weapons.",
+          "text": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty. . . .\n\nTo those new States whom we welcome to the ranks of the free, we pledge our word that one form of colonial control shall not have passed away merely to be replaced by a far more iron tyranny. We shall not always expect to find them supporting our view. . . .\n\nBut neither can two great and powerful groups of nations take comfort from our present course -- both sides overburdened by the cost of modern weapons, both rightly alarmed by the steady spread of the deadly atom, yet both racing to alter that uncertain balance of terror that stays the hand of mankind's final war."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-8-2-m2-14a",
+      "topicId": "world-8-2",
+      "concept": "containment",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "According to Truman, what is the basic difference between communism and democracy?",
+      "choices": [
+        "Communism says people need strong rulers; democracy says they can govern themselves",
+        "Communism favors free trade among nations, while democracy favors high tariffs",
+        "Communism rejects war as a method, while democracy accepts it as inevitable",
+        "Communism seeks to end all classes, while democracy keeps one class in power"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Truman says communism is based on the belief that people cannot govern themselves, while democracy rests on the moral and intellectual capacity of people to do so.",
+      "sourceIds": [
+        "ced-topic-8-2"
+      ],
+      "choiceExplanations": [
+        "Truman says communism is based on the belief that people cannot govern themselves, while democracy rests on the moral and intellectual capacity of people to do so.",
+        "The passage does not mention trade policy.",
+        "Truman says communism holds that war is inevitable.",
+        "The passage contrasts self-government with rule by strong masters."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Truman does mention classes, but he says communism sees conflict between them, not their end.",
+      "stimulusId": "truman-inaugural-1949-communism",
+      "stimulusBlocks": [
+        {
+          "id": "truman-inaugural-1949-communism",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "truman-inaugural-1949",
+          "amsco_review": "pending",
+          "attribution": "Harry S. Truman, president of the United States, inaugural address, January 20, 1949",
+          "citation": "Harry S. Truman, Inaugural Address, January 20, 1949. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1949-Truman.txt).",
+          "note": "“That regime” is the government of the Soviet Union. Truman spoke two years after announcing aid to Greece and Turkey and while the Berlin airlift was still under way.",
+          "text": "That regime adheres to a false philosophy which purports to offer freedom, security, and greater opportunity to mankind. Misled by this philosophy, many peoples have sacrificed their liberties only to learn to their sorrow that deceit and mockery, poverty and tyranny, are their reward.\n\nThat false philosophy is communism.\n\nCommunism is based on the belief that man is so weak and inadequate that he is unable to govern himself, and therefore requires the rule of strong masters.\n\nDemocracy is based on the conviction that man has the moral and intellectual capacity, as well as the inalienable right, to govern himself with reason and justice. . . .\n\nCommunism holds that the world is so deeply divided into opposing classes that war is inevitable.\n\nDemocracy holds that free nations can settle differences justly and maintain lasting peace."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-2-m2-14b",
+      "topicId": "world-8-2",
+      "concept": "containment",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Truman's statement is best understood in the context of",
+      "choices": [
+        "the aftermath of the Great Depression and the New Deal",
+        "the collapse of the Soviet Union and the end of the Cold War",
+        "the early Cold War and the policy of containment",
+        "the escalation of the Vietnam War in the 1960s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Truman spoke in January 1949, during the Berlin airlift, after announcing aid to Greece and Turkey.",
+      "sourceIds": [
+        "ced-topic-8-2"
+      ],
+      "choiceExplanations": [
+        "The Depression had ended with World War II.",
+        "The Soviet Union collapsed in 1991.",
+        "Truman spoke in January 1949, during the Berlin airlift, after announcing aid to Greece and Turkey.",
+        "American involvement in Vietnam grew in the 1960s."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Great Depression shaped American views on government, but it does not explain a speech about communism in 1949.",
+      "stimulusId": "truman-inaugural-1949-communism",
+      "stimulusBlocks": [
+        {
+          "id": "truman-inaugural-1949-communism",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "truman-inaugural-1949",
+          "amsco_review": "pending",
+          "attribution": "Harry S. Truman, president of the United States, inaugural address, January 20, 1949",
+          "citation": "Harry S. Truman, Inaugural Address, January 20, 1949. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1949-Truman.txt).",
+          "note": "“That regime” is the government of the Soviet Union. Truman spoke two years after announcing aid to Greece and Turkey and while the Berlin airlift was still under way.",
+          "text": "That regime adheres to a false philosophy which purports to offer freedom, security, and greater opportunity to mankind. Misled by this philosophy, many peoples have sacrificed their liberties only to learn to their sorrow that deceit and mockery, poverty and tyranny, are their reward.\n\nThat false philosophy is communism.\n\nCommunism is based on the belief that man is so weak and inadequate that he is unable to govern himself, and therefore requires the rule of strong masters.\n\nDemocracy is based on the conviction that man has the moral and intellectual capacity, as well as the inalienable right, to govern himself with reason and justice. . . .\n\nCommunism holds that the world is so deeply divided into opposing classes that war is inevitable.\n\nDemocracy holds that free nations can settle differences justly and maintain lasting peace."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
+    },
+    {
+      "id": "world-8-2-m2-14c",
+      "topicId": "world-8-2",
+      "concept": "containment",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which policy was most consistent with the argument in the passage?",
+      "choices": [
+        "The Non-Aligned Movement, which avoided alliances with either bloc",
+        "The Marshall Plan and NATO, which aided and defended democracies",
+        "The Warsaw Pact, which united the Soviet Union and its allies",
+        "A policy of appeasement toward Soviet expansion in Europe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Economic aid and a military alliance were American tools to defend democratic states.",
+      "sourceIds": [
+        "ced-topic-8-2"
+      ],
+      "choiceExplanations": [
+        "The Non-Aligned Movement was a response by states that wished to avoid alignment.",
+        "Economic aid and a military alliance were American tools to defend democratic states.",
+        "The Warsaw Pact was a Soviet-led alliance and was formed in 1955.",
+        "Appeasement would have conflicted with Truman's call to resist communism."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Warsaw Pact responded to NATO, but it served the other side of the Cold War.",
+      "stimulusId": "truman-inaugural-1949-communism",
+      "stimulusBlocks": [
+        {
+          "id": "truman-inaugural-1949-communism",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "truman-inaugural-1949",
+          "amsco_review": "pending",
+          "attribution": "Harry S. Truman, president of the United States, inaugural address, January 20, 1949",
+          "citation": "Harry S. Truman, Inaugural Address, January 20, 1949. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1949-Truman.txt).",
+          "note": "“That regime” is the government of the Soviet Union. Truman spoke two years after announcing aid to Greece and Turkey and while the Berlin airlift was still under way.",
+          "text": "That regime adheres to a false philosophy which purports to offer freedom, security, and greater opportunity to mankind. Misled by this philosophy, many peoples have sacrificed their liberties only to learn to their sorrow that deceit and mockery, poverty and tyranny, are their reward.\n\nThat false philosophy is communism.\n\nCommunism is based on the belief that man is so weak and inadequate that he is unable to govern himself, and therefore requires the rule of strong masters.\n\nDemocracy is based on the conviction that man has the moral and intellectual capacity, as well as the inalienable right, to govern himself with reason and justice. . . .\n\nCommunism holds that the world is so deeply divided into opposing classes that war is inevitable.\n\nDemocracy holds that free nations can settle differences justly and maintain lasting peace."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     }
   ],
   "quizzes": [

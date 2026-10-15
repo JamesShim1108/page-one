@@ -790,6 +790,180 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-9-4-m1-16a",
+      "topicId": "world-9-4",
+      "concept": "free-market",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which economic problems does Reagan cite to justify his program?",
+      "choices": [
+        "Rapid population growth and rising unemployment abroad",
+        "Prolonged inflation and growing government deficits",
+        "A decline in foreign investment and trade surpluses",
+        "Falling prices and a shortage of government spending"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reagan describes “one of the worst sustained inflations” and decades of piling “deficit upon deficit.”",
+      "sourceIds": [
+        "ced-topic-9-4"
+      ],
+      "choiceExplanations": [
+        "The passage does not mention population growth.",
+        "Reagan describes “one of the worst sustained inflations” and decades of piling “deficit upon deficit.”",
+        "The passage does not mention foreign investment or trade surpluses.",
+        "Reagan describes rising prices and excessive spending, the opposite."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Reagan did speak of the tax burden, but the problems he named as justification were inflation and deficits.",
+      "stimulusId": "reagan-inaugural-1981-government",
+      "stimulusBlocks": [
+        {
+          "id": "reagan-inaugural-1981-government",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "reagan-inaugural-1981",
+          "amsco_review": "pending",
+          "attribution": "Ronald Reagan, president of the United States, inaugural address, January 20, 1981",
+          "citation": "Ronald Reagan, Inaugural Address, January 20, 1981. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1981-Reagan.txt).",
+          "note": "The transcript used to check this excerpt ends the third paragraph's sentence at “problem”; as delivered, Reagan continued, “government is the problem.” In 1980, US inflation was above 12 percent.",
+          "text": "These United States are confronted with an economic affliction of great proportions. We suffer from the longest and one of the worst sustained inflations in our national history. . . .\n\nBut great as our tax burden is, it has not kept pace with public spending. For decades, we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present. . . .\n\nIn this present crisis, government is not the solution to our problem . . . .\n\nIn the days ahead I will propose removing the roadblocks that have slowed our economy and reduced productivity."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-9-4-m1-16b",
+      "topicId": "world-9-4",
+      "concept": "free-market",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Reagan's argument is most closely connected to which approach of the 1980s?",
+      "choices": [
+        "Keynesian public spending to end a depression",
+        "Soviet-style central planning of the whole economy",
+        "Import substitution industrialization behind high tariffs",
+        "Free-market policies such as tax cuts and deregulation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Reagan proposed removing “roadblocks” on the economy, which matches the turn toward tax cuts, deregulation, and market solutions.",
+      "sourceIds": [
+        "ced-topic-9-4"
+      ],
+      "choiceExplanations": [
+        "Keynesian spending expands government's role, which Reagan opposed.",
+        "Central planning gives government full control of the economy.",
+        "Import substitution relied on state protection of domestic industry.",
+        "Reagan proposed removing “roadblocks” on the economy, which matches the turn toward tax cuts, deregulation, and market solutions."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Keynesian ideas shaped policy for decades, but Reagan's statement that government is not the solution rejects that approach.",
+      "stimulusId": "reagan-inaugural-1981-government",
+      "stimulusBlocks": [
+        {
+          "id": "reagan-inaugural-1981-government",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "reagan-inaugural-1981",
+          "amsco_review": "pending",
+          "attribution": "Ronald Reagan, president of the United States, inaugural address, January 20, 1981",
+          "citation": "Ronald Reagan, Inaugural Address, January 20, 1981. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1981-Reagan.txt).",
+          "note": "The transcript used to check this excerpt ends the third paragraph's sentence at “problem”; as delivered, Reagan continued, “government is the problem.” In 1980, US inflation was above 12 percent.",
+          "text": "These United States are confronted with an economic affliction of great proportions. We suffer from the longest and one of the worst sustained inflations in our national history. . . .\n\nBut great as our tax burden is, it has not kept pace with public spending. For decades, we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present. . . .\n\nIn this present crisis, government is not the solution to our problem . . . .\n\nIn the days ahead I will propose removing the roadblocks that have slowed our economy and reduced productivity."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-9-4-m1-16c",
+      "topicId": "world-9-4",
+      "concept": "free-market",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "Which leader's economic policies were most similar to those Reagan proposed?",
+      "choices": [
+        "Deng Xiaoping, who opened China to markets under Communist control",
+        "Gamal Abdel Nasser, who nationalized Egypt's major industries",
+        "Mikhail Gorbachev, who kept the Soviet economy fully state-owned",
+        "Margaret Thatcher, who sold state-owned companies and limited union power"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Thatcher in Britain, like Reagan, reduced the state's role through privatization and curbs on labor unions.",
+      "sourceIds": [
+        "ced-topic-9-4"
+      ],
+      "choiceExplanations": [
+        "Deng opened markets but kept the Communist Party's control of the economy and politics.",
+        "Nasser expanded state ownership, which is the opposite of Reagan's approach.",
+        "Gorbachev's reforms began within a state-owned system and had not privatized it by 1981.",
+        "Thatcher in Britain, like Reagan, reduced the state's role through privatization and curbs on labor unions."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Deng's reforms also used markets, but they were guided by a Communist state, unlike the limited-government approach of Reagan and Thatcher.",
+      "stimulusId": "reagan-inaugural-1981-government",
+      "stimulusBlocks": [
+        {
+          "id": "reagan-inaugural-1981-government",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "reagan-inaugural-1981",
+          "amsco_review": "pending",
+          "attribution": "Ronald Reagan, president of the United States, inaugural address, January 20, 1981",
+          "citation": "Ronald Reagan, Inaugural Address, January 20, 1981. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1981-Reagan.txt).",
+          "note": "The transcript used to check this excerpt ends the third paragraph's sentence at “problem”; as delivered, Reagan continued, “government is the problem.” In 1980, US inflation was above 12 percent.",
+          "text": "These United States are confronted with an economic affliction of great proportions. We suffer from the longest and one of the worst sustained inflations in our national history. . . .\n\nBut great as our tax burden is, it has not kept pace with public spending. For decades, we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present. . . .\n\nIn this present crisis, government is not the solution to our problem . . . .\n\nIn the days ahead I will propose removing the roadblocks that have slowed our economy and reduced productivity."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-9-4-m1-16d",
+      "topicId": "world-9-4",
+      "concept": "free-market",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Reagan's address is best understood in the context of",
+      "choices": [
+        "the collapse of the Soviet Union and the end of the Cold War",
+        "stagnation and inflation in the United States of the 1970s",
+        "the postwar economic boom of the 1950s and 1960s",
+        "the Great Depression of the 1930s and the New Deal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 1970s brought both slow growth and rising prices, which weakened confidence in earlier policies.",
+      "sourceIds": [
+        "ced-topic-9-4"
+      ],
+      "choiceExplanations": [
+        "The Soviet Union collapsed in 1991, ten years after the address.",
+        "The 1970s brought both slow growth and rising prices, which weakened confidence in earlier policies.",
+        "The 1950s boom ended before the problems Reagan describes.",
+        "The Great Depression involved falling prices, not the inflation Reagan cites."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Depression produced a larger role for government, which Reagan rejected, but the immediate crisis he described was inflation.",
+      "stimulusId": "reagan-inaugural-1981-government",
+      "stimulusBlocks": [
+        {
+          "id": "reagan-inaugural-1981-government",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "reagan-inaugural-1981",
+          "amsco_review": "pending",
+          "attribution": "Ronald Reagan, president of the United States, inaugural address, January 20, 1981",
+          "citation": "Ronald Reagan, Inaugural Address, January 20, 1981. Text checked against the C-SPAN transcript in the NLTK corpus (inaugural/1981-Reagan.txt).",
+          "note": "The transcript used to check this excerpt ends the third paragraph's sentence at “problem”; as delivered, Reagan continued, “government is the problem.” In 1980, US inflation was above 12 percent.",
+          "text": "These United States are confronted with an economic affliction of great proportions. We suffer from the longest and one of the worst sustained inflations in our national history. . . .\n\nBut great as our tax burden is, it has not kept pace with public spending. For decades, we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present. . . .\n\nIn this present crisis, government is not the solution to our problem . . . .\n\nIn the days ahead I will propose removing the roadblocks that have slowed our economy and reduced productivity."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
     }
   ],
   "quizzes": [

@@ -3,6 +3,7 @@
 // public-domain excerpts from ../excerpts.js. Increment `version` when a
 // prompt or its fields change enough to invalidate saved drafts.
 import { excerpts } from "../excerpts.js";
+import { dbq, dbqDocument, leq, saq } from "../writing-kit.js";
 
 const saqInstructions =
   "Answer all three parts. For each part, Answer the question directly, Prove it with specific historical evidence, and Explain how the evidence supports your answer. On the AP exam each part earns one point. This is self-assessment practice, not official College Board scoring.";
@@ -1608,4 +1609,241 @@ export const writingQuizzes = [
       "Connects the effect to how the source can be used as evidence.",
     ],
   },
+  // BEGIN mock exam prompts (written for full-length mock exams)
+  dbq({
+    id: "world-2-dbq-authority",
+    unitNumber: 2,
+    headline: "Exchange and political authority",
+    prompt:
+      "Evaluate the extent to which expanding networks of exchange strengthened political authority in Afro-Eurasia in the period 1200–1450.",
+    sourceIds: [
+      "polo-yule-1903",
+      "battuta-gibb-1929",
+      "boccaccio-payne-1886",
+      "ced-topic-2-2",
+      "ced-topic-2-3",
+    ],
+    sourceLocators: [
+      {
+        sourceId: "polo-yule-1903",
+        locator: "vol. 1, Book I, ch. 6 and Book II, ch. 22; vol. 2, Book II, ch. 76",
+      },
+      {
+        sourceId: "battuta-gibb-1929",
+        locator: "chs. 4, 8, and 14; scan pp. 130, 252, 351–352",
+      },
+      { sourceId: "boccaccio-payne-1886", locator: "First Day, introduction" },
+    ],
+    topicId: "world-2-3",
+    noteReview: { sectionId: "states-revenue", label: "Trade could build states" },
+    essayReview: { sectionId: "states-revenue", label: "Trade could build states" },
+    documents: [
+      dbqDocument({
+        id: "doc-1",
+        label: "Merchants at the Yuan capital",
+        excerpt: excerpts.poloCambalucTrade,
+        author: "Marco Polo, dictated to Rustichello of Pisa",
+        date: "c. 1298",
+        setting: "Cambaluc (Beijing), capital of the Yuan dynasty",
+        audience: "European readers",
+        rights: "Public-domain translation (1903).",
+        sourceId: "polo-yule-1903",
+      }),
+      dbqDocument({
+        id: "doc-2",
+        label: "Revenue from the trade of Hangzhou",
+        excerpt: excerpts.poloKinsay,
+        author: "Marco Polo, dictated to Rustichello of Pisa",
+        date: "c. 1298, describing Hangzhou soon after the conquest of 1276",
+        setting: "Hangzhou, formerly the capital of the Southern Song",
+        audience: "European readers",
+        rights: "Public-domain translation (1903).",
+        sourceId: "polo-yule-1903",
+      }),
+      dbqDocument({
+        id: "doc-3",
+        label: "The fall of Baghdad",
+        excerpt: excerpts.poloBaudas,
+        author: "Marco Polo, dictated to Rustichello of Pisa",
+        date: "c. 1298, describing events of 1258",
+        setting: "Baghdad, the former seat of the Abbasid caliphs",
+        audience: "European readers",
+        rights: "Public-domain translation (1903).",
+        sourceId: "polo-yule-1903",
+      }),
+      dbqDocument({
+        id: "doc-4",
+        label: "Mombasa and Kilwa",
+        excerpt: excerpts.battutaSwahili,
+        author: "Ibn Battuta, dictated to Ibn Juzayy",
+        date: "Visit c. 1331; account dictated 1355",
+        setting: "The East African coast",
+        audience: "Muslim readers in Morocco",
+        rights: "Public-domain translation in the United States (1929).",
+        sourceId: "battuta-gibb-1929",
+      }),
+      dbqDocument({
+        id: "doc-5",
+        label: "Justice and security in Mali",
+        excerpt: excerpts.battutaMali,
+        author: "Ibn Battuta, dictated to Ibn Juzayy",
+        date: "Visit 1352–1353; account dictated 1355",
+        setting: "The Mali Empire, West Africa",
+        audience: "Muslim readers in Morocco",
+        rights: "Public-domain translation in the United States (1929).",
+        sourceId: "battuta-gibb-1929",
+      }),
+      dbqDocument({
+        id: "doc-6",
+        label: "A port sultan on India's southwestern coast",
+        excerpt: excerpts.battutaHinawr,
+        author: "Ibn Battuta, dictated to Ibn Juzayy",
+        date: "Visit c. 1342; account dictated 1355",
+        setting: "Honavar, a port on India's southwestern coast",
+        audience: "Muslim readers in Morocco",
+        rights: "Public-domain translation in the United States (1929).",
+        sourceId: "battuta-gibb-1929",
+      }),
+      dbqDocument({
+        id: "doc-7",
+        label: "Law and order in plague-struck Florence",
+        excerpt: excerpts.boccaccioLaws,
+        author: "Giovanni Boccaccio",
+        date: "Completed c. 1353, describing 1348",
+        setting: "Florence, Italy",
+        audience: "Italian readers of his story collection",
+        rights: "Public-domain translation (1886).",
+        sourceId: "boccaccio-payne-1886",
+      }),
+    ],
+    modelResponse:
+      'By 1200, merchants already carried silk, spices, and gold across Eurasia and the Indian Ocean, but political power was fragmented after the fall of the Tang and the weakening of the Abbasid caliphate. In the 1200s the Mongol conquests rejoined much of Asia under related rulers, and states from China to the East African coast learned that taxing and protecting trade could pay for armies and courts.\n\nBetween 1200 and 1450, expanding exchange strengthened political authority where rulers could tax and protect commerce, but its effect was limited by distance, by violence that traveled with merchants, and by the diseases that followed the same routes.\n\nThe Yuan state shows the strongest case. Polo says foreign merchants crowded into suburbs of the capital, where 1,000 cart-loads of silk entered every day (Document 1), and that Hangzhou\'s trade yielded the Great Khan "an immense revenue from the duties" (Document 2). The Mongols also built the yam relay system to move messengers across the empire, which tied far provinces to the court. Polo wrote for Europeans eager for tales of wealth, so his numbers may be inflated; Document 2 is especially cautious because it is a report the Song queen reportedly sent to the Mongol general Bayan to persuade him to spare the city. Even so, a conqueror who had a reason to see the city as profitable had a reason to govern it carefully. On the East African coast, Ibn Battuta reports that Kilwa was a "very fine and substantially built town" and that gold dust reached Sufala for trade (Document 4). As a Muslim scholar writing for a Moroccan audience, he noted pious residents and mosques, and he relied on a merchant\'s report for Sufala, which he did not visit. Still, Kilwa\'s rulers did grow wealthy by controlling the gold trade. In West Africa, Ibn Battuta reports \"complete security\" in Mali and says its people did not seize the property of foreign merchants who died there (Document 5). Protecting traders kept North African merchants crossing the Sahara, and the gold and salt they exchanged paid for Mali\'s court. Because Ibn Battuta criticizes other Malian customs in the same passage, his praise of their justice is harder to dismiss as flattery.\n\nExchange did not always bring independent control. Honavar, a port whose people \"live by maritime commerce,\" had a powerful Muslim sultan, yet he ruled \"under the suzerainty\" of the Hindu ruler of Vijayanagara (Document 6), so trade wealth supported local rulers who still answered to a larger land-based state. Ibn Battuta, a Muslim judge, admired the town\'s Quran schools, and his religious outlook shaped what he chose to praise. Conquest could also destroy authority: Hulagu\'s capture of Baghdad in 1258 ended the Abbasid caliphate even though the city had been a great trading center (Document 3). Polo, however, gives the wrong year and writes decades later, which should make a historian cautious about his details.\n\nFinally, trade networks carried plague. Boccaccio, a Florentine writing a book of stories, describes the collapse of "the reverend authority of the laws" when officials died or fled (Document 7). His purpose was to set the scene for his tales, so he may exaggerate, but later events such as the English Statute of Labourers of 1351 show governments struggling to restore order after the plague.\n\nIn conclusion, exchange strengthened states that could tax and protect it, but it also left port rulers dependent on larger states and exposed everyone to conquest and disease, so the gains in political authority were real but uneven.',
+    modelNotes: [
+      {
+        label: "Contextualization",
+        text: "The first paragraph describes earlier trade, the fragmentation after the Tang and Abbasid decline, and the Mongol conquests that set up the period.",
+      },
+      {
+        label: "Thesis",
+        text: "The thesis answers the question of extent and previews two lines of reasoning: where exchange strengthened rulers and where it limited them.",
+      },
+      {
+        label: "Evidence from the documents",
+        text: "All seven documents are used as evidence, grouped by argument instead of summarized in order.",
+      },
+      {
+        label: "Evidence beyond the documents",
+        text: "The yam system, the fall of the Abbasid caliphate in 1258, and the Statute of Labourers of 1351 are specific evidence not found in the documents.",
+      },
+      {
+        label: "Sourcing",
+        text: "The essay explains Polo's audience and purpose, the purpose of the Song queen's report in Document 2, Ibn Battuta's reliance on a merchant for Sufala, why his mixed judgment of Mali makes his praise credible, and Boccaccio's purpose in writing his introduction.",
+      },
+      {
+        label: "Complexity",
+        text: "The argument qualifies its claim with Honavar's subordination to Vijayanagara, the conquest of Baghdad, and plague, and it corroborates documents with outside evidence.",
+      },
+    ],
+    alternateModel:
+      "A different strong essay could argue that exchange strengthened merchant communities more than states, using Documents 1, 4, and 6 to show foreign merchants and Muslim scholars thriving in ports whatever rulers wished.",
+    commonErrors: [
+      "Summarizing each document in order instead of grouping them by claim.",
+      "Treating a traveler's numbers as exact without asking who the traveler was writing for.",
+      "Writing “Polo was biased” without saying how his audience or purpose affects the document's use.",
+      "Using developments after 1450 as the main outside evidence.",
+    ],
+  }),
+  saq({
+    id: "world-2-saq-08",
+    unitNumber: 2,
+    number: 8,
+    headline: "Historians and the Black Death",
+    promptTitle: "Secondary-source short-answer question",
+    prompt: "Use the passage below to answer all parts of the question.",
+    stimulusBlocks: [excerpts.m2Plague],
+    sourceIds: ["ced-topic-2-6", "ced-topic-2-2"],
+    parts: [
+      {
+        id: "a",
+        lenses: ["E", "S"],
+        prompt:
+          "Identify ONE long-term effect of the plague that the passage attributes to labor scarcity in Western Europe.",
+        criteria: [
+          "States a specific effect named in the passage.",
+          "Connects the effect to the shortage of workers.",
+        ],
+        model: {
+          answer:
+            "Labor scarcity raised the wages of surviving workers in Western Europe.",
+          prove:
+            "The passage says that because labor had become scarce, surviving workers could earn higher wages.",
+          explain:
+            "With fewer workers available, landlords and employers had to compete for them, which strengthened workers' bargaining power.",
+        },
+        alternatives: "The weakening of serfdom in Western Europe also earns the point.",
+        review: [
+          {
+            topicId: "world-2-6",
+            sectionId: "demographic-economic",
+            label: "Demographic and economic effects",
+          },
+        ],
+      },
+      {
+        id: "b",
+        lenses: ["S", "P"],
+        prompt:
+          "Explain ONE piece of historical evidence, not mentioned in the passage, that supports the argument that labor scarcity changed the relationship between landlords and peasants in Western Europe.",
+        criteria: [
+          "Gives a specific example beyond the passage.",
+          "Explains how it shows landlords and peasants responding to labor scarcity.",
+        ],
+        model: {
+          answer:
+            "English landlords and officials tried to hold wages down, and peasants resisted.",
+          prove:
+            "Parliament passed the Statute of Labourers in 1351 to cap wages at pre-plague levels, and English peasants joined the Peasants' Revolt of 1381.",
+          explain:
+            "The need for a law to fix wages shows that workers were demanding more, and the revolt shows that peasants were willing to challenge landlords and the crown over their obligations.",
+        },
+        alternatives:
+          "Answers can also explain that many English peasants converted their labor obligations to money rents or left manors for better terms elsewhere.",
+        review: [
+          {
+            topicId: "world-2-6",
+            sectionId: "demographic-economic",
+            label: "Demographic and economic effects",
+          },
+        ],
+      },
+      {
+        id: "c",
+        lenses: ["In", "E"],
+        prompt:
+          "Explain ONE way the spread of the plague in the 1300s shows connections among regions of Afro-Eurasia.",
+        criteria: [
+          "Names a specific route, place, or group.",
+          "Explains how the connection carried the plague.",
+        ],
+        model: {
+          answer:
+            "The plague spread along trade routes that linked Asia, the Middle East, and Europe.",
+          prove:
+            "In 1346 plague reached the Black Sea port of Caffa, and Genoese merchant ships carried it to Sicily and other Mediterranean ports in 1347.",
+          explain:
+            "Ships and caravans moved infected rats and fleas along with goods, so the commercial networks that brought wealth also carried disease.",
+        },
+        alternatives:
+          "Answers can also explain how Mongol-controlled overland routes through Central Asia carried plague westward, or how plague spread along the Silk Roads and Indian Ocean ports.",
+        review: [
+          {
+            topicId: "world-2-6",
+            sectionId: "pathogen-networks",
+            label: "Pathogens and networks",
+          },
+        ],
+      },
+    ],
+  }),
+  // END mock exam prompts
 ];

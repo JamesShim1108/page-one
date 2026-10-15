@@ -285,5 +285,9 @@
     "world-period-1-a": "world/terms/world-period-1-a.json",
     "world-period-1-b": "world/terms/world-period-1-b.json"
   },
-  "exam": {}
+  "exam": {
+    "world-mock-01": "world/exams/world-mock-01.json",
+    "world-mock-02": "world/exams/world-mock-02.json",
+    "world-mock-03": "world/exams/world-mock-03.json"
+  }
 }

@@ -721,6 +721,249 @@ export const bank = {
       stimulusId: "polo-four-prophets",
       stimulusBlocks: [excerpts.poloFourProphets],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-2-2-m2-02a",
+      topicId: "world-2-2",
+      concept: "state-building",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "According to the passage, how did the Mongols respond to seasonal changes?",
+      choices: [
+        "They moved their herds between winter plains and summer mountain pastures",
+        "They built permanent stone cities for each season of the year",
+        "They traveled to trading ports to buy grain to last through the winter",
+        "They divided their herds among relatives who lived in distant lands",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Polo describes winters on warm plains and summers in cooler mountains with water and pasture.",
+      sourceIds: ["ced-topic-2-2"],
+      choiceExplanations: [
+        "Polo describes winters on warm plains and summers in cooler mountains with water and pasture.",
+        "The passage says their houses were felt-covered and carried with them.",
+        "The passage describes herding, not buying grain at ports.",
+        "The passage does not mention dividing herds among distant relatives.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The Mongols traded with settled neighbors, but the passage's movement is driven by pasture and water.",
+      stimulusId: "polo-tartar-customs",
+      stimulusBlocks: [excerpts.poloTartarCustoms],
+    },
+    {
+      id: "world-2-2-m2-02b",
+      topicId: "world-2-2",
+      concept: "cultural-transfer",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Polo's remark that Mongol men lived “the life of gentlemen” is best used by historians as evidence of",
+      choices: [
+        "the exact division of labor in every Mongol household",
+        "official Mongol laws on the roles of men and women",
+        "how a European visitor read Mongol gender roles",
+        "the opinions Mongol women held about their own work",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Polo wrote for Europeans and used European social categories, so the phrase shows his interpretation as much as Mongol practice.",
+      sourceIds: ["ced-topic-2-2"],
+      choiceExplanations: [
+        "Polo describes what he saw or heard in general terms and cannot show every household.",
+        "The passage describes customs, not law.",
+        "Polo wrote for Europeans and used European social categories, so the phrase shows his interpretation as much as Mongol practice.",
+        "The passage gives Polo's account, not the views of Mongol women.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Polo's description may reflect real practice, but historians must allow for his European point of view.",
+      stimulusId: "polo-tartar-customs",
+      stimulusBlocks: [excerpts.poloTartarCustoms],
+    },
+    {
+      id: "world-2-2-m2-02c",
+      topicId: "world-2-2",
+      concept: "state-building",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt: "The way of life described in the passage is best called",
+      choices: [
+        "pastoral nomadism",
+        "subsistence farming in river valleys",
+        "feudal landholding under local lords",
+        "maritime trading in port cities",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Mongols herded animals and moved with the seasons, which defines pastoral nomadism.",
+      sourceIds: ["ced-topic-2-2"],
+      choiceExplanations: [
+        "Mongols herded animals and moved with the seasons, which defines pastoral nomadism.",
+        "The passage describes herding and movement, not settled farming.",
+        "Feudal landholding was a pattern of lords and vassals in Europe and Japan.",
+        "The passage does not describe sea trade or port cities.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Mongols did rule trading cities after conquest, but the passage describes their steppe way of life.",
+      stimulusId: "polo-tartar-customs",
+      stimulusBlocks: [excerpts.poloTartarCustoms],
+    },
+    {
+      id: "world-2-2-m2-02d",
+      topicId: "world-2-2",
+      concept: "state-building",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt:
+        "How did the way of life in the passage most directly help the Mongols build an empire in the 1200s?",
+      choices: [
+        "It gave them a large class of scholars trained in administration",
+        "It trained mobile mounted warriors who could move quickly across great distances",
+        "It produced surplus grain that could feed large urban populations",
+        "It allowed them to avoid contact with settled societies",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Hunting, herding, and moving over long distances prepared Mongol men for rapid cavalry campaigns.",
+      sourceIds: ["ced-topic-2-2"],
+      choiceExplanations: [
+        "The passage describes a herding society and mentions no class of scholars.",
+        "Hunting, herding, and moving over long distances prepared Mongol men for rapid cavalry campaigns.",
+        "Pastoralists did not produce large grain surpluses.",
+        "The Mongol empire grew by conquering settled societies.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The Mongols later relied on Persian and Chinese administrators, but their early military success came from steppe skills.",
+      stimulusId: "polo-tartar-customs",
+      stimulusBlocks: [excerpts.poloTartarCustoms],
+    },
+    {
+      id: "world-2-2-m3-02a",
+      topicId: "world-2-2",
+      concept: "trade-communication",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "According to the passage, how did the Yuan government supply horses for the relay system?",
+      choices: [
+        "It bought them from merchants with silver from imperial mines",
+        "It captured them from enemies in wars on the steppe",
+        "It raised them on state ranches in southern China",
+        "It required cities and villages near each station to provide them",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Polo says each community near a station had a fixed demand for horses.",
+      sourceIds: ["ced-topic-2-2"],
+      choiceExplanations: [
+        "The passage says the horses cost the Emperor nothing, so he did not buy them.",
+        "The passage describes a regular demand on communities, not captured horses.",
+        "Polo says nearby communities had to supply the horses, not state ranches.",
+        "Polo says each community near a station had a fixed demand for horses.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The system did rely on horses, but it relied on local communities to provide them.",
+      stimulusId: "polo-post-stations",
+      stimulusBlocks: [excerpts.poloPostStations],
+    },
+    {
+      id: "world-2-2-m3-02b",
+      topicId: "world-2-2",
+      concept: "trade-communication",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Why should historians read Polo's statement that the horses “cost the Emperor nothing at all” with caution?",
+      choices: [
+        "Polo had never traveled in China and wrote only from rumor",
+        "The cost fell on local communities, not the treasury",
+        "The Yuan emperor ordered Polo to describe the system favorably",
+        "Polo wrote for readers who already knew the system well",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The passage itself says communities had to supply horses, so the burden was real even if it was not paid from the treasury.",
+      sourceIds: ["ced-topic-2-2"],
+      choiceExplanations: [
+        "Polo claims firsthand travel, and historians doubt some details but not that he was in China.",
+        "The passage itself says communities had to supply horses, so the burden was real even if it was not paid from the treasury.",
+        "No evidence shows the emperor ordered his description.",
+        "Polo wrote for Europeans, who knew little about the system.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Historians debate how much of China Polo saw, but the problem here is how he described the costs of the system.",
+      stimulusId: "polo-post-stations",
+      stimulusBlocks: [excerpts.poloPostStations],
+    },
+    {
+      id: "world-2-2-m3-02c",
+      topicId: "world-2-2",
+      concept: "trade-communication",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "comparison",
+      prompt:
+        "The relay system described in the passage is most similar to which system in another empire?",
+      choices: [
+        "The Ottoman millet system of religious communities",
+        "The Mexica tribute lists kept for conquered cities",
+        "The Inca road network with relay runners carrying messages",
+        "The Songhai taxation of salt and gold caravans",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Both systems used regular stations and relays to carry messages quickly across large territories.",
+      sourceIds: ["ced-topic-2-2"],
+      choiceExplanations: [
+        "The millet system managed religious communities and did not carry messages.",
+        "Tribute lists recorded what conquered cities owed and did not move messages.",
+        "Both systems used regular stations and relays to carry messages quickly across large territories.",
+        "Taxing caravans raised revenue but did not move official news.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The Mexica did keep detailed records, but the records were for tribute and not for relaying messages.",
+      stimulusId: "polo-post-stations",
+      stimulusBlocks: [excerpts.poloPostStations],
+    },
+    {
+      id: "world-2-2-m3-02d",
+      topicId: "world-2-2",
+      concept: "state-building",
+      difficulty: "Apply",
+      skill: "contextualization",
+      reasoning: "causation",
+      prompt: "The relay system helped the Mongols rule their empire primarily by",
+      choices: [
+        "replacing local rulers with Mongol governors in every city",
+        "ensuring that all merchants paid the same customs duties",
+        "forcing nomads to settle in towns near the stations",
+        "allowing news and orders to travel rapidly across vast distances",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage says news from ten days away could reach the Emperor in a day and a night.",
+      sourceIds: ["ced-topic-2-2"],
+      choiceExplanations: [
+        "The passage does not describe replacing local rulers.",
+        "The system carried messages and did not set customs duties.",
+        "The system did not require nomads to settle.",
+        "The passage says news from ten days away could reach the Emperor in a day and a night.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Mongol rulers did use local administrators, but the relay system's purpose was communication.",
+      stimulusId: "polo-post-stations",
+      stimulusBlocks: [excerpts.poloPostStations],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

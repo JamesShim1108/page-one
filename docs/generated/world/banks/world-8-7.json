@@ -665,6 +665,131 @@
       ],
       "skillLabel": "Argumentation",
       "skillCode": "6"
+    },
+    {
+      "id": "world-8-7-m3-15a",
+      "topicId": "world-8-7",
+      "concept": "nonviolent-resistance",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Why was the salt tax an effective target for Gandhi's campaign?",
+      "choices": [
+        "It was the largest source of revenue for the British Empire",
+        "It was collected only from the wealthy Indian princes",
+        "It hit poor Indians and symbolized British control",
+        "It was a new tax introduced by Britain in 1930"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage says the tax fell heavily on the poor, and the salt monopoly showed British power over everyday life.",
+      "sourceIds": [
+        "ced-topic-8-7"
+      ],
+      "choiceExplanations": [
+        "The passage does not claim the tax was the largest source of revenue.",
+        "The passage says the burden fell on poor Indians.",
+        "The passage says the tax fell heavily on the poor, and the salt monopoly showed British power over everyday life.",
+        "The salt monopoly and tax were long-standing, not new in 1930."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The tax raised revenue, but its value for the campaign lay in its meaning for ordinary people.",
+      "stimulusId": "mock3-salt-march",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-salt-march",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.7 key concept: movements used nonviolent resistance to challenge colonial rule",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Gandhi's Salt March, 1930",
+          "text": "In March 1930, Mohandas Gandhi led a march of several dozen followers from his ashram near Ahmedabad to the Arabian Sea coast at Dandi, about 240 miles away, where he picked up natural salt. British law gave the government a monopoly on salt and taxed it, a burden that fell heavily on poor Indians.\n\nThousands of Indians soon made or sold salt in defiance of the law, and about 60,000 people were arrested, including Gandhi. The campaign drew worldwide press attention. Gandhi called his method satyagraha, a commitment to truth through nonviolent noncooperation. The campaign did not end British rule, but it showed that the Indian National Congress could mobilize millions of people across class and region."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-8-7-m3-15b",
+      "topicId": "world-8-7",
+      "concept": "nonviolent-resistance",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "continuity",
+      "prompt": "Which later movement most clearly drew on the methods of the Salt March?",
+      "choices": [
+        "The US civil rights movement led by Martin Luther King",
+        "The armed Indian Rebellion of 1857 against Company rule",
+        "The Algerian armed struggle against French rule",
+        "The Maji Maji Rebellion in German East Africa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "King studied Gandhi's use of nonviolent resistance and used marches and boycotts in the United States.",
+      "sourceIds": [
+        "ced-topic-8-7"
+      ],
+      "choiceExplanations": [
+        "King studied Gandhi's use of nonviolent resistance and used marches and boycotts in the United States.",
+        "The 1857 rebellion was an armed revolt that came before Gandhi.",
+        "The Algerian struggle was an armed war.",
+        "The Maji Maji Rebellion was an armed uprising that preceded the Salt March."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The 1857 rebellion also challenged British rule, but it came earlier and used armed force.",
+      "stimulusId": "mock3-salt-march",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-salt-march",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.7 key concept: movements used nonviolent resistance to challenge colonial rule",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Gandhi's Salt March, 1930",
+          "text": "In March 1930, Mohandas Gandhi led a march of several dozen followers from his ashram near Ahmedabad to the Arabian Sea coast at Dandi, about 240 miles away, where he picked up natural salt. British law gave the government a monopoly on salt and taxed it, a burden that fell heavily on poor Indians.\n\nThousands of Indians soon made or sold salt in defiance of the law, and about 60,000 people were arrested, including Gandhi. The campaign drew worldwide press attention. Gandhi called his method satyagraha, a commitment to truth through nonviolent noncooperation. The campaign did not end British rule, but it showed that the Indian National Congress could mobilize millions of people across class and region."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change"
+    },
+    {
+      "id": "world-8-7-m3-15c",
+      "topicId": "world-8-7",
+      "concept": "nonviolent-resistance",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "Satyagraha is best described as",
+      "choices": [
+        "armed guerrilla warfare against colonial forces",
+        "an appeal to a foreign government to intervene",
+        "a plan for a separate Muslim state in South Asia",
+        "nonviolent noncooperation grounded in a commitment to truth"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage defines Gandhi's method as truth through nonviolent noncooperation.",
+      "sourceIds": [
+        "ced-topic-8-7"
+      ],
+      "choiceExplanations": [
+        "Satyagraha rejected violence.",
+        "It relied on mass action in India rather than foreign intervention.",
+        "A separate Muslim state was the goal of the Muslim League.",
+        "The passage defines Gandhi's method as truth through nonviolent noncooperation."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Pakistan's creation was a separate political aim, and satyagraha was a method of protest.",
+      "stimulusId": "mock3-salt-march",
+      "stimulusBlocks": [
+        {
+          "id": "mock3-salt-march",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 8.7 key concept: movements used nonviolent resistance to challenge colonial rule",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Gandhi's Salt March, 1930",
+          "text": "In March 1930, Mohandas Gandhi led a march of several dozen followers from his ashram near Ahmedabad to the Arabian Sea coast at Dandi, about 240 miles away, where he picked up natural salt. British law gave the government a monopoly on salt and taxed it, a burden that fell heavily on poor Indians.\n\nThousands of Indians soon made or sold salt in defiance of the law, and about 60,000 people were arrested, including Gandhi. The campaign drew worldwide press attention. Gandhi called his method satyagraha, a commitment to truth through nonviolent noncooperation. The campaign did not end British rule, but it showed that the Indian National Congress could mobilize millions of people across class and region."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
     }
   ],
   "quizzes": [

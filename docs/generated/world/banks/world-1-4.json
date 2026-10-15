@@ -1142,6 +1142,172 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-1-4-m2-01a",
+      "topicId": "world-1-4",
+      "concept": "americas-inca",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which statement about Inca governance is best supported by the passage?",
+      "choices": [
+        "Gold and silver coins financed the roads and storehouses of the empire",
+        "Officials relied on an alphabetic script to record decisions and laws",
+        "The state drew on the labor of households instead of collecting money taxes",
+        "Local lords kept independent armies that the state could not command"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage describes the mit'a labor service and says the Inca had no money economy.",
+      "sourceIds": [
+        "ced-topic-1-4"
+      ],
+      "choiceExplanations": [
+        "The passage says the Inca had no money economy.",
+        "The passage says officials kept records on knotted cords, not in an alphabet.",
+        "The passage describes the mit'a labor service and says the Inca had no money economy.",
+        "The passage says the state supplied soldiers through labor service, so armies were not independent."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Inca did keep written-style records, but on quipus, which are not a script.",
+      "stimulusId": "mock2-inca-state",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-inca-state",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4 key concept: the Inca state organized labor, records, and roads to govern a large empire",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Inca administration, c. 1438–1532",
+          "text": "The Inca Empire, which expanded rapidly from Cuzco after about 1438 under the ruler Pachacuti, had no money economy and no written script like those of Afro-Eurasian states. Instead the state organized the labor of its subjects. Households owed the mit'a, a rotating labor service, which built roads, terraces, and storehouses and supplied soldiers. In return the state stored food and cloth for use in famine and held feasts at which rulers rewarded loyalty.\n\nOfficials recorded census data, labor obligations, and the contents of storehouses on quipus, knotted cords that trained specialists could read. The Inca also moved communities, called mitmaq colonists, to newly conquered regions to farm and to spread the Quechua language and Inca administration. A network of roads linked the four quarters of the empire."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-1-4-m2-01b",
+      "topicId": "world-1-4",
+      "concept": "americas-inca",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "The Inca used quipus mainly to",
+      "choices": [
+        "record census figures, labor obligations, and the contents of storehouses",
+        "write laws that were displayed in public squares for ordinary people",
+        "mark the boundaries of the private farmland owned by each family",
+        "send news by messenger from one region of the empire to another"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage says officials kept census data, labor obligations, and storehouse contents on quipus.",
+      "sourceIds": [
+        "ced-topic-1-4"
+      ],
+      "choiceExplanations": [
+        "The passage says officials kept census data, labor obligations, and storehouse contents on quipus.",
+        "The passage describes no public posting of laws.",
+        "Farmland was organized by the state and community, not recorded as private property on quipus in the passage.",
+        "Messengers carried news along the roads; quipus kept records."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Quipus and messengers both appear in Inca administration, but the cords stored records rather than carrying news themselves.",
+      "stimulusId": "mock2-inca-state",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-inca-state",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4 key concept: the Inca state organized labor, records, and roads to govern a large empire",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Inca administration, c. 1438–1532",
+          "text": "The Inca Empire, which expanded rapidly from Cuzco after about 1438 under the ruler Pachacuti, had no money economy and no written script like those of Afro-Eurasian states. Instead the state organized the labor of its subjects. Households owed the mit'a, a rotating labor service, which built roads, terraces, and storehouses and supplied soldiers. In return the state stored food and cloth for use in famine and held feasts at which rulers rewarded loyalty.\n\nOfficials recorded census data, labor obligations, and the contents of storehouses on quipus, knotted cords that trained specialists could read. The Inca also moved communities, called mitmaq colonists, to newly conquered regions to farm and to spread the Quechua language and Inca administration. A network of roads linked the four quarters of the empire."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-1-4-m2-01c",
+      "topicId": "world-1-4",
+      "concept": "americas-mexica",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "How did the Inca method of drawing on conquered peoples differ from that of the Mexica?",
+      "choices": [
+        "The Inca demanded tribute in cacao and cloth, while the Mexica demanded labor service",
+        "The Inca relied mainly on rotating labor service, while the Mexica relied mainly on tribute in goods",
+        "The Inca removed local lords, while the Mexica replaced every conquered ruler",
+        "The Inca relied on merchant guilds, while the Mexica relied on storehouses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Inca mit'a organized labor, whereas the Mexica collected tribute such as cloth, food, and cacao from conquered cities.",
+      "sourceIds": [
+        "ced-topic-1-4"
+      ],
+      "choiceExplanations": [
+        "The statement reverses the two systems.",
+        "The Inca mit'a organized labor, whereas the Mexica collected tribute such as cloth, food, and cacao from conquered cities.",
+        "Both states usually governed through local rulers; the key contrast was labor service versus tribute in goods.",
+        "The Inca state, not merchants, organized labor and storehouses; the Mexica collected tribute."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Both empires took resources from conquered peoples, but the form of what they took differed.",
+      "stimulusId": "mock2-inca-state",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-inca-state",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4 key concept: the Inca state organized labor, records, and roads to govern a large empire",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Inca administration, c. 1438–1532",
+          "text": "The Inca Empire, which expanded rapidly from Cuzco after about 1438 under the ruler Pachacuti, had no money economy and no written script like those of Afro-Eurasian states. Instead the state organized the labor of its subjects. Households owed the mit'a, a rotating labor service, which built roads, terraces, and storehouses and supplied soldiers. In return the state stored food and cloth for use in famine and held feasts at which rulers rewarded loyalty.\n\nOfficials recorded census data, labor obligations, and the contents of storehouses on quipus, knotted cords that trained specialists could read. The Inca also moved communities, called mitmaq colonists, to newly conquered regions to farm and to spread the Quechua language and Inca administration. A network of roads linked the four quarters of the empire."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-1-4-m2-01d",
+      "topicId": "world-1-4",
+      "concept": "americas-environment",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "prompt": "Which geographic challenge did Inca roads and terraces most directly help overcome?",
+      "choices": [
+        "Dense rainforest that blocked access to the Amazon's rivers",
+        "Seasonal flooding of a great river valley",
+        "A lack of timber for building ocean-going ships",
+        "Steep mountain terrain that limited farming and travel"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Andes' steep slopes limited farmland and travel, and terraces and roads made them more usable.",
+      "sourceIds": [
+        "ced-topic-1-4"
+      ],
+      "choiceExplanations": [
+        "The Inca heartland was in the Andes, not a lowland rainforest.",
+        "River flooding shaped Egypt's Nile Valley, not the Andes.",
+        "The Inca did not depend on ocean-going ships.",
+        "The Andes' steep slopes limited farmland and travel, and terraces and roads made them more usable."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Inca did reach lowland areas, but their roads and terraces were built for high-mountain terrain.",
+      "stimulusId": "mock2-inca-state",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-inca-state",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4 key concept: the Inca state organized labor, records, and roads to govern a large empire",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing Inca administration, c. 1438–1532",
+          "text": "The Inca Empire, which expanded rapidly from Cuzco after about 1438 under the ruler Pachacuti, had no money economy and no written script like those of Afro-Eurasian states. Instead the state organized the labor of its subjects. Households owed the mit'a, a rotating labor service, which built roads, terraces, and storehouses and supplied soldiers. In return the state stored food and cloth for use in famine and held feasts at which rulers rewarded loyalty.\n\nOfficials recorded census data, labor obligations, and the contents of storehouses on quipus, knotted cords that trained specialists could read. The Inca also moved communities, called mitmaq colonists, to newly conquered regions to farm and to spread the Quechua language and Inca administration. A network of roads linked the four quarters of the empire."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
     }
   ],
   "quizzes": [

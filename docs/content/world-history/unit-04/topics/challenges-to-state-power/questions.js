@@ -286,6 +286,95 @@ export const bank = {
       stimulusId: "original-state-challenges",
       stimulusBlocks: [excerpts.originalStateChallenges],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-4-6-m3-07a",
+      topicId: "world-4-6",
+      concept: "colonial-resistance",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which cause of the Pueblo Revolt does the passage emphasize?",
+      choices: [
+        "A shortage of food caused by a drought across the region",
+        "A Spanish decision to end all trade with the Pueblo villages",
+        "Competition with neighboring peoples for the same horses",
+        "Tribute, forced labor, and suppression of Pueblo religion",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The passage describes tribute and labor demands and punishment of traditional religious practices.",
+      sourceIds: ["ced-topic-4-6"],
+      choiceExplanations: [
+        "The passage does not mention drought.",
+        "The passage describes Spanish demands, not an end of trade.",
+        "The passage does not mention a dispute over horses.",
+        "The passage describes tribute and labor demands and punishment of traditional religious practices.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Pueblo communities did face hardships, but the passage names Spanish policies as the cause.",
+      stimulusId: "mock3-pueblo-revolt",
+      stimulusBlocks: [excerpts.m3Pueblo],
+    },
+    {
+      id: "world-4-6-m3-07b",
+      topicId: "world-4-6",
+      concept: "colonial-resistance",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt: "The use of knotted cords to coordinate the revolt shows that",
+      choices: [
+        "the Spanish had given the Pueblo peoples a written alphabet",
+        "the revolt was organized by a single government with a central capital",
+        "Pueblo leaders used their own signals to unite separate villages",
+        "the Pueblo peoples had adopted Spanish military tactics",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Runners carried knotted cords to set the date of the revolt across villages that did not share a language.",
+      sourceIds: ["ced-topic-4-6"],
+      choiceExplanations: [
+        "The passage describes cords, not a written alphabet.",
+        "The passage says a religious leader organized separate villages.",
+        "Runners carried knotted cords to set the date of the revolt across villages that did not share a language.",
+        "The passage does not say the Pueblo peoples used Spanish tactics.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Popé organized the villages, but they were not a single state under one government.",
+      stimulusId: "mock3-pueblo-revolt",
+      stimulusBlocks: [excerpts.m3Pueblo],
+    },
+    {
+      id: "world-4-6-m3-07c",
+      topicId: "world-4-6",
+      concept: "colonial-resistance",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "The Spanish response after 1692 most clearly shows that",
+      choices: [
+        "the revolt had no lasting effect on Spanish rule in the region",
+        "Spain sometimes changed policy because of resistance",
+        "Spain had given up its claims to the region altogether",
+        "Pueblo communities had been restored to full independence",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Spanish authorities allowed Pueblo communities more religious freedom after retaking the region.",
+      sourceIds: ["ced-topic-4-6"],
+      choiceExplanations: [
+        "The change in policy shows that the revolt did have an effect.",
+        "Spanish authorities allowed Pueblo communities more religious freedom after retaking the region.",
+        "The Spanish retook the region in 1692.",
+        "Pueblo communities remained under Spanish rule, though with more freedom.",
+      ],
+      nearMissIndex: 3,
+      distinguisher: "The Pueblo gained concessions, but Spain still ruled the region.",
+      stimulusId: "mock3-pueblo-revolt",
+      stimulusBlocks: [excerpts.m3Pueblo],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

@@ -298,6 +298,96 @@ export const bank = {
       stimulusId: "original-colonial-troops-wwi",
       stimulusBlocks: [excerpts.originalColonialTroops1],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-7-3-m3-13a",
+      topicId: "world-7-3",
+      concept: "trench-warfare",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which factors does the passage cite as making infantry attacks costly?",
+      choices: [
+        "Tanks, aircraft, and poison gas",
+        "Shortages of food and ammunition",
+        "Machine guns, barbed wire, and artillery",
+        "Lack of training among soldiers",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The passage says these defensive weapons made attacks extremely costly.",
+      sourceIds: ["ced-topic-7-3"],
+      choiceExplanations: [
+        "The passage lists these as new weapons that did not break the stalemate.",
+        "The passage does not cite shortages as the reason.",
+        "The passage says these defensive weapons made attacks extremely costly.",
+        "The passage does not discuss training.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Tanks and gas were new weapons, but the passage presents them as attempts to end the stalemate.",
+      stimulusId: "mock3-western-front",
+      stimulusBlocks: [excerpts.m3Trenches],
+    },
+    {
+      id: "world-7-3-m3-13b",
+      topicId: "world-7-3",
+      concept: "trench-warfare",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "causation",
+      prompt: "The situation on the Western Front most directly resulted in",
+      choices: [
+        "a quick German victory over France in 1914",
+        "heavy casualties and a search for new weapons",
+        "a decline in the use of artillery in war",
+        "widespread peace negotiations in 1915 and 1916",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Attacks failed against strong defenses, so both sides tried gas, tanks, and aircraft.",
+      sourceIds: ["ced-topic-7-3"],
+      choiceExplanations: [
+        "The passage describes a stalemate lasting until 1918.",
+        "Attacks failed against strong defenses, so both sides tried gas, tanks, and aircraft.",
+        "Artillery remained central.",
+        "The passage describes major battles in 1916 and no early peace.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Germany hoped for a quick victory in 1914, but trench warfare ended that hope.",
+      stimulusId: "mock3-western-front",
+      stimulusBlocks: [excerpts.m3Trenches],
+    },
+    {
+      id: "world-7-3-m3-13c",
+      topicId: "world-7-3",
+      concept: "total-war",
+      difficulty: "Apply",
+      skill: "contextualization",
+      prompt: "The arrival of American troops in 1918 mattered because",
+      choices: [
+        "it gave the Allies fresh troops as Germany tired",
+        "it forced the Allies to give up the trenches they held",
+        "it ended Britain's naval blockade of Germany",
+        "it allowed Germany to move more troops east",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "American troops joined the Allies as Germany's spring offensives failed.",
+      sourceIds: ["ced-topic-7-3"],
+      choiceExplanations: [
+        "American troops joined the Allies as Germany's spring offensives failed.",
+        "The Allies advanced in 1918 rather than giving up the trenches.",
+        "The blockade continued.",
+        "Germany's resources were stretched thin.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "American entry did not end the blockade, which continued until the armistice.",
+      stimulusId: "mock3-western-front",
+      stimulusBlocks: [excerpts.m3Trenches],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

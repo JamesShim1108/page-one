@@ -709,6 +709,99 @@ export const bank = {
       distinguisher:
         "“Evaluate significance” asks for a weighed claim, not an extreme one.",
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-2-3-m1-03a",
+      topicId: "world-2-3",
+      concept: "monsoon-navigation",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt:
+        "According to the passage, why did foreign merchants often remain in port for months?",
+      choices: [
+        "They had to wait for the monsoon winds to shift before sailing home",
+        "Local rulers forbade foreign ships from leaving before taxes were paid",
+        "Each cargo had to be inspected by a state bureaucracy every season",
+        "Merchants were required to learn the local language before trading",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The passage ties voyages to the wind calendar and says merchants waited in port for the winds to change.",
+      sourceIds: ["ced-topic-2-3"],
+      choiceExplanations: [
+        "The passage ties voyages to the wind calendar and says merchants waited in port for the winds to change.",
+        "The passage says ports taxed cargoes but does not say ships were forbidden to leave.",
+        "The passage describes no bureaucratic inspections.",
+        "The passage describes no language requirement.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Ports did tax cargoes, but the reason for the long stay in the passage is the wind cycle.",
+      stimulusId: "mock1-indian-ocean-ports",
+      stimulusBlocks: [excerpts.m1Monsoon],
+    },
+    {
+      id: "world-2-3-m1-03b",
+      topicId: "world-2-3",
+      concept: "diaspora-communities",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The settled merchants described in the second paragraph are best understood as",
+      choices: [
+        "Ming colonies that governed the Indian Ocean ports they visited",
+        "guilds of European merchants seeking a sea route to Asia",
+        "tributary envoys sent by the Mamluk sultan to Asian rulers",
+        "diaspora communities that carried religion and culture between ports",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Merchants from many homelands settled in ports and linked them by shared trade, religion, and customs.",
+      sourceIds: ["ced-topic-2-3"],
+      choiceExplanations: [
+        "Zheng He's fleets visited ports but did not found colonies there.",
+        "The communities named were Arab, Persian, Indian, and Chinese, not European.",
+        "Nothing in the passage ties the communities to the Mamluks.",
+        "Merchants from many homelands settled in ports and linked them by shared trade, religion, and customs.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Chinese traders were among the communities, and Ming fleets visited the ports, but the fleets did not found colonies.",
+      stimulusId: "mock1-indian-ocean-ports",
+      stimulusBlocks: [excerpts.m1Monsoon],
+    },
+    {
+      id: "world-2-3-m1-03c",
+      topicId: "world-2-3",
+      concept: "zheng-he",
+      difficulty: "Apply",
+      skill: "connections",
+      reasoning: "continuity",
+      prompt:
+        "Which conclusion about the voyages of Zheng He is best supported by the passage?",
+      choices: [
+        "They created a Chinese territorial empire around the ocean",
+        "They replaced sea trade with overland caravans",
+        "They did not permanently change who ran Indian Ocean commerce",
+        "They ended the use of the monsoon wind system",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The passage says the voyages ended in the 1430s and that trade continued under the merchants and port rulers who had long run it.",
+      sourceIds: ["ced-topic-2-3"],
+      choiceExplanations: [
+        "The passage describes visits to ports, not territorial conquest.",
+        "The passage says Indian Ocean trade continued by sea.",
+        "The passage says the voyages ended in the 1430s and that trade continued under the merchants and port rulers who had long run it.",
+        "The monsoons are a natural wind pattern that no fleet could end.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The fleets were large and powerful, but their influence faded when the voyages stopped.",
+      stimulusId: "mock1-indian-ocean-ports",
+      stimulusBlocks: [excerpts.m1Monsoon],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {

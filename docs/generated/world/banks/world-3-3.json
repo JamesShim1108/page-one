@@ -1009,6 +1009,258 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-3-m1-05a",
+      "topicId": "world-3-3",
+      "concept": "sunni-shia",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "prompt": "Which evidence in the passage best supports the claim that Safavid rulers used religion for political purposes?",
+      "choices": [
+        "The Safavids fought the Ottomans over their borders for more than a century",
+        "The Ottoman army used muskets and cannon against Safavid cavalry at Chaldiran",
+        "Tabriz served as the Safavid capital until the Ottomans briefly occupied it",
+        "Ismail made Shi'ism the state religion for a mostly Sunni population"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Imposing a minority faith on a mostly Sunni population gave the dynasty a distinct identity that set it apart from its rivals.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Long border wars show rivalry but not how the Safavids used religion.",
+        "Ottoman weapons show military strength, not Safavid religious policy.",
+        "A capital city says nothing about the use of religion.",
+        "Imposing a minority faith on a mostly Sunni population gave the dynasty a distinct identity that set it apart from its rivals."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The border wars did have religious overtones, but the passage's evidence for religion as policy is Ismail's imposition of Shi'ism.",
+      "stimulusId": "mock1-safavid-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "mock1-safavid-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3 key concept: Sunni–Shi'a divisions shaped the rivalry between the Ottoman and Safavid empires",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the early Safavid state and its conflict with the Ottomans, 1501–1639",
+          "text": "In 1501 Shah Ismail founded the Safavid dynasty in Persia and made Twelver Shi'ism the state religion, even though most of his subjects were Sunni. He brought Shi'i scholars from Lebanon and Iraq to teach the faith, and Safavid rulers pressed their subjects to convert.\n\nThe Ottoman sultans were Sunni and saw the Safavids as both heretics and a military threat. In 1514 an Ottoman army armed with muskets and cannon defeated Safavid cavalry at Chaldiran and briefly occupied the Safavid capital of Tabriz. The two empires fought over their borders for more than a century."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-3-m1-05b",
+      "topicId": "world-3-3",
+      "concept": "sunni-shia",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "reasoning": "causation",
+      "prompt": "The Ottoman victory at Chaldiran in 1514 is best explained by",
+      "choices": [
+        "Safavid commanders' refusal to fight outside their own capital",
+        "Ottoman use of gunpowder weapons against Safavid cavalry",
+        "Ottoman control of the sea lanes of the Indian Ocean and the Gulf",
+        "Divisions among the commanders of the Ottoman Janissary corps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage says Ottoman muskets and cannon defeated the Safavid cavalry.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The Safavids fought at Chaldiran; the passage does not say they refused to defend.",
+        "The passage says Ottoman muskets and cannon defeated the Safavid cavalry.",
+        "The battle took place in the Safavid heartland, far from the Indian Ocean.",
+        "Nothing in the passage mentions Janissary divisions; the Ottoman army won."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Control of sea lanes mattered for other empires, but Chaldiran was a land battle won by firearms.",
+      "stimulusId": "mock1-safavid-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "mock1-safavid-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3 key concept: Sunni–Shi'a divisions shaped the rivalry between the Ottoman and Safavid empires",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the early Safavid state and its conflict with the Ottomans, 1501–1639",
+          "text": "In 1501 Shah Ismail founded the Safavid dynasty in Persia and made Twelver Shi'ism the state religion, even though most of his subjects were Sunni. He brought Shi'i scholars from Lebanon and Iraq to teach the faith, and Safavid rulers pressed their subjects to convert.\n\nThe Ottoman sultans were Sunni and saw the Safavids as both heretics and a military threat. In 1514 an Ottoman army armed with muskets and cannon defeated Safavid cavalry at Chaldiran and briefly occupied the Safavid capital of Tabriz. The two empires fought over their borders for more than a century."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-3-3-m1-05c",
+      "topicId": "world-3-3",
+      "concept": "sunni-shia",
+      "difficulty": "Challenge",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Ottoman–Safavid rivalry is most similar to which other conflict of the period?",
+      "choices": [
+        "The Mongol wars among the khanates over control of trade routes",
+        "The Qing conquest of the Ming dynasty in China",
+        "The wars between Catholic and Protestant states of Reformation Europe",
+        "The Mughal campaigns against the Sikh gurus in northern India"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In both cases, religious difference reinforced a rivalry between states that was also about power and territory.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Conflicts among the Mongol khanates were mainly over territory and succession.",
+        "The Qing conquered the Ming without a religious division between the two sides.",
+        "In both cases, religious difference reinforced a rivalry between states that was also about power and territory.",
+        "The Mughal–Sikh conflict was a clash between an empire and a religious community, not between two states."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The Mughal–Sikh conflict was religious, but it involved an empire and a movement within it, not rivalry between two states.",
+      "stimulusId": "mock1-safavid-ottoman",
+      "stimulusBlocks": [
+        {
+          "id": "mock1-safavid-ottoman",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3 key concept: Sunni–Shi'a divisions shaped the rivalry between the Ottoman and Safavid empires",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the early Safavid state and its conflict with the Ottomans, 1501–1639",
+          "text": "In 1501 Shah Ismail founded the Safavid dynasty in Persia and made Twelver Shi'ism the state religion, even though most of his subjects were Sunni. He brought Shi'i scholars from Lebanon and Iraq to teach the faith, and Safavid rulers pressed their subjects to convert.\n\nThe Ottoman sultans were Sunni and saw the Safavids as both heretics and a military threat. In 1514 an Ottoman army armed with muskets and cannon defeated Safavid cavalry at Chaldiran and briefly occupied the Safavid capital of Tabriz. The two empires fought over their borders for more than a century."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-3-3-m2-05a",
+      "topicId": "world-3-3",
+      "concept": "catholic-reformation",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which reform did the Council of Trent make in response to Protestant criticism?",
+      "choices": [
+        "It ended indulgence sales and required seminaries for priests",
+        "It allowed the Mass to be celebrated in the local languages of each region",
+        "It accepted that salvation comes through faith alone, as Luther taught",
+        "It ended the pope's authority over the bishops of Catholic kingdoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage says Trent ended indulgence sales and ordered seminaries to train priests, addressing two Protestant complaints.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The passage says Trent ended indulgence sales and ordered seminaries to train priests, addressing two Protestant complaints.",
+        "The passage does not say Trent allowed vernacular Mass, a Protestant change the Catholic Church did not adopt.",
+        "The passage says Trent reaffirmed the value of faith and good works.",
+        "The passage says Trent reaffirmed the authority of the pope."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Many Protestants celebrated services in local languages, but the Council of Trent did not adopt that change.",
+      "stimulusId": "mock2-catholic-reformation",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-catholic-reformation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3 key concept: the Catholic Reformation responded to Protestant challenges through reform and missionary work",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Catholic Reformation, 1540–1600",
+          "text": "In response to the Protestant Reformation, the Catholic Church held the Council of Trent between 1545 and 1563. The council reaffirmed teachings that Protestants rejected, including the authority of the pope and the value of both faith and good works. It also ended the sale of indulgences, required bishops to live in their dioceses, and ordered seminaries to train priests.\n\nThe Society of Jesus, founded by Ignatius of Loyola and approved in 1540, ran schools across Europe and sent missionaries to Asia and the Americas, such as Francis Xavier in India and Japan. Catholic rulers, including Philip II of Spain, also used the Inquisition to suppress heresy."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-3-3-m2-05b",
+      "topicId": "world-3-3",
+      "concept": "catholic-reformation",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "prompt": "The Jesuits contributed to the Catholic Reformation primarily through",
+      "choices": [
+        "schools and overseas missions that spread Catholic teaching",
+        "armies that fought Protestant princes across Germany for the pope",
+        "pamphlets and translations of the Bible into German for lay readers",
+        "a council of princes that took over the governing of the Church"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage says Jesuits ran schools in Europe and sent missionaries such as Francis Xavier to Asia and the Americas.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The passage says Jesuits ran schools in Europe and sent missionaries such as Francis Xavier to Asia and the Americas.",
+        "The Jesuits were a religious order and did not field armies.",
+        "Translation of the Bible into German was a Lutheran project.",
+        "Authority in the Church remained with the pope, not with a council of princes."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Catholic rulers did fight Protestant princes, but the Jesuits were an order of priests, not an army.",
+      "stimulusId": "mock2-catholic-reformation",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-catholic-reformation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3 key concept: the Catholic Reformation responded to Protestant challenges through reform and missionary work",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Catholic Reformation, 1540–1600",
+          "text": "In response to the Protestant Reformation, the Catholic Church held the Council of Trent between 1545 and 1563. The council reaffirmed teachings that Protestants rejected, including the authority of the pope and the value of both faith and good works. It also ended the sale of indulgences, required bishops to live in their dioceses, and ordered seminaries to train priests.\n\nThe Society of Jesus, founded by Ignatius of Loyola and approved in 1540, ran schools across Europe and sent missionaries to Asia and the Americas, such as Francis Xavier in India and Japan. Catholic rulers, including Philip II of Spain, also used the Inquisition to suppress heresy."
+        }
+      ],
+      "skillLabel": "Developments and processes",
+      "skillCode": "1"
+    },
+    {
+      "id": "world-3-3-m2-05c",
+      "topicId": "world-3-3",
+      "concept": "catholic-reformation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which political result followed from rulers like Philip II linking Catholicism to state policy?",
+      "choices": [
+        "Church and state were separated in Catholic kingdoms",
+        "Toleration for Protestants became law in Spain and its territories",
+        "Religious uniformity was enforced through the Inquisition",
+        "Rulers gave up their authority over religious matters to the pope"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage notes that Philip II used the Inquisition to suppress heresy, tying the state to religious enforcement.",
+      "sourceIds": [
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Philip II strengthened ties between church and state.",
+        "Spain did not tolerate Protestants under Philip II.",
+        "The passage notes that Philip II used the Inquisition to suppress heresy, tying the state to religious enforcement.",
+        "Philip II used the Church as a tool of his state and did not surrender authority."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Philip II supported the pope in doctrine, but in practice he controlled the Spanish Church closely.",
+      "stimulusId": "mock2-catholic-reformation",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-catholic-reformation",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 3.3 key concept: the Catholic Reformation responded to Protestant challenges through reform and missionary work",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Catholic Reformation, 1540–1600",
+          "text": "In response to the Protestant Reformation, the Catholic Church held the Council of Trent between 1545 and 1563. The council reaffirmed teachings that Protestants rejected, including the authority of the pope and the value of both faith and good works. It also ended the sale of indulgences, required bishops to live in their dioceses, and ordered seminaries to train priests.\n\nThe Society of Jesus, founded by Ignatius of Loyola and approved in 1540, ran schools across Europe and sent missionaries to Asia and the Americas, such as Francis Xavier in India and Japan. Catholic rulers, including Philip II of Spain, also used the Inquisition to suppress heresy."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
     }
   ],
   "quizzes": [

@@ -905,6 +905,174 @@
       "skillLabel": "Making connections",
       "skillCode": "5",
       "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-2-m2-08a",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "prompt": "Which detail best shows the importance of disease in the outcome of the revolution?",
+      "choices": [
+        "Toussaint Louverture was captured and taken to France",
+        "Spanish and British armies were defeated by the rebels",
+        "Dessalines declared Haitian independence on January 1, 1804",
+        "The French army suffered heavily from yellow fever"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Yellow fever weakened the French expedition and helped the rebels win.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Louverture's capture shows French success, not the role of disease.",
+        "Defeating armies shows the rebels' strength, not disease.",
+        "Declaring independence was an outcome, not evidence of disease.",
+        "Yellow fever weakened the French expedition and helped the rebels win."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The rebels fought well, but the passage names yellow fever specifically as what hurt the French.",
+      "stimulusId": "mock2-haitian-revolution",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-haitian-revolution",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+          "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
+        }
+      ],
+      "skillLabel": "Claims and evidence in sources",
+      "skillCode": "3"
+    },
+    {
+      "id": "world-5-2-m2-08b",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "comparison",
+      "prompt": "The Haitian Revolution differed from the American Revolution mainly because it",
+      "choices": [
+        "was fought to end the rule of a European colonial power",
+        "ended slavery and was led by formerly enslaved people",
+        "drew heavily on Enlightenment ideas about natural rights",
+        "created an independent republic in the Western Hemisphere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Haiti the rebels were enslaved people who abolished slavery, whereas the American Revolution left slavery in place.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Both revolutions fought European rule.",
+        "In Haiti the rebels were enslaved people who abolished slavery, whereas the American Revolution left slavery in place.",
+        "Both revolutions drew on Enlightenment ideas.",
+        "Both created independent states in the Americas."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Enlightenment ideas inspired both revolutions, but Haiti applied them to enslaved people.",
+      "stimulusId": "mock2-haitian-revolution",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-haitian-revolution",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+          "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison"
+    },
+    {
+      "id": "world-5-2-m2-08c",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "reasoning": "causation",
+      "prompt": "Which development in France most directly influenced the revolt in Saint-Domingue?",
+      "choices": [
+        "The French Revolution's declaration of the rights of man",
+        "Napoleon's coronation as emperor of the French in 1804",
+        "The Congress of Vienna's settlement of Europe after Napoleon",
+        "The Edict of Nantes granting toleration to Protestants"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The revolution in France in 1789 spread ideas of liberty and equality that people in the colony applied to slavery and rights.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "The revolution in France in 1789 spread ideas of liberty and equality that people in the colony applied to slavery and rights.",
+        "Napoleon's coronation took place in 1804, after the revolt began.",
+        "The Congress of Vienna met in 1814–1815, after Haitian independence.",
+        "The Edict of Nantes was issued in 1598."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Napoleon shaped the later phase of the conflict, but the revolt began in 1791, before his rule.",
+      "stimulusId": "mock2-haitian-revolution",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-haitian-revolution",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+          "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
+        }
+      ],
+      "skillLabel": "Making connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation"
+    },
+    {
+      "id": "world-5-2-m2-08d",
+      "topicId": "world-5-2",
+      "concept": "haiti-latin-america",
+      "difficulty": "Challenge",
+      "skill": "contextualization",
+      "prompt": "How did the Haitian Revolution most directly affect later independence movements in Latin America?",
+      "choices": [
+        "It convinced Spain to grant independence to its colonies peacefully",
+        "It alarmed many creole elites, who feared a similar uprising",
+        "It led Latin American leaders to adopt the same constitution",
+        "It ended all European interest in colonies in the Americas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Haiti's example frightened slaveholding elites, who often wanted independence from Spain without a social revolution.",
+      "sourceIds": [
+        "ced-topic-5-2"
+      ],
+      "choiceExplanations": [
+        "Spain did not grant independence peacefully.",
+        "Haiti's example frightened slaveholding elites, who often wanted independence from Spain without a social revolution.",
+        "Latin American states wrote their own constitutions.",
+        "European powers remained involved in the Americas."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Haiti did inspire some leaders, such as Simón Bolívar, who received help there, but many elites feared similar uprisings.",
+      "stimulusId": "mock2-haitian-revolution",
+      "stimulusBlocks": [
+        {
+          "id": "mock2-haitian-revolution",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 5.2 key concept: the Haitian Revolution began as a slave revolt and ended slavery and French rule in Saint-Domingue",
+          "amsco_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing the Haitian Revolution, 1791–1804",
+          "text": "In 1791 enslaved people in the French colony of Saint-Domingue, the richest sugar colony in the Caribbean, rose in revolt. Toussaint Louverture, a formerly enslaved man, became the leading general. After France abolished slavery in 1794, he fought for the French Republic against Spanish and British invaders, defeated his rivals, and by 1801 governed the whole island. In 1802 Napoleon sent an expedition to restore French control and slavery. Louverture was captured, but the rebels under Jean-Jacques Dessalines defeated the French army, which suffered heavily from yellow fever.\n\nOn January 1, 1804, Dessalines declared the independent nation of Haiti, the first nation founded by a successful uprising of enslaved people."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4"
     }
   ],
   "quizzes": [

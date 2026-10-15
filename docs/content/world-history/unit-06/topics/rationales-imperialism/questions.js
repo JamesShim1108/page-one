@@ -363,6 +363,127 @@ export const bank = {
       stimulusId: "original-civilizing-mission",
       stimulusBlocks: [excerpts.originalCivilizingMission],
     },
+    // BEGIN mock exam questions (written for full-length mock exams; not in topic practice)
+    {
+      id: "world-6-1-m1-10a",
+      topicId: "world-6-1",
+      concept: "ideologies",
+      difficulty: "Core",
+      skill: "claims-evidence",
+      prompt: "Which claim does Mill make about liberty in the passage?",
+      choices: [
+        "It applies equally to every society, regardless of its stage of development",
+        "It applies only to societies capable of improvement by free discussion",
+        "It should be limited to the citizens of Great Britain and its colonies",
+        "It requires the end of despotism everywhere in the world",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Mill says liberty has no application until people are capable of improvement by free and equal discussion.",
+      sourceIds: ["ced-topic-6-1"],
+      choiceExplanations: [
+        "Mill explicitly excludes societies he calls backward.",
+        "Mill says liberty has no application until people are capable of improvement by free and equal discussion.",
+        "Mill does not limit liberty by nationality.",
+        "Mill calls despotism legitimate for societies he describes as barbarian, if aimed at their improvement.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Mill believed in liberty for adults in developed societies, but he made an exception for societies he judged not ready for it.",
+      stimulusId: "mill-despotism",
+      stimulusBlocks: [excerpts.millDespotism],
+    },
+    {
+      id: "world-6-1-m1-10b",
+      topicId: "world-6-1",
+      concept: "ideologies",
+      difficulty: "Apply",
+      skill: "sourcing",
+      prompt:
+        "Mill's service with the East India Company from 1823 to 1858 is most relevant to the passage because it",
+      choices: [
+        "made him a leading critic of the Company's rule in India and its officials",
+        "meant he wrote the passage mainly for Indian readers of his work",
+        "gave him experience in ruling a colonial society his argument could defend",
+        "showed he had drafted the laws that Parliament passed for the colonies",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "As an official of the Company, Mill had a stake in imperial rule, and his argument about despotism could justify it.",
+      sourceIds: ["ced-topic-6-1"],
+      choiceExplanations: [
+        "Mill defended Company rule and did not criticize it in this passage.",
+        "The passage is from On Liberty, written for a British audience.",
+        "As an official of the Company, Mill had a stake in imperial rule, and his argument about despotism could justify it.",
+        "Mill worked for the Company, not Parliament.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Mill's liberal ideas could encourage reform, but this passage applies liberty only to “mature” societies, which supports colonial rule.",
+      stimulusId: "mill-despotism",
+      stimulusBlocks: [excerpts.millDespotism],
+    },
+    {
+      id: "world-6-1-m1-10c",
+      topicId: "world-6-1",
+      concept: "ideologies",
+      difficulty: "Apply",
+      skill: "developments",
+      prompt:
+        "The idea that imperial rule could improve colonized peoples is most closely associated with",
+      choices: [
+        "the civilizing mission",
+        "Social Darwinism",
+        "Pan-Africanism",
+        "laissez-faire economics",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The civilizing mission claimed that Europeans were bringing education, religion, and order to colonized peoples.",
+      sourceIds: ["ced-topic-6-1"],
+      choiceExplanations: [
+        "The civilizing mission claimed that Europeans were bringing education, religion, and order to colonized peoples.",
+        "Social Darwinism claimed that competition between peoples and races was natural, rather than that rule was meant to improve people.",
+        "Pan-Africanism was a movement of African solidarity against colonialism.",
+        "Laissez-faire concerned limiting government interference in the economy.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Social Darwinism was also used to defend empire, but it argued that stronger peoples would naturally dominate rather than that they should improve others.",
+      stimulusId: "mill-despotism",
+      stimulusBlocks: [excerpts.millDespotism],
+    },
+    {
+      id: "world-6-1-m1-10d",
+      topicId: "world-6-1",
+      concept: "motives",
+      difficulty: "Challenge",
+      skill: "argumentation",
+      prompt:
+        "How might an Indian nationalist of the late 1800s most likely respond to the passage?",
+      choices: [
+        "By arguing that colonial rule contradicted Britain's own liberal principles",
+        "By rejecting all Western ideas, including representative government and law",
+        "By agreeing that Indians were not yet ready for any form of self-government",
+        "By urging Indians to abandon their own traditions in favor of British ways",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Many nationalists, including the founders of the Indian National Congress in 1885, used British liberal ideas to demand self-government.",
+      sourceIds: ["ced-topic-6-1"],
+      choiceExplanations: [
+        "Many nationalists, including the founders of the Indian National Congress in 1885, used British liberal ideas to demand self-government.",
+        "Some Indians rejected Western influence, but most nationalists adopted ideas like representation and rights.",
+        "Nationalists argued the opposite and demanded a greater say in government.",
+        "Most nationalists defended Indian culture and did not urge its abandonment.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The rebels of 1857 rejected some British changes, but later nationalists more often turned Western ideas against colonial rule.",
+      stimulusId: "mill-despotism",
+      stimulusBlocks: [excerpts.millDespotism],
+    },
+    // END mock exam questions
   ],
   quizzes: [
     {
