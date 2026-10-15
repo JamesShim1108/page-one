@@ -528,8 +528,12 @@ export function parseImportText(input, { maxBytes = MAX_IMPORT_BYTES } = {}) {
     if (seen.has(result.key))
       return { ok: false, reason: `Record ${result.key} appears more than once.` };
     seen.add(result.key);
-    if (result.supported) valid.push(value.records[index]);
-    else unsupported.push({ key: result.key, kind: value.records[index].source.kind });
+    // Imports keep only the fields an export would write, so fields the
+    // app no longer stores (such as reading-mark notes) are not restored.
+    if (result.supported) {
+      const item = value.records[index];
+      valid.push({ ...item, payload: payloadForExport(item.source.kind, item.payload) });
+    } else unsupported.push({ key: result.key, kind: value.records[index].source.kind });
   }
   const crossReferenceError = validateCrossReferences(valid);
   if (crossReferenceError) return { ok: false, reason: crossReferenceError };

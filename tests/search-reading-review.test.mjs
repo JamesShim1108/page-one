@@ -173,6 +173,38 @@ test("reading marks keep read, understood, and review independent", async () => 
   const afterRemoval = createReadingMarkStore(createLocalAdapter(options), context);
   await afterRemoval.ready;
   assert.equal(afterRemoval.get(block), null);
+
+  // A mark saved before private notes were removed, holding only a note,
+  // is deleted on load so the old note text does not linger.
+  const legacy = createLocalAdapter(options);
+  await legacy.ready;
+  const legacyWriter = legacy.createRecordWriter({
+    namespace: `course:${context.courseId}`,
+    kind: "reading-mark",
+    recordId: `reading-mark:${context.pageId}:block:note-only`,
+    courseId: context.courseId,
+    contentIdentity: context.contentRevision,
+    payload: {},
+  });
+  await legacyWriter.ready;
+  await legacyWriter.save({
+    ...context,
+    ...block,
+    schemaVersion: 1,
+    targetId: "note-only",
+    note: "An old private note",
+  });
+  const noteOnly = async (adapter) =>
+    (await adapter.list({ kind: "reading-mark" })).filter(
+      (record) => record.payload?.targetId === "note-only",
+    );
+  assert.equal((await noteOnly(legacy)).length, 1);
+  const cleaned = createReadingMarkStore(createLocalAdapter(options), context);
+  await cleaned.ready;
+  assert.equal(cleaned.get({ ...block, targetId: "note-only" }), null);
+  const fresh = createLocalAdapter(options);
+  await fresh.ready;
+  assert.equal((await noteOnly(fresh)).length, 0);
 });
 
 test("reading marks drop any saved note field instead of keeping it", () => {

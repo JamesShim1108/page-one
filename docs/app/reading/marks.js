@@ -66,6 +66,10 @@ function blankMark(context, target, previous = {}) {
   });
 }
 
+function hasFlags(mark) {
+  return Boolean(mark.read || mark.understood || mark.review || mark.confusing);
+}
+
 export async function listReadingMarks(adapter, { courseId = "", pageId = "" } = {}) {
   if (!adapter) return [];
   const records = await adapter.list({
@@ -97,10 +101,22 @@ export function createReadingMarkStore(adapter, context) {
   };
   const ready = (
     adapter ? listReadingMarks(adapter, { pageId: base.pageId }) : Promise.resolve([])
-  ).then((loaded) => {
-    for (const record of loaded)
-      records.set(keyFor(record.payload.targetType, record.payload.targetId), record);
-    return loaded;
+  ).then(async (loaded) => {
+    const kept = [];
+    for (const record of loaded) {
+      const mark = record.payload;
+      if (hasFlags(mark)) {
+        records.set(keyFor(mark.targetType, mark.targetId), record);
+        kept.push(record);
+        continue;
+      }
+      // A mark that only held a removed private note: delete it so the old
+      // note text does not linger in this browser.
+      const writer = writerFor(mark, mark);
+      await writer.ready;
+      await writer.remove().catch(() => null);
+    }
+    return kept;
   });
 
   function writerFor(target, current) {
@@ -129,7 +145,7 @@ export function createReadingMarkStore(adapter, context) {
     const current = records.get(key)?.payload || {};
     const next = blankMark(base, target, { ...current, ...patch });
     if (!next) return { ok: false, status: "invalid" };
-    if (!next.read && !next.understood && !next.review && !next.confusing) {
+    if (!hasFlags(next)) {
       records.delete(key);
       if (adapter) {
         const writer = writerFor(target, next);
@@ -329,7 +345,7 @@ function reviewRow(record, contextToken) {
     <p class="eyebrow">${esc(payload.courseTitle || payload.courseId)}${payload.unitTitle ? ` · ${esc(payload.unitTitle)}` : ""}</p>
     <h2>${esc(payload.pageTitle || "Reading")}</h2><p class="reading-review-location">${esc(location)} · ${esc(payload.sectionId)}</p>
     <blockquote>${esc(payload.excerpt || "Original passage unavailable.")}</blockquote>
-    ${stale ? '<p class="reading-review-orphan" role="status">Original passage changed or is unavailable.</p>' : ""}
+    ${stale ? '<p class="reading-review-orphan" role="status">Original passage changed or is unavailable. Open the surrounding section to find it again, or remove it from review.</p>' : ""}
     <div class="actions">${link(destination, stale ? "Open surrounding section" : "Open passage", "btn secondary")}<button type="button" class="text-button" data-reading-review-remove="${esc(record.recordId)}">Remove from review</button></div>
   </article>`;
 }
