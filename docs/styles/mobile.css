@@ -352,11 +352,9 @@
   }
 
   /* Lesson/guide section actions (Copy link, Print, Report an issue) and
-     the Read / Understood / Private note row.
-     Problem: buttons at 12.5px with mismatched heights, the report link
-     floating outside the grid, and the note panel (min 280px) overflowing
-     a shrink-to-fit disclosure box. Fix: a two-column grid with equal
-     44px targets, full-width note disclosure. */
+     the Read / Understood row. Problem: buttons at 12.5px with mismatched
+     heights and the report link floating outside the grid. Fix: a
+     two-column grid with equal 44px targets. */
   .reading-heading-actions {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -394,25 +392,6 @@
   .reading-mark-button {
     min-height: 44px;
     font-size: 0.9rem;
-  }
-  .reading-note-disclosure {
-    width: 100%;
-    grid-column: 1 / -1;
-  }
-  .reading-note-disclosure summary {
-    display: flex;
-    align-items: center;
-    min-height: 44px;
-    font-size: 0.9rem;
-  }
-  .reading-note-disclosure label {
-    min-width: 0;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 0.9rem;
-  }
-  .reading-note-disclosure[open] label {
-    margin-top: 0.5rem;
   }
   .reading-mark-status {
     font-size: 0.85rem;
@@ -453,14 +432,6 @@
      the track's center (button center 203px vs track 195px). */
   .preview-toolbar > span:empty {
     display: none;
-  }
-
-  .reading-note-disclosure [data-reading-mark-action="save-note"] {
-    display: inline-flex;
-    align-items: center;
-    min-height: 44px;
-    margin-top: 0.4rem;
-    font-size: 0.9rem;
   }
 
   /* Settings: backup checkboxes are 13x13 and their wrapping labels (the

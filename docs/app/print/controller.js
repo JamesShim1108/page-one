@@ -1,5 +1,4 @@
 import { escapeHtml as esc, breadcrumbs, contextCrumbs, link } from "../ui.js";
-import { listReadingMarks } from "../reading/marks.js";
 import { allocateSession } from "../session/selection.js";
 import { sessionPath } from "../session/config.js";
 import {
@@ -54,7 +53,6 @@ function defaultOptions(kind) {
     practice: ["unit", "quiz", "session"].includes(kind),
     responseSpace: false,
     terms: false,
-    notes: false,
     responses: false,
     qr: true,
     paper: "letter",
@@ -73,7 +71,6 @@ function optionsFromParams(params, kind) {
     practice: optionValue(params, "practice", defaults.practice),
     responseSpace: optionValue(params, "space", defaults.responseSpace),
     terms: optionValue(params, "terms", defaults.terms),
-    notes: optionValue(params, "notes", defaults.notes),
     responses: optionValue(params, "responses", defaults.responses),
     qr: optionValue(params, "qr", defaults.qr),
     paper: params.get("paper") === "a4" ? "a4" : "letter",
@@ -231,32 +228,6 @@ async function loadStateData(content, params, kind) {
   };
 }
 
-function noteForState(state) {
-  const ids = new Set([state.topicId, ...(state.topicIds || [])].filter(Boolean));
-  return (state.notesRecords || [])
-    .map((record) => record.payload)
-    .filter((mark) => mark?.note && (!ids.size || ids.has(mark.contentId)))
-    .map((mark) => ({
-      title: mark.pageTitle || mark.sectionId || "Reading note",
-      section: mark.sectionId,
-      excerpt: mark.excerpt,
-      note: mark.note,
-    }));
-}
-
-function renderNotes(state) {
-  if (!state.options.notes) return "";
-  const notes = noteForState(state);
-  return notes.length
-    ? `<section class="print-private-notes"><h2>Personal notes</h2><p class="muted">These notes were saved in this browser and were included only because you selected them.</p>${notes
-        .map(
-          (item) =>
-            `<article><h3>${esc(item.title)}${item.section ? ` · ${esc(item.section)}` : ""}</h3>${item.excerpt ? `<p class="muted">${esc(item.excerpt)}</p>` : ""}<p>${esc(item.note)}</p></article>`,
-        )
-        .join("")}</section>`
-    : `<section class="print-private-notes"><h2>Personal notes</h2><p class="print-empty">No saved notes match this selection.</p></section>`;
-}
-
 function publicPathFor(state) {
   if (state.kind === "section")
     return `/topic/${state.topicId}?section=${state.sectionId}`;
@@ -346,7 +317,6 @@ function printOptions(state) {
       state.kind,
     ),
     terms: Boolean(state.termSets?.length || state.kind === "terms"),
-    notes: Boolean(state.notesRecords?.some((record) => record.payload?.note)),
     responses: state.kind === "writing" && state.hasResponse,
   };
   const rows = [
@@ -354,7 +324,6 @@ function printOptions(state) {
     ["practice", "Practice questions", supports.practice],
     ["responseSpace", "Blank response space", supports.responseSpace],
     ["terms", "Official Terms text", supports.terms],
-    ["notes", "Personal notes", supports.notes],
     ["responses", "Completed responses", supports.responses],
   ];
   return `<fieldset class="print-options"><legend>Include in this preview</legend>${rows
@@ -467,7 +436,7 @@ function renderDocuments(state) {
       title: state.set.title,
     });
   }
-  return `${documents}${renderNotes(state)}`;
+  return documents;
 }
 
 function statusText(state) {
@@ -507,17 +476,9 @@ export async function createPrintController({ content, route, adapter, repaint }
     options: optionsFromParams(route.params, kind),
     previewMode: "student",
     feedback: "",
-    notesRecords: [],
     hasResponse: false,
     responses: {},
   };
-  if (adapter) {
-    try {
-      state.notesRecords = await listReadingMarks(adapter, { courseId: state.courseId });
-    } catch {
-      state.notesRecords = [];
-    }
-  }
   if (kind === "writing" && state.writing?.quiz && adapter) {
     try {
       const { createWritingStore } = await import("../writing/store.js");

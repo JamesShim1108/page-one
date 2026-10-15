@@ -401,3 +401,31 @@ test("quota failure leaves the existing fallback records unchanged", async () =>
     null,
   );
 });
+
+test("reading marks drop a legacy private note on export and import", () => {
+  const mark = {
+    schemaVersion: 1,
+    pageId: "reading:topic:world-1-1",
+    courseId: "world",
+    targetType: "block",
+    targetId: "block-1",
+    sectionId: "section-1",
+    review: true,
+    note: "An old private note",
+  };
+  const exported = createExportEnvelope(
+    [record("reading-mark", "reading-mark:world-1-1:block:block-1", mark)],
+    { categories: ["reading"], selectedCourseIds: ["world"], exportedAt: UPDATED_AT },
+  );
+  assert.equal(exported.records.length, 1);
+  assert.equal("note" in exported.records[0].payload, false);
+
+  const parsed = parseRecords([
+    portable("reading-mark", "reading-mark:world-1-1:block:block-1", mark),
+  ]);
+  const plan = planImport(parsed, [], { knownCourseIds: ["world"] });
+  assert.equal(plan.ok, true);
+  assert.equal(plan.records.length, 1);
+  assert.equal("note" in plan.records[0].payload, false);
+  assert.equal(plan.records[0].payload.review, true);
+});

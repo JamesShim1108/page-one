@@ -128,7 +128,7 @@ test("search index loading is on demand and does not fetch question banks", asyn
   assert.deepEqual(requested, ["catalog.json", "world/search.json"]);
 });
 
-test("reading marks keep read, understood, review, and private notes independent", async () => {
+test("reading marks keep read, understood, and review independent", async () => {
   const storage = memoryStorage();
   const options = {
     indexedDB: null,
@@ -165,24 +165,64 @@ test("reading marks keep read, understood, review, and private notes independent
     targetId: "section-a-block-1",
     excerpt: "Original passage.",
   };
-  const note = '<img src=x onerror="alert(1)">';
-  assert.equal((await store.update(block, { review: true, note })).ok, true);
+  assert.equal((await store.update(block, { review: true })).ok, true);
   const reloaded = createReadingMarkStore(createLocalAdapter(options), context);
   await reloaded.ready;
-  assert.equal(reloaded.get(block).note, note);
   assert.equal(reloaded.get(block).review, true);
   assert.equal((await reloaded.removeReview(block)).ok, true);
   const afterRemoval = createReadingMarkStore(createLocalAdapter(options), context);
   await afterRemoval.ready;
-  assert.equal(afterRemoval.get(block).review, false);
-  assert.equal(afterRemoval.get(block).note, note);
-  assert.equal(
-    normalizeReadingMark({ ...context, ...block, note: "x".repeat(2001) }),
-    null,
-  );
+  assert.equal(afterRemoval.get(block), null);
+
+  // A mark saved before private notes were removed, holding only a note,
+  // is deleted on load so the old note text does not linger.
+  const legacy = createLocalAdapter(options);
+  await legacy.ready;
+  const legacyWriter = legacy.createRecordWriter({
+    namespace: `course:${context.courseId}`,
+    kind: "reading-mark",
+    recordId: `reading-mark:${context.pageId}:block:note-only`,
+    courseId: context.courseId,
+    contentIdentity: context.contentRevision,
+    payload: {},
+  });
+  await legacyWriter.ready;
+  await legacyWriter.save({
+    ...context,
+    ...block,
+    schemaVersion: 1,
+    targetId: "note-only",
+    note: "An old private note",
+  });
+  const noteOnly = async (adapter) =>
+    (await adapter.list({ kind: "reading-mark" })).filter(
+      (record) => record.payload?.targetId === "note-only",
+    );
+  assert.equal((await noteOnly(legacy)).length, 1);
+  const cleaned = createReadingMarkStore(createLocalAdapter(options), context);
+  await cleaned.ready;
+  assert.equal(cleaned.get({ ...block, targetId: "note-only" }), null);
+  const fresh = createLocalAdapter(options);
+  await fresh.ready;
+  assert.equal((await noteOnly(fresh)).length, 0);
 });
 
-test("review list escapes notes and keeps removed passages visibly unresolved", () => {
+test("reading marks drop any saved note field instead of keeping it", () => {
+  const mark = normalizeReadingMark({
+    schemaVersion: 1,
+    pageId: "reading:topic:fixture-1-1",
+    courseId: "fixture",
+    targetType: "block",
+    targetId: "section-a-block-1",
+    sectionId: "section-a",
+    review: true,
+    note: "An old private note",
+  });
+  assert.equal(mark.review, true);
+  assert.equal("note" in mark, false);
+});
+
+test("review list keeps removed passages visibly unresolved and shows no notes", () => {
   const html = reviewPage({
     courses: [{ id: "fixture", title: "Fixture", status: "ready", readyTopicCount: 1 }],
     courseId: "fixture",
@@ -200,7 +240,6 @@ test("review list escapes notes and keeps removed passages visibly unresolved", 
           targetId: "block-a",
           sectionId: "section-a",
           excerpt: "Old passage",
-          note: "<b>private</b>",
           review: true,
           updatedAt: "2026-09-21T00:00:00.000Z",
         },
@@ -209,6 +248,5 @@ test("review list escapes notes and keeps removed passages visibly unresolved", 
     ],
   });
   assert.match(html, /Original passage changed or is unavailable/);
-  assert.match(html, /&lt;b&gt;private&lt;\/b&gt;/);
-  assert.doesNotMatch(html, /<b>private<\/b>/);
+  assert.doesNotMatch(html, /Private note/);
 });

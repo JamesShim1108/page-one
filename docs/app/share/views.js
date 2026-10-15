@@ -1,5 +1,6 @@
 import { escapeHtml as esc } from "../ui.js";
 import { cleanPublicPath } from "./links.js";
+import { icon } from "../icons.js";
 
 export function sharePanel({ path, title, label = "Share this activity" } = {}) {
   const cleanPath = cleanPublicPath(path);
@@ -20,6 +21,10 @@ export function reportButton({
   revision = "",
   path = "/",
   label = "Report an issue",
+  iconOnly = false,
 } = {}) {
-  return `<button type="button" class="text-button report-trigger" data-report-action="open" data-report-type="${esc(type)}" data-report-course="${esc(courseId)}" data-report-topic="${esc(topicId)}" data-report-item="${esc(itemId)}" data-report-title="${esc(title)}" data-report-revision="${esc(revision)}" data-report-path="${esc(cleanPublicPath(path))}">${esc(label)}</button>`;
+  const content = iconOnly
+    ? `${icon("flag")}<span class="visually-hidden">${esc(label)}</span>`
+    : esc(label);
+  return `<button type="button" class="text-button report-trigger${iconOnly ? " report-trigger--icon" : ""}"${iconOnly ? ` title="${esc(label)}"` : ""} data-report-action="open" data-report-type="${esc(type)}" data-report-course="${esc(courseId)}" data-report-topic="${esc(topicId)}" data-report-item="${esc(itemId)}" data-report-title="${esc(title)}" data-report-revision="${esc(revision)}" data-report-path="${esc(cleanPublicPath(path))}">${content}</button>`;
 }

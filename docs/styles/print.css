@@ -121,8 +121,7 @@
 .print-connection,
 .print-question,
 .print-writing-field,
-.print-term-card,
-.print-private-notes article {
+.print-term-card {
   break-inside: avoid;
 }
 
@@ -309,17 +308,6 @@
   width: 1.1in;
   height: 1.1in;
   margin: 0.25rem auto 0;
-}
-
-.print-private-notes {
-  margin-top: 2rem;
-  padding: 1rem;
-  border: 2px solid var(--print-ink);
-  break-before: page;
-}
-
-.print-private-notes h2 {
-  margin-top: 0;
 }
 
 .print-empty {

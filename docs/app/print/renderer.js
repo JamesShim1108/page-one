@@ -233,7 +233,6 @@ export function optionsSummary(options = {}) {
     options.practice && "practice questions",
     options.responseSpace && "blank response space",
     options.terms && "official Terms text",
-    options.notes && "personal notes",
     options.responses && "completed responses",
   ].filter(Boolean);
 }

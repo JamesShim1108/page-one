@@ -79,44 +79,6 @@
   content: "✓ ";
 }
 
-.reading-note-disclosure {
-  position: relative;
-}
-
-.reading-note-disclosure summary {
-  min-height: 44px;
-  padding: 0.35rem 0.6rem;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  background: var(--white);
-  color: var(--green);
-  cursor: pointer;
-  font-size: 0.78rem;
-  font-weight: 650;
-  list-style-position: inside;
-}
-
-.reading-note-disclosure label {
-  display: grid;
-  gap: 0.35rem;
-  min-width: min(280px, calc(100vw - 3rem));
-  padding: 0.55rem;
-  border: 1px solid var(--line);
-  background: var(--white);
-  color: var(--muted);
-  font-size: 0.78rem;
-}
-
-.reading-note-disclosure textarea {
-  width: 100%;
-  min-height: 4rem;
-  padding: 0.45rem;
-  border: 1px solid var(--line);
-  color: var(--ink);
-  font: inherit;
-  resize: vertical;
-}
-
 .reading-mark-status {
   margin: 0;
   color: var(--muted);
@@ -176,12 +138,6 @@
   line-height: 1.55;
 }
 
-.reading-review-note {
-  padding: 0.65rem;
-  background: var(--soft);
-  white-space: pre-wrap;
-}
-
 .reading-review-orphan {
   color: var(--muted);
   font-size: 0.88rem;
@@ -209,19 +165,6 @@
 .reading-block {
   position: relative;
   scroll-margin-top: 7rem;
-}
-
-.reading-block-action {
-  display: block;
-  margin: -0.2rem 0 0.8rem auto;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.reading-block:focus-within .reading-block-action,
-.reading-block:hover .reading-block-action {
-  opacity: 1;
-  pointer-events: auto;
 }
 
 .reading-nav-disclosure,
@@ -400,9 +343,7 @@
 
   .reading-heading-actions,
   .reading-block-actions,
-  .reading-mark-controls,
-  .reading-note-disclosure,
-  .reading-review-note {
+  .reading-mark-controls {
     display: none !important;
   }
 
@@ -422,5 +363,98 @@
     max-width: none;
     font-size: 1rem;
     line-height: 1.6;
+  }
+}
+
+/* Paragraph toolbar: one quiet row of symbols after each paragraph. On
+   pointer screens it appears on hover or focus; touch screens keep it visible. */
+.reading-block-actions {
+  align-items: center;
+  gap: 0.2rem;
+  margin: 0.1rem 0 0.9rem;
+}
+
+@media (hover: hover) {
+  .reading-block-actions {
+    opacity: 0;
+    transition: opacity 150ms ease;
+  }
+
+  .reading-block:hover .reading-block-actions,
+  .reading-block:focus-within .reading-block-actions {
+    opacity: 1;
+  }
+}
+
+.reading-block-actions .reading-block-action--icon,
+.reading-block-actions .reading-mark-button--icon,
+.reading-block-actions .report-trigger--icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-height: 36px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.reading-block-actions .icon {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.6;
+}
+
+.reading-block-actions .reading-block-action--icon:hover,
+.reading-block-actions .reading-mark-button--icon:hover,
+.reading-block-actions .report-trigger--icon:hover {
+  background: var(--soft);
+  color: var(--green);
+}
+
+.reading-block-actions .reading-mark-button--icon.is-active {
+  background: var(--soft);
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.reading-block-actions .reading-mark-button--icon.is-active::before {
+  content: none;
+}
+
+.reading-block-actions .reading-mark-button--icon.is-active .icon {
+  fill: currentColor;
+}
+
+.reading-block-actions .reading-mark-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  width: auto;
+  margin: 0;
+  grid-column: auto;
+}
+
+.reading-block-actions .reading-mark-controls > .reading-mark-status:empty {
+  display: none;
+}
+
+.reading-block-actions .report-trigger--icon {
+  margin-left: 0;
+}
+
+@media (hover: none) {
+  .reading-block-actions .reading-block-action--icon,
+  .reading-block-actions .reading-mark-button--icon,
+  .reading-block-actions .report-trigger--icon {
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
   }
 }
