@@ -386,6 +386,18 @@ async function selectPage(route, data, generation) {
     selected.description =
       "Prepare a clean browser printout from existing Page One material.";
     selected.html = print.page;
+  } else if (route.type === "test-prep") {
+    const { testPrepIndexPage, testPrepTestPage } = await import("./test-prep/views.js");
+    if (generation !== routeGeneration) return null;
+    if (data.test) {
+      selected.title = `${data.test.title} prep`;
+      selected.description = `Sections, skill domains, and timing for ${data.test.title} practice.`;
+      selected.html = () => testPrepTestPage(data);
+    } else {
+      selected.title = "PSAT / SAT prep";
+      selected.description = "Choose PSAT 8/9, PSAT 10, PSAT/NMSQT, or SAT practice.";
+      selected.html = () => testPrepIndexPage(data);
+    }
   } else if (route.type === "unit")
     selected.html = () => unitPage(data, attemptStore.peek);
   else if (route.type === "terms") {
@@ -639,6 +651,7 @@ async function render(focus = false) {
       for (const [id, active] of [
         ["nav-home", route.type === "home"],
         ["nav-courses", courseRoute],
+        ["nav-test-prep", route.type === "test-prep"],
         ["nav-history", route.type === "history"],
         ["nav-search", route.type === "search"],
         ["nav-session", route.type === "session"],

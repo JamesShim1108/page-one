@@ -13,7 +13,9 @@ export function parseRoute(hash) {
     "print",
   ].includes(type)
     ? parts.length <= 1
-    : parts.length === 2;
+    : type === "test-prep"
+      ? parts.length <= 2 // #/test-prep lists the tests; #/test-prep/sat opens one.
+      : parts.length === 2;
   return {
     type: validLength ? type : "missing",
     id: parts[1],

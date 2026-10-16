@@ -6,6 +6,8 @@ For inline reading definitions and shared concept files, see [Reading definition
 
 For AP skill tags, multiple-choice quality limits, source excerpts, and writing rubrics, see [AP practice standards](ap-practice.md).
 
+For the PSAT / SAT section, its item schema, and grid-in rules, see [PSAT / SAT prep](test-prep.md).
+
 ## Find the right file
 
 All paths start at the repository root. The current course folder is `docs/content/world-history/`.

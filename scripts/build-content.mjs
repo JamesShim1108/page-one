@@ -22,6 +22,7 @@ import { loadAssets, mergeAssets, usedAssets } from "./lib/assets.mjs";
 import { validateTermSet } from "./lib/terms.mjs";
 import { resolveGlossary, selectGlossary } from "./lib/glossary.mjs";
 import { resolveExam, validateExamFormat } from "./lib/exams.mjs";
+import { compileTestPrep } from "./lib/test-prep.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -1105,6 +1106,8 @@ export async function compileContent(root = projectRoot) {
     catalog.push(catalogEntry);
   }
   catalog.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id));
+  // PSAT/SAT prep is a separate section with its own schema, not a course.
+  await compileTestPrep({ contentRoot, emit, readModule, optionalModule, exists });
   const revision = createHash("sha256")
     .update(json([...output]))
     .digest("hex")

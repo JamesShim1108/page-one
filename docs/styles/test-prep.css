@@ -1,0 +1,259 @@
+/* PSAT / SAT prep: test cards, skill lists, and item extras. Choices, feedback,
+   question cards, pills, and buttons reuse the shared quiz and base styles. */
+.tp-page {
+  padding-bottom: 4rem;
+}
+.tp-test-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.tp-test-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--green);
+  background: var(--white);
+  min-width: 0;
+}
+.tp-test-card h2 {
+  font-size: 1.6rem;
+  margin: 0.25rem 0 0.6rem;
+}
+.tp-test-description {
+  color: var(--muted);
+  margin: 0 0 1.2rem;
+}
+.tp-facts {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+}
+.tp-facts div {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  gap: 0.75rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--soft);
+}
+.tp-facts dt {
+  color: var(--muted);
+}
+.tp-facts dd {
+  margin: 0;
+}
+.tp-scale-note {
+  margin: 0 0 1rem;
+  padding: 0.7rem 0.85rem;
+  border-left: 3px solid var(--amber);
+  background: var(--amber-bg);
+  color: #5e4110;
+  font-size: 0.85rem;
+}
+.tp-card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+.tp-notice {
+  margin-top: 2.5rem;
+  padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  font-size: 0.9rem;
+}
+.tp-notice p {
+  margin: 0 0 0.6rem;
+}
+.tp-sources {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.tp-sources li {
+  margin: 0.25rem 0;
+  overflow-wrap: anywhere;
+}
+.tp-scale {
+  margin-bottom: 2.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--green);
+  background: var(--soft);
+}
+.tp-scale p {
+  margin: 0;
+}
+.tp-scale p + p {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+}
+.tp-section {
+  margin-bottom: 2.75rem;
+}
+.tp-section .section-heading {
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.tp-section .section-heading p {
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+}
+.tp-domain-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.tp-domain {
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+  min-width: 0;
+}
+.tp-domain h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.6rem;
+}
+.tp-skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tp-skill {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--soft);
+  font-size: 0.92rem;
+}
+.tp-skill-count {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.tp-other-tests {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.25rem;
+}
+.tp-other-tests .eyebrow {
+  margin: 0;
+}
+
+/* Items */
+.tp-item + .tp-item {
+  margin-top: 1.5rem;
+}
+/* The stem uses a heading element for structure but question-card type size. */
+.question-card .tp-stem {
+  font: 500 1.15rem/1.55 var(--sans);
+  margin: 0 0 1.25rem;
+  white-space: pre-line;
+}
+.tp-passage {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.2rem;
+  border-left: 2px solid #b5c7bb;
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+.tp-passage blockquote {
+  margin: 0;
+}
+.tp-passage blockquote p {
+  margin: 0 0 0.75rem;
+}
+.tp-passage figcaption {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.tp-table-wrap {
+  margin: 0 0 1.5rem;
+  overflow-x: auto;
+}
+.tp-table {
+  border-collapse: collapse;
+  min-width: 100%;
+  font-size: 0.9rem;
+}
+.tp-table caption {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.tp-table th,
+.tp-table td {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line);
+  text-align: left;
+}
+.tp-table th {
+  background: var(--soft);
+}
+.tp-table-note {
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+}
+.tp-grid-in {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 22rem;
+}
+.tp-grid-in label {
+  font-weight: 600;
+}
+.tp-grid-in-input {
+  width: 9rem;
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+  font: 500 1.15rem/1.2 var(--mono);
+  letter-spacing: 0.04em;
+}
+.tp-grid-in-input:focus-visible {
+  outline: 3px solid #b98227;
+  outline-offset: 2px;
+}
+.tp-grid-in-input[aria-invalid="true"] {
+  border-color: var(--red);
+}
+.tp-grid-in.correct .tp-grid-in-input {
+  border-color: #477d60;
+}
+.tp-grid-in.incorrect .tp-grid-in-input {
+  border-color: #bc7565;
+}
+.tp-grid-in-rules {
+  margin: 0;
+  font-size: 0.82rem;
+}
+.tp-grid-in-problem {
+  margin: 0;
+  color: var(--red);
+  font-size: 0.88rem;
+}
+
+@media (max-width: 800px) {
+  .tp-test-grid,
+  .tp-domain-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .tp-test-card {
+    padding: 1.15rem;
+  }
+  .tp-facts div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.15rem;
+  }
+}

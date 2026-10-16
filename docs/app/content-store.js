@@ -70,6 +70,7 @@ export function createContentStore({ fetchJson = readJson } = {}) {
     if (type === "home" || type === "courses") return { courses };
     if (["settings", "history", "review", "search", "session", "print"].includes(type))
       return { courses };
+    if (type === "test-prep") return testPrepPage(id);
     // Course IDs have no hyphens; content IDs begin with the owning course ID.
     const courseId = type === "course" ? id : id?.split("-")[0];
     const course = courses.find((item) => item.id === courseId);
@@ -114,6 +115,18 @@ export function createContentStore({ fetchJson = readJson } = {}) {
       };
     }
     return data;
+  }
+
+  // PSAT/SAT prep has one small index. Item banks load only when a page needs them.
+  async function testPrepPage(testId = "") {
+    const index = await load("test-prep/index.json");
+    if (!testId) return { testPrep: index };
+    const test = index.tests.find((item) => item.id === testId);
+    return test ? { testPrep: index, test } : null;
+  }
+
+  function testPrepBank(path) {
+    return load(path);
   }
 
   async function searchIndexes(courseId = "") {
@@ -196,6 +209,7 @@ export function createContentStore({ fetchJson = readJson } = {}) {
   return {
     catalog,
     page,
+    testPrepBank,
     sessionData,
     sessionContent,
     searchIndexes,
