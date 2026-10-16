@@ -1,0 +1,60 @@
+/* Rounder controls. Buttons and button-like controls become pills; number tiles
+   become circles. Cards, inputs, and reading surfaces keep their current shape. */
+.btn,
+.pill,
+.nav-toggle,
+.reading-mark-button,
+.reading-block-action,
+.terms-settings summary,
+.concept-popover__copy,
+.terms-tabs,
+.terms-tabs a {
+  border-radius: 999px;
+}
+.btn {
+  padding-inline: 1.5rem;
+}
+.pill {
+  padding-inline: 12px;
+}
+.question-nav-item,
+.exam-nav-item,
+.tp-nav-item,
+.choice-letter,
+.report-trigger--icon,
+.reading-block-actions .report-trigger--icon {
+  border-radius: 999px;
+}
+.choice,
+.elimination-control {
+  border-radius: 14px;
+}
+/* Keep the labels on one line in the phone-width action rows. */
+@media (max-width: 700px) {
+  .btn {
+    padding-inline: 1.1rem;
+  }
+}
+/* base.css gives every focused button a 3px radius; keep the pill shape on focus. */
+.btn:focus-visible,
+.nav-toggle:focus-visible,
+.reading-mark-button:focus-visible,
+.reading-block-action:focus-visible,
+.question-nav-item:focus-visible,
+.exam-nav-item:focus-visible,
+.tp-nav-item:focus-visible,
+.terms-settings summary:focus-visible,
+.concept-popover__copy:focus-visible,
+.terms-tabs a:focus-visible,
+.report-trigger--icon:focus-visible {
+  border-radius: 999px;
+}
+.choice:has(input:focus-visible),
+.elimination-control:focus-visible {
+  border-radius: 14px;
+}
+@media print {
+  .btn {
+    border-radius: 0;
+  }
+}

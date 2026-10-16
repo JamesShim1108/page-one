@@ -1,0 +1,326 @@
+/* Liquid Glass layer. Opt-in per page: it only applies while <html> has
+   data-glass="on" (set in index.html). Delete that attribute to return the
+   whole site to its solid look; no other file needs to change.
+
+   Rules this file follows:
+   - Glass is for controls that float above content (header, action bars,
+     popovers). Reading text, answer choices, flashcard faces, sources, and
+     score cards stay on their existing solid surfaces.
+   - At most two glass layers; never glass inside glass.
+   - Solid fallbacks for browsers without backdrop-filter, reduced
+     transparency, and increased contrast. */
+
+html[data-glass="on"] {
+  --glass-fill: rgba(243, 248, 244, 0.34);
+  --glass-fill-strong: rgba(243, 248, 244, 0.9);
+  --glass-fill-bar: rgba(243, 248, 244, 0.62);
+  --glass-solid: #f2f6f1;
+  --glass-sheen: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.38) 0%,
+    rgba(255, 255, 255, 0.06) 40%,
+    rgba(255, 255, 255, 0) 65%,
+    rgba(255, 255, 255, 0.18) 100%
+  );
+  --glass-filter: blur(9px) saturate(1.4);
+  --glass-filter-bar: blur(14px) saturate(1.4);
+  --glass-edge: rgba(255, 255, 255, 0.55);
+  --glass-shadow: 0 1px 1px rgba(23, 62, 52, 0.08), 0 5px 14px rgba(23, 62, 52, 0.09);
+  --glass-shadow-lifted:
+    0 1px 2px rgba(23, 62, 52, 0.08), 0 10px 28px rgba(23, 62, 52, 0.15);
+  --glass-highlight:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7), inset 0 -1px 0 rgba(36, 85, 72, 0.07);
+  --glass-divider: rgba(36, 85, 72, 0.16);
+  --glass-active: rgba(36, 85, 72, 0.1);
+}
+
+/* Keyboard focus and in-page links scroll clear of the floating bars. */
+html[data-glass="on"] {
+  scroll-padding-bottom: 5.5rem;
+}
+
+/* ---- The glass surface ---- */
+html[data-glass="on"]
+  :is(
+    .site-header .header-inner,
+    .preview-pause,
+    .question-actions,
+    .flashcard-dock,
+    .terms-tabs,
+    .exam-bar
+  ) {
+  background: var(--glass-sheen), var(--glass-fill);
+  -webkit-backdrop-filter: var(--glass-filter);
+  backdrop-filter: var(--glass-filter);
+  border: 1px solid var(--glass-edge);
+  box-shadow: var(--glass-highlight), var(--glass-shadow);
+  color: var(--ink);
+}
+/* Full-width bars sit over reading text, so they blur more to keep labels clear. */
+html[data-glass="on"] :is(.site-header .header-inner, .question-actions, .exam-bar) {
+  -webkit-backdrop-filter: var(--glass-filter-bar);
+  backdrop-filter: var(--glass-filter-bar);
+}
+/* Bars that cover text as it scrolls beneath need enough fill to keep their labels clear. */
+html[data-glass="on"] :is(.site-header .header-inner, .question-actions, .exam-bar) {
+  background: var(--glass-sheen), var(--glass-fill-bar);
+}
+/* Popovers open on top of reading text, so they keep more fill. */
+html[data-glass="on"] :is(.concept-popover, .terms-settings__body) {
+  background: var(--glass-sheen), var(--glass-fill-strong);
+  -webkit-backdrop-filter: var(--glass-filter-bar);
+  backdrop-filter: var(--glass-filter-bar);
+  border: 1px solid var(--glass-edge);
+  border-radius: 18px;
+  box-shadow: var(--glass-highlight), var(--glass-shadow-lifted);
+}
+
+/* ---- Header: floating pill ---- */
+html[data-glass="on"] .site-header {
+  background: transparent;
+  border-bottom: 0;
+  padding: 8px 16px 0;
+  pointer-events: none;
+}
+html[data-glass="on"] .site-header .header-inner {
+  pointer-events: auto;
+  max-width: 1160px;
+  min-height: 0;
+  padding: 3px 6px 3px 22px;
+  border-radius: 999px;
+}
+html[data-glass="on"] .site-header nav {
+  gap: 2px;
+  padding-block: 0;
+}
+html[data-glass="on"] .site-header nav a {
+  padding: 7px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.18s;
+}
+html[data-glass="on"] .site-header nav a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+html[data-glass="on"] .site-header nav a[aria-current="page"] {
+  background: var(--glass-active);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    inset 0 0 0 1px rgba(36, 85, 72, 0.12);
+  text-decoration: none;
+}
+@media (max-width: 700px) {
+  html[data-glass="on"] .site-header {
+    padding: 8px 10px 0;
+  }
+  html[data-glass="on"] .site-header .header-inner {
+    padding: 4px 6px 4px 16px;
+    border-radius: 24px;
+  }
+  html[data-glass="on"] .nav-toggle {
+    border-color: var(--glass-divider);
+    background: rgba(255, 255, 255, 0.5);
+  }
+  html[data-glass="on"] .site-header nav {
+    border-top-color: var(--glass-divider);
+    margin-bottom: 0.4rem;
+  }
+  html[data-glass="on"] .site-header nav a {
+    border-radius: 12px;
+    border-bottom-color: transparent;
+  }
+  html[data-glass="on"] .site-header nav a[aria-current="page"] {
+    box-shadow: inset 0 0 0 1px rgba(36, 85, 72, 0.12);
+    padding-left: 0.75rem;
+  }
+}
+
+/* ---- Home carousel: the pause button floats over the cards ---- */
+html[data-glass="on"] .preview-pause {
+  position: relative;
+  top: 72px;
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  flex-basis: 44px;
+  background: var(--glass-sheen), rgba(243, 248, 244, 0.12);
+  -webkit-backdrop-filter: blur(2px) saturate(1.4);
+  backdrop-filter: blur(2px) saturate(1.4);
+  transition:
+    transform 0.18s cubic-bezier(0.3, 1.4, 0.5, 1),
+    background 0.18s;
+}
+html[data-glass="on"] .preview-pause:hover {
+  background: var(--glass-sheen), rgba(243, 248, 244, 0.35);
+  transform: scale(1.08);
+}
+html[data-glass="on"] .preview-pause:active {
+  transform: scale(0.94);
+}
+
+/* ---- Quiz: Previous / Check bar stays in reach while you scroll ---- */
+html[data-glass="on"] .question-actions {
+  position: sticky;
+  bottom: 14px;
+  z-index: 10;
+  margin-top: 1.25rem;
+  padding: 5px 5px 5px 20px;
+  border-radius: 999px;
+}
+@media (max-width: 700px) {
+  html[data-glass="on"] .question-actions {
+    padding: 10px 12px 12px;
+    border-radius: 24px;
+    gap: 0.5rem;
+  }
+  html[data-glass="on"] .question-actions p {
+    max-width: none;
+  }
+  html[data-glass="on"] .question-action-buttons .btn {
+    flex: 1;
+    padding-inline: 0.7rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+}
+
+/* ---- Flashcards: Know / Don't know dock (wrapper added in terms/views.js).
+   It stays in the page flow, not sticky: the card is tall and a floating dock
+   would cover the term. ---- */
+html[data-glass="on"] .flashcard-dock {
+  margin-top: 1rem;
+  padding: 8px 10px;
+  border-radius: 28px;
+}
+html[data-glass="on"] .flashcard-dock .flashcard-classify {
+  gap: 0.6rem;
+}
+html[data-glass="on"] .flashcard-dock .flashcard-navigation {
+  margin-top: 0.6rem;
+}
+
+/* Buttons inside glass: lighter secondary, tinted primary. */
+html[data-glass="on"] :is(.question-actions, .flashcard-dock) .btn.secondary {
+  background: rgba(255, 255, 255, 0.28);
+  border-color: var(--glass-divider);
+  color: var(--ink);
+}
+html[data-glass="on"]
+  :is(.question-actions, .flashcard-dock)
+  .btn.secondary:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.7);
+}
+html[data-glass="on"] :is(.question-actions, .flashcard-dock) .btn:not(.secondary) {
+  background: rgba(36, 85, 72, 0.9);
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 2px 5px rgba(23, 62, 52, 0.16);
+}
+html[data-glass="on"]
+  :is(.question-actions, .flashcard-dock)
+  .btn:not(.secondary):hover:not(:disabled) {
+  background: var(--green-hover);
+}
+
+/* ---- Terms: the real segmented switcher ---- */
+html[data-glass="on"] .terms-tabs {
+  padding: 3px;
+  gap: 0;
+}
+html[data-glass="on"] .terms-tabs a {
+  color: var(--muted);
+}
+html[data-glass="on"] .terms-tabs a[aria-current] {
+  color: var(--green);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.45)
+  );
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 1px 4px rgba(23, 62, 52, 0.12);
+}
+
+/* ---- Definition popover and terms settings panel ---- */
+html[data-glass="on"] .concept-popover__copy {
+  background: rgba(255, 255, 255, 0.55);
+  border-color: var(--glass-divider);
+}
+html[data-glass="on"] .concept-popover__close:hover {
+  background: var(--glass-active);
+  border-radius: 50%;
+}
+
+/* ---- Exam bar ---- */
+html[data-glass="on"] .exam-bar {
+  border-radius: 20px;
+  padding: 0.7rem 1.2rem;
+}
+
+/* ---- Fallbacks: the same surfaces turn solid ---- */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  html[data-glass="on"] {
+    --glass-fill: var(--glass-solid);
+    --glass-fill-strong: var(--glass-solid);
+    --glass-fill-bar: var(--glass-solid);
+    --glass-sheen: none;
+  }
+  html[data-glass="on"] .preview-pause {
+    background: var(--glass-solid);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  html[data-glass="on"] {
+    --glass-fill: var(--glass-solid);
+    --glass-fill-strong: var(--glass-solid);
+    --glass-fill-bar: var(--glass-solid);
+    --glass-sheen: none;
+    --glass-filter: none;
+    --glass-filter-bar: none;
+    --glass-edge: var(--line);
+    --glass-highlight: none;
+  }
+  html[data-glass="on"] .preview-pause {
+    background: var(--glass-solid);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+@media (prefers-contrast: more) {
+  html[data-glass="on"] {
+    --glass-fill: var(--glass-solid);
+    --glass-fill-strong: var(--glass-solid);
+    --glass-fill-bar: var(--glass-solid);
+    --glass-sheen: none;
+    --glass-filter: none;
+    --glass-filter-bar: none;
+    --glass-edge: var(--green);
+    --glass-highlight: none;
+    --glass-divider: var(--green);
+  }
+  html[data-glass="on"] .preview-pause {
+    background: var(--glass-solid);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-glass="on"] .preview-pause {
+    transition: none;
+  }
+}
+@media print {
+  html[data-glass="on"] .question-actions,
+  html[data-glass="on"] .flashcard-dock,
+  html[data-glass="on"] .exam-bar {
+    position: static;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
