@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "98529c32d48bb59e",
+  "revision": "f6393282e7b13494",
   "notice": "Page One is not affiliated with or endorsed by the College Board. Practice items are original, and scores are practice estimates, not official scores.",
   "sources": [
     {
@@ -47,29 +47,38 @@
         "cb-psat89-guide",
         "cb-math-alignment-psat"
       ],
-      "itemCount": 0,
+      "itemCount": 101,
       "sections": [
         {
           "id": "rw",
           "questions": 54,
           "minutes": 64,
           "modules": 2,
+          "moduleDomains": {
+            "rw-craft-structure": 7,
+            "rw-information-ideas": 7,
+            "rw-conventions": 7,
+            "rw-expression-ideas": 6
+          },
+          "moduleSize": 27,
+          "moduleMinutes": 32,
+          "moduleReady": true,
           "title": "Reading and Writing",
           "formats": [
             "single-select"
           ],
-          "bankPath": "",
-          "itemCount": 0,
+          "bankPath": "test-prep/banks/rw.json",
+          "itemCount": 44,
           "domains": [
             {
               "id": "rw-information-ideas",
               "title": "Information and Ideas",
-              "itemCount": 0,
+              "itemCount": 14,
               "skills": [
                 {
                   "id": "rw-central-ideas",
                   "title": "Central Ideas and Details",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-command-of-evidence",
@@ -84,68 +93,68 @@
                       "title": "Quantitative"
                     }
                   ],
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "rw-inferences",
                   "title": "Inferences",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-craft-structure",
               "title": "Craft and Structure",
-              "itemCount": 0,
+              "itemCount": 12,
               "skills": [
                 {
                   "id": "rw-words-in-context",
                   "title": "Words in Context",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-text-structure",
                   "title": "Text Structure and Purpose",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-cross-text",
                   "title": "Cross-Text Connections",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-expression-ideas",
               "title": "Expression of Ideas",
-              "itemCount": 0,
+              "itemCount": 8,
               "skills": [
                 {
                   "id": "rw-rhetorical-synthesis",
                   "title": "Rhetorical Synthesis",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-transitions",
                   "title": "Transitions",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-conventions",
               "title": "Standard English Conventions",
-              "itemCount": 0,
+              "itemCount": 10,
               "skills": [
                 {
                   "id": "rw-boundaries",
                   "title": "Boundaries",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "rw-form-structure-sense",
                   "title": "Form, Structure, and Sense",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             }
@@ -156,94 +165,103 @@
           "questions": 44,
           "minutes": 70,
           "modules": 2,
+          "moduleDomains": {
+            "math-algebra": 9,
+            "math-advanced": 4,
+            "math-data-analysis": 6,
+            "math-geometry-trig": 3
+          },
+          "moduleSize": 22,
+          "moduleMinutes": 35,
+          "moduleReady": true,
           "title": "Math",
           "formats": [
             "single-select",
             "grid-in"
           ],
-          "bankPath": "",
-          "itemCount": 0,
+          "bankPath": "test-prep/banks/math.json",
+          "itemCount": 57,
           "domains": [
             {
               "id": "math-algebra",
               "title": "Algebra",
-              "itemCount": 0,
+              "itemCount": 20,
               "skills": [
                 {
                   "id": "math-linear-functions",
                   "title": "Linear functions",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-equations-two",
                   "title": "Linear equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-inequalities",
                   "title": "Linear inequalities in one or two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-systems",
                   "title": "Systems of two linear equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             },
             {
               "id": "math-advanced",
               "title": "Advanced Math",
-              "itemCount": 0,
+              "itemCount": 18,
               "skills": [
                 {
                   "id": "math-nonlinear-functions",
                   "title": "Nonlinear functions",
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "math-nonlinear-equations",
                   "title": "Nonlinear equations in one variable and systems of equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "math-equivalent-expressions",
                   "title": "Equivalent expressions",
-                  "itemCount": 0
+                  "itemCount": 6
                 }
               ]
             },
             {
               "id": "math-data-analysis",
               "title": "Problem-Solving and Data Analysis",
-              "itemCount": 0,
+              "itemCount": 15,
               "skills": [
                 {
                   "id": "math-two-variable-data",
                   "title": "Two-variable data: models and scatterplots",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-percentages",
                   "title": "Percentages",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-ratios-rates",
                   "title": "Ratios, rates, proportional relationships, and units",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             },
             {
               "id": "math-geometry-trig",
               "title": "Geometry",
-              "itemCount": 0,
+              "itemCount": 4,
               "skills": [
                 {
                   "id": "math-lines-angles-triangles",
                   "title": "Lines, angles, and triangles",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             }
@@ -273,29 +291,38 @@
         "cb-math-alignment-psat",
         "cb-test-directions"
       ],
-      "itemCount": 0,
+      "itemCount": 105,
       "sections": [
         {
           "id": "rw",
           "questions": 54,
           "minutes": 64,
           "modules": 2,
+          "moduleDomains": {
+            "rw-craft-structure": 7,
+            "rw-information-ideas": 7,
+            "rw-conventions": 7,
+            "rw-expression-ideas": 6
+          },
+          "moduleSize": 27,
+          "moduleMinutes": 32,
+          "moduleReady": true,
           "title": "Reading and Writing",
           "formats": [
             "single-select"
           ],
-          "bankPath": "",
-          "itemCount": 0,
+          "bankPath": "test-prep/banks/rw.json",
+          "itemCount": 44,
           "domains": [
             {
               "id": "rw-information-ideas",
               "title": "Information and Ideas",
-              "itemCount": 0,
+              "itemCount": 14,
               "skills": [
                 {
                   "id": "rw-central-ideas",
                   "title": "Central Ideas and Details",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-command-of-evidence",
@@ -310,68 +337,68 @@
                       "title": "Quantitative"
                     }
                   ],
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "rw-inferences",
                   "title": "Inferences",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-craft-structure",
               "title": "Craft and Structure",
-              "itemCount": 0,
+              "itemCount": 12,
               "skills": [
                 {
                   "id": "rw-words-in-context",
                   "title": "Words in Context",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-text-structure",
                   "title": "Text Structure and Purpose",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-cross-text",
                   "title": "Cross-Text Connections",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-expression-ideas",
               "title": "Expression of Ideas",
-              "itemCount": 0,
+              "itemCount": 8,
               "skills": [
                 {
                   "id": "rw-rhetorical-synthesis",
                   "title": "Rhetorical Synthesis",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-transitions",
                   "title": "Transitions",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-conventions",
               "title": "Standard English Conventions",
-              "itemCount": 0,
+              "itemCount": 10,
               "skills": [
                 {
                   "id": "rw-boundaries",
                   "title": "Boundaries",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "rw-form-structure-sense",
                   "title": "Form, Structure, and Sense",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             }
@@ -382,99 +409,108 @@
           "questions": 44,
           "minutes": 70,
           "modules": 2,
+          "moduleDomains": {
+            "math-algebra": 8,
+            "math-advanced": 7,
+            "math-data-analysis": 4,
+            "math-geometry-trig": 3
+          },
+          "moduleSize": 22,
+          "moduleMinutes": 35,
+          "moduleReady": true,
           "title": "Math",
           "formats": [
             "single-select",
             "grid-in"
           ],
-          "bankPath": "",
-          "itemCount": 0,
+          "bankPath": "test-prep/banks/math.json",
+          "itemCount": 61,
           "domains": [
             {
               "id": "math-algebra",
               "title": "Algebra",
-              "itemCount": 0,
+              "itemCount": 20,
               "skills": [
                 {
                   "id": "math-linear-functions",
                   "title": "Linear functions",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-equations-two",
                   "title": "Linear equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-inequalities",
                   "title": "Linear inequalities in one or two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-systems",
                   "title": "Systems of two linear equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             },
             {
               "id": "math-advanced",
               "title": "Advanced Math",
-              "itemCount": 0,
+              "itemCount": 18,
               "skills": [
                 {
                   "id": "math-nonlinear-functions",
                   "title": "Nonlinear functions",
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "math-nonlinear-equations",
                   "title": "Nonlinear equations in one variable and systems of equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "math-equivalent-expressions",
                   "title": "Equivalent expressions",
-                  "itemCount": 0
+                  "itemCount": 6
                 }
               ]
             },
             {
               "id": "math-data-analysis",
               "title": "Problem-Solving and Data Analysis",
-              "itemCount": 0,
+              "itemCount": 15,
               "skills": [
                 {
                   "id": "math-two-variable-data",
                   "title": "Two-variable data: models and scatterplots",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-percentages",
                   "title": "Percentages",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-ratios-rates",
                   "title": "Ratios, rates, proportional relationships, and units",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             },
             {
               "id": "math-geometry-trig",
               "title": "Geometry and Trigonometry",
-              "itemCount": 0,
+              "itemCount": 8,
               "skills": [
                 {
                   "id": "math-lines-angles-triangles",
                   "title": "Lines, angles, and triangles",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "math-right-triangles-trig",
                   "title": "Right triangles and trigonometry",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             }
@@ -504,29 +540,38 @@
         "cb-math-alignment-psat",
         "cb-test-directions"
       ],
-      "itemCount": 0,
+      "itemCount": 105,
       "sections": [
         {
           "id": "rw",
           "questions": 54,
           "minutes": 64,
           "modules": 2,
+          "moduleDomains": {
+            "rw-craft-structure": 7,
+            "rw-information-ideas": 7,
+            "rw-conventions": 7,
+            "rw-expression-ideas": 6
+          },
+          "moduleSize": 27,
+          "moduleMinutes": 32,
+          "moduleReady": true,
           "title": "Reading and Writing",
           "formats": [
             "single-select"
           ],
-          "bankPath": "",
-          "itemCount": 0,
+          "bankPath": "test-prep/banks/rw.json",
+          "itemCount": 44,
           "domains": [
             {
               "id": "rw-information-ideas",
               "title": "Information and Ideas",
-              "itemCount": 0,
+              "itemCount": 14,
               "skills": [
                 {
                   "id": "rw-central-ideas",
                   "title": "Central Ideas and Details",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-command-of-evidence",
@@ -541,68 +586,68 @@
                       "title": "Quantitative"
                     }
                   ],
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "rw-inferences",
                   "title": "Inferences",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-craft-structure",
               "title": "Craft and Structure",
-              "itemCount": 0,
+              "itemCount": 12,
               "skills": [
                 {
                   "id": "rw-words-in-context",
                   "title": "Words in Context",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-text-structure",
                   "title": "Text Structure and Purpose",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-cross-text",
                   "title": "Cross-Text Connections",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-expression-ideas",
               "title": "Expression of Ideas",
-              "itemCount": 0,
+              "itemCount": 8,
               "skills": [
                 {
                   "id": "rw-rhetorical-synthesis",
                   "title": "Rhetorical Synthesis",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-transitions",
                   "title": "Transitions",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-conventions",
               "title": "Standard English Conventions",
-              "itemCount": 0,
+              "itemCount": 10,
               "skills": [
                 {
                   "id": "rw-boundaries",
                   "title": "Boundaries",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "rw-form-structure-sense",
                   "title": "Form, Structure, and Sense",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             }
@@ -613,99 +658,108 @@
           "questions": 44,
           "minutes": 70,
           "modules": 2,
+          "moduleDomains": {
+            "math-algebra": 8,
+            "math-advanced": 7,
+            "math-data-analysis": 4,
+            "math-geometry-trig": 3
+          },
+          "moduleSize": 22,
+          "moduleMinutes": 35,
+          "moduleReady": true,
           "title": "Math",
           "formats": [
             "single-select",
             "grid-in"
           ],
-          "bankPath": "",
-          "itemCount": 0,
+          "bankPath": "test-prep/banks/math.json",
+          "itemCount": 61,
           "domains": [
             {
               "id": "math-algebra",
               "title": "Algebra",
-              "itemCount": 0,
+              "itemCount": 20,
               "skills": [
                 {
                   "id": "math-linear-functions",
                   "title": "Linear functions",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-equations-two",
                   "title": "Linear equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-inequalities",
                   "title": "Linear inequalities in one or two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-systems",
                   "title": "Systems of two linear equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             },
             {
               "id": "math-advanced",
               "title": "Advanced Math",
-              "itemCount": 0,
+              "itemCount": 18,
               "skills": [
                 {
                   "id": "math-nonlinear-functions",
                   "title": "Nonlinear functions",
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "math-nonlinear-equations",
                   "title": "Nonlinear equations in one variable and systems of equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "math-equivalent-expressions",
                   "title": "Equivalent expressions",
-                  "itemCount": 0
+                  "itemCount": 6
                 }
               ]
             },
             {
               "id": "math-data-analysis",
               "title": "Problem-Solving and Data Analysis",
-              "itemCount": 0,
+              "itemCount": 15,
               "skills": [
                 {
                   "id": "math-two-variable-data",
                   "title": "Two-variable data: models and scatterplots",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-percentages",
                   "title": "Percentages",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-ratios-rates",
                   "title": "Ratios, rates, proportional relationships, and units",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             },
             {
               "id": "math-geometry-trig",
               "title": "Geometry and Trigonometry",
-              "itemCount": 0,
+              "itemCount": 8,
               "skills": [
                 {
                   "id": "math-lines-angles-triangles",
                   "title": "Lines, angles, and triangles",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "math-right-triangles-trig",
                   "title": "Right triangles and trigonometry",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             }
@@ -735,29 +789,38 @@
         "cb-math-alignment-sat",
         "cb-test-directions"
       ],
-      "itemCount": 0,
+      "itemCount": 109,
       "sections": [
         {
           "id": "rw",
           "questions": 54,
           "minutes": 64,
           "modules": 2,
+          "moduleDomains": {
+            "rw-craft-structure": 7,
+            "rw-information-ideas": 7,
+            "rw-conventions": 7,
+            "rw-expression-ideas": 6
+          },
+          "moduleSize": 27,
+          "moduleMinutes": 32,
+          "moduleReady": true,
           "title": "Reading and Writing",
           "formats": [
             "single-select"
           ],
-          "bankPath": "",
-          "itemCount": 0,
+          "bankPath": "test-prep/banks/rw.json",
+          "itemCount": 44,
           "domains": [
             {
               "id": "rw-information-ideas",
               "title": "Information and Ideas",
-              "itemCount": 0,
+              "itemCount": 14,
               "skills": [
                 {
                   "id": "rw-central-ideas",
                   "title": "Central Ideas and Details",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-command-of-evidence",
@@ -772,68 +835,68 @@
                       "title": "Quantitative"
                     }
                   ],
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "rw-inferences",
                   "title": "Inferences",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-craft-structure",
               "title": "Craft and Structure",
-              "itemCount": 0,
+              "itemCount": 12,
               "skills": [
                 {
                   "id": "rw-words-in-context",
                   "title": "Words in Context",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-text-structure",
                   "title": "Text Structure and Purpose",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-cross-text",
                   "title": "Cross-Text Connections",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-expression-ideas",
               "title": "Expression of Ideas",
-              "itemCount": 0,
+              "itemCount": 8,
               "skills": [
                 {
                   "id": "rw-rhetorical-synthesis",
                   "title": "Rhetorical Synthesis",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "rw-transitions",
                   "title": "Transitions",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             },
             {
               "id": "rw-conventions",
               "title": "Standard English Conventions",
-              "itemCount": 0,
+              "itemCount": 10,
               "skills": [
                 {
                   "id": "rw-boundaries",
                   "title": "Boundaries",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "rw-form-structure-sense",
                   "title": "Form, Structure, and Sense",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             }
@@ -844,104 +907,113 @@
           "questions": 44,
           "minutes": 70,
           "modules": 2,
+          "moduleDomains": {
+            "math-algebra": 8,
+            "math-advanced": 8,
+            "math-data-analysis": 3,
+            "math-geometry-trig": 3
+          },
+          "moduleSize": 22,
+          "moduleMinutes": 35,
+          "moduleReady": true,
           "title": "Math",
           "formats": [
             "single-select",
             "grid-in"
           ],
-          "bankPath": "",
-          "itemCount": 0,
+          "bankPath": "test-prep/banks/math.json",
+          "itemCount": 65,
           "domains": [
             {
               "id": "math-algebra",
               "title": "Algebra",
-              "itemCount": 0,
+              "itemCount": 20,
               "skills": [
                 {
                   "id": "math-linear-functions",
                   "title": "Linear functions",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-equations-two",
                   "title": "Linear equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-inequalities",
                   "title": "Linear inequalities in one or two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-linear-systems",
                   "title": "Systems of two linear equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             },
             {
               "id": "math-advanced",
               "title": "Advanced Math",
-              "itemCount": 0,
+              "itemCount": 18,
               "skills": [
                 {
                   "id": "math-nonlinear-functions",
                   "title": "Nonlinear functions",
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "math-nonlinear-equations",
                   "title": "Nonlinear equations in one variable and systems of equations in two variables",
-                  "itemCount": 0
+                  "itemCount": 6
                 },
                 {
                   "id": "math-equivalent-expressions",
                   "title": "Equivalent expressions",
-                  "itemCount": 0
+                  "itemCount": 6
                 }
               ]
             },
             {
               "id": "math-data-analysis",
               "title": "Problem-Solving and Data Analysis",
-              "itemCount": 0,
+              "itemCount": 15,
               "skills": [
                 {
                   "id": "math-two-variable-data",
                   "title": "Two-variable data: models and scatterplots",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-percentages",
                   "title": "Percentages",
-                  "itemCount": 0
+                  "itemCount": 5
                 },
                 {
                   "id": "math-ratios-rates",
                   "title": "Ratios, rates, proportional relationships, and units",
-                  "itemCount": 0
+                  "itemCount": 5
                 }
               ]
             },
             {
               "id": "math-geometry-trig",
               "title": "Geometry and Trigonometry",
-              "itemCount": 0,
+              "itemCount": 12,
               "skills": [
                 {
                   "id": "math-lines-angles-triangles",
                   "title": "Lines, angles, and triangles",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "math-right-triangles-trig",
                   "title": "Right triangles and trigonometry",
-                  "itemCount": 0
+                  "itemCount": 4
                 },
                 {
                   "id": "math-circles",
                   "title": "Circles",
-                  "itemCount": 0
+                  "itemCount": 4
                 }
               ]
             }

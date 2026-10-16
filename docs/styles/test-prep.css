@@ -242,6 +242,208 @@
   font-size: 0.88rem;
 }
 
+.tp-blank {
+  display: inline-block;
+  min-width: 4.5rem;
+  border-bottom: 2px solid var(--ink);
+  margin: 0 0.15rem;
+  line-height: 1;
+}
+.tp-passage-label {
+  margin: 0 0 0.4rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 650;
+  color: var(--green);
+}
+.tp-passage + .tp-passage {
+  margin-top: -0.5rem;
+}
+.tp-domain-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.tp-domain-head .text-link {
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.tp-skill-link {
+  color: var(--ink);
+}
+.tp-section-actions {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: -0.5rem 0 1.25rem;
+}
+
+/* Sessions */
+.tp-session-intro {
+  padding-bottom: 1.5rem;
+}
+.tp-progress {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.tp-module-intro {
+  max-width: 720px;
+}
+.tp-check {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+.tp-check input {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--green);
+}
+.tp-module-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 1rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.tp-clock {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font: 600 1rem/1 var(--mono);
+}
+.tp-clock.is-warning [data-tp-clock] {
+  color: var(--red);
+}
+.tp-clock .text-button {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+}
+.tp-navigator {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+.tp-nav-item {
+  position: relative;
+  width: 100%;
+  min-height: 44px;
+  border: 1px dashed var(--line);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+  font-weight: 600;
+  cursor: pointer;
+}
+.tp-nav-item.is-answered {
+  border: 1px solid var(--green);
+  background: var(--soft);
+}
+.tp-nav-item.is-flagged::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--amber);
+}
+.tp-nav-item.is-current {
+  outline: 2px solid var(--ink);
+  outline-offset: 1px;
+}
+.tp-nav-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+}
+.tp-key {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+}
+.tp-key.is-answered {
+  border: 1px solid var(--green);
+  background: var(--soft);
+}
+.tp-key.is-flagged {
+  margin-left: 0.8rem;
+  border-radius: 50%;
+  background: var(--amber);
+}
+.tp-results h2 {
+  margin-bottom: 1rem;
+}
+.tp-results h3 {
+  margin: 2rem 0 0.8rem;
+}
+.tp-estimate {
+  margin: 0 0 1.5rem;
+  padding: 1.2rem 1.4rem;
+  border: 1px solid var(--green);
+  background: var(--soft);
+  max-width: 720px;
+}
+.tp-estimate p {
+  margin: 0 0 0.4rem;
+}
+.tp-estimate-range {
+  font: 600 2.2rem/1.1 var(--serif);
+  color: var(--green);
+}
+.tp-results-table th[scope="row"] {
+  font-weight: 500;
+  background: transparent;
+}
+.tp-review-list {
+  display: grid;
+  gap: 0.6rem;
+}
+.tp-review-item {
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+.tp-review-item > summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  min-height: 44px;
+}
+.tp-review-item.is-missed {
+  border-left: 3px solid var(--red);
+}
+.tp-review-item.is-correct {
+  border-left: 3px solid var(--green);
+}
+.tp-review-status {
+  color: var(--muted);
+  white-space: nowrap;
+}
+.tp-review-item .question-card {
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
 @media (max-width: 800px) {
   .tp-test-grid,
   .tp-domain-grid {
@@ -249,6 +451,12 @@
   }
 }
 @media (max-width: 480px) {
+  .tp-module-bar {
+    padding: 0.5rem 0.75rem;
+  }
+  .tp-estimate-range {
+    font-size: 1.8rem;
+  }
   .tp-test-card {
     padding: 1.15rem;
   }

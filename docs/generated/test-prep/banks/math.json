@@ -1,0 +1,2365 @@
+{
+  "schemaVersion": 1,
+  "sectionId": "math",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-nf-001",
+      "skillId": "math-nonlinear-functions",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "The function f is defined by f(x) = 2x² − 3. What is the value of f(−4)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−35"
+        },
+        {
+          "id": "B",
+          "text": "13"
+        },
+        {
+          "id": "C",
+          "text": "29"
+        },
+        {
+          "id": "D",
+          "text": "61"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "D",
+      "explanation": "Square first, then multiply: (−4)² = 16, so f(−4) = 2(16) − 3 = 32 − 3 = 29.",
+      "rationales": {
+        "A": "This treats −4² as −16, but the whole input −4 is squared, which gives a positive 16.",
+        "B": "This doubles −4 and drops the sign instead of squaring it.",
+        "D": "This squares 2x as a unit, computing (−8)² − 3, instead of squaring only x."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-nf-002",
+      "skillId": "math-nonlinear-functions",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "A population of bacteria doubles every 3 hours. There are 500 bacteria at time t = 0. Which function gives the number of bacteria, P(t), after t hours?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "P(t) = 500 · 2^(t/3)"
+        },
+        {
+          "id": "B",
+          "text": "P(t) = 500 · 2^(3t)"
+        },
+        {
+          "id": "C",
+          "text": "P(t) = 500 · 3^(t/2)"
+        },
+        {
+          "id": "D",
+          "text": "P(t) = 500 + 2(t/3)"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "The population is multiplied by 2 once every 3 hours, so after t hours it has doubled t/3 times: P(t) = 500 · 2^(t/3).",
+      "rationales": {
+        "B": "This doubles the population 3 times every hour instead of once every 3 hours.",
+        "C": "This swaps the growth factor and the doubling time, so the population triples every 2 hours.",
+        "D": "This adds a small amount each hour, which is linear growth, not doubling."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-nf-003",
+      "skillId": "math-nonlinear-functions",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "The function g is defined by g(x) = (x − 3)(x + 7). In the xy-plane, what is the x-coordinate of the vertex of the graph of y = g(x)?",
+      "acceptedAnswers": [
+        "-2"
+      ],
+      "explanation": "The zeros are x = 3 and x = −7. A parabola's vertex lies halfway between its zeros, at x = (3 + (−7)) / 2 = −2.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-nf-004",
+      "skillId": "math-nonlinear-functions",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "A ball is thrown upward. Its height, in feet, t seconds after it is thrown is h(t) = −16t² + 48t + 6. What is the greatest height, in feet, the ball reaches?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.5"
+        },
+        {
+          "id": "B",
+          "text": "38"
+        },
+        {
+          "id": "C",
+          "text": "54"
+        },
+        {
+          "id": "D",
+          "text": "42"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "The vertex is at t = −48 / (2 × −16) = 1.5 seconds. Then h(1.5) = −16(2.25) + 48(1.5) + 6 = −36 + 72 + 6 = 42 feet.",
+      "rationales": {
+        "A": "This is the time when the ball is highest, not its height at that time.",
+        "B": "This evaluates h at t = 1 instead of at the vertex.",
+        "C": "This adds 48 and 6 and ignores the squared term."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-nf-005",
+      "skillId": "math-nonlinear-functions",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "The value, in thousands of dollars, of a machine t years after purchase is modeled by V(t) = 48(0.8)^t. By what percent does the machine's value decrease each year?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "80%"
+        },
+        {
+          "id": "B",
+          "text": "20%"
+        },
+        {
+          "id": "C",
+          "text": "0.8%"
+        },
+        {
+          "id": "D",
+          "text": "48%"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "Each year the value is multiplied by 0.8, so it keeps 80% of its value and loses 1 − 0.8 = 0.2, or 20%.",
+      "rationales": {
+        "A": "This is the percent of the value that remains each year, not the percent that is lost.",
+        "C": "This reads the factor 0.8 as a percent instead of converting it.",
+        "D": "This uses the starting value instead of the yearly factor."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-nf-006",
+      "skillId": "math-nonlinear-functions",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "The function h is defined by h(x) = ax² + 12x + c, where a and c are constants. The vertex of the graph of y = h(x) is (3, 20). What is the value of c?",
+      "acceptedAnswers": [
+        "2"
+      ],
+      "explanation": "The vertex's x-coordinate is −12 / (2a) = 3, so a = −2. Then h(3) = −2(9) + 12(3) + c = 18 + c = 20, so c = 2.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ne-001",
+      "skillId": "math-nonlinear-equations",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "What is the positive solution to x² + 3x − 28 = 0?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "28"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "Factor: (x + 7)(x − 4) = 0, so x = −7 or x = 4. The positive solution is 4.",
+      "rationales": {
+        "B": "This is the size of the negative solution, −7, with its sign dropped.",
+        "C": "This is the constant term, which is the product of the solutions with a sign change, not a solution.",
+        "D": "This is the coefficient of x, which is related to the sum of the solutions, not to either one."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear equations in one variable and systems of equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ne-002",
+      "skillId": "math-nonlinear-equations",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "What is the solution to the equation √(2x + 9) = x − 3?",
+      "acceptedAnswers": [
+        "8"
+      ],
+      "explanation": "Square both sides: 2x + 9 = x² − 6x + 9, so x² − 8x = 0 and x = 0 or x = 8. Check each: x = 0 gives √9 = −3, which is false, so 0 is extraneous. x = 8 gives √25 = 5, which is true.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear equations in one variable and systems of equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ne-003",
+      "skillId": "math-nonlinear-equations",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "How many solutions does the system y = x² − 4x + 1 and y = 2x − 8 have?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "Infinitely many"
+        },
+        {
+          "id": "C",
+          "text": "Exactly one"
+        },
+        {
+          "id": "D",
+          "text": "Exactly two"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "D",
+      "explanation": "Set the expressions equal: x² − 4x + 1 = 2x − 8, so x² − 6x + 9 = 0, which is (x − 3)² = 0. There is one value of x, so the line touches the parabola at exactly one point.",
+      "rationales": {
+        "A": "This misreads the zero discriminant as negative, but a discriminant of 0 means one real solution.",
+        "B": "This would require the two graphs to be the same, but one is a line and the other a parabola.",
+        "D": "This assumes a line always crosses a parabola twice, but here it is tangent to the parabola."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear equations in one variable and systems of equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ne-004",
+      "skillId": "math-nonlinear-equations",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "What is the sum of all solutions to (x + 5)² = 36?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "−10"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "Take both square roots: x + 5 = 6 or x + 5 = −6, so x = 1 or x = −11. Their sum is −10.",
+      "rationales": {
+        "A": "This uses only the positive square root and finds one solution, x = 1.",
+        "C": "This makes sign errors in both solutions, getting −1 and 11.",
+        "D": "This is the square root of 36, not a sum of solutions."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear equations in one variable and systems of equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ne-005",
+      "skillId": "math-nonlinear-equations",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "In the equation x² + bx + 25 = 0, b is a positive constant. For what value of b does the equation have exactly one real solution?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "25"
+        },
+        {
+          "id": "C",
+          "text": "50"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "One real solution means the discriminant is zero: b² − 4(1)(25) = 0, so b² = 100 and b = 10. Then the equation is (x + 5)² = 0.",
+      "rationales": {
+        "A": "This is the square root of 25, which is the solution's size, not the coefficient b.",
+        "B": "This copies the constant term instead of solving b² = 100.",
+        "C": "This doubles 25 instead of taking the square root of 4 × 25."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear equations in one variable and systems of equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ne-006",
+      "skillId": "math-nonlinear-equations",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "What value of x satisfies 3 / (x − 2) = 2 / (x + 1)?",
+      "acceptedAnswers": [
+        "-7"
+      ],
+      "explanation": "Cross-multiply: 3(x + 1) = 2(x − 2), so 3x + 3 = 2x − 4 and x = −7. This value does not make either denominator zero.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Nonlinear equations in one variable and systems of equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ee-001",
+      "skillId": "math-equivalent-expressions",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "Which expression is equivalent to 3(2x − 5) − (x − 4)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5x − 19"
+        },
+        {
+          "id": "B",
+          "text": "5x − 11"
+        },
+        {
+          "id": "C",
+          "text": "7x − 11"
+        },
+        {
+          "id": "D",
+          "text": "5x − 1"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "Distribute: 6x − 15 − x + 4. Combine like terms: 5x − 11.",
+      "rationales": {
+        "A": "This subtracts x but forgets that subtracting −4 adds 4.",
+        "C": "This adds x instead of subtracting it.",
+        "D": "This distributes the 3 to 2x only, leaving −5 + 4."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Equivalent expressions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ee-002",
+      "skillId": "math-equivalent-expressions",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "For x ≠ −3, which expression is equivalent to (x² − 9) / (x + 3)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x + 3"
+        },
+        {
+          "id": "B",
+          "text": "x² − 3"
+        },
+        {
+          "id": "C",
+          "text": "x − 3"
+        },
+        {
+          "id": "D",
+          "text": "x − 9"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "The numerator is a difference of squares: x² − 9 = (x − 3)(x + 3). Dividing by x + 3 leaves x − 3.",
+      "rationales": {
+        "A": "This keeps the factor that cancels instead of the one that remains.",
+        "B": "This divides the 9 by 3 and leaves x² unchanged.",
+        "D": "This cancels x terms but keeps the whole constant."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Equivalent expressions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ee-003",
+      "skillId": "math-equivalent-expressions",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "Which expression is equivalent to (2x + 3)²?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4x² + 12x + 9"
+        },
+        {
+          "id": "B",
+          "text": "4x² + 6x + 9"
+        },
+        {
+          "id": "C",
+          "text": "4x² + 9"
+        },
+        {
+          "id": "D",
+          "text": "2x² + 6x + 9"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "(2x + 3)² = (2x)² + 2(2x)(3) + 3² = 4x² + 12x + 9.",
+      "rationales": {
+        "B": "This finds the product of the terms, 6x, but forgets to double it.",
+        "C": "This squares each term separately and leaves out the middle term.",
+        "D": "This multiplies 2x by 3 for the middle term and treats (2x)² as 2x², missing two steps."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Equivalent expressions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ee-004",
+      "skillId": "math-equivalent-expressions",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "The expression (3x + 4)(x − 2) is written in the form ax² + bx + c, where a, b, and c are constants. What is the value of b?",
+      "acceptedAnswers": [
+        "-2"
+      ],
+      "explanation": "Multiply: 3x² − 6x + 4x − 8 = 3x² − 2x − 8, so b = −2.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Equivalent expressions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ee-005",
+      "skillId": "math-equivalent-expressions",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "For x > 0, which expression is equivalent to √(x⁵ · x³)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x²"
+        },
+        {
+          "id": "B",
+          "text": "x¹⁵"
+        },
+        {
+          "id": "C",
+          "text": "x⁸"
+        },
+        {
+          "id": "D",
+          "text": "x⁴"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "C",
+      "explanation": "Add the exponents first: x⁵ · x³ = x⁸. A square root halves the exponent, so √(x⁸) = x⁴.",
+      "rationales": {
+        "A": "This takes the square root twice, halving the exponent 8 two times.",
+        "B": "This multiplies the exponents instead of adding them, and then skips the square root.",
+        "C": "This combines the powers correctly but does not take the square root."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Equivalent expressions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ee-006",
+      "skillId": "math-equivalent-expressions",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "If 4x − 6y = 10, what is the value of 6x − 9y?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "30"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "Notice that 6x − 9y = (3/2)(4x − 6y). So 6x − 9y = (3/2)(10) = 15. There is no need to find x or y.",
+      "rationales": {
+        "A": "This assumes the new expression has the same value without checking the scale factor.",
+        "B": "This doubles the given value, but the scale factor from 4x − 6y to 6x − 9y is 3/2.",
+        "D": "This multiplies by 3 instead of by 3/2."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-advanced",
+      "skillTitle": "Equivalent expressions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lf-001",
+      "skillId": "math-linear-functions",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "A tutoring center charges a one-time registration fee plus a fixed amount for each session. The total cost, in dollars, for n sessions is C(n) = 35n + 60. What is the cost, in dollars, of each session?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "25"
+        },
+        {
+          "id": "B",
+          "text": "35"
+        },
+        {
+          "id": "C",
+          "text": "60"
+        },
+        {
+          "id": "D",
+          "text": "95"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "C",
+      "explanation": "In C(n) = 35n + 60, the cost rises by 35 for each added session, so 35 is the cost per session. The constant 60 is paid once, no matter how many sessions there are.",
+      "rationales": {
+        "A": "This subtracts the per-session cost from the fee, which has no meaning in the model.",
+        "C": "This is the one-time registration fee, because it is the part of the cost that does not depend on n.",
+        "D": "This is the total cost of exactly one session including the fee, not the cost of each session."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lf-002",
+      "skillId": "math-linear-functions",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "The function f is linear, f(2) = 11, and f(6) = 27. What is the value of f(10)?",
+      "acceptedAnswers": [
+        "43"
+      ],
+      "explanation": "The slope is (27 − 11) / (6 − 2) = 4, so f increases by 4 for each increase of 1 in x. From x = 6 to x = 10, f increases by 4 × 4 = 16, so f(10) = 27 + 16 = 43.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lf-003",
+      "skillId": "math-linear-functions",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "A candle is 30 centimeters tall when it is lit, and its height decreases by 1.5 centimeters each hour. Which function h gives the candle's height, in centimeters, t hours after it is lit?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "h(t) = 1.5t − 30"
+        },
+        {
+          "id": "B",
+          "text": "h(t) = 30t − 1.5"
+        },
+        {
+          "id": "C",
+          "text": "h(t) = 28.5t"
+        },
+        {
+          "id": "D",
+          "text": "h(t) = 30 − 1.5t"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "B",
+      "explanation": "The height starts at 30 when t = 0 and falls by 1.5 for every hour, so the starting value is 30 and the rate of change is −1.5: h(t) = 30 − 1.5t.",
+      "rationales": {
+        "A": "This has the right rate but the wrong sign throughout, so it gives a height of −30 when the candle is lit.",
+        "B": "This swaps the roles of the numbers, treating 30 as the hourly change and 1.5 as the starting height.",
+        "C": "This combines the starting height and the hourly change into one rate, so the height would grow over time."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lf-004",
+      "skillId": "math-linear-functions",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "For the linear function g, the graph of y = g(x) in the xy-plane passes through the points (−4, 9) and (8, 0). What is the y-intercept of the graph?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(0, 6)"
+        },
+        {
+          "id": "B",
+          "text": "(0, −6)"
+        },
+        {
+          "id": "C",
+          "text": "(0, 9)"
+        },
+        {
+          "id": "D",
+          "text": "(0, 12)"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "D",
+      "explanation": "The slope is (0 − 9) / (8 − (−4)) = −9/12 = −3/4. Using (8, 0): 0 = (−3/4)(8) + b, so b = 6, and the y-intercept is (0, 6).",
+      "rationales": {
+        "B": "This makes a sign error when solving 0 = −6 + b, giving b = −6 instead of 6.",
+        "C": "This uses the y-coordinate of the point (−4, 9), which is not on the y-axis.",
+        "D": "This makes a sign error with (−4, 9), adding 3 to 9 instead of subtracting it."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lf-005",
+      "skillId": "math-linear-functions",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "A plumber charges a flat fee plus an hourly rate. A 2-hour job costs $190, and a 5-hour job costs $385. What is the flat fee, in dollars?",
+      "acceptedAnswers": [
+        "60"
+      ],
+      "explanation": "Three extra hours add 385 − 190 = 195 dollars, so the hourly rate is 195 / 3 = 65 dollars. For the 2-hour job, 190 − 2(65) = 60, so the flat fee is $60.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear functions"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-le-001",
+      "skillId": "math-linear-equations-two",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "The equation 4x + 5y = 60 relates the number of 4-pound bags, x, and 5-pound bags, y, in a shipment that weighs 60 pounds in all. If the shipment has 5 four-pound bags, how many 5-pound bags does it have?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "B",
+      "explanation": "Substitute x = 5: 4(5) + 5y = 60, so 5y = 40 and y = 8.",
+      "rationales": {
+        "A": "This divides the 20 pounds of 4-pound bags by 5 instead of finding the weight that remains.",
+        "B": "This finds the 40 pounds that remain but divides by 4 instead of by 5.",
+        "D": "This divides the full 60 pounds by 5, ignoring the 4-pound bags already in the shipment."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-le-002",
+      "skillId": "math-linear-equations-two",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "In the xy-plane, the graph of 3x − 2y = 18 crosses the x-axis at the point (a, 0). What is the value of a?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−9"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "−6"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "On the x-axis, y = 0, so 3a − 2(0) = 18 and a = 6.",
+      "rationales": {
+        "A": "This sets x = 0 and finds the y-intercept, y = −9, instead of the x-intercept.",
+        "C": "This divides 18 by 2, the coefficient of y, instead of by 3.",
+        "D": "This makes a sign error when dividing 18 by 3."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-le-003",
+      "skillId": "math-linear-equations-two",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "The line with equation 2x + 7y = 21 is graphed in the xy-plane. What is the slope of the line?",
+      "acceptedAnswers": [
+        "-2/7",
+        "-.2857",
+        "-0.285",
+        "-0.286"
+      ],
+      "explanation": "Solve for y: 7y = −2x + 21, so y = (−2/7)x + 3. The slope is −2/7, or about −0.2857.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-le-004",
+      "skillId": "math-linear-equations-two",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "A theater sells adult tickets for $12 each and student tickets for $8 each. One night, ticket sales totaled $1,000. Which equation relates the number of adult tickets, a, and student tickets, s, sold that night?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "12a + 8s = 1,000"
+        },
+        {
+          "id": "B",
+          "text": "8a + 12s = 1,000"
+        },
+        {
+          "id": "C",
+          "text": "20(a + s) = 1,000"
+        },
+        {
+          "id": "D",
+          "text": "a + s = 1,000"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "Adult tickets bring in 12a dollars and student tickets bring in 8s dollars, so the total is 12a + 8s = 1,000.",
+      "rationales": {
+        "B": "This attaches each price to the wrong kind of ticket.",
+        "C": "This charges $20 for every ticket, as though each sale were one adult and one student ticket together.",
+        "D": "This sets the number of tickets equal to the number of dollars collected."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-le-005",
+      "skillId": "math-linear-equations-two",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "The point (k, k + 4) lies on the line 5x − 3y = 2. What is the value of k?",
+      "acceptedAnswers": [
+        "7"
+      ],
+      "explanation": "Substitute: 5k − 3(k + 4) = 2, so 5k − 3k − 12 = 2, 2k = 14, and k = 7.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-li-001",
+      "skillId": "math-linear-inequalities",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "A van can carry at most 1,200 pounds. The driver weighs 180 pounds, and each box weighs 40 pounds. What is the greatest number of boxes the van can carry along with the driver?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "26"
+        },
+        {
+          "id": "B",
+          "text": "30"
+        },
+        {
+          "id": "C",
+          "text": "34"
+        },
+        {
+          "id": "D",
+          "text": "25"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "The boxes can weigh at most 1,200 − 180 = 1,020 pounds. Since 1,020 / 40 = 25.5 and only whole boxes count, the greatest number is 25.",
+      "rationales": {
+        "A": "This rounds 25.5 up, but 26 boxes would weigh 1,040 pounds and put the van over its limit.",
+        "B": "This divides 1,200 by 40 and leaves out the driver's weight.",
+        "C": "This adds the driver's weight to the limit instead of subtracting it."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear inequalities in one or two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-li-002",
+      "skillId": "math-linear-inequalities",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "Which value of x is a solution to the inequality 7 − 2x > 15?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−4"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "−6.5"
+        },
+        {
+          "id": "D",
+          "text": "11"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "Subtract 7 and divide by −2, reversing the inequality: x < −4. Of the choices, only −6.5 is less than −4.",
+      "rationales": {
+        "A": "This is the boundary value, but at x = −4 the two sides are equal, so the strict inequality is false.",
+        "B": "This forgets to reverse the inequality when dividing by a negative number.",
+        "D": "This adds 7 to 15 and divides by 2, which solves a different inequality."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear inequalities in one or two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-li-003",
+      "skillId": "math-linear-inequalities",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "What is the least integer value of n that satisfies 5(n − 2) ≥ 3n + 9?",
+      "acceptedAnswers": [
+        "10"
+      ],
+      "explanation": "Expand: 5n − 10 ≥ 3n + 9, so 2n ≥ 19 and n ≥ 9.5. The least integer that is at least 9.5 is 10.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear inequalities in one or two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-li-004",
+      "skillId": "math-linear-inequalities",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "A school club needs to raise at least $600. It has already raised $135 and earns $15 for each T-shirt it sells. Which inequality gives the numbers of T-shirts, t, the club can sell to meet its goal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15t + 135 ≤ 600"
+        },
+        {
+          "id": "B",
+          "text": "15t + 135 ≥ 600"
+        },
+        {
+          "id": "C",
+          "text": "135t + 15 ≥ 600"
+        },
+        {
+          "id": "D",
+          "text": "15t ≥ 600 + 135"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "The total raised is the $135 already collected plus $15 for each shirt, and it must be at least $600: 15t + 135 ≥ 600.",
+      "rationales": {
+        "A": "This uses the right total but the wrong direction, describing amounts that stay at or below the goal.",
+        "C": "This swaps the amount already raised with the amount earned per shirt.",
+        "D": "This adds the money already raised to the goal instead of counting it toward the goal."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear inequalities in one or two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-li-005",
+      "skillId": "math-linear-inequalities",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "Which point (x, y) is a solution to the system of inequalities y > 2x − 1 and y ≤ −x + 5?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(1, 3.5)"
+        },
+        {
+          "id": "B",
+          "text": "(3, 2)"
+        },
+        {
+          "id": "C",
+          "text": "(0, −1)"
+        },
+        {
+          "id": "D",
+          "text": "(2, 4)"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "C",
+      "explanation": "For (1, 3.5): 3.5 > 2(1) − 1 = 1 is true, and 3.5 ≤ −1 + 5 = 4 is true, so the point satisfies both inequalities.",
+      "rationales": {
+        "B": "This point fails the first inequality, because 2 is not greater than 2(3) − 1 = 5.",
+        "C": "This point lies on the boundary y = 2x − 1, so it fails the strict first inequality.",
+        "D": "This point satisfies the first inequality but fails the second, because 4 is greater than −2 + 5 = 3."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Linear inequalities in one or two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ls-001",
+      "skillId": "math-linear-systems",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "If x + y = 14 and x − y = 4, what is the value of x?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "18"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "Adding the equations gives 2x = 18, so x = 9. (Then y = 5.)",
+      "rationales": {
+        "A": "This is the value of y, not x.",
+        "B": "This subtracts the equations' right sides, 14 − 4, without accounting for the variables.",
+        "C": "This adds the equations to get 2x = 18 but does not divide by 2."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Systems of two linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ls-002",
+      "skillId": "math-linear-systems",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "A store sold 40 notebooks. Some sold for $3 each and the rest sold for $5 each, for a total of $164. How many $5 notebooks did the store sell?",
+      "acceptedAnswers": [
+        "22"
+      ],
+      "explanation": "Let x be the $3 notebooks and y the $5 notebooks: x + y = 40 and 3x + 5y = 164. Substituting x = 40 − y gives 120 + 2y = 164, so y = 22.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Systems of two linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ls-003",
+      "skillId": "math-linear-systems",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "For what value of c does the system 6x − 4y = 10 and 3x − 2y = c have infinitely many solutions?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "−5"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "The first equation is exactly 2 times 3x − 2y = 5. The equations describe the same line only when c = 5.",
+      "rationales": {
+        "A": "This keeps the constant from the first equation without halving it along with the other terms.",
+        "B": "This halves the constant but changes its sign.",
+        "D": "This doubles the constant instead of halving it."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Systems of two linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ls-004",
+      "skillId": "math-linear-systems",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "The system 2x + ky = 7 and 4x + 10y = 3 has no solution, where k is a constant. What is the value of k?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "20"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "−5"
+        },
+        {
+          "id": "D",
+          "text": "14"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "A system has no solution when its lines are parallel: the coefficients of x and y are in the same ratio but the constants are not. Since 2/4 = k/10, k = 5, and 7/3 is not 1/2, so the lines are distinct.",
+      "rationales": {
+        "A": "This sets up the ratio upside down, solving 4/2 = k/10.",
+        "C": "This gives the right size of k but the wrong sign, which would make the lines intersect.",
+        "D": "This doubles the constant 7, which does not control whether the lines are parallel."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Systems of two linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ls-005",
+      "skillId": "math-linear-systems",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "If 3a + 2b = 19 and a + 4b = 13, what is the value of a + b?",
+      "acceptedAnswers": [
+        "7"
+      ],
+      "explanation": "From the second equation, a = 13 − 4b. Substituting: 3(13 − 4b) + 2b = 19, so 39 − 10b = 19 and b = 2. Then a = 5, and a + b = 7.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-algebra",
+      "skillTitle": "Systems of two linear equations in two variables"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-tv-001",
+      "skillId": "math-two-variable-data",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "A scatterplot shows the heights and arm spans of 20 students. The line of best fit is y = 0.98x + 2, where x is height and y is arm span, both in centimeters. Based on the line of best fit, what is the predicted arm span, in centimeters, of a student who is 150 centimeters tall?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "149"
+        },
+        {
+          "id": "B",
+          "text": "152"
+        },
+        {
+          "id": "C",
+          "text": "147"
+        },
+        {
+          "id": "D",
+          "text": "150"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "C",
+      "explanation": "Substitute x = 150: y = 0.98(150) + 2 = 147 + 2 = 149.",
+      "rationales": {
+        "B": "This adds 2 to the height and skips multiplying by 0.98.",
+        "C": "This multiplies by 0.98 but leaves out the constant 2.",
+        "D": "This assumes arm span equals height, which the model does not say."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Two-variable data: models and scatterplots"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-tv-002",
+      "skillId": "math-two-variable-data",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "The table shows the number of hours five students studied and their quiz scores. What is the average rate of change in quiz score, in points per hour, from the student who studied 1 hour to the student who studied 5 hours?",
+      "table": {
+        "title": "Study time and quiz score",
+        "columns": [
+          "Hours studied",
+          "Quiz score"
+        ],
+        "rows": [
+          [
+            "1",
+            "62"
+          ],
+          [
+            "2",
+            "68"
+          ],
+          [
+            "3",
+            "71"
+          ],
+          [
+            "4",
+            "79"
+          ],
+          [
+            "5",
+            "85"
+          ]
+        ],
+        "data": "illustrative"
+      },
+      "acceptedAnswers": [
+        "23/4",
+        "5.75"
+      ],
+      "explanation": "The average rate of change is the change in score divided by the change in hours: (85 − 62) / (5 − 1) = 23/4 = 5.75 points per hour.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Two-variable data: models and scatterplots"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-tv-003",
+      "skillId": "math-two-variable-data",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "A café models the number of hot drinks it sells, y, on a day with an outdoor temperature of x degrees Fahrenheit with the line of best fit y = −2.5x + 210. According to the model, at what temperature, in degrees Fahrenheit, would the café sell 85 hot drinks?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "34"
+        },
+        {
+          "id": "B",
+          "text": "118"
+        },
+        {
+          "id": "C",
+          "text": "125"
+        },
+        {
+          "id": "D",
+          "text": "50"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "C",
+      "explanation": "Set y = 85: 85 = −2.5x + 210, so −2.5x = −125 and x = 50.",
+      "rationales": {
+        "A": "This divides 85 by 2.5 and ignores the intercept of 210.",
+        "B": "This adds 85 to 210 before dividing, a sign error when moving 85 across the equation.",
+        "C": "This finds 210 − 85 but does not divide by the slope's size, 2.5."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Two-variable data: models and scatterplots"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-tv-004",
+      "skillId": "math-two-variable-data",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "A line of best fit for a data set is y = 3.2x + 4. One data point is (8, 31). What is the residual for this point, found by subtracting the predicted value from the observed value?",
+      "acceptedAnswers": [
+        "7/5",
+        "1.4"
+      ],
+      "explanation": "The predicted value at x = 8 is 3.2(8) + 4 = 29.6. The residual is 31 − 29.6 = 1.4. A positive residual means the point lies above the line.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Two-variable data: models and scatterplots"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-tv-005",
+      "skillId": "math-two-variable-data",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "The table shows the number of subscribers, y, to a newsletter x months after it launched. Which equation best models the data?",
+      "table": {
+        "title": "Newsletter subscribers",
+        "columns": [
+          "Months after launch, x",
+          "Subscribers, y"
+        ],
+        "rows": [
+          [
+            "0",
+            "200"
+          ],
+          [
+            "1",
+            "240"
+          ],
+          [
+            "2",
+            "288"
+          ],
+          [
+            "3",
+            "345.6"
+          ]
+        ],
+        "data": "illustrative"
+      },
+      "choices": [
+        {
+          "id": "A",
+          "text": "y = 200 + 40x"
+        },
+        {
+          "id": "B",
+          "text": "y = 240(1.2)^x"
+        },
+        {
+          "id": "C",
+          "text": "y = 200(1.2)^x"
+        },
+        {
+          "id": "D",
+          "text": "y = 200(0.2)^x"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "Each value is 1.2 times the one before it (240 / 200 = 288 / 240 = 1.2), and the value at x = 0 is 200, so y = 200(1.2)^x fits every row.",
+      "rationales": {
+        "A": "This fits the first two rows but adds 40 each month, while the increases grow from 40 to 48 to 57.6.",
+        "B": "This has the right growth factor but starts at 240, the value after 1 month.",
+        "D": "This uses the growth rate, 0.2, as the factor, which would shrink the number each month."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Two-variable data: models and scatterplots"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-pc-001",
+      "skillId": "math-percentages",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "A jacket originally priced at $80 is on sale for 15% off. What is the sale price, in dollars?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "65"
+        },
+        {
+          "id": "B",
+          "text": "68"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "92"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "15% of 80 is 0.15 × 80 = 12, so the sale price is 80 − 12 = 68. Equivalently, 0.85 × 80 = 68.",
+      "rationales": {
+        "A": "This subtracts 15 dollars instead of 15 percent of the price.",
+        "C": "This is the amount of the discount, not the price after the discount.",
+        "D": "This adds the discount to the original price instead of subtracting it."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Percentages"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-pc-002",
+      "skillId": "math-percentages",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "A town's population grew from 12,500 to 14,000. By what percent did the population increase? (Enter your answer without the percent sign.)",
+      "acceptedAnswers": [
+        "12"
+      ],
+      "explanation": "The increase is 14,000 − 12,500 = 1,500. As a percent of the original population: 1,500 / 12,500 = 0.12, or 12%.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Percentages"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-pc-003",
+      "skillId": "math-percentages",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "After a 20% increase, the price of a game is $54. What was the price, in dollars, before the increase?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "45"
+        },
+        {
+          "id": "B",
+          "text": "43.20"
+        },
+        {
+          "id": "C",
+          "text": "34"
+        },
+        {
+          "id": "D",
+          "text": "64.80"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "The new price is 120% of the old price: 1.2p = 54, so p = 54 / 1.2 = 45. Check: 45 + 0.2(45) = 54.",
+      "rationales": {
+        "B": "This takes 20% off the new price, but the 20% was based on the old, smaller price.",
+        "C": "This subtracts 20 dollars instead of reversing a 20 percent increase.",
+        "D": "This increases the new price by another 20% instead of undoing the increase."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Percentages"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-pc-004",
+      "skillId": "math-percentages",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "A store raises the price of a lamp by 25%. Later, it lowers the new price by 20%. The final price is what percent of the original price?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "105%"
+        },
+        {
+          "id": "B",
+          "text": "95%"
+        },
+        {
+          "id": "C",
+          "text": "100%"
+        },
+        {
+          "id": "D",
+          "text": "80%"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "Multiply the factors: 1.25 × 0.80 = 1.00. The final price equals the original price, so it is 100% of the original.",
+      "rationales": {
+        "A": "This adds and subtracts the percents, but each percent applies to a different starting price.",
+        "B": "This assumes the later decrease outweighs the increase, without multiplying the two factors to check.",
+        "D": "This applies only the decrease and ignores the earlier increase."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Percentages"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-pc-005",
+      "skillId": "math-percentages",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "The number p is 40% of q, and q is 150% of r. The number p is what percent of r? (Enter your answer without the percent sign.)",
+      "acceptedAnswers": [
+        "60"
+      ],
+      "explanation": "p = 0.4q and q = 1.5r, so p = 0.4(1.5r) = 0.6r. The number p is 60% of r.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Percentages"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rr-001",
+      "skillId": "math-ratios-rates",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "A recipe uses 3 cups of flour for every 2 cups of milk. How many cups of flour are needed for 7 cups of milk?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4⅔"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "21"
+        },
+        {
+          "id": "D",
+          "text": "10.5"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "Flour is 3/2 times the milk, so 7 × 3/2 = 10.5 cups of flour.",
+      "rationales": {
+        "A": "This flips the ratio, multiplying 7 by 2/3 instead of 3/2.",
+        "B": "This adds the difference between 3 and 2 to the milk, which treats the ratio as a difference.",
+        "C": "This multiplies 7 by 3 without dividing by 2."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Ratios, rates, proportional relationships, and units"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rr-002",
+      "skillId": "math-ratios-rates",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "A car travels 150 miles on 6 gallons of gas. At this rate, how many gallons does the car need to travel 425 miles?",
+      "acceptedAnswers": [
+        "17"
+      ],
+      "explanation": "The car travels 150 / 6 = 25 miles per gallon. For 425 miles it needs 425 / 25 = 17 gallons.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Ratios, rates, proportional relationships, and units"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rr-003",
+      "skillId": "math-ratios-rates",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "A faucet leaks 4 milliliters of water every 30 seconds. How many liters of water does it leak in one day? (1 liter = 1,000 milliliters)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.48"
+        },
+        {
+          "id": "B",
+          "text": "11.52"
+        },
+        {
+          "id": "C",
+          "text": "5.76"
+        },
+        {
+          "id": "D",
+          "text": "115.2"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "C",
+      "explanation": "The faucet leaks 8 milliliters per minute, so in a day it leaks 8 × 60 × 24 = 11,520 milliliters, which is 11.52 liters.",
+      "rationales": {
+        "A": "This is the amount leaked in one hour, not one day.",
+        "C": "This counts 4 milliliters per minute, forgetting there are two 30-second periods in a minute.",
+        "D": "This divides by 100 instead of 1,000 when converting milliliters to liters."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Ratios, rates, proportional relationships, and units"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rr-004",
+      "skillId": "math-ratios-rates",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "On a map, 1 inch represents 2.5 miles. Two towns are 18 miles apart. How far apart, in inches, are the towns on the map?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7.2"
+        },
+        {
+          "id": "B",
+          "text": "45"
+        },
+        {
+          "id": "C",
+          "text": "15.5"
+        },
+        {
+          "id": "D",
+          "text": "0.14"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "Each inch stands for 2.5 miles, so the map distance is 18 / 2.5 = 7.2 inches.",
+      "rationales": {
+        "B": "This multiplies by the scale instead of dividing, which converts inches to miles.",
+        "C": "This subtracts the scale from the distance, which does not use the scale as a rate.",
+        "D": "This divides the scale by the distance, giving the reciprocal of the right answer."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Ratios, rates, proportional relationships, and units"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rr-005",
+      "skillId": "math-ratios-rates",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "One printer prints 18 pages per minute, and a second printer prints 30 pages per minute. Working at the same time, how many minutes will the two printers take to print 720 pages?",
+      "acceptedAnswers": [
+        "15"
+      ],
+      "explanation": "Together the printers print 18 + 30 = 48 pages per minute, so 720 pages take 720 / 48 = 15 minutes.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-data-analysis",
+      "skillTitle": "Ratios, rates, proportional relationships, and units"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lat-001",
+      "skillId": "math-lines-angles-triangles",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "In triangle ABC, angle A measures 47° and angle B measures 68°. What is the measure of angle C?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "115°"
+        },
+        {
+          "id": "B",
+          "text": "25°"
+        },
+        {
+          "id": "C",
+          "text": "65°"
+        },
+        {
+          "id": "D",
+          "text": "133°"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "The angles of a triangle add to 180°, so angle C = 180° − 47° − 68° = 65°.",
+      "rationales": {
+        "A": "This is the sum of angles A and B, which is the exterior angle at C, not angle C itself.",
+        "B": "This subtracts the two given angles from 90° as if the triangle were split at a right angle.",
+        "D": "This subtracts only angle A from 180°."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Lines, angles, and triangles"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lat-002",
+      "skillId": "math-lines-angles-triangles",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "Two parallel lines are cut by a transversal. Two same-side interior angles formed by the transversal measure (3x + 12)° and (5x − 4)°. What is the value of x?",
+      "acceptedAnswers": [
+        "43/2",
+        "21.5"
+      ],
+      "explanation": "Same-side interior angles between parallel lines add to 180°: (3x + 12) + (5x − 4) = 180, so 8x + 8 = 180 and x = 21.5.",
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Lines, angles, and triangles"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lat-003",
+      "skillId": "math-lines-angles-triangles",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "Triangle PQR is similar to triangle STU, with P corresponding to S, Q to T, and R to U. If PQ = 6, QR = 7, and ST = 10, what is the length of TU?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "11"
+        },
+        {
+          "id": "B",
+          "text": "4.2"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "35/3"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "Corresponding sides share one scale factor: ST / PQ = 10 / 6 = 5/3. So TU = QR × 5/3 = 7 × 5/3 = 35/3.",
+      "rationales": {
+        "A": "This adds the difference ST − PQ = 4 to QR, but similar triangles scale by multiplying, not adding.",
+        "B": "This uses the scale factor upside down, multiplying 7 by 6/10.",
+        "C": "This doubles PQ, which does not correspond to TU."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Lines, angles, and triangles"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-lat-004",
+      "skillId": "math-lines-angles-triangles",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "An isosceles triangle has two sides of length 13 and a third side of length 10. What is the area of the triangle?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "65"
+        },
+        {
+          "id": "B",
+          "text": "60"
+        },
+        {
+          "id": "C",
+          "text": "120"
+        },
+        {
+          "id": "D",
+          "text": "130"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "C",
+      "explanation": "The height to the base of 10 splits it into halves of 5, so the height is √(13² − 5²) = √144 = 12. The area is (1/2)(10)(12) = 60.",
+      "rationales": {
+        "A": "This multiplies a side of 13 by half the base, using a slanted side as the height.",
+        "C": "This finds the height correctly but forgets the factor of 1/2 in the area formula.",
+        "D": "This multiplies 13 by 10 and uses a slanted side as the height."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Lines, angles, and triangles"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rt-001",
+      "skillId": "math-right-triangles-trig",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "In right triangle ABC, angle C is the right angle, AC = 5, and BC = 12. What is the length of AB?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "13"
+        },
+        {
+          "id": "B",
+          "text": "17"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "√119"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "D",
+      "explanation": "AB is the hypotenuse: AB = √(5² + 12²) = √169 = 13.",
+      "rationales": {
+        "B": "This adds the legs, but the hypotenuse comes from adding their squares.",
+        "C": "This subtracts the legs, which does not follow the Pythagorean theorem.",
+        "D": "This subtracts the squares, treating a leg as the hypotenuse."
+      },
+      "tests": [
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Right triangles and trigonometry"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rt-002",
+      "skillId": "math-right-triangles-trig",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "In right triangle DEF, angle F is the right angle, DF = 8, and DE = 17. What is the value of sin E?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15/17"
+        },
+        {
+          "id": "B",
+          "text": "8/15"
+        },
+        {
+          "id": "C",
+          "text": "17/8"
+        },
+        {
+          "id": "D",
+          "text": "8/17"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "The side opposite angle E is DF = 8, and the hypotenuse is DE = 17, so sin E = 8/17. (EF = √(17² − 8²) = 15.)",
+      "rationales": {
+        "A": "This is cos E, using the adjacent side EF = 15 instead of the opposite side.",
+        "B": "This is tan E, opposite over adjacent instead of opposite over hypotenuse.",
+        "C": "This turns the ratio upside down, and a sine can never be greater than 1."
+      },
+      "tests": [
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Right triangles and trigonometry"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rt-003",
+      "skillId": "math-right-triangles-trig",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "In a right triangle, one acute angle measures x°, and sin(x°) = 0.6. What is the value of cos((90 − x)°)?",
+      "acceptedAnswers": [
+        "3/5",
+        "0.6",
+        ".6"
+      ],
+      "explanation": "The two acute angles of a right triangle are complementary, and the sine of one equals the cosine of the other. So cos((90 − x)°) = sin(x°) = 0.6.",
+      "tests": [
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Right triangles and trigonometry"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-rt-004",
+      "skillId": "math-right-triangles-trig",
+      "difficulty": "hard",
+      "format": "single-select",
+      "stem": "A 30°-60°-90° triangle has a hypotenuse of length 14. What is the length of the side opposite the 60° angle?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "7√3"
+        },
+        {
+          "id": "C",
+          "text": "14√3"
+        },
+        {
+          "id": "D",
+          "text": "7√2"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "In a 30°-60°-90° triangle, the short leg is half the hypotenuse, 7, and the long leg, opposite the 60° angle, is √3 times the short leg: 7√3.",
+      "rationales": {
+        "A": "This is the side opposite the 30° angle.",
+        "C": "This multiplies the hypotenuse by √3 instead of the short leg.",
+        "D": "This uses the ratio for a 45°-45°-90° triangle."
+      },
+      "tests": [
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Right triangles and trigonometry"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ci-001",
+      "skillId": "math-circles",
+      "difficulty": "easy",
+      "format": "single-select",
+      "stem": "A circle has a circumference of 18π. What is the area of the circle?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "18π"
+        },
+        {
+          "id": "B",
+          "text": "36π"
+        },
+        {
+          "id": "C",
+          "text": "81π"
+        },
+        {
+          "id": "D",
+          "text": "324π"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "D",
+      "explanation": "Circumference is 2πr = 18π, so r = 9. The area is πr² = 81π.",
+      "rationales": {
+        "A": "This repeats the circumference, which measures length around the circle, not area.",
+        "B": "This doubles the circumference's coefficient instead of finding the radius.",
+        "D": "This uses 18, the diameter, as the radius."
+      },
+      "tests": [
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Circles"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ci-002",
+      "skillId": "math-circles",
+      "difficulty": "medium",
+      "format": "grid-in",
+      "stem": "In the xy-plane, the graph of x² + y² − 6x + 10y − 2 = 0 is a circle. What is the radius of the circle?",
+      "acceptedAnswers": [
+        "6"
+      ],
+      "explanation": "Complete the square: (x² − 6x + 9) + (y² + 10y + 25) = 2 + 9 + 25, so (x − 3)² + (y + 5)² = 36. The radius is √36 = 6.",
+      "tests": [
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Circles"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ci-003",
+      "skillId": "math-circles",
+      "difficulty": "medium",
+      "format": "single-select",
+      "stem": "A circle has a radius of 10. What is the length of the arc cut off by a central angle of 72°?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4π"
+        },
+        {
+          "id": "B",
+          "text": "20π"
+        },
+        {
+          "id": "C",
+          "text": "2π"
+        },
+        {
+          "id": "D",
+          "text": "8π"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "C",
+      "explanation": "The arc is 72/360 = 1/5 of the circumference, 2π(10) = 20π. So the arc length is 20π / 5 = 4π.",
+      "rationales": {
+        "B": "This is the whole circumference, not the fraction cut off by the angle.",
+        "C": "This uses πr instead of 2πr for the circumference.",
+        "D": "This uses the diameter, 20, as the radius."
+      },
+      "tests": [
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Circles"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-math-ci-004",
+      "skillId": "math-circles",
+      "difficulty": "hard",
+      "format": "grid-in",
+      "stem": "In the xy-plane, a circle has its center at (−1, −1), and the point (2, 3) lies on the circle. What is the diameter of the circle?",
+      "acceptedAnswers": [
+        "10"
+      ],
+      "explanation": "The radius is the distance from the center to (2, 3): √((2 + 1)² + (3 + 1)²) = √(9 + 16) = 5. The diameter is 2 × 5 = 10.",
+      "tests": [
+        "sat"
+      ],
+      "sectionId": "math",
+      "domainId": "math-geometry-trig",
+      "skillTitle": "Circles"
+    }
+  ]
+}

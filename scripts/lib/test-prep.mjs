@@ -118,9 +118,11 @@ export function sameValue(left, right) {
 // Expressions are authored in this repository and evaluated only by the build.
 // The character and name checks stop mistakes, such as a stray quote or a call
 // to something other than Math and R, from passing silently.
-const EXPRESSION_CHARACTERS = /^[\w\s+\-*/%().,]*$/;
+// Comparison and logic operators are allowed so a predicate can test whether a
+// value or point satisfies an inequality.
+const EXPRESSION_CHARACTERS = /^[\w\s+\-*/%().,<>=!&|?:]*$/;
 
-export function evaluate(expression, location, variables = {}) {
+export function evaluate(expression, location, variables = {}, { boolean = false } = {}) {
   requireValue(
     typeof expression === "string" && expression.trim().length > 0,
     location,
@@ -129,7 +131,7 @@ export function evaluate(expression, location, variables = {}) {
   requireValue(
     EXPRESSION_CHARACTERS.test(expression),
     location,
-    `expression "${expression}" may use only numbers, names, + - * / % ( ) , .`,
+    `expression "${expression}" may use only numbers, names, arithmetic, comparisons, and logic`,
   );
   const names = Object.keys(variables);
   for (const match of expression.matchAll(/(?<![\w.])[A-Za-z_]\w*/g)) {
@@ -148,6 +150,14 @@ export function evaluate(expression, location, variables = {}) {
     );
   } catch (error) {
     throw new Error(`${location}: expression "${expression}" failed: ${error.message}`);
+  }
+  if (boolean) {
+    requireValue(
+      typeof value === "boolean",
+      location,
+      `condition "${expression}" must be true or false`,
+    );
+    return value;
   }
   requireValue(
     value instanceof Rational ||
@@ -359,11 +369,14 @@ function validateVerification(item, location) {
       location,
       "expression verification lists choiceExpressions for A, B, C, and D",
     );
+    // Choices that are inequalities compare as true/false at each sample.
+    const boolean = verification.compare === "truth";
     const at = (expression, index, label) =>
-      evaluate(expression, `${location} ${label}`, scope(index));
+      evaluate(expression, `${location} ${label}`, scope(index), { boolean });
+    const same = (left, right) => (boolean ? left === right : sameValue(left, right));
     for (const id of CHOICE_IDS) {
       const results = samples.map((_, index) =>
-        sameValue(
+        same(
           at(expressions[id], index, `choice ${id}`),
           at(verification.compute, index, "key"),
         ),
@@ -378,7 +391,50 @@ function validateVerification(item, location) {
     }
     return;
   }
-  throw new Error(`${location}: verification kind must be "value" or "expression"`);
+  if (verification.kind === "predicate") {
+    // Exactly the correct choice satisfies the condition. Each choice gives one
+    // value per variable, such as [x] or [x, y] for a point.
+    requireValue(
+      item.format === "single-select",
+      location,
+      "predicate checks are for choices",
+    );
+    const variables = verification.variables;
+    requireValue(
+      Array.isArray(variables) &&
+        variables.length > 0 &&
+        variables.every((name) => /^[a-z]$/.test(name)),
+      location,
+      "predicate verification names one-letter variables",
+    );
+    for (const id of CHOICE_IDS) {
+      const point = verification.choicePoints?.[id];
+      requireValue(
+        Array.isArray(point) &&
+          point.length === variables.length &&
+          point.every((value) => Number.isFinite(value)),
+        location,
+        `choicePoints.${id} gives one number per variable`,
+      );
+      const scope = Object.fromEntries(
+        variables.map((name, offset) => [name, point[offset]]),
+      );
+      const holds = evaluate(verification.condition, `${location} choice ${id}`, scope, {
+        boolean: true,
+      });
+      requireValue(
+        id === item.answer ? holds : !holds,
+        location,
+        id === item.answer
+          ? `choice ${id} does not satisfy ${verification.condition}`
+          : `choice ${id} also satisfies ${verification.condition}`,
+      );
+    }
+    return;
+  }
+  throw new Error(
+    `${location}: verification kind must be "value", "expression", or "predicate"`,
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -386,8 +442,9 @@ function validateVerification(item, location) {
 
 function oneSentence(text) {
   const trimmed = String(text).trim();
-  const ends = trimmed.match(/[.!?](?=\s|$)/g) || [];
-  return ends.length === 1 && /[.!?]["')\]]?$/.test(trimmed);
+  // A closing quotation mark may follow the final period.
+  const ends = trimmed.match(/[.!?]["'\u201d\u2019)\]]*(?=\s|$)/g) || [];
+  return ends.length === 1 && /[.!?]["'\u201d\u2019)\]]*$/.test(trimmed);
 }
 
 export function validateTests(tests, sources, location) {
@@ -455,6 +512,42 @@ export function validateTests(tests, sources, location) {
     location,
     "PSAT 8/9 has its own scale family",
   );
+}
+
+// Each test section can define one practice module's domain mix. The counts
+// approximate the published domain shares for that test; they must add up to
+// one module (questions / modules).
+export function validateModuleBlueprints(tests, taxonomy, location) {
+  for (const test of tests)
+    for (const format of test.sections) {
+      const at = `${location} ${test.id} ${format.id}`;
+      const section = taxonomy.sections.find((entry) => entry.id === format.id);
+      const blueprint = format.moduleDomains;
+      requireValue(
+        blueprint && typeof blueprint === "object",
+        at,
+        "add moduleDomains: the domain counts for one practice module",
+      );
+      const tested = section.domains.filter((domain) =>
+        domain.skills.some((skill) => skill.tests.includes(test.id)),
+      );
+      requireValue(
+        Object.keys(blueprint).sort().join() ===
+          tested
+            .map((domain) => domain.id)
+            .sort()
+            .join(),
+        at,
+        `moduleDomains lists each tested domain once (${tested.map((domain) => domain.id).join(", ")})`,
+      );
+      const total = Object.values(blueprint).reduce((sum, value) => sum + value, 0);
+      requireValue(
+        Object.values(blueprint).every((value) => Number.isInteger(value) && value > 0) &&
+          total * format.modules === format.questions,
+        at,
+        `moduleDomains must add up to ${format.questions / format.modules} questions`,
+      );
+    }
 }
 
 export function validateTaxonomy(taxonomy, location) {
@@ -549,6 +642,13 @@ export function validatePassages(passages, location) {
       );
     requireValue(Boolean(source.url), at, "cite a URL for the edition used");
     safeUrl(source.url, at);
+    // The Project Gutenberg ebook number lets scripts/verify-test-prep-passages.mjs
+    // compare the excerpt with the full text.
+    requireValue(
+      source.gutenberg === undefined || Number.isInteger(source.gutenberg),
+      at,
+      "source.gutenberg is an ebook number",
+    );
     for (const edit of passage.edits || []) {
       requireText(edit.original, at);
       requireText(edit.replacement, at);
@@ -626,8 +726,32 @@ export function validateItem(item, { skills, passages, location }) {
   requireText(item.explanation, at);
 
   if (section.id === "rw") {
-    if (item.passageId)
+    const sources = [
+      item.passageId !== undefined,
+      item.passageIds !== undefined,
+      item.originalText !== undefined,
+    ].filter(Boolean).length;
+    requireValue(
+      sources === 1,
+      at,
+      "use exactly one of passageId, passageIds, or originalText",
+    );
+    if (item.passageId !== undefined)
       requireValue(passages.has(item.passageId), at, `unknown passage ${item.passageId}`);
+    if (skill.id === "rw-cross-text")
+      requireValue(
+        Array.isArray(item.passageIds) && item.passageIds.length === 2,
+        at,
+        "cross-text items pair two passages in passageIds",
+      );
+    else
+      requireValue(
+        item.passageIds === undefined,
+        at,
+        "only cross-text items pair passages",
+      );
+    for (const id of item.passageIds || [])
+      requireValue(passages.has(id), at, `unknown passage ${id}`);
     if (item.originalText !== undefined) {
       requireValue(
         ORIGINAL_TEXT_DOMAINS.has(domain.id),
@@ -636,14 +760,52 @@ export function validateItem(item, { skills, passages, location }) {
       );
       requireText(item.originalText, at);
     }
-    requireValue(
-      Boolean(item.passageId) !== (item.originalText !== undefined),
-      at,
-      "use exactly one of passageId or originalText",
-    );
+    // Quoted choices must be exact words from the passage, so a quotation is
+    // never invented or altered.
+    if (item.quotesPassage) {
+      requireValue(item.passageId !== undefined, at, "quotesPassage needs passageId");
+      const flat = (text) =>
+        text
+          .replace(/[\u2018\u2019]/g, "'")
+          .replace(/\s+/g, " ")
+          .trim();
+      const text = flat(passages.get(item.passageId).text);
+      for (const choice of item.choices || []) {
+        const quote = flat(choice.text).replace(/^\u201c|\u201d$/g, "");
+        requireValue(
+          /^\u201c.+\u201d$/.test(flat(choice.text)) && text.includes(quote),
+          at,
+          `choice ${choice.id} must quote the passage exactly, inside curly quotes`,
+        );
+      }
+    }
+    // A blank hides the source's own wording. The source wording is the answer,
+    // so the passage stays exactly as published.
+    if (item.blank !== undefined) {
+      requireText(item.blank, at);
+      const text = item.passageId ? passages.get(item.passageId).text : item.originalText;
+      requireValue(
+        typeof text === "string",
+        at,
+        "a blank needs passageId or originalText",
+      );
+      requireValue(
+        text.split(item.blank).length === 2,
+        at,
+        `the blank "${item.blank}" must appear exactly once in the text`,
+      );
+      requireValue(
+        item.choices?.find((choice) => choice.id === item.answer)?.text === item.blank,
+        at,
+        "the correct choice is the hidden wording",
+      );
+    }
   } else {
     requireValue(
-      !item.passageId && item.originalText === undefined,
+      item.passageId === undefined &&
+        item.passageIds === undefined &&
+        item.originalText === undefined &&
+        item.blank === undefined,
       at,
       "math items have no passage",
     );
@@ -791,6 +953,9 @@ function publicItem(item, place, passages) {
     domainId: place.domain.id,
     skillTitle: place.skill.title,
     ...(item.passageId ? { passage: passages.get(item.passageId) } : {}),
+    ...(item.passageIds
+      ? { passages: item.passageIds.map((id) => passages.get(id)) }
+      : {}),
   };
 }
 
@@ -813,6 +978,7 @@ export async function compileTestPrep({
   validateTests(tests, sources, "test-prep/tests.js");
   const taxonomy = await readModule(join(root, "taxonomy.js"), "taxonomy");
   const skills = validateTaxonomy(taxonomy, "test-prep/taxonomy.js");
+  validateModuleBlueprints(tests, taxonomy, "test-prep/tests.js");
   const passages = validatePassages(
     await optionalModule(join(root, "passages.js"), "passages", []),
     "test-prep/passages.js",
@@ -873,8 +1039,17 @@ export async function compileTestPrep({
       itemCount: count(test.id, () => true),
       sections: test.sections.map((format) => {
         const section = taxonomy.sections.find((entry) => entry.id === format.id);
+        const moduleSize = format.questions / format.modules;
+        // A timed module needs enough items in every domain of its blueprint.
+        const moduleReady = Object.entries(format.moduleDomains).every(
+          ([domainId, needed]) =>
+            count(test.id, (place) => place.domain.id === domainId) >= needed,
+        );
         return {
           ...format,
+          moduleSize,
+          moduleMinutes: format.minutes / format.modules,
+          moduleReady,
           title: section.title,
           formats: section.formats,
           bankPath: bankPaths[section.id] || "",

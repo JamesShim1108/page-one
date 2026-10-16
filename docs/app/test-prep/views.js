@@ -79,21 +79,44 @@ export function testPrepIndexPage({ testPrep }) {
   </div>`;
 }
 
-function skillRow(skill) {
+const practicePath = (test, query) => `/test-practice/${test.id}?${query}`;
+
+function skillRow(test, skill) {
   const variants = skill.variants?.length
     ? `<span class="muted"> (${esc(skill.variants.map((variant) => variant.title).join(", "))})</span>`
     : "";
-  return `<li class="tp-skill"><span>${esc(skill.title)}${variants}</span><span class="tp-skill-count">${skill.itemCount ? `${skill.itemCount}` : '<span class="visually-hidden">No items yet</span>–'}</span></li>`;
+  const title = skill.itemCount
+    ? `<a href="#${esc(practicePath(test, `skill=${skill.id}`))}" class="tp-skill-link">${esc(skill.title)}</a>`
+    : esc(skill.title);
+  const count = skill.itemCount
+    ? `${skill.itemCount}<span class="visually-hidden"> ${skill.itemCount === 1 ? "item" : "items"}</span>`
+    : '<span class="visually-hidden">No items yet</span>–';
+  return `<li class="tp-skill"><span>${title}${variants}</span><span class="tp-skill-count">${count}</span></li>`;
 }
 
-function sectionBlock(section) {
+function sectionActions(test, section) {
+  if (!section.itemCount) return "";
+  const module = section.moduleReady
+    ? link(
+        practicePath(test, `section=${section.id}&mode=module`),
+        `Timed module · ${section.moduleSize} questions, ${section.moduleMinutes} min ${arrow}`,
+        "btn",
+      )
+    : `<span class="btn disabled" aria-disabled="true">Timed module · needs more items</span>`;
+  return `<div class="actions tp-section-actions">${module}${link(practicePath(test, `section=${section.id}`), `Practice all ${section.itemCount} ${arrow}`, "btn secondary")}</div>`;
+}
+
+function sectionBlock(test, section) {
   return `<section class="tp-section" aria-labelledby="tp-section-${esc(section.id)}">
     <div class="section-heading"><div><h2 id="tp-section-${esc(section.id)}">${esc(section.title)}</h2>
       <p class="muted">${esc(sectionLine(section))} · ${esc(section.formats.map((format, index) => (index ? FORMAT_LABELS[format].toLowerCase() : FORMAT_LABELS[format])).join(" and "))}</p></div>${itemStatus(section.itemCount)}</div>
+    ${sectionActions(test, section)}
     <div class="tp-domain-grid">${section.domains
       .map(
-        (domain) => `<article class="tp-domain"><h3>${esc(domain.title)}</h3>
-        <ul class="tp-skill-list" aria-label="${esc(domain.title)} skills">${domain.skills.map(skillRow).join("")}</ul></article>`,
+        (
+          domain,
+        ) => `<article class="tp-domain"><div class="tp-domain-head"><h3>${esc(domain.title)}</h3>${domain.itemCount ? link(practicePath(test, `domain=${domain.id}`), `Practice ${arrow}`, "text-link") : ""}</div>
+        <ul class="tp-skill-list" aria-label="${esc(domain.title)} skills">${domain.skills.map((skill) => skillRow(test, skill)).join("")}</ul></article>`,
       )
       .join("")}</div>
   </section>`;
@@ -105,7 +128,7 @@ export function testPrepTestPage({ testPrep, test }) {
   return `<div class="container tp-page">${crumbs(test.title)}
     <div class="page-intro"><p class="eyebrow">${esc(test.audience)}</p><h1>${esc(test.title)}</h1><p>${esc(test.description)}</p></div>
     <div class="tp-scale" role="note"><p><strong>Score scale:</strong> ${esc(scale.total)} total, ${esc(scale.section)} per section.</p><p class="muted">${esc(scaleNote(test))}</p></div>
-    ${test.sections.map(sectionBlock).join("")}
+    ${test.sections.map((section) => sectionBlock(test, section)).join("")}
     <nav class="tp-other-tests" aria-label="Other tests"><p class="eyebrow">Other tests</p>${others.map((item) => link(`/test-prep/${item.id}`, esc(item.title), "text-link")).join("")}</nav>
     ${notice(testPrep, test.sourceIds)}
   </div>`;
@@ -119,28 +142,51 @@ export function testPrepTestPage({ testPrep, test }) {
 //   checked:  true after the student checks a well-formed answer
 //   problem:  an entry-format message for a grid-in, shown instead of feedback
 //   result:   { correct } from checkResponse
+//
+// mode:
+//   "practice" (default): Check answer, then feedback
+//   "test": answers stay editable and no feedback appears (timed modules)
+//   "review": the answer is shown as checked, with feedback, and cannot change
 
 const itemDomId = (item) => `tp-item-${item.id}`;
+const BLANK =
+  '<span class="tp-blank"><span class="visually-hidden">blank</span><span aria-hidden="true">______</span></span>';
 
 function citation(source) {
   return `${esc(source.author)}, <cite>${esc(source.title)}</cite> (${esc(source.publication)}, ${esc(source.year)})`;
 }
 
+// Paragraphs split on blank lines; single line breaks are kept, for verse.
+function paragraphs(text, blank) {
+  return text
+    .split(/\n\s*\n/)
+    .map((paragraph) => {
+      const lines = paragraph
+        .trim()
+        .split("\n")
+        .map((line) => {
+          if (!blank || !line.includes(blank)) return esc(line.trim());
+          const [before, after] = line.split(blank);
+          return `${esc(before.trimStart())}${BLANK}${esc(after.trimEnd())}`;
+        });
+      return `<p>${lines.join("<br>")}</p>`;
+    })
+    .join("");
+}
+
+function sourcedPassage(passage, label, blank) {
+  return `<figure class="tp-passage">${label ? `<p class="tp-passage-label">${esc(label)}</p>` : ""}<blockquote>${paragraphs(passage.text, blank)}</blockquote>
+      <figcaption>${citation(passage.source)}. <a href="${esc(passage.source.url)}" target="_blank" rel="noopener noreferrer">Source text</a></figcaption></figure>`;
+}
+
 function passageView(item) {
-  if (item.passage) {
-    const { source } = item.passage;
-    const paragraphs = item.passage.text
-      .split(/\n\s*\n/)
-      .map((text) => `<p>${esc(text.trim())}</p>`)
+  if (item.passages)
+    return item.passages
+      .map((passage, index) => sourcedPassage(passage, `Text ${index + 1}`))
       .join("");
-    return `<figure class="tp-passage"><blockquote>${paragraphs}</blockquote>
-      <figcaption>${citation(source)}. <a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">Source text</a></figcaption></figure>`;
-  }
+  if (item.passage) return sourcedPassage(item.passage, "", item.blank);
   if (item.originalText)
-    return `<div class="stimulus tp-original"><p class="eyebrow">Written by Page One for practice</p>${item.originalText
-      .split(/\n\s*\n/)
-      .map((text) => `<p>${esc(text.trim())}</p>`)
-      .join("")}</div>`;
+    return `<div class="stimulus tp-original"><p class="eyebrow">Written by Page One for practice</p>${paragraphs(item.originalText, item.blank)}</div>`;
   return "";
 }
 
@@ -156,7 +202,7 @@ function tableView(table) {
   </table><p class="tp-table-note muted">${esc(note)}</p></div>`;
 }
 
-function choicesView(item, state) {
+function choicesView(item, state, locked) {
   const name = `${itemDomId(item)}-answer`;
   const checked = state.checked === true;
   return `<fieldset class="choices" aria-labelledby="${itemDomId(item)}-stem"><legend class="visually-hidden">Choose one answer</legend>
@@ -167,7 +213,7 @@ function choicesView(item, state) {
         const wrong = checked && selected && !correct;
         const mark = correct ? "Correct answer" : wrong ? "Your answer" : "";
         return `<div class="choice-row"><label class="choice ${correct ? "correct" : wrong ? "incorrect" : ""}">
-        <input type="radio" name="${esc(name)}" value="${esc(choice.id)}" data-tp-choice ${selected ? "checked" : ""} ${checked ? "disabled" : ""}>
+        <input type="radio" name="${esc(name)}" value="${esc(choice.id)}" data-tp-choice ${selected ? "checked" : ""} ${locked ? "disabled" : ""}>
         <span class="choice-letter" aria-hidden="true">${esc(choice.id)}</span>
         <span><span class="visually-hidden">${esc(choice.id)}. </span>${esc(choice.text)}</span>
         ${mark ? `<span class="answer-mark">${mark}</span>` : ""}
@@ -177,25 +223,33 @@ function choicesView(item, state) {
   </fieldset>`;
 }
 
-function gridInView(item, state) {
+function gridInView(item, state, locked, mode) {
   const inputId = `${itemDomId(item)}-entry`;
   const rulesId = `${itemDomId(item)}-rules`;
   const problemId = `${itemDomId(item)}-problem`;
   const checked = state.checked === true;
   const status = checked ? (state.result?.correct ? "correct" : "incorrect") : "";
+  // Timed modules preview the entry as the student types, like an answer preview.
+  const live =
+    mode === "test"
+      ? `<p id="${problemId}" class="tp-grid-in-problem" data-tp-live aria-live="polite">${esc(state.problem || "")}</p>`
+      : state.problem
+        ? `<p id="${problemId}" class="tp-grid-in-problem" role="alert">${esc(state.problem)}</p>`
+        : "";
   return `<div class="tp-grid-in ${status}">
     <label for="${inputId}">Your answer</label>
     <input id="${inputId}" class="tp-grid-in-input" type="text" inputmode="decimal" autocomplete="off" autocapitalize="off" spellcheck="false"
       maxlength="${GRID_IN.maxNegativeLength + 2}" value="${esc(state.response || "")}" data-tp-entry
-      aria-describedby="${rulesId}${state.problem ? ` ${problemId}` : ""}" ${state.problem ? 'aria-invalid="true"' : ""} ${checked ? "readonly" : ""}>
+      aria-describedby="${rulesId}${live ? ` ${problemId}` : ""}" ${state.problem ? 'aria-invalid="true"' : ""} ${locked ? "readonly" : ""}>
     <p id="${rulesId}" class="tp-grid-in-rules muted">Up to ${GRID_IN.maxPositiveLength} characters, or ${GRID_IN.maxNegativeLength} for a negative answer. Use a fraction such as 7/2 or a decimal such as 3.5. Mixed numbers are not accepted.</p>
-    ${state.problem ? `<p id="${problemId}" class="tp-grid-in-problem" role="alert">${esc(state.problem)}</p>` : ""}
+    ${live}
   </div>`;
 }
 
 function feedbackView(item, state) {
   if (!state.checked) return "";
   const correct = state.result?.correct === true;
+  const unanswered = state.result?.answered === false;
   const answer =
     item.format === "grid-in"
       ? `<p><strong>Accepted answers:</strong> ${item.acceptedAnswers.map((entry) => `<code>${esc(entry)}</code>`).join(", ")}</p>`
@@ -212,33 +266,56 @@ function feedbackView(item, state) {
           )
           .join("")}</ul></details>`
       : "";
+  const heading = correct ? "✓ Correct" : unanswered ? "– Not answered" : "✗ Incorrect";
   return `<div class="answer-feedback ${correct ? "" : "wrong"}" id="${itemDomId(item)}-feedback" tabindex="-1" role="status">
-    <h4>${correct ? "✓ Correct" : "✗ Incorrect"}</h4>${answer}
+    <h4>${heading}</h4>${answer}
     <p><strong>Why:</strong> ${esc(item.explanation)}</p>${rationales}
   </div>`;
 }
 
-export function itemView(item, state = {}, { heading = "h2", number = null } = {}) {
+export function itemView(
+  item,
+  state = {},
+  { heading = "h2", number = null, mode = "practice", footer = null, total = null } = {},
+) {
   const checked = state.checked === true;
+  const locked = mode === "review" || (mode === "practice" && checked);
   const canCheck =
     !checked &&
     (item.format === "grid-in"
       ? String(state.response || "").trim() !== ""
       : Boolean(state.response));
   const meta = [
-    number ? `Question ${number}` : "",
+    number ? `Question ${number}${total ? ` of ${total}` : ""}` : "",
     item.skillTitle,
     FORMAT_LABELS[item.format],
   ]
     .filter(Boolean)
     .join(" · ");
-  return `<form class="question-card tp-item" id="${esc(itemDomId(item))}" data-tp-item="${esc(item.id)}" novalidate>
+  const instruction =
+    mode === "test"
+      ? item.format === "grid-in"
+        ? "Type your answer. You can change it until you submit."
+        : "Choose an answer. You can change it until you submit."
+      : checked
+        ? "Read the explanation, then continue."
+        : item.format === "grid-in"
+          ? "Type your answer, then check it."
+          : "Choose an answer, then check it.";
+  const buttons =
+    mode === "practice" && !checked
+      ? `<button type="submit" class="btn" ${canCheck ? "" : "disabled"}>Check answer</button>${footer || ""}`
+      : (footer ??
+        (mode === "practice"
+          ? `<button type="button" class="btn secondary" data-tp-action="retry">Try again</button>`
+          : ""));
+  return `<form class="question-card tp-item" id="${esc(itemDomId(item))}" data-tp-item="${esc(item.id)}" data-tp-mode="${esc(mode)}" novalidate>
     <p class="question-meta">${esc(meta)}</p>
     ${passageView(item)}${tableView(item.table)}
     <${heading} id="${esc(itemDomId(item))}-stem" class="tp-stem">${esc(item.stem)}</${heading}>
-    ${item.format === "grid-in" ? gridInView(item, state) : choicesView(item, state)}
-    ${feedbackView(item, state)}
-    <div class="question-actions"><p>${checked ? "Read the explanation, then continue." : item.format === "grid-in" ? "Type your answer, then check it." : "Choose an answer, then check it."}</p>
-      <div class="question-action-buttons">${checked ? `<button type="button" class="btn secondary" data-tp-action="retry">Try again</button>` : `<button type="submit" class="btn" ${canCheck ? "" : "disabled"}>Check answer</button>`}</div></div>
+    ${item.format === "grid-in" ? gridInView(item, state, locked, mode) : choicesView(item, state, locked)}
+    ${mode === "test" ? "" : feedbackView(item, state)}
+    <div class="question-actions"><p>${instruction}</p>
+      <div class="question-action-buttons">${buttons}</div></div>
   </form>`;
 }

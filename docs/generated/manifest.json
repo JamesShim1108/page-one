@@ -4,6 +4,8 @@
   "algebra2/routes.json",
   "algebra2/search.json",
   "catalog.json",
+  "test-prep/banks/math.json",
+  "test-prep/banks/rw.json",
   "test-prep/index.json",
   "world/banks/world-1-1.json",
   "world/banks/world-1-2.json",

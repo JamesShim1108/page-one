@@ -566,7 +566,10 @@ test("content compiles from folder discovery rather than a hardcoded topic list"
     READY_TOPICS,
   );
   assert.equal(
-    [...output.keys()].filter((path) => path.includes("/banks/")).length,
+    // PSAT/SAT banks are per section, not per topic, so they are counted separately.
+    [...output.keys()].filter(
+      (path) => path.includes("/banks/") && !path.startsWith("test-prep/"),
+    ).length,
     READY_TOPICS,
   );
 });

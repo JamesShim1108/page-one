@@ -123,14 +123,17 @@ test("the generated index lists four tests with separate score scales", async ()
         ["math", 44, 70, 2],
       ],
     );
-    assert.equal(item.itemCount, 0);
+    assert.ok(item.itemCount > 0, `${item.id} has practice items`);
+    assert.ok(
+      item.sections.every((section) => section.moduleReady),
+      `${item.id} modules`,
+    );
   }
   assert.match(index.notice, /not affiliated/);
   const manifest = await readGenerated("manifest.json");
-  assert.equal(
-    manifest.some((path) => path.startsWith("test-prep/banks/")),
-    false,
-    "no item banks until items are authored",
+  assert.deepEqual(
+    manifest.filter((path) => path.startsWith("test-prep/banks/")),
+    ["test-prep/banks/math.json", "test-prep/banks/rw.json"],
   );
 });
 
@@ -206,14 +209,21 @@ test("the selection page shows four cards, the scale note, and no affiliation", 
   assert.match(html, /400–1600/);
   assert.match(html, /never shows a PSAT 8\/9 estimate as equal/);
   assert.match(html, /not affiliated with or endorsed by the College Board/);
-  assert.match(html, /Items in preparation/);
+  assert.match(html, /\d+ practice items/);
 
   const psat89 = testPrepTestPage({ testPrep: index, test: index.tests[0] });
   assert.match(psat89, /<h3>Geometry<\/h3>/);
   assert.doesNotMatch(psat89, /Circles|trigonometry/);
   const sat = testPrepTestPage({ testPrep: index, test: index.tests[3] });
   assert.match(sat, /Circles/);
-  assert.match(sat, /Command of Evidence<span class="muted"> \(Textual, Quantitative\)/);
+  assert.match(
+    sat,
+    /Command of Evidence<\/a><span class="muted"> \(Textual, Quantitative\)/,
+  );
+  assert.match(
+    sat,
+    /href="#\/test-practice\/sat\?section=math&amp;mode=module"|href="#\/test-practice\/sat\?section=math&mode=module"/,
+  );
 });
 
 test("grid-in entries follow the Bluebook entry rules", () => {
@@ -550,4 +560,319 @@ test("score estimates are labeled and never cross scale families", async () => {
   );
   assert.equal(sameScaleFamily(psat89, sat), false);
   assert.equal(sameScaleFamily(psat10, index.tests[2]), true);
+});
+
+// ---------------------------------------------------------------------------
+// Practice sessions
+
+import {
+  drawModule,
+  scopeItems,
+  scopeLabel,
+  sectionEstimate,
+  summarize,
+  formatClock,
+} from "../docs/app/test-prep/practice.js";
+import { createTestPrepSession } from "../docs/app/test-prep/session.js";
+
+function sessionFixtures(test) {
+  // Enough placeholder items for one module in each domain of the blueprint.
+  const items = [];
+  for (const section of test.sections)
+    for (const domain of section.domains) {
+      const needed = section.moduleDomains[domain.id] + 1;
+      for (let index = 0; index < needed; index += 1) {
+        const skill = domain.skills[index % domain.skills.length];
+        items.push({
+          ...choiceItem(),
+          id: `tp-fixture-${domain.id}-${index}`,
+          skillId: skill.id,
+          skillTitle: skill.title,
+          domainId: domain.id,
+          sectionId: section.id,
+          tests: [test.id],
+          difficulty: ["hard", "easy", "medium"][index % 3],
+        });
+      }
+    }
+  return items;
+}
+
+test("modules draw the blueprint's count from each domain", async () => {
+  const index = await readGenerated("test-prep/index.json");
+  for (const test of index.tests) {
+    const items = sessionFixtures(test);
+    for (const section of test.sections) {
+      const ids = drawModule(items, test, section.id, () => 0.42);
+      assert.equal(ids.length, section.moduleSize, `${test.id} ${section.id}`);
+      assert.equal(section.moduleSize * section.modules, section.questions);
+      const byDomain = Object.fromEntries(
+        Object.keys(section.moduleDomains).map((id) => [
+          id,
+          ids.filter((itemId) => itemId.includes(`-${id}-`)).length,
+        ]),
+      );
+      assert.deepEqual(byDomain, section.moduleDomains);
+      if (section.id === "math") {
+        const order = ids.map((id) =>
+          ["easy", "medium", "hard"].indexOf(
+            items.find((item) => item.id === id).difficulty,
+          ),
+        );
+        assert.deepEqual(
+          order,
+          [...order].sort((a, b) => a - b),
+          "math runs easy to hard",
+        );
+      }
+    }
+    // Not enough items: no module.
+    assert.equal(drawModule(items.slice(0, 3), test, "rw"), null);
+  }
+});
+
+test("scopes, summaries, estimates, and clocks", async () => {
+  const index = await readGenerated("test-prep/index.json");
+  const sat = index.tests.find((item) => item.id === "sat");
+  const psat89 = index.tests.find((item) => item.id === "psat89");
+  const items = sessionFixtures(sat);
+  assert.ok(
+    scopeItems(items, sat, { skill: "math-circles" }).every(
+      (item) => item.skillId === "math-circles",
+    ),
+  );
+  assert.equal(
+    scopeItems(items, psat89).length,
+    0,
+    "items tagged for SAT stay out of PSAT 8/9",
+  );
+  assert.equal(scopeLabel(sat, { skill: "math-circles" }), "Circles");
+  assert.equal(scopeLabel(psat89, { domain: "math-geometry-trig" }), "Geometry");
+  assert.equal(scopeLabel(sat, { section: "rw" }), "Reading and Writing");
+
+  const set = items.slice(0, 4);
+  const summary = summarize(sat, set, { [set[0].id]: "B", [set[1].id]: "A" });
+  assert.deepEqual([summary.correct, summary.answered, summary.total], [1, 2, 4]);
+  assert.ok(summary.byDomain.every((row) => row.total > 0));
+
+  assert.deepEqual(
+    [sectionEstimate(sat, 27, 27).low, sectionEstimate(sat, 27, 27).high],
+    [760, 800],
+  );
+  assert.deepEqual(
+    [sectionEstimate(sat, 0, 27).low, sectionEstimate(sat, 0, 27).high],
+    [200, 240],
+  );
+  const middle = sectionEstimate(psat89, 11, 22);
+  assert.ok(middle.low >= 120 && middle.high <= 720 && middle.low < middle.high);
+  assert.equal(middle.label, "Practice estimate");
+  assert.equal(formatClock(35 * 60 * 1000), "35:00");
+  assert.equal(formatClock(61_001), "1:02");
+  assert.equal(formatClock(-5), "0:00");
+});
+
+test("practice and module sessions move through their phases", async () => {
+  const index = await readGenerated("test-prep/index.json");
+  const sat = index.tests.find((item) => item.id === "sat");
+  const items = sessionFixtures(sat);
+  const testPrep = index;
+  let paints = 0;
+  const practice = createTestPrepSession({
+    testPrep,
+    test: sat,
+    items,
+    params: new URLSearchParams("skill=math-linear-functions"),
+    repaint: () => (paints += 1),
+  });
+  const total = scopeItems(items, sat, { skill: "math-linear-functions" }).length;
+  assert.match(practice.page(), new RegExp(`Question 1 of ${total}`));
+  assert.match(practice.page(), /Check answer/);
+  practice.setResponse("B");
+  practice.checkCurrent();
+  assert.match(practice.page(), /✓ Correct/);
+  for (let step = 1; step < total; step += 1) practice.act("next");
+  practice.act("finish");
+  assert.match(practice.page(), new RegExp(`1 of ${total} correct`));
+  assert.match(practice.page(), /accuracy only/);
+  assert.ok(paints > 0);
+
+  const module = createTestPrepSession({
+    testPrep,
+    test: sat,
+    items,
+    params: new URLSearchParams("section=math&mode=module"),
+    repaint: () => {},
+  });
+  assert.match(module.page(), /Start module/);
+  assert.match(module.page(), /35 minutes/);
+  module.act("start");
+  assert.equal(module.debug().ids.length, 22);
+  assert.match(module.page(), /Question 1 of 22/);
+  assert.doesNotMatch(
+    module.page(),
+    /Check answer|✓ Correct/,
+    "no feedback during a module",
+  );
+  module.setResponse("B");
+  module.act("next");
+  module.setResponse("A");
+  module.act("review");
+  assert.match(module.page(), /20 questions are unanswered/);
+  module.act("submit");
+  const results = module.page();
+  assert.match(results, /1 of 22 correct/);
+  assert.match(results, /Practice estimate/);
+  assert.match(results, /SAT Math section scale, 200–800/);
+  assert.match(results, /Not an official score/);
+  assert.equal(results.match(/class="tp-review-item/g).length, 22);
+});
+
+// ---------------------------------------------------------------------------
+// Authored content
+
+async function authoredItems() {
+  const [math, rw] = await Promise.all([
+    readGenerated("test-prep/banks/math.json"),
+    readGenerated("test-prep/banks/rw.json"),
+  ]);
+  return [...rw.items, ...math.items];
+}
+
+test("authored items fit their tests and never ship verification", async () => {
+  const items = await authoredItems();
+  const index = await readGenerated("test-prep/index.json");
+  assert.ok(items.length >= 100);
+  assert.ok(items.every((item) => item.verification === undefined));
+  for (const item of items) {
+    if (item.tests.includes("psat89"))
+      assert.ok(
+        !["math-right-triangles-trig", "math-circles"].includes(item.skillId),
+        `${item.id} is not PSAT 8/9 content`,
+      );
+    if (item.skillId === "math-circles") assert.deepEqual(item.tests, ["sat"]);
+    for (const passage of [item.passage, ...(item.passages || [])].filter(Boolean)) {
+      assert.ok(passage.source.year <= 1930, `${passage.id} is public domain`);
+      assert.match(passage.source.url, /^https:\/\/www\.gutenberg\.org\/ebooks\/\d+$/);
+    }
+    if (item.sectionId === "rw")
+      assert.ok(
+        item.passage || item.passages || item.originalText,
+        `${item.id} has a text`,
+      );
+  }
+  // Every skill on every test has at least one item.
+  for (const test of index.tests)
+    for (const section of test.sections)
+      for (const domain of section.domains)
+        for (const skill of domain.skills)
+          assert.ok(skill.itemCount > 0, `${test.id} ${skill.id}`);
+});
+
+test("hidden wording never appears in another item's passage", async () => {
+  const items = await authoredItems();
+  const shown = (item) =>
+    [item.passage?.text, ...(item.passages || []).map((passage) => passage.text)]
+      .filter(Boolean)
+      .join("\n");
+  for (const item of items.filter((entry) => entry.blank)) {
+    for (const other of items) {
+      if (other.id === item.id) continue;
+      assert.ok(
+        // Whole words only: "possession" does not reveal a blank of "possess".
+        !new RegExp(
+          `(^|[^\\w])${item.blank.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^\\w])`,
+        ).test(shown(other)) || other.passage?.id === item.passage?.id,
+        `${other.id} reveals the answer to ${item.id}`,
+      );
+      if (other.passage?.id === item.passage?.id && other.id !== item.id)
+        assert.fail(`${item.id} hides wording in a passage that ${other.id} also shows`);
+    }
+    const html = itemView(item, {});
+    assert.match(html, /tp-blank/);
+    const passageHtml = html.slice(
+      html.indexOf("<blockquote>"),
+      html.indexOf("</blockquote>"),
+    );
+    assert.ok(!passageHtml.includes(item.blank), `${item.id} hides its blank`);
+  }
+});
+
+test("every authored item renders in practice, test, and review modes", async () => {
+  const items = await authoredItems();
+  for (const item of items) {
+    for (const mode of ["practice", "test", "review"]) {
+      const right = item.format === "grid-in" ? item.acceptedAnswers[0] : item.answer;
+      const html = itemView(
+        item,
+        mode === "review" ? check(item, respond(right)) : respond(right),
+        { mode, number: 1 },
+      );
+      assert.match(html, new RegExp(`data-tp-item="${item.id}"`));
+      if (mode === "test") assert.doesNotMatch(html, /answer-feedback/);
+      if (mode === "review") assert.match(html, /✓ Correct/);
+    }
+    // Every accepted answer passes the entry rules and checks as correct.
+    for (const entry of item.acceptedAnswers || [])
+      assert.equal(checkResponse(item, entry).correct, true, `${item.id} ${entry}`);
+  }
+});
+
+test("a full module with real items scores every answer and reports an estimate", async () => {
+  const index = await readGenerated("test-prep/index.json");
+  const items = await authoredItems();
+  for (const test of index.tests)
+    for (const section of test.sections) {
+      const ids = drawModule(items, test, section.id);
+      assert.equal(ids.length, section.moduleSize, `${test.id} ${section.id}`);
+      assert.equal(new Set(ids).size, ids.length, "no repeats in a module");
+    }
+  const psat89 = index.tests.find((item) => item.id === "psat89");
+  const session = createTestPrepSession({
+    testPrep: index,
+    test: psat89,
+    items,
+    params: new URLSearchParams("section=math&mode=module"),
+    repaint: () => {},
+  });
+  session.act("start");
+  const { ids } = session.debug();
+  for (const [position, id] of ids.entries()) {
+    const item = items.find((entry) => entry.id === id);
+    session.setResponse(
+      item.format === "grid-in" ? item.acceptedAnswers.at(-1) : item.answer,
+    );
+    if (position < ids.length - 1) session.act("next");
+  }
+  session.act("review");
+  assert.match(session.page(), /Every question has an answer/);
+  session.act("submit");
+  const results = session.page();
+  assert.match(results, /22 of 22 correct/);
+  assert.match(results, /680–720/);
+  assert.match(results, /PSAT 8\/9 Math section scale, 120–720/);
+  assert.doesNotMatch(results, /SAT Math section scale, 200/);
+});
+
+test("Reading and Writing modules group questions by domain and skill", async () => {
+  const index = await readGenerated("test-prep/index.json");
+  const items = await authoredItems();
+  const sat = index.tests.find((item) => item.id === "sat");
+  const section = sat.sections[0];
+  const skills = section.domains.flatMap((domain) =>
+    domain.skills.map((skill) => skill.id),
+  );
+  const ids = drawModule(items, sat, "rw", () => 0.3);
+  const positions = ids.map((id) =>
+    skills.indexOf(items.find((item) => item.id === id).skillId),
+  );
+  const domains = Object.keys(section.moduleDomains);
+  const domainOf = (id) => domains.indexOf(items.find((item) => item.id === id).domainId);
+  const order = ids.map(domainOf);
+  assert.deepEqual(
+    order,
+    [...order].sort((a, b) => a - b),
+  );
+  for (let index = 1; index < ids.length; index += 1)
+    if (order[index] === order[index - 1])
+      assert.ok(positions[index] >= positions[index - 1], "skills stay grouped");
 });

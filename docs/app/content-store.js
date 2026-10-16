@@ -71,6 +71,7 @@ export function createContentStore({ fetchJson = readJson } = {}) {
     if (["settings", "history", "review", "search", "session", "print"].includes(type))
       return { courses };
     if (type === "test-prep") return testPrepPage(id);
+    if (type === "test-practice") return testPracticePage(id);
     // Course IDs have no hyphens; content IDs begin with the owning course ID.
     const courseId = type === "course" ? id : id?.split("-")[0];
     const course = courses.find((item) => item.id === courseId);
@@ -127,6 +128,16 @@ export function createContentStore({ fetchJson = readJson } = {}) {
 
   function testPrepBank(path) {
     return load(path);
+  }
+
+  // A practice page needs its test's section banks. Sections without items
+  // have no bank yet, so they add nothing.
+  async function testPracticePage(testId = "") {
+    const page = await testPrepPage(testId);
+    if (!page?.test) return null;
+    const paths = page.test.sections.map((section) => section.bankPath).filter(Boolean);
+    const banks = await Promise.all(paths.map((path) => load(path)));
+    return { ...page, items: banks.flatMap((bank) => bank.items) };
   }
 
   async function searchIndexes(courseId = "") {

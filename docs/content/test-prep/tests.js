@@ -5,18 +5,50 @@
 // `scale.family` keeps score scales apart. PSAT 8/9 has its own family and its
 // estimates are never displayed as equal to a PSAT 10, PSAT/NMSQT, or SAT score.
 
-const digitalSections = (mathMinutes) => [
+// One practice module's domain mix, approximating each test's published domain
+// shares. Reading and Writing is the same on every test. Math leans more on
+// Algebra and Problem-Solving on the PSAT 8/9, and more on Advanced Math on the SAT.
+const rwModule = {
+  "rw-craft-structure": 7,
+  "rw-information-ideas": 7,
+  "rw-conventions": 7,
+  "rw-expression-ideas": 6,
+};
+const mathModules = {
+  psat89: {
+    "math-algebra": 9,
+    "math-advanced": 4,
+    "math-data-analysis": 6,
+    "math-geometry-trig": 3,
+  },
+  psat: {
+    "math-algebra": 8,
+    "math-advanced": 7,
+    "math-data-analysis": 4,
+    "math-geometry-trig": 3,
+  },
+  sat: {
+    "math-algebra": 8,
+    "math-advanced": 8,
+    "math-data-analysis": 3,
+    "math-geometry-trig": 3,
+  },
+};
+
+const digitalSections = (mathMinutes, mathModule) => [
   {
     id: "rw",
     questions: 54,
     minutes: 64,
     modules: 2,
+    moduleDomains: rwModule,
   },
   {
     id: "math",
     questions: 44,
     minutes: mathMinutes,
     modules: 2,
+    moduleDomains: mathModule,
   },
 ];
 
@@ -35,7 +67,7 @@ export const tests = [
       total: { min: 240, max: 1440 },
       section: { min: 120, max: 720 },
     },
-    sections: digitalSections(70),
+    sections: digitalSections(70, mathModules.psat89),
     sourceIds: ["cb-psat89-guide", "cb-math-alignment-psat"],
   },
   {
@@ -52,7 +84,7 @@ export const tests = [
       total: { min: 320, max: 1520 },
       section: { min: 160, max: 760 },
     },
-    sections: digitalSections(70),
+    sections: digitalSections(70, mathModules.psat),
     sourceIds: ["cb-math-alignment-psat", "cb-test-directions"],
   },
   {
@@ -69,7 +101,7 @@ export const tests = [
       total: { min: 320, max: 1520 },
       section: { min: 160, max: 760 },
     },
-    sections: digitalSections(70),
+    sections: digitalSections(70, mathModules.psat),
     sourceIds: ["cb-math-alignment-psat", "cb-test-directions"],
   },
   {
@@ -86,7 +118,7 @@ export const tests = [
       total: { min: 400, max: 1600 },
       section: { min: 200, max: 800 },
     },
-    sections: digitalSections(70),
+    sections: digitalSections(70, mathModules.sat),
     sourceIds: ["cb-math-alignment-sat", "cb-test-directions"],
   },
 ];

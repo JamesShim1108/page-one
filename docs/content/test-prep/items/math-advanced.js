@@ -1,0 +1,395 @@
+// Advanced Math items. Original practice written by Page One; skill names and
+// formats follow the official SAT Suite descriptions, but no official item is
+// copied or paraphrased. Every key is computed by the build from `verification`.
+
+const ids = ["A", "B", "C", "D"];
+const choices = (texts) => texts.map((text, index) => ({ id: ids[index], text }));
+const values = (list) =>
+  Object.fromEntries(list.map((value, index) => [ids[index], value]));
+
+export const items = [
+  // Nonlinear functions
+  {
+    schemaVersion: 1,
+    id: "tp-math-nf-001",
+    skillId: "math-nonlinear-functions",
+    difficulty: "easy",
+    format: "single-select",
+    stem: "The function f is defined by f(x) = 2x² − 3. What is the value of f(−4)?",
+    choices: choices(["−35", "13", "29", "61"]),
+    answer: "C",
+    nearMiss: "D",
+    explanation:
+      "Square first, then multiply: (−4)² = 16, so f(−4) = 2(16) − 3 = 32 − 3 = 29.",
+    rationales: {
+      A: "This treats −4² as −16, but the whole input −4 is squared, which gives a positive 16.",
+      B: "This doubles −4 and drops the sign instead of squaring it.",
+      D: "This squares 2x as a unit, computing (−8)² − 3, instead of squaring only x.",
+    },
+    verification: {
+      kind: "value",
+      compute: "2 * (-4) * (-4) - 3",
+      choiceValues: values(["-35", "13", "29", "61"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-nf-002",
+    skillId: "math-nonlinear-functions",
+    difficulty: "medium",
+    format: "single-select",
+    stem: "A population of bacteria doubles every 3 hours. There are 500 bacteria at time t = 0. Which function gives the number of bacteria, P(t), after t hours?",
+    choices: choices([
+      "P(t) = 500 · 2^(t/3)",
+      "P(t) = 500 · 2^(3t)",
+      "P(t) = 500 · 3^(t/2)",
+      "P(t) = 500 + 2(t/3)",
+    ]),
+    answer: "A",
+    nearMiss: "B",
+    explanation:
+      "The population is multiplied by 2 once every 3 hours, so after t hours it has doubled t/3 times: P(t) = 500 · 2^(t/3).",
+    rationales: {
+      B: "This doubles the population 3 times every hour instead of once every 3 hours.",
+      C: "This swaps the growth factor and the doubling time, so the population triples every 2 hours.",
+      D: "This adds a small amount each hour, which is linear growth, not doubling.",
+    },
+    verification: {
+      kind: "expression",
+      variables: ["t"],
+      compute: "500 * 2 ** (t / 3)",
+      choiceExpressions: values([
+        "500 * 2 ** (t / 3)",
+        "500 * 2 ** (3 * t)",
+        "500 * 3 ** (t / 2)",
+        "500 + 2 * (t / 3)",
+      ]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-nf-003",
+    skillId: "math-nonlinear-functions",
+    difficulty: "medium",
+    format: "grid-in",
+    stem: "The function g is defined by g(x) = (x − 3)(x + 7). In the xy-plane, what is the x-coordinate of the vertex of the graph of y = g(x)?",
+    acceptedAnswers: ["-2"],
+    explanation:
+      "The zeros are x = 3 and x = −7. A parabola's vertex lies halfway between its zeros, at x = (3 + (−7)) / 2 = −2.",
+    verification: { kind: "value", compute: "(3 + -7) / 2" },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-nf-004",
+    skillId: "math-nonlinear-functions",
+    difficulty: "medium",
+    format: "single-select",
+    stem: "A ball is thrown upward. Its height, in feet, t seconds after it is thrown is h(t) = −16t² + 48t + 6. What is the greatest height, in feet, the ball reaches?",
+    choices: choices(["1.5", "38", "54", "42"]),
+    answer: "D",
+    nearMiss: "A",
+    explanation:
+      "The vertex is at t = −48 / (2 × −16) = 1.5 seconds. Then h(1.5) = −16(2.25) + 48(1.5) + 6 = −36 + 72 + 6 = 42 feet.",
+    rationales: {
+      A: "This is the time when the ball is highest, not its height at that time.",
+      B: "This evaluates h at t = 1 instead of at the vertex.",
+      C: "This adds 48 and 6 and ignores the squared term.",
+    },
+    verification: {
+      kind: "value",
+      compute: "-16 * (48 / 32) ** 2 + 48 * (48 / 32) + 6",
+      choiceValues: values(["1.5", "38", "54", "42"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-nf-005",
+    skillId: "math-nonlinear-functions",
+    difficulty: "hard",
+    format: "single-select",
+    stem: "The value, in thousands of dollars, of a machine t years after purchase is modeled by V(t) = 48(0.8)^t. By what percent does the machine's value decrease each year?",
+    choices: choices(["80%", "20%", "0.8%", "48%"]),
+    answer: "B",
+    nearMiss: "A",
+    explanation:
+      "Each year the value is multiplied by 0.8, so it keeps 80% of its value and loses 1 − 0.8 = 0.2, or 20%.",
+    rationales: {
+      A: "This is the percent of the value that remains each year, not the percent that is lost.",
+      C: "This reads the factor 0.8 as a percent instead of converting it.",
+      D: "This uses the starting value instead of the yearly factor.",
+    },
+    verification: {
+      kind: "value",
+      compute: "(1 - 0.8) * 100",
+      choiceValues: values(["80", "20", "0.8", "48"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-nf-006",
+    skillId: "math-nonlinear-functions",
+    difficulty: "hard",
+    format: "grid-in",
+    stem: "The function h is defined by h(x) = ax² + 12x + c, where a and c are constants. The vertex of the graph of y = h(x) is (3, 20). What is the value of c?",
+    acceptedAnswers: ["2"],
+    explanation:
+      "The vertex's x-coordinate is −12 / (2a) = 3, so a = −2. Then h(3) = −2(9) + 12(3) + c = 18 + c = 20, so c = 2.",
+    verification: { kind: "value", compute: "20 - (-12 / (2 * 3)) * 9 - 12 * 3" },
+  },
+
+  // Nonlinear equations and systems
+  {
+    schemaVersion: 1,
+    id: "tp-math-ne-001",
+    skillId: "math-nonlinear-equations",
+    difficulty: "easy",
+    format: "single-select",
+    stem: "What is the positive solution to x² + 3x − 28 = 0?",
+    choices: choices(["4", "7", "28", "3"]),
+    answer: "A",
+    nearMiss: "B",
+    explanation:
+      "Factor: (x + 7)(x − 4) = 0, so x = −7 or x = 4. The positive solution is 4.",
+    rationales: {
+      B: "This is the size of the negative solution, −7, with its sign dropped.",
+      C: "This is the constant term, which is the product of the solutions with a sign change, not a solution.",
+      D: "This is the coefficient of x, which is related to the sum of the solutions, not to either one.",
+    },
+    verification: {
+      kind: "predicate",
+      variables: ["x"],
+      condition: "x * x + 3 * x - 28 === 0 && x > 0",
+      choicePoints: values([[4], [7], [28], [3]]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ne-002",
+    skillId: "math-nonlinear-equations",
+    difficulty: "medium",
+    format: "grid-in",
+    stem: "What is the solution to the equation √(2x + 9) = x − 3?",
+    acceptedAnswers: ["8"],
+    explanation:
+      "Square both sides: 2x + 9 = x² − 6x + 9, so x² − 8x = 0 and x = 0 or x = 8. Check each: x = 0 gives √9 = −3, which is false, so 0 is extraneous. x = 8 gives √25 = 5, which is true.",
+    verification: { kind: "value", compute: "(8 + Math.sqrt(8 * 8 - 0)) / 2" },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ne-003",
+    skillId: "math-nonlinear-equations",
+    difficulty: "medium",
+    format: "single-select",
+    stem: "How many solutions does the system y = x² − 4x + 1 and y = 2x − 8 have?",
+    choices: choices(["Zero", "Infinitely many", "Exactly one", "Exactly two"]),
+    answer: "C",
+    nearMiss: "D",
+    explanation:
+      "Set the expressions equal: x² − 4x + 1 = 2x − 8, so x² − 6x + 9 = 0, which is (x − 3)² = 0. There is one value of x, so the line touches the parabola at exactly one point.",
+    rationales: {
+      A: "This misreads the zero discriminant as negative, but a discriminant of 0 means one real solution.",
+      B: "This would require the two graphs to be the same, but one is a line and the other a parabola.",
+      D: "This assumes a line always crosses a parabola twice, but here it is tangent to the parabola.",
+    },
+    verification: {
+      kind: "value",
+      compute: "(6 * 6 - 4 * 9) === 0 ? 1 : (6 * 6 - 4 * 9) > 0 ? 2 : 0",
+      choiceValues: values(["0", "Infinity", "1", "2"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ne-004",
+    skillId: "math-nonlinear-equations",
+    difficulty: "medium",
+    format: "single-select",
+    stem: "What is the sum of all solutions to (x + 5)² = 36?",
+    choices: choices(["1", "−10", "10", "6"]),
+    answer: "B",
+    nearMiss: "A",
+    explanation:
+      "Take both square roots: x + 5 = 6 or x + 5 = −6, so x = 1 or x = −11. Their sum is −10.",
+    rationales: {
+      A: "This uses only the positive square root and finds one solution, x = 1.",
+      C: "This makes sign errors in both solutions, getting −1 and 11.",
+      D: "This is the square root of 36, not a sum of solutions.",
+    },
+    verification: {
+      kind: "value",
+      compute: "(-5 + 6) + (-5 - 6)",
+      choiceValues: values(["1", "-10", "10", "6"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ne-005",
+    skillId: "math-nonlinear-equations",
+    difficulty: "hard",
+    format: "single-select",
+    stem: "In the equation x² + bx + 25 = 0, b is a positive constant. For what value of b does the equation have exactly one real solution?",
+    choices: choices(["5", "25", "50", "10"]),
+    answer: "D",
+    nearMiss: "A",
+    explanation:
+      "One real solution means the discriminant is zero: b² − 4(1)(25) = 0, so b² = 100 and b = 10. Then the equation is (x + 5)² = 0.",
+    rationales: {
+      A: "This is the square root of 25, which is the solution's size, not the coefficient b.",
+      B: "This copies the constant term instead of solving b² = 100.",
+      C: "This doubles 25 instead of taking the square root of 4 × 25.",
+    },
+    verification: {
+      kind: "value",
+      compute: "Math.sqrt(4 * 1 * 25)",
+      choiceValues: values(["5", "25", "50", "10"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ne-006",
+    skillId: "math-nonlinear-equations",
+    difficulty: "hard",
+    format: "grid-in",
+    stem: "What value of x satisfies 3 / (x − 2) = 2 / (x + 1)?",
+    acceptedAnswers: ["-7"],
+    explanation:
+      "Cross-multiply: 3(x + 1) = 2(x − 2), so 3x + 3 = 2x − 4 and x = −7. This value does not make either denominator zero.",
+    verification: { kind: "value", compute: "(-4 - 3) / (3 - 2)" },
+  },
+
+  // Equivalent expressions
+  {
+    schemaVersion: 1,
+    id: "tp-math-ee-001",
+    skillId: "math-equivalent-expressions",
+    difficulty: "easy",
+    format: "single-select",
+    stem: "Which expression is equivalent to 3(2x − 5) − (x − 4)?",
+    choices: choices(["5x − 19", "5x − 11", "7x − 11", "5x − 1"]),
+    answer: "B",
+    nearMiss: "A",
+    explanation: "Distribute: 6x − 15 − x + 4. Combine like terms: 5x − 11.",
+    rationales: {
+      A: "This subtracts x but forgets that subtracting −4 adds 4.",
+      C: "This adds x instead of subtracting it.",
+      D: "This distributes the 3 to 2x only, leaving −5 + 4.",
+    },
+    verification: {
+      kind: "expression",
+      variables: ["x"],
+      compute: "3 * (2 * x - 5) - (x - 4)",
+      choiceExpressions: values(["5 * x - 19", "5 * x - 11", "7 * x - 11", "5 * x - 1"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ee-002",
+    skillId: "math-equivalent-expressions",
+    difficulty: "medium",
+    format: "single-select",
+    stem: "For x ≠ −3, which expression is equivalent to (x² − 9) / (x + 3)?",
+    choices: choices(["x + 3", "x² − 3", "x − 3", "x − 9"]),
+    answer: "C",
+    nearMiss: "A",
+    explanation:
+      "The numerator is a difference of squares: x² − 9 = (x − 3)(x + 3). Dividing by x + 3 leaves x − 3.",
+    rationales: {
+      A: "This keeps the factor that cancels instead of the one that remains.",
+      B: "This divides the 9 by 3 and leaves x² unchanged.",
+      D: "This cancels x terms but keeps the whole constant.",
+    },
+    verification: {
+      kind: "expression",
+      variables: ["x"],
+      samples: [-2, 0, 1, 5, 8],
+      compute: "(x * x - 9) / (x + 3)",
+      choiceExpressions: values(["x + 3", "x * x - 3", "x - 3", "x - 9"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ee-003",
+    skillId: "math-equivalent-expressions",
+    difficulty: "medium",
+    format: "single-select",
+    stem: "Which expression is equivalent to (2x + 3)²?",
+    choices: choices(["4x² + 12x + 9", "4x² + 6x + 9", "4x² + 9", "2x² + 6x + 9"]),
+    answer: "A",
+    nearMiss: "B",
+    explanation: "(2x + 3)² = (2x)² + 2(2x)(3) + 3² = 4x² + 12x + 9.",
+    rationales: {
+      B: "This finds the product of the terms, 6x, but forgets to double it.",
+      C: "This squares each term separately and leaves out the middle term.",
+      D: "This multiplies 2x by 3 for the middle term and treats (2x)² as 2x², missing two steps.",
+    },
+    verification: {
+      kind: "expression",
+      variables: ["x"],
+      compute: "(2 * x + 3) ** 2",
+      choiceExpressions: values([
+        "4 * x * x + 12 * x + 9",
+        "4 * x * x + 6 * x + 9",
+        "4 * x * x + 9",
+        "2 * x * x + 6 * x + 9",
+      ]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ee-004",
+    skillId: "math-equivalent-expressions",
+    difficulty: "medium",
+    format: "grid-in",
+    stem: "The expression (3x + 4)(x − 2) is written in the form ax² + bx + c, where a, b, and c are constants. What is the value of b?",
+    acceptedAnswers: ["-2"],
+    explanation: "Multiply: 3x² − 6x + 4x − 8 = 3x² − 2x − 8, so b = −2.",
+    verification: { kind: "value", compute: "3 * -2 + 4 * 1" },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ee-005",
+    skillId: "math-equivalent-expressions",
+    difficulty: "hard",
+    format: "single-select",
+    stem: "For x > 0, which expression is equivalent to √(x⁵ · x³)?",
+    choices: choices(["x²", "x¹⁵", "x⁸", "x⁴"]),
+    answer: "D",
+    nearMiss: "C",
+    explanation:
+      "Add the exponents first: x⁵ · x³ = x⁸. A square root halves the exponent, so √(x⁸) = x⁴.",
+    rationales: {
+      A: "This takes the square root twice, halving the exponent 8 two times.",
+      B: "This multiplies the exponents instead of adding them, and then skips the square root.",
+      C: "This combines the powers correctly but does not take the square root.",
+    },
+    verification: {
+      kind: "expression",
+      variables: ["x"],
+      samples: [0.5, 1.5, 2, 3],
+      compute: "Math.sqrt(x ** 5 * x ** 3)",
+      choiceExpressions: values(["x ** 2", "x ** 15", "x ** 8", "x ** 4"]),
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-math-ee-006",
+    skillId: "math-equivalent-expressions",
+    difficulty: "hard",
+    format: "single-select",
+    stem: "If 4x − 6y = 10, what is the value of 6x − 9y?",
+    choices: choices(["10", "20", "15", "30"]),
+    answer: "C",
+    nearMiss: "A",
+    explanation:
+      "Notice that 6x − 9y = (3/2)(4x − 6y). So 6x − 9y = (3/2)(10) = 15. There is no need to find x or y.",
+    rationales: {
+      A: "This assumes the new expression has the same value without checking the scale factor.",
+      B: "This doubles the given value, but the scale factor from 4x − 6y to 6x − 9y is 3/2.",
+      D: "This multiplies by 3 instead of by 3/2.",
+    },
+    verification: {
+      kind: "value",
+      compute: "10 * (6 / 4)",
+      choiceValues: values(["10", "20", "15", "30"]),
+    },
+  },
+];

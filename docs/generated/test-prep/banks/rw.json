@@ -1,0 +1,2771 @@
+{
+  "schemaVersion": 1,
+  "sectionId": "rw",
+  "items": [
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ci-001",
+      "skillId": "rw-central-ideas",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-muir-hitched",
+      "stem": "In this journal entry, John Muir describes the Sierra Nevada mountains. Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Muir explains how mountain streams carry away the waste that earlier visitors left behind."
+        },
+        {
+          "id": "B",
+          "text": "Muir finds the mountain landscape full of life and meaning, with each part connected to the rest."
+        },
+        {
+          "id": "C",
+          "text": "Muir argues that the mountains are interesting only to people who study them very closely."
+        },
+        {
+          "id": "D",
+          "text": "Muir describes speaking aloud to the plants and animals as his way of passing long, lonely days."
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "D",
+      "explanation": "Muir says nothing in the landscape is dead or dull, that everything is full of lessons, and that anything we try to pick out is “hitched to everything else in the universe.” The text's main idea is this living, connected quality.",
+      "rationales": {
+        "A": "Muir says the landscape holds no trace of rubbish or waste, so there is nothing for streams to carry away.",
+        "C": "Muir says the interest attaches to everything, not that only close study makes it interesting.",
+        "D": "Muir only says “we feel like” speaking to plants and animals, a figure for feeling kinship, not a habit he describes."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Central Ideas and Details",
+      "passage": {
+        "id": "tp-p-muir-hitched",
+        "text": "No Sierra landscape that I have seen holds anything truly dead or dull, or any trace of what in manufactories is called rubbish or waste; everything is perfectly clean and pure and full of divine lessons. This quick, inevitable interest attaching to everything seems marvelous until the hand of God becomes visible; then it seems reasonable that what interests Him may well interest us. When we try to pick out anything by itself, we find it hitched to everything else in the universe. One fancies a heart like our own must be beating in every crystal and cell, and we feel like stopping to speak to the plants and animals as friendly fellow mountaineers.",
+        "source": {
+          "author": "John Muir",
+          "title": "My First Summer in the Sierra",
+          "year": 1911,
+          "publication": "Houghton Mifflin",
+          "url": "https://www.gutenberg.org/ebooks/32540",
+          "basis": "us-pre-1931",
+          "gutenberg": 32540
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ci-002",
+      "skillId": "rw-central-ideas",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-zitkala-oversight",
+      "stem": "In this text, Zitkala-Ša recalls learning beadwork from her mother as a child. Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The narrator's mother insisted on complicated designs and would not let her daughter use simple shapes."
+        },
+        {
+          "id": "B",
+          "text": "The narrator preferred simple shapes because her mother praised them more than any original design."
+        },
+        {
+          "id": "C",
+          "text": "The narrator's mother scolded her so often that the narrator became afraid to make choices of her own."
+        },
+        {
+          "id": "D",
+          "text": "The narrator's quiet, watchful mother made her feel trusted and responsible for her own work."
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "C",
+      "explanation": "The narrator says the “quietness of her oversight” made her feel “strongly responsible and dependent upon my own judgment,” and that her mother treated her as “a dignified little individual.” That trust and responsibility is the main idea.",
+      "rationales": {
+        "A": "The narrator says she usually drew “easy and simple crosses and squares,” and nothing suggests her mother forbade them.",
+        "B": "The text names faults her mother disliked in original designs but never says her mother praised simple shapes more.",
+        "C": "A rebuke is mentioned once, and it humiliated the narrator because rebukes were rare, not because they were constant."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Central Ideas and Details",
+      "passage": {
+        "id": "tp-p-zitkala-oversight",
+        "text": "After some experience I usually drew easy and simple crosses and squares. These were some of the set forms. My original designs were not always symmetrical nor sufficiently characteristic, two faults with which my mother had little patience. The quietness of her oversight made me feel strongly responsible and dependent upon my own judgment. She treated me as a dignified little individual as long as I was on my good behavior; and how humiliated I was when some boldness of mine drew forth a rebuke from her!",
+        "source": {
+          "author": "Zitkala-Ša",
+          "title": "American Indian Stories",
+          "year": 1921,
+          "publication": "Hayworth Publishing House",
+          "url": "https://www.gutenberg.org/ebooks/10376",
+          "basis": "us-pre-1931",
+          "gutenberg": 10376
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ci-003",
+      "skillId": "rw-central-ideas",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-washington-sweeping",
+      "stem": "In this text, Booker T. Washington recalls arriving at a school that had not yet decided whether to admit him. Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Washington saw an ordinary cleaning task as a chance to prove that he deserved to be admitted."
+        },
+        {
+          "id": "B",
+          "text": "Washington was annoyed that the head teacher assigned him a chore instead of a real examination."
+        },
+        {
+          "id": "C",
+          "text": "Washington worried that he did not know how to sweep a room well enough to satisfy the teacher."
+        },
+        {
+          "id": "D",
+          "text": "Washington believed the head teacher had already decided to admit him before he began sweeping."
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "D",
+      "explanation": "Washington calls the order “my chance,” receives it “with more delight” than any order, and feels his “future depended upon the impression” the cleaning made. He treats the chore as a test of his worth.",
+      "rationales": {
+        "B": "Washington says he never received an order with more delight, which is the opposite of annoyance.",
+        "C": "Nothing in the text expresses doubt about his ability to sweep; he sees the task only as an opportunity.",
+        "D": "Washington says his future depended on the impression he made, so he did not think the decision was already made."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Central Ideas and Details",
+      "passage": {
+        "id": "tp-p-washington-sweeping",
+        "text": "After some hours had passed, the head teacher said to me: “The adjoining recitation-room needs sweeping. Take the broom and sweep it.”\n\nIt occurred to me at once that here was my chance. Never did I receive an order with more delight. . . . I had the feeling that in a large measure my future depended upon the impression I made upon the teacher in the cleaning of that room.",
+        "source": {
+          "author": "Booker T. Washington",
+          "title": "Up from Slavery: An Autobiography",
+          "year": 1901,
+          "publication": "Doubleday, Page & Co.",
+          "url": "https://www.gutenberg.org/ebooks/2376",
+          "basis": "us-pre-1931",
+          "gutenberg": 2376
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ci-004",
+      "skillId": "rw-central-ideas",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-darwin-turf",
+      "stem": "Which choice best states the main idea of this text by Charles Darwin?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Worms damage the smooth surface of fields, so the turf must be repaired every few years."
+        },
+        {
+          "id": "B",
+          "text": "The beauty of a field depends mostly on the kinds of grass that grow in it."
+        },
+        {
+          "id": "C",
+          "text": "Worms, though easily overlooked, steadily reshape the soil that forms a smooth field."
+        },
+        {
+          "id": "D",
+          "text": "The soil of a field is replaced every few years by soil carried in from elsewhere."
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "D",
+      "explanation": "Darwin says a field's smoothness is “mainly due to” worms levelling it and that all the surface soil passes through worms every few years. The main idea is that unnoticed worms keep reshaping the land's surface.",
+      "rationales": {
+        "A": "Darwin credits worms with creating the smoothness, not with damaging it.",
+        "B": "Darwin attributes the field's beauty to its smoothness, which worms produce, and does not discuss kinds of grass.",
+        "D": "The soil passes through the bodies of worms on the spot; Darwin does not say it is replaced from somewhere else."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Central Ideas and Details",
+      "passage": {
+        "id": "tp-p-darwin-turf",
+        "text": "When we behold a wide, turf-covered expanse, we should remember that its smoothness, on which so much of its beauty depends, is mainly due to all the inequalities having been slowly levelled by worms. It is a marvellous reflection that the whole of the superficial mould over any such expanse has passed, and will again pass, every few years through the bodies of worms.",
+        "source": {
+          "author": "Charles Darwin",
+          "title": "The Formation of Vegetable Mould, through the Action of Worms",
+          "year": 1881,
+          "publication": "John Murray",
+          "url": "https://www.gutenberg.org/ebooks/2355",
+          "basis": "us-pre-1931",
+          "gutenberg": 2355
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ce-001",
+      "skillId": "rw-command-of-evidence",
+      "variant": "textual",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-thoreau-woods",
+      "quotesPassage": true,
+      "stem": "In Walden, Henry David Thoreau explains why he went to live alone in the woods. Which quotation from the text most effectively illustrates the claim that Thoreau wanted to experience life honestly even if it turned out to be disappointing?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“I did not wish to live what was not life, living is so dear”"
+        },
+        {
+          "id": "B",
+          "text": "“to cut a broad swath and shave close”"
+        },
+        {
+          "id": "C",
+          "text": "“if it proved to be mean, why then to get the whole and genuine meanness of it”"
+        },
+        {
+          "id": "D",
+          "text": "“nor did I wish to practise resignation, unless it was quite necessary”"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "“Mean” here means poor or worthless. Thoreau says that if life proved mean, he wanted to know “the whole and genuine meanness of it,” so he would accept a disappointing truth rather than avoid it.",
+      "rationales": {
+        "A": "This shows that Thoreau valued real life, but it says nothing about accepting life if it proved disappointing.",
+        "B": "This describes living thoroughly, but it does not address what he would do if life turned out to be disappointing.",
+        "D": "This says he did not want to give up and accept things, which is not the same as facing a disappointing truth."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Command of Evidence",
+      "passage": {
+        "id": "tp-p-thoreau-woods",
+        "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life, to cut a broad swath and shave close, to drive life into a corner, and reduce it to its lowest terms, and, if it proved to be mean, why then to get the whole and genuine meanness of it, and publish its meanness to the world; or if it were sublime, to know it by experience, and be able to give a true account of it in my next excursion.",
+        "source": {
+          "author": "Henry David Thoreau",
+          "title": "Walden",
+          "year": 1854,
+          "publication": "Ticknor and Fields",
+          "url": "https://www.gutenberg.org/ebooks/205",
+          "basis": "us-pre-1931",
+          "gutenberg": 205
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ce-002",
+      "skillId": "rw-command-of-evidence",
+      "variant": "textual",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-muir-lily",
+      "quotesPassage": true,
+      "stem": "In this journal entry, John Muir describes finding a lily. Which quotation from the text most effectively illustrates the claim that Muir thought the lily was worth suffering hardship to see?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“A lovely flower, worth going hungry and footsore endless miles to see.”"
+        },
+        {
+          "id": "B",
+          "text": "“Its bulbs are buried in shaggy chaparral tangles, I suppose for safety from pawing bears”"
+        },
+        {
+          "id": "C",
+          "text": "“big, bold, blunt-nosed bees drone and mumble in its polleny bells”"
+        },
+        {
+          "id": "D",
+          "text": "“The whole world seems richer now that I have found this plant in so noble a landscape.”"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "D",
+      "explanation": "Going “hungry and footsore endless miles” names real hardship, and Muir says the lily is “worth” it. This quotation states the claim directly.",
+      "rationales": {
+        "B": "This explains where the bulbs grow and why, without saying anything about hardship worth enduring.",
+        "C": "This describes the bees visiting the flower rather than what the flower is worth to Muir.",
+        "D": "This shows how much Muir values the lily, but it does not mention any hardship he would endure."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Command of Evidence",
+      "passage": {
+        "id": "tp-p-muir-lily",
+        "text": "Found the white fragrant Washington lily, the finest of all the Sierra lilies. Its bulbs are buried in shaggy chaparral tangles, I suppose for safety from pawing bears; and its magnificent panicles sway and rock over the top of the rough snow-pressed bushes, while big, bold, blunt-nosed bees drone and mumble in its polleny bells. A lovely flower, worth going hungry and footsore endless miles to see. The whole world seems richer now that I have found this plant in so noble a landscape.",
+        "source": {
+          "author": "John Muir",
+          "title": "My First Summer in the Sierra",
+          "year": 1911,
+          "publication": "Houghton Mifflin",
+          "url": "https://www.gutenberg.org/ebooks/32540",
+          "basis": "us-pre-1931",
+          "gutenberg": 32540
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ce-003",
+      "skillId": "rw-command-of-evidence",
+      "variant": "textual",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-herland-friends",
+      "quotesPassage": true,
+      "stem": "In this passage from Herland, the narrator, Vandyck Jennings, describes himself and his friends Terry and Jeff. Which quotation from the text most effectively illustrates the claim that the narrator values a subject mainly for what it shows about people?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“As for me, sociology's my major. You have to back that up with a lot of other sciences, of course.”"
+        },
+        {
+          "id": "B",
+          "text": "“I'm interested in them all.”"
+        },
+        {
+          "id": "C",
+          "text": "“Terry was strong on facts—geography and meteorology and those”"
+        },
+        {
+          "id": "D",
+          "text": "“I didn't care what it was they talked about, so long as it connected with human life”"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "B",
+      "explanation": "The narrator says the topic itself does not matter to him “so long as it connected with human life.” That condition shows he values subjects for what they reveal about people.",
+      "rationales": {
+        "A": "Naming his major and the sciences behind it shows what he studies, not why a subject matters to him.",
+        "B": "This shows the narrator's broad interests, but not that his interest depends on a subject's connection to people.",
+        "C": "This describes Terry's strengths rather than the narrator's own values."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Command of Evidence",
+      "passage": {
+        "id": "tp-p-herland-friends",
+        "text": "As for me, sociology's my major. You have to back that up with a lot of other sciences, of course. I'm interested in them all.\n\nTerry was strong on facts—geography and meteorology and those; Jeff could beat him any time on biology, and I didn't care what it was they talked about, so long as it connected with human life, somehow. There are few things that don't.",
+        "source": {
+          "author": "Charlotte Perkins Gilman",
+          "title": "Herland",
+          "year": 1915,
+          "publication": "The Forerunner",
+          "url": "https://www.gutenberg.org/ebooks/32",
+          "basis": "us-pre-1931",
+          "gutenberg": 32
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ce-004",
+      "skillId": "rw-command-of-evidence",
+      "variant": "quantitative",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-thoreau-house",
+      "table": {
+        "title": "Cost of the materials for Thoreau's house",
+        "columns": [
+          "Material",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Boards",
+            "$8.03½"
+          ],
+          [
+            "Refuse shingles for roof sides",
+            "$4.00"
+          ],
+          [
+            "Laths",
+            "$1.25"
+          ],
+          [
+            "Two second-hand windows with glass",
+            "$2.43"
+          ],
+          [
+            "One thousand old brick",
+            "$4.00"
+          ],
+          [
+            "Two casks of lime",
+            "$2.40"
+          ],
+          [
+            "Hair",
+            "$0.31"
+          ],
+          [
+            "Mantle-tree iron",
+            "$0.15"
+          ],
+          [
+            "Nails",
+            "$3.90"
+          ],
+          [
+            "Hinges and screws",
+            "$0.14"
+          ],
+          [
+            "Latch",
+            "$0.10"
+          ],
+          [
+            "Chalk",
+            "$0.01"
+          ],
+          [
+            "Transportation",
+            "$1.40"
+          ],
+          [
+            "In all",
+            "$28.12½"
+          ]
+        ],
+        "data": {
+          "label": "Henry David Thoreau, Walden (1854)",
+          "url": "https://www.gutenberg.org/ebooks/205"
+        }
+      },
+      "stem": "Henry David Thoreau built a small house near Walden Pond and listed what its materials cost. A student claims that boards were the most expensive material Thoreau bought for the house. Which choice most effectively uses data from the table to support the student's claim?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The materials for the house cost $28.12½ in all, and the boards cost $8.03½."
+        },
+        {
+          "id": "B",
+          "text": "The boards cost $8.03½, while no other material cost more than $4.00."
+        },
+        {
+          "id": "C",
+          "text": "The shingles and the bricks cost $4.00 each, more than the $3.90 spent on nails."
+        },
+        {
+          "id": "D",
+          "text": "Thoreau spent only $0.01 on chalk, the least he spent on any material."
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "To show that boards cost the most, the boards must be compared with every other material. The boards cost $8.03½, and the next highest costs in the table are $4.00, so this choice supports the claim.",
+      "rationales": {
+        "A": "These figures are accurate, but comparing the boards with the total does not show that they cost more than each other material.",
+        "C": "This compares other materials with one another and says nothing about the boards.",
+        "D": "Identifying the least expensive material does not show which one was most expensive."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Command of Evidence",
+      "passage": {
+        "id": "tp-p-thoreau-house",
+        "text": "I have thus a tight shingled and plastered house, ten feet wide by fifteen long, and eight-feet posts, with a garret and a closet, a large window on each side, two trap doors, one door at the end, and a brick fireplace opposite.",
+        "source": {
+          "author": "Henry David Thoreau",
+          "title": "Walden",
+          "year": 1854,
+          "publication": "Ticknor and Fields",
+          "url": "https://www.gutenberg.org/ebooks/205",
+          "basis": "us-pre-1931",
+          "gutenberg": 205
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ce-005",
+      "skillId": "rw-command-of-evidence",
+      "variant": "quantitative",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-darwin-tons",
+      "table": {
+        "title": "Darwin's estimates of earth brought to the surface by worms",
+        "columns": [
+          "Site",
+          "Country",
+          "Dry earth per acre in one year (tons)"
+        ],
+        "rows": [
+          [
+            "Near Nice",
+            "France",
+            "14.58"
+          ],
+          [
+            "Valley pasture near Down, Kent",
+            "England",
+            "18.12"
+          ],
+          [
+            "Old terrace at Leith Hill Place",
+            "England",
+            "7.56"
+          ],
+          [
+            "Leith Hill Common",
+            "England",
+            "16.1"
+          ]
+        ],
+        "data": {
+          "label": "Charles Darwin, The Formation of Vegetable Mould, through the Action of Worms (1881)",
+          "url": "https://www.gutenberg.org/ebooks/2355"
+        }
+      },
+      "stem": "In this text, Charles Darwin describes the earthworms of England. The table shows estimates he made at four sites by weighing the castings (soil that worms bring to the surface) collected over a period of time. Which choice most effectively uses data from the table to support Darwin's claim?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "At two of the three sites in England, the estimate is more than 10 tons of earth per acre in a year."
+        },
+        {
+          "id": "B",
+          "text": "At every site in the table, the estimate is more than 10 tons of earth per acre in a year."
+        },
+        {
+          "id": "C",
+          "text": "At the site near Nice, in France, the estimate is more than 14 tons of earth per acre in a year."
+        },
+        {
+          "id": "D",
+          "text": "The old terrace at Leith Hill Place has the smallest estimate of the four sites in the table."
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "Darwin claims that in “many parts of England” more than ten tons of earth pass through worms on each acre every year. Two of the three English sites, at 18.12 and 16.1 tons, are above ten tons, which supports a claim about many parts, though not all, of England.",
+      "rationales": {
+        "B": "This is inaccurate, because the terrace at Leith Hill Place is estimated at only 7.56 tons.",
+        "C": "This is accurate, but Nice is in France, and Darwin's claim concerns England.",
+        "D": "This is accurate, but a site below ten tons does not support a claim that many places exceed ten tons."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Command of Evidence",
+      "passage": {
+        "id": "tp-p-darwin-tons",
+        "text": "In many parts of England a weight of more than ten tons (10,516 kilogrammes) of dry earth annually passes through their bodies and is brought to the surface on each acre of land; so that the whole superficial bed of vegetable mould passes through their bodies in the course of every few years.",
+        "source": {
+          "author": "Charles Darwin",
+          "title": "The Formation of Vegetable Mould, through the Action of Worms",
+          "year": 1881,
+          "publication": "John Murray",
+          "url": "https://www.gutenberg.org/ebooks/2355",
+          "basis": "us-pre-1931",
+          "gutenberg": 2355
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ce-006",
+      "skillId": "rw-command-of-evidence",
+      "variant": "quantitative",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-thoreau-beans",
+      "table": {
+        "title": "Thoreau's bean field accounts for one season",
+        "columns": [
+          "Item",
+          "Outgo or income",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "For a hoe",
+            "Outgo",
+            "$0.54"
+          ],
+          [
+            "Plowing, harrowing, and furrowing",
+            "Outgo",
+            "$7.50"
+          ],
+          [
+            "Beans for seed",
+            "Outgo",
+            "$3.12½"
+          ],
+          [
+            "Potatoes for seed",
+            "Outgo",
+            "$1.33"
+          ],
+          [
+            "Peas for seed",
+            "Outgo",
+            "$0.40"
+          ],
+          [
+            "Turnip seed",
+            "Outgo",
+            "$0.06"
+          ],
+          [
+            "White line for crow fence",
+            "Outgo",
+            "$0.02"
+          ],
+          [
+            "Horse cultivator and boy three hours",
+            "Outgo",
+            "$1.00"
+          ],
+          [
+            "Horse and cart to get crop",
+            "Outgo",
+            "$0.75"
+          ],
+          [
+            "All outgoes",
+            "Outgo",
+            "$14.72½"
+          ],
+          [
+            "Nine bushels and twelve quarts of beans sold",
+            "Income",
+            "$16.94"
+          ],
+          [
+            "Five bushels large potatoes",
+            "Income",
+            "$2.50"
+          ],
+          [
+            "Nine bushels small potatoes",
+            "Income",
+            "$2.25"
+          ],
+          [
+            "Grass",
+            "Income",
+            "$1.00"
+          ],
+          [
+            "Stalks",
+            "Income",
+            "$0.75"
+          ],
+          [
+            "All income",
+            "Income",
+            "$23.44"
+          ]
+        ],
+        "data": {
+          "label": "Henry David Thoreau, Walden (1854)",
+          "url": "https://www.gutenberg.org/ebooks/205"
+        }
+      },
+      "stem": "Thoreau farmed a field for one season and recorded his costs, which he called outgoes, and his income. A student claims that the field earned a profit mainly because of the beans Thoreau sold. Which choice most effectively uses data from the table to support the student's claim?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "His total income of $23.44 was greater than his total outgoes of $14.72½."
+        },
+        {
+          "id": "B",
+          "text": "Plowing, harrowing, and furrowing cost $7.50, more than any other outgo."
+        },
+        {
+          "id": "C",
+          "text": "The beans he sold brought in $16.94, by itself more than his total outgoes of $14.72½."
+        },
+        {
+          "id": "D",
+          "text": "He earned $2.50 from large potatoes and $2.25 from small potatoes."
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "If the bean sales alone, $16.94, exceeded all the outgoes, $14.72½, then the beans by themselves were enough to make the field profitable. That supports the claim that the profit came mainly from beans.",
+      "rationales": {
+        "A": "This shows that the field made a profit, but not that the beans were the main reason.",
+        "B": "This identifies the largest cost, which says nothing about where the profit came from.",
+        "D": "This describes income from potatoes, which does not show that beans produced the profit."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Command of Evidence",
+      "passage": {
+        "id": "tp-p-thoreau-beans",
+        "text": "I harvested twelve bushels of beans.\n\nBut to be more particular, for it is complained that Mr. Coleman has reported chiefly the expensive experiments of gentlemen farmers, my outgoes were . . .",
+        "source": {
+          "author": "Henry David Thoreau",
+          "title": "Walden",
+          "year": 1854,
+          "publication": "Ticknor and Fields",
+          "url": "https://www.gutenberg.org/ebooks/205",
+          "basis": "us-pre-1931",
+          "gutenberg": 205
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-in-001",
+      "skillId": "rw-inferences",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-douglass-argument",
+      "blank": "only served to inspire me with a desire and determination to learn",
+      "stem": "Frederick Douglass recalls overhearing his enslaver warn that learning to read would make Douglass impossible to control. Which choice most logically completes the text?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "led me to give up any hope of learning to read on my own"
+        },
+        {
+          "id": "B",
+          "text": "convinced me that reading would bring me no good, but much harm"
+        },
+        {
+          "id": "C",
+          "text": "persuaded my mistress to secretly begin teaching me once more"
+        },
+        {
+          "id": "D",
+          "text": "only served to inspire me with a desire and determination to learn"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "B",
+      "explanation": "Douglass sets up a pattern of opposites: what his enslaver dreaded, he desired; what was evil to the enslaver was good to him. The enslaver's argument against reading should therefore have the opposite effect and strengthen Douglass's wish to learn.",
+      "rationales": {
+        "A": "This breaks the pattern of opposites, since the enslaver's warning would then have worked as intended.",
+        "B": "This repeats the enslaver's view as if Douglass accepted it, contradicting the reversal the text builds.",
+        "C": "The text describes only Douglass's own response, and nothing suggests his mistress changed her mind."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Inferences",
+      "passage": {
+        "id": "tp-p-douglass-argument",
+        "text": "The very decided manner with which he spoke, and strove to impress his wife with the evil consequences of giving me instruction, served to convince me that he was deeply sensible of the truths he was uttering. . . . What he most dreaded, that I most desired. What he most loved, that I most hated. That which to him was a great evil, to be carefully shunned, was to me a great good, to be diligently sought; and the argument which he so warmly urged, against my learning to read, only served to inspire me with a desire and determination to learn.",
+        "source": {
+          "author": "Frederick Douglass",
+          "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+          "year": 1845,
+          "publication": "Anti-Slavery Office",
+          "url": "https://www.gutenberg.org/ebooks/23",
+          "basis": "us-pre-1931",
+          "gutenberg": 23
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-in-002",
+      "skillId": "rw-inferences",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-zitkala-trials",
+      "blank": "for I had to finish whatever I began",
+      "stem": "In this text, Zitkala-Ša recalls learning beadwork from her mother. Which choice most logically completes the text?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "because my mother allowed me only simple shapes"
+        },
+        {
+          "id": "B",
+          "text": "for I had to finish whatever I began"
+        },
+        {
+          "id": "C",
+          "text": "since complex patterns used too few beads"
+        },
+        {
+          "id": "D",
+          "text": "because simple designs were what my playmates wanted"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "The narrator says long designs used up “many a sunny hour” and calls the lesson “self-inflicted punishment.” The punishment makes sense only if she had to complete every design she started.",
+      "rationales": {
+        "A": "The text says her mother required original designs, so it does not suggest a rule against complex ones.",
+        "C": "Nothing in the text connects the number of beads to the narrator's choice of patterns.",
+        "D": "The text never mentions what her playmates wanted, so this does not explain the narrator's punishment."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Inferences",
+      "passage": {
+        "id": "tp-p-zitkala-trials",
+        "text": "It took many trials before I learned how to knot my sinew thread on the point of my finger, as I saw her do. Then the next difficulty was in keeping my thread stiffly twisted, so that I could easily string my beads upon it. My mother required of me original designs for my lessons in beading. At first I frequently ensnared many a sunny hour into working a long design. Soon I learned from self-inflicted punishment to refrain from drawing complex patterns, for I had to finish whatever I began.",
+        "source": {
+          "author": "Zitkala-Ša",
+          "title": "American Indian Stories",
+          "year": 1921,
+          "publication": "Hayworth Publishing House",
+          "url": "https://www.gutenberg.org/ebooks/10376",
+          "basis": "us-pre-1931",
+          "gutenberg": 10376
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-in-003",
+      "skillId": "rw-inferences",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-herland-inference",
+      "blank": "proof of the high development of Some Where Else",
+      "stem": "In this passage from Herland, the narrator describes the people of a country that had long been cut off from the rest of the world. Which choice most logically completes the text?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "proof of the high development of Some Where Else"
+        },
+        {
+          "id": "B",
+          "text": "a threat that had to be driven away at once"
+        },
+        {
+          "id": "C",
+          "text": "a natural event that needed no further explanation"
+        },
+        {
+          "id": "D",
+          "text": "a sign that the ancient records of other peoples were false"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "D",
+      "explanation": "The people had already inferred that advanced civilizations existed elsewhere. A flying machine from outside would therefore confirm that inference, which also explains why they prepared to receive the visitors.",
+      "rationales": {
+        "B": "The text says they prepared to receive the visitors “cautiously and eagerly,” not to drive them away.",
+        "C": "A people “keen on inference and deduction” would draw a conclusion from the biplane rather than dismiss it.",
+        "D": "Their records already told them of other peoples, so an aircraft from elsewhere would support those records."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Inferences",
+      "passage": {
+        "id": "tp-p-herland-inference",
+        "text": "[They] had inferred (marvelously keen on inference and deduction their minds were!) the existence and development of civilization in other places, much as we infer it on other planets.\n\nWhen our biplane came whirring over their heads in that first scouting flight of ours, they had instantly accepted it as proof of the high development of Some Where Else, and had prepared to receive us as cautiously and eagerly as we might prepare to welcome visitors who came “by meteor” from Mars.",
+        "source": {
+          "author": "Charlotte Perkins Gilman",
+          "title": "Herland",
+          "year": 1915,
+          "publication": "The Forerunner",
+          "url": "https://www.gutenberg.org/ebooks/32",
+          "basis": "us-pre-1931",
+          "gutenberg": 32
+        },
+        "edits": [
+          {
+            "original": "Nevertheless, they",
+            "replacement": "They"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-in-004",
+      "skillId": "rw-inferences",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-darwin-mississippi",
+      "blank": "less than 4,500,000 years",
+      "stem": "Charles Darwin uses a river to show how quickly running water can wear land away. Which choice most logically completes the text?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "more than 4,500,000 years"
+        },
+        {
+          "id": "B",
+          "text": "about 4,566 years"
+        },
+        {
+          "id": "C",
+          "text": "less than 4,500,000 years"
+        },
+        {
+          "id": "D",
+          "text": "about 748 years"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "If the land is lowered 1 foot every 4,566 years and its average height is 748 feet, wearing it all away takes about 748 × 4,566, or roughly 3.4 million years. That is less than 4,500,000 years.",
+      "rationales": {
+        "A": "This uses the right figure but the wrong direction, since about 3.4 million years is less than 4.5 million.",
+        "B": "This is the time needed to lower the land by only 1 foot, not by its full height.",
+        "D": "This is the land's average height in feet, not a length of time."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-information-ideas",
+      "skillTitle": "Inferences",
+      "passage": {
+        "id": "tp-p-darwin-mississippi",
+        "text": "For the sake of those who have never attended to this subject, a single instance may be here given, namely, that of the Mississippi, which is chosen because the amount of sediment brought down by this great river has been investigated with especial care by order of the United States Government. The result is, as Mr. Croll shows, that the mean level of its enormous area of drainage must be lowered 1/4566 of a foot annually, or 1 foot in 4566 years. Consequently, taking the best estimate of the mean height of the North American continent, viz. 748 feet, and looking to the future, the whole of the great Mississippi basin will be washed away, and “brought down to the sea-level in less than 4,500,000 years, if no elevation of the land takes place.”",
+        "source": {
+          "author": "Charles Darwin",
+          "title": "The Formation of Vegetable Mould, through the Action of Worms",
+          "year": 1881,
+          "publication": "John Murray",
+          "url": "https://www.gutenberg.org/ebooks/2355",
+          "basis": "us-pre-1931",
+          "gutenberg": 2355
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-wic-001",
+      "skillId": "rw-words-in-context",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-zitkala-oversight",
+      "stem": "In this text, Zitkala-Ša recalls learning beadwork from her mother. As used in the text, what does the word “oversight” most nearly mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "supervision"
+        },
+        {
+          "id": "B",
+          "text": "mistake"
+        },
+        {
+          "id": "C",
+          "text": "absence"
+        },
+        {
+          "id": "D",
+          "text": "approval"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "The mother watches her daughter's work and has little patience with its faults, and her quiet watching makes the girl feel responsible. Here “oversight” means watching over someone's work: supervision.",
+      "rationales": {
+        "B": "“Oversight” can mean an error, but nothing in the text describes the mother making a mistake.",
+        "C": "The mother is present and watching closely, so her oversight is not an absence.",
+        "D": "The mother shows impatience with faults and gives rebukes, so her oversight is not simply approval."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Words in Context",
+      "passage": {
+        "id": "tp-p-zitkala-oversight",
+        "text": "After some experience I usually drew easy and simple crosses and squares. These were some of the set forms. My original designs were not always symmetrical nor sufficiently characteristic, two faults with which my mother had little patience. The quietness of her oversight made me feel strongly responsible and dependent upon my own judgment. She treated me as a dignified little individual as long as I was on my good behavior; and how humiliated I was when some boldness of mine drew forth a rebuke from her!",
+        "source": {
+          "author": "Zitkala-Ša",
+          "title": "American Indian Stories",
+          "year": 1921,
+          "publication": "Hayworth Publishing House",
+          "url": "https://www.gutenberg.org/ebooks/10376",
+          "basis": "us-pre-1931",
+          "gutenberg": 10376
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-wic-002",
+      "skillId": "rw-words-in-context",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-douglass-fixed",
+      "blank": "high hope",
+      "stem": "Frederick Douglass describes his decision to keep learning to read after his lessons were stopped. Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "faint hope"
+        },
+        {
+          "id": "B",
+          "text": "false hope"
+        },
+        {
+          "id": "C",
+          "text": "high hope"
+        },
+        {
+          "id": "D",
+          "text": "borrowed hope"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "“Though conscious of the difficulty” sets up a contrast: despite knowing how hard it would be, Douglass set out with strong hope and a “fixed purpose.” “High hope” fits that contrast.",
+      "rationales": {
+        "A": "Faint hope would match the difficulty instead of contrasting with it, and it clashes with his “fixed purpose.”",
+        "B": "False hope would mean he expected to fail, which conflicts with his firm resolve to learn.",
+        "D": "Hope cannot sensibly be borrowed here, and nothing suggests his hope came from someone else."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Words in Context",
+      "passage": {
+        "id": "tp-p-douglass-fixed",
+        "text": "Whilst I was saddened by the thought of losing the aid of my kind mistress, I was gladdened by the invaluable instruction which, by the merest accident, I had gained from my master. Though conscious of the difficulty of learning without a teacher, I set out with high hope, and a fixed purpose, at whatever cost of trouble, to learn how to read.",
+        "source": {
+          "author": "Frederick Douglass",
+          "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+          "year": 1845,
+          "publication": "Anti-Slavery Office",
+          "url": "https://www.gutenberg.org/ebooks/23",
+          "basis": "us-pre-1931",
+          "gutenberg": 23
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-wic-003",
+      "skillId": "rw-words-in-context",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-thoreau-woods",
+      "stem": "In Walden, Henry David Thoreau explains why he went to live alone in the woods. As used in the text, what does the word “deliberately” most nearly mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "at a slow and careful pace"
+        },
+        {
+          "id": "B",
+          "text": "with conscious purpose"
+        },
+        {
+          "id": "C",
+          "text": "without telling anyone"
+        },
+        {
+          "id": "D",
+          "text": "in order to make money"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "Thoreau wants to “front only the essential facts of life” and not discover at death “that I had not lived.” To live deliberately is to live with careful attention and intention.",
+      "rationales": {
+        "A": "“Deliberately” can describe an unhurried pace, but Thoreau's concern is living with intention, not living at a slow speed.",
+        "C": "Thoreau plans to “publish” what he learns to the world, so he is not hiding his purpose from anyone.",
+        "D": "Nothing in the text concerns earning money; his aim is to learn what life has to teach."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Words in Context",
+      "passage": {
+        "id": "tp-p-thoreau-woods",
+        "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life, to cut a broad swath and shave close, to drive life into a corner, and reduce it to its lowest terms, and, if it proved to be mean, why then to get the whole and genuine meanness of it, and publish its meanness to the world; or if it were sublime, to know it by experience, and be able to give a true account of it in my next excursion.",
+        "source": {
+          "author": "Henry David Thoreau",
+          "title": "Walden",
+          "year": 1854,
+          "publication": "Ticknor and Fields",
+          "url": "https://www.gutenberg.org/ebooks/205",
+          "basis": "us-pre-1931",
+          "gutenberg": 205
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-wic-004",
+      "skillId": "rw-words-in-context",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-herland-cats",
+      "stem": "In this passage from Herland, the narrator describes the cats raised by the women of an isolated country. As used in the text, what does the word “rigorously” most nearly mean?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "harshly"
+        },
+        {
+          "id": "B",
+          "text": "quickly"
+        },
+        {
+          "id": "C",
+          "text": "secretly"
+        },
+        {
+          "id": "D",
+          "text": "strictly"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "The cats were produced by “prolonged and careful selection and exclusion,” and they were bred to hunt pests but leave birds alone. “Rigorously” here means strictly and exactly controlled.",
+      "rationales": {
+        "A": "“Rigorous” can suggest severity, but the text stresses careful, exact control rather than harsh treatment of the cats.",
+        "B": "The breeding is described as “prolonged,” the opposite of quick.",
+        "C": "The narrator calls the result “a fact” and describes it openly; nothing about the breeding was hidden."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Words in Context",
+      "passage": {
+        "id": "tp-p-herland-cats",
+        "text": "What do you suppose these Lady Burbanks had done with their cats? By the most prolonged and careful selection and exclusion they had developed a race of cats that did not sing! That's a fact. The most those poor dumb brutes could do was to make a kind of squeak when they were hungry or wanted the door open, and, of course, to purr, and make the various mother-noises to their kittens.\n\nMoreover, they had ceased to kill birds. They were rigorously bred to destroy mice and moles and all such enemies of the food supply; but the birds were numerous and safe.",
+        "source": {
+          "author": "Charlotte Perkins Gilman",
+          "title": "Herland",
+          "year": 1915,
+          "publication": "The Forerunner",
+          "url": "https://www.gutenberg.org/ebooks/32",
+          "basis": "us-pre-1931",
+          "gutenberg": 32
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ts-001",
+      "skillId": "rw-text-structure",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-douglass-shipyard",
+      "stem": "Which choice best describes the overall structure of this text by Frederick Douglass?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It describes a set of labels used in a shipyard and then explains why carpenters needed each one."
+        },
+        {
+          "id": "B",
+          "text": "It describes a problem the narrator faced and then explains why he decided not to pursue it."
+        },
+        {
+          "id": "C",
+          "text": "It explains where the narrator found a way to learn, gives examples of it, and then tells how he used it."
+        },
+        {
+          "id": "D",
+          "text": "It compares the narrator's early attempts at writing with the carpenters' finished work on the ships."
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "Douglass first says the idea for learning to write came from watching shipyard carpenters, then gives examples of their letter labels, and finally tells how he learned and copied those letters.",
+      "rationales": {
+        "A": "The labels are described, but the text's point is how they taught Douglass to write, not why carpenters needed them.",
+        "B": "Douglass does not give up; the text ends with him able to make the four letters.",
+        "D": "The text never compares his writing with the carpenters' work."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Text Structure and Purpose",
+      "passage": {
+        "id": "tp-p-douglass-shipyard",
+        "text": "The idea as to how I might learn to write was suggested to me by being in Durgin and Bailey's ship-yard, and frequently seeing the ship carpenters, after hewing, and getting a piece of timber ready for use, write on the timber the name of that part of the ship for which it was intended. When a piece of timber was intended for the larboard side, it would be marked thus—“L.” When a piece was for the starboard side, it would be marked thus—“S.” . . . I soon learned the names of these letters, and for what they were intended when placed upon a piece of timber in the ship-yard. I immediately commenced copying them, and in a short time was able to make the four letters named.",
+        "source": {
+          "author": "Frederick Douglass",
+          "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+          "year": 1845,
+          "publication": "Anti-Slavery Office",
+          "url": "https://www.gutenberg.org/ebooks/23",
+          "basis": "us-pre-1931",
+          "gutenberg": 23
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ts-002",
+      "skillId": "rw-text-structure",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-thoreau-woods",
+      "stem": "Which choice best states the main purpose of this text from Walden by Henry David Thoreau?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To explain the reasons behind the narrator's decision to live in the woods"
+        },
+        {
+          "id": "B",
+          "text": "To describe the daily routine the narrator followed while living in the woods"
+        },
+        {
+          "id": "C",
+          "text": "To argue that everyone should leave towns behind and move into the woods"
+        },
+        {
+          "id": "D",
+          "text": "To compare life in the woods with the life of a person in a busy city"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "The text begins “I went to the woods because,” then lists what Thoreau hoped to do: live deliberately, face life's essential facts, and learn what life had to teach. It explains his reasons.",
+      "rationales": {
+        "B": "The text describes what Thoreau hoped to learn, not the activities of an ordinary day.",
+        "C": "Thoreau explains his own choice and does not urge others to make it.",
+        "D": "No city life is described, so there is no comparison."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Text Structure and Purpose",
+      "passage": {
+        "id": "tp-p-thoreau-woods",
+        "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary. I wanted to live deep and suck out all the marrow of life, to live so sturdily and Spartan-like as to put to rout all that was not life, to cut a broad swath and shave close, to drive life into a corner, and reduce it to its lowest terms, and, if it proved to be mean, why then to get the whole and genuine meanness of it, and publish its meanness to the world; or if it were sublime, to know it by experience, and be able to give a true account of it in my next excursion.",
+        "source": {
+          "author": "Henry David Thoreau",
+          "title": "Walden",
+          "year": 1854,
+          "publication": "Ticknor and Fields",
+          "url": "https://www.gutenberg.org/ebooks/205",
+          "basis": "us-pre-1931",
+          "gutenberg": 205
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ts-003",
+      "skillId": "rw-text-structure",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-muir-tenaya",
+      "stem": "In this journal entry, John Muir describes a lake in the Sierra Nevada mountains. Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It describes the lake's shore and then explains why the lake was given the Indian name that it has."
+        },
+        {
+          "id": "B",
+          "text": "It explains how glaciers form and then traces the history of a single glacier."
+        },
+        {
+          "id": "C",
+          "text": "It compares two mountain lakes and then concludes which of them is older."
+        },
+        {
+          "id": "D",
+          "text": "It describes the bare rock around a lake and then suggests how the lake's basin was formed."
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "Muir first describes the shore of bare, shining granite and then offers an explanation for the basin: it “seems to have been slowly excavated by the ancient glaciers.”",
+      "rationales": {
+        "A": "The name is mentioned as it relates to the shining rock, but the text ends by explaining how the basin formed, not by explaining the name.",
+        "B": "Muir does not explain how glaciers form or follow one glacier's history.",
+        "C": "Only one lake is described."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Text Structure and Purpose",
+      "passage": {
+        "id": "tp-p-muir-tenaya",
+        "text": "Scarce a handful of loose soil is to be seen on the north shore. All is bare, shining granite, suggesting the Indian name of the lake, Pywiack, meaning shining rock. The basin seems to have been slowly excavated by the ancient glaciers, a marvelous work requiring countless thousands of years.",
+        "source": {
+          "author": "John Muir",
+          "title": "My First Summer in the Sierra",
+          "year": 1911,
+          "publication": "Houghton Mifflin",
+          "url": "https://www.gutenberg.org/ebooks/32540",
+          "basis": "us-pre-1931",
+          "gutenberg": 32540
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ts-004",
+      "skillId": "rw-text-structure",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-austen-truth",
+      "stem": "Which choice best states the main purpose of this text from the opening of Pride and Prejudice by Jane Austen?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To describe the private feelings of a wealthy man as he settles into a new neighbourhood"
+        },
+        {
+          "id": "B",
+          "text": "To present a widely held belief and show how it shapes a community's view of a newcomer"
+        },
+        {
+          "id": "C",
+          "text": "To argue that wealthy men should marry soon after moving to a new place"
+        },
+        {
+          "id": "D",
+          "text": "To explain why the families in a neighbourhood tend to avoid newcomers until they know them"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "The text states a “truth universally acknowledged” and then shows its effect: whatever the man himself feels, local families already treat him as the “rightful property” of one of their daughters.",
+      "rationales": {
+        "A": "The text says the man's feelings may be “little known,” so it does not describe them.",
+        "C": "The text reports what people believe; it does not argue for what wealthy men should do.",
+        "D": "The families are eager to claim the newcomer, not to avoid him."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Text Structure and Purpose",
+      "passage": {
+        "id": "tp-p-austen-truth",
+        "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\n\nHowever little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters.",
+        "source": {
+          "author": "Jane Austen",
+          "title": "Pride and Prejudice",
+          "year": 1813,
+          "publication": "T. Egerton",
+          "url": "https://www.gutenberg.org/ebooks/1342",
+          "basis": "us-pre-1931",
+          "gutenberg": 1342
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ct-001",
+      "skillId": "rw-cross-text",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageIds": [
+        "tp-p-white-worms",
+        "tp-p-darwin-plough"
+      ],
+      "stem": "Text 1 is from a 1777 letter by Gilbert White. Text 2 is from an 1881 book by Charles Darwin. Based on the texts, how would Darwin most likely respond to White's claim that earthworms, despite their appearance, are important?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He would say White exaggerates, since worms affect only soil and not the history of the land."
+        },
+        {
+          "id": "B",
+          "text": "He would agree and go further, suggesting that worms have worked the land since before humans existed."
+        },
+        {
+          "id": "C",
+          "text": "He would disagree, arguing that ploughing by people has done more to improve the soil than worms have."
+        },
+        {
+          "id": "D",
+          "text": "He would agree only about the birds and other animals that White says depend on worms for food."
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "C",
+      "explanation": "White says worms are a “despicable” link in nature only in appearance. Darwin agrees and goes further: worms ploughed the land “long before” humans existed and have played a very important part “in the history of the world.”",
+      "rationales": {
+        "A": "Darwin says worms have played an important part in the history of the world, so he would not call White's claim exaggerated.",
+        "C": "Darwin mentions the plough only to say that worms were ploughing the land long before people were.",
+        "D": "Darwin's text does not discuss birds and other animals, and his agreement with White is much broader than that."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Cross-Text Connections",
+      "passages": [
+        {
+          "id": "tp-p-white-worms",
+          "text": "Earth-worms, though in appearance a small and despicable link in the chain of nature, yet, if lost, would make a lamentable chasm. For, to say nothing of half the birds, and some quadrupeds, which are almost entirely supported by them, worms seem to be the great promoters of vegetation, which would proceed but lamely without them, by boring, perforating, and loosening the soil, and rendering it pervious to rains and the fibres of plants . . .",
+          "source": {
+            "author": "Gilbert White",
+            "title": "The Natural History and Antiquities of Selborne",
+            "year": 1789,
+            "publication": "B. White and Son",
+            "url": "https://www.gutenberg.org/ebooks/1408",
+            "basis": "us-pre-1931",
+            "gutenberg": 1408
+          }
+        },
+        {
+          "id": "tp-p-darwin-plough",
+          "text": "The plough is one of the most ancient and most valuable of man’s inventions; but long before he existed the land was in fact regularly ploughed, and still continues to be thus ploughed by earth-worms. It may be doubted whether there are many other animals which have played so important a part in the history of the world, as have these lowly organized creatures.",
+          "source": {
+            "author": "Charles Darwin",
+            "title": "The Formation of Vegetable Mould, through the Action of Worms",
+            "year": 1881,
+            "publication": "John Murray",
+            "url": "https://www.gutenberg.org/ebooks/2355",
+            "basis": "us-pre-1931",
+            "gutenberg": 2355
+          }
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ct-002",
+      "skillId": "rw-cross-text",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageIds": [
+        "tp-p-white-worms",
+        "tp-p-darwin-plough"
+      ],
+      "stem": "Text 1 is from a 1777 letter by Gilbert White. Text 2 is from an 1881 book by Charles Darwin. Which choice best describes a difference in how the two texts discuss earthworms?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Text 1 doubts that worms help plants, while Text 2 is certain that they do."
+        },
+        {
+          "id": "B",
+          "text": "Text 1 discusses worms in English gardens, while Text 2 discusses worms in the world's tropical oceans."
+        },
+        {
+          "id": "C",
+          "text": "Text 1 compares worms with a human invention, while Text 2 lists the many animals that feed on worms."
+        },
+        {
+          "id": "D",
+          "text": "Text 1 stresses how worms help plants grow, while Text 2 stresses their role in the land's history."
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "C",
+      "explanation": "White focuses on worms as “promoters of vegetation” that loosen soil for plants. Darwin compares them to the plough and stresses their part “in the history of the world.”",
+      "rationales": {
+        "A": "White says worms are “the great promoters of vegetation,” so he does not doubt that they help plants.",
+        "B": "Neither text discusses tropical oceans.",
+        "C": "This reverses the texts: Darwin makes the comparison with the plough, and White mentions animals supported by worms."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Cross-Text Connections",
+      "passages": [
+        {
+          "id": "tp-p-white-worms",
+          "text": "Earth-worms, though in appearance a small and despicable link in the chain of nature, yet, if lost, would make a lamentable chasm. For, to say nothing of half the birds, and some quadrupeds, which are almost entirely supported by them, worms seem to be the great promoters of vegetation, which would proceed but lamely without them, by boring, perforating, and loosening the soil, and rendering it pervious to rains and the fibres of plants . . .",
+          "source": {
+            "author": "Gilbert White",
+            "title": "The Natural History and Antiquities of Selborne",
+            "year": 1789,
+            "publication": "B. White and Son",
+            "url": "https://www.gutenberg.org/ebooks/1408",
+            "basis": "us-pre-1931",
+            "gutenberg": 1408
+          }
+        },
+        {
+          "id": "tp-p-darwin-plough",
+          "text": "The plough is one of the most ancient and most valuable of man’s inventions; but long before he existed the land was in fact regularly ploughed, and still continues to be thus ploughed by earth-worms. It may be doubted whether there are many other animals which have played so important a part in the history of the world, as have these lowly organized creatures.",
+          "source": {
+            "author": "Charles Darwin",
+            "title": "The Formation of Vegetable Mould, through the Action of Worms",
+            "year": 1881,
+            "publication": "John Murray",
+            "url": "https://www.gutenberg.org/ebooks/2355",
+            "basis": "us-pre-1931",
+            "gutenberg": 2355
+          }
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ct-003",
+      "skillId": "rw-cross-text",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageIds": [
+        "tp-p-washington-atlanta",
+        "tp-p-dubois-washington"
+      ],
+      "stem": "Text 1 is from an 1895 speech by Booker T. Washington. Text 2 is from a 1903 essay by W. E. B. Du Bois. Based on the texts, how would Du Bois most likely respond to Washington's statement that “there is as much dignity in tilling a field as in writing a poem”?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He would agree and add that writing poetry distracts people from making economic progress."
+        },
+        {
+          "id": "B",
+          "text": "He would argue that farming deserves less respect than other kinds of work."
+        },
+        {
+          "id": "C",
+          "text": "He would argue that Washington's focus on labor and money crowds out the higher aims of life."
+        },
+        {
+          "id": "D",
+          "text": "He would agree but argue that Washington underestimates how quickly the South's economy is growing."
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "D",
+      "explanation": "Du Bois says Washington's program becomes “a gospel of Work and Money” that nearly overshadows “the higher aims of life.” He would see Washington's praise of field work as part of that narrow focus.",
+      "rationales": {
+        "A": "Du Bois worries that higher aims are being overshadowed, so he would not dismiss pursuits such as poetry.",
+        "B": "Du Bois criticizes the emphasis of Washington's program, not the dignity of farming itself.",
+        "D": "Du Bois calls the period one of “unusual economic development,” but he does not say Washington misjudges its pace."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Cross-Text Connections",
+      "passages": [
+        {
+          "id": "tp-p-washington-atlanta",
+          "text": "Our greatest danger is that in the great leap from slavery to freedom we may overlook the fact that the masses of us are to live by the productions of our hands, and fail to keep in mind that we shall prosper in proportion as we learn to dignify and glorify common labour and put brains and skill into the common occupations of life . . . . No race can prosper till it learns that there is as much dignity in tilling a field as in writing a poem. It is at the bottom of life we must begin, and not at the top.",
+          "source": {
+            "author": "Booker T. Washington",
+            "title": "Up from Slavery: An Autobiography",
+            "year": 1901,
+            "publication": "Doubleday, Page & Co.",
+            "url": "https://www.gutenberg.org/ebooks/2376",
+            "basis": "us-pre-1931",
+            "gutenberg": 2376
+          }
+        },
+        {
+          "id": "tp-p-dubois-washington",
+          "text": "Mr. Washington represents in Negro thought the old attitude of adjustment and submission; but adjustment at such a peculiar time as to make his programme unique. This is an age of unusual economic development, and Mr. Washington's programme naturally takes an economic cast, becoming a gospel of Work and Money to such an extent as apparently almost completely to overshadow the higher aims of life.",
+          "source": {
+            "author": "W. E. B. Du Bois",
+            "title": "The Souls of Black Folk",
+            "year": 1903,
+            "publication": "A. C. McClurg & Co.",
+            "url": "https://www.gutenberg.org/ebooks/408",
+            "basis": "us-pre-1931",
+            "gutenberg": 408
+          }
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-ct-004",
+      "skillId": "rw-cross-text",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageIds": [
+        "tp-p-washington-atlanta",
+        "tp-p-dubois-washington"
+      ],
+      "stem": "Text 1 is from an 1895 speech by Booker T. Washington. Text 2 is from a 1903 essay by W. E. B. Du Bois. Which choice best describes the relationship between the texts?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Text 2 criticizes the outlook of Text 1 as too narrowly focused on economic goals."
+        },
+        {
+          "id": "B",
+          "text": "Text 2 provides additional examples that support the main argument made in Text 1."
+        },
+        {
+          "id": "C",
+          "text": "Text 2 describes the historical events that led Washington to give the speech in Text 1."
+        },
+        {
+          "id": "D",
+          "text": "Both texts argue that the education of young people should center on poetry and the arts."
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "C",
+      "explanation": "Text 1 urges people to prosper through “common labour.” Text 2 says Washington's program takes “an economic cast” that overshadows higher aims, a direct criticism of that outlook.",
+      "rationales": {
+        "B": "Text 2 challenges Washington's program rather than supporting it.",
+        "C": "Text 2 describes the age Washington spoke in, but its purpose is to judge his program, not to narrate the events behind the speech.",
+        "D": "Text 1 values field work as much as poetry, and Text 2 does not mention poetry or the arts."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-craft-structure",
+      "skillTitle": "Cross-Text Connections",
+      "passages": [
+        {
+          "id": "tp-p-washington-atlanta",
+          "text": "Our greatest danger is that in the great leap from slavery to freedom we may overlook the fact that the masses of us are to live by the productions of our hands, and fail to keep in mind that we shall prosper in proportion as we learn to dignify and glorify common labour and put brains and skill into the common occupations of life . . . . No race can prosper till it learns that there is as much dignity in tilling a field as in writing a poem. It is at the bottom of life we must begin, and not at the top.",
+          "source": {
+            "author": "Booker T. Washington",
+            "title": "Up from Slavery: An Autobiography",
+            "year": 1901,
+            "publication": "Doubleday, Page & Co.",
+            "url": "https://www.gutenberg.org/ebooks/2376",
+            "basis": "us-pre-1931",
+            "gutenberg": 2376
+          }
+        },
+        {
+          "id": "tp-p-dubois-washington",
+          "text": "Mr. Washington represents in Negro thought the old attitude of adjustment and submission; but adjustment at such a peculiar time as to make his programme unique. This is an age of unusual economic development, and Mr. Washington's programme naturally takes an economic cast, becoming a gospel of Work and Money to such an extent as apparently almost completely to overshadow the higher aims of life.",
+          "source": {
+            "author": "W. E. B. Du Bois",
+            "title": "The Souls of Black Folk",
+            "year": 1903,
+            "publication": "A. C. McClurg & Co.",
+            "url": "https://www.gutenberg.org/ebooks/408",
+            "basis": "us-pre-1931",
+            "gutenberg": 408
+          }
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-rs-001",
+      "skillId": "rw-rhetorical-synthesis",
+      "difficulty": "easy",
+      "format": "single-select",
+      "originalText": "• Charles Darwin published The Formation of Vegetable Mould, through the Action of Worms in 1881.\n• It was the last book he published.\n• In it, he studied how earthworms bring soil to the surface.\n• He estimated that in many parts of England, more than ten tons of dry earth pass through worms on each acre of land every year.",
+      "stem": "While researching a topic, a student has taken the notes shown. The student wants to emphasize how much soil earthworms move. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Darwin's book about earthworms, The Formation of Vegetable Mould, was published in 1881."
+        },
+        {
+          "id": "B",
+          "text": "Darwin's last book, published in 1881, was about how earthworms bring soil to the surface."
+        },
+        {
+          "id": "C",
+          "text": "Darwin studied earthworms, which bring soil up to the surface of the land."
+        },
+        {
+          "id": "D",
+          "text": "Darwin estimated that in many parts of England, more than ten tons of earth per acre pass through worms each year."
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "C",
+      "explanation": "Only the estimate of more than ten tons per acre each year tells the reader how much soil worms move.",
+      "rationales": {
+        "A": "This gives the book's title and date but says nothing about the amount of soil.",
+        "B": "This says that worms bring soil to the surface but not how much they bring.",
+        "C": "This describes what worms do without giving any sense of the amount involved."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-expression-ideas",
+      "skillTitle": "Rhetorical Synthesis"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-rs-002",
+      "skillId": "rw-rhetorical-synthesis",
+      "difficulty": "medium",
+      "format": "single-select",
+      "originalText": "• Zitkala-Ša (1876–1938) was a Yankton Dakota writer and activist.\n• In 1921, she published American Indian Stories.\n• The book includes essays about her childhood.\n• In 1926, she cofounded the National Council of American Indians.",
+      "stem": "While researching a topic, a student has taken the notes shown. The student wants to introduce Zitkala-Ša and her book to readers who have not heard of her. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "In 1926, Zitkala-Ša cofounded an organization called the National Council of American Indians."
+        },
+        {
+          "id": "B",
+          "text": "Zitkala-Ša, a Yankton Dakota writer and activist, published American Indian Stories in 1921."
+        },
+        {
+          "id": "C",
+          "text": "American Indian Stories, published in 1921, includes essays about its author's childhood."
+        },
+        {
+          "id": "D",
+          "text": "Zitkala-Ša, who lived from 1876 to 1938, was born more than forty years before 1921."
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "C",
+      "explanation": "An introduction for new readers should say who Zitkala-Ša was and name her book. This choice identifies her as a Yankton Dakota writer and activist and names American Indian Stories.",
+      "rationales": {
+        "A": "This describes her later activism but does not mention her book.",
+        "C": "This describes the book without telling readers who its author was.",
+        "D": "This gives dates of her life but neither describes her work nor names the book."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-expression-ideas",
+      "skillTitle": "Rhetorical Synthesis"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-rs-003",
+      "skillId": "rw-rhetorical-synthesis",
+      "difficulty": "medium",
+      "format": "single-select",
+      "originalText": "• John Muir (1838–1914) was a naturalist who was born in Scotland.\n• In 1869, he spent a summer in the Sierra Nevada mountains of California.\n• He kept a journal during that summer.\n• His account of that summer, My First Summer in the Sierra, was published in 1911.",
+      "stem": "While researching a topic, a student has taken the notes shown. The student wants to emphasize how long after the summer Muir's account of it was published. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Muir, a naturalist who was born in Scotland, kept a journal during the summer of 1869."
+        },
+        {
+          "id": "B",
+          "text": "My First Summer in the Sierra was published in 1911, three years before Muir's death."
+        },
+        {
+          "id": "C",
+          "text": "Muir spent the summer of 1869 in the Sierra Nevada, but his account was not published until 1911."
+        },
+        {
+          "id": "D",
+          "text": "In 1869, Muir spent a summer in the Sierra Nevada mountains of California and kept a journal."
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "B",
+      "explanation": "To show how long the account waited, a sentence needs both dates: the summer of 1869 and publication in 1911. This choice gives both and marks the delay with “not published until.”",
+      "rationales": {
+        "A": "This mentions 1869 but not when the account was published.",
+        "B": "This relates the publication to Muir's death, not to the summer the book describes.",
+        "D": "This describes the summer but never says when the account appeared."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-expression-ideas",
+      "skillTitle": "Rhetorical Synthesis"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-rs-004",
+      "skillId": "rw-rhetorical-synthesis",
+      "difficulty": "hard",
+      "format": "single-select",
+      "originalText": "• Gilbert White (1720–1793) was an English naturalist.\n• He lived most of his life in the village of Selborne.\n• In a letter written in 1777, he argued that earthworms are important to soil and plants.\n• Charles Darwin published a book about earthworms in 1881.",
+      "stem": "While researching a topic, a student has taken the notes shown. The student wants to emphasize how early White recognized the importance of earthworms compared with Darwin. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "White wrote about the importance of earthworms in 1777, more than a century before Darwin's 1881 book."
+        },
+        {
+          "id": "B",
+          "text": "Both White, in a letter, and Darwin, in a book, wrote about the effects that earthworms have on soil."
+        },
+        {
+          "id": "C",
+          "text": "White, an English naturalist, lived most of his life in the village of Selborne."
+        },
+        {
+          "id": "D",
+          "text": "Darwin's book about earthworms appeared in 1881, many years after White's death in 1793."
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "Comparing the two dates, 1777 and 1881, shows that White wrote about earthworms' importance more than a hundred years before Darwin's book.",
+      "rationales": {
+        "B": "This shows that both writers discussed earthworms but does not say which one wrote first or by how much.",
+        "C": "This describes where White lived without mentioning earthworms or Darwin.",
+        "D": "This compares Darwin's book with White's death rather than with White's writing about earthworms."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-expression-ideas",
+      "skillTitle": "Rhetorical Synthesis"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-tr-001",
+      "skillId": "rw-transitions",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-darwin-peewit",
+      "blank": "Nevertheless,",
+      "stem": "Charles Darwin is discussing what makes earthworms leave their burrows. Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Similarly,"
+        },
+        {
+          "id": "B",
+          "text": "For instance,"
+        },
+        {
+          "id": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "id": "D",
+          "text": "Consequently,"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "The first sentence suggests that shaking the ground brings worms out. The next sentence qualifies that: worms do not always come out. “Nevertheless” signals this contrast.",
+      "rationales": {
+        "A": "“Similarly” would introduce a matching point, but the second sentence limits the first instead of repeating it.",
+        "B": "“For instance” would introduce an example of the peewit's trick working, but the sentence describes a case where it fails.",
+        "D": "“Consequently” would present a result of the peewit's behavior, but worms staying put is not caused by it."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-expression-ideas",
+      "skillTitle": "Transitions",
+      "passage": {
+        "id": "tp-p-darwin-peewit",
+        "text": "The Peewit . . . seems to know instinctively that worms will emerge if the ground is made to tremble; for Bishop Stanley states (as I hear from Mr. Moorhouse) that a young peewit kept in confinement used to stand on one leg and beat the turf with the other leg until the worms crawled out of their burrows, when they were instantly devoured. Nevertheless, worms do not invariably leave their burrows when the ground is made to tremble, as I know by having beaten it with a spade, but perhaps it was beaten too violently.",
+        "source": {
+          "author": "Charles Darwin",
+          "title": "The Formation of Vegetable Mould, through the Action of Worms",
+          "year": 1881,
+          "publication": "John Murray",
+          "url": "https://www.gutenberg.org/ebooks/2355",
+          "basis": "us-pre-1931",
+          "gutenberg": 2355
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-tr-002",
+      "skillId": "rw-transitions",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-darwin-ants",
+      "blank": "For instance,",
+      "stem": "Charles Darwin has described how worms pull leaves into their burrows, trying different ways until one works. Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "For instance,"
+        },
+        {
+          "id": "B",
+          "text": "In contrast,"
+        },
+        {
+          "id": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "id": "D",
+          "text": "Consequently,"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "Darwin says many higher animals lack the worm's ability. Ants that keep trying to drag an object the hard way are an example of such an animal, so “For instance” fits.",
+      "rationales": {
+        "B": "Ants do differ from worms, but the sentence illustrates the claim about higher animals rather than setting up a new contrast.",
+        "C": "“Nevertheless” would signal a point that goes against the claim, but the ants support it.",
+        "D": "The ants' behavior is not a result of anything in the first sentence."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-expression-ideas",
+      "skillTitle": "Transitions",
+      "passage": {
+        "id": "tp-p-darwin-ants",
+        "text": "But it is surprising that an animal so low in the scale as a worm should have the capacity for acting in this manner, as many higher animals have no such capacity. For instance, ants may be seen vainly trying to drag an object transversely to their course, which could be easily drawn longitudinally . . .",
+        "source": {
+          "author": "Charles Darwin",
+          "title": "The Formation of Vegetable Mould, through the Action of Worms",
+          "year": 1881,
+          "publication": "John Murray",
+          "url": "https://www.gutenberg.org/ebooks/2355",
+          "basis": "us-pre-1931",
+          "gutenberg": 2355
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-tr-003",
+      "skillId": "rw-transitions",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-herland-unit",
+      "blank": "Therefore,",
+      "stem": "In this passage from Herland, the narrator describes how the people of an isolated country think about their land. Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "However,"
+        },
+        {
+          "id": "B",
+          "text": "For example,"
+        },
+        {
+          "id": "C",
+          "text": "Meanwhile,"
+        },
+        {
+          "id": "D",
+          "text": "Therefore,"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "B",
+      "explanation": "Because the people's sense of time was not limited to one lifetime, it follows that they made plans lasting centuries. “Therefore” signals that result.",
+      "rationales": {
+        "A": "“However” signals a contrast, but long-range planning agrees with the time-sense just described.",
+        "B": "Long-range planning is a consequence of the people's time-sense, not one example among several of it.",
+        "C": "“Meanwhile” signals events happening at the same time, which does not fit a cause and its result."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-expression-ideas",
+      "skillTitle": "Transitions",
+      "passage": {
+        "id": "tp-p-herland-unit",
+        "text": "To them the country was a unit—it was theirs. They themselves were a unit, a conscious group; they thought in terms of the community. As such, their time-sense was not limited to the hopes and ambitions of an individual life. Therefore, they habitually considered and carried out plans for improvement which might cover centuries.",
+        "source": {
+          "author": "Charlotte Perkins Gilman",
+          "title": "Herland",
+          "year": 1915,
+          "publication": "The Forerunner",
+          "url": "https://www.gutenberg.org/ebooks/32",
+          "basis": "us-pre-1931",
+          "gutenberg": 32
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-tr-004",
+      "skillId": "rw-transitions",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-washington-hat",
+      "blank": "In fact,",
+      "stem": "Booker T. Washington recalls his first days at school. Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "However,"
+        },
+        {
+          "id": "B",
+          "text": "In fact,"
+        },
+        {
+          "id": "C",
+          "text": "As a result,"
+        },
+        {
+          "id": "D",
+          "text": "Similarly,"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "C",
+      "explanation": "Washington first says he had no hat or cap. The next sentence goes further: he had never worn any covering on his head at all. “In fact” introduces this stronger version of the point.",
+      "rationales": {
+        "A": "“However” would signal a contrast, but the second sentence strengthens the first.",
+        "C": "Never having worn a hat is not a result of noticing the other children's hats.",
+        "D": "“Similarly” would introduce a separate, parallel point, but this sentence intensifies the same point."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-expression-ideas",
+      "skillTitle": "Transitions",
+      "passage": {
+        "id": "tp-p-washington-hat",
+        "text": "When, however, I found myself at the school for the first time, I also found myself confronted with two other difficulties. In the first place, I found that all the other children wore hats or caps on their heads, and I had neither hat nor cap. In fact, I do not remember that up to the time of going to school I had ever worn any kind of covering upon my head, nor do I recall that either I or anybody else had even thought anything about the need of covering for my head.",
+        "source": {
+          "author": "Booker T. Washington",
+          "title": "Up from Slavery: An Autobiography",
+          "year": 1901,
+          "publication": "Doubleday, Page & Co.",
+          "url": "https://www.gutenberg.org/ebooks/2376",
+          "basis": "us-pre-1931",
+          "gutenberg": 2376
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-bd-001",
+      "skillId": "rw-boundaries",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-herland-terry",
+      "blank": "pleased. His",
+      "stem": "In Herland, the narrator describes his friend Terry. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "pleased, his"
+        },
+        {
+          "id": "B",
+          "text": "pleased his"
+        },
+        {
+          "id": "C",
+          "text": "pleased. His"
+        },
+        {
+          "id": "D",
+          "text": "pleased, which his"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "“Terry was rich enough to do as he pleased” and “His great aim was exploration” are both complete sentences. A period correctly separates them.",
+      "rationales": {
+        "A": "A comma alone cannot join two complete sentences; this creates a comma splice.",
+        "B": "With no punctuation at all, the two complete sentences run together.",
+        "D": "“Which” makes the second part an incomplete relative clause that does not fit with “his great aim was exploration.”"
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Boundaries",
+      "passage": {
+        "id": "tp-p-herland-terry",
+        "text": "Terry was rich enough to do as he pleased. His great aim was exploration. He used to make all kinds of a row because there was nothing left to explore now, only patchwork and filling in, he said.",
+        "source": {
+          "author": "Charlotte Perkins Gilman",
+          "title": "Herland",
+          "year": 1915,
+          "publication": "The Forerunner",
+          "url": "https://www.gutenberg.org/ebooks/32",
+          "basis": "us-pre-1931",
+          "gutenberg": 32
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-bd-002",
+      "skillId": "rw-boundaries",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-washington-swept",
+      "blank": "times. Then",
+      "stem": "Booker T. Washington describes cleaning a classroom. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "times. Then"
+        },
+        {
+          "id": "B",
+          "text": "times, then"
+        },
+        {
+          "id": "C",
+          "text": "times then"
+        },
+        {
+          "id": "D",
+          "text": "times, and, then"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "“I swept the recitation-room three times” and “Then I got a dusting-cloth and dusted it four times” are complete sentences, so a period between them is correct.",
+      "rationales": {
+        "B": "“Then” is not a conjunction, so a comma before it creates a comma splice.",
+        "C": "Without punctuation, two complete sentences are fused together.",
+        "D": "A comma after “and” wrongly separates the conjunction from the clause it introduces."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Boundaries",
+      "passage": {
+        "id": "tp-p-washington-swept",
+        "text": "I swept the recitation-room three times. Then I got a dusting-cloth and dusted it four times. All the woodwork around the walls, every bench, table, and desk, I went over four times with my dusting-cloth.",
+        "source": {
+          "author": "Booker T. Washington",
+          "title": "Up from Slavery: An Autobiography",
+          "year": 1901,
+          "publication": "Doubleday, Page & Co.",
+          "url": "https://www.gutenberg.org/ebooks/2376",
+          "basis": "us-pre-1931",
+          "gutenberg": 2376
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-bd-003",
+      "skillId": "rw-boundaries",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-washington-examination",
+      "blank": "examination, and never",
+      "stem": "Booker T. Washington recalls learning that he had been admitted to school. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "examination, never"
+        },
+        {
+          "id": "B",
+          "text": "examination and, never"
+        },
+        {
+          "id": "C",
+          "text": "examination; and, never"
+        },
+        {
+          "id": "D",
+          "text": "examination, and never"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "Two independent clauses are joined by the conjunction “and.” A comma before the conjunction, with none after it, is the standard punctuation.",
+      "rationales": {
+        "A": "Without “and,” a comma alone joins two independent clauses, creating a comma splice.",
+        "B": "The comma belongs before “and,” not after it.",
+        "C": "A comma after “and” wrongly separates the conjunction from its clause."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Boundaries",
+      "passage": {
+        "id": "tp-p-washington-examination",
+        "text": "I was one of the happiest souls on Earth. The sweeping of that room was my college examination, and never did any youth pass an examination for entrance into Harvard or Yale that gave him more genuine satisfaction.",
+        "source": {
+          "author": "Booker T. Washington",
+          "title": "Up from Slavery: An Autobiography",
+          "year": 1901,
+          "publication": "Doubleday, Page & Co.",
+          "url": "https://www.gutenberg.org/ebooks/2376",
+          "basis": "us-pre-1931",
+          "gutenberg": 2376
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-bd-004",
+      "skillId": "rw-boundaries",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-douglass-copybook",
+      "blank": "pavement; my",
+      "stem": "Frederick Douglass describes how he taught himself to write. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "pavement, my"
+        },
+        {
+          "id": "B",
+          "text": "pavement; my"
+        },
+        {
+          "id": "C",
+          "text": "pavement my"
+        },
+        {
+          "id": "D",
+          "text": "pavement, and, my"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "“My copy-book was the board fence, brick wall, and pavement” and “my pen and ink was a lump of chalk” are independent clauses. A semicolon correctly joins them.",
+      "rationales": {
+        "A": "A comma alone joining two independent clauses is a comma splice.",
+        "C": "With no punctuation, the two independent clauses run together.",
+        "D": "A comma after “and” wrongly separates the conjunction from its clause."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Boundaries",
+      "passage": {
+        "id": "tp-p-douglass-copybook",
+        "text": "In this way I got a good many lessons in writing, which it is quite possible I should never have gotten in any other way. During this time, my copy-book was the board fence, brick wall, and pavement; my pen and ink was a lump of chalk. With these, I learned mainly how to write.",
+        "source": {
+          "author": "Frederick Douglass",
+          "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+          "year": 1845,
+          "publication": "Anti-Slavery Office",
+          "url": "https://www.gutenberg.org/ebooks/23",
+          "basis": "us-pre-1931",
+          "gutenberg": 23
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-bd-005",
+      "skillId": "rw-boundaries",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-zitkala-wigwam",
+      "blank": "slender poles. Then",
+      "stem": "Zitkala-Ša describes mornings in her family's home. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "slender poles, then"
+        },
+        {
+          "id": "B",
+          "text": "slender poles then"
+        },
+        {
+          "id": "C",
+          "text": "slender poles. Then"
+        },
+        {
+          "id": "D",
+          "text": "slender poles; and, then"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "The sentence about rolling up the canvas is complete, and “Then the cool morning breezes swept freely through our dwelling” begins a new complete sentence. A period separates them.",
+      "rationales": {
+        "A": "“Then” is an adverb, not a conjunction, so a comma before it creates a comma splice.",
+        "B": "Without punctuation, the second independent clause runs into the first.",
+        "D": "A semicolon cannot be followed by “and” set off with a comma in this way."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Boundaries",
+      "passage": {
+        "id": "tp-p-zitkala-wigwam",
+        "text": "Soon after breakfast mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie.",
+        "source": {
+          "author": "Zitkala-Ša",
+          "title": "American Indian Stories",
+          "year": 1921,
+          "publication": "Hayworth Publishing House",
+          "url": "https://www.gutenberg.org/ebooks/10376",
+          "basis": "us-pre-1931",
+          "gutenberg": 10376
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-fs-001",
+      "skillId": "rw-form-structure-sense",
+      "difficulty": "easy",
+      "format": "single-select",
+      "passageId": "tp-p-herland-science",
+      "blank": "were interested",
+      "stem": "In Herland, the narrator describes what he and his two friends shared. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "were interested"
+        },
+        {
+          "id": "B",
+          "text": "was interested"
+        },
+        {
+          "id": "C",
+          "text": "is interested"
+        },
+        {
+          "id": "D",
+          "text": "be interested"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "B",
+      "explanation": "The subject “All of us” is plural, and the text is in the past tense, so the plural past-tense verb “were” is correct.",
+      "rationales": {
+        "B": "“Was” is singular, but “All of us” refers to the three friends together.",
+        "C": "“Is” is singular and present tense, which matches neither the plural subject nor the past-tense text.",
+        "D": "“Be” is not a complete verb form for this sentence."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Form, Structure, and Sense",
+      "passage": {
+        "id": "tp-p-herland-science",
+        "text": "We had known each other years and years, and in spite of our differences we had a good deal in common. All of us were interested in science.",
+        "source": {
+          "author": "Charlotte Perkins Gilman",
+          "title": "Herland",
+          "year": 1915,
+          "publication": "The Forerunner",
+          "url": "https://www.gutenberg.org/ebooks/32",
+          "basis": "us-pre-1931",
+          "gutenberg": 32
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-fs-002",
+      "skillId": "rw-form-structure-sense",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-darwin-muscular",
+      "blank": "possess",
+      "stem": "Charles Darwin describes earthworms. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "possesses"
+        },
+        {
+          "id": "B",
+          "text": "possessing"
+        },
+        {
+          "id": "C",
+          "text": "to possess"
+        },
+        {
+          "id": "D",
+          "text": "possess"
+        }
+      ],
+      "answer": "D",
+      "nearMiss": "A",
+      "explanation": "“They are extraordinarily numerous, and for their size possess great muscular power” joins two verbs that share the plural subject “they.” The plural present-tense “possess” matches “are.”",
+      "rationales": {
+        "A": "“Possesses” is singular, but the subject “they” is plural.",
+        "B": "“Possessing” is not a finite verb, so the second part of the sentence would lack one.",
+        "C": "“To possess” is not a finite verb and does not parallel “are.”"
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Form, Structure, and Sense",
+      "passage": {
+        "id": "tp-p-darwin-muscular",
+        "text": "[Worms] have played a more important part in the history of the world than most persons would at first suppose. In almost all humid countries they are extraordinarily numerous, and for their size possess great muscular power.",
+        "source": {
+          "author": "Charles Darwin",
+          "title": "The Formation of Vegetable Mould, through the Action of Worms",
+          "year": 1881,
+          "publication": "John Murray",
+          "url": "https://www.gutenberg.org/ebooks/2355",
+          "basis": "us-pre-1931",
+          "gutenberg": 2355
+        },
+        "edits": [
+          {
+            "original": "WORMS",
+            "replacement": "Worms"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-fs-003",
+      "skillId": "rw-form-structure-sense",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-darwin-body",
+      "blank": "is sensitive",
+      "stem": "Charles Darwin describes how earthworms respond to touch. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "are sensitive"
+        },
+        {
+          "id": "B",
+          "text": "is sensitive"
+        },
+        {
+          "id": "C",
+          "text": "were sensitive"
+        },
+        {
+          "id": "D",
+          "text": "being sensitive"
+        }
+      ],
+      "answer": "B",
+      "nearMiss": "A",
+      "explanation": "The subject is “The whole body,” which is singular; “of a worm” only describes it. A singular present-tense verb, “is,” is needed.",
+      "rationales": {
+        "A": "“Are” is plural, but the subject “body” is singular.",
+        "C": "“Were” is plural and past tense, which matches neither the singular subject nor the present-tense text.",
+        "D": "“Being” is not a finite verb, so the sentence would have no main verb."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Form, Structure, and Sense",
+      "passage": {
+        "id": "tp-p-darwin-body",
+        "text": "The whole body of a worm is sensitive to contact. A slight puff of air from the mouth causes an instant retreat.",
+        "source": {
+          "author": "Charles Darwin",
+          "title": "The Formation of Vegetable Mould, through the Action of Worms",
+          "year": 1881,
+          "publication": "John Murray",
+          "url": "https://www.gutenberg.org/ebooks/2355",
+          "basis": "us-pre-1931",
+          "gutenberg": 2355
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-fs-004",
+      "skillId": "rw-form-structure-sense",
+      "difficulty": "hard",
+      "format": "single-select",
+      "passageId": "tp-p-thoreau-compose",
+      "blank": "compose",
+      "stem": "Henry David Thoreau introduces a list of the costs of building his house. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "composes"
+        },
+        {
+          "id": "B",
+          "text": "composing"
+        },
+        {
+          "id": "C",
+          "text": "compose"
+        },
+        {
+          "id": "D",
+          "text": "has composed"
+        }
+      ],
+      "answer": "C",
+      "nearMiss": "A",
+      "explanation": "In “the various materials which compose them,” the subject of the verb is “which,” standing for the plural “materials.” The plural verb “compose” agrees with it.",
+      "rationales": {
+        "A": "“Composes” is singular, but “which” refers to the plural “materials.”",
+        "B": "“Composing” is not a finite verb, so the clause beginning with “which” would have no verb.",
+        "D": "“Has composed” is singular and does not agree with “materials.”"
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Form, Structure, and Sense",
+      "passage": {
+        "id": "tp-p-thoreau-compose",
+        "text": "The exact cost of my house, paying the usual price for such materials as I used, but not counting the work, all of which was done by myself, was as follows; and I give the details because very few are able to tell exactly what their houses cost, and fewer still, if any, the separate cost of the various materials which compose them . . .",
+        "source": {
+          "author": "Henry David Thoreau",
+          "title": "Walden",
+          "year": 1854,
+          "publication": "Ticknor and Fields",
+          "url": "https://www.gutenberg.org/ebooks/205",
+          "basis": "us-pre-1931",
+          "gutenberg": 205
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "tp-rw-fs-005",
+      "skillId": "rw-form-structure-sense",
+      "difficulty": "medium",
+      "format": "single-select",
+      "passageId": "tp-p-douglass-thomas",
+      "blank": "Master Thomas's",
+      "stem": "Frederick Douglass describes practicing his writing. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Master Thomas's"
+        },
+        {
+          "id": "B",
+          "text": "Master Thomases"
+        },
+        {
+          "id": "C",
+          "text": "Master Thomas"
+        },
+        {
+          "id": "D",
+          "text": "Master Thomases'"
+        }
+      ],
+      "answer": "A",
+      "nearMiss": "C",
+      "explanation": "The copy-book belongs to one person, Master Thomas, so the singular possessive “Master Thomas's” is correct.",
+      "rationales": {
+        "B": "“Thomases” is a plural with no apostrophe, so it does not show that the copy-book belongs to anyone.",
+        "C": "Without a possessive ending, the name cannot show who owns the copy-book.",
+        "D": "“Thomases'” is a plural possessive, but the copy-book belongs to only one person."
+      },
+      "tests": [
+        "psat89",
+        "psat10",
+        "psatnmsqt",
+        "sat"
+      ],
+      "sectionId": "rw",
+      "domainId": "rw-conventions",
+      "skillTitle": "Form, Structure, and Sense",
+      "passage": {
+        "id": "tp-p-douglass-thomas",
+        "text": "My mistress used to go to class meeting at the Wilk Street meetinghouse every Monday afternoon, and leave me to take care of the house. When left thus, I used to spend the time in writing in the spaces left in Master Thomas's copy-book, copying what he had written. I continued to do this until I could write a hand very similar to that of Master Thomas.",
+        "source": {
+          "author": "Frederick Douglass",
+          "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+          "year": 1845,
+          "publication": "Anti-Slavery Office",
+          "url": "https://www.gutenberg.org/ebooks/23",
+          "basis": "us-pre-1931",
+          "gutenberg": 23
+        }
+      }
+    }
+  ]
+}
