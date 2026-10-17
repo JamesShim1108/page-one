@@ -5,34 +5,70 @@
 // `scale.family` keeps score scales apart. PSAT 8/9 has its own family and its
 // estimates are never displayed as equal to a PSAT 10, PSAT/NMSQT, or SAT score.
 
-// One practice module's domain mix, approximating each test's published domain
-// shares. Reading and Writing is the same on every test. Math leans more on
-// Algebra and Problem-Solving on the PSAT 8/9, and more on Advanced Math on the SAT.
-const rwModule = {
-  "rw-craft-structure": 7,
-  "rw-information-ideas": 7,
-  "rw-conventions": 7,
-  "rw-expression-ideas": 6,
-};
+// Domain counts for each of a section's two modules, close to the official
+// share of questions per domain for each test (pretest questions included).
+// Reading and Writing is the same on every test: per section, Craft and
+// Structure 15, Information and Ideas 14, Conventions 14, Expression of Ideas 11.
+const rwModules = [
+  {
+    "rw-craft-structure": 8,
+    "rw-information-ideas": 7,
+    "rw-conventions": 7,
+    "rw-expression-ideas": 5,
+  },
+  {
+    "rw-craft-structure": 7,
+    "rw-information-ideas": 7,
+    "rw-conventions": 7,
+    "rw-expression-ideas": 6,
+  },
+];
 const mathModules = {
-  psat89: {
-    "math-algebra": 9,
-    "math-advanced": 4,
-    "math-data-analysis": 6,
-    "math-geometry-trig": 3,
-  },
-  psat: {
-    "math-algebra": 8,
-    "math-advanced": 7,
-    "math-data-analysis": 4,
-    "math-geometry-trig": 3,
-  },
-  sat: {
-    "math-algebra": 8,
-    "math-advanced": 8,
-    "math-data-analysis": 3,
-    "math-geometry-trig": 3,
-  },
+  // About 42.5% Algebra, 20% Advanced Math, 25% Problem-Solving, 12.5% Geometry.
+  psat89: [
+    {
+      "math-algebra": 9,
+      "math-advanced": 4,
+      "math-data-analysis": 6,
+      "math-geometry-trig": 3,
+    },
+    {
+      "math-algebra": 9,
+      "math-advanced": 5,
+      "math-data-analysis": 5,
+      "math-geometry-trig": 3,
+    },
+  ],
+  // About 35%, 32.5%, 20%, and 12.5%.
+  psat: [
+    {
+      "math-algebra": 8,
+      "math-advanced": 7,
+      "math-data-analysis": 4,
+      "math-geometry-trig": 3,
+    },
+    {
+      "math-algebra": 7,
+      "math-advanced": 7,
+      "math-data-analysis": 5,
+      "math-geometry-trig": 3,
+    },
+  ],
+  // About 35%, 35%, 15%, and 15%.
+  sat: [
+    {
+      "math-algebra": 8,
+      "math-advanced": 7,
+      "math-data-analysis": 3,
+      "math-geometry-trig": 4,
+    },
+    {
+      "math-algebra": 7,
+      "math-advanced": 8,
+      "math-data-analysis": 4,
+      "math-geometry-trig": 3,
+    },
+  ],
 };
 
 const digitalSections = (mathMinutes, mathModule) => [
@@ -41,7 +77,7 @@ const digitalSections = (mathMinutes, mathModule) => [
     questions: 54,
     minutes: 64,
     modules: 2,
-    moduleDomains: rwModule,
+    moduleDomains: rwModules,
   },
   {
     id: "math",

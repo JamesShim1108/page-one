@@ -1,7 +1,8 @@
 // Information and Ideas items. Original practice written by Page One around
-// public-domain passages (see ../passages.js). Skill names and formats follow
-// the official SAT Suite descriptions; no official item is copied or
-// paraphrased. Quoted choices must appear word for word in their passage.
+// public-domain passages (see ../passages.js). Each item has its own text, as on
+// the digital test; skill names, formats, and prompt forms follow the official
+// SAT Suite descriptions, and no official item is copied or paraphrased.
+// Quoted choices must appear word for word in their source.
 
 const ids = ["A", "B", "C", "D"];
 const choices = (texts) => texts.map((text, index) => ({ id: ids[index], text }));
@@ -9,6 +10,13 @@ const walden = {
   label: "Henry David Thoreau, Walden (1854)",
   url: "https://www.gutenberg.org/ebooks/205",
 };
+const darwinWorms = {
+  label:
+    "Charles Darwin, The Formation of Vegetable Mould, through the Action of Worms (1881)",
+  url: "https://www.gutenberg.org/ebooks/2355",
+};
+const MAIN_IDEA = "Which choice best states the main idea of the text?";
+const COMPLETE = "Which choice most logically completes the text?";
 
 export const items = [
   // Central Ideas and Details
@@ -19,7 +27,7 @@ export const items = [
     difficulty: "easy",
     format: "single-select",
     passageId: "tp-p-muir-hitched",
-    stem: "In this journal entry, John Muir describes the Sierra Nevada mountains. Which choice best states the main idea of the text?",
+    stem: MAIN_IDEA,
     choices: choices([
       "Muir explains how mountain streams carry away the waste that earlier visitors left behind.",
       "Muir finds the mountain landscape full of life and meaning, with each part connected to the rest.",
@@ -43,7 +51,7 @@ export const items = [
     difficulty: "medium",
     format: "single-select",
     passageId: "tp-p-zitkala-oversight",
-    stem: "In this text, Zitkala-Ša recalls learning beadwork from her mother as a child. Which choice best states the main idea of the text?",
+    stem: MAIN_IDEA,
     choices: choices([
       "The narrator's mother insisted on complicated designs and would not let her daughter use simple shapes.",
       "The narrator preferred simple shapes because her mother praised them more than any original design.",
@@ -67,7 +75,7 @@ export const items = [
     difficulty: "easy",
     format: "single-select",
     passageId: "tp-p-washington-sweeping",
-    stem: "In this text, Booker T. Washington recalls arriving at a school that had not yet decided whether to admit him. Which choice best states the main idea of the text?",
+    stem: MAIN_IDEA,
     choices: choices([
       "Washington saw an ordinary cleaning task as a chance to prove that he deserved to be admitted.",
       "Washington was annoyed that the head teacher assigned him a chore instead of a real examination.",
@@ -91,7 +99,7 @@ export const items = [
     difficulty: "medium",
     format: "single-select",
     passageId: "tp-p-darwin-turf",
-    stem: "Which choice best states the main idea of this text by Charles Darwin?",
+    stem: MAIN_IDEA,
     choices: choices([
       "Worms damage the smooth surface of fields, so the turf must be repaired every few years.",
       "The beauty of a field depends mostly on the kinds of grass that grow in it.",
@@ -108,6 +116,78 @@ export const items = [
       D: "The soil passes through the bodies of worms on the spot; Darwin does not say it is replaced from somewhere else.",
     },
   },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ci-005",
+    skillId: "rw-central-ideas",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-london-gold",
+    stem: MAIN_IDEA,
+    choices: choices([
+      "Buck learns about the gold discovery by reading newspapers and decides to travel north.",
+      "Steamship companies urge dog owners to send their animals to the Northland to search for gold.",
+      "A gold rush in the far north has created a demand for strong dogs, which puts dogs like Buck at risk.",
+      "Dogs with long, warm hair suffer in the southern towns where most of them were raised.",
+    ]),
+    answer: "C",
+    nearMiss: "B",
+    explanation:
+      "Gold found in the Arctic sends thousands of men north, and those men want heavy, strong dogs with warm coats. The text says trouble is “brewing” for every such dog, including Buck.",
+    rationales: {
+      A: "The text says Buck did not read the newspapers, which is why he does not know trouble is coming.",
+      B: "The companies are “booming the find” to attract men, and nothing says they appeal to dog owners.",
+      D: "The text describes the dogs' warm hair as what makes them wanted in the north, not as a source of suffering.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ci-006",
+    skillId: "rw-central-ideas",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-austen-emma-governess",
+    stem: MAIN_IDEA,
+    choices: choices([
+      "Miss Taylor was more a close friend than an authority to Emma, so Emma mostly did as she pleased.",
+      "Miss Taylor was a strict governess whose rules shaped Emma's habits from an early age.",
+      "Emma valued Miss Taylor's judgment so highly that she followed her advice in nearly everything.",
+      "Emma and her sister competed for Miss Taylor's attention throughout their childhood.",
+    ]),
+    answer: "A",
+    nearMiss: "C",
+    explanation:
+      "Miss Taylor was “less as a governess than a friend,” her mildness “hardly allowed her to impose any restraint,” and Emma did “just what she liked.” The main idea is a warm friendship with little authority in it.",
+    rationales: {
+      B: "The text says Miss Taylor's mildness hardly allowed her to impose any restraint, so she was not strict.",
+      C: "Emma highly esteemed Miss Taylor's judgment, but the text says she was “directed chiefly by her own.”",
+      D: "Miss Taylor was fond of both daughters, and nothing in the text suggests the sisters competed for her.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ci-007",
+    skillId: "rw-central-ideas",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-jewett-littlepage",
+    stem: "Based on the text, why does the narrator know so little about Captain Littlepage?",
+    choices: choices([
+      "The captain has only recently moved to the village.",
+      "The narrator has been too busy with her own work to visit him.",
+      "Mrs. Todd avoids explaining him, treating him as one of her secrets.",
+      "The captain refuses to speak with anyone who is not a sailor.",
+    ]),
+    answer: "C",
+    nearMiss: "A",
+    explanation:
+      "When the narrator asks about the captain, Mrs. Todd shakes her head and seems “to class him with her other secrets.” The narrator's main source of information will not explain him.",
+    rationales: {
+      A: "The narrator has seen him “once or twice before,” and the text gives no sign that he is new to the village.",
+      B: "The text describes the narrator asking questions about him, not being too busy to learn more.",
+      D: "Nothing in the text describes the captain refusing to speak to anyone.",
+    },
+  },
 
   // Command of Evidence: Textual
   {
@@ -117,9 +197,10 @@ export const items = [
     variant: "textual",
     difficulty: "medium",
     format: "single-select",
-    passageId: "tp-p-thoreau-woods",
-    quotesPassage: true,
-    stem: "In Walden, Henry David Thoreau explains why he went to live alone in the woods. Which quotation from the text most effectively illustrates the claim that Thoreau wanted to experience life honestly even if it turned out to be disappointing?",
+    originalText:
+      "In his 1854 book Walden, Henry David Thoreau explains why he moved to a small cabin in the woods. He suggests that he wanted to experience life honestly, even if it turned out to be disappointing.",
+    quotesFrom: "tp-p-thoreau-woods",
+    stem: "Which quotation from Walden most effectively illustrates the claim?",
     choices: choices([
       "“I did not wish to live what was not life, living is so dear”",
       "“to cut a broad swath and shave close”",
@@ -143,9 +224,10 @@ export const items = [
     variant: "textual",
     difficulty: "easy",
     format: "single-select",
-    passageId: "tp-p-muir-lily",
-    quotesPassage: true,
-    stem: "In this journal entry, John Muir describes finding a lily. Which quotation from the text most effectively illustrates the claim that Muir thought the lily was worth suffering hardship to see?",
+    originalText:
+      "In My First Summer in the Sierra (1911), John Muir describes finding a rare lily in the mountains of California. Muir makes clear that he thought the flower was worth suffering real hardship to see.",
+    quotesFrom: "tp-p-muir-lily",
+    stem: "Which quotation from My First Summer in the Sierra most effectively illustrates the claim?",
     choices: choices([
       "“A lovely flower, worth going hungry and footsore endless miles to see.”",
       "“Its bulbs are buried in shaggy chaparral tangles, I suppose for safety from pawing bears”",
@@ -169,9 +251,10 @@ export const items = [
     variant: "textual",
     difficulty: "hard",
     format: "single-select",
-    passageId: "tp-p-herland-friends",
-    quotesPassage: true,
-    stem: "In this passage from Herland, the narrator, Vandyck Jennings, describes himself and his friends Terry and Jeff. Which quotation from the text most effectively illustrates the claim that the narrator values a subject mainly for what it shows about people?",
+    originalText:
+      "In Charlotte Perkins Gilman's 1915 novel Herland, the narrator, Vandyck Jennings, joins his friends Terry and Jeff on an expedition. Early in the novel, Jennings reveals that he values any subject mainly for what it shows about people.",
+    quotesFrom: "tp-p-herland-friends",
+    stem: "Which quotation from Herland most effectively illustrates the claim?",
     choices: choices([
       "“As for me, sociology's my major. You have to back that up with a lot of other sciences, of course.”",
       "“I'm interested in them all.”",
@@ -188,6 +271,60 @@ export const items = [
       C: "This describes Terry's strengths rather than the narrator's own values.",
     },
   },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ce-007",
+    skillId: "rw-command-of-evidence",
+    variant: "textual",
+    difficulty: "medium",
+    format: "single-select",
+    originalText:
+      "In Charlotte Perkins Gilman's 1892 short story “The Yellow Wallpaper,” the narrator's husband, John, is a doctor who directs her rest cure. Throughout the story, John discourages the narrator from using her imagination.",
+    quotesFrom: "tp-p-gilman-yw-fancy",
+    stem: "Which quotation from “The Yellow Wallpaper” most effectively illustrates the claim?",
+    choices: choices([
+      "“I always fancy I see people walking in these numerous paths and arbors”",
+      "“Out of another I get a lovely view of the bay and a little private wharf belonging to the estate.”",
+      "“John has cautioned me not to give way to fancy in the least.”",
+      "“So I try.”",
+    ]),
+    answer: "C",
+    nearMiss: "A",
+    explanation:
+      "“Fancy” means imagination here, and John has “cautioned” her not to give way to it “in the least.” This quotation shows John discouraging her imagination.",
+    rationales: {
+      A: "This shows the narrator's imagination at work, but it does not show John's response to it.",
+      B: "This describes the view from a window and does not involve John or the narrator's imagination.",
+      D: "This shows the narrator trying to follow advice, but on its own it does not show who gave the advice or what it was.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ce-008",
+    skillId: "rw-command-of-evidence",
+    variant: "textual",
+    difficulty: "hard",
+    format: "single-select",
+    originalText:
+      "In Jane Austen's 1815 novel Emma, Emma's governess and close friend, Miss Taylor, marries and moves to a house half a mile away. Austen suggests that Emma's father, though loving, cannot replace the companionship Miss Taylor provided.",
+    quotesFrom: "tp-p-austen-emma-father",
+    stem: "Which quotation from Emma most effectively illustrates the claim?",
+    choices: choices([
+      "“It was true that her friend was going only half a mile from them”",
+      "“She dearly loved her father, but he was no companion for her.”",
+      "“with all her advantages, natural and domestic”",
+      "“she was now in great danger of suffering from intellectual solitude”",
+    ]),
+    answer: "B",
+    nearMiss: "D",
+    explanation:
+      "The claim has two parts: the father is loving, and he cannot provide companionship. “She dearly loved her father, but he was no companion for her” states both.",
+    rationales: {
+      A: "This concerns how far away Miss Taylor will live, not what Emma's father can offer.",
+      C: "This mentions Emma's advantages and says nothing about her father.",
+      D: "This shows Emma will be lonely, but it does not mention her father or his limits as a companion.",
+    },
+  },
 
   // Command of Evidence: Quantitative
   {
@@ -198,6 +335,8 @@ export const items = [
     difficulty: "easy",
     format: "single-select",
     passageId: "tp-p-thoreau-house",
+    context:
+      "Thoreau listed what he paid for each material. A student claims that boards were the most expensive material Thoreau bought for the house.",
     table: {
       title: "Cost of the materials for Thoreau's house",
       columns: ["Material", "Cost"],
@@ -219,7 +358,7 @@ export const items = [
       ],
       data: walden,
     },
-    stem: "Henry David Thoreau built a small house near Walden Pond and listed what its materials cost. A student claims that boards were the most expensive material Thoreau bought for the house. Which choice most effectively uses data from the table to support the student's claim?",
+    stem: "Which choice most effectively uses data from the table to support the student's claim?",
     choices: choices([
       "The materials for the house cost $28.12½ in all, and the boards cost $8.03½.",
       "The boards cost $8.03½, while no other material cost more than $4.00.",
@@ -253,13 +392,11 @@ export const items = [
         ["Old terrace at Leith Hill Place", "England", "7.56"],
         ["Leith Hill Common", "England", "16.1"],
       ],
-      data: {
-        label:
-          "Charles Darwin, The Formation of Vegetable Mould, through the Action of Worms (1881)",
-        url: "https://www.gutenberg.org/ebooks/2355",
-      },
+      data: darwinWorms,
     },
-    stem: "In this text, Charles Darwin describes the earthworms of England. The table shows estimates he made at four sites by weighing the castings (soil that worms bring to the surface) collected over a period of time. Which choice most effectively uses data from the table to support Darwin's claim?",
+    context:
+      "The table shows estimates Darwin made at four sites by weighing the castings (soil that worms bring to the surface) collected over a period of time.",
+    stem: "Which choice most effectively uses data from the table to support Darwin's claim?",
     choices: choices([
       "At two of the three sites in England, the estimate is more than 10 tons of earth per acre in a year.",
       "At every site in the table, the estimate is more than 10 tons of earth per acre in a year.",
@@ -307,7 +444,9 @@ export const items = [
       ],
       data: walden,
     },
-    stem: "Thoreau farmed a field for one season and recorded his costs, which he called outgoes, and his income. A student claims that the field earned a profit mainly because of the beans Thoreau sold. Which choice most effectively uses data from the table to support the student's claim?",
+    context:
+      "Thoreau recorded his costs, which he called outgoes, and his income. A student claims that the field earned a profit mainly because of the beans Thoreau sold.",
+    stem: "Which choice most effectively uses data from the table to support the student's claim?",
     choices: choices([
       "His total income of $23.44 was greater than his total outgoes of $14.72½.",
       "Plowing, harrowing, and furrowing cost $7.50, more than any other outgo.",
@@ -324,6 +463,82 @@ export const items = [
       D: "This describes income from potatoes, which does not show that beans produced the profit.",
     },
   },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ce-009",
+    skillId: "rw-command-of-evidence",
+    variant: "quantitative",
+    difficulty: "medium",
+    format: "single-select",
+    originalText:
+      "The naturalist Gilbert White recorded the rain that fell each year in the village of Selborne, England. His records show how widely rainfall there could vary from one year to the next: the wettest of these years brought nearly twice as much rain as the driest year.",
+    figure: {
+      type: "bars",
+      title: "Rainfall at Selborne, England, 1780–1786",
+      alt: "Bar graph of yearly rainfall at Selborne in inches: 1780, 27.32; 1781, 30.71; 1782, 50.26; 1783, 33.71; 1784, 33.80; 1785, 31.55; 1786, 39.57.",
+      categories: ["1780", "1781", "1782", "1783", "1784", "1785", "1786"],
+      series: [
+        { name: "Rainfall", values: [27.32, 30.71, 50.26, 33.71, 33.8, 31.55, 39.57] },
+      ],
+      y: { min: 0, max: 55, step: 5, label: "Rainfall (inches)" },
+      note: "Data: Gilbert White, The Natural History and Antiquities of Selborne (1789). Each year ran from January 1 to January 1.",
+    },
+    blank:
+      "the wettest of these years brought nearly twice as much rain as the driest year",
+    stem: "Which choice most effectively uses data from the graph to complete the statement?",
+    choices: choices([
+      "rainfall rose steadily every year from 1780 to 1786",
+      "the wettest of these years brought nearly twice as much rain as the driest year",
+      "the rainfall in 1783 was nearly the same as the rainfall in 1784",
+      "no year in these records brought less than 30 inches of rain",
+    ]),
+    answer: "B",
+    nearMiss: "C",
+    explanation:
+      "The statement is about how widely rainfall varied. The wettest year, 1782, had 50.26 inches, and the driest, 1780, had 27.32 inches, so the wettest year brought nearly twice as much rain.",
+    rationales: {
+      A: "Rainfall fell from 1782 to 1783 and again from 1784 to 1785, so it did not rise every year.",
+      C: "This is accurate, but two nearly equal years show how little rainfall changed, not how widely it varied.",
+      D: "This is inaccurate, because 1780 brought only 27.32 inches.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ce-010",
+    skillId: "rw-command-of-evidence",
+    variant: "quantitative",
+    difficulty: "hard",
+    format: "single-select",
+    originalText:
+      "Charles Darwin weighed the castings, small piles of soil that earthworms leave at the mouths of their burrows. A colleague, Dr. King, collected castings for him in two very different places: near Nice, in France, and in the Nilgiri Mountains of southern India. A student claims that King's castings from the Nilgiri Mountains were more than twice as heavy, on average, as his castings from near Nice.",
+    table: {
+      title: "Weight of dried castings from single burrows",
+      columns: ["Place and collector", "Castings weighed", "Average weight (ounces)"],
+      rows: [
+        ["Near Nice, France (Dr. King)", "12 castings of ordinary size", "1.37"],
+        ["Lower Bengal, India (J. Scott)", "22 castings", "1.24"],
+        ["Nilgiri Mountains, India (Dr. King)", "The 5 largest castings", "3.15"],
+        ["Down, England (Darwin)", "1 large casting from a level field", "1.22"],
+      ],
+      data: darwinWorms,
+    },
+    stem: "Which choice most effectively uses data from the table to support the student's claim?",
+    choices: choices([
+      "The castings from Lower Bengal averaged 1.24 ounces, less than the castings from near Nice.",
+      "The Nilgiri castings averaged 3.15 ounces, the greatest average weight of any place in the table.",
+      "The castings from near Nice averaged 1.37 ounces, more than the 1.22-ounce casting from Down.",
+      "The Nilgiri castings averaged 3.15 ounces, more than twice the 1.37-ounce average from near Nice.",
+    ]),
+    answer: "D",
+    nearMiss: "B",
+    explanation:
+      "The claim compares King's two sites. Since 2 × 1.37 = 2.74, and 3.15 is greater than 2.74, the Nilgiri average is more than twice the Nice average.",
+    rationales: {
+      A: "This is accurate, but Lower Bengal is not one of the two sites the claim compares.",
+      B: "This is accurate, but being the greatest does not show that the Nilgiri castings were more than twice as heavy as those from Nice.",
+      C: "This compares Nice with Down, England, which is not part of the claim.",
+    },
+  },
 
   // Inferences
   {
@@ -334,7 +549,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-douglass-argument",
     blank: "only served to inspire me with a desire and determination to learn",
-    stem: "Frederick Douglass recalls overhearing his enslaver warn that learning to read would make Douglass impossible to control. Which choice most logically completes the text?",
+    stem: COMPLETE,
     choices: choices([
       "led me to give up any hope of learning to read on my own",
       "convinced me that reading would bring me no good, but much harm",
@@ -359,7 +574,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-zitkala-trials",
     blank: "for I had to finish whatever I began",
-    stem: "In this text, Zitkala-Ša recalls learning beadwork from her mother. Which choice most logically completes the text?",
+    stem: COMPLETE,
     choices: choices([
       "because my mother allowed me only simple shapes",
       "for I had to finish whatever I began",
@@ -384,7 +599,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-herland-inference",
     blank: "proof of the high development of Some Where Else",
-    stem: "In this passage from Herland, the narrator describes the people of a country that had long been cut off from the rest of the world. Which choice most logically completes the text?",
+    stem: COMPLETE,
     choices: choices([
       "proof of the high development of Some Where Else",
       "a threat that had to be driven away at once",
@@ -409,7 +624,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-darwin-mississippi",
     blank: "less than 4,500,000 years",
-    stem: "Charles Darwin uses a river to show how quickly running water can wear land away. Which choice most logically completes the text?",
+    stem: COMPLETE,
     choices: choices([
       "more than 4,500,000 years",
       "about 4,566 years",
@@ -424,6 +639,81 @@ export const items = [
       A: "This uses the right figure but the wrong direction, since about 3.4 million years is less than 4.5 million.",
       B: "This is the time needed to lower the land by only 1 foot, not by its full height.",
       D: "This is the land's average height in feet, not a length of time.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-in-005",
+    skillId: "rw-inferences",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-london-selected",
+    blank: "he was glad each time when he was not selected",
+    stem: COMPLETE,
+    choices: choices([
+      "he barked at each stranger until he was chosen",
+      "he was glad each time when he was not selected",
+      "he hoped that the next stranger would take him",
+      "he tried to show the strangers how strong he was",
+    ]),
+    answer: "B",
+    nearMiss: "C",
+    explanation:
+      "The dogs taken away never came back, and Buck feared the future. A dog in that position would be relieved, not eager, each time he was passed over.",
+    rationales: {
+      A: "Buck fears where the dogs go, so he would not try to get himself chosen.",
+      C: "Hoping to be taken conflicts with the “fear of the future” the text says was strong upon him.",
+      D: "Showing off his strength would make him more likely to be chosen, which a fearful Buck would avoid.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-in-006",
+    skillId: "rw-inferences",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-jewett-tansy",
+    blank: "like some folks that had it hard in their youth",
+    stem: COMPLETE,
+    choices: choices([
+      "like some folks that never left their own dooryards",
+      "like a garden that was tended every single day",
+      "like some folks that had it hard in their youth",
+      "like the weeds that crowd out every other plant",
+    ]),
+    answer: "C",
+    nearMiss: "D",
+    explanation:
+      "Mrs. Todd says the tansy grew better for being trampled. The comparison should describe something that grows stronger because of early hardship, and the rest of the sentence describes people “bound to make the most of themselves.”",
+    rationales: {
+      A: "Staying at home is not a hardship that makes someone stronger, so it does not match being “scuffed down.”",
+      B: "Daily care is the opposite of being trampled all spring, so the comparison would not fit.",
+      D: "Weeds that crowd out other plants do not match the rest of the sentence, which describes people making the most of themselves.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-in-007",
+    skillId: "rw-inferences",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-twain-points",
+    blank: "I hoped Mr. Bixby would change the subject",
+    stem: COMPLETE,
+    choices: choices([
+      "I resolved to write each point's name in my notebook",
+      "I hoped Mr. Bixby would change the subject",
+      "I began to admire the beauty of each one",
+      "I realized that every point was worth remembering",
+    ]),
+    answer: "B",
+    nearMiss: "D",
+    explanation:
+      "Twain could not see “the bearing” of the information, did not think it mattered to him, and found the points dull and alike. A bored learner who sees no use in the lesson would hope the teacher would talk about something else.",
+    rationales: {
+      A: "Taking careful notes would show he valued the information, but he says it was of no interest to him.",
+      C: "He calls the points “monotonously unpicturesque,” so he did not find them beautiful.",
+      D: "At this point he cannot see why the points matter, so he has not yet realized their value.",
     },
   },
 ];

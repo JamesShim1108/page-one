@@ -38,39 +38,79 @@ function shuffled(list, random) {
 
 const DIFFICULTY_ORDER = { easy: 0, medium: 1, hard: 2 };
 
-// One module: the blueprint's count from each domain, drawn at random, then
-// grouped by domain in blueprint order. Math runs from easier to harder within
-// the module. Returns null when a domain lacks enough items.
-export function drawModule(items, test, sectionId, random = Math.random) {
-  const section = test.sections.find((entry) => entry.id === sectionId);
-  if (!section) return null;
-  const chosen = [];
-  for (const [domainId, needed] of Object.entries(section.moduleDomains)) {
-    const pool = scopeItems(items, test, { section: sectionId, domain: domainId });
-    if (pool.length < needed) return null;
-    chosen.push(...shuffled(pool, random).slice(0, needed));
+// Difficulty mixes. "mixed" is a first module: a spread of easy, medium, and
+// hard. "harder" and "easier" are second modules after an adaptive route.
+const MIXES = {
+  mixed: { easy: 1, medium: 1, hard: 1 },
+  harder: { easy: 0.15, medium: 0.4, hard: 0.45 },
+  easier: { easy: 0.45, medium: 0.4, hard: 0.15 },
+};
+
+// Take `needed` items from a shuffled pool, filling each difficulty's share
+// first and topping up from whatever remains.
+function pickByMix(pool, needed, mix) {
+  const total = Object.values(mix).reduce((sum, value) => sum + value, 0);
+  const picked = [];
+  const left = [...pool];
+  for (const level of ["hard", "medium", "easy"]) {
+    const want = Math.round((needed * mix[level]) / total);
+    for (let index = 0; index < left.length && picked.length < needed;) {
+      if (
+        left[index].difficulty === level &&
+        picked.filter((item) => item.difficulty === level).length < want
+      )
+        picked.push(...left.splice(index, 1));
+      else index += 1;
+    }
   }
-  if (sectionId === "math")
-    chosen.sort(
+  while (picked.length < needed && left.length) picked.push(left.shift());
+  return picked;
+}
+
+// Official order inside a module. Reading and Writing groups questions by
+// skill, easier to harder in each group; Math runs easier to harder overall.
+export function orderModule(items, section) {
+  const sorted = [...items];
+  if (section.id === "math")
+    sorted.sort(
       (left, right) =>
         DIFFICULTY_ORDER[left.difficulty] - DIFFICULTY_ORDER[right.difficulty],
     );
   else {
-    // Reading and Writing groups questions of the same skill together, in the
-    // taxonomy's order within each domain.
-    const order = new Map(
-      section.domains
-        .flatMap((domain) => domain.skills)
-        .map((skill, index) => [skill.id, index]),
-    );
-    const domainOrder = Object.keys(section.moduleDomains);
-    chosen.sort(
+    const order = section.moduleOrder || [];
+    sorted.sort(
       (left, right) =>
-        domainOrder.indexOf(left.domainId) - domainOrder.indexOf(right.domainId) ||
-        order.get(left.skillId) - order.get(right.skillId),
+        order.indexOf(left.skillId) - order.indexOf(right.skillId) ||
+        DIFFICULTY_ORDER[left.difficulty] - DIFFICULTY_ORDER[right.difficulty],
     );
   }
-  return chosen.map((item) => item.id);
+  return sorted;
+}
+
+// One module: the blueprint's count from each domain, drawn at random with the
+// requested difficulty mix, then put in official order. `exclude` keeps a
+// full-length test from repeating questions. Returns null when a domain lacks
+// enough items.
+export function drawModule(
+  items,
+  test,
+  sectionId,
+  random = Math.random,
+  { moduleIndex = 0, mix = "mixed", exclude = [] } = {},
+) {
+  const section = test.sections.find((entry) => entry.id === sectionId);
+  if (!section) return null;
+  const blueprint = section.moduleDomains[moduleIndex];
+  const skip = new Set(exclude);
+  const chosen = [];
+  for (const [domainId, needed] of Object.entries(blueprint)) {
+    const pool = scopeItems(items, test, { section: sectionId, domain: domainId }).filter(
+      (item) => !skip.has(item.id),
+    );
+    if (pool.length < needed) return null;
+    chosen.push(...pickByMix(shuffled(pool, random), needed, MIXES[mix]));
+  }
+  return orderModule(chosen, section).map((item) => item.id);
 }
 
 // Correct counts overall, by domain, and by skill, in the test's own order.
@@ -122,6 +162,52 @@ export function sectionEstimate(test, correct, total) {
     high: Math.min(max, point + band),
     min,
     max,
+    label: PRACTICE_ESTIMATE_LABEL,
+  };
+}
+
+// Adaptive routing after a first module. On the real test the routing rule is
+// not published; this uses a fixed share correct.
+export const ROUTE_THRESHOLD = 0.6;
+
+export function routeAfter(correct, total) {
+  return total && correct / total >= ROUTE_THRESHOLD ? "harder" : "easier";
+}
+
+// A full section's rough estimate. Each module counts half. The easier second
+// module is worth at most 80% of the harder one, so a student routed there
+// cannot reach the top of the scale, as on an adaptive test. The band is
+// narrower than for one module because there are twice as many questions.
+export const FULL_BAND_SHARE = 0.05;
+export const EASIER_ROUTE_CREDIT = 0.8;
+
+export function fullSectionEstimate(test, first, second, route) {
+  const { min, max } = test.scale.section;
+  const span = max - min;
+  const round = (value) => Math.round(value / 10) * 10;
+  const share = (part) => (part.total ? part.correct / part.total : 0);
+  const credit = route === "harder" ? 1 : EASIER_ROUTE_CREDIT;
+  const fraction = 0.5 * share(first) + 0.5 * share(second) * credit;
+  const point = round(min + span * fraction);
+  const band = round(span * FULL_BAND_SHARE);
+  return {
+    low: Math.max(min, point - band),
+    high: Math.min(max, point + band),
+    point,
+    min,
+    max,
+    label: PRACTICE_ESTIMATE_LABEL,
+  };
+}
+
+// The total band adds the two section bands, on the same test's total scale.
+export function totalEstimate(test, sections) {
+  const sum = (key) => sections.reduce((total, section) => total + section[key], 0);
+  return {
+    low: Math.max(test.scale.total.min, sum("low")),
+    high: Math.min(test.scale.total.max, sum("high")),
+    min: test.scale.total.min,
+    max: test.scale.total.max,
     label: PRACTICE_ESTIMATE_LABEL,
   };
 }

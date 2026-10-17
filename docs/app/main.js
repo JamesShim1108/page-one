@@ -398,6 +398,14 @@ async function selectPage(route, data, generation) {
       selected.description = "Choose PSAT 8/9, PSAT 10, PSAT/NMSQT, or SAT practice.";
       selected.html = () => testPrepIndexPage(data);
     }
+  } else if (route.type === "test-practice" && route.params.get("mode") === "full") {
+    const { createFullTest } = await import("./test-prep/full-test.js");
+    if (generation !== routeGeneration) return null;
+    const full = createFullTest({ ...data, repaint });
+    selected.title = full.title;
+    selected.description = `A full-length ${data.test.title} practice test with original questions. Scores are practice estimates.`;
+    selected.html = full.page;
+    selected.enhance = full.enhance;
   } else if (route.type === "test-practice") {
     const { createTestPrepSession } = await import("./test-prep/session.js");
     if (generation !== routeGeneration) return null;

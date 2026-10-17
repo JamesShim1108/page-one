@@ -1,10 +1,17 @@
 // Craft and Structure items. Original practice written by Page One around
-// public-domain passages (see ../passages.js). Skill names and formats follow
-// the official SAT Suite descriptions; no official item is copied or
-// paraphrased. A blank hides the source's own word, which is the answer.
+// public-domain passages (see ../passages.js). Each item has its own text, as on
+// the digital test; skill names, formats, and prompt forms follow the official
+// SAT Suite descriptions, and no official item is copied or paraphrased. A blank
+// hides the source's own word, which is the answer.
 
 const ids = ["A", "B", "C", "D"];
 const choices = (texts) => texts.map((text, index) => ({ id: ids[index], text }));
+const PRECISE =
+  "Which choice completes the text with the most logical and precise word or phrase?";
+const meaning = (word) =>
+  `As used in the text, what does the word “${word}” most nearly mean?`;
+const PURPOSE = "Which choice best states the main purpose of the text?";
+const STRUCTURE = "Which choice best describes the overall structure of the text?";
 
 export const items = [
   // Words in Context
@@ -14,17 +21,22 @@ export const items = [
     skillId: "rw-words-in-context",
     difficulty: "medium",
     format: "single-select",
-    passageId: "tp-p-zitkala-oversight",
-    stem: "In this text, Zitkala-Ša recalls learning beadwork from her mother. As used in the text, what does the word “oversight” most nearly mean?",
-    choices: choices(["supervision", "mistake", "absence", "approval"]),
-    answer: "A",
-    nearMiss: "B",
+    passageId: "tp-p-gilman-yw-pronounced",
+    stem: meaning("pronounced"),
+    choices: choices([
+      "spoken aloud",
+      "officially declared",
+      "clearly noticeable",
+      "carefully planned",
+    ]),
+    answer: "C",
+    nearMiss: "A",
     explanation:
-      "The mother watches her daughter's work and has little patience with its faults, and her quiet watching makes the girl feel responsible. Here “oversight” means watching over someone's work: supervision.",
+      "The narrator says the pattern is dull enough to confuse the eye yet “pronounced enough to constantly irritate.” Something that keeps irritating the eye must stand out, so “pronounced” means clearly noticeable.",
     rationales: {
-      B: "“Oversight” can mean an error, but nothing in the text describes the mother making a mistake.",
-      C: "The mother is present and watching closely, so her oversight is not an absence.",
-      D: "The mother shows impatience with faults and gives rebukes, so her oversight is not simply approval.",
+      A: "“Pronounced” can describe a spoken word, but a wallpaper pattern is seen, not spoken.",
+      B: "Nothing in the text involves an official announcement about the pattern.",
+      D: "The narrator says the curves “commit suicide” and end in “contradictions,” so the pattern does not seem carefully planned.",
     },
   },
   {
@@ -35,7 +47,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-douglass-fixed",
     blank: "high hope",
-    stem: "Frederick Douglass describes his decision to keep learning to read after his lessons were stopped. Which choice completes the text with the most logical and precise word or phrase?",
+    stem: PRECISE,
     choices: choices(["faint hope", "false hope", "high hope", "borrowed hope"]),
     answer: "C",
     nearMiss: "A",
@@ -53,8 +65,8 @@ export const items = [
     skillId: "rw-words-in-context",
     difficulty: "medium",
     format: "single-select",
-    passageId: "tp-p-thoreau-woods",
-    stem: "In Walden, Henry David Thoreau explains why he went to live alone in the woods. As used in the text, what does the word “deliberately” most nearly mean?",
+    passageId: "tp-p-thoreau-deliberately",
+    stem: meaning("deliberately"),
     choices: choices([
       "at a slow and careful pace",
       "with conscious purpose",
@@ -67,7 +79,7 @@ export const items = [
       "Thoreau wants to “front only the essential facts of life” and not discover at death “that I had not lived.” To live deliberately is to live with careful attention and intention.",
     rationales: {
       A: "“Deliberately” can describe an unhurried pace, but Thoreau's concern is living with intention, not living at a slow speed.",
-      C: "Thoreau plans to “publish” what he learns to the world, so he is not hiding his purpose from anyone.",
+      C: "Nothing in the text suggests Thoreau is hiding his purpose from anyone.",
       D: "Nothing in the text concerns earning money; his aim is to learn what life has to teach.",
     },
   },
@@ -78,7 +90,7 @@ export const items = [
     difficulty: "hard",
     format: "single-select",
     passageId: "tp-p-herland-cats",
-    stem: "In this passage from Herland, the narrator describes the cats raised by the women of an isolated country. As used in the text, what does the word “rigorously” most nearly mean?",
+    stem: meaning("rigorously"),
     choices: choices(["harshly", "quickly", "secretly", "strictly"]),
     answer: "D",
     nearMiss: "A",
@@ -90,6 +102,143 @@ export const items = [
       C: "The narrator calls the result “a fact” and describes it openly; nothing about the breeding was hidden.",
     },
   },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-wic-005",
+    skillId: "rw-words-in-context",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-london-unwonted",
+    stem: meaning("unwonted"),
+    choices: choices(["unwanted", "unusual", "unpaid", "unfair"]),
+    answer: "B",
+    nearMiss: "A",
+    explanation:
+      "The price of dogs had been “boomed skyward” by the demand, so the demand must have been far beyond what was normal. “Unwonted” means unusual or not customary.",
+    rationales: {
+      A: "The word looks like “unwanted,” but the dogs were very much wanted; that is why prices rose.",
+      C: "The demand drove prices up, so it had nothing to do with going unpaid.",
+      D: "The text says the price was “not an unfair sum,” so fairness is not what “unwonted” describes.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-wic-006",
+    skillId: "rw-words-in-context",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-austen-emma-unite",
+    blank: "unite",
+    stem: PRECISE,
+    choices: choices(["unite", "refuse", "conceal", "outgrow"]),
+    answer: "A",
+    nearMiss: "C",
+    explanation:
+      "Emma is handsome, clever, rich, well housed, and cheerful, so she seems to bring together, or unite, many of life's best blessings.",
+    rationales: {
+      B: "Emma has all these advantages, so she has not refused them.",
+      C: "Nothing suggests Emma hides her advantages; the text lists them openly.",
+      D: "The text says she has lived nearly twenty-one years with little to distress her, so she has not outgrown her blessings.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-wic-007",
+    skillId: "rw-words-in-context",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-wilde-preface",
+    blank: "conceal",
+    stem: PRECISE,
+    choices: choices(["celebrate", "describe", "conceal", "train"]),
+    answer: "C",
+    nearMiss: "A",
+    explanation:
+      "The sentence pairs two actions as art's aim: to reveal art and to do the opposite to the artist. The opposite of revealing is concealing.",
+    rationales: {
+      A: "Celebrating the artist would put the artist forward, which works against the contrast with “reveal art.”",
+      B: "Describing the artist would also reveal the artist, so it does not form the contrast the sentence sets up.",
+      D: "Training the artist has nothing to do with what a work of art shows or hides.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-wic-008",
+    skillId: "rw-words-in-context",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-faraday-flame",
+    stem: meaning("concerns"),
+    choices: choices(["worries", "matters to", "belongs to", "describes"]),
+    answer: "B",
+    nearMiss: "A",
+    explanation:
+      "Faraday is explaining what his audience needs to understand next: “It concerns us much to know” means it matters a great deal to us to know.",
+    rationales: {
+      A: "“Concerns” can mean worries, but Faraday is not anxious; he is pointing out what is important to learn.",
+      C: "The flame's shape does not belong to the audience; the point is that knowing it is important.",
+      D: "The sentence is about why knowing the flame's shape is important, not about a description.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-wic-009",
+    skillId: "rw-words-in-context",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-wharton-academy",
+    blank: "cherished",
+    stem: PRECISE,
+    choices: choices(["criticized", "tolerated", "abandoned", "cherished"]),
+    answer: "D",
+    nearMiss: "B",
+    explanation:
+      "Conservatives valued the small, inconvenient Academy because it kept out the “new people” they dreaded, and the sentence goes on to say others “clung to it.” “Cherished” fits this fond attachment.",
+    rationales: {
+      A: "The conservatives liked what the Academy's smallness did for them, so they would not criticize it for that.",
+      B: "Tolerating suggests putting up with something disliked, but the text gives a reason they actively valued the Academy.",
+      C: "The world of fashion still gathered there every winter, so it had not been abandoned.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-wic-010",
+    skillId: "rw-words-in-context",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-burnett-snake",
+    blank: "harmless",
+    stem: PRECISE,
+    choices: choices(["dangerous", "harmless", "hungry", "gigantic"]),
+    answer: "B",
+    nearMiss: "C",
+    explanation:
+      "Mary is not frightened because the snake “would not hurt her.” The word must describe a creature that poses no danger: harmless.",
+    rationales: {
+      A: "A dangerous snake would give Mary a reason to be frightened, not a reason to stay calm.",
+      C: "A hungry snake does not explain why Mary is unafraid, and the snake seems only in a hurry to leave.",
+      D: "The text calls it a “little” snake, so it cannot be gigantic.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-wic-011",
+    skillId: "rw-words-in-context",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-alcott-altered",
+    stem: meaning("altered"),
+    choices: choices(["repaired", "angry", "changed", "loud"]),
+    answer: "C",
+    nearMiss: "B",
+    explanation:
+      "After a minute of silence, Meg speaks seriously about the family's sacrifices. Her tone has shifted from the earlier conversation: “altered” means changed.",
+    rationales: {
+      A: "“Altered” can describe clothing that has been fixed, but a tone of voice is not repaired.",
+      B: "Meg speaks about sacrifice and admits her own regret, which is serious and sad rather than angry.",
+      D: "Nothing suggests Meg raises her voice; she speaks after a quiet moment.",
+    },
+  },
 
   // Text Structure and Purpose
   {
@@ -99,7 +248,7 @@ export const items = [
     difficulty: "medium",
     format: "single-select",
     passageId: "tp-p-douglass-shipyard",
-    stem: "Which choice best describes the overall structure of this text by Frederick Douglass?",
+    stem: STRUCTURE,
     choices: choices([
       "It describes a set of labels used in a shipyard and then explains why carpenters needed each one.",
       "It describes a problem the narrator faced and then explains why he decided not to pursue it.",
@@ -120,24 +269,24 @@ export const items = [
     schemaVersion: 1,
     id: "tp-rw-ts-002",
     skillId: "rw-text-structure",
-    difficulty: "easy",
+    difficulty: "hard",
     format: "single-select",
-    passageId: "tp-p-thoreau-woods",
-    stem: "Which choice best states the main purpose of this text from Walden by Henry David Thoreau?",
+    passageId: "tp-p-wharton-conventions",
+    stem: PURPOSE,
     choices: choices([
-      "To explain the reasons behind the narrator's decision to live in the woods",
-      "To describe the daily routine the narrator followed while living in the woods",
-      "To argue that everyone should leave towns behind and move into the woods",
-      "To compare life in the woods with the life of a person in a busy city",
+      "To explain why operas were translated into Italian for audiences in New York",
+      "To show, with gentle irony, how readily Newland Archer accepts the customs of his social world",
+      "To argue that the customs of New York society made little sense to anyone who lived there",
+      "To describe the clothing and grooming habits that were fashionable among young men in New York",
     ]),
-    answer: "A",
-    nearMiss: "B",
+    answer: "B",
+    nearMiss: "A",
     explanation:
-      "The text begins “I went to the woods because,” then lists what Thoreau hoped to do: live deliberately, face life's essential facts, and learn what life had to teach. It explains his reasons.",
+      "The text calls an absurd translation rule “unalterable and unquestioned,” then says it seemed as natural to Archer as his monogrammed brushes and buttonhole flower. The point is Archer's easy acceptance of his world's conventions.",
     rationales: {
-      B: "The text describes what Thoreau hoped to learn, not the activities of an ordinary day.",
-      C: "Thoreau explains his own choice and does not urge others to make it.",
-      D: "No city life is described, so there is no comparison.",
+      A: "The translation rule is presented as an absurd example of a convention, not explained as a practice.",
+      C: "The text says these customs seemed natural to Archer, so it does not claim they made no sense to the people who lived there.",
+      D: "The brushes and flower are examples of conventions Archer accepts, not the subject of the text.",
     },
   },
   {
@@ -147,7 +296,7 @@ export const items = [
     difficulty: "medium",
     format: "single-select",
     passageId: "tp-p-muir-tenaya",
-    stem: "In this journal entry, John Muir describes a lake in the Sierra Nevada mountains. Which choice best describes the overall structure of the text?",
+    stem: STRUCTURE,
     choices: choices([
       "It describes the lake's shore and then explains why the lake was given the Indian name that it has.",
       "It explains how glaciers form and then traces the history of a single glacier.",
@@ -171,7 +320,7 @@ export const items = [
     difficulty: "hard",
     format: "single-select",
     passageId: "tp-p-austen-truth",
-    stem: "Which choice best states the main purpose of this text from the opening of Pride and Prejudice by Jane Austen?",
+    stem: PURPOSE,
     choices: choices([
       "To describe the private feelings of a wealthy man as he settles into a new neighbourhood",
       "To present a widely held belief and show how it shapes a community's view of a newcomer",
@@ -188,6 +337,103 @@ export const items = [
       D: "The families are eager to claim the newcomer, not to avoid him.",
     },
   },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ts-005",
+    skillId: "rw-text-structure",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-austen-emma-married",
+    underline: "Miss Taylor married.",
+    stem: "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    choices: choices([
+      "It names the event that causes the sorrow described in the first sentence.",
+      "It introduces a new character whose arrival changes Emma's household.",
+      "It shows that Emma had expected the wedding for a long time.",
+      "It explains why Emma's father falls asleep after dinner.",
+    ]),
+    answer: "A",
+    nearMiss: "C",
+    explanation:
+      "The first sentence says that sorrow came, and the underlined sentence names its cause: Miss Taylor's marriage. The rest of the text describes Emma's loss on the wedding day.",
+    rationales: {
+      B: "Miss Taylor is not new; the text describes her as Emma's “beloved friend” of long standing.",
+      C: "The text says this was the first time Emma thought about what would continue, so it does not suggest long expectation.",
+      D: "Her father falls asleep “as usual,” which the marriage does not cause.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ts-006",
+    skillId: "rw-text-structure",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-twain-education",
+    stem: STRUCTURE,
+    choices: choices([
+      "It lists the skills the narrator gained and then shows the overconfidence those skills produced.",
+      "It describes the narrator's mistakes as a pilot and then explains how he corrected them.",
+      "It compares the narrator's training with that of other pilots on the river.",
+      "It traces the route of the river from St. Louis to New Orleans, landmark by landmark.",
+    ]),
+    answer: "A",
+    nearMiss: "B",
+    explanation:
+      "A long series of “when I had” clauses lists what the narrator learned. Then he judges his education complete and starts wearing his cap tilted and a toothpick in his mouth, and Mr. Bixby notices “these airs.”",
+    rationales: {
+      B: "The text lists what he mastered, not mistakes he made and corrected.",
+      C: "No other pilots are mentioned.",
+      D: "The two cities are named only to show how well he knew the river, not to trace the route.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ts-007",
+    skillId: "rw-text-structure",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-jewett-procession",
+    stem: PURPOSE,
+    choices: choices([
+      "To describe the people who walked in the funeral procession",
+      "To explain why the funeral was held on the edge of the shore",
+      "To criticize the villagers for holding a funeral on such a beautiful day",
+      "To contrast a small human event with the vast and lively natural world around it",
+    ]),
+    answer: "D",
+    nearMiss: "A",
+    explanation:
+      "The procession looks “futile and helpless” against the islands, the sea, and the clear sky, and the sparrows sing as if in “contempt” for concern with death. The text sets the small human scene against the vast landscape.",
+    rationales: {
+      A: "The text calls the procession small and helpless but does not describe the individual people in it.",
+      B: "The text does not explain where or why the funeral was held.",
+      C: "The contempt belongs to the singing sparrows; the narrator does not criticize the villagers.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ts-008",
+    skillId: "rw-text-structure",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-dickens-convict",
+    stem: STRUCTURE,
+    choices: choices([
+      "It explains how the man came to be in the churchyard and why he needs help.",
+      "It builds a description of a man through a series of details and ends with his seizing the narrator.",
+      "It describes the churchyard in detail and then introduces the man who appears in it.",
+      "It compares the man's appearance with the narrator's own appearance.",
+    ]),
+    answer: "B",
+    nearMiss: "C",
+    explanation:
+      "The text piles up details about the man's appearance and what he has suffered, then ends with an action: his teeth chatter “as he seized me by the chin.”",
+    rationales: {
+      A: "The text describes the man but never explains how he got there or what he wants.",
+      C: "The churchyard itself is not described; every detail is about the man.",
+      D: "The narrator does not describe his own appearance.",
+    },
+  },
 
   // Cross-Text Connections
   {
@@ -197,7 +443,7 @@ export const items = [
     difficulty: "medium",
     format: "single-select",
     passageIds: ["tp-p-white-worms", "tp-p-darwin-plough"],
-    stem: "Text 1 is from a 1777 letter by Gilbert White. Text 2 is from an 1881 book by Charles Darwin. Based on the texts, how would Darwin most likely respond to White's claim that earthworms, despite their appearance, are important?",
+    stem: "Based on the texts, how would Darwin (Text 2) most likely respond to White's claim (Text 1) that earthworms, despite their appearance, are important?",
     choices: choices([
       "He would say White exaggerates, since worms affect only soil and not the history of the land.",
       "He would agree and go further, suggesting that worms have worked the land since before humans existed.",
@@ -220,22 +466,22 @@ export const items = [
     skillId: "rw-cross-text",
     difficulty: "hard",
     format: "single-select",
-    passageIds: ["tp-p-white-worms", "tp-p-darwin-plough"],
-    stem: "Text 1 is from a 1777 letter by Gilbert White. Text 2 is from an 1881 book by Charles Darwin. Which choice best describes a difference in how the two texts discuss earthworms?",
+    passageIds: ["tp-p-twain-romance", "tp-p-faraday-beautiful"],
+    stem: "Based on the texts, how would Faraday (Text 2) most likely respond to Twain's view (Text 1) that learning how something works can take away its beauty?",
     choices: choices([
-      "Text 1 doubts that worms help plants, while Text 2 is certain that they do.",
-      "Text 1 discusses worms in English gardens, while Text 2 discusses worms in the world's tropical oceans.",
-      "Text 1 compares worms with a human invention, while Text 2 lists the many animals that feed on worms.",
-      "Text 1 stresses how worms help plants grow, while Text 2 stresses their role in the land's history.",
+      "He would agree, since he says a flame's light depends on dirty solid particles such as charcoal.",
+      "He would agree that doctors stop seeing beauty but argue that scientists never do.",
+      "He would disagree, arguing that beauty is something only trained experts can truly see.",
+      "He would disagree, since he finds the very process that makes a flame bright beautiful to think about.",
     ]),
     answer: "D",
-    nearMiss: "C",
+    nearMiss: "A",
     explanation:
-      "White focuses on worms as “promoters of vegetation” that loosen soil for plants. Darwin compares them to the plough and stresses their part “in the history of the world.”",
+      "Twain says the river's beauty vanished once he learned to read it for piloting. Faraday asks, “Is it not beautiful to think that such a process is going on,” finding beauty in the very workings he explains.",
     rationales: {
-      A: "White says worms are “the great promoters of vegetation,” so he does not doubt that they help plants.",
-      B: "Neither text discusses tropical oceans.",
-      C: "This reverses the texts: Darwin makes the comparison with the plough, and White mentions animals supported by worms.",
+      A: "Faraday does call charcoal dirty, but he says it becomes part of a “glorious and beautiful light,” which is the opposite of Twain's view.",
+      B: "Faraday says nothing about doctors, and Text 2 makes no claim about what all scientists see.",
+      C: "Faraday finds understanding beautiful, but he never says that only experts can see beauty.",
     },
   },
   {
@@ -245,7 +491,7 @@ export const items = [
     difficulty: "hard",
     format: "single-select",
     passageIds: ["tp-p-washington-atlanta", "tp-p-dubois-washington"],
-    stem: "Text 1 is from an 1895 speech by Booker T. Washington. Text 2 is from a 1903 essay by W. E. B. Du Bois. Based on the texts, how would Du Bois most likely respond to Washington's statement that “there is as much dignity in tilling a field as in writing a poem”?",
+    stem: "Based on the texts, how would Du Bois (Text 2) most likely respond to Washington's statement (Text 1) that “there is as much dignity in tilling a field as in writing a poem”?",
     choices: choices([
       "He would agree and add that writing poetry distracts people from making economic progress.",
       "He would argue that farming deserves less respect than other kinds of work.",
@@ -268,22 +514,46 @@ export const items = [
     skillId: "rw-cross-text",
     difficulty: "medium",
     format: "single-select",
-    passageIds: ["tp-p-washington-atlanta", "tp-p-dubois-washington"],
-    stem: "Text 1 is from an 1895 speech by Booker T. Washington. Text 2 is from a 1903 essay by W. E. B. Du Bois. Which choice best describes the relationship between the texts?",
+    passageIds: ["tp-p-washington-bucket", "tp-p-dubois-three-things"],
+    stem: "Based on the texts, how would Du Bois (Text 2) most likely respond to the list of fields in which Washington (Text 1) urges listeners to “cast down your bucket”?",
     choices: choices([
-      "Text 2 criticizes the outlook of Text 1 as too narrowly focused on economic goals.",
-      "Text 2 provides additional examples that support the main argument made in Text 1.",
-      "Text 2 describes the historical events that led Washington to give the speech in Text 1.",
-      "Both texts argue that the education of young people should center on poetry and the arts.",
+      "He would note that the list leaves out the political power and civil rights that Washington asks Black Americans to give up.",
+      "He would praise the list for including the professions, which require higher education.",
+      "He would argue that the list should have included agriculture and commerce.",
+      "He would agree that the list matches his own plan for the future of Black Americans.",
     ]),
     answer: "A",
+    nearMiss: "B",
+    explanation:
+      "Washington's list names agriculture, mechanics, commerce, domestic service, and the professions. Du Bois says Washington asks Black Americans to give up political power, civil rights, and higher education, none of which appear on the list.",
+    rationales: {
+      B: "The professions are on the list, but Du Bois says Washington asks people to give up higher education, so he would not praise the list on that ground.",
+      C: "Agriculture and commerce are already on Washington's list.",
+      D: "Du Bois describes Washington's policy critically, as a demand to give up rights, so he would not call it his own plan.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-ct-005",
+    skillId: "rw-cross-text",
+    difficulty: "medium",
+    format: "single-select",
+    passageIds: ["tp-p-douglass-pathway", "tp-p-washington-longing"],
+    stem: "Based on the texts, Douglass (Text 1) and Washington (Text 2) would most likely agree with which statement?",
+    choices: choices([
+      "Each of them learned to read mainly with the help of a patient teacher.",
+      "Learning to read was a goal of great personal importance to each of them.",
+      "Each of them understood from early childhood why reading mattered so much.",
+      "Newspapers were the most valuable reading material for each of them.",
+    ]),
+    answer: "B",
     nearMiss: "C",
     explanation:
-      "Text 1 urges people to prosper through “common labour.” Text 2 says Washington's program takes “an economic cast” that overshadows higher aims, a direct criticism of that outlook.",
+      "Douglass calls his understanding of the “pathway from slavery to freedom” a grand achievement he “prized,” and Washington had “an intense longing to learn to read.” Both treat reading as deeply important.",
     rationales: {
-      B: "Text 2 challenges Washington's program rather than supporting it.",
-      C: "Text 2 describes the age Washington spoke in, but its purpose is to judge his program, not to narrate the events behind the speech.",
-      D: "Text 1 values field work as much as poetry, and Text 2 does not mention poetry or the arts.",
+      A: "Washington says he could find no one to teach him, so this does not fit Text 2.",
+      C: "Washington's longing began in early childhood, but Douglass describes his understanding as a sudden “new and special revelation.”",
+      D: "Only Washington mentions newspapers, and he lists them alongside common books.",
     },
   },
 ];

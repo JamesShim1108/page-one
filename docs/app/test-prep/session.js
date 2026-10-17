@@ -327,6 +327,14 @@ export function createTestPrepSession({ testPrep, test, items, params, repaint }
   function enhance() {
     const root = document.getElementById("main");
     if (!root) return () => {};
+    // Keep the timer bar below the sticky site header.
+    const placeBar = () =>
+      document.documentElement.style.setProperty(
+        "--tp-bar-top",
+        `${document.querySelector(".site-header")?.offsetHeight || 0}px`,
+      );
+    placeBar();
+    window.addEventListener("resize", placeBar);
     if (pendingFocus) {
       root.querySelector(pendingFocus)?.setAttribute("tabindex", "-1");
       root.querySelector(pendingFocus)?.focus({ preventScroll: false });
@@ -413,6 +421,7 @@ export function createTestPrepSession({ testPrep, test, items, params, repaint }
     };
     if (live) window.addEventListener("beforeunload", onLeave);
     return () => {
+      window.removeEventListener("resize", placeBar);
       clearInterval(timer);
       window.removeEventListener("beforeunload", onLeave);
       root.removeEventListener("click", onClick);

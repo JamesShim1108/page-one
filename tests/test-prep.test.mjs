@@ -157,7 +157,19 @@ test("skills follow each test's content: trig and circles are limited", async ()
     assert.ok(!skillIds(testId).includes("math-circles"));
   }
   assert.ok(skillIds("sat").includes("math-circles"));
-  assert.equal(skillIds("sat").length, 23);
+  assert.equal(skillIds("sat").length, 29);
+  // The six skills added to complete the official list.
+  for (const id of [
+    "math-linear-equations-one",
+    "math-one-variable-data",
+    "math-probability",
+    "math-area-volume",
+  ])
+    assert.ok(skillIds("psat89").includes(id), id);
+  assert.ok(!skillIds("psat89").includes("math-inference"));
+  assert.ok(skillIds("psat10").includes("math-inference"));
+  assert.ok(!skillIds("psatnmsqt").includes("math-statistical-claims"));
+  assert.ok(skillIds("sat").includes("math-statistical-claims"));
   // The hierarchy is test > section > domain > skill.
   const sat = index.tests.find((item) => item.id === "sat");
   assert.deepEqual(
@@ -362,10 +374,44 @@ test("validation enforces item structure, sourcing, and test fit", () => {
   const reading = {
     ...choiceItem({ verification: undefined }),
     skillId: "rw-central-ideas",
-    originalText: "A short text written for practice.",
+    stem: "Which choice best states the main idea of the text?",
+    originalText:
+      "A short text written for practice. It has enough words to meet the length rule for a reading text, which runs from twenty-five to one hundred fifty words on the digital test.",
   };
   assert.throws(() => validate(reading), /public-domain passage/);
-  assert.doesNotThrow(() => validate({ ...reading, skillId: "rw-transitions" }));
+  assert.doesNotThrow(() =>
+    validate({
+      ...reading,
+      skillId: "rw-transitions",
+      stem: "Which choice completes the text with the most logical transition?",
+      originalText:
+        "A short text written for practice. It has enough words to meet the length rule for a reading text, which runs from twenty-five to one hundred fifty words on the digital test. However, it continues.",
+      blank: "However,",
+      choices: [
+        { id: "A", text: "Therefore," },
+        { id: "B", text: "However," },
+        { id: "C", text: "For example," },
+        { id: "D", text: "Similarly," },
+      ],
+      answer: "B",
+      nearMiss: "C",
+    }),
+  );
+  // Real-test format: prompt wording, text length, and blanks.
+  assert.throws(
+    () => validate({ ...reading, skillId: "rw-transitions", stem: "Pick a transition." }),
+    /official Transitions prompt/,
+  );
+  assert.throws(
+    () =>
+      validate({
+        ...reading,
+        skillId: "rw-transitions",
+        originalText: "Too short.",
+        stem: "Which choice completes the text with the most logical transition?",
+      }),
+    /25-150 words/,
+  );
   assert.throws(
     () =>
       validate({
@@ -379,7 +425,7 @@ test("validation enforces item structure, sourcing, and test fit", () => {
 
   const passage = (year, basis = "us-pre-1931") => ({
     id: "tp-p-fixture",
-    text: "Fixture passage text.",
+    text: "A short text written for practice. It has enough words to meet the length rule for a reading text, which runs from twenty-five to one hundred fifty words on the digital test.",
     source: {
       author: "Fixture Author",
       title: "Fixture Title",
@@ -511,8 +557,10 @@ test("compiled banks strip verification and update counts", async () => {
     const source = fileURLToPath(new URL("docs/content/test-prep/", root));
     const target = join(temp, "test-prep");
     await mkdir(join(target, "items"), { recursive: true });
-    for (const file of ["tests.js", "taxonomy.js", "sources.js", "passages.js"])
+    for (const file of ["tests.js", "taxonomy.js", "sources.js"])
       await copyFile(join(source, file), join(target, file));
+    // Every passage must belong to an item, so the fixture build has none.
+    await writeFile(join(target, "passages.js"), "export const passages = [];\n");
     await writeFile(
       join(target, "items", "fixture.js"),
       `export const items = ${JSON.stringify([choiceItem(), gridItem()])};\n`,
@@ -580,7 +628,11 @@ function sessionFixtures(test) {
   const items = [];
   for (const section of test.sections)
     for (const domain of section.domains) {
-      const needed = section.moduleDomains[domain.id] + 1;
+      const needed =
+        section.moduleDomains.reduce(
+          (sum, blueprint) => sum + (blueprint[domain.id] || 0),
+          0,
+        ) + 1;
       for (let index = 0; index < needed; index += 1) {
         const skill = domain.skills[index % domain.skills.length];
         items.push({
@@ -598,23 +650,32 @@ function sessionFixtures(test) {
   return items;
 }
 
-test("modules draw the blueprint's count from each domain", async () => {
+test("modules draw each blueprint's count from each domain", async () => {
   const index = await readGenerated("test-prep/index.json");
+  const count = (ids, domainId) =>
+    ids.filter((itemId) => itemId.includes(`-${domainId}-`)).length;
   for (const test of index.tests) {
     const items = sessionFixtures(test);
     for (const section of test.sections) {
-      const ids = drawModule(items, test, section.id, () => 0.42);
-      assert.equal(ids.length, section.moduleSize, `${test.id} ${section.id}`);
       assert.equal(section.moduleSize * section.modules, section.questions);
-      const byDomain = Object.fromEntries(
-        Object.keys(section.moduleDomains).map((id) => [
-          id,
-          ids.filter((itemId) => itemId.includes(`-${id}-`)).length,
-        ]),
-      );
-      assert.deepEqual(byDomain, section.moduleDomains);
+      const first = drawModule(items, test, section.id, () => 0.42);
+      const second = drawModule(items, test, section.id, () => 0.42, {
+        moduleIndex: 1,
+        mix: "harder",
+        exclude: first,
+      });
+      for (const [moduleIndex, ids] of [first, second].entries()) {
+        assert.equal(ids.length, section.moduleSize, `${test.id} ${section.id}`);
+        const blueprint = section.moduleDomains[moduleIndex];
+        assert.deepEqual(
+          Object.fromEntries(Object.keys(blueprint).map((id) => [id, count(ids, id)])),
+          blueprint,
+        );
+      }
+      assert.equal(new Set([...first, ...second]).size, section.questions, "no repeats");
+      // The two blueprints add up to the official section count.
       if (section.id === "math") {
-        const order = ids.map((id) =>
+        const order = first.map((id) =>
           ["easy", "medium", "hard"].indexOf(
             items.find((item) => item.id === id).difficulty,
           ),
@@ -768,32 +829,50 @@ test("authored items fit their tests and never ship verification", async () => {
           assert.ok(skill.itemCount > 0, `${test.id} ${skill.id}`);
 });
 
-test("hidden wording never appears in another item's passage", async () => {
+test("hidden wording never appears in another item's text", async () => {
   const items = await authoredItems();
+  // What a student sees: the item's texts with its own blank removed.
   const shown = (item) =>
-    [item.passage?.text, ...(item.passages || []).map((passage) => passage.text)]
+    [
+      item.passage?.text,
+      ...(item.passages || []).map((passage) => passage.text),
+      item.originalText,
+    ]
       .filter(Boolean)
+      .map((text) => (item.blank ? text.replace(item.blank, " ") : text))
       .join("\n");
+  const passageIds = (item) =>
+    [item.passage?.id, ...(item.passages || []).map((passage) => passage.id)].filter(
+      Boolean,
+    );
   for (const item of items.filter((entry) => entry.blank)) {
     for (const other of items) {
       if (other.id === item.id) continue;
+      // Transition words such as "In fact," are common to many texts; seeing one
+      // elsewhere does not reveal which transition a particular text needs.
+      if (item.skillId === "rw-transitions") continue;
+      // Whole words only: "possession" does not reveal a blank of "possess".
+      const pattern = new RegExp(
+        `(^|[^\\w])${item.blank.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^\\w])`,
+      );
       assert.ok(
-        // Whole words only: "possession" does not reveal a blank of "possess".
-        !new RegExp(
-          `(^|[^\\w])${item.blank.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}($|[^\\w])`,
-        ).test(shown(other)) || other.passage?.id === item.passage?.id,
+        !pattern.test(shown(other)),
         `${other.id} reveals the answer to ${item.id}`,
       );
-      if (other.passage?.id === item.passage?.id && other.id !== item.id)
-        assert.fail(`${item.id} hides wording in a passage that ${other.id} also shows`);
+      assert.ok(
+        !passageIds(other).some((id) => passageIds(item).includes(id)),
+        `${item.id} and ${other.id} share a passage`,
+      );
     }
     const html = itemView(item, {});
     assert.match(html, /tp-blank/);
-    const passageHtml = html.slice(
-      html.indexOf("<blockquote>"),
-      html.indexOf("</blockquote>"),
+    const textHtml = html.slice(
+      html.indexOf("tp-passage") > -1
+        ? html.indexOf("<blockquote>")
+        : html.indexOf("tp-original"),
+      html.indexOf("tp-stem"),
     );
-    assert.ok(!passageHtml.includes(item.blank), `${item.id} hides its blank`);
+    assert.ok(!textHtml.includes(item.blank), `${item.id} hides its blank`);
   }
 });
 
@@ -853,26 +932,273 @@ test("a full module with real items scores every answer and reports an estimate"
   assert.doesNotMatch(results, /SAT Math section scale, 200/);
 });
 
-test("Reading and Writing modules group questions by domain and skill", async () => {
+test("Reading and Writing modules follow the official question order", async () => {
   const index = await readGenerated("test-prep/index.json");
   const items = await authoredItems();
-  const sat = index.tests.find((item) => item.id === "sat");
-  const section = sat.sections[0];
-  const skills = section.domains.flatMap((domain) =>
-    domain.skills.map((skill) => skill.id),
+  for (const test of index.tests) {
+    const section = test.sections[0];
+    const ids = drawModule(items, test, "rw", () => 0.3);
+    const order = ids.map((id) =>
+      section.moduleOrder.indexOf(items.find((item) => item.id === id).skillId),
+    );
+    assert.ok(order.every((position) => position >= 0));
+    assert.deepEqual(
+      order,
+      [...order].sort((a, b) => a - b),
+      test.id,
+    );
+    // Within each skill group, easier questions come first.
+    const rank = { easy: 0, medium: 1, hard: 2 };
+    for (let position = 1; position < ids.length; position += 1)
+      if (order[position] === order[position - 1])
+        assert.ok(
+          rank[items.find((item) => item.id === ids[position]).difficulty] >=
+            rank[items.find((item) => item.id === ids[position - 1]).difficulty],
+        );
+  }
+});
+
+// ---------------------------------------------------------------------------
+// Full-length practice test
+
+import {
+  createFullTest,
+  storageKey,
+  BREAK_MINUTES,
+} from "../docs/app/test-prep/full-test.js";
+import {
+  routeAfter,
+  fullSectionEstimate,
+  totalEstimate,
+} from "../docs/app/test-prep/practice.js";
+
+function memoryStorage() {
+  const map = new Map();
+  return {
+    getItem: (key) => (map.has(key) ? map.get(key) : null),
+    setItem: (key, value) => map.set(key, String(value)),
+    removeItem: (key) => map.delete(key),
+    map,
+  };
+}
+
+async function fullFixture(testId, options = {}) {
+  const index = await readGenerated("test-prep/index.json");
+  const items = await authoredItems();
+  const test = index.tests.find((item) => item.id === testId);
+  let clock = 1_000_000;
+  const storage = options.storage || memoryStorage();
+  const full = createFullTest({
+    testPrep: index,
+    test,
+    items,
+    repaint: () => {},
+    storage,
+    now: () => clock,
+    random: options.random || (() => 0.37),
+  });
+  return { full, items, test, storage, advance: (ms) => (clock += ms) };
+}
+
+// Answer every question in the current module, correctly when `right` is true.
+function answerModule(full, items, right) {
+  const { state } = full.debug();
+  const module = state.modules.at(-1);
+  for (const id of module.ids) {
+    const item = items.find((entry) => entry.id === id);
+    const correct = item.format === "grid-in" ? item.acceptedAnswers[0] : item.answer;
+    const wrong =
+      item.format === "grid-in"
+        ? "99999"
+        : ["A", "B", "C", "D"].find((c) => c !== item.answer);
+    full.respond(right ? correct : wrong);
+    full.act(module.ids.indexOf(id) < module.ids.length - 1 ? "next" : "review");
+  }
+}
+
+test("a full test runs both sections with adaptive second modules and a break", async () => {
+  const { full, items, test, storage } = await fullFixture("sat");
+  assert.match(full.page(), /Start the practice test/);
+  assert.match(full.page(), /98 questions in 2 hours 14 minutes/);
+  full.act("begin");
+  assert.equal(full.debug().stage, "directions");
+  assert.match(full.page(), /Reading and Writing: directions/);
+  full.act("open-section");
+  let { state } = full.debug();
+  assert.equal(state.modules[0].ids.length, 27);
+  assert.match(full.page(), /Section 1, Module 1: Reading and Writing/);
+  assert.match(full.page(), /32:00/);
+  assert.doesNotMatch(full.page(), /answer-feedback/);
+  // A strong first module routes to the harder second module.
+  answerModule(full, items, true);
+  assert.equal(full.debug().stage, "review");
+  full.act("submit");
+  state = full.debug().state;
+  assert.equal(state.routes.rw, "harder");
+  assert.equal(state.modules[1].mix, "harder");
+  assert.equal(
+    new Set([...state.modules[0].ids, ...state.modules[1].ids]).size,
+    54,
+    "no repeated questions in a section",
   );
-  const ids = drawModule(items, sat, "rw", () => 0.3);
-  const positions = ids.map((id) =>
-    skills.indexOf(items.find((item) => item.id === id).skillId),
+  answerModule(full, items, false);
+  full.act("submit");
+  assert.equal(full.debug().stage, "break");
+  assert.match(full.page(), /10:00/);
+  full.act("end-break");
+  assert.match(full.page(), /Math: directions/);
+  full.act("open-section");
+  assert.match(full.page(), /Reference/);
+  assert.equal(full.debug().state.modules[2].ids.length, 22);
+  // A weak first Math module routes to the easier second module.
+  answerModule(full, items, false);
+  full.act("submit");
+  assert.equal(full.debug().state.routes.math, "easier");
+  answerModule(full, items, true);
+  full.act("submit");
+  assert.equal(full.debug().stage, "results");
+  const results = full.page();
+  assert.match(results, /Your practice test results/);
+  assert.match(results, /Practice estimate · total/);
+  assert.match(results, /SAT total scale, 400–1600/);
+  assert.match(results, /led to the harder Module 2/);
+  assert.match(results, /led to the easier Module 2/);
+  assert.match(results, /Not an official score/);
+  assert.equal((results.match(/class="tp-review-item/g) || []).length, 98);
+  // Results stay saved until a new test is started.
+  assert.equal(JSON.parse(storage.getItem(storageKey("sat"))).stage, "results");
+  full.act("discard");
+  assert.equal(storage.getItem(storageKey("sat")), null);
+  assert.equal(test.id, "sat");
+});
+
+test("time running out submits the module, and the break ends on its own", async () => {
+  const { full, advance } = await fullFixture("psat10");
+  full.act("begin");
+  full.act("open-section");
+  advance(27 * 60 * 1000 + 1);
+  full.tick();
+  assert.match(full.page(), /Less than 5 minutes remain/);
+  assert.doesNotMatch(
+    full.page(),
+    /data-tp-full="toggle-timer"/,
+    "the timer cannot be hidden",
   );
-  const domains = Object.keys(section.moduleDomains);
-  const domainOf = (id) => domains.indexOf(items.find((item) => item.id === id).domainId);
-  const order = ids.map(domainOf);
-  assert.deepEqual(
-    order,
-    [...order].sort((a, b) => a - b),
+  advance(5 * 60 * 1000);
+  full.tick();
+  const { state } = full.debug();
+  assert.equal(state.modules[0].timedOut, true);
+  assert.equal(state.routes.rw, "easier", "no answers means the easier module");
+  assert.equal(state.modules.length, 2);
+  // Finish module 2 by time as well, then let the break run out.
+  advance(33 * 60 * 1000);
+  full.tick();
+  assert.equal(full.debug().stage, "break");
+  advance(BREAK_MINUTES * 60 * 1000 + 1);
+  full.tick();
+  assert.equal(full.debug().stage, "directions");
+});
+
+test("progress is saved and resumes with the remaining time", async () => {
+  const storage = memoryStorage();
+  const first = await fullFixture("psat89", { storage });
+  first.full.act("begin");
+  first.full.act("open-section");
+  first.full.respond("A");
+  first.full.act("flag");
+  first.advance(10 * 60 * 1000);
+  first.full.act("next");
+  const savedIds = first.full.debug().state.modules[0].ids;
+  // A reload creates a new controller from the same storage.
+  const second = await fullFixture("psat89", { storage });
+  assert.match(second.full.page(), /Resume your practice test/);
+  assert.match(second.full.page(), /22:00 left/);
+  second.full.act("resume");
+  const { state, remaining } = second.full.debug();
+  assert.deepEqual(state.modules[0].ids, savedIds);
+  assert.equal(state.modules[0].responses[savedIds[0]], "A");
+  assert.deepEqual(state.modules[0].flags, [savedIds[0]]);
+  assert.equal(state.modules[0].index, 1);
+  assert.equal(remaining, 22 * 60 * 1000);
+  // Saved work from a different content release is not reused.
+  storage.setItem(storageKey("psat89"), JSON.stringify({ ...state, version: 0 }));
+  const third = await fullFixture("psat89", { storage });
+  assert.match(third.full.page(), /Start the practice test/);
+});
+
+test("crossed-out choices are kept per question and clear a matching answer", async () => {
+  const { full, items } = await fullFixture("sat");
+  full.act("begin");
+  full.act("open-section");
+  const id = full.debug().state.modules[0].ids[0];
+  const item = items.find((entry) => entry.id === id);
+  full.respond("A");
+  full.eliminate("A");
+  full.eliminate("C");
+  let module = full.debug().state.modules[0];
+  assert.deepEqual(module.eliminated[id], ["A", "C"]);
+  assert.equal(
+    module.responses[id],
+    undefined,
+    "a crossed-out choice cannot stay selected",
   );
-  for (let index = 1; index < ids.length; index += 1)
-    if (order[index] === order[index - 1])
-      assert.ok(positions[index] >= positions[index - 1], "skills stay grouped");
+  const html = full.page();
+  assert.match(html, /data-tp-eliminate="A" aria-pressed="true"/);
+  assert.match(html, /choice-row is-eliminated/);
+  full.eliminate("A");
+  module = full.debug().state.modules[0];
+  assert.deepEqual(module.eliminated[id], ["C"]);
+  assert.equal(item.format, "single-select");
+});
+
+test("full-test estimates stay on each test's own scale and reward the harder route", async () => {
+  const index = await readGenerated("test-prep/index.json");
+  const [psat89, , , sat] = index.tests;
+  assert.equal(routeAfter(17, 27), "harder");
+  assert.equal(routeAfter(15, 27), "easier");
+  const perfectHard = fullSectionEstimate(
+    sat,
+    { correct: 27, total: 27 },
+    { correct: 27, total: 27 },
+    "harder",
+  );
+  const perfectEasy = fullSectionEstimate(
+    sat,
+    { correct: 27, total: 27 },
+    { correct: 27, total: 27 },
+    "easier",
+  );
+  assert.deepEqual([perfectHard.low, perfectHard.high], [770, 800]);
+  assert.ok(perfectEasy.high < 800, "the easier route cannot reach the top of the scale");
+  const zero = fullSectionEstimate(
+    psat89,
+    { correct: 0, total: 27 },
+    { correct: 0, total: 22 },
+    "easier",
+  );
+  assert.deepEqual([zero.low, zero.min, zero.max], [120, 120, 720]);
+  const total = totalEstimate(psat89, [zero, zero]);
+  assert.deepEqual([total.min, total.max], [240, 1440]);
+  assert.ok(total.low >= 240 && total.high <= 1440);
+  assert.equal(total.label, "Practice estimate");
+});
+
+test("test pages link to the full-length test only when it can be built", async () => {
+  const index = await readGenerated("test-prep/index.json");
+  for (const test of index.tests) {
+    assert.ok(
+      test.sections.every((section) => section.fullReady),
+      test.id,
+    );
+    const html = testPrepTestPage({ testPrep: index, test });
+    assert.match(html, new RegExp(`href="#/test-practice/${test.id}\\?mode=full"`));
+  }
+  const notReady = {
+    ...index.tests[0],
+    sections: index.tests[0].sections.map((section) => ({
+      ...section,
+      fullReady: false,
+    })),
+  };
+  assert.doesNotMatch(testPrepTestPage({ testPrep: index, test: notReady }), /mode=full/);
 });

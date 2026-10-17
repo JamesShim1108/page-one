@@ -1,4 +1,5 @@
-// Shared skill taxonomy: section > domain > skill. Items name one skill ID; the
+// Shared skill taxonomy: section > domain > skill. Math skills follow the
+// official list and order for each domain. Items name one skill ID; the
 // build derives their section and domain from here, so the hierarchy cannot drift.
 //
 // `tests` on a skill lists where that skill is tested. Right triangle
@@ -14,6 +15,19 @@ export const taxonomy = {
       id: "rw",
       title: "Reading and Writing",
       formats: ["single-select"],
+      // Order of question groups in a module, as on the digital test.
+      moduleOrder: [
+        "rw-words-in-context",
+        "rw-text-structure",
+        "rw-cross-text",
+        "rw-central-ideas",
+        "rw-command-of-evidence",
+        "rw-inferences",
+        "rw-form-structure-sense",
+        "rw-boundaries",
+        "rw-transitions",
+        "rw-rhetorical-synthesis",
+      ],
       domains: [
         {
           id: "rw-information-ideas",
@@ -88,20 +102,25 @@ export const taxonomy = {
           id: "math-algebra",
           title: "Algebra",
           skills: [
-            { id: "math-linear-functions", title: "Linear functions", tests: allTests },
+            {
+              id: "math-linear-equations-one",
+              title: "Linear equations in one variable",
+              tests: allTests,
+            },
             {
               id: "math-linear-equations-two",
               title: "Linear equations in two variables",
               tests: allTests,
             },
-            {
-              id: "math-linear-inequalities",
-              title: "Linear inequalities in one or two variables",
-              tests: allTests,
-            },
+            { id: "math-linear-functions", title: "Linear functions", tests: allTests },
             {
               id: "math-linear-systems",
               title: "Systems of two linear equations in two variables",
+              tests: allTests,
+            },
+            {
+              id: "math-linear-inequalities",
+              title: "Linear inequalities in one or two variables",
               tests: allTests,
             },
           ],
@@ -111,8 +130,8 @@ export const taxonomy = {
           title: "Advanced Math",
           skills: [
             {
-              id: "math-nonlinear-functions",
-              title: "Nonlinear functions",
+              id: "math-equivalent-expressions",
+              title: "Equivalent expressions",
               tests: allTests,
             },
             {
@@ -122,8 +141,8 @@ export const taxonomy = {
               tests: allTests,
             },
             {
-              id: "math-equivalent-expressions",
-              title: "Equivalent expressions",
+              id: "math-nonlinear-functions",
+              title: "Nonlinear functions",
               tests: allTests,
             },
           ],
@@ -133,15 +152,37 @@ export const taxonomy = {
           title: "Problem-Solving and Data Analysis",
           skills: [
             {
-              id: "math-two-variable-data",
-              title: "Two-variable data: models and scatterplots",
+              id: "math-ratios-rates",
+              title: "Ratios, rates, proportional relationships, and units",
               tests: allTests,
             },
             { id: "math-percentages", title: "Percentages", tests: allTests },
             {
-              id: "math-ratios-rates",
-              title: "Ratios, rates, proportional relationships, and units",
+              id: "math-one-variable-data",
+              title: "One-variable data: distributions and measures of center and spread",
               tests: allTests,
+            },
+            {
+              id: "math-two-variable-data",
+              title: "Two-variable data: models and scatterplots",
+              tests: allTests,
+            },
+            {
+              id: "math-probability",
+              title: "Probability and conditional probability",
+              tests: allTests,
+            },
+            // Margin of error is SAT only; items about it list tests: ["sat"].
+            {
+              id: "math-inference",
+              title: "Inference from sample statistics and margin of error",
+              tests: ["psat10", "psatnmsqt", "sat"],
+            },
+            {
+              id: "math-statistical-claims",
+              title:
+                "Evaluating statistical claims: observational studies and experiments",
+              tests: ["sat"],
             },
           ],
         },
@@ -150,6 +191,7 @@ export const taxonomy = {
           title: "Geometry and Trigonometry",
           titleByTest: { psat89: "Geometry" },
           skills: [
+            { id: "math-area-volume", title: "Area and volume", tests: allTests },
             {
               id: "math-lines-angles-triangles",
               title: "Lines, angles, and triangles",

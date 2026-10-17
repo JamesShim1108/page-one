@@ -1,13 +1,14 @@
 // Standard English Conventions items. Original practice written by Page One
-// around public-domain passages (see ../passages.js). Each blank hides the
+// around public-domain passages (see ../passages.js), each with its own text as
+// on the digital test. Each blank hides the
 // source's own wording, chosen where that wording also follows current
 // conventions. Skill names and formats follow the official SAT Suite
 // descriptions; no official item is copied or paraphrased.
 
 const ids = ["A", "B", "C", "D"];
 const choices = (texts) => texts.map((text, index) => ({ id: ids[index], text }));
-const stem = (context) =>
-  `${context} Which choice completes the text so that it conforms to the conventions of Standard English?`;
+const CONVENTIONS =
+  "Which choice completes the text so that it conforms to the conventions of Standard English?";
 
 export const items = [
   // Boundaries
@@ -19,7 +20,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-herland-terry",
     blank: "pleased. His",
-    stem: stem("In Herland, the narrator describes his friend Terry."),
+    stem: CONVENTIONS,
     choices: choices([
       "pleased, his",
       "pleased his",
@@ -44,7 +45,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-washington-swept",
     blank: "times. Then",
-    stem: stem("Booker T. Washington describes cleaning a classroom."),
+    stem: CONVENTIONS,
     choices: choices(["times. Then", "times, then", "times then", "times, and, then"]),
     answer: "A",
     nearMiss: "B",
@@ -64,9 +65,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-washington-examination",
     blank: "examination, and never",
-    stem: stem(
-      "Booker T. Washington recalls learning that he had been admitted to school.",
-    ),
+    stem: CONVENTIONS,
     choices: choices([
       "examination, never",
       "examination and, never",
@@ -91,7 +90,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-douglass-copybook",
     blank: "pavement; my",
-    stem: stem("Frederick Douglass describes how he taught himself to write."),
+    stem: CONVENTIONS,
     choices: choices([
       "pavement, my",
       "pavement; my",
@@ -116,7 +115,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-zitkala-wigwam",
     blank: "slender poles. Then",
-    stem: stem("Zitkala-Ša describes mornings in her family's home."),
+    stem: CONVENTIONS,
     choices: choices([
       "slender poles, then",
       "slender poles then",
@@ -133,6 +132,146 @@ export const items = [
       D: "A semicolon cannot be followed by “and” set off with a comma in this way.",
     },
   },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-bd-006",
+    skillId: "rw-boundaries",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-gilman-yw-paper",
+    blank: "used it. It",
+    stem: CONVENTIONS,
+    choices: choices(["used it, it", "used it. It", "used it it", "used it, and, it"]),
+    answer: "B",
+    nearMiss: "A",
+    explanation:
+      "“The paint and paper look as if a boys' school had used it” and “It is stripped off” are both complete sentences, so a period between them is correct.",
+    rationales: {
+      A: "Joining two complete sentences with only a comma creates a comma splice.",
+      C: "With no punctuation, the two sentences run together.",
+      D: "The comma after “and” wrongly separates the conjunction from the clause it introduces.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-bd-007",
+    skillId: "rw-boundaries",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-gilman-yw-smell",
+    blank: "paper—the smell!",
+    stem: CONVENTIONS,
+    choices: choices([
+      "paper, the smell!",
+      "paper; the smell!",
+      "paper—the smell!",
+      "paper the smell!",
+    ]),
+    answer: "C",
+    nearMiss: "A",
+    explanation:
+      "“The smell” names the “something else” mentioned just before it. A dash correctly sets off an explanation of this kind at the end of a sentence.",
+    rationales: {
+      A: "A comma is too weak to introduce this emphatic explanation, and the sentence reads as if it lists two separate things.",
+      B: "A semicolon must join two complete sentences, but the words after the blank do not form one.",
+      D: "With no punctuation, “paper the smell” runs together and the explanation is lost.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-bd-008",
+    skillId: "rw-boundaries",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-austen-emma-evils",
+    blank: "herself; these",
+    stem: CONVENTIONS,
+    choices: choices([
+      "herself, these",
+      "herself these",
+      "herself, and, these",
+      "herself; these",
+    ]),
+    answer: "D",
+    nearMiss: "A",
+    explanation:
+      "Both sides of the blank are complete sentences: the first names Emma's real evils, and “these were the disadvantages” stands on its own. A semicolon correctly joins two closely related complete sentences.",
+    rationales: {
+      A: "A comma alone between two complete sentences creates a comma splice.",
+      B: "With no punctuation, the two complete sentences are fused.",
+      C: "The comma after “and” wrongly separates the conjunction from its clause.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-bd-009",
+    skillId: "rw-boundaries",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-london-rope",
+    blank: "thing: the",
+    stem: CONVENTIONS,
+    choices: choices(["thing: the", "thing, the", "thing the", "thing, and, the"]),
+    answer: "A",
+    nearMiss: "B",
+    explanation:
+      "“He was glad for one thing” is a complete sentence, and what follows explains what that one thing was. A colon correctly introduces this explanation.",
+    rationales: {
+      B: "A comma alone between two complete sentences creates a comma splice.",
+      C: "With no punctuation, the explanation runs into the sentence before it.",
+      D: "The comma after “and” wrongly separates the conjunction from its clause.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-bd-010",
+    skillId: "rw-boundaries",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-burnett-footsteps",
+    blank: "footsteps, and the men",
+    stem: CONVENTIONS,
+    choices: choices([
+      "footsteps and, the men",
+      "footsteps, the men",
+      "footsteps; and, the men",
+      "footsteps, and the men",
+    ]),
+    answer: "D",
+    nearMiss: "B",
+    explanation:
+      "Two complete sentences are joined with the conjunction “and,” so a comma belongs before “and” and none after it.",
+    rationales: {
+      A: "The comma belongs before “and,” not after it.",
+      B: "Without “and,” a comma alone joins two complete sentences, creating a comma splice.",
+      C: "A semicolon cannot be followed by “and” set off with a comma in this way.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-bd-011",
+    skillId: "rw-boundaries",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-london-meal",
+    blank: "meat, chunk by chunk, from",
+    stem: CONVENTIONS,
+    choices: choices([
+      "meat chunk by chunk, from",
+      "meat, chunk by chunk, from",
+      "meat, chunk by chunk from",
+      "meat; chunk by chunk, from",
+    ]),
+    answer: "B",
+    nearMiss: "C",
+    explanation:
+      "“Chunk by chunk” is an interrupting phrase that describes how Buck ate. A pair of commas, one before and one after it, sets it off.",
+    rationales: {
+      A: "Without the first comma, the interrupting phrase is set off on only one side.",
+      C: "Without the second comma, the interrupting phrase is set off on only one side.",
+      D: "A semicolon must separate complete sentences, but “chunk by chunk, from the man's hand” is not one.",
+    },
+  },
 
   // Form, Structure, and Sense
   {
@@ -143,7 +282,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-herland-science",
     blank: "were interested",
-    stem: stem("In Herland, the narrator describes what he and his two friends shared."),
+    stem: CONVENTIONS,
     choices: choices([
       "were interested",
       "was interested",
@@ -167,9 +306,14 @@ export const items = [
     difficulty: "medium",
     format: "single-select",
     passageId: "tp-p-darwin-muscular",
-    blank: "possess",
-    stem: stem("Charles Darwin describes earthworms."),
-    choices: choices(["possesses", "possessing", "to possess", "possess"]),
+    blank: "possess great",
+    stem: CONVENTIONS,
+    choices: choices([
+      "possesses great",
+      "possessing great",
+      "to possess great",
+      "possess great",
+    ]),
     answer: "D",
     nearMiss: "A",
     explanation:
@@ -188,7 +332,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-darwin-body",
     blank: "is sensitive",
-    stem: stem("Charles Darwin describes how earthworms respond to touch."),
+    stem: CONVENTIONS,
     choices: choices([
       "are sensitive",
       "is sensitive",
@@ -213,9 +357,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-thoreau-compose",
     blank: "compose",
-    stem: stem(
-      "Henry David Thoreau introduces a list of the costs of building his house.",
-    ),
+    stem: CONVENTIONS,
     choices: choices(["composes", "composing", "compose", "has composed"]),
     answer: "C",
     nearMiss: "A",
@@ -235,7 +377,7 @@ export const items = [
     format: "single-select",
     passageId: "tp-p-douglass-thomas",
     blank: "Master Thomas's",
-    stem: stem("Frederick Douglass describes practicing his writing."),
+    stem: CONVENTIONS,
     choices: choices([
       "Master Thomas's",
       "Master Thomases",
@@ -250,6 +392,146 @@ export const items = [
       B: "“Thomases” is a plural with no apostrophe, so it does not show that the copy-book belongs to anyone.",
       C: "Without a possessive ending, the name cannot show who owns the copy-book.",
       D: "“Thomases'” is a plural possessive, but the copy-book belongs to only one person.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-fs-006",
+    skillId: "rw-form-structure-sense",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-gilman-yw-room",
+    blank: "windows that look",
+    stem: CONVENTIONS,
+    choices: choices([
+      "windows that looks",
+      "windows that look",
+      "windows that has looked",
+      "windows that is looking",
+    ]),
+    answer: "B",
+    nearMiss: "A",
+    explanation:
+      "In “windows that look all ways,” the subject of the verb is “that,” which stands for the plural “windows.” The plural present-tense verb “look” agrees with it.",
+    rationales: {
+      A: "“Looks” is singular, but “that” refers to the plural “windows.”",
+      C: "“Has looked” is singular and does not agree with “windows.”",
+      D: "“Is looking” is singular and does not agree with “windows.”",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-fs-007",
+    skillId: "rw-form-structure-sense",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-gilman-yw-eyes",
+    blank: "are everywhere",
+    stem: CONVENTIONS,
+    choices: choices([
+      "is everywhere",
+      "was everywhere",
+      "are everywhere",
+      "being everywhere",
+    ]),
+    answer: "C",
+    nearMiss: "A",
+    explanation:
+      "The subject is “those absurd, unblinking eyes,” which is plural, and the text is in the present tense (“they crawl”). The plural present-tense verb “are” is correct.",
+    rationales: {
+      A: "“Is” is singular, but the subject “eyes” is plural.",
+      B: "“Was” is singular and past tense, matching neither the plural subject nor the present-tense text.",
+      D: "“Being” is not a finite verb, so the clause would have no main verb.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-fs-008",
+    skillId: "rw-form-structure-sense",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-burnett-garden",
+    blank: "were to be seen",
+    stem: CONVENTIONS,
+    choices: choices([
+      "was to be seen",
+      "is to be seen",
+      "has been seen",
+      "were to be seen",
+    ]),
+    answer: "D",
+    nearMiss: "A",
+    explanation:
+      "The subject is “dozens and dozens of the tiny, pale green points,” which is plural, and the passage is in the past tense. The plural past-tense “were” is correct.",
+    rationales: {
+      A: "“Was” is singular, but the subject “dozens and dozens” is plural.",
+      B: "“Is” is singular and present tense, matching neither the subject nor the past-tense passage.",
+      C: "“Has been” is singular and does not agree with the plural subject.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-fs-009",
+    skillId: "rw-form-structure-sense",
+    difficulty: "easy",
+    format: "single-select",
+    passageId: "tp-p-dickens-pip",
+    blank: "father's",
+    stem: CONVENTIONS,
+    choices: choices(["father's", "fathers", "fathers'", "father"]),
+    answer: "A",
+    nearMiss: "C",
+    explanation:
+      "The family name belongs to one person, the narrator's father, so the singular possessive “father's” is correct.",
+    rationales: {
+      B: "“Fathers” is a plural with no apostrophe, so it does not show possession.",
+      C: "“Fathers'” is a plural possessive, but the narrator has only one father.",
+      D: "Without a possessive ending, the word cannot show whose family name it is.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-fs-010",
+    skillId: "rw-form-structure-sense",
+    difficulty: "medium",
+    format: "single-select",
+    passageId: "tp-p-london-crate",
+    blank: "sinking",
+    stem: CONVENTIONS,
+    choices: choices(["sank", "sinks", "sinking", "sink"]),
+    answer: "C",
+    nearMiss: "A",
+    explanation:
+      "After the main clause “Buck rushed at the splintering wood,” the sentence adds a series of -ing phrases: sinking, surging, and wrestling. “Sinking” keeps the series parallel.",
+    rationales: {
+      A: "“Sank” breaks the parallel series of -ing phrases that continues with “surging and wrestling.”",
+      B: "“Sinks” is present tense, but the passage is in the past tense.",
+      D: "“Sink” is a present-tense form that fits neither the past-tense passage nor the series of -ing phrases.",
+    },
+  },
+  {
+    schemaVersion: 1,
+    id: "tp-rw-fs-011",
+    skillId: "rw-form-structure-sense",
+    difficulty: "hard",
+    format: "single-select",
+    passageId: "tp-p-darwin-castings",
+    blank: "generally exceeded",
+    stem: CONVENTIONS,
+    choices: choices([
+      "generally exceeds",
+      "generally exceeded",
+      "generally has exceeded",
+      "generally exceeding",
+    ]),
+    answer: "B",
+    nearMiss: "A",
+    explanation:
+      "The subject is “castings,” which is plural, and the long clauses after it describe them in the past tense. The past-tense verb “exceeded” agrees with the subject and matches the text.",
+    rationales: {
+      A: "“Exceeds” is singular, but the subject “castings” is plural.",
+      C: "“Has exceeded” is singular and does not agree with “castings.”",
+      D: "“Exceeding” is not a finite verb, so the sentence would have no main verb.",
     },
   },
 ];

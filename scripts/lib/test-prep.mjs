@@ -120,7 +120,26 @@ export function sameValue(left, right) {
 // to something other than Math and R, from passing silently.
 // Comparison and logic operators are allowed so a predicate can test whether a
 // value or point satisfies an inequality.
-const EXPRESSION_CHARACTERS = /^[\w\s+\-*/%().,<>=!&|?:]*$/;
+const EXPRESSION_CHARACTERS = /^[\w\s+\-*/%().,<>=!&|?:[\]]*$/;
+
+// Statistics for data items, so medians and spreads are computed, not typed.
+const sortedCopy = (list) => [...list].sort((a, b) => a - b);
+export const S = Object.freeze({
+  sum: (list) => list.reduce((total, value) => total + value, 0),
+  mean: (list) => S.sum(list) / list.length,
+  median: (list) => {
+    const sorted = sortedCopy(list);
+    const middle = Math.floor(sorted.length / 2);
+    return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+  },
+  range: (list) => Math.max(...list) - Math.min(...list),
+  // Population standard deviation; comparisons between sets do not depend on
+  // which definition is used.
+  sd: (list) => {
+    const average = S.mean(list);
+    return Math.sqrt(S.mean(list.map((value) => (value - average) ** 2)));
+  },
+});
 
 export function evaluate(expression, location, variables = {}, { boolean = false } = {}) {
   requireValue(
@@ -136,18 +155,20 @@ export function evaluate(expression, location, variables = {}, { boolean = false
   const names = Object.keys(variables);
   for (const match of expression.matchAll(/(?<![\w.])[A-Za-z_]\w*/g)) {
     requireValue(
-      ["R", "Math", "Infinity", ...names].includes(match[0]),
+      ["R", "S", "Math", "Infinity", ...names].includes(match[0]),
       location,
       `expression "${expression}" uses unknown name ${match[0]}`,
     );
   }
   let value;
   try {
-    value = new Function("R", "Math", ...names, `"use strict"; return (${expression});`)(
-      R,
-      Math,
-      ...names.map((name) => variables[name]),
-    );
+    value = new Function(
+      "R",
+      "S",
+      "Math",
+      ...names,
+      `"use strict"; return (${expression});`,
+    )(R, S, Math, ...names.map((name) => variables[name]));
   } catch (error) {
     throw new Error(`${location}: expression "${expression}" failed: ${error.message}`);
   }
@@ -432,8 +453,45 @@ function validateVerification(item, location) {
     }
     return;
   }
+  if (verification.kind === "study") {
+    // Statistical-claims items: the study design decides which conclusions are
+    // supported. Random assignment supports a claim about cause; a random
+    // sample supports applying results to the population it was drawn from;
+    // nothing supports claims beyond that population or about every individual.
+    const design = verification.design || {};
+    requireValue(
+      typeof design.randomSample === "boolean" &&
+        typeof design.randomAssignment === "boolean",
+      location,
+      "study verification describes randomSample and randomAssignment",
+    );
+    const supported = ({ cause, scope, contradictsData = false }) =>
+      !contradictsData &&
+      (cause === "association" ||
+        (cause === "yes" && design.randomAssignment) ||
+        (cause === "cannot" && !design.randomAssignment)) &&
+      (scope === "sample" || (scope === "population" && design.randomSample));
+    for (const id of CHOICE_IDS) {
+      const claim = verification.choiceClaims?.[id];
+      requireValue(
+        claim &&
+          ["yes", "association", "cannot"].includes(claim.cause) &&
+          ["sample", "population", "beyond", "every-individual"].includes(claim.scope),
+        location,
+        `choiceClaims.${id} gives cause (yes, association, cannot) and scope (sample, population, beyond, every-individual)`,
+      );
+      requireValue(
+        id === item.answer ? supported(claim) : !supported(claim),
+        location,
+        id === item.answer
+          ? `choice ${id} is not supported by the study design`
+          : `choice ${id} is also supported by the study design`,
+      );
+    }
+    return;
+  }
   throw new Error(
-    `${location}: verification kind must be "value", "expression", or "predicate"`,
+    `${location}: verification kind must be "value", "expression", "predicate", or "study"`,
   );
 }
 
@@ -514,39 +572,39 @@ export function validateTests(tests, sources, location) {
   );
 }
 
-// Each test section can define one practice module's domain mix. The counts
-// approximate the published domain shares for that test; they must add up to
-// one module (questions / modules).
+// Each test section lists one domain-count blueprint per module. Together the
+// blueprints cover every tested domain and add up to the section's questions.
 export function validateModuleBlueprints(tests, taxonomy, location) {
   for (const test of tests)
     for (const format of test.sections) {
       const at = `${location} ${test.id} ${format.id}`;
       const section = taxonomy.sections.find((entry) => entry.id === format.id);
-      const blueprint = format.moduleDomains;
+      const blueprints = format.moduleDomains;
       requireValue(
-        blueprint && typeof blueprint === "object",
+        Array.isArray(blueprints) && blueprints.length === format.modules,
         at,
-        "add moduleDomains: the domain counts for one practice module",
+        "moduleDomains lists one domain-count blueprint per module",
       );
-      const tested = section.domains.filter((domain) =>
-        domain.skills.some((skill) => skill.tests.includes(test.id)),
-      );
-      requireValue(
-        Object.keys(blueprint).sort().join() ===
-          tested
-            .map((domain) => domain.id)
-            .sort()
-            .join(),
-        at,
-        `moduleDomains lists each tested domain once (${tested.map((domain) => domain.id).join(", ")})`,
-      );
-      const total = Object.values(blueprint).reduce((sum, value) => sum + value, 0);
-      requireValue(
-        Object.values(blueprint).every((value) => Number.isInteger(value) && value > 0) &&
-          total * format.modules === format.questions,
-        at,
-        `moduleDomains must add up to ${format.questions / format.modules} questions`,
-      );
+      const tested = section.domains
+        .filter((domain) => domain.skills.some((skill) => skill.tests.includes(test.id)))
+        .map((domain) => domain.id)
+        .sort()
+        .join();
+      for (const [index, blueprint] of blueprints.entries()) {
+        requireValue(
+          Object.keys(blueprint).sort().join() === tested,
+          at,
+          `module ${index + 1} lists each tested domain once (${tested})`,
+        );
+        const total = Object.values(blueprint).reduce((sum, value) => sum + value, 0);
+        requireValue(
+          Object.values(blueprint).every(
+            (value) => Number.isInteger(value) && value > 0,
+          ) && total * format.modules === format.questions,
+          at,
+          `module ${index + 1} must add up to ${format.questions / format.modules} questions`,
+        );
+      }
     }
 }
 
@@ -608,6 +666,19 @@ export function validateTaxonomy(taxonomy, location) {
         skills.set(skill.id, { section, domain, skill });
       }
     }
+    // Official module order: questions are grouped by skill in this order,
+    // easier to harder within each group.
+    if (section.moduleOrder !== undefined) {
+      const ids = section.domains.flatMap((domain) =>
+        domain.skills.map((skill) => skill.id),
+      );
+      requireValue(
+        Array.isArray(section.moduleOrder) &&
+          [...section.moduleOrder].sort().join() === [...ids].sort().join(),
+        location,
+        `${section.id}.moduleOrder lists each of its skills once`,
+      );
+    }
   }
   return skills;
 }
@@ -649,6 +720,16 @@ export function validatePassages(passages, location) {
       at,
       "source.gutenberg is an ebook number",
     );
+    // Literary passages open with a line naming the work, as on the real test.
+    if (passage.intro !== undefined) {
+      requireText(passage.intro, at);
+      const surname = source.author.split(" ").at(-1);
+      requireValue(
+        passage.intro.includes(String(source.year)) && passage.intro.includes(surname),
+        at,
+        "intro names the author and the year",
+      );
+    }
     for (const edit of passage.edits || []) {
       requireText(edit.original, at);
       requireText(edit.replacement, at);
@@ -691,6 +772,348 @@ function validateTable(table, at) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Reading and Writing format. Each question has its own short text, as on the
+// digital SAT Suite: 25 to 150 words, or a pair of texts for Cross-Text
+// Connections. Stems use the official prompt wording for each skill.
+
+export const PASSAGE_WORDS = Object.freeze({ min: 25, max: 150 });
+
+export const wordCount = (text) =>
+  String(text)
+    .replace(/\. \. \./g, " ")
+    .split(/\s+/)
+    .filter((word) => /[\p{L}\p{N}]/u.test(word)).length;
+
+// Prompt forms by skill. The stem's final sentence must match one of them.
+// Forms that complete or revise the text require a blank; the underlined-
+// sentence form requires an underline.
+export const STEM_FORMS = Object.freeze({
+  "rw-words-in-context": [
+    /^As used in the text, what does the word “[^”]+” most nearly mean\?$/,
+    /^Which choice completes the text with the most logical and precise word or phrase\?$/,
+  ],
+  "rw-text-structure": [
+    /^Which choice best states the main purpose of the text\?$/,
+    /^Which choice best describes the function of the underlined (sentence|portion) in the text as a whole\?$/,
+    /^Which choice best describes the overall structure of the text\?$/,
+  ],
+  "rw-cross-text": [/^Based on the texts, .+\?$/],
+  "rw-central-ideas": [
+    /^Which choice best states the main idea of the text\?$/,
+    /^According to the text, .+\?$/,
+    /^Based on the text, .+\?$/,
+  ],
+  "rw-command-of-evidence": [
+    /^Which quotation from .+ most effectively illustrates the claim\?$/,
+    /^Which finding, if true, would most directly (support|weaken) .+\?$/,
+    /^Which choice most effectively uses data from the (table|graph) to (complete the statement|illustrate the claim|support .+)\?$/,
+  ],
+  "rw-inferences": [/^Which choice most logically completes the text\?$/],
+  "rw-boundaries": [
+    /^Which choice completes the text so that it conforms to the conventions of Standard English\?$/,
+  ],
+  "rw-form-structure-sense": [
+    /^Which choice completes the text so that it conforms to the conventions of Standard English\?$/,
+  ],
+  "rw-transitions": [
+    /^Which choice completes the text with the most logical transition\?$/,
+  ],
+  "rw-rhetorical-synthesis": [
+    /^The student wants to .+\. Which choice most effectively uses relevant information from the notes to accomplish this goal\?$/,
+  ],
+});
+const COMPLETES_TEXT = /completes the text|complete the statement/;
+export const NOTES_LEAD =
+  "While researching a topic, a student has taken the following notes:";
+
+const flatQuote = (text) =>
+  String(text).replace(/[‘’]/g, "'").replace(/\s+/g, " ").trim();
+
+function requireOnce(text, part, at, label) {
+  requireValue(
+    typeof part === "string" && part.trim() && text.split(part).length === 2,
+    at,
+    `the ${label} "${part}" must appear exactly once in the text`,
+  );
+}
+
+function validateReadingText(item, { skill, domain, passages, at }) {
+  const sources = [
+    item.passageId !== undefined,
+    item.passageIds !== undefined,
+    item.originalText !== undefined,
+  ].filter(Boolean).length;
+  requireValue(
+    sources === 1,
+    at,
+    "use exactly one of passageId, passageIds, or originalText",
+  );
+
+  // Stem: optional lead-in sentences, then the official prompt for the skill.
+  const forms = STEM_FORMS[skill.id] || [];
+  requireValue(
+    forms.some((form) => form.test(item.stem)) ||
+      forms.some((form) => form.test(item.stem.split(/(?<=[.?]) (?=[A-Z])/).at(-1))),
+    at,
+    `stem must end with an official ${skill.title} prompt`,
+  );
+  const prompt = item.stem.split(/(?<=[.?]) (?=[A-Z])/).at(-1);
+  if (skill.id === "rw-rhetorical-synthesis")
+    requireValue(
+      STEM_FORMS[skill.id][0].test(item.stem),
+      at,
+      "state the student's goal first",
+    );
+
+  if (skill.id === "rw-cross-text") {
+    requireValue(
+      Array.isArray(item.passageIds) && item.passageIds.length === 2,
+      at,
+      "cross-text items pair two passages in passageIds",
+    );
+  } else
+    requireValue(
+      item.passageIds === undefined,
+      at,
+      "only cross-text items pair passages",
+    );
+  for (const id of [item.passageId, ...(item.passageIds || [])].filter(
+    (id) => id !== undefined,
+  ))
+    requireValue(passages.has(id), at, `unknown passage ${id}`);
+
+  // Written-for-practice text: Expression of Ideas and Conventions, a claim whose
+  // quotations come from a public-domain work, or commentary on cited data.
+  if (item.originalText !== undefined) {
+    requireText(item.originalText, at);
+    requireValue(
+      ORIGINAL_TEXT_DOMAINS.has(domain.id) ||
+        item.quotesFrom !== undefined ||
+        item.variant === "quantitative",
+      at,
+      "reading items use a cited public-domain passage, not originalText",
+    );
+    if (skill.id === "rw-rhetorical-synthesis") {
+      requireValue(
+        item.originalText.startsWith(NOTES_LEAD),
+        at,
+        `notes begin "${NOTES_LEAD}"`,
+      );
+      const notes = item.originalText.split("\n").filter((line) => line.startsWith("• "));
+      requireValue(
+        notes.length >= 3 && notes.length <= 6,
+        at,
+        "give 3 to 6 bulleted notes",
+      );
+    }
+  }
+  const shown = [item.passageId, ...(item.passageIds || [])]
+    .filter((id) => id !== undefined)
+    .map((id) => passages.get(id).text);
+  if (item.originalText !== undefined && skill.id !== "rw-rhetorical-synthesis")
+    shown.push(item.originalText);
+  for (const text of shown) {
+    const words = wordCount(text);
+    requireValue(
+      words >= PASSAGE_WORDS.min && words <= PASSAGE_WORDS.max,
+      at,
+      `each text is ${PASSAGE_WORDS.min}-${PASSAGE_WORDS.max} words; this one has ${words}`,
+    );
+  }
+
+  if (item.context !== undefined) {
+    requireText(item.context, at);
+    requireValue(item.passageId !== undefined, at, "context introduces a passage");
+  }
+
+  // Quotation choices come word for word from a public-domain work.
+  if (item.quotesFrom !== undefined || item.quotesPassage) {
+    const id = item.quotesFrom ?? item.passageId;
+    requireValue(passages.has(id), at, `unknown passage ${id}`);
+    const text = flatQuote(passages.get(id).text);
+    for (const choice of item.choices || []) {
+      const quote = flatQuote(choice.text).replace(/^“|”$/g, "");
+      requireValue(
+        /^“.+”$/.test(flatQuote(choice.text)) && text.includes(quote),
+        at,
+        `choice ${choice.id} must quote the source exactly, inside curly quotes`,
+      );
+    }
+  }
+
+  const text =
+    item.passageId !== undefined ? passages.get(item.passageId).text : item.originalText;
+  if (COMPLETES_TEXT.test(prompt)) {
+    requireValue(item.blank !== undefined, at, "a completion prompt needs a blank");
+  }
+  // A blank hides the text's own wording, which is the correct choice.
+  if (item.blank !== undefined) {
+    requireValue(typeof text === "string", at, "a blank needs passageId or originalText");
+    requireOnce(text, item.blank, at, "blank");
+    requireValue(
+      item.choices?.find((choice) => choice.id === item.answer)?.text === item.blank,
+      at,
+      "the correct choice is the hidden wording",
+    );
+  }
+  if (/underlined/.test(prompt))
+    requireValue(
+      item.underline !== undefined,
+      at,
+      "an underlined-portion prompt needs underline",
+    );
+  if (item.underline !== undefined) {
+    requireValue(
+      typeof text === "string",
+      at,
+      "an underline needs passageId or originalText",
+    );
+    requireOnce(text, item.underline, at, "underline");
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Figures: coordinate plots, bar graphs, and geometry diagrams drawn from data.
+
+const finite = (value) => typeof value === "number" && Number.isFinite(value);
+const pointOk = (point) =>
+  Array.isArray(point) && point.length === 2 && point.every(finite);
+
+function validateAxis(axis, at, name) {
+  requireValue(
+    axis &&
+      finite(axis.min) &&
+      finite(axis.max) &&
+      axis.min < axis.max &&
+      finite(axis.step) &&
+      axis.step > 0,
+    at,
+    `figure.${name} needs min < max and a positive step`,
+  );
+  requireValue(
+    (axis.max - axis.min) / axis.step <= 40,
+    at,
+    `figure.${name} has too many grid lines`,
+  );
+  if (axis.label !== undefined) requireText(axis.label, at);
+}
+
+export function validateFigure(figure, at) {
+  requireValue(
+    ["plot", "bars", "shapes"].includes(figure?.type),
+    at,
+    "figure.type is plot, bars, or shapes",
+  );
+  requireText(figure.alt, at);
+  if (figure.note !== undefined) requireText(figure.note, at);
+  if (figure.title !== undefined) requireText(figure.title, at);
+  if (figure.type === "plot") {
+    validateAxis(figure.x, at, "x");
+    validateAxis(figure.y, at, "y");
+    for (const point of figure.points || [])
+      requireValue(pointOk(point), at, "points are [x, y]");
+    for (const line of figure.lines || [])
+      requireValue(
+        Array.isArray(line.points) &&
+          line.points.length >= 2 &&
+          line.points.every(pointOk),
+        at,
+        "lines need two or more [x, y] points",
+      );
+    for (const curve of figure.curves || []) {
+      requireValue(
+        finite(curve.from) && finite(curve.to) && curve.from < curve.to,
+        at,
+        "curves need from < to",
+      );
+      evaluate(curve.expression, `${at} curve`, { x: curve.from });
+    }
+  }
+  if (figure.type === "bars") {
+    validateAxis(figure.y, at, "y");
+    requireValue(
+      Array.isArray(figure.categories) && figure.categories.length > 0,
+      at,
+      "bars need categories",
+    );
+    figure.categories.forEach((category) => requireText(category, at));
+    requireValue(
+      Array.isArray(figure.series) &&
+        figure.series.length > 0 &&
+        figure.series.length <= 3 &&
+        figure.series.every(
+          (series) =>
+            typeof series.name === "string" &&
+            series.values?.length === figure.categories.length &&
+            series.values.every(finite),
+        ),
+      at,
+      "bars need 1-3 series, each with one value per category",
+    );
+  }
+  if (figure.type === "shapes") {
+    requireValue(
+      finite(figure.width) &&
+        finite(figure.height) &&
+        figure.width > 0 &&
+        figure.height > 0,
+      at,
+      "shapes need a width and height",
+    );
+    for (const polygon of figure.polygons || [])
+      requireValue(
+        polygon.points?.length >= 3 && polygon.points.every(pointOk),
+        at,
+        "polygons need 3+ points",
+      );
+    for (const segment of figure.segments || [])
+      requireValue(
+        pointOk(segment.from) && pointOk(segment.to),
+        at,
+        "segments need from and to",
+      );
+    for (const circle of figure.circles || [])
+      requireValue(
+        pointOk(circle.center) && finite(circle.r) && circle.r > 0,
+        at,
+        "circles need center and r",
+      );
+    for (const mark of figure.rightAngles || [])
+      requireValue(
+        pointOk(mark.at) && mark.toward?.length === 2 && mark.toward.every(pointOk),
+        at,
+        "right angles need at and two toward points",
+      );
+    for (const point of figure.points || [])
+      requireValue(pointOk(point), at, "points are [x, y]");
+  }
+  for (const label of figure.labels || [])
+    requireValue(
+      pointOk(label.at) && typeof label.text === "string" && label.text.length > 0,
+      at,
+      "labels need at and text",
+    );
+}
+
+// Curves are sampled at build time, so the browser never evaluates expressions.
+export function sampleFigure(figure) {
+  if (figure?.type !== "plot" || !figure.curves?.length) return figure;
+  const { curves, ...rest } = figure;
+  const sampled = curves.map((curve) => {
+    const steps = 120;
+    const points = [];
+    for (let index = 0; index <= steps; index += 1) {
+      const x = curve.from + ((curve.to - curve.from) * index) / steps;
+      const raw = evaluate(curve.expression, "figure curve", { x });
+      const y = raw instanceof Rational ? raw.toNumber() : raw;
+      if (Number.isFinite(y)) points.push([Number(x.toFixed(4)), Number(y.toFixed(4))]);
+    }
+    return { points, smooth: true, ...(curve.dashed ? { dashed: true } : {}) };
+  });
+  return { ...rest, lines: [...(rest.lines || []), ...sampled] };
+}
+
 export function validateItem(item, { skills, passages, location }) {
   const at = `${location} ${item.id || "(missing id)"}`;
   requireId(item.id, at);
@@ -725,94 +1148,27 @@ export function validateItem(item, { skills, passages, location }) {
   requireText(item.stem, at);
   requireText(item.explanation, at);
 
-  if (section.id === "rw") {
-    const sources = [
-      item.passageId !== undefined,
-      item.passageIds !== undefined,
-      item.originalText !== undefined,
-    ].filter(Boolean).length;
-    requireValue(
-      sources === 1,
-      at,
-      "use exactly one of passageId, passageIds, or originalText",
-    );
-    if (item.passageId !== undefined)
-      requireValue(passages.has(item.passageId), at, `unknown passage ${item.passageId}`);
-    if (skill.id === "rw-cross-text")
-      requireValue(
-        Array.isArray(item.passageIds) && item.passageIds.length === 2,
-        at,
-        "cross-text items pair two passages in passageIds",
-      );
-    else
-      requireValue(
-        item.passageIds === undefined,
-        at,
-        "only cross-text items pair passages",
-      );
-    for (const id of item.passageIds || [])
-      requireValue(passages.has(id), at, `unknown passage ${id}`);
-    if (item.originalText !== undefined) {
-      requireValue(
-        ORIGINAL_TEXT_DOMAINS.has(domain.id),
-        at,
-        "reading items use a cited public-domain passage, not originalText",
-      );
-      requireText(item.originalText, at);
-    }
-    // Quoted choices must be exact words from the passage, so a quotation is
-    // never invented or altered.
-    if (item.quotesPassage) {
-      requireValue(item.passageId !== undefined, at, "quotesPassage needs passageId");
-      const flat = (text) =>
-        text
-          .replace(/[\u2018\u2019]/g, "'")
-          .replace(/\s+/g, " ")
-          .trim();
-      const text = flat(passages.get(item.passageId).text);
-      for (const choice of item.choices || []) {
-        const quote = flat(choice.text).replace(/^\u201c|\u201d$/g, "");
-        requireValue(
-          /^\u201c.+\u201d$/.test(flat(choice.text)) && text.includes(quote),
-          at,
-          `choice ${choice.id} must quote the passage exactly, inside curly quotes`,
-        );
-      }
-    }
-    // A blank hides the source's own wording. The source wording is the answer,
-    // so the passage stays exactly as published.
-    if (item.blank !== undefined) {
-      requireText(item.blank, at);
-      const text = item.passageId ? passages.get(item.passageId).text : item.originalText;
-      requireValue(
-        typeof text === "string",
-        at,
-        "a blank needs passageId or originalText",
-      );
-      requireValue(
-        text.split(item.blank).length === 2,
-        at,
-        `the blank "${item.blank}" must appear exactly once in the text`,
-      );
-      requireValue(
-        item.choices?.find((choice) => choice.id === item.answer)?.text === item.blank,
-        at,
-        "the correct choice is the hidden wording",
-      );
-    }
-  } else {
+  if (section.id === "rw") validateReadingText(item, { skill, domain, passages, at });
+  else {
     requireValue(
       item.passageId === undefined &&
         item.passageIds === undefined &&
         item.originalText === undefined &&
-        item.blank === undefined,
+        item.quotesFrom === undefined &&
+        item.blank === undefined &&
+        item.underline === undefined,
       at,
       "math items have no passage",
     );
   }
+  if (item.figure) validateFigure(item.figure, at);
   if (item.table) validateTable(item.table, at);
   if (item.variant === "quantitative")
-    requireValue(Boolean(item.table), at, "quantitative evidence needs a table");
+    requireValue(
+      Boolean(item.table || item.figure),
+      at,
+      "quantitative evidence needs a table or graph",
+    );
 
   if (item.format === "single-select") {
     requireValue(
@@ -952,6 +1308,8 @@ function publicItem(item, place, passages) {
     sectionId: place.section.id,
     domainId: place.domain.id,
     skillTitle: place.skill.title,
+    ...(item.figure ? { figure: sampleFigure(item.figure) } : {}),
+    ...(item.quotesFrom ? { quoteSource: passages.get(item.quotesFrom).source } : {}),
     ...(item.passageId ? { passage: passages.get(item.passageId) } : {}),
     ...(item.passageIds
       ? { passages: item.passageIds.map((id) => passages.get(id)) }
@@ -1002,6 +1360,20 @@ export async function compileTestPrep({
       validateItemPatterns(fileItems, location);
     }
   }
+  // One question per text, as on the real test: every passage is used by exactly
+  // one item (a cross-text pair counts once for each of its two texts).
+  const uses = new Map([...passages.keys()].map((id) => [id, []]));
+  for (const { item } of items)
+    for (const id of [item.passageId, ...(item.passageIds || []), item.quotesFrom])
+      if (id !== undefined) uses.get(id).push(item.id);
+  for (const [id, itemIds] of uses)
+    requireValue(
+      itemIds.length === 1,
+      "test-prep/passages.js",
+      itemIds.length
+        ? `${id} is used by ${itemIds.join(", ")}; each passage belongs to one question`
+        : `${id} is not used by any item`,
+    );
   for (const section of taxonomy.sections)
     validateItemPatterns(
       items
@@ -1041,15 +1413,29 @@ export async function compileTestPrep({
         const section = taxonomy.sections.find((entry) => entry.id === format.id);
         const moduleSize = format.questions / format.modules;
         // A timed module needs enough items in every domain of its blueprint.
-        const moduleReady = Object.entries(format.moduleDomains).every(
-          ([domainId, needed]) =>
-            count(test.id, (place) => place.domain.id === domainId) >= needed,
-        );
+        // A module needs its blueprint's count in every domain; a full-length
+        // test needs both modules' counts without repeating a question.
+        const enough = (blueprints) =>
+          Object.keys(blueprints[0]).every(
+            (domainId) =>
+              count(test.id, (place) => place.domain.id === domainId) >=
+              blueprints.reduce((sum, blueprint) => sum + blueprint[domainId], 0),
+          );
+        const moduleReady = enough([format.moduleDomains[0]]);
+        const fullReady = enough(format.moduleDomains);
         return {
           ...format,
           moduleSize,
           moduleMinutes: format.minutes / format.modules,
+          ...(section.moduleOrder
+            ? {
+                moduleOrder: section.moduleOrder.filter((id) =>
+                  skills.get(id).skill.tests.includes(test.id),
+                ),
+              }
+            : {}),
           moduleReady,
+          fullReady,
           title: section.title,
           formats: section.formats,
           bankPath: bankPaths[section.id] || "",
