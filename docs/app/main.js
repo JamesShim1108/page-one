@@ -19,6 +19,7 @@ import { createPrintController } from "./print/controller.js";
 import { createBackupController } from "./backup/controller.js";
 import { createOfflineController } from "./offline/controller.js";
 import { startPolish } from "./polish/index.js";
+import { markPageEnter } from "./polish/page-enter.js";
 import {
   announceOfflinePack,
   offlinePackId,
@@ -601,6 +602,7 @@ async function render(focus = false) {
     currentPage = page.html;
     pageTitle(page.title, page.description);
     repaint();
+    markPageEnter(main, route);
     focusDestination(route, loaded.data, focus);
     if (route.type === "writing" && route.params.get("resume") === "1")
       currentWriting?.resumeFocus();

@@ -1,0 +1,70 @@
+/* Entrances and scroll effects. Every rule is additive: delete this file's @import
+   from styles.css and the site behaves as it did before. Nothing here restyles a
+   quiz, exam, or writing control. Reduced motion is honored twice: the rules sit
+   inside a no-preference query, and base.css turns off animation as a backstop. */
+
+@media (prefers-reduced-motion: no-preference) {
+  /* The whole page fades in once per navigation (app/polish/page-enter.js sets
+     data-enter on <main>; in-page repaints never do). Opacity only: a transform on
+     <main> would move fixed popovers and offset deep-link scroll targets. */
+  main[data-enter] {
+    animation: enter-fade var(--dur-base) ease-out backwards;
+  }
+
+  /* Headings and card grids rise into place. Deep links only fade (data-enter="fade"). */
+  main[data-enter="rise"] :is(.home-copy, .study-heading, .page-intro, .hub-description) {
+    animation: enter-rise var(--dur-enter) var(--ease-settle) backwards;
+  }
+  main[data-enter="rise"] :is(.study-mode-grid, .recent-work-grid) > * {
+    animation: enter-rise var(--dur-enter) var(--ease-settle) backwards;
+    animation-delay: calc(80ms + var(--i, 0) * 45ms);
+  }
+  main[data-enter="rise"] :is(.study-mode-grid, .recent-work-grid) > :nth-child(2) {
+    --i: 1;
+  }
+  main[data-enter="rise"] :is(.study-mode-grid, .recent-work-grid) > :nth-child(3) {
+    --i: 2;
+  }
+  main[data-enter="rise"] :is(.study-mode-grid, .recent-work-grid) > :nth-child(4) {
+    --i: 3;
+  }
+  main[data-enter="rise"] :is(.study-mode-grid, .recent-work-grid) > :nth-child(5) {
+    --i: 4;
+  }
+  main[data-enter="rise"] :is(.study-mode-grid, .recent-work-grid) > :nth-child(6) {
+    --i: 5;
+  }
+  main[data-enter="rise"] :is(.study-mode-grid, .recent-work-grid) > :nth-child(n + 7) {
+    --i: 6;
+  }
+}
+
+@keyframes enter-fade {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes enter-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+/* Home page cards below the first screen rise as they scroll into view. Where
+   scroll-driven animation is unsupported they simply stay visible. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    html[data-route="home"] :is(.course-catalog-card, .how-section .step-grid > *) {
+      animation: enter-rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 45%;
+    }
+  }
+}
+
+/* Timed tests keep their exact environment: no entrance effects. */
+html:is([data-route="exam"], [data-route="test-practice"]) main[data-enter],
+html:is([data-route="exam"], [data-route="test-practice"]) main[data-enter] * {
+  animation: none;
+}
