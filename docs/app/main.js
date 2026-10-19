@@ -18,6 +18,7 @@ import { createReportController } from "./share/report.js";
 import { createPrintController } from "./print/controller.js";
 import { createBackupController } from "./backup/controller.js";
 import { createOfflineController } from "./offline/controller.js";
+import { startPolish } from "./polish/index.js";
 import {
   announceOfflinePack,
   offlinePackId,
@@ -925,6 +926,7 @@ window.addEventListener("pagehide", () => {
 });
 window.addEventListener("hashchange", () => render(true));
 render();
+startPolish();
 
 // Phone-width menu: the header collapses its links behind one toggle button.
 (function setupNavToggle() {
