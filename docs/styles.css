@@ -1,6 +1,6 @@
 /* Keep this order: shared defaults, then component styles. */
 @import url("./styles/tokens.css?v=c1c4a4002a");
-@import url("./styles/base.css?v=d4022f2b0b");
+@import url("./styles/base.css?v=25d7a5c8dd");
 @import url("./styles/icons.css?v=164452877e");
 @import url("./styles/layout.css?v=77f5210886");
 @import url("./styles/catalog.css?v=7bec266c1c");
@@ -10,7 +10,7 @@
 @import url("./styles/quiz.css?v=3f8fe042d8");
 @import url("./styles/study.css?v=4ba155938d");
 @import url("./styles/media.css?v=c8dd895a43");
-@import url("./styles/terms.css?v=1a5a65220f");
+@import url("./styles/terms.css?v=983530ac2a");
 @import url("./styles/concepts.css?v=acbdd5a5a3");
 @import url("./styles/settings.css?v=79e5674466");
 @import url("./styles/search.css?v=adc3ac77ca");

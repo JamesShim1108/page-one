@@ -39,8 +39,13 @@
   text-decoration: none;
   transition:
     border-color 140ms,
-    background 140ms;
+    background 140ms,
+    transform var(--dur-hover) var(--ease-settle),
+    box-shadow var(--dur-base) var(--ease-settle);
   min-width: 0;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
 }
 .study-mode h2,
 .term-set-card h2 {
@@ -62,6 +67,46 @@
 .term-set-card:hover {
   background: var(--soft);
   border-color: var(--green);
+}
+/* Lift on hover (pointer devices only) and give under a press. */
+@media (hover: hover) {
+  .study-mode:not(.study-mode--soon):hover,
+  .term-set-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--lift-shadow);
+  }
+}
+.study-mode:not(.study-mode--soon):active,
+.term-set-card:active {
+  transform: scale(0.985);
+  transition-duration: var(--dur-press);
+}
+/* Soft highlight under the pointer. app/polish/spotlight.js sets --spot-x and --spot-y. */
+.study-mode:not(.study-mode--soon)::before,
+.term-set-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(
+    220px circle at var(--spot-x, 50%) var(--spot-y, 0%),
+    rgba(255, 255, 255, 0.6),
+    transparent 70%
+  );
+  transition: opacity var(--dur-base) var(--ease-settle);
+}
+.study-mode:not(.study-mode--soon):hover::before,
+.term-set-card:hover::before {
+  opacity: 1;
+}
+.study-mode:first-child::before {
+  background: radial-gradient(
+    220px circle at var(--spot-x, 50%) var(--spot-y, 0%),
+    rgba(255, 255, 255, 0.16),
+    transparent 70%
+  );
 }
 .study-mode:first-child {
   background: var(--green);

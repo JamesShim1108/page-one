@@ -151,6 +151,11 @@ small {
   opacity: 0.45;
   transform: none;
 }
+/* Pressing feels physical: the button gives slightly under the finger. */
+.btn:active:not(:disabled) {
+  transform: scale(0.97);
+  transition-duration: var(--dur-press);
+}
 .text-link {
   font-size: 0.95rem;
   font-weight: 600;
