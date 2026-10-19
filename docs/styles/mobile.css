@@ -28,7 +28,7 @@
     background: var(--paper);
     color: var(--ink);
     font: inherit;
-    font-size: 0.9rem;
+    font-size: var(--text-lg);
     font-weight: 600;
     cursor: pointer;
   }
@@ -124,7 +124,7 @@
     margin: 0;
   }
   .share-panel__copy p:not(.eyebrow) {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     color: var(--muted);
   }
   .share-panel__actions {
@@ -133,7 +133,7 @@
   .share-panel__actions .btn {
     min-height: 40px;
     padding: 0.45rem 0.8rem;
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
   /* "Show QR code" was a 26px text button beside 40px buttons; the
      SHARE eyebrow was 12px; the copy/QR link fields were 14px, so iOS
@@ -144,7 +144,7 @@
     min-height: 40px;
   }
   .share-panel__copy .eyebrow {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
   .share-fallback input,
   .share-qr input,
@@ -165,7 +165,7 @@
     padding: 0.4rem 0.7rem;
     border: 1px solid var(--line);
     border-radius: 6px;
-    font-size: 0.88rem;
+    font-size: var(--text-md);
   }
   .reading-nav-links a[aria-current="location"] {
     border-width: 1px;
@@ -202,7 +202,7 @@
     border: 0;
     background: none;
     color: var(--green);
-    font-size: 0.85rem;
+    font-size: var(--text-md);
     text-decoration: underline;
     text-underline-offset: 3px;
   }
@@ -219,7 +219,7 @@
     min-width: 0;
     min-height: 44px;
     padding: 0.3rem 0.35rem;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
     line-height: 1.2;
     white-space: normal;
     align-self: start;
@@ -230,7 +230,7 @@
   }
   .elimination-state {
     grid-column: 1 / -1;
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
   /* "Clear eliminated choices" measured 28px tall. */
   .elimination-reset {
@@ -307,7 +307,7 @@
     padding-block: 0;
   }
   .terms-settings__actions .btn {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
   /* Under the card: "Save note" (20px, 12.48px text) and "Copy term and
      definition" (20px, 12.8px text). */
@@ -316,7 +316,7 @@
     display: inline-flex;
     align-items: center;
     min-height: 44px;
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
   /* Term list rows: "Open card" was 76x26 and sat 10px above "Copy term
      and definition" (the copy block keeps a top margin meant for the
@@ -369,7 +369,7 @@
     justify-content: center;
     min-height: 44px;
     margin: 0;
-    font-size: 0.9rem;
+    font-size: var(--text-lg);
     text-decoration: none;
   }
   .reading-heading-actions > .report-trigger {
@@ -379,7 +379,7 @@
     min-height: 44px;
     display: inline-flex;
     align-items: center;
-    font-size: 0.9rem;
+    font-size: var(--text-lg);
   }
   .reading-mark-controls {
     display: grid;
@@ -391,10 +391,10 @@
   }
   .reading-mark-button {
     min-height: 44px;
-    font-size: 0.9rem;
+    font-size: var(--text-lg);
   }
   .reading-mark-status {
-    font-size: 0.85rem;
+    font-size: var(--text-md);
   }
   /* "Report an issue" measured 26px tall; "Copy block link" used 12.5px. */
   .report-trigger {
@@ -404,7 +404,7 @@
   }
   .reading-block-action {
     min-height: 40px;
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
   /* Inline concept triggers (29px tall) are left at their size: they
      sit in running prose. But at 40px the block "Report an issue" hit
@@ -515,7 +515,7 @@
     gap: 0.25rem;
   }
   .quiz-context p {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
   .quiz-context > span {
     justify-content: flex-start;
@@ -526,13 +526,13 @@
     display: inline-flex;
     align-items: center;
     min-height: 44px;
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
   .quiz-page > .text-link {
     min-height: 44px;
   }
   .question-navigator-heading span {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }
 
@@ -574,7 +574,7 @@
   .flashcard-hint,
   .terms-source,
   .terms-save-note {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }
 
@@ -604,6 +604,6 @@
   .source-kind,
   .source-citation,
   .source-note {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }

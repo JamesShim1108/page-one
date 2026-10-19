@@ -21,7 +21,7 @@
   border: 1px solid var(--line);
   border-radius: 3px;
   padding: 3px 9px;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 .inspect-badges b {
   font-family: var(--mono);
@@ -123,7 +123,7 @@
   width: 100%;
   min-width: 880px;
   border-collapse: collapse;
-  font-size: 0.9375rem;
+  font-size: var(--text-lg);
   text-align: left;
 }
 .table-wrap caption {
@@ -242,7 +242,7 @@
   display: block;
 }
 .ape-steps span {
-  font-size: 0.9375rem;
+  font-size: var(--text-lg);
   color: var(--muted);
 }
 .writing-part {
@@ -307,11 +307,11 @@
 .writing-disclosure {
   margin-top: 24px;
   color: var(--muted);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 .writing-review-note {
   color: var(--muted);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   margin: 14px 0 0;
 }
 .writing-save-row {
@@ -366,7 +366,7 @@
   border-top: 1px solid var(--line);
   padding: 12px 0;
   color: var(--muted);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 .writing-recovery-list {
   margin-top: 24px;
@@ -450,12 +450,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 12px 20px;
-  font-size: 0.9375rem;
+  font-size: var(--text-lg);
 }
 .source-disclosure {
   margin: 16px 0 0;
   color: var(--muted);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 .reading-reveal,
 .transfer-check {
@@ -558,7 +558,7 @@
 .network-place span {
   margin-top: 4px;
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 .network-place-detail,
 .network-controls article,
@@ -600,7 +600,7 @@
   display: block;
   margin-top: 10px;
   color: var(--muted);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 .comparison-prompt {
   border-top: 1px solid var(--line);
@@ -649,12 +649,12 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 .document-card dt {
   color: var(--muted);
   font-family: var(--mono);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 .document-card dd {
   margin: 3px 0 0;

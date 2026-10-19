@@ -74,7 +74,7 @@
 
 .session-topic-count {
   color: var(--muted, #53645e);
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
   white-space: nowrap;
 }
 

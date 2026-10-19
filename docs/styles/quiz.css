@@ -32,7 +32,7 @@
 .quiz-mode-card p {
   min-height: 3.2rem;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
 }
 .quiz-notice {
   padding: 0.8rem 1rem;
@@ -53,17 +53,17 @@
 }
 .quiz-context p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
   color: var(--muted);
 }
 .quiz-context a {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 .quiz-progress {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--muted);
   margin-bottom: 0.7rem;
 }
@@ -149,13 +149,13 @@
 .elimination-state {
   align-self: center;
   color: var(--amber);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 650;
 }
 .elimination-reset {
   display: inline-block;
   margin-top: 0.75rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 .question-navigator {
   margin: 0 0 1.25rem;
@@ -177,7 +177,7 @@
 .question-navigator-heading span,
 .question-navigator-legend {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
 }
 .question-navigator-grid {
   display: flex;
@@ -230,7 +230,7 @@
   gap: 0.9rem;
   margin-top: 1rem;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 .question-self-report label {
   display: inline-flex;
@@ -285,7 +285,7 @@
   border-radius: 5px;
   display: grid;
   place-items: center;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--muted);
 }
 .choice:has(input:checked) .choice-letter {
@@ -303,7 +303,7 @@
   cursor: default;
 }
 .answer-mark {
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
   margin-left: auto;
   font-weight: 600;
   white-space: nowrap;
@@ -316,7 +316,7 @@
   margin-top: 1.5rem;
 }
 .question-actions p {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--muted);
   margin: 0;
 }
@@ -324,7 +324,7 @@
   padding: 1.2rem;
   border-radius: 6px;
   margin-top: 1.5rem;
-  font-size: 0.95rem;
+  font-size: var(--text-lg);
 }
 .answer-feedback h4 {
   font-weight: 650;
@@ -344,7 +344,7 @@
 }
 .question-footnote {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--muted);
   margin: 1.3rem 0;
 }
@@ -358,7 +358,7 @@
   margin-bottom: 0.7rem;
 }
 .quick-shell .quiz-progress {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 .quick-complete {
   border: 1px solid var(--line);
@@ -368,7 +368,7 @@
   margin: 0 0 0.5rem;
 }
 .quick-complete p {
-  font-size: 0.95rem;
+  font-size: var(--text-lg);
 }
 .results-wrap {
   max-width: 860px;
@@ -430,25 +430,25 @@
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
-  font-size: 0.95rem;
+  font-size: var(--text-lg);
   font-weight: 550;
 }
 .result-item p {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--muted);
   margin: 0.2rem 0;
 }
 .result-item a {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--green);
 }
 .result-empty {
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
   color: var(--muted);
   margin: 0;
 }
 .result-explainer {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--muted);
   margin-bottom: 1.5rem;
 }
@@ -458,7 +458,7 @@
 }
 .reuse-note {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--muted);
 }
 .review-list {
@@ -475,12 +475,12 @@
 }
 .review-question summary {
   font-weight: 550;
-  font-size: 0.95rem;
+  font-size: var(--text-lg);
   cursor: pointer;
   line-height: 1.6;
 }
 .review-question p {
-  font-size: 0.95rem;
+  font-size: var(--text-lg);
   margin: 1rem 0 0;
   color: #45594d;
 }
@@ -516,7 +516,7 @@
   }
   .answer-mark {
     white-space: normal;
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
   }
   .question-actions {
     align-items: flex-end;
@@ -545,11 +545,11 @@
     align-items: flex-start;
   }
   .quiz-context p {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
   .quiz-context a {
     white-space: nowrap;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
   .results-grid {
     grid-template-columns: 1fr;
@@ -609,7 +609,7 @@
 .result-filters > .section-heading > span,
 .review-question-state {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
 }
 .result-filters {
   padding: 1rem 0;
@@ -630,7 +630,7 @@
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--paper);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   text-decoration: none;
 }
 .result-filters nav a.active {
@@ -674,7 +674,7 @@
 }
 .review-plan li span {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 .review-plan .btn {
   margin-top: 1rem;
@@ -703,7 +703,7 @@
   padding: 0.9rem 0;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
 }
 .history-filters a {
   padding: 0.4rem 0.7rem;
@@ -720,7 +720,7 @@
 .history-limit-note {
   margin: 1rem 0;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 .history-list {
   display: grid;
@@ -745,7 +745,7 @@
 .history-meta,
 .history-result {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
 }
 .history-item .btn {
   margin-top: 0.6rem;
@@ -779,7 +779,7 @@
   }
 }
 .question-card .question-meta {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 @media (max-width: 400px) {
   .choice {
@@ -894,7 +894,7 @@
   .answer-mark {
     flex-basis: 100%;
     margin-left: 2.4rem;
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 }
 
@@ -919,14 +919,14 @@
 }
 .source-kind {
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: var(--text-xs);
   font-weight: 650;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .source-attribution {
   color: var(--ink);
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   line-height: 1.45;
 }
@@ -945,7 +945,7 @@
 .source-note {
   margin: 0.75rem 0 0;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   line-height: 1.45;
 }
 
@@ -956,7 +956,7 @@
 .skill-breakdown table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
 }
 .skill-breakdown th,
 .skill-breakdown td {
@@ -982,7 +982,7 @@
   display: block;
   margin-top: 0.2rem;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
   font-weight: 400;
 }
 .skill-bar {

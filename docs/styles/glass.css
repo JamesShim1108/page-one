@@ -267,7 +267,7 @@ html[data-glass="on"] .question-actions {
   html[data-glass="on"] .question-action-buttons .btn {
     flex: 1;
     padding-inline: 0.7rem;
-    font-size: 0.9rem;
+    font-size: var(--text-lg);
     white-space: nowrap;
   }
 }

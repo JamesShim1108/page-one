@@ -30,7 +30,7 @@
 }
 .concept-help {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin: 1rem 0 0;
 }
 .concept-popover {
@@ -60,7 +60,7 @@
   overflow-wrap: anywhere;
 }
 .concept-popover .concept-popover__source {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--muted);
   margin-top: 0.7rem;
 }
@@ -81,7 +81,7 @@
   min-height: 1.35rem;
   margin: 0.45rem 0 0;
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 .concept-popover__close {
   position: absolute;

@@ -75,6 +75,10 @@
   --red: #8b3d31;
   --red-bg: #fcf0eb;
   --gold: #b98227;
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-md: 0.875rem;
+  --text-lg: 0.9375rem;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: Inter, "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
   --mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;

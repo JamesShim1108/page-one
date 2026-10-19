@@ -59,7 +59,7 @@
   margin-top: 1rem;
 }
 .free-note {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--muted);
   margin: 1rem 0 0;
 }
@@ -101,7 +101,7 @@
 }
 .course-feature .catalog-empty {
   color: #d3e2d8;
-  font-size: 0.95rem;
+  font-size: var(--text-lg);
   margin: 0.5rem 0 1.2rem;
 }
 .course-empty-shell {
@@ -205,7 +205,7 @@
   font-size: 1.08rem;
 }
 .unit-row p {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--muted);
   margin: 0.15rem 0 0;
 }
@@ -260,7 +260,7 @@
 }
 .topic-row p {
   margin: 0.2rem 0 0;
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   color: var(--muted);
 }
 .unit-tools {
@@ -376,10 +376,10 @@
     font-size: 1rem;
   }
   .unit-row p {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
   .unit-row .pill {
-    font-size: 0.7rem;
+    font-size: var(--text-xs);
   }
   .topic-row {
     grid-template-columns: minmax(0, 1fr);
@@ -396,10 +396,10 @@
     font-size: 1rem;
   }
   .topic-row p {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
   .unit-tool h3 {
-    font-size: 0.95rem;
+    font-size: var(--text-lg);
   }
 }
 .home-top h1 {
@@ -429,7 +429,7 @@
 }
 .feature-topics a > span:first-child {
   color: #bdd3c8;
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
 }
 .feature-topics a > span:last-child {
   margin-left: auto;
@@ -554,7 +554,7 @@
   font-family: var(--mono);
 }
 .catalog-number span {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
 }
 .catalog-number strong {
   font-size: 2.4rem;
@@ -590,7 +590,7 @@
   color: #c5d7c9;
 }
 .course-feature .feature-foot {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 .course-feature .btn {
   background: #d9eacb;
@@ -625,7 +625,7 @@
 .catalog-note {
   margin: 16px 0 0;
   color: var(--muted);
-  font-size: 0.9375rem;
+  font-size: var(--text-lg);
 }
 .how-section {
   padding: 40px 0 48px;
@@ -689,7 +689,7 @@
 }
 @media (max-width: 700px) {
   .unit-row .pill {
-    font-size: 0.8125rem;
+    font-size: var(--text-sm);
   }
 }
 @media (max-width: 480px) {
@@ -738,7 +738,7 @@
   margin-bottom: 1.1rem;
 }
 .unit-tool .eyebrow {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
   margin-bottom: 14px;
 }
 .unit-tool h3 {

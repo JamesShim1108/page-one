@@ -33,7 +33,7 @@
   padding-block: 6px;
   align-items: center;
   gap: 2rem;
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
   font-weight: 550;
 }
 .site-header nav a {
@@ -132,7 +132,7 @@ main:focus {
   color: var(--ink);
 }
 .site-footer p {
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   margin: 0.6rem 0;
 }
 .site-footer .legal {
@@ -173,7 +173,7 @@ main:focus {
     gap: 0.7rem;
   }
   .header-cta {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     padding: 7px 8px;
   }
   .header-cta span {
@@ -191,7 +191,7 @@ main:focus {
   gap: 2rem;
 }
 .site-footer .legal {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
 }
 @media (max-width: 700px) {
   .header-inner {
@@ -200,7 +200,7 @@ main:focus {
   }
   .site-header nav {
     gap: 1.2rem;
-    font-size: 0.875rem;
+    font-size: var(--text-md);
     flex-basis: 100%;
     justify-content: flex-start;
   }
@@ -253,7 +253,7 @@ main:focus {
   color: var(--green);
 }
 .breadcrumbs {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 .breadcrumbs span[aria-hidden] {
   color: var(--muted);

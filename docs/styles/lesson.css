@@ -17,7 +17,7 @@
 .lesson-nav a {
   display: block;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: var(--text-lg);
   padding: 0.55rem 0.85rem;
   border-left: 2px solid var(--line);
   color: var(--muted);
@@ -35,7 +35,7 @@
   padding: 0.8rem;
 }
 .lesson-nav .nav-note {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--muted);
   margin-top: 0.8rem;
 }
@@ -56,7 +56,7 @@
   display: flex;
   gap: 1.25rem;
   flex-wrap: wrap;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   color: var(--muted);
   margin: 1.5rem 0 2rem;
 }
@@ -124,12 +124,12 @@
 }
 .term-row dt {
   font-weight: 600;
-  font-size: 0.98rem;
+  font-size: var(--text-lg);
 }
 .term-row dd {
   margin: 0;
   color: #43564d;
-  font-size: 0.98rem;
+  font-size: var(--text-lg);
 }
 .connection-list {
   display: grid;
@@ -213,7 +213,7 @@
     font-size: 1.03rem;
   }
   .lesson-meta {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
     margin-bottom: 1.5rem;
   }
   .big-idea {
@@ -248,7 +248,7 @@
   border-radius: 0;
 }
 .lesson-section .section-number {
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 @media (max-width: 700px) {
   .lesson-grid article {
@@ -262,7 +262,7 @@
     gap: 0.5rem;
   }
   .lesson-nav a {
-    font-size: 0.875rem;
+    font-size: var(--text-md);
   }
 }
 .lesson-section .section-number {

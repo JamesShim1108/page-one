@@ -60,7 +60,7 @@
 .study-mode p,
 .term-set-card p {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
   margin: 0 0 0.8rem;
 }
 .study-mode:hover,
@@ -119,7 +119,7 @@
 }
 .study-mode__entry {
   margin-top: auto;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
   font-weight: 650;
   display: flex;
   justify-content: space-between;
@@ -187,7 +187,7 @@
 .term-note-form label {
   display: grid;
   gap: 0.3rem;
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 .terms-list-filter-form input[type="search"],
 .terms-list-filter-form select,
@@ -212,7 +212,7 @@
 }
 .terms-list-heading span {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--text-md);
 }
 .terms-list-round-action {
   margin: -0.5rem 0 1rem;
@@ -281,7 +281,7 @@
 }
 .term-copy-actions {
   margin-top: 0.7rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 .term-copy-actions [role="status"] {
   color: var(--muted);
@@ -307,7 +307,7 @@
 .term-note-actions {
   justify-content: space-between;
   margin-top: 0.45rem;
-  font-size: 0.78rem;
+  font-size: var(--text-xs);
 }
 .term-note-display {
   margin-top: 0.9rem;
@@ -369,7 +369,7 @@
 .terms-source,
 .terms-save-note,
 .terms-shortcuts {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--muted);
   margin: 1.3rem 0 0;
 }
@@ -382,7 +382,7 @@
   flex-wrap: wrap;
   gap: 0.5rem 1rem;
   margin-bottom: 1rem;
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
 }
 .terms-counts span {
   padding: 0.3rem 0.6rem;
@@ -395,7 +395,7 @@
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 0.7rem;
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
 }
 #terms-position {
   font: 0.9rem var(--mono);
@@ -450,7 +450,7 @@
 }
 .terms-settings__actions .btn {
   padding: 0.55rem;
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   justify-content: center;
 }
 .terms-settings small {
@@ -517,7 +517,7 @@
   margin: 0.7rem 0 1.1rem;
   text-align: center;
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 .flashcard-classify {
   display: grid;
@@ -540,7 +540,7 @@
   min-height: 44px;
 }
 .flashcard-navigation span {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
 }
 .flashcard-navigation button:disabled {
   opacity: 0.45;
@@ -585,7 +585,7 @@
     letter-spacing: 0.05em;
   }
   .study-mode p {
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
   .term-set-grid {
     grid-template-columns: 1fr;
@@ -666,7 +666,7 @@
   }
   .terms-counts {
     gap: 0.3rem;
-    font-size: 0.8rem;
+    font-size: var(--text-sm);
   }
   .terms-counts span {
     padding: 0.3rem 0.4rem;

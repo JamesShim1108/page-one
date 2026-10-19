@@ -14,7 +14,7 @@
 }
 .share-panel__copy .eyebrow {
   margin-bottom: 4px;
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 .share-panel__actions,
 .share-qr__actions {
@@ -28,7 +28,7 @@
   min-height: 1.5em;
   margin: 0;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--text-lg);
 }
 /* An empty status line stays in the accessibility tree for announcements but
    takes no space in the panel layout. */
@@ -57,7 +57,7 @@
   display: grid;
   gap: 5px;
   color: var(--muted);
-  font-size: 0.875rem;
+  font-size: var(--text-md);
 }
 .share-fallback input,
 .share-qr input,
