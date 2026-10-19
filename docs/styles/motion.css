@@ -68,3 +68,35 @@ html:is([data-route="exam"], [data-route="test-practice"]) main[data-enter],
 html:is([data-route="exam"], [data-route="test-practice"]) main[data-enter] * {
   animation: none;
 }
+
+/* A 3px reading-progress bar on lessons and study guides. It only exists where
+   scroll-driven animation is supported and motion is allowed. */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    html:is([data-route="topic"], [data-route="guide"])::after {
+      content: "";
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 25;
+      height: 3px;
+      background: linear-gradient(90deg, var(--green), var(--focus));
+      transform-origin: 0 50%;
+      pointer-events: none;
+      animation: read-progress linear both;
+      animation-timeline: scroll(root);
+    }
+  }
+}
+@keyframes read-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@media print {
+  html::after {
+    display: none;
+  }
+}

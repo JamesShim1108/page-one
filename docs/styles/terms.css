@@ -480,7 +480,7 @@
 .flashcard__inner {
   display: grid;
   transform-style: preserve-3d;
-  transition: transform 220ms ease-out;
+  transition: transform var(--dur-flip) var(--ease-flip);
 }
 .flashcard.is-flipped .flashcard__inner {
   transform: rotateY(180deg);
