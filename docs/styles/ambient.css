@@ -1,0 +1,72 @@
+/* Soft color behind the graph paper. Opt-in: it only applies while <html> has
+   data-ambient="on" (set in index.html). Delete that attribute to remove it; no
+   other file needs to change. The two glows sit above the paper pattern and below
+   every page surface, so text, cards, and the grid keep their current contrast. */
+html[data-ambient="on"] body::before,
+html[data-ambient="on"] body::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  width: 62vmax;
+  height: 62vmax;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform;
+}
+html[data-ambient="on"] body::before {
+  top: -24vmax;
+  left: -20vmax;
+  background: radial-gradient(
+    closest-side,
+    rgba(54, 125, 123, 0.2),
+    rgba(54, 125, 123, 0)
+  );
+  animation: ambient-drift-a 48s var(--ease-inout) infinite alternate;
+}
+html[data-ambient="on"] body::after {
+  right: -22vmax;
+  bottom: -28vmax;
+  background: radial-gradient(
+    closest-side,
+    rgba(82, 129, 155, 0.18),
+    rgba(82, 129, 155, 0)
+  );
+  animation: ambient-drift-b 56s var(--ease-inout) infinite alternate;
+}
+@keyframes ambient-drift-a {
+  to {
+    transform: translate3d(8vmax, 6vmax, 0) scale(1.12);
+  }
+}
+@keyframes ambient-drift-b {
+  to {
+    transform: translate3d(-9vmax, -5vmax, 0) scale(1.08);
+  }
+}
+/* Phones keep the color but not the drift, to save battery. */
+@media (max-width: 700px) {
+  html[data-ambient="on"] body::before,
+  html[data-ambient="on"] body::after {
+    animation: none;
+  }
+}
+/* Timed tests, printouts, and high-contrast mode get the plain page. Pseudo-elements
+   cannot go inside :is(), so each is written out. */
+html[data-ambient="on"]:is([data-route="exam"], [data-route="test-practice"])
+  body::before,
+html[data-ambient="on"]:is([data-route="exam"], [data-route="test-practice"])
+  body::after {
+  display: none;
+}
+@media (prefers-contrast: more) {
+  html[data-ambient="on"] body::before,
+  html[data-ambient="on"] body::after {
+    display: none;
+  }
+}
+@media print {
+  html[data-ambient="on"] body::before,
+  html[data-ambient="on"] body::after {
+    display: none;
+  }
+}
