@@ -352,7 +352,7 @@
   }
 
   /* Lesson/guide section actions (Copy link, Print, Report an issue) and
-     the Read / Understood row. Problem: buttons at 12.5px with mismatched
+     the passage Review row. Problem: buttons at 12.5px with mismatched
      heights and the report link floating outside the grid. Fix: a
      two-column grid with equal 44px targets. */
   .reading-heading-actions {

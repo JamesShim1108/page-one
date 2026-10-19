@@ -43,8 +43,6 @@ export function normalizeReadingMark(value) {
     excerpt: typeof value.excerpt === "string" ? value.excerpt.slice(0, 500) : "",
     contentRevision:
       typeof value.contentRevision === "string" ? value.contentRevision : "",
-    read: value.read === true,
-    understood: value.understood === true,
     review: value.review === true,
     confusing: value.confusing === true,
     updatedAt:
@@ -67,7 +65,7 @@ function blankMark(context, target, previous = {}) {
 }
 
 function hasFlags(mark) {
-  return Boolean(mark.read || mark.understood || mark.review || mark.confusing);
+  return Boolean(mark.review || mark.confusing);
 }
 
 export async function listReadingMarks(adapter, { courseId = "", pageId = "" } = {}) {
@@ -110,8 +108,8 @@ export function createReadingMarkStore(adapter, context) {
         kept.push(record);
         continue;
       }
-      // A mark that only held a removed private note: delete it so the old
-      // note text does not linger in this browser.
+      // A mark that only held a removed private note, or only the removed
+      // Read / Understood flags: delete it so it does not linger in this browser.
       const writer = writerFor(mark, mark);
       await writer.ready;
       await writer.remove().catch(() => null);
@@ -210,14 +208,15 @@ export function readingMarkControls({
   excerpt = "",
   label = "this section",
 }) {
-  const isSection = targetType === "section";
-  const targetDescription = isSection
-    ? "Read means you reached this section. Understood is a separate learner report."
-    : "Review this keeps an anchored passage in your private review list.";
+  // Only passages can be kept for review. Sections no longer have Read or
+  // Understood buttons.
+  if (targetType !== "block") return "";
+  const targetDescription =
+    "Review this keeps an anchored passage in your private review list.";
   const descriptionId = `reading-mark-description-${targetType}-${targetId}`;
   return `<div class="reading-mark-controls" data-reading-mark-target="${esc(targetType)}" data-reading-mark-target-id="${esc(targetId)}" data-reading-mark-section="${esc(sectionId)}" data-reading-mark-excerpt="${esc(excerpt)}" data-reading-mark-label="${esc(label)}">
     <span class="visually-hidden" id="${esc(descriptionId)}" data-reading-mark-description>${esc(targetDescription)}</span>
-    ${isSection ? `${markButton("read", "Read", "Mark this section read.", descriptionId)}${markButton("understood", "Understood", "Report that you can explain this section.", descriptionId)}` : markButton("review", "Review this", "Keep this passage in your private review list.", descriptionId, "bookmark")}
+    ${markButton("review", "Review this", "Keep this passage in your private review list.", descriptionId, "bookmark")}
     <span class="reading-mark-status" role="status" aria-live="polite"></span>
   </div>`;
 }
@@ -267,7 +266,7 @@ export function mountReadingMarks(
     const mark = store.get(target) || {};
     for (const button of container.querySelectorAll("[data-reading-mark-action]")) {
       const action = button.dataset.readingMarkAction;
-      if (!["read", "understood", "review"].includes(action)) continue;
+      if (action !== "review") continue;
       const active = mark[action] === true;
       button.setAttribute("aria-pressed", String(active));
       button.classList.toggle("is-active", active);
@@ -304,7 +303,7 @@ export function mountReadingMarks(
     const container = action.closest("[data-reading-mark-target]");
     if (!container) return;
     const name = action.dataset.readingMarkAction;
-    if (["read", "understood", "review"].includes(name)) {
+    if (name === "review") {
       const current = store.get(targetFor(container)) || {};
       save(container, { [name]: current[name] !== true });
     }
@@ -361,7 +360,7 @@ export function reviewPage({ records, courses, courseId = "", returnToken = "" }
     (course) => course.status === "ready" && course.readyTopicCount > 0,
   );
   return `<div class="container reading-review-page">${breadcrumbs([["Home", "/"], ["My review"]])}
-    <header class="page-intro"><p class="eyebrow">PRIVATE TO THIS BROWSER</p><h1>My review</h1><p>Passages you chose to revisit. Read and Understood reports remain separate from this list.</p>
+    <header class="page-intro"><p class="eyebrow">PRIVATE TO THIS BROWSER</p><h1>My review</h1><p>Passages you chose to revisit.</p>
       <label class="reading-review-filter">Course<select data-reading-review-course><option value="">All available courses</option>${readyCourses.map((course) => `<option value="${esc(course.id)}"${course.id === courseId ? " selected" : ""}>${esc(course.title)}</option>`).join("")}</select></label>
     </header>
     ${visible.length ? `<div class="reading-review-list">${visible.map((record) => reviewRow(record, saveNavigationContext("reading-review", { courseId: record.payload.courseId, focusedRecordId: record.recordId, scroll: globalThis.scrollY || 0 }))).join("")}</div>` : `<section class="empty-state"><h2>Nothing marked for review yet.</h2><p>Choose Review this beside a lesson passage when you want a return point.</p>${link(courseId ? `/course/${courseId}` : "/courses", "Browse lessons", "btn")}</section>`}

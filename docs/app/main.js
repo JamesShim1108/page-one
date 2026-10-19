@@ -664,8 +664,6 @@ async function render(focus = false) {
         "results",
         "guide",
         "writing",
-        "history",
-        "session",
         "print",
       ].includes(route.type);
       for (const [id, active] of [
@@ -755,6 +753,47 @@ function focusDestination(route, data, focus) {
     window.scrollTo({ top: 0, behavior: "auto" });
     main.focus({ preventScroll: true });
   }
+}
+
+// Choosing a section from the reading menu changes only ?section= or ?block= on the
+// page that is already open. Reloading the route would blank the page, jump to the
+// top, and only then scroll, so these changes scroll in place instead.
+function onlySectionChanged(next, previous) {
+  if (!["topic", "guide"].includes(next.type)) return false;
+  if (next.type !== previous.type || next.id !== previous.id) return false;
+  const rest = (params) => {
+    const copy = new URLSearchParams(params);
+    copy.delete("section");
+    copy.delete("block");
+    copy.sort();
+    return copy.toString();
+  };
+  return rest(next.params) === rest(previous.params);
+}
+
+function scrollToSectionInPlace(next) {
+  if (main.hasAttribute("aria-busy")) return false;
+  const surface = main.querySelector(".reading-surface");
+  const section = next.params.get("section");
+  const block = next.params.get("block");
+  if (!surface || !section) return false;
+  const sectionElement = [...surface.querySelectorAll("[data-reading-section]")].find(
+    (candidate) => candidate.id === section,
+  );
+  if (!sectionElement) return false;
+  const blockElement = block
+    ? [...surface.querySelectorAll("[data-reading-block]")].find(
+        (candidate) =>
+          candidate.dataset.readingBlock === block &&
+          candidate.dataset.readingSection === section,
+      )
+    : null;
+  const element = blockElement || sectionElement;
+  currentRoute = next;
+  element.setAttribute("tabindex", "-1");
+  element.focus({ preventScroll: true });
+  element.scrollIntoView({ block: "start", behavior: "auto" });
+  return true;
 }
 
 // One delegated listener per event keeps handlers intact when pages are replaced.
@@ -926,7 +965,11 @@ window.addEventListener("pagehide", () => {
   currentWriting?.flush();
   currentExam?.flush();
 });
-window.addEventListener("hashchange", () => render(true));
+window.addEventListener("hashchange", () => {
+  const next = parseRoute(location.hash);
+  if (onlySectionChanged(next, currentRoute) && scrollToSectionInPlace(next)) return;
+  render(true);
+});
 render();
 startPolish();
 

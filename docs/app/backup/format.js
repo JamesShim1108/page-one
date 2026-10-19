@@ -226,8 +226,6 @@ const PAYLOAD_FIELDS = Object.freeze({
     "sectionId",
     "excerpt",
     "contentRevision",
-    "read",
-    "understood",
     "review",
     "confusing",
     "updatedAt",

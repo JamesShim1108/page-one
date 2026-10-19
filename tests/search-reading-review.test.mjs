@@ -6,6 +6,7 @@ import { highlightSearchText, searchRecords } from "../docs/app/search/engine.js
 import {
   createReadingMarkStore,
   normalizeReadingMark,
+  readingMarkControls,
   reviewPage,
 } from "../docs/app/reading/marks.js";
 import { createLocalAdapter } from "../docs/app/storage/adapter.js";
@@ -128,7 +129,7 @@ test("search index loading is on demand and does not fetch question banks", asyn
   assert.deepEqual(requested, ["catalog.json", "world/search.json"]);
 });
 
-test("reading marks keep read, understood, and review independent", async () => {
+test("reading marks only keep passages for review and clear old Read / Understood flags", async () => {
   const storage = memoryStorage();
   const options = {
     indexedDB: null,
@@ -154,10 +155,18 @@ test("reading marks keep read, understood, and review independent", async () => 
   };
   const store = createReadingMarkStore(createLocalAdapter(options), context);
   await store.ready;
-  assert.equal((await store.update(target, { read: true })).ok, true);
-  assert.equal(store.get(target).understood, false);
-  assert.equal((await store.update(target, { understood: true })).ok, true);
-  assert.equal(store.get(target).read, true);
+  // Read and Understood were removed, so setting them keeps nothing.
+  assert.equal((await store.update(target, { read: true, understood: true })).ok, true);
+  assert.equal(store.get(target), null);
+  assert.equal(
+    "read" in normalizeReadingMark({ ...context, ...target, read: true }),
+    false,
+  );
+  assert.equal(
+    "understood" in normalizeReadingMark({ ...context, ...target, understood: true }),
+    false,
+  );
+  assert.equal(readingMarkControls({ ...target, label: "this section" }), "");
 
   const block = {
     ...target,
