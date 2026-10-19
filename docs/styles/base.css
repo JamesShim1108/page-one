@@ -395,3 +395,14 @@ textarea:focus-visible {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* Balanced headings avoid a single word on the last line; supporting browsers only.
+   Limited to h1 and h2: balancing h3 changed how the home carousel's course titles
+   wrap in a trial render. */
+h1,
+h2 {
+  text-wrap: balance;
+}
+::selection {
+  background: #367d7b33;
+}
