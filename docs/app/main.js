@@ -548,6 +548,7 @@ async function render(focus = false) {
   const generation = ++routeGeneration;
   currentRoute = parseRoute(location.hash);
   const route = currentRoute;
+  document.documentElement.dataset.route = route.type;
   const activePack = offlinePackId();
   if (activePack) void announceOfflinePack(activePack);
   currentWriting?.flush();
