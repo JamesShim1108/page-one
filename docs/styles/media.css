@@ -3,7 +3,7 @@
   margin: 1.75rem 0;
   padding: 1rem;
   border: 1px solid var(--line);
-  border-radius: 7px;
+  border-radius: var(--radius-sm);
   background: var(--white);
 }
 
@@ -15,7 +15,7 @@
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 3px;
+  border-radius: var(--radius-xs);
 }
 
 .lesson-figure figcaption {
@@ -45,7 +45,7 @@
   height: 160px;
   margin: 2rem auto 0;
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   background: linear-gradient(90deg, var(--soft) 0%, #f4f8f5 50%, var(--soft) 100%) 0 0 /
     200% 100%;
   animation:

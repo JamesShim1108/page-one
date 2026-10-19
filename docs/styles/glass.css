@@ -170,7 +170,7 @@ html[data-glass="on"] .site-header nav a[aria-current="page"] {
     margin-bottom: 0.4rem;
   }
   html[data-glass="on"] .site-header nav a {
-    border-radius: 12px;
+    border-radius: var(--radius-md);
     border-bottom-color: transparent;
   }
   html[data-glass="on"] .site-header nav a[aria-current="page"] {

@@ -196,7 +196,7 @@
   .lesson-nav a {
     border: 1px solid var(--line);
     padding: 0.4rem 0.65rem;
-    border-radius: 5px;
+    border-radius: var(--radius-xs);
     background: white;
   }
   .lesson-nav .btn {
@@ -300,7 +300,7 @@
 .lesson-grid > article {
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   padding: clamp(20px, 3vw, 40px);
 }
 .lesson-section {

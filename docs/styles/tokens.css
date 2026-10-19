@@ -79,6 +79,9 @@
   --text-sm: 0.8125rem;
   --text-md: 0.875rem;
   --text-lg: 0.9375rem;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: Inter, "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
   --mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;

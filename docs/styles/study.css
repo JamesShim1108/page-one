@@ -19,7 +19,7 @@
   background: var(--soft);
   color: var(--ink);
   border: 1px solid var(--line);
-  border-radius: 3px;
+  border-radius: var(--radius-xs);
   padding: 3px 9px;
   font-size: var(--text-md);
 }
@@ -29,7 +29,7 @@
 .inspect-guide {
   margin: 24px 0 0;
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   background: var(--white);
   padding: 18px;
 }
@@ -69,7 +69,7 @@
 .writing-invite {
   background: var(--soft);
   border: 1px solid var(--line);
-  border-radius: 7px;
+  border-radius: var(--radius-sm);
   padding: clamp(22px, 3vw, 36px);
   margin: 28px 0;
 }
@@ -85,7 +85,7 @@
 .guide-surface {
   padding: clamp(22px, 3vw, 36px);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   background: var(--white);
   margin: 24px 0;
 }
@@ -196,7 +196,7 @@
 .writing-paper {
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   padding: clamp(22px, 3vw, 38px);
 }
 .writing-prompt {
@@ -214,7 +214,7 @@
   margin: 0 0 20px;
   padding: 12px 14px;
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: var(--radius-xs);
   background: var(--soft);
 }
 .writing-prompt-disclosure summary {
@@ -267,7 +267,7 @@
   scroll-margin-block-end: 30vh;
   padding: 18px;
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: var(--radius-xs);
   background: #fcfdf9;
   color: var(--ink);
   font-size: 1rem;
@@ -376,7 +376,7 @@
   padding: 18px;
   background: var(--soft);
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: var(--radius-xs);
 }
 .writing-version-preview article {
   border-top: 1px solid var(--line);
@@ -414,7 +414,7 @@
   resize: vertical;
   padding: 14px;
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: var(--radius-xs);
   background: #fcfdf9;
   color: var(--ink);
   font: 0.9375rem/1.65 var(--mono);
@@ -463,7 +463,7 @@
   padding: 12px 14px;
   background: var(--soft);
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: var(--radius-xs);
 }
 .reading-reveal summary,
 .transfer-check summary,
@@ -489,7 +489,7 @@
 .network-layers {
   border: 1px solid var(--line);
   padding: 14px;
-  border-radius: 5px;
+  border-radius: var(--radius-xs);
 }
 .network-layers label,
 .sahara-plan-list label,
@@ -501,7 +501,7 @@
 }
 .network-map-wrap {
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   padding: 12px;
   background: #f7f8f1;
 }
@@ -541,7 +541,7 @@
 .network-place {
   text-align: left;
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: var(--radius-xs);
   padding: 11px 13px;
   background: var(--white);
   color: var(--ink);
@@ -565,7 +565,7 @@
 .pairwise-cell,
 .claim-task {
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   padding: 18px;
   background: var(--soft);
 }
@@ -582,7 +582,7 @@
   margin-top: 6px;
   padding: 9px;
   border: 1px solid var(--line);
-  border-radius: 4px;
+  border-radius: var(--radius-xs);
   background: var(--white);
   color: var(--ink);
 }
@@ -611,7 +611,7 @@
   margin-top: 8px;
   padding: 10px;
   border: 1px solid var(--line);
-  border-radius: 4px;
+  border-radius: var(--radius-xs);
   background: var(--white);
   color: var(--ink);
 }
@@ -638,7 +638,7 @@
 }
 .document-card {
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: var(--radius-xs);
   padding: 13px;
   background: var(--soft);
 }

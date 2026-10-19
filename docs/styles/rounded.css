@@ -27,7 +27,7 @@
 }
 .choice,
 .elimination-control {
-  border-radius: 14px;
+  border-radius: var(--radius-md);
 }
 /* Keep the labels on one line in the phone-width action rows. */
 @media (max-width: 700px) {
@@ -51,7 +51,7 @@
 }
 .choice:has(input:focus-visible),
 .elimination-control:focus-visible {
-  border-radius: 14px;
+  border-radius: var(--radius-md);
 }
 @media print {
   .btn {

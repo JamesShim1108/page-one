@@ -6,7 +6,7 @@
   margin: 22px 0;
   padding: 16px 18px;
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   background: var(--soft);
 }
 .share-panel__copy p {
@@ -97,7 +97,7 @@
   width: min(640px, calc(100vw - 32px));
   max-width: 640px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   padding: 0;
   color: var(--ink);
   background: var(--white);

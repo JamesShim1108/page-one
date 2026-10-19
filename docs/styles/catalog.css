@@ -449,10 +449,10 @@
   margin-bottom: 0.9rem;
 }
 .course-list-card {
-  border-radius: 4px;
+  border-radius: var(--radius-xs);
 }
 .side-note {
-  border-radius: 4px;
+  border-radius: var(--radius-xs);
 }
 .course-list-card {
   border-left: 3px solid var(--green);
@@ -533,7 +533,7 @@
   --focus: #d9eacb;
   background: #204c3f;
   color: #f0f5ed;
-  border-radius: 7px;
+  border-radius: var(--radius-sm);
 }
 .course-catalog-card {
   display: grid;
@@ -549,7 +549,7 @@
   align-self: start;
   padding: 13px 8px;
   border: 1px solid #628474;
-  border-radius: 3px;
+  border-radius: var(--radius-xs);
   color: #d9eacb;
   font-family: var(--mono);
 }
@@ -729,7 +729,7 @@
   display: flex;
   flex-direction: column;
   border: 1px solid var(--line);
-  border-radius: 7px;
+  border-radius: var(--radius-sm);
   padding: 22px;
   background: var(--white);
 }
