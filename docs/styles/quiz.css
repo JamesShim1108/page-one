@@ -77,7 +77,7 @@
 .progress-fill {
   height: 100%;
   background: var(--green);
-  transition: width 0.2s;
+  transition: width var(--dur-hover);
 }
 .question-card {
   padding: 2rem;
@@ -120,8 +120,8 @@
   font-size: 0.98rem;
   line-height: 1.5;
   transition:
-    border-color 0.15s,
-    background 0.15s;
+    border-color var(--dur-hover),
+    background var(--dur-hover);
 }
 .choice-row.is-eliminated .choice > span:not(.choice-letter):not(.answer-mark) {
   text-decoration: line-through;

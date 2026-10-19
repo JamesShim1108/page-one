@@ -140,7 +140,7 @@ html[data-glass="on"] .site-header nav a {
   padding: 7px 12px;
   border-radius: 999px;
   text-decoration: none;
-  transition: background 0.18s;
+  transition: background var(--dur-hover);
 }
 html[data-glass="on"] .site-header nav a:hover {
   background: rgba(255, 255, 255, 0.5);

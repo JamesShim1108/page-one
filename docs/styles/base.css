@@ -132,8 +132,8 @@ small {
   text-decoration: none;
   min-height: 48px;
   transition:
-    background 0.15s,
-    transform 0.15s;
+    background var(--dur-hover),
+    transform var(--dur-hover);
 }
 .btn:hover:not(:disabled) {
   background: var(--green-hover);

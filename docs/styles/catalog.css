@@ -145,7 +145,7 @@
   border: 1px solid var(--line);
   padding: 2rem;
   text-decoration: none;
-  transition: border-color 0.15s;
+  transition: border-color var(--dur-hover);
 }
 .course-list-card:hover {
   border-color: var(--green);

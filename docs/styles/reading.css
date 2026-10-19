@@ -377,7 +377,7 @@
 @media (hover: hover) {
   .reading-block-actions {
     opacity: 0;
-    transition: opacity 150ms ease;
+    transition: opacity var(--dur-hover) ease;
   }
 
   .reading-block:hover .reading-block-actions,

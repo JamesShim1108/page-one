@@ -38,8 +38,8 @@
   border-radius: var(--radius-md);
   text-decoration: none;
   transition:
-    border-color 140ms,
-    background 140ms,
+    border-color var(--dur-hover),
+    background var(--dur-hover),
     transform var(--dur-hover) var(--ease-settle),
     box-shadow var(--dur-base) var(--ease-settle);
   min-width: 0;
