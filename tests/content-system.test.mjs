@@ -18,6 +18,8 @@ import { prepareImage } from "../scripts/prepare-image.mjs";
 
 // Ready World History topics and quiz routes. Update when a unit is added.
 const READY_TOPICS = 71;
+// AP Precalculus Unit 1 (CED topics 1.1 to 1.14); the other three units are placeholders.
+const PRECALCULUS_TOPICS = 14;
 const QUIZ_ROUTES = 155;
 
 const root = new URL("../", import.meta.url);
@@ -36,7 +38,7 @@ async function contentFileMap() {
 test("the generated catalog preserves every ready Unit 1 topic and stable route", async () => {
   const catalog = await readGenerated("catalog.json");
   assert.equal(catalog.schemaVersion, 1);
-  assert.equal(catalog.courses.length, 2);
+  assert.equal(catalog.courses.length, 3);
   assert.equal(catalog.courses[0].id, "world");
   assert.equal(catalog.courses[0].readyTopicCount, READY_TOPICS);
 
@@ -148,7 +150,7 @@ test("content failures are typed, retryable, and optional practice failures keep
     return true;
   });
   failCatalog = false;
-  assert.equal((await store.catalog()).length, 2);
+  assert.equal((await store.catalog()).length, 3);
   const page = await store.page("topic", "world-1-2");
   assert.equal(page.bank, null);
   assert.equal(page.optionalBankError.category, "network");
@@ -563,13 +565,13 @@ test("content compiles from folder discovery rather than a hardcoded topic list"
   assert.equal(output.has("catalog.json"), true);
   assert.equal(
     [...output.keys()].filter((path) => path.includes("/topics/")).length,
-    READY_TOPICS,
+    READY_TOPICS + PRECALCULUS_TOPICS,
   );
   assert.equal(
     // PSAT/SAT banks are per section, not per topic, so they are counted separately.
     [...output.keys()].filter(
       (path) => path.includes("/banks/") && !path.startsWith("test-prep/"),
     ).length,
-    READY_TOPICS,
+    READY_TOPICS + PRECALCULUS_TOPICS,
   );
 });

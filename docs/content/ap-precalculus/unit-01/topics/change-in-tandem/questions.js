@@ -1,0 +1,380 @@
+// Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Every numeric key was computed in code before this file was written.
+
+export const bank = {
+  questions: [
+    {
+      id: "precalculus-1-1-q01",
+      topicId: "precalculus-1-1",
+      concept: "function-basics",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Which statement about the relationship in the table is correct?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Input-output pairs",
+          columns: ["Input x", "Output y"],
+          rows: [
+            ["1", "3"],
+            ["2", "5"],
+            ["2", "6"],
+            ["4", "8"],
+          ],
+        },
+      ],
+      choices: [
+        "It is a function, because every input listed has an output.",
+        "It is a function, because no output value is repeated.",
+        "It is not a function, because the input 2 is paired with two different outputs.",
+        "It is not a function, because the outputs do not increase by a constant amount.",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "A function needs exactly one output for each input. The input 2 appears with both 5 and 6, so the table fails that test.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "Having at least one output is not enough. Each input must have exactly one output.",
+        "Repeated or unrepeated outputs do not decide whether a relationship is a function. Only repeated inputs with different outputs matter.",
+        "The input 2 is paired with 5 and with 6, so one input has two outputs and the table is not a function.",
+        "Constant increases describe linear functions, but a function does not have to be linear.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "A function can have repeated outputs but never one input with two outputs.",
+    },
+    {
+      id: "precalculus-1-1-q02",
+      topicId: "precalculus-1-1",
+      concept: "increasing-decreasing",
+      difficulty: "Quick check",
+      skill: "identify-information",
+      prompt:
+        "Based on the values in the table, on which interval does P appear to be increasing?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Values of P",
+          columns: ["t", "P(t)"],
+          rows: [
+            ["0", "5"],
+            ["1", "12"],
+            ["2", "15"],
+            ["3", "12"],
+            ["4", "5"],
+          ],
+        },
+      ],
+      choices: [
+        "From t = 0 to t = 4",
+        "From t = 2 to t = 4",
+        "From t = 1 to t = 3",
+        "From t = 0 to t = 2",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "P rises from 5 to 12 to 15 as t goes from 0 to 2, then falls back to 5. It is increasing only on the interval from t = 0 to t = 2.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "The outputs rise and then fall, so P is not increasing on the whole interval from 0 to 4.",
+        "From t = 2 to t = 4 the outputs fall from 15 to 5, so P is decreasing there.",
+        "That interval crosses the turning point at t = 2, so it includes both rising and falling values.",
+        "The outputs rise from 5 to 12 to 15 as t goes from 0 to 2, so P is increasing there.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "An increasing interval cannot contain any stretch where the outputs fall.",
+    },
+    {
+      id: "precalculus-1-1-q03",
+      topicId: "precalculus-1-1",
+      concept: "concavity",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Which description fits h on the interval shown?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Values of h at equally spaced inputs",
+          columns: ["x", "h(x)"],
+          rows: [
+            ["0", "20"],
+            ["1", "12"],
+            ["2", "7"],
+            ["3", "4"],
+            ["4", "3"],
+          ],
+        },
+      ],
+      choices: [
+        "Increasing and concave up, because the changes in output keep getting larger.",
+        "Decreasing and concave up, because the outputs fall by smaller and smaller amounts.",
+        "Decreasing and concave down, because the outputs are falling.",
+        "Decreasing and concave up, because the outputs fall by larger and larger amounts.",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The outputs fall by 8, 5, 3, then 1. The function is decreasing, but the rate of change moves from −8 up toward 0, so the rate of change is increasing and the graph is concave up.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "The outputs fall, so h is decreasing. The changes only look larger if you ignore their signs.",
+        "The changes −8, −5, −3, −1 are increasing, so the graph is concave up even though h is decreasing.",
+        "Falling outputs alone do not make a graph concave down. Concavity depends on how the rate of change itself changes.",
+        "The size of the drops shrinks from 8 down to 1, not grows.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Concave up with falling outputs means the drops shrink, so compare the sizes of the drops.",
+    },
+    {
+      id: "precalculus-1-1-q04",
+      topicId: "precalculus-1-1",
+      concept: "zeros",
+      difficulty: "Quick check",
+      skill: "solve",
+      prompt:
+        "The function p is given by p(x) = (x − 4)(x + 1). Which values of x are zeros of p?",
+      choices: ["x = 4 and x = −1", "x = 4 and x = 1", "x = −4 only", "x = −4 and x = 1"],
+      correctAnswer: 0,
+      explanation:
+        "A zero makes the output 0. Setting x − 4 = 0 gives x = 4, and setting x + 1 = 0 gives x = −1.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "Each factor equals 0 at one input: x − 4 = 0 at x = 4 and x + 1 = 0 at x = −1.",
+        "Substituting 1 gives (−3)(2) = −6, so 1 is not a zero.",
+        "The value −4 gives (−8)(−3) = 24. It is also not the only zero, since the other factor gives one too.",
+        "This swaps the signs. Substituting −4 gives (−8)(−3) = 24, not 0.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "The zero of the factor (x − c) is c, so the sign flips from what you read in the factor.",
+    },
+    {
+      id: "precalculus-1-1-q05",
+      topicId: "precalculus-1-1",
+      concept: "function-basics",
+      difficulty: "Core",
+      skill: "describe",
+      prompt:
+        "A function f satisfies f(3) = 7 and f(−1) = 7. Which statement is correct?",
+      choices: [
+        "Both 3 and −1 are preimages of 7.",
+        "The function f cannot exist, because the output 7 comes from two inputs.",
+        "The number 7 is a preimage of both 3 and −1.",
+        "The number 3 is the image of −1.",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The output 7 is the image of both 3 and −1, which makes 3 and −1 preimages of 7. Two inputs sharing one output is allowed for a function.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "A preimage is an input that produces a given output. Both 3 and −1 produce 7.",
+        "Two inputs sharing an output is allowed. A function only forbids one input having two outputs.",
+        "The roles are reversed. 7 is an output, so it is the image, not a preimage.",
+        "The image of −1 is 7, not 3. An image is an output.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Images are outputs and preimages are inputs. Sharing an output is allowed.",
+    },
+    {
+      id: "precalculus-1-1-q06",
+      topicId: "precalculus-1-1",
+      concept: "function-basics",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "A function f is defined only by the table shown. Which pair correctly gives its domain and range?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Values of f",
+          columns: ["x", "f(x)"],
+          rows: [
+            ["−2", "7"],
+            ["0", "3"],
+            ["1", "3"],
+            ["4", "−1"],
+          ],
+        },
+      ],
+      choices: [
+        "Domain {−1, 3, 7}; range {−2, 0, 1, 4}",
+        "Domain {−2, 0, 1, 4}; range {−1, 3, 7}",
+        "Domain all real numbers; range {−1, 3, 7}",
+        "Domain {−2, 0, 1, 4}; range {3}",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The domain is the set of inputs, which are −2, 0, 1, and 4. The range is the set of distinct outputs, which are −1, 3, and 7.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "This swaps the two sets. Inputs form the domain and outputs form the range.",
+        "The domain lists the inputs in the x column, and the range lists the distinct outputs in the f(x) column.",
+        "The function is defined only at the four listed inputs, so the domain is not all real numbers.",
+        "Only 3 is repeated, but the range contains every distinct output, including 7 and −1.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Domain comes from the input column and range from the distinct values in the output column.",
+    },
+    {
+      id: "precalculus-1-1-q07",
+      topicId: "precalculus-1-1",
+      concept: "concavity",
+      difficulty: "Core",
+      skill: "construct-representations",
+      prompt:
+        "A function g has the values shown at equally spaced inputs. Which statement best describes the graph of g?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Values of g",
+          columns: ["x", "g(x)"],
+          rows: [
+            ["0", "1"],
+            ["2", "3"],
+            ["4", "7"],
+            ["6", "15"],
+            ["8", "31"],
+          ],
+        },
+      ],
+      choices: [
+        "Increasing and concave down, because each output is larger than the last.",
+        "Increasing and linear, because the outputs always rise.",
+        "Increasing and concave up, because the outputs rise by 2, 4, 8, then 16.",
+        "Increasing for a while and then decreasing, because the changes keep growing.",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Across equal steps the outputs rise by 2, 4, 8, then 16. The rises themselves grow, so the rate of change is increasing and the graph is concave up.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "Each output being larger shows only that g is increasing. Concave down would need the rises to shrink.",
+        "A linear function rises by the same amount on equal steps, and these rises are not equal.",
+        "The rises 2, 4, 8, 16 are increasing, so g is increasing and concave up.",
+        "The outputs never fall, so g does not turn from increasing to decreasing.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Check whether the rises are growing or shrinking, not just whether the outputs rise.",
+    },
+    {
+      id: "precalculus-1-1-q08",
+      topicId: "precalculus-1-1",
+      concept: "concavity",
+      difficulty: "Apply",
+      skill: "construct-representations",
+      prompt:
+        "A tank drains so that its water depth falls quickly at first and then more and more slowly. Which description fits the depth as a function of time?",
+      choices: [
+        "Increasing and concave up",
+        "Decreasing and concave down",
+        "Increasing and concave down",
+        "Decreasing and concave up",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The depth is falling, so the function is decreasing. The rate of change starts very negative and moves toward zero, so it is increasing, which makes the graph concave up.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "The depth is falling, so the function is not increasing.",
+        "A function can fall and be concave up. Concave down would mean the drops get larger over time, but here they get smaller.",
+        "The depth is falling, so the function is not increasing, and the drops are shrinking.",
+        "The depth falls, and the drops get smaller, so the rate of change is increasing and the graph is concave up.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Falling by less each time means the rate of change is rising toward zero, which is concave up.",
+    },
+    {
+      id: "precalculus-1-1-q09",
+      topicId: "precalculus-1-1",
+      concept: "zeros",
+      difficulty: "Apply",
+      skill: "apply-results",
+      prompt:
+        "The function h gives a drone's height in meters t seconds after launch, and h(12) = 0. Which statement is correct?",
+      choices: [
+        "The input 12 is a zero of h, and the drone is 12 meters above the ground.",
+        "The input 12 is a zero of h, so the drone is at ground level 12 seconds after launch.",
+        "The drone is at ground level at both t = 0 and t = 12.",
+        "The drone's maximum height is 12 meters.",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Because h(12) = 0, the input 12 is a zero of h. In context, the height is 0 meters, so the drone is at ground level at 12 seconds.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "The zero is the input 12. The output 0 is the height, so the drone is at ground level, not 12 meters up.",
+        "The input 12 gives output 0, so 12 is a zero and the height is 0 meters at 12 seconds.",
+        "Only h(12) = 0 is given. The statement says nothing about the height at t = 0.",
+        "The value 12 is an input, a time. It says nothing about the maximum height.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "A zero is the input. The height at that input is 0, not the input itself.",
+    },
+    {
+      id: "precalculus-1-1-q10",
+      topicId: "precalculus-1-1",
+      concept: "concavity",
+      difficulty: "Core",
+      skill: "describe",
+      prompt:
+        "Which statement must be true of a function that is increasing and concave down on an interval?",
+      choices: [
+        "Its outputs grow, and the amount they grow per equal input step gets larger.",
+        "Its outputs fall, and the amount they fall per equal input step gets smaller.",
+        "Its outputs grow, but the amount they grow per equal input step gets smaller.",
+        "Its outputs reach a maximum and then begin to fall.",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Increasing means the outputs grow. Concave down means the rate of change is decreasing, so the growth per equal step shrinks.",
+      sourceIds: ["ced", "ced-topic-1-1"],
+      choiceExplanations: [
+        "Growth that gets larger describes an increasing, concave up function.",
+        "Falling outputs describe a decreasing function, not an increasing one.",
+        "The outputs grow, and the rate of change is decreasing, so each equal step adds less than the one before.",
+        "Nothing forces a turning point. An increasing, concave down function can keep rising forever.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "Concave down changes the size of the growth, not its direction.",
+    },
+  ],
+  quizzes: [
+    {
+      id: "precalculus-1-1-quick",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-1",
+      title: "Quick check",
+      quizType: "quick",
+      questionIds: [
+        "precalculus-1-1-q01",
+        "precalculus-1-1-q02",
+        "precalculus-1-1-q03",
+        "precalculus-1-1-q04",
+      ],
+    },
+    {
+      id: "precalculus-1-1-quiz",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-1",
+      title: "Change in Tandem topic practice",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: [
+        "precalculus-1-1-q05",
+        "precalculus-1-1-q06",
+        "precalculus-1-1-q07",
+        "precalculus-1-1-q08",
+        "precalculus-1-1-q09",
+        "precalculus-1-1-q10",
+      ],
+    },
+  ],
+};

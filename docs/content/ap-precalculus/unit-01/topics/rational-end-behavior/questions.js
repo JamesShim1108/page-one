@@ -1,0 +1,296 @@
+// Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Every numeric key was computed in code before this file was written.
+
+export const bank = {
+  questions: [
+    {
+      id: "precalculus-1-7-q01",
+      topicId: "precalculus-1-7",
+      concept: "horizontal-asymptotes",
+      difficulty: "Quick check",
+      skill: "equivalent-forms",
+      prompt: "What is the horizontal asymptote of r(x) = (6x² − x)/(2x² + 5)?",
+      choices: ["y = 6", "y = 3", "y = 0", "There is no horizontal asymptote"],
+      correctAnswer: 1,
+      explanation:
+        "The degrees are equal, so the horizontal asymptote is the ratio of the leading coefficients: 6/2 = 3.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "6 is only the leading coefficient of the numerator. The horizontal asymptote is the ratio 6/2.",
+        "Equal degrees give the horizontal asymptote y = 6/2 = 3.",
+        "y = 0 would require the denominator's degree to be greater than the numerator's.",
+        "A rational function with numerator degree no greater than denominator degree has a horizontal asymptote.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "With equal degrees, divide the leading coefficients instead of reading only one of them.",
+    },
+    {
+      id: "precalculus-1-7-q02",
+      topicId: "precalculus-1-7",
+      concept: "compare-degrees",
+      difficulty: "Quick check",
+      skill: "equivalent-forms",
+      prompt: "What is the horizontal asymptote of r(x) = (5x + 2)/(x² − 4)?",
+      choices: ["y = 0", "y = 5", "y = 5x", "y = −1/2"],
+      correctAnswer: 0,
+      explanation:
+        "The denominator's degree is greater than the numerator's, so the outputs shrink toward 0. The horizontal asymptote is y = 0.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "A denominator of greater degree grows faster, so the quotient of the leading terms approaches 0.",
+        "5 is the numerator's leading coefficient. It becomes the asymptote only when the degrees are equal.",
+        "y = 5x is not horizontal. The ends of this graph do not follow a line like this.",
+        "−1/2 is the ratio of the constant terms, which does not control the ends.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The coefficient of the numerator matters only if the degrees match.",
+    },
+    {
+      id: "precalculus-1-7-q03",
+      topicId: "precalculus-1-7",
+      concept: "slant-asymptotes",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Which statement about r(x) = (x² + 1)/(x − 2) is correct?",
+      choices: [
+        "It has the horizontal asymptote y = 1, because the leading coefficients of the numerator and denominator are both 1.",
+        "It has no asymptote at the ends, because the denominator is zero at x = 2.",
+        "It has a slant asymptote, because the numerator's degree is one more than the denominator's.",
+        "It has the horizontal asymptote y = 0, because the denominator has a zero.",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The numerator has degree 2 and the denominator degree 1, so the numerator's degree is exactly one greater. The graph follows a slant asymptote at the ends.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "Matching leading coefficients give a horizontal asymptote only when the degrees are equal, and here they are not.",
+        "The zero of the denominator affects the middle of the graph. It does not remove the end behavior.",
+        "Numerator degree 2 and denominator degree 1 differ by exactly 1, which gives a slant asymptote.",
+        "A zero in the denominator causes a vertical feature, not a horizontal asymptote at y = 0.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "Check the degrees before looking at the coefficients.",
+    },
+    {
+      id: "precalculus-1-7-q04",
+      topicId: "precalculus-1-7",
+      concept: "rational-quotient",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Which statement best describes a rational function?",
+      choices: [
+        "A polynomial in which some or all of the coefficients are fractions",
+        "Any function that has a variable in a denominator or under a radical sign",
+        "Any function whose graph has at least one horizontal or vertical asymptote",
+        "A quotient of two polynomials, where the denominator is not zero",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "A rational function is one polynomial divided by another, with a denominator that is not the zero polynomial.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "A polynomial with fractional coefficients is still a polynomial, not a quotient of polynomials.",
+        "Square roots in particular are not allowed. A rational function uses only polynomials.",
+        "Other functions, such as the tangent function, also have asymptotes without being rational.",
+        "This is the definition: one polynomial divided by another polynomial, with a nonzero denominator.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "The key word is quotient: a polynomial divided by a polynomial.",
+    },
+    {
+      id: "precalculus-1-7-q05",
+      topicId: "precalculus-1-7",
+      concept: "slant-asymptotes",
+      difficulty: "Core",
+      skill: "describe",
+      prompt:
+        "Let r(x) = (2x³ − x)/(x² + 1). Which pair of limits describes its end behavior?",
+      choices: [
+        "lim x→∞ r(x) = ∞ and lim x→−∞ r(x) = −∞",
+        "lim x→∞ r(x) = 2 and lim x→−∞ r(x) = 2",
+        "lim x→∞ r(x) = 0 and lim x→−∞ r(x) = 0",
+        "lim x→∞ r(x) = −∞ and lim x→−∞ r(x) = ∞",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The numerator's degree is greater, so the outputs behave like the quotient of leading terms, 2x³/x² = 2x. That grows up on the right and down on the left.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "The quotient of leading terms is 2x, so the outputs rise on the right end and fall on the left end.",
+        "2 is the ratio of leading coefficients, but the degrees differ, so the outputs do not settle at 2.",
+        "The outputs would approach 0 only if the denominator's degree were greater.",
+        "The signs are reversed. Since 2x is positive for large positive x, the right end rises.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Unequal degrees mean the outputs grow without bound, so no finite number captures the end.",
+    },
+    {
+      id: "precalculus-1-7-q06",
+      topicId: "precalculus-1-7",
+      concept: "horizontal-asymptotes",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "Values of a rational function r are shown. Which horizontal asymptote does the table suggest?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Values of r(x) at large inputs",
+          columns: ["x", "r(x)"],
+          rows: [
+            ["10", "3.16842"],
+            ["100", "3.00160"],
+            ["1,000", "3.00002"],
+          ],
+        },
+      ],
+      choices: ["y = 3.16842", "y = 0", "y = 3", "y = 1"],
+      correctAnswer: 2,
+      explanation:
+        "As x grows, the outputs settle closer and closer to 3, so the table suggests the horizontal asymptote y = 3.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "3.16842 is only the output at x = 10. The outputs keep getting closer to 3 as x grows.",
+        "The outputs are not approaching 0. They are approaching a number close to 3.",
+        "The outputs get closer and closer to 3 as x increases, which suggests the horizontal asymptote y = 3.",
+        "Nothing in the table suggests the outputs approach 1.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "Look at the trend as x grows, not at a single output.",
+    },
+    {
+      id: "precalculus-1-7-q07",
+      topicId: "precalculus-1-7",
+      concept: "slant-asymptotes",
+      difficulty: "Core",
+      skill: "equivalent-forms",
+      prompt:
+        "The rational function r(x) = (x² + 3x + 5)/(x − 1) is equivalent to x + 4 + 9/(x − 1). What is its slant asymptote?",
+      choices: ["x = 1", "y = x + 4", "y = 9", "y = x + 9"],
+      correctAnswer: 1,
+      explanation:
+        "For large |x| the fraction 9/(x − 1) approaches 0, so r(x) behaves like x + 4. The slant asymptote is y = x + 4.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "x = 1 is a vertical line where the denominator is zero. It is not a slant asymptote.",
+        "The term 9/(x − 1) shrinks toward 0 for large |x|, leaving the line y = x + 4.",
+        "9 is the numerator of the leftover fraction, not a line that the graph approaches.",
+        "The 9 belongs to the leftover fraction, which shrinks away, so it is not part of the line.",
+      ],
+      nearMissIndex: 3,
+      distinguisher: "Drop the leftover fraction, and what remains is the asymptote.",
+    },
+    {
+      id: "precalculus-1-7-q08",
+      topicId: "precalculus-1-7",
+      concept: "compare-degrees",
+      difficulty: "Core",
+      skill: "equivalent-forms",
+      prompt: "Which rational function has the horizontal asymptote y = −2?",
+      choices: [
+        "r(x) = (−2x² + 1)/(x³ + x + 3)",
+        "r(x) = (−2x³ + 1)/(x² + 3)",
+        "r(x) = (x² − 2)/(x + 1)",
+        "r(x) = (4x² − 1)/(−2x² + 3)",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Equal degrees give the horizontal asymptote at the ratio of the leading coefficients. For the last function, 4/(−2) = −2.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "The numerator has −2 as a leading coefficient, but the denominator's degree is greater, so the asymptote is y = 0.",
+        "The numerator's degree is greater, so the outputs grow without bound and follow a slant line.",
+        "The numerator's degree is greater, so the outputs follow a slant line, not a horizontal one.",
+        "The degrees are equal and the ratio of leading coefficients is 4/(−2) = −2.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "A coefficient of −2 in the numerator alone is not enough. The degrees must match.",
+    },
+    {
+      id: "precalculus-1-7-q09",
+      topicId: "precalculus-1-7",
+      concept: "horizontal-asymptotes",
+      difficulty: "Apply",
+      skill: "apply-results",
+      prompt:
+        "The concentration of a medicine in the blood is C(t) = 5t/(t² + 4) milligrams per liter, t hours after a dose. What does the horizontal asymptote C = 0 mean in this context?",
+      choices: [
+        "As time passes, the concentration gets closer and closer to 0 milligrams per liter.",
+        "The concentration is exactly 0 milligrams per liter at some time after the dose.",
+        "The concentration is always below 0 milligrams per liter.",
+        "The greatest concentration the medicine ever reaches is 0 milligrams per liter.",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Since the denominator's degree is greater, C(t) approaches 0 as t grows. In context, the medicine fades toward zero concentration as time passes, without being the exact concentration at any particular time.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "The limit says the outputs approach 0 as t grows, so the medicine fades over time.",
+        "An asymptote describes approach, not arrival. C(t) is positive for every t > 0 and never actually equals 0.",
+        "The concentration is positive for every positive t, so it is never below 0.",
+        "The maximum value of C is positive. The asymptote describes the long-run value, not the peak.",
+      ],
+      nearMissIndex: 1,
+      distinguisher: "An asymptote describes where outputs head, not where they land.",
+    },
+    {
+      id: "precalculus-1-7-q10",
+      topicId: "precalculus-1-7",
+      concept: "slant-asymptotes",
+      difficulty: "Core",
+      skill: "apply-results",
+      prompt: "For r(x) = (2x³ − x)/(x² + 1), which value is closest to r(1000)?",
+      choices: ["About 2", "About 0", "About 2,000", "About 20"],
+      correctAnswer: 2,
+      explanation:
+        "The function behaves like the line y = 2x for large inputs, so r(1000) is close to 2(1000) = 2,000. Directly, r(1000) is about 1,999.997.",
+      sourceIds: ["ced", "ced-topic-1-7"],
+      choiceExplanations: [
+        "2 is the ratio of leading coefficients, which would matter only if the degrees were equal.",
+        "The outputs approach 0 only when the denominator's degree is greater.",
+        "The function follows y = 2x at large inputs, so r(1000) is close to 2,000.",
+        "20 would come from the ratio of the coefficients 2 and 1 and the input 10, not from the input 1000.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Unequal degrees make the outputs large, and the slant line predicts how large.",
+    },
+  ],
+  quizzes: [
+    {
+      id: "precalculus-1-7-quick",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-7",
+      title: "Quick check",
+      quizType: "quick",
+      questionIds: [
+        "precalculus-1-7-q01",
+        "precalculus-1-7-q02",
+        "precalculus-1-7-q03",
+        "precalculus-1-7-q04",
+      ],
+    },
+    {
+      id: "precalculus-1-7-quiz",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-7",
+      title: "Rational Functions and End Behavior topic practice",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: [
+        "precalculus-1-7-q05",
+        "precalculus-1-7-q06",
+        "precalculus-1-7-q07",
+        "precalculus-1-7-q08",
+        "precalculus-1-7-q09",
+        "precalculus-1-7-q10",
+      ],
+    },
+  ],
+};

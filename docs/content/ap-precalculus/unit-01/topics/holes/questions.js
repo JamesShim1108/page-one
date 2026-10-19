@@ -1,0 +1,314 @@
+// Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Every numeric key was computed in code before this file was written.
+
+export const bank = {
+  questions: [
+    {
+      id: "precalculus-1-10-q01",
+      topicId: "precalculus-1-10",
+      concept: "hole-condition",
+      difficulty: "Quick check",
+      skill: "identify-information",
+      prompt: "Where does r(x) = (x − 3)(x + 2)/((x − 3)(x + 5)) have a hole?",
+      choices: ["x = −5", "x = 3", "x = −2", "x = 3 and x = −5"],
+      correctAnswer: 1,
+      explanation:
+        "The factor x − 3 appears in both the numerator and the denominator, so it cancels and leaves a hole at x = 3. The factor x + 5 stays in the denominator and gives a vertical asymptote instead.",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "x = −5 makes only the denominator zero, so it is a vertical asymptote and not a hole.",
+        "The common factor x − 3 cancels, which gives a hole at x = 3.",
+        "x = −2 is a zero of the numerator. The function equals 0 there.",
+        "x = −5 is a vertical asymptote. Only x = 3 is a hole.",
+      ],
+      nearMissIndex: 3,
+      distinguisher: "Only an input whose factor cancels is a hole.",
+    },
+    {
+      id: "precalculus-1-10-q02",
+      topicId: "precalculus-1-10",
+      concept: "hole-condition",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Which rational function has a hole in its graph?",
+      choices: [
+        "r(x) = (x² − 9)/(x − 3)",
+        "r(x) = (x² + 9)/(x − 3)",
+        "r(x) = (x − 3)/(x² + 9)",
+        "r(x) = (x + 3)/(x − 3)",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "The numerator x² − 9 = (x − 3)(x + 3) shares the factor x − 3 with the denominator, so x = 3 is a hole. The other functions have either an asymptote or no undefined input.",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "(x − 3)(x + 3)/(x − 3) cancels the factor x − 3, leaving a hole at x = 3.",
+        "x² + 9 does not factor over the real numbers, so nothing cancels and x = 3 is an asymptote.",
+        "The denominator x² + 9 is never zero, so this function has no hole and no vertical asymptote.",
+        "The numerator is 6 at x = 3, so there is nothing to cancel and x = 3 is a vertical asymptote.",
+      ],
+      nearMissIndex: 3,
+      distinguisher:
+        "Check whether the numerator is zero at the input where the denominator is zero.",
+    },
+    {
+      id: "precalculus-1-10-q03",
+      topicId: "precalculus-1-10",
+      concept: "hole-location",
+      difficulty: "Quick check",
+      skill: "solve",
+      prompt:
+        "What are the coordinates of the hole in the graph of r(x) = (x² − 4)/(x − 2)?",
+      choices: ["(−2, 0)", "(2, 0)", "(2, 4)", "(4, 2)"],
+      correctAnswer: 2,
+      explanation:
+        "Cancelling x − 2 leaves x + 2, and substituting x = 2 gives 4. The hole is at (2, 4).",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "x = −2 is a zero of the numerator, but it is not where the factor cancels.",
+        "The output is 0 only if the numerator were zero after simplifying, but 2 + 2 = 4.",
+        "The hole is at the cancelled input x = 2, and the simplified function equals 4 there.",
+        "The coordinates are reversed. The input is 2 and the output is 4.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Find the cancelled input first, then evaluate the simplified function.",
+    },
+    {
+      id: "precalculus-1-10-q04",
+      topicId: "precalculus-1-10",
+      concept: "hole-or-asymptote",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Which statement describes r(x) = (x − 2)/(x − 2)² at x = 2?",
+      choices: [
+        "A hole at x = 2 and no vertical asymptote",
+        "Both a hole and a vertical asymptote at x = 2",
+        "Neither a hole nor a vertical asymptote",
+        "A vertical asymptote at x = 2 and no hole",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Cancelling one factor leaves 1/(x − 2). A factor of the denominator is still zero at x = 2, so there is a vertical asymptote and no hole.",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "The factor is not fully cancelled. One copy of x − 2 remains in the denominator.",
+        "A single input cannot be both a hole and an asymptote.",
+        "The function is undefined at 2, and the remaining denominator factor creates an asymptote.",
+        "After cancelling, 1/(x − 2) remains. Its denominator is zero at 2, so the graph has a vertical asymptote.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Count the copies of the factor in the numerator and in the denominator.",
+    },
+    {
+      id: "precalculus-1-10-q05",
+      topicId: "precalculus-1-10",
+      concept: "hole-location",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "Values of a function h are shown. What does the table suggest about the graph of h at x = 1?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Values of h near x = 1",
+          columns: ["x", "h(x)"],
+          rows: [
+            ["0.9", "2.710"],
+            ["0.99", "2.970"],
+            ["0.999", "2.997"],
+            ["1", "undefined"],
+            ["1.001", "3.003"],
+            ["1.01", "3.030"],
+            ["1.1", "3.310"],
+          ],
+        },
+      ],
+      choices: [
+        "A hole at (1, 3), because the outputs approach 3 from both sides",
+        "A vertical asymptote at x = 1, because h(1) is undefined",
+        "A zero at x = 1, because h(1) is undefined",
+        "A hole at (1, 2.7), because 2.710 is the first output listed",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "From both sides, the outputs get closer to 3. The function is undefined at x = 1, so the graph has a hole at (1, 3). The outputs are not growing without bound, so it is not an asymptote.",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "The outputs approach 3 from the left and from the right, with no value at x = 1.",
+        "An asymptote needs outputs that grow without bound, but these approach 3.",
+        "A zero needs an output of 0, and h(1) does not exist.",
+        "The first listed output does not decide the hole. The outputs on both sides head toward 3.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Undefined does not mean asymptote. Look at where the nearby outputs are heading.",
+    },
+    {
+      id: "precalculus-1-10-q06",
+      topicId: "precalculus-1-10",
+      concept: "hole-or-asymptote",
+      difficulty: "Core",
+      skill: "describe",
+      prompt: "Which statement is true of r(x) = (x − 1)(x + 3)/((x − 1)(x − 2))?",
+      choices: [
+        "It has a hole at (2, −4) and a vertical asymptote at x = 1.",
+        "It has a hole at (1, 0) and a vertical asymptote at x = 2.",
+        "It has vertical asymptotes at x = 1 and x = 2 and no hole.",
+        "It has a hole at (1, −4) and a vertical asymptote at x = 2.",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The factor x − 1 cancels, so x = 1 is a hole. The simplified function (x + 3)/(x − 2) equals −4 at x = 1. The factor x − 2 remains in the denominator, giving a vertical asymptote at x = 2.",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "This swaps the roles of the inputs. The cancelled factor x − 1 gives the hole.",
+        "The hole is at x = 1, but its height comes from the simplified function, which is −4 there, not 0.",
+        "The factor x − 1 cancels completely, so x = 1 is a hole and not an asymptote.",
+        "The hole is at the cancelled input x = 1 with y = (1 + 3)/(1 − 2) = −4, and x = 2 is an asymptote.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "A hole's height comes from the simplified function, not from the original numerator.",
+    },
+    {
+      id: "precalculus-1-10-q07",
+      topicId: "precalculus-1-10",
+      concept: "hole-location",
+      difficulty: "Core",
+      skill: "construct-functions",
+      prompt: "Which function has a hole at the point (3, 5)?",
+      choices: [
+        "r(x) = (x − 3)(x + 5)/(x − 3)",
+        "r(x) = (x − 3)(x + 2)/(x − 3)",
+        "r(x) = (x − 3)(x + 2)/(x + 2)",
+        "r(x) = (x + 2)/(x − 3)",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Cancelling x − 3 in the second function leaves x + 2, which equals 5 at x = 3. That puts a hole at (3, 5).",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "This function simplifies to x + 5, so its hole is at (3, 8).",
+        "The factor x − 3 cancels and x + 2 = 5 at x = 3, so the hole is at (3, 5).",
+        "This has the hole at x = −2, where the factor x + 2 cancels.",
+        "No factor cancels here. The function has a vertical asymptote at x = 3.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Set up the cancelled factor first, then choose the other factor so the height is correct.",
+    },
+    {
+      id: "precalculus-1-10-q08",
+      topicId: "precalculus-1-10",
+      concept: "hole-condition",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "A student says r(x) = (x² − 5x + 6)/(x − 2) has a vertical asymptote at x = 2 because the denominator is zero there. What is the error?",
+      choices: [
+        "The asymptote should be at x = 3, because 3 is a zero of the numerator",
+        "The function has a zero at x = 2, because the numerator is zero there",
+        "The numerator factors as (x − 2)(x − 3), so x − 2 cancels, leaving a hole at (2, −1)",
+        "The denominator is only zero at x = −2, so the asymptote is at x = −2",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Factoring gives (x − 2)(x − 3)/(x − 2). The factor x − 2 cancels, leaving x − 3, which equals −1 at x = 2. So x = 2 is a hole at (2, −1).",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "x = 3 is a zero of the function. Zeros of the numerator are not asymptotes.",
+        "The numerator is zero at x = 2, but r(2) is undefined, so x = 2 is not a zero.",
+        "The common factor x − 2 cancels, so the function is undefined at 2 but the graph approaches −1.",
+        "The denominator x − 2 is zero at x = 2, not −2.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Factor the numerator before you decide what the denominator's zero does.",
+    },
+    {
+      id: "precalculus-1-10-q09",
+      topicId: "precalculus-1-10",
+      concept: "hole-location",
+      difficulty: "Core",
+      skill: "apply-results",
+      prompt:
+        "A pool is filling at a rate of R(t) = (t² − 25)/(t − 5) liters per minute at t minutes, for t ≥ 0. The formula is undefined at t = 5. What does lim t→5 R(t) tell you?",
+      choices: [
+        "The rate grows without bound as the time gets close to 5 minutes",
+        "The rate is exactly 0 liters per minute at 5 minutes, since the numerator is 0",
+        "The rate is about 5 liters per minute near 5 minutes, because t is 5",
+        "The rate is close to 10 liters per minute for times near 5 minutes",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Cancelling t − 5 leaves t + 5, which is 10 at t = 5. The limit is 10, so the rate is close to 10 liters per minute for times near 5 minutes, although the formula itself is undefined at exactly 5.",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "The outputs stay near 10 and do not grow without bound. The function has a hole at t = 5, not an asymptote.",
+        "R(5) is undefined, not 0. The outputs near 5 are close to 10.",
+        "The input t = 5 is the cancelled factor. The limit comes from evaluating the simplified function t + 5.",
+        "The simplified function t + 5 is near 10 for t near 5, which is what the limit reports.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "A limit describes nearby outputs, not the value at the missing input.",
+    },
+    {
+      id: "precalculus-1-10-q10",
+      topicId: "precalculus-1-10",
+      concept: "hole-or-asymptote",
+      difficulty: "Core",
+      skill: "describe",
+      prompt: "What is lim x→4 r(x) for r(x) = (x + 1)(x − 4)/((x − 4)(x + 3))?",
+      choices: ["5/7", "Does not exist", "∞", "0"],
+      correctAnswer: 0,
+      explanation:
+        "Cancelling x − 4 leaves (x + 1)/(x + 3), which equals 5/7 at x = 4. The outputs approach 5/7 from both sides, so the limit is 5/7 even though r(4) is undefined.",
+      sourceIds: ["ced", "ced-topic-1-10"],
+      choiceExplanations: [
+        "After the common factor cancels, the outputs near x = 4 approach (4 + 1)/(4 + 3) = 5/7.",
+        "A limit can exist where the function is undefined. Here the outputs approach 5/7 from both sides.",
+        "The outputs stay close to 5/7 near x = 4, so they do not grow without bound.",
+        "The numerator of the simplified form is x + 1 = 5 at x = 4, not 0.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The value of the limit does not depend on whether the function is defined at the input.",
+    },
+  ],
+  quizzes: [
+    {
+      id: "precalculus-1-10-quick",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-10",
+      title: "Quick check",
+      quizType: "quick",
+      questionIds: [
+        "precalculus-1-10-q01",
+        "precalculus-1-10-q02",
+        "precalculus-1-10-q03",
+        "precalculus-1-10-q04",
+      ],
+    },
+    {
+      id: "precalculus-1-10-quiz",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-10",
+      title: "Rational Functions and Holes topic practice",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: [
+        "precalculus-1-10-q05",
+        "precalculus-1-10-q06",
+        "precalculus-1-10-q07",
+        "precalculus-1-10-q08",
+        "precalculus-1-10-q09",
+        "precalculus-1-10-q10",
+      ],
+    },
+  ],
+};

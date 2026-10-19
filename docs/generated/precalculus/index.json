@@ -1,0 +1,309 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models.",
+    "readyTopicCount": 14,
+    "previewTopics": [
+      {
+        "id": "precalculus-1-1",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "order": 1,
+        "code": "1.1",
+        "title": "Change in Tandem",
+        "period": "Unit 1",
+        "status": "ready",
+        "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+      },
+      {
+        "id": "precalculus-1-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "order": 2,
+        "code": "1.2",
+        "title": "Rates of Change",
+        "period": "Unit 1",
+        "status": "ready",
+        "summary": "Average rates of change over intervals, estimating the rate at a point, and what the sign of a rate tells you."
+      },
+      {
+        "id": "precalculus-1-3",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "order": 3,
+        "code": "1.3",
+        "title": "Rates of Change in Linear and Quadratic Functions",
+        "period": "Unit 1",
+        "status": "ready",
+        "summary": "How average rates behave for linear and quadratic functions, secant slopes, and reading concavity from changing rates."
+      }
+    ],
+    "firstTopic": {
+      "id": "precalculus-1-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Change in Tandem",
+      "period": "Unit 1",
+      "status": "ready",
+      "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+    },
+    "indexPath": "precalculus/index.json",
+    "routesPath": "precalculus/routes.json",
+    "customPracticePath": "precalculus/custom-practice.json"
+  },
+  "units": [
+    {
+      "schemaVersion": 1,
+      "id": "precalculus-1",
+      "courseId": "precalculus",
+      "number": 1,
+      "title": "Polynomial and Rational Functions",
+      "period": "AP Exam weighting 30–40%",
+      "status": "ready",
+      "description": "See how outputs change with inputs, then use rates of change, zeros, end behavior, asymptotes, and holes to describe polynomial and rational functions and build models from them.",
+      "quizzes": [
+        {
+          "id": "precalculus-1-practice",
+          "courseId": "precalculus",
+          "unitId": "precalculus-1",
+          "title": "Unit 1 practice",
+          "quizType": "unit",
+          "selections": [
+            {
+              "topicId": "precalculus-1-1",
+              "questionIds": [
+                "precalculus-1-1-q02",
+                "precalculus-1-1-q06"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-2",
+              "questionIds": [
+                "precalculus-1-2-q02",
+                "precalculus-1-2-q03"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-3",
+              "questionIds": [
+                "precalculus-1-3-q01",
+                "precalculus-1-3-q04"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-4",
+              "questionIds": [
+                "precalculus-1-4-q02",
+                "precalculus-1-4-q07"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-5",
+              "questionIds": [
+                "precalculus-1-5-q02",
+                "precalculus-1-5-q06"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-6",
+              "questionIds": [
+                "precalculus-1-6-q02",
+                "precalculus-1-6-q08"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-7",
+              "questionIds": [
+                "precalculus-1-7-q01",
+                "precalculus-1-7-q07"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-8",
+              "questionIds": [
+                "precalculus-1-8-q02",
+                "precalculus-1-8-q05"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-9",
+              "questionIds": [
+                "precalculus-1-9-q06",
+                "precalculus-1-9-q07"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-10",
+              "questionIds": [
+                "precalculus-1-10-q03",
+                "precalculus-1-10-q06"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-11",
+              "questionIds": [
+                "precalculus-1-11-q03",
+                "precalculus-1-11-q06"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-12",
+              "questionIds": [
+                "precalculus-1-12-q02",
+                "precalculus-1-12-q06"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-13",
+              "questionIds": [
+                "precalculus-1-13-q06",
+                "precalculus-1-13-q08"
+              ]
+            },
+            {
+              "topicId": "precalculus-1-14",
+              "questionIds": [
+                "precalculus-1-14-q07",
+                "precalculus-1-14-q10"
+              ]
+            }
+          ]
+        }
+      ],
+      "practiceTest": null,
+      "termSets": [],
+      "topicQuizzes": [
+        {
+          "id": "precalculus-1-1-quiz",
+          "title": "Change in Tandem topic practice"
+        },
+        {
+          "id": "precalculus-1-2-quiz",
+          "title": "Rates of Change topic practice"
+        },
+        {
+          "id": "precalculus-1-3-quiz",
+          "title": "Rates of Change in Linear and Quadratic Functions topic practice"
+        },
+        {
+          "id": "precalculus-1-4-quiz",
+          "title": "Polynomial Functions and Rates of Change topic practice"
+        },
+        {
+          "id": "precalculus-1-5-quiz",
+          "title": "Polynomial Functions and Complex Zeros topic practice"
+        },
+        {
+          "id": "precalculus-1-6-quiz",
+          "title": "Polynomial Functions and End Behavior topic practice"
+        },
+        {
+          "id": "precalculus-1-7-quiz",
+          "title": "Rational Functions and End Behavior topic practice"
+        },
+        {
+          "id": "precalculus-1-8-quiz",
+          "title": "Rational Functions and Zeros topic practice"
+        },
+        {
+          "id": "precalculus-1-9-quiz",
+          "title": "Rational Functions and Vertical Asymptotes topic practice"
+        },
+        {
+          "id": "precalculus-1-10-quiz",
+          "title": "Rational Functions and Holes topic practice"
+        },
+        {
+          "id": "precalculus-1-11-quiz",
+          "title": "Equivalent Representations of Polynomial and Rational Expressions topic practice"
+        },
+        {
+          "id": "precalculus-1-12-quiz",
+          "title": "Transformations of Functions topic practice"
+        },
+        {
+          "id": "precalculus-1-13-quiz",
+          "title": "Function Model Selection and Assumption Articulation topic practice"
+        },
+        {
+          "id": "precalculus-1-14-quiz",
+          "title": "Function Model Construction and Application topic practice"
+        }
+      ],
+      "topicCount": 14,
+      "firstTopic": {
+        "id": "precalculus-1-1",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "order": 1,
+        "code": "1.1",
+        "title": "Change in Tandem",
+        "period": "Unit 1",
+        "status": "ready",
+        "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+      },
+      "hasGuide": false,
+      "writingQuizzes": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "precalculus-2",
+      "courseId": "precalculus",
+      "number": 2,
+      "title": "Exponential and Logarithmic Functions",
+      "period": "AP Exam weighting 25–40%",
+      "status": "soon",
+      "quizzes": [],
+      "practiceTest": null,
+      "termSets": [],
+      "topicQuizzes": [],
+      "topicCount": 0,
+      "firstTopic": null,
+      "hasGuide": false,
+      "writingQuizzes": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "precalculus-3",
+      "courseId": "precalculus",
+      "number": 3,
+      "title": "Trigonometric and Polar Functions",
+      "period": "AP Exam weighting 30–35%",
+      "status": "soon",
+      "quizzes": [],
+      "practiceTest": null,
+      "termSets": [],
+      "topicQuizzes": [],
+      "topicCount": 0,
+      "firstTopic": null,
+      "hasGuide": false,
+      "writingQuizzes": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "precalculus-4",
+      "courseId": "precalculus",
+      "number": 4,
+      "title": "Functions Involving Parameters, Vectors, and Matrices",
+      "period": "Not assessed on the AP Exam",
+      "status": "soon",
+      "quizzes": [],
+      "practiceTest": null,
+      "termSets": [],
+      "topicQuizzes": [],
+      "topicCount": 0,
+      "firstTopic": null,
+      "hasGuide": false,
+      "writingQuizzes": []
+    }
+  ]
+}

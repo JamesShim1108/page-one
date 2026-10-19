@@ -1,0 +1,318 @@
+// Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Every numeric key was computed in code before this file was written.
+
+export const bank = {
+  questions: [
+    {
+      id: "precalculus-1-6-q01",
+      topicId: "precalculus-1-6",
+      concept: "unbounded-notation",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Let g(x) = −3x⁵ + 2x. What is the value of lim x→−∞ g(x)?",
+      choices: ["∞", "−∞", "0", "−3"],
+      correctAnswer: 0,
+      explanation:
+        "The leading term is −3x⁵, which has odd degree and a negative coefficient. For large negative x, x⁵ is very negative, so −3x⁵ is very positive. The outputs increase without bound.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "A negative number to the fifth power is negative, and the leading coefficient −3 flips it to positive, so outputs increase without bound.",
+        "−∞ is the behavior as x → ∞, not as x → −∞.",
+        "Outputs do not settle on 0. A polynomial of degree 5 grows without bound at both ends.",
+        "−3 is the leading coefficient, not a limit of the outputs.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "On the left end of an odd-degree polynomial, the sign is the opposite of the right end.",
+    },
+    {
+      id: "precalculus-1-6-q02",
+      topicId: "precalculus-1-6",
+      concept: "four-cases",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Which statement describes the end behavior of f(x) = 2x⁴ − x³ + 7?",
+      choices: [
+        "The left end falls and the right end rises.",
+        "Both ends rise.",
+        "Both ends fall.",
+        "The left end rises and the right end falls.",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The leading term is 2x⁴, which has even degree and a positive coefficient. Both ends rise.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "This is the pattern of an odd-degree polynomial with a positive leading coefficient, not an even-degree one.",
+        "Even degree makes the ends match, and the positive leading coefficient makes them rise.",
+        "Both ends would fall only if the leading coefficient were negative.",
+        "This is the pattern of an odd-degree polynomial with a negative leading coefficient.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Even degree means the ends match. The sign of the leading coefficient picks up or down.",
+    },
+    {
+      id: "precalculus-1-6-q03",
+      topicId: "precalculus-1-6",
+      concept: "four-cases",
+      difficulty: "Quick check",
+      skill: "identify-information",
+      prompt:
+        "Which polynomial function has a graph that falls to the left and rises to the right?",
+      choices: ["f(x) = −x³ + 2", "f(x) = x⁴ − 4", "f(x) = −x⁴ + 3x", "f(x) = x³ − 4x"],
+      correctAnswer: 3,
+      explanation:
+        "Falling left and rising right needs odd degree with a positive leading coefficient. Only x³ − 4x fits.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "The degree is odd, but the negative coefficient reverses the direction: it rises on the left and falls on the right.",
+        "Even degree gives ends that match, so both ends would rise.",
+        "Even degree gives ends that match, so both ends would fall.",
+        "Odd degree gives opposite ends, and the positive coefficient sends the right end up.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Odd degree with a positive leading coefficient is the only combination that falls left and rises right.",
+    },
+    {
+      id: "precalculus-1-6-q04",
+      topicId: "precalculus-1-6",
+      concept: "leading-term",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "Which part of a polynomial determines its end behavior?",
+      choices: [
+        "Its constant term, which is the y-intercept",
+        "Its degree alone, without regard to any coefficient",
+        "Its leading term, because it dominates for inputs far from zero",
+        "Its zero closest to the origin",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "For large inputs the highest power outgrows every other term, so the leading term decides the end behavior.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "The constant term shifts the graph vertically but does not matter for the far ends.",
+        "The degree decides whether the ends match, but the sign of the leading coefficient is also needed to know which way they point.",
+        "The leading term is far larger than the rest for inputs far from zero, so it controls the ends.",
+        "Zeros are in the middle of the graph. They do not affect the far ends.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The degree is only half of the story. The sign of the leading coefficient finishes it.",
+    },
+    {
+      id: "precalculus-1-6-q05",
+      topicId: "precalculus-1-6",
+      concept: "leading-term",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "The table shows terms of p(x) = x³ − 100x². Which conclusion is best supported?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Values of p(x) = x³ − 100x²",
+          columns: ["x", "x³", "−100x²", "p(x)"],
+          rows: [
+            ["10", "1,000", "−10,000", "−9,000"],
+            ["100", "1,000,000", "−1,000,000", "0"],
+            ["1,000", "1,000,000,000", "−100,000,000", "900,000,000"],
+            ["10,000", "1,000,000,000,000", "−10,000,000,000", "990,000,000,000"],
+          ],
+        },
+      ],
+      choices: [
+        "The function p is negative for every input, because of the −100x² term.",
+        "For large inputs, p behaves like x³, because x³ becomes far larger than 100x².",
+        "For large inputs, p behaves like −100x², because its coefficient has the larger size.",
+        "The function p is zero for large inputs, because the terms cancel at x = 100.",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "At x = 10 the polynomial is negative, but by x = 10,000 it is about 99% of x³. The leading term takes over as x grows.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "p(10) is negative, but p(1,000) and p(10,000) are positive, so p is not negative everywhere.",
+        "The ratio of x³ to 100x² grows without bound, so for large inputs x³ controls the output.",
+        "A large coefficient helps at small inputs, but a higher power eventually beats any coefficient.",
+        "The cancellation at x = 100 is a single input. After that the outputs are positive.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "A higher power eventually beats a larger coefficient on a lower power.",
+    },
+    {
+      id: "precalculus-1-6-q06",
+      topicId: "precalculus-1-6",
+      concept: "unbounded-notation",
+      difficulty: "Core",
+      skill: "describe",
+      prompt: "Which statement is equivalent to lim x→−∞ f(x) = −∞?",
+      choices: [
+        "As inputs increase without bound, outputs decrease without bound.",
+        "The function f has an output equal to −∞ at x = 0.",
+        "The graph of f falls only to the left of the y-axis.",
+        "As inputs decrease without bound, outputs decrease without bound.",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The notation x → −∞ means the input decreases without bound, and f(x) = −∞ means the outputs decrease without bound too.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "This describes x → ∞, the right end, not x → −∞, the left end.",
+        "∞ is not a number the function takes as an output, and the statement is about the far left, not x = 0.",
+        "The statement is about the far left end, not just the left side of the y-axis, and says nothing about the rest of the graph.",
+        "The limit describes what happens to outputs as inputs decrease without bound, which is the far left end.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The input direction is written under the limit. The output direction follows the equals sign.",
+    },
+    {
+      id: "precalculus-1-6-q07",
+      topicId: "precalculus-1-6",
+      concept: "four-cases",
+      difficulty: "Core",
+      skill: "describe",
+      prompt:
+        "A polynomial p has odd degree and a negative leading coefficient. Which pair of limits describes its end behavior?",
+      choices: [
+        "lim x→−∞ p(x) = −∞ and lim x→∞ p(x) = ∞",
+        "lim x→−∞ p(x) = −∞ and lim x→∞ p(x) = −∞",
+        "lim x→−∞ p(x) = ∞ and lim x→∞ p(x) = −∞",
+        "lim x→−∞ p(x) = ∞ and lim x→∞ p(x) = ∞",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Odd degree means the ends go in opposite directions. A negative leading coefficient makes the right end fall, so the left end rises.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "This is odd degree with a positive leading coefficient. The ends are opposite, but the directions are reversed.",
+        "Both ends falling happens for even degree with a negative coefficient, not odd degree.",
+        "Odd degree gives opposite ends, and a negative leading coefficient makes the right end fall, so the left end rises.",
+        "Both ends rising happens for even degree with a positive coefficient, not odd degree.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Start from the right end: a negative coefficient sends it down, and odd degree sends the left end the other way.",
+    },
+    {
+      id: "precalculus-1-6-q08",
+      topicId: "precalculus-1-6",
+      concept: "four-cases",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "The graph of a polynomial rises without bound at the far left and rises without bound at the far right. Which function could it be?",
+      choices: [
+        "p(x) = 3x⁴ − 5x² + 1",
+        "p(x) = x³ − x",
+        "p(x) = −2x⁴ + x",
+        "p(x) = −x⁵ + 2x",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Both ends rise, so the degree is even and the leading coefficient is positive. Only 3x⁴ − 5x² + 1 matches.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "Even degree and a positive leading coefficient give two ends that both rise.",
+        "The leading coefficient is positive, but the degree is odd, so the left end falls.",
+        "The degree is even, but the negative coefficient makes both ends fall.",
+        "The degree is odd and the coefficient is negative, so the left end rises and the right end falls.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "A positive leading coefficient is not enough. The degree must be even for both ends to rise.",
+    },
+    {
+      id: "precalculus-1-6-q09",
+      topicId: "precalculus-1-6",
+      concept: "leading-term",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "Let f(x) = x⁴ and g(x) = 1000x³. For very large positive inputs, which function has the greater output?",
+      choices: [
+        "g, because its coefficient 1000 is larger than 1",
+        "They are equal, because both are polynomials",
+        "f, because a higher power eventually beats a larger coefficient",
+        "g, because its graph is steeper near x = 1",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Beyond x = 1000, x⁴ is larger than 1000x³, because x⁴ = x · x³ and x > 1000. A higher power wins for large inputs.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "A large coefficient helps only for small inputs. The power matters more as x grows.",
+        "Being polynomials does not make their outputs equal. They have different degrees and different growth.",
+        "x⁴ = x · x³, so once x exceeds 1000 the function f outgrows 1000x³ and stays ahead.",
+        "Steepness near x = 1 is irrelevant. The question asks about very large inputs.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Compare degrees first. Coefficients matter only between functions of the same degree.",
+    },
+    {
+      id: "precalculus-1-6-q10",
+      topicId: "precalculus-1-6",
+      concept: "four-cases",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "A polynomial p satisfies lim x→∞ p(x) = −∞ and lim x→−∞ p(x) = −∞. Which statement must be true?",
+      choices: [
+        "The degree of p is odd and the leading coefficient is negative.",
+        "The degree of p is even and the leading coefficient is positive.",
+        "The degree of p is odd and the leading coefficient is positive.",
+        "The degree of p is even and the leading coefficient is negative.",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The two ends point the same direction, so the degree is even. Both ends fall, so the leading coefficient is negative.",
+      sourceIds: ["ced", "ced-topic-1-6"],
+      choiceExplanations: [
+        "An odd degree sends the two ends in opposite directions, so it cannot give two falling ends.",
+        "A positive leading coefficient with even degree makes both ends rise, not fall.",
+        "An odd degree sends the ends in opposite directions, so it cannot match this behavior.",
+        "Matching ends mean even degree, and both falling means a negative leading coefficient.",
+      ],
+      nearMissIndex: 1,
+      distinguisher: "Matching ends decide the parity. Their direction decides the sign.",
+    },
+  ],
+  quizzes: [
+    {
+      id: "precalculus-1-6-quick",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-6",
+      title: "Quick check",
+      quizType: "quick",
+      questionIds: [
+        "precalculus-1-6-q01",
+        "precalculus-1-6-q02",
+        "precalculus-1-6-q03",
+        "precalculus-1-6-q04",
+      ],
+    },
+    {
+      id: "precalculus-1-6-quiz",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-6",
+      title: "Polynomial Functions and End Behavior topic practice",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: [
+        "precalculus-1-6-q05",
+        "precalculus-1-6-q06",
+        "precalculus-1-6-q07",
+        "precalculus-1-6-q08",
+        "precalculus-1-6-q09",
+        "precalculus-1-6-q10",
+      ],
+    },
+  ],
+};

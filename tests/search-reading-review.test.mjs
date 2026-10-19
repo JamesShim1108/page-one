@@ -103,6 +103,14 @@ test("search index loading is on demand and does not fetch question banks", asyn
       ),
     ],
     [
+      "precalculus/search.json",
+      JSON.parse(
+        await readFile(
+          new URL("../docs/generated/precalculus/search.json", import.meta.url),
+        ),
+      ),
+    ],
+    [
       "algebra2/search.json",
       JSON.parse(
         await readFile(
@@ -125,8 +133,12 @@ test("search index loading is on demand and does not fetch question banks", asyn
     },
   });
   const loaded = await store.searchIndexes();
-  assert.equal(loaded.indexes.length, 1);
-  assert.deepEqual(requested, ["catalog.json", "world/search.json"]);
+  assert.equal(loaded.indexes.length, 2);
+  assert.deepEqual(requested, [
+    "catalog.json",
+    "world/search.json",
+    "precalculus/search.json",
+  ]);
 });
 
 test("reading marks only keep passages for review and clear old Read / Understood flags", async () => {

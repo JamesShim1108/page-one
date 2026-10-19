@@ -1,0 +1,311 @@
+// Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Every numeric key was computed in code before this file was written.
+
+export const bank = {
+  questions: [
+    {
+      id: "precalculus-1-8-q01",
+      topicId: "precalculus-1-8",
+      concept: "numerator-zeros",
+      difficulty: "Quick check",
+      skill: "solve",
+      prompt: "What are the zeros of r(x) = (x − 3)(x + 5)/(x − 1)?",
+      choices: [
+        "x = 3, x = −5, and x = 1",
+        "x = 3 and x = −5",
+        "x = −3 and x = 5",
+        "x = 1 only",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The zeros of a rational function come from the numerator. Setting (x − 3)(x + 5) = 0 gives x = 3 and x = −5, and neither makes the denominator zero.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "x = 1 makes the denominator zero, so r(1) does not exist and x = 1 is not a zero.",
+        "Both x = 3 and x = −5 make the numerator zero without making the denominator zero.",
+        "The signs are reversed. The factor (x − 3) is zero at x = 3, not x = −3.",
+        "x = 1 is where the denominator is zero. It is not a zero of the function.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "A zero must make the function equal 0, but the denominator's zero makes it undefined.",
+    },
+    {
+      id: "precalculus-1-8-q02",
+      topicId: "precalculus-1-8",
+      concept: "numerator-zeros",
+      difficulty: "Quick check",
+      skill: "support-conclusions",
+      prompt: "Which statement about the zeros of r(x) = (x² − 9)/(x + 3) is correct?",
+      choices: [
+        "x = 3 is the only zero, because r(−3) is undefined even though −3 makes the numerator zero.",
+        "x = 3 and x = −3 are both zeros, because both make the numerator zero.",
+        "x = −3 is the only zero, because it appears in the denominator.",
+        "r has no zeros, because the numerator and denominator share a factor.",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Factoring gives (x − 3)(x + 3)/(x + 3). The numerator is zero at 3 and −3, but r(−3) is undefined. Only x = 3 is a zero.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "At x = −3 the denominator is also zero, so r(−3) does not exist. The input x = 3 is the only zero.",
+        "x = −3 makes the numerator zero but also the denominator zero, so it is not a zero of r.",
+        "An input that makes the denominator zero is never a zero of the function.",
+        "A shared factor removes one input from the domain, but x = 3 still gives r(3) = 0.",
+      ],
+      nearMissIndex: 1,
+      distinguisher: "Check each numerator zero in the denominator before you keep it.",
+    },
+    {
+      id: "precalculus-1-8-q03",
+      topicId: "precalculus-1-8",
+      concept: "sign-analysis",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt: "On which intervals is r(x) = (x + 2)(x − 1)/(x − 4) positive?",
+      choices: [
+        "(−∞, −2) and (1, 4)",
+        "(−2, 4) except x = 1",
+        "(−2, 1) and (4, ∞)",
+        "(1, 4) and (4, ∞)",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The sign chart shows r is positive on (−2, 1) and on (4, ∞). At x = 0 for example, r(0) = 0.5 > 0, and at x = 5, r(5) = 28 > 0.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "These are the intervals where r is negative. Check a test value such as x = 2, where r(2) = −2.",
+        "The sign changes at x = 1, so r is not positive on the rest of (−2, 4).",
+        "The test values x = 0 and x = 5 give positive outputs, while x = −3 and x = 2 give negative outputs.",
+        "r(2) = −2, so r is not positive on the interval (1, 4).",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "The sign flips at each of the three marked inputs, so alternate the signs from the far right.",
+    },
+    {
+      id: "precalculus-1-8-q04",
+      topicId: "precalculus-1-8",
+      concept: "sign-analysis",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt:
+        "How does the sign of r(x) = (x − 2)²(x + 1)/(x − 5) behave as x increases through 2?",
+      choices: [
+        "It changes from positive to negative.",
+        "It changes from negative to positive.",
+        "It is undefined on both sides of x = 2.",
+        "It stays the same on both sides of x = 2.",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The factor (x − 2)² has even multiplicity, so the graph touches the x-axis at x = 2 without crossing it. The sign is the same just left and just right of 2.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "A sign change would need a factor with odd multiplicity at x = 2.",
+        "A crossing would need odd multiplicity. Here the factor is squared.",
+        "r is defined near x = 2. It is only undefined at x = 5.",
+        "Even multiplicity at x = 2 means the function touches zero and keeps its sign.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Count how many times the factor appears before deciding whether the sign flips.",
+    },
+    {
+      id: "precalculus-1-8-q05",
+      topicId: "precalculus-1-8",
+      concept: "inequalities",
+      difficulty: "Core",
+      skill: "solve",
+      prompt: "What is the solution of (x − 1)/(x + 2) ≥ 0?",
+      choices: ["(−∞, −2) ∪ [1, ∞)", "(−∞, −2] ∪ [1, ∞)", "(−∞, −2) ∪ (1, ∞)", "(−2, 1]"],
+      correctAnswer: 0,
+      explanation:
+        "The zero is x = 1 and the undefined input is x = −2. The quotient is positive when x < −2 and when x > 1, and it equals 0 at x = 1. Include 1 and exclude −2.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "r is nonnegative for x < −2 and for x ≥ 1. The input −2 is excluded, and 1 is included.",
+        "This keeps the right intervals but includes −2, where the denominator is zero and r is undefined.",
+        "This excludes x = 1, but r(1) = 0 satisfies the inequality ≥ 0, so 1 must be included.",
+        "On (−2, 1), the numerator is negative and the denominator is positive, so r is negative there.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "The endpoint at the denominator's zero is never included, whatever the inequality symbol.",
+    },
+    {
+      id: "precalculus-1-8-q06",
+      topicId: "precalculus-1-8",
+      concept: "sign-analysis",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "A rational function r has zeros at x = −2 and x = 1 and is undefined at x = 4. Its test values are shown. Where is r(x) < 0?",
+      stimulusBlocks: [
+        {
+          type: "table",
+          caption: "Test values of r",
+          columns: ["x", "r(x)"],
+          rows: [
+            ["−3", "−0.571"],
+            ["0", "0.5"],
+            ["2", "−2"],
+            ["5", "28"],
+          ],
+        },
+      ],
+      choices: ["(−2, 1) ∪ (4, ∞)", "(−∞, −2] ∪ [1, 4)", "(−3, 2)", "(−∞, −2) ∪ (1, 4)"],
+      correctAnswer: 3,
+      explanation:
+        "The outputs at −3 and 2 are negative, and the sign changes only at −2, 1, and 4. So r is negative on (−∞, −2) and on (1, 4). The inequality is strict, so the zeros are excluded.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "These are the intervals where r is positive, as the test values 0 and 5 show.",
+        "The intervals are right, but the strict inequality r(x) < 0 excludes the zeros x = −2 and x = 1.",
+        "The test values are not interval endpoints. The sign changes at the zeros and the undefined input.",
+        "The test values −3 and 2 are negative, so r is negative on the intervals containing them, with open endpoints.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "A strict inequality leaves out the zeros, and the denominator's zero is always left out.",
+    },
+    {
+      id: "precalculus-1-8-q07",
+      topicId: "precalculus-1-8",
+      concept: "numerator-zeros",
+      difficulty: "Core",
+      skill: "construct-functions",
+      prompt:
+        "Which rational function has zeros at x = 2 and x = −4 and is undefined at x = 1?",
+      choices: [
+        "r(x) = (x + 2)(x − 4)/(x − 1)",
+        "r(x) = (x − 2)(x + 4)/(x − 1)",
+        "r(x) = (x − 2)(x + 4)/(x + 1)",
+        "r(x) = (x − 1)/((x − 2)(x + 4))",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The numerator must be zero at 2 and −4, so it has the factors (x − 2) and (x + 4). The denominator must be zero at 1, so it has the factor (x − 1).",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "The signs are reversed. This function has zeros at x = −2 and x = 4.",
+        "The numerator factors (x − 2) and (x + 4) give the zeros 2 and −4, and (x − 1) makes r undefined at 1.",
+        "This function is undefined at x = −1, not at x = 1.",
+        "The numerator and denominator are swapped. This function has a zero at x = 1 and is undefined at 2 and −4.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "A factor (x − a) in the numerator gives a zero at a, so check the sign of each constant.",
+    },
+    {
+      id: "precalculus-1-8-q08",
+      topicId: "precalculus-1-8",
+      concept: "inequalities",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "A student solves (x + 1)/(x − 3) ≤ 0 and writes [−1, 3]. What is the error?",
+      choices: [
+        "The student should not have included −1 because r(−1) = 0 does not satisfy ≤ 0.",
+        "The student should have written (−∞, −1] ∪ (3, ∞) instead.",
+        "The endpoint 3 must be excluded because r(3) is undefined.",
+        "The student should have flipped the inequality after finding the zeros.",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "The sign chart shows r(x) ≤ 0 on [−1, 3), with −1 included because r(−1) = 0. The input x = 3 makes the denominator zero, so it must be excluded.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "r(−1) = 0 does satisfy r(x) ≤ 0, so −1 belongs in the solution.",
+        "Those intervals are where r is positive, the opposite of what ≤ 0 asks for.",
+        "r(3) does not exist, so 3 cannot be in the solution. The correct answer is [−1, 3).",
+        "The inequality is not flipped. The solution is found from the sign chart.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Check the endpoint that comes from the denominator, then check the one from the numerator.",
+    },
+    {
+      id: "precalculus-1-8-q09",
+      topicId: "precalculus-1-8",
+      concept: "numerator-zeros",
+      difficulty: "Core",
+      skill: "apply-results",
+      prompt:
+        "A club's profit per member, in dollars, is P(n) = (n − 12)(n + 4)/(n + 1), where n ≥ 0 is the number of members. For what number of members is the profit per member exactly 0?",
+      choices: [
+        "12 members, since −4 is not a possible number of members",
+        "Both 12 members and −4 members, since both make the numerator zero",
+        "4 members, because the factor n + 4 is zero for that number",
+        "−1 members, because the denominator n + 1 is zero there",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Setting the numerator equal to zero gives n = 12 and n = −4. A number of members cannot be negative, so only n = 12 makes sense in context.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "The zero n = 12 is within the context n ≥ 0, and n = −4 is outside it.",
+        "The input n = −4 is a zero of the function, but it is not a possible number of members.",
+        "At n = 4 the numerator is (−8)(8), not zero, so the profit is not 0.",
+        "n = −1 makes the denominator zero, so P is undefined there, and it is not a number of members.",
+      ],
+      nearMissIndex: 1,
+      distinguisher: "Zeros of the function must also fit the context of the situation.",
+    },
+    {
+      id: "precalculus-1-8-q10",
+      topicId: "precalculus-1-8",
+      concept: "inequalities",
+      difficulty: "Core",
+      skill: "solve",
+      prompt: "What is the solution of (x − 2)²/(x + 1) ≥ 0?",
+      choices: ["[−1, ∞)", "(−∞, −1)", "(−1, 2) ∪ (2, ∞)", "(−1, ∞)"],
+      correctAnswer: 3,
+      explanation:
+        "The numerator is never negative, so the sign is set by the denominator. It is positive for x > −1. At x = 2 the function equals 0, which satisfies ≥ 0, so x = 2 is included. The input x = −1 is undefined.",
+      sourceIds: ["ced", "ced-topic-1-8"],
+      choiceExplanations: [
+        "This includes x = −1, where the denominator is zero and the function is undefined.",
+        "For x < −1 the denominator is negative and the numerator is positive, so r is negative there.",
+        "This leaves out x = 2, but r(2) = 0 satisfies the inequality ≥ 0, so 2 must be included.",
+        "For x > −1, r is positive or 0, and r(2) = 0 counts. Only x = −1 is excluded.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "A double zero touches the axis, and a zero counts as a solution for ≥.",
+    },
+  ],
+  quizzes: [
+    {
+      id: "precalculus-1-8-quick",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-8",
+      title: "Quick check",
+      quizType: "quick",
+      questionIds: [
+        "precalculus-1-8-q01",
+        "precalculus-1-8-q02",
+        "precalculus-1-8-q03",
+        "precalculus-1-8-q04",
+      ],
+    },
+    {
+      id: "precalculus-1-8-quiz",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-8",
+      title: "Rational Functions and Zeros topic practice",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: [
+        "precalculus-1-8-q05",
+        "precalculus-1-8-q06",
+        "precalculus-1-8-q07",
+        "precalculus-1-8-q08",
+        "precalculus-1-8-q09",
+        "precalculus-1-8-q10",
+      ],
+    },
+  ],
+};

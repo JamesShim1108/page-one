@@ -234,7 +234,7 @@ export function createReadingPackPlan(
   const base = new URL(baseUrl);
   const resources = readingResourcePaths(data).map((path) => ({
     path,
-    kind: path.startsWith("world/") || path.startsWith("algebra2/") ? "content" : "shell",
+    kind: path.startsWith(`${data.course.id}/`) ? "content" : "shell",
     required: true,
     estimatedBytes: Number.isFinite(resourceSizes[path]) ? resourceSizes[path] : null,
   }));

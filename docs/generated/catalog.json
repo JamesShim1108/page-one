@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "01c145c2007fe6ce",
+  "revision": "ea6354c8eff46fca",
   "courses": [
     {
       "schemaVersion": 1,
@@ -81,6 +81,67 @@
       "indexPath": "algebra2/index.json",
       "routesPath": "algebra2/routes.json",
       "customPracticePath": "algebra2/custom-practice.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "precalculus",
+      "title": "AP Precalculus",
+      "shortTitle": "AP Precalculus",
+      "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+      "status": "ready",
+      "period": "Functions and modeling",
+      "order": 3,
+      "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models.",
+      "readyTopicCount": 14,
+      "previewTopics": [
+        {
+          "id": "precalculus-1-1",
+          "courseId": "precalculus",
+          "unitId": "precalculus-1",
+          "order": 1,
+          "code": "1.1",
+          "title": "Change in Tandem",
+          "period": "Unit 1",
+          "status": "ready",
+          "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+        },
+        {
+          "id": "precalculus-1-2",
+          "courseId": "precalculus",
+          "unitId": "precalculus-1",
+          "order": 2,
+          "code": "1.2",
+          "title": "Rates of Change",
+          "period": "Unit 1",
+          "status": "ready",
+          "summary": "Average rates of change over intervals, estimating the rate at a point, and what the sign of a rate tells you."
+        },
+        {
+          "id": "precalculus-1-3",
+          "courseId": "precalculus",
+          "unitId": "precalculus-1",
+          "order": 3,
+          "code": "1.3",
+          "title": "Rates of Change in Linear and Quadratic Functions",
+          "period": "Unit 1",
+          "status": "ready",
+          "summary": "How average rates behave for linear and quadratic functions, secant slopes, and reading concavity from changing rates."
+        }
+      ],
+      "firstTopic": {
+        "id": "precalculus-1-1",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "order": 1,
+        "code": "1.1",
+        "title": "Change in Tandem",
+        "period": "Unit 1",
+        "status": "ready",
+        "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+      },
+      "indexPath": "precalculus/index.json",
+      "routesPath": "precalculus/routes.json",
+      "customPracticePath": "precalculus/custom-practice.json"
     }
   ]
 }

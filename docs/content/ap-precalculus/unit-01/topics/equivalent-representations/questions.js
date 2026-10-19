@@ -1,0 +1,298 @@
+// Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Every numeric key was computed in code before this file was written.
+
+export const bank = {
+  questions: [
+    {
+      id: "precalculus-1-11-q01",
+      topicId: "precalculus-1-11",
+      concept: "choose-form",
+      difficulty: "Quick check",
+      skill: "equivalent-forms",
+      prompt: "Which polynomial is equivalent to (x − 1)²(x + 2)?",
+      choices: ["x³ + 3x − 2", "x³ + 2x² + x + 2", "x³ − 3x² + 2", "x³ − 3x + 2"],
+      correctAnswer: 3,
+      explanation:
+        "Expanding (x − 1)² gives x² − 2x + 1. Multiplying by (x + 2) gives x³ + 2x² − 2x² − 4x + x + 2 = x³ − 3x + 2.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "The signs of the x term and the constant are reversed. At x = 0 the product is 2, not −2.",
+        "This comes from squaring x − 1 as x² + 1, which drops the middle term −2x.",
+        "The x² terms cancel after expanding, so there is no x² term in the product.",
+        "(x² − 2x + 1)(x + 2) simplifies to x³ − 3x + 2, since the x² terms cancel.",
+      ],
+      nearMissIndex: 1,
+      distinguisher: "Squaring a binomial keeps a middle term, so do not drop it.",
+    },
+    {
+      id: "precalculus-1-11-q02",
+      topicId: "precalculus-1-11",
+      concept: "choose-form",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt:
+        "Which form of a rational function shows its holes and vertical asymptotes most directly?",
+      choices: [
+        "A form with the numerator and denominator both factored",
+        "A form with the numerator and denominator both expanded",
+        "A divided form written as a quotient plus a remainder term",
+        "A table of values at several large inputs",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "Holes and vertical asymptotes come from zeros of the denominator, and whether a factor cancels. That is visible only when the factors are written out.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "With the factors visible, you can see which cancel and which denominator zeros remain.",
+        "Expanded polynomials hide their factors, so cancelling and zeros are hard to see.",
+        "The divided form is useful for end behavior, but it hides which factors cancelled.",
+        "A table at large inputs shows end behavior, not the individual inputs where the function is undefined.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Match the feature to the form: factors show where, division shows the ends.",
+    },
+    {
+      id: "precalculus-1-11-q03",
+      topicId: "precalculus-1-11",
+      concept: "long-division",
+      difficulty: "Quick check",
+      skill: "solve",
+      prompt: "What are the quotient and remainder when x² − 5x + 7 is divided by x − 2?",
+      choices: [
+        "Quotient x − 3, remainder 7",
+        "Quotient x − 3, remainder 1",
+        "Quotient x − 5, remainder 7",
+        "Quotient x + 3, remainder 1",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "(x − 2)(x − 3) = x² − 5x + 6. Subtracting from x² − 5x + 7 leaves a remainder of 1.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "The remainder is what is left after subtracting (x − 2)(x − 3). It is not the original constant.",
+        "Multiplying back, (x − 2)(x − 3) + 1 = x² − 5x + 7.",
+        "(x − 2)(x − 5) = x² − 7x + 10, which is not close to the dividend.",
+        "(x − 2)(x + 3) = x² + x − 6, so this quotient does not rebuild the dividend.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Check a division by multiplying the divisor and quotient, then adding the remainder.",
+    },
+    {
+      id: "precalculus-1-11-q04",
+      topicId: "precalculus-1-11",
+      concept: "binomial-theorem",
+      difficulty: "Quick check",
+      skill: "solve",
+      prompt: "What is the coefficient of x² in the expansion of (x + 3)⁴?",
+      choices: ["81", "18", "54", "6"],
+      correctAnswer: 2,
+      explanation: "The term with x² is C(4, 2)·x²·3² = 6·9·x² = 54x².",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "81 is 3⁴, the constant term. It is not the coefficient of x².",
+        "This uses 3 instead of 3². The power of 3 matches the power left over, which is 2.",
+        "C(4, 2) = 6 and 3² = 9, so the coefficient is 6·9 = 54.",
+        "6 is only the binomial coefficient. The coefficient also includes the power of 3.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "A binomial coefficient is only part of the coefficient in the expansion.",
+    },
+    {
+      id: "precalculus-1-11-q05",
+      topicId: "precalculus-1-11",
+      concept: "long-division",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt: "What is the slant asymptote of r(x) = (2x² + 3x − 5)/(x + 4)?",
+      choices: ["y = 2x − 5", "y = 2x + 3", "y = 2x", "y = 15"],
+      correctAnswer: 0,
+      explanation:
+        "Dividing gives 2x² + 3x − 5 = (x + 4)(2x − 5) + 15, so r(x) = 2x − 5 + 15/(x + 4). The slant asymptote is the quotient y = 2x − 5.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "The quotient 2x − 5 is the line r(x) approaches. The remainder term 15/(x + 4) shrinks toward 0.",
+        "2x + 3 comes from reading the numerator's first two coefficients, not from dividing.",
+        "This keeps the first term of the quotient but drops its constant term −5.",
+        "15 is the remainder. It appears in a fraction that shrinks away, not in the line.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "The quotient is the asymptote and the remainder only makes the fraction that disappears.",
+    },
+    {
+      id: "precalculus-1-11-q06",
+      topicId: "precalculus-1-11",
+      concept: "binomial-theorem",
+      difficulty: "Core",
+      skill: "equivalent-forms",
+      prompt: "Which polynomial is the expansion of (2x − 1)³?",
+      choices: [
+        "8x³ − 6x² + 6x − 1",
+        "8x³ + 12x² + 6x + 1",
+        "2x³ − 3x² + 3x − 1",
+        "8x³ − 12x² + 6x − 1",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "The terms are 1·(2x)³, 3·(2x)²·(−1), 3·(2x)·(−1)², and (−1)³. These are 8x³, −12x², 6x, and −1.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "The second term is 3·4x²·(−1) = −12x², not −6x². The 4 from squaring 2x was dropped.",
+        "The signs should alternate because b = −1. This version treats it as +1.",
+        "This does not raise the coefficient 2 to a power. The leading term of (2x)³ is 8x³.",
+        "Using b = −1 gives alternating signs, and 2 is raised to each power along with x.",
+      ],
+      nearMissIndex: 1,
+      distinguisher:
+        "Raise the whole term 2x to the power, and keep the minus sign inside b.",
+    },
+    {
+      id: "precalculus-1-11-q07",
+      topicId: "precalculus-1-11",
+      concept: "choose-form",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt: "Let f(x) = (x² − 9)/(x − 3) and g(x) = x + 3. Which statement is correct?",
+      choices: [
+        "f and g give the same output for every real number x",
+        "f and g give different outputs for every real number x",
+        "f and g give the same outputs except at x = 3, where f is undefined",
+        "f and g give the same outputs except at x = −3, where g is zero",
+      ],
+      correctAnswer: 2,
+      explanation:
+        "Factoring shows f(x) = (x − 3)(x + 3)/(x − 3), which equals x + 3 whenever x ≠ 3. At x = 3, f is undefined but g(3) = 6. So f and g agree everywhere except x = 3.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "The two agree whenever x ≠ 3, but f(3) does not exist while g(3) = 6.",
+        "They agree at every input except x = 3, so they are not different everywhere.",
+        "After cancelling x − 3, f(x) = x + 3 except at the excluded input x = 3.",
+        "At x = −3 both f and g equal 0, so they agree there.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "Equivalent forms must also share the same domain, so look for lost inputs.",
+    },
+    {
+      id: "precalculus-1-11-q08",
+      topicId: "precalculus-1-11",
+      concept: "long-division",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "A student divides x² + 1 by x + 2 and gets quotient x − 2 and remainder 5. Which check confirms the result?",
+      choices: [
+        "(x + 2)(x − 2) = x² + 1",
+        "(x + 2)(x − 2) + 5 = x² + 1",
+        "(x + 2) + (x − 2) + 5 = x² + 1",
+        "(x − 2)(5) + (x + 2) = x² + 1",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "Divisor times quotient plus remainder must equal the dividend. (x + 2)(x − 2) + 5 = x² − 4 + 5 = x² + 1, so the division checks out.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "(x + 2)(x − 2) equals x² − 4, so leaving out the remainder 5 does not recover the dividend.",
+        "Divisor times quotient plus remainder gives x² − 4 + 5 = x² + 1, which equals the dividend.",
+        "Adding the divisor and quotient does not rebuild a degree-2 dividend.",
+        "The remainder is added at the end. It is not multiplied by the quotient.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "A division check multiplies the divisor and the quotient, then adds the remainder.",
+    },
+    {
+      id: "precalculus-1-11-q09",
+      topicId: "precalculus-1-11",
+      concept: "binomial-theorem",
+      difficulty: "Core",
+      skill: "describe",
+      prompt:
+        "In the expansion of (x + y)⁶, how many terms are there, and what is the coefficient of x²y⁴?",
+      choices: [
+        "7 terms; coefficient 15",
+        "6 terms; coefficient 15",
+        "7 terms; coefficient 20",
+        "7 terms; coefficient 6",
+      ],
+      correctAnswer: 0,
+      explanation:
+        "An expansion of degree 6 has terms for k = 0 through 6, which is 7 terms. The coefficient of x²y⁴ is C(6, 4) = 15.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "There are 7 terms, and C(6, 4) = 15 is the coefficient of x²y⁴.",
+        "The exponents run from 0 to 6, which gives 7 terms, not 6.",
+        "20 is C(6, 3), the coefficient of x³y³ in the middle. The coefficient of x²y⁴ is C(6, 4).",
+        "6 is C(6, 1) and C(6, 5). It belongs to x⁵y and xy⁵, not x²y⁴.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Count the exponents from 0 to n, and pick the coefficient from the row of Pascal's triangle by the power of y.",
+    },
+    {
+      id: "precalculus-1-11-q10",
+      topicId: "precalculus-1-11",
+      concept: "choose-form",
+      difficulty: "Core",
+      skill: "apply-results",
+      prompt:
+        "The cost per item, in dollars, of making n items is C(n) = (50n + 2000)/n. Which form best shows the cost per item when n is very large?",
+      choices: [
+        "C(n) = 50(n + 40)/n, because the factored numerator shows the long-run cost",
+        "C(n) = (50n + 2000)/n, because the original form shows the long-run cost best",
+        "C(n) = 2050/n, because the terms combine into one fraction that shrinks",
+        "C(n) = 50 + 2000/n, because the second term shrinks toward 0 and the cost per item approaches $50",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "Dividing each term by n gives C(n) = 50 + 2000/n. As n grows, 2000/n shrinks toward 0, so the cost per item approaches $50. The divided form shows this at a glance.",
+      sourceIds: ["ced", "ced-topic-1-11"],
+      choiceExplanations: [
+        "50(n + 40)/n is equivalent, but the factored form makes the zero of the numerator easy to see, not the long-run cost.",
+        "The original form is equivalent, but it does not show directly what happens as n grows.",
+        "2050/n is not equivalent. The terms 50n and 2000 do not combine over n like that.",
+        "The divided form separates a constant from a shrinking term, which exposes the long-run value 50.",
+      ],
+      nearMissIndex: 0,
+      distinguisher:
+        "For long-run behavior, pick the form that splits off the term that shrinks away.",
+    },
+  ],
+  quizzes: [
+    {
+      id: "precalculus-1-11-quick",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-11",
+      title: "Quick check",
+      quizType: "quick",
+      questionIds: [
+        "precalculus-1-11-q01",
+        "precalculus-1-11-q02",
+        "precalculus-1-11-q03",
+        "precalculus-1-11-q04",
+      ],
+    },
+    {
+      id: "precalculus-1-11-quiz",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-11",
+      title:
+        "Equivalent Representations of Polynomial and Rational Expressions topic practice",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: [
+        "precalculus-1-11-q05",
+        "precalculus-1-11-q06",
+        "precalculus-1-11-q07",
+        "precalculus-1-11-q08",
+        "precalculus-1-11-q09",
+        "precalculus-1-11-q10",
+      ],
+    },
+  ],
+};

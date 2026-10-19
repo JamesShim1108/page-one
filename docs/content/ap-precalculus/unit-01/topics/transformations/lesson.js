@@ -1,0 +1,187 @@
+// Edit lesson text here. IDs are permanent because review links and saved attempts use them.
+// Math is plain text: use − (minus), ², ³, √, ≤, ≥, ∞, → and write fractions as (numerator)/(denominator).
+
+export const lesson = {
+  schemaVersion: 1,
+  id: "precalculus-1-12",
+  courseId: "precalculus",
+  unitId: "precalculus-1",
+  order: 12,
+  code: "1.12",
+  title: "Transformations of Functions",
+  period: "Unit 1",
+  status: "ready",
+  summary:
+    "How shifts, dilations, and reflections change a function's graph, its points, its domain and range, and its asymptotes.",
+  minutes: 13,
+  learningGoals: [
+    "Describe how adding to the input or output shifts the graph of a function.",
+    "Describe dilations and reflections that come from multiplying the input or the output.",
+    "Predict how a transformation changes points, asymptotes, domain, and range.",
+  ],
+  bigIdea:
+    "Changing a function's rule in a small way moves or reshapes its graph in a predictable way. Changes to the input act on the horizontal direction, and changes to the output act on the vertical direction.",
+  context:
+    "Every function family in this course is built from a few basic graphs by transformations. Knowing how a change in the rule moves each point lets you describe a new function from one you already understand.",
+  sections: [
+    {
+      id: "shifts",
+      title: "Adding to the input or to the output translates the graph.",
+      conceptTitle: "Translations",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "A translation slides every point of a graph the same distance without changing its shape. Adding a constant to the output, as in g(x) = f(x) + d, moves the graph up by d units (down if d is negative). Adding to the input, as in g(x) = f(x − c), moves the graph right by c units (left if c is negative).",
+        },
+        {
+          type: "paragraph",
+          text: "The horizontal direction feels backward at first. For g(x) = f(x − 3), the output g(5) equals f(2), so the point (2, f(2)) of f appears at x = 5. Each point of f moves 3 units to the right.",
+        },
+        {
+          type: "table",
+          caption: "Points of f(x) = x² and of g(x) = f(x − 3) + 2",
+          columns: ["Point on f", "Matching point on g"],
+          rows: [
+            ["(−2, 4)", "(1, 6)"],
+            ["(0, 0)", "(3, 2)"],
+            ["(2, 4)", "(5, 6)"],
+          ],
+        },
+      ],
+      takeaway:
+        "A change inside the parentheses moves the graph sideways in the opposite direction. A change outside moves it up or down.",
+    },
+    {
+      id: "dilations-reflections",
+      title:
+        "Multiplying the output or input stretches, compresses, or reflects the graph.",
+      conceptTitle: "Dilations and reflections",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "A dilation stretches or compresses a graph. In g(x) = a·f(x), every output is multiplied by a, so the graph is stretched vertically if |a| > 1 and compressed if |a| < 1. If a is negative, the graph is also reflected across the x-axis. A reflection flips the graph over a line.",
+        },
+        {
+          type: "paragraph",
+          text: "In h(x) = f(bx), every input is multiplied by b before f acts, so each point moves to x-coordinate (original x)/b. The graph is compressed horizontally by a factor of 1/|b| when |b| > 1 and stretched when |b| < 1. If b is negative, the graph is reflected across the y-axis.",
+        },
+        {
+          type: "table",
+          caption: "Points of f(x) = 4 − x², of −2·f(x), and of f(2x)",
+          columns: ["Point on f", "Matching point on −2·f(x)", "Matching point on f(2x)"],
+          rows: [
+            ["(−2, 0)", "(−2, 0)", "(−1, 0)"],
+            ["(0, 4)", "(0, −8)", "(0, 4)"],
+            ["(1, 3)", "(1, −6)", "(0.5, 3)"],
+            ["(2, 0)", "(2, 0)", "(1, 0)"],
+          ],
+        },
+      ],
+      takeaway:
+        "Outside multiplication changes y-values. Inside multiplication changes x-values by the reciprocal.",
+    },
+    {
+      id: "combining",
+      title: "Combined transformations are read one piece at a time.",
+      conceptTitle: "Combining transformations",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Many transformations combine a dilation, a reflection, and a translation. For g(x) = a·f(b(x − h)) + k, the factor b and the shift h act on the inputs, and a and k act on the outputs. A reliable method is to track a few key points of f, such as zeros and extreme points, and move each one.",
+        },
+        {
+          type: "paragraph",
+          text: "Let f(x) = x² − 1, which has zeros at x = −1 and x = 1, and let g(x) = 2f(x − 3). The zeros of g occur where x − 3 = −1 or x − 3 = 1, so at x = 2 and x = 4. The vertex of f at (0, −1) moves to (3, −2), because the shift sends 0 to 3 and the dilation doubles −1.",
+        },
+      ],
+      takeaway:
+        "Move the key points one transformation at a time, inside changes first for x-values and outside changes first for y-values.",
+    },
+    {
+      id: "domain-and-range",
+      title: "Transformations move the asymptotes and change the domain and range.",
+      conceptTitle: "Effects on domain, range, and asymptotes",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "A horizontal translation moves vertical asymptotes by the same amount, and a vertical translation moves horizontal asymptotes. The parent function f(x) = 1/x has the vertical asymptote x = 0 and the horizontal asymptote y = 0. For g(x) = 1/(x − 2) + 3, the asymptotes are x = 2 and y = 3. The domain of g is all real numbers except 2, and its range is all real numbers except 3.",
+        },
+        {
+          type: "paragraph",
+          text: "Output changes also change the range. The function f(x) = x² has range [0, ∞). For h(x) = −2f(x) + 3, the values −2x² are at most 0, so h has range (−∞, 3].",
+        },
+      ],
+      takeaway:
+        "Apply the same transformation to the asymptotes, the domain, and the range as you apply to the points.",
+    },
+  ],
+  vocabulary: [
+    {
+      id: "precalculus-1-12-translation",
+      topicId: "precalculus-1-12",
+      term: "Translation",
+      definition:
+        "A transformation that slides every point of a graph the same distance in the same direction.",
+    },
+    {
+      id: "precalculus-1-12-dilation",
+      topicId: "precalculus-1-12",
+      term: "Dilation",
+      definition:
+        "A transformation that stretches or compresses a graph by multiplying all of its x-coordinates or all of its y-coordinates by a constant.",
+    },
+    {
+      id: "precalculus-1-12-reflection",
+      topicId: "precalculus-1-12",
+      term: "Reflection",
+      definition:
+        "A transformation that flips a graph across a line, such as the x-axis or the y-axis.",
+    },
+  ],
+  connections: [
+    {
+      id: "precalculus-1-12-c1",
+      topicId: "precalculus-1-12",
+      type: "Look back",
+      title: "Forms that expose a shift",
+      body: "In Topic 1.11, different forms of an expression showed different features. A rule written in terms of (x − 3) shows the sideways shift directly, while the expanded form hides it.",
+      transferQuestion:
+        "Why can a factored or shifted form be easier to read than an expanded one when you want to describe a graph?",
+      feedback:
+        "It displays the transformations and the key points directly, so you do not need to expand and compare.",
+      links: [
+        {
+          topicId: "precalculus-1-11",
+          sectionId: "choose-form",
+          label: "Review choosing a form",
+        },
+      ],
+    },
+    {
+      id: "precalculus-1-12-c2",
+      topicId: "precalculus-1-12",
+      type: "Looking ahead",
+      title: "Transformations inside models",
+      body: "In Topic 1.13, you will choose a function family for a data set. Knowing how transformations adjust a family lets you fit it to a situation.",
+      transferQuestion:
+        "If a basic model starts at the wrong place on the axes, which transformation would you use to fix that?",
+      feedback: "A translation. A shift of the input or output moves the starting point.",
+      links: [
+        {
+          topicId: "precalculus-1-13",
+          sectionId: "choose-type",
+          label: "Preview model selection",
+        },
+      ],
+    },
+  ],
+  sourceIds: ["ced", "ced-topic-1-12"],
+  definitionCoverage: {
+    status: "required",
+    conceptIds: [
+      "precalculus-1-12-translation",
+      "precalculus-1-12-dilation",
+      "precalculus-1-12-reflection",
+    ],
+  },
+};

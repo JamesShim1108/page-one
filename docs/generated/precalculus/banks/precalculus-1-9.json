@@ -1,0 +1,611 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-1",
+    "courseId": "precalculus",
+    "number": 1,
+    "title": "Polynomial and Rational Functions",
+    "period": "AP Exam weighting 30–40%",
+    "status": "ready",
+    "description": "See how outputs change with inputs, then use rates of change, zeros, end behavior, asymptotes, and holes to describe polynomial and rational functions and build models from them.",
+    "quizzes": [
+      {
+        "id": "precalculus-1-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-1-1",
+            "questionIds": [
+              "precalculus-1-1-q02",
+              "precalculus-1-1-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-2",
+            "questionIds": [
+              "precalculus-1-2-q02",
+              "precalculus-1-2-q03"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-3",
+            "questionIds": [
+              "precalculus-1-3-q01",
+              "precalculus-1-3-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-4",
+            "questionIds": [
+              "precalculus-1-4-q02",
+              "precalculus-1-4-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-5",
+            "questionIds": [
+              "precalculus-1-5-q02",
+              "precalculus-1-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-6",
+            "questionIds": [
+              "precalculus-1-6-q02",
+              "precalculus-1-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-7",
+            "questionIds": [
+              "precalculus-1-7-q01",
+              "precalculus-1-7-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-8",
+            "questionIds": [
+              "precalculus-1-8-q02",
+              "precalculus-1-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-9",
+            "questionIds": [
+              "precalculus-1-9-q06",
+              "precalculus-1-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-10",
+            "questionIds": [
+              "precalculus-1-10-q03",
+              "precalculus-1-10-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-11",
+            "questionIds": [
+              "precalculus-1-11-q03",
+              "precalculus-1-11-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-12",
+            "questionIds": [
+              "precalculus-1-12-q02",
+              "precalculus-1-12-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-13",
+            "questionIds": [
+              "precalculus-1-13-q06",
+              "precalculus-1-13-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-14",
+            "questionIds": [
+              "precalculus-1-14-q07",
+              "precalculus-1-14-q10"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-1-1-quiz",
+        "title": "Change in Tandem topic practice"
+      },
+      {
+        "id": "precalculus-1-2-quiz",
+        "title": "Rates of Change topic practice"
+      },
+      {
+        "id": "precalculus-1-3-quiz",
+        "title": "Rates of Change in Linear and Quadratic Functions topic practice"
+      },
+      {
+        "id": "precalculus-1-4-quiz",
+        "title": "Polynomial Functions and Rates of Change topic practice"
+      },
+      {
+        "id": "precalculus-1-5-quiz",
+        "title": "Polynomial Functions and Complex Zeros topic practice"
+      },
+      {
+        "id": "precalculus-1-6-quiz",
+        "title": "Polynomial Functions and End Behavior topic practice"
+      },
+      {
+        "id": "precalculus-1-7-quiz",
+        "title": "Rational Functions and End Behavior topic practice"
+      },
+      {
+        "id": "precalculus-1-8-quiz",
+        "title": "Rational Functions and Zeros topic practice"
+      },
+      {
+        "id": "precalculus-1-9-quiz",
+        "title": "Rational Functions and Vertical Asymptotes topic practice"
+      },
+      {
+        "id": "precalculus-1-10-quiz",
+        "title": "Rational Functions and Holes topic practice"
+      },
+      {
+        "id": "precalculus-1-11-quiz",
+        "title": "Equivalent Representations of Polynomial and Rational Expressions topic practice"
+      },
+      {
+        "id": "precalculus-1-12-quiz",
+        "title": "Transformations of Functions topic practice"
+      },
+      {
+        "id": "precalculus-1-13-quiz",
+        "title": "Function Model Selection and Assumption Articulation topic practice"
+      },
+      {
+        "id": "precalculus-1-14-quiz",
+        "title": "Function Model Construction and Application topic practice"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "precalculus-1-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Change in Tandem",
+      "period": "Unit 1",
+      "status": "ready",
+      "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+    },
+    "hasGuide": false,
+    "writingQuizzes": []
+  },
+  "topic": {
+    "id": "precalculus-1-9",
+    "courseId": "precalculus",
+    "unitId": "precalculus-1",
+    "order": 9,
+    "code": "1.9",
+    "title": "Rational Functions and Vertical Asymptotes",
+    "period": "Unit 1",
+    "status": "ready",
+    "summary": "Where the denominator is zero but the numerator is not, and how one-sided limits describe the graph nearby."
+  },
+  "framework": null,
+  "contentRevision": "fe722e131c60d098",
+  "questions": [
+    {
+      "id": "precalculus-1-9-q01",
+      "topicId": "precalculus-1-9",
+      "concept": "where-asymptotes",
+      "difficulty": "Quick check",
+      "skill": "identify-information",
+      "prompt": "What are the vertical asymptotes of r(x) = (x + 1)/((x − 3)(x + 2))?",
+      "choices": [
+        "x = 3, x = −2, and x = −1",
+        "x = −3 and x = 2",
+        "x = 3 and x = −2",
+        "x = −1 only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The denominator is zero at x = 3 and x = −2, and the numerator x + 1 is not zero at either. Those are the vertical asymptotes.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "x = −1 is a zero of the numerator, so the function is 0 there rather than undefined.",
+        "The signs are reversed. The factor (x − 3) is zero at x = 3.",
+        "Both denominator zeros leave the numerator nonzero, so each gives a vertical asymptote.",
+        "x = −1 makes the numerator zero. It is a zero of the function, not an asymptote."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Asymptotes come from the denominator, and zeros come from the numerator.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-1-9-q02",
+      "topicId": "precalculus-1-9",
+      "concept": "where-asymptotes",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "Which statement about r(x) = (x + 1)/(x² + 4) is correct?",
+      "choices": [
+        "It has no vertical asymptote, because x² + 4 is never equal to 0",
+        "It has vertical asymptotes at x = 2 and x = −2, where x² − 4 would be zero",
+        "It has a vertical asymptote at x = −1, where the numerator is zero",
+        "It has a vertical asymptote at x = 4, because 4 appears in the denominator"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since x² + 4 ≥ 4 for every x, the denominator is never zero. A rational function needs a zero of the denominator to have a vertical asymptote.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "The denominator is at least 4 for every input, so it never equals 0 and no vertical asymptote occurs.",
+        "x² − 4 is a different expression. For x² + 4, the equation x² + 4 = 0 has no real solution.",
+        "x = −1 makes the numerator zero, which gives a zero of the function.",
+        "The number 4 appearing in the denominator does not make it zero at x = 4, since 16 + 4 = 20."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Solve denominator = 0 for real inputs before naming any asymptote.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-1-9-q03",
+      "topicId": "precalculus-1-9",
+      "concept": "one-sided-limits",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "For r(x) = (x + 1)/(x − 3), what is lim x→3⁺ r(x)?",
+      "choices": [
+        "−∞",
+        "0",
+        "4",
+        "∞"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Just to the right of 3, the numerator x + 1 is about 4 and the denominator x − 3 is a small positive number. The quotient is positive and grows without bound.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "−∞ is the limit from the left, where the denominator is negative.",
+        "The numerator is near 4, not 0, so the quotient does not approach 0.",
+        "4 is the value of the numerator at x = 3. The quotient itself grows without bound.",
+        "A numerator near 4 divided by a tiny positive number is a large positive number."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Check which side of 3 you are on, because the sign of x − 3 changes there.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-1-9-q04",
+      "topicId": "precalculus-1-9",
+      "concept": "multiplicity-effect",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "Which statement describes r(x) = 1/(x − 2)² near x = 2?",
+      "choices": [
+        "Outputs rise without bound on the right and fall without bound on the left",
+        "Outputs increase without bound as x approaches 2 from either side",
+        "Outputs approach 0 as x approaches 2 from either side",
+        "Outputs approach 2 as x approaches 2 from either side"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The squared factor is positive on both sides of 2, so the quotient 1/(x − 2)² is positive and large on both sides. Both one-sided limits are ∞.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "This describes an odd power such as (x − 2)³. A square does not change sign at 2.",
+        "Both limits are ∞, because (x − 2)² is a small positive number on each side.",
+        "The outputs get larger as the denominator gets smaller. They do not approach 0.",
+        "The input approaches 2, but the outputs do not. They grow without bound."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "An even power is positive on both sides of its zero.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-1-9-q05",
+      "topicId": "precalculus-1-9",
+      "concept": "where-asymptotes",
+      "difficulty": "Core",
+      "skill": "identify-information",
+      "prompt": "Values of a function g are shown. Which statement does the table support?",
+      "stimulusBlocks": [
+        {
+          "type": "table",
+          "caption": "Values of g near x = −1",
+          "columns": [
+            "x",
+            "g(x)"
+          ],
+          "rows": [
+            [
+              "−1.1",
+              "−20"
+            ],
+            [
+              "−1.01",
+              "−200"
+            ],
+            [
+              "−1.001",
+              "−2,000"
+            ],
+            [
+              "−0.999",
+              "2,000"
+            ],
+            [
+              "−0.99",
+              "200"
+            ],
+            [
+              "−0.9",
+              "20"
+            ]
+          ]
+        }
+      ],
+      "choices": [
+        "A vertical asymptote at x = −1: outputs fall on the left and rise on the right",
+        "A vertical asymptote at x = −1: outputs rise without bound on both sides",
+        "A zero at x = −1, because the outputs change sign at that input",
+        "A hole at x = −1, because no output is listed for that input"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As x approaches −1 from the left, the outputs are negative and grow in size. From the right they are positive and grow in size. That is a vertical asymptote at x = −1 with different directions on the two sides.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "The outputs approach −∞ from the left and ∞ from the right.",
+        "The outputs on the left side are negative, so they do not rise on both sides.",
+        "A zero would need an output of 0 near x = −1. These outputs are large in size.",
+        "A hole needs outputs that stay near a finite value. These outputs grow without bound."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Compare the signs of the outputs on the two sides before choosing a direction.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-1-9-q06",
+      "topicId": "precalculus-1-9",
+      "concept": "one-sided-limits",
+      "difficulty": "Core",
+      "skill": "solve",
+      "prompt": "Which pair of statements is correct for r(x) = (x − 1)/(x + 2)²?",
+      "choices": [
+        "lim x→−2⁻ r(x) = ∞ and lim x→−2⁺ r(x) = ∞",
+        "lim x→−2⁻ r(x) = −∞ and lim x→−2⁺ r(x) = ∞",
+        "lim x→−2⁻ r(x) = ∞ and lim x→−2⁺ r(x) = −∞",
+        "lim x→−2⁻ r(x) = −∞ and lim x→−2⁺ r(x) = −∞"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Near x = −2 the numerator x − 1 is about −3, which is negative. The denominator (x + 2)² is positive on both sides. So the quotient is negative and large on both sides, and both limits are −∞.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "This ignores the negative numerator. The quotient is negative, not positive.",
+        "This treats the denominator as if it changed sign. A square stays positive on both sides.",
+        "The square in the denominator does not change sign, so the two limits cannot have opposite signs.",
+        "A negative numerator over a small positive square is large and negative on both sides."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Check the exponent on the factor, then the sign of the numerator.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-1-9-q07",
+      "topicId": "precalculus-1-9",
+      "concept": "multiplicity-effect",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "Which function has a vertical asymptote at x = 1 with outputs approaching −∞ from both sides?",
+      "choices": [
+        "r(x) = 1/(x − 1)²",
+        "r(x) = −1/(x − 1)²",
+        "r(x) = −1/(x − 1)³",
+        "r(x) = 1/(x − 1)³"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A squared factor gives the same direction on both sides, and the negative numerator makes that direction −∞.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "The numerator is positive here, so both limits are ∞, not −∞.",
+        "(x − 1)² is positive on both sides and −1 flips the sign, so both limits are −∞.",
+        "An odd power gives opposite directions: the limit is ∞ on the left and −∞ on the right.",
+        "An odd power gives opposite directions on the two sides, so both limits cannot be −∞."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Pick the exponent for the sides, then pick the numerator sign for the direction.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-1-9-q08",
+      "topicId": "precalculus-1-9",
+      "concept": "where-asymptotes",
+      "difficulty": "Core",
+      "skill": "support-conclusions",
+      "prompt": "A student says r(x) = x/(x² − 9) has vertical asymptotes at x = 0, x = 3, and x = −3. Which correction is right?",
+      "choices": [
+        "All three are correct, since each makes x(x − 3)(x + 3) zero",
+        "Only x = 3 is an asymptote, since x = −3 is negative",
+        "x = 0 is a zero of the numerator, not an asymptote",
+        "There is no vertical asymptote, because the numerator has a zero"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A vertical asymptote needs the denominator to be zero. At x = 0 the denominator is −9, and r(0) = 0, so x = 0 is a zero of the function. The asymptotes are x = 3 and x = −3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "The student mixed numerator and denominator. Only zeros of x² − 9 can give asymptotes.",
+        "Negative inputs can be asymptotes. The denominator is zero at both 3 and −3.",
+        "At x = 0 the numerator is zero and r(0) = 0. The asymptotes are at x = 3 and x = −3.",
+        "Zeros of the numerator do not remove the asymptotes at x = 3 and x = −3."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Test each claimed input in the denominator before calling it an asymptote.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    },
+    {
+      "id": "precalculus-1-9-q09",
+      "topicId": "precalculus-1-9",
+      "concept": "one-sided-limits",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "The time to drive 120 miles at a speed of s miles per hour is T(s) = 120/s hours, for s > 0. What does lim s→0⁺ T(s) = ∞ mean in this context?",
+      "choices": [
+        "The time shrinks to 0 hours as the speed gets close to 0 miles per hour",
+        "The speed grows without bound as the time gets close to 0 hours",
+        "The time approaches 120 hours as the speed gets close to 0 miles per hour",
+        "The time grows without bound as the speed gets close to 0 miles per hour"
+      ],
+      "correctAnswer": 3,
+      "explanation": "As the speed approaches 0 from above, the denominator gets small and positive, so 120/s gets very large. A slower trip takes more and more time.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "The limit is ∞, not 0. A slower speed means a longer drive, not a shorter one.",
+        "This reverses the roles of the variables. The limit describes the time, as the speed varies.",
+        "The time would be 120 hours at a speed of 1 mile per hour, but it keeps growing for slower speeds.",
+        "As s approaches 0 from above, T(s) increases without bound, so the time becomes arbitrarily long."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Read the limit as a sentence: as the input approaches a value, what happens to the output?",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-1-9-q10",
+      "topicId": "precalculus-1-9",
+      "concept": "multiplicity-effect",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "What happens to r(x) = (x + 3)/((x − 1)²(x − 4)) near x = 1?",
+      "choices": [
+        "Outputs decrease without bound on both sides of x = 1",
+        "Outputs increase without bound on both sides of x = 1",
+        "Outputs decrease on the left and increase on the right, both without bound",
+        "Outputs approach 0 on both sides of x = 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Near x = 1 the numerator is about 4 and the factor x − 4 is about −3, so the sign of the quotient is negative. The squared factor is positive on both sides, so the outputs head toward −∞ from both sides.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-1-9"
+      ],
+      "choiceExplanations": [
+        "(x − 1)² is positive on both sides, and the remaining factors give a negative sign, so both limits are −∞.",
+        "This ignores the negative factor x − 4 that multiplies the squared term in the denominator.",
+        "The squared factor does not change sign, so the outputs cannot go in opposite directions at x = 1.",
+        "The denominator is nearly 0 at x = 1, so the quotient is large in size, not close to 0."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Find the sign of every other factor near the asymptote, not only the squared one.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-1-9-quick",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "topicId": "precalculus-1-9",
+      "title": "Quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "precalculus-1-9-q01",
+        "precalculus-1-9-q02",
+        "precalculus-1-9-q03",
+        "precalculus-1-9-q04"
+      ]
+    },
+    {
+      "id": "precalculus-1-9-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "topicId": "precalculus-1-9",
+      "title": "Rational Functions and Vertical Asymptotes topic practice",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "precalculus-1-9-q05",
+        "precalculus-1-9-q06",
+        "precalculus-1-9-q07",
+        "precalculus-1-9-q08",
+        "precalculus-1-9-q09",
+        "precalculus-1-9-q10"
+      ]
+    }
+  ],
+  "concepts": {
+    "where-asymptotes": {
+      "id": "where-asymptotes",
+      "title": "Vertical asymptotes",
+      "section": "where-asymptotes",
+      "topicId": "precalculus-1-9"
+    },
+    "one-sided-limits": {
+      "id": "one-sided-limits",
+      "title": "One-sided limits",
+      "section": "one-sided-limits",
+      "topicId": "precalculus-1-9"
+    },
+    "multiplicity-effect": {
+      "id": "multiplicity-effect",
+      "title": "Multiplicity and asymptote behavior",
+      "section": "multiplicity-effect",
+      "topicId": "precalculus-1-9"
+    }
+  },
+  "assets": {}
+}
