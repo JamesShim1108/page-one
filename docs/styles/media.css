@@ -36,6 +36,32 @@
   text-align: center;
   color: var(--muted);
 }
+/* A placeholder card appears only if loading takes longer than 300 ms, so quick
+   navigations never flash it. The retry state (it contains a button) is left alone. */
+.page-loading:not(:has(.btn))::after {
+  content: "";
+  display: block;
+  width: min(640px, 100%);
+  height: 160px;
+  margin: 2rem auto 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: linear-gradient(90deg, var(--soft) 0%, #f4f8f5 50%, var(--soft) 100%) 0 0 /
+    200% 100%;
+  animation:
+    skeleton-in 240ms ease-out 300ms backwards,
+    skeleton-shimmer 1.4s linear 300ms infinite;
+}
+@keyframes skeleton-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes skeleton-shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
 
 @media (max-width: 700px) {
   .lesson-figure {
