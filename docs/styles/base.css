@@ -50,22 +50,22 @@ button:disabled {
   cursor: default;
 }
 a:focus-visible {
-  outline: 3px solid #b98227;
+  outline: 3px solid var(--gold);
   outline-offset: 5px;
   border-radius: 3px;
 }
 button:focus-visible {
-  outline: 3px solid #b98227;
+  outline: 3px solid var(--gold);
   outline-offset: 5px;
   border-radius: 3px;
 }
 input:focus-visible {
-  outline: 3px solid #b98227;
+  outline: 3px solid var(--gold);
   outline-offset: 5px;
   border-radius: 3px;
 }
 summary:focus-visible {
-  outline: 3px solid #b98227;
+  outline: 3px solid var(--gold);
   outline-offset: 5px;
   border-radius: 3px;
 }

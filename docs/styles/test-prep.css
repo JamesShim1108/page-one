@@ -315,7 +315,7 @@
   letter-spacing: 0.04em;
 }
 .tp-grid-in-input:focus-visible {
-  outline: 3px solid #b98227;
+  outline: 3px solid var(--gold);
   outline-offset: 2px;
 }
 .tp-grid-in-input[aria-invalid="true"] {

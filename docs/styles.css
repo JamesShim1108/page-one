@@ -1,13 +1,13 @@
 /* Keep this order: shared defaults, then component styles. */
-@import url("./styles/tokens.css?v=c1c4a4002a");
-@import url("./styles/base.css?v=0296cd4a79");
+@import url("./styles/tokens.css?v=a3d317b9cf");
+@import url("./styles/base.css?v=32bf25a351");
 @import url("./styles/icons.css?v=164452877e");
 @import url("./styles/layout.css?v=77f5210886");
 @import url("./styles/catalog.css?v=7bec266c1c");
 @import url("./styles/carousel.css?v=fda279d7a9");
 @import url("./styles/lesson.css?v=beb66ac406");
 @import url("./styles/reading.css?v=c50dd209f1");
-@import url("./styles/quiz.css?v=3f8fe042d8");
+@import url("./styles/quiz.css?v=8d4c4afa25");
 @import url("./styles/study.css?v=4ba155938d");
 @import url("./styles/media.css?v=2b873e537b");
 @import url("./styles/terms.css?v=595a2fe47d");
@@ -20,7 +20,7 @@
 @import url("./styles/backup.css?v=a2ef1aa253");
 @import url("./styles/offline.css?v=7cabe2014b");
 @import url("./styles/exam.css?v=634019a572");
-@import url("./styles/test-prep.css?v=4df33f74e0");
+@import url("./styles/test-prep.css?v=e3687f5710");
 @import url("./styles/mobile.css?v=fbd79ebd53");
 @import url("./styles/rounded.css?v=78d10b669b");
 @import url("./styles/motion.css?v=5e714e68f9");

@@ -36,7 +36,7 @@
 }
 .quiz-notice {
   padding: 0.8rem 1rem;
-  border: 1px solid #b98227;
+  border: 1px solid var(--gold);
   border-radius: 6px;
   background: #fff7e8;
   color: #60441b;
@@ -197,7 +197,7 @@
   cursor: pointer;
 }
 .question-nav-item.current {
-  outline: 3px solid #b98227;
+  outline: 3px solid var(--gold);
   outline-offset: 2px;
 }
 .question-nav-item.answered {
@@ -269,7 +269,7 @@
   border-color: var(--green);
 }
 .choice:has(input:focus-visible) {
-  outline: 3px solid #b98227;
+  outline: 3px solid var(--gold);
   outline-offset: 3px;
 }
 .choice input {
