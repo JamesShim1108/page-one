@@ -146,7 +146,7 @@ export function renderPracticeDocument({
   const questions = answerKey
     ? selection?.answerKey || []
     : selection?.studentQuestions || [];
-  const heading = answerKey ? `${title} — answer key` : title;
+  const heading = answerKey ? `${title}: answer key` : title;
   return `<article class="print-document__body print-practice-document" data-print-document="${answerKey ? "answer-key" : "student"}"><header class="print-document__heading"><p class="eyebrow">${answerKey ? "ANSWER KEY · SEPARATE DOCUMENT" : "PRACTICE WORKSHEET"}</p><h1>${esc(heading)}</h1><p>${questions.length} question${questions.length === 1 ? "" : "s"} · ${esc(selection?.source || "existing activity")}</p>${customNote ? `<p class="note">${esc(customNote)}</p>` : ""}</header>${questions.length ? questions.map((question, index) => renderQuestion(question, index, { key: answerKey, responseSpace: includeResponseSpace && !answerKey })).join("") : '<p class="print-empty">No complete existing practice questions are available for this selection.</p>'}${printUrlBlock(publicPath, { includeQr, note: customNote })}</article>`;
 }
 
