@@ -42,6 +42,8 @@ const STATIC_READING_RESOURCES = Object.freeze([
   "app/exam/engine.js",
   "app/exam/store.js",
   "app/exam/views.js",
+  "app/graph/expression.js",
+  "app/graph/render.js",
   "app/history.js",
   "app/main.js",
   "app/navigation-context.js",

@@ -3,6 +3,7 @@ import { readingMarkControls } from "./reading/marks.js";
 import { readingPath } from "./share/links.js";
 import { reportButton } from "./share/views.js";
 import { icon } from "./icons.js";
+import { renderGraph } from "./graph/render.js";
 
 export function stableBlockId(block, sectionId, index) {
   return block?.id || `${sectionId}-block-${index + 1}`;
@@ -13,6 +14,7 @@ function blockExcerpt(block) {
   if (block.type === "paragraph" || block.type === "callout" || block.type === "source")
     return block.text || "";
   if (block.type === "list") return (block.items || []).join(" ");
+  if (block.type === "graph") return block.caption || "";
   return "";
 }
 
@@ -102,6 +104,9 @@ export function renderBlocks(
           break;
         case "source":
           html = renderSource(block, renderText);
+          break;
+        case "graph":
+          html = renderGraph(block);
           break;
         default:
           throw new Error(`Unsupported content block: ${block.type}`);

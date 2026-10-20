@@ -90,6 +90,40 @@ export const lesson = {
           title: "Write it like the AP Exam",
           text: "f has a relative maximum at x = −1 because f changes from increasing to decreasing at x = −1. The relative maximum value is f(−1) = 2.",
         },
+        {
+          type: "graph",
+          caption:
+            "Graph of f(x) = x³ − 3x, with a relative maximum at x = −1 and a relative minimum at x = 1",
+          alt: "A cubic curve that rises to a peak at (−1, 2), falls to a low point at (1, −2), then rises again.",
+          window: {
+            x: [-2.5, 2.5],
+            y: [-4, 4],
+          },
+          ticks: {
+            x: 1,
+            y: 1,
+          },
+          functions: [
+            {
+              expr: "x^3 - 3x",
+              label: "f",
+              labelAt: 2.1,
+              labelPosition: "w",
+            },
+          ],
+          points: [
+            {
+              at: [-1, 2],
+              label: "(−1, 2)",
+              position: "n",
+            },
+            {
+              at: [1, -2],
+              label: "(1, −2)",
+              position: "s",
+            },
+          ],
+        },
       ],
       takeaway:
         "A relative extremum is greatest or least nearby. An absolute extremum is greatest or least over the whole domain.",

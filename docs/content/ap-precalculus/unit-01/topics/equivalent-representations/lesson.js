@@ -95,6 +95,36 @@ export const lesson = {
           title: "Write it like the AP Exam",
           text: "Show the identity that checks the division: (x − 1)(x + 4) + 9 = x² + 3x + 5.",
         },
+        {
+          type: "graph",
+          caption: "Graph of (x² + 3x + 5)/(x − 1) with its slant asymptote y = x + 4",
+          alt: "A two-branch curve with a dashed vertical asymptote at x = 1; both branches approach the dashed slanted line y = x + 4.",
+          window: {
+            x: [-8, 10],
+            y: [-20, 30],
+          },
+          ticks: {
+            x: 2,
+            y: 5,
+          },
+          functions: [
+            {
+              expr: "(x^2 + 3x + 5)/(x - 1)",
+              label: "r",
+              labelAt: 7,
+              labelPosition: "nw",
+            },
+          ],
+          asymptotes: [
+            {
+              x: 1,
+            },
+            {
+              slope: 1,
+              intercept: 4,
+            },
+          ],
+        },
       ],
       takeaway:
         "The quotient gives the slant asymptote, and the remainder term approaches 0 at the ends.",

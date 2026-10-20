@@ -69,6 +69,45 @@ export const lesson = {
           type: "paragraph",
           text: "A factor with even multiplicity does not change the sign. In r(x) = (x − 2)²(x + 1)/(x − 5), the sign of r(x) is the same on both sides of x = 2.",
         },
+        {
+          type: "graph",
+          caption:
+            "Graph of r(x) = (x + 2)(x − 1)/(x − 4): negative, positive, negative, positive",
+          alt: "A rational function with zeros at x = −2 and x = 1 and a vertical asymptote at x = 4. It is below the x-axis left of −2, above between −2 and 1, below between 1 and 4, and above right of 4.",
+          window: {
+            x: [-5, 11],
+            y: [-12, 28],
+          },
+          ticks: {
+            x: 1,
+            y: 4,
+          },
+          functions: [
+            {
+              expr: "(x + 2)(x - 1)/(x - 4)",
+              label: "r",
+              labelAt: 7,
+              labelPosition: "nw",
+            },
+          ],
+          asymptotes: [
+            {
+              x: 4,
+            },
+          ],
+          points: [
+            {
+              at: [-2, 0],
+              label: "(−2, 0)",
+              position: "nw",
+            },
+            {
+              at: [1, 0],
+              label: "(1, 0)",
+              position: "ne",
+            },
+          ],
+        },
       ],
       takeaway:
         "Mark every real zero of the numerator and denominator, test one value in each interval, and watch for even multiplicity.",

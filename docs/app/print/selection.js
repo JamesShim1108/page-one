@@ -42,20 +42,25 @@ export function studentQuestion(question) {
     stimulus: question.stimulus || question.context || question.passage || "",
     choices: (question.choices || []).map(safeChoice),
     stimulusBlocks: Array.isArray(question.stimulusBlocks)
-      ? question.stimulusBlocks.map((block) => ({
-          type: block.type || "paragraph",
-          title: block.title || "",
-          text: block.text || "",
-          items: Array.isArray(block.items) ? [...block.items] : [],
-          ordered: block.ordered === true,
-          caption: block.caption || "",
-          columns: Array.isArray(block.columns) ? [...block.columns] : [],
-          rows: Array.isArray(block.rows) ? clone(block.rows) : [],
-          alt: block.alt || "",
-          sourceType: block.sourceType || "",
-          attribution: block.attribution || "",
-          citation: block.citation || "",
-        }))
+      ? question.stimulusBlocks.map((block) =>
+          // A graph is drawn from its whole spec, which holds no answer information.
+          block.type === "graph"
+            ? clone(block)
+            : {
+                type: block.type || "paragraph",
+                title: block.title || "",
+                text: block.text || "",
+                items: Array.isArray(block.items) ? [...block.items] : [],
+                ordered: block.ordered === true,
+                caption: block.caption || "",
+                columns: Array.isArray(block.columns) ? [...block.columns] : [],
+                rows: Array.isArray(block.rows) ? clone(block.rows) : [],
+                alt: block.alt || "",
+                sourceType: block.sourceType || "",
+                attribution: block.attribution || "",
+                citation: block.citation || "",
+              },
+        )
       : [],
     parts: Array.isArray(question.parts)
       ? question.parts.map((part) => ({

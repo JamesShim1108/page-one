@@ -267,7 +267,7 @@
     "summary": "Constructing polynomial, piecewise-defined, and rational models from conditions, transformations, or regression, and applying a model to answer questions with units."
   },
   "framework": null,
-  "contentRevision": "860b22e244c617f6",
+  "contentRevision": "794a88ebec0d0313",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-14",
@@ -427,6 +427,76 @@
             "type": "callout",
             "title": "Write it like the AP Exam",
             "text": "Avoid rounding intermediate computations. Unless the question says otherwise, report decimal approximations accurate to three places after the decimal point."
+          },
+          {
+            "type": "graph",
+            "caption": "The data with the quadratic regression model",
+            "alt": "Six data points rising more and more steeply from (0, 2.1) to (5, 32.2), with a smooth upward-curving regression curve passing close to every point.",
+            "window": {
+              "x": [
+                -0.5,
+                6.5
+              ],
+              "y": [
+                0,
+                50
+              ]
+            },
+            "ticks": {
+              "x": 1,
+              "y": 10
+            },
+            "functions": [
+              {
+                "expr": "1.010714286x^2 + 0.949285714x + 2.078571429",
+                "domain": [
+                  0,
+                  6.3
+                ],
+                "color": 2,
+                "label": "model",
+                "labelAt": 6,
+                "labelPosition": "w"
+              }
+            ],
+            "points": [
+              {
+                "at": [
+                  0,
+                  2.1
+                ]
+              },
+              {
+                "at": [
+                  1,
+                  3.9
+                ]
+              },
+              {
+                "at": [
+                  2,
+                  8.2
+                ]
+              },
+              {
+                "at": [
+                  3,
+                  14.1
+                ]
+              },
+              {
+                "at": [
+                  4,
+                  21.8
+                ]
+              },
+              {
+                "at": [
+                  5,
+                  32.2
+                ]
+              }
+            ]
           }
         ],
         "takeaway": "Choose the regression type yourself, keep full precision, and report three decimal places."

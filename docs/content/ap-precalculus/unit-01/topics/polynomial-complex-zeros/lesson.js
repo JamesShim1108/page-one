@@ -94,6 +94,40 @@ export const lesson = {
             ],
           ],
         },
+        {
+          type: "graph",
+          caption:
+            "Graph of p(x) = (x + 1)²(x − 2)³: tangent to the x-axis at x = −1, crossing at x = 2",
+          alt: "A curve that comes up to touch the x-axis at x = −1 and turns back down, then later crosses the x-axis at x = 2, flattening as it crosses.",
+          window: {
+            x: [-2.5, 3],
+            y: [-20, 12],
+          },
+          ticks: {
+            x: 1,
+            y: 4,
+          },
+          functions: [
+            {
+              expr: "(x + 1)^2 (x - 2)^3",
+              label: "p",
+              labelAt: 2.7,
+              labelPosition: "w",
+            },
+          ],
+          points: [
+            {
+              at: [-1, 0],
+              label: "(−1, 0)",
+              position: "n",
+            },
+            {
+              at: [2, 0],
+              label: "(2, 0)",
+              position: "se",
+            },
+          ],
+        },
       ],
       takeaway:
         "Even multiplicity: same sign on both sides and tangent to the x-axis. Odd multiplicity: the sign changes and the graph crosses.",

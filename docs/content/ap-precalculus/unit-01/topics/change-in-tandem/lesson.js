@@ -98,6 +98,39 @@ export const lesson = {
           title: "Write it like the AP Exam",
           text: "On the interval 0 < t < 1.5, as t increases, h(t) increases. On the interval 1.5 < t < 3, as t increases, h(t) decreases. Telling open intervals apart from closed intervals when you state where a function is increasing or decreasing is outside the scope of the course, so either form is accepted.",
         },
+        {
+          type: "graph",
+          caption: "Graph of h(t) = −16t² + 48t + 6",
+          alt: "A downward-opening parabola that rises from (0, 6) to its highest point (1.5, 42) and then falls back to (3, 6).",
+          window: {
+            x: [0, 3.2],
+            y: [0, 48],
+          },
+          ticks: {
+            x: 0.5,
+            y: 6,
+          },
+          axisLabels: {
+            x: "t",
+            y: "h(t)",
+          },
+          functions: [
+            {
+              expr: "-16t^2 + 48t + 6",
+              variable: "t",
+              domain: [0, 3],
+              label: "h",
+              labelAt: 2.6,
+            },
+          ],
+          points: [
+            {
+              at: [1.5, 42],
+              label: "(1.5, 42)",
+              position: "n",
+            },
+          ],
+        },
       ],
       takeaway:
         "State the interval, then say how the output values change as the input values increase.",
@@ -184,6 +217,36 @@ export const lesson = {
           type: "callout",
           title: "Write it like the AP Exam",
           text: "The graph of f is concave up on the interval 0 < x < 3 because the rate of change of f is increasing on that interval. For a decreasing function, name the rate of change directly, as in the table, so the reader cannot misread which rate you mean.",
+        },
+        {
+          type: "graph",
+          caption: "Both functions are increasing; f is concave up and g is concave down",
+          alt: "Two increasing curves from the origin. The curve f bends upward, getting steeper. The curve g bends downward, getting flatter.",
+          window: {
+            x: [0, 3.2],
+            y: [0, 10],
+          },
+          ticks: {
+            x: 1,
+            y: 2,
+          },
+          functions: [
+            {
+              expr: "x^2",
+              domain: [0, 3],
+              label: "f",
+              labelAt: 2.9,
+              labelPosition: "w",
+            },
+            {
+              expr: "6x - x^2",
+              domain: [0, 3],
+              label: "g",
+              color: 2,
+              labelAt: 2.2,
+              labelPosition: "nw",
+            },
+          ],
         },
       ],
       takeaway:

@@ -146,6 +146,34 @@ export const lesson = {
           type: "paragraph",
           text: "Here the quotient of the leading terms is 2x³/x² = 2x, and the graph approaches the slant asymptote y = 2x. For (x² + 3x + 5)/(x − 1), the quotient of the leading terms is x, so the slant asymptote is parallel to y = x. Polynomial long division in Topic 1.11 gives its exact equation, y = x + 4.",
         },
+        {
+          type: "graph",
+          caption:
+            "Graph of r(x) = (2x³ − x)/(x² + 1) approaching its slant asymptote y = 2x",
+          alt: "A curve that follows the dashed line y = 2x for large positive and negative x and wiggles slightly near the origin.",
+          window: {
+            x: [-5, 5],
+            y: [-10, 10],
+          },
+          ticks: {
+            x: 1,
+            y: 2,
+          },
+          functions: [
+            {
+              expr: "(2x^3 - x)/(x^2 + 1)",
+              label: "r",
+              labelAt: 3.8,
+              labelPosition: "se",
+            },
+          ],
+          asymptotes: [
+            {
+              slope: 2,
+              intercept: 0,
+            },
+          ],
+        },
       ],
       takeaway:
         "A linear quotient of the leading terms gives the slope of the slant asymptote. Long division gives the exact line.",

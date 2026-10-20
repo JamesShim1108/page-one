@@ -1,5 +1,6 @@
 // Content contracts run before generated browser data is written.
 import { excerptSourceFor } from "./excerpt-sources.mjs";
+import { validateGraph } from "./validate-graph.mjs";
 
 const SOURCE_BLOCK_TYPES = new Set(["primary", "secondary", "original"]);
 const AMSCO_REVIEW_STATES = new Set(["pending", "complete"]);
@@ -223,6 +224,9 @@ export function validateBlocks(blocks, assets, location, stableIds = new Set()) 
             `primary excerpt ${block.id} has no registered edition in scripts/lib/excerpt-sources.mjs`,
           );
         }
+        break;
+      case "graph":
+        validateGraph(block, at);
         break;
       default:
         throw new Error(`${at}: unsupported block type ${block.type}`);
@@ -653,11 +657,11 @@ export function validateWriting(
     for (const block of quiz.stimulusBlocks)
       requireValue(
         quiz.exerciseType === "frq"
-          ? ["paragraph", "table", "list", "callout"].includes(block.type)
+          ? ["paragraph", "table", "list", "callout", "graph"].includes(block.type)
           : block.type === "source",
         location,
         quiz.exerciseType === "frq"
-          ? "FRQ stimulusBlocks must be paragraphs, tables, lists, or callouts"
+          ? "FRQ stimulusBlocks must be paragraphs, tables, lists, callouts, or graphs"
           : "writing stimulusBlocks must be source excerpts",
       );
   }

@@ -57,6 +57,36 @@ export const lesson = {
           title: "No real zero in the denominator, no vertical asymptote",
           text: "The denominator of (x + 1)/(x² + 4) is at least 4 for every x, so the graph has no vertical asymptote.",
         },
+        {
+          type: "graph",
+          caption:
+            "Graph of r(x) = (x + 1)/(x − 3) with vertical asymptote x = 3 and horizontal asymptote y = 1",
+          alt: "A two-branch curve. Left of x = 3 it falls toward negative infinity; right of x = 3 it comes down from positive infinity. Both branches level off toward the dashed line y = 1.",
+          window: {
+            x: [-6, 12],
+            y: [-8, 10],
+          },
+          ticks: {
+            x: 2,
+            y: 2,
+          },
+          functions: [
+            {
+              expr: "(x + 1)/(x - 3)",
+              label: "r",
+              labelAt: 6,
+              labelPosition: "ne",
+            },
+          ],
+          asymptotes: [
+            {
+              x: 3,
+            },
+            {
+              y: 1,
+            },
+          ],
+        },
       ],
       takeaway:
         "Compare the multiplicity of each real zero of the denominator with its multiplicity in the numerator.",

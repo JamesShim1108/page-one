@@ -267,7 +267,7 @@
     "summary": "Average rates of change for sequences, linear functions, and quadratic functions, secant lines, and how the change in average rates of change reveals concavity."
   },
   "framework": null,
-  "contentRevision": "5ba8825d2b8f8153",
+  "contentRevision": "84ca44c9fb6cce3e",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-3",
@@ -410,6 +410,65 @@
           {
             "type": "paragraph",
             "text": "Different intervals give secant lines with different slopes unless the function is linear. That is a picture of why only a linear function has a constant average rate of change."
+          },
+          {
+            "type": "graph",
+            "caption": "Secant line of f(x) = x² from (1, 1) to (3, 9), with slope 4",
+            "alt": "An upward-opening parabola with a dashed line through the points (1, 1) and (3, 9).",
+            "window": {
+              "x": [
+                -1,
+                4
+              ],
+              "y": [
+                -1,
+                12
+              ]
+            },
+            "ticks": {
+              "x": 1,
+              "y": 2
+            },
+            "functions": [
+              {
+                "expr": "x^2",
+                "label": "f",
+                "labelAt": 3.3,
+                "labelPosition": "w"
+              }
+            ],
+            "segments": [
+              {
+                "from": [
+                  0,
+                  -3
+                ],
+                "to": [
+                  4,
+                  13
+                ],
+                "dashed": true,
+                "color": 2
+              }
+            ],
+            "points": [
+              {
+                "at": [
+                  1,
+                  1
+                ],
+                "label": "(1, 1)",
+                "position": "se"
+              },
+              {
+                "at": [
+                  3,
+                  9
+                ],
+                "label": "(3, 9)",
+                "position": "nw"
+              }
+            ]
           }
         ],
         "takeaway": "Average rate of change over [a, b] and the slope of the secant line are the same number."

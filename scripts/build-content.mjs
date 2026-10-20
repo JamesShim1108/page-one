@@ -93,6 +93,7 @@ const blockReadingText = (block) => {
   if (block.type === "list") return block.items || [];
   if (block.type === "table")
     return [block.caption, ...(block.columns || []), ...(block.rows || []).flat()];
+  if (block.type === "graph") return [block.caption];
   return [];
 };
 const lessonReadingText = (lesson) =>

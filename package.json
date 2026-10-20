@@ -13,7 +13,8 @@
     "format:check": "prettier --check .",
     "check": "npm run validate && npm test && npm run format:check",
     "image": "node scripts/prepare-image.mjs",
-    "stamp": "node scripts/stamp-release.mjs"
+    "stamp": "node scripts/stamp-release.mjs",
+    "graphs": "node scripts/preview-graphs.mjs"
   },
   "devDependencies": {
     "prettier": "3.9.6",

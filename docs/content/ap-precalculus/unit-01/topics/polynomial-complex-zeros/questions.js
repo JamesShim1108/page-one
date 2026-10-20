@@ -200,28 +200,51 @@ export const bank = {
       topicId: "precalculus-1-5",
       concept: "multiplicity",
       difficulty: "Core",
-      skill: "equivalent-forms",
+      skill: "construct-representations",
       prompt:
-        "Which of the following is an expression for a polynomial function of degree 3 that has a zero at x = 2 and a zero of multiplicity 2 at x = −1?",
+        "The figure shows the graph of a polynomial function g. Which of the following could be an expression for g(x)?",
+      stimulusBlocks: [
+        {
+          type: "graph",
+          caption: "Graph of y = g(x)",
+          alt: "A polynomial graph that crosses the x-axis at x = −4, touches the x-axis and turns back at x = 1, and crosses the x-axis again at x = 5. It is negative between −4 and 5 except at x = 1, and positive for x < −4 and x > 5.",
+          window: {
+            x: [-6, 7],
+            y: [-16, 12],
+          },
+          ticks: {
+            x: 1,
+            y: 4,
+          },
+          functions: [
+            {
+              expr: "0.1(x + 4)(x - 1)^2 (x - 5)",
+              label: "g",
+              labelAt: 6.2,
+              labelPosition: "w",
+            },
+          ],
+        },
+      ],
       choices: [
-        "(x + 2)(x − 1)²",
-        "(x − 2)²(x + 1)",
-        "(x − 2)(x + 1)",
-        "(x − 2)(x + 1)²",
+        "0.1(x − 4)(x + 1)²(x + 5)",
+        "0.1(x + 4)²(x − 1)(x − 5)",
+        "−0.1(x + 4)(x − 1)²(x − 5)",
+        "0.1(x + 4)(x − 1)²(x − 5)",
       ],
       correctAnswer: 3,
       explanation:
-        "The zero 2 gives the linear factor (x − 2), and the zero −1 with multiplicity 2 gives (x + 1)². The product has degree 3.",
+        "The graph crosses the x-axis at x = −4 and x = 5, so those zeros have odd multiplicity, and it is tangent to the x-axis at x = 1, so that zero has even multiplicity. The ends rise, so the leading coefficient is positive: 0.1(x + 4)(x − 1)²(x − 5).",
       sourceIds: ["ced", "ced-topic-1-5"],
       choiceExplanations: [
-        "The signs are reversed, giving zeros at −2 and 1.",
-        "The multiplicities are swapped: this gives 2 multiplicity 2 and −1 multiplicity 1.",
-        "This has degree 2, so −1 has multiplicity 1.",
-        "(x − 2)(x + 1)² has the zero 2 once and the zero −1 twice.",
+        "The signs are reversed: this has zeros at 4, −1, and −5.",
+        "This makes −4 the zero of even multiplicity, so the graph would be tangent at x = −4, not x = 1.",
+        "The negative leading coefficient would make both ends decrease without bound.",
+        "Odd multiplicity at −4 and 5, even multiplicity at 1, and a positive leading coefficient match the graph.",
       ],
       nearMissIndex: 1,
       distinguisher:
-        "Check the sign in each factor and which factor carries the exponent.",
+        "Read multiplicity from crossing versus tangency, then check the end behavior for the sign.",
     },
     {
       id: "precalculus-1-5-q09",

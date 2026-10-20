@@ -109,6 +109,39 @@ export const lesson = {
           type: "paragraph",
           text: "A parking garage charges $3 per hour for the first 2 hours and $1 per hour after that. The cost is modeled by C(t) = 3t for 0 ≤ t ≤ 2 and C(t) = 6 + (t − 2) for t > 2. Each piece is linear, but the rate of change is 3 dollars per hour on the first interval and 1 dollar per hour on the second.",
         },
+        {
+          type: "graph",
+          caption: "Parking cost C(t): two linear pieces that meet at t = 2",
+          alt: "A line from (0, 0) to (2, 6) with slope 3, followed by a less steep line from (2, 6) with slope 1.",
+          window: {
+            x: [0, 8],
+            y: [0, 14],
+          },
+          ticks: {
+            x: 1,
+            y: 2,
+          },
+          axisLabels: {
+            x: "t (hours)",
+            y: "C (dollars)",
+          },
+          functions: [
+            {
+              expr: "3t",
+              variable: "t",
+              domain: [0, 2],
+              endpoints: ["closed", null],
+              label: "C",
+              labelAt: 1,
+              labelPosition: "nw",
+            },
+            {
+              expr: "6 + (t - 2)",
+              variable: "t",
+              domain: [2, 8],
+            },
+          ],
+        },
       ],
       takeaway:
         "Use a piecewise-defined model when the rate or pattern changes at a known input value.",

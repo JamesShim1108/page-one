@@ -55,6 +55,48 @@ export const lesson = {
           title: "Write it like the AP Exam",
           text: "The graph of g(x) = f(x − 3) + 2 is the graph of f translated horizontally by 3 units and vertically by 2 units.",
         },
+        {
+          type: "graph",
+          caption:
+            "f(x) = x² and g(x) = f(x − 3) + 2: a horizontal translation by 3 units and a vertical translation by 2 units",
+          alt: "Two congruent upward-opening parabolas. The parabola f has vertex (0, 0); the dashed parabola g has vertex (3, 2).",
+          window: {
+            x: [-3, 6],
+            y: [-1, 9],
+          },
+          ticks: {
+            x: 1,
+            y: 1,
+          },
+          functions: [
+            {
+              expr: "x^2",
+              label: "f",
+              labelAt: -2.2,
+              labelPosition: "e",
+            },
+            {
+              expr: "(x - 3)^2 + 2",
+              label: "g",
+              color: 2,
+              dashed: true,
+              labelAt: 5.2,
+              labelPosition: "e",
+            },
+          ],
+          points: [
+            {
+              at: [0, 0],
+              label: "(0, 0)",
+              position: "se",
+            },
+            {
+              at: [3, 2],
+              label: "(3, 2)",
+              position: "se",
+            },
+          ],
+        },
       ],
       takeaway:
         "f(x + h) translates horizontally by −h units. f(x) + k translates vertically by k units.",

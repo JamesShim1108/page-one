@@ -1,5 +1,6 @@
 import { escapeHtml as esc } from "../ui.js";
 import { renderBlocks } from "../blocks.js";
+import { renderGraph } from "../graph/render.js";
 import { formatWritingExport } from "../writing/export.js";
 import { qrSvg } from "../share/qr.js";
 import { publicUrl } from "../share/links.js";
@@ -108,6 +109,7 @@ function renderQuestion(question, index, { key = false, responseSpace = false } 
         return `<div class="table-wrap"><table><caption>${esc(block.caption)}</caption><thead><tr>${(block.columns || []).map((column) => `<th scope="col">${esc(column)}</th>`).join("")}</tr></thead><tbody>${(block.rows || []).map((row) => `<tr>${row.map((cell, cellIndex) => (cellIndex === 0 ? `<th scope="row">${esc(cell)}</th>` : `<td>${esc(cell)}</td>`)).join("")}</tr>`).join("")}</tbody></table></div>`;
       if (block.type === "image")
         return block.alt ? `<p class="muted">[Image: ${esc(block.alt)}]</p>` : "";
+      if (block.type === "graph") return renderGraph(block);
       if (block.type === "source")
         return `<figure class="print-source"><figcaption><strong>${esc(block.sourceType === "original" ? "Practice passage written by Page One" : block.sourceType === "secondary" ? "Secondary source" : "Primary source")}.</strong> ${esc(block.attribution || "")}</figcaption><blockquote>${String(
           block.text || "",
@@ -187,6 +189,7 @@ function printSourceBlock(block, heading = "") {
 // Free-response math questions print their given tables and definitions.
 function printGivenBlock(block) {
   if (block.type === "paragraph") return `<p>${esc(block.text)}</p>`;
+  if (block.type === "graph") return renderGraph(block);
   if (block.type === "callout")
     return `<aside class="note"><strong>${esc(block.title)}</strong> ${esc(block.text)}</aside>`;
   if (block.type === "list")

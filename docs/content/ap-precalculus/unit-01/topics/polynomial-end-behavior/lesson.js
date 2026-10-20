@@ -110,6 +110,27 @@ export const lesson = {
           type: "paragraph",
           text: "Real zeros, relative extrema, and points of inflection describe the middle of the graph. They never change the end behavior, which depends only on the leading term.",
         },
+        {
+          type: "graph",
+          caption: "Graph of p(x) = −2x⁴ + 5x³ − x: both ends decrease without bound",
+          alt: "A quartic curve that comes up from the bottom left, has a few turns near the origin, and goes back down at the bottom right.",
+          window: {
+            x: [-1.5, 3],
+            y: [-10, 8],
+          },
+          ticks: {
+            x: 0.5,
+            y: 2,
+          },
+          functions: [
+            {
+              expr: "-2x^4 + 5x^3 - x",
+              label: "p",
+              labelAt: 0.4,
+              labelPosition: "s",
+            },
+          ],
+        },
       ],
       takeaway:
         "Even degree: both ends go the same way. Odd degree: the ends go opposite ways. The sign of the leading coefficient sets the direction as x → ∞.",

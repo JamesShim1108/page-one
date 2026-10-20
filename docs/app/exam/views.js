@@ -2,6 +2,7 @@
 // small UI flags from the controller; they never change state themselves.
 import { escapeHtml as esc, arrow, breadcrumbs, link } from "../ui.js";
 import { renderSource } from "../blocks.js";
+import { renderGraph } from "../graph/render.js";
 import {
   breakRemainingMs,
   chosenOptions,
@@ -175,8 +176,8 @@ export function mcqPage(data, store, ui = {}, now = Date.now()) {
   // A stimulus is repeated on every question in its set, as on screen in the AP exam.
   const setStart = !previous || previous.stimulusId !== question.stimulusId;
   const stimulus = (question.stimulusBlocks || [])
-    .filter((block) => block.type === "source")
-    .map((block) => renderSource(block))
+    .filter((block) => block.type === "source" || block.type === "graph")
+    .map((block) => (block.type === "graph" ? renderGraph(block) : renderSource(block)))
     .join("");
   const choices = question.choices
     .map(

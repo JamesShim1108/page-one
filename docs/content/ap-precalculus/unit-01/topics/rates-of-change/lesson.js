@@ -58,6 +58,54 @@ export const lesson = {
           title: "Write it like the AP Exam",
           text: "Show the computation, then interpret it with the interval, the direction, and units: (s(5) − s(2))/(5 − 2) = 12. From t = 2 to t = 5 seconds, on average, the position of the cyclist increased at a rate of 12 meters per second.",
         },
+        {
+          type: "graph",
+          caption:
+            "The average rate of change of s over [2, 5] is the slope of the dashed secant line",
+          alt: "The curve s(t) = t² + 5t with a dashed line through the points (2, 14) and (5, 50) on the curve.",
+          window: {
+            x: [0, 6],
+            y: [0, 70],
+          },
+          ticks: {
+            x: 1,
+            y: 10,
+          },
+          axisLabels: {
+            x: "t",
+            y: "s(t)",
+          },
+          functions: [
+            {
+              expr: "t^2 + 5t",
+              variable: "t",
+              domain: [0, 6],
+              label: "s",
+              labelAt: 5.6,
+              labelPosition: "w",
+            },
+          ],
+          segments: [
+            {
+              from: [2, 14],
+              to: [5, 50],
+              dashed: true,
+              color: 2,
+            },
+          ],
+          points: [
+            {
+              at: [2, 14],
+              label: "(2, 14)",
+              position: "se",
+            },
+            {
+              at: [5, 50],
+              label: "(5, 50)",
+              position: "nw",
+            },
+          ],
+        },
       ],
       takeaway:
         "Average rate of change = (change in output values)/(change in input values), stated for an interval and with units.",

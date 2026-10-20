@@ -286,30 +286,54 @@ export const bank = {
     {
       id: "precalculus-1-1-q09",
       topicId: "precalculus-1-1",
-      concept: "zeros",
+      concept: "concavity",
       difficulty: "Apply",
-      skill: "apply-results",
+      skill: "identify-information",
       prompt:
-        "The function h gives the height, in meters, of a drone t seconds after it is launched. Which of the following is the best interpretation of h(12) = 0 in context?",
-      choices: [
-        "The drone is 12 meters above the ground when it lands.",
-        "At 12 seconds after launch, the drone is at a height of 0 meters.",
-        "The drone is at ground level at both t = 0 and t = 12 seconds.",
-        "The greatest height of the drone is 12 meters.",
+        "The depth of water, in feet, in a pond is modeled by the function W. The graph of y = W(t) is shown for 0 ≤ t ≤ 9, where t is the number of days since the first day of a month. What are all intervals of t on which the depth of water is increasing at a decreasing rate?",
+      stimulusBlocks: [
+        {
+          type: "graph",
+          caption: "Graph of y = W(t)",
+          alt: "A curve that starts at (0, 2), rises with increasing steepness to (3, 4), keeps rising but flattens to a peak at (6, 6), and then falls to (9, 2).",
+          window: {
+            x: [0, 9],
+            y: [0, 7],
+          },
+          ticks: {
+            x: 1,
+            y: 1,
+          },
+          axisLabels: {
+            x: "t",
+            y: "W(t)",
+          },
+          functions: [
+            {
+              expr: "-t^3/27 + t^2/3 + 2",
+              variable: "t",
+              domain: [0, 9],
+              label: "W",
+              labelAt: 7.5,
+              labelPosition: "ne",
+            },
+          ],
+        },
       ],
+      choices: ["(0, 3)", "(3, 6) only", "(0, 6)", "(6, 9)"],
       correctAnswer: 1,
       explanation:
-        "The input value 12 is a time in seconds, and the output value 0 is a height in meters. So 12 is a zero of h, and the drone is at ground level 12 seconds after launch.",
+        "W is increasing on (0, 6). On (0, 3) the graph is concave up, so the rate of change is increasing; on (3, 6) it is concave down, so the rate of change is decreasing. W is increasing at a decreasing rate on (3, 6) only.",
       sourceIds: ["ced", "ced-topic-1-1"],
       choiceExplanations: [
-        "The 12 is the input value, a time in seconds. The height at that time is 0 meters.",
-        "The input value 12 is in seconds and the output value 0 is in meters.",
-        "Only the height at t = 12 is given. The statement says nothing about t = 0.",
-        "h(12) = 0 gives one input-output pair. It says nothing about the greatest height.",
+        "On (0, 3) the graph is concave up, so W is increasing at an increasing rate.",
+        "On (3, 6), W is increasing and the graph is concave down, so the rate of change is decreasing.",
+        "On (0, 3) the rate of change is increasing, so the whole interval (0, 6) does not work.",
+        "On (6, 9), W is decreasing.",
       ],
       nearMissIndex: 0,
       distinguisher:
-        "Attach units to each value: the input value is a time and the output value is a height.",
+        "Increasing at a decreasing rate needs both: the graph rises, and it is concave down.",
     },
     {
       id: "precalculus-1-1-q10",

@@ -86,6 +86,36 @@ export const lesson = {
           title: "Write it like the AP Exam",
           text: "Because x − 2 is a factor of both the numerator and the denominator with equal multiplicity, the graph of r has a hole at x = 2. Since lim x→2 r(x) = 4, the hole is located at (2, 4).",
         },
+        {
+          type: "graph",
+          caption:
+            "Graph of r(x) = (x² − 4)/(x − 2): the line y = x + 2 with a hole at (2, 4)",
+          alt: "A straight line rising through (−2, 0) with an open circle at (2, 4), where the function is undefined.",
+          window: {
+            x: [-4, 5],
+            y: [-2, 8],
+          },
+          ticks: {
+            x: 1,
+            y: 1,
+          },
+          functions: [
+            {
+              expr: "(x^2 - 4)/(x - 2)",
+              label: "r",
+              labelAt: -1,
+              labelPosition: "nw",
+            },
+          ],
+          points: [
+            {
+              at: [2, 4],
+              open: true,
+              label: "(2, 4)",
+              position: "se",
+            },
+          ],
+        },
       ],
       takeaway: "Remove the common factor, then evaluate what remains at c to find L.",
     },
@@ -106,6 +136,44 @@ export const lesson = {
         {
           type: "paragraph",
           text: "For r(x) = (x − 1)(x + 3)/((x − 1)(x − 2)): at x = 1 the multiplicities are equal, so there is a hole, and lim x→1 r(x) = (1 + 3)/(1 − 2) = −4, so the hole is at (1, −4). At x = 2 the numerator is not 0, so there is a vertical asymptote at x = 2.",
+        },
+        {
+          type: "graph",
+          caption:
+            "Graph of r(x) = (x − 1)(x + 3)/((x − 1)(x − 2)): a hole at (1, −4) and a vertical asymptote at x = 2",
+          alt: "A two-branch rational curve with a dashed vertical asymptote at x = 2, a dashed horizontal asymptote at y = 1, and an open circle at (1, −4) on the left branch.",
+          window: {
+            x: [-6, 8],
+            y: [-10, 10],
+          },
+          ticks: {
+            x: 1,
+            y: 2,
+          },
+          functions: [
+            {
+              expr: "(x - 1)(x + 3)/((x - 1)(x - 2))",
+              label: "r",
+              labelAt: 5,
+              labelPosition: "ne",
+            },
+          ],
+          asymptotes: [
+            {
+              x: 2,
+            },
+            {
+              y: 1,
+            },
+          ],
+          points: [
+            {
+              at: [1, -4],
+              open: true,
+              label: "(1, −4)",
+              position: "w",
+            },
+          ],
         },
       ],
       takeaway: "Check every real zero of the denominator separately.",
