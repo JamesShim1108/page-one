@@ -12,95 +12,107 @@ export const lesson = {
   period: "Unit 1",
   status: "ready",
   summary:
-    "Rewriting expressions by factoring, expanding, dividing, and using the binomial theorem, and choosing the form that shows what you need.",
-  minutes: 14,
+    "Factored and standard forms, polynomial long division, and the binomial theorem, and which form answers which question.",
+  minutes: 15,
   learningGoals: [
-    "Choose between factored, expanded, and divided forms based on what you want to learn about a function.",
-    "Rewrite a rational expression as a quotient plus a remainder using polynomial long division.",
-    "Expand a power of a binomial using the binomial theorem.",
+    "1.11.A Rewrite polynomial and rational expressions in equivalent forms.",
+    "1.11.B Determine the quotient of two polynomial functions using long division.",
+    "1.11.C Rewrite the repeated product of binomials using the binomial theorem.",
   ],
+  labels: {
+    goals: "AP learning objectives",
+    learn: "Understand the mathematics.",
+    context: "Where this fits.",
+  },
   bigIdea:
-    "Equivalent expressions give the same outputs, but each form makes some features easy to see and others hard. Skilled work with functions includes choosing the form that fits the question.",
+    "Equivalent analytic representations of the same function reveal different information. Factored form shows real zeros, holes, asymptotes, domain, and range. Standard form shows end behavior. Long division gives slant asymptotes, and the binomial theorem expands powers of binomials.",
   context:
-    "Earlier topics factored expressions to find zeros, holes, and asymptotes, and divided to find a slant asymptote. This topic gathers those moves and adds the binomial theorem for expanding powers.",
+    "Earlier topics factored to find zeros, holes, and vertical asymptotes, and compared leading terms to find end behavior. This topic names those forms and adds two tools the CED requires: polynomial long division and the binomial theorem.",
   sections: [
     {
       id: "choose-form",
-      title: "Each form of an expression shows different features.",
+      title: "1.11.A · Factored form and standard form reveal different information.",
       conceptTitle: "Choosing a form",
       blocks: [
         {
           type: "paragraph",
-          text: "Two expressions are equivalent expressions when they have the same value for every input in their shared domain. The polynomial (x − 1)²(x + 2) and the polynomial x³ − 3x + 2 are equivalent. Neither is better in general. The factored form shows the zeros and their multiplicities at once, while the expanded form shows the degree, the leading term, and the value at x = 0.",
+          text: "Because the factored form of a polynomial or rational function readily provides information about real zeros, it can reveal x-intercepts, asymptotes, holes, domain, and range. The standard form of a polynomial or rational function can reveal its end behavior. The information from different analytic representations of the same function can be used to answer questions in context.",
         },
         {
           type: "table",
           caption: "What each form shows",
-          columns: ["Form", "Example", "What it shows quickly"],
+          columns: ["Form", "Example", "Information it reveals readily"],
           rows: [
-            ["Factored polynomial", "(x − 1)²(x + 2)", "Zeros and their multiplicities"],
             [
-              "Expanded polynomial",
+              "Factored polynomial",
+              "(x − 1)²(x + 2)",
+              "Real zeros and multiplicities, x-intercepts",
+            ],
+            [
+              "Standard form polynomial",
               "x³ − 3x + 2",
-              "Degree, leading term, value at x = 0",
+              "Degree, leading term, end behavior, y-intercept",
             ],
             [
               "Factored rational function",
               "(x − 3)(x + 1)/((x − 3)(x − 2))",
-              "Holes, common factors, and vertical asymptotes",
+              "Domain, zeros, holes, vertical asymptotes",
             ],
             [
-              "Divided rational function",
-              "x + 4 + 9/(x − 1)",
-              "Horizontal or slant asymptote, and end behavior",
+              "Rational function with numerator and denominator in standard form",
+              "(3x² + 1)/(x² − 5)",
+              "End behavior and horizontal asymptote",
             ],
           ],
         },
         {
           type: "callout",
           title: "Watch the domain",
-          text: "Cancelling a common factor changes the domain. The expression (x² − 4)/(x − 2) equals x + 2 only when x ≠ 2, because the original is undefined at 2. The two forms agree everywhere else.",
+          text: "Removing a common factor changes the domain. (x² − 4)/(x − 2) equals x + 2 only for x ≠ 2.",
         },
       ],
-      takeaway:
-        "Decide what you want to learn about the function, then rewrite it in the form that shows it.",
+      takeaway: "Decide what you need to find, then rewrite in the form that shows it.",
     },
     {
       id: "long-division",
-      title:
-        "Polynomial long division rewrites a rational function as a quotient plus a remainder.",
+      title: "1.11.B · Polynomial long division gives f(x) = g(x)q(x) + r(x).",
       conceptTitle: "Polynomial long division",
       blocks: [
         {
           type: "paragraph",
-          text: "Polynomial long division divides a polynomial p(x) by a polynomial d(x) and gives a quotient q(x) and a remainder r(x) with p(x) = d(x)·q(x) + r(x), where r has a lower degree than d. Dividing both sides by d(x) turns this into p(x)/d(x) = q(x) + r(x)/d(x). For a rational function, this divided form is useful because r(x)/d(x) shrinks toward 0 at the ends.",
+          text: "Polynomial long division is an algebraic process similar to numerical long division, involving a quotient and a remainder. If the polynomial f is divided by the polynomial g, then f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) + r(x)/g(x).",
         },
         {
           type: "paragraph",
-          text: "For (x² + 3x + 5)/(x − 1), the first term of the quotient is x, because x·(x − 1) = x² − x. Subtracting leaves 4x + 5, and the next term is 4, since 4·(x − 1) = 4x − 4. The remainder is 9. So x² + 3x + 5 = (x − 1)(x + 4) + 9, and the rational function equals x + 4 + 9/(x − 1).",
+          text: "To divide x² + 3x + 5 by x − 1: x · (x − 1) = x² − x, leaving 4x + 5; then 4 · (x − 1) = 4x − 4, leaving a remainder of 9. So x² + 3x + 5 = (x − 1)(x + 4) + 9, and (x² + 3x + 5)/(x − 1) = x + 4 + 9/(x − 1).",
         },
         {
           type: "paragraph",
-          text: "The quotient x + 4 is the slant asymptote. When the numerator and denominator have the same degree, the quotient is a constant, and that constant is the horizontal asymptote, matching the ratio of leading coefficients from Topic 1.7. You can always check a division by multiplying the divisor and the quotient and adding the remainder.",
+          text: "The result of polynomial long division is helpful in finding equations of slant asymptotes. As x increases or decreases without bound, 9/(x − 1) gets arbitrarily close to 0, so the slant asymptote is y = x + 4.",
+        },
+        {
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "Show the identity that checks the division: (x − 1)(x + 4) + 9 = x² + 3x + 5.",
         },
       ],
       takeaway:
-        "Divide, write quotient plus remainder over divisor, and check by multiplying back.",
+        "The quotient gives the slant asymptote, and the remainder term approaches 0 at the ends.",
     },
     {
       id: "binomial-theorem",
       title:
-        "The binomial theorem expands a power of a sum without repeated multiplying.",
+        "1.11.C · The binomial theorem uses a row of Pascal's triangle to expand (a + b)ⁿ.",
       conceptTitle: "The binomial theorem",
       blocks: [
         {
           type: "paragraph",
-          text: "The binomial theorem says that (a + b)ⁿ is the sum of terms C(n, k)·aⁿ⁻ᵏ·bᵏ for k = 0, 1, …, n. The numbers C(n, k) are the binomial coefficients, and they form row n of Pascal's triangle. The powers of a fall by one in each term, and the powers of b rise by one.",
+          text: "The binomial theorem uses the entries in a single row of Pascal's triangle to expand expressions of the form (a + b)ⁿ, including polynomial functions of the form p(x) = (x + c)ⁿ, where c is a constant. Row n gives the coefficients, the powers of a decrease from n to 0, and the powers of b increase from 0 to n.",
         },
         {
           type: "table",
-          caption: "Binomial coefficients for n = 0 through 5",
-          columns: ["n", "Coefficients C(n, 0), C(n, 1), …, C(n, n)"],
+          caption: "Rows 0 through 5 of Pascal's triangle",
+          columns: ["Row n", "Entries"],
           rows: [
             ["0", "1"],
             ["1", "1, 1"],
@@ -112,41 +124,48 @@ export const lesson = {
         },
         {
           type: "paragraph",
-          text: "For (x + 2)⁴ the coefficients are 1, 4, 6, 4, 1, and the powers of 2 are 1, 2, 4, 8, 16. The terms are 1·x⁴, 4·2·x³, 6·4·x², 4·8·x, and 1·16. So (x + 2)⁴ = x⁴ + 8x³ + 24x² + 32x + 16. When the second term is negative, as in (2x − 1)³, treat it as b = −1 and the signs alternate: 8x³ − 12x² + 6x − 1.",
+          text: "For (x + 2)⁴, row 4 is 1, 4, 6, 4, 1, and the powers of 2 are 1, 2, 4, 8, 16. So (x + 2)⁴ = x⁴ + 8x³ + 24x² + 32x + 16. For (2x − 1)³, use a = 2x and b = −1: 8x³ − 12x² + 6x − 1.",
         },
       ],
       takeaway:
-        "Use the row of Pascal's triangle for the coefficients, and carry any coefficient and sign inside a and b.",
+        "Use row n for the coefficients, and raise the whole of a and b, signs included, to their powers.",
     },
   ],
   vocabulary: [
     {
-      id: "precalculus-1-11-equivalent-expressions",
+      id: "precalculus-1-11-factored-form",
       topicId: "precalculus-1-11",
-      term: "Equivalent expressions",
+      term: "Factored form",
       definition:
-        "Expressions that have the same value for every input in their shared domain.",
+        "A representation of a polynomial or rational function as a product of factors, which readily shows real zeros, x-intercepts, holes, asymptotes, domain, and range.",
+    },
+    {
+      id: "precalculus-1-11-standard-form",
+      topicId: "precalculus-1-11",
+      term: "Standard form",
+      definition:
+        "A representation of a polynomial as a sum of terms in order of decreasing powers, which readily shows end behavior.",
     },
     {
       id: "precalculus-1-11-polynomial-long-division",
       topicId: "precalculus-1-11",
       term: "Polynomial long division",
       definition:
-        "A procedure that divides one polynomial by another and produces a quotient and a remainder of lower degree than the divisor.",
+        "An algebraic process that rewrites f(x) as g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g.",
     },
     {
       id: "precalculus-1-11-binomial-theorem",
       topicId: "precalculus-1-11",
       term: "Binomial theorem",
       definition:
-        "A rule that expands (a + b)ⁿ as a sum of terms whose coefficients are binomial coefficients.",
+        "A rule that uses a single row of Pascal's triangle to expand (a + b)ⁿ.",
     },
     {
-      id: "precalculus-1-11-binomial-coefficient",
+      id: "precalculus-1-11-pascals-triangle",
       topicId: "precalculus-1-11",
-      term: "Binomial coefficient",
+      term: "Pascal's triangle",
       definition:
-        "The number C(n, k) that multiplies the term with bᵏ in the expansion of (a + b)ⁿ, found in row n of Pascal's triangle.",
+        "A triangular array in which each entry is the sum of the two entries above it. Row n gives the coefficients of (a + b)ⁿ.",
     },
   ],
   connections: [
@@ -154,10 +173,10 @@ export const lesson = {
       id: "precalculus-1-11-c1",
       topicId: "precalculus-1-11",
       type: "Look back",
-      title: "Division gave the slant asymptote",
-      body: "In Topic 1.7, the line y = 2x was the slant asymptote of (2x³ − x)/(x² + 1). Dividing is the method that finds such a line for any rational function whose numerator is one degree higher.",
-      transferQuestion: "Which part of the divided form tells you the slant asymptote?",
-      feedback: "The quotient. The remainder term shrinks toward 0 at the ends.",
+      title: "The quotient of leading terms, made exact",
+      body: "Topic 1.7 found that the slant asymptote of (x² + 3x + 5)/(x − 1) is parallel to y = x. Long division gives the exact line, y = x + 4.",
+      transferQuestion: "Which part of the divided form gives the slant asymptote?",
+      feedback: "The quotient. The remainder term approaches 0 at the ends.",
       links: [
         {
           topicId: "precalculus-1-7",
@@ -170,17 +189,16 @@ export const lesson = {
       id: "precalculus-1-11-c2",
       topicId: "precalculus-1-11",
       type: "Looking ahead",
-      title: "Forms that reveal shifts",
-      body: "Topic 1.12 describes how adding to the input or the output moves a graph. Writing an expression in a convenient form often makes the shift easy to read.",
+      title: "Forms that show transformations",
+      body: "Topic 1.12 writes functions as transformations of a parent function, such as a·f(x + h) + k. That form shows translations and dilations directly.",
       transferQuestion:
-        "If a function is written in terms of (x − 3), which way is its graph shifted from the one written in terms of x?",
-      feedback:
-        "To the right by 3, because the input must be 3 larger to get the same output.",
+        "Compared with the graph of x², which way is the graph of (x − 3)² translated?",
+      feedback: "3 units to the right.",
       links: [
         {
           topicId: "precalculus-1-12",
           sectionId: "shifts",
-          label: "Preview shifts",
+          label: "Preview translations",
         },
       ],
     },
@@ -189,14 +207,18 @@ export const lesson = {
   definitionCoverage: {
     status: "required",
     conceptIds: [
+      "precalculus-1-6-end-behavior",
       "precalculus-1-7-rational-function",
       "precalculus-1-7-horizontal-asymptote",
       "precalculus-1-7-slant-asymptote",
+      "precalculus-1-9-vertical-asymptote",
+      "precalculus-1-10-hole",
       "precalculus-1-10-common-factor",
-      "precalculus-1-11-equivalent-expressions",
+      "precalculus-1-11-factored-form",
+      "precalculus-1-11-standard-form",
       "precalculus-1-11-polynomial-long-division",
       "precalculus-1-11-binomial-theorem",
-      "precalculus-1-11-binomial-coefficient",
+      "precalculus-1-11-pascals-triangle",
     ],
   },
 };

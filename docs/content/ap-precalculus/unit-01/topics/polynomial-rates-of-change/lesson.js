@@ -12,109 +12,119 @@ export const lesson = {
   period: "Unit 1",
   status: "ready",
   summary:
-    "Polynomial vocabulary, local and global extrema, how zeros and turning points relate, and inflection points.",
-  minutes: 11,
+    "Degree, leading term, and leading coefficient, relative and absolute extrema, extrema between real zeros, and points of inflection.",
+  minutes: 12,
   learningGoals: [
-    "Name the degree, leading term, and leading coefficient of a polynomial.",
-    "Distinguish local from global maxima and minima and explain where they occur.",
-    "Use the sign pattern of rates of change to locate extrema and inflection points.",
+    "1.4.A Identify key characteristics of polynomial functions related to rates of change.",
   ],
+  labels: {
+    goals: "AP learning objectives",
+    learn: "Understand the mathematics.",
+    context: "Where this fits.",
+  },
   bigIdea:
-    "A polynomial's graph is shaped by how its rate of change rises and falls. Extrema mark where it changes direction, and inflection points mark where it changes concavity.",
+    "Where the rate of change of a polynomial function changes sign, the function has a relative maximum or minimum. Where the rate of change changes from increasing to decreasing, or the reverse, the graph has a point of inflection.",
   context:
-    "You have studied how outputs change and how rates themselves change. Polynomial functions are the first large family where both ideas appear in rich combination, and they are built from the simple power functions you already know.",
+    "Topics 1.1 to 1.3 described output values and rates of change in general. Polynomial functions are the first family where those ideas combine into several turning points and changes in concavity on one graph.",
   sections: [
     {
       id: "polynomial-terms",
-      title: "A polynomial function is a sum of terms with whole-number powers.",
-      conceptTitle: "Polynomial vocabulary",
+      title:
+        "1.4.A · A polynomial function has a degree, a leading term, and a leading coefficient.",
+      conceptTitle: "Polynomial functions",
       blocks: [
         {
           type: "paragraph",
-          text: "A nonconstant polynomial function is equivalent to a sum of terms, each a real number times a power of x, where every power is a positive whole number or zero. Written in order, it looks like aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀, with aₙ ≠ 0. The exponent n is the degree, aₙxⁿ is the leading term, and aₙ is the leading coefficient.",
+          text: "A nonconstant polynomial function of x is any function representation equivalent to p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₂x² + a₁x + a₀, where n is a positive integer, each aᵢ is a real number, and aₙ is nonzero. The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
         },
         {
           type: "table",
-          caption: "Reading polynomial vocabulary",
-          columns: ["Polynomial", "Degree", "Leading term"],
+          caption: "Degree, leading term, and leading coefficient",
+          columns: ["Polynomial", "Degree", "Leading term", "Leading coefficient"],
           rows: [
-            ["3x⁴ − x + 7", "4", "3x⁴"],
-            ["−2x³ + 5x²", "3", "−2x³"],
-            ["x(x − 1)(x + 2) = x³ + x² − 2x", "3", "x³"],
+            ["3x⁴ − x + 7", "4", "3x⁴", "3"],
+            ["5x² − 2x³", "3", "−2x³", "−2"],
+            ["x(x − 1)(x + 2)", "3", "x³", "1"],
           ],
         },
         {
           type: "paragraph",
-          text: "A product of factors still counts as a polynomial, because it is equivalent to a sum of powers once expanded. Rules such as 5/x or √x are not polynomials, since x appears in a denominator or under a radical instead of with a whole-number power.",
+          text: "A product such as x(x − 1)(x + 2) is a polynomial because it is equivalent to x³ + x² − 2x. Expressions such as 5/x or √x are not polynomials, because they are not equivalent to a sum of terms with positive integer powers of x.",
         },
       ],
       takeaway:
-        "Degree comes from the highest power of x after the polynomial is fully expanded.",
+        "Write the terms from highest to lowest power: the first term is the leading term, and its power is the degree.",
     },
     {
       id: "extrema",
-      title: "Extrema occur where a function switches between increasing and decreasing.",
-      conceptTitle: "Local and global extrema",
+      title:
+        "1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing.",
+      conceptTitle: "Relative and absolute extrema",
       blocks: [
         {
           type: "paragraph",
-          text: "A local maximum occurs where a function switches from increasing to decreasing, and a local minimum occurs where it switches from decreasing to increasing. A local extremum can also occur at an included endpoint of the domain. A local extremum whose output beats every other output of the function is a global maximum or a global minimum.",
+          text: "Where a polynomial function switches between increasing and decreasing, or at an included endpoint of a polynomial with a restricted domain, the function has a local, or relative, maximum or minimum output value. If a relative maximum is greater than all other output values, it is a global, or absolute, maximum. If a relative minimum is less than all other output values, it is a global, or absolute, minimum.",
         },
         {
           type: "table",
           caption: "Values of f(x) = x³ − 3x",
           columns: ["x", "f(x)"],
           rows: [
-            ["-2", "-2"],
+            ["-2", "−2"],
             ["-1", "2"],
             ["0", "0"],
-            ["1", "-2"],
+            ["1", "−2"],
             ["2", "2"],
           ],
         },
         {
           type: "paragraph",
-          text: "The outputs rise from −2 to 2 as x goes from −2 to −1, then fall to −2 at x = 1, then rise again. So f has a local maximum near x = −1 and a local minimum near x = 1. Neither is global: the outputs of a cubic keep growing without bound in one direction and shrinking in the other.",
+          text: "As x increases from −2 to −1, f(x) increases from −2 to 2, and from −1 to 1, f(x) decreases to −2. So f has a relative maximum of 2 at x = −1 and a relative minimum of −2 at x = 1. Neither is absolute, because a cubic's output values increase without bound in one direction and decrease without bound in the other.",
+        },
+        {
+          type: "paragraph",
+          text: "A polynomial function of even degree has either an absolute maximum or an absolute minimum, because both ends of its graph point the same way. For a quadratic function, the absolute maximum or minimum occurs at the vertex.",
         },
         {
           type: "callout",
-          title: "Even-degree polynomials",
-          text: "An even-degree polynomial always has a global maximum or a global minimum, because both ends of its graph turn the same way. For a quadratic, that extreme output occurs at the vertex.",
+          title: "Write it like the AP Exam",
+          text: "f has a relative maximum at x = −1 because f changes from increasing to decreasing at x = −1. The relative maximum value is f(−1) = 2.",
         },
       ],
       takeaway:
-        "A local extremum is the best output nearby. A global extremum is the best output everywhere.",
+        "A relative extremum is greatest or least nearby. An absolute extremum is greatest or least over the whole domain.",
     },
     {
       id: "extrema-and-zeros",
-      title: "Between two real zeros, a polynomial must turn around.",
-      conceptTitle: "Zeros and turning points",
+      title: "1.4.A · Between two distinct real zeros there is a relative extremum.",
+      conceptTitle: "Extrema between zeros",
       blocks: [
         {
           type: "paragraph",
-          text: "If a polynomial has two different real zeros, its output is 0 at both. To leave 0 and later return to 0, the function must change direction somewhere in between. So there is at least one local maximum or minimum between any two distinct real zeros.",
+          text: "Between every two distinct real zeros of a nonconstant polynomial function, there must be at least one input value corresponding to a relative maximum or relative minimum. The output values leave 0 and return to 0, so the function must change direction in between.",
         },
         {
           type: "paragraph",
-          text: "Consider f(x) = x(x − 2)(x + 2) = x³ − 4x, which has zeros at −2, 0, and 2. Between −2 and 0 the graph rises above the x-axis and turns around, giving a local maximum of about 3.08 near x = −1.15. Between 0 and 2 the graph dips below the axis, giving a local minimum of about −3.08 near x = 1.15.",
+          text: "For g(x) = x³ − 4x = x(x − 2)(x + 2), with zeros at −2, 0, and 2, technology shows a relative maximum of about 3.079 at x ≈ −1.155 between −2 and 0, and a relative minimum of about −3.079 at x ≈ 1.155 between 0 and 2.",
         },
       ],
       takeaway:
-        "At least one turning point sits between any two distinct real zeros of a polynomial.",
+        "Two distinct real zeros guarantee at least one relative extremum between them, not exactly one.",
     },
     {
       id: "inflection",
-      title: "Inflection points are where concavity changes.",
-      conceptTitle: "Inflection points",
+      title:
+        "1.4.A · Points of inflection occur where the rate of change changes from increasing to decreasing, or the reverse.",
+      conceptTitle: "Points of inflection",
       blocks: [
         {
           type: "paragraph",
-          text: "An inflection point is where the rate of change switches between increasing and decreasing, so the graph switches between concave up and concave down. Extrema describe direction. Inflection points describe curvature, and they are different features that can occur at different inputs.",
+          text: "Points of inflection of a polynomial function occur at input values where the rate of change of the function changes from increasing to decreasing or from decreasing to increasing. This is where the graph changes from concave up to concave down or from concave down to concave up.",
         },
         {
           type: "table",
-          caption: "Values and changes of f(x) = x³",
-          columns: ["Interval", "Output change over the interval"],
+          caption: "Changes in f(x) = x³ over intervals of length 1",
+          columns: ["Interval", "Change in f(x)"],
           rows: [
             ["[−2, −1]", "7"],
             ["[−1, 0]", "1"],
@@ -123,12 +133,13 @@ export const lesson = {
           ],
         },
         {
-          type: "paragraph",
-          text: "The output changes drop from 7 to 1 on the left, then climb from 1 to 7 on the right. The rate of change is decreasing before x = 0 and increasing after it, so the graph is concave down to the left of 0 and concave up to the right. The inflection point is at x = 0.",
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "The graph of f has a point of inflection at x = 0 because the rate of change of f changes from decreasing to increasing there, so the graph changes from concave down to concave up.",
         },
       ],
       takeaway:
-        "At an inflection point the graph changes concavity. At an extremum the graph changes direction.",
+        "An extremum is a change in direction. A point of inflection is a change in concavity.",
     },
   ],
   vocabulary: [
@@ -137,60 +148,60 @@ export const lesson = {
       topicId: "precalculus-1-4",
       term: "Polynomial function",
       definition:
-        "A function equivalent to a sum of terms of the form a·xⁿ, where each a is a real number and each n is zero or a positive whole number.",
+        "A function equivalent to aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀, where n is a positive integer, each aᵢ is a real number, and aₙ ≠ 0.",
     },
     {
       id: "precalculus-1-4-degree",
       topicId: "precalculus-1-4",
       term: "Degree",
-      definition: "The highest power of x in a polynomial after it is fully expanded.",
+      definition: "The exponent n of the leading term aₙxⁿ of a polynomial.",
     },
     {
       id: "precalculus-1-4-leading-term",
       topicId: "precalculus-1-4",
       term: "Leading term",
-      definition: "The term of a polynomial with the highest power of x.",
+      definition: "The term aₙxⁿ of a polynomial with the greatest power of x.",
     },
     {
       id: "precalculus-1-4-leading-coefficient",
       topicId: "precalculus-1-4",
       term: "Leading coefficient",
-      definition: "The coefficient of the leading term of a polynomial.",
+      definition: "The coefficient aₙ of the leading term of a polynomial.",
     },
     {
-      id: "precalculus-1-4-local-max",
+      id: "precalculus-1-4-relative-max",
       topicId: "precalculus-1-4",
-      term: "Local maximum",
+      term: "Relative maximum",
       definition:
-        "An output at an input where a function switches from increasing to decreasing, or at an included endpoint where it is greater than nearby outputs.",
+        "An output value where a function switches from increasing to decreasing, or at an included endpoint, that is greater than nearby output values.",
     },
     {
-      id: "precalculus-1-4-local-min",
+      id: "precalculus-1-4-relative-min",
       topicId: "precalculus-1-4",
-      term: "Local minimum",
+      term: "Relative minimum",
       definition:
-        "An output at an input where a function switches from decreasing to increasing, or at an included endpoint where it is less than nearby outputs.",
+        "An output value where a function switches from decreasing to increasing, or at an included endpoint, that is less than nearby output values.",
     },
     {
-      id: "precalculus-1-4-global-max",
+      id: "precalculus-1-4-absolute-max",
       topicId: "precalculus-1-4",
-      term: "Global maximum",
+      term: "Absolute maximum",
       definition:
-        "A local maximum whose output is greater than every other output of the function.",
+        "A relative maximum that is greater than all other output values of the function.",
     },
     {
-      id: "precalculus-1-4-global-min",
+      id: "precalculus-1-4-absolute-min",
       topicId: "precalculus-1-4",
-      term: "Global minimum",
+      term: "Absolute minimum",
       definition:
-        "A local minimum whose output is less than every other output of the function.",
+        "A relative minimum that is less than all other output values of the function.",
     },
     {
       id: "precalculus-1-4-inflection",
       topicId: "precalculus-1-4",
-      term: "Inflection point",
+      term: "Point of inflection",
       definition:
-        "A point where the rate of change switches between increasing and decreasing, so the concavity of the graph changes.",
+        "A point where the rate of change of a function changes from increasing to decreasing or from decreasing to increasing, so the graph changes concavity.",
     },
   ],
   connections: [
@@ -198,16 +209,17 @@ export const lesson = {
       id: "precalculus-1-4-c1",
       topicId: "precalculus-1-4",
       type: "Look back",
-      title: "Quadratics are the simplest case",
-      body: "A quadratic has one vertex, which is a global extremum, and no inflection point because its rates change at a constant pace. Higher-degree polynomials can have several extrema and inflection points.",
-      transferQuestion: "Why can a quadratic never have an inflection point?",
+      title: "Quadratic functions are the simplest case",
+      body: "A quadratic function has one vertex, which is its absolute extremum, and no point of inflection, because its average rates of change change at a constant rate in one direction.",
+      transferQuestion:
+        "Why can the graph of a quadratic function never have a point of inflection?",
       feedback:
-        "Its average rates change by a constant amount in one direction, so the graph never switches between concave up and concave down.",
+        "Its rate of change is always increasing or always decreasing, so its concavity never changes.",
       links: [
         {
           topicId: "precalculus-1-3",
           sectionId: "quadratic-rates",
-          label: "Review quadratic rates",
+          label: "Review quadratic rates of change",
         },
       ],
     },
@@ -215,12 +227,12 @@ export const lesson = {
       id: "precalculus-1-4-c2",
       topicId: "precalculus-1-4",
       type: "Looking ahead",
-      title: "Zeros and end behavior finish the picture",
-      body: "Topic 1.5 will connect real zeros to factors and to where the graph crosses or touches the x-axis. Topic 1.6 will use the leading term to describe where the graph goes at the far left and far right.",
+      title: "Zeros and end behavior complete the picture",
+      body: "Topic 1.5 links real zeros to linear factors and to how the graph meets the x-axis, and Topic 1.6 uses the leading term to describe end behavior.",
       transferQuestion:
-        "What two kinds of information about a polynomial graph would you want in order to sketch it?",
+        "What would you want to know about a polynomial before sketching its graph?",
       feedback:
-        "A strong answer includes the zeros and the end behavior, and then adds turning points and concavity to refine the shape.",
+        "Its real zeros and their multiplicities, its end behavior, and then its extrema and concavity.",
       links: [
         {
           topicId: "precalculus-1-6",
@@ -236,14 +248,15 @@ export const lesson = {
     conceptIds: [
       "precalculus-1-1-concave-up",
       "precalculus-1-1-concave-down",
+      "precalculus-1-3-quadratic-function",
       "precalculus-1-4-polynomial",
       "precalculus-1-4-degree",
       "precalculus-1-4-leading-term",
       "precalculus-1-4-leading-coefficient",
-      "precalculus-1-4-local-max",
-      "precalculus-1-4-local-min",
-      "precalculus-1-4-global-max",
-      "precalculus-1-4-global-min",
+      "precalculus-1-4-relative-max",
+      "precalculus-1-4-relative-min",
+      "precalculus-1-4-absolute-max",
+      "precalculus-1-4-absolute-min",
       "precalculus-1-4-inflection",
     ],
   },

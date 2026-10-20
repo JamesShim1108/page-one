@@ -24,68 +24,86 @@
         "id": "precalculus-1-practice",
         "courseId": "precalculus",
         "unitId": "precalculus-1",
-        "title": "Unit 1 practice",
+        "title": "Unit 1 practice, Part 1: Topics 1.1 to 1.6",
         "quizType": "unit",
         "selections": [
           {
             "topicId": "precalculus-1-1",
             "questionIds": [
               "precalculus-1-1-q02",
-              "precalculus-1-1-q06"
+              "precalculus-1-1-q06",
+              "precalculus-1-1-q07"
             ]
           },
           {
             "topicId": "precalculus-1-2",
             "questionIds": [
               "precalculus-1-2-q02",
-              "precalculus-1-2-q03"
+              "precalculus-1-2-q03",
+              "precalculus-1-2-q06"
             ]
           },
           {
             "topicId": "precalculus-1-3",
             "questionIds": [
               "precalculus-1-3-q01",
-              "precalculus-1-3-q04"
+              "precalculus-1-3-q04",
+              "precalculus-1-3-q08"
             ]
           },
           {
             "topicId": "precalculus-1-4",
             "questionIds": [
               "precalculus-1-4-q02",
-              "precalculus-1-4-q07"
+              "precalculus-1-4-q04",
+              "precalculus-1-4-q08"
             ]
           },
           {
             "topicId": "precalculus-1-5",
             "questionIds": [
               "precalculus-1-5-q02",
-              "precalculus-1-5-q06"
+              "precalculus-1-5-q06",
+              "precalculus-1-5-q10"
             ]
           },
           {
             "topicId": "precalculus-1-6",
             "questionIds": [
               "precalculus-1-6-q02",
+              "precalculus-1-6-q07",
               "precalculus-1-6-q08"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "id": "precalculus-1-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice, Part 2: Topics 1.7 to 1.14",
+        "quizType": "unit",
+        "selections": [
           {
             "topicId": "precalculus-1-7",
             "questionIds": [
               "precalculus-1-7-q01",
-              "precalculus-1-7-q07"
+              "precalculus-1-7-q03",
+              "precalculus-1-7-q08"
             ]
           },
           {
             "topicId": "precalculus-1-8",
             "questionIds": [
               "precalculus-1-8-q02",
-              "precalculus-1-8-q05"
+              "precalculus-1-8-q05",
+              "precalculus-1-8-q07"
             ]
           },
           {
             "topicId": "precalculus-1-9",
             "questionIds": [
+              "precalculus-1-9-q03",
               "precalculus-1-9-q06",
               "precalculus-1-9-q07"
             ]
@@ -94,26 +112,30 @@
             "topicId": "precalculus-1-10",
             "questionIds": [
               "precalculus-1-10-q03",
-              "precalculus-1-10-q06"
+              "precalculus-1-10-q06",
+              "precalculus-1-10-q07"
             ]
           },
           {
             "topicId": "precalculus-1-11",
             "questionIds": [
               "precalculus-1-11-q03",
-              "precalculus-1-11-q06"
+              "precalculus-1-11-q06",
+              "precalculus-1-11-q07"
             ]
           },
           {
             "topicId": "precalculus-1-12",
             "questionIds": [
               "precalculus-1-12-q02",
-              "precalculus-1-12-q06"
+              "precalculus-1-12-q05",
+              "precalculus-1-12-q07"
             ]
           },
           {
             "topicId": "precalculus-1-13",
             "questionIds": [
+              "precalculus-1-13-q02",
               "precalculus-1-13-q06",
               "precalculus-1-13-q08"
             ]
@@ -121,8 +143,9 @@
           {
             "topicId": "precalculus-1-14",
             "questionIds": [
-              "precalculus-1-14-q07",
-              "precalculus-1-14-q10"
+              "precalculus-1-14-q01",
+              "precalculus-1-14-q05",
+              "precalculus-1-14-q08"
             ]
           }
         ]
@@ -198,10 +221,39 @@
       "title": "Change in Tandem",
       "period": "Unit 1",
       "status": "ready",
-      "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+      "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
     },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "precalculus-1-frq-1",
+        "title": "Unit 1 FRQ 1: Function concepts (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-2",
+        "title": "Unit 1 FRQ 2: Modeling a non-periodic context (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-3",
+        "title": "Unit 1 FRQ 3: Function concepts (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-4",
+        "title": "Unit 1 FRQ 4: Modeling a non-periodic context (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
   },
   "topic": {
     "id": "precalculus-1-9",
@@ -212,10 +264,10 @@
     "title": "Rational Functions and Vertical Asymptotes",
     "period": "Unit 1",
     "status": "ready",
-    "summary": "Where the denominator is zero but the numerator is not, and how one-sided limits describe the graph nearby."
+    "summary": "Where the graph of a rational function has a vertical asymptote, and how one-sided limits describe the output values near it."
   },
   "framework": null,
-  "contentRevision": "fe722e131c60d098",
+  "contentRevision": "f53629f4d40aab61",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-9",
@@ -226,28 +278,31 @@
     "title": "Rational Functions and Vertical Asymptotes",
     "period": "Unit 1",
     "status": "ready",
-    "summary": "Where the denominator is zero but the numerator is not, and how one-sided limits describe the graph nearby.",
+    "summary": "Where the graph of a rational function has a vertical asymptote, and how one-sided limits describe the output values near it.",
     "minutes": 13,
     "learningGoals": [
-      "Find the vertical asymptotes of a rational function from the zeros of its denominator.",
-      "Describe behavior near a vertical asymptote with one-sided limits in limit notation.",
-      "Use the multiplicity of a denominator factor to decide whether the outputs have the same or opposite signs on the two sides."
+      "1.9.A Determine vertical asymptotes of graphs of rational functions."
     ],
-    "bigIdea": "Near an input that makes the denominator zero but not the numerator, the outputs become very large in size. A sign chart tells you whether they head toward ∞ or −∞ on each side.",
-    "context": "Topic 1.8 excluded the inputs where the denominator is zero. Here we study what the graph does just beside them. The outputs do not settle down, and the way they blow up depends on the signs of the factors.",
+    "labels": {
+      "goals": "AP learning objectives",
+      "learn": "Understand the mathematics.",
+      "context": "Where this fits."
+    },
+    "bigIdea": "Near a real zero of the denominator that is not cancelled by the numerator, the denominator's values are arbitrarily close to 0, so the output values of the rational function increase or decrease without bound.",
+    "context": "Topic 1.8 left the real zeros of the denominator out of every solution. This topic studies the graph near those input values and the one-sided limit notation the AP Exam uses to describe it.",
     "sections": [
       {
         "id": "where-asymptotes",
-        "title": "A vertical asymptote sits where the denominator is zero and the numerator is not.",
-        "conceptTitle": "Vertical asymptotes",
+        "title": "1.9.A · A vertical asymptote occurs at a real zero of the denominator that is not a zero of the numerator.",
+        "conceptTitle": "Locating vertical asymptotes",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "A rational function r(x) = p(x)/q(x) has a vertical asymptote at x = a when q(a) = 0 and p(a) ≠ 0. The domain leaves out a, and for inputs near a, the outputs grow without bound in size. A vertical asymptote is a vertical line, so it is written as x = a."
+            "text": "If a is a real zero of the polynomial in the denominator of a rational function and is not also a real zero of the polynomial in the numerator, then the graph has a vertical asymptote at x = a. A vertical asymptote also occurs at x = a if the multiplicity of a as a real zero of the denominator is greater than its multiplicity as a real zero of the numerator."
           },
           {
             "type": "paragraph",
-            "text": "For r(x) = (x + 1)/(x − 3), the denominator is zero at x = 3 and the numerator is 4 there. The table shows what happens as x moves toward 3 from each side."
+            "text": "For r(x) = (x + 1)/(x − 3), the denominator is 0 at x = 3 and the numerator is 4 there, so the graph has a vertical asymptote at x = 3. For (x − 1)/(x − 1)², the value 1 has multiplicity 2 in the denominator and 1 in the numerator, so there is a vertical asymptote at x = 1 as well. The domain of each function leaves out the asymptote's x-value."
           },
           {
             "type": "table",
@@ -285,36 +340,41 @@
           },
           {
             "type": "callout",
-            "title": "No denominator zero, no vertical asymptote",
-            "text": "The function (x + 1)/(x² + 4) has a denominator that is never 0, because x² + 4 is at least 4. It has no vertical asymptote. Also, if a factor cancels completely, as in (x − 3)/(x − 3), there is no asymptote either. Topic 1.10 treats that case."
+            "title": "No real zero in the denominator, no vertical asymptote",
+            "text": "The denominator of (x + 1)/(x² + 4) is at least 4 for every x, so the graph has no vertical asymptote."
           }
         ],
-        "takeaway": "Factor the denominator, find its zeros, and keep the ones where the numerator is not zero."
+        "takeaway": "Compare the multiplicity of each real zero of the denominator with its multiplicity in the numerator."
       },
       {
         "id": "one-sided-limits",
-        "title": "One-sided limits describe the two sides of an asymptote separately.",
+        "title": "1.9.A · One-sided limits describe the output values on each side of a vertical asymptote.",
         "conceptTitle": "One-sided limits",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "In limit notation, x→3⁻ means x approaches 3 from values less than 3, and x→3⁺ means x approaches 3 from values greater than 3. The table above gives lim x→3⁻ r(x) = −∞ and lim x→3⁺ r(x) = ∞. The outputs fall without bound on the left and rise without bound on the right."
+            "text": "Near a vertical asymptote x = a, the values of the denominator are arbitrarily close to 0, so the values of r increase or decrease without bound. For input values near a and greater than a, write lim x→a⁺ r(x) = ∞ or lim x→a⁺ r(x) = −∞. For input values near a and less than a, write lim x→a⁻ r(x) = ∞ or lim x→a⁻ r(x) = −∞."
           },
           {
             "type": "paragraph",
-            "text": "You can predict these without a table. Just left of 3, the numerator x + 1 is positive and the denominator x − 3 is negative, so the quotient is negative and large. Just right of 3, both are positive, so the quotient is positive and large. A sign chart makes this routine."
+            "text": "For r(x) = (x + 1)/(x − 3): just left of 3, the numerator is near 4 and the denominator is a small negative number, so lim x→3⁻ r(x) = −∞. Just right of 3, both are positive, so lim x→3⁺ r(x) = ∞."
+          },
+          {
+            "type": "callout",
+            "title": "Write it like the AP Exam",
+            "text": "lim x→3⁻ r(x) = −∞ and lim x→3⁺ r(x) = ∞, so the graph of r has a vertical asymptote at x = 3."
           }
         ],
-        "takeaway": "Check the sign of the numerator and of the denominator just to the left and just to the right of the asymptote."
+        "takeaway": "Find the sign of the numerator and the denominator just left and just right of the asymptote."
       },
       {
         "id": "multiplicity-effect",
-        "title": "The multiplicity of a denominator factor decides whether the two sides match.",
+        "title": "1.9.A · The multiplicity of the denominator's zero decides whether the two sides match.",
         "conceptTitle": "Multiplicity and asymptote behavior",
         "blocks": [
           {
             "type": "paragraph",
-            "text": "A factor with odd multiplicity changes sign at its zero, so the outputs head in opposite directions on the two sides. A factor with even multiplicity does not change sign, so the outputs head the same direction on both sides."
+            "text": "A factor of odd multiplicity changes sign at its zero, so the output values head in opposite directions on the two sides of the asymptote. A factor of even multiplicity does not change sign, so they head in the same direction."
           },
           {
             "type": "table",
@@ -349,10 +409,10 @@
           },
           {
             "type": "paragraph",
-            "text": "For 1/(x − 2)², both one-sided limits at 2 equal ∞. For 1/(x − 2)³, the left limit is −∞ and the right limit is ∞. If the numerator is negative near the asymptote, every sign flips. For example, (x − 1)/(x + 2)² has the limit −∞ from both sides at x = −2."
+            "text": "For 1/(x − 2)², lim x→2⁻ = ∞ and lim x→2⁺ = ∞. For 1/(x − 2)³, lim x→2⁻ = −∞ and lim x→2⁺ = ∞. A negative numerator near the asymptote reverses every sign: (x − 1)/(x + 2)² has limit −∞ from both sides of x = −2."
           }
         ],
-        "takeaway": "Odd multiplicity gives opposite directions. Even multiplicity gives the same direction. A negative numerator flips both."
+        "takeaway": "Odd multiplicity: opposite directions. Even multiplicity: the same direction. The sign of the rest of the expression picks ∞ or −∞."
       }
     ],
     "vocabulary": [
@@ -360,13 +420,13 @@
         "id": "precalculus-1-9-vertical-asymptote",
         "topicId": "precalculus-1-9",
         "term": "Vertical asymptote",
-        "definition": "A vertical line x = a that the graph of a function approaches, with the outputs growing without bound in size as the input approaches a."
+        "definition": "A line x = a near which the output values of a function increase or decrease without bound as the input values approach a."
       },
       {
         "id": "precalculus-1-9-one-sided-limit",
         "topicId": "precalculus-1-9",
         "term": "One-sided limit",
-        "definition": "A limit in which the input approaches a value only from the left, written x→a⁻, or only from the right, written x→a⁺."
+        "definition": "A limit as the input values approach a only from values greater than a, written x→a⁺, or only from values less than a, written x→a⁻."
       }
     ],
     "connections": [
@@ -374,15 +434,15 @@
         "id": "precalculus-1-9-c1",
         "topicId": "precalculus-1-9",
         "type": "Look back",
-        "title": "The sign chart returns",
-        "body": "In Topic 1.8, a sign chart showed where a rational function is positive or negative. The same tool tells you which way the outputs head beside a vertical asymptote.",
-        "transferQuestion": "What do you need to know about the sign of the function near an asymptote to decide between ∞ and −∞?",
-        "feedback": "Whether the function is positive or negative just to the left and just to the right of the asymptote.",
+        "title": "Signs of factors again",
+        "body": "Topic 1.8 used the signs of the factors to find where a rational function is positive or negative. The same signs decide whether a one-sided limit is ∞ or −∞.",
+        "transferQuestion": "What must you know about r(x) just left and just right of x = a to choose ∞ or −∞?",
+        "feedback": "Whether r(x) is positive or negative on each side.",
         "links": [
           {
             "topicId": "precalculus-1-8",
             "sectionId": "sign-analysis",
-            "label": "Review sign analysis"
+            "label": "Review signs of a rational function"
           }
         ]
       },
@@ -390,10 +450,10 @@
         "id": "precalculus-1-9-c2",
         "topicId": "precalculus-1-9",
         "type": "Looking ahead",
-        "title": "When a factor cancels",
-        "body": "If the same factor appears in the numerator and the denominator, the denominator's zero does not create an asymptote. Topic 1.10 shows what the graph does instead.",
-        "transferQuestion": "What would change in the test for an asymptote if the numerator were also zero at the same input?",
-        "feedback": "The condition p(a) ≠ 0 would fail, so the input is not a vertical asymptote.",
+        "title": "When the numerator's multiplicity is at least as great",
+        "body": "If the multiplicity of a in the numerator is greater than or equal to its multiplicity in the denominator, there is no vertical asymptote at x = a. Topic 1.10 shows that the graph has a hole there.",
+        "transferQuestion": "What changes in the asymptote condition if the numerator is also 0 at x = a?",
+        "feedback": "Compare multiplicities. If the numerator's multiplicity is at least the denominator's, the graph has a hole instead.",
         "links": [
           {
             "topicId": "precalculus-1-10",
@@ -411,11 +471,10 @@
       "status": "required",
       "conceptIds": [
         "precalculus-1-1-domain",
+        "precalculus-1-5-multiplicity",
         "precalculus-1-6-without-bound",
         "precalculus-1-6-limit-notation",
         "precalculus-1-7-rational-function",
-        "precalculus-1-7-asymptote",
-        "precalculus-1-8-sign-chart",
         "precalculus-1-9-vertical-asymptote",
         "precalculus-1-9-one-sided-limit"
       ]
@@ -426,55 +485,44 @@
     {
       "id": "precalculus-1-1-domain",
       "term": "Domain",
-      "definition": "The set of allowed inputs of a function.",
+      "definition": "The set of input values of a function.",
       "aliases": [],
       "sourceLabel": "Topic 1.1 glossary"
     },
     {
+      "id": "precalculus-1-5-multiplicity",
+      "term": "Multiplicity",
+      "definition": "The number of times a linear factor (x − a) is repeated in a polynomial, which is the multiplicity of the zero a.",
+      "aliases": [],
+      "sourceLabel": "Topic 1.5 glossary"
+    },
+    {
       "id": "precalculus-1-6-without-bound",
       "term": "Without bound",
-      "definition": "Growing larger than any fixed number, or more negative than any fixed number, as the input moves in one direction.",
+      "definition": "Increasing beyond every fixed number, or decreasing below every fixed number.",
       "aliases": [],
       "sourceLabel": "Topic 1.6 glossary"
     },
     {
       "id": "precalculus-1-6-limit-notation",
       "term": "Limit notation",
-      "definition": "Notation such as lim x→∞ f(x) = ∞ that records what the outputs of a function do as the input grows without bound or approaches a value.",
+      "definition": "Notation such as lim x→∞ p(x) = −∞ that describes what the output values do as the input values increase without bound, decrease without bound, or approach a value.",
       "aliases": [],
       "sourceLabel": "Topic 1.6 glossary"
     },
     {
       "id": "precalculus-1-7-rational-function",
       "term": "Rational function",
-      "definition": "A function that can be written as a quotient of two polynomials, with a denominator that is not the zero polynomial.",
+      "definition": "A function analytically represented as a quotient of two polynomial functions, p(x)/q(x).",
       "aliases": [
         "rational functions"
       ],
       "sourceLabel": "Topic 1.7 glossary"
     },
     {
-      "id": "precalculus-1-7-asymptote",
-      "term": "Asymptote",
-      "definition": "A line that a graph gets closer and closer to, described by what the function does as an input or output grows without bound.",
-      "aliases": [
-        "asymptotes"
-      ],
-      "sourceLabel": "Topic 1.7 glossary"
-    },
-    {
-      "id": "precalculus-1-8-sign-chart",
-      "term": "Sign chart",
-      "definition": "A table that records whether a function is positive or negative on each interval between its zeros and its undefined inputs.",
-      "aliases": [
-        "sign charts"
-      ],
-      "sourceLabel": "Topic 1.8 glossary"
-    },
-    {
       "id": "precalculus-1-9-vertical-asymptote",
       "term": "Vertical asymptote",
-      "definition": "A vertical line x = a that the graph of a function approaches, with the outputs growing without bound in size as the input approaches a.",
+      "definition": "A line x = a near which the output values of a function increase or decrease without bound as the input values approach a.",
       "aliases": [
         "vertical asymptotes"
       ],
@@ -483,7 +531,7 @@
     {
       "id": "precalculus-1-9-one-sided-limit",
       "term": "One-sided limit",
-      "definition": "A limit in which the input approaches a value only from the left, written x→a⁻, or only from the right, written x→a⁺.",
+      "definition": "A limit as the input values approach a only from values greater than a, written x→a⁺, or only from values less than a, written x→a⁻.",
       "aliases": [
         "one-sided limits"
       ],

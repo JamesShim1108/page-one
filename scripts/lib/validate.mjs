@@ -649,14 +649,19 @@ export function validateWriting(
   if (quiz.stimulusBlocks !== undefined) {
     // Writing stimuli are text excerpts; images belong in lessons and quizzes.
     validateBlocks(quiz.stimulusBlocks, new Map(), `${location}.stimulusBlocks`);
+    // Free-response math questions give tables and definitions instead of excerpts.
     for (const block of quiz.stimulusBlocks)
       requireValue(
-        block.type === "source",
+        quiz.exerciseType === "frq"
+          ? ["paragraph", "table", "list", "callout"].includes(block.type)
+          : block.type === "source",
         location,
-        "writing stimulusBlocks must be source excerpts",
+        quiz.exerciseType === "frq"
+          ? "FRQ stimulusBlocks must be paragraphs, tables, lists, or callouts"
+          : "writing stimulusBlocks must be source excerpts",
       );
   }
-  if (quiz.exerciseType && ["leq", "dbq", "skill"].includes(quiz.exerciseType)) {
+  if (quiz.exerciseType && ["leq", "dbq", "skill", "frq"].includes(quiz.exerciseType)) {
     validateTypedWriting(quiz, topics, framework, unit, location, sourceMap);
     return;
   }
@@ -811,6 +816,18 @@ function validateTypedWriting(quiz, topics, framework, unit, location, sourceMap
         location,
         "an available DBQ may contain only verified documents",
       );
+  }
+  if (quiz.exerciseType === "frq") {
+    // AP Precalculus free-response questions are each worth 6 points.
+    const total = quiz.rubric.reduce((sum, criterion) => sum + criterion.points, 0);
+    requireValue(total === 6, location, `an FRQ rubric totals 6 points, not ${total}`);
+    quiz.rubric.forEach((criterion) =>
+      requireValue(
+        quiz.responseFields.some((field) => field.id === criterion.field),
+        location,
+        `rubric row ${criterion.id} needs the field it scores`,
+      ),
+    );
   }
   if (quiz.exerciseType === "skill") {
     requireValue(

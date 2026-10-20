@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "ea6354c8eff46fca",
+  "revision": "44a3d991f1fd8fae",
   "courses": [
     {
       "schemaVersion": 1,
@@ -103,7 +103,7 @@
           "title": "Change in Tandem",
           "period": "Unit 1",
           "status": "ready",
-          "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+          "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
         },
         {
           "id": "precalculus-1-2",
@@ -114,7 +114,7 @@
           "title": "Rates of Change",
           "period": "Unit 1",
           "status": "ready",
-          "summary": "Average rates of change over intervals, estimating the rate at a point, and what the sign of a rate tells you."
+          "summary": "Average rates of change over intervals, rates of change at a point, and what the sign of a rate of change says about how two quantities vary together."
         },
         {
           "id": "precalculus-1-3",
@@ -125,7 +125,7 @@
           "title": "Rates of Change in Linear and Quadratic Functions",
           "period": "Unit 1",
           "status": "ready",
-          "summary": "How average rates behave for linear and quadratic functions, secant slopes, and reading concavity from changing rates."
+          "summary": "Average rates of change for sequences, linear functions, and quadratic functions, secant lines, and how the change in average rates of change reveals concavity."
         }
       ],
       "firstTopic": {
@@ -137,7 +137,7 @@
         "title": "Change in Tandem",
         "period": "Unit 1",
         "status": "ready",
-        "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+        "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
       },
       "indexPath": "precalculus/index.json",
       "routesPath": "precalculus/routes.json",

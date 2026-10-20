@@ -50,10 +50,16 @@
     "precalculus-1-13-quiz": "precalculus/banks/precalculus-1-13.json",
     "precalculus-1-14-quick": "precalculus/banks/precalculus-1-14.json",
     "precalculus-1-14-quiz": "precalculus/banks/precalculus-1-14.json",
-    "precalculus-1-practice": "precalculus/quizzes/precalculus-1-practice.json"
+    "precalculus-1-practice": "precalculus/quizzes/precalculus-1-practice.json",
+    "precalculus-1-practice-2": "precalculus/quizzes/precalculus-1-practice-2.json"
   },
   "guide": {},
-  "writing": {},
+  "writing": {
+    "precalculus-1-frq-1": "precalculus/writing/precalculus-1-frq-1.json",
+    "precalculus-1-frq-2": "precalculus/writing/precalculus-1-frq-2.json",
+    "precalculus-1-frq-3": "precalculus/writing/precalculus-1-frq-3.json",
+    "precalculus-1-frq-4": "precalculus/writing/precalculus-1-frq-4.json"
+  },
   "terms": {
     "precalculus-1": "precalculus/units/precalculus-1.json",
     "precalculus-2": "precalculus/units/precalculus-2.json",

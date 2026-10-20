@@ -12,88 +12,92 @@ export const lesson = {
   period: "Unit 1",
   status: "ready",
   summary:
-    "What a rational function is, and how comparing leading terms gives horizontal and slant asymptotes.",
+    "Rational functions as quotients of polynomials, and how the quotient of the leading terms gives the end behavior, horizontal asymptotes, and slant asymptotes.",
   minutes: 12,
-  learningGoals: [
-    "Identify a rational function and recognize where its denominator can make it undefined.",
-    "Use the degrees and leading coefficients of the numerator and denominator to find horizontal asymptotes.",
-    "Recognize when a rational function has a slant asymptote and describe the end behavior in limit notation.",
-  ],
+  learningGoals: ["1.7.A Describe end behaviors of rational functions."],
+  labels: {
+    goals: "AP learning objectives",
+    learn: "Understand the mathematics.",
+    context: "Where this fits.",
+  },
   bigIdea:
-    "For large inputs, a rational function behaves like the quotient of its leading terms. Comparing the sizes of the numerator and denominator tells you whether the outputs settle near a number, follow a line, or grow without bound.",
+    "For input values of large magnitude, each polynomial is dominated by its leading term, so a rational function behaves like the quotient of the leading terms of its numerator and denominator.",
   context:
-    "Polynomial end behavior came from one leading term. A rational function has two polynomials fighting for control, so the question becomes which one grows faster, or whether they grow at the same pace.",
+    "Topic 1.6 found the end behavior of a polynomial from one leading term. A rational function has two polynomials, and its end behavior depends on which one dominates, or whether neither does.",
   sections: [
     {
       id: "rational-quotient",
-      title: "A rational function is a quotient of two polynomials.",
+      title: "1.7.A · A rational function is a quotient of two polynomial functions.",
       conceptTitle: "Rational functions",
       blocks: [
         {
           type: "paragraph",
-          text: "A rational function can be written r(x) = p(x)/q(x), where p and q are polynomials and q is not the zero polynomial. At each input, the output measures the size of the numerator relative to the size of the denominator. The function is undefined wherever q(x) = 0.",
+          text: "A rational function is analytically represented as a quotient of two polynomial functions, r(x) = p(x)/q(x). For each value in its domain, it measures the size of the polynomial in the numerator relative to the polynomial in the denominator. The domain excludes every real zero of q.",
         },
         {
           type: "table",
-          caption: "Comparing the degrees of numerator and denominator",
-          columns: ["Rational function", "Numerator degree", "Denominator degree"],
+          caption: "Degrees of the numerator and denominator",
+          columns: ["Rational function", "Degree of numerator", "Degree of denominator"],
           rows: [
             ["(3x² + 1)/(x² − 5)", "2", "2"],
             ["(2x³ − x)/(x² + 1)", "3", "2"],
-            ["(x + 4)/(x² − 1)", "1", "2"],
+            ["(4x − 1)/(x² + 3)", "1", "2"],
           ],
         },
       ],
-      takeaway:
-        "A rational function is a polynomial divided by a polynomial, and it is undefined where the denominator is zero.",
+      takeaway: "A rational function is p(x)/q(x), undefined wherever q(x) = 0.",
     },
     {
       id: "compare-degrees",
-      title: "End behavior comes from comparing the leading terms.",
-      conceptTitle: "Comparing degrees",
+      title: "1.7.A · The end behavior comes from the quotient of the leading terms.",
+      conceptTitle: "Comparing leading terms",
       blocks: [
         {
           type: "paragraph",
-          text: "When |x| is large, a polynomial acts like its leading term. So a rational function acts like the quotient of the leading term of the numerator and the leading term of the denominator. What that quotient does depends on which degree is larger.",
+          text: "The end behavior of a rational function is affected most by the polynomial with the greater degree, because its values dominate for input values of large magnitude. Since each polynomial is dominated by its leading term, the end behavior can be understood by examining the quotient of the leading terms.",
         },
         {
           type: "table",
-          caption: "End behavior of a rational function from the degrees",
-          columns: ["Comparison of degrees", "Quotient of leading terms", "End behavior"],
+          caption: "Three cases for r(x) = p(x)/q(x)",
+          columns: [
+            "Which polynomial dominates",
+            "Quotient of the leading terms",
+            "End behavior of r",
+          ],
           rows: [
             [
-              "Denominator degree is greater",
-              "Approaches 0",
+              "The denominator (degree of q is greater)",
+              "A constant over a nonconstant polynomial",
               "Horizontal asymptote y = 0",
             ],
             [
-              "Degrees are equal",
-              "A constant: the ratio of leading coefficients",
-              "Horizontal asymptote at that ratio",
+              "Neither (equal degrees)",
+              "A constant",
+              "Horizontal asymptote at that constant",
             ],
             [
-              "Numerator degree is greater",
-              "Grows without bound",
-              "Follows the end behavior of a polynomial; a slant asymptote if the numerator degree is exactly one more",
+              "The numerator (degree of p is greater)",
+              "A nonconstant polynomial",
+              "The end behavior of that polynomial; a slant asymptote if it is linear",
             ],
           ],
         },
         {
           type: "paragraph",
-          text: "For r(x) = (4x − 1)/(x² + 3), the denominator dominates, so the outputs shrink toward 0. For r(x) = (3x² + 1)/(x² − 5), the degrees are equal and the leading terms give 3x²/x² = 3.",
+          text: "For r(x) = (4x − 1)/(x² + 3), the quotient of the leading terms is 4x/x² = 4/x, so lim x→±∞ r(x) = 0. For r(x) = (3x² + 1)/(x² − 5), the quotient is 3x²/x² = 3, so the horizontal asymptote is y = 3.",
         },
       ],
-      takeaway:
-        "Compare degrees first. Equal degrees give a horizontal asymptote at the ratio of the leading coefficients.",
+      takeaway: "Divide the leading terms. The result tells you which case you are in.",
     },
     {
       id: "horizontal-asymptotes",
-      title: "A horizontal asymptote describes the outputs at the ends.",
+      title:
+        "1.7.A · A horizontal asymptote y = b means the output values get and stay arbitrarily close to b.",
       conceptTitle: "Horizontal asymptotes",
       blocks: [
         {
           type: "paragraph",
-          text: "A horizontal asymptote at y = b means that lim x→∞ r(x) = b, or lim x→−∞ r(x) = b, or both. The outputs get as close to b as you like, though they may not ever equal b at the far ends. For r(x) = (3x² + 1)/(x² − 5), the table shows the outputs closing in on 3.",
+          text: "When the graph of a rational function r has a horizontal asymptote at y = b, the output values get arbitrarily close to b and stay arbitrarily close to b as the input values increase or decrease without bound. The corresponding notation is lim x→∞ r(x) = b or lim x→−∞ r(x) = b.",
         },
         {
           type: "table",
@@ -107,26 +111,30 @@ export const lesson = {
         },
         {
           type: "callout",
-          title: "An asymptote describes the ends only",
-          text: "A graph may cross a horizontal asymptote in the middle. The function r(x) = x/(x² + 1) has the horizontal asymptote y = 0 at both ends, yet r(0) = 0, so the graph meets that line at the origin.",
+          title: "Write it like the AP Exam",
+          text: "Because the degrees of the numerator and denominator are equal, the quotient of the leading terms is 3x²/x² = 3. Therefore lim x→∞ r(x) = 3 and lim x→−∞ r(x) = 3, and the graph of r has a horizontal asymptote at y = 3.",
+        },
+        {
+          type: "paragraph",
+          text: "An asymptote describes the ends of the graph only. The graph of r(x) = x/(x² + 1) has the horizontal asymptote y = 0, yet r(0) = 0, so the graph meets that line at the origin.",
         },
       ],
       takeaway:
-        "A horizontal asymptote is a statement about the far ends, written with limit notation.",
+        "State a horizontal asymptote with limit notation for both directions when both apply.",
     },
     {
       id: "slant-asymptotes",
       title:
-        "When the numerator's degree is one greater, the graph follows a slanted line.",
+        "1.7.A · When the quotient of the leading terms is linear, the graph has a slant asymptote.",
       conceptTitle: "Slant asymptotes",
       blocks: [
         {
           type: "paragraph",
-          text: "Take r(x) = (2x³ − x)/(x² + 1). The numerator has degree 3 and the denominator has degree 2, so the outputs grow without bound. Dividing gives the equivalent form r(x) = 2x − 3x/(x² + 1). The last term shrinks toward 0 for large |x|, so r(x) behaves more and more like 2x.",
+          text: "If the numerator dominates, the quotient of the leading terms is a nonconstant polynomial, and the rational function has the end behavior of that polynomial. If that polynomial is linear, the graph of the rational function has a slant asymptote parallel to the graph of that line.",
         },
         {
           type: "table",
-          caption: "Comparing r(x) = (2x³ − x)/(x² + 1) with the line y = 2x",
+          caption: "Comparing r(x) = (2x³ − x)/(x² + 1) with y = 2x",
           columns: ["x", "r(x)", "2x"],
           rows: [
             ["10", "19.703", "20"],
@@ -136,11 +144,11 @@ export const lesson = {
         },
         {
           type: "paragraph",
-          text: "The line y = 2x is a slant asymptote. Topic 1.11 shows how to find the equivalent form using polynomial long division. If the numerator's degree exceeds the denominator's by 2 or more, the outputs still grow without bound, but they follow a curve rather than a line.",
+          text: "Here the quotient of the leading terms is 2x³/x² = 2x, and the graph approaches the slant asymptote y = 2x. For (x² + 3x + 5)/(x − 1), the quotient of the leading terms is x, so the slant asymptote is parallel to y = x. Polynomial long division in Topic 1.11 gives its exact equation, y = x + 4.",
         },
       ],
       takeaway:
-        "A numerator degree exactly one greater gives a slant asymptote, found from the quotient of a division.",
+        "A linear quotient of the leading terms gives the slope of the slant asymptote. Long division gives the exact line.",
     },
   ],
   vocabulary: [
@@ -149,28 +157,21 @@ export const lesson = {
       topicId: "precalculus-1-7",
       term: "Rational function",
       definition:
-        "A function that can be written as a quotient of two polynomials, with a denominator that is not the zero polynomial.",
-    },
-    {
-      id: "precalculus-1-7-asymptote",
-      topicId: "precalculus-1-7",
-      term: "Asymptote",
-      definition:
-        "A line that a graph gets closer and closer to, described by what the function does as an input or output grows without bound.",
+        "A function analytically represented as a quotient of two polynomial functions, p(x)/q(x).",
     },
     {
       id: "precalculus-1-7-horizontal-asymptote",
       topicId: "precalculus-1-7",
       term: "Horizontal asymptote",
       definition:
-        "A line y = b that the outputs approach as the input increases or decreases without bound.",
+        "A line y = b such that the output values get arbitrarily close to b and stay arbitrarily close to b as the input values increase or decrease without bound.",
     },
     {
       id: "precalculus-1-7-slant-asymptote",
       topicId: "precalculus-1-7",
       term: "Slant asymptote",
       definition:
-        "A non-horizontal line that the graph of a rational function approaches as the input increases or decreases without bound.",
+        "A non-horizontal line that the graph of a rational function approaches as the input values increase or decrease without bound.",
     },
   ],
   connections: [
@@ -178,16 +179,17 @@ export const lesson = {
       id: "precalculus-1-7-c1",
       topicId: "precalculus-1-7",
       type: "Look back",
-      title: "Same dominance, new setting",
-      body: "Topic 1.6 showed that a polynomial behaves like its leading term at the ends. Here two leading terms compete, and the winner, or the tie, determines the asymptote.",
-      transferQuestion: "Why does a larger denominator degree pull the outputs toward 0?",
+      title: "The same domination, now in a quotient",
+      body: "Topic 1.6 showed that a polynomial behaves like its leading term at its ends. Here two leading terms compete, and their quotient decides the end behavior.",
+      transferQuestion:
+        "Why does a denominator of greater degree make the output values approach 0?",
       feedback:
-        "The denominator grows faster than the numerator, so the ratio shrinks toward 0.",
+        "The denominator's values grow much faster in magnitude than the numerator's, so the quotient gets arbitrarily close to 0.",
       links: [
         {
           topicId: "precalculus-1-6",
           sectionId: "leading-term",
-          label: "Review how the leading term dominates",
+          label: "Review the dominant leading term",
         },
       ],
     },
@@ -195,12 +197,11 @@ export const lesson = {
       id: "precalculus-1-7-c2",
       topicId: "precalculus-1-7",
       type: "Looking ahead",
-      title: "Asymptotes meet zeros and holes",
-      body: "Topic 1.8 finds where rational functions cross the x-axis. Topic 1.9 finds the vertical asymptotes that appear when the denominator is zero, and Topic 1.10 finds the holes that appear when a factor cancels.",
+      title: "Zeros, vertical asymptotes, and holes",
+      body: "Topics 1.8 to 1.10 study what happens at the real zeros of the numerator and denominator: zeros of the function, vertical asymptotes, and holes.",
       transferQuestion:
-        "Where would you look in a rational function for inputs where something unusual happens besides the ends?",
-      feedback:
-        "A strong answer says to factor the numerator and denominator and look at where each equals zero.",
+        "Where else, besides the ends, can a rational function behave in an unusual way?",
+      feedback: "At the real zeros of the denominator, where the function is undefined.",
       links: [
         {
           topicId: "precalculus-1-9",
@@ -219,7 +220,6 @@ export const lesson = {
       "precalculus-1-6-without-bound",
       "precalculus-1-6-limit-notation",
       "precalculus-1-7-rational-function",
-      "precalculus-1-7-asymptote",
       "precalculus-1-7-horizontal-asymptote",
       "precalculus-1-7-slant-asymptote",
     ],

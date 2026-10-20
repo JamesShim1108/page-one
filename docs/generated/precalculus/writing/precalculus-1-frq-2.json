@@ -1,0 +1,461 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-1",
+    "courseId": "precalculus",
+    "number": 1,
+    "title": "Polynomial and Rational Functions",
+    "period": "AP Exam weighting 30–40%",
+    "status": "ready",
+    "description": "See how outputs change with inputs, then use rates of change, zeros, end behavior, asymptotes, and holes to describe polynomial and rational functions and build models from them.",
+    "quizzes": [
+      {
+        "id": "precalculus-1-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice, Part 1: Topics 1.1 to 1.6",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-1-1",
+            "questionIds": [
+              "precalculus-1-1-q02",
+              "precalculus-1-1-q06",
+              "precalculus-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-2",
+            "questionIds": [
+              "precalculus-1-2-q02",
+              "precalculus-1-2-q03",
+              "precalculus-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-3",
+            "questionIds": [
+              "precalculus-1-3-q01",
+              "precalculus-1-3-q04",
+              "precalculus-1-3-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-4",
+            "questionIds": [
+              "precalculus-1-4-q02",
+              "precalculus-1-4-q04",
+              "precalculus-1-4-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-5",
+            "questionIds": [
+              "precalculus-1-5-q02",
+              "precalculus-1-5-q06",
+              "precalculus-1-5-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-6",
+            "questionIds": [
+              "precalculus-1-6-q02",
+              "precalculus-1-6-q07",
+              "precalculus-1-6-q08"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-1-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice, Part 2: Topics 1.7 to 1.14",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-1-7",
+            "questionIds": [
+              "precalculus-1-7-q01",
+              "precalculus-1-7-q03",
+              "precalculus-1-7-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-8",
+            "questionIds": [
+              "precalculus-1-8-q02",
+              "precalculus-1-8-q05",
+              "precalculus-1-8-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-9",
+            "questionIds": [
+              "precalculus-1-9-q03",
+              "precalculus-1-9-q06",
+              "precalculus-1-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-10",
+            "questionIds": [
+              "precalculus-1-10-q03",
+              "precalculus-1-10-q06",
+              "precalculus-1-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-11",
+            "questionIds": [
+              "precalculus-1-11-q03",
+              "precalculus-1-11-q06",
+              "precalculus-1-11-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-12",
+            "questionIds": [
+              "precalculus-1-12-q02",
+              "precalculus-1-12-q05",
+              "precalculus-1-12-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-13",
+            "questionIds": [
+              "precalculus-1-13-q02",
+              "precalculus-1-13-q06",
+              "precalculus-1-13-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-14",
+            "questionIds": [
+              "precalculus-1-14-q01",
+              "precalculus-1-14-q05",
+              "precalculus-1-14-q08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-1-1-quiz",
+        "title": "Change in Tandem topic practice"
+      },
+      {
+        "id": "precalculus-1-2-quiz",
+        "title": "Rates of Change topic practice"
+      },
+      {
+        "id": "precalculus-1-3-quiz",
+        "title": "Rates of Change in Linear and Quadratic Functions topic practice"
+      },
+      {
+        "id": "precalculus-1-4-quiz",
+        "title": "Polynomial Functions and Rates of Change topic practice"
+      },
+      {
+        "id": "precalculus-1-5-quiz",
+        "title": "Polynomial Functions and Complex Zeros topic practice"
+      },
+      {
+        "id": "precalculus-1-6-quiz",
+        "title": "Polynomial Functions and End Behavior topic practice"
+      },
+      {
+        "id": "precalculus-1-7-quiz",
+        "title": "Rational Functions and End Behavior topic practice"
+      },
+      {
+        "id": "precalculus-1-8-quiz",
+        "title": "Rational Functions and Zeros topic practice"
+      },
+      {
+        "id": "precalculus-1-9-quiz",
+        "title": "Rational Functions and Vertical Asymptotes topic practice"
+      },
+      {
+        "id": "precalculus-1-10-quiz",
+        "title": "Rational Functions and Holes topic practice"
+      },
+      {
+        "id": "precalculus-1-11-quiz",
+        "title": "Equivalent Representations of Polynomial and Rational Expressions topic practice"
+      },
+      {
+        "id": "precalculus-1-12-quiz",
+        "title": "Transformations of Functions topic practice"
+      },
+      {
+        "id": "precalculus-1-13-quiz",
+        "title": "Function Model Selection and Assumption Articulation topic practice"
+      },
+      {
+        "id": "precalculus-1-14-quiz",
+        "title": "Function Model Construction and Application topic practice"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "precalculus-1-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Change in Tandem",
+      "period": "Unit 1",
+      "status": "ready",
+      "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-1-frq-1",
+        "title": "Unit 1 FRQ 1: Function concepts (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-2",
+        "title": "Unit 1 FRQ 2: Modeling a non-periodic context (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-3",
+        "title": "Unit 1 FRQ 3: Function concepts (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-4",
+        "title": "Unit 1 FRQ 4: Modeling a non-periodic context (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-1-frq-2",
+    "version": 1,
+    "courseId": "precalculus",
+    "unitId": "precalculus-1",
+    "title": "Unit 1 FRQ 2: Modeling a non-periodic context (Topics 1.1 to 1.6)",
+    "headline": "Average rate of change with units, rate of change at a point, and a domain restriction.",
+    "promptTitle": "Free response 2 · Modeling a non-periodic context · graphing calculator",
+    "prompt": "Water is pumped into a storage tank. The amount of water in the tank, in gallons, is modeled by V(t) = −t³ + 12t² + 20, where t is the time in hours since pumping began. The tank holds at most 250 gallons, and the model is used only while the tank is not overflowing.",
+    "instructions": "Part A style: a graphing calculator is required. Show the work that leads to each answer; answers without supporting work may not earn credit where work is requested. Avoid rounding intermediate values, and give decimal approximations accurate to three places after the decimal point unless the part says otherwise. Unless otherwise specified, the domain of a function f is the set of all real numbers x for which f(x) is a real number.",
+    "note": "Original practice question written in the AP Precalculus free-response format (6 points, parts A to C). Scoring is self-assessed with the point-by-point rubric. It is not an official AP question or an official AP score.",
+    "exerciseType": "frq",
+    "sourceIds": [
+      "ced",
+      "ced-topic-1-2",
+      "ced-topic-1-3",
+      "ced-topic-1-4"
+    ],
+    "stimulusBlocks": [
+      {
+        "type": "table",
+        "caption": "Selected values of V(t)",
+        "columns": [
+          "t (hours)",
+          "2",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "rows": [
+          [
+            "V(t) (gallons)",
+            "60",
+            "148",
+            "195",
+            "236",
+            "265"
+          ]
+        ]
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Show work",
+        "text": "Write the setup, such as the expression you evaluate or the equation you solve, before the answer."
+      },
+      {
+        "label": "Use notation",
+        "text": "Use limit notation, interval notation, and units exactly where a part asks for them."
+      },
+      {
+        "label": "Justify",
+        "text": "When a part says give a reason or explain, refer to the given values or the context."
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "a1",
+        "label": "Part A (i)",
+        "prompt": "A (i). Find the average rate of change of V from t = 2 to t = 5 hours. Show the computations that lead to your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-2",
+            "sectionId": "average-rate",
+            "label": "Average rate of change"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "label": "Part A (ii)",
+        "prompt": "A (ii). Interpret the meaning of your answer from part A (i) in the context of the problem.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-2",
+            "sectionId": "average-rate",
+            "label": "Interpreting a rate"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "label": "Part B (i)",
+        "prompt": "B (i). Use the average rate of change of V over the interval 3.9 ≤ t ≤ 4.1 to estimate the rate of change of V at t = 4. Express your answer as a decimal approximation with units.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-2",
+            "sectionId": "rate-at-a-point",
+            "label": "Rate of change at a point"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "label": "Part B (ii)",
+        "prompt": "B (ii). Using the values in the table, is the amount of water increasing at an increasing rate or increasing at a decreasing rate on the interval 5 < t < 7? Give a reason for your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-3",
+            "sectionId": "concavity-from-rates",
+            "label": "Changing average rates of change"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "label": "Part C (i)",
+        "prompt": "C (i). Write and solve an equation whose solution gives the time t, in hours, when the tank is full. Express your value for t as a decimal approximation.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-1",
+            "sectionId": "function-basics",
+            "label": "Input and output values"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "label": "Part C (ii)",
+        "prompt": "C (ii). Explain how the value of t found in part C (i) can be used to determine an appropriate domain restriction for the model V. Refer to the context of the problem in your explanation.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-13",
+            "sectionId": "assumptions-restrictions",
+            "label": "Domain restrictions"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "a1-aroc",
+        "field": "a1",
+        "label": "A (i) Average rate of change",
+        "points": 1,
+        "guidance": "Earn the point for (V(5) − V(2))/(5 − 2) = (195 − 60)/3 = 45 gallons per hour, with the computation shown."
+      },
+      {
+        "id": "a2-interp",
+        "field": "a2",
+        "label": "A (ii) Interpretation",
+        "points": 1,
+        "guidance": "Earn the point for: from t = 2 to t = 5 hours, on average, the amount of water in the tank increased at a rate of 45 gallons per hour. The interval, 'on average', and units are all needed."
+      },
+      {
+        "id": "b1-estimate",
+        "field": "b1",
+        "label": "B (i) Estimate with units",
+        "points": 1,
+        "guidance": "Earn the point for (V(4.1) − V(3.9))/0.2 = (152.799 − 143.201)/0.2 = 47.990 gallons per hour."
+      },
+      {
+        "id": "b2-rate",
+        "field": "b2",
+        "label": "B (ii) Increasing at a decreasing rate, with reason",
+        "points": 1,
+        "guidance": "Earn the point for 'increasing at a decreasing rate' with a reason: the average rates of change over [5, 6] and [6, 7] are 41 and 29 gallons per hour, which are positive and decreasing."
+      },
+      {
+        "id": "c1-solve",
+        "field": "c1",
+        "label": "C (i) Equation and value of t",
+        "points": 1,
+        "guidance": "Earn the point for V(t) = 250, that is −t³ + 12t² + 20 = 250, with t = 6.420 hours."
+      },
+      {
+        "id": "c2-domain",
+        "field": "c2",
+        "label": "C (ii) Domain explanation",
+        "points": 1,
+        "guidance": "Earn the point for explaining that the model applies from the start of pumping until the tank is full, so an appropriate domain is 0 ≤ t ≤ 6.420 hours."
+      }
+    ],
+    "modelResponse": "A (i). (V(5) − V(2))/(5 − 2) = (195 − 60)/3 = 45. The average rate of change is 45 gallons per hour.\n\nA (ii). From t = 2 to t = 5 hours, on average, the amount of water in the tank increased at a rate of 45 gallons per hour.\n\nB (i). (V(4.1) − V(3.9))/(4.1 − 3.9) = (152.799 − 143.201)/0.2 = 47.990. At t = 4 hours, the amount of water is increasing at a rate of about 47.990 gallons per hour.\n\nB (ii). The average rate of change over [5, 6] is 236 − 195 = 41 gallons per hour, and over [6, 7] it is 265 − 236 = 29 gallons per hour. Both are positive, so the amount of water is increasing, and they decrease, so it is increasing at a decreasing rate on 5 < t < 7.\n\nC (i). V(t) = 250, so −t³ + 12t² + 20 = 250. Using a graphing calculator, t = 6.420 hours.\n\nC (ii). The model applies only while the tank is not overflowing. Pumping begins at t = 0, and the tank is full at t = 6.420. Therefore an appropriate domain for V is 0 ≤ t ≤ 6.420 hours.",
+    "alternateModel": "In B (ii) you may instead compare consecutive changes in the table, 41 and then 29, as long as you say they are average rates of change over equal-length intervals and that they are decreasing. In C (i) any correct equation equivalent to V(t) = 250, such as t³ − 12t² + 230 = 0, earns the point with the value of t.",
+    "commonErrors": [
+      "Reporting 135 gallons, the change in V, instead of dividing by 3 hours.",
+      "Interpreting 45 as the amount of water at some time, or leaving out 'on average' or the interval.",
+      "Using V(4) = 148 as the rate of change at t = 4.",
+      "Saying the amount is decreasing on 5 < t < 7 because the rates are getting smaller.",
+      "Rounding V(3.9) and V(4.1) before dividing, which can change the third decimal place."
+    ]
+  }
+}

@@ -94,20 +94,72 @@ test("every topic has a lesson, a bank of ten tagged questions, and two quizzes"
   }
 });
 
-test("the Unit 1 practice quiz draws from every topic and never repeats a question", async () => {
+test("Unit 1 practice is split like the CED: 18 questions on 1.1 to 1.6 and 24 on 1.7 to 1.14", async () => {
   const { unit } = await generated("precalculus/units/precalculus-1.json");
-  const [quiz] = unit.quizzes;
-  assert.equal(quiz.selections.length, UNIT_ONE.length);
+  assert.deepEqual(
+    unit.quizzes.map((quiz) => quiz.id),
+    ["precalculus-1-practice", "precalculus-1-practice-2"],
+  );
+  const [partOne, partTwo] = unit.quizzes;
+  assert.deepEqual(
+    partOne.selections.map((selection) => selection.topicId),
+    UNIT_ONE.slice(0, 6).map((_, index) => `precalculus-1-${index + 1}`),
+  );
+  assert.deepEqual(
+    partTwo.selections.map((selection) => selection.topicId),
+    UNIT_ONE.slice(6).map((_, index) => `precalculus-1-${index + 7}`),
+  );
+  const count = (quiz) =>
+    quiz.selections.reduce((sum, s) => sum + s.questionIds.length, 0);
+  assert.equal(count(partOne), 18);
+  assert.equal(count(partTwo), 24);
   const seen = new Set();
-  for (const selection of quiz.selections) {
+  for (const selection of [...partOne.selections, ...partTwo.selections]) {
     const bank = await generated(`precalculus/banks/${selection.topicId}.json`);
     const known = new Set(bank.questions.map((question) => question.id));
-    assert.equal(selection.questionIds.length, 2);
+    assert.equal(selection.questionIds.length, 3);
     for (const id of selection.questionIds) {
       assert.ok(known.has(id), `${id} exists in its own bank`);
       assert.ok(!seen.has(id), `${id} is not reused`);
       seen.add(id);
     }
+  }
+});
+
+test("lessons list the CED learning objectives with their codes", async () => {
+  for (let n = 1; n <= UNIT_ONE.length; n += 1) {
+    const { lesson } = await generated(`precalculus/topics/precalculus-1-${n}.json`);
+    assert.ok(lesson.learningGoals.length >= 1);
+    for (const goal of lesson.learningGoals)
+      assert.match(goal, new RegExp(`^1\\.${n}\\.[A-C] `), `${lesson.id}: ${goal}`);
+    assert.ok(
+      lesson.sections.every((section) =>
+        new RegExp(`^1\\.${n}\\.[A-C] · `).test(section.title),
+      ),
+      `${lesson.id} tags every section with its learning objective`,
+    );
+  }
+});
+
+test("Unit 1 has four 6-point free-response questions in the AP format", async () => {
+  const { unit } = await generated("precalculus/units/precalculus-1.json");
+  const frqs = unit.writingQuizzes;
+  assert.equal(frqs.length, 4);
+  for (const summary of frqs) {
+    assert.equal(summary.exerciseType, "frq");
+    assert.equal(summary.partCount, 6);
+    const { quiz } = await generated(`precalculus/writing/${summary.id}.json`);
+    assert.equal(
+      quiz.rubric.reduce((sum, row) => sum + row.points, 0),
+      6,
+    );
+    assert.deepEqual(
+      quiz.responseFields.map((field) => field.id),
+      ["a1", "a2", "b1", "b2", "c1", "c2"],
+    );
+    for (const row of quiz.rubric)
+      assert.ok(quiz.responseFields.some((field) => field.id === row.field));
+    assert.ok(quiz.modelResponse.includes("C (ii)."));
   }
 });
 

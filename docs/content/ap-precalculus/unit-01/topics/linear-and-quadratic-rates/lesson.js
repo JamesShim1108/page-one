@@ -12,33 +12,37 @@ export const lesson = {
   period: "Unit 1",
   status: "ready",
   summary:
-    "How average rates behave for linear and quadratic functions, secant slopes, and reading concavity from changing rates.",
-  minutes: 11,
+    "Average rates of change for sequences, linear functions, and quadratic functions, secant lines, and how the change in average rates of change reveals concavity.",
+  minutes: 12,
   learningGoals: [
-    "Explain why a linear function has the same average rate of change over every interval of equal width.",
-    "Describe how the average rates of a quadratic function change across consecutive equal-width intervals.",
-    "Connect an average rate of change to the slope of a secant line and use changing average rates to decide concavity.",
+    "1.3.A Determine the average rates of change for sequences and functions, including linear, quadratic, and other function types.",
+    "1.3.B Determine the change in the average rates of change for linear, quadratic, and other function types.",
   ],
+  labels: {
+    goals: "AP learning objectives",
+    learn: "Understand the mathematics.",
+    context: "Where this fits.",
+  },
   bigIdea:
-    "The pattern of average rates over equal-width intervals reveals the type of function. Constant rates mean a linear function, and rates that change by a constant amount are the signature of a quadratic function.",
+    "The pattern of average rates of change over consecutive equal-length input-value intervals identifies a function type. Constant average rates of change mean linear. Average rates of change that change at a constant rate mean quadratic.",
   context:
-    "Topic 1.2 gave you a way to calculate and interpret rates. This topic studies how those rates themselves behave. Looking at the rate of change of the rates is the first step toward recognizing function families from their data.",
+    "Topic 1.2 computed and interpreted average rates of change. This topic studies how those average rates of change themselves change, which is the reasoning the AP Exam expects when you justify a choice of model from a table.",
   sections: [
     {
       id: "linear-rates",
-      title: "A linear function has the same average rate of change everywhere.",
-      conceptTitle: "Linear functions and constant rates",
+      title: "1.3.A · For a linear function, the average rate of change is constant.",
+      conceptTitle: "Linear functions and sequences",
       blocks: [
         {
           type: "paragraph",
-          text: "A linear function f(x) = mx + b changes by the same amount m for every one-unit step in x. Its average rate of change is the constant m over every interval of any width. The graph is a line, and the line has no concavity because its rate never changes.",
+          text: "For a linear function, the average rate of change over any length input-value interval is constant. For f(x) = 3x + 2, every interval gives an average rate of change of 3, the slope of the line.",
         },
         {
           type: "table",
-          caption: "Outputs of f(x) = 3x + 2 at equally spaced inputs",
-          columns: ["x", "f(x)", "Change from the previous output"],
+          caption: "Values of f(x) = 3x + 2",
+          columns: ["x", "f(x)", "Change from the previous value"],
           rows: [
-            ["0", "2", "n/a"],
+            ["0", "2", "None (first value)"],
             ["1", "5", "3"],
             ["2", "8", "3"],
             ["3", "11", "3"],
@@ -46,28 +50,34 @@ export const lesson = {
         },
         {
           type: "paragraph",
-          text: "A sequence is a function whose inputs are the positive integers, so it lists outputs in order. When consecutive terms differ by the same amount, the average rate of change from one term to the next is constant, and the sequence behaves like a linear function. Because the average rates of a linear function never change, they change at a rate of zero.",
+          text: "A sequence is a function whose input values are whole numbers, so the same idea applies to its terms. The sequence 7, 11, 15, 19 changes by 4 from each term to the next, so its average rate of change is 4 per term. A sequence with a constant change between consecutive terms behaves like a linear function.",
         },
       ],
       takeaway:
-        "Constant average rates mean linear. The rate of change of those rates is zero.",
+        "A linear function has the same average rate of change over every interval.",
     },
     {
       id: "quadratic-rates",
-      title: "A quadratic function's average rates change by a constant amount.",
-      conceptTitle: "Quadratic functions and changing rates",
+      title:
+        "1.3.A · For a quadratic function, the average rates of change are given by a linear function.",
+      conceptTitle: "Quadratic functions",
       blocks: [
         {
           type: "paragraph",
-          text: "A quadratic function can be written q(x) = ax² + bx + c with a ≠ 0. Its average rate of change is not constant. Instead, over consecutive intervals of the same width, the average rates themselves follow a linear pattern, increasing or decreasing by the same amount each time.",
+          text: "A quadratic function can be written q(x) = ax² + bx + c with a ≠ 0. Its average rate of change is not constant. Over consecutive equal-length input-value intervals, its average rates of change can be given by a linear function.",
         },
         {
           type: "table",
           caption:
-            "Average rates for q(x) = 2x² − 3x + 1 on consecutive intervals of width 1",
-          columns: ["Interval", "q at left end", "q at right end", "Average rate"],
+            "Average rates of change of q(x) = 2x² − 3x + 1 over consecutive intervals of length 1",
+          columns: [
+            "Interval",
+            "q at the left endpoint",
+            "q at the right endpoint",
+            "Average rate of change",
+          ],
           rows: [
-            ["[0, 1]", "1", "0", "-1"],
+            ["[0, 1]", "1", "0", "−1"],
             ["[1, 2]", "0", "3", "3"],
             ["[2, 3]", "3", "10", "7"],
             ["[3, 4]", "10", "21", "11"],
@@ -75,61 +85,72 @@ export const lesson = {
           ],
         },
         {
-          type: "paragraph",
-          text: "The average rates −1, 3, 7, 11, 15 increase by 4 each time. Since the rates change at a constant rate, they form a linear function of the interval. When a is positive the rates increase and the graph is concave up. When a is negative the rates decrease and the graph is concave down.",
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "Because the average rates of change of q over consecutive equal-length input-value intervals, −1, 3, 7, 11, 15, change by a constant 4, these average rates of change are given by a linear function, which is consistent with q being quadratic.",
         },
       ],
       takeaway:
-        "For a quadratic, the average rates over equal-width intervals change by a constant amount.",
+        "A quadratic function's average rates of change over equal-length intervals change by a constant amount.",
     },
     {
       id: "secant-lines",
-      title: "On a graph, an average rate of change is the slope of a secant line.",
+      title:
+        "1.3.A · The average rate of change over [a, b] is the slope of a secant line.",
       conceptTitle: "Secant lines",
       blocks: [
         {
           type: "paragraph",
-          text: "A secant line is a line through two points on a graph. Its slope is rise over run, which is exactly the change in output divided by the change in input. So the average rate of change of f on [a, b] equals the slope of the secant line through (a, f(a)) and (b, f(b)).",
+          text: "The average rate of change of a function f over the closed interval [a, b] is the slope of the secant line from the point (a, f(a)) to the point (b, f(b)). For f(x) = x², the secant line from (1, 1) to (3, 9) has slope (9 − 1)/(3 − 1) = 4, which is also the average rate of change of f over [1, 3].",
         },
         {
           type: "paragraph",
-          text: "For f(x) = x², the secant line through (1, 1) and (3, 9) has slope (9 − 1)/(3 − 1) = 4. That number is also the average rate of change of f on [1, 3]. Picturing the secant line is a useful way to see why average rates are different on different intervals: different intervals produce secant lines with different slopes.",
+          text: "Different intervals give secant lines with different slopes unless the function is linear. That is a picture of why only a linear function has a constant average rate of change.",
         },
       ],
       takeaway:
-        "Average rate of change and secant slope are two names for the same number.",
+        "Average rate of change over [a, b] and the slope of the secant line are the same number.",
     },
     {
       id: "concavity-from-rates",
-      title: "How average rates change reveals concavity.",
-      conceptTitle: "Concavity from rates",
+      title: "1.3.B · The change in the average rates of change reveals concavity.",
+      conceptTitle: "Changing average rates of change",
       blocks: [
         {
           type: "paragraph",
-          text: "Take average rates over consecutive intervals of equal width and see what they do. If they keep increasing, the graph is concave up. If they keep decreasing, the graph is concave down. If they stay the same, the graph is a line.",
+          text: "For a linear function, the average rates of change over consecutive equal-length intervals are given by a constant function, so they change at a rate of zero. For a quadratic function, they are given by a linear function, so they change at a constant rate.",
+        },
+        {
+          type: "paragraph",
+          text: "When the average rate of change over equal-length input-value intervals is increasing for all small-length intervals, the graph of the function is concave up. When it is decreasing for all small-length intervals, the graph is concave down.",
         },
         {
           type: "table",
-          caption: "Reading the pattern of average rates",
-          columns: [
-            "Average rates on consecutive equal intervals",
-            "Pattern",
-            "Shape of the graph",
-          ],
+          caption:
+            "Reading average rates of change over consecutive equal-length intervals",
+          columns: ["Average rates of change", "How they change", "Graph"],
           rows: [
-            ["2, 4, 6, 8", "Increasing", "Concave up"],
-            ["9, 5, 1, −3", "Decreasing", "Concave down"],
-            ["3, 3, 3, 3", "Constant", "A line, with no concavity"],
+            [
+              "2, 4, 6, 8",
+              "Increasing at a constant rate",
+              "Concave up, consistent with a quadratic",
+            ],
+            [
+              "9, 5, 1, −3",
+              "Decreasing at a constant rate",
+              "Concave down, consistent with a quadratic",
+            ],
+            ["3, 3, 3, 3", "Changing at a rate of zero", "A line"],
           ],
         },
         {
           type: "callout",
-          title: "Rates can be negative and still increase",
-          text: "The rates −8, −5, −3, −1 are all negative, but they are increasing, so the graph falls and is concave up. Compare the rates with each other, not with zero.",
+          title: "Write it like the AP Exam",
+          text: "The graph of h is concave down on [0, 3] because the average rates of change of h over consecutive equal-length intervals, 15, 5, −5, are decreasing.",
         },
       ],
       takeaway:
-        "Increasing rates mean concave up. Decreasing rates mean concave down. Constant rates mean linear.",
+        "Increasing average rates of change mean concave up, and decreasing ones mean concave down.",
     },
   ],
   vocabulary: [
@@ -138,28 +159,28 @@ export const lesson = {
       topicId: "precalculus-1-3",
       term: "Linear function",
       definition:
-        "A function of the form f(x) = mx + b. Its average rate of change is the constant m over every interval.",
+        "A function whose average rate of change over any length input-value interval is constant, given by f(x) = mx + b.",
     },
     {
       id: "precalculus-1-3-quadratic-function",
       topicId: "precalculus-1-3",
       term: "Quadratic function",
       definition:
-        "A function that can be written ax² + bx + c with a ≠ 0. Its average rates over consecutive equal-width intervals form a linear pattern.",
+        "A function q(x) = ax² + bx + c with a ≠ 0. Its average rates of change over consecutive equal-length input-value intervals are given by a linear function.",
     },
     {
       id: "precalculus-1-3-secant-line",
       topicId: "precalculus-1-3",
       term: "Secant line",
       definition:
-        "A line through two points of a graph. Its slope is the average rate of change between those points.",
+        "The line through two points of a graph. Its slope from (a, f(a)) to (b, f(b)) is the average rate of change of f over [a, b].",
     },
     {
       id: "precalculus-1-3-sequence",
       topicId: "precalculus-1-3",
       term: "Sequence",
       definition:
-        "A function whose inputs are the positive integers, listing outputs in order.",
+        "A function whose input values are whole numbers, written as an ordered list of terms.",
     },
   ],
   connections: [
@@ -167,12 +188,12 @@ export const lesson = {
       id: "precalculus-1-3-c1",
       topicId: "precalculus-1-3",
       type: "Look back",
-      title: "Same idea, now with numbers",
-      body: "Topic 1.1 said concave up means the rate of change is increasing. Here you tested that claim by listing average rates over equal-width intervals and watching whether they grow.",
+      title: "Concavity, now with numbers",
+      body: "Topic 1.1 defined concave up as a rate of change that is increasing. Here the definition becomes a test: list the average rates of change over equal-length intervals and see whether they increase.",
       transferQuestion:
-        "Average rates over three consecutive equal intervals are 12, 7, and 3. Is the graph concave up or concave down, and is the function increasing?",
+        "Average rates of change over three consecutive equal-length intervals are 12, 7, and 3. Is the function increasing, and is its graph concave up or concave down?",
       feedback:
-        "The rates are decreasing, so the graph is concave down. The rates are all positive, so the function is still increasing.",
+        "The average rates of change are positive, so the function is increasing. They decrease, so the graph is concave down.",
       links: [
         {
           topicId: "precalculus-1-1",
@@ -185,12 +206,12 @@ export const lesson = {
       id: "precalculus-1-3-c2",
       topicId: "precalculus-1-3",
       type: "Looking ahead",
-      title: "Polynomials generalize this pattern",
-      body: "A quadratic has constant second differences. Topic 1.5 extends this: the degree of a polynomial can be found by taking successive differences until they become constant.",
+      title: "Degree from successive differences",
+      body: "A quadratic function has constant second differences. Topic 1.5 extends this: the degree of a polynomial is the least n for which the successive nth differences are constant.",
       transferQuestion:
-        "If the first differences of a table are constant, what degree would you expect? What if the second differences are constant?",
+        "If the first differences of a table are constant, what degree fits? What if the second differences are the first constant differences?",
       feedback:
-        "Constant first differences point to degree 1 and constant second differences to degree 2. In general, the first constant row of differences names the degree.",
+        "Constant first differences point to degree 1 and constant second differences to degree 2.",
       links: [
         {
           topicId: "precalculus-1-5",

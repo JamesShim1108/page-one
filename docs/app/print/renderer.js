@@ -92,7 +92,7 @@ export function renderLessonDocument({
       ? `<p class="print-empty">That reading section has no printable authored material yet.</p>`
       : `${sections.map((section) => renderLessonSection(section, assets)).join("")}${special}${readingGuide}${connections}`;
   const heading = sectionId ? `${titlePrefix}: ${lesson.title}` : lesson.title;
-  return `<article class="print-document__body print-reading-document"><header class="print-document__heading"><p class="eyebrow">${esc(unit?.title || "Reading")}</p><h1>${esc(heading)}</h1><p>${esc(lesson.period || "")} · ${esc(lesson.summary || "")}</p></header>${!sectionId ? `<div class="print-reading-lede"><p><strong>The big idea:</strong> ${esc(lesson.bigIdea || "")}</p><p><strong>Place it in time:</strong> ${esc(lesson.context || "")}</p></div>` : ""}${body}${includeTerms && !sectionId ? renderLessonTerms(lesson) : ""}${includeTerms && !sectionId ? renderReadingGuide(lesson.readingGuide) : ""}${sourceLabels(sources)}${printUrlBlock(publicPath, { includeQr })}</article>`;
+  return `<article class="print-document__body print-reading-document"><header class="print-document__heading"><p class="eyebrow">${esc(unit?.title || "Reading")}</p><h1>${esc(heading)}</h1><p>${esc(lesson.period || "")} · ${esc(lesson.summary || "")}</p></header>${!sectionId ? `<div class="print-reading-lede"><p><strong>The big idea:</strong> ${esc(lesson.bigIdea || "")}</p><p><strong>${esc((lesson.labels?.context || "Place it in time.").replace(/\.$/, ":"))}</strong> ${esc(lesson.context || "")}</p></div>` : ""}${body}${includeTerms && !sectionId ? renderLessonTerms(lesson) : ""}${includeTerms && !sectionId ? renderReadingGuide(lesson.readingGuide) : ""}${sourceLabels(sources)}${printUrlBlock(publicPath, { includeQr })}</article>`;
 }
 
 function renderQuestion(question, index, { key = false, responseSpace = false } = {}) {
@@ -184,10 +184,23 @@ function printSourceBlock(block, heading = "") {
 }
 
 // Stimulus excerpts and released DBQ documents print with the prompt.
+// Free-response math questions print their given tables and definitions.
+function printGivenBlock(block) {
+  if (block.type === "paragraph") return `<p>${esc(block.text)}</p>`;
+  if (block.type === "callout")
+    return `<aside class="note"><strong>${esc(block.title)}</strong> ${esc(block.text)}</aside>`;
+  if (block.type === "list")
+    return `<ul>${(block.items || []).map((item) => `<li>${esc(item)}</li>`).join("")}</ul>`;
+  if (block.type === "table")
+    return `<div class="table-wrap"><table><caption>${esc(block.caption)}</caption><thead><tr>${(block.columns || []).map((column) => `<th scope="col">${esc(column)}</th>`).join("")}</tr></thead><tbody>${(block.rows || []).map((row) => `<tr>${row.map((cell, cellIndex) => (cellIndex === 0 ? `<th scope="row">${esc(cell)}</th>` : `<td>${esc(cell)}</td>`)).join("")}</tr>`).join("")}</tbody></table></div>`;
+  return "";
+}
+
 function printWritingSources(quiz) {
   const stimuli = (quiz?.stimulusBlocks || [])
-    .filter((block) => block.type === "source")
-    .map((block) => printSourceBlock(block))
+    .map((block) =>
+      block.type === "source" ? printSourceBlock(block) : printGivenBlock(block),
+    )
     .join("");
   const documents =
     quiz?.availability === "blocked"

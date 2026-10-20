@@ -19,7 +19,7 @@ export const glossary = {
         topicId: "precalculus-1-1",
         vocabularyId: "precalculus-1-1-domain",
       },
-      topicIds: ["precalculus-1-9", "precalculus-1-13"],
+      topicIds: ["precalculus-1-9", "precalculus-1-12", "precalculus-1-13"],
     },
     {
       id: "precalculus-1-1-range",
@@ -27,7 +27,21 @@ export const glossary = {
         topicId: "precalculus-1-1",
         vocabularyId: "precalculus-1-1-range",
       },
-      topicIds: ["precalculus-1-13"],
+      topicIds: ["precalculus-1-12", "precalculus-1-13"],
+    },
+    {
+      id: "precalculus-1-1-independent-variable",
+      from: {
+        topicId: "precalculus-1-1",
+        vocabularyId: "precalculus-1-1-independent-variable",
+      },
+    },
+    {
+      id: "precalculus-1-1-dependent-variable",
+      from: {
+        topicId: "precalculus-1-1",
+        vocabularyId: "precalculus-1-1-dependent-variable",
+      },
     },
     {
       id: "precalculus-1-1-image",
@@ -126,7 +140,6 @@ export const glossary = {
         topicId: "precalculus-1-3",
         vocabularyId: "precalculus-1-3-secant-line",
       },
-      aliases: ["secant"],
     },
     {
       id: "precalculus-1-3-sequence",
@@ -169,32 +182,36 @@ export const glossary = {
       topicIds: ["precalculus-1-6", "precalculus-1-7"],
     },
     {
-      id: "precalculus-1-4-local-max",
+      id: "precalculus-1-4-relative-max",
       from: {
         topicId: "precalculus-1-4",
-        vocabularyId: "precalculus-1-4-local-max",
+        vocabularyId: "precalculus-1-4-relative-max",
       },
+      aliases: ["local maximum"],
     },
     {
-      id: "precalculus-1-4-local-min",
+      id: "precalculus-1-4-relative-min",
       from: {
         topicId: "precalculus-1-4",
-        vocabularyId: "precalculus-1-4-local-min",
+        vocabularyId: "precalculus-1-4-relative-min",
       },
+      aliases: ["local minimum"],
     },
     {
-      id: "precalculus-1-4-global-max",
+      id: "precalculus-1-4-absolute-max",
       from: {
         topicId: "precalculus-1-4",
-        vocabularyId: "precalculus-1-4-global-max",
+        vocabularyId: "precalculus-1-4-absolute-max",
       },
+      aliases: ["global maximum"],
     },
     {
-      id: "precalculus-1-4-global-min",
+      id: "precalculus-1-4-absolute-min",
       from: {
         topicId: "precalculus-1-4",
-        vocabularyId: "precalculus-1-4-global-min",
+        vocabularyId: "precalculus-1-4-absolute-min",
       },
+      aliases: ["global minimum"],
     },
     {
       id: "precalculus-1-4-inflection",
@@ -202,6 +219,7 @@ export const glossary = {
         topicId: "precalculus-1-4",
         vocabularyId: "precalculus-1-4-inflection",
       },
+      aliases: ["points of inflection"],
     },
     {
       id: "precalculus-1-5-multiplicity",
@@ -209,6 +227,7 @@ export const glossary = {
         topicId: "precalculus-1-5",
         vocabularyId: "precalculus-1-5-multiplicity",
       },
+      topicIds: ["precalculus-1-9", "precalculus-1-10"],
     },
     {
       id: "precalculus-1-5-complex-number",
@@ -219,12 +238,11 @@ export const glossary = {
       aliases: ["complex numbers"],
     },
     {
-      id: "precalculus-1-5-conjugate-pair",
+      id: "precalculus-1-5-conjugate",
       from: {
         topicId: "precalculus-1-5",
-        vocabularyId: "precalculus-1-5-conjugate-pair",
+        vocabularyId: "precalculus-1-5-conjugate",
       },
-      aliases: ["conjugate pairs"],
     },
     {
       id: "precalculus-1-5-successive-differences",
@@ -255,7 +273,7 @@ export const glossary = {
         vocabularyId: "precalculus-1-6-end-behavior",
       },
       aliases: ["end behaviors"],
-      topicIds: ["precalculus-1-7"],
+      topicIds: ["precalculus-1-7", "precalculus-1-11"],
     },
     {
       id: "precalculus-1-6-without-bound",
@@ -289,22 +307,13 @@ export const glossary = {
       ],
     },
     {
-      id: "precalculus-1-7-asymptote",
-      from: {
-        topicId: "precalculus-1-7",
-        vocabularyId: "precalculus-1-7-asymptote",
-      },
-      aliases: ["asymptotes"],
-      topicIds: ["precalculus-1-9"],
-    },
-    {
       id: "precalculus-1-7-horizontal-asymptote",
       from: {
         topicId: "precalculus-1-7",
         vocabularyId: "precalculus-1-7-horizontal-asymptote",
       },
       aliases: ["horizontal asymptotes"],
-      topicIds: ["precalculus-1-11", "precalculus-1-14"],
+      topicIds: ["precalculus-1-11", "precalculus-1-12", "precalculus-1-14"],
     },
     {
       id: "precalculus-1-7-slant-asymptote",
@@ -316,13 +325,12 @@ export const glossary = {
       topicIds: ["precalculus-1-11"],
     },
     {
-      id: "precalculus-1-8-sign-chart",
+      id: "precalculus-1-8-rational-inequality",
       from: {
         topicId: "precalculus-1-8",
-        vocabularyId: "precalculus-1-8-sign-chart",
+        vocabularyId: "precalculus-1-8-rational-inequality",
       },
-      aliases: ["sign charts"],
-      topicIds: ["precalculus-1-9"],
+      aliases: ["rational inequalities"],
     },
     {
       id: "precalculus-1-8-test-value",
@@ -339,7 +347,12 @@ export const glossary = {
         vocabularyId: "precalculus-1-9-vertical-asymptote",
       },
       aliases: ["vertical asymptotes"],
-      topicIds: ["precalculus-1-10", "precalculus-1-14"],
+      topicIds: [
+        "precalculus-1-10",
+        "precalculus-1-11",
+        "precalculus-1-12",
+        "precalculus-1-14",
+      ],
     },
     {
       id: "precalculus-1-9-one-sided-limit",
@@ -357,7 +370,7 @@ export const glossary = {
         vocabularyId: "precalculus-1-10-hole",
       },
       aliases: ["holes"],
-      topicIds: ["precalculus-1-14"],
+      topicIds: ["precalculus-1-11"],
     },
     {
       id: "precalculus-1-10-common-factor",
@@ -369,13 +382,18 @@ export const glossary = {
       topicIds: ["precalculus-1-11"],
     },
     {
-      id: "precalculus-1-11-equivalent-expressions",
+      id: "precalculus-1-11-factored-form",
       from: {
         topicId: "precalculus-1-11",
-        vocabularyId: "precalculus-1-11-equivalent-expressions",
+        vocabularyId: "precalculus-1-11-factored-form",
       },
-      aliases: ["equivalent expression"],
-      topicIds: ["precalculus-1-14"],
+    },
+    {
+      id: "precalculus-1-11-standard-form",
+      from: {
+        topicId: "precalculus-1-11",
+        vocabularyId: "precalculus-1-11-standard-form",
+      },
     },
     {
       id: "precalculus-1-11-polynomial-long-division",
@@ -393,12 +411,11 @@ export const glossary = {
       },
     },
     {
-      id: "precalculus-1-11-binomial-coefficient",
+      id: "precalculus-1-11-pascals-triangle",
       from: {
         topicId: "precalculus-1-11",
-        vocabularyId: "precalculus-1-11-binomial-coefficient",
+        vocabularyId: "precalculus-1-11-pascals-triangle",
       },
-      aliases: ["binomial coefficients"],
     },
     {
       id: "precalculus-1-12-translation",
@@ -406,7 +423,7 @@ export const glossary = {
         topicId: "precalculus-1-12",
         vocabularyId: "precalculus-1-12-translation",
       },
-      aliases: ["translations"],
+      aliases: ["translations", "translated"],
     },
     {
       id: "precalculus-1-12-dilation",
@@ -414,7 +431,7 @@ export const glossary = {
         topicId: "precalculus-1-12",
         vocabularyId: "precalculus-1-12-dilation",
       },
-      aliases: ["dilations"],
+      aliases: ["dilations", "dilated"],
     },
     {
       id: "precalculus-1-12-reflection",
@@ -425,12 +442,30 @@ export const glossary = {
       aliases: ["reflections"],
     },
     {
-      id: "precalculus-1-13-mathematical-model",
+      id: "precalculus-1-12-parent-function",
+      from: {
+        topicId: "precalculus-1-12",
+        vocabularyId: "precalculus-1-12-parent-function",
+      },
+      aliases: ["parent functions"],
+      topicIds: ["precalculus-1-14"],
+    },
+    {
+      id: "precalculus-1-13-function-model",
       from: {
         topicId: "precalculus-1-13",
-        vocabularyId: "precalculus-1-13-mathematical-model",
+        vocabularyId: "precalculus-1-13-function-model",
       },
       aliases: ["model", "models"],
+      topicIds: ["precalculus-1-14"],
+    },
+    {
+      id: "precalculus-1-13-piecewise-defined",
+      from: {
+        topicId: "precalculus-1-13",
+        vocabularyId: "precalculus-1-13-piecewise-defined",
+      },
+      aliases: ["piecewise-defined"],
       topicIds: ["precalculus-1-14"],
     },
     {
@@ -443,27 +478,19 @@ export const glossary = {
       topicIds: ["precalculus-1-14"],
     },
     {
-      id: "precalculus-1-13-extrapolation",
-      from: {
-        topicId: "precalculus-1-13",
-        vocabularyId: "precalculus-1-13-extrapolation",
-      },
-      topicIds: ["precalculus-1-14"],
-    },
-    {
       id: "precalculus-1-14-regression",
       from: {
         topicId: "precalculus-1-14",
         vocabularyId: "precalculus-1-14-regression",
       },
+      aliases: ["regressions"],
     },
     {
-      id: "precalculus-1-14-parent-function",
+      id: "precalculus-1-14-inversely-proportional",
       from: {
         topicId: "precalculus-1-14",
-        vocabularyId: "precalculus-1-14-parent-function",
+        vocabularyId: "precalculus-1-14-inversely-proportional",
       },
-      aliases: ["parent functions"],
     },
   ],
 };

@@ -20,7 +20,7 @@
         "title": "Change in Tandem",
         "period": "Unit 1",
         "status": "ready",
-        "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+        "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
       },
       {
         "id": "precalculus-1-2",
@@ -31,7 +31,7 @@
         "title": "Rates of Change",
         "period": "Unit 1",
         "status": "ready",
-        "summary": "Average rates of change over intervals, estimating the rate at a point, and what the sign of a rate tells you."
+        "summary": "Average rates of change over intervals, rates of change at a point, and what the sign of a rate of change says about how two quantities vary together."
       },
       {
         "id": "precalculus-1-3",
@@ -42,7 +42,7 @@
         "title": "Rates of Change in Linear and Quadratic Functions",
         "period": "Unit 1",
         "status": "ready",
-        "summary": "How average rates behave for linear and quadratic functions, secant slopes, and reading concavity from changing rates."
+        "summary": "Average rates of change for sequences, linear functions, and quadratic functions, secant lines, and how the change in average rates of change reveals concavity."
       }
     ],
     "firstTopic": {
@@ -54,7 +54,7 @@
       "title": "Change in Tandem",
       "period": "Unit 1",
       "status": "ready",
-      "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+      "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
     },
     "indexPath": "precalculus/index.json",
     "routesPath": "precalculus/routes.json",
@@ -75,68 +75,86 @@
           "id": "precalculus-1-practice",
           "courseId": "precalculus",
           "unitId": "precalculus-1",
-          "title": "Unit 1 practice",
+          "title": "Unit 1 practice, Part 1: Topics 1.1 to 1.6",
           "quizType": "unit",
           "selections": [
             {
               "topicId": "precalculus-1-1",
               "questionIds": [
                 "precalculus-1-1-q02",
-                "precalculus-1-1-q06"
+                "precalculus-1-1-q06",
+                "precalculus-1-1-q07"
               ]
             },
             {
               "topicId": "precalculus-1-2",
               "questionIds": [
                 "precalculus-1-2-q02",
-                "precalculus-1-2-q03"
+                "precalculus-1-2-q03",
+                "precalculus-1-2-q06"
               ]
             },
             {
               "topicId": "precalculus-1-3",
               "questionIds": [
                 "precalculus-1-3-q01",
-                "precalculus-1-3-q04"
+                "precalculus-1-3-q04",
+                "precalculus-1-3-q08"
               ]
             },
             {
               "topicId": "precalculus-1-4",
               "questionIds": [
                 "precalculus-1-4-q02",
-                "precalculus-1-4-q07"
+                "precalculus-1-4-q04",
+                "precalculus-1-4-q08"
               ]
             },
             {
               "topicId": "precalculus-1-5",
               "questionIds": [
                 "precalculus-1-5-q02",
-                "precalculus-1-5-q06"
+                "precalculus-1-5-q06",
+                "precalculus-1-5-q10"
               ]
             },
             {
               "topicId": "precalculus-1-6",
               "questionIds": [
                 "precalculus-1-6-q02",
+                "precalculus-1-6-q07",
                 "precalculus-1-6-q08"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "precalculus-1-practice-2",
+          "courseId": "precalculus",
+          "unitId": "precalculus-1",
+          "title": "Unit 1 practice, Part 2: Topics 1.7 to 1.14",
+          "quizType": "unit",
+          "selections": [
             {
               "topicId": "precalculus-1-7",
               "questionIds": [
                 "precalculus-1-7-q01",
-                "precalculus-1-7-q07"
+                "precalculus-1-7-q03",
+                "precalculus-1-7-q08"
               ]
             },
             {
               "topicId": "precalculus-1-8",
               "questionIds": [
                 "precalculus-1-8-q02",
-                "precalculus-1-8-q05"
+                "precalculus-1-8-q05",
+                "precalculus-1-8-q07"
               ]
             },
             {
               "topicId": "precalculus-1-9",
               "questionIds": [
+                "precalculus-1-9-q03",
                 "precalculus-1-9-q06",
                 "precalculus-1-9-q07"
               ]
@@ -145,26 +163,30 @@
               "topicId": "precalculus-1-10",
               "questionIds": [
                 "precalculus-1-10-q03",
-                "precalculus-1-10-q06"
+                "precalculus-1-10-q06",
+                "precalculus-1-10-q07"
               ]
             },
             {
               "topicId": "precalculus-1-11",
               "questionIds": [
                 "precalculus-1-11-q03",
-                "precalculus-1-11-q06"
+                "precalculus-1-11-q06",
+                "precalculus-1-11-q07"
               ]
             },
             {
               "topicId": "precalculus-1-12",
               "questionIds": [
                 "precalculus-1-12-q02",
-                "precalculus-1-12-q06"
+                "precalculus-1-12-q05",
+                "precalculus-1-12-q07"
               ]
             },
             {
               "topicId": "precalculus-1-13",
               "questionIds": [
+                "precalculus-1-13-q02",
                 "precalculus-1-13-q06",
                 "precalculus-1-13-q08"
               ]
@@ -172,8 +194,9 @@
             {
               "topicId": "precalculus-1-14",
               "questionIds": [
-                "precalculus-1-14-q07",
-                "precalculus-1-14-q10"
+                "precalculus-1-14-q01",
+                "precalculus-1-14-q05",
+                "precalculus-1-14-q08"
               ]
             }
           ]
@@ -249,10 +272,39 @@
         "title": "Change in Tandem",
         "period": "Unit 1",
         "status": "ready",
-        "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+        "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
       },
       "hasGuide": false,
-      "writingQuizzes": []
+      "writingQuizzes": [
+        {
+          "id": "precalculus-1-frq-1",
+          "title": "Unit 1 FRQ 1: Function concepts (Topics 1.1 to 1.6)",
+          "partCount": 6,
+          "exerciseType": "frq",
+          "availability": "available"
+        },
+        {
+          "id": "precalculus-1-frq-2",
+          "title": "Unit 1 FRQ 2: Modeling a non-periodic context (Topics 1.1 to 1.6)",
+          "partCount": 6,
+          "exerciseType": "frq",
+          "availability": "available"
+        },
+        {
+          "id": "precalculus-1-frq-3",
+          "title": "Unit 1 FRQ 3: Function concepts (Topics 1.7 to 1.14)",
+          "partCount": 6,
+          "exerciseType": "frq",
+          "availability": "available"
+        },
+        {
+          "id": "precalculus-1-frq-4",
+          "title": "Unit 1 FRQ 4: Modeling a non-periodic context (Topics 1.7 to 1.14)",
+          "partCount": 6,
+          "exerciseType": "frq",
+          "availability": "available"
+        }
+      ]
     },
     {
       "schemaVersion": 1,

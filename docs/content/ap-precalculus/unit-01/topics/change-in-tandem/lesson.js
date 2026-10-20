@@ -12,35 +12,35 @@ export const lesson = {
   period: "Unit 1",
   status: "ready",
   summary:
-    "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros.",
-  minutes: 10,
+    "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros.",
+  minutes: 12,
   learningGoals: [
-    "Decide whether a table or rule describes a function, and name its domain and range.",
-    "Describe where a function is increasing or decreasing and where its graph is concave up or concave down.",
-    "Identify the zeros of a function from a rule, a table, or a description.",
+    "1.1.A Describe how the input and output values of a function vary together by comparing function values.",
+    "1.1.B Construct a graph representing two quantities that vary with respect to each other in a contextual scenario.",
   ],
+  labels: {
+    goals: "AP learning objectives",
+    learn: "Understand the mathematics.",
+    context: "Where this fits.",
+  },
   bigIdea:
-    "A function tells you how an output responds as an input changes. Describing that response, whether it rises or falls and whether it speeds up or slows down, is the foundation for everything else in this course.",
+    "A function is a rule that relates two changing quantities. Describing how the output values change as the input values change, whether they increase or decrease and whether the rate of change is increasing or decreasing, is the starting point for every function in this course.",
   context:
-    "Whenever two quantities are linked, a natural question is what one does when the other changes. Functions answer that question precisely. The rest of this unit, from rates of change to polynomial and rational behavior, builds on describing how an output and an input change in tandem.",
+    "Unit 1 is built on two ideas: covariation, meaning how output values change in tandem with input values, and rates of change. This topic is about the first idea, and it introduces the precise language the AP Exam expects whenever you describe a function.",
   sections: [
     {
       id: "function-basics",
-      title: "A function gives each input exactly one output.",
+      title: "1.1.A · A function maps each input value to exactly one output value.",
       conceptTitle: "Functions, domain, and range",
       blocks: [
         {
           type: "paragraph",
-          text: "A function assigns to each allowed input exactly one output. The set of allowed inputs is the domain, and the set of outputs that actually occur is the range. Two functions are the same function only when they have the same domain and give the same output for every input in it.",
-        },
-        {
-          type: "paragraph",
-          text: "A function can appear as a table of values, a graph, an equation, or a verbal description. The representation changes, but the function does not. Moving between representations is a skill you will use in every unit.",
+          text: "A function is a mathematical relation that maps a set of input values to a set of output values so that each input value is mapped to exactly one output value. The set of input values is the domain, and the set of output values is the range. The variable that represents input values is the independent variable, and the variable that represents output values is the dependent variable.",
         },
         {
           type: "table",
-          caption: "A function: each input appears with one output",
-          columns: ["Input x", "Output f(x)"],
+          caption: "Values of the function f",
+          columns: ["x", "f(x)"],
           rows: [
             ["−2", "7"],
             ["0", "3"],
@@ -50,29 +50,35 @@ export const lesson = {
         },
         {
           type: "paragraph",
-          text: "Different inputs may share an output, as 0 and 1 do above. The reverse is not allowed. If the input 2 were paired with both 5 and 9, the table would not describe a function. When f(3) = 7, we call 7 the image of 3 and 3 a preimage of 7. An output can have more than one preimage.",
+          text: "Different input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value the rule gives it: since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of all input values that give it: the preimage of 3 is {0, 1}.",
+        },
+        {
+          type: "paragraph",
+          text: "Two functions f and g are equal only when they have the same domain and f(a) = g(a) for every input value a in that domain. A function can be given graphically, numerically (a table), analytically (a formula), or verbally (a description). The representation changes, but the function does not.",
+        },
+        {
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "Name both variables with their units. For example: The input values of the function h are times, in seconds, and the output values are heights, in feet.",
         },
       ],
       takeaway:
-        "Each input has exactly one output, but different inputs are allowed to share an output.",
+        "Each input value has exactly one output value. Images are output values, and preimages are sets of input values.",
     },
     {
       id: "increasing-decreasing",
-      title: "Increasing and decreasing describe how outputs respond to larger inputs.",
+      title:
+        "1.1.A · Increasing and decreasing compare output values as input values increase.",
       conceptTitle: "Increasing and decreasing",
       blocks: [
         {
           type: "paragraph",
-          text: "A function is increasing on an interval if larger inputs always give larger outputs there. It is decreasing on an interval if larger inputs always give smaller outputs there. On a graph read from left to right, rising means increasing and falling means decreasing.",
-        },
-        {
-          type: "paragraph",
-          text: "Many functions change direction. A ball thrown upward gains height while it rises and loses height while it falls, so its height function is increasing on one interval and decreasing on the next. Always name the interval when you describe the behavior.",
+          text: "A function f is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval if, as the input values increase, the output values always decrease: for all a and b in the interval, if a < b, then f(a) > f(b).",
         },
         {
           type: "table",
-          caption: "Height of a thrown ball over time",
-          columns: ["Time (seconds)", "Height (feet)"],
+          caption: "Height h(t), in feet, of a ball t seconds after it is thrown",
+          columns: ["t", "h(t)"],
           rows: [
             ["0", "6"],
             ["0.5", "26"],
@@ -84,26 +90,57 @@ export const lesson = {
           ],
         },
         {
+          type: "paragraph",
+          text: "Comparing function values: from t = 0 to t = 1.5 each output value is greater than the one before, and from t = 1.5 to t = 3 each output value is less than the one before. So h is increasing on the interval 0 < t < 1.5 and decreasing on the interval 1.5 < t < 3.",
+        },
+        {
           type: "callout",
-          title: "Turning points",
-          text: "In this course you do not need to decide whether the turning point itself belongs to the increasing interval or the decreasing interval. Describe what the function does on either side of it.",
+          title: "Write it like the AP Exam",
+          text: "On the interval 0 < t < 1.5, as t increases, h(t) increases. On the interval 1.5 < t < 3, as t increases, h(t) decreases. Telling open intervals apart from closed intervals when you state where a function is increasing or decreasing is outside the scope of the course, so either form is accepted.",
         },
       ],
       takeaway:
-        "Name the interval and the direction. One function can increase in one place and decrease in another.",
+        "State the interval, then say how the output values change as the input values increase.",
+    },
+    {
+      id: "construct-graph",
+      title: "1.1.B · A verbal description of a context can be turned into a graph.",
+      conceptTitle: "Constructing a graph from a context",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "The graph of a function displays a set of input-output pairs and shows how the input and output values vary together. To construct a graph from a description, decide which quantity is the input and which is the output, then translate each sentence of the description into a feature of the graph.",
+        },
+        {
+          type: "table",
+          caption: "Translating a description of draining water into graph features",
+          columns: ["Description", "Feature of the graph of y = D(t)"],
+          rows: [
+            ["The depth D of the water falls the whole time", "D is decreasing"],
+            [
+              "It falls quickly at first, then more and more slowly",
+              "The rate of change is increasing toward 0, so the graph is concave up",
+            ],
+            ["The tank is empty after 20 minutes", "D(20) = 0, so t = 20 is a zero of D"],
+          ],
+        },
+      ],
+      takeaway:
+        "Sketch by features: where the graph increases or decreases, how it bends, and where it meets the axes.",
     },
     {
       id: "concavity",
-      title: "Concavity describes how the rate of change is itself changing.",
+      title:
+        "1.1.B · Concavity describes whether the rate of change is increasing or decreasing.",
       conceptTitle: "Concavity",
       blocks: [
         {
           type: "paragraph",
-          text: "Two functions can both be increasing and still look very different. One climbs faster and faster, while the other climbs more and more slowly. Concavity captures that difference. A graph is concave up where its rate of change is increasing, and concave down where its rate of change is decreasing.",
+          text: "The graph of a function is concave up on intervals in which the rate of change is increasing, and concave down on intervals in which the rate of change is decreasing. Increasing or decreasing is one question, and concave up or concave down is a separate question.",
         },
         {
           type: "table",
-          caption: "Equal input steps, different output patterns",
+          caption: "Two increasing functions with different concavity",
           columns: ["x", "f(x)", "g(x)"],
           rows: [
             ["0", "0", "0"],
@@ -114,7 +151,39 @@ export const lesson = {
         },
         {
           type: "paragraph",
-          text: "Compare the output changes across each equal step. For f, the changes are 1, 3, and 5, which grow, so f is concave up. For g, the changes are 5, 3, and 1, which shrink, so g is concave down. Both functions are increasing, so increasing or decreasing is a separate question from concave up or concave down.",
+          text: "Over equal steps of 1, the output values of f change by 1, 3, and 5, so the rate of change of f is increasing and its graph is concave up. The output values of g change by 5, 3, and 1, so the rate of change of g is decreasing and its graph is concave down.",
+        },
+        {
+          type: "table",
+          caption: "Describing direction and concavity together",
+          columns: ["Behavior", "Rate of change", "AP phrasing"],
+          rows: [
+            [
+              "Increasing, concave up",
+              "Positive and increasing",
+              "Increasing at an increasing rate",
+            ],
+            [
+              "Increasing, concave down",
+              "Positive and decreasing",
+              "Increasing at a decreasing rate",
+            ],
+            [
+              "Decreasing, concave up",
+              "Negative and increasing",
+              "Decreasing, and the rate of change is increasing",
+            ],
+            [
+              "Decreasing, concave down",
+              "Negative and decreasing",
+              "Decreasing, and the rate of change is decreasing",
+            ],
+          ],
+        },
+        {
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "The graph of f is concave up on the interval 0 < x < 3 because the rate of change of f is increasing on that interval. For a decreasing function, name the rate of change directly, as in the table, so the reader cannot misread which rate you mean.",
         },
       ],
       takeaway:
@@ -122,24 +191,24 @@ export const lesson = {
     },
     {
       id: "zeros",
-      title: "Zeros are the inputs that make the output zero.",
+      title: "1.1.B · A zero is an input value where the output value is zero.",
       conceptTitle: "Zeros",
       blocks: [
         {
           type: "paragraph",
-          text: "A zero of a function is an input whose output is 0. On a graph, a real zero is a point where the graph meets the x-axis, so real zeros are also called x-intercepts. If p(x) = (x − 2)(x + 5), then p(2) = 0 and p(−5) = 0, so 2 and −5 are the zeros of p.",
+          text: "The graph of a function intersects the x-axis when the output value is zero, and the corresponding input values are the zeros of the function. If p(x) = (x − 2)(x + 5), then p(2) = 0 and p(−5) = 0, so the zeros of p are x = 2 and x = −5, and the graph crosses the x-axis at the points (2, 0) and (−5, 0).",
         },
         {
           type: "list",
           items: [
-            "From a rule, set the output equal to 0 and solve.",
-            "From a table, look for rows whose output is 0.",
-            "From a graph, look for x-intercepts.",
-            "From a context, ask when the quantity being measured equals 0, such as when a height reaches the ground.",
+            "Analytically: set the output equal to 0 and solve.",
+            "Numerically: look for table rows whose output value is 0.",
+            "Graphically: look for the input values where the graph meets the x-axis.",
+            "Verbally: ask when the measured quantity equals 0, such as when a height reaches the ground.",
           ],
         },
       ],
-      takeaway: "A zero is an input, not an output. It is the x-value where f(x) = 0.",
+      takeaway: "A zero is an input value. The output value at a zero is 0.",
     },
   ],
   vocabulary: [
@@ -147,66 +216,80 @@ export const lesson = {
       id: "precalculus-1-1-function",
       topicId: "precalculus-1-1",
       term: "Function",
-      definition: "A relationship that assigns each input exactly one output.",
+      definition:
+        "A mathematical relation that maps a set of input values to a set of output values so that each input value is mapped to exactly one output value.",
     },
     {
       id: "precalculus-1-1-domain",
       topicId: "precalculus-1-1",
       term: "Domain",
-      definition: "The set of allowed inputs of a function.",
+      definition: "The set of input values of a function.",
     },
     {
       id: "precalculus-1-1-range",
       topicId: "precalculus-1-1",
       term: "Range",
-      definition: "The set of outputs a function actually produces.",
+      definition: "The set of output values of a function.",
+    },
+    {
+      id: "precalculus-1-1-independent-variable",
+      topicId: "precalculus-1-1",
+      term: "Independent variable",
+      definition: "The variable that represents the input values of a function.",
+    },
+    {
+      id: "precalculus-1-1-dependent-variable",
+      topicId: "precalculus-1-1",
+      term: "Dependent variable",
+      definition: "The variable that represents the output values of a function.",
     },
     {
       id: "precalculus-1-1-image",
       topicId: "precalculus-1-1",
       term: "Image",
-      definition:
-        "The output a function assigns to an input. If f(3) = 7, then 7 is the image of 3.",
+      definition: "The single output value that a function rule gives an input value.",
     },
     {
       id: "precalculus-1-1-preimage",
       topicId: "precalculus-1-1",
       term: "Preimage",
       definition:
-        "An input that produces a given output. If f(3) = 7, then 3 is a preimage of 7, and an output can have several preimages.",
+        "The set of input values for which a function rule gives a particular output value.",
     },
     {
       id: "precalculus-1-1-increasing",
       topicId: "precalculus-1-1",
       term: "Increasing",
       definition:
-        "A function is increasing on an interval if larger inputs always give larger outputs there.",
+        "A function is increasing over an interval if, for all a and b in the interval, a < b implies f(a) < f(b).",
     },
     {
       id: "precalculus-1-1-decreasing",
       topicId: "precalculus-1-1",
       term: "Decreasing",
       definition:
-        "A function is decreasing on an interval if larger inputs always give smaller outputs there.",
+        "A function is decreasing over an interval if, for all a and b in the interval, a < b implies f(a) > f(b).",
     },
     {
       id: "precalculus-1-1-concave-up",
       topicId: "precalculus-1-1",
       term: "Concave up",
-      definition: "A graph is concave up where its rate of change is increasing.",
+      definition:
+        "A graph is concave up on intervals in which the rate of change is increasing.",
     },
     {
       id: "precalculus-1-1-concave-down",
       topicId: "precalculus-1-1",
       term: "Concave down",
-      definition: "A graph is concave down where its rate of change is decreasing.",
+      definition:
+        "A graph is concave down on intervals in which the rate of change is decreasing.",
     },
     {
       id: "precalculus-1-1-zero",
       topicId: "precalculus-1-1",
       term: "Zero",
       definition:
-        "An input whose output is 0. A real zero is also an x-intercept of the graph.",
+        "An input value at which the output value of a function is 0. A real zero is where the graph intersects the x-axis.",
     },
   ],
   connections: [
@@ -214,12 +297,12 @@ export const lesson = {
       id: "precalculus-1-1-c1",
       topicId: "precalculus-1-1",
       type: "Preview",
-      title: "Concavity returns with rates of change",
-      body: "Topic 1.2 puts numbers on rates of change, and Topic 1.3 shows how to tell concave up from concave down by watching those numbers change. Concavity is the idea that connects them.",
+      title: "Rates of change make concavity measurable",
+      body: "Topic 1.2 puts numbers on rates of change, and Topic 1.3 checks concavity by watching how average rates of change over equal-length intervals change.",
       transferQuestion:
-        "Think of a quantity you can track over time, such as a phone battery percentage. Would you expect its graph to be concave up or concave down, and why?",
+        "A phone battery drains faster as more apps run. Is the graph of battery percentage against time concave up or concave down?",
       feedback:
-        "A strong answer ties the shape to how the rate of change itself changes, for example a battery that drains faster as more apps run.",
+        "Concave down. The percentage is decreasing and the rate of change is decreasing, becoming more negative, as the drain speeds up.",
       links: [
         {
           topicId: "precalculus-1-2",
@@ -233,11 +316,10 @@ export const lesson = {
       topicId: "precalculus-1-1",
       type: "Looking ahead",
       title: "Zeros become factors",
-      body: "Later in this unit you will see that a real zero of a polynomial corresponds to a factor of the polynomial. The skill of reading zeros from a graph, table, or equation is what makes that connection possible.",
+      body: "In Topic 1.5, a real zero a of a polynomial corresponds to a linear factor (x − a). Reading zeros from a graph, table, or formula is what makes that connection possible.",
       transferQuestion:
-        "If a function has zeros at 3 and −2, what do you expect its factored form to contain?",
-      feedback:
-        "Expect the factors (x − 3) and (x + 2). A strong answer notes that each zero produces one linear factor.",
+        "A polynomial has zeros at x = 3 and x = −2. Which linear factors must it have?",
+      feedback: "(x − 3) and (x + 2). Each real zero a gives the linear factor (x − a).",
       links: [
         {
           topicId: "precalculus-1-5",
@@ -254,6 +336,8 @@ export const lesson = {
       "precalculus-1-1-function",
       "precalculus-1-1-domain",
       "precalculus-1-1-range",
+      "precalculus-1-1-independent-variable",
+      "precalculus-1-1-dependent-variable",
       "precalculus-1-1-image",
       "precalculus-1-1-preimage",
       "precalculus-1-1-increasing",

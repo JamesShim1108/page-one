@@ -12,58 +12,63 @@ export const lesson = {
   period: "Unit 1",
   status: "ready",
   summary:
-    "Limit notation, why the leading term controls the far left and far right of the graph, and the four end-behavior cases.",
+    "Limit notation for end behavior and why the degree and the sign of the leading term determine the end behavior of a polynomial function.",
   minutes: 10,
-  learningGoals: [
-    "Read and write limit notation that describes what outputs do as inputs grow or shrink without bound.",
-    "Explain why the leading term determines the end behavior of a polynomial.",
-    "Predict a polynomial's end behavior from the parity of its degree and the sign of its leading coefficient.",
-  ],
+  learningGoals: ["1.6.A Describe end behaviors of polynomial functions."],
+  labels: {
+    goals: "AP learning objectives",
+    learn: "Understand the mathematics.",
+    context: "Where this fits.",
+  },
   bigIdea:
-    "Far from the origin, a polynomial behaves like its leading term. Whether the degree is even or odd and whether the leading coefficient is positive or negative gives all four possible end behaviors.",
+    "As input values increase or decrease without bound, the leading term of a polynomial dominates all lower-degree terms. So the degree and the sign of the leading term determine the end behavior.",
   context:
-    "Zeros and turning points describe the middle of a polynomial's graph. End behavior describes the two far edges. Together they let you sketch a believable graph without plotting many points.",
+    "Zeros and extrema describe the middle of a polynomial's graph. End behavior describes the output values as the input values increase or decrease without bound, and the AP Exam expects it in limit notation.",
   sections: [
     {
       id: "unbounded-notation",
-      title: "End behavior asks what happens as inputs grow without bound.",
-      conceptTitle: "Limit notation for end behavior",
+      title: "1.6.A · End behavior is written with limit notation.",
+      conceptTitle: "Limit notation",
       blocks: [
         {
           type: "paragraph",
-          text: "End behavior describes the outputs of a function when the input moves far to the right (x increases without bound, written x → ∞) or far to the left (x decreases without bound, written x → −∞). Limit notation records the result. The statement lim x→∞ f(x) = ∞ says that as x increases without bound, the outputs also increase without bound.",
-        },
-        {
-          type: "paragraph",
-          text: "Likewise lim x→−∞ f(x) = −∞ says that as x decreases without bound, the outputs decrease without bound, which means they become more and more negative. The symbols ∞ and −∞ describe a direction of growth, not a number the function ever reaches.",
+          text: "As the input values of a nonconstant polynomial function p increase without bound, the output values either increase without bound or decrease without bound. The corresponding notation is lim x→∞ p(x) = ∞ or lim x→∞ p(x) = −∞. As the input values decrease without bound, the output values also either increase or decrease without bound: lim x→−∞ p(x) = ∞ or lim x→−∞ p(x) = −∞.",
         },
         {
           type: "table",
-          caption: "End behavior of four simple power functions",
-          columns: ["Function", "As x → −∞", "As x → ∞"],
-          rows: [
-            ["x²", "Outputs increase without bound", "Outputs increase without bound"],
-            ["x³", "Outputs decrease without bound", "Outputs increase without bound"],
-            ["−x³", "Outputs increase without bound", "Outputs decrease without bound"],
-            ["−x²", "Outputs decrease without bound", "Outputs decrease without bound"],
+          caption: "End behavior of four power functions",
+          columns: [
+            "Function",
+            "As x decreases without bound",
+            "As x increases without bound",
           ],
+          rows: [
+            ["x²", "lim x→−∞ x² = ∞", "lim x→∞ x² = ∞"],
+            ["x³", "lim x→−∞ x³ = −∞", "lim x→∞ x³ = ∞"],
+            ["−x³", "lim x→−∞ (−x³) = ∞", "lim x→∞ (−x³) = −∞"],
+            ["−x²", "lim x→−∞ (−x²) = −∞", "lim x→∞ (−x²) = −∞"],
+          ],
+        },
+        {
+          type: "paragraph",
+          text: "The symbols ∞ and −∞ describe output values that increase or decrease without bound. They are not output values the function reaches.",
         },
       ],
       takeaway:
-        "Limit notation says in symbols what the outputs do at the far left and far right.",
+        "The input direction goes under lim, and the output behavior goes after the equals sign.",
     },
     {
       id: "leading-term",
-      title: "For large inputs, the leading term dominates.",
+      title: "1.6.A · The leading term dominates for input values of large magnitude.",
       conceptTitle: "The leading term dominates",
       blocks: [
         {
           type: "paragraph",
-          text: "A polynomial has several terms, but for inputs far from zero the highest power outgrows the rest. Compare p(x) = x³ − 100x². At small inputs the −100x² term wins, but once x is large the x³ term takes over.",
+          text: "The degree and sign of the leading term of a polynomial determine its end behavior, because as the input values increase or decrease without bound, the values of the leading term dominate the values of all lower-degree terms. In p(x) = x³ − 100x², the term −100x² is larger in magnitude for small x, but x³ takes over as x grows.",
         },
         {
           type: "table",
-          caption: "Terms of p(x) = x³ − 100x² at larger and larger inputs",
+          caption: "Terms of p(x) = x³ − 100x²",
           columns: ["x", "x³", "−100x²", "p(x)"],
           rows: [
             ["10", "1,000", "−10,000", "−9,000"],
@@ -74,40 +79,40 @@ export const lesson = {
         },
         {
           type: "paragraph",
-          text: "At x = 10 the polynomial is negative, and at x = 100 the two terms cancel. By x = 10,000 the value p(x) is 99% of x³. The smaller term is still there, but it matters less and less, so the end behavior of p matches the end behavior of its leading term.",
+          text: "At x = 10,000, p(x) is 99% of x³. The end behavior of p is the end behavior of x³: lim x→∞ p(x) = ∞ and lim x→−∞ p(x) = −∞.",
         },
       ],
-      takeaway:
-        "The end behavior of a polynomial is the end behavior of its leading term.",
+      takeaway: "A polynomial has the end behavior of its leading term.",
     },
     {
       id: "four-cases",
-      title: "Degree parity and the sign of the leading coefficient give four cases.",
+      title:
+        "1.6.A · The degree and the sign of the leading coefficient give four cases.",
       conceptTitle: "Four end-behavior cases",
       blocks: [
         {
           type: "table",
-          caption: "End behavior from the leading term",
-          columns: ["Degree", "Leading coefficient", "As x → −∞", "As x → ∞"],
+          caption: "End behavior from the leading term aₙxⁿ",
+          columns: ["Degree n", "Sign of aₙ", "lim x→−∞ p(x)", "lim x→∞ p(x)"],
           rows: [
-            ["Even", "Positive", "Outputs increase", "Outputs increase"],
-            ["Even", "Negative", "Outputs decrease", "Outputs decrease"],
-            ["Odd", "Positive", "Outputs decrease", "Outputs increase"],
-            ["Odd", "Negative", "Outputs increase", "Outputs decrease"],
+            ["Even", "Positive", "∞", "∞"],
+            ["Even", "Negative", "−∞", "−∞"],
+            ["Odd", "Positive", "−∞", "∞"],
+            ["Odd", "Negative", "∞", "−∞"],
           ],
         },
         {
-          type: "paragraph",
-          text: "Use two questions. First, is the degree even or odd? Even degree means both ends go the same direction, and odd degree means the ends go opposite directions. Second, is the leading coefficient positive or negative? A positive coefficient sends the right end up, and a negative one sends it down. For p(x) = −2x⁴ + 5x³ − x, the degree is even and the leading coefficient is negative, so lim x→∞ p(x) = −∞ and lim x→−∞ p(x) = −∞.",
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "For p(x) = −2x⁴ + 5x³ − x: the leading term −2x⁴ has a negative sign and an even degree; therefore, lim x→−∞ p(x) = −∞ and lim x→∞ p(x) = −∞.",
         },
         {
-          type: "callout",
-          title: "Zeros do not change the ends",
-          text: "The number and location of zeros affect the middle of the graph. They never change the end behavior, which depends only on the leading term.",
+          type: "paragraph",
+          text: "Real zeros, relative extrema, and points of inflection describe the middle of the graph. They never change the end behavior, which depends only on the leading term.",
         },
       ],
       takeaway:
-        "Even degree: ends match. Odd degree: ends oppose. The sign of the leading coefficient picks the direction of the right end.",
+        "Even degree: both ends go the same way. Odd degree: the ends go opposite ways. The sign of the leading coefficient sets the direction as x → ∞.",
     },
   ],
   vocabulary: [
@@ -116,21 +121,21 @@ export const lesson = {
       topicId: "precalculus-1-6",
       term: "End behavior",
       definition:
-        "The behavior of a function's outputs as the input increases without bound or decreases without bound.",
+        "The behavior of the output values of a function as the input values increase without bound or decrease without bound.",
     },
     {
       id: "precalculus-1-6-without-bound",
       topicId: "precalculus-1-6",
       term: "Without bound",
       definition:
-        "Growing larger than any fixed number, or more negative than any fixed number, as the input moves in one direction.",
+        "Increasing beyond every fixed number, or decreasing below every fixed number.",
     },
     {
       id: "precalculus-1-6-limit-notation",
       topicId: "precalculus-1-6",
       term: "Limit notation",
       definition:
-        "Notation such as lim x→∞ f(x) = ∞ that records what the outputs of a function do as the input grows without bound or approaches a value.",
+        "Notation such as lim x→∞ p(x) = −∞ that describes what the output values do as the input values increase without bound, decrease without bound, or approach a value.",
     },
   ],
   connections: [
@@ -138,11 +143,11 @@ export const lesson = {
       id: "precalculus-1-6-c1",
       topicId: "precalculus-1-6",
       type: "Look back",
-      title: "Parity predicts the ends",
-      body: "Topic 1.5 introduced even and odd symmetry. The same words show up here: even-degree power functions have matching ends and odd-degree power functions have opposite ends.",
-      transferQuestion: "Why do x² and x⁴ both have ends that point the same direction?",
+      title: "Even and odd powers",
+      body: "Topic 1.5 showed that p(x) = aₙxⁿ is even when n is even and odd when n is odd. That same parity decides whether the two ends of a polynomial's graph point the same way.",
+      transferQuestion: "Why do x² and x⁴ have ends that point the same way?",
       feedback:
-        "Raising a negative number to an even power gives a positive result, so large negative and large positive inputs give large positive outputs alike.",
+        "A negative number raised to an even power is positive, so input values of large magnitude on either side give large positive output values.",
       links: [
         {
           topicId: "precalculus-1-5",
@@ -155,12 +160,12 @@ export const lesson = {
       id: "precalculus-1-6-c2",
       topicId: "precalculus-1-6",
       type: "Looking ahead",
-      title: "The same idea works for quotients",
-      body: "Topic 1.7 asks what the end behavior of a rational function looks like. The answer again comes from comparing leading terms, this time the leading term of the numerator against that of the denominator.",
+      title: "Comparing leading terms in a quotient",
+      body: "Topic 1.7 finds the end behavior of a rational function by examining the quotient of the leading terms of the numerator and the denominator.",
       transferQuestion:
-        "What would you compare to decide the end behavior of a quotient of two polynomials?",
+        "What would you compare to find the end behavior of a quotient of two polynomials?",
       feedback:
-        "Compare the leading terms of the numerator and denominator, since they dominate for large inputs.",
+        "The leading terms of the numerator and denominator, since they dominate for input values of large magnitude.",
       links: [
         {
           topicId: "precalculus-1-7",

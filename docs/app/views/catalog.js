@@ -221,6 +221,7 @@ export function unitPage(data, peekAttempt = () => null) {
     ["Essay", writing.filter((item) => item.exerciseType === "leq")],
     ["DBQ", writing.filter((item) => item.exerciseType === "dbq")],
     ["Skills", writing.filter((item) => item.exerciseType === "skill")],
+    ["Free response", writing.filter((item) => item.exerciseType === "frq")],
   ].filter(([, items]) => items.length);
   // The AP-format Practice Test has its own card; other unit quizzes stay under
   // Practice Quiz with the topic quizzes.

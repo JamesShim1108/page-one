@@ -29,13 +29,15 @@ export function frameworkGuide(framework) {
 
 export function writingInvite(unit, { offlineReading = false } = {}) {
   if (!unit.writingQuizzes?.length) return "";
-  const labels = { saq: "SAQ", leq: "LEQ", dbq: "DBQ", skill: "SKILL" };
+  const labels = { saq: "SAQ", leq: "LEQ", dbq: "DBQ", skill: "SKILL", frq: "FRQ" };
+  // Math courses practice free-response questions rather than evidence-based essays.
+  const frqOnly = unit.writingQuizzes.every((quiz) => quiz.exerciseType === "frq");
   if (offlineReading)
     return `<section class="writing-invite" id="writing" data-reading-section="writing"><p class="eyebrow">WRITING PRACTICE / AVAILABLE ONLINE</p><h2>Writing practice needs a connection.</h2><p>Your saved reading pack excludes writing activities and answer tasks. Reconnect to open this practice.</p></section>`;
   return `<section class="writing-invite" id="writing" data-reading-section="writing">
-    <p class="eyebrow">WRITING PRACTICE / UNIT ${unit.number}</p>
-    <h2>Make the evidence count.</h2>
-    <p>Write your response, then use the criteria and annotated examples to review your reasoning.</p>
+    <p class="eyebrow">${frqOnly ? "FREE-RESPONSE PRACTICE" : "WRITING PRACTICE"} / UNIT ${unit.number}</p>
+    <h2>${frqOnly ? "Show the work that earns the points." : "Make the evidence count."}</h2>
+    <p>${frqOnly ? "Answer every part, then score yourself point by point with the rubric and model solution." : "Write your response, then use the criteria and annotated examples to review your reasoning."}</p>
     ${unit.writingQuizzes.map((quiz) => (quiz.availability === "blocked" ? `<span class="btn disabled" aria-disabled="true">${labels[quiz.exerciseType] || "Writing"}: ${esc(quiz.title)} · blocked</span>` : `<a class="btn" href="#/writing/${esc(quiz.id)}">${labels[quiz.exerciseType] || "Writing"}: ${esc(quiz.title)}</a>`)).join(" ")}
     <p class="muted">Self-assessment only · no automatic AP score</p>
   </section>`;

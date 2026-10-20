@@ -147,13 +147,13 @@ export function lessonPage(data, quizController) {
       <div class="actions">${link(`/print?course=${encodeURIComponent(lesson.courseId)}&kind=lesson&topic=${encodeURIComponent(lesson.id)}`, "Print lesson", "btn secondary")}</div>
       ${sharePanel({ path: route, title: lesson.title, label: "Share this lesson. It opens the lesson without private work." })}
     </header>
-    <div class="lesson-goals"><p class="eyebrow">What you should be able to explain</p>
+    <div class="lesson-goals"><p class="eyebrow">${esc(lesson.labels?.goals || "What you should be able to explain")}</p>
       <ul>${lesson.learningGoals.map((goal) => `<li>${esc(goal)}</li>`).join("")}</ul>
       ${lesson.readingGuide?.objectives ? `<small>Unit ${unit.number} learning objectives ${esc(lesson.readingGuide.objectives)}</small>` : ""}
     </div>
     <div class="big-idea reading-copy"><p class="eyebrow">The big idea</p><p>${reading(lesson.bigIdea)}</p></div>
-    <section class="lesson-section reading-copy" id="learn" data-reading-section="learn">${sectionHeading(route, "learn", '<span class="section-number">01 / LEARN</span>Understand the story.', "section", lesson.bigIdea, reportContext)}
-      <p class="note"><strong>Place it in time.</strong> ${reading(lesson.context)}</p>
+    <section class="lesson-section reading-copy" id="learn" data-reading-section="learn">${sectionHeading(route, "learn", `<span class="section-number">01 / LEARN</span>${esc(lesson.labels?.learn || "Understand the story.")}`, "section", lesson.bigIdea, reportContext)}
+      <p class="note"><strong>${esc(lesson.labels?.context || "Place it in time.")}</strong> ${reading(lesson.context)}</p>
       ${lesson.sections.map((section) => lessonSection(section, framework, assets, reading, sources, route, reportContext)).join("")}
     </section>
     ${readingGuide(lesson, framework, reading, route, reportContext)}

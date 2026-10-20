@@ -12,31 +12,36 @@ export const lesson = {
   period: "Unit 1",
   status: "ready",
   summary:
-    "Average rates of change over intervals, estimating the rate at a point, and what the sign of a rate tells you.",
-  minutes: 11,
+    "Average rates of change over intervals, rates of change at a point, and what the sign of a rate of change says about how two quantities vary together.",
+  minutes: 12,
   learningGoals: [
-    "Calculate an average rate of change over an interval and state it with units.",
-    "Estimate the rate of change at a point using average rates over small intervals around it.",
-    "Compare rates at two points and interpret the sign of a rate in context.",
+    "1.2.A Compare the rates of change at two points using average rates of change near the points.",
+    "1.2.B Describe how two quantities vary together at different points and over different intervals of a function.",
   ],
+  labels: {
+    goals: "AP learning objectives",
+    learn: "Understand the mathematics.",
+    context: "Where this fits.",
+  },
   bigIdea:
-    "An average rate of change summarizes how fast an output changes over an interval. Shrinking the interval around a point gives an estimate of how fast the output is changing at that point.",
+    "Rates of change quantify how two quantities vary together. An average rate of change describes an interval, and average rates of change over smaller and smaller intervals approximate the rate of change at a point.",
   context:
-    "Topic 1.1 described whether outputs rise or fall and whether the rise speeds up or slows down. This topic puts numbers on those ideas. Rates of change are the central tool of the whole course, and they are what makes calculus possible later on.",
+    "Topic 1.1 described whether output values increase or decrease. This topic measures how fast they do. Average rate of change, with units and an interpretation, appears in nearly every modeling free-response question on the AP Exam.",
   sections: [
     {
       id: "average-rate",
-      title: "The average rate of change compares output change to input change.",
+      title: "1.2.A · The average rate of change is a ratio of changes over an interval.",
       conceptTitle: "Average rate of change",
       blocks: [
         {
           type: "paragraph",
-          text: "Over the interval from x = a to x = b, the average rate of change of f is (f(b) − f(a))/(b − a). It is the single constant rate that would produce the same overall change in output across the same change in input. Its units are output units per input unit, such as meters per second.",
+          text: "The average rate of change of a function f over the interval a ≤ x ≤ b is (f(b) − f(a))/(b − a), the ratio of the change in the output values to the change in the input values. It is the constant rate of change that would give the same change in output values as f gives over that interval. Its units are output units per input unit.",
         },
         {
           type: "table",
-          caption: "Position of a cyclist, s(t) = t² + 5t",
-          columns: ["Time t (seconds)", "Position s(t) (meters)"],
+          caption:
+            "Position s(t), in meters, of a cyclist at time t, in seconds, where s(t) = t² + 5t",
+          columns: ["t", "s(t)"],
           rows: [
             ["0", "0"],
             ["2", "14"],
@@ -46,78 +51,87 @@ export const lesson = {
         },
         {
           type: "paragraph",
-          text: "From t = 2 to t = 5 the position changes by 50 − 14 = 36 meters in 3 seconds, so the average rate of change is 36/3 = 12 meters per second. From t = 5 to t = 9 it is (126 − 50)/4 = 19 meters per second. The two answers differ because an average rate depends on the interval, so always state the interval.",
+          text: "Over 2 ≤ t ≤ 5 the average rate of change is (s(5) − s(2))/(5 − 2) = (50 − 14)/3 = 12 meters per second. Over 5 ≤ t ≤ 9 it is (126 − 50)/4 = 19 meters per second. The answers differ, so an average rate of change always belongs to a stated interval.",
+        },
+        {
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "Show the computation, then interpret it with the interval, the direction, and units: (s(5) − s(2))/(5 − 2) = 12. From t = 2 to t = 5 seconds, on average, the position of the cyclist increased at a rate of 12 meters per second.",
         },
       ],
       takeaway:
-        "Average rate of change is change in output divided by change in input, and it belongs to a specific interval.",
+        "Average rate of change = (change in output values)/(change in input values), stated for an interval and with units.",
     },
     {
       id: "rate-at-a-point",
-      title: "Small intervals give an estimate of the rate at a point.",
+      title:
+        "1.2.A · Average rates of change over small intervals approximate the rate of change at a point.",
       conceptTitle: "Rate of change at a point",
       blocks: [
         {
           type: "paragraph",
-          text: "The average over three seconds says little about how fast the cyclist is moving at exactly t = 3. To estimate that, shrink the interval so it starts or surrounds t = 3. The average rate of change over a very small interval approximates the rate of change at the point, whenever the function has a rate of change there.",
+          text: "The rate of change of a function at a point measures how fast the output values would change if the input values changed at that point. It can be approximated by the average rates of change of the function over small intervals containing the point, if such values exist.",
         },
         {
           type: "table",
-          caption: "Average rate of change of s starting at t = 3",
-          columns: ["Interval", "Average rate (meters per second)"],
+          caption:
+            "Average rates of change of s over shrinking intervals that start at t = 3",
+          columns: ["Interval", "Average rate of change (meters per second)"],
           rows: [
-            ["[3, 4]", "12"],
-            ["[3, 3.5]", "11.5"],
-            ["[3, 3.1]", "11.1"],
-            ["[3, 3.01]", "11.01"],
+            ["3 ≤ t ≤ 4", "12"],
+            ["3 ≤ t ≤ 3.5", "11.5"],
+            ["3 ≤ t ≤ 3.1", "11.1"],
+            ["3 ≤ t ≤ 3.01", "11.01"],
           ],
         },
         {
           type: "paragraph",
-          text: "As the interval shrinks, the averages settle toward 11. The cyclist is moving at about 11 meters per second at t = 3. A calculator or table makes this quick, but the idea is only that small intervals reveal what is happening at one input.",
+          text: "As the interval shrinks, the average rates of change approach 11, so the rate of change of s at t = 3 is about 11 meters per second. An interval centered at the point, such as 2.9 ≤ t ≤ 3.1, gives (s(3.1) − s(2.9))/0.2 = 11 as well.",
         },
       ],
       takeaway:
-        "To estimate a rate at a point, use the average rate over a small interval at or around that point.",
+        "To estimate the rate of change at a point, use the average rate of change over a small interval containing the point.",
     },
     {
       id: "comparing-rates",
-      title: "Compare rates at two points using small intervals near each.",
-      conceptTitle: "Comparing rates",
+      title:
+        "1.2.A · Compare rates of change at two points with small intervals near each point.",
+      conceptTitle: "Comparing rates of change",
       blocks: [
         {
           type: "paragraph",
-          text: "To decide where an output changes faster, estimate the rate near each input and compare the results. Near t = 3 the cyclist's rate is about 11 meters per second. Using the interval from 7.9 to 8.1 seconds, the average rate is (106.11 − 101.91)/0.2 = 21 meters per second. The cyclist is changing position faster near t = 8 than near t = 3.",
+          text: "The rates of change at two points can be compared using average rates of change over sufficiently small intervals containing each point. Near t = 3 the rate of change of s is about 11 meters per second. Over 7.9 ≤ t ≤ 8.1 the average rate of change is (106.11 − 101.91)/0.2 = 21 meters per second. So the position is changing faster at t = 8 than at t = 3.",
         },
         {
           type: "callout",
-          title: "Compare like with like",
-          text: "Use small intervals of similar width around each point. A wide interval blends together many different rates and can hide which point is really changing faster.",
+          title: "Write it like the AP Exam",
+          text: "Because the average rate of change of s over 7.9 ≤ t ≤ 8.1 is greater than the average rate of change over 2.9 ≤ t ≤ 3.1, the rate of change of s at t = 8 is greater than the rate of change of s at t = 3.",
         },
       ],
       takeaway:
-        "Compare rates at two points by estimating each with a small interval, then comparing the numbers.",
+        "Use intervals of the same small length near each point, then compare the two average rates of change.",
     },
     {
       id: "sign-and-meaning",
-      title: "The sign of a rate tells you how the two quantities move together.",
-      conceptTitle: "Sign and meaning of a rate",
+      title:
+        "1.2.B · The sign of a rate of change describes how two quantities vary together.",
+      conceptTitle: "Sign and meaning of a rate of change",
       blocks: [
         {
           type: "list",
           items: [
-            "A positive rate means the two quantities move in the same direction: as the input increases, the output increases.",
-            "A negative rate means they move in opposite directions: as the input increases, the output decreases.",
-            "A rate close to zero means the output is changing very little compared with the input.",
+            "A positive rate of change means that as one quantity increases or decreases, the other quantity does the same.",
+            "A negative rate of change means that as one quantity increases, the other decreases.",
+            "The size of a rate of change tells how much the output values change per unit change in the input values.",
           ],
         },
         {
           type: "paragraph",
-          text: "State every rate with its meaning and its units. A good sentence has the form: at about this input, the output is increasing or decreasing at about this many output units per input unit. For example, the average rate of −0.5 degrees per minute for cooling coffee says the temperature is falling by half a degree each minute on average.",
+          text: "A rate of change can be positive at some points and negative at others, and an average rate of change over a long interval can hide those changes. An average rate of change of −0.5 degrees Celsius per minute for cooling coffee means that, on average, the temperature decreased by 0.5 degrees Celsius per minute over that interval. It does not mean the temperature fell at that rate every minute.",
         },
       ],
       takeaway:
-        "A rate has a sign, a size, and units. Say all three when you interpret it.",
+        "Interpret a rate of change with its sign, its size, its units, and its interval or point.",
     },
   ],
   vocabulary: [
@@ -126,20 +140,20 @@ export const lesson = {
       topicId: "precalculus-1-2",
       term: "Average rate of change",
       definition:
-        "The change in output divided by the change in input over an interval, (f(b) − f(a))/(b − a).",
+        "For a function f over a ≤ x ≤ b, the ratio (f(b) − f(a))/(b − a) of the change in output values to the change in input values.",
     },
     {
       id: "precalculus-1-2-rate-of-change",
       topicId: "precalculus-1-2",
       term: "Rate of change",
       definition:
-        "How quickly an output changes as the input changes, either over an interval or at a single input.",
+        "A measure of how fast the output values of a function change as the input values change, over an interval or at a point.",
     },
     {
       id: "precalculus-1-2-interval",
       topicId: "precalculus-1-2",
       term: "Interval",
-      definition: "A set of all real numbers between two endpoints.",
+      definition: "The set of all real numbers between two endpoints.",
     },
   ],
   connections: [
@@ -148,11 +162,11 @@ export const lesson = {
       topicId: "precalculus-1-2",
       type: "Look back",
       title: "Rates make concavity measurable",
-      body: "Topic 1.1 defined concave up as an increasing rate of change. Now you can check that with numbers: if average rates over equal-width intervals keep growing, the graph is concave up.",
+      body: "Topic 1.1 defined concave up as a rate of change that is increasing. Average rates of change over equal-length intervals let you check that numerically.",
       transferQuestion:
-        "Outputs are 4, 9, 17 at equally spaced inputs. Are the average rates growing or shrinking, and what does that say about concavity?",
+        "Output values are 4, 9, 17 at equally spaced input values. Is the graph concave up or concave down on that interval?",
       feedback:
-        "The changes are 5 and 8, so the rates are growing and the graph is concave up over that stretch.",
+        "The changes are 5 and 8, so the average rates of change are increasing and the graph is concave up there.",
       links: [
         {
           topicId: "precalculus-1-1",
@@ -165,12 +179,11 @@ export const lesson = {
       id: "precalculus-1-2-c2",
       topicId: "precalculus-1-2",
       type: "Looking ahead",
-      title: "Average rates become secant slopes",
-      body: "On a graph, the average rate of change between two points is the slope of the line through them. Topic 1.3 uses that picture to separate linear functions, which have one constant rate, from quadratic functions, whose rates keep changing in a steady pattern.",
+      title: "Average rates of change become secant slopes",
+      body: "Topic 1.3 shows that the average rate of change over an interval is the slope of a secant line, and it separates linear functions, with a constant rate of change, from quadratic functions, whose average rates of change change at a constant rate.",
       transferQuestion:
-        "Why must a linear function have the same average rate of change over every interval of the same width?",
-      feedback:
-        "A line has one slope everywhere, so any two points on it give that same slope.",
+        "Why must a linear function have the same average rate of change over every interval?",
+      feedback: "The graph is a line, and any two points on a line give the same slope.",
       links: [
         {
           topicId: "precalculus-1-3",

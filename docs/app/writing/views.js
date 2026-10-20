@@ -47,6 +47,7 @@ function typeLabel(quiz) {
       leq: "LEQ-STYLE ESSAY",
       dbq: "DOCUMENT-BASED QUESTION",
       skill: "SKILL DRILL",
+      frq: "FREE-RESPONSE QUESTION",
     }[quiz.exerciseType] || "SHORT-ANSWER QUESTION"
   );
 }
@@ -174,7 +175,7 @@ function promptContext(quiz, className = "") {
 // Sources stay visible at every width; the prompt disclosure collapses on phones.
 function writingStimulus(quiz) {
   return quiz.stimulusBlocks?.length
-    ? `<section class="writing-stimulus" aria-label="Sources">${renderBlocks(quiz.stimulusBlocks)}</section>`
+    ? `<section class="writing-stimulus" aria-label="${quiz.exerciseType === "frq" ? "Given information" : "Sources"}">${renderBlocks(quiz.stimulusBlocks)}</section>`
     : "";
 }
 

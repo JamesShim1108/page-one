@@ -24,68 +24,86 @@
         "id": "precalculus-1-practice",
         "courseId": "precalculus",
         "unitId": "precalculus-1",
-        "title": "Unit 1 practice",
+        "title": "Unit 1 practice, Part 1: Topics 1.1 to 1.6",
         "quizType": "unit",
         "selections": [
           {
             "topicId": "precalculus-1-1",
             "questionIds": [
               "precalculus-1-1-q02",
-              "precalculus-1-1-q06"
+              "precalculus-1-1-q06",
+              "precalculus-1-1-q07"
             ]
           },
           {
             "topicId": "precalculus-1-2",
             "questionIds": [
               "precalculus-1-2-q02",
-              "precalculus-1-2-q03"
+              "precalculus-1-2-q03",
+              "precalculus-1-2-q06"
             ]
           },
           {
             "topicId": "precalculus-1-3",
             "questionIds": [
               "precalculus-1-3-q01",
-              "precalculus-1-3-q04"
+              "precalculus-1-3-q04",
+              "precalculus-1-3-q08"
             ]
           },
           {
             "topicId": "precalculus-1-4",
             "questionIds": [
               "precalculus-1-4-q02",
-              "precalculus-1-4-q07"
+              "precalculus-1-4-q04",
+              "precalculus-1-4-q08"
             ]
           },
           {
             "topicId": "precalculus-1-5",
             "questionIds": [
               "precalculus-1-5-q02",
-              "precalculus-1-5-q06"
+              "precalculus-1-5-q06",
+              "precalculus-1-5-q10"
             ]
           },
           {
             "topicId": "precalculus-1-6",
             "questionIds": [
               "precalculus-1-6-q02",
+              "precalculus-1-6-q07",
               "precalculus-1-6-q08"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "id": "precalculus-1-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice, Part 2: Topics 1.7 to 1.14",
+        "quizType": "unit",
+        "selections": [
           {
             "topicId": "precalculus-1-7",
             "questionIds": [
               "precalculus-1-7-q01",
-              "precalculus-1-7-q07"
+              "precalculus-1-7-q03",
+              "precalculus-1-7-q08"
             ]
           },
           {
             "topicId": "precalculus-1-8",
             "questionIds": [
               "precalculus-1-8-q02",
-              "precalculus-1-8-q05"
+              "precalculus-1-8-q05",
+              "precalculus-1-8-q07"
             ]
           },
           {
             "topicId": "precalculus-1-9",
             "questionIds": [
+              "precalculus-1-9-q03",
               "precalculus-1-9-q06",
               "precalculus-1-9-q07"
             ]
@@ -94,26 +112,30 @@
             "topicId": "precalculus-1-10",
             "questionIds": [
               "precalculus-1-10-q03",
-              "precalculus-1-10-q06"
+              "precalculus-1-10-q06",
+              "precalculus-1-10-q07"
             ]
           },
           {
             "topicId": "precalculus-1-11",
             "questionIds": [
               "precalculus-1-11-q03",
-              "precalculus-1-11-q06"
+              "precalculus-1-11-q06",
+              "precalculus-1-11-q07"
             ]
           },
           {
             "topicId": "precalculus-1-12",
             "questionIds": [
               "precalculus-1-12-q02",
-              "precalculus-1-12-q06"
+              "precalculus-1-12-q05",
+              "precalculus-1-12-q07"
             ]
           },
           {
             "topicId": "precalculus-1-13",
             "questionIds": [
+              "precalculus-1-13-q02",
               "precalculus-1-13-q06",
               "precalculus-1-13-q08"
             ]
@@ -121,8 +143,9 @@
           {
             "topicId": "precalculus-1-14",
             "questionIds": [
-              "precalculus-1-14-q07",
-              "precalculus-1-14-q10"
+              "precalculus-1-14-q01",
+              "precalculus-1-14-q05",
+              "precalculus-1-14-q08"
             ]
           }
         ]
@@ -198,10 +221,39 @@
       "title": "Change in Tandem",
       "period": "Unit 1",
       "status": "ready",
-      "summary": "How inputs and outputs vary together: functions, increasing and decreasing behavior, concavity, and zeros."
+      "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
     },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "precalculus-1-frq-1",
+        "title": "Unit 1 FRQ 1: Function concepts (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-2",
+        "title": "Unit 1 FRQ 2: Modeling a non-periodic context (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-3",
+        "title": "Unit 1 FRQ 3: Function concepts (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-4",
+        "title": "Unit 1 FRQ 4: Modeling a non-periodic context (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
   },
   "topic": {
     "id": "precalculus-1-5",
@@ -212,10 +264,10 @@
     "title": "Polynomial Functions and Complex Zeros",
     "period": "Unit 1",
     "status": "ready",
-    "summary": "Zeros and factors, multiplicity, conjugate pairs of non-real zeros, finding degree from differences, and even and odd symmetry."
+    "summary": "Zeros and linear factors, multiplicity, complex zeros and conjugates, degree from successive differences, and even and odd functions."
   },
   "framework": null,
-  "contentRevision": "015680674b9fa92d",
+  "contentRevision": "07d9c1cca43dbaa1",
   "questions": [
     {
       "id": "precalculus-1-5-q01",
@@ -223,7 +275,7 @@
       "concept": "multiplicity",
       "difficulty": "Quick check",
       "skill": "equivalent-forms",
-      "prompt": "Which pairing correctly lists the zeros and multiplicities of p(x) = (x + 3)(x − 2)²(x − 5)?",
+      "prompt": "The polynomial function p is given by p(x) = (x + 3)(x − 2)²(x − 5). Which of the following lists the zeros of p with their multiplicities?",
       "choices": [
         "−3 with multiplicity 1, 2 with multiplicity 1, 5 with multiplicity 2",
         "−3 with multiplicity 1, 2 with multiplicity 2, 5 with multiplicity 1",
@@ -231,19 +283,19 @@
         "−3 with multiplicity 2, 2 with multiplicity 1, 5 with multiplicity 1"
       ],
       "correctAnswer": 1,
-      "explanation": "Each factor (x − a) gives a zero at a. The factor (x + 3) gives −3, the squared factor (x − 2)² gives 2 with multiplicity 2, and (x − 5) gives 5.",
+      "explanation": "Each linear factor (x − a) gives the zero a. The factor (x − 2) is repeated twice, so 2 has multiplicity 2; −3 and 5 each have multiplicity 1.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "The exponent 2 belongs to the factor (x − 2), not to (x − 5).",
-        "The zeros are −3, 2, and 5, and only the factor (x − 2) is squared, so only 2 has multiplicity 2.",
-        "The signs are flipped. The zero of (x + 3) is −3, not 3.",
-        "The exponent 2 belongs to the factor (x − 2), so 2 has multiplicity 2, not −3."
+        "The exponent 2 is on the factor (x − 2), not (x − 5).",
+        "The zeros are −3, 2, and 5, and only (x − 2) is repeated.",
+        "The signs are reversed. The zero of (x + 3) is −3.",
+        "The exponent 2 is on (x − 2), so 2 has multiplicity 2."
       ],
       "nearMissIndex": 0,
-      "distinguisher": "The exponent attaches to the zero of the factor it sits on.",
+      "distinguisher": "The exponent belongs to the zero of the factor it is attached to.",
       "skillLabel": "Rewrite in equivalent forms",
       "skillCode": "1.B"
     },
@@ -253,24 +305,24 @@
       "concept": "multiplicity",
       "difficulty": "Quick check",
       "skill": "identify-information",
-      "prompt": "At which zero does the graph of p(x) = x(x − 3)²(x + 1) touch the x-axis without crossing it?",
+      "prompt": "The polynomial function p is given by p(x) = x(x − 3)²(x + 1). At which of the following values of x is the graph of y = p(x) tangent to the x-axis?",
       "choices": [
         "x = 0",
         "x = −1",
         "x = 3",
-        "None. Every zero is a crossing."
+        "None; the graph crosses the x-axis at every zero"
       ],
       "correctAnswer": 2,
-      "explanation": "The factor (x − 3) is squared, so 3 is a zero of even multiplicity. The output keeps the same sign on both sides of 3, so the graph touches the axis and turns around there.",
+      "explanation": "3 is a zero of multiplicity 2, which is even, so the output values have the same sign on both sides of x = 3 and the graph is tangent to the x-axis there.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "The factor x appears once, so 0 has odd multiplicity and the graph crosses there.",
-        "The factor (x + 1) appears once, so −1 has odd multiplicity and the graph crosses there.",
-        "The squared factor (x − 3)² gives even multiplicity at 3, so the graph touches and turns.",
-        "A squared factor does not change sign, so the zero at 3 is a touch, not a crossing."
+        "0 has multiplicity 1, so p(x) changes sign and the graph crosses the x-axis.",
+        "−1 has multiplicity 1, so the graph crosses the x-axis there.",
+        "The factor (x − 3)² gives even multiplicity, so the graph is tangent to the x-axis at x = 3.",
+        "The zero at x = 3 has even multiplicity, so the graph does not cross there."
       ],
       "nearMissIndex": 0,
       "distinguisher": "Only a zero of even multiplicity keeps the same sign on both sides.",
@@ -283,7 +335,7 @@
       "concept": "conjugate-zeros",
       "difficulty": "Quick check",
       "skill": "identify-information",
-      "prompt": "A polynomial with real coefficients has 3 − 2i as a zero. Which number must also be a zero?",
+      "prompt": "The polynomial function p has real coefficients, and 3 − 2i is a zero of p. Which of the following must also be a zero of p?",
       "choices": [
         "3 + 2i",
         "−3 + 2i",
@@ -291,49 +343,49 @@
         "2 − 3i"
       ],
       "correctAnswer": 0,
-      "explanation": "Non-real zeros of a real-coefficient polynomial come in conjugate pairs. The conjugate of 3 − 2i changes only the sign of the imaginary part, giving 3 + 2i.",
+      "explanation": "If a + bi is a non-real zero of p, then its conjugate a − bi is also a zero. The conjugate of 3 − 2i is 3 + 2i.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "The conjugate keeps the real part 3 and flips the sign of the imaginary part.",
-        "This flips the real part. A conjugate keeps the real part the same.",
-        "This negates both parts. A conjugate changes only the imaginary part.",
-        "This swaps the real and imaginary parts, which is not a conjugate."
+        "The conjugate keeps the real part 3 and changes the sign of the imaginary part.",
+        "This changes the real part. The conjugate keeps the real part the same.",
+        "This negates the whole number. The conjugate changes only the imaginary part.",
+        "This swaps the real and imaginary parts, which is not the conjugate."
       ],
       "nearMissIndex": 1,
-      "distinguisher": "A conjugate flips only the sign in front of the imaginary part.",
+      "distinguisher": "A conjugate changes only the sign of the imaginary part.",
       "skillLabel": "Identify information in a representation",
       "skillCode": "2.A"
     },
     {
       "id": "precalculus-1-5-q04",
       "topicId": "precalculus-1-5",
-      "concept": "multiplicity",
+      "concept": "even-and-odd",
       "difficulty": "Quick check",
       "skill": "describe",
-      "prompt": "How many complex zeros does p(x) = 2x⁵ − x³ + 7 have, when each zero is counted as many times as its multiplicity?",
+      "prompt": "The polynomial function p is an even function. If p(2) = 5 is a relative minimum of p, which of the following statements about p(−2) must be true?",
       "choices": [
-        "Three, one for each term of p",
-        "Five, all of them real",
-        "Four, one fewer than the degree",
-        "Five, though some of them may not be real"
+        "p(−2) = −5 is a relative maximum.",
+        "p(−2) = 5 is a relative maximum.",
+        "p(−2) = −5 is a relative minimum.",
+        "p(−2) = 5 is also a relative minimum."
       ],
       "correctAnswer": 3,
-      "explanation": "A polynomial of degree n has exactly n complex zeros counting multiplicity. This polynomial has degree 5, so it has five complex zeros, and some may be non-real.",
+      "explanation": "An even function satisfies p(−x) = p(x), so p(−2) = 5, and its graph is symmetric over the line x = 0. A reflection over a vertical line keeps a low point low, so p(−2) = 5 is also a relative minimum.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "The number of terms has nothing to do with the number of zeros. The degree does.",
-        "The count of five is right, but real zeros are not guaranteed. Some of the five could be non-real.",
-        "The number of complex zeros equals the degree, not one fewer.",
-        "The degree is 5, so there are five complex zeros counting multiplicity, real or not."
+        "p(−2) = −p(2) describes an odd function. For an even function, p(−2) = p(2) = 5.",
+        "The value 5 is correct, but reflecting over the line x = 0 keeps a relative minimum a minimum.",
+        "For an even function, p(−2) = p(2), so the value is 5, not −5.",
+        "p(−2) = p(2) = 5, and the reflection over x = 0 keeps it a relative minimum."
       ],
       "nearMissIndex": 1,
-      "distinguisher": "Complex zeros always add up to the degree. Real zeros might be fewer.",
+      "distinguisher": "Even: reflect over x = 0, which keeps highs high and lows low. Odd: reflect through the origin, which swaps them.",
       "skillLabel": "Describe function characteristics",
       "skillCode": "3.A"
     },
@@ -343,7 +395,7 @@
       "concept": "zeros-and-factors",
       "difficulty": "Core",
       "skill": "solve",
-      "prompt": "For which values of x is p(x) = (x − 1)(x + 2)(x − 3) positive?",
+      "prompt": "The polynomial function p is given by p(x) = (x − 1)(x + 2)(x − 3). What are all values of x for which p(x) > 0?",
       "choices": [
         "x < −2 or 1 < x < 3",
         "−2 < x < 3",
@@ -351,19 +403,19 @@
         "x > 3 only"
       ],
       "correctAnswer": 2,
-      "explanation": "Test a value in each interval. The output is negative below −2, positive between −2 and 1, negative between 1 and 3, and positive above 3.",
+      "explanation": "The real zeros −2, 1, and 3 are the endpoints of the intervals. Testing one value in each interval gives signs negative, positive, negative, positive from left to right.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "This is the opposite pattern. The output is negative on x < −2 and on 1 < x < 3.",
-        "The output changes sign at 1, so it is not positive on the whole interval from −2 to 3.",
-        "The signs are −, +, −, + from left to right, so p is positive on (−2, 1) and on (3, ∞).",
-        "The output is also positive between −2 and 1, so x > 3 is not the only positive stretch."
+        "These are the intervals where p(x) < 0.",
+        "p(x) changes sign at x = 1, so it is not positive on all of −2 < x < 3.",
+        "p(x) is positive for −2 < x < 1 and for x > 3.",
+        "p(x) is also positive for −2 < x < 1."
       ],
       "nearMissIndex": 0,
-      "distinguisher": "Alternate the signs across the zeros, starting from the sign of the far left.",
+      "distinguisher": "Each real zero of odd multiplicity is an endpoint where the sign changes.",
       "skillLabel": "Solve equations and inequalities",
       "skillCode": "1.A"
     },
@@ -373,11 +425,11 @@
       "concept": "degree-from-differences",
       "difficulty": "Core",
       "skill": "construct-representations",
-      "prompt": "A polynomial function has the outputs shown at equally spaced inputs. What is its degree?",
+      "prompt": "The table gives values of a polynomial function f for equally spaced values of x. What is the degree of f?",
       "stimulusBlocks": [
         {
           "type": "table",
-          "caption": "Outputs at x = 0, 1, 2, 3, 4, 5",
+          "caption": "Values of f",
           "columns": [
             "x",
             "f(x)"
@@ -417,19 +469,19 @@
         "12"
       ],
       "correctAnswer": 0,
-      "explanation": "The outputs are 1, 2, 15, 52, 125, 246. First differences: 1, 13, 37, 73, 121. Second differences: 12, 24, 36, 48. Third differences: 12, 12, 12, so the third differences are the first constant row and the degree is 3.",
+      "explanation": "The 1st differences are 1, 13, 37, 73, 121; the 2nd differences are 12, 24, 36, 48; the 3rd differences are 12, 12, 12. The least n for which the nth differences are constant is 3.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "The third differences are the first constant row, so the degree is 3.",
-        "The second differences are 12, 24, 36, 48, which are not constant, so the degree is not 2.",
-        "The degree is already known at the third differences, since they are constant, so there is no need for a fourth.",
-        "12 is the constant value of the third differences, but the degree is the number of times you take differences."
+        "The 3rd differences are the first constant differences, so the degree is 3.",
+        "The 2nd differences, 12, 24, 36, 48, are not constant.",
+        "The 3rd differences are already constant, so the least such n is 3, not 4.",
+        "12 is the value of the constant 3rd differences, not the degree."
       ],
       "nearMissIndex": 3,
-      "distinguisher": "The degree counts the rows of differences, not the constant value in the last row.",
+      "distinguisher": "The degree counts rows of differences. It is not the constant value itself.",
       "skillLabel": "Build equivalent representations",
       "skillCode": "2.B"
     },
@@ -439,7 +491,7 @@
       "concept": "even-and-odd",
       "difficulty": "Core",
       "skill": "identify-information",
-      "prompt": "Which of the following functions is odd?",
+      "prompt": "Which of the following functions is an odd function?",
       "choices": [
         "f(x) = x³ + x²",
         "f(x) = x⁴ − 3x² + 1",
@@ -447,19 +499,19 @@
         "f(x) = x² + 2x"
       ],
       "correctAnswer": 2,
-      "explanation": "For f(x) = x³ − 5x, replacing x with −x gives −x³ + 5x, which equals −f(x). So the function is odd.",
+      "explanation": "For f(x) = x³ − 5x, f(−x) = −x³ + 5x = −(x³ − 5x) = −f(x), so f is odd.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "This has an odd power but also an even one. Replacing x with −x gives −x³ + x², which is neither f(x) nor −f(x).",
-        "Every power is even, so replacing x with −x returns the same function. It is even, not odd.",
-        "Every term has an odd power, so f(−x) = −f(x) and the function is odd.",
-        "The term x² is even and 2x is odd, so f(−x) is neither f(x) nor −f(x)."
+        "f(−x) = −x³ + x², which is neither f(x) nor −f(x).",
+        "f(−x) = f(x), so this function is even.",
+        "Every term has an odd power, so f(−x) = −f(x).",
+        "f(−x) = x² − 2x, which is neither f(x) nor −f(x)."
       ],
       "nearMissIndex": 0,
-      "distinguisher": "An odd function needs every power to be odd, not just one of them.",
+      "distinguisher": "An odd polynomial needs every power of x to be odd.",
       "skillLabel": "Identify information in a representation",
       "skillCode": "2.A"
     },
@@ -469,27 +521,27 @@
       "concept": "multiplicity",
       "difficulty": "Core",
       "skill": "equivalent-forms",
-      "prompt": "Which polynomial of degree 3 has a zero at 2 and a zero of multiplicity 2 at −1?",
+      "prompt": "Which of the following is an expression for a polynomial function of degree 3 that has a zero at x = 2 and a zero of multiplicity 2 at x = −1?",
       "choices": [
-        "p(x) = (x + 2)(x − 1)²",
-        "p(x) = (x − 2)²(x + 1)",
-        "p(x) = (x − 2)(x + 1)",
-        "p(x) = (x − 2)(x + 1)²"
+        "(x + 2)(x − 1)²",
+        "(x − 2)²(x + 1)",
+        "(x − 2)(x + 1)",
+        "(x − 2)(x + 1)²"
       ],
       "correctAnswer": 3,
-      "explanation": "A zero at 2 gives the factor (x − 2), and a zero of multiplicity 2 at −1 gives the factor (x + 1)². Together they have degree 3.",
+      "explanation": "The zero 2 gives the linear factor (x − 2), and the zero −1 with multiplicity 2 gives (x + 1)². The product has degree 3.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "The signs are reversed, giving zeros at −2 and 1 instead of 2 and −1.",
-        "The multiplicities are swapped. This gives multiplicity 2 at 2 and multiplicity 1 at −1.",
-        "This has the right zeros but degree 2, so −1 has multiplicity 1.",
-        "The factor (x − 2) gives the zero 2 once and (x + 1)² gives the zero −1 twice, for degree 3."
+        "The signs are reversed, giving zeros at −2 and 1.",
+        "The multiplicities are swapped: this gives 2 multiplicity 2 and −1 multiplicity 1.",
+        "This has degree 2, so −1 has multiplicity 1.",
+        "(x − 2)(x + 1)² has the zero 2 once and the zero −1 twice."
       ],
       "nearMissIndex": 1,
-      "distinguisher": "Check both the sign inside each factor and which factor carries the exponent.",
+      "distinguisher": "Check the sign in each factor and which factor carries the exponent.",
       "skillLabel": "Rewrite in equivalent forms",
       "skillCode": "1.B"
     },
@@ -499,27 +551,27 @@
       "concept": "conjugate-zeros",
       "difficulty": "Core",
       "skill": "support-conclusions",
-      "prompt": "A polynomial with real coefficients has degree 5. Two of its zeros are 2 + i and 1 − 3i. What is the least number of non-real zeros it can have?",
+      "prompt": "A polynomial function p of degree 5 has real coefficients. Two of its zeros are 2 + i and 1 − 3i. What is the greatest number of real zeros p can have, counting multiplicities?",
       "choices": [
-        "2",
-        "4",
         "3",
+        "1",
+        "2",
         "5"
       ],
       "correctAnswer": 1,
-      "explanation": "Each non-real zero brings its conjugate: 2 − i and 1 + 3i also are zeros. That makes 4 non-real zeros, leaving one zero for the fifth, which must be real.",
+      "explanation": "The conjugates 2 − i and 1 + 3i must also be zeros, so at least 4 of the 5 complex zeros are non-real. At most 1 zero is real.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "The two given zeros each need a conjugate partner, so there are at least four non-real zeros.",
-        "The conjugates 2 − i and 1 + 3i must also be zeros, giving four non-real zeros in all.",
-        "Non-real zeros come in pairs, so an odd count such as 3 is impossible.",
-        "The fifth zero must be real, since the other four are two conjugate pairs and non-real zeros come in pairs."
+        "The two given zeros each require their conjugates, so only 5 − 4 = 1 zero can be real.",
+        "Four non-real zeros are required, leaving exactly one zero, which must be real.",
+        "Two real zeros would bring the total to 6, more than the degree.",
+        "Non-real zeros are not real, and four of the five zeros are non-real."
       ],
       "nearMissIndex": 0,
-      "distinguisher": "Count each given zero together with its conjugate partner.",
+      "distinguisher": "Count each non-real zero together with its conjugate.",
       "skillLabel": "Support conclusions",
       "skillCode": "3.C"
     },
@@ -529,27 +581,27 @@
       "concept": "conjugate-zeros",
       "difficulty": "Apply",
       "skill": "describe",
-      "prompt": "The polynomial p(x) = (x² + 9)(x − 4) has degree 3. Which statement about its zeros and graph is correct?",
+      "prompt": "The polynomial function p is given by p(x) = (x² + 9)(x − 4). Which of the following statements is true?",
       "choices": [
-        "Its graph has one x-intercept, at x = 4, but it has three complex zeros counting multiplicity.",
-        "Its graph has three x-intercepts, because the degree is 3.",
-        "Its graph has no x-intercepts, because x² + 9 is never zero.",
-        "Its graph has two x-intercepts, at x = 4 and x = 9."
+        "p has three complex zeros, and the graph of p has one x-intercept, at (4, 0).",
+        "The graph of p has three x-intercepts, because p has degree 3.",
+        "The graph of p has no x-intercepts, because x² + 9 is never 0.",
+        "The graph of p has two x-intercepts, at (4, 0) and (9, 0)."
       ],
       "correctAnswer": 0,
-      "explanation": "The factor x² + 9 gives the non-real zeros 3i and −3i, which are not x-intercepts. The factor x − 4 gives the only real zero, 4. All three zeros count toward the degree.",
+      "explanation": "x² + 9 = 0 gives the non-real zeros 3i and −3i, which are not x-intercepts. x − 4 = 0 gives the real zero 4. All three zeros count toward the degree.",
       "sourceIds": [
         "ced",
         "ced-topic-1-5"
       ],
       "choiceExplanations": [
-        "The real zero 4 is the only x-intercept, and the zeros 3i and −3i complete the three complex zeros.",
-        "The degree counts all complex zeros, but only real zeros are x-intercepts.",
-        "The factor x − 4 still gives the real zero 4, so there is an x-intercept.",
-        "Nothing in the factorization gives a zero at 9. The factor x² + 9 has no real zeros."
+        "The zeros are 3i, −3i, and 4, and only the real zero 4 is an x-intercept.",
+        "The degree counts complex zeros, but only real zeros are x-intercepts.",
+        "The factor x − 4 still gives a real zero.",
+        "x² + 9 has no real zeros, so 9 is not a zero of p."
       ],
       "nearMissIndex": 1,
-      "distinguisher": "Only real zeros appear on the graph, but every zero counts toward the degree.",
+      "distinguisher": "Every zero counts toward the degree, but only real zeros are x-intercepts.",
       "skillLabel": "Describe function characteristics",
       "skillCode": "3.A"
     }
@@ -590,7 +642,7 @@
   "concepts": {
     "zeros-and-factors": {
       "id": "zeros-and-factors",
-      "title": "Zeros and factors",
+      "title": "Zeros and linear factors",
       "section": "zeros-and-factors",
       "topicId": "precalculus-1-5"
     },
@@ -602,13 +654,13 @@
     },
     "conjugate-zeros": {
       "id": "conjugate-zeros",
-      "title": "Complex conjugate pairs",
+      "title": "Complex zeros and conjugates",
       "section": "conjugate-zeros",
       "topicId": "precalculus-1-5"
     },
     "degree-from-differences": {
       "id": "degree-from-differences",
-      "title": "Degree from differences",
+      "title": "Degree from successive differences",
       "section": "degree-from-differences",
       "topicId": "precalculus-1-5"
     },

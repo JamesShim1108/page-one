@@ -12,91 +12,128 @@ export const lesson = {
   period: "Unit 1",
   status: "ready",
   summary:
-    "Choosing a type of function to model a situation, using successive differences, and stating the assumptions and restrictions that come with a model.",
-  minutes: 14,
+    "Choosing a linear, quadratic, polynomial, or piecewise-defined model from a data set or context, and stating the assumptions and domain and range restrictions of a model.",
+  minutes: 15,
   learningGoals: [
-    "Match the pattern in a situation or data set to a linear, quadratic, polynomial, or rational model.",
-    "Use successive differences of equally spaced data to identify the degree of a polynomial model.",
-    "State the assumptions and the domain and range restrictions that a model needs in context.",
+    "1.13.A Identify an appropriate function type to construct a function model for a given scenario.",
+    "1.13.B Describe assumptions and restrictions related to building a function model.",
   ],
+  labels: {
+    goals: "AP learning objectives",
+    learn: "Understand the mathematics.",
+    context: "Where this fits.",
+  },
   bigIdea:
-    "A model is a function chosen to describe a situation, and it is only as good as the pattern it matches and the assumptions behind it. Choosing a model means connecting the structure of the data to the structure of a function family, then saying where the model applies.",
+    "A function model is chosen by matching how the quantities in a data set or context change to how a function type changes. Every model also carries assumptions about what stays consistent, and restrictions on its domain and range.",
   context:
-    "You now know several function families and how to read rates, zeros, asymptotes, and transformations. This topic asks which family to reach for, and how to be honest about what the model assumes and where it breaks down.",
+    "You now know how linear, quadratic, and other polynomial functions change. This topic asks which type to choose and how to justify the choice, a part that appears in free-response Question 1 and Question 2 of the AP Exam.",
   sections: [
     {
       id: "choose-type",
-      title: "The pattern in the data points to a type of function.",
-      conceptTitle: "Choosing a type of model",
+      title:
+        "1.13.A · The pattern of change in a data set or context points to a function type.",
+      conceptTitle: "Choosing a function type",
       blocks: [
         {
-          type: "paragraph",
-          text: "A mathematical model is a function that describes how two quantities in a situation are related. Before fitting anything, ask what the situation says about how the output changes. The average rate of change over equal steps is a strong clue.",
+          type: "table",
+          caption: "Matching scenarios to function types",
+          columns: ["The data set or context shows", "Function type"],
+          rows: [
+            ["Roughly constant rates of change", "Linear"],
+            [
+              "Roughly linear rates of change, or roughly symmetric data with a unique maximum or minimum",
+              "Quadratic",
+            ],
+            ["A geometric context involving area or two dimensions", "Quadratic"],
+            ["A geometric context involving volume or three dimensions", "Cubic"],
+            [
+              "Multiple real zeros, or multiple maxima or minima",
+              "Polynomial of higher degree",
+            ],
+            [
+              "Roughly constant nonzero nth differences over equal-length input-value intervals",
+              "Polynomial of degree n",
+            ],
+            ["Different characteristics over different intervals", "Piecewise-defined"],
+          ],
         },
         {
-          type: "table",
-          caption: "Clues for choosing a model",
-          columns: ["What you notice", "Model that fits"],
-          rows: [
-            ["Equal input steps give equal output changes", "Linear function"],
-            [
-              "The changes in output themselves change by a constant amount",
-              "Quadratic function",
-            ],
-            [
-              "Constant differences appear only at a higher level (third differences, for example)",
-              "Polynomial function of higher degree",
-            ],
-            [
-              "The output depends on a ratio, such as a fixed total shared among n people, or levels off near a value",
-              "Rational function",
-            ],
-          ],
+          type: "paragraph",
+          text: "An open box made by cutting squares of side x from the corners of a sheet has volume x(30 − 2x)(20 − 2x), a cubic function of x, because volume involves three dimensions. The area of a rectangle with a fixed perimeter is a quadratic function of its width, because area involves two dimensions.",
         },
       ],
       takeaway:
-        "Describe how the output changes, then choose the function family whose structure has that same pattern.",
+        "Describe how the output values change, then choose the function type that changes the same way.",
     },
     {
       id: "differences-and-degree",
-      title: "Successive differences reveal the degree of a polynomial model.",
-      conceptTitle: "Successive differences",
+      title:
+        "1.13.A · A polynomial of degree n models roughly constant nonzero nth differences.",
+      conceptTitle: "Successive differences and degree",
       blocks: [
         {
           type: "paragraph",
-          text: "When the inputs are equally spaced, successive differences are found by subtracting each output from the next, then repeating on the new list. If the nth differences are constant, a polynomial of degree n fits the data. First differences that are constant indicate a linear function, and second differences that are constant indicate a quadratic function.",
+          text: "A polynomial function of degree n models data sets or contextual scenarios that demonstrate roughly constant nonzero nth differences. Also, a polynomial function of degree n or less can be used to model a graph of n + 1 points with distinct input values, so 3 points can always be fit by a quadratic function or a line.",
         },
         {
           type: "table",
-          caption: "Successive differences for data from a cubic function",
-          columns: ["Row (inputs x = 0, 1, 2, 3, 4, 5)", "Values"],
+          caption: "Successive differences for data at x = 0, 1, 2, 3, 4, 5",
+          columns: ["Row", "Values"],
           rows: [
             ["y", "0, −1, 4, 21, 56, 115"],
-            ["First differences", "−1, 5, 17, 35, 59"],
-            ["Second differences", "6, 12, 18, 24"],
-            ["Third differences", "6, 6, 6"],
+            ["1st differences", "−1, 5, 17, 35, 59"],
+            ["2nd differences", "6, 12, 18, 24"],
+            ["3rd differences", "6, 6, 6"],
+          ],
+        },
+        {
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "Because the 3rd differences in the output values are a constant 6 over consecutive equal-length input-value intervals, a cubic model is best. Refer to the values from the table in the reason.",
+        },
+      ],
+      takeaway:
+        "Name the constant difference, the level at which it appears, and the equal-length intervals.",
+    },
+    {
+      id: "piecewise-models",
+      title:
+        "1.13.A · A piecewise-defined function models different behavior on different intervals.",
+      conceptTitle: "Piecewise-defined models",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "A piecewise-defined function consists of a set of functions defined over nonoverlapping domain intervals. It is useful for modeling a data set or contextual scenario that demonstrates different characteristics over different intervals.",
+        },
+        {
+          type: "paragraph",
+          text: "A parking garage charges $3 per hour for the first 2 hours and $1 per hour after that. The cost is modeled by C(t) = 3t for 0 ≤ t ≤ 2 and C(t) = 6 + (t − 2) for t > 2. Each piece is linear, but the rate of change is 3 dollars per hour on the first interval and 1 dollar per hour on the second.",
+        },
+      ],
+      takeaway:
+        "Use a piecewise-defined model when the rate or pattern changes at a known input value.",
+    },
+    {
+      id: "assumptions-restrictions",
+      title: "1.13.B · Models have assumptions and domain and range restrictions.",
+      conceptTitle: "Assumptions and restrictions",
+      blocks: [
+        {
+          type: "list",
+          items: [
+            "A model may assume something is consistent, such as a constant growth rate or a fixed price.",
+            "A model may assume how the quantities change together, such as a constant rate of change for a linear model.",
+            "A model may require domain restrictions based on mathematical clues, contextual clues, or extreme values in the data set.",
+            "A model may require range restrictions, such as rounding to whole numbers, based on mathematical clues, contextual clues, or extreme values in the data set.",
           ],
         },
         {
           type: "paragraph",
-          text: "The first and second differences vary, but the third differences are all 6. So a cubic function fits these data. Real measurements contain error, so differences are rarely perfectly constant, and you look for differences that are close to constant.",
-        },
-      ],
-      takeaway:
-        "Keep taking differences until they become constant. The number of times you subtracted is the degree.",
-    },
-    {
-      id: "assumptions-restrictions",
-      title: "Every model has assumptions and restrictions on its domain and range.",
-      conceptTitle: "Assumptions and restrictions",
-      blocks: [
-        {
-          type: "paragraph",
-          text: "A ball is thrown upward from a height of 5 feet, and its height after t seconds is modeled by h(t) = −16t² + 48t + 5 feet. This model assumes the ball moves only under gravity, with no air resistance and no wind. It also describes only the flight itself: the domain is 0 ≤ t ≤ about 3.1 seconds, when the ball lands. The range is 0 ≤ h ≤ 41 feet, since the greatest height is h(1.5) = 41 and the ball ends at ground level.",
+          text: "A ball thrown from a height of 5 feet has height h(t) = −16t² + 48t + 5 feet after t seconds. The model assumes only gravity acts on the ball. Its domain is restricted to 0 ≤ t ≤ 3.101, from the throw until the ball lands, and its range to 0 ≤ h(t) ≤ 41, since the maximum height is h(1.5) = 41.",
         },
         {
           type: "table",
-          caption: "Heights from h(t) = −16t² + 48t + 5",
+          caption: "Values of h(t)",
           columns: ["t (seconds)", "h(t) (feet)"],
           rows: [
             ["0", "5"],
@@ -109,35 +146,36 @@ export const lesson = {
           ],
         },
         {
-          type: "paragraph",
-          text: "The average rate of change from t = 0 to t = 1 is 32 feet per second, and from t = 1.5 to t = 3 it is −24 feet per second. Using the model to make predictions at times far from where it was fit, called extrapolation, is risky. A formula keeps producing numbers outside the situation, such as negative heights, even when they make no sense.",
+          type: "callout",
+          title: "Write it like the AP Exam",
+          text: "The model is appropriate until the ball lands, when h(t) = 0 at t = 3.101 seconds. The throw is at t = 0. Therefore, an appropriate domain for the model h is [0, 3.101] seconds.",
         },
       ],
       takeaway:
-        "State what the model assumes, restrict the domain and range to what makes sense, and be cautious about extrapolation.",
+        "State the assumption, the domain, and the range in the language of the context.",
     },
   ],
   vocabulary: [
     {
-      id: "precalculus-1-13-mathematical-model",
+      id: "precalculus-1-13-function-model",
       topicId: "precalculus-1-13",
-      term: "Mathematical model",
+      term: "Function model",
       definition:
-        "A function or equation chosen to describe how quantities in a real situation are related.",
+        "A function chosen to describe how two quantities in a data set or contextual scenario are related.",
+    },
+    {
+      id: "precalculus-1-13-piecewise-defined",
+      topicId: "precalculus-1-13",
+      term: "Piecewise-defined function",
+      definition:
+        "A function made of a set of functions defined over nonoverlapping domain intervals.",
     },
     {
       id: "precalculus-1-13-assumption",
       topicId: "precalculus-1-13",
       term: "Assumption",
       definition:
-        "A condition taken to be true when a model is built, such as ignoring air resistance or assuming a constant rate.",
-    },
-    {
-      id: "precalculus-1-13-extrapolation",
-      topicId: "precalculus-1-13",
-      term: "Extrapolation",
-      definition:
-        "Using a model to predict outputs for inputs outside the interval of data it was built from.",
+        "A condition a model takes to be true, such as what stays consistent or how the quantities change together.",
     },
   ],
   connections: [
@@ -145,12 +183,11 @@ export const lesson = {
       id: "precalculus-1-13-c1",
       topicId: "precalculus-1-13",
       type: "Look back",
-      title: "Rates of change were already the evidence",
-      body: "In Topic 1.3, the average rate of change was constant for linear functions and changed at a constant pace for quadratic functions. Successive differences are the same idea applied to data tables.",
-      transferQuestion:
-        "Why does a constant second difference match a quadratic function?",
+      title: "Rates of change were the evidence",
+      body: "Topic 1.3 showed that linear functions have constant average rates of change and quadratic functions have average rates of change that change at a constant rate. Successive differences apply that idea to a data table.",
+      transferQuestion: "Why does a constant 2nd difference point to a quadratic model?",
       feedback:
-        "The rate of change of a quadratic function changes at a constant pace, so the changes in the first differences are constant.",
+        "The 1st differences, which are average rates of change over equal-length intervals, change at a constant rate.",
       links: [
         {
           topicId: "precalculus-1-3",
@@ -163,12 +200,11 @@ export const lesson = {
       id: "precalculus-1-13-c2",
       topicId: "precalculus-1-13",
       type: "Looking ahead",
-      title: "From choosing to building",
-      body: "In Topic 1.14, you will construct the equation of a model from conditions or technology. Choosing a type first tells you what form to build.",
+      title: "From choosing to constructing",
+      body: "Topic 1.14 finds the constants of the chosen model from conditions, transformations, or regression, and then uses the model to answer questions.",
       transferQuestion:
-        "What information might you need to find the specific constants in the model once you have chosen its type?",
-      feedback:
-        "Points or conditions from the data, such as zeros, a maximum, or a few input-output pairs.",
+        "Once you choose a quadratic model, what do you need to find its equation?",
+      feedback: "Three conditions, such as three points, or a vertex and one more point.",
       links: [
         {
           topicId: "precalculus-1-14",
@@ -184,12 +220,11 @@ export const lesson = {
     conceptIds: [
       "precalculus-1-1-domain",
       "precalculus-1-1-range",
-      "precalculus-1-2-average-rate",
       "precalculus-1-3-quadratic-function",
       "precalculus-1-5-successive-differences",
-      "precalculus-1-13-mathematical-model",
+      "precalculus-1-13-function-model",
+      "precalculus-1-13-piecewise-defined",
       "precalculus-1-13-assumption",
-      "precalculus-1-13-extrapolation",
     ],
   },
 };

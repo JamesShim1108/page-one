@@ -1,0 +1,461 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-1",
+    "courseId": "precalculus",
+    "number": 1,
+    "title": "Polynomial and Rational Functions",
+    "period": "AP Exam weighting 30–40%",
+    "status": "ready",
+    "description": "See how outputs change with inputs, then use rates of change, zeros, end behavior, asymptotes, and holes to describe polynomial and rational functions and build models from them.",
+    "quizzes": [
+      {
+        "id": "precalculus-1-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice, Part 1: Topics 1.1 to 1.6",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-1-1",
+            "questionIds": [
+              "precalculus-1-1-q02",
+              "precalculus-1-1-q06",
+              "precalculus-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-2",
+            "questionIds": [
+              "precalculus-1-2-q02",
+              "precalculus-1-2-q03",
+              "precalculus-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-3",
+            "questionIds": [
+              "precalculus-1-3-q01",
+              "precalculus-1-3-q04",
+              "precalculus-1-3-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-4",
+            "questionIds": [
+              "precalculus-1-4-q02",
+              "precalculus-1-4-q04",
+              "precalculus-1-4-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-5",
+            "questionIds": [
+              "precalculus-1-5-q02",
+              "precalculus-1-5-q06",
+              "precalculus-1-5-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-6",
+            "questionIds": [
+              "precalculus-1-6-q02",
+              "precalculus-1-6-q07",
+              "precalculus-1-6-q08"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-1-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice, Part 2: Topics 1.7 to 1.14",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-1-7",
+            "questionIds": [
+              "precalculus-1-7-q01",
+              "precalculus-1-7-q03",
+              "precalculus-1-7-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-8",
+            "questionIds": [
+              "precalculus-1-8-q02",
+              "precalculus-1-8-q05",
+              "precalculus-1-8-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-9",
+            "questionIds": [
+              "precalculus-1-9-q03",
+              "precalculus-1-9-q06",
+              "precalculus-1-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-10",
+            "questionIds": [
+              "precalculus-1-10-q03",
+              "precalculus-1-10-q06",
+              "precalculus-1-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-11",
+            "questionIds": [
+              "precalculus-1-11-q03",
+              "precalculus-1-11-q06",
+              "precalculus-1-11-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-12",
+            "questionIds": [
+              "precalculus-1-12-q02",
+              "precalculus-1-12-q05",
+              "precalculus-1-12-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-13",
+            "questionIds": [
+              "precalculus-1-13-q02",
+              "precalculus-1-13-q06",
+              "precalculus-1-13-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-14",
+            "questionIds": [
+              "precalculus-1-14-q01",
+              "precalculus-1-14-q05",
+              "precalculus-1-14-q08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-1-1-quiz",
+        "title": "Change in Tandem topic practice"
+      },
+      {
+        "id": "precalculus-1-2-quiz",
+        "title": "Rates of Change topic practice"
+      },
+      {
+        "id": "precalculus-1-3-quiz",
+        "title": "Rates of Change in Linear and Quadratic Functions topic practice"
+      },
+      {
+        "id": "precalculus-1-4-quiz",
+        "title": "Polynomial Functions and Rates of Change topic practice"
+      },
+      {
+        "id": "precalculus-1-5-quiz",
+        "title": "Polynomial Functions and Complex Zeros topic practice"
+      },
+      {
+        "id": "precalculus-1-6-quiz",
+        "title": "Polynomial Functions and End Behavior topic practice"
+      },
+      {
+        "id": "precalculus-1-7-quiz",
+        "title": "Rational Functions and End Behavior topic practice"
+      },
+      {
+        "id": "precalculus-1-8-quiz",
+        "title": "Rational Functions and Zeros topic practice"
+      },
+      {
+        "id": "precalculus-1-9-quiz",
+        "title": "Rational Functions and Vertical Asymptotes topic practice"
+      },
+      {
+        "id": "precalculus-1-10-quiz",
+        "title": "Rational Functions and Holes topic practice"
+      },
+      {
+        "id": "precalculus-1-11-quiz",
+        "title": "Equivalent Representations of Polynomial and Rational Expressions topic practice"
+      },
+      {
+        "id": "precalculus-1-12-quiz",
+        "title": "Transformations of Functions topic practice"
+      },
+      {
+        "id": "precalculus-1-13-quiz",
+        "title": "Function Model Selection and Assumption Articulation topic practice"
+      },
+      {
+        "id": "precalculus-1-14-quiz",
+        "title": "Function Model Construction and Application topic practice"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "precalculus-1-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Change in Tandem",
+      "period": "Unit 1",
+      "status": "ready",
+      "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-1-frq-1",
+        "title": "Unit 1 FRQ 1: Function concepts (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-2",
+        "title": "Unit 1 FRQ 2: Modeling a non-periodic context (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-3",
+        "title": "Unit 1 FRQ 3: Function concepts (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-4",
+        "title": "Unit 1 FRQ 4: Modeling a non-periodic context (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-1-frq-1",
+    "version": 1,
+    "courseId": "precalculus",
+    "unitId": "precalculus-1",
+    "title": "Unit 1 FRQ 1: Function concepts (Topics 1.1 to 1.6)",
+    "headline": "Zeros, extrema, end behavior, symmetry, and choosing a model from a table.",
+    "promptTitle": "Free response 1 · Function concepts · graphing calculator",
+    "prompt": "Let f be an increasing function defined for x ≥ 1. The table gives values of f(x) at selected values of x. The function g is given by g(x) = −x⁴ + 5x² − 4.",
+    "instructions": "Part A style: a graphing calculator is required. Show the work that leads to each answer; answers without supporting work may not earn credit where work is requested. Avoid rounding intermediate values, and give decimal approximations accurate to three places after the decimal point unless the part says otherwise. Unless otherwise specified, the domain of a function f is the set of all real numbers x for which f(x) is a real number.",
+    "note": "Original practice question written in the AP Precalculus free-response format (6 points, parts A to C). Scoring is self-assessed with the point-by-point rubric. It is not an official AP question or an official AP score.",
+    "exerciseType": "frq",
+    "sourceIds": [
+      "ced",
+      "ced-topic-1-4",
+      "ced-topic-1-5",
+      "ced-topic-1-6"
+    ],
+    "stimulusBlocks": [
+      {
+        "type": "table",
+        "caption": "Values of f",
+        "columns": [
+          "x",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "rows": [
+          [
+            "f(x)",
+            "2",
+            "3",
+            "12",
+            "35",
+            "78"
+          ]
+        ]
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Show work",
+        "text": "Write the setup, such as the expression you evaluate or the equation you solve, before the answer."
+      },
+      {
+        "label": "Use notation",
+        "text": "Use limit notation, interval notation, and units exactly where a part asks for them."
+      },
+      {
+        "label": "Justify",
+        "text": "When a part says give a reason or explain, refer to the given values or the context."
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "a1",
+        "label": "Part A (i)",
+        "prompt": "A (i). Find all real zeros of g. Show the work that leads to your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-5",
+            "sectionId": "zeros-and-factors",
+            "label": "Zeros and linear factors"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "label": "Part A (ii)",
+        "prompt": "A (ii). Find the relative maximum value of g on the interval 0 < x < 3, and the value of x at which it occurs. Express both as decimal approximations.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-4",
+            "sectionId": "extrema",
+            "label": "Relative and absolute extrema"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "label": "Part B (i)",
+        "prompt": "B (i). Determine the end behavior of g as x increases without bound. Express your answer using the mathematical notation of a limit.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-6",
+            "sectionId": "four-cases",
+            "label": "End behavior from the leading term"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "label": "Part B (ii)",
+        "prompt": "B (ii). Determine whether g is even, odd, or neither. Give a reason for your answer based on the definition of an even or odd function.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-5",
+            "sectionId": "even-and-odd",
+            "label": "Even and odd functions"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "label": "Part C (i)",
+        "prompt": "C (i). Based on the table, determine which of the following function types best models f: linear, quadratic, or cubic.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-5",
+            "sectionId": "degree-from-differences",
+            "label": "Degree from successive differences"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "label": "Part C (ii)",
+        "prompt": "C (ii). Give a reason for your answer to part C (i) based on the relationship between the change in the output values of f and the change in the input values of f. Refer to the values in the table in your reasoning.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-13",
+            "sectionId": "differences-and-degree",
+            "label": "Successive differences and degree"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "a1-zeros",
+        "field": "a1",
+        "label": "A (i) Real zeros",
+        "points": 1,
+        "guidance": "Earn the point for x = −2, −1, 1, and 2, with supporting work such as g(x) = −(x² − 1)(x² − 4) = −(x − 1)(x + 1)(x − 2)(x + 2)."
+      },
+      {
+        "id": "a2-max",
+        "field": "a2",
+        "label": "A (ii) Relative maximum",
+        "points": 1,
+        "guidance": "Earn the point for a relative maximum value of 2.250 (or 2.25) at x = 1.581, found with technology or by analysis."
+      },
+      {
+        "id": "b1-end",
+        "field": "b1",
+        "label": "B (i) End behavior with limit notation",
+        "points": 1,
+        "guidance": "Earn the point for lim x→∞ g(x) = −∞. A verbal description alone, without limit notation, does not earn the point."
+      },
+      {
+        "id": "b2-even",
+        "field": "b2",
+        "label": "B (ii) Even, with reason",
+        "points": 1,
+        "guidance": "Earn the point for stating that g is even because g(−x) = −(−x)⁴ + 5(−x)² − 4 = −x⁴ + 5x² − 4 = g(x) for all x."
+      },
+      {
+        "id": "c1-type",
+        "field": "c1",
+        "label": "C (i) Function type",
+        "points": 1,
+        "guidance": "Earn the point for: f is best modeled by a cubic function."
+      },
+      {
+        "id": "c2-reason",
+        "field": "c2",
+        "label": "C (ii) Reason",
+        "points": 1,
+        "guidance": "Earn the point for a reason that uses the table: the 1st differences 1, 9, 23, 43 and 2nd differences 8, 14, 20 are not constant, but the 3rd differences are a constant 6 over consecutive equal-length input-value intervals."
+      }
+    ],
+    "modelResponse": "A (i). g(x) = −(x⁴ − 5x² + 4) = −(x² − 1)(x² − 4) = −(x − 1)(x + 1)(x − 2)(x + 2). Setting g(x) = 0 gives x = −2, x = −1, x = 1, and x = 2.\n\nA (ii). Using a graphing calculator on 0 < x < 3, the relative maximum of g occurs at x = 1.581, and the relative maximum value is g(1.581) = 2.250.\n\nB (i). The leading term −x⁴ has a negative coefficient and an even degree. As x increases without bound, g(x) decreases without bound: lim x→∞ g(x) = −∞.\n\nB (ii). g(−x) = −(−x)⁴ + 5(−x)² − 4 = −x⁴ + 5x² − 4 = g(x). Because g(−x) = g(x) for all x, g is an even function.\n\nC (i). f is best modeled by a cubic function.\n\nC (ii). The 1st differences in f(x)-values are 3 − 2 = 1, 12 − 3 = 9, 35 − 12 = 23, 78 − 35 = 43. The 2nd differences are 8, 14, 20. The 3rd differences are 14 − 8 = 6 and 20 − 14 = 6. Because the 3rd differences in the output values are a constant 6 over consecutive equal-length input-value intervals, a cubic model is best.",
+    "alternateModel": "In A (ii) an exact analysis is also acceptable: the maximum occurs where x² = 2.5, so x = √2.5 ≈ 1.581 and g(√2.5) = −6.25 + 12.5 − 4 = 2.25. In C (ii) a table of differences, like the one in the scoring guidelines style, is a complete reason when it is followed by the conclusion sentence.",
+    "commonErrors": [
+      "Listing only the positive zeros 1 and 2.",
+      "Reporting x ≈ 1.58 or a value rounded to fewer than three decimal places.",
+      "Writing 'g goes down' instead of lim x→∞ g(x) = −∞.",
+      "Saying g is even because 'the graph looks symmetric' without showing g(−x) = g(x).",
+      "Choosing quadratic because the output values grow faster and faster, without checking the 2nd differences."
+    ]
+  }
+}

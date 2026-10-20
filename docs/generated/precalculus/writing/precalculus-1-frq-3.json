@@ -1,0 +1,463 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-1",
+    "courseId": "precalculus",
+    "number": 1,
+    "title": "Polynomial and Rational Functions",
+    "period": "AP Exam weighting 30–40%",
+    "status": "ready",
+    "description": "See how outputs change with inputs, then use rates of change, zeros, end behavior, asymptotes, and holes to describe polynomial and rational functions and build models from them.",
+    "quizzes": [
+      {
+        "id": "precalculus-1-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice, Part 1: Topics 1.1 to 1.6",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-1-1",
+            "questionIds": [
+              "precalculus-1-1-q02",
+              "precalculus-1-1-q06",
+              "precalculus-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-2",
+            "questionIds": [
+              "precalculus-1-2-q02",
+              "precalculus-1-2-q03",
+              "precalculus-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-3",
+            "questionIds": [
+              "precalculus-1-3-q01",
+              "precalculus-1-3-q04",
+              "precalculus-1-3-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-4",
+            "questionIds": [
+              "precalculus-1-4-q02",
+              "precalculus-1-4-q04",
+              "precalculus-1-4-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-5",
+            "questionIds": [
+              "precalculus-1-5-q02",
+              "precalculus-1-5-q06",
+              "precalculus-1-5-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-6",
+            "questionIds": [
+              "precalculus-1-6-q02",
+              "precalculus-1-6-q07",
+              "precalculus-1-6-q08"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-1-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-1",
+        "title": "Unit 1 practice, Part 2: Topics 1.7 to 1.14",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-1-7",
+            "questionIds": [
+              "precalculus-1-7-q01",
+              "precalculus-1-7-q03",
+              "precalculus-1-7-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-8",
+            "questionIds": [
+              "precalculus-1-8-q02",
+              "precalculus-1-8-q05",
+              "precalculus-1-8-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-9",
+            "questionIds": [
+              "precalculus-1-9-q03",
+              "precalculus-1-9-q06",
+              "precalculus-1-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-10",
+            "questionIds": [
+              "precalculus-1-10-q03",
+              "precalculus-1-10-q06",
+              "precalculus-1-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-11",
+            "questionIds": [
+              "precalculus-1-11-q03",
+              "precalculus-1-11-q06",
+              "precalculus-1-11-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-12",
+            "questionIds": [
+              "precalculus-1-12-q02",
+              "precalculus-1-12-q05",
+              "precalculus-1-12-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-13",
+            "questionIds": [
+              "precalculus-1-13-q02",
+              "precalculus-1-13-q06",
+              "precalculus-1-13-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-1-14",
+            "questionIds": [
+              "precalculus-1-14-q01",
+              "precalculus-1-14-q05",
+              "precalculus-1-14-q08"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-1-1-quiz",
+        "title": "Change in Tandem topic practice"
+      },
+      {
+        "id": "precalculus-1-2-quiz",
+        "title": "Rates of Change topic practice"
+      },
+      {
+        "id": "precalculus-1-3-quiz",
+        "title": "Rates of Change in Linear and Quadratic Functions topic practice"
+      },
+      {
+        "id": "precalculus-1-4-quiz",
+        "title": "Polynomial Functions and Rates of Change topic practice"
+      },
+      {
+        "id": "precalculus-1-5-quiz",
+        "title": "Polynomial Functions and Complex Zeros topic practice"
+      },
+      {
+        "id": "precalculus-1-6-quiz",
+        "title": "Polynomial Functions and End Behavior topic practice"
+      },
+      {
+        "id": "precalculus-1-7-quiz",
+        "title": "Rational Functions and End Behavior topic practice"
+      },
+      {
+        "id": "precalculus-1-8-quiz",
+        "title": "Rational Functions and Zeros topic practice"
+      },
+      {
+        "id": "precalculus-1-9-quiz",
+        "title": "Rational Functions and Vertical Asymptotes topic practice"
+      },
+      {
+        "id": "precalculus-1-10-quiz",
+        "title": "Rational Functions and Holes topic practice"
+      },
+      {
+        "id": "precalculus-1-11-quiz",
+        "title": "Equivalent Representations of Polynomial and Rational Expressions topic practice"
+      },
+      {
+        "id": "precalculus-1-12-quiz",
+        "title": "Transformations of Functions topic practice"
+      },
+      {
+        "id": "precalculus-1-13-quiz",
+        "title": "Function Model Selection and Assumption Articulation topic practice"
+      },
+      {
+        "id": "precalculus-1-14-quiz",
+        "title": "Function Model Construction and Application topic practice"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "precalculus-1-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Change in Tandem",
+      "period": "Unit 1",
+      "status": "ready",
+      "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-1-frq-1",
+        "title": "Unit 1 FRQ 1: Function concepts (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-2",
+        "title": "Unit 1 FRQ 2: Modeling a non-periodic context (Topics 1.1 to 1.6)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-3",
+        "title": "Unit 1 FRQ 3: Function concepts (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-1-frq-4",
+        "title": "Unit 1 FRQ 4: Modeling a non-periodic context (Topics 1.7 to 1.14)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-1-frq-3",
+    "version": 1,
+    "courseId": "precalculus",
+    "unitId": "precalculus-1",
+    "title": "Unit 1 FRQ 3: Function concepts (Topics 1.7 to 1.14)",
+    "headline": "A hole, a vertical asymptote, end behavior, a rational inequality, and choosing a model.",
+    "promptTitle": "Free response 3 · Function concepts · graphing calculator",
+    "prompt": "The function r is given by r(x) = (x² − x − 6)/(x² − 4). The table gives values of a function h at selected values of x.",
+    "instructions": "Part A style: a graphing calculator is required. Show the work that leads to each answer; answers without supporting work may not earn credit where work is requested. Avoid rounding intermediate values, and give decimal approximations accurate to three places after the decimal point unless the part says otherwise. Unless otherwise specified, the domain of a function f is the set of all real numbers x for which f(x) is a real number.",
+    "note": "Original practice question written in the AP Precalculus free-response format (6 points, parts A to C). Scoring is self-assessed with the point-by-point rubric. It is not an official AP question or an official AP score.",
+    "exerciseType": "frq",
+    "sourceIds": [
+      "ced",
+      "ced-topic-1-7",
+      "ced-topic-1-8",
+      "ced-topic-1-9",
+      "ced-topic-1-10",
+      "ced-topic-1-13"
+    ],
+    "stimulusBlocks": [
+      {
+        "type": "table",
+        "caption": "Values of h",
+        "columns": [
+          "x",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "rows": [
+          [
+            "h(x)",
+            "7",
+            "4",
+            "3",
+            "4",
+            "7"
+          ]
+        ]
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Show work",
+        "text": "Write the setup, such as the expression you evaluate or the equation you solve, before the answer."
+      },
+      {
+        "label": "Use notation",
+        "text": "Use limit notation, interval notation, and units exactly where a part asks for them."
+      },
+      {
+        "label": "Justify",
+        "text": "When a part says give a reason or explain, refer to the given values or the context."
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "a1",
+        "label": "Part A (i)",
+        "prompt": "A (i). The graph of r has a hole. Find the coordinates of the hole. Show the work that leads to your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-10",
+            "sectionId": "hole-location",
+            "label": "Locating a hole"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "label": "Part A (ii)",
+        "prompt": "A (ii). The graph of r has a vertical asymptote at x = 2. Describe the behavior of r on each side of x = 2 using the mathematical notation of limits.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-9",
+            "sectionId": "one-sided-limits",
+            "label": "One-sided limits"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "label": "Part B (i)",
+        "prompt": "B (i). Determine the end behavior of r as x increases without bound and as x decreases without bound. Express your answers using the mathematical notation of limits.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-7",
+            "sectionId": "horizontal-asymptotes",
+            "label": "Horizontal asymptotes"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "label": "Part B (ii)",
+        "prompt": "B (ii). Find all values of x for which r(x) ≥ 0. Give a reason for your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-8",
+            "sectionId": "inequalities",
+            "label": "Rational inequalities"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "label": "Part C (i)",
+        "prompt": "C (i). Based on the table, determine which of the following function types best models h: linear, quadratic, or cubic.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-13",
+            "sectionId": "choose-type",
+            "label": "Choosing a function type"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "label": "Part C (ii)",
+        "prompt": "C (ii). Give a reason for your answer to part C (i) based on the relationship between the change in the output values of h and the change in the input values of h. Refer to the values in the table in your reasoning.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-1-13",
+            "sectionId": "differences-and-degree",
+            "label": "Successive differences and degree"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "a1-hole",
+        "field": "a1",
+        "label": "A (i) Coordinates of the hole",
+        "points": 1,
+        "guidance": "Earn the point for (−2, 5/4), or (−2, 1.25), with work such as r(x) = (x − 3)(x + 2)/((x − 2)(x + 2)) and lim x→−2 r(x) = (−5)/(−4) = 5/4."
+      },
+      {
+        "id": "a2-limits",
+        "field": "a2",
+        "label": "A (ii) One-sided limits",
+        "points": 1,
+        "guidance": "Earn the point for lim x→2⁻ r(x) = ∞ and lim x→2⁺ r(x) = −∞. Both limits are needed."
+      },
+      {
+        "id": "b1-end",
+        "field": "b1",
+        "label": "B (i) End behavior with limit notation",
+        "points": 1,
+        "guidance": "Earn the point for lim x→∞ r(x) = 1 and lim x→−∞ r(x) = 1."
+      },
+      {
+        "id": "b2-ineq",
+        "field": "b2",
+        "label": "B (ii) Solution with reason",
+        "points": 1,
+        "guidance": "Earn the point for x < −2, −2 < x < 2, or x ≥ 3, with a reason that names the zero x = 3, the vertical asymptote x = 2, and the excluded value x = −2."
+      },
+      {
+        "id": "c1-type",
+        "field": "c1",
+        "label": "C (i) Function type",
+        "points": 1,
+        "guidance": "Earn the point for: h is best modeled by a quadratic function."
+      },
+      {
+        "id": "c2-reason",
+        "field": "c2",
+        "label": "C (ii) Reason",
+        "points": 1,
+        "guidance": "Earn the point for: the 1st differences −3, −1, 1, 3 are not constant, and the 2nd differences are a constant 2 over consecutive equal-length input-value intervals."
+      }
+    ],
+    "modelResponse": "A (i). r(x) = (x − 3)(x + 2)/((x − 2)(x + 2)). The factor x + 2 has multiplicity 1 in both the numerator and the denominator, so the graph has a hole at x = −2. For x ≠ −2, r(x) = (x − 3)/(x − 2), so lim x→−2 r(x) = (−5)/(−4) = 5/4. The hole is at (−2, 5/4).\n\nA (ii). Near x = 2, the numerator x − 3 is about −1. For x < 2 the denominator x − 2 is a small negative number, and for x > 2 it is a small positive number. Therefore lim x→2⁻ r(x) = ∞ and lim x→2⁺ r(x) = −∞.\n\nB (i). The degrees of the numerator and denominator are equal, and the quotient of the leading terms is x²/x² = 1. Therefore lim x→∞ r(x) = 1 and lim x→−∞ r(x) = 1.\n\nB (ii). For x ≠ −2, r(x) = (x − 3)/(x − 2). The real zero x = 3 and the vertical asymptote x = 2 are the endpoints, and x = −2 is excluded because r is undefined there. The quotient is positive for x < 2 (both factors negative) and for x > 3, and it is 0 at x = 3. So r(x) ≥ 0 for x < −2, for −2 < x < 2, and for x ≥ 3.\n\nC (i). h is best modeled by a quadratic function.\n\nC (ii). The 1st differences in h(x)-values are 4 − 7 = −3, 3 − 4 = −1, 4 − 3 = 1, and 7 − 4 = 3. The 2nd differences are −1 − (−3) = 2, 1 − (−1) = 2, and 3 − 1 = 2. Because the 2nd differences are a constant 2 over consecutive equal-length input-value intervals, a quadratic model is best.",
+    "alternateModel": "In C (ii) it is also correct to note that the data are symmetric about x = 2 with a unique minimum of 3, which is consistent with a quadratic model, but the difference argument is the most direct reason. In B (ii), a sign table of x − 3 and x − 2 on each interval is a complete reason.",
+    "commonErrors": [
+      "Giving the hole as (−2, 0) by using the original numerator.",
+      "Listing x = −2 as a vertical asymptote.",
+      "Reversing the one-sided limits at x = 2.",
+      "Including x = −2 or x = 2 in the solution of r(x) ≥ 0.",
+      "Saying h is linear or cubic without computing differences."
+    ]
+  }
+}
