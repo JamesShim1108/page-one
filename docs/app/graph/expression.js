@@ -8,6 +8,7 @@
 //   implicit multiplication: 2x, 3(x + 1), x(x − 2), (x + 1)(x − 1), 2pi
 //   functions: sin cos tan sec csc cot asin acos atan sqrt cbrt abs ln log log2 exp
 //   √(...) is sqrt(...)
+//   slider parameters: compileExpression("a(x - h)^2", { parameters: { a: 2, h: 1 } })
 // Precedence follows algebra: ^ is right-associative and binds tighter than a leading
 // minus, so −x^2 means −(x^2). Write 1/(2x) when the whole 2x is the denominator.
 
@@ -100,11 +101,19 @@ function tokenize(text, source) {
 }
 
 // Splits a run of letters such as "xpi" or "2x" handled by the tokenizer into known names.
-function splitName(name, variable, source) {
-  if (name === variable || FUNCTIONS[name] || name in CONSTANTS) return [name];
+function splitName(name, variable, parameters, source) {
+  if (
+    name === variable ||
+    FUNCTIONS[name] ||
+    name in CONSTANTS ||
+    parameters.includes(name)
+  )
+    return [name];
   const parts = [];
   let rest = name;
-  const known = [variable, ...Object.keys(CONSTANTS)].sort((a, b) => b.length - a.length);
+  const known = [variable, ...parameters, ...Object.keys(CONSTANTS)].sort(
+    (a, b) => b.length - a.length,
+  );
   while (rest) {
     const hit = known.find((candidate) => rest.startsWith(candidate));
     if (!hit) throw new GraphExpressionError(`Unknown name "${name}"`, source);
@@ -114,13 +123,16 @@ function splitName(name, variable, source) {
   return parts;
 }
 
-export function parseExpression(source, { variable = "x" } = {}) {
+export function parseExpression(source, { variable = "x", parameters = [] } = {}) {
   if (typeof source !== "string" || !source.trim())
     throw new GraphExpressionError("Empty expression", String(source));
   const raw = tokenize(normalize(source), source);
   const tokens = raw.flatMap((token) =>
     token.type === "name" && !FUNCTIONS[token.value]
-      ? splitName(token.value, variable, source).map((value) => ({ type: "name", value }))
+      ? splitName(token.value, variable, parameters, source).map((value) => ({
+          type: "name",
+          value,
+        }))
       : [token],
   );
   let index = 0;
@@ -195,6 +207,7 @@ export function parseExpression(source, { variable = "x" } = {}) {
         return { fn: token.value, arg };
       }
       if (token.value === variable) return { variable: true };
+      if (parameters.includes(token.value)) return { param: token.value };
       if (token.value in CONSTANTS) return { num: CONSTANTS[token.value] };
       throw new GraphExpressionError(`Unknown name "${token.value}"`, source);
     }
@@ -207,13 +220,14 @@ export function parseExpression(source, { variable = "x" } = {}) {
   return tree;
 }
 
-function evaluate(node, x) {
+function evaluate(node, x, values) {
   if ("num" in node) return node.num;
   if (node.variable) return x;
-  if (node.fn) return FUNCTIONS[node.fn](evaluate(node.arg, x));
-  if (node.op === "neg") return -evaluate(node.arg, x);
-  const a = evaluate(node.left, x);
-  const b = evaluate(node.right, x);
+  if (node.param) return values[node.param];
+  if (node.fn) return FUNCTIONS[node.fn](evaluate(node.arg, x, values));
+  if (node.op === "neg") return -evaluate(node.arg, x, values);
+  const a = evaluate(node.left, x, values);
+  const b = evaluate(node.right, x, values);
   switch (node.op) {
     case "+":
       return a + b;
@@ -237,10 +251,19 @@ function evaluate(node, x) {
 }
 
 // Returns f(x) for the expression. Undefined values come back as NaN, never as errors.
-export function compileExpression(source, options = {}) {
-  const tree = parseExpression(source, options);
+// options.parameters maps slider names to their current values.
+export function compileExpression(source, { variable = "x", parameters = {} } = {}) {
+  const values = { ...parameters };
+  const tree = parseExpression(source, { variable, parameters: Object.keys(values) });
   return (x) => {
-    const value = evaluate(tree, x);
+    const value = evaluate(tree, x, values);
     return Number.isFinite(value) ? value : NaN;
   };
+}
+
+// A coordinate written as a number, or as an expression in the slider parameters,
+// such as "h" or "k + 1". Returns NaN when it cannot be computed.
+export function coordinate(value, parameters = {}) {
+  if (typeof value === "number") return value;
+  return compileExpression(String(value), { variable: "#", parameters })(0);
 }

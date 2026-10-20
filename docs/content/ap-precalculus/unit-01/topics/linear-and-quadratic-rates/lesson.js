@@ -109,16 +109,27 @@ export const lesson = {
         },
         {
           type: "graph",
-          caption: "Secant line of f(x) = x² from (1, 1) to (3, 9), with slope 4",
-          alt: "An upward-opening parabola with a dashed line through the points (1, 1) and (3, 9).",
+          caption:
+            "Secant line of f(x) = x² over the interval [1, b], with slope (b² − 1)/(b − 1) = b + 1",
+          alt: "An upward-opening parabola with a dashed secant line through (1, 1) and (b, b²). It starts at b = 3, through (1, 1) and (3, 9) with slope 4; a larger b gives a steeper secant line.",
           window: {
             x: [-1, 4],
-            y: [-1, 12],
+            y: [-1, 13],
           },
           ticks: {
             x: 1,
             y: 2,
           },
+          sliders: [
+            {
+              name: "b",
+              label: "Right endpoint of the interval",
+              min: 1.25,
+              max: 3.5,
+              step: 0.25,
+              value: 3,
+            },
+          ],
           functions: [
             {
               expr: "x^2",
@@ -129,10 +140,13 @@ export const lesson = {
           ],
           segments: [
             {
-              from: [0, -3],
-              to: [4, 13],
+              from: [-1, "1 - 2(b + 1)"],
+              to: [4, "1 + 3(b + 1)"],
               dashed: true,
               color: 2,
+              label: "slope {b + 1}",
+              labelAt: 0.2,
+              labelPosition: "se",
             },
           ],
           points: [
@@ -142,8 +156,8 @@ export const lesson = {
               position: "se",
             },
             {
-              at: [3, 9],
-              label: "(3, 9)",
+              at: ["b", "b^2"],
+              label: "({b}, {b^2})",
               position: "nw",
             },
           ],

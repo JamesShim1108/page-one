@@ -80,6 +80,7 @@ export function renderBlocks(
   renderText = esc,
   sectionId = "",
   reportContext = null,
+  { interactiveGraphs = true } = {},
 ) {
   return blocks
     .map((block, index) => {
@@ -106,7 +107,7 @@ export function renderBlocks(
           html = renderSource(block, renderText);
           break;
         case "graph":
-          html = renderGraph(block);
+          html = renderGraph(block, { interactive: interactiveGraphs });
           break;
         default:
           throw new Error(`Unsupported content block: ${block.type}`);

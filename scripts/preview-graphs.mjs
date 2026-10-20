@@ -1,5 +1,6 @@
 // Writes graph-preview/index.html, a page that draws graph blocks so you can check
-// them in a browser while authoring.
+// them in a browser while authoring. Graphs are live, so tracing, zoom, and sliders
+// can be tried there too.
 //
 //   npm run graphs                     every graph in docs/generated (run npm run build first)
 //   npm run graphs -- my-graph.json    graphs from a JSON file (one block or a list)
@@ -63,7 +64,7 @@ const cards = found.map(({ where, block }) => {
   let body;
   try {
     validateGraph(block, where);
-    body = renderGraph(block);
+    body = renderGraph(block, { interactive: true });
   } catch (error) {
     body = `<p class="preview-error">${escapeHtml(error.message)}</p>`;
   }
@@ -90,6 +91,10 @@ await writeFile(
 <body>
 <h1>Graph preview · ${found.length} graph${found.length === 1 ? "" : "s"}</h1>
 <div class="preview-grid">${cards.join("\n")}</div>
+<script type="module">
+  import { installGraphInteractions } from "../docs/app/graph/interact.js";
+  installGraphInteractions();
+</script>
 </body>
 </html>
 `,

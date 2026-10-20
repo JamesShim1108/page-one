@@ -97,8 +97,8 @@ export const lesson = {
         {
           type: "graph",
           caption:
-            "Graph of p(x) = (x + 1)²(x − 2)³: tangent to the x-axis at x = −1, crossing at x = 2",
-          alt: "A curve that comes up to touch the x-axis at x = −1 and turns back down, then later crosses the x-axis at x = 2, flattening as it crosses.",
+            "Graph of p(x) = (x + 1)ᵐ(x − 2)ⁿ: a zero of even multiplicity touches the x-axis, and a zero of odd multiplicity crosses it",
+          alt: "Starting with m = 2 and n = 3, so p(x) = (x + 1)²(x − 2)³: the curve comes up to touch the x-axis at x = −1 and turns back down, then later crosses the x-axis at x = 2, flattening as it crosses.",
           window: {
             x: [-2.5, 3],
             y: [-20, 12],
@@ -107,9 +107,27 @@ export const lesson = {
             x: 1,
             y: 4,
           },
+          sliders: [
+            {
+              name: "m",
+              label: "Multiplicity of the zero x = −1",
+              min: 1,
+              max: 4,
+              step: 1,
+              value: 2,
+            },
+            {
+              name: "n",
+              label: "Multiplicity of the zero x = 2",
+              min: 1,
+              max: 4,
+              step: 1,
+              value: 3,
+            },
+          ],
           functions: [
             {
-              expr: "(x + 1)^2 (x - 2)^3",
+              expr: "(x + 1)^m (x - 2)^n",
               label: "p",
               labelAt: 2.7,
               labelPosition: "w",

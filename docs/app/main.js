@@ -19,6 +19,7 @@ import { createPrintController } from "./print/controller.js";
 import { createBackupController } from "./backup/controller.js";
 import { createOfflineController } from "./offline/controller.js";
 import { startPolish } from "./polish/index.js";
+import { installGraphInteractions } from "./graph/interact.js";
 import { markPageEnter } from "./polish/page-enter.js";
 import {
   announceOfflinePack,
@@ -972,6 +973,7 @@ window.addEventListener("hashchange", () => {
 });
 render();
 startPolish();
+installGraphInteractions();
 
 // Phone-width menu: the header collapses its links behind one toggle button.
 (function setupNavToggle() {

@@ -58,16 +58,34 @@ export const lesson = {
         {
           type: "graph",
           caption:
-            "f(x) = x² and g(x) = f(x − 3) + 2: a horizontal translation by 3 units and a vertical translation by 2 units",
-          alt: "Two congruent upward-opening parabolas. The parabola f has vertex (0, 0); the dashed parabola g has vertex (3, 2).",
+            "f(x) = x² and g(x) = f(x − h) + k: a horizontal translation by h units and a vertical translation by k units",
+          alt: "Two congruent upward-opening parabolas. The parabola f has vertex (0, 0); the dashed parabola g has vertex (h, k), which starts at (3, 2) for g(x) = f(x − 3) + 2.",
           window: {
-            x: [-3, 6],
-            y: [-1, 9],
+            x: [-6, 7],
+            y: [-4, 9],
           },
           ticks: {
             x: 1,
             y: 1,
           },
+          sliders: [
+            {
+              name: "h",
+              label: "Horizontal translation",
+              min: -4,
+              max: 4,
+              step: 1,
+              value: 3,
+            },
+            {
+              name: "k",
+              label: "Vertical translation",
+              min: -3,
+              max: 5,
+              step: 1,
+              value: 2,
+            },
+          ],
           functions: [
             {
               expr: "x^2",
@@ -76,7 +94,7 @@ export const lesson = {
               labelPosition: "e",
             },
             {
-              expr: "(x - 3)^2 + 2",
+              expr: "(x - h)^2 + k",
               label: "g",
               color: 2,
               dashed: true,
@@ -91,8 +109,8 @@ export const lesson = {
               position: "se",
             },
             {
-              at: [3, 2],
-              label: "(3, 2)",
+              at: ["h", "k"],
+              label: "({h}, {k})",
               position: "se",
             },
           ],
@@ -128,6 +146,71 @@ export const lesson = {
             ["(0, 4)", "(0, −8)", "(0, 4)"],
             ["(1, 3)", "(1, −6)", "(0.5, 3)"],
             ["(2, 0)", "(2, 0)", "(1, 0)"],
+          ],
+        },
+        {
+          type: "graph",
+          caption:
+            "f(x) = 4 − x² and g(x) = a·f(bx): a vertical dilation by a factor of |a| and a horizontal dilation by a factor of 1/|b|",
+          alt: "The parabola f opens down with vertex (0, 4) and zeros at x = −2 and x = 2. The dashed graph g starts as −2·f(x): it opens up with vertex (0, −8) and the same zeros, because a vertical dilation does not move points on the x-axis.",
+          window: {
+            x: [-4, 4],
+            y: [-13, 13],
+          },
+          ticks: {
+            x: 1,
+            y: 2,
+          },
+          sliders: [
+            {
+              name: "a",
+              label: "Vertical factor",
+              min: -3,
+              max: 3,
+              step: 0.5,
+              value: -2,
+            },
+            {
+              name: "b",
+              label: "Horizontal factor",
+              min: 0.5,
+              max: 3,
+              step: 0.5,
+              value: 1,
+            },
+          ],
+          functions: [
+            {
+              expr: "4 - x^2",
+              label: "f",
+              labelAt: -1.2,
+              labelPosition: "nw",
+            },
+            {
+              expr: "a(4 - (bx)^2)",
+              label: "g",
+              color: 2,
+              dashed: true,
+              labelAt: 3,
+              labelPosition: "e",
+            },
+          ],
+          points: [
+            {
+              at: [0, "4a"],
+              label: "(0, {4a})",
+              position: "ne",
+            },
+            {
+              at: ["-2/b", 0],
+              label: "({-2/b}, 0)",
+              position: "nw",
+            },
+            {
+              at: ["2/b", 0],
+              label: "({2/b}, 0)",
+              position: "ne",
+            },
           ],
         },
       ],

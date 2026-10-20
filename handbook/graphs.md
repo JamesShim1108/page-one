@@ -4,6 +4,17 @@ A `graph` block draws a coordinate graph from data. Write the window, the functi
 
 Graph blocks work anywhere other blocks do: lesson sections, question `stimulusBlocks`, free-response `stimulusBlocks`, print views, and exam stimuli.
 
+## What readers can do
+
+On screen, graphs in lessons, practice questions, and free-response stimuli are interactive:
+
+- **Trace.** Hover, or slide a finger sideways, to read values along a curve: `f(1.5) = 3.375`. Curves drawn through points read with `≈`. At a hole or asymptote the readout says the function is undefined and names the open circle.
+- **Zoom and move.** The + and − buttons zoom, and Reset returns to the authored window. With a mouse, drag to move the view, double-click to zoom in, and Ctrl + scroll (or a trackpad pinch) to zoom at the pointer. On a phone, drag to move after zooming in; before that, vertical swipes still scroll the page.
+- **Sliders.** A graph with `sliders` redraws as each slider moves (below).
+- **Keyboard.** Tab to the graph, then ← → trace, ↑ ↓ switch curves, + − zoom, 0 resets, and Esc clears the trace. The readout is announced to screen readers.
+
+Graphs stay still where a still picture is right: print views, printed pages, and exam mode (as on the AP Exam). A graph with `tickLabels: false` also stays still, since tracing would reveal the scale the question hides. Add `interactive: false` to keep any other graph still.
+
 ## Quick start
 
 Paste this into a lesson section's `blocks` or a question's `stimulusBlocks` and edit it:
@@ -20,25 +31,27 @@ Paste this into a lesson section's `blocks` or a question's `stimulusBlocks` and
 }
 ```
 
-Then run `npm run build`. The build stops with a clear message if an expression cannot be read, the curve never enters the window, or a point falls outside it. To look at every graph on one page, run `npm run graphs` and open `graph-preview/index.html` through your local server.
+Then run `npm run build`. The build stops with a clear message if an expression cannot be read, the curve never enters the window, or a point falls outside it. To look at every graph on one page, run `npm run graphs` and open `graph-preview/index.html` through your local server. The graphs there are live, so you can try tracing, zoom, and sliders.
 
 ## Fields
 
-| Field        | Required | What it does                                                                                                     |
-| ------------ | -------- | ---------------------------------------------------------------------------------------------------------------- |
-| `caption`    | Yes      | Text shown under the graph and used as its accessible name.                                                      |
-| `alt`        | Yes      | A sentence that describes the shape for screen readers: where it rises, falls, crosses, and levels off.          |
-| `window`     | Yes      | `{ x: [min, max], y: [min, max] }`. Everything is clipped to this rectangle.                                     |
-| `ticks`      | No       | A step for each axis, `{ x: 1, y: 2 }`, or a list of labeled ticks, `{ x: [{ at: 3.14159, label: "π" }] }`.      |
-| `tickLabels` | No       | `false` hides the numbers, for "no scale is indicated" questions.                                                |
-| `grid`       | No       | `false` hides the grid lines.                                                                                    |
-| `axisLabels` | No       | `{ x: "t", y: "h(t)" }`. Defaults to `x` and `y`.                                                                |
-| `height`     | No       | Drawing height from 160 to 520. The default is 300; the width is fixed, so a larger height makes a taller graph. |
-| `functions`  | One of   | Curves from expressions (below).                                                                                 |
-| `curves`     | these    | Smooth curves through listed points, for "the graph of f is shown" questions about a general function.           |
-| `segments`   | four is  | Straight segments, such as secant lines: `{ from: [1, 1], to: [3, 9], dashed: true }`.                           |
-| `points`     | required | Marked points: `{ at: [2, 4], open: true, label: "(2, 4)", position: "se" }`.                                    |
-| `asymptotes` | No       | Dashed lines: `{ x: 2 }`, `{ y: 1 }`, or `{ slope: 2, intercept: 0 }`.                                           |
+| Field         | Required | What it does                                                                                                     |
+| ------------- | -------- | ---------------------------------------------------------------------------------------------------------------- |
+| `caption`     | Yes      | Text shown under the graph and used as its accessible name.                                                      |
+| `alt`         | Yes      | A sentence that describes the shape for screen readers: where it rises, falls, crosses, and levels off.          |
+| `window`      | Yes      | `{ x: [min, max], y: [min, max] }`. Everything is clipped to this rectangle.                                     |
+| `ticks`       | No       | A step for each axis, `{ x: 1, y: 2 }`, or a list of labeled ticks, `{ x: [{ at: 3.14159, label: "π" }] }`.      |
+| `tickLabels`  | No       | `false` hides the numbers, for "no scale is indicated" questions.                                                |
+| `grid`        | No       | `false` hides the grid lines.                                                                                    |
+| `axisLabels`  | No       | `{ x: "t", y: "h(t)" }`. Defaults to `x` and `y`.                                                                |
+| `height`      | No       | Drawing height from 160 to 520. The default is 300; the width is fixed, so a larger height makes a taller graph. |
+| `functions`   | One of   | Curves from expressions (below).                                                                                 |
+| `curves`      | these    | Smooth curves through listed points, for "the graph of f is shown" questions about a general function.           |
+| `segments`    | four is  | Straight segments, such as secant lines: `{ from: [1, 1], to: [3, 9], dashed: true }`.                           |
+| `points`      | required | Marked points: `{ at: [2, 4], open: true, label: "(2, 4)", position: "se" }`.                                    |
+| `asymptotes`  | No       | Dashed lines: `{ x: 2 }`, `{ y: 1 }`, or `{ slope: 2, intercept: 0 }`.                                           |
+| `sliders`     | No       | Parameters readers can change (below).                                                                           |
+| `interactive` | No       | `false` keeps the graph still on screen.                                                                         |
 
 ### Functions
 
@@ -81,6 +94,38 @@ curves: [
 ```
 
 The curve passes through every listed point and never overshoots between them, so a peak placed at a point stays the peak there. When a question depends on exact concavity or an exact inflection point, use a `functions` expression instead, so the answer key can be checked in code.
+
+### Sliders
+
+A slider gives a one-letter name a value the reader can change. Use the name in expressions, in coordinates written as text, and in labels inside braces:
+
+```js
+{
+  type: "graph",
+  caption: "f(x) = x² and g(x) = f(x − h) + k",
+  alt: "Two congruent parabolas. The dashed parabola g starts with vertex (3, 2).",
+  window: { x: [-6, 7], y: [-4, 9] },
+  sliders: [
+    { name: "h", label: "Horizontal translation", min: -4, max: 4, step: 1, value: 3 },
+    { name: "k", label: "Vertical translation", min: -3, max: 5, step: 1, value: 2 },
+  ],
+  functions: [
+    { expr: "x^2", label: "f" },
+    { expr: "(x - h)^2 + k", label: "g", color: 2, dashed: true },
+  ],
+  points: [{ at: ["h", "k"], label: "({h}, {k})" }],
+}
+```
+
+- `name` is one letter other than `x`, `e`, `i`, or a function's variable. `value` is where the slider starts; `step` defaults to a twentieth of the range.
+- Coordinates in `points`, `segments`, `asymptotes`, and `domain` can be text such as `"h"`, `"2/b"`, or `"1 + 3(b + 1)"`.
+- Braces in a label hold any expression in the slider names: `"slope {b + 1}"`, `"({b}, {b^2})"`.
+- Write the `caption` for the general case and the `alt` for the starting values. Printed copies draw the starting values and add "Shown with h = 3, k = 2."
+- The build draws every slider at its minimum and maximum, so a slider range that breaks the graph is caught.
+
+### Segment labels
+
+Segments take `label`, `labelAt` (an x-value), and `labelPosition`, like functions: `{ from: [0, -3], to: [4, 13], label: "slope 4", labelAt: 2 }`.
 
 ## Checklist for a question graph
 

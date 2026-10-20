@@ -25,7 +25,9 @@ function blockText(block) {
 function renderLessonSection(section, assets = {}) {
   return `<section class="print-reading-section" data-print-section="${esc(section.id)}">
     <h2>${esc(section.title)}</h2>
-    ${renderBlocks(section.blocks || [], assets, esc)}
+    ${renderBlocks(section.blocks || [], assets, esc, "", null, {
+      interactiveGraphs: false,
+    })}
     ${section.takeaway ? `<p class="print-takeaway"><strong>Remember:</strong> ${esc(section.takeaway)}</p>` : ""}
   </section>`;
 }

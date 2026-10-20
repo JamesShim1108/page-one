@@ -1,11 +1,22 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { compileExpression, GraphExpressionError } from "../docs/app/graph/expression.js";
+import {
+  compileExpression,
+  coordinate,
+  GraphExpressionError,
+} from "../docs/app/graph/expression.js";
 import { renderGraph, niceStep, formatTick } from "../docs/app/graph/render.js";
 import { renderBlocks } from "../docs/app/blocks.js";
 import { validateGraph } from "../scripts/lib/validate-graph.mjs";
 import { studentQuestion } from "../docs/app/print/selection.js";
+import {
+  traceItems,
+  readoutText,
+  zoomWindow,
+  formatValue,
+} from "../docs/app/graph/interact.js";
+import { graphModel } from "../docs/app/graph/render.js";
 
 const near = (a, b) => Math.abs(a - b) < 1e-12;
 const base = {
@@ -118,7 +129,22 @@ test("tick steps and labels use round numbers and a true minus sign", () => {
 
 test("renderBlocks draws graph blocks inside lessons and question stimuli", () => {
   const html = renderBlocks([{ ...base, functions: [{ expr: "x" }] }]);
-  assert.match(html, /<figure class="graph-figure">/);
+  assert.match(
+    html,
+    /<figure class="graph-figure graph-figure--interactive" data-graph=/,
+  );
+  const printed = renderBlocks(
+    [{ ...base, functions: [{ expr: "x" }] }],
+    {},
+    undefined,
+    "",
+    null,
+    {
+      interactiveGraphs: false,
+    },
+  );
+  assert.match(printed, /<figure class="graph-figure">/);
+  assert.ok(!printed.includes("data-graph="));
 });
 
 test("the build rejects graph blocks that would draw wrongly", () => {
@@ -151,4 +177,146 @@ test("printed questions keep the whole graph, and a graph without data degrades 
     renderGraph({ type: "graph", alt: "A parabola." }),
     /\[Graph: A parabola\.\]/,
   );
+});
+
+const unescapeAttr = (text) =>
+  text
+    .replaceAll("&quot;", '"')
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">")
+    .replaceAll("&amp;", "&");
+
+const sliderGraph = {
+  ...base,
+  caption: "Translations of f(x) = x² by h and k",
+  window: { x: [-6, 6], y: [-4, 10] },
+  sliders: [
+    { name: "h", min: -4, max: 4, step: 1, value: 2, label: "Shift" },
+    { name: "k", min: -3, max: 5, value: 1 },
+  ],
+  functions: [{ expr: "(x - h)^2 + k", label: "g" }],
+  points: [{ at: ["h", "k"], label: "({h}, {k})" }],
+};
+
+test("slider names work in expressions, coordinates, and labels", () => {
+  assert.equal(compileExpression("a(x - h)^2", { parameters: { a: 2, h: 1 } })(3), 8);
+  assert.equal(
+    compileExpression("ah", { variable: "x", parameters: { a: 2, h: 3 } })(0),
+    6,
+  );
+  assert.equal(coordinate("k + 1", { k: 3 }), 4);
+  assert.equal(coordinate(-2), -2);
+  assert.throws(() => compileExpression("a x"), GraphExpressionError);
+  const model = graphModel(sliderGraph, { h: -1, k: 3 });
+  assert.equal(model.functions[0].f(-1), 3);
+  assert.deepEqual([model.points[0].x, model.points[0].y], [-1, 3]);
+  assert.equal(model.points[0].label, "(−1, 3)");
+});
+
+test("interactive graphs carry their data, controls, sliders, and keyboard help", () => {
+  const html = renderGraph(sliderGraph, { interactive: true });
+  const data = JSON.parse(unescapeAttr(/data-graph="([^"]*)"/.exec(html)[1]));
+  assert.deepEqual(data, sliderGraph);
+  assert.match(
+    html,
+    /role="application" aria-roledescription="interactive graph" tabindex="0"/,
+  );
+  for (const action of ["zoom-in", "zoom-out", "reset"])
+    assert.ok(html.includes(`data-graph-action="${action}"`), action);
+  assert.match(
+    html,
+    /<input type="range" data-graph-slider="h" min="-4" max="4" step="1" value="2">/,
+  );
+  assert.match(html, /data-graph-slider="k" min="-3" max="5" step="0.5" value="1"/);
+  assert.ok(html.includes(">(2, 1)</text>"));
+  assert.match(html, /arrow keys to trace/);
+  assert.match(html, /class="graph-trace"/);
+});
+
+test("still copies stay still: print, exams, no-scale graphs, and opted-out graphs", () => {
+  const still = renderGraph(sliderGraph);
+  assert.ok(!still.includes("data-graph="));
+  assert.match(still, /role="img"/);
+  assert.match(still, /Shown with h = 2, k = 1\./);
+  const noScale = { ...base, tickLabels: false, functions: [{ expr: "x" }] };
+  assert.ok(!renderGraph(noScale, { interactive: true }).includes("data-graph="));
+  const optOut = { ...base, interactive: false, functions: [{ expr: "x" }] };
+  assert.ok(!renderGraph(optOut, { interactive: true }).includes("data-graph="));
+});
+
+test("tracing reads exact values, approximate curve values, and undefined points", () => {
+  const model = graphModel({
+    ...base,
+    functions: [
+      { expr: "(x^2 - 4)/(x - 2)", label: "r" },
+      { expr: "x", domain: [0, 2], label: "p" },
+    ],
+    curves: [
+      {
+        through: [
+          [0, 0],
+          [2, 2],
+        ],
+        label: "W",
+      },
+    ],
+  });
+  const [r, p, w] = traceItems(model);
+  assert.equal(readoutText(r, 1.5, r.valueAt(1.5)), "r(1.5) = 3.5");
+  assert.equal(
+    readoutText(r, 2, r.valueAt(2), "2, 4"),
+    "r(2) is undefined. The open circle marks (2, 4).",
+  );
+  assert.ok(Number.isNaN(p.valueAt(3)), "outside its domain a piece has no value");
+  assert.equal(readoutText(w, 1, w.valueAt(1)), "W(1) ≈ 1");
+  assert.equal(readoutText({ label: "" }, -0.5, 2), "(−0.5, 2)");
+  assert.equal(formatValue(1 / 3), "0.333");
+  assert.equal(formatValue(-1e-12), "0");
+});
+
+test("zooming keeps the point under the pointer fixed and stays within limits", () => {
+  const home = { x: [-10, 10], y: [-10, 10] };
+  const zoomed = zoomWindow(home, 0.5, { x: 4, y: 0 }, home);
+  assert.deepEqual(zoomed, { x: [-3, 7], y: [-5, 5] });
+  let far = home;
+  for (let i = 0; i < 40; i += 1) far = zoomWindow(far, 2, { x: 0, y: 0 }, home);
+  assert.equal(far.x[1] - far.x[0], 400);
+  let close = home;
+  for (let i = 0; i < 40; i += 1) close = zoomWindow(close, 0.5, { x: 0, y: 0 }, home);
+  assert.equal(close.x[1] - close.x[0], 0.5);
+});
+
+test("the build rejects sliders that would draw wrongly", () => {
+  validateGraph(sliderGraph, "test");
+  const bad = [
+    [{ ...sliderGraph, sliders: [{ name: "x", min: 0, max: 1, value: 0 }] }, /already/],
+    [
+      { ...sliderGraph, sliders: [{ name: "hk", min: 0, max: 1, value: 0 }] },
+      /one letter/,
+    ],
+    [
+      {
+        ...sliderGraph,
+        sliders: [{ name: "h", min: 0, max: 1, value: 2 }, sliderGraph.sliders[1]],
+      },
+      /starting value/,
+    ],
+    [
+      { ...sliderGraph, sliders: [sliderGraph.sliders[0], sliderGraph.sliders[0]] },
+      /used twice/,
+    ],
+    [
+      {
+        ...sliderGraph,
+        sliders: [{ ...sliderGraph.sliders[0], speed: 2 }, sliderGraph.sliders[1]],
+      },
+      /unknown field/,
+    ],
+    [{ ...sliderGraph, sliders: [sliderGraph.sliders[0]] }, /Unknown name "k"/],
+    [{ ...sliderGraph, points: [{ at: ["h", "q"] }] }, /needs at/],
+    [{ ...sliderGraph, points: [{ at: [0, 0], label: "{a}" }] }, /cannot be computed/],
+    [{ ...sliderGraph, interactive: "yes" }, /interactive must be/],
+  ];
+  for (const [block, message] of bad)
+    assert.throws(() => validateGraph(block, "test"), message);
 });
