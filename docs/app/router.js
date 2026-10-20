@@ -11,6 +11,7 @@ export function parseRoute(hash) {
     "review",
     "session",
     "print",
+    "calculator",
   ].includes(type)
     ? parts.length <= 1
     : type === "test-prep"

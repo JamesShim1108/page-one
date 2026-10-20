@@ -8,7 +8,7 @@ For AP skill tags, multiple-choice quality limits, source excerpts, and writing 
 
 For the AP Precalculus course, its math-writing conventions, and how to add a topic, see [AP Precalculus](precalculus.md).
 
-To draw a coordinate graph from data instead of adding an image, see [Graphs](graphs.md).
+To draw a coordinate graph from data instead of adding an image, see [Graphs](graphs.md). The calculator and math keys for math courses are described in [Math tools](math-tools.md).
 
 For the PSAT / SAT section, its item schema, and grid-in rules, see [PSAT / SAT prep](test-prep.md).
 
@@ -16,31 +16,32 @@ For the PSAT / SAT section, its item schema, and grid-in rules, see [PSAT / SAT 
 
 All paths start at the repository root. The current course folder is `docs/content/world-history/`.
 
-| Change                                     | File or folder                                      |
-| ------------------------------------------ | --------------------------------------------------- |
-| Course title, summary, catalog order       | Course folder's `course.js`                         |
-| Unit title, status, question selections    | `unit-01/unit.js` in the course folder              |
-| Topic reading, terms, connections          | `unit-01/topics/east-asia/lesson.js`                |
-| Topic questions and quiz selections        | Same topic folder, `questions.js`                   |
-| Unit study guide                           | Unit folder's `study-guide.js`                      |
-| Writing questions, criteria, model answers | Unit folder's `writing.js`                          |
-| Full mock exams ([guide](mock-exams.md))   | Course folder's `exams/` and `exam-format.js`       |
-| Shared citations                           | Course folder's `sources.js`                        |
-| AP skill list for practice questions       | Course folder's `skills.js`                         |
-| Primary-source excerpts and passages       | Course folder's `excerpts.js`                       |
-| InSPECT or another course's framework      | Course folder's `framework.js`                      |
-| Navigation and loading                     | `docs/app/main.js`, `router.js`, `content-store.js` |
-| Catalog, lesson, and guide HTML            | `docs/app/views/`                                   |
-| Quiz rules, saving, HTML, interactions     | `docs/app/quiz/`                                    |
-| Writing rules, saving, HTML, interactions  | `docs/app/writing/`                                 |
-| Paragraphs, tables, and figures            | `docs/app/blocks.js`                                |
-| Graph drawing and expressions              | `docs/app/graph/`, guide in `handbook/graphs.md`    |
-| Animation timing and direction             | `docs/app/carousel.js`                              |
-| Animation sizes, fading, transitions       | `docs/styles/carousel.css`                          |
-| Shared colors and fonts                    | `docs/styles/tokens.css`                            |
-| Reading background and spacing             | `docs/styles/lesson.css`                            |
-| Other visual components                    | `docs/styles/`, one file per area                   |
-| Site title, header, footer, description    | `docs/index.html`                                   |
+| Change                                     | File or folder                                                                                    |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| Course title, summary, catalog order       | Course folder's `course.js`                                                                       |
+| Unit title, status, question selections    | `unit-01/unit.js` in the course folder                                                            |
+| Topic reading, terms, connections          | `unit-01/topics/east-asia/lesson.js`                                                              |
+| Topic questions and quiz selections        | Same topic folder, `questions.js`                                                                 |
+| Unit study guide                           | Unit folder's `study-guide.js`                                                                    |
+| Writing questions, criteria, model answers | Unit folder's `writing.js`                                                                        |
+| Full mock exams ([guide](mock-exams.md))   | Course folder's `exams/` and `exam-format.js`                                                     |
+| Shared citations                           | Course folder's `sources.js`                                                                      |
+| AP skill list for practice questions       | Course folder's `skills.js`                                                                       |
+| Primary-source excerpts and passages       | Course folder's `excerpts.js`                                                                     |
+| InSPECT or another course's framework      | Course folder's `framework.js`                                                                    |
+| Navigation and loading                     | `docs/app/main.js`, `router.js`, `content-store.js`                                               |
+| Catalog, lesson, and guide HTML            | `docs/app/views/`                                                                                 |
+| Quiz rules, saving, HTML, interactions     | `docs/app/quiz/`                                                                                  |
+| Writing rules, saving, HTML, interactions  | `docs/app/writing/`                                                                               |
+| Paragraphs, tables, and figures            | `docs/app/blocks.js`                                                                              |
+| Graph drawing and expressions              | `docs/app/graph/`, guide in `handbook/graphs.md`                                                  |
+| Calculator, math engine, and math keys     | `docs/app/calculator/`, `docs/app/math/`, `docs/app/mathkeys/`, guide in `handbook/math-tools.md` |
+| Animation timing and direction             | `docs/app/carousel.js`                                                                            |
+| Animation sizes, fading, transitions       | `docs/styles/carousel.css`                                                                        |
+| Shared colors and fonts                    | `docs/styles/tokens.css`                                                                          |
+| Reading background and spacing             | `docs/styles/lesson.css`                                                                          |
+| Other visual components                    | `docs/styles/`, one file per area                                                                 |
+| Site title, header, footer, description    | `docs/index.html`                                                                                 |
 
 ## Everyday workflow
 

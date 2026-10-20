@@ -197,6 +197,12 @@ function createController(figure) {
     resetButton.disabled = !zoomed;
     figure.classList.toggle("is-zoomed", zoomed);
     drawTrace();
+    figure.dispatchEvent(
+      new CustomEvent("graph:view", {
+        bubbles: true,
+        detail: { x: [...view.x], y: [...view.y] },
+      }),
+    );
   }
 
   function schedule() {

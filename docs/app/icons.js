@@ -23,6 +23,8 @@ const paths = {
   bookmark: '<path d="M7 4.5h10v15l-5-3.5-5 3.5z"/>',
   link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',
   flag: '<path d="M6 21V4"/><path d="M6 4h11l-2 4 2 4H6"/>',
+  calculator:
+    '<rect x="5" y="3.5" width="14" height="17" rx="2"/><path d="M8.5 7.5h7v3h-7z"/><path d="M8.75 14h.01M12 14h.01M15.25 14h.01M8.75 17.25h.01M12 17.25h.01M15.25 17.25h.01"/>',
 };
 
 export function icon(name, className = "") {

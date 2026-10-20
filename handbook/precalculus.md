@@ -12,6 +12,7 @@ The course folder is `docs/content/ap-precalculus/`. Its course ID is `precalcul
 | Unit 1 FRQs      | Four 6-point free-response questions (`unit-01/writing.js`, `exerciseType: "frq"`), two for each part.                     |
 | Units 2 to 4     | Titled placeholders (`status: "soon"`, no topics) with the CED exam weighting.                                             |
 | Graphs           | 19 interactive graphs in lessons and questions, 4 with sliders; see [Graphs](graphs.md).                                   |
+| Math tools       | Calculator panel on every course page and math keys on free-response answers; see [Math tools](math-tools.md).             |
 | Not built yet    | Terms sets, study guide, mock exams.                                                                                       |
 
 The CED sources are listed in `sources.js`: the course and exam description plus one record per topic (`ced-topic-1-N`). Learning objective statements and skill descriptions are quoted from the CED with their codes. Essential knowledge is explained in original Page One wording that keeps the CED's terms and notation. Questions are original. The site does not claim any College Board affiliation.

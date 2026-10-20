@@ -20,6 +20,13 @@ import { createBackupController } from "./backup/controller.js";
 import { createOfflineController } from "./offline/controller.js";
 import { startPolish } from "./polish/index.js";
 import { installGraphInteractions } from "./graph/interact.js";
+import { installMathKeys, refreshMathKeys } from "./mathkeys/keys.js";
+import {
+  installCalculator,
+  setCalculatorContext,
+  forgetCalculator,
+} from "./calculator/panel.js";
+import { isMathCourse } from "./math/courses.js";
 import { markPageEnter } from "./polish/page-enter.js";
 import {
   announceOfflinePack,
@@ -169,6 +176,7 @@ function repaint() {
   main.innerHTML = currentPage();
   stopCarousel = startCarousel();
   stopPageEnhancements = enhancePage();
+  refreshMathKeys();
 }
 
 async function selectPage(route, data, generation) {
@@ -305,6 +313,18 @@ async function selectPage(route, data, generation) {
         backup,
         offline,
       });
+  } else if (route.type === "calculator") {
+    const { calculatorPage, mountCalculator } = await import("./calculator/page.js");
+    if (generation !== routeGeneration) return null;
+    selected.title = "Calculator";
+    selected.description =
+      "A free scientific and graphing calculator with tables, statistics, and regressions.";
+    selected.html = calculatorPage;
+    selected.enhance = () => {
+      const root = main.querySelector("[data-calc-page]");
+      const calculator = root ? mountCalculator(root) : null;
+      return () => calculator?.destroy();
+    };
   } else if (route.type === "history") {
     const { historyPage } = await import("./history.js");
     selected.title = "Attempt history";
@@ -547,6 +567,13 @@ async function selectPage(route, data, generation) {
       };
 }
 
+// Math course pages and SAT practice get the calculator button.
+function mathRoute(route) {
+  if (["test-prep", "test-practice", "calculator"].includes(route.type)) return true;
+  const courseId = route.type === "course" ? route.id : route.id?.split("-")[0];
+  return isMathCourse(courseId);
+}
+
 async function render(focus = false) {
   const generation = ++routeGeneration;
   currentRoute = parseRoute(location.hash);
@@ -602,6 +629,11 @@ async function render(focus = false) {
     enhancePage = page.enhance || (() => () => {});
     currentPage = page.html;
     pageTitle(page.title, page.description);
+    // Before painting: leaving the floating calculator saves it for the full page.
+    setCalculatorContext({
+      math: mathRoute(route),
+      calculatorPage: route.type === "calculator",
+    });
     repaint();
     markPageEnter(main, route);
     focusDestination(route, loaded.data, focus);
@@ -910,6 +942,7 @@ document.addEventListener("click", (event) => {
       persistence
         .clearScope(scope)
         .then((result) => {
+          if (scope === "all") forgetCalculator();
           const reloaded =
             scope === "preferences"
               ? readingPreferences.reload()
@@ -974,6 +1007,8 @@ window.addEventListener("hashchange", () => {
 render();
 startPolish();
 installGraphInteractions();
+installMathKeys();
+installCalculator();
 
 // Phone-width menu: the header collapses its links behind one toggle button.
 (function setupNavToggle() {

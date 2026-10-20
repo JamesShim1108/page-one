@@ -315,7 +315,7 @@ export function createFullTest({
     return `<section class="tp-reference" id="tp-reference" aria-labelledby="tp-reference-title">
       <h2 id="tp-reference-title">Reference</h2>
       <dl>${REFERENCE.map(([term, formula]) => `<div><dt>${esc(term)}</dt><dd>${esc(formula)}</dd></div>`).join("")}</dl>
-      <p class="muted">Formulas collected by Page One. The real test supplies its own reference sheet and a built-in graphing calculator; here, use your own calculator or <a href="https://www.desmos.com/calculator" target="_blank" rel="noopener noreferrer">a free online graphing calculator</a>.</p>
+      <p class="muted">Formulas collected by Page One. The real test supplies its own reference sheet and a built-in graphing calculator. Here, use the Calculator button above (it graphs, too) or your own approved calculator.</p>
     </section>`;
   }
 
@@ -324,7 +324,7 @@ export function createFullTest({
     const section = sectionOf(record);
     const tools =
       section.id === "math"
-        ? `<button type="button" class="text-button" data-tp-full="reference" aria-expanded="${referenceOpen}" aria-controls="tp-reference">Reference</button>`
+        ? `<button type="button" class="text-button" data-open-calculator aria-controls="calc-panel">Calculator</button><button type="button" class="text-button" data-tp-full="reference" aria-expanded="${referenceOpen}" aria-controls="tp-reference">Reference</button>`
         : "";
     return `<div class="tp-module-bar"><span>Section ${sections.indexOf(section) + 1}, Module ${record.moduleIndex + 1}: ${esc(section.title)}</span><span class="tp-bar-tools">${tools}${clockView()}</span></div>
       ${left5Notice()}${referenceOpen ? referenceView() : ""}`;

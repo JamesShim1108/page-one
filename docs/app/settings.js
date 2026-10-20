@@ -87,7 +87,7 @@ export function settingsPage({
             ),
           )
           .join("")}
-        ${resetButton("all", "Clear all Page One private work", "Remove private work in this browser, including drafts, attempts, Terms progress, and recovery copies. Preferences stay unless reset separately.", records)}
+        ${resetButton("all", "Clear all Page One private work", "Remove private work in this browser, including drafts, attempts, Terms progress, calculator history, and recovery copies. Preferences stay unless reset separately.", records)}
       </div>
     </section>
     ${backup?.page?.() || ""}

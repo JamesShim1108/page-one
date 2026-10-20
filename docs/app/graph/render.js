@@ -28,6 +28,7 @@
 // expressions, coordinates ("h", "k + 1"), and labels ("({h}, {k})").
 
 import { compileExpression, coordinate } from "./expression.js";
+import { graphFunction } from "./registry.js";
 
 export const VIEW_WIDTH = 440;
 export const MARGIN = { top: 14, right: 14, bottom: 26, left: 34 };
@@ -229,7 +230,9 @@ export function graphModel(block, values = sliderValues(block)) {
       const domain = fn.domain ? fn.domain.map(at) : null;
       return {
         source: fn,
-        f: compileExpression(fn.expr, { variable: fn.variable || "x", parameters }),
+        f: fn.ref
+          ? graphFunction(fn.ref)
+          : compileExpression(fn.expr, { variable: fn.variable || "x", parameters }),
         domain,
         variable: fn.variable || "x",
         label: fn.label ? fillLabel(fn.label, values) : "",

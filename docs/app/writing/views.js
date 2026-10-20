@@ -1,3 +1,5 @@
+import { mathKeysToggle } from "../mathkeys/keys.js";
+import { isMathCourse } from "../math/courses.js";
 import { escapeHtml as esc, link, breadcrumbs, contextCrumbs } from "../ui.js";
 import { frameworkBadges, frameworkGuide } from "../views/framework.js";
 import { maxResponseLength } from "./engine.js";
@@ -52,7 +54,7 @@ function typeLabel(quiz) {
   );
 }
 
-function responseField(field, draft, framework) {
+function responseField(field, draft, framework, math = false) {
   const placeholder =
     field.placeholder ||
     (field.required === false
@@ -67,9 +69,10 @@ function responseField(field, draft, framework) {
     <div class="writing-part-heading"><span class="part-letter" aria-hidden="true">${esc(field.id.slice(0, 2).toUpperCase())}</span>
       <label for="writing-${esc(field.id)}"><span class="visually-hidden">${esc(field.label)}. </span>${esc(field.prompt)}</label>
     </div>${frameworkBadges(field.lenses, framework)}
-    <textarea id="writing-${esc(field.id)}" name="${esc(field.id)}" data-writing-part="${esc(field.id)}" rows="${field.rows || 8}"
+    <textarea id="writing-${esc(field.id)}" name="${esc(field.id)}" data-writing-part="${esc(field.id)}" rows="${field.rows || 8}"${math ? " data-math-input" : ""}
       data-maxlength="${maxResponseLength}" spellcheck="true" ${field.required === false ? "" : "required"} ${draft.reviewed ? "readonly" : ""} aria-describedby="writing-${esc(field.id)}-help"
       placeholder="${esc(placeholder)}">${esc(draft.responses[field.id])}</textarea>
+    ${math && !draft.reviewed ? `<div class="writing-math-row">${mathKeysToggle(`writing-${field.id}`)}</div>` : ""}
     <div class="writing-field-meta"><small id="writing-${esc(field.id)}-help" data-default-text="${esc(help)}">${esc(help)} Maximum ${maxResponseLength.toLocaleString()} characters; longer input is not saved until shortened.</small>
       <small id="writing-${esc(field.id)}-count">${wordCount(draft.responses[field.id])} words</small>
     </div>
@@ -281,7 +284,7 @@ export function writingPage(data, store) {
       <details class="writing-prompt-disclosure"><summary>Show prompt</summary>${promptContext(quiz)}</details>
       ${writingStimulus(quiz)}
       ${documentPacket(quiz)}
-      <form class="writing-form">${fields.map((field) => responseField(field, store.draft, framework)).join("")}
+      <form class="writing-form">${fields.map((field) => responseField(field, store.draft, framework, isMathCourse(quiz.courseId))).join("")}
         ${conflictNotice(store)}
         <div class="writing-save-row"><p id="writing-save" class="muted" role="status" aria-live="polite">${saveMessage(store)}</p>${saveActions(store)}</div>
         ${store.draft.reviewed ? '<p class="note">Responses are ready for review below. Choose Revise responses to edit them.</p>' : `<button class="btn" type="submit">Review my response${fields.length === 1 ? "" : "s"}</button><p class="writing-review-note">Reveals self-check criteria and model reasoning. No automatic grading.</p>`}

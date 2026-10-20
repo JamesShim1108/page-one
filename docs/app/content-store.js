@@ -68,7 +68,17 @@ export function createContentStore({ fetchJson = readJson } = {}) {
   async function page(type, id) {
     const courses = await catalog();
     if (type === "home" || type === "courses") return { courses };
-    if (["settings", "history", "review", "search", "session", "print"].includes(type))
+    if (
+      [
+        "settings",
+        "history",
+        "review",
+        "search",
+        "session",
+        "print",
+        "calculator",
+      ].includes(type)
+    )
       return { courses };
     if (type === "test-prep") return testPrepPage(id);
     if (type === "test-practice") return testPracticePage(id);
