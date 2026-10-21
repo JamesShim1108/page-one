@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "precalculus",
-  "revision": "959f8b83b6b2db22",
+  "revision": "1e00d2d66e177276",
   "records": [
     {
       "id": "precalculus",
@@ -46,7 +46,7 @@
       "aliases": [],
       "sectionId": "function-basics",
       "heading": "1.1.A · A function maps each input value to exactly one output value.",
-      "text": "1.1.A · A function maps each input value to exactly one output value.\nEach input value has exactly one output value. Images are output values, and preimages are sets of input values.\nA function is a mathematical relation that maps a set of input values to a set of output values so that each input value is mapped to exactly one output value. The set of input values is the domain, and the set of output values is the range. The variable that represents input values is the independent variable, and the variable that represents output values is the dependent variable.\nValues of the function f\nx\nf(x)\n−2\n7\n0\n3\n1\n3\n4\n−1\nDifferent input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value the rule gives it: since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of all input values that give it: the preimage of 3 is {0, 1}.\nTwo functions f and g are equal only when they have the same domain and f(a) = g(a) for every input value a in that domain. A function can be given graphically, numerically (a table), analytically (a formula), or verbally (a description). The representation changes, but the function does not.\nName both variables with their units. For example: The input values of the function h are times, in seconds, and the output values are heights, in feet.",
+      "text": "1.1.A · A function maps each input value to exactly one output value.\nEach input value has exactly one output value. Images are output values, and preimages are sets of input values.\nA function is a mathematical relation that maps a set of input values to a set of output values such that each input value is mapped to exactly one output value. The set of input values is called the domain of the function, and the set of output values is called the range of the function. The variable representing input values is called the independent variable, and the variable representing output values is called the dependent variable.\nValues of the function f\nx\nf(x)\n−2\n7\n0\n3\n1\n3\n4\n−1\nDifferent input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value yielded by the function rule. Since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of input values for which the function rule yields that output value. Here, the preimage of 3 is {0, 1}.\nTwo functions f and g are equal only when they have the same domain and f(a) = g(a) for every input value a in that domain. A function can be given graphically, numerically (a table), analytically (a formula), or verbally (a description). The representation changes, but the function does not.\nName both variables with their units. For example: The input values of the function h are times, in seconds, and the output values are heights, in feet.",
       "excerpt": "Each input value has exactly one output value. Images are output values, and preimages are sets of input values.",
       "route": "/topic/precalculus-1-1?section=function-basics"
     },
@@ -62,8 +62,8 @@
       "sectionId": "function-basics",
       "blockId": "function-basics-block-1",
       "heading": "1.1.A · A function maps each input value to exactly one output value.",
-      "text": "A function is a mathematical relation that maps a set of input values to a set of output values so that each input value is mapped to exactly one output value. The set of input values is the domain, and the set of output values is the range. The variable that represents input values is the independent variable, and the variable that represents output values is the dependent variable.",
-      "excerpt": "A function is a mathematical relation that maps a set of input values to a set of output values so that each input value is mapped to exactly one output value. The set of input values is the domain, and the set of output values is the range. The variable that represents input values is the independent variable, and the variable that represents output values…",
+      "text": "A function is a mathematical relation that maps a set of input values to a set of output values such that each input value is mapped to exactly one output value. The set of input values is called the domain of the function, and the set of output values is called the range of the function. The variable representing input values is called the independent variable, and the variable representing output values is called the dependent variable.",
+      "excerpt": "A function is a mathematical relation that maps a set of input values to a set of output values such that each input value is mapped to exactly one output value. The set of input values is called the domain of the function, and the set of output values is called the range of the function. The variable representing input values is called the independent vari…",
       "route": "/topic/precalculus-1-1?section=function-basics&block=function-basics-block-1"
     },
     {
@@ -78,8 +78,8 @@
       "sectionId": "function-basics",
       "blockId": "function-basics-block-3",
       "heading": "1.1.A · A function maps each input value to exactly one output value.",
-      "text": "Different input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value the rule gives it: since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of all input values that give it: the preimage of 3 is {0, 1}.",
-      "excerpt": "Different input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value the rule gives it: since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of all input values that give it: the preimage of 3 is {0, 1}.",
+      "text": "Different input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value yielded by the function rule. Since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of input values for which the function rule yields that output value. Here, the preimage of 3 is {0, 1}.",
+      "excerpt": "Different input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value yielded by the function rule. Since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of input values for which the function rule yields that output value…",
       "route": "/topic/precalculus-1-1?section=function-basics&block=function-basics-block-3"
     },
     {
@@ -125,7 +125,7 @@
       "aliases": [],
       "sectionId": "increasing-decreasing",
       "heading": "1.1.A · Increasing and decreasing compare output values as input values increase.",
-      "text": "1.1.A · Increasing and decreasing compare output values as input values increase.\nState the interval, then say how the output values change as the input values increase.\nA function f is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval if, as the input values increase, the output values always decrease: for all a and b in the interval, if a < b, then f(a) > f(b).\nHeight h(t), in feet, of a ball t seconds after it is thrown\nt\nh(t)\n0\n6\n0.5\n26\n1\n38\n1.5\n42\n2\n38\n2.5\n26\n3\n6\nComparing function values: from t = 0 to t = 1.5 each output value is greater than the one before, and from t = 1.5 to t = 3 each output value is less than the one before. So h is increasing on the interval 0 < t < 1.5 and decreasing on the interval 1.5 < t < 3.\nOn the interval 0 < t < 1.5, as t increases, h(t) increases. On the interval 1.5 < t < 3, as t increases, h(t) decreases. Telling open intervals apart from closed intervals when you state where a function is increasing or decreasing is outside the scope of the course, so either form is accepted.\nGraph of h(t) = −16t² + 48t + 6",
+      "text": "1.1.A · Increasing and decreasing compare output values as input values increase.\nState the interval, then say how the output values change as the input values increase.\nA function is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval of its domain if, as the input values increase, the output values always decrease. That is, for all a and b in the interval, if a < b, then f(a) > f(b).\nHeight h(t), in feet, of a ball t seconds after it is thrown\nt\nh(t)\n0\n6\n0.5\n26\n1\n38\n1.5\n42\n2\n38\n2.5\n26\n3\n6\nComparing function values: from t = 0 to t = 1.5 each output value is greater than the one before, and from t = 1.5 to t = 3 each output value is less than the one before. So h is increasing on the interval 0 < t < 1.5 and decreasing on the interval 1.5 < t < 3.\nOn the interval 0 < t < 1.5, as t increases, h(t) increases. On the interval 1.5 < t < 3, as t increases, h(t) decreases. Telling open intervals apart from closed intervals when you state where a function is increasing or decreasing is outside the scope of the course, so either form is accepted.\nGraph of h(t) = −16t² + 48t + 6",
       "excerpt": "State the interval, then say how the output values change as the input values increase.",
       "route": "/topic/precalculus-1-1?section=increasing-decreasing"
     },
@@ -141,8 +141,8 @@
       "sectionId": "increasing-decreasing",
       "blockId": "increasing-decreasing-block-1",
       "heading": "1.1.A · Increasing and decreasing compare output values as input values increase.",
-      "text": "A function f is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval if, as the input values increase, the output values always decrease: for all a and b in the interval, if a < b, then f(a) > f(b).",
-      "excerpt": "A function f is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval if, as the input values increase, the output values always decrease: for all a and b in the interval, if a < b, then f(a…",
+      "text": "A function is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval of its domain if, as the input values increase, the output values always decrease. That is, for all a and b in the interval, if a < b, then f(a) > f(b).",
+      "excerpt": "A function is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval of its domain if, as the input values increase, the output values always decrease. That is, for all a and b in the interva…",
       "route": "/topic/precalculus-1-1?section=increasing-decreasing&block=increasing-decreasing-block-1"
     },
     {
@@ -400,11 +400,13 @@
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-1",
       "code": "1.1",
-      "title": "Image",
-      "aliases": [],
+      "title": "Image of an input value",
+      "aliases": [
+        "image"
+      ],
       "sectionId": "function-basics",
       "heading": "1.1.A · A function maps each input value to exactly one output value.",
-      "text": "Image",
+      "text": "Image of an input value\nimage",
       "excerpt": "Term used in 1.1.A · A function maps each input value to exactly one output value..",
       "route": "/topic/precalculus-1-1?section=function-basics"
     },
@@ -415,11 +417,13 @@
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-1",
       "code": "1.1",
-      "title": "Preimage",
-      "aliases": [],
+      "title": "Preimage of an output value",
+      "aliases": [
+        "preimage"
+      ],
       "sectionId": "function-basics",
       "heading": "1.1.A · A function maps each input value to exactly one output value.",
-      "text": "Preimage",
+      "text": "Preimage of an output value\npreimage",
       "excerpt": "Term used in 1.1.A · A function maps each input value to exactly one output value..",
       "route": "/topic/precalculus-1-1?section=function-basics"
     },
@@ -490,30 +494,16 @@
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-1",
       "code": "1.1",
-      "title": "Zero",
+      "title": "Zeros of the function",
       "aliases": [
-        "zeros"
+        "zeros",
+        "zero"
       ],
-      "sectionId": "construct-graph",
-      "heading": "1.1.B · A verbal description of a context can be turned into a graph.",
-      "text": "Zero\nzeros",
-      "excerpt": "Term used in 1.1.B · A verbal description of a context can be turned into a graph..",
-      "route": "/topic/precalculus-1-1?section=construct-graph"
-    },
-    {
-      "id": "precalculus-1-1/glossary/precalculus-1-2-rate-of-change",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-1",
-      "code": "1.1",
-      "title": "Rate of change",
-      "aliases": [],
-      "sectionId": "construct-graph",
-      "heading": "1.1.B · A verbal description of a context can be turned into a graph.",
-      "text": "Rate of change",
-      "excerpt": "Term used in 1.1.B · A verbal description of a context can be turned into a graph..",
-      "route": "/topic/precalculus-1-1?section=construct-graph"
+      "sectionId": "zeros",
+      "heading": "1.1.B · A zero is an input value where the output value is zero.",
+      "text": "Zeros of the function\nzeros\nzero",
+      "excerpt": "Term used in 1.1.B · A zero is an input value where the output value is zero..",
+      "route": "/topic/precalculus-1-1?section=zeros"
     },
     {
       "id": "precalculus-1-2",
@@ -754,28 +744,13 @@
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-2",
       "code": "1.2",
-      "title": "Rate of change",
+      "title": "Rate of change at a point",
       "aliases": [],
-      "sectionId": "average-rate",
-      "heading": "1.2.A · The average rate of change is a ratio of changes over an interval.",
-      "text": "Rate of change",
-      "excerpt": "Term used in 1.2.A · The average rate of change is a ratio of changes over an interval..",
-      "route": "/topic/precalculus-1-2?section=average-rate"
-    },
-    {
-      "id": "precalculus-1-2/glossary/precalculus-1-2-interval",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-2",
-      "code": "1.2",
-      "title": "Interval",
-      "aliases": [],
-      "sectionId": "average-rate",
-      "heading": "1.2.A · The average rate of change is a ratio of changes over an interval.",
-      "text": "Interval",
-      "excerpt": "Term used in 1.2.A · The average rate of change is a ratio of changes over an interval..",
-      "route": "/topic/precalculus-1-2?section=average-rate"
+      "sectionId": "rate-at-a-point",
+      "heading": "1.2.A · Average rates of change over small intervals approximate the rate of change at a point.",
+      "text": "Rate of change at a point",
+      "excerpt": "Term used in 1.2.A · Average rates of change over small intervals approximate the rate of change at a point..",
+      "route": "/topic/precalculus-1-2?section=rate-at-a-point"
     },
     {
       "id": "precalculus-1-3",
@@ -1085,21 +1060,6 @@
       "route": "/topic/precalculus-1-3?section=secant-lines"
     },
     {
-      "id": "precalculus-1-3/glossary/precalculus-1-3-sequence",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-3",
-      "code": "1.3",
-      "title": "Sequence",
-      "aliases": [],
-      "sectionId": "linear-rates",
-      "heading": "1.3.A · For a linear function, the average rate of change is constant.",
-      "text": "Sequence",
-      "excerpt": "Term used in 1.3.A · For a linear function, the average rate of change is constant..",
-      "route": "/topic/precalculus-1-3?section=linear-rates"
-    },
-    {
       "id": "precalculus-1-4",
       "type": "topic",
       "courseId": "precalculus",
@@ -1170,7 +1130,7 @@
       "aliases": [],
       "sectionId": "extrema",
       "heading": "1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing.",
-      "text": "1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing.\nA relative extremum is greatest or least nearby. An absolute extremum is greatest or least over the whole domain.\nWhere a polynomial function switches between increasing and decreasing, or at an included endpoint of a polynomial with a restricted domain, the function has a local, or relative, maximum or minimum output value. If a relative maximum is greater than all other output values, it is a global, or absolute, maximum. If a relative minimum is less than all other output values, it is a global, or absolute, minimum.\nValues of f(x) = x³ − 3x\nx\nf(x)\n-2\n−2\n-1\n2\n0\n0\n1\n−2\n2\n2\nAs x increases from −2 to −1, f(x) increases from −2 to 2, and from −1 to 1, f(x) decreases to −2. So f has a relative maximum of 2 at x = −1 and a relative minimum of −2 at x = 1. Neither is absolute, because a cubic's output values increase without bound in one direction and decrease without bound in the other.\nA polynomial function of even degree has either an absolute maximum or an absolute minimum, because both ends of its graph point the same way. For a quadratic function, the absolute maximum or minimum occurs at the vertex.\nf has a relative maximum at x = −1 because f changes from increasing to decreasing at x = −1. The relative maximum value is f(−1) = 2.\nGraph of f(x) = x³ − 3x, with a relative maximum at x = −1 and a relative minimum at x = 1",
+      "text": "1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing.\nA relative extremum is greatest or least nearby. An absolute extremum is greatest or least over the whole domain.\nWhere a polynomial function switches between increasing and decreasing, or at an included endpoint of a polynomial with a restricted domain, the function has a local, or relative, maximum or minimum output value. If a relative maximum is greater than all other output values, it is a global, or absolute, maximum. If a relative minimum is less than all other output values, it is a global, or absolute, minimum.\nValues of f(x) = x³ − 3x\nx\nf(x)\n-2\n−2\n-1\n2\n0\n0\n1\n−2\n2\n2\nAs x increases from −2 to −1, f(x) increases from −2 to 2, and from −1 to 1, f(x) decreases to −2. So f has a relative maximum of 2 at x = −1 and a relative minimum of −2 at x = 1. Neither is absolute, because a cubic's output values increase without bound in one direction and decrease without bound in the other.\nA polynomial function of even degree has either a global maximum or a global minimum. For a quadratic function, the global maximum or global minimum occurs at the vertex. Both ends of the graph of an even-degree polynomial point the same way, which is why one of them must exist.\nf has a relative maximum at x = −1 because f changes from increasing to decreasing at x = −1. The relative maximum value is f(−1) = 2.\nGraph of f(x) = x³ − 3x, with a relative maximum at x = −1 and a relative minimum at x = 1",
       "excerpt": "A relative extremum is greatest or least nearby. An absolute extremum is greatest or least over the whole domain.",
       "route": "/topic/precalculus-1-4?section=extrema"
     },
@@ -1218,8 +1178,8 @@
       "sectionId": "extrema",
       "blockId": "extrema-block-4",
       "heading": "1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing.",
-      "text": "A polynomial function of even degree has either an absolute maximum or an absolute minimum, because both ends of its graph point the same way. For a quadratic function, the absolute maximum or minimum occurs at the vertex.",
-      "excerpt": "A polynomial function of even degree has either an absolute maximum or an absolute minimum, because both ends of its graph point the same way. For a quadratic function, the absolute maximum or minimum occurs at the vertex.",
+      "text": "A polynomial function of even degree has either a global maximum or a global minimum. For a quadratic function, the global maximum or global minimum occurs at the vertex. Both ends of the graph of an even-degree polynomial point the same way, which is why one of them must exist.",
+      "excerpt": "A polynomial function of even degree has either a global maximum or a global minimum. For a quadratic function, the global maximum or global minimum occurs at the vertex. Both ends of the graph of an even-degree polynomial point the same way, which is why one of them must exist.",
       "route": "/topic/precalculus-1-4?section=extrema&block=extrema-block-4"
     },
     {
@@ -1475,36 +1435,17 @@
       "route": "/topic/precalculus-1-4?section=extrema"
     },
     {
-      "id": "precalculus-1-4/glossary/precalculus-1-4-absolute-max",
+      "id": "precalculus-1-4/glossary/precalculus-1-4-vertex",
       "type": "glossary",
       "courseId": "precalculus",
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-4",
       "code": "1.4",
-      "title": "Absolute maximum",
-      "aliases": [
-        "global maximum"
-      ],
+      "title": "Vertex",
+      "aliases": [],
       "sectionId": "extrema",
       "heading": "1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing.",
-      "text": "Absolute maximum\nglobal maximum",
-      "excerpt": "Term used in 1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing..",
-      "route": "/topic/precalculus-1-4?section=extrema"
-    },
-    {
-      "id": "precalculus-1-4/glossary/precalculus-1-4-absolute-min",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-4",
-      "code": "1.4",
-      "title": "Absolute minimum",
-      "aliases": [
-        "global minimum"
-      ],
-      "sectionId": "extrema",
-      "heading": "1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing.",
-      "text": "Absolute minimum\nglobal minimum",
+      "text": "Vertex",
       "excerpt": "Term used in 1.4.A · Relative extrema occur where a polynomial switches between increasing and decreasing..",
       "route": "/topic/precalculus-1-4?section=extrema"
     },
@@ -1612,7 +1553,7 @@
       "aliases": [],
       "sectionId": "multiplicity",
       "heading": "1.5.A · A repeated linear factor gives a zero with multiplicity.",
-      "text": "1.5.A · A repeated linear factor gives a zero with multiplicity.\nEven multiplicity: same sign on both sides and tangent to the x-axis. Odd multiplicity: the sign changes and the graph crosses.\nIf a linear factor (x − a) is repeated n times, the corresponding zero has multiplicity n. A polynomial function of degree n has exactly n complex zeros when multiplicities are counted. For p(x) = (x + 1)²(x − 2)³, the zero −1 has multiplicity 2, the zero 2 has multiplicity 3, and the degree is 5.\nIf a real zero a has even multiplicity, then the signs of the output values are the same for input values near x = a, and the graph is tangent to the x-axis at x = a. If a has odd multiplicity, the output values change sign and the graph crosses the x-axis.\nMultiplicity and the graph of p(x) = (x + 1)²(x − 2)³\nZero\nMultiplicity\nGraph near the zero\n−1\n2 (even)\nTangent to the x-axis; p(x) < 0 on both sides\n2\n3 (odd)\nCrosses the x-axis; p(x) changes from negative to positive\nGraph of p(x) = (x + 1)ᵐ(x − 2)ⁿ: a zero of even multiplicity touches the x-axis, and a zero of odd multiplicity crosses it",
+      "text": "1.5.A · A repeated linear factor gives a zero with multiplicity.\nEven multiplicity: same sign on both sides and tangent to the x-axis. Odd multiplicity: the sign changes and the graph crosses.\nIf a linear factor (x − a) is repeated n times, the corresponding zero of the polynomial function has a multiplicity n. A polynomial function of degree n has exactly n complex zeros when counting multiplicities. For p(x) = (x + 1)²(x − 2)³, the zero −1 has multiplicity 2, the zero 2 has multiplicity 3, and the degree is 5.\nIf a real zero a has even multiplicity, then the signs of the output values are the same for input values near x = a, and the graph is tangent to the x-axis at x = a. If a has odd multiplicity, the output values change sign and the graph crosses the x-axis.\nMultiplicity and the graph of p(x) = (x + 1)²(x − 2)³\nZero\nMultiplicity\nGraph near the zero\n−1\n2 (even)\nTangent to the x-axis; p(x) < 0 on both sides\n2\n3 (odd)\nCrosses the x-axis; p(x) changes from negative to positive\nGraph of p(x) = (x + 1)ᵐ(x − 2)ⁿ: a zero of even multiplicity touches the x-axis, and a zero of odd multiplicity crosses it",
       "excerpt": "Even multiplicity: same sign on both sides and tangent to the x-axis. Odd multiplicity: the sign changes and the graph crosses.",
       "route": "/topic/precalculus-1-5?section=multiplicity"
     },
@@ -1628,8 +1569,8 @@
       "sectionId": "multiplicity",
       "blockId": "multiplicity-block-1",
       "heading": "1.5.A · A repeated linear factor gives a zero with multiplicity.",
-      "text": "If a linear factor (x − a) is repeated n times, the corresponding zero has multiplicity n. A polynomial function of degree n has exactly n complex zeros when multiplicities are counted. For p(x) = (x + 1)²(x − 2)³, the zero −1 has multiplicity 2, the zero 2 has multiplicity 3, and the degree is 5.",
-      "excerpt": "If a linear factor (x − a) is repeated n times, the corresponding zero has multiplicity n. A polynomial function of degree n has exactly n complex zeros when multiplicities are counted. For p(x) = (x + 1)²(x − 2)³, the zero −1 has multiplicity 2, the zero 2 has multiplicity 3, and the degree is 5.",
+      "text": "If a linear factor (x − a) is repeated n times, the corresponding zero of the polynomial function has a multiplicity n. A polynomial function of degree n has exactly n complex zeros when counting multiplicities. For p(x) = (x + 1)²(x − 2)³, the zero −1 has multiplicity 2, the zero 2 has multiplicity 3, and the degree is 5.",
+      "excerpt": "If a linear factor (x − a) is repeated n times, the corresponding zero of the polynomial function has a multiplicity n. A polynomial function of degree n has exactly n complex zeros when counting multiplicities. For p(x) = (x + 1)²(x − 2)³, the zero −1 has multiplicity 2, the zero 2 has multiplicity 3, and the degree is 5.",
       "route": "/topic/precalculus-1-5?section=multiplicity&block=multiplicity-block-1"
     },
     {
@@ -1706,7 +1647,7 @@
       "aliases": [],
       "sectionId": "degree-from-differences",
       "heading": "1.5.A · The degree is the least n for which the nth differences are constant.",
-      "text": "1.5.A · The degree is the least n for which the nth differences are constant.\nCount how many rows of differences it takes to reach a constant row.\nThe degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree is equal to the least value n for which the successive nth differences are constant.\nSuccessive differences of the output values of x³ at x = 0, 1, 2, 3, 4, 5\nRow\nValues\nOutput values\n0, 1, 8, 27, 64, 125\n1st differences\n1, 7, 19, 37, 61\n2nd differences\n6, 12, 18, 24\n3rd differences\n6, 6, 6\nBecause the 3rd differences in the output values are a constant 6 over consecutive equal-length input-value intervals, and the 2nd differences are not constant, the polynomial has degree 3.",
+      "text": "1.5.A · The degree is the least n for which the nth differences are constant.\nCount how many rows of differences it takes to reach a constant row.\nThe degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree of the polynomial function is equal to the least value n for which the successive nth differences are constant.\nSuccessive differences of the output values of x³ at x = 0, 1, 2, 3, 4, 5\nRow\nValues\nOutput values\n0, 1, 8, 27, 64, 125\n1st differences\n1, 7, 19, 37, 61\n2nd differences\n6, 12, 18, 24\n3rd differences\n6, 6, 6\nBecause the 3rd differences in the output values are a constant 6 over consecutive equal-length input-value intervals, and the 2nd differences are not constant, the polynomial has degree 3.",
       "excerpt": "Count how many rows of differences it takes to reach a constant row.",
       "route": "/topic/precalculus-1-5?section=degree-from-differences"
     },
@@ -1722,8 +1663,8 @@
       "sectionId": "degree-from-differences",
       "blockId": "degree-from-differences-block-1",
       "heading": "1.5.A · The degree is the least n for which the nth differences are constant.",
-      "text": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree is equal to the least value n for which the successive nth differences are constant.",
-      "excerpt": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree is equal to the least value n for which the successive nth differences are constant.",
+      "text": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree of the polynomial function is equal to the least value n for which the successive nth differences are constant.",
+      "excerpt": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree of the polynomial function is equal to the least value n for which the successive nth differences are constant.",
       "route": "/topic/precalculus-1-5?section=degree-from-differences&block=degree-from-differences-block-1"
     },
     {
@@ -1790,23 +1731,6 @@
       "route": "/topic/precalculus-1-5?section=even-and-odd&block=even-and-odd-block-3"
     },
     {
-      "id": "precalculus-1-5/glossary/precalculus-1-1-zero",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-5",
-      "code": "1.5",
-      "title": "Zero",
-      "aliases": [
-        "zeros"
-      ],
-      "sectionId": "zeros-and-factors",
-      "heading": "1.5.A · A real number a is a zero of p if and only if (x − a) is a linear factor of p.",
-      "text": "Zero\nzeros",
-      "excerpt": "Term used in 1.5.A · A real number a is a zero of p if and only if (x − a) is a linear factor of p..",
-      "route": "/topic/precalculus-1-5?section=zeros-and-factors"
-    },
-    {
       "id": "precalculus-1-5/glossary/precalculus-1-4-polynomial",
       "type": "glossary",
       "courseId": "precalculus",
@@ -1840,6 +1764,21 @@
       "route": "/topic/precalculus-1-5?section=multiplicity"
     },
     {
+      "id": "precalculus-1-5/glossary/precalculus-1-5-root",
+      "type": "glossary",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "topicId": "precalculus-1-5",
+      "code": "1.5",
+      "title": "Root",
+      "aliases": [],
+      "sectionId": "zeros-and-factors",
+      "heading": "1.5.A · A real number a is a zero of p if and only if (x − a) is a linear factor of p.",
+      "text": "Root",
+      "excerpt": "Term used in 1.5.A · A real number a is a zero of p if and only if (x − a) is a linear factor of p..",
+      "route": "/topic/precalculus-1-5?section=zeros-and-factors"
+    },
+    {
       "id": "precalculus-1-5/glossary/precalculus-1-5-multiplicity",
       "type": "glossary",
       "courseId": "precalculus",
@@ -1853,23 +1792,6 @@
       "text": "Multiplicity",
       "excerpt": "Term used in 1.5.A · A repeated linear factor gives a zero with multiplicity..",
       "route": "/topic/precalculus-1-5?section=multiplicity"
-    },
-    {
-      "id": "precalculus-1-5/glossary/precalculus-1-5-complex-number",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-5",
-      "code": "1.5",
-      "title": "Complex number",
-      "aliases": [
-        "complex numbers"
-      ],
-      "sectionId": "zeros-and-factors",
-      "heading": "1.5.A · A real number a is a zero of p if and only if (x − a) is a linear factor of p.",
-      "text": "Complex number\ncomplex numbers",
-      "excerpt": "Term used in 1.5.A · A real number a is a zero of p if and only if (x − a) is a linear factor of p..",
-      "route": "/topic/precalculus-1-5?section=zeros-and-factors"
     },
     {
       "id": "precalculus-1-5/glossary/precalculus-1-5-conjugate",
@@ -2166,36 +2088,6 @@
       "route": "/topic/precalculus-1-6?section=unbounded-notation"
     },
     {
-      "id": "precalculus-1-6/glossary/precalculus-1-6-without-bound",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-6",
-      "code": "1.6",
-      "title": "Without bound",
-      "aliases": [],
-      "sectionId": "unbounded-notation",
-      "heading": "1.6.A · End behavior is written with limit notation.",
-      "text": "Without bound",
-      "excerpt": "Term used in 1.6.A · End behavior is written with limit notation..",
-      "route": "/topic/precalculus-1-6?section=unbounded-notation"
-    },
-    {
-      "id": "precalculus-1-6/glossary/precalculus-1-6-limit-notation",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-6",
-      "code": "1.6",
-      "title": "Limit notation",
-      "aliases": [],
-      "sectionId": "unbounded-notation",
-      "heading": "1.6.A · End behavior is written with limit notation.",
-      "text": "Limit notation",
-      "excerpt": "Term used in 1.6.A · End behavior is written with limit notation..",
-      "route": "/topic/precalculus-1-6?section=unbounded-notation"
-    },
-    {
       "id": "precalculus-1-7",
       "type": "topic",
       "courseId": "precalculus",
@@ -2219,7 +2111,7 @@
       "aliases": [],
       "sectionId": "rational-quotient",
       "heading": "1.7.A · A rational function is a quotient of two polynomial functions.",
-      "text": "1.7.A · A rational function is a quotient of two polynomial functions.\nA rational function is p(x)/q(x), undefined wherever q(x) = 0.\nA rational function is analytically represented as a quotient of two polynomial functions, r(x) = p(x)/q(x). For each value in its domain, it measures the size of the polynomial in the numerator relative to the polynomial in the denominator. The domain excludes every real zero of q.\nDegrees of the numerator and denominator\nRational function\nDegree of numerator\nDegree of denominator\n(3x² + 1)/(x² − 5)\n2\n2\n(2x³ − x)/(x² + 1)\n3\n2\n(4x − 1)/(x² + 3)\n1\n2",
+      "text": "1.7.A · A rational function is a quotient of two polynomial functions.\nA rational function is p(x)/q(x), undefined wherever q(x) = 0.\nA rational function is analytically represented as a quotient of two polynomial functions and gives a measure of the relative size of the polynomial function in the numerator compared to the polynomial function in the denominator for each value in the rational function’s domain. In symbols, r(x) = p(x)/q(x), and the domain excludes every real zero of q.\nDegrees of the numerator and denominator\nRational function\nDegree of numerator\nDegree of denominator\n(3x² + 1)/(x² − 5)\n2\n2\n(2x³ − x)/(x² + 1)\n3\n2\n(4x − 1)/(x² + 3)\n1\n2",
       "excerpt": "A rational function is p(x)/q(x), undefined wherever q(x) = 0.",
       "route": "/topic/precalculus-1-7?section=rational-quotient"
     },
@@ -2235,8 +2127,8 @@
       "sectionId": "rational-quotient",
       "blockId": "rational-quotient-block-1",
       "heading": "1.7.A · A rational function is a quotient of two polynomial functions.",
-      "text": "A rational function is analytically represented as a quotient of two polynomial functions, r(x) = p(x)/q(x). For each value in its domain, it measures the size of the polynomial in the numerator relative to the polynomial in the denominator. The domain excludes every real zero of q.",
-      "excerpt": "A rational function is analytically represented as a quotient of two polynomial functions, r(x) = p(x)/q(x). For each value in its domain, it measures the size of the polynomial in the numerator relative to the polynomial in the denominator. The domain excludes every real zero of q.",
+      "text": "A rational function is analytically represented as a quotient of two polynomial functions and gives a measure of the relative size of the polynomial function in the numerator compared to the polynomial function in the denominator for each value in the rational function’s domain. In symbols, r(x) = p(x)/q(x), and the domain excludes every real zero of q.",
+      "excerpt": "A rational function is analytically represented as a quotient of two polynomial functions and gives a measure of the relative size of the polynomial function in the numerator compared to the polynomial function in the denominator for each value in the rational function’s domain. In symbols, r(x) = p(x)/q(x), and the domain excludes every real zero of q.",
       "route": "/topic/precalculus-1-7?section=rational-quotient&block=rational-quotient-block-1"
     },
     {
@@ -2250,7 +2142,7 @@
       "aliases": [],
       "sectionId": "compare-degrees",
       "heading": "1.7.A · The end behavior comes from the quotient of the leading terms.",
-      "text": "1.7.A · The end behavior comes from the quotient of the leading terms.\nDivide the leading terms. The result tells you which case you are in.\nThe end behavior of a rational function is affected most by the polynomial with the greater degree, because its values dominate for input values of large magnitude. Since each polynomial is dominated by its leading term, the end behavior can be understood by examining the quotient of the leading terms.\nThree cases for r(x) = p(x)/q(x)\nWhich polynomial dominates\nQuotient of the leading terms\nEnd behavior of r\nThe denominator (degree of q is greater)\nA constant over a nonconstant polynomial\nHorizontal asymptote y = 0\nNeither (equal degrees)\nA constant\nHorizontal asymptote at that constant\nThe numerator (degree of p is greater)\nA nonconstant polynomial\nThe end behavior of that polynomial; a slant asymptote if it is linear\nFor r(x) = (4x − 1)/(x² + 3), the quotient of the leading terms is 4x/x² = 4/x, so lim x→±∞ r(x) = 0. For r(x) = (3x² + 1)/(x² − 5), the quotient is 3x²/x² = 3, so the horizontal asymptote is y = 3.",
+      "text": "1.7.A · The end behavior comes from the quotient of the leading terms.\nDivide the leading terms. The result tells you which case you are in.\nThe end behavior of a rational function will be affected most by the polynomial with the greater degree, as its values will dominate the values of the rational function for input values of large magnitude. For input values of large magnitude, a polynomial is dominated by its leading term. Therefore, the end behavior of a rational function can be understood by examining the corresponding quotient of the leading terms.\nThree cases for r(x) = p(x)/q(x)\nWhich polynomial dominates\nQuotient of the leading terms\nEnd behavior of r\nThe denominator (degree of q is greater)\nA constant over a nonconstant polynomial\nHorizontal asymptote y = 0\nNeither (equal degrees)\nA constant\nHorizontal asymptote at that constant\nThe numerator (degree of p is greater)\nA nonconstant polynomial\nThe end behavior of that polynomial; a slant asymptote if it is linear\nFor r(x) = (4x − 1)/(x² + 3), the quotient of the leading terms is 4x/x² = 4/x, so lim x→±∞ r(x) = 0. For r(x) = (3x² + 1)/(x² − 5), the quotient is 3x²/x² = 3, so the horizontal asymptote is y = 3.",
       "excerpt": "Divide the leading terms. The result tells you which case you are in.",
       "route": "/topic/precalculus-1-7?section=compare-degrees"
     },
@@ -2266,8 +2158,8 @@
       "sectionId": "compare-degrees",
       "blockId": "compare-degrees-block-1",
       "heading": "1.7.A · The end behavior comes from the quotient of the leading terms.",
-      "text": "The end behavior of a rational function is affected most by the polynomial with the greater degree, because its values dominate for input values of large magnitude. Since each polynomial is dominated by its leading term, the end behavior can be understood by examining the quotient of the leading terms.",
-      "excerpt": "The end behavior of a rational function is affected most by the polynomial with the greater degree, because its values dominate for input values of large magnitude. Since each polynomial is dominated by its leading term, the end behavior can be understood by examining the quotient of the leading terms.",
+      "text": "The end behavior of a rational function will be affected most by the polynomial with the greater degree, as its values will dominate the values of the rational function for input values of large magnitude. For input values of large magnitude, a polynomial is dominated by its leading term. Therefore, the end behavior of a rational function can be understood by examining the corresponding quotient of the leading terms.",
+      "excerpt": "The end behavior of a rational function will be affected most by the polynomial with the greater degree, as its values will dominate the values of the rational function for input values of large magnitude. For input values of large magnitude, a polynomial is dominated by its leading term. Therefore, the end behavior of a rational function can be understood…",
       "route": "/topic/precalculus-1-7?section=compare-degrees&block=compare-degrees-block-1"
     },
     {
@@ -2427,36 +2319,6 @@
       "text": "End behavior\nend behaviors",
       "excerpt": "Term used in 1.7.A · The end behavior comes from the quotient of the leading terms..",
       "route": "/topic/precalculus-1-7?section=compare-degrees"
-    },
-    {
-      "id": "precalculus-1-7/glossary/precalculus-1-6-without-bound",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-7",
-      "code": "1.7",
-      "title": "Without bound",
-      "aliases": [],
-      "sectionId": "horizontal-asymptotes",
-      "heading": "1.7.A · A horizontal asymptote y = b means the output values get and stay arbitrarily close to b.",
-      "text": "Without bound",
-      "excerpt": "Term used in 1.7.A · A horizontal asymptote y = b means the output values get and stay arbitrarily close to b..",
-      "route": "/topic/precalculus-1-7?section=horizontal-asymptotes"
-    },
-    {
-      "id": "precalculus-1-7/glossary/precalculus-1-6-limit-notation",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-7",
-      "code": "1.7",
-      "title": "Limit notation",
-      "aliases": [],
-      "sectionId": "horizontal-asymptotes",
-      "heading": "1.7.A · A horizontal asymptote y = b means the output values get and stay arbitrarily close to b.",
-      "text": "Limit notation",
-      "excerpt": "Term used in 1.7.A · A horizontal asymptote y = b means the output values get and stay arbitrarily close to b..",
-      "route": "/topic/precalculus-1-7?section=horizontal-asymptotes"
     },
     {
       "id": "precalculus-1-7/glossary/precalculus-1-7-rational-function",
@@ -2680,23 +2542,6 @@
       "route": "/topic/precalculus-1-8?section=inequalities&block=inequalities-block-3"
     },
     {
-      "id": "precalculus-1-8/glossary/precalculus-1-1-zero",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-8",
-      "code": "1.8",
-      "title": "Zero",
-      "aliases": [
-        "zeros"
-      ],
-      "sectionId": "numerator-zeros",
-      "heading": "1.8.A · The real zeros of a rational function are the real zeros of the numerator in its domain.",
-      "text": "Zero\nzeros",
-      "excerpt": "Term used in 1.8.A · The real zeros of a rational function are the real zeros of the numerator in its domain..",
-      "route": "/topic/precalculus-1-8?section=numerator-zeros"
-    },
-    {
       "id": "precalculus-1-8/glossary/precalculus-1-7-rational-function",
       "type": "glossary",
       "courseId": "precalculus",
@@ -2714,21 +2559,19 @@
       "route": "/topic/precalculus-1-8?section=numerator-zeros"
     },
     {
-      "id": "precalculus-1-8/glossary/precalculus-1-8-test-value",
+      "id": "precalculus-1-8/glossary/precalculus-1-8-rational-zeros",
       "type": "glossary",
       "courseId": "precalculus",
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-8",
       "code": "1.8",
-      "title": "Test value",
-      "aliases": [
-        "test values"
-      ],
-      "sectionId": "sign-analysis",
-      "heading": "1.8.A · The real zeros of the numerator and denominator divide the number line into intervals of constant sign.",
-      "text": "Test value\ntest values",
-      "excerpt": "Term used in 1.8.A · The real zeros of the numerator and denominator divide the number line into intervals of constant sign..",
-      "route": "/topic/precalculus-1-8?section=sign-analysis"
+      "title": "Real zeros of a rational function",
+      "aliases": [],
+      "sectionId": "numerator-zeros",
+      "heading": "1.8.A · The real zeros of a rational function are the real zeros of the numerator in its domain.",
+      "text": "Real zeros of a rational function",
+      "excerpt": "Term used in 1.8.A · The real zeros of a rational function are the real zeros of the numerator in its domain..",
+      "route": "/topic/precalculus-1-8?section=numerator-zeros"
     },
     {
       "id": "precalculus-1-9",
@@ -2947,21 +2790,6 @@
       "route": "/topic/precalculus-1-9?section=where-asymptotes"
     },
     {
-      "id": "precalculus-1-9/glossary/precalculus-1-6-without-bound",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-9",
-      "code": "1.9",
-      "title": "Without bound",
-      "aliases": [],
-      "sectionId": "one-sided-limits",
-      "heading": "1.9.A · One-sided limits describe the output values on each side of a vertical asymptote.",
-      "text": "Without bound",
-      "excerpt": "Term used in 1.9.A · One-sided limits describe the output values on each side of a vertical asymptote..",
-      "route": "/topic/precalculus-1-9?section=one-sided-limits"
-    },
-    {
       "id": "precalculus-1-9/glossary/precalculus-1-7-rational-function",
       "type": "glossary",
       "courseId": "precalculus",
@@ -2994,23 +2822,6 @@
       "text": "Vertical asymptote\nvertical asymptotes",
       "excerpt": "Term used in 1.9.A · A vertical asymptote occurs at a real zero of the denominator that is not a zero of the numerator..",
       "route": "/topic/precalculus-1-9?section=where-asymptotes"
-    },
-    {
-      "id": "precalculus-1-9/glossary/precalculus-1-9-one-sided-limit",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-9",
-      "code": "1.9",
-      "title": "One-sided limit",
-      "aliases": [
-        "one-sided limits"
-      ],
-      "sectionId": "one-sided-limits",
-      "heading": "1.9.A · One-sided limits describe the output values on each side of a vertical asymptote.",
-      "text": "One-sided limit\none-sided limits",
-      "excerpt": "Term used in 1.9.A · One-sided limits describe the output values on each side of a vertical asymptote..",
-      "route": "/topic/precalculus-1-9?section=one-sided-limits"
     },
     {
       "id": "precalculus-1-10",
@@ -3216,23 +3027,6 @@
       "route": "/topic/precalculus-1-10?section=hole-condition"
     },
     {
-      "id": "precalculus-1-10/glossary/precalculus-1-9-one-sided-limit",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-10",
-      "code": "1.10",
-      "title": "One-sided limit",
-      "aliases": [
-        "one-sided limits"
-      ],
-      "sectionId": "hole-or-asymptote",
-      "heading": "1.10.A · One function can have both a hole and a vertical asymptote.",
-      "text": "One-sided limit\none-sided limits",
-      "excerpt": "Term used in 1.10.A · One function can have both a hole and a vertical asymptote..",
-      "route": "/topic/precalculus-1-10?section=hole-or-asymptote"
-    },
-    {
       "id": "precalculus-1-10/glossary/precalculus-1-10-hole",
       "type": "glossary",
       "courseId": "precalculus",
@@ -3246,23 +3040,6 @@
       "sectionId": "hole-condition",
       "heading": "1.10.A · A hole occurs when the numerator's multiplicity is at least the denominator's.",
       "text": "Hole\nholes",
-      "excerpt": "Term used in 1.10.A · A hole occurs when the numerator's multiplicity is at least the denominator's..",
-      "route": "/topic/precalculus-1-10?section=hole-condition"
-    },
-    {
-      "id": "precalculus-1-10/glossary/precalculus-1-10-common-factor",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-10",
-      "code": "1.10",
-      "title": "Common factor",
-      "aliases": [
-        "common factors"
-      ],
-      "sectionId": "hole-condition",
-      "heading": "1.10.A · A hole occurs when the numerator's multiplicity is at least the denominator's.",
-      "text": "Common factor\ncommon factors",
       "excerpt": "Term used in 1.10.A · A hole occurs when the numerator's multiplicity is at least the denominator's..",
       "route": "/topic/precalculus-1-10?section=hole-condition"
     },
@@ -3337,7 +3114,7 @@
       "aliases": [],
       "sectionId": "long-division",
       "heading": "1.11.B · Polynomial long division gives f(x) = g(x)q(x) + r(x).",
-      "text": "1.11.B · Polynomial long division gives f(x) = g(x)q(x) + r(x).\nThe quotient gives the slant asymptote, and the remainder term approaches 0 at the ends.\nPolynomial long division is an algebraic process similar to numerical long division, involving a quotient and a remainder. If the polynomial f is divided by the polynomial g, then f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) + r(x)/g(x).\nTo divide x² + 3x + 5 by x − 1: x · (x − 1) = x² − x, leaving 4x + 5; then 4 · (x − 1) = 4x − 4, leaving a remainder of 9. So x² + 3x + 5 = (x − 1)(x + 4) + 9, and (x² + 3x + 5)/(x − 1) = x + 4 + 9/(x − 1).\nThe result of polynomial long division is helpful in finding equations of slant asymptotes. As x increases or decreases without bound, 9/(x − 1) gets arbitrarily close to 0, so the slant asymptote is y = x + 4.\nShow the identity that checks the division: (x − 1)(x + 4) + 9 = x² + 3x + 5.\nGraph of (x² + 3x + 5)/(x − 1) with its slant asymptote y = x + 4",
+      "text": "1.11.B · Polynomial long division gives f(x) = g(x)q(x) + r(x).\nThe quotient gives the slant asymptote, and the remainder term approaches 0 at the ends.\nPolynomial long division is an algebraic process similar to numerical long division involving a quotient and remainder. If the polynomial f is divided by the polynomial g, then f can be rewritten as f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) + r(x)/g(x).\nTo divide x² + 3x + 5 by x − 1: x · (x − 1) = x² − x, leaving 4x + 5; then 4 · (x − 1) = 4x − 4, leaving a remainder of 9. So x² + 3x + 5 = (x − 1)(x + 4) + 9, and (x² + 3x + 5)/(x − 1) = x + 4 + 9/(x − 1).\nThe result of polynomial long division is helpful in finding equations of slant asymptotes. As x increases or decreases without bound, 9/(x − 1) gets arbitrarily close to 0, so the slant asymptote is y = x + 4.\nShow the identity that checks the division: (x − 1)(x + 4) + 9 = x² + 3x + 5.\nGraph of (x² + 3x + 5)/(x − 1) with its slant asymptote y = x + 4",
       "excerpt": "The quotient gives the slant asymptote, and the remainder term approaches 0 at the ends.",
       "route": "/topic/precalculus-1-11?section=long-division"
     },
@@ -3353,8 +3130,8 @@
       "sectionId": "long-division",
       "blockId": "long-division-block-1",
       "heading": "1.11.B · Polynomial long division gives f(x) = g(x)q(x) + r(x).",
-      "text": "Polynomial long division is an algebraic process similar to numerical long division, involving a quotient and a remainder. If the polynomial f is divided by the polynomial g, then f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) + r(x)/g(x).",
-      "excerpt": "Polynomial long division is an algebraic process similar to numerical long division, involving a quotient and a remainder. If the polynomial f is divided by the polynomial g, then f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) + r(x)/g(x).",
+      "text": "Polynomial long division is an algebraic process similar to numerical long division involving a quotient and remainder. If the polynomial f is divided by the polynomial g, then f can be rewritten as f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) + r(x)/g(x).",
+      "excerpt": "Polynomial long division is an algebraic process similar to numerical long division involving a quotient and remainder. If the polynomial f is divided by the polynomial g, then f can be rewritten as f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) +…",
       "route": "/topic/precalculus-1-11?section=long-division&block=long-division-block-1"
     },
     {
@@ -3555,23 +3332,6 @@
       "route": "/topic/precalculus-1-11?section=choose-form"
     },
     {
-      "id": "precalculus-1-11/glossary/precalculus-1-10-common-factor",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-11",
-      "code": "1.11",
-      "title": "Common factor",
-      "aliases": [
-        "common factors"
-      ],
-      "sectionId": "choose-form",
-      "heading": "1.11.A · Factored form and standard form reveal different information.",
-      "text": "Common factor\ncommon factors",
-      "excerpt": "Term used in 1.11.A · Factored form and standard form reveal different information..",
-      "route": "/topic/precalculus-1-11?section=choose-form"
-    },
-    {
       "id": "precalculus-1-11/glossary/precalculus-1-11-factored-form",
       "type": "glossary",
       "courseId": "precalculus",
@@ -3630,21 +3390,6 @@
       "sectionId": "binomial-theorem",
       "heading": "1.11.C · The binomial theorem uses a row of Pascal's triangle to expand (a + b)ⁿ.",
       "text": "Binomial theorem",
-      "excerpt": "Term used in 1.11.C · The binomial theorem uses a row of Pascal's triangle to expand (a + b)ⁿ..",
-      "route": "/topic/precalculus-1-11?section=binomial-theorem"
-    },
-    {
-      "id": "precalculus-1-11/glossary/precalculus-1-11-pascals-triangle",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-11",
-      "code": "1.11",
-      "title": "Pascal's triangle",
-      "aliases": [],
-      "sectionId": "binomial-theorem",
-      "heading": "1.11.C · The binomial theorem uses a row of Pascal's triangle to expand (a + b)ⁿ.",
-      "text": "Pascal's triangle",
       "excerpt": "Term used in 1.11.C · The binomial theorem uses a row of Pascal's triangle to expand (a + b)ⁿ..",
       "route": "/topic/precalculus-1-11?section=binomial-theorem"
     },
@@ -3962,74 +3707,64 @@
       "route": "/topic/precalculus-1-12?section=domain-and-range"
     },
     {
-      "id": "precalculus-1-12/glossary/precalculus-1-12-translation",
+      "id": "precalculus-1-12/glossary/precalculus-1-12-vertical-translation",
       "type": "glossary",
       "courseId": "precalculus",
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-12",
       "code": "1.12",
-      "title": "Translation",
-      "aliases": [
-        "translations",
-        "translated"
-      ],
+      "title": "Vertical translation",
+      "aliases": [],
       "sectionId": "shifts",
       "heading": "1.12.A · Additive transformations translate the graph.",
-      "text": "Translation\ntranslations\ntranslated",
+      "text": "Vertical translation",
       "excerpt": "Term used in 1.12.A · Additive transformations translate the graph..",
       "route": "/topic/precalculus-1-12?section=shifts"
     },
     {
-      "id": "precalculus-1-12/glossary/precalculus-1-12-dilation",
+      "id": "precalculus-1-12/glossary/precalculus-1-12-horizontal-translation",
       "type": "glossary",
       "courseId": "precalculus",
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-12",
       "code": "1.12",
-      "title": "Dilation",
-      "aliases": [
-        "dilations",
-        "dilated"
-      ],
+      "title": "Horizontal translation",
+      "aliases": [],
+      "sectionId": "shifts",
+      "heading": "1.12.A · Additive transformations translate the graph.",
+      "text": "Horizontal translation",
+      "excerpt": "Term used in 1.12.A · Additive transformations translate the graph..",
+      "route": "/topic/precalculus-1-12?section=shifts"
+    },
+    {
+      "id": "precalculus-1-12/glossary/precalculus-1-12-vertical-dilation",
+      "type": "glossary",
+      "courseId": "precalculus",
+      "unitId": "precalculus-1",
+      "topicId": "precalculus-1-12",
+      "code": "1.12",
+      "title": "Vertical dilation",
+      "aliases": [],
       "sectionId": "dilations-reflections",
       "heading": "1.12.A · Multiplicative transformations dilate the graph and may reflect it.",
-      "text": "Dilation\ndilations\ndilated",
+      "text": "Vertical dilation",
       "excerpt": "Term used in 1.12.A · Multiplicative transformations dilate the graph and may reflect it..",
       "route": "/topic/precalculus-1-12?section=dilations-reflections"
     },
     {
-      "id": "precalculus-1-12/glossary/precalculus-1-12-reflection",
+      "id": "precalculus-1-12/glossary/precalculus-1-12-horizontal-dilation",
       "type": "glossary",
       "courseId": "precalculus",
       "unitId": "precalculus-1",
       "topicId": "precalculus-1-12",
       "code": "1.12",
-      "title": "Reflection",
-      "aliases": [
-        "reflections"
-      ],
+      "title": "Horizontal dilation",
+      "aliases": [],
       "sectionId": "dilations-reflections",
       "heading": "1.12.A · Multiplicative transformations dilate the graph and may reflect it.",
-      "text": "Reflection\nreflections",
+      "text": "Horizontal dilation",
       "excerpt": "Term used in 1.12.A · Multiplicative transformations dilate the graph and may reflect it..",
       "route": "/topic/precalculus-1-12?section=dilations-reflections"
-    },
-    {
-      "id": "precalculus-1-12/glossary/precalculus-1-12-parent-function",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-12",
-      "code": "1.12",
-      "title": "Parent function",
-      "aliases": [
-        "parent functions"
-      ],
-      "sectionId": "domain-and-range",
-      "heading": "1.12.A · A transformation can change the domain, the range, and the asymptotes.",
-      "text": "Parent function\nparent functions",
-      "excerpt": "Term used in 1.12.A · A transformation can change the domain, the range, and the asymptotes..",
-      "route": "/topic/precalculus-1-12?section=domain-and-range"
     },
     {
       "id": "precalculus-1-13",
@@ -4293,24 +4028,6 @@
       "route": "/topic/precalculus-1-13?section=differences-and-degree"
     },
     {
-      "id": "precalculus-1-13/glossary/precalculus-1-13-function-model",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-13",
-      "code": "1.13",
-      "title": "Function model",
-      "aliases": [
-        "model",
-        "models"
-      ],
-      "sectionId": "piecewise-models",
-      "heading": "1.13.A · A piecewise-defined function models different behavior on different intervals.",
-      "text": "Function model\nmodel\nmodels",
-      "excerpt": "Term used in 1.13.A · A piecewise-defined function models different behavior on different intervals..",
-      "route": "/topic/precalculus-1-13?section=piecewise-models"
-    },
-    {
       "id": "precalculus-1-13/glossary/precalculus-1-13-piecewise-defined",
       "type": "glossary",
       "courseId": "precalculus",
@@ -4326,23 +4043,6 @@
       "text": "Piecewise-defined function\npiecewise-defined",
       "excerpt": "Term used in 1.13.A · A piecewise-defined function models different behavior on different intervals..",
       "route": "/topic/precalculus-1-13?section=piecewise-models"
-    },
-    {
-      "id": "precalculus-1-13/glossary/precalculus-1-13-assumption",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-13",
-      "code": "1.13",
-      "title": "Assumption",
-      "aliases": [
-        "assumptions"
-      ],
-      "sectionId": "assumptions-restrictions",
-      "heading": "1.13.B · Models have assumptions and domain and range restrictions.",
-      "text": "Assumption\nassumptions",
-      "excerpt": "Term used in 1.13.B · Models have assumptions and domain and range restrictions..",
-      "route": "/topic/precalculus-1-13?section=assumptions-restrictions"
     },
     {
       "id": "precalculus-1-14",
@@ -4719,23 +4419,6 @@
       "sectionId": "build-from-parent",
       "heading": "1.14.A · A model can be constructed with transformations of a parent function.",
       "text": "Vertical asymptote\nvertical asymptotes",
-      "excerpt": "Term used in 1.14.A · A model can be constructed with transformations of a parent function..",
-      "route": "/topic/precalculus-1-14?section=build-from-parent"
-    },
-    {
-      "id": "precalculus-1-14/glossary/precalculus-1-12-parent-function",
-      "type": "glossary",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-14",
-      "code": "1.14",
-      "title": "Parent function",
-      "aliases": [
-        "parent functions"
-      ],
-      "sectionId": "build-from-parent",
-      "heading": "1.14.A · A model can be constructed with transformations of a parent function.",
-      "text": "Parent function\nparent functions",
       "excerpt": "Term used in 1.14.A · A model can be constructed with transformations of a parent function..",
       "route": "/topic/precalculus-1-14?section=build-from-parent"
     },

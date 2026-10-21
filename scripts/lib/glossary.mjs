@@ -42,7 +42,8 @@ export function resolveGlossary(groups, { courseId, topics, sources }) {
         );
         requireValue(Boolean(vocabulary), at, "definition reference does not exist");
         ({ term, definition } = vocabulary);
-        sourceLabel = `Topic ${lesson.code} glossary`;
+        // Wording quoted from a course framework names its statement.
+        sourceLabel = vocabulary.source || `Topic ${lesson.code} glossary`;
         topicIds = [...new Set([lesson.id, ...topicIds])];
       } else {
         ({ term, definition, sourceLabel, sourceIds, sourceLocators, verificationNote } =

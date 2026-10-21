@@ -160,7 +160,7 @@ export function lessonPage(data, quizController) {
     ${
       hasTerms
         ? `<section class="lesson-section reading-copy" id="terms" data-reading-section="terms">${sectionHeading(route, "terms", '<span class="section-number">02 / KEY TERMS</span>Words worth knowing.', "section", lesson.vocabulary.map((term) => term.term).join(", "), reportContext)}
-      <dl class="terms">${lesson.vocabulary.map((term) => `<div class="term-row"><dt>${esc(term.term)}</dt><dd>${esc(term.definition)}</dd></div>`).join("")}</dl>
+      <dl class="terms">${lesson.vocabulary.map((term) => `<div class="term-row"><dt>${esc(term.term)}</dt><dd>${esc(term.definition)}${term.source ? ` <cite class="term-source">${esc(term.source)}</cite>` : ""}</dd></div>`).join("")}</dl>
     </section>`
         : ""
     }

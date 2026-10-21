@@ -267,7 +267,7 @@
     "summary": "Average rates of change for sequences, linear functions, and quadratic functions, secant lines, and how the change in average rates of change reveals concavity."
   },
   "framework": null,
-  "contentRevision": "faee6a7aa41ec16d",
+  "contentRevision": "05f2d428e138805f",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-3",
@@ -539,25 +539,22 @@
         "id": "precalculus-1-3-linear-function",
         "topicId": "precalculus-1-3",
         "term": "Linear function",
-        "definition": "A function whose average rate of change over any length input-value interval is constant, given by f(x) = mx + b."
+        "definition": "For a linear function, the average rate of change over any length input-value interval is constant.",
+        "source": "CED 1.3.A.1"
       },
       {
         "id": "precalculus-1-3-quadratic-function",
         "topicId": "precalculus-1-3",
         "term": "Quadratic function",
-        "definition": "A function q(x) = ax² + bx + c with a ≠ 0. Its average rates of change over consecutive equal-length input-value intervals are given by a linear function."
+        "definition": "For a quadratic function, the average rates of change over consecutive equal-length input-value intervals can be given by a linear function.",
+        "source": "CED 1.3.A.2"
       },
       {
         "id": "precalculus-1-3-secant-line",
         "topicId": "precalculus-1-3",
         "term": "Secant line",
-        "definition": "The line through two points of a graph. Its slope from (a, f(a)) to (b, f(b)) is the average rate of change of f over [a, b]."
-      },
-      {
-        "id": "precalculus-1-3-sequence",
-        "topicId": "precalculus-1-3",
-        "term": "Sequence",
-        "definition": "A function whose input values are whole numbers, written as an ordered list of terms."
+        "definition": "The average rate of change of a function f over the closed interval [a, b] is the slope of the secant line from the point (a, f(a)) to (b, f(b)).",
+        "source": "CED 1.3.A.3"
       }
     ],
     "connections": [
@@ -606,8 +603,7 @@
         "precalculus-1-2-average-rate",
         "precalculus-1-3-linear-function",
         "precalculus-1-3-quadratic-function",
-        "precalculus-1-3-secant-line",
-        "precalculus-1-3-sequence"
+        "precalculus-1-3-secant-line"
       ]
     }
   },
@@ -616,51 +612,44 @@
     {
       "id": "precalculus-1-1-concave-up",
       "term": "Concave up",
-      "definition": "A graph is concave up on intervals in which the rate of change is increasing.",
+      "definition": "The graph of a function is concave up on intervals in which the rate of change is increasing.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.3"
     },
     {
       "id": "precalculus-1-1-concave-down",
       "term": "Concave down",
-      "definition": "A graph is concave down on intervals in which the rate of change is decreasing.",
+      "definition": "The graph of a function is concave down on intervals in which the rate of change is decreasing.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.4"
     },
     {
       "id": "precalculus-1-2-average-rate",
       "term": "Average rate of change",
-      "definition": "For a function f over a ≤ x ≤ b, the ratio (f(b) − f(a))/(b − a) of the change in output values to the change in input values.",
+      "definition": "The average rate of change of a function over an interval of the function’s domain is the constant rate of change that yields the same change in the output values as the function yielded on that interval of the function’s domain. It is the ratio of the change in the output values to the change in input values over that interval.",
       "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
+      "sourceLabel": "CED 1.2.A.1"
     },
     {
       "id": "precalculus-1-3-linear-function",
       "term": "Linear function",
-      "definition": "A function whose average rate of change over any length input-value interval is constant, given by f(x) = mx + b.",
+      "definition": "For a linear function, the average rate of change over any length input-value interval is constant.",
       "aliases": [],
-      "sourceLabel": "Topic 1.3 glossary"
+      "sourceLabel": "CED 1.3.A.1"
     },
     {
       "id": "precalculus-1-3-quadratic-function",
       "term": "Quadratic function",
-      "definition": "A function q(x) = ax² + bx + c with a ≠ 0. Its average rates of change over consecutive equal-length input-value intervals are given by a linear function.",
+      "definition": "For a quadratic function, the average rates of change over consecutive equal-length input-value intervals can be given by a linear function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.3 glossary"
+      "sourceLabel": "CED 1.3.A.2"
     },
     {
       "id": "precalculus-1-3-secant-line",
       "term": "Secant line",
-      "definition": "The line through two points of a graph. Its slope from (a, f(a)) to (b, f(b)) is the average rate of change of f over [a, b].",
+      "definition": "The average rate of change of a function f over the closed interval [a, b] is the slope of the secant line from the point (a, f(a)) to (b, f(b)).",
       "aliases": [],
-      "sourceLabel": "Topic 1.3 glossary"
-    },
-    {
-      "id": "precalculus-1-3-sequence",
-      "term": "Sequence",
-      "definition": "A function whose input values are whole numbers, written as an ordered list of terms.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.3 glossary"
+      "sourceLabel": "CED 1.3.A.3"
     }
   ],
   "sources": [

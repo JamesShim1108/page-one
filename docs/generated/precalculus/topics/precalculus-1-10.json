@@ -267,7 +267,7 @@
     "summary": "When the graph of a rational function has a hole instead of a vertical asymptote, and how a limit locates the hole."
   },
   "framework": null,
-  "contentRevision": "968aa50edf368f2b",
+  "contentRevision": "7e58c3f4b332573b",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-10",
@@ -503,13 +503,8 @@
         "id": "precalculus-1-10-hole",
         "topicId": "precalculus-1-10",
         "term": "Hole",
-        "definition": "A point (c, L) missing from the graph of a function that is undefined at x = c while lim x→c of the function equals L."
-      },
-      {
-        "id": "precalculus-1-10-common-factor",
-        "topicId": "precalculus-1-10",
-        "term": "Common factor",
-        "definition": "A factor that appears in both the numerator and the denominator of a rational function."
+        "definition": "If the multiplicity of a real zero in the numerator is greater than or equal to its multiplicity in the denominator, then the graph of the rational function has a hole at the corresponding input value.",
+        "source": "CED 1.10.A.1"
       }
     ],
     "connections": [
@@ -556,9 +551,7 @@
         "precalculus-1-5-multiplicity",
         "precalculus-1-7-rational-function",
         "precalculus-1-9-vertical-asymptote",
-        "precalculus-1-9-one-sided-limit",
-        "precalculus-1-10-hole",
-        "precalculus-1-10-common-factor"
+        "precalculus-1-10-hole"
       ]
     }
   },
@@ -567,61 +560,36 @@
     {
       "id": "precalculus-1-5-multiplicity",
       "term": "Multiplicity",
-      "definition": "The number of times a linear factor (x − a) is repeated in a polynomial, which is the multiplicity of the zero a.",
+      "definition": "If a linear factor (x − a) is repeated n times, the corresponding zero of the polynomial function has a multiplicity n. A polynomial function of degree n has exactly n complex zeros when counting multiplicities.",
       "aliases": [],
-      "sourceLabel": "Topic 1.5 glossary"
-    },
-    {
-      "id": "precalculus-1-6-limit-notation",
-      "term": "Limit notation",
-      "definition": "Notation such as lim x→∞ p(x) = −∞ that describes what the output values do as the input values increase without bound, decrease without bound, or approach a value.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.6 glossary"
+      "sourceLabel": "CED 1.5.A.2"
     },
     {
       "id": "precalculus-1-7-rational-function",
       "term": "Rational function",
-      "definition": "A function analytically represented as a quotient of two polynomial functions, p(x)/q(x).",
+      "definition": "A rational function is analytically represented as a quotient of two polynomial functions and gives a measure of the relative size of the polynomial function in the numerator compared to the polynomial function in the denominator for each value in the rational function’s domain.",
       "aliases": [
         "rational functions"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.1"
     },
     {
       "id": "precalculus-1-9-vertical-asymptote",
       "term": "Vertical asymptote",
-      "definition": "A line x = a near which the output values of a function increase or decrease without bound as the input values approach a.",
+      "definition": "If the value a is a real zero of the polynomial function in the denominator of a rational function and is not also a real zero of the polynomial function in the numerator, then the graph of the rational function has a vertical asymptote at x = a. Furthermore, a vertical asymptote also occurs at x = a if the multiplicity of a as a real zero in the denominator is greater than its multiplicity as a real zero in the numerator.",
       "aliases": [
         "vertical asymptotes"
       ],
-      "sourceLabel": "Topic 1.9 glossary"
-    },
-    {
-      "id": "precalculus-1-9-one-sided-limit",
-      "term": "One-sided limit",
-      "definition": "A limit as the input values approach a only from values greater than a, written x→a⁺, or only from values less than a, written x→a⁻.",
-      "aliases": [
-        "one-sided limits"
-      ],
-      "sourceLabel": "Topic 1.9 glossary"
+      "sourceLabel": "CED 1.9.A.1"
     },
     {
       "id": "precalculus-1-10-hole",
       "term": "Hole",
-      "definition": "A point (c, L) missing from the graph of a function that is undefined at x = c while lim x→c of the function equals L.",
+      "definition": "If the multiplicity of a real zero in the numerator is greater than or equal to its multiplicity in the denominator, then the graph of the rational function has a hole at the corresponding input value.",
       "aliases": [
         "holes"
       ],
-      "sourceLabel": "Topic 1.10 glossary"
-    },
-    {
-      "id": "precalculus-1-10-common-factor",
-      "term": "Common factor",
-      "definition": "A factor that appears in both the numerator and the denominator of a rational function.",
-      "aliases": [
-        "common factors"
-      ],
-      "sourceLabel": "Topic 1.10 glossary"
+      "sourceLabel": "CED 1.10.A.1"
     }
   ],
   "sources": [

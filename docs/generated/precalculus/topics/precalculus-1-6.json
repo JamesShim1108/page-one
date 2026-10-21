@@ -267,7 +267,7 @@
     "summary": "Limit notation for end behavior and why the degree and the sign of the leading term determine the end behavior of a polynomial function."
   },
   "framework": null,
-  "contentRevision": "6c89d7d2a2fce9b3",
+  "contentRevision": "6ca268132526cd04",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-6",
@@ -476,19 +476,8 @@
         "id": "precalculus-1-6-end-behavior",
         "topicId": "precalculus-1-6",
         "term": "End behavior",
-        "definition": "The behavior of the output values of a function as the input values increase without bound or decrease without bound."
-      },
-      {
-        "id": "precalculus-1-6-without-bound",
-        "topicId": "precalculus-1-6",
-        "term": "Without bound",
-        "definition": "Increasing beyond every fixed number, or decreasing below every fixed number."
-      },
-      {
-        "id": "precalculus-1-6-limit-notation",
-        "topicId": "precalculus-1-6",
-        "term": "Limit notation",
-        "definition": "Notation such as lim x→∞ p(x) = −∞ that describes what the output values do as the input values increase without bound, decrease without bound, or approach a value."
+        "definition": "The degree and sign of the leading term of a polynomial determines the end behavior of the polynomial function, because as the input values increase or decrease without bound, the values of the leading term dominate the values of all lower-degree terms.",
+        "source": "CED 1.6.A.3"
       }
     ],
     "connections": [
@@ -536,9 +525,7 @@
         "precalculus-1-4-degree",
         "precalculus-1-4-leading-term",
         "precalculus-1-4-leading-coefficient",
-        "precalculus-1-6-end-behavior",
-        "precalculus-1-6-without-bound",
-        "precalculus-1-6-limit-notation"
+        "precalculus-1-6-end-behavior"
       ]
     }
   },
@@ -547,56 +534,42 @@
     {
       "id": "precalculus-1-4-polynomial",
       "term": "Polynomial function",
-      "definition": "A function equivalent to aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀, where n is a positive integer, each aᵢ is a real number, and aₙ ≠ 0.",
+      "definition": "A nonconstant polynomial function of x is any function representation that is equivalent to the analytical form p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + aₙ₋₂xⁿ⁻² + … + a₂x² + a₁x + a₀, where n is a positive integer, aᵢ is a real number for each i from 0 to n, and aₙ is nonzero. A nonzero constant is also a polynomial function of degree zero.",
       "aliases": [
         "polynomial",
         "polynomials"
       ],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-4-degree",
       "term": "Degree",
-      "definition": "The exponent n of the leading term aₙxⁿ of a polynomial.",
+      "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
       "aliases": [],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-4-leading-term",
       "term": "Leading term",
-      "definition": "The term aₙxⁿ of a polynomial with the greatest power of x.",
+      "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
       "aliases": [],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-4-leading-coefficient",
       "term": "Leading coefficient",
-      "definition": "The coefficient aₙ of the leading term of a polynomial.",
+      "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
       "aliases": [],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-6-end-behavior",
       "term": "End behavior",
-      "definition": "The behavior of the output values of a function as the input values increase without bound or decrease without bound.",
+      "definition": "The degree and sign of the leading term of a polynomial determines the end behavior of the polynomial function, because as the input values increase or decrease without bound, the values of the leading term dominate the values of all lower-degree terms.",
       "aliases": [
         "end behaviors"
       ],
-      "sourceLabel": "Topic 1.6 glossary"
-    },
-    {
-      "id": "precalculus-1-6-without-bound",
-      "term": "Without bound",
-      "definition": "Increasing beyond every fixed number, or decreasing below every fixed number.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.6 glossary"
-    },
-    {
-      "id": "precalculus-1-6-limit-notation",
-      "term": "Limit notation",
-      "definition": "Notation such as lim x→∞ p(x) = −∞ that describes what the output values do as the input values increase without bound, decrease without bound, or approach a value.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.6 glossary"
+      "sourceLabel": "CED 1.6.A.3"
     }
   ],
   "sources": [

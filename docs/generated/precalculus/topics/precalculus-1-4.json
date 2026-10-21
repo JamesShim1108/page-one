@@ -267,7 +267,7 @@
     "summary": "Degree, leading term, and leading coefficient, relative and absolute extrema, extrema between real zeros, and points of inflection."
   },
   "framework": null,
-  "contentRevision": "3d01c0cd4259467b",
+  "contentRevision": "5f1a23e61f080257",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-4",
@@ -382,7 +382,7 @@
           },
           {
             "type": "paragraph",
-            "text": "A polynomial function of even degree has either an absolute maximum or an absolute minimum, because both ends of its graph point the same way. For a quadratic function, the absolute maximum or minimum occurs at the vertex."
+            "text": "A polynomial function of even degree has either a global maximum or a global minimum. For a quadratic function, the global maximum or global minimum occurs at the vertex. Both ends of the graph of an even-degree polynomial point the same way, which is why one of them must exist."
           },
           {
             "type": "callout",
@@ -502,55 +502,71 @@
         "id": "precalculus-1-4-polynomial",
         "topicId": "precalculus-1-4",
         "term": "Polynomial function",
-        "definition": "A function equivalent to aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀, where n is a positive integer, each aᵢ is a real number, and aₙ ≠ 0."
+        "definition": "A nonconstant polynomial function of x is any function representation that is equivalent to the analytical form p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + aₙ₋₂xⁿ⁻² + … + a₂x² + a₁x + a₀, where n is a positive integer, aᵢ is a real number for each i from 0 to n, and aₙ is nonzero. A nonzero constant is also a polynomial function of degree zero.",
+        "source": "CED 1.4.A.1"
       },
       {
         "id": "precalculus-1-4-degree",
         "topicId": "precalculus-1-4",
         "term": "Degree",
-        "definition": "The exponent n of the leading term aₙxⁿ of a polynomial."
+        "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
+        "source": "CED 1.4.A.1"
       },
       {
         "id": "precalculus-1-4-leading-term",
         "topicId": "precalculus-1-4",
         "term": "Leading term",
-        "definition": "The term aₙxⁿ of a polynomial with the greatest power of x."
+        "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
+        "source": "CED 1.4.A.1"
       },
       {
         "id": "precalculus-1-4-leading-coefficient",
         "topicId": "precalculus-1-4",
         "term": "Leading coefficient",
-        "definition": "The coefficient aₙ of the leading term of a polynomial."
+        "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
+        "source": "CED 1.4.A.1"
       },
       {
         "id": "precalculus-1-4-relative-max",
         "topicId": "precalculus-1-4",
         "term": "Relative maximum",
-        "definition": "An output value where a function switches from increasing to decreasing, or at an included endpoint, that is greater than nearby output values."
+        "definition": "Where a polynomial function switches between increasing and decreasing, or at the included endpoint of a polynomial with a restricted domain, the polynomial function will have a local, or relative, maximum or minimum output value.",
+        "source": "CED 1.4.A.2"
       },
       {
         "id": "precalculus-1-4-relative-min",
         "topicId": "precalculus-1-4",
         "term": "Relative minimum",
-        "definition": "An output value where a function switches from decreasing to increasing, or at an included endpoint, that is less than nearby output values."
+        "definition": "Where a polynomial function switches between increasing and decreasing, or at the included endpoint of a polynomial with a restricted domain, the polynomial function will have a local, or relative, maximum or minimum output value.",
+        "source": "CED 1.4.A.2"
       },
       {
         "id": "precalculus-1-4-absolute-max",
         "topicId": "precalculus-1-4",
         "term": "Absolute maximum",
-        "definition": "A relative maximum that is greater than all other output values of the function."
+        "definition": "If any local maximum is greater than all other function output values, then that local maximum is a global, or absolute, maximum.",
+        "source": "CED 1.4.A.2"
       },
       {
         "id": "precalculus-1-4-absolute-min",
         "topicId": "precalculus-1-4",
         "term": "Absolute minimum",
-        "definition": "A relative minimum that is less than all other output values of the function."
+        "definition": "Similarly, if any local minimum is less than all other function output values, then that local minimum is a global, or absolute, minimum.",
+        "source": "CED 1.4.A.2"
+      },
+      {
+        "id": "precalculus-1-4-vertex",
+        "topicId": "precalculus-1-4",
+        "term": "Vertex",
+        "definition": "For a quadratic function, the global maximum or global minimum occurs at the vertex.",
+        "source": "CED 1.4.A.4"
       },
       {
         "id": "precalculus-1-4-inflection",
         "topicId": "precalculus-1-4",
         "term": "Point of inflection",
-        "definition": "A point where the rate of change of a function changes from increasing to decreasing or from decreasing to increasing, so the graph changes concavity."
+        "definition": "Points of inflection of a polynomial function occur at input values where the rate of change of the function changes from increasing to decreasing or from decreasing to increasing. This occurs where the graph of a polynomial function changes from concave up to concave down or from concave down to concave up.",
+        "source": "CED 1.4.A.5"
       }
     ],
     "connections": [
@@ -605,6 +621,7 @@
         "precalculus-1-4-relative-min",
         "precalculus-1-4-absolute-max",
         "precalculus-1-4-absolute-min",
+        "precalculus-1-4-vertex",
         "precalculus-1-4-inflection"
       ]
     }
@@ -614,99 +631,106 @@
     {
       "id": "precalculus-1-1-concave-up",
       "term": "Concave up",
-      "definition": "A graph is concave up on intervals in which the rate of change is increasing.",
+      "definition": "The graph of a function is concave up on intervals in which the rate of change is increasing.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.3"
     },
     {
       "id": "precalculus-1-1-concave-down",
       "term": "Concave down",
-      "definition": "A graph is concave down on intervals in which the rate of change is decreasing.",
+      "definition": "The graph of a function is concave down on intervals in which the rate of change is decreasing.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.4"
     },
     {
       "id": "precalculus-1-3-quadratic-function",
       "term": "Quadratic function",
-      "definition": "A function q(x) = ax² + bx + c with a ≠ 0. Its average rates of change over consecutive equal-length input-value intervals are given by a linear function.",
+      "definition": "For a quadratic function, the average rates of change over consecutive equal-length input-value intervals can be given by a linear function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.3 glossary"
+      "sourceLabel": "CED 1.3.A.2"
     },
     {
       "id": "precalculus-1-4-polynomial",
       "term": "Polynomial function",
-      "definition": "A function equivalent to aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀, where n is a positive integer, each aᵢ is a real number, and aₙ ≠ 0.",
+      "definition": "A nonconstant polynomial function of x is any function representation that is equivalent to the analytical form p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + aₙ₋₂xⁿ⁻² + … + a₂x² + a₁x + a₀, where n is a positive integer, aᵢ is a real number for each i from 0 to n, and aₙ is nonzero. A nonzero constant is also a polynomial function of degree zero.",
       "aliases": [
         "polynomial",
         "polynomials"
       ],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-4-degree",
       "term": "Degree",
-      "definition": "The exponent n of the leading term aₙxⁿ of a polynomial.",
+      "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
       "aliases": [],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-4-leading-term",
       "term": "Leading term",
-      "definition": "The term aₙxⁿ of a polynomial with the greatest power of x.",
+      "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
       "aliases": [],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-4-leading-coefficient",
       "term": "Leading coefficient",
-      "definition": "The coefficient aₙ of the leading term of a polynomial.",
+      "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
       "aliases": [],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-4-relative-max",
       "term": "Relative maximum",
-      "definition": "An output value where a function switches from increasing to decreasing, or at an included endpoint, that is greater than nearby output values.",
+      "definition": "Where a polynomial function switches between increasing and decreasing, or at the included endpoint of a polynomial with a restricted domain, the polynomial function will have a local, or relative, maximum or minimum output value.",
       "aliases": [
         "local maximum"
       ],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.2"
     },
     {
       "id": "precalculus-1-4-relative-min",
       "term": "Relative minimum",
-      "definition": "An output value where a function switches from decreasing to increasing, or at an included endpoint, that is less than nearby output values.",
+      "definition": "Where a polynomial function switches between increasing and decreasing, or at the included endpoint of a polynomial with a restricted domain, the polynomial function will have a local, or relative, maximum or minimum output value.",
       "aliases": [
         "local minimum"
       ],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.2"
     },
     {
       "id": "precalculus-1-4-absolute-max",
       "term": "Absolute maximum",
-      "definition": "A relative maximum that is greater than all other output values of the function.",
+      "definition": "If any local maximum is greater than all other function output values, then that local maximum is a global, or absolute, maximum.",
       "aliases": [
         "global maximum"
       ],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.2"
     },
     {
       "id": "precalculus-1-4-absolute-min",
       "term": "Absolute minimum",
-      "definition": "A relative minimum that is less than all other output values of the function.",
+      "definition": "Similarly, if any local minimum is less than all other function output values, then that local minimum is a global, or absolute, minimum.",
       "aliases": [
         "global minimum"
       ],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.2"
+    },
+    {
+      "id": "precalculus-1-4-vertex",
+      "term": "Vertex",
+      "definition": "For a quadratic function, the global maximum or global minimum occurs at the vertex.",
+      "aliases": [],
+      "sourceLabel": "CED 1.4.A.4"
     },
     {
       "id": "precalculus-1-4-inflection",
       "term": "Point of inflection",
-      "definition": "A point where the rate of change of a function changes from increasing to decreasing or from decreasing to increasing, so the graph changes concavity.",
+      "definition": "Points of inflection of a polynomial function occur at input values where the rate of change of the function changes from increasing to decreasing or from decreasing to increasing. This occurs where the graph of a polynomial function changes from concave up to concave down or from concave down to concave up.",
       "aliases": [
         "points of inflection"
       ],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.5"
     }
   ],
   "sources": [

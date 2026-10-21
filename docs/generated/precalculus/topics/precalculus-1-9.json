@@ -267,7 +267,7 @@
     "summary": "Where the graph of a rational function has a vertical asymptote, and how one-sided limits describe the output values near it."
   },
   "framework": null,
-  "contentRevision": "404d9f65fa057d2a",
+  "contentRevision": "95605ab69064efbe",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-9",
@@ -455,13 +455,8 @@
         "id": "precalculus-1-9-vertical-asymptote",
         "topicId": "precalculus-1-9",
         "term": "Vertical asymptote",
-        "definition": "A line x = a near which the output values of a function increase or decrease without bound as the input values approach a."
-      },
-      {
-        "id": "precalculus-1-9-one-sided-limit",
-        "topicId": "precalculus-1-9",
-        "term": "One-sided limit",
-        "definition": "A limit as the input values approach a only from values greater than a, written x→a⁺, or only from values less than a, written x→a⁻."
+        "definition": "If the value a is a real zero of the polynomial function in the denominator of a rational function and is not also a real zero of the polynomial function in the numerator, then the graph of the rational function has a vertical asymptote at x = a. Furthermore, a vertical asymptote also occurs at x = a if the multiplicity of a as a real zero in the denominator is greater than its multiplicity as a real zero in the numerator.",
+        "source": "CED 1.9.A.1"
       }
     ],
     "connections": [
@@ -507,11 +502,8 @@
       "conceptIds": [
         "precalculus-1-1-domain",
         "precalculus-1-5-multiplicity",
-        "precalculus-1-6-without-bound",
-        "precalculus-1-6-limit-notation",
         "precalculus-1-7-rational-function",
-        "precalculus-1-9-vertical-asymptote",
-        "precalculus-1-9-one-sided-limit"
+        "precalculus-1-9-vertical-asymptote"
       ]
     }
   },
@@ -520,57 +512,34 @@
     {
       "id": "precalculus-1-1-domain",
       "term": "Domain",
-      "definition": "The set of input values of a function.",
+      "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-5-multiplicity",
       "term": "Multiplicity",
-      "definition": "The number of times a linear factor (x − a) is repeated in a polynomial, which is the multiplicity of the zero a.",
+      "definition": "If a linear factor (x − a) is repeated n times, the corresponding zero of the polynomial function has a multiplicity n. A polynomial function of degree n has exactly n complex zeros when counting multiplicities.",
       "aliases": [],
-      "sourceLabel": "Topic 1.5 glossary"
-    },
-    {
-      "id": "precalculus-1-6-without-bound",
-      "term": "Without bound",
-      "definition": "Increasing beyond every fixed number, or decreasing below every fixed number.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.6 glossary"
-    },
-    {
-      "id": "precalculus-1-6-limit-notation",
-      "term": "Limit notation",
-      "definition": "Notation such as lim x→∞ p(x) = −∞ that describes what the output values do as the input values increase without bound, decrease without bound, or approach a value.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.6 glossary"
+      "sourceLabel": "CED 1.5.A.2"
     },
     {
       "id": "precalculus-1-7-rational-function",
       "term": "Rational function",
-      "definition": "A function analytically represented as a quotient of two polynomial functions, p(x)/q(x).",
+      "definition": "A rational function is analytically represented as a quotient of two polynomial functions and gives a measure of the relative size of the polynomial function in the numerator compared to the polynomial function in the denominator for each value in the rational function’s domain.",
       "aliases": [
         "rational functions"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.1"
     },
     {
       "id": "precalculus-1-9-vertical-asymptote",
       "term": "Vertical asymptote",
-      "definition": "A line x = a near which the output values of a function increase or decrease without bound as the input values approach a.",
+      "definition": "If the value a is a real zero of the polynomial function in the denominator of a rational function and is not also a real zero of the polynomial function in the numerator, then the graph of the rational function has a vertical asymptote at x = a. Furthermore, a vertical asymptote also occurs at x = a if the multiplicity of a as a real zero in the denominator is greater than its multiplicity as a real zero in the numerator.",
       "aliases": [
         "vertical asymptotes"
       ],
-      "sourceLabel": "Topic 1.9 glossary"
-    },
-    {
-      "id": "precalculus-1-9-one-sided-limit",
-      "term": "One-sided limit",
-      "definition": "A limit as the input values approach a only from values greater than a, written x→a⁺, or only from values less than a, written x→a⁻.",
-      "aliases": [
-        "one-sided limits"
-      ],
-      "sourceLabel": "Topic 1.9 glossary"
+      "sourceLabel": "CED 1.9.A.1"
     }
   ],
   "sources": [

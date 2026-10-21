@@ -267,7 +267,7 @@
     "summary": "Factored and standard forms, polynomial long division, and the binomial theorem, and which form answers which question."
   },
   "framework": null,
-  "contentRevision": "5695312af7169fac",
+  "contentRevision": "6557ebe4cd45103c",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-11",
@@ -348,7 +348,7 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Polynomial long division is an algebraic process similar to numerical long division, involving a quotient and a remainder. If the polynomial f is divided by the polynomial g, then f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) + r(x)/g(x)."
+            "text": "Polynomial long division is an algebraic process similar to numerical long division involving a quotient and remainder. If the polynomial f is divided by the polynomial g, then f can be rewritten as f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g. Dividing by g(x) gives f(x)/g(x) = q(x) + r(x)/g(x)."
           },
           {
             "type": "paragraph",
@@ -458,31 +458,29 @@
         "id": "precalculus-1-11-factored-form",
         "topicId": "precalculus-1-11",
         "term": "Factored form",
-        "definition": "A representation of a polynomial or rational function as a product of factors, which readily shows real zeros, x-intercepts, holes, asymptotes, domain, and range."
+        "definition": "Because the factored form of a polynomial or rational function readily provides information about real zeros, it can reveal information about x-intercepts, asymptotes, holes, domain, and range.",
+        "source": "CED 1.11.A.1"
       },
       {
         "id": "precalculus-1-11-standard-form",
         "topicId": "precalculus-1-11",
         "term": "Standard form",
-        "definition": "A representation of a polynomial as a sum of terms in order of decreasing powers, which readily shows end behavior."
+        "definition": "The standard form of a polynomial or rational function can reveal information about end behaviors of the function.",
+        "source": "CED 1.11.A.2"
       },
       {
         "id": "precalculus-1-11-polynomial-long-division",
         "topicId": "precalculus-1-11",
         "term": "Polynomial long division",
-        "definition": "An algebraic process that rewrites f(x) as g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g."
+        "definition": "Polynomial long division is an algebraic process similar to numerical long division involving a quotient and remainder. If the polynomial f is divided by the polynomial g, then f can be rewritten as f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g.",
+        "source": "CED 1.11.B.1"
       },
       {
         "id": "precalculus-1-11-binomial-theorem",
         "topicId": "precalculus-1-11",
         "term": "Binomial theorem",
-        "definition": "A rule that uses a single row of Pascal's triangle to expand (a + b)ⁿ."
-      },
-      {
-        "id": "precalculus-1-11-pascals-triangle",
-        "topicId": "precalculus-1-11",
-        "term": "Pascal's triangle",
-        "definition": "A triangular array in which each entry is the sum of the two entries above it. Row n gives the coefficients of (a + b)ⁿ."
+        "definition": "The binomial theorem utilizes the entries in a single row of Pascal’s Triangle to more easily expand expressions of the form (a + b)ⁿ, including polynomial functions of the form p(x) = (x + c)ⁿ, where c is a constant.",
+        "source": "CED 1.11.C.1"
       }
     ],
     "connections": [
@@ -532,12 +530,10 @@
         "precalculus-1-7-slant-asymptote",
         "precalculus-1-9-vertical-asymptote",
         "precalculus-1-10-hole",
-        "precalculus-1-10-common-factor",
         "precalculus-1-11-factored-form",
         "precalculus-1-11-standard-form",
         "precalculus-1-11-polynomial-long-division",
-        "precalculus-1-11-binomial-theorem",
-        "precalculus-1-11-pascals-triangle"
+        "precalculus-1-11-binomial-theorem"
       ]
     }
   },
@@ -546,102 +542,86 @@
     {
       "id": "precalculus-1-6-end-behavior",
       "term": "End behavior",
-      "definition": "The behavior of the output values of a function as the input values increase without bound or decrease without bound.",
+      "definition": "The degree and sign of the leading term of a polynomial determines the end behavior of the polynomial function, because as the input values increase or decrease without bound, the values of the leading term dominate the values of all lower-degree terms.",
       "aliases": [
         "end behaviors"
       ],
-      "sourceLabel": "Topic 1.6 glossary"
+      "sourceLabel": "CED 1.6.A.3"
     },
     {
       "id": "precalculus-1-7-rational-function",
       "term": "Rational function",
-      "definition": "A function analytically represented as a quotient of two polynomial functions, p(x)/q(x).",
+      "definition": "A rational function is analytically represented as a quotient of two polynomial functions and gives a measure of the relative size of the polynomial function in the numerator compared to the polynomial function in the denominator for each value in the rational function’s domain.",
       "aliases": [
         "rational functions"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.1"
     },
     {
       "id": "precalculus-1-7-horizontal-asymptote",
       "term": "Horizontal asymptote",
-      "definition": "A line y = b such that the output values get arbitrarily close to b and stay arbitrarily close to b as the input values increase or decrease without bound.",
+      "definition": "When the graph of a rational function r has a horizontal asymptote at y = b, where b is a constant, the output values of the rational function get arbitrarily close to b and stay arbitrarily close to b as input values increase or decrease without bound. The corresponding mathematical notation is lim x→∞ r(x) = b or lim x→−∞ r(x) = b.",
       "aliases": [
         "horizontal asymptotes"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.6"
     },
     {
       "id": "precalculus-1-7-slant-asymptote",
       "term": "Slant asymptote",
-      "definition": "A non-horizontal line that the graph of a rational function approaches as the input values increase or decrease without bound.",
+      "definition": "If the polynomial in the numerator dominates the polynomial in the denominator for input values of large magnitude, then the quotient of the leading terms is a nonconstant polynomial, and the original rational function has the end behavior of that polynomial. If that polynomial is linear, then the graph of the rational function has a slant asymptote parallel to the graph of the line.",
       "aliases": [
         "slant asymptotes"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.3"
     },
     {
       "id": "precalculus-1-9-vertical-asymptote",
       "term": "Vertical asymptote",
-      "definition": "A line x = a near which the output values of a function increase or decrease without bound as the input values approach a.",
+      "definition": "If the value a is a real zero of the polynomial function in the denominator of a rational function and is not also a real zero of the polynomial function in the numerator, then the graph of the rational function has a vertical asymptote at x = a. Furthermore, a vertical asymptote also occurs at x = a if the multiplicity of a as a real zero in the denominator is greater than its multiplicity as a real zero in the numerator.",
       "aliases": [
         "vertical asymptotes"
       ],
-      "sourceLabel": "Topic 1.9 glossary"
+      "sourceLabel": "CED 1.9.A.1"
     },
     {
       "id": "precalculus-1-10-hole",
       "term": "Hole",
-      "definition": "A point (c, L) missing from the graph of a function that is undefined at x = c while lim x→c of the function equals L.",
+      "definition": "If the multiplicity of a real zero in the numerator is greater than or equal to its multiplicity in the denominator, then the graph of the rational function has a hole at the corresponding input value.",
       "aliases": [
         "holes"
       ],
-      "sourceLabel": "Topic 1.10 glossary"
-    },
-    {
-      "id": "precalculus-1-10-common-factor",
-      "term": "Common factor",
-      "definition": "A factor that appears in both the numerator and the denominator of a rational function.",
-      "aliases": [
-        "common factors"
-      ],
-      "sourceLabel": "Topic 1.10 glossary"
+      "sourceLabel": "CED 1.10.A.1"
     },
     {
       "id": "precalculus-1-11-factored-form",
       "term": "Factored form",
-      "definition": "A representation of a polynomial or rational function as a product of factors, which readily shows real zeros, x-intercepts, holes, asymptotes, domain, and range.",
+      "definition": "Because the factored form of a polynomial or rational function readily provides information about real zeros, it can reveal information about x-intercepts, asymptotes, holes, domain, and range.",
       "aliases": [],
-      "sourceLabel": "Topic 1.11 glossary"
+      "sourceLabel": "CED 1.11.A.1"
     },
     {
       "id": "precalculus-1-11-standard-form",
       "term": "Standard form",
-      "definition": "A representation of a polynomial as a sum of terms in order of decreasing powers, which readily shows end behavior.",
+      "definition": "The standard form of a polynomial or rational function can reveal information about end behaviors of the function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.11 glossary"
+      "sourceLabel": "CED 1.11.A.2"
     },
     {
       "id": "precalculus-1-11-polynomial-long-division",
       "term": "Polynomial long division",
-      "definition": "An algebraic process that rewrites f(x) as g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g.",
+      "definition": "Polynomial long division is an algebraic process similar to numerical long division involving a quotient and remainder. If the polynomial f is divided by the polynomial g, then f can be rewritten as f(x) = g(x)q(x) + r(x), where q is the quotient, r is the remainder, and the degree of r is less than the degree of g.",
       "aliases": [
         "long division"
       ],
-      "sourceLabel": "Topic 1.11 glossary"
+      "sourceLabel": "CED 1.11.B.1"
     },
     {
       "id": "precalculus-1-11-binomial-theorem",
       "term": "Binomial theorem",
-      "definition": "A rule that uses a single row of Pascal's triangle to expand (a + b)ⁿ.",
+      "definition": "The binomial theorem utilizes the entries in a single row of Pascal’s Triangle to more easily expand expressions of the form (a + b)ⁿ, including polynomial functions of the form p(x) = (x + c)ⁿ, where c is a constant.",
       "aliases": [],
-      "sourceLabel": "Topic 1.11 glossary"
-    },
-    {
-      "id": "precalculus-1-11-pascals-triangle",
-      "term": "Pascal's triangle",
-      "definition": "A triangular array in which each entry is the sum of the two entries above it. Row n gives the coefficients of (a + b)ⁿ.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.11 glossary"
+      "sourceLabel": "CED 1.11.C.1"
     }
   ],
   "sources": [

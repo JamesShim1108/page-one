@@ -267,7 +267,7 @@
     "summary": "How input values and output values of a function vary together: domain and range, increasing and decreasing, concavity, and zeros."
   },
   "framework": null,
-  "contentRevision": "25bd8ae083881705",
+  "contentRevision": "62d91bdb47dc556f",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-1",
@@ -299,7 +299,7 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "A function is a mathematical relation that maps a set of input values to a set of output values so that each input value is mapped to exactly one output value. The set of input values is the domain, and the set of output values is the range. The variable that represents input values is the independent variable, and the variable that represents output values is the dependent variable."
+            "text": "A function is a mathematical relation that maps a set of input values to a set of output values such that each input value is mapped to exactly one output value. The set of input values is called the domain of the function, and the set of output values is called the range of the function. The variable representing input values is called the independent variable, and the variable representing output values is called the dependent variable."
           },
           {
             "type": "table",
@@ -329,7 +329,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Different input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value the rule gives it: since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of all input values that give it: the preimage of 3 is {0, 1}."
+            "text": "Different input values may share an output value, as 0 and 1 do above. One input value with two output values is not allowed. The image of an input value is the single output value yielded by the function rule. Since f(0) = 3, the image of 0 is 3. The preimage of an output value is the set of input values for which the function rule yields that output value. Here, the preimage of 3 is {0, 1}."
           },
           {
             "type": "paragraph",
@@ -350,7 +350,7 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "A function f is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval if, as the input values increase, the output values always decrease: for all a and b in the interval, if a < b, then f(a) > f(b)."
+            "text": "A function is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b). A function is decreasing over an interval of its domain if, as the input values increase, the output values always decrease. That is, for all a and b in the interval, if a < b, then f(a) > f(b)."
           },
           {
             "type": "table",
@@ -633,73 +633,85 @@
         "id": "precalculus-1-1-function",
         "topicId": "precalculus-1-1",
         "term": "Function",
-        "definition": "A mathematical relation that maps a set of input values to a set of output values so that each input value is mapped to exactly one output value."
+        "definition": "A function is a mathematical relation that maps a set of input values to a set of output values such that each input value is mapped to exactly one output value.",
+        "source": "CED 1.1.A.1"
       },
       {
         "id": "precalculus-1-1-domain",
         "topicId": "precalculus-1-1",
         "term": "Domain",
-        "definition": "The set of input values of a function."
+        "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
+        "source": "CED 1.1.A.1"
       },
       {
         "id": "precalculus-1-1-range",
         "topicId": "precalculus-1-1",
         "term": "Range",
-        "definition": "The set of output values of a function."
+        "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
+        "source": "CED 1.1.A.1"
       },
       {
         "id": "precalculus-1-1-independent-variable",
         "topicId": "precalculus-1-1",
         "term": "Independent variable",
-        "definition": "The variable that represents the input values of a function."
+        "definition": "The variable representing input values is called the independent variable, and the variable representing output values is called the dependent variable.",
+        "source": "CED 1.1.A.1"
       },
       {
         "id": "precalculus-1-1-dependent-variable",
         "topicId": "precalculus-1-1",
         "term": "Dependent variable",
-        "definition": "The variable that represents the output values of a function."
+        "definition": "The variable representing input values is called the independent variable, and the variable representing output values is called the dependent variable.",
+        "source": "CED 1.1.A.1"
       },
       {
         "id": "precalculus-1-1-image",
         "topicId": "precalculus-1-1",
-        "term": "Image",
-        "definition": "The single output value that a function rule gives an input value."
+        "term": "Image of an input value",
+        "definition": "The image of an input value is the single output value yielded by the function rule.",
+        "source": "CED 1.1.A.2"
       },
       {
         "id": "precalculus-1-1-preimage",
         "topicId": "precalculus-1-1",
-        "term": "Preimage",
-        "definition": "The set of input values for which a function rule gives a particular output value."
+        "term": "Preimage of an output value",
+        "definition": "The preimage of an output value is the set of input values for which the function rule yields that output value.",
+        "source": "CED 1.1.A.2"
       },
       {
         "id": "precalculus-1-1-increasing",
         "topicId": "precalculus-1-1",
         "term": "Increasing",
-        "definition": "A function is increasing over an interval if, for all a and b in the interval, a < b implies f(a) < f(b)."
+        "definition": "A function is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b).",
+        "source": "CED 1.1.A.3"
       },
       {
         "id": "precalculus-1-1-decreasing",
         "topicId": "precalculus-1-1",
         "term": "Decreasing",
-        "definition": "A function is decreasing over an interval if, for all a and b in the interval, a < b implies f(a) > f(b)."
+        "definition": "A function is decreasing over an interval of its domain if, as the input values increase, the output values always decrease. That is, for all a and b in the interval, if a < b, then f(a) > f(b).",
+        "source": "CED 1.1.A.4"
       },
       {
         "id": "precalculus-1-1-concave-up",
         "topicId": "precalculus-1-1",
         "term": "Concave up",
-        "definition": "A graph is concave up on intervals in which the rate of change is increasing."
+        "definition": "The graph of a function is concave up on intervals in which the rate of change is increasing.",
+        "source": "CED 1.1.B.3"
       },
       {
         "id": "precalculus-1-1-concave-down",
         "topicId": "precalculus-1-1",
         "term": "Concave down",
-        "definition": "A graph is concave down on intervals in which the rate of change is decreasing."
+        "definition": "The graph of a function is concave down on intervals in which the rate of change is decreasing.",
+        "source": "CED 1.1.B.4"
       },
       {
         "id": "precalculus-1-1-zero",
         "topicId": "precalculus-1-1",
-        "term": "Zero",
-        "definition": "An input value at which the output value of a function is 0. A real zero is where the graph intersects the x-axis."
+        "term": "Zeros of the function",
+        "definition": "The graph intersects the x-axis when the output value is zero. The corresponding input values are said to be zeros of the function.",
+        "source": "CED 1.1.B.5"
       }
     ],
     "connections": [
@@ -754,8 +766,7 @@
         "precalculus-1-1-decreasing",
         "precalculus-1-1-concave-up",
         "precalculus-1-1-concave-down",
-        "precalculus-1-1-zero",
-        "precalculus-1-2-rate-of-change"
+        "precalculus-1-1-zero"
       ]
     }
   },
@@ -764,95 +775,100 @@
     {
       "id": "precalculus-1-1-function",
       "term": "Function",
-      "definition": "A mathematical relation that maps a set of input values to a set of output values so that each input value is mapped to exactly one output value.",
+      "definition": "A function is a mathematical relation that maps a set of input values to a set of output values such that each input value is mapped to exactly one output value.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-1-domain",
       "term": "Domain",
-      "definition": "The set of input values of a function.",
+      "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-1-range",
       "term": "Range",
-      "definition": "The set of output values of a function.",
+      "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-1-independent-variable",
       "term": "Independent variable",
-      "definition": "The variable that represents the input values of a function.",
+      "definition": "The variable representing input values is called the independent variable, and the variable representing output values is called the dependent variable.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-1-dependent-variable",
       "term": "Dependent variable",
-      "definition": "The variable that represents the output values of a function.",
+      "definition": "The variable representing input values is called the independent variable, and the variable representing output values is called the dependent variable.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-1-image",
-      "term": "Image",
-      "definition": "The single output value that a function rule gives an input value.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "term": "Image of an input value",
+      "definition": "The image of an input value is the single output value yielded by the function rule.",
+      "aliases": [
+        "image"
+      ],
+      "sourceLabel": "CED 1.1.A.2"
     },
     {
       "id": "precalculus-1-1-preimage",
-      "term": "Preimage",
-      "definition": "The set of input values for which a function rule gives a particular output value.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "term": "Preimage of an output value",
+      "definition": "The preimage of an output value is the set of input values for which the function rule yields that output value.",
+      "aliases": [
+        "preimage"
+      ],
+      "sourceLabel": "CED 1.1.A.2"
     },
     {
       "id": "precalculus-1-1-increasing",
       "term": "Increasing",
-      "definition": "A function is increasing over an interval if, for all a and b in the interval, a < b implies f(a) < f(b).",
+      "definition": "A function is increasing over an interval of its domain if, as the input values increase, the output values always increase. That is, for all a and b in the interval, if a < b, then f(a) < f(b).",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.3"
     },
     {
       "id": "precalculus-1-1-decreasing",
       "term": "Decreasing",
-      "definition": "A function is decreasing over an interval if, for all a and b in the interval, a < b implies f(a) > f(b).",
+      "definition": "A function is decreasing over an interval of its domain if, as the input values increase, the output values always decrease. That is, for all a and b in the interval, if a < b, then f(a) > f(b).",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.4"
     },
     {
       "id": "precalculus-1-1-concave-up",
       "term": "Concave up",
-      "definition": "A graph is concave up on intervals in which the rate of change is increasing.",
+      "definition": "The graph of a function is concave up on intervals in which the rate of change is increasing.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.3"
     },
     {
       "id": "precalculus-1-1-concave-down",
       "term": "Concave down",
-      "definition": "A graph is concave down on intervals in which the rate of change is decreasing.",
+      "definition": "The graph of a function is concave down on intervals in which the rate of change is decreasing.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.4"
     },
     {
       "id": "precalculus-1-1-zero",
-      "term": "Zero",
-      "definition": "An input value at which the output value of a function is 0. A real zero is where the graph intersects the x-axis.",
+      "term": "Zeros of the function",
+      "definition": "The graph intersects the x-axis when the output value is zero. The corresponding input values are said to be zeros of the function.",
       "aliases": [
-        "zeros"
+        "zeros",
+        "zero"
       ],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.5"
     },
     {
       "id": "precalculus-1-2-rate-of-change",
-      "term": "Rate of change",
-      "definition": "A measure of how fast the output values of a function change as the input values change, over an interval or at a point.",
+      "term": "Rate of change at a point",
+      "definition": "The rate of change of a function at a point quantifies the rate at which output values would change were the input values to change at that point. The rate of change at a point can be approximated by the average rates of change of the function over small intervals containing the point, if such values exist.",
       "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
+      "sourceLabel": "CED 1.2.A.2"
     }
   ],
   "sources": [

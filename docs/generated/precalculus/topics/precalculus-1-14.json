@@ -267,7 +267,7 @@
     "summary": "Constructing polynomial, piecewise-defined, and rational models from conditions, transformations, or regression, and applying a model to answer questions with units."
   },
   "framework": null,
-  "contentRevision": "794a88ebec0d0313",
+  "contentRevision": "338f0830f1adc47c",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-14",
@@ -582,13 +582,15 @@
         "id": "precalculus-1-14-regression",
         "topicId": "precalculus-1-14",
         "term": "Regression",
-        "definition": "A process, done with technology, that finds the constants of a chosen function type that best fits a data set, such as a linear, quadratic, cubic, or quartic regression."
+        "definition": "A model of a data set can be constructed using technology and regressions, including linear, quadratic, cubic, and quartic regressions.",
+        "source": "CED 1.14.A.3"
       },
       {
         "id": "precalculus-1-14-inversely-proportional",
         "topicId": "precalculus-1-14",
         "term": "Inversely proportional",
-        "definition": "Describes two quantities whose product is constant, so one is a constant divided by the other, as in y = k/x. A quantity can also be inversely proportional to the square of another, as in y = k/x²."
+        "definition": "Data sets and aspects of contextual scenarios involving quantities that are inversely proportional can often be modeled by rational functions.",
+        "source": "CED 1.14.B.1"
       }
     ],
     "connections": [
@@ -636,8 +638,6 @@
         "precalculus-1-7-rational-function",
         "precalculus-1-7-horizontal-asymptote",
         "precalculus-1-9-vertical-asymptote",
-        "precalculus-1-12-parent-function",
-        "precalculus-1-13-function-model",
         "precalculus-1-13-piecewise-defined",
         "precalculus-1-14-regression",
         "precalculus-1-14-inversely-proportional"
@@ -649,89 +649,70 @@
     {
       "id": "precalculus-1-2-average-rate",
       "term": "Average rate of change",
-      "definition": "For a function f over a ≤ x ≤ b, the ratio (f(b) − f(a))/(b − a) of the change in output values to the change in input values.",
+      "definition": "The average rate of change of a function over an interval of the function’s domain is the constant rate of change that yields the same change in the output values as the function yielded on that interval of the function’s domain. It is the ratio of the change in the output values to the change in input values over that interval.",
       "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
+      "sourceLabel": "CED 1.2.A.1"
     },
     {
       "id": "precalculus-1-7-rational-function",
       "term": "Rational function",
-      "definition": "A function analytically represented as a quotient of two polynomial functions, p(x)/q(x).",
+      "definition": "A rational function is analytically represented as a quotient of two polynomial functions and gives a measure of the relative size of the polynomial function in the numerator compared to the polynomial function in the denominator for each value in the rational function’s domain.",
       "aliases": [
         "rational functions"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.1"
     },
     {
       "id": "precalculus-1-7-horizontal-asymptote",
       "term": "Horizontal asymptote",
-      "definition": "A line y = b such that the output values get arbitrarily close to b and stay arbitrarily close to b as the input values increase or decrease without bound.",
+      "definition": "When the graph of a rational function r has a horizontal asymptote at y = b, where b is a constant, the output values of the rational function get arbitrarily close to b and stay arbitrarily close to b as input values increase or decrease without bound. The corresponding mathematical notation is lim x→∞ r(x) = b or lim x→−∞ r(x) = b.",
       "aliases": [
         "horizontal asymptotes"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.6"
     },
     {
       "id": "precalculus-1-9-vertical-asymptote",
       "term": "Vertical asymptote",
-      "definition": "A line x = a near which the output values of a function increase or decrease without bound as the input values approach a.",
+      "definition": "If the value a is a real zero of the polynomial function in the denominator of a rational function and is not also a real zero of the polynomial function in the numerator, then the graph of the rational function has a vertical asymptote at x = a. Furthermore, a vertical asymptote also occurs at x = a if the multiplicity of a as a real zero in the denominator is greater than its multiplicity as a real zero in the numerator.",
       "aliases": [
         "vertical asymptotes"
       ],
-      "sourceLabel": "Topic 1.9 glossary"
-    },
-    {
-      "id": "precalculus-1-12-parent-function",
-      "term": "Parent function",
-      "definition": "A basic function of a function type, such as x², x³, or 1/x, from which other functions of that type are built by transformations.",
-      "aliases": [
-        "parent functions"
-      ],
-      "sourceLabel": "Topic 1.12 glossary"
-    },
-    {
-      "id": "precalculus-1-13-function-model",
-      "term": "Function model",
-      "definition": "A function chosen to describe how two quantities in a data set or contextual scenario are related.",
-      "aliases": [
-        "model",
-        "models"
-      ],
-      "sourceLabel": "Topic 1.13 glossary"
+      "sourceLabel": "CED 1.9.A.1"
     },
     {
       "id": "precalculus-1-13-piecewise-defined",
       "term": "Piecewise-defined function",
-      "definition": "A function made of a set of functions defined over nonoverlapping domain intervals.",
+      "definition": "A piecewise-defined function consists of a set of functions defined over nonoverlapping domain intervals and is useful for modeling a data set or contextual scenario that demonstrates different characteristics over different intervals.",
       "aliases": [
         "piecewise-defined"
       ],
-      "sourceLabel": "Topic 1.13 glossary"
+      "sourceLabel": "CED 1.13.A.7"
     },
     {
       "id": "precalculus-1-13-assumption",
-      "term": "Assumption",
-      "definition": "A condition a model takes to be true, such as what stays consistent or how the quantities change together.",
+      "term": "Underlying assumptions",
+      "definition": "A model may have underlying assumptions about what is consistent in the model. A model may have underlying assumptions about how quantities change together.",
       "aliases": [
         "assumptions"
       ],
-      "sourceLabel": "Topic 1.13 glossary"
+      "sourceLabel": "CED 1.13.B.1, 1.13.B.2"
     },
     {
       "id": "precalculus-1-14-regression",
       "term": "Regression",
-      "definition": "A process, done with technology, that finds the constants of a chosen function type that best fits a data set, such as a linear, quadratic, cubic, or quartic regression.",
+      "definition": "A model of a data set can be constructed using technology and regressions, including linear, quadratic, cubic, and quartic regressions.",
       "aliases": [
         "regressions"
       ],
-      "sourceLabel": "Topic 1.14 glossary"
+      "sourceLabel": "CED 1.14.A.3"
     },
     {
       "id": "precalculus-1-14-inversely-proportional",
       "term": "Inversely proportional",
-      "definition": "Describes two quantities whose product is constant, so one is a constant divided by the other, as in y = k/x. A quantity can also be inversely proportional to the square of another, as in y = k/x².",
+      "definition": "Data sets and aspects of contextual scenarios involving quantities that are inversely proportional can often be modeled by rational functions.",
       "aliases": [],
-      "sourceLabel": "Topic 1.14 glossary"
+      "sourceLabel": "CED 1.14.B.1"
     }
   ],
   "sources": [

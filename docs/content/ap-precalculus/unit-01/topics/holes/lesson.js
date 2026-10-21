@@ -2,246 +2,289 @@
 // Math is plain text: use − (minus), ², ³, √, ≤, ≥, ∞, → and write fractions as (numerator)/(denominator).
 
 export const lesson = {
-  schemaVersion: 1,
-  id: "precalculus-1-10",
-  courseId: "precalculus",
-  unitId: "precalculus-1",
-  order: 10,
-  code: "1.10",
-  title: "Rational Functions and Holes",
-  period: "Unit 1",
-  status: "ready",
-  summary:
-    "When the graph of a rational function has a hole instead of a vertical asymptote, and how a limit locates the hole.",
-  minutes: 12,
-  learningGoals: ["1.10.A Determine holes in graphs of rational functions."],
-  labels: {
-    goals: "AP learning objectives",
-    learn: "Understand the mathematics.",
-    context: "Where this fits.",
+  "schemaVersion": 1,
+  "id": "precalculus-1-10",
+  "courseId": "precalculus",
+  "unitId": "precalculus-1",
+  "order": 10,
+  "code": "1.10",
+  "title": "Rational Functions and Holes",
+  "period": "Unit 1",
+  "status": "ready",
+  "summary": "When the graph of a rational function has a hole instead of a vertical asymptote, and how a limit locates the hole.",
+  "minutes": 12,
+  "learningGoals": [
+    "1.10.A Determine holes in graphs of rational functions."
+  ],
+  "labels": {
+    "goals": "AP learning objectives",
+    "learn": "Understand the mathematics.",
+    "context": "Where this fits."
   },
-  bigIdea:
-    "A rational function can be undefined at x = c without a vertical asymptote. If the multiplicity of c as a real zero of the numerator is at least its multiplicity in the denominator, the output values approach a single value L and the graph has a hole at (c, L).",
-  context:
-    "Topic 1.9 compared multiplicities to find vertical asymptotes. This topic covers the other outcome of that comparison, and it uses a two-sided limit to give the coordinates of the hole.",
-  sections: [
+  "bigIdea": "A rational function can be undefined at x = c without a vertical asymptote. If the multiplicity of c as a real zero of the numerator is at least its multiplicity in the denominator, the output values approach a single value L and the graph has a hole at (c, L).",
+  "context": "Topic 1.9 compared multiplicities to find vertical asymptotes. This topic covers the other outcome of that comparison, and it uses a two-sided limit to give the coordinates of the hole.",
+  "sections": [
     {
-      id: "hole-condition",
-      title:
-        "1.10.A · A hole occurs when the numerator's multiplicity is at least the denominator's.",
-      conceptTitle: "The condition for a hole",
-      blocks: [
+      "id": "hole-condition",
+      "title": "1.10.A · A hole occurs when the numerator's multiplicity is at least the denominator's.",
+      "conceptTitle": "The condition for a hole",
+      "blocks": [
         {
-          type: "paragraph",
-          text: "If the multiplicity of a real zero in the numerator is greater than or equal to its multiplicity in the denominator, then the graph of the rational function has a hole at the corresponding input value. The function is undefined there, but after the common factors are removed, no factor of the denominator is 0 at that input value.",
+          "type": "paragraph",
+          "text": "If the multiplicity of a real zero in the numerator is greater than or equal to its multiplicity in the denominator, then the graph of the rational function has a hole at the corresponding input value. The function is undefined there, but after the common factors are removed, no factor of the denominator is 0 at that input value."
         },
         {
-          type: "table",
-          caption: "Comparing multiplicities at x = 2",
-          columns: [
+          "type": "table",
+          "caption": "Comparing multiplicities at x = 2",
+          "columns": [
             "Function",
             "Multiplicity of 2 in numerator",
             "Multiplicity of 2 in denominator",
-            "At x = 2",
+            "At x = 2"
           ],
-          rows: [
-            ["(x − 2)²/(x − 2)", "2", "1", "Hole"],
-            ["(x − 2)(x + 1)/(x − 2)", "1", "1", "Hole"],
-            ["(x − 2)/(x − 2)²", "1", "2", "Vertical asymptote"],
-          ],
-        },
+          "rows": [
+            [
+              "(x − 2)²/(x − 2)",
+              "2",
+              "1",
+              "Hole"
+            ],
+            [
+              "(x − 2)(x + 1)/(x − 2)",
+              "1",
+              "1",
+              "Hole"
+            ],
+            [
+              "(x − 2)/(x − 2)²",
+              "1",
+              "2",
+              "Vertical asymptote"
+            ]
+          ]
+        }
       ],
-      takeaway:
-        "Numerator multiplicity ≥ denominator multiplicity gives a hole. Otherwise there is a vertical asymptote.",
+      "takeaway": "Numerator multiplicity ≥ denominator multiplicity gives a hole. Otherwise there is a vertical asymptote."
     },
     {
-      id: "hole-location",
-      title: "1.10.A · The hole is at (c, L), where lim x→c r(x) = L.",
-      conceptTitle: "Locating a hole",
-      blocks: [
+      "id": "hole-location",
+      "title": "1.10.A · The hole is at (c, L), where lim x→c r(x) = L.",
+      "conceptTitle": "Locating a hole",
+      "blocks": [
         {
-          type: "paragraph",
-          text: "If the graph of r has a hole at x = c, the location of the hole is found from the output values for input values close to c. If those output values are arbitrarily close to L, the hole is at the point (c, L), and lim x→c r(x) = L. In this case lim x→c⁻ r(x) = lim x→c⁺ r(x) = lim x→c r(x) = L.",
+          "type": "paragraph",
+          "text": "If the graph of r has a hole at x = c, the location of the hole is found from the output values for input values close to c. If those output values are arbitrarily close to L, the hole is at the point (c, L), and lim x→c r(x) = L. In this case lim x→c⁻ r(x) = lim x→c⁺ r(x) = lim x→c r(x) = L."
         },
         {
-          type: "table",
-          caption: "Values of r(x) = (x² − 4)/(x − 2) near x = 2",
-          columns: ["x", "r(x)"],
-          rows: [
-            ["1.9", "3.900"],
-            ["1.99", "3.990"],
-            ["1.999", "3.999"],
-            ["2", "undefined"],
-            ["2.001", "4.001"],
-            ["2.01", "4.010"],
-            ["2.1", "4.100"],
+          "type": "table",
+          "caption": "Values of r(x) = (x² − 4)/(x − 2) near x = 2",
+          "columns": [
+            "x",
+            "r(x)"
           ],
+          "rows": [
+            [
+              "1.9",
+              "3.900"
+            ],
+            [
+              "1.99",
+              "3.990"
+            ],
+            [
+              "1.999",
+              "3.999"
+            ],
+            [
+              "2",
+              "undefined"
+            ],
+            [
+              "2.001",
+              "4.001"
+            ],
+            [
+              "2.01",
+              "4.010"
+            ],
+            [
+              "2.1",
+              "4.100"
+            ]
+          ]
         },
         {
-          type: "paragraph",
-          text: "Analytically, r(x) = (x − 2)(x + 2)/(x − 2) = x + 2 for x ≠ 2, and x + 2 equals 4 at x = 2. So lim x→2 r(x) = 4 and the hole is at (2, 4).",
+          "type": "paragraph",
+          "text": "Analytically, r(x) = (x − 2)(x + 2)/(x − 2) = x + 2 for x ≠ 2, and x + 2 equals 4 at x = 2. So lim x→2 r(x) = 4 and the hole is at (2, 4)."
         },
         {
-          type: "callout",
-          title: "Write it like the AP Exam",
-          text: "Because x − 2 is a factor of both the numerator and the denominator with equal multiplicity, the graph of r has a hole at x = 2. Since lim x→2 r(x) = 4, the hole is located at (2, 4).",
+          "type": "callout",
+          "title": "Write it like the AP Exam",
+          "text": "Because x − 2 is a factor of both the numerator and the denominator with equal multiplicity, the graph of r has a hole at x = 2. Since lim x→2 r(x) = 4, the hole is located at (2, 4)."
         },
         {
-          type: "graph",
-          caption:
-            "Graph of r(x) = (x² − 4)/(x − 2): the line y = x + 2 with a hole at (2, 4)",
-          alt: "A straight line rising through (−2, 0) with an open circle at (2, 4), where the function is undefined.",
-          window: {
-            x: [-4, 5],
-            y: [-2, 8],
+          "type": "graph",
+          "caption": "Graph of r(x) = (x² − 4)/(x − 2): the line y = x + 2 with a hole at (2, 4)",
+          "alt": "A straight line rising through (−2, 0) with an open circle at (2, 4), where the function is undefined.",
+          "window": {
+            "x": [
+              -4,
+              5
+            ],
+            "y": [
+              -2,
+              8
+            ]
           },
-          ticks: {
-            x: 1,
-            y: 1,
+          "ticks": {
+            "x": 1,
+            "y": 1
           },
-          functions: [
+          "functions": [
             {
-              expr: "(x^2 - 4)/(x - 2)",
-              label: "r",
-              labelAt: -1,
-              labelPosition: "nw",
-            },
+              "expr": "(x^2 - 4)/(x - 2)",
+              "label": "r",
+              "labelAt": -1,
+              "labelPosition": "nw"
+            }
           ],
-          points: [
+          "points": [
             {
-              at: [2, 4],
-              open: true,
-              label: "(2, 4)",
-              position: "se",
-            },
-          ],
-        },
+              "at": [
+                2,
+                4
+              ],
+              "open": true,
+              "label": "(2, 4)",
+              "position": "se"
+            }
+          ]
+        }
       ],
-      takeaway: "Remove the common factor, then evaluate what remains at c to find L.",
+      "takeaway": "Remove the common factor, then evaluate what remains at c to find L."
     },
     {
-      id: "hole-or-asymptote",
-      title: "1.10.A · One function can have both a hole and a vertical asymptote.",
-      conceptTitle: "Holes and vertical asymptotes",
-      blocks: [
+      "id": "hole-or-asymptote",
+      "title": "1.10.A · One function can have both a hole and a vertical asymptote.",
+      "conceptTitle": "Holes and vertical asymptotes",
+      "blocks": [
         {
-          type: "list",
-          title: "Deciding at each real zero of the denominator",
-          items: [
+          "type": "list",
+          "title": "Deciding at each real zero of the denominator",
+          "items": [
             "Factor the numerator and the denominator completely.",
             "If the zero's multiplicity in the numerator is at least its multiplicity in the denominator, there is a hole. Find L with a limit.",
-            "Otherwise there is a vertical asymptote. Describe it with one-sided limits.",
-          ],
+            "Otherwise there is a vertical asymptote. Describe it with one-sided limits."
+          ]
         },
         {
-          type: "paragraph",
-          text: "For r(x) = (x − 1)(x + 3)/((x − 1)(x − 2)): at x = 1 the multiplicities are equal, so there is a hole, and lim x→1 r(x) = (1 + 3)/(1 − 2) = −4, so the hole is at (1, −4). At x = 2 the numerator is not 0, so there is a vertical asymptote at x = 2.",
+          "type": "paragraph",
+          "text": "For r(x) = (x − 1)(x + 3)/((x − 1)(x − 2)): at x = 1 the multiplicities are equal, so there is a hole, and lim x→1 r(x) = (1 + 3)/(1 − 2) = −4, so the hole is at (1, −4). At x = 2 the numerator is not 0, so there is a vertical asymptote at x = 2."
         },
         {
-          type: "graph",
-          caption:
-            "Graph of r(x) = (x − 1)(x + 3)/((x − 1)(x − 2)): a hole at (1, −4) and a vertical asymptote at x = 2",
-          alt: "A two-branch rational curve with a dashed vertical asymptote at x = 2, a dashed horizontal asymptote at y = 1, and an open circle at (1, −4) on the left branch.",
-          window: {
-            x: [-6, 8],
-            y: [-10, 10],
+          "type": "graph",
+          "caption": "Graph of r(x) = (x − 1)(x + 3)/((x − 1)(x − 2)): a hole at (1, −4) and a vertical asymptote at x = 2",
+          "alt": "A two-branch rational curve with a dashed vertical asymptote at x = 2, a dashed horizontal asymptote at y = 1, and an open circle at (1, −4) on the left branch.",
+          "window": {
+            "x": [
+              -6,
+              8
+            ],
+            "y": [
+              -10,
+              10
+            ]
           },
-          ticks: {
-            x: 1,
-            y: 2,
+          "ticks": {
+            "x": 1,
+            "y": 2
           },
-          functions: [
+          "functions": [
             {
-              expr: "(x - 1)(x + 3)/((x - 1)(x - 2))",
-              label: "r",
-              labelAt: 5,
-              labelPosition: "ne",
-            },
+              "expr": "(x - 1)(x + 3)/((x - 1)(x - 2))",
+              "label": "r",
+              "labelAt": 5,
+              "labelPosition": "ne"
+            }
           ],
-          asymptotes: [
+          "asymptotes": [
             {
-              x: 2,
+              "x": 2
             },
             {
-              y: 1,
-            },
+              "y": 1
+            }
           ],
-          points: [
+          "points": [
             {
-              at: [1, -4],
-              open: true,
-              label: "(1, −4)",
-              position: "w",
-            },
-          ],
-        },
+              "at": [
+                1,
+                -4
+              ],
+              "open": true,
+              "label": "(1, −4)",
+              "position": "w"
+            }
+          ]
+        }
       ],
-      takeaway: "Check every real zero of the denominator separately.",
-    },
+      "takeaway": "Check every real zero of the denominator separately."
+    }
   ],
-  vocabulary: [
+  "vocabulary": [
     {
-      id: "precalculus-1-10-hole",
-      topicId: "precalculus-1-10",
-      term: "Hole",
-      definition:
-        "A point (c, L) missing from the graph of a function that is undefined at x = c while lim x→c of the function equals L.",
-    },
-    {
-      id: "precalculus-1-10-common-factor",
-      topicId: "precalculus-1-10",
-      term: "Common factor",
-      definition:
-        "A factor that appears in both the numerator and the denominator of a rational function.",
-    },
+      "id": "precalculus-1-10-hole",
+      "topicId": "precalculus-1-10",
+      "term": "Hole",
+      "definition": "If the multiplicity of a real zero in the numerator is greater than or equal to its multiplicity in the denominator, then the graph of the rational function has a hole at the corresponding input value.",
+      "source": "CED 1.10.A.1"
+    }
   ],
-  connections: [
+  "connections": [
     {
-      id: "precalculus-1-10-c1",
-      topicId: "precalculus-1-10",
-      type: "Look back",
-      title: "Two outcomes of one comparison",
-      body: "Topic 1.9 found a vertical asymptote when a zero's multiplicity in the denominator is greater than in the numerator. When it is not greater, the graph has a hole.",
-      transferQuestion:
-        "What single comparison decides between a hole and a vertical asymptote at x = c?",
-      feedback:
-        "Compare the multiplicity of c as a zero of the numerator with its multiplicity as a zero of the denominator.",
-      links: [
+      "id": "precalculus-1-10-c1",
+      "topicId": "precalculus-1-10",
+      "type": "Look back",
+      "title": "Two outcomes of one comparison",
+      "body": "Topic 1.9 found a vertical asymptote when a zero's multiplicity in the denominator is greater than in the numerator. When it is not greater, the graph has a hole.",
+      "transferQuestion": "What single comparison decides between a hole and a vertical asymptote at x = c?",
+      "feedback": "Compare the multiplicity of c as a zero of the numerator with its multiplicity as a zero of the denominator.",
+      "links": [
         {
-          topicId: "precalculus-1-9",
-          sectionId: "where-asymptotes",
-          label: "Review vertical asymptotes",
-        },
-      ],
+          "topicId": "precalculus-1-9",
+          "sectionId": "where-asymptotes",
+          "label": "Review vertical asymptotes"
+        }
+      ]
     },
     {
-      id: "precalculus-1-10-c2",
-      topicId: "precalculus-1-10",
-      type: "Looking ahead",
-      title: "Factored form reveals holes",
-      body: "Topic 1.11 explains why a factored form is the best representation for finding real zeros, holes, asymptotes, domain, and range.",
-      transferQuestion: "Why might an expanded form hide a hole?",
-      feedback:
-        "The common factor is not visible until the numerator and denominator are factored.",
-      links: [
+      "id": "precalculus-1-10-c2",
+      "topicId": "precalculus-1-10",
+      "type": "Looking ahead",
+      "title": "Factored form reveals holes",
+      "body": "Topic 1.11 explains why a factored form is the best representation for finding real zeros, holes, asymptotes, domain, and range.",
+      "transferQuestion": "Why might an expanded form hide a hole?",
+      "feedback": "The common factor is not visible until the numerator and denominator are factored.",
+      "links": [
         {
-          topicId: "precalculus-1-11",
-          sectionId: "choose-form",
-          label: "Preview equivalent forms",
-        },
-      ],
-    },
+          "topicId": "precalculus-1-11",
+          "sectionId": "choose-form",
+          "label": "Preview equivalent forms"
+        }
+      ]
+    }
   ],
-  sourceIds: ["ced", "ced-topic-1-10"],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
+  "sourceIds": [
+    "ced",
+    "ced-topic-1-10"
+  ],
+  "definitionCoverage": {
+    "status": "required",
+    "conceptIds": [
       "precalculus-1-5-multiplicity",
       "precalculus-1-7-rational-function",
       "precalculus-1-9-vertical-asymptote",
-      "precalculus-1-9-one-sided-limit",
-      "precalculus-1-10-hole",
-      "precalculus-1-10-common-factor",
-    ],
-  },
+      "precalculus-1-10-hole"
+    ]
+  }
 };

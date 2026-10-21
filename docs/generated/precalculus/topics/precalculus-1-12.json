@@ -267,7 +267,7 @@
     "summary": "Additive and multiplicative transformations: translations, dilations, and reflections, combined transformations, and their effect on domain, range, and asymptotes."
   },
   "framework": null,
-  "contentRevision": "ce681d9c26e94551",
+  "contentRevision": "7ce49dfee53e0476",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-12",
@@ -575,28 +575,32 @@
     ],
     "vocabulary": [
       {
-        "id": "precalculus-1-12-translation",
+        "id": "precalculus-1-12-vertical-translation",
         "topicId": "precalculus-1-12",
-        "term": "Translation",
-        "definition": "A transformation that shifts every point of a graph the same distance horizontally or vertically. f(x) + k translates vertically by k units, and f(x + h) translates horizontally by −h units."
+        "term": "Vertical translation",
+        "definition": "The function g(x) = f(x) + k is an additive transformation of the function f that results in a vertical translation of the graph of f by k units.",
+        "source": "CED 1.12.A.1"
       },
       {
-        "id": "precalculus-1-12-dilation",
+        "id": "precalculus-1-12-horizontal-translation",
         "topicId": "precalculus-1-12",
-        "term": "Dilation",
-        "definition": "A transformation that stretches or compresses a graph. a·f(x) is a vertical dilation by a factor of |a|, and f(bx) is a horizontal dilation by a factor of 1/|b|."
+        "term": "Horizontal translation",
+        "definition": "The function g(x) = f(x + h) is an additive transformation of the function f that results in a horizontal translation of the graph of f by −h units.",
+        "source": "CED 1.12.A.2"
       },
       {
-        "id": "precalculus-1-12-reflection",
+        "id": "precalculus-1-12-vertical-dilation",
         "topicId": "precalculus-1-12",
-        "term": "Reflection",
-        "definition": "A transformation that flips a graph over the x-axis, as in a·f(x) with a < 0, or over the y-axis, as in f(bx) with b < 0."
+        "term": "Vertical dilation",
+        "definition": "The function g(x) = af(x), where a ≠ 0, is a multiplicative transformation of the function f that results in a vertical dilation of the graph of f by a factor of |a|. If a < 0, the transformation involves a reflection over the x-axis.",
+        "source": "CED 1.12.A.3"
       },
       {
-        "id": "precalculus-1-12-parent-function",
+        "id": "precalculus-1-12-horizontal-dilation",
         "topicId": "precalculus-1-12",
-        "term": "Parent function",
-        "definition": "A basic function of a function type, such as x², x³, or 1/x, from which other functions of that type are built by transformations."
+        "term": "Horizontal dilation",
+        "definition": "The function g(x) = f(bx), where b ≠ 0, is a multiplicative transformation of the function f that results in a horizontal dilation of the graph of f by a factor of |1/b|. If b < 0, the transformation involves a reflection over the y-axis.",
+        "source": "CED 1.12.A.4"
       }
     ],
     "connections": [
@@ -644,10 +648,10 @@
         "precalculus-1-1-range",
         "precalculus-1-7-horizontal-asymptote",
         "precalculus-1-9-vertical-asymptote",
-        "precalculus-1-12-translation",
-        "precalculus-1-12-dilation",
-        "precalculus-1-12-reflection",
-        "precalculus-1-12-parent-function"
+        "precalculus-1-12-vertical-translation",
+        "precalculus-1-12-horizontal-translation",
+        "precalculus-1-12-vertical-dilation",
+        "precalculus-1-12-horizontal-dilation"
       ]
     }
   },
@@ -656,72 +660,62 @@
     {
       "id": "precalculus-1-1-domain",
       "term": "Domain",
-      "definition": "The set of input values of a function.",
+      "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-1-range",
       "term": "Range",
-      "definition": "The set of output values of a function.",
+      "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-7-horizontal-asymptote",
       "term": "Horizontal asymptote",
-      "definition": "A line y = b such that the output values get arbitrarily close to b and stay arbitrarily close to b as the input values increase or decrease without bound.",
+      "definition": "When the graph of a rational function r has a horizontal asymptote at y = b, where b is a constant, the output values of the rational function get arbitrarily close to b and stay arbitrarily close to b as input values increase or decrease without bound. The corresponding mathematical notation is lim x→∞ r(x) = b or lim x→−∞ r(x) = b.",
       "aliases": [
         "horizontal asymptotes"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.6"
     },
     {
       "id": "precalculus-1-9-vertical-asymptote",
       "term": "Vertical asymptote",
-      "definition": "A line x = a near which the output values of a function increase or decrease without bound as the input values approach a.",
+      "definition": "If the value a is a real zero of the polynomial function in the denominator of a rational function and is not also a real zero of the polynomial function in the numerator, then the graph of the rational function has a vertical asymptote at x = a. Furthermore, a vertical asymptote also occurs at x = a if the multiplicity of a as a real zero in the denominator is greater than its multiplicity as a real zero in the numerator.",
       "aliases": [
         "vertical asymptotes"
       ],
-      "sourceLabel": "Topic 1.9 glossary"
+      "sourceLabel": "CED 1.9.A.1"
     },
     {
-      "id": "precalculus-1-12-translation",
-      "term": "Translation",
-      "definition": "A transformation that shifts every point of a graph the same distance horizontally or vertically. f(x) + k translates vertically by k units, and f(x + h) translates horizontally by −h units.",
-      "aliases": [
-        "translations",
-        "translated"
-      ],
-      "sourceLabel": "Topic 1.12 glossary"
+      "id": "precalculus-1-12-vertical-translation",
+      "term": "Vertical translation",
+      "definition": "The function g(x) = f(x) + k is an additive transformation of the function f that results in a vertical translation of the graph of f by k units.",
+      "aliases": [],
+      "sourceLabel": "CED 1.12.A.1"
     },
     {
-      "id": "precalculus-1-12-dilation",
-      "term": "Dilation",
-      "definition": "A transformation that stretches or compresses a graph. a·f(x) is a vertical dilation by a factor of |a|, and f(bx) is a horizontal dilation by a factor of 1/|b|.",
-      "aliases": [
-        "dilations",
-        "dilated"
-      ],
-      "sourceLabel": "Topic 1.12 glossary"
+      "id": "precalculus-1-12-horizontal-translation",
+      "term": "Horizontal translation",
+      "definition": "The function g(x) = f(x + h) is an additive transformation of the function f that results in a horizontal translation of the graph of f by −h units.",
+      "aliases": [],
+      "sourceLabel": "CED 1.12.A.2"
     },
     {
-      "id": "precalculus-1-12-reflection",
-      "term": "Reflection",
-      "definition": "A transformation that flips a graph over the x-axis, as in a·f(x) with a < 0, or over the y-axis, as in f(bx) with b < 0.",
-      "aliases": [
-        "reflections"
-      ],
-      "sourceLabel": "Topic 1.12 glossary"
+      "id": "precalculus-1-12-vertical-dilation",
+      "term": "Vertical dilation",
+      "definition": "The function g(x) = af(x), where a ≠ 0, is a multiplicative transformation of the function f that results in a vertical dilation of the graph of f by a factor of |a|. If a < 0, the transformation involves a reflection over the x-axis.",
+      "aliases": [],
+      "sourceLabel": "CED 1.12.A.3"
     },
     {
-      "id": "precalculus-1-12-parent-function",
-      "term": "Parent function",
-      "definition": "A basic function of a function type, such as x², x³, or 1/x, from which other functions of that type are built by transformations.",
-      "aliases": [
-        "parent functions"
-      ],
-      "sourceLabel": "Topic 1.12 glossary"
+      "id": "precalculus-1-12-horizontal-dilation",
+      "term": "Horizontal dilation",
+      "definition": "The function g(x) = f(bx), where b ≠ 0, is a multiplicative transformation of the function f that results in a horizontal dilation of the graph of f by a factor of |1/b|. If b < 0, the transformation involves a reflection over the y-axis.",
+      "aliases": [],
+      "sourceLabel": "CED 1.12.A.4"
     }
   ],
   "sources": [

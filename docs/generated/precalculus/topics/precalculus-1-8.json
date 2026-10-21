@@ -267,7 +267,7 @@
     "summary": "The real zeros of a rational function, and how the real zeros of its numerator and denominator determine where it is positive or negative."
   },
   "framework": null,
-  "contentRevision": "82896422d7d434ef",
+  "contentRevision": "87e537f9cc98f45c",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-8",
@@ -439,16 +439,18 @@
     ],
     "vocabulary": [
       {
-        "id": "precalculus-1-8-rational-inequality",
+        "id": "precalculus-1-8-rational-zeros",
         "topicId": "precalculus-1-8",
-        "term": "Rational inequality",
-        "definition": "An inequality such as r(x) ≥ 0 or r(x) < 0 in which r is a rational function."
+        "term": "Real zeros of a rational function",
+        "definition": "The real zeros of a rational function correspond to the real zeros of the numerator for such values in its domain.",
+        "source": "CED 1.8.A.1"
       },
       {
-        "id": "precalculus-1-8-test-value",
+        "id": "precalculus-1-8-rational-inequality",
         "topicId": "precalculus-1-8",
-        "term": "Test value",
-        "definition": "An input value chosen in an interval to find the sign of a function on that interval."
+        "term": "Rational function inequalities",
+        "definition": "The real zeros of both polynomial functions of a rational function r are endpoints or asymptotes for intervals satisfying the rational function inequalities r(x) ≥ 0 or r(x) ≤ 0.",
+        "source": "CED 1.8.A.2"
       }
     ],
     "connections": [
@@ -494,8 +496,8 @@
       "conceptIds": [
         "precalculus-1-1-zero",
         "precalculus-1-7-rational-function",
-        "precalculus-1-8-rational-inequality",
-        "precalculus-1-8-test-value"
+        "precalculus-1-8-rational-zeros",
+        "precalculus-1-8-rational-inequality"
       ]
     }
   },
@@ -503,39 +505,38 @@
   "glossary": [
     {
       "id": "precalculus-1-1-zero",
-      "term": "Zero",
-      "definition": "An input value at which the output value of a function is 0. A real zero is where the graph intersects the x-axis.",
+      "term": "Zeros of the function",
+      "definition": "The graph intersects the x-axis when the output value is zero. The corresponding input values are said to be zeros of the function.",
       "aliases": [
-        "zeros"
+        "zeros",
+        "zero"
       ],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.5"
     },
     {
       "id": "precalculus-1-7-rational-function",
       "term": "Rational function",
-      "definition": "A function analytically represented as a quotient of two polynomial functions, p(x)/q(x).",
+      "definition": "A rational function is analytically represented as a quotient of two polynomial functions and gives a measure of the relative size of the polynomial function in the numerator compared to the polynomial function in the denominator for each value in the rational function’s domain.",
       "aliases": [
         "rational functions"
       ],
-      "sourceLabel": "Topic 1.7 glossary"
+      "sourceLabel": "CED 1.7.A.1"
+    },
+    {
+      "id": "precalculus-1-8-rational-zeros",
+      "term": "Real zeros of a rational function",
+      "definition": "The real zeros of a rational function correspond to the real zeros of the numerator for such values in its domain.",
+      "aliases": [],
+      "sourceLabel": "CED 1.8.A.1"
     },
     {
       "id": "precalculus-1-8-rational-inequality",
-      "term": "Rational inequality",
-      "definition": "An inequality such as r(x) ≥ 0 or r(x) < 0 in which r is a rational function.",
+      "term": "Rational function inequalities",
+      "definition": "The real zeros of both polynomial functions of a rational function r are endpoints or asymptotes for intervals satisfying the rational function inequalities r(x) ≥ 0 or r(x) ≤ 0.",
       "aliases": [
         "rational inequalities"
       ],
-      "sourceLabel": "Topic 1.8 glossary"
-    },
-    {
-      "id": "precalculus-1-8-test-value",
-      "term": "Test value",
-      "definition": "An input value chosen in an interval to find the sign of a function on that interval.",
-      "aliases": [
-        "test values"
-      ],
-      "sourceLabel": "Topic 1.8 glossary"
+      "sourceLabel": "CED 1.8.A.2"
     }
   ],
   "sources": [

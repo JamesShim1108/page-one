@@ -345,3 +345,14 @@
     overflow-y: auto;
   }
 }
+
+/* The course framework statement a Key Term is quoted from, such as CED 1.1.A.1. */
+.term-source {
+  display: inline-block;
+  margin-left: 0.25rem;
+  color: var(--muted);
+  font: 600 var(--text-xs) / 1.4 var(--sans);
+  font-style: normal;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}

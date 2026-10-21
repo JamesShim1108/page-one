@@ -267,7 +267,7 @@
     "summary": "Zeros and linear factors, multiplicity, complex zeros and conjugates, degree from successive differences, and even and odd functions."
   },
   "framework": null,
-  "contentRevision": "a7dc1a6ecb6420c2",
+  "contentRevision": "fed809bd1cc4233b",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-5",
@@ -361,7 +361,7 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "If a linear factor (x − a) is repeated n times, the corresponding zero has multiplicity n. A polynomial function of degree n has exactly n complex zeros when multiplicities are counted. For p(x) = (x + 1)²(x − 2)³, the zero −1 has multiplicity 2, the zero 2 has multiplicity 3, and the degree is 5."
+            "text": "If a linear factor (x − a) is repeated n times, the corresponding zero of the polynomial function has a multiplicity n. A polynomial function of degree n has exactly n complex zeros when counting multiplicities. For p(x) = (x + 1)²(x − 2)³, the zero −1 has multiplicity 2, the zero 2 has multiplicity 3, and the degree is 5."
           },
           {
             "type": "paragraph",
@@ -477,7 +477,7 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree is equal to the least value n for which the successive nth differences are constant."
+            "text": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree of the polynomial function is equal to the least value n for which the successive nth differences are constant."
           },
           {
             "type": "table",
@@ -558,40 +558,46 @@
     ],
     "vocabulary": [
       {
+        "id": "precalculus-1-5-root",
+        "topicId": "precalculus-1-5",
+        "term": "Root",
+        "definition": "If a is a complex number and p(a) = 0, then a is called a zero of the polynomial function p, or a root of p. If a is a real number, then (x − a) is a linear factor of p if and only if a is a zero of p.",
+        "source": "CED 1.5.A.1"
+      },
+      {
         "id": "precalculus-1-5-multiplicity",
         "topicId": "precalculus-1-5",
         "term": "Multiplicity",
-        "definition": "The number of times a linear factor (x − a) is repeated in a polynomial, which is the multiplicity of the zero a."
-      },
-      {
-        "id": "precalculus-1-5-complex-number",
-        "topicId": "precalculus-1-5",
-        "term": "Complex number",
-        "definition": "A number of the form a + bi, where a and b are real numbers and i² = −1."
+        "definition": "If a linear factor (x − a) is repeated n times, the corresponding zero of the polynomial function has a multiplicity n. A polynomial function of degree n has exactly n complex zeros when counting multiplicities.",
+        "source": "CED 1.5.A.2"
       },
       {
         "id": "precalculus-1-5-conjugate",
         "topicId": "precalculus-1-5",
         "term": "Conjugate",
-        "definition": "The conjugate of a + bi is a − bi."
+        "definition": "If a + bi is a non-real zero of a polynomial function p, then its conjugate a − bi is also a zero of p.",
+        "source": "CED 1.5.A.4"
       },
       {
         "id": "precalculus-1-5-successive-differences",
         "topicId": "precalculus-1-5",
         "term": "Successive differences",
-        "definition": "Differences of consecutive output values over equal-interval input values, then differences of those differences, and so on."
+        "definition": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree of the polynomial function is equal to the least value n for which the successive nth differences are constant.",
+        "source": "CED 1.5.A.6"
       },
       {
         "id": "precalculus-1-5-even-function",
         "topicId": "precalculus-1-5",
         "term": "Even function",
-        "definition": "A function with f(−x) = f(x) for every x in its domain. Its graph is symmetric over the line x = 0."
+        "definition": "An even function is graphically symmetric over the line x = 0 and analytically has the property f(−x) = f(x).",
+        "source": "CED 1.5.B.1"
       },
       {
         "id": "precalculus-1-5-odd-function",
         "topicId": "precalculus-1-5",
         "term": "Odd function",
-        "definition": "A function with f(−x) = −f(x) for every x in its domain. Its graph is symmetric about the point (0, 0)."
+        "definition": "An odd function is graphically symmetric about the point (0, 0) and analytically has the property f(−x) = −f(x).",
+        "source": "CED 1.5.B.2"
       }
     ],
     "connections": [
@@ -638,8 +644,8 @@
         "precalculus-1-1-zero",
         "precalculus-1-4-polynomial",
         "precalculus-1-4-degree",
+        "precalculus-1-5-root",
         "precalculus-1-5-multiplicity",
-        "precalculus-1-5-complex-number",
         "precalculus-1-5-conjugate",
         "precalculus-1-5-successive-differences",
         "precalculus-1-5-even-function",
@@ -651,73 +657,72 @@
   "glossary": [
     {
       "id": "precalculus-1-1-zero",
-      "term": "Zero",
-      "definition": "An input value at which the output value of a function is 0. A real zero is where the graph intersects the x-axis.",
+      "term": "Zeros of the function",
+      "definition": "The graph intersects the x-axis when the output value is zero. The corresponding input values are said to be zeros of the function.",
       "aliases": [
-        "zeros"
+        "zeros",
+        "zero"
       ],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.B.5"
     },
     {
       "id": "precalculus-1-4-polynomial",
       "term": "Polynomial function",
-      "definition": "A function equivalent to aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀, where n is a positive integer, each aᵢ is a real number, and aₙ ≠ 0.",
+      "definition": "A nonconstant polynomial function of x is any function representation that is equivalent to the analytical form p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + aₙ₋₂xⁿ⁻² + … + a₂x² + a₁x + a₀, where n is a positive integer, aᵢ is a real number for each i from 0 to n, and aₙ is nonzero. A nonzero constant is also a polynomial function of degree zero.",
       "aliases": [
         "polynomial",
         "polynomials"
       ],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
     },
     {
       "id": "precalculus-1-4-degree",
       "term": "Degree",
-      "definition": "The exponent n of the leading term aₙxⁿ of a polynomial.",
+      "definition": "The polynomial has degree n, the leading term is aₙxⁿ, and the leading coefficient is aₙ.",
       "aliases": [],
-      "sourceLabel": "Topic 1.4 glossary"
+      "sourceLabel": "CED 1.4.A.1"
+    },
+    {
+      "id": "precalculus-1-5-root",
+      "term": "Root",
+      "definition": "If a is a complex number and p(a) = 0, then a is called a zero of the polynomial function p, or a root of p. If a is a real number, then (x − a) is a linear factor of p if and only if a is a zero of p.",
+      "aliases": [],
+      "sourceLabel": "CED 1.5.A.1"
     },
     {
       "id": "precalculus-1-5-multiplicity",
       "term": "Multiplicity",
-      "definition": "The number of times a linear factor (x − a) is repeated in a polynomial, which is the multiplicity of the zero a.",
+      "definition": "If a linear factor (x − a) is repeated n times, the corresponding zero of the polynomial function has a multiplicity n. A polynomial function of degree n has exactly n complex zeros when counting multiplicities.",
       "aliases": [],
-      "sourceLabel": "Topic 1.5 glossary"
-    },
-    {
-      "id": "precalculus-1-5-complex-number",
-      "term": "Complex number",
-      "definition": "A number of the form a + bi, where a and b are real numbers and i² = −1.",
-      "aliases": [
-        "complex numbers"
-      ],
-      "sourceLabel": "Topic 1.5 glossary"
+      "sourceLabel": "CED 1.5.A.2"
     },
     {
       "id": "precalculus-1-5-conjugate",
       "term": "Conjugate",
-      "definition": "The conjugate of a + bi is a − bi.",
+      "definition": "If a + bi is a non-real zero of a polynomial function p, then its conjugate a − bi is also a zero of p.",
       "aliases": [],
-      "sourceLabel": "Topic 1.5 glossary"
+      "sourceLabel": "CED 1.5.A.4"
     },
     {
       "id": "precalculus-1-5-successive-differences",
       "term": "Successive differences",
-      "definition": "Differences of consecutive output values over equal-interval input values, then differences of those differences, and so on.",
+      "definition": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree of the polynomial function is equal to the least value n for which the successive nth differences are constant.",
       "aliases": [],
-      "sourceLabel": "Topic 1.5 glossary"
+      "sourceLabel": "CED 1.5.A.6"
     },
     {
       "id": "precalculus-1-5-even-function",
       "term": "Even function",
-      "definition": "A function with f(−x) = f(x) for every x in its domain. Its graph is symmetric over the line x = 0.",
+      "definition": "An even function is graphically symmetric over the line x = 0 and analytically has the property f(−x) = f(x).",
       "aliases": [],
-      "sourceLabel": "Topic 1.5 glossary"
+      "sourceLabel": "CED 1.5.B.1"
     },
     {
       "id": "precalculus-1-5-odd-function",
       "term": "Odd function",
-      "definition": "A function with f(−x) = −f(x) for every x in its domain. Its graph is symmetric about the point (0, 0).",
+      "definition": "An odd function is graphically symmetric about the point (0, 0) and analytically has the property f(−x) = −f(x).",
       "aliases": [],
-      "sourceLabel": "Topic 1.5 glossary"
+      "sourceLabel": "CED 1.5.B.2"
     }
   ],
   "sources": [

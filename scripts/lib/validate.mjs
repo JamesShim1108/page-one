@@ -310,6 +310,7 @@ export function validateLesson(
   for (const term of lesson.vocabulary || []) {
     requireText(term.term, location);
     requireText(term.definition, location);
+    if (term.source !== undefined) requireText(term.source, location);
   }
   for (const connection of lesson.connections || []) {
     requireText(connection.title, location);

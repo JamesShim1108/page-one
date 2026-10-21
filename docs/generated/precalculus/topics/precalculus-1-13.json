@@ -267,7 +267,7 @@
     "summary": "Choosing a linear, quadratic, polynomial, or piecewise-defined model from a data set or context, and stating the assumptions and domain and range restrictions of a model."
   },
   "framework": null,
-  "contentRevision": "474aaa20929b6d4c",
+  "contentRevision": "5ad2f4bc0d68cc86",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-1-13",
@@ -516,22 +516,18 @@
     ],
     "vocabulary": [
       {
-        "id": "precalculus-1-13-function-model",
-        "topicId": "precalculus-1-13",
-        "term": "Function model",
-        "definition": "A function chosen to describe how two quantities in a data set or contextual scenario are related."
-      },
-      {
         "id": "precalculus-1-13-piecewise-defined",
         "topicId": "precalculus-1-13",
         "term": "Piecewise-defined function",
-        "definition": "A function made of a set of functions defined over nonoverlapping domain intervals."
+        "definition": "A piecewise-defined function consists of a set of functions defined over nonoverlapping domain intervals and is useful for modeling a data set or contextual scenario that demonstrates different characteristics over different intervals.",
+        "source": "CED 1.13.A.7"
       },
       {
         "id": "precalculus-1-13-assumption",
         "topicId": "precalculus-1-13",
-        "term": "Assumption",
-        "definition": "A condition a model takes to be true, such as what stays consistent or how the quantities change together."
+        "term": "Underlying assumptions",
+        "definition": "A model may have underlying assumptions about what is consistent in the model. A model may have underlying assumptions about how quantities change together.",
+        "source": "CED 1.13.B.1, 1.13.B.2"
       }
     ],
     "connections": [
@@ -579,7 +575,6 @@
         "precalculus-1-1-range",
         "precalculus-1-3-quadratic-function",
         "precalculus-1-5-successive-differences",
-        "precalculus-1-13-function-model",
         "precalculus-1-13-piecewise-defined",
         "precalculus-1-13-assumption"
       ]
@@ -590,65 +585,55 @@
     {
       "id": "precalculus-1-1-domain",
       "term": "Domain",
-      "definition": "The set of input values of a function.",
+      "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-1-range",
       "term": "Range",
-      "definition": "The set of output values of a function.",
+      "definition": "The set of input values is called the domain of the function, and the set of output values is called the range of the function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.1 glossary"
+      "sourceLabel": "CED 1.1.A.1"
     },
     {
       "id": "precalculus-1-2-average-rate",
       "term": "Average rate of change",
-      "definition": "For a function f over a ≤ x ≤ b, the ratio (f(b) − f(a))/(b − a) of the change in output values to the change in input values.",
+      "definition": "The average rate of change of a function over an interval of the function’s domain is the constant rate of change that yields the same change in the output values as the function yielded on that interval of the function’s domain. It is the ratio of the change in the output values to the change in input values over that interval.",
       "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
+      "sourceLabel": "CED 1.2.A.1"
     },
     {
       "id": "precalculus-1-3-quadratic-function",
       "term": "Quadratic function",
-      "definition": "A function q(x) = ax² + bx + c with a ≠ 0. Its average rates of change over consecutive equal-length input-value intervals are given by a linear function.",
+      "definition": "For a quadratic function, the average rates of change over consecutive equal-length input-value intervals can be given by a linear function.",
       "aliases": [],
-      "sourceLabel": "Topic 1.3 glossary"
+      "sourceLabel": "CED 1.3.A.2"
     },
     {
       "id": "precalculus-1-5-successive-differences",
       "term": "Successive differences",
-      "definition": "Differences of consecutive output values over equal-interval input values, then differences of those differences, and so on.",
+      "definition": "The degree of a polynomial function can be found by examining the successive differences of the output values over equal-interval input values. The degree of the polynomial function is equal to the least value n for which the successive nth differences are constant.",
       "aliases": [],
-      "sourceLabel": "Topic 1.5 glossary"
-    },
-    {
-      "id": "precalculus-1-13-function-model",
-      "term": "Function model",
-      "definition": "A function chosen to describe how two quantities in a data set or contextual scenario are related.",
-      "aliases": [
-        "model",
-        "models"
-      ],
-      "sourceLabel": "Topic 1.13 glossary"
+      "sourceLabel": "CED 1.5.A.6"
     },
     {
       "id": "precalculus-1-13-piecewise-defined",
       "term": "Piecewise-defined function",
-      "definition": "A function made of a set of functions defined over nonoverlapping domain intervals.",
+      "definition": "A piecewise-defined function consists of a set of functions defined over nonoverlapping domain intervals and is useful for modeling a data set or contextual scenario that demonstrates different characteristics over different intervals.",
       "aliases": [
         "piecewise-defined"
       ],
-      "sourceLabel": "Topic 1.13 glossary"
+      "sourceLabel": "CED 1.13.A.7"
     },
     {
       "id": "precalculus-1-13-assumption",
-      "term": "Assumption",
-      "definition": "A condition a model takes to be true, such as what stays consistent or how the quantities change together.",
+      "term": "Underlying assumptions",
+      "definition": "A model may have underlying assumptions about what is consistent in the model. A model may have underlying assumptions about how quantities change together.",
       "aliases": [
         "assumptions"
       ],
-      "sourceLabel": "Topic 1.13 glossary"
+      "sourceLabel": "CED 1.13.B.1, 1.13.B.2"
     }
   ],
   "sources": [
