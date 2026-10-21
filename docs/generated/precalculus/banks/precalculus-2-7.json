@@ -1,0 +1,709 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-q01",
+              "precalculus-2-1-q04",
+              "precalculus-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-q01",
+              "precalculus-2-2-q04",
+              "precalculus-2-2-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-q01",
+              "precalculus-2-3-q04",
+              "precalculus-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-q01",
+              "precalculus-2-4-q04",
+              "precalculus-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-q01",
+              "precalculus-2-5-q05",
+              "precalculus-2-5-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-q01",
+              "precalculus-2-6-q03",
+              "precalculus-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-q01",
+              "precalculus-2-7-q04",
+              "precalculus-2-7-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-q01",
+              "precalculus-2-8-q04",
+              "precalculus-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-q01",
+              "precalculus-2-9-q03",
+              "precalculus-2-9-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-q01",
+              "precalculus-2-10-q03",
+              "precalculus-2-10-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-q01",
+              "precalculus-2-11-q04",
+              "precalculus-2-11-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-q01",
+              "precalculus-2-12-q03",
+              "precalculus-2-12-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-q01",
+              "precalculus-2-13-q03",
+              "precalculus-2-13-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-q01",
+              "precalculus-2-14-q03",
+              "precalculus-2-14-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-q01",
+              "precalculus-2-15-q04",
+              "precalculus-2-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-7",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 7,
+    "code": "2.7",
+    "title": "Composition of Functions",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "Evaluating f ∘ g from tables, graphs, and formulas, why composition is not commutative, the identity function, building f(g(x)) analytically, and decomposing a function into simpler functions."
+  },
+  "framework": null,
+  "contentRevision": "a2a71ec9cc7ec6fb",
+  "questions": [
+    {
+      "id": "precalculus-2-7-q01",
+      "topicId": "precalculus-2-7",
+      "concept": "evaluate",
+      "difficulty": "Quick check",
+      "skill": "identify-information",
+      "prompt": "Using the table of values of f and g, what is f(g(3))?",
+      "stimulusBlocks": [
+        {
+          "type": "table",
+          "caption": "Values of f and g",
+          "columns": [
+            "x",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "rows": [
+            [
+              "f(x)",
+              "3",
+              "5",
+              "−1",
+              "4",
+              "0"
+            ],
+            [
+              "g(x)",
+              "2",
+              "4",
+              "0",
+              "1",
+              "3"
+            ]
+          ]
+        }
+      ],
+      "choices": [
+        "4",
+        "1",
+        "5",
+        "3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "g(3) = 1, and f(1) = 5. So f(g(3)) = 5.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "4 is f(3), which ignores g.",
+        "1 is g(3), the inner value only.",
+        "f(g(3)) = f(1) = 5.",
+        "3 is g(f(3)): f(3) = 4 and g(4) = 3, the composition in the other order."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Evaluate the inner function first, then the outer.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-2-7-q02",
+      "topicId": "precalculus-2-7",
+      "concept": "construct",
+      "difficulty": "Quick check",
+      "skill": "construct-functions",
+      "prompt": "If f(x) = x² + 1 and g(x) = x − 3, which of the following is f(g(x))?",
+      "choices": [
+        "x² − 6x + 10",
+        "x² − 2",
+        "x² + 1 − 3",
+        "(x² + 1)(x − 3)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "f(g(x)) = (x − 3)² + 1 = x² − 6x + 9 + 1 = x² − 6x + 10.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "Substitute x − 3 for every x in f: (x − 3)² + 1.",
+        "x² − 2 is g(f(x)) = (x² + 1) − 3, the other order.",
+        "This is the same as x² − 2, which is g(f(x)).",
+        "Composition is not multiplication."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "f(g(x)) puts g(x) inside f.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-7-q03",
+      "topicId": "precalculus-2-7",
+      "concept": "order-and-identity",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "Which of the following functions, composed with any function g, gives g in both orders?",
+      "choices": [
+        "f(x) = 0",
+        "f(x) = 1",
+        "f(x) = −x",
+        "f(x) = x"
+      ],
+      "correctAnswer": 3,
+      "explanation": "f(x) = x is the identity function: g(f(x)) = f(g(x)) = g(x).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "f(g(x)) = 0, not g(x).",
+        "1 is the multiplicative identity for numbers, but f(x) = 1 gives f(g(x)) = 1.",
+        "f(g(x)) = −g(x), a reflection.",
+        "The identity function leaves every input unchanged."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The identity for composition is the function x, not the number 1.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-7-q04",
+      "topicId": "precalculus-2-7",
+      "concept": "decompose",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "The function h is given by h(x) = (5x + 2)³. If h(x) = f(g(x)), which of the following could be f and g?",
+      "choices": [
+        "f(x) = 5x + 2 and g(x) = x³",
+        "f(x) = x³ and g(x) = 5x + 2",
+        "f(x) = 5x³ and g(x) = x + 2",
+        "f(x) = x³ + 2 and g(x) = 5x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The inner function is 5x + 2, and the outer function cubes it: f(g(x)) = (5x + 2)³.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "This gives f(g(x)) = 5x³ + 2, the composition in the other order.",
+        "Substituting g(x) = 5x + 2 for x in x³ gives (5x + 2)³.",
+        "f(g(x)) = 5(x + 2)³, which is different.",
+        "f(g(x)) = (5x)³ + 2 = 125x³ + 2."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The inner function is what sits inside the parentheses.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-7-q05",
+      "topicId": "precalculus-2-7",
+      "concept": "evaluate",
+      "difficulty": "Core",
+      "skill": "identify-information",
+      "prompt": "Using the table of values of f and g, what is g(f(0))?",
+      "stimulusBlocks": [
+        {
+          "type": "table",
+          "caption": "Values of f and g",
+          "columns": [
+            "x",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "rows": [
+            [
+              "f(x)",
+              "3",
+              "5",
+              "−1",
+              "4",
+              "0"
+            ],
+            [
+              "g(x)",
+              "2",
+              "4",
+              "0",
+              "1",
+              "3"
+            ]
+          ]
+        }
+      ],
+      "choices": [
+        "−1",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "f(0) = 3, and g(3) = 1. So g(f(0)) = 1.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "f(g(0)) = f(2) = −1 composes in the other order.",
+        "g(f(0)) = g(3) = 1.",
+        "2 is g(0), which skips f.",
+        "3 is f(0), the inner value only."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "In g(f(0)), f is applied first.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-2-7-q06",
+      "topicId": "precalculus-2-7",
+      "concept": "order-and-identity",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "Let f(x) = x² and g(x) = 2x + 1. What is f(g(3)) − g(f(3))?",
+      "choices": [
+        "0",
+        "−30",
+        "30",
+        "68"
+      ],
+      "correctAnswer": 2,
+      "explanation": "f(g(3)) = f(7) = 49 and g(f(3)) = g(9) = 19. The difference is 49 − 19 = 30.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "The two compositions are different, so their difference is not 0.",
+        "−30 is g(f(3)) − f(g(3)), the reverse order.",
+        "49 − 19 = 30.",
+        "68 is the sum 49 + 19."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Composition is not commutative.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-2-7-q07",
+      "topicId": "precalculus-2-7",
+      "concept": "evaluate",
+      "difficulty": "Core",
+      "skill": "identify-information",
+      "prompt": "The function f is given by f(x) = √(x − 2), and g(x) = x + 1. Which of the following describes the domain of f ∘ g?",
+      "choices": [
+        "x ≥ 1",
+        "x ≥ 2",
+        "x ≥ 3",
+        "All real numbers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "f(g(x)) = √((x + 1) − 2) = √(x − 1), which needs x − 1 ≥ 0, so x ≥ 1. The domain of f ∘ g is the inputs of g whose outputs are in the domain of f.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "g(x) = x + 1 ≥ 2 exactly when x ≥ 1.",
+        "x ≥ 2 is the domain of f, not of f ∘ g.",
+        "x ≥ 3 adds 1 instead of subtracting it.",
+        "The square root requires g(x) ≥ 2."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Restrict the inputs of g so that g(x) lands in the domain of f.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-2-7-q08",
+      "topicId": "precalculus-2-7",
+      "concept": "construct",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "The number of items a factory produces in t hours is n(t) = 40t, and the cost, in dollars, of producing n items is C(n) = 500 + 6n. Which function gives the cost in terms of the number of hours t?",
+      "choices": [
+        "C(n(t)) = 540t",
+        "C(n(t)) = 40(500 + 6t)",
+        "C(n(t)) = 500 + 46t",
+        "C(n(t)) = 500 + 240t"
+      ],
+      "correctAnswer": 3,
+      "explanation": "C(n(t)) = 500 + 6(40t) = 500 + 240t. Composition relates cost and time, which are not directly related by a given formula.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "540t combines the fixed cost with the variable cost incorrectly.",
+        "40(500 + 6t) is n(C(t)), the composition in the other order.",
+        "500 + 46t adds 6 and 40 instead of multiplying.",
+        "Substitute 40t for n in C(n)."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Substitute the inner function n(t) for every n.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-7-q09",
+      "topicId": "precalculus-2-7",
+      "concept": "decompose",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "The function k is given by k(x) = f(x) + 7. Which composition describes k?",
+      "choices": [
+        "k(x) = f(g(x)), with g(x) = x + 7",
+        "k(x) = f(g(x)), where g(x) = 7x",
+        "k(x) = g(f(x)), where g(x) = x + 7",
+        "k(x) = g(f(x)), where g(x) = 7x"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Adding 7 to the output of f is the composition of g(x) = x + 7 with f: g(f(x)) = f(x) + 7, a vertical translation.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "f(x + 7) is a horizontal translation, not f(x) + 7.",
+        "7x describes a dilation, not a translation.",
+        "g(f(x)) = f(x) + 7, a vertical translation by 7 units.",
+        "g(f(x)) = 7f(x), a vertical dilation."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Adding outside f means g acts after f.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-7-q10",
+      "topicId": "precalculus-2-7",
+      "concept": "evaluate",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "Let f(x) = 2ˣ and g(x) = x² − 1. What is the value of f(g(−2))?",
+      "choices": [
+        "8",
+        "3",
+        "1/32",
+        "16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "g(−2) = 4 − 1 = 3, and f(3) = 2³ = 8.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-7"
+      ],
+      "choiceExplanations": [
+        "f(g(−2)) = f(3) = 8.",
+        "3 is g(−2), the inner value only.",
+        "1/32 treats (−2)² as −4, so g(−2) becomes −5 and 2⁻⁵ = 1/32.",
+        "16 = 2⁴ forgets to subtract 1 when finding g(−2)."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Square −2 first: (−2)² − 1 = 3.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-2-7-quick",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-7",
+      "title": "Quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "precalculus-2-7-q01",
+        "precalculus-2-7-q02",
+        "precalculus-2-7-q03",
+        "precalculus-2-7-q04"
+      ]
+    },
+    {
+      "id": "precalculus-2-7-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-7",
+      "title": "Composition of Functions topic practice",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "precalculus-2-7-q05",
+        "precalculus-2-7-q06",
+        "precalculus-2-7-q07",
+        "precalculus-2-7-q08",
+        "precalculus-2-7-q09",
+        "precalculus-2-7-q10"
+      ]
+    }
+  ],
+  "concepts": {
+    "evaluate": {
+      "id": "evaluate",
+      "title": "Evaluating compositions",
+      "section": "evaluate",
+      "topicId": "precalculus-2-7"
+    },
+    "order-and-identity": {
+      "id": "order-and-identity",
+      "title": "Order and the identity function",
+      "section": "order-and-identity",
+      "topicId": "precalculus-2-7"
+    },
+    "construct": {
+      "id": "construct",
+      "title": "Constructing compositions",
+      "section": "construct",
+      "topicId": "precalculus-2-7"
+    },
+    "decompose": {
+      "id": "decompose",
+      "title": "Decomposing functions",
+      "section": "decompose",
+      "topicId": "precalculus-2-7"
+    }
+  },
+  "assets": {}
+}

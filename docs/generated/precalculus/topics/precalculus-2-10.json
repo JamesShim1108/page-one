@@ -1,0 +1,556 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-q01",
+              "precalculus-2-1-q04",
+              "precalculus-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-q01",
+              "precalculus-2-2-q04",
+              "precalculus-2-2-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-q01",
+              "precalculus-2-3-q04",
+              "precalculus-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-q01",
+              "precalculus-2-4-q04",
+              "precalculus-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-q01",
+              "precalculus-2-5-q05",
+              "precalculus-2-5-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-q01",
+              "precalculus-2-6-q03",
+              "precalculus-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-q01",
+              "precalculus-2-7-q04",
+              "precalculus-2-7-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-q01",
+              "precalculus-2-8-q04",
+              "precalculus-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-q01",
+              "precalculus-2-9-q03",
+              "precalculus-2-9-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-q01",
+              "precalculus-2-10-q03",
+              "precalculus-2-10-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-q01",
+              "precalculus-2-11-q04",
+              "precalculus-2-11-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-q01",
+              "precalculus-2-12-q03",
+              "precalculus-2-12-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-q01",
+              "precalculus-2-13-q03",
+              "precalculus-2-13-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-q01",
+              "precalculus-2-14-q03",
+              "precalculus-2-14-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-q01",
+              "precalculus-2-15-q04",
+              "precalculus-2-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-10",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 10,
+    "code": "2.10",
+    "title": "Inverses of Exponential Functions",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "The general form of a logarithmic function, how logarithmic growth reverses exponential growth, log_b x and bˣ as inverse functions, and reflecting graphs and ordered pairs over y = x."
+  },
+  "framework": null,
+  "contentRevision": "3dcd2ce35a849307",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "precalculus-2-10",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 10,
+    "code": "2.10",
+    "title": "Inverses of Exponential Functions",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "The general form of a logarithmic function, how logarithmic growth reverses exponential growth, log_b x and bˣ as inverse functions, and reflecting graphs and ordered pairs over y = x.",
+    "minutes": 12,
+    "learningGoals": [
+      "2.10.A Construct representations of the inverse of an exponential function with an initial value of 1."
+    ],
+    "labels": {
+      "goals": "AP learning objectives",
+      "learn": "Understand the mathematics.",
+      "context": "Where this fits."
+    },
+    "bigIdea": "The exponential function bˣ and the logarithmic function log_b x undo each other. Every fact about one becomes a fact about the other with inputs and outputs switched.",
+    "context": "Topic 2.8 found inverses by reversing input-output pairs, and Topic 2.9 defined log_b c. Here the two meet: log_b x is the inverse function of bˣ.",
+    "sections": [
+      {
+        "id": "log-general-form",
+        "title": "2.10.A · The general form of a logarithmic function is f(x) = a log_b x.",
+        "conceptTitle": "General form of a logarithmic function",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The general form of a logarithmic function is f(x) = a log_b x, with base b, where b > 0, b ≠ 1, and a ≠ 0."
+          },
+          {
+            "type": "paragraph",
+            "text": "Example: f(x) = 3 log₂ x has a = 3 and base 2. Then f(8) = 3 log₂ 8 = 3(3) = 9."
+          }
+        ],
+        "takeaway": "f(x) = a log_b x with b > 0, b ≠ 1, and a ≠ 0."
+      },
+      {
+        "id": "inverse-relationship",
+        "title": "2.10.A · Exponential growth and logarithmic growth trade the roles of addition and multiplication.",
+        "conceptTitle": "How exponential and logarithmic change compare",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The way in which input and output values vary together have an inverse relationship in exponential and logarithmic functions. Output values of general-form exponential functions change proportionally as input values increase in equal-length intervals. However, input values of general-form logarithmic functions change proportionally as output values increase in equal-length intervals. Alternately, exponential growth is characterized by output values changing multiplicatively as input values change additively, whereas logarithmic growth is characterized by output values changing additively as input values change multiplicatively."
+          },
+          {
+            "type": "table",
+            "caption": "y = 2ˣ and y = log₂ x on the same values with roles switched",
+            "columns": [
+              "x for 2ˣ",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "rows": [
+              [
+                "2ˣ",
+                "1",
+                "2",
+                "4",
+                "8",
+                "16"
+              ],
+              [
+                "x for log₂ x",
+                "1",
+                "2",
+                "4",
+                "8",
+                "16"
+              ],
+              [
+                "log₂ x",
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "For 2ˣ, adding 1 to the input multiplies the output by 2. For log₂ x, multiplying the input by 2 adds 1 to the output."
+          }
+        ],
+        "takeaway": "Exponential: add to inputs, multiply outputs. Logarithmic: multiply inputs, add to outputs."
+      },
+      {
+        "id": "inverse-pairs",
+        "title": "2.10.A · log_b x and bˣ are inverse functions.",
+        "conceptTitle": "Logarithmic and exponential functions as inverses",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "f(x) = log_b x and g(x) = bˣ, where b > 0 and b ≠ 1, are inverse functions. That is, g(f(x)) = f(g(x)) = x."
+          },
+          {
+            "type": "paragraph",
+            "text": "The graph of the logarithmic function f(x) = log_b x, where b > 0 and b ≠ 1, is a reflection of the graph of the exponential function g(x) = bˣ, where b > 0 and b ≠ 1, over the graph of the identity function h(x) = x."
+          },
+          {
+            "type": "graph",
+            "caption": "g(x) = 2ˣ and f(x) = log₂ x, reflections of each other over the line y = x",
+            "alt": "An exponential curve g through (0, 1), (1, 2), and (2, 4), and a dashed logarithmic curve f through (1, 0), (2, 1), and (4, 2). A dashed gray line y = x lies between them, and each curve is the mirror image of the other across it.",
+            "window": {
+              "x": [
+                -3,
+                6
+              ],
+              "y": [
+                -3,
+                6
+              ]
+            },
+            "ticks": {
+              "x": 1,
+              "y": 1
+            },
+            "functions": [
+              {
+                "expr": "2^x",
+                "label": "g",
+                "labelAt": 2.4,
+                "labelPosition": "w"
+              },
+              {
+                "expr": "log2(x)",
+                "label": "f",
+                "color": 2,
+                "dashed": true,
+                "labelAt": 5.5,
+                "labelPosition": "n"
+              }
+            ],
+            "asymptotes": [
+              {
+                "slope": 1,
+                "intercept": 0
+              }
+            ],
+            "points": [
+              {
+                "at": [
+                  1,
+                  2
+                ],
+                "label": "(1, 2)",
+                "position": "w"
+              },
+              {
+                "at": [
+                  2,
+                  1
+                ],
+                "label": "(2, 1)",
+                "position": "se"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "If (s, t) is an ordered pair of the exponential function g(x) = bˣ, where b > 0 and b ≠ 1, then (t, s) is an ordered pair of the logarithmic function f(x) = log_b x, where b > 0 and b ≠ 1."
+          },
+          {
+            "type": "callout",
+            "title": "Write it like the AP Exam",
+            "text": "Because (3, 125) is on the graph of y = 5ˣ, the point (125, 3) is on the graph of y = log₅ x, so log₅ 125 = 3."
+          }
+        ],
+        "takeaway": "Switch every ordered pair of bˣ to get log_b x; the graphs reflect over y = x."
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "precalculus-2-10-logarithmic-function",
+        "topicId": "precalculus-2-10",
+        "term": "Logarithmic function",
+        "definition": "The general form of a logarithmic function is f(x) = a log_b x, with base b, where b > 0, b ≠ 1, and a ≠ 0.",
+        "source": "CED 2.10.A.1"
+      },
+      {
+        "id": "precalculus-2-10-logarithmic-growth",
+        "topicId": "precalculus-2-10",
+        "term": "Logarithmic growth",
+        "definition": "Alternately, exponential growth is characterized by output values changing multiplicatively as input values change additively, whereas logarithmic growth is characterized by output values changing additively as input values change multiplicatively.",
+        "source": "CED 2.10.A.2"
+      }
+    ],
+    "connections": [
+      {
+        "id": "precalculus-2-10-c1",
+        "topicId": "precalculus-2-10",
+        "type": "Look back",
+        "title": "Inverses reverse pairs",
+        "body": "Topic 2.8 showed that an inverse function consists of the pairs (b, a) when the function consists of (a, b). log_b x is that construction applied to bˣ.",
+        "transferQuestion": "The graph of y = 4ˣ contains (1/2, 2). Which point is on y = log₄ x?",
+        "feedback": "(2, 1/2), so log₄ 2 = 1/2.",
+        "links": [
+          {
+            "topicId": "precalculus-2-8",
+            "sectionId": "finding-inverses",
+            "label": "Review finding inverses"
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-10-c2",
+        "topicId": "precalculus-2-10",
+        "type": "Looking ahead",
+        "title": "Characteristics of logarithmic functions",
+        "body": "Topic 2.11 uses the reflection over y = x to read the domain, range, concavity, and vertical asymptote of a logarithmic function from those of an exponential function.",
+        "transferQuestion": "y = 2ˣ has the horizontal asymptote y = 0. What asymptote does y = log₂ x have?",
+        "feedback": "The vertical asymptote x = 0, the reflection of y = 0 over y = x.",
+        "links": [
+          {
+            "topicId": "precalculus-2-11",
+            "sectionId": "domain-range",
+            "label": "See logarithmic functions"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "ced-topic-2-10"
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "precalculus-2-10-logarithmic-function",
+        "precalculus-2-10-logarithmic-growth"
+      ]
+    }
+  },
+  "bankPath": "precalculus/banks/precalculus-2-10.json",
+  "glossary": [
+    {
+      "id": "precalculus-2-10-logarithmic-function",
+      "term": "Logarithmic function",
+      "definition": "The general form of a logarithmic function is f(x) = a log_b x, with base b, where b > 0, b ≠ 1, and a ≠ 0.",
+      "aliases": [
+        "logarithmic functions"
+      ],
+      "sourceLabel": "CED 2.10.A.1"
+    },
+    {
+      "id": "precalculus-2-10-logarithmic-growth",
+      "term": "Logarithmic growth",
+      "definition": "Alternately, exponential growth is characterized by output values changing multiplicatively as input values change additively, whereas logarithmic growth is characterized by output values changing additively as input values change multiplicatively.",
+      "aliases": [],
+      "sourceLabel": "CED 2.10.A.2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP Precalculus Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
+      "note": "Course scope, units, topics, learning objectives, and essential knowledge for Units 1 to 3."
+    },
+    {
+      "id": "ced-topic-2-10",
+      "label": "College Board: AP Precalculus Course and Exam Description, Topic 2.10: Inverses of Exponential Functions",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+    }
+  ],
+  "assets": {}
+}

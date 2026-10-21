@@ -2,399 +2,335 @@
 // Every numeric key was computed in code before this file was written.
 
 export const bank = {
-  "questions": [
+  questions: [
     {
-      "id": "precalculus-1-2-q01",
-      "topicId": "precalculus-1-2",
-      "concept": "average-rate",
-      "difficulty": "Quick check",
-      "skill": "identify-information",
-      "prompt": "For the function g, g(1) = 7 and g(4) = 25. What is the average rate of change of g over the interval 1 ≤ x ≤ 4?",
-      "choices": [
-        "18",
-        "6",
-        "1/6",
-        "32/5"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The average rate of change is (g(4) − g(1))/(4 − 1) = (25 − 7)/3 = 6.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      id: "precalculus-1-2-q01",
+      topicId: "precalculus-1-2",
+      concept: "average-rate",
+      difficulty: "Quick check",
+      skill: "identify-information",
+      prompt:
+        "For the function g, g(1) = 7 and g(4) = 25. What is the average rate of change of g over the interval 1 ≤ x ≤ 4?",
+      choices: ["18", "6", "1/6", "32/5"],
+      correctAnswer: 1,
+      explanation:
+        "The average rate of change is (g(4) − g(1))/(4 − 1) = (25 − 7)/3 = 6.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "18 is the change in the output values. It must be divided by the change in the input values, 3.",
         "(25 − 7)/(4 − 1) = 18/3 = 6.",
         "This inverts the ratio. The change in output values goes in the numerator.",
-        "This adds the values instead of subtracting them."
+        "This adds the values instead of subtracting them.",
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "An average rate of change divides the change in output values by the change in input values."
+      nearMissIndex: 0,
+      distinguisher:
+        "An average rate of change divides the change in output values by the change in input values.",
     },
     {
-      "id": "precalculus-1-2-q02",
-      "topicId": "precalculus-1-2",
-      "concept": "average-rate",
-      "difficulty": "Quick check",
-      "skill": "apply-results",
-      "prompt": "The volume of water in a tank, in gallons, is modeled by the function V, where t is the time in minutes. The average rate of change of V over the interval 2 ≤ t ≤ 10 is 15. Which of the following is the best interpretation of this value?",
-      "choices": [
+      id: "precalculus-1-2-q02",
+      topicId: "precalculus-1-2",
+      concept: "average-rate",
+      difficulty: "Quick check",
+      skill: "apply-results",
+      prompt:
+        "The volume of water in a tank, in gallons, is modeled by the function V, where t is the time in minutes. The average rate of change of V over the interval 2 ≤ t ≤ 10 is 15. Which of the following is the best interpretation of this value?",
+      choices: [
         "From t = 2 to t = 10 minutes, on average, the volume of water increased at a rate of 15 gallons per minute.",
         "From t = 2 to t = 10 minutes, the volume of water in the tank increased by a total of 15 gallons.",
         "At t = 6 minutes, the volume of water in the tank is 15 gallons.",
-        "From t = 2 to t = 10 minutes, on average, the volume decreased at a rate of 15 gallons per minute."
+        "From t = 2 to t = 10 minutes, on average, the volume decreased at a rate of 15 gallons per minute.",
       ],
-      "correctAnswer": 0,
-      "explanation": "An average rate of change is the change in output values per unit change in input values. A value of 15 gallons per minute means that, on average, the volume rose 15 gallons each minute from t = 2 to t = 10.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      correctAnswer: 0,
+      explanation:
+        "An average rate of change is the change in output values per unit change in input values. A value of 15 gallons per minute means that, on average, the volume rose 15 gallons each minute from t = 2 to t = 10.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "The rate is positive and is measured in gallons per minute over the stated interval.",
         "A total change of 15 gallons over 8 minutes would give an average rate of change of 15/8 gallons per minute.",
         "A rate of change is not a volume. It says nothing about the volume at a single time.",
-        "The rate is positive, so the volume increased, not decreased."
+        "The rate is positive, so the volume increased, not decreased.",
       ],
-      "nearMissIndex": 1,
-      "distinguisher": "An average rate of change is per unit of input, not a total change over the interval."
+      nearMissIndex: 1,
+      distinguisher:
+        "An average rate of change is per unit of input, not a total change over the interval.",
     },
     {
-      "id": "precalculus-1-2-q03",
-      "topicId": "precalculus-1-2",
-      "concept": "rate-at-a-point",
-      "difficulty": "Quick check",
-      "skill": "identify-information",
-      "prompt": "The table gives values of the function f for selected values of x near x = 4. Which of the following is the best estimate of the rate of change of f at x = 4?",
-      "stimulusBlocks": [
+      id: "precalculus-1-2-q03",
+      topicId: "precalculus-1-2",
+      concept: "rate-at-a-point",
+      difficulty: "Quick check",
+      skill: "identify-information",
+      prompt:
+        "The table gives values of the function f for selected values of x near x = 4. Which of the following is the best estimate of the rate of change of f at x = 4?",
+      stimulusBlocks: [
         {
-          "type": "table",
-          "caption": "Values of f near x = 4",
-          "columns": [
-            "x",
-            "f(x)"
+          type: "table",
+          caption: "Values of f near x = 4",
+          columns: ["x", "f(x)"],
+          rows: [
+            ["3.9", "15.405"],
+            ["4", "16"],
+            ["4.1", "16.605"],
           ],
-          "rows": [
-            [
-              "3.9",
-              "15.405"
-            ],
-            [
-              "4",
-              "16"
-            ],
-            [
-              "4.1",
-              "16.605"
-            ]
-          ]
-        }
+        },
       ],
-      "choices": [
-        "16",
-        "0.6",
-        "4.1",
-        "6"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Use the small interval 3.9 ≤ x ≤ 4.1 containing 4: (16.605 − 15.405)/(4.1 − 3.9) = 1.2/0.2 = 6.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      choices: ["16", "0.6", "4.1", "6"],
+      correctAnswer: 3,
+      explanation:
+        "Use the small interval 3.9 ≤ x ≤ 4.1 containing 4: (16.605 − 15.405)/(4.1 − 3.9) = 1.2/0.2 = 6.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "16 is the output value f(4), not a rate of change.",
         "0.6 is a change in output values over 4 ≤ x ≤ 4.1 that has not been divided by the change in input values, 0.1.",
         "4.1 is an input value, not a rate of change.",
-        "The average rate of change over 3.9 ≤ x ≤ 4.1 is 1.2/0.2 = 6."
+        "The average rate of change over 3.9 ≤ x ≤ 4.1 is 1.2/0.2 = 6.",
       ],
-      "nearMissIndex": 1,
-      "distinguisher": "A rate of change divides by the change in input values, even over a small interval."
+      nearMissIndex: 1,
+      distinguisher:
+        "A rate of change divides by the change in input values, even over a small interval.",
     },
     {
-      "id": "precalculus-1-2-q04",
-      "topicId": "precalculus-1-2",
-      "concept": "comparing-rates",
-      "difficulty": "Quick check",
-      "skill": "describe",
-      "prompt": "For the function f, the rate of change at x = 2 is approximately 5, and the rate of change at x = 7 is approximately 3. Which of the following statements must be true?",
-      "choices": [
+      id: "precalculus-1-2-q04",
+      topicId: "precalculus-1-2",
+      concept: "comparing-rates",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt:
+        "For the function f, the rate of change at x = 2 is approximately 5, and the rate of change at x = 7 is approximately 3. Which of the following statements must be true?",
+      choices: [
         "f(2) is greater than f(7).",
         "f is decreasing at x = 7, because 3 is less than 5.",
         "f is increasing faster at x = 2 than at x = 7.",
-        "f is increasing faster at x = 7, because 7 is greater than 2."
+        "f is increasing faster at x = 7, because 7 is greater than 2.",
       ],
-      "correctAnswer": 2,
-      "explanation": "Both rates of change are positive, so f is increasing at both points. A greater positive rate of change means the output values are increasing faster, so f is increasing faster at x = 2.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      correctAnswer: 2,
+      explanation:
+        "Both rates of change are positive, so f is increasing at both points. A greater positive rate of change means the output values are increasing faster, so f is increasing faster at x = 2.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "Rates of change compare how fast output values change, not how large they are. f(2) and f(7) could be in either order.",
         "A rate of change of 3 is positive, so f is increasing at x = 7, just more slowly.",
         "Both rates of change are positive, and 5 > 3, so f is increasing faster at x = 2.",
-        "The size of the input value does not decide which rate of change is greater."
+        "The size of the input value does not decide which rate of change is greater.",
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "Comparing rates of change compares how fast output values change, not how big they are."
+      nearMissIndex: 0,
+      distinguisher:
+        "Comparing rates of change compares how fast output values change, not how big they are.",
     },
     {
-      "id": "precalculus-1-2-q05",
-      "topicId": "precalculus-1-2",
-      "concept": "average-rate",
-      "difficulty": "Core",
-      "skill": "identify-information",
-      "prompt": "The function f is given by f(x) = x² − 3x. What is the average rate of change of f over the interval 1 ≤ x ≤ 5?",
-      "choices": [
-        "12",
-        "−3",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 2,
-      "explanation": "f(5) = 10 and f(1) = −2, so the average rate of change is (10 − (−2))/(5 − 1) = 12/4 = 3.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      id: "precalculus-1-2-q05",
+      topicId: "precalculus-1-2",
+      concept: "average-rate",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "The function f is given by f(x) = x² − 3x. What is the average rate of change of f over the interval 1 ≤ x ≤ 5?",
+      choices: ["12", "−3", "3", "4"],
+      correctAnswer: 2,
+      explanation:
+        "f(5) = 10 and f(1) = −2, so the average rate of change is (10 − (−2))/(5 − 1) = 12/4 = 3.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "12 is the change in the output values. Divide by the change in the input values, 4.",
         "−3 is the coefficient of x, not the average rate of change over this interval.",
         "(f(5) − f(1))/(5 − 1) = 12/4 = 3.",
-        "4 is the length of the interval, not the average rate of change."
+        "4 is the length of the interval, not the average rate of change.",
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "Dividing by the change in input values turns a change into a rate of change."
+      nearMissIndex: 0,
+      distinguisher:
+        "Dividing by the change in input values turns a change into a rate of change.",
     },
     {
-      "id": "precalculus-1-2-q06",
-      "topicId": "precalculus-1-2",
-      "concept": "average-rate",
-      "difficulty": "Core",
-      "skill": "identify-information",
-      "prompt": "The table gives values of the function g for selected values of x. Over which of the following intervals is the average rate of change of g greatest?",
-      "stimulusBlocks": [
+      id: "precalculus-1-2-q06",
+      topicId: "precalculus-1-2",
+      concept: "average-rate",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "The table gives values of the function g for selected values of x. Over which of the following intervals is the average rate of change of g greatest?",
+      stimulusBlocks: [
         {
-          "type": "table",
-          "caption": "Values of g",
-          "columns": [
-            "x",
-            "g(x)"
+          type: "table",
+          caption: "Values of g",
+          columns: ["x", "g(x)"],
+          rows: [
+            ["1", "5"],
+            ["3", "11"],
+            ["6", "29"],
+            ["10", "89"],
           ],
-          "rows": [
-            [
-              "1",
-              "5"
-            ],
-            [
-              "3",
-              "11"
-            ],
-            [
-              "6",
-              "29"
-            ],
-            [
-              "10",
-              "89"
-            ]
-          ]
-        }
+        },
       ],
-      "choices": [
-        "1 ≤ x ≤ 3",
-        "3 ≤ x ≤ 6",
-        "1 ≤ x ≤ 10",
-        "6 ≤ x ≤ 10"
-      ],
-      "correctAnswer": 3,
-      "explanation": "The average rates of change are 3 over 1 ≤ x ≤ 3, 6 over 3 ≤ x ≤ 6, 15 over 6 ≤ x ≤ 10, and 84/9 ≈ 9.333 over 1 ≤ x ≤ 10. The greatest is 15.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      choices: ["1 ≤ x ≤ 3", "3 ≤ x ≤ 6", "1 ≤ x ≤ 10", "6 ≤ x ≤ 10"],
+      correctAnswer: 3,
+      explanation:
+        "The average rates of change are 3 over 1 ≤ x ≤ 3, 6 over 3 ≤ x ≤ 6, 15 over 6 ≤ x ≤ 10, and 84/9 ≈ 9.333 over 1 ≤ x ≤ 10. The greatest is 15.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "(11 − 5)/2 = 3, the least of these average rates of change.",
         "(29 − 11)/3 = 6, which is less than 15.",
         "The change in output values, 84, is greatest, but divided by 9 the average rate of change is about 9.333.",
-        "(89 − 29)/4 = 15, the greatest average rate of change."
+        "(89 − 29)/4 = 15, the greatest average rate of change.",
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The greatest change in output values does not always give the greatest average rate of change."
+      nearMissIndex: 2,
+      distinguisher:
+        "The greatest change in output values does not always give the greatest average rate of change.",
     },
     {
-      "id": "precalculus-1-2-q07",
-      "topicId": "precalculus-1-2",
-      "concept": "rate-at-a-point",
-      "difficulty": "Apply",
-      "skill": "apply-results",
-      "prompt": "The amount of fuel in a car's tank, in gallons, is modeled by the function F, where m is the number of miles driven. The average rate of change of F over the interval 119.9 ≤ m ≤ 120.1 is −0.04. Which of the following is the best interpretation?",
-      "choices": [
+      id: "precalculus-1-2-q07",
+      topicId: "precalculus-1-2",
+      concept: "rate-at-a-point",
+      difficulty: "Apply",
+      skill: "apply-results",
+      prompt:
+        "The amount of fuel in a car's tank, in gallons, is modeled by the function F, where m is the number of miles driven. The average rate of change of F over the interval 119.9 ≤ m ≤ 120.1 is −0.04. Which of the following is the best interpretation?",
+      choices: [
         "When the car has been driven 120 miles, the amount of fuel is decreasing at a rate of about 0.04 gallon per mile.",
         "When the car has been driven 120 miles, the tank holds about 0.04 gallon of fuel.",
         "When the car has been driven 120 miles, the amount of fuel is increasing at a rate of about 0.04 gallon per mile.",
-        "Over the whole trip, the car used a total of about 0.04 gallon of fuel."
+        "Over the whole trip, the car used a total of about 0.04 gallon of fuel.",
       ],
-      "correctAnswer": 0,
-      "explanation": "A small interval containing m = 120 gives an estimate of the rate of change of F at 120. The negative sign means that as the miles increase, the fuel decreases, at about 0.04 gallon per mile.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      correctAnswer: 0,
+      explanation:
+        "A small interval containing m = 120 gives an estimate of the rate of change of F at 120. The negative sign means that as the miles increase, the fuel decreases, at about 0.04 gallon per mile.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "A small interval around 120 estimates the rate of change there, and the negative sign means the fuel is decreasing.",
         "A rate of change is not an amount of fuel. It describes how fast the amount changes.",
         "The rate of change is negative, so the amount of fuel is decreasing as miles increase.",
-        "This rate of change describes the car near 120 miles, not a total for the whole trip."
+        "This rate of change describes the car near 120 miles, not a total for the whole trip.",
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "The sign gives the direction, and the units give gallons per mile."
+      nearMissIndex: 2,
+      distinguisher: "The sign gives the direction, and the units give gallons per mile.",
     },
     {
-      "id": "precalculus-1-2-q08",
-      "topicId": "precalculus-1-2",
-      "concept": "rate-at-a-point",
-      "difficulty": "Core",
-      "skill": "describe",
-      "prompt": "Which of the following gives the best approximation of the rate of change of the function f at x = 3?",
-      "choices": [
+      id: "precalculus-1-2-q08",
+      topicId: "precalculus-1-2",
+      concept: "rate-at-a-point",
+      difficulty: "Core",
+      skill: "describe",
+      prompt:
+        "Which of the following gives the best approximation of the rate of change of the function f at x = 3?",
+      choices: [
         "The average rate of change of f over the interval 0 ≤ x ≤ 3",
         "The average rate of change of f over the interval 2.99 ≤ x ≤ 3.01",
         "The value of f(3)/3",
-        "The average rate of change of f over the interval 0 ≤ x ≤ 6"
+        "The average rate of change of f over the interval 0 ≤ x ≤ 6",
       ],
-      "correctAnswer": 1,
-      "explanation": "The rate of change at a point is approximated by the average rate of change over a small interval containing the point. The interval 2.99 ≤ x ≤ 3.01 is small and contains 3.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      correctAnswer: 1,
+      explanation:
+        "The rate of change at a point is approximated by the average rate of change over a small interval containing the point. The interval 2.99 ≤ x ≤ 3.01 is small and contains 3.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "This interval contains 3, but it has length 3, so it averages many different rates of change.",
         "A small interval containing 3 gives an average rate of change close to the rate of change at x = 3.",
         "f(3)/3 compares one output value with one input value. It is not a rate of change.",
-        "This interval is centered at 3, but its length of 6 averages away the behavior at x = 3."
+        "This interval is centered at 3, but its length of 6 averages away the behavior at x = 3.",
       ],
-      "nearMissIndex": 3,
-      "distinguisher": "The interval must contain the point and also be small."
+      nearMissIndex: 3,
+      distinguisher: "The interval must contain the point and also be small.",
     },
     {
-      "id": "precalculus-1-2-q09",
-      "topicId": "precalculus-1-2",
-      "concept": "comparing-rates",
-      "difficulty": "Core",
-      "skill": "support-conclusions",
-      "prompt": "The table gives values of the function f for selected values of x. Based on the table, which of the following conclusions is best supported?",
-      "stimulusBlocks": [
+      id: "precalculus-1-2-q09",
+      topicId: "precalculus-1-2",
+      concept: "comparing-rates",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "The table gives values of the function f for selected values of x. Based on the table, which of the following conclusions is best supported?",
+      stimulusBlocks: [
         {
-          "type": "table",
-          "caption": "Values of f near x = 2 and near x = 5",
-          "columns": [
-            "x",
-            "f(x)"
+          type: "table",
+          caption: "Values of f near x = 2 and near x = 5",
+          columns: ["x", "f(x)"],
+          rows: [
+            ["1.9", "3.61"],
+            ["2.1", "4.41"],
+            ["4.9", "24.01"],
+            ["5.1", "26.01"],
           ],
-          "rows": [
-            [
-              "1.9",
-              "3.61"
-            ],
-            [
-              "2.1",
-              "4.41"
-            ],
-            [
-              "4.9",
-              "24.01"
-            ],
-            [
-              "5.1",
-              "26.01"
-            ]
-          ]
-        }
+        },
       ],
-      "choices": [
+      choices: [
         "The output values of f are greater near x = 2 than near x = 5.",
         "The rate of change of f at x = 5 is greater than the rate of change of f at x = 2.",
         "The rates of change of f at x = 2 and at x = 5 are equal.",
-        "The rate of change of f at x = 2 is greater, because the input values are smaller there."
+        "The rate of change of f at x = 2 is greater, because the input values are smaller there.",
       ],
-      "correctAnswer": 1,
-      "explanation": "Over 1.9 ≤ x ≤ 2.1 the average rate of change is (4.41 − 3.61)/0.2 = 4. Over 4.9 ≤ x ≤ 5.1 it is (26.01 − 24.01)/0.2 = 10. Since 10 > 4, the rate of change at x = 5 is greater.",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      correctAnswer: 1,
+      explanation:
+        "Over 1.9 ≤ x ≤ 2.1 the average rate of change is (4.41 − 3.61)/0.2 = 4. Over 4.9 ≤ x ≤ 5.1 it is (26.01 − 24.01)/0.2 = 10. Since 10 > 4, the rate of change at x = 5 is greater.",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "The output values near 2 are less than those near 5, and the question is about rates of change.",
         "The average rates of change over small intervals are about 4 near x = 2 and about 10 near x = 5.",
         "The intervals have equal length, but the changes in output values, 0.8 and 2, are different.",
-        "Smaller input values do not mean a greater rate of change. The rate near x = 2 is the smaller one."
+        "Smaller input values do not mean a greater rate of change. The rate near x = 2 is the smaller one.",
       ],
-      "nearMissIndex": 2,
-      "distinguisher": "Compute an average rate of change near each point rather than comparing the output values."
+      nearMissIndex: 2,
+      distinguisher:
+        "Compute an average rate of change near each point rather than comparing the output values.",
     },
     {
-      "id": "precalculus-1-2-q10",
-      "topicId": "precalculus-1-2",
-      "concept": "sign-and-meaning",
-      "difficulty": "Core",
-      "skill": "support-conclusions",
-      "prompt": "The average rate of change of the function f over the interval 0 ≤ x ≤ 4 is negative, and the average rate of change of f over the interval 4 ≤ x ≤ 8 is positive. Which of the following must be true?",
-      "choices": [
+      id: "precalculus-1-2-q10",
+      topicId: "precalculus-1-2",
+      concept: "sign-and-meaning",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "The average rate of change of the function f over the interval 0 ≤ x ≤ 4 is negative, and the average rate of change of f over the interval 4 ≤ x ≤ 8 is positive. Which of the following must be true?",
+      choices: [
         "f is decreasing on the interval 0 < x < 4 and increasing on the interval 4 < x < 8.",
         "f(0) < f(8)",
         "f has a zero on the interval 0 < x < 8.",
-        "f(4) < f(0) and f(4) < f(8)"
+        "f(4) < f(0) and f(4) < f(8)",
       ],
-      "correctAnswer": 3,
-      "explanation": "A negative average rate of change over 0 ≤ x ≤ 4 means f(4) − f(0) < 0, so f(4) < f(0). A positive average rate of change over 4 ≤ x ≤ 8 means f(8) − f(4) > 0, so f(4) < f(8).",
-      "sourceIds": [
-        "ced",
-        "ced-topic-1-2"
-      ],
-      "choiceExplanations": [
+      correctAnswer: 3,
+      explanation:
+        "A negative average rate of change over 0 ≤ x ≤ 4 means f(4) − f(0) < 0, so f(4) < f(0). A positive average rate of change over 4 ≤ x ≤ 8 means f(8) − f(4) > 0, so f(4) < f(8).",
+      sourceIds: ["ced", "ced-topic-1-2"],
+      choiceExplanations: [
         "An average rate of change gives only the net change over the interval. f could increase for part of 0 < x < 4.",
         "Nothing compares f(0) with f(8). Either could be greater.",
         "All the output values could be positive, so a zero is not guaranteed.",
-        "The signs of the two average rates of change give f(4) < f(0) and f(8) > f(4)."
+        "The signs of the two average rates of change give f(4) < f(0) and f(8) > f(4).",
       ],
-      "nearMissIndex": 0,
-      "distinguisher": "An average rate of change describes the net change over an interval, not the behavior at every point in it."
-    }
+      nearMissIndex: 0,
+      distinguisher:
+        "An average rate of change describes the net change over an interval, not the behavior at every point in it.",
+    },
   ],
-  "quizzes": [
+  quizzes: [
     {
-      "id": "precalculus-1-2-quick",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-2",
-      "title": "Quick check",
-      "quizType": "quick",
-      "questionIds": [
+      id: "precalculus-1-2-quick",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-2",
+      title: "Quick check",
+      quizType: "quick",
+      questionIds: [
         "precalculus-1-2-q01",
         "precalculus-1-2-q02",
         "precalculus-1-2-q03",
-        "precalculus-1-2-q04"
-      ]
+        "precalculus-1-2-q04",
+      ],
     },
     {
-      "id": "precalculus-1-2-quiz",
-      "courseId": "precalculus",
-      "unitId": "precalculus-1",
-      "topicId": "precalculus-1-2",
-      "title": "Rates of Change topic practice",
-      "quizType": "topic",
-      "customPractice": true,
-      "questionIds": [
+      id: "precalculus-1-2-quiz",
+      courseId: "precalculus",
+      unitId: "precalculus-1",
+      topicId: "precalculus-1-2",
+      title: "Rates of Change topic practice",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: [
         "precalculus-1-2-q05",
         "precalculus-1-2-q06",
         "precalculus-1-2-q07",
         "precalculus-1-2-q08",
         "precalculus-1-2-q09",
-        "precalculus-1-2-q10"
-      ]
-    }
-  ]
+        "precalculus-1-2-q10",
+      ],
+    },
+  ],
 };

@@ -1,0 +1,531 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-q01",
+              "precalculus-2-1-q04",
+              "precalculus-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-q01",
+              "precalculus-2-2-q04",
+              "precalculus-2-2-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-q01",
+              "precalculus-2-3-q04",
+              "precalculus-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-q01",
+              "precalculus-2-4-q04",
+              "precalculus-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-q01",
+              "precalculus-2-5-q05",
+              "precalculus-2-5-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-q01",
+              "precalculus-2-6-q03",
+              "precalculus-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-q01",
+              "precalculus-2-7-q04",
+              "precalculus-2-7-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-q01",
+              "precalculus-2-8-q04",
+              "precalculus-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-q01",
+              "precalculus-2-9-q03",
+              "precalculus-2-9-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-q01",
+              "precalculus-2-10-q03",
+              "precalculus-2-10-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-q01",
+              "precalculus-2-11-q04",
+              "precalculus-2-11-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-q01",
+              "precalculus-2-12-q03",
+              "precalculus-2-12-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-q01",
+              "precalculus-2-13-q03",
+              "precalculus-2-13-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-q01",
+              "precalculus-2-14-q03",
+              "precalculus-2-14-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-q01",
+              "precalculus-2-15-q04",
+              "precalculus-2-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-9",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 9,
+    "code": "2.9",
+    "title": "Logarithmic Expressions",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "What log_b c means, evaluating logarithms with and without technology, the common logarithm, and logarithmic scales."
+  },
+  "framework": null,
+  "contentRevision": "bb809ff6c43d1ae1",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "precalculus-2-9",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 9,
+    "code": "2.9",
+    "title": "Logarithmic Expressions",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "What log_b c means, evaluating logarithms with and without technology, the common logarithm, and logarithmic scales.",
+    "minutes": 11,
+    "learningGoals": [
+      "2.9.A Evaluate logarithmic expressions."
+    ],
+    "labels": {
+      "goals": "AP learning objectives",
+      "learn": "Understand the mathematics.",
+      "context": "Where this fits."
+    },
+    "bigIdea": "A logarithm answers one question: what exponent turns the base into this number? Every logarithm statement is an exponential statement read the other way.",
+    "context": "Topics 2.3 to 2.5 asked for outputs of exponential functions. Logarithms ask for the input instead, which is the step needed to solve exponential equations and to build logarithmic functions in Topic 2.10.",
+    "sections": [
+      {
+        "id": "meaning",
+        "title": "2.9.A · log_b c is the exponent that b must be raised to in order to obtain c.",
+        "conceptTitle": "What a logarithm means",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The logarithmic expression log_b c is equal to, or represents, the value that the base b must be exponentially raised to in order to obtain the value c. That is, log_b c = a if and only if bᵃ = c, where a and c are constants, b > 0, and b ≠ 1. (when the base of a logarithmic expression is not specified, it is understood as the common logarithm with a base of 10)"
+          },
+          {
+            "type": "table",
+            "caption": "Each logarithm statement is an exponential statement",
+            "columns": [
+              "Logarithmic form",
+              "Exponential form",
+              "In words"
+            ],
+            "rows": [
+              [
+                "log₂ 32 = 5",
+                "2⁵ = 32",
+                "2 must be raised to 5 to obtain 32."
+              ],
+              [
+                "log₃ (1/27) = −3",
+                "3⁻³ = 1/27",
+                "3 must be raised to −3 to obtain 1/27."
+              ],
+              [
+                "log 0.01 = −2",
+                "10⁻² = 0.01",
+                "The common logarithm has base 10."
+              ],
+              [
+                "log₉ 3 = 1/2",
+                "9^(1/2) = 3",
+                "A unit-fraction exponent is a root."
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "title": "Write it like the AP Exam",
+            "text": "log₄ 64 = 3 because 4³ = 64. State the exponential form as the reason."
+          }
+        ],
+        "takeaway": "log_b c = a means bᵃ = c. No base written means base 10."
+      },
+      {
+        "id": "evaluating",
+        "title": "2.9.A · Some logarithms are exact; others are estimated with technology.",
+        "conceptTitle": "Evaluating logarithms",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The values of some logarithmic expressions are readily accessible through basic arithmetic while other values can be estimated through the use of technology."
+          },
+          {
+            "type": "paragraph",
+            "text": "log₅ 125 = 3 is exact, because 125 = 5³. log 40 is not an integer: since 10¹ = 10 and 10² = 100, log 40 is between 1 and 2, and technology gives log 40 ≈ 1.602."
+          },
+          {
+            "type": "paragraph",
+            "text": "When the argument can be written as a power of a common base, rewrite both: log₈ 4 asks for a with 8ᵃ = 4. Since 8 = 2³ and 4 = 2², (2³)ᵃ = 2², so 3a = 2 and log₈ 4 = 2/3."
+          },
+          {
+            "type": "callout",
+            "title": "Write it like the AP Exam",
+            "text": "On the no-calculator Question 4, find exact values such as log₂ 8 = 3. Use a decimal only when a calculator is allowed and the value is not exact."
+          }
+        ],
+        "takeaway": "Rewrite as powers of a common base for exact values; estimate the rest with technology."
+      },
+      {
+        "id": "log-scale",
+        "title": "2.9.A · On a logarithmic scale, each unit is a multiplicative change.",
+        "conceptTitle": "Logarithmic scales",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "On a logarithmic scale, each unit represents a multiplicative change of the base of the logarithm. For example, on a standard scale, the units might be 0, 1, 2, …, while on a logarithmic scale, using logarithm base 10, the units might be 10⁰, 10¹, 10², …."
+          },
+          {
+            "type": "table",
+            "caption": "Equal steps on a base-10 logarithmic scale",
+            "columns": [
+              "Position on the scale",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "rows": [
+              [
+                "Value represented",
+                "1",
+                "10",
+                "100",
+                "1,000",
+                "10,000"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Moving one unit to the right multiplies the value by 10, so values that differ by many orders of magnitude, such as the intensity of a whisper and a jet engine, fit on one scale."
+          }
+        ],
+        "takeaway": "Equal steps on a log scale mean equal factors, not equal differences."
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "precalculus-2-9-logarithmic-expression",
+        "topicId": "precalculus-2-9",
+        "term": "Logarithmic expression",
+        "definition": "The logarithmic expression log_b c is equal to, or represents, the value that the base b must be exponentially raised to in order to obtain the value c. That is, log_b c = a if and only if bᵃ = c, where a and c are constants, b > 0, and b ≠ 1.",
+        "source": "CED 2.9.A.1"
+      },
+      {
+        "id": "precalculus-2-9-common-logarithm",
+        "topicId": "precalculus-2-9",
+        "term": "Common logarithm",
+        "definition": "(when the base of a logarithmic expression is not specified, it is understood as the common logarithm with a base of 10)",
+        "source": "CED 2.9.A.1"
+      },
+      {
+        "id": "precalculus-2-9-logarithmic-scale",
+        "topicId": "precalculus-2-9",
+        "term": "Logarithmic scale",
+        "definition": "On a logarithmic scale, each unit represents a multiplicative change of the base of the logarithm. For example, on a standard scale, the units might be 0, 1, 2, …, while on a logarithmic scale, using logarithm base 10, the units might be 10⁰, 10¹, 10², ….",
+        "source": "CED 2.9.A.3"
+      }
+    ],
+    "connections": [
+      {
+        "id": "precalculus-2-9-c1",
+        "topicId": "precalculus-2-9",
+        "type": "Look back",
+        "title": "Unit-fraction exponents",
+        "body": "Topic 2.4 showed that b^(1/k) is the kth root of b. That is why log₉ 3 = 1/2 and log₈ 2 = 1/3.",
+        "transferQuestion": "What is log₁₆ 2?",
+        "feedback": "1/4, because 16^(1/4) = 2.",
+        "links": [
+          {
+            "topicId": "precalculus-2-4",
+            "sectionId": "negative-and-roots",
+            "label": "Review fractional exponents"
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-9-c2",
+        "topicId": "precalculus-2-9",
+        "type": "Looking ahead",
+        "title": "Logarithmic functions",
+        "body": "Topic 2.10 turns log_b x into a function of x and shows it is the inverse of the exponential function bˣ.",
+        "transferQuestion": "If f(x) = 3ˣ, what is f⁻¹(81)?",
+        "feedback": "4, because 3⁴ = 81. That is log₃ 81.",
+        "links": [
+          {
+            "topicId": "precalculus-2-10",
+            "sectionId": "inverse-pairs",
+            "label": "See logarithms as inverses"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "ced-topic-2-9"
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "precalculus-2-9-logarithmic-expression",
+        "precalculus-2-9-common-logarithm",
+        "precalculus-2-9-logarithmic-scale"
+      ]
+    }
+  },
+  "bankPath": "precalculus/banks/precalculus-2-9.json",
+  "glossary": [
+    {
+      "id": "precalculus-2-9-logarithmic-expression",
+      "term": "Logarithmic expression",
+      "definition": "The logarithmic expression log_b c is equal to, or represents, the value that the base b must be exponentially raised to in order to obtain the value c. That is, log_b c = a if and only if bᵃ = c, where a and c are constants, b > 0, and b ≠ 1.",
+      "aliases": [
+        "logarithm",
+        "logarithms"
+      ],
+      "sourceLabel": "CED 2.9.A.1"
+    },
+    {
+      "id": "precalculus-2-9-common-logarithm",
+      "term": "Common logarithm",
+      "definition": "(when the base of a logarithmic expression is not specified, it is understood as the common logarithm with a base of 10)",
+      "aliases": [],
+      "sourceLabel": "CED 2.9.A.1"
+    },
+    {
+      "id": "precalculus-2-9-logarithmic-scale",
+      "term": "Logarithmic scale",
+      "definition": "On a logarithmic scale, each unit represents a multiplicative change of the base of the logarithm. For example, on a standard scale, the units might be 0, 1, 2, …, while on a logarithmic scale, using logarithm base 10, the units might be 10⁰, 10¹, 10², ….",
+      "aliases": [
+        "logarithmic scales"
+      ],
+      "sourceLabel": "CED 2.9.A.3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP Precalculus Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
+      "note": "Course scope, units, topics, learning objectives, and essential knowledge for Units 1 to 3."
+    },
+    {
+      "id": "ced-topic-2-9",
+      "label": "College Board: AP Precalculus Course and Exam Description, Topic 2.9: Logarithmic Expressions",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+    }
+  ],
+  "assets": {}
+}

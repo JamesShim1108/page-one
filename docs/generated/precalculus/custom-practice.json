@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "precalculus",
-  "revision": "db706b1aa5aaea2a",
+  "revision": "8ef7561acdad0b6f",
   "pools": [
     {
       "id": "precalculus-1-1:precalculus-1-1-quiz",
@@ -229,6 +229,260 @@
         "precalculus-1-14-q07",
         "precalculus-1-14-q09",
         "precalculus-1-14-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-1:precalculus-2-1-quiz",
+      "quizId": "precalculus-2-1-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-1",
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "bankPath": "precalculus/banks/precalculus-2-1.json",
+      "questionIds": [
+        "precalculus-2-1-q05",
+        "precalculus-2-1-q07",
+        "precalculus-2-1-q08",
+        "precalculus-2-1-q09",
+        "precalculus-2-1-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-2:precalculus-2-2-quiz",
+      "quizId": "precalculus-2-2-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-2",
+      "code": "2.2",
+      "title": "Change in Linear and Exponential Functions",
+      "bankPath": "precalculus/banks/precalculus-2-2.json",
+      "questionIds": [
+        "precalculus-2-2-q06",
+        "precalculus-2-2-q07",
+        "precalculus-2-2-q08",
+        "precalculus-2-2-q09",
+        "precalculus-2-2-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-3:precalculus-2-3-quiz",
+      "quizId": "precalculus-2-3-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-3",
+      "code": "2.3",
+      "title": "Exponential Functions",
+      "bankPath": "precalculus/banks/precalculus-2-3.json",
+      "questionIds": [
+        "precalculus-2-3-q05",
+        "precalculus-2-3-q07",
+        "precalculus-2-3-q08",
+        "precalculus-2-3-q09",
+        "precalculus-2-3-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-4:precalculus-2-4-quiz",
+      "quizId": "precalculus-2-4-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-4",
+      "code": "2.4",
+      "title": "Exponential Function Manipulation",
+      "bankPath": "precalculus/banks/precalculus-2-4.json",
+      "questionIds": [
+        "precalculus-2-4-q05",
+        "precalculus-2-4-q07",
+        "precalculus-2-4-q08",
+        "precalculus-2-4-q09",
+        "precalculus-2-4-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-5:precalculus-2-5-quiz",
+      "quizId": "precalculus-2-5-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-5",
+      "code": "2.5",
+      "title": "Exponential Function Context and Data Modeling",
+      "bankPath": "precalculus/banks/precalculus-2-5.json",
+      "questionIds": [
+        "precalculus-2-5-q06",
+        "precalculus-2-5-q07",
+        "precalculus-2-5-q08",
+        "precalculus-2-5-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-6:precalculus-2-6-quiz",
+      "quizId": "precalculus-2-6-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-6",
+      "code": "2.6",
+      "title": "Competing Function Model Validation",
+      "bankPath": "precalculus/banks/precalculus-2-6.json",
+      "questionIds": [
+        "precalculus-2-6-q05",
+        "precalculus-2-6-q07",
+        "precalculus-2-6-q08",
+        "precalculus-2-6-q09",
+        "precalculus-2-6-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-7:precalculus-2-7-quiz",
+      "quizId": "precalculus-2-7-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-7",
+      "code": "2.7",
+      "title": "Composition of Functions",
+      "bankPath": "precalculus/banks/precalculus-2-7.json",
+      "questionIds": [
+        "precalculus-2-7-q05",
+        "precalculus-2-7-q06",
+        "precalculus-2-7-q08",
+        "precalculus-2-7-q09",
+        "precalculus-2-7-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-8:precalculus-2-8-quiz",
+      "quizId": "precalculus-2-8-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-8",
+      "code": "2.8",
+      "title": "Inverse Functions",
+      "bankPath": "precalculus/banks/precalculus-2-8.json",
+      "questionIds": [
+        "precalculus-2-8-q05",
+        "precalculus-2-8-q07",
+        "precalculus-2-8-q08",
+        "precalculus-2-8-q09",
+        "precalculus-2-8-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-9:precalculus-2-9-quiz",
+      "quizId": "precalculus-2-9-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-9",
+      "code": "2.9",
+      "title": "Logarithmic Expressions",
+      "bankPath": "precalculus/banks/precalculus-2-9.json",
+      "questionIds": [
+        "precalculus-2-9-q05",
+        "precalculus-2-9-q07",
+        "precalculus-2-9-q08",
+        "precalculus-2-9-q09",
+        "precalculus-2-9-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-10:precalculus-2-10-quiz",
+      "quizId": "precalculus-2-10-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-10",
+      "code": "2.10",
+      "title": "Inverses of Exponential Functions",
+      "bankPath": "precalculus/banks/precalculus-2-10.json",
+      "questionIds": [
+        "precalculus-2-10-q05",
+        "precalculus-2-10-q07",
+        "precalculus-2-10-q08",
+        "precalculus-2-10-q09",
+        "precalculus-2-10-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-11:precalculus-2-11-quiz",
+      "quizId": "precalculus-2-11-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-11",
+      "code": "2.11",
+      "title": "Logarithmic Functions",
+      "bankPath": "precalculus/banks/precalculus-2-11.json",
+      "questionIds": [
+        "precalculus-2-11-q05",
+        "precalculus-2-11-q06",
+        "precalculus-2-11-q07",
+        "precalculus-2-11-q08",
+        "precalculus-2-11-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-12:precalculus-2-12-quiz",
+      "quizId": "precalculus-2-12-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-12",
+      "code": "2.12",
+      "title": "Logarithmic Function Manipulation",
+      "bankPath": "precalculus/banks/precalculus-2-12.json",
+      "questionIds": [
+        "precalculus-2-12-q06",
+        "precalculus-2-12-q07",
+        "precalculus-2-12-q08",
+        "precalculus-2-12-q09",
+        "precalculus-2-12-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-13:precalculus-2-13-quiz",
+      "quizId": "precalculus-2-13-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-13",
+      "code": "2.13",
+      "title": "Exponential and Logarithmic Equations and Inequalities",
+      "bankPath": "precalculus/banks/precalculus-2-13.json",
+      "questionIds": [
+        "precalculus-2-13-q05",
+        "precalculus-2-13-q07",
+        "precalculus-2-13-q08",
+        "precalculus-2-13-q09",
+        "precalculus-2-13-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-14:precalculus-2-14-quiz",
+      "quizId": "precalculus-2-14-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-14",
+      "code": "2.14",
+      "title": "Logarithmic Function Context and Data Modeling",
+      "bankPath": "precalculus/banks/precalculus-2-14.json",
+      "questionIds": [
+        "precalculus-2-14-q06",
+        "precalculus-2-14-q07",
+        "precalculus-2-14-q08",
+        "precalculus-2-14-q09",
+        "precalculus-2-14-q10"
+      ]
+    },
+    {
+      "id": "precalculus-2-15:precalculus-2-15-quiz",
+      "quizId": "precalculus-2-15-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-15",
+      "code": "2.15",
+      "title": "Semi-log Plots",
+      "bankPath": "precalculus/banks/precalculus-2-15.json",
+      "questionIds": [
+        "precalculus-2-15-q05",
+        "precalculus-2-15-q06",
+        "precalculus-2-15-q08",
+        "precalculus-2-15-q09",
+        "precalculus-2-15-q10"
       ]
     }
   ]

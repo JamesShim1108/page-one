@@ -1,0 +1,459 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-q01",
+              "precalculus-2-1-q04",
+              "precalculus-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-q01",
+              "precalculus-2-2-q04",
+              "precalculus-2-2-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-q01",
+              "precalculus-2-3-q04",
+              "precalculus-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-q01",
+              "precalculus-2-4-q04",
+              "precalculus-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-q01",
+              "precalculus-2-5-q05",
+              "precalculus-2-5-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-q01",
+              "precalculus-2-6-q03",
+              "precalculus-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-q01",
+              "precalculus-2-7-q04",
+              "precalculus-2-7-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-q01",
+              "precalculus-2-8-q04",
+              "precalculus-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-q01",
+              "precalculus-2-9-q03",
+              "precalculus-2-9-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-q01",
+              "precalculus-2-10-q03",
+              "precalculus-2-10-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-q01",
+              "precalculus-2-11-q04",
+              "precalculus-2-11-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-q01",
+              "precalculus-2-12-q03",
+              "precalculus-2-12-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-q01",
+              "precalculus-2-13-q03",
+              "precalculus-2-13-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-q01",
+              "precalculus-2-14-q03",
+              "precalculus-2-14-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-q01",
+              "precalculus-2-15-q04",
+              "precalculus-2-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-2-frq-3",
+    "version": 1,
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+    "headline": "Rewrite logarithmic and exponential expressions, solve exponential and logarithmic equations exactly, and find an inverse.",
+    "promptTitle": "Free response 3 · Symbolic manipulations · no calculator",
+    "prompt": "This question has three parts that each give different functions. Work each part without a calculator.",
+    "instructions": "Part B style: no calculator is allowed. Unless otherwise specified, the domain of a function f is the set of all real numbers x for which f(x) is a real number. Solutions to equations must be real numbers. Determine the exact value of any expression that can be obtained without a calculator, such as log₂ 8. Unless otherwise specified, combine terms using algebraic methods and rules for exponents and logarithms. Show the work that leads to your answers.",
+    "note": "Original practice question written in the AP Precalculus free-response format (6 points, parts A to C). Scoring is self-assessed with the point-by-point rubric. It is not an official AP question or an official AP score.",
+    "exerciseType": "frq",
+    "sourceIds": [
+      "ced",
+      "ced-topic-2-4",
+      "ced-topic-2-12",
+      "ced-topic-2-13"
+    ],
+    "stimulusBlocks": [
+      {
+        "type": "list",
+        "items": [
+          "Part A: g(x) = 2 log₃ x − log₃ (9x) and h(x) = 4^(x + 1)·2^(−x).",
+          "Part B: j(x) = e^(2x) − 5eˣ + 6 and k(x) = log₂ (x + 2) + log₂ (x − 1).",
+          "Part C: m(x) = 3(5)^(x − 2) + 1."
+        ]
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Show work",
+        "text": "Write the setup, such as the expression you evaluate or the equation you solve, before the answer."
+      },
+      {
+        "label": "Use notation",
+        "text": "Use limit notation, interval notation, and units exactly where a part asks for them."
+      },
+      {
+        "label": "Justify",
+        "text": "When a part says give a reason or explain, refer to the given values or the context."
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "a1",
+        "label": "Part A (i)",
+        "prompt": "A (i). Rewrite g(x) as a single logarithm base 3 without negative exponents in any part of the expression. Your result should be of the form log₃ (expression).",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-2-12",
+            "sectionId": "power-property",
+            "label": "Combining logarithms"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "label": "Part A (ii)",
+        "prompt": "A (ii). Rewrite h(x) in the form a·bˣ, where a and b are constants.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-2-4",
+            "sectionId": "product-property",
+            "label": "Properties of exponents"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "label": "Part B (i)",
+        "prompt": "B (i). Solve j(x) = 0 for values of x in the domain of j.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-2-13",
+            "sectionId": "solving",
+            "label": "Solving exponential equations"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "label": "Part B (ii)",
+        "prompt": "B (ii). Solve k(x) = 2 for values of x in the domain of k.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-2-13",
+            "sectionId": "extraneous",
+            "label": "Extraneous solutions"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "label": "Part C (i)",
+        "prompt": "C (i). Find an expression for m⁻¹(x), the inverse function of m.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-2-13",
+            "sectionId": "inverses",
+            "label": "Inverses of transformed functions"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "label": "Part C (ii)",
+        "prompt": "C (ii). What is the domain of m⁻¹? Give a reason for your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-2-8",
+            "sectionId": "inverse-by-composition",
+            "label": "Domain and range of an inverse"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "a1-log",
+        "field": "a1",
+        "label": "A (i) Single logarithm",
+        "points": 1,
+        "guidance": "Earn the point for g(x) = log₃ (x/9), for x > 0, with work such as log₃ x² − log₃ (9x) = log₃ (x²/(9x))."
+      },
+      {
+        "id": "a2-exp",
+        "field": "a2",
+        "label": "A (ii) Form a·bˣ",
+        "points": 1,
+        "guidance": "Earn the point for h(x) = 4·2ˣ, with work such as 4^(x + 1) = 4·4ˣ = 4·2^(2x), then 4·2^(2x)·2^(−x) = 4·2ˣ."
+      },
+      {
+        "id": "b1-solve",
+        "field": "b1",
+        "label": "B (i) Solutions of j(x) = 0",
+        "points": 1,
+        "guidance": "Earn the point for x = ln 2 and x = ln 3, from (eˣ − 2)(eˣ − 3) = 0."
+      },
+      {
+        "id": "b2-solve",
+        "field": "b2",
+        "label": "B (ii) Solution of k(x) = 2",
+        "points": 1,
+        "guidance": "Earn the point for x = 2 only, with x = −3 rejected because it is not in the domain of k."
+      },
+      {
+        "id": "c1-inverse",
+        "field": "c1",
+        "label": "C (i) Inverse expression",
+        "points": 1,
+        "guidance": "Earn the point for m⁻¹(x) = log₅ ((x − 1)/3) + 2, or an equivalent expression."
+      },
+      {
+        "id": "c2-domain",
+        "field": "c2",
+        "label": "C (ii) Domain with reason",
+        "points": 1,
+        "guidance": "Earn the point for x > 1, with the reason that the range of m is y > 1 (because 3(5)^(x − 2) > 0), and the domain of m⁻¹ is the range of m."
+      }
+    ],
+    "modelResponse": "A (i). g(x) = 2 log₃ x − log₃ (9x) = log₃ x² − log₃ (9x) = log₃ (x²/(9x)) = log₃ (x/9), for x > 0.\n\nA (ii). h(x) = 4^(x + 1)·2^(−x) = 4·4ˣ·2^(−x) = 4·(2²)ˣ·2^(−x) = 4·2^(2x)·2^(−x) = 4·2ˣ.\n\nB (i). Let u = eˣ. Then u² − 5u + 6 = 0, so (u − 2)(u − 3) = 0. eˣ = 2 or eˣ = 3, so x = ln 2 or x = ln 3.\n\nB (ii). log₂ ((x + 2)(x − 1)) = 2, so (x + 2)(x − 1) = 4. Then x² + x − 2 = 4, x² + x − 6 = 0, and (x + 3)(x − 2) = 0. x = −3 is not in the domain of k because x − 1 = −4 < 0. So x = 2.\n\nC (i). y = 3(5)^(x − 2) + 1. Reverse x and y: x = 3(5)^(y − 2) + 1. Then (x − 1)/3 = 5^(y − 2), so y − 2 = log₅ ((x − 1)/3) and m⁻¹(x) = log₅ ((x − 1)/3) + 2.\n\nC (ii). Because 3(5)^(x − 2) > 0 for every x, the range of m is y > 1. The domain of m⁻¹ is the range of m, so the domain of m⁻¹ is x > 1. This also matches the requirement (x − 1)/3 > 0 for the logarithm.",
+    "alternateModel": "In A (i) you may first write 2 log₃ x − (log₃ 9 + log₃ x) = log₃ x − 2 and then rewrite −2 as −log₃ 9 to get log₃ (x/9). In C (i), m⁻¹(x) = log₅ (x − 1) − log₅ 3 + 2 is an equivalent expression.",
+    "commonErrors": [
+      "Writing log₃ (2x − 9x) by combining coefficients inside the logarithm.",
+      "Writing 4^(x + 1)·2^(−x) = 8^(1) or another product of bases.",
+      "Taking ln of each term of e^(2x) − 5eˣ + 6 separately.",
+      "Keeping x = −3 in B (ii).",
+      "Subtracting 2 instead of adding 2 when undoing the exponent x − 2."
+    ]
+  }
+}

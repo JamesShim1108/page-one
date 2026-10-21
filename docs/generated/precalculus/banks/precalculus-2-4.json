@@ -1,0 +1,639 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-q01",
+              "precalculus-2-1-q04",
+              "precalculus-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-q01",
+              "precalculus-2-2-q04",
+              "precalculus-2-2-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-q01",
+              "precalculus-2-3-q04",
+              "precalculus-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-q01",
+              "precalculus-2-4-q04",
+              "precalculus-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-q01",
+              "precalculus-2-5-q05",
+              "precalculus-2-5-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-q01",
+              "precalculus-2-6-q03",
+              "precalculus-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-q01",
+              "precalculus-2-7-q04",
+              "precalculus-2-7-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-q01",
+              "precalculus-2-8-q04",
+              "precalculus-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-q01",
+              "precalculus-2-9-q03",
+              "precalculus-2-9-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-q01",
+              "precalculus-2-10-q03",
+              "precalculus-2-10-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-q01",
+              "precalculus-2-11-q04",
+              "precalculus-2-11-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-q01",
+              "precalculus-2-12-q03",
+              "precalculus-2-12-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-q01",
+              "precalculus-2-13-q03",
+              "precalculus-2-13-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-q01",
+              "precalculus-2-14-q03",
+              "precalculus-2-14-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-q01",
+              "precalculus-2-15-q04",
+              "precalculus-2-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-4",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 4,
+    "code": "2.4",
+    "title": "Exponential Function Manipulation",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "The product, power, and negative exponent properties, unit-fraction exponents as roots, and how horizontal translations and dilations of exponential functions become vertical dilations and changes of base."
+  },
+  "framework": null,
+  "contentRevision": "fbeec8f4dfc0ca37",
+  "questions": [
+    {
+      "id": "precalculus-2-4-q01",
+      "topicId": "precalculus-2-4",
+      "concept": "product-property",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to 2^(x + 4)?",
+      "choices": [
+        "2ˣ + 16",
+        "8(2)ˣ",
+        "16(2)ˣ",
+        "2^(4x)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By the product property, 2^(x + 4) = 2ˣ·2⁴ = 16(2)ˣ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "The product property gives a product of powers, not a sum.",
+        "8 = 2³, which corresponds to 2^(x + 3).",
+        "2^(x + 4) = 2⁴·2ˣ = 16(2)ˣ.",
+        "Adding exponents is not the same as multiplying them."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Exponent 4 contributes the factor 2⁴ = 16.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-4-q02",
+      "topicId": "precalculus-2-4",
+      "concept": "power-property",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to 5^(3x)?",
+      "choices": [
+        "125ˣ",
+        "15ˣ",
+        "5ˣ + 5ˣ + 5ˣ",
+        "3(5)ˣ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By the power property, 5^(3x) = (5³)ˣ = 125ˣ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "5^(3x) = (5³)ˣ = 125ˣ.",
+        "The new base is 5³, not 5·3.",
+        "That sum equals 3(5)ˣ, not 5^(3x).",
+        "Multiplying the exponent by 3 does not multiply the expression by 3."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "A horizontal dilation by 1/3 cubes the base.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-4-q03",
+      "topicId": "precalculus-2-4",
+      "concept": "negative-and-roots",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "What is the value of 81^(3/4)?",
+      "choices": [
+        "60.75",
+        "243",
+        "9",
+        "27"
+      ],
+      "correctAnswer": 3,
+      "explanation": "81^(3/4) = (81^(1/4))³ = 3³ = 27.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "60.75 = 81(3/4) multiplies by the exponent.",
+        "243 = 3⁵ uses the wrong power.",
+        "9 is 81^(1/2), the square root.",
+        "The fourth root of 81 is 3, and 3³ = 27."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Take the root from the denominator, then the power from the numerator.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-4-q04",
+      "topicId": "precalculus-2-4",
+      "concept": "negative-and-roots",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to (1/4)^(x − 1)?",
+      "choices": [
+        "4^(1 − x) − 1",
+        "4^(1 − x)",
+        "4^(x + 1)",
+        "−4^(x − 1)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(1/4)^(x − 1) = (4⁻¹)^(x − 1) = 4^(−(x − 1)) = 4^(1 − x).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "There is no subtracted 1 in the rewritten form.",
+        "1/4 = 4⁻¹, and the power property gives 4^(−(x − 1)) = 4^(1 − x).",
+        "The negative sign must apply to the whole exponent x − 1, giving 1 − x.",
+        "A negative exponent gives a reciprocal, not a negative number."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Negate the whole exponent: −(x − 1) = 1 − x.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-4-q05",
+      "topicId": "precalculus-2-4",
+      "concept": "product-property",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "The function f is given by f(x) = 3^(x − 2). Which of the following is f written as a vertical dilation of y = 3ˣ?",
+      "choices": [
+        "f(x) = (1/9)(3)ˣ",
+        "f(x) = −6(3)ˣ",
+        "f(x) = 9(3)ˣ",
+        "f(x) = (1/6)(3)ˣ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "3^(x − 2) = 3ˣ·3⁻² = (1/9)3ˣ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "3⁻² = 1/9, so f(x) = (1/9)(3)ˣ.",
+        "3⁻² is 1/9, not 3(−2).",
+        "The exponent is −2, so the factor is 3⁻² = 1/9, not 3² = 9.",
+        "3² = 9, not 6."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "A negative shift in the exponent gives a factor less than 1.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-4-q06",
+      "topicId": "precalculus-2-4",
+      "concept": "power-property",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to 9^(x/2)?",
+      "choices": [
+        "4.5ˣ",
+        "81ˣ",
+        "3ˣ",
+        "(x/2)⁹"
+      ],
+      "correctAnswer": 2,
+      "explanation": "9^(x/2) = (9^(1/2))ˣ = 3ˣ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "The new base is 9^(1/2) = 3, not 9/2.",
+        "81 = 9², which would come from 9^(2x).",
+        "The power property gives (9^(1/2))ˣ = 3ˣ.",
+        "The base and the exponent are switched."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Raising to the 1/2 power takes a square root, it does not halve.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-4-q07",
+      "topicId": "precalculus-2-4",
+      "concept": "product-property",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to 2^(3x + 2)?",
+      "choices": [
+        "6ˣ + 4",
+        "2(8)ˣ",
+        "8ˣ + 4",
+        "4(8)ˣ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "2^(3x + 2) = 2^(3x)·2² = 4(2³)ˣ = 4(8)ˣ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "Neither property produces a sum, and 2³ is 8, not 6.",
+        "The constant 2 in the exponent gives the factor 2² = 4, not 2.",
+        "The product property gives a product 2^(3x)·2², not a sum.",
+        "Product property for 2², then power property for 2^(3x) = 8ˣ."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The added 2 in the exponent becomes the coefficient 2² = 4.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-4-q08",
+      "topicId": "precalculus-2-4",
+      "concept": "negative-and-roots",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to (x⁶)^(1/3)·x⁻⁴ for x > 0?",
+      "choices": [
+        "x⁻¹",
+        "x⁻²",
+        "x²",
+        "x^(−10/3)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(x⁶)^(1/3) = x², and x²·x⁻⁴ = x⁻² = 1/x².",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "x⁻¹ would need (x⁶)^(1/3) to equal x³.",
+        "Power property: x⁶·(1/3) = x², then product property: x^(2 − 4) = x⁻².",
+        "x² is (x⁶)^(1/3) before multiplying by x⁻⁴.",
+        "This adds 6 + 1/3 incorrectly instead of multiplying 6 by 1/3."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Multiply exponents for a power of a power; add them for a product.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-4-q09",
+      "topicId": "precalculus-2-4",
+      "concept": "power-property",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "The graph of g(x) = 4^(x/2) is a horizontal dilation of the graph of f(x) = 4ˣ. Which of the following describes g as a change of base?",
+      "choices": [
+        "g is f with base 8, because 4·2 = 8",
+        "g is f with base 2, because 4/2 = 2",
+        "g is f with base 2, because 4^(1/2) = 2",
+        "g is f with base 16, because 4² = 16"
+      ],
+      "correctAnswer": 2,
+      "explanation": "4^(x/2) = (4^(1/2))ˣ = 2ˣ. A horizontal dilation by a factor of 2 changes the base from 4 to 4^(1/2) = 2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "The power property raises the base to a power; it does not multiply the base.",
+        "The answer 2 is right, but the reason is 4^(1/2) = 2, not 4/2 = 2. For 9^(x/2), 9/2 would give the wrong base.",
+        "(4^(1/2))ˣ = 2ˣ.",
+        "16 = 4² corresponds to 4^(2x), a horizontal dilation by a factor of 1/2."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The new base is b^c, a power, not b times or divided by c.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-4-q10",
+      "topicId": "precalculus-2-4",
+      "concept": "negative-and-roots",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to 6^(2x)·6^(−x)?",
+      "choices": [
+        "6ˣ",
+        "6^(−2x²)",
+        "36^(−x)",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "6^(2x)·6^(−x) = 6^(2x − x) = 6ˣ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-4"
+      ],
+      "choiceExplanations": [
+        "Product property: add the exponents 2x and −x.",
+        "Exponents are added for a product, not multiplied.",
+        "36^(−x) = 6^(−2x), which reverses the roles of the two factors.",
+        "The exponents do not cancel completely: 2x + (−x) = x."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Add exponents of the same base when multiplying.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-2-4-quick",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-4",
+      "title": "Quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "precalculus-2-4-q01",
+        "precalculus-2-4-q02",
+        "precalculus-2-4-q03",
+        "precalculus-2-4-q04"
+      ]
+    },
+    {
+      "id": "precalculus-2-4-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-4",
+      "title": "Exponential Function Manipulation topic practice",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "precalculus-2-4-q05",
+        "precalculus-2-4-q06",
+        "precalculus-2-4-q07",
+        "precalculus-2-4-q08",
+        "precalculus-2-4-q09",
+        "precalculus-2-4-q10"
+      ]
+    }
+  ],
+  "concepts": {
+    "product-property": {
+      "id": "product-property",
+      "title": "Product property for exponents",
+      "section": "product-property",
+      "topicId": "precalculus-2-4"
+    },
+    "power-property": {
+      "id": "power-property",
+      "title": "Power property for exponents",
+      "section": "power-property",
+      "topicId": "precalculus-2-4"
+    },
+    "negative-and-roots": {
+      "id": "negative-and-roots",
+      "title": "Negative and fractional exponents",
+      "section": "negative-and-roots",
+      "topicId": "precalculus-2-4"
+    }
+  },
+  "assets": {}
+}

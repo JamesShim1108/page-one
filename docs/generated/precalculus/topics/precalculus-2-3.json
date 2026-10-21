@@ -1,0 +1,567 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-q01",
+              "precalculus-2-1-q04",
+              "precalculus-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-q01",
+              "precalculus-2-2-q04",
+              "precalculus-2-2-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-q01",
+              "precalculus-2-3-q04",
+              "precalculus-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-q01",
+              "precalculus-2-4-q04",
+              "precalculus-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-q01",
+              "precalculus-2-5-q05",
+              "precalculus-2-5-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-q01",
+              "precalculus-2-6-q03",
+              "precalculus-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-q01",
+              "precalculus-2-7-q04",
+              "precalculus-2-7-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-q01",
+              "precalculus-2-8-q04",
+              "precalculus-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-q01",
+              "precalculus-2-9-q03",
+              "precalculus-2-9-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-q01",
+              "precalculus-2-10-q03",
+              "precalculus-2-10-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-q01",
+              "precalculus-2-11-q04",
+              "precalculus-2-11-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-q01",
+              "precalculus-2-12-q03",
+              "precalculus-2-12-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-q01",
+              "precalculus-2-13-q03",
+              "precalculus-2-13-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-q01",
+              "precalculus-2-14-q03",
+              "precalculus-2-14-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-q01",
+              "precalculus-2-15-q04",
+              "precalculus-2-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-3",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 3,
+    "code": "2.3",
+    "title": "Exponential Functions",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "The general form f(x) = abˣ, its initial value and base, exponential growth and decay, why exponential functions have no extrema or points of inflection, and their end behavior."
+  },
+  "framework": null,
+  "contentRevision": "c9c1a215f7ef5b69",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "precalculus-2-3",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 3,
+    "code": "2.3",
+    "title": "Exponential Functions",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "The general form f(x) = abˣ, its initial value and base, exponential growth and decay, why exponential functions have no extrema or points of inflection, and their end behavior.",
+    "minutes": 12,
+    "learningGoals": [
+      "2.3.A Identify key characteristics of exponential functions."
+    ],
+    "labels": {
+      "goals": "AP learning objectives",
+      "learn": "Understand the mathematics.",
+      "context": "Where this fits."
+    },
+    "bigIdea": "Every key characteristic of an exponential function in general form follows from two numbers: the initial value a and the base b. Their signs and sizes decide whether the function grows or decays, its concavity, and its end behavior.",
+    "context": "Topic 2.2 introduced f(x) = abˣ as the real-number version of a geometric sequence. This topic names its parts and the behavior the AP Exam expects you to read from them.",
+    "sections": [
+      {
+        "id": "general-form",
+        "title": "2.3.A · The general form of an exponential function is f(x) = abˣ.",
+        "conceptTitle": "General form, initial value, and base",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The general form of an exponential function is f(x) = abˣ, with the initial value a, where a ≠ 0, and the base b, where b > 0, and b ≠ 1. When a > 0 and b > 1, the exponential function is said to demonstrate exponential growth. When a > 0 and 0 < b < 1, the exponential function is said to demonstrate exponential decay."
+          },
+          {
+            "type": "paragraph",
+            "text": "When the natural numbers are input values in an exponential function, the input value specifies the number of factors of the base to be applied to the function's initial value. The domain of an exponential function is all real numbers."
+          },
+          {
+            "type": "paragraph",
+            "text": "Example: for f(x) = 5(0.8)ˣ, the initial value is f(0) = 5 and the base is 0.8. f(2) = 5(0.8)(0.8) = 3.2 applies two factors of 0.8. Because a > 0 and 0 < b < 1, f demonstrates exponential decay."
+          }
+        ],
+        "takeaway": "a is the initial value, b is the base; a > 0 with b > 1 is growth, and a > 0 with 0 < b < 1 is decay."
+      },
+      {
+        "id": "monotonic-and-concavity",
+        "title": "2.3.A · Exponential functions are always increasing or always decreasing.",
+        "conceptTitle": "Increasing, decreasing, and concavity",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Because the output values of exponential functions in general form are proportional over equal-length input-value intervals, exponential functions are always increasing or always decreasing, and their graphs are always concave up or always concave down. Consequently, exponential functions do not have extrema except on a closed interval, and their graphs do not have points of inflection."
+          },
+          {
+            "type": "table",
+            "caption": "How the signs of a and b determine the graph of f(x) = abˣ",
+            "columns": [
+              "Initial value and base",
+              "Increasing or decreasing",
+              "Concavity"
+            ],
+            "rows": [
+              [
+                "a > 0, b > 1",
+                "Always increasing (growth)",
+                "Always concave up"
+              ],
+              [
+                "a > 0, 0 < b < 1",
+                "Always decreasing (decay)",
+                "Always concave up"
+              ],
+              [
+                "a < 0, b > 1",
+                "Always decreasing",
+                "Always concave down"
+              ],
+              [
+                "a < 0, 0 < b < 1",
+                "Always increasing",
+                "Always concave down"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "If the output values of the function f are not proportional over equal-length input-value intervals, but the output values of an additive transformation of f are proportional over equal-length input-value intervals, then f can be modeled by an additive transformation of an exponential function."
+          },
+          {
+            "type": "paragraph",
+            "text": "Example: the values 4, 5, 7, 11 are not proportional. Subtracting 3 gives 1, 2, 4, 8, which are proportional with ratio 2. So the data can be modeled by y = 2ˣ + 3."
+          },
+          {
+            "type": "callout",
+            "title": "Write it like the AP Exam",
+            "text": "f has no relative maximum because an exponential function in general form is always increasing or always decreasing."
+          }
+        ],
+        "takeaway": "No turning points and no inflection points: one direction, one concavity."
+      },
+      {
+        "id": "end-behavior",
+        "title": "2.3.A · End behavior: unbounded on one side, approaching zero on the other.",
+        "conceptTitle": "End behavior of exponential functions",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For an exponential function in general form, as the input values increase or decrease without bound, the output values will increase or decrease without bound or will get arbitrarily close to zero. That is, for an exponential function in general form, lim x→±∞ abˣ = ∞, lim x→±∞ abˣ = −∞, or lim x→±∞ abˣ = 0."
+          },
+          {
+            "type": "graph",
+            "caption": "Exponential growth g(x) = 2(1.5)ˣ and exponential decay h(x) = 2(0.5)ˣ, both with initial value 2",
+            "alt": "Two curves through (0, 2). The curve g rises slowly on the left, close to the x-axis, and steeply on the right. The dashed curve h falls steeply on the left and flattens toward the x-axis on the right. Neither curve touches the x-axis.",
+            "window": {
+              "x": [
+                -4,
+                4
+              ],
+              "y": [
+                -1,
+                12
+              ]
+            },
+            "ticks": {
+              "x": 1,
+              "y": 2
+            },
+            "functions": [
+              {
+                "expr": "2(1.5)^x",
+                "label": "g",
+                "labelAt": 3.6,
+                "labelPosition": "w"
+              },
+              {
+                "expr": "2(0.5)^x",
+                "label": "h",
+                "color": 2,
+                "dashed": true,
+                "labelAt": -3.3,
+                "labelPosition": "e"
+              }
+            ],
+            "points": [
+              {
+                "at": [
+                  0,
+                  2
+                ],
+                "label": "(0, 2)",
+                "position": "e"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "For g(x) = 2(1.5)ˣ, lim x→∞ g(x) = ∞ and lim x→−∞ g(x) = 0. For h(x) = 2(0.5)ˣ, lim x→∞ h(x) = 0 and lim x→−∞ h(x) = ∞. In each case the line y = 0 is a horizontal asymptote on one side."
+          }
+        ],
+        "takeaway": "One end goes to ±∞; the other gets arbitrarily close to 0."
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "precalculus-2-3-initial-value",
+        "topicId": "precalculus-2-3",
+        "term": "Initial value",
+        "definition": "The general form of an exponential function is f(x) = abˣ, with the initial value a, where a ≠ 0, and the base b, where b > 0, and b ≠ 1.",
+        "source": "CED 2.3.A.1"
+      },
+      {
+        "id": "precalculus-2-3-base",
+        "topicId": "precalculus-2-3",
+        "term": "Base",
+        "definition": "The general form of an exponential function is f(x) = abˣ, with the initial value a, where a ≠ 0, and the base b, where b > 0, and b ≠ 1.",
+        "source": "CED 2.3.A.1"
+      },
+      {
+        "id": "precalculus-2-3-exponential-growth",
+        "topicId": "precalculus-2-3",
+        "term": "Exponential growth",
+        "definition": "When a > 0 and b > 1, the exponential function is said to demonstrate exponential growth.",
+        "source": "CED 2.3.A.1"
+      },
+      {
+        "id": "precalculus-2-3-exponential-decay",
+        "topicId": "precalculus-2-3",
+        "term": "Exponential decay",
+        "definition": "When a > 0 and 0 < b < 1, the exponential function is said to demonstrate exponential decay.",
+        "source": "CED 2.3.A.1"
+      }
+    ],
+    "connections": [
+      {
+        "id": "precalculus-2-3-c1",
+        "topicId": "precalculus-2-3",
+        "type": "Look back",
+        "title": "Concavity from rates of change",
+        "body": "Topic 1.1 linked concavity to whether the rate of change is increasing. For a > 0, an exponential function's rate of change keeps increasing, so its graph is always concave up.",
+        "transferQuestion": "Is the graph of f(x) = −3(2)ˣ concave up or concave down?",
+        "feedback": "Concave down. With a < 0 the function is always decreasing, and it decreases faster and faster.",
+        "links": [
+          {
+            "topicId": "precalculus-2-2",
+            "sectionId": "linear-vs-exponential",
+            "label": "Review proportional change"
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-3-c2",
+        "topicId": "precalculus-2-3",
+        "type": "Looking ahead",
+        "title": "Rewriting exponential expressions",
+        "body": "Topic 2.4 uses the properties of exponents to rewrite abˣ, which shows that horizontal translations and dilations of exponential functions are really changes of a and b.",
+        "transferQuestion": "Rewrite 2^(x + 3) as a·2ˣ.",
+        "feedback": "2^(x + 3) = 2³·2ˣ = 8·2ˣ, so a = 8.",
+        "links": [
+          {
+            "topicId": "precalculus-2-4",
+            "sectionId": "product-property",
+            "label": "See the product property"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "ced-topic-2-3"
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "precalculus-2-3-initial-value",
+        "precalculus-2-3-base",
+        "precalculus-2-3-exponential-growth",
+        "precalculus-2-3-exponential-decay"
+      ]
+    }
+  },
+  "bankPath": "precalculus/banks/precalculus-2-3.json",
+  "glossary": [
+    {
+      "id": "precalculus-2-3-initial-value",
+      "term": "Initial value",
+      "definition": "The general form of an exponential function is f(x) = abˣ, with the initial value a, where a ≠ 0, and the base b, where b > 0, and b ≠ 1.",
+      "aliases": [],
+      "sourceLabel": "CED 2.3.A.1"
+    },
+    {
+      "id": "precalculus-2-3-base",
+      "term": "Base",
+      "definition": "The general form of an exponential function is f(x) = abˣ, with the initial value a, where a ≠ 0, and the base b, where b > 0, and b ≠ 1.",
+      "aliases": [],
+      "sourceLabel": "CED 2.3.A.1"
+    },
+    {
+      "id": "precalculus-2-3-exponential-growth",
+      "term": "Exponential growth",
+      "definition": "When a > 0 and b > 1, the exponential function is said to demonstrate exponential growth.",
+      "aliases": [],
+      "sourceLabel": "CED 2.3.A.1"
+    },
+    {
+      "id": "precalculus-2-3-exponential-decay",
+      "term": "Exponential decay",
+      "definition": "When a > 0 and 0 < b < 1, the exponential function is said to demonstrate exponential decay.",
+      "aliases": [],
+      "sourceLabel": "CED 2.3.A.1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP Precalculus Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
+      "note": "Course scope, units, topics, learning objectives, and essential knowledge for Units 1 to 3."
+    },
+    {
+      "id": "ced-topic-2-3",
+      "label": "College Board: AP Precalculus Course and Exam Description, Topic 2.3: Exponential Functions",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+    }
+  ],
+  "assets": {}
+}
