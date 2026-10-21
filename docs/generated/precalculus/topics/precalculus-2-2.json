@@ -279,7 +279,7 @@
     "summary": "Linear functions as the real-number version of arithmetic sequences, exponential functions as the real-number version of geometric sequences, and how to tell additive change from multiplicative change."
   },
   "framework": null,
-  "contentRevision": "197f48abf90c95cd",
+  "contentRevision": "37777a090a6ceb69",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-2-2",
@@ -380,7 +380,7 @@
               ],
               [
                 "Difference",
-                "—",
+                "(start)",
                 "+2",
                 "+2",
                 "+2",
@@ -396,7 +396,7 @@
               ],
               [
                 "Ratio",
-                "—",
+                "(start)",
                 "×2",
                 "×2",
                 "×2",

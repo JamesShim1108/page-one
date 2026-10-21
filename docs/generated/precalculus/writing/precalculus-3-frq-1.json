@@ -1,0 +1,525 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-q01",
+              "precalculus-3-1-q02",
+              "precalculus-3-1-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-q01",
+              "precalculus-3-2-q03",
+              "precalculus-3-2-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-q01",
+              "precalculus-3-3-q02",
+              "precalculus-3-3-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-q01",
+              "precalculus-3-4-q03",
+              "precalculus-3-4-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-q01",
+              "precalculus-3-5-q02",
+              "precalculus-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-q01",
+              "precalculus-3-6-q04",
+              "precalculus-3-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-q01",
+              "precalculus-3-7-q02",
+              "precalculus-3-7-q05"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-q01",
+              "precalculus-3-8-q02",
+              "precalculus-3-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-q01",
+              "precalculus-3-9-q03",
+              "precalculus-3-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-q01",
+              "precalculus-3-10-q04",
+              "precalculus-3-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-q01",
+              "precalculus-3-11-q04",
+              "precalculus-3-11-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-q01",
+              "precalculus-3-12-q03",
+              "precalculus-3-12-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-q01",
+              "precalculus-3-13-q02",
+              "precalculus-3-13-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-q02",
+              "precalculus-3-14-q04",
+              "precalculus-3-14-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-q01",
+              "precalculus-3-15-q02",
+              "precalculus-3-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-3-frq-1",
+    "version": 1,
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+    "headline": "Read key points from a sinusoidal graph with no scale, build h(t) = a sin(b(t + c)) + d, and describe how the rate of change behaves.",
+    "promptTitle": "Free response 1 · Modeling a periodic context · no calculator",
+    "prompt": "A water wheel turns at a constant rate. The height of the tip of one paddle above the bottom of the stream, in feet, is modeled by the sinusoidal function h, where t is the time in seconds. At time t = 0, the tip is at its highest point, 14 feet above the bottom of the stream. At time t = 5, the tip is at its lowest point, 2 feet above the bottom of the stream. Between t = 0 and t = 5, the tip is never at its highest or lowest point. The graph of h and its dashed midline for two full cycles is shown. Five points, F, G, J, K, and P, are labeled on the graph. No scale is indicated, and no axes are presented.",
+    "instructions": "Part B style: no calculator is allowed. Angle measures are in radians. Unless otherwise specified, the domain of a function f is the set of all real numbers x for which f(x) is a real number. Solutions to equations must be real numbers. Determine the exact value of any expression that can be obtained without a calculator, such as sin(π/6) or arccos(1/2). Show the work that leads to your answers.",
+    "note": "Original practice question written in the AP Precalculus free-response format (6 points, parts A to C). Scoring is self-assessed with the point-by-point rubric. It is not an official AP question or an official AP score.",
+    "exerciseType": "frq",
+    "sourceIds": [
+      "ced",
+      "ced-topic-3-5",
+      "ced-topic-3-6",
+      "ced-topic-3-7"
+    ],
+    "stimulusBlocks": [
+      {
+        "type": "graph",
+        "caption": "Graph of h with its dashed midline, two full cycles",
+        "alt": "A sinusoidal curve over two full cycles with a dashed horizontal midline. F is the first maximum at the left end. G is where the curve next crosses the midline going down. J is the next minimum. K is where the curve crosses the midline going down in the second cycle, after the second maximum. P is the minimum after K.",
+        "window": {
+          "x": [
+            -0.8,
+            20.8
+          ],
+          "y": [
+            0.5,
+            15.5
+          ]
+        },
+        "tickLabels": false,
+        "axes": false,
+        "grid": false,
+        "functions": [
+          {
+            "expr": "6cos((pi/5)x) + 8",
+            "domain": [
+              0,
+              20
+            ]
+          }
+        ],
+        "asymptotes": [
+          {
+            "y": 8
+          }
+        ],
+        "points": [
+          {
+            "at": [
+              0,
+              14
+            ],
+            "label": "F",
+            "position": "ne"
+          },
+          {
+            "at": [
+              2.5,
+              8
+            ],
+            "label": "G",
+            "position": "ne"
+          },
+          {
+            "at": [
+              5,
+              2
+            ],
+            "label": "J",
+            "position": "s"
+          },
+          {
+            "at": [
+              12.5,
+              8
+            ],
+            "label": "K",
+            "position": "ne"
+          },
+          {
+            "at": [
+              15,
+              2
+            ],
+            "label": "P",
+            "position": "s"
+          }
+        ]
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Show work",
+        "text": "Write the setup, such as the expression you evaluate or the equation you solve, before the answer."
+      },
+      {
+        "label": "Use exact values",
+        "text": "Without a calculator, give exact values such as √3/2 or 7π/6, not decimals."
+      },
+      {
+        "label": "Justify",
+        "text": "When a part says give a reason or explain, refer to the graph, the given values, or the context."
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "a1",
+        "label": "Part A (i)",
+        "prompt": "A (i). The point F has coordinates (0, 14). Determine possible coordinates (t, h(t)) for the points G and J.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-7",
+            "sectionId": "period-and-amplitude-from-data",
+            "label": "Period, amplitude, and midline from data"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "label": "Part A (ii)",
+        "prompt": "A (ii). Determine possible coordinates (t, h(t)) for the points K and P.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-1",
+            "sectionId": "period",
+            "label": "Characteristics repeat every period"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "label": "Part B (i)",
+        "prompt": "B (i). The function h can be written in the form h(t) = a sin(b(t + c)) + d, where b > 0. Find the values of the constants a and d.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-5",
+            "sectionId": "amplitude-and-midline",
+            "label": "Amplitude and midline"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "label": "Part B (ii)",
+        "prompt": "B (ii). Find values of the constants b and c for the form in B (i).",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-6",
+            "sectionId": "general-form",
+            "label": "Period and phase shift from b and c"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "label": "Part C (i)",
+        "prompt": "C (i). The t-coordinate of G is t₁, and the t-coordinate of J is t₂. On the interval (t₁, t₂), is h increasing or decreasing? Is the graph of h concave up or concave down?",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-5",
+            "sectionId": "symmetry-and-concavity",
+            "label": "Concavity of sinusoidal graphs"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "label": "Part C (ii)",
+        "prompt": "C (ii). Describe how the rate of change of h changes over the interval (t₁, t₂). Give a reason for your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-5",
+            "sectionId": "symmetry-and-concavity",
+            "label": "Concavity and rate of change"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "a1-gj",
+        "field": "a1",
+        "label": "A (i) G and J",
+        "points": 1,
+        "guidance": "Earn the point for G = (2.5, 8) and J = (5, 2). Both are needed."
+      },
+      {
+        "id": "a2-kp",
+        "field": "a2",
+        "label": "A (ii) K and P",
+        "points": 1,
+        "guidance": "Earn the point for K = (12.5, 8) and P = (15, 2). Both are needed."
+      },
+      {
+        "id": "b1-ad",
+        "field": "b1",
+        "label": "B (i) a and d",
+        "points": 1,
+        "guidance": "Earn the point for a = 6 (or a = −6 with a matching c) and d = 8."
+      },
+      {
+        "id": "b2-bc",
+        "field": "b2",
+        "label": "B (ii) b and c",
+        "points": 1,
+        "guidance": "Earn the point for b = π/5 and a value of c consistent with a, such as c = 5/2 when a = 6, or c = −5/2 when a = −6. Any c that differs from these by a multiple of 10 is also correct."
+      },
+      {
+        "id": "c1-behavior",
+        "field": "c1",
+        "label": "C (i) Increasing or decreasing and concavity",
+        "points": 1,
+        "guidance": "Earn the point for: h is decreasing, and the graph of h is concave up. Both are needed."
+      },
+      {
+        "id": "c2-rate",
+        "field": "c2",
+        "label": "C (ii) Rate of change",
+        "points": 1,
+        "guidance": "Earn the point for: the rate of change of h is increasing (negative values getting closer to 0), with a reason such as the graph is concave up on (t₁, t₂)."
+      }
+    ],
+    "modelResponse": "A (i). The highest point is at t = 0 and the next lowest point is at t = 5, which is half a cycle, so the period is 10. G is a quarter cycle after F, on the midline h = (14 + 2)/2 = 8, so G = (2.5, 8). J is the minimum, J = (5, 2).\n\nA (ii). The second maximum is at t = 10, so K, a quarter cycle later on the midline, is (12.5, 8), and P, the following minimum, is (15, 2).\n\nB (i). The amplitude is (14 − 2)/2 = 6, so a = 6, and the midline is h = 8, so d = 8.\n\nB (ii). The period is 10 = 2π/b, so b = π/5. The sine function increases through its midline when its input is 0; h increases through its midline at t = −2.5 (a quarter cycle before the maximum at t = 0). So (π/5)(−2.5 + c) = 0, c = 5/2. h(t) = 6 sin((π/5)(t + 5/2)) + 8.\n\nC (i). From G to J the graph falls from the midline to the minimum, so h is decreasing. Below the midline the graph is concave up.\n\nC (ii). The rate of change of h is increasing on (t₁, t₂): it is negative, and it gets closer to 0, reaching 0 at the minimum J. This is because the graph of h is concave up on the interval.",
+    "alternateModel": "With a = −6, the sine is reflected, so h(t) = −6 sin((π/5)(t − 5/2)) + 8 is also correct. Any c that differs from 5/2 by a multiple of the period 10, such as c = −15/2, also works. In cosine form, h(t) = 6 cos((π/5)t) + 8.",
+    "commonErrors": [
+      "Using 5 as the period, from the maximum to the next minimum.",
+      "Placing G at the minimum instead of on the midline.",
+      "Giving a = 12, the full difference between the highest and lowest points.",
+      "Using b = 10 or b = 1/10 instead of b = 2π/10.",
+      "Saying the rate of change is decreasing because h is decreasing."
+    ]
+  }
+}

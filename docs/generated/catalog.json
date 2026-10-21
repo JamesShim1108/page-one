@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "6def5b840d6c91db",
+  "revision": "68f0a1b3b83ea47a",
   "courses": [
     {
       "schemaVersion": 1,
@@ -92,7 +92,7 @@
       "period": "Functions and modeling",
       "order": 3,
       "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models.",
-      "readyTopicCount": 29,
+      "readyTopicCount": 44,
       "previewTopics": [
         {
           "id": "precalculus-1-1",

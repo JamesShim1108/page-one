@@ -1,0 +1,568 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-q01",
+              "precalculus-3-1-q02",
+              "precalculus-3-1-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-q01",
+              "precalculus-3-2-q03",
+              "precalculus-3-2-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-q01",
+              "precalculus-3-3-q02",
+              "precalculus-3-3-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-q01",
+              "precalculus-3-4-q03",
+              "precalculus-3-4-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-q01",
+              "precalculus-3-5-q02",
+              "precalculus-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-q01",
+              "precalculus-3-6-q04",
+              "precalculus-3-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-q01",
+              "precalculus-3-7-q02",
+              "precalculus-3-7-q05"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-q01",
+              "precalculus-3-8-q02",
+              "precalculus-3-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-q01",
+              "precalculus-3-9-q03",
+              "precalculus-3-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-q01",
+              "precalculus-3-10-q04",
+              "precalculus-3-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-q01",
+              "precalculus-3-11-q04",
+              "precalculus-3-11-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-q01",
+              "precalculus-3-12-q03",
+              "precalculus-3-12-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-q01",
+              "precalculus-3-13-q02",
+              "precalculus-3-13-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-q02",
+              "precalculus-3-14-q04",
+              "precalculus-3-14-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-q01",
+              "precalculus-3-15-q02",
+              "precalculus-3-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-3-7",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 7,
+    "code": "3.7",
+    "title": "Sinusoidal Function Context and Data Modeling",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "Building sinusoidal models of periodic phenomena: the period from consecutive maximums or minimums, the amplitude and midline from the extreme values, the phase shift from one data point, sinusoidal regression, and where a model can be trusted."
+  },
+  "framework": null,
+  "contentRevision": "c2d8656e55991242",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "precalculus-3-7",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 7,
+    "code": "3.7",
+    "title": "Sinusoidal Function Context and Data Modeling",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "Building sinusoidal models of periodic phenomena: the period from consecutive maximums or minimums, the amplitude and midline from the extreme values, the phase shift from one data point, sinusoidal regression, and where a model can be trusted.",
+    "minutes": 13,
+    "learningGoals": [
+      "3.7.A Construct sinusoidal function models of periodic phenomena."
+    ],
+    "labels": {
+      "goals": "AP learning objectives",
+      "learn": "Understand the mathematics.",
+      "context": "Where this fits."
+    },
+    "bigIdea": "A sinusoidal model needs four numbers, and data supply each one: the time between peaks gives the period, the peak and trough give the amplitude and midline, and one known point fixes the phase shift.",
+    "context": "Topic 3.6 read features from an equation. Here the direction reverses: start from a context or a table, estimate the features, and write the equation, by hand or with a regression.",
+    "sections": [
+      {
+        "id": "period-and-amplitude-from-data",
+        "title": "3.7.A · Period from consecutive extremes; amplitude and midline from the extreme values.",
+        "conceptTitle": "Period, amplitude, and vertical shift from data",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The smallest interval of input values over which the maximum or minimum output values start to repeat, that is, the input-value interval between consecutive maxima or consecutive minima, can be used to determine or estimate the period and frequency for a sinusoidal function model."
+          },
+          {
+            "type": "paragraph",
+            "text": "The maximum and minimum output values can be used to determine or estimate the amplitude and vertical shift for a sinusoidal function model."
+          },
+          {
+            "type": "paragraph",
+            "text": "Example: at a harbor, high tide is 9.2 feet at 3:00 a.m. and the next low tide is 1.4 feet at 9:15 a.m. From a maximum to the next minimum is half a cycle, 6.25 hours, so the period is 12.5 hours and the frequency is 1/12.5 = 0.08 cycle per hour. The amplitude is (9.2 − 1.4)/2 = 3.9 feet and the midline is D = (9.2 + 1.4)/2 = 5.3 feet."
+          },
+          {
+            "type": "table",
+            "caption": "From the tide data to the parameters of D(t) = a cos(b(t + c)) + d",
+            "columns": [
+              "Feature",
+              "From the data",
+              "Parameter"
+            ],
+            "rows": [
+              [
+                "Period",
+                "2(9.25 − 3) = 12.5 hours",
+                "|b| = 2π/12.5 = 0.16π"
+              ],
+              [
+                "Amplitude",
+                "(9.2 − 1.4)/2 = 3.9",
+                "|a| = 3.9"
+              ],
+              [
+                "Midline",
+                "(9.2 + 1.4)/2 = 5.3",
+                "d = 5.3"
+              ]
+            ]
+          }
+        ],
+        "takeaway": "Peak to peak is a period; peak to trough is half a period."
+      },
+      {
+        "id": "phase-shift-and-regression",
+        "title": "3.7.A · One data point fixes the phase shift; technology can do the fitting.",
+        "conceptTitle": "Phase shift, regression, and the contextual domain",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "An actual pair of input-output values can be compared to pairs of input-output values produced by a sinusoidal function model to determine or estimate a phase shift for the model."
+          },
+          {
+            "type": "paragraph",
+            "text": "For the tide, t is hours after midnight. Cosine reaches its maximum when its input is 0, and the real maximum is at t = 3, so the model needs b(t + c) = 0 at t = 3, which means c = −3. The model is D(t) = 3.9 cos(0.16π(t − 3)) + 5.3. Check: D(3) = 3.9 + 5.3 = 9.2 and D(9.25) = −3.9 + 5.3 = 1.4."
+          },
+          {
+            "type": "graph",
+            "caption": "The tide model D(t) = 3.9 cos(0.16π(t − 3)) + 5.3 for the first day",
+            "alt": "A wave with maximums of 9.2 at t = 3 and t = 15.5 and a minimum of 1.4 at t = 9.25, with a dashed midline at 5.3.",
+            "window": {
+              "x": [
+                0,
+                24
+              ],
+              "y": [
+                0,
+                10.5
+              ]
+            },
+            "ticks": {
+              "x": 3,
+              "y": 1
+            },
+            "axisLabels": {
+              "x": "t",
+              "y": "D(t)"
+            },
+            "functions": [
+              {
+                "expr": "3.9cos(0.16pi(x - 3)) + 5.3",
+                "label": "D",
+                "labelAt": 20
+              }
+            ],
+            "asymptotes": [
+              {
+                "y": 5.3
+              }
+            ],
+            "points": [
+              {
+                "at": [
+                  3,
+                  9.2
+                ],
+                "label": "(3, 9.2)",
+                "position": "ne"
+              },
+              {
+                "at": [
+                  9.25,
+                  1.4
+                ],
+                "label": "(9.25, 1.4)",
+                "position": "se"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Sinusoidal function models can be constructed for a data set with technology by estimating key values or using sinusoidal regressions. The calculator on this site fits y = a sin(b(x + c)) + d to a list of points; check its period and midline against the data before using it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Sinusoidal functions that model a data set are frequently only useful over their contextual domain, can be used to predict values of the dependent variable from values of the independent variable, and may be used to determine values of the independent variable from values of the dependent variable."
+          },
+          {
+            "type": "callout",
+            "title": "Write it like the AP Exam",
+            "text": "Based on the model, the depth is predicted to be D(6) ≈ 5.54 feet at 6:00 a.m. Because the model was built from one day of tides, it is less reliable for predictions weeks later, when the times of high and low tide drift."
+          }
+        ],
+        "takeaway": "Match one real point to fix c; trust the model mainly inside the data's domain."
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "precalculus-3-7-sinusoidal-regression",
+        "topicId": "precalculus-3-7",
+        "term": "Sinusoidal regression",
+        "definition": "Sinusoidal function models can be constructed for a data set with technology by estimating key values or using sinusoidal regressions.",
+        "source": "CED 3.7.A.4"
+      }
+    ],
+    "connections": [
+      {
+        "id": "precalculus-3-7-c1",
+        "topicId": "precalculus-3-7",
+        "type": "Look back",
+        "title": "Choosing and checking models",
+        "body": "Topic 2.6 compared models using residuals. A sinusoidal regression is checked the same way: residuals that look random support the model.",
+        "transferQuestion": "A sinusoidal model's residuals are all positive in the afternoon and all negative at night. What does that suggest?",
+        "feedback": "The model is systematically off at those times, so it can be improved, possibly by adjusting the phase shift.",
+        "links": [
+          {
+            "topicId": "precalculus-2-6",
+            "sectionId": "residuals",
+            "label": "Review residuals"
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-7-c2",
+        "topicId": "precalculus-3-7",
+        "type": "Looking ahead",
+        "title": "Solving with a model",
+        "body": "Finding when the tide reaches a given depth means solving D(t) = k, a trigonometric equation. Topic 3.10 solves these with inverse trigonometric functions.",
+        "transferQuestion": "Write the equation you would solve to find when the depth is 7 feet.",
+        "feedback": "3.9 cos(0.16π(t − 3)) + 5.3 = 7.",
+        "links": [
+          {
+            "topicId": "precalculus-3-10",
+            "sectionId": "solving-equations",
+            "label": "See trigonometric equations"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "ced-topic-3-7"
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "precalculus-3-1-period",
+        "precalculus-3-5-sinusoidal-function",
+        "precalculus-3-5-frequency",
+        "precalculus-3-5-amplitude",
+        "precalculus-3-5-midline",
+        "precalculus-3-6-phase-shift",
+        "precalculus-3-7-sinusoidal-regression"
+      ]
+    }
+  },
+  "bankPath": "precalculus/banks/precalculus-3-7.json",
+  "glossary": [
+    {
+      "id": "precalculus-3-1-period",
+      "term": "Period",
+      "definition": "The period of the function is the smallest positive value k such that f(x + k) = f(x) for all x in the domain. Consequently, the behavior of a periodic function is completely determined by any interval of width k.",
+      "aliases": [],
+      "sourceLabel": "CED 3.1.B.1"
+    },
+    {
+      "id": "precalculus-3-5-sinusoidal-function",
+      "term": "Sinusoidal function",
+      "definition": "A sinusoidal function is any function that involves additive and multiplicative transformations of f(θ) = sin θ. The sine and cosine functions are both sinusoidal functions, with cos θ = sin(θ + π/2).",
+      "aliases": [
+        "sinusoidal functions",
+        "sinusoidal"
+      ],
+      "sourceLabel": "CED 3.5.A.1"
+    },
+    {
+      "id": "precalculus-3-5-frequency",
+      "term": "Frequency",
+      "definition": "The period and frequency of a sinusoidal function are reciprocals. The period of f(θ) = sin θ and g(θ) = cos θ is 2π, and the frequency is 1/(2π).",
+      "aliases": [],
+      "sourceLabel": "CED 3.5.A.2"
+    },
+    {
+      "id": "precalculus-3-5-amplitude",
+      "term": "Amplitude",
+      "definition": "The amplitude of a sinusoidal function is half the difference between its maximum and minimum values. The amplitude of f(θ) = sin θ and g(θ) = cos θ is 1.",
+      "aliases": [],
+      "sourceLabel": "CED 3.5.A.3"
+    },
+    {
+      "id": "precalculus-3-5-midline",
+      "term": "Midline",
+      "definition": "The midline of the graph of a sinusoidal function is determined by the average, or arithmetic mean, of the maximum and minimum values of the function. The midline of the graphs of y = sin θ and y = cos θ is y = 0.",
+      "aliases": [],
+      "sourceLabel": "CED 3.5.A.4"
+    },
+    {
+      "id": "precalculus-3-6-phase-shift",
+      "term": "Phase shift",
+      "definition": "The graph of the additive transformation g(θ) = sin(θ + c) of the sine function f(θ) = sin θ is a horizontal translation, or phase shift, of the graph of f by −c units. The same transformation of the cosine function yields the same result.",
+      "aliases": [
+        "phase shifts"
+      ],
+      "sourceLabel": "CED 3.6.A.3"
+    },
+    {
+      "id": "precalculus-3-7-sinusoidal-regression",
+      "term": "Sinusoidal regression",
+      "definition": "Sinusoidal function models can be constructed for a data set with technology by estimating key values or using sinusoidal regressions.",
+      "aliases": [
+        "sinusoidal regressions"
+      ],
+      "sourceLabel": "CED 3.7.A.4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP Precalculus Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
+      "note": "Course scope, units, topics, learning objectives, and essential knowledge for Units 1 to 3."
+    },
+    {
+      "id": "ced-topic-3-7",
+      "label": "College Board: AP Precalculus Course and Exam Description, Topic 3.7: Sinusoidal Function Context and Data Modeling",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+    }
+  ],
+  "assets": {}
+}

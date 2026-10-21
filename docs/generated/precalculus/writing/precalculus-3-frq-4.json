@@ -1,0 +1,530 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-q01",
+              "precalculus-3-1-q02",
+              "precalculus-3-1-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-q01",
+              "precalculus-3-2-q03",
+              "precalculus-3-2-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-q01",
+              "precalculus-3-3-q02",
+              "precalculus-3-3-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-q01",
+              "precalculus-3-4-q03",
+              "precalculus-3-4-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-q01",
+              "precalculus-3-5-q02",
+              "precalculus-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-q01",
+              "precalculus-3-6-q04",
+              "precalculus-3-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-q01",
+              "precalculus-3-7-q02",
+              "precalculus-3-7-q05"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-q01",
+              "precalculus-3-8-q02",
+              "precalculus-3-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-q01",
+              "precalculus-3-9-q03",
+              "precalculus-3-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-q01",
+              "precalculus-3-10-q04",
+              "precalculus-3-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-q01",
+              "precalculus-3-11-q04",
+              "precalculus-3-11-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-q01",
+              "precalculus-3-12-q03",
+              "precalculus-3-12-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-q01",
+              "precalculus-3-13-q02",
+              "precalculus-3-13-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-q02",
+              "precalculus-3-14-q04",
+              "precalculus-3-14-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-q01",
+              "precalculus-3-15-q02",
+              "precalculus-3-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-3-frq-4",
+    "version": 1,
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+    "headline": "Convert a point on a polar graph to rectangular coordinates, find where the graph meets the origin, use an average rate of change of r, and decide whether the distance from the origin is increasing.",
+    "promptTitle": "Free response 4 · Polar functions · graphing calculator",
+    "prompt": "The polar function r = f(θ) is given by f(θ) = 1 + 3 cos θ for 0 ≤ θ ≤ 2π. The graph of r = f(θ) in polar coordinates and the graph of f in the θr-plane are shown.",
+    "instructions": "Part A style: a graphing calculator is required. Show the work that leads to each answer; answers without supporting work may not earn credit where work is requested. Angle measures are in radians. Avoid rounding intermediate values, and give decimal approximations accurate to three places after the decimal point unless the part says otherwise. Unless otherwise specified, the domain of a function f is the set of all real numbers x for which f(x) is a real number.",
+    "note": "Original practice question written in the AP Precalculus free-response format (6 points, parts A to C). Scoring is self-assessed with the point-by-point rubric. It is not an official AP question or an official AP score.",
+    "exerciseType": "frq",
+    "sourceIds": [
+      "ced",
+      "ced-topic-3-13",
+      "ced-topic-3-14",
+      "ced-topic-3-15"
+    ],
+    "stimulusBlocks": [
+      {
+        "type": "graph",
+        "caption": "Graph of r = 1 + 3 cos θ in polar coordinates",
+        "alt": "A limaçon on a polar grid. Its outer loop reaches 4 units along the polar axis, and a small inner loop passes through the origin and reaches 2 units along the polar axis.",
+        "window": {
+          "x": [
+            -2,
+            4.5
+          ],
+          "y": [
+            -3.25,
+            3.25
+          ]
+        },
+        "ticks": {
+          "x": 1,
+          "y": 1
+        },
+        "grid": "polar",
+        "height": 432,
+        "polar": [
+          {
+            "expr": "1 + 3cos(θ)"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "caption": "Graph of r = f(θ) in the θr-plane",
+        "alt": "A cosine-shaped curve from r = 4 at θ = 0, decreasing to r = −2 at θ = π, and increasing back to 4 at θ = 2π. It crosses r = 0 twice.",
+        "window": {
+          "x": [
+            -0.3,
+            6.583185307179586
+          ],
+          "y": [
+            -2.5,
+            4.5
+          ]
+        },
+        "ticks": {
+          "x": [
+            {
+              "at": 0,
+              "label": "0"
+            },
+            {
+              "at": 1.5707963267948966,
+              "label": "π/2"
+            },
+            {
+              "at": 3.141592653589793,
+              "label": "π"
+            },
+            {
+              "at": 4.71238898038469,
+              "label": "3π/2"
+            },
+            {
+              "at": 6.283185307179586,
+              "label": "2π"
+            }
+          ],
+          "y": 1
+        },
+        "axisLabels": {
+          "x": "θ",
+          "y": "r"
+        },
+        "functions": [
+          {
+            "expr": "1 + 3cos(x)",
+            "domain": [
+              0,
+              6.283185307179586
+            ]
+          }
+        ]
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Show work",
+        "text": "Write the setup, such as the expression you evaluate or the equation you solve, before the answer."
+      },
+      {
+        "label": "Use exact values",
+        "text": "Without a calculator, give exact values such as √3/2 or 7π/6, not decimals."
+      },
+      {
+        "label": "Justify",
+        "text": "When a part says give a reason or explain, refer to the graph, the given values, or the context."
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "a1",
+        "label": "Part A (i)",
+        "prompt": "A (i). Find the rectangular coordinates (x, y) of the point on the graph of r = f(θ) that corresponds to θ = 2π/3. In which quadrant is this point?",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-13",
+            "sectionId": "converting-coordinates",
+            "label": "Polar to rectangular coordinates"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "label": "Part A (ii)",
+        "prompt": "A (ii). Find all values of θ, for 0 ≤ θ ≤ 2π, at which the graph of r = f(θ) passes through the origin.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-14",
+            "sectionId": "polar-graphs",
+            "label": "Where a polar graph meets the origin"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "label": "Part B (i)",
+        "prompt": "B (i). Find the average rate of change of r with respect to θ over the interval 0 ≤ θ ≤ π/2.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-15",
+            "sectionId": "polar-rates-of-change",
+            "label": "Average rate of change of r"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "label": "Part B (ii)",
+        "prompt": "B (ii). Interpret the meaning of your answer to B (i) in terms of the signed radius.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-15",
+            "sectionId": "polar-rates-of-change",
+            "label": "Interpreting the average rate of change"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "label": "Part C (i)",
+        "prompt": "C (i). Let α be the value of θ in the interval 0 < θ < π for which f(θ) = 0. On the interval α < θ < π, is the distance between the point (f(θ), θ) and the origin increasing or decreasing?",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-15",
+            "sectionId": "increasing-and-decreasing-distance",
+            "label": "Distance from the origin"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "label": "Part C (ii)",
+        "prompt": "C (ii). Give a reason for your answer to C (i).",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-15",
+            "sectionId": "increasing-and-decreasing-distance",
+            "label": "Sign of r and direction of change"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "a1-xy",
+        "field": "a1",
+        "label": "A (i) Rectangular coordinates and quadrant",
+        "points": 1,
+        "guidance": "Earn the point for (x, y) = (0.250, −0.433), exactly (1/4, −√3/4), in Quadrant IV."
+      },
+      {
+        "id": "a2-origin",
+        "field": "a2",
+        "label": "A (ii) Values of θ",
+        "points": 1,
+        "guidance": "Earn the point for θ = arccos(−1/3) ≈ 1.911 and θ = 2π − arccos(−1/3) ≈ 4.373. Both are needed."
+      },
+      {
+        "id": "b1-rate",
+        "field": "b1",
+        "label": "B (i) Average rate of change",
+        "points": 1,
+        "guidance": "Earn the point for (f(π/2) − f(0))/(π/2 − 0) = (1 − 4)/(π/2) = −6/π ≈ −1.910."
+      },
+      {
+        "id": "b2-interp",
+        "field": "b2",
+        "label": "B (ii) Interpretation",
+        "points": 1,
+        "guidance": "Earn the point for: on average, the signed radius decreases by about 1.910 units per radian as θ increases from 0 to π/2."
+      },
+      {
+        "id": "c1-distance",
+        "field": "c1",
+        "label": "C (i) Increasing or decreasing",
+        "points": 1,
+        "guidance": "Earn the point for: the distance is increasing."
+      },
+      {
+        "id": "c2-reason",
+        "field": "c2",
+        "label": "C (ii) Reason",
+        "points": 1,
+        "guidance": "Earn the point for: on α < θ < π, f(θ) is negative and decreasing (cos θ is decreasing), so |f(θ)| is increasing."
+      }
+    ],
+    "modelResponse": "A (i). f(2π/3) = 1 + 3(−1/2) = −1/2. Then x = r cos θ = (−1/2)(−1/2) = 1/4 = 0.250 and y = r sin θ = (−1/2)(√3/2) = −√3/4 ≈ −0.433. The point (0.250, −0.433) is in Quadrant IV.\n\nA (ii). The graph passes through the origin when r = 0: 1 + 3 cos θ = 0, so cos θ = −1/3. θ = arccos(−1/3) ≈ 1.911 and θ = 2π − arccos(−1/3) ≈ 4.373.\n\nB (i). f(0) = 4 and f(π/2) = 1. The average rate of change is (1 − 4)/(π/2 − 0) = −6/π ≈ −1.910.\n\nB (ii). As θ increases from 0 to π/2, the signed radius decreases, on average, by about 1.910 units per radian.\n\nC (i). The distance between the point and the origin is increasing.\n\nC (ii). On α < θ < π, cos θ < −1/3, so f(θ) < 0. cos θ is decreasing on this interval, so f(θ) is decreasing. A polar function that is negative and decreasing moves away from the origin, so the distance |f(θ)| is increasing.",
+    "alternateModel": "In C (ii), you may read the θr-graph: on (α, π) the curve is below the θ-axis and falling, so its values move farther from 0.",
+    "commonErrors": [
+      "Plotting the point at θ = 2π/3 in Quadrant II, ignoring that r is negative.",
+      "Giving only θ ≈ 1.911 in A (ii).",
+      "Dividing by 90 or by 1 instead of π/2 in B (i).",
+      "Interpreting −1.910 as the point moving 1.910 units closer to the origin per radian.",
+      "Concluding the distance decreases because r is decreasing, without checking the sign of r."
+    ]
+  }
+}

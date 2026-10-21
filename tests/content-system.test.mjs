@@ -19,7 +19,7 @@ import { prepareImage } from "../scripts/prepare-image.mjs";
 // Ready World History topics and quiz routes. Update when a unit is added.
 const READY_TOPICS = 71;
 // AP Precalculus Unit 1 (CED topics 1.1 to 1.14); the other three units are placeholders.
-const PRECALCULUS_TOPICS = 14;
+const PRECALCULUS_TOPICS = 44;
 const QUIZ_ROUTES = 155;
 
 const root = new URL("../", import.meta.url);

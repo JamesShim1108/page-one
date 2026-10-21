@@ -10,11 +10,15 @@
 //   window: { x: [-4, 4], y: [-5, 5] },
 //   ticks: { x: 1, y: 1 } or { x: [{ at: 3.14, label: "π" }] }, optional
 //   tickLabels: false,                            hide the scale (no scale shown)
+//   axes: false,                                  no axes at all ("no axes are presented")
 //   axisLabels: { x: "t", y: "h(t)" },            optional, default x and y
 //   height: 300,                                  optional, 160 to 520
 //   functions: [{ expr: "x^3 - 3x", domain: [-2, 2], endpoints: ["closed", "open"],
 //                 label: "f", labelAt: 1.5, dashed: false, color: 1 }],
 //   curves: [{ through: [[0, 1], [2, 3], [4, 0]], label: "g" }],
+//   polar: [{ expr: "2 + 2cos(θ)", domain: [0, "2pi"], label: "r", labelAt: 1.2 }],
+//                                                 r = f(θ), labelAt is an angle
+//   grid: "polar",                                circles and rays instead of squares
 //   segments: [{ from: [1, 1], to: [3, 9], dashed: true, label: "slope 4", labelAt: 2 }],
 //   asymptotes: [{ x: 2 }, { y: 1 }, { slope: 2, intercept: 0 }],
 //   points: [{ at: [2, 4], open: true, label: "(2, 4)", position: "ne" }],
@@ -175,6 +179,24 @@ function sampleFunction(f, from, to, yMin, yMax) {
   return pieces;
 }
 
+// Points (r cos θ, r sin θ) of a polar curve r = f(θ), split where r is undefined.
+export function samplePolar(r, [from, to], samples = 720) {
+  const pieces = [];
+  let current = [];
+  for (let k = 0; k <= samples; k += 1) {
+    const theta = from + ((to - from) * k) / samples;
+    const radius = r(theta);
+    if (!Number.isFinite(radius)) {
+      if (current.length > 1) pieces.push(current);
+      current = [];
+      continue;
+    }
+    current.push([radius * Math.cos(theta), radius * Math.sin(theta)]);
+  }
+  if (current.length > 1) pieces.push(current);
+  return pieces;
+}
+
 export function graphLayout(block, view = block.window) {
   const [xMin, xMax] = view.x;
   const [yMin, yMax] = view.y;
@@ -236,6 +258,15 @@ export function graphModel(block, values = sliderValues(block)) {
         domain,
         variable: fn.variable || "x",
         label: fn.label ? fillLabel(fn.label, values) : "",
+      };
+    }),
+    polar: (block.polar || []).map((curve) => {
+      const r = compileExpression(curve.expr, { variable: "θ", parameters });
+      return {
+        source: curve,
+        r,
+        domain: curve.domain ? curve.domain.map(at) : [0, 2 * Math.PI],
+        label: curve.label ? fillLabel(curve.label, values) : "",
       };
     }),
     curves: (block.curves || []).map((curve) => ({
@@ -303,7 +334,26 @@ export function drawGraphSvg(block, { values, view, interactive = false } = {}) 
   // Grid and ticks.
   const xTicks = tickList(block.ticks?.x, [xMin, xMax]);
   const yTicks = tickList(block.ticks?.y, [yMin, yMax]);
-  if (block.grid !== false) {
+  if (block.grid === "polar") {
+    // Circles at the x tick radii and rays every π/12 (15°), clipped to the frame.
+    const rings = [];
+    const step =
+      typeof block.ticks?.x === "number" ? block.ticks.x : niceStep(xMax - xMin);
+    const reach = Math.hypot(Math.max(-xMin, xMax), Math.max(-yMin, yMax));
+    for (let radius = step; radius <= reach + 1e-9; radius += step)
+      rings.push(
+        `<ellipse class="graph-grid" cx="${r2(px(0))}" cy="${r2(py(0))}" rx="${r2(px(radius) - px(0))}" ry="${r2(py(0) - py(radius))}" fill="none"/>`,
+      );
+    for (let k = 0; k < 12; k += 1) {
+      const angle = (k * Math.PI) / 12;
+      const dx = Math.cos(angle) * reach;
+      const dy = Math.sin(angle) * reach;
+      rings.push(
+        `<line class="graph-grid" x1="${r2(px(-dx))}" y1="${r2(py(-dy))}" x2="${r2(px(dx))}" y2="${r2(py(dy))}"/>`,
+      );
+    }
+    parts.push(`<g clip-path="url(#${id}-clip)">${rings.join("")}</g>`);
+  } else if (block.grid !== false) {
     for (const tick of xTicks)
       parts.push(
         `<line class="graph-grid" x1="${r2(px(tick.at))}" x2="${r2(px(tick.at))}" y1="${MARGIN.top}" y2="${MARGIN.top + plotH}"/>`,
@@ -318,8 +368,9 @@ export function drawGraphSvg(block, { values, view, interactive = false } = {}) 
   );
 
   // Axes sit at 0 when 0 is in view; tick labels sit on the axis or along the frame.
-  const xAxisY = yMin <= 0 && yMax >= 0 ? py(0) : null;
-  const yAxisX = xMin <= 0 && xMax >= 0 ? px(0) : null;
+  const showAxes = block.axes !== false;
+  const xAxisY = showAxes && yMin <= 0 && yMax >= 0 ? py(0) : null;
+  const yAxisX = showAxes && xMin <= 0 && xMax >= 0 ? px(0) : null;
   if (xAxisY !== null)
     parts.push(
       `<line class="graph-axis" x1="${MARGIN.left}" x2="${MARGIN.left + plotW}" y1="${r2(xAxisY)}" y2="${r2(xAxisY)}"/>`,
@@ -346,12 +397,14 @@ export function drawGraphSvg(block, { values, view, interactive = false } = {}) 
       );
   }
   const axisLabels = { x: "x", y: "y", ...(block.axisLabels || {}) };
-  parts.push(
-    `<text class="graph-axis-label" x="${MARGIN.left + plotW - 4}" y="${r2((xAxisY ?? MARGIN.top + plotH) - 6)}" text-anchor="end">${escapeXml(axisLabels.x)}</text>`,
-  );
-  parts.push(
-    `<text class="graph-axis-label" x="${r2((yAxisX ?? MARGIN.left) + 6)}" y="${MARGIN.top + 13}" text-anchor="start">${escapeXml(axisLabels.y)}</text>`,
-  );
+  if (showAxes)
+    parts.push(
+      `<text class="graph-axis-label" x="${MARGIN.left + plotW - 4}" y="${r2((xAxisY ?? MARGIN.top + plotH) - 6)}" text-anchor="end">${escapeXml(axisLabels.x)}</text>`,
+    );
+  if (showAxes)
+    parts.push(
+      `<text class="graph-axis-label" x="${r2((yAxisX ?? MARGIN.left) + 6)}" y="${MARGIN.top + 13}" text-anchor="start">${escapeXml(axisLabels.y)}</text>`,
+    );
 
   // Everything plotted is clipped to the frame.
   const plotted = [];
@@ -433,6 +486,23 @@ export function drawGraphSvg(block, { values, view, interactive = false } = {}) 
     });
   });
 
+  model.polar.forEach((curve, index) => {
+    const pieces = samplePolar(curve.r, curve.domain);
+    for (const piece of pieces)
+      plotted.push(
+        `<path class="graph-curve ${inkClass(curve.source)}" data-graph-curve="p${index}" d="${pathFrom(piece, layout)}"/>`,
+      );
+    const theta = curve.source.labelAt;
+    const radius = theta === undefined ? NaN : curve.r(theta);
+    labelFor(
+      { labelPosition: curve.source.labelPosition },
+      curve.label,
+      Number.isFinite(radius)
+        ? [[radius * Math.cos(theta), radius * Math.sin(theta)]]
+        : pieces.flat(),
+    );
+  });
+
   model.curves.forEach((curve, index) => {
     plotted.push(
       `<path class="graph-curve ${inkClass(curve.source)}" data-graph-curve="c${index}" d="${pathFrom(curve.points, layout)}"/>`,
@@ -508,11 +578,19 @@ export function renderGraph(block, options = {}) {
 </figure>`;
   }
   const id = `graph-${hashText(JSON.stringify(block))}`;
-  const traceable = block.tickLabels !== false;
+  // Polar curves are drawn but not traced, so a polar-only graph offers zoom alone.
+  const traceable =
+    block.tickLabels !== false &&
+    Boolean(block.functions?.length || block.curves?.length);
+  const idle = traceable
+    ? "Trace a curve to read its values. Zoom with + and −."
+    : block.sliders?.length
+      ? "Move the sliders to change the graph."
+      : "Zoom with + and −.";
   return `<figure class="graph-figure graph-figure--interactive" data-graph="${escapeXml(JSON.stringify(block))}">
   <div class="graph-stage">${drawGraphSvg(block, { values, interactive: true })}</div>
   <div class="graph-bar">
-    <output class="graph-readout" aria-live="off">${traceable ? "Trace a curve to read its values. Zoom with + and −." : "Move the sliders to change the graph."}</output>
+    <output class="graph-readout" aria-live="off">${idle}</output>
     <div class="graph-tools" role="group" aria-label="Graph view">
       <button type="button" class="graph-tool" data-graph-action="zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
       <button type="button" class="graph-tool" data-graph-action="zoom-out" aria-label="Zoom out" title="Zoom out">−</button>

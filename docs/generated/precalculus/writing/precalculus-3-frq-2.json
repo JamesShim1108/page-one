@@ -1,0 +1,476 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-q01",
+              "precalculus-3-1-q02",
+              "precalculus-3-1-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-q01",
+              "precalculus-3-2-q03",
+              "precalculus-3-2-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-q01",
+              "precalculus-3-3-q02",
+              "precalculus-3-3-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-q01",
+              "precalculus-3-4-q03",
+              "precalculus-3-4-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-q01",
+              "precalculus-3-5-q02",
+              "precalculus-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-q01",
+              "precalculus-3-6-q04",
+              "precalculus-3-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-q01",
+              "precalculus-3-7-q02",
+              "precalculus-3-7-q05"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-q01",
+              "precalculus-3-8-q02",
+              "precalculus-3-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-q01",
+              "precalculus-3-9-q03",
+              "precalculus-3-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-q01",
+              "precalculus-3-10-q04",
+              "precalculus-3-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-q01",
+              "precalculus-3-11-q04",
+              "precalculus-3-11-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-q01",
+              "precalculus-3-12-q03",
+              "precalculus-3-12-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-q01",
+              "precalculus-3-13-q02",
+              "precalculus-3-13-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-q02",
+              "precalculus-3-14-q04",
+              "precalculus-3-14-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-q01",
+              "precalculus-3-15-q02",
+              "precalculus-3-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-3-frq-2",
+    "version": 1,
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+    "headline": "Build a sinusoidal model from monthly temperatures, use an average rate of change with units, solve the model, and reason about how the rate of change behaves.",
+    "promptTitle": "Free response 2 · Sinusoidal model from data · graphing calculator",
+    "prompt": "The average daily high temperature in a city, in degrees Fahrenheit (°F), is modeled by the sinusoidal function T, where m is the month number (m = 1 for January, m = 2 for February, and so on, with m = 13 for the following January). The table gives values of T(m) for selected months. The model reaches its maximum value at m = 7 and its minimum value at m = 1 and m = 13.",
+    "instructions": "Part A style: a graphing calculator is required. Show the work that leads to each answer; answers without supporting work may not earn credit where work is requested. Angle measures are in radians. Avoid rounding intermediate values, and give decimal approximations accurate to three places after the decimal point unless the part says otherwise. Unless otherwise specified, the domain of a function f is the set of all real numbers x for which f(x) is a real number.",
+    "note": "Original practice question written in the AP Precalculus free-response format (6 points, parts A to C). Scoring is self-assessed with the point-by-point rubric. It is not an official AP question or an official AP score.",
+    "exerciseType": "frq",
+    "sourceIds": [
+      "ced",
+      "ced-topic-3-5",
+      "ced-topic-3-6",
+      "ced-topic-3-7",
+      "ced-topic-3-10"
+    ],
+    "stimulusBlocks": [
+      {
+        "type": "table",
+        "caption": "Average daily high temperature",
+        "columns": [
+          "m (months)",
+          "1",
+          "3",
+          "5",
+          "7",
+          "9",
+          "11"
+        ],
+        "rows": [
+          [
+            "T(m) (°F)",
+            "42",
+            "52",
+            "72",
+            "82",
+            "72",
+            "52"
+          ]
+        ]
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Show work",
+        "text": "Write the setup, such as the expression you evaluate or the equation you solve, before the answer."
+      },
+      {
+        "label": "Use exact values",
+        "text": "Without a calculator, give exact values such as √3/2 or 7π/6, not decimals."
+      },
+      {
+        "label": "Justify",
+        "text": "When a part says give a reason or explain, refer to the graph, the given values, or the context."
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "a1",
+        "label": "Part A (i)",
+        "prompt": "A (i). T can be written in the form T(m) = a sin(b(m + c)) + d, where a > 0 and b > 0. Find the values of a, b, and d.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-7",
+            "sectionId": "period-and-amplitude-from-data",
+            "label": "Period, amplitude, and midline from data"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "label": "Part A (ii)",
+        "prompt": "A (ii). Find a value of c for the form in A (i). Show the work that leads to your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-7",
+            "sectionId": "phase-shift-and-regression",
+            "label": "Phase shift from a data point"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "label": "Part B (i)",
+        "prompt": "B (i). Use the model to find the average rate of change of T from m = 1 to m = 4. Express your answer as a decimal approximation and include units.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-7",
+            "sectionId": "phase-shift-and-regression",
+            "label": "Using a sinusoidal model"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "label": "Part B (ii)",
+        "prompt": "B (ii). Interpret the meaning of your answer to B (i) in the context of the problem.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-7",
+            "sectionId": "phase-shift-and-regression",
+            "label": "Interpreting model values"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "label": "Part C (i)",
+        "prompt": "C (i). Use the model to find all values of m, for 1 ≤ m ≤ 12, for which T(m) = 72.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-10",
+            "sectionId": "solving-equations",
+            "label": "Solving trigonometric equations"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "label": "Part C (ii)",
+        "prompt": "C (ii). On the interval 4 < m < 7, is the rate of change of T increasing or decreasing? Give a reason for your answer.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-5",
+            "sectionId": "symmetry-and-concavity",
+            "label": "Concavity and rate of change"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "a1-abd",
+        "field": "a1",
+        "label": "A (i) a, b, and d",
+        "points": 1,
+        "guidance": "Earn the point for a = 20, b = π/6 (about 0.524), and d = 62. All three are needed."
+      },
+      {
+        "id": "a2-c",
+        "field": "a2",
+        "label": "A (ii) c",
+        "points": 1,
+        "guidance": "Earn the point for c = −4 (or any value −4 + 12k), with work such as (π/6)(7 + c) = π/2."
+      },
+      {
+        "id": "b1-rate",
+        "field": "b1",
+        "label": "B (i) Average rate of change with units",
+        "points": 1,
+        "guidance": "Earn the point for (T(4) − T(1))/(4 − 1) = (62 − 42)/3 ≈ 6.667 degrees Fahrenheit per month."
+      },
+      {
+        "id": "b2-interp",
+        "field": "b2",
+        "label": "B (ii) Interpretation",
+        "points": 1,
+        "guidance": "Earn the point for: from m = 1 to m = 4, the average daily high temperature increases, on average, by about 6.667 °F per month. The interval and 'on average' are needed."
+      },
+      {
+        "id": "c1-solve",
+        "field": "c1",
+        "label": "C (i) Solutions",
+        "points": 1,
+        "guidance": "Earn the point for m = 5 and m = 9. Both are needed."
+      },
+      {
+        "id": "c2-rate",
+        "field": "c2",
+        "label": "C (ii) Rate of change with reason",
+        "points": 1,
+        "guidance": "Earn the point for: decreasing, because on 4 < m < 7 the graph of T is above its midline and concave down (T increases toward its maximum more and more slowly)."
+      }
+    ],
+    "modelResponse": "A (i). Maximum 82 and minimum 42 give a = (82 − 42)/2 = 20 and d = (82 + 42)/2 = 62. Consecutive minimums at m = 1 and m = 13 give a period of 12, so b = 2π/12 = π/6.\n\nA (ii). The sine function reaches its maximum when its input is π/2. The maximum is at m = 7, so (π/6)(7 + c) = π/2, 7 + c = 3, and c = −4. T(m) = 20 sin((π/6)(m − 4)) + 62.\n\nB (i). T(1) = 20 sin(−π/2) + 62 = 42 and T(4) = 20 sin(0) + 62 = 62. The average rate of change is (62 − 42)/(4 − 1) = 20/3 ≈ 6.667 °F per month.\n\nB (ii). From m = 1 to m = 4, the average daily high temperature increases, on average, by about 6.667 °F per month.\n\nC (i). 20 sin((π/6)(m − 4)) + 62 = 72 gives sin((π/6)(m − 4)) = 1/2. For 1 ≤ m ≤ 12, (π/6)(m − 4) is between −π/2 and 4π/3, so (π/6)(m − 4) = π/6 or 5π/6, which gives m = 5 or m = 9. A graphing calculator confirms the intersections of y = T(m) and y = 72 at m = 5 and m = 9.\n\nC (ii). The rate of change is decreasing. On 4 < m < 7, T rises from its midline value at m = 4 to its maximum at m = 7. The graph of a sinusoidal function is concave down above its midline, so T increases at a decreasing rate there.",
+    "alternateModel": "A cosine form is also correct when the question allows it: T(m) = 20 cos((π/6)(m − 7)) + 62. In the sine form, c = 8 also works, since it differs from −4 by the period 12.",
+    "commonErrors": [
+      "Taking the period as 6, the time from a minimum to the next maximum.",
+      "Writing b = 12 instead of b = 2π/12.",
+      "Using c = 4 or c = 7, which shifts the graph the wrong way or forgets that sine peaks at input π/2.",
+      "Giving an average rate of change without units or with the units reversed.",
+      "Giving only m = 5 for T(m) = 72 and missing the second solution."
+    ]
+  }
+}

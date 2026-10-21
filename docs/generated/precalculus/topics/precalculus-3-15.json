@@ -1,0 +1,563 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-q01",
+              "precalculus-3-1-q02",
+              "precalculus-3-1-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-q01",
+              "precalculus-3-2-q03",
+              "precalculus-3-2-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-q01",
+              "precalculus-3-3-q02",
+              "precalculus-3-3-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-q01",
+              "precalculus-3-4-q03",
+              "precalculus-3-4-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-q01",
+              "precalculus-3-5-q02",
+              "precalculus-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-q01",
+              "precalculus-3-6-q04",
+              "precalculus-3-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-q01",
+              "precalculus-3-7-q02",
+              "precalculus-3-7-q05"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-q01",
+              "precalculus-3-8-q02",
+              "precalculus-3-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-q01",
+              "precalculus-3-9-q03",
+              "precalculus-3-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-q01",
+              "precalculus-3-10-q04",
+              "precalculus-3-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-q01",
+              "precalculus-3-11-q04",
+              "precalculus-3-11-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-q01",
+              "precalculus-3-12-q03",
+              "precalculus-3-12-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-q01",
+              "precalculus-3-13-q02",
+              "precalculus-3-13-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-q02",
+              "precalculus-3-14-q04",
+              "precalculus-3-14-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-q01",
+              "precalculus-3-15-q02",
+              "precalculus-3-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-3-15",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 15,
+    "code": "3.15",
+    "title": "Rates of Change in Polar Functions",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "When the graph of a polar function moves toward or away from the origin, relative extrema as points closest to or farthest from the origin, and the average rate of change of r with respect to θ."
+  },
+  "framework": null,
+  "contentRevision": "6e2cba5fd664882c",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "precalculus-3-15",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 15,
+    "code": "3.15",
+    "title": "Rates of Change in Polar Functions",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "When the graph of a polar function moves toward or away from the origin, relative extrema as points closest to or farthest from the origin, and the average rate of change of r with respect to θ.",
+    "minutes": 12,
+    "learningGoals": [
+      "3.15.A Describe characteristics of the graph of a polar function."
+    ],
+    "labels": {
+      "goals": "AP learning objectives",
+      "learn": "Understand the mathematics.",
+      "context": "Where this fits."
+    },
+    "bigIdea": "The distance from the origin is |r|, so whether a polar curve moves away from the origin depends on both the sign of r and whether r is increasing or decreasing. The average rate of change of r measures how fast the signed radius changes per radian.",
+    "context": "Topic 3.14 drew polar graphs. This topic describes how they change, in the same language Unit 1 used for functions: increasing, decreasing, extrema, and average rates of change.",
+    "sections": [
+      {
+        "id": "increasing-and-decreasing-distance",
+        "title": "3.15.A · The sign of r and its direction of change decide the distance.",
+        "conceptTitle": "Distance from the origin and relative extrema",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "If a polar function, r = f(θ), is positive and increasing or negative and decreasing, then the distance between the point with polar coordinates (f(θ), θ) and the origin is increasing."
+          },
+          {
+            "type": "paragraph",
+            "text": "If a polar function, r = f(θ), is positive and decreasing or negative and increasing, then the distance between the point with polar coordinates (f(θ), θ) and the origin is decreasing."
+          },
+          {
+            "type": "table",
+            "caption": "Is the point moving away from the origin?",
+            "columns": [
+              "r = f(θ) is",
+              "Increasing",
+              "Decreasing"
+            ],
+            "rows": [
+              [
+                "Positive",
+                "Distance increasing",
+                "Distance decreasing"
+              ],
+              [
+                "Negative",
+                "Distance decreasing",
+                "Distance increasing"
+              ]
+            ]
+          },
+          {
+            "type": "graph",
+            "caption": "r = 1 + 2 cos θ graphed with θ on the horizontal axis",
+            "alt": "A cosine-shaped curve from r = 3 at θ = 0, decreasing through r = 0 at θ = 2π/3 to r = −1 at θ = π, then increasing back through 0 at 4π/3 to 3 at 2π.",
+            "window": {
+              "x": [
+                -0.3,
+                6.583185307179586
+              ],
+              "y": [
+                -1.5,
+                3.5
+              ]
+            },
+            "ticks": {
+              "x": [
+                {
+                  "at": 0,
+                  "label": "0"
+                },
+                {
+                  "at": 1.0471975511965976,
+                  "label": "π/3"
+                },
+                {
+                  "at": 2.0943951023931953,
+                  "label": "2π/3"
+                },
+                {
+                  "at": 3.141592653589793,
+                  "label": "π"
+                },
+                {
+                  "at": 4.1887902047863905,
+                  "label": "4π/3"
+                },
+                {
+                  "at": 5.235987755982989,
+                  "label": "5π/3"
+                },
+                {
+                  "at": 6.283185307179586,
+                  "label": "2π"
+                }
+              ],
+              "y": 1
+            },
+            "axisLabels": {
+              "x": "θ",
+              "y": "r"
+            },
+            "functions": [
+              {
+                "expr": "1 + 2cos(x)",
+                "label": "r = f(θ)",
+                "labelAt": 5.6,
+                "labelPosition": "nw"
+              }
+            ],
+            "points": [
+              {
+                "at": [
+                  2.0943951023931953,
+                  0
+                ],
+                "label": "(2π/3, 0)",
+                "position": "ne"
+              },
+              {
+                "at": [
+                  3.141592653589793,
+                  -1
+                ],
+                "label": "(π, −1)",
+                "position": "s"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Example: for r = 1 + 2 cos θ on 0 < θ < π, r is decreasing. On 0 < θ < 2π/3, r is positive, so the distance from the origin is decreasing. On 2π/3 < θ < π, r is negative, so the distance is increasing: the curve is tracing its inner loop outward."
+          },
+          {
+            "type": "paragraph",
+            "text": "For a polar function, r = f(θ), if the function changes from increasing to decreasing or decreasing to increasing on an interval, then the function has a relative extremum on the interval corresponding to a point relatively closest to or farthest from the origin."
+          },
+          {
+            "type": "callout",
+            "title": "Write it like the AP Exam",
+            "text": "On 2π/3 < θ < π, the distance between the point (f(θ), θ) and the origin is increasing because f is negative and decreasing on that interval."
+          }
+        ],
+        "takeaway": "Same sign of r and its change: moving away. Opposite: moving closer."
+      },
+      {
+        "id": "polar-rates-of-change",
+        "title": "3.15.A · Average rate of change of r with respect to θ.",
+        "conceptTitle": "Average rates of change in polar functions",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The average rate of change of r with respect to θ over an interval of θ is the ratio of the change in the signed radius values to the change in θ over an interval of θ. Graphically, the average rate of change indicates the rate at which the signed radius is changing per radian."
+          },
+          {
+            "type": "paragraph",
+            "text": "The average rate of change of r with respect to θ over an interval of θ can be used to estimate values of the function within the interval."
+          },
+          {
+            "type": "paragraph",
+            "text": "Example: for r = 1 + 2 cos θ on 0 ≤ θ ≤ π/2, the average rate of change is (f(π/2) − f(0))/(π/2 − 0) = (1 − 3)/(π/2) = −4/π ≈ −1.273. On average, the signed radius decreases by about 1.273 units per radian on this interval."
+          },
+          {
+            "type": "paragraph",
+            "text": "Estimating with it: f(π/4) ≈ f(0) + (−4/π)(π/4) = 3 − 1 = 2. The actual value is 1 + 2 cos(π/4) = 1 + √2 ≈ 2.414, so the estimate is reasonable but not exact, because r does not change at a constant rate."
+          },
+          {
+            "type": "callout",
+            "title": "Units",
+            "text": "The average rate of change of r with respect to θ is in units of radius per radian, the same kind of ratio as the average rates of change in Topic 1.2."
+          }
+        ],
+        "takeaway": "Δr/Δθ: change in signed radius per radian, useful for estimates inside the interval."
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "precalculus-3-15-average-rate-of-change-of-r",
+        "topicId": "precalculus-3-15",
+        "term": "Average rate of change of r with respect to θ",
+        "definition": "The average rate of change of r with respect to θ over an interval of θ is the ratio of the change in the signed radius values to the change in θ over an interval of θ. Graphically, the average rate of change indicates the rate at which the signed radius is changing per radian.",
+        "source": "CED 3.15.A.4"
+      }
+    ],
+    "connections": [
+      {
+        "id": "precalculus-3-15-c1",
+        "topicId": "precalculus-3-15",
+        "type": "Look back",
+        "title": "Average rate of change",
+        "body": "Topic 1.2 defined the average rate of change of a function over an interval as the change in output over the change in input. For a polar function the output is the signed radius and the input is an angle.",
+        "transferQuestion": "Find the average rate of change of r = 2θ on 1 ≤ θ ≤ 3.",
+        "feedback": "(6 − 2)/(3 − 1) = 2 units of radius per radian.",
+        "links": [
+          {
+            "topicId": "precalculus-1-2",
+            "sectionId": "average-rate",
+            "label": "Review average rate of change"
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-15-c2",
+        "topicId": "precalculus-3-15",
+        "type": "Looking ahead",
+        "title": "The AP Exam",
+        "body": "This topic finishes Unit 3. Polar functions appear in multiple-choice questions, and the periodic modeling free-response question uses the sinusoidal ideas from Topics 3.5 to 3.7.",
+        "transferQuestion": "Which Unit 3 topic would you review to find the amplitude and midline from a graph?",
+        "feedback": "Topic 3.5, and Topic 3.7 for building a model from data.",
+        "links": [
+          {
+            "topicId": "precalculus-3-7",
+            "sectionId": "period-and-amplitude-from-data",
+            "label": "Review data modeling"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "ced-topic-3-15"
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "precalculus-3-13-polar-coordinates",
+        "precalculus-3-14-polar-function",
+        "precalculus-3-15-average-rate-of-change-of-r"
+      ]
+    }
+  },
+  "bankPath": "precalculus/banks/precalculus-3-15.json",
+  "glossary": [
+    {
+      "id": "precalculus-3-13-polar-coordinates",
+      "term": "Polar coordinates",
+      "definition": "The polar coordinate system is based on a grid of circles centered at the origin and on lines through the origin. The positive x-axis is called the polar axis. Polar coordinates of a point are defined as an ordered pair, (r, θ). The value of θ is given by the measure of an angle in standard position whose terminal ray lies in a line that passes through the point, and r is the radial displacement of the point from the origin.",
+      "aliases": [
+        "polar coordinate system",
+        "polar coordinate"
+      ],
+      "sourceLabel": "CED 3.13.A.1"
+    },
+    {
+      "id": "precalculus-3-14-polar-function",
+      "term": "Polar function",
+      "definition": "The graph of the function r = f(θ) in polar coordinates consists of input-output pairs of values where the input values are angle measures and the output values are radii.",
+      "aliases": [
+        "polar functions"
+      ],
+      "sourceLabel": "CED 3.14.A.1"
+    },
+    {
+      "id": "precalculus-3-15-average-rate-of-change-of-r",
+      "term": "Average rate of change of r with respect to θ",
+      "definition": "The average rate of change of r with respect to θ over an interval of θ is the ratio of the change in the signed radius values to the change in θ over an interval of θ. Graphically, the average rate of change indicates the rate at which the signed radius is changing per radian.",
+      "aliases": [],
+      "sourceLabel": "CED 3.15.A.4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP Precalculus Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
+      "note": "Course scope, units, topics, learning objectives, and essential knowledge for Units 1 to 3."
+    },
+    {
+      "id": "ced-topic-3-15",
+      "label": "College Board: AP Precalculus Course and Exam Description, Topic 3.15: Rates of Change in Polar Functions",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+    }
+  ],
+  "assets": {}
+}

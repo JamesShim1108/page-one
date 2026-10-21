@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "precalculus",
-  "revision": "8ef7561acdad0b6f",
+  "revision": "ce8b3a642626a6cb",
   "pools": [
     {
       "id": "precalculus-1-1:precalculus-1-1-quiz",
@@ -483,6 +483,262 @@
         "precalculus-2-15-q08",
         "precalculus-2-15-q09",
         "precalculus-2-15-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-1:precalculus-3-1-quiz",
+      "quizId": "precalculus-3-1-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-1",
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "bankPath": "precalculus/banks/precalculus-3-1.json",
+      "questionIds": [
+        "precalculus-3-1-q05",
+        "precalculus-3-1-q06",
+        "precalculus-3-1-q07",
+        "precalculus-3-1-q08",
+        "precalculus-3-1-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-2:precalculus-3-2-quiz",
+      "quizId": "precalculus-3-2-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-2",
+      "code": "3.2",
+      "title": "Sine, Cosine, and Tangent",
+      "bankPath": "precalculus/banks/precalculus-3-2.json",
+      "questionIds": [
+        "precalculus-3-2-q05",
+        "precalculus-3-2-q06",
+        "precalculus-3-2-q07",
+        "precalculus-3-2-q08",
+        "precalculus-3-2-q09"
+      ]
+    },
+    {
+      "id": "precalculus-3-3:precalculus-3-3-quiz",
+      "quizId": "precalculus-3-3-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-3",
+      "code": "3.3",
+      "title": "Sine and Cosine Function Values",
+      "bankPath": "precalculus/banks/precalculus-3-3.json",
+      "questionIds": [
+        "precalculus-3-3-q06",
+        "precalculus-3-3-q07",
+        "precalculus-3-3-q08",
+        "precalculus-3-3-q09",
+        "precalculus-3-3-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-4:precalculus-3-4-quiz",
+      "quizId": "precalculus-3-4-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-4",
+      "code": "3.4",
+      "title": "Sine and Cosine Function Graphs",
+      "bankPath": "precalculus/banks/precalculus-3-4.json",
+      "questionIds": [
+        "precalculus-3-4-q06",
+        "precalculus-3-4-q07",
+        "precalculus-3-4-q08",
+        "precalculus-3-4-q09",
+        "precalculus-3-4-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-5:precalculus-3-5-quiz",
+      "quizId": "precalculus-3-5-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-5",
+      "code": "3.5",
+      "title": "Sinusoidal Functions",
+      "bankPath": "precalculus/banks/precalculus-3-5.json",
+      "questionIds": [
+        "precalculus-3-5-q05",
+        "precalculus-3-5-q07",
+        "precalculus-3-5-q08",
+        "precalculus-3-5-q09",
+        "precalculus-3-5-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-6:precalculus-3-6-quiz",
+      "quizId": "precalculus-3-6-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-6",
+      "code": "3.6",
+      "title": "Sinusoidal Function Transformations",
+      "bankPath": "precalculus/banks/precalculus-3-6.json",
+      "questionIds": [
+        "precalculus-3-6-q05",
+        "precalculus-3-6-q06",
+        "precalculus-3-6-q07",
+        "precalculus-3-6-q09",
+        "precalculus-3-6-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-7:precalculus-3-7-quiz",
+      "quizId": "precalculus-3-7-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-7",
+      "code": "3.7",
+      "title": "Sinusoidal Function Context and Data Modeling",
+      "bankPath": "precalculus/banks/precalculus-3-7.json",
+      "questionIds": [
+        "precalculus-3-7-q06",
+        "precalculus-3-7-q07",
+        "precalculus-3-7-q08",
+        "precalculus-3-7-q09",
+        "precalculus-3-7-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-8:precalculus-3-8-quiz",
+      "quizId": "precalculus-3-8-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-8",
+      "code": "3.8",
+      "title": "The Tangent Function",
+      "bankPath": "precalculus/banks/precalculus-3-8.json",
+      "questionIds": [
+        "precalculus-3-8-q06",
+        "precalculus-3-8-q07",
+        "precalculus-3-8-q08",
+        "precalculus-3-8-q09",
+        "precalculus-3-8-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-9:precalculus-3-9-quiz",
+      "quizId": "precalculus-3-9-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-9",
+      "code": "3.9",
+      "title": "Inverse Trigonometric Functions",
+      "bankPath": "precalculus/banks/precalculus-3-9.json",
+      "questionIds": [
+        "precalculus-3-9-q05",
+        "precalculus-3-9-q06",
+        "precalculus-3-9-q08",
+        "precalculus-3-9-q09",
+        "precalculus-3-9-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-10:precalculus-3-10-quiz",
+      "quizId": "precalculus-3-10-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-10",
+      "code": "3.10",
+      "title": "Trigonometric Equations and Inequalities",
+      "bankPath": "precalculus/banks/precalculus-3-10.json",
+      "questionIds": [
+        "precalculus-3-10-q05",
+        "precalculus-3-10-q06",
+        "precalculus-3-10-q08",
+        "precalculus-3-10-q09",
+        "precalculus-3-10-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-11:precalculus-3-11-quiz",
+      "quizId": "precalculus-3-11-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-11",
+      "code": "3.11",
+      "title": "The Secant, Cosecant, and Cotangent Functions",
+      "bankPath": "precalculus/banks/precalculus-3-11.json",
+      "questionIds": [
+        "precalculus-3-11-q06",
+        "precalculus-3-11-q07",
+        "precalculus-3-11-q08",
+        "precalculus-3-11-q09",
+        "precalculus-3-11-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-12:precalculus-3-12-quiz",
+      "quizId": "precalculus-3-12-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-12",
+      "code": "3.12",
+      "title": "Equivalent Representations of Trigonometric Functions",
+      "bankPath": "precalculus/banks/precalculus-3-12.json",
+      "questionIds": [
+        "precalculus-3-12-q05",
+        "precalculus-3-12-q06",
+        "precalculus-3-12-q07",
+        "precalculus-3-12-q09",
+        "precalculus-3-12-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-13:precalculus-3-13-quiz",
+      "quizId": "precalculus-3-13-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-13",
+      "code": "3.13",
+      "title": "Trigonometry and Polar Coordinates",
+      "bankPath": "precalculus/banks/precalculus-3-13.json",
+      "questionIds": [
+        "precalculus-3-13-q05",
+        "precalculus-3-13-q06",
+        "precalculus-3-13-q07",
+        "precalculus-3-13-q08",
+        "precalculus-3-13-q09",
+        "precalculus-3-13-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-14:precalculus-3-14-quiz",
+      "quizId": "precalculus-3-14-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-14",
+      "code": "3.14",
+      "title": "Polar Function Graphs",
+      "bankPath": "precalculus/banks/precalculus-3-14.json",
+      "questionIds": [
+        "precalculus-3-14-q05",
+        "precalculus-3-14-q07",
+        "precalculus-3-14-q08",
+        "precalculus-3-14-q09",
+        "precalculus-3-14-q10"
+      ]
+    },
+    {
+      "id": "precalculus-3-15:precalculus-3-15-quiz",
+      "quizId": "precalculus-3-15-quiz",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-15",
+      "code": "3.15",
+      "title": "Rates of Change in Polar Functions",
+      "bankPath": "precalculus/banks/precalculus-3-15.json",
+      "questionIds": [
+        "precalculus-3-15-q05",
+        "precalculus-3-15-q06",
+        "precalculus-3-15-q08",
+        "precalculus-3-15-q09",
+        "precalculus-3-15-q10"
       ]
     }
   ]

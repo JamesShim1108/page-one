@@ -8,7 +8,7 @@ For AP skill tags, multiple-choice quality limits, source excerpts, and writing 
 
 For the AP Precalculus course, its math-writing conventions, and how to add a topic, see [AP Precalculus](precalculus.md).
 
-To draw a coordinate graph from data instead of adding an image, see [Graphs](graphs.md). The calculator and math keys for math courses are described in [Math tools](math-tools.md).
+To draw a coordinate graph from data instead of adding an image, see [Graphs](graphs.md). The calculator and math keys for math courses are described in [Math tools](math-tools.md). A proposal for practice questions that generate themselves is in [Generated practice](generated-practice.md).
 
 For the PSAT / SAT section, its item schema, and grid-in rules, see [PSAT / SAT prep](test-prep.md).
 

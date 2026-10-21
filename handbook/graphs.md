@@ -42,13 +42,15 @@ Then run `npm run build`. The build stops with a clear message if an expression 
 | `window`      | Yes      | `{ x: [min, max], y: [min, max] }`. Everything is clipped to this rectangle.                                     |
 | `ticks`       | No       | A step for each axis, `{ x: 1, y: 2 }`, or a list of labeled ticks, `{ x: [{ at: 3.14159, label: "π" }] }`.      |
 | `tickLabels`  | No       | `false` hides the numbers, for "no scale is indicated" questions.                                                |
-| `grid`        | No       | `false` hides the grid lines.                                                                                    |
+| `axes`        | No       | `false` also hides the axes and axis names, for "no axes are presented" questions. Needs `tickLabels: false`.    |
+| `grid`        | No       | `false` hides the grid lines; `"polar"` draws circles (at the x tick step) and rays every π/12 instead.          |
 | `axisLabels`  | No       | `{ x: "t", y: "h(t)" }`. Defaults to `x` and `y`.                                                                |
 | `height`      | No       | Drawing height from 160 to 520. The default is 300; the width is fixed, so a larger height makes a taller graph. |
 | `functions`   | One of   | Curves from expressions (below).                                                                                 |
 | `curves`      | these    | Smooth curves through listed points, for "the graph of f is shown" questions about a general function.           |
-| `segments`    | four is  | Straight segments, such as secant lines: `{ from: [1, 1], to: [3, 9], dashed: true }`.                           |
-| `points`      | required | Marked points: `{ at: [2, 4], open: true, label: "(2, 4)", position: "se" }`.                                    |
+| `polar`       | five is  | Polar curves r = f(θ): `{ expr: "2 + 2cos(θ)", domain: [0, "2pi"], label: "r", labelAt: 1.2 }` (below).          |
+| `segments`    | required | Straight segments, such as secant lines: `{ from: [1, 1], to: [3, 9], dashed: true }`.                           |
+| `points`      |          | Marked points: `{ at: [2, 4], open: true, label: "(2, 4)", position: "se" }`.                                    |
 | `asymptotes`  | No       | Dashed lines: `{ x: 2 }`, `{ y: 1 }`, or `{ slope: 2, intercept: 0 }`.                                           |
 | `sliders`     | No       | Parameters readers can change (below).                                                                           |
 | `interactive` | No       | `false` keeps the graph still on screen.                                                                         |
@@ -66,6 +68,17 @@ Then run `npm run build`. The build stops with a clear message if an expression 
 - `color` is 1 (green, the default), 2 (amber), 3 (red), or 4 (teal). Use `dashed: true` as well when two curves must be told apart in print or by color-blind readers.
 
 Curves are split automatically at vertical asymptotes and wherever the expression is undefined, so `1/(x − 2)` draws as two branches. A hole is undefined at one input, so mark it with an open point: `points: [{ at: [2, 4], open: true }]`.
+
+### Polar curves
+
+```js
+{ expr: "3sin(2θ)", domain: [0, "pi/2"], label: "r = 3 sin 2θ", labelAt: 0.785, labelPosition: "ne", color: 1 }
+```
+
+- `expr` is written in θ. Each angle θ is drawn at the point (r cos θ, r sin θ), so a negative r lands on the opposite ray, as the CED describes.
+- `domain` is the interval of angles, in radians, and may use `pi`: `[0, "2pi"]`. The default is 0 to 2π.
+- `labelAt` is an angle; the label sits on the curve at that angle.
+- Pair polar curves with `grid: "polar"`, and keep circles round by choosing `height` so that (x span) / 392 = (y span) / (height − 40). For example, a window of `x: [-4, 4], y: [-4, 4]` needs `height: 432`.
 
 ### Writing expressions
 

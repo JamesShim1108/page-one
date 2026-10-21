@@ -17,15 +17,421 @@
     "number": 3,
     "title": "Trigonometric and Polar Functions",
     "period": "AP Exam weighting 30–35%",
-    "status": "soon",
-    "quizzes": [],
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-q01",
+              "precalculus-3-1-q02",
+              "precalculus-3-1-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-q01",
+              "precalculus-3-2-q03",
+              "precalculus-3-2-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-q01",
+              "precalculus-3-3-q02",
+              "precalculus-3-3-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-q01",
+              "precalculus-3-4-q03",
+              "precalculus-3-4-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-q01",
+              "precalculus-3-5-q02",
+              "precalculus-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-q01",
+              "precalculus-3-6-q04",
+              "precalculus-3-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-q01",
+              "precalculus-3-7-q02",
+              "precalculus-3-7-q05"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-q01",
+              "precalculus-3-8-q02",
+              "precalculus-3-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-q01",
+              "precalculus-3-9-q03",
+              "precalculus-3-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-q01",
+              "precalculus-3-10-q04",
+              "precalculus-3-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-q01",
+              "precalculus-3-11-q04",
+              "precalculus-3-11-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-q01",
+              "precalculus-3-12-q03",
+              "precalculus-3-12-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-q01",
+              "precalculus-3-13-q02",
+              "precalculus-3-13-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-q02",
+              "precalculus-3-14-q04",
+              "precalculus-3-14-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-q01",
+              "precalculus-3-15-q02",
+              "precalculus-3-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
     "practiceTest": null,
     "termSets": [],
-    "topicQuizzes": [],
-    "topicCount": 0,
-    "firstTopic": null,
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    {
+      "id": "precalculus-3-2",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 2,
+      "code": "3.2",
+      "title": "Sine, Cosine, and Tangent",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "Angles in standard position, terminal rays, radian measure, and the sine, cosine, and tangent of an angle defined from a point on a circle centered at the origin."
+    },
+    {
+      "id": "precalculus-3-3",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 3,
+      "code": "3.3",
+      "title": "Sine and Cosine Function Values",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "The coordinates (r cos θ, r sin θ) of a point on a circle centered at the origin, and exact sine and cosine values for multiples of π/4 and π/6 from special right triangles."
+    },
+    {
+      "id": "precalculus-3-4",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 4,
+      "code": "3.4",
+      "title": "Sine and Cosine Function Graphs",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "The sine and cosine functions as the vertical and horizontal displacements of a point moving around the unit circle, their domains, their outputs between −1 and 1, and how to sketch their graphs."
+    },
+    {
+      "id": "precalculus-3-5",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 5,
+      "code": "3.5",
+      "title": "Sinusoidal Functions",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "Sinusoidal functions as transformations of sin θ, with period, frequency, amplitude, and midline, plus the concavity of their graphs and the symmetry that makes sine odd and cosine even."
+    },
+    {
+      "id": "precalculus-3-6",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 6,
+      "code": "3.6",
+      "title": "Sinusoidal Function Transformations",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "How a, b, c, and d in f(θ) = a sin(b(θ + c)) + d set the amplitude, period, phase shift, and midline of a sinusoidal function, for both sine and cosine."
+    },
+    {
+      "id": "precalculus-3-7",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 7,
+      "code": "3.7",
+      "title": "Sinusoidal Function Context and Data Modeling",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "Building sinusoidal models of periodic phenomena: the period from consecutive maximums or minimums, the amplitude and midline from the extreme values, the phase shift from one data point, sinusoidal regression, and where a model can be trusted."
+    },
+    {
+      "id": "precalculus-3-8",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 8,
+      "code": "3.8",
+      "title": "The Tangent Function",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "The tangent function as the slope of the terminal ray, its period of π, its vertical asymptotes, its increasing and changing concavity between asymptotes, and its additive and multiplicative transformations."
+    },
+    {
+      "id": "precalculus-3-9",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 9,
+      "code": "3.9",
+      "title": "Inverse Trigonometric Functions",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "Arcsine, arccosine, and arctangent: why the trigonometric functions need restricted domains to be invertible, which domains are used, and how the output of an inverse trigonometric function is read as an angle."
+    },
+    {
+      "id": "precalculus-3-10",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 10,
+      "code": "3.10",
+      "title": "Trigonometric Equations and Inequalities",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "Solving equations and inequalities involving trigonometric functions: one solution from an inverse function, the others from symmetry and periodicity, and the domain restrictions that a context implies."
+    },
+    {
+      "id": "precalculus-3-11",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 11,
+      "code": "3.11",
+      "title": "The Secant, Cosecant, and Cotangent Functions",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "Secant, cosecant, and cotangent as reciprocals of cosine, sine, and tangent: where they are defined, their vertical asymptotes, their ranges, and the shapes of their graphs."
+    },
+    {
+      "id": "precalculus-3-12",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 12,
+      "code": "3.12",
+      "title": "Equivalent Representations of Trigonometric Functions",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "The Pythagorean identity and forms derived from it, the sum identities for sine and cosine with their difference and double-angle versions, and using equivalent forms to solve trigonometric equations."
+    },
+    {
+      "id": "precalculus-3-13",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 13,
+      "code": "3.13",
+      "title": "Trigonometry and Polar Coordinates",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "The polar coordinate system, polar coordinates (r, θ) with positive and negative r, converting between polar and rectangular coordinates, and locating complex numbers with either system."
+    },
+    {
+      "id": "precalculus-3-14",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 14,
+      "code": "3.14",
+      "title": "Polar Function Graphs",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "Graphing r = f(θ) in polar coordinates: reading angle as direction and output as signed radius, connecting the rectangular graph of r against θ to the polar curve, and restricting the domain to draw part of a curve."
+    },
+    {
+      "id": "precalculus-3-15",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 15,
+      "code": "3.15",
+      "title": "Rates of Change in Polar Functions",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "When the graph of a polar function moves toward or away from the origin, relative extrema as points closest to or farthest from the origin, and the average rate of change of r with respect to θ."
+    }
+  ]
 }

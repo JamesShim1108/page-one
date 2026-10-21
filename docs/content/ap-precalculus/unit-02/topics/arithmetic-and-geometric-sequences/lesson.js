@@ -103,7 +103,7 @@ export const lesson = {
           columns: ["n", "0", "1", "2", "3", "4"],
           rows: [
             ["aₙ", "5", "8", "11", "14", "17"],
-            ["Change from the previous term", "—", "+3", "+3", "+3", "+3"],
+            ["Change from the previous term", "(start)", "+3", "+3", "+3", "+3"],
           ],
         },
         {
@@ -137,7 +137,7 @@ export const lesson = {
           columns: ["n", "0", "1", "2", "3", "4"],
           rows: [
             ["gₙ", "5", "15", "45", "135", "405"],
-            ["Ratio to the previous term", "—", "×3", "×3", "×3", "×3"],
+            ["Ratio to the previous term", "(start)", "×3", "×3", "×3", "×3"],
           ],
         },
         {

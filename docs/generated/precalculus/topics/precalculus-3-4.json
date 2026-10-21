@@ -1,0 +1,661 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-q01",
+              "precalculus-3-1-q02",
+              "precalculus-3-1-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-q01",
+              "precalculus-3-2-q03",
+              "precalculus-3-2-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-q01",
+              "precalculus-3-3-q02",
+              "precalculus-3-3-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-q01",
+              "precalculus-3-4-q03",
+              "precalculus-3-4-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-q01",
+              "precalculus-3-5-q02",
+              "precalculus-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-q01",
+              "precalculus-3-6-q04",
+              "precalculus-3-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-q01",
+              "precalculus-3-7-q02",
+              "precalculus-3-7-q05"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-q01",
+              "precalculus-3-8-q02",
+              "precalculus-3-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-q01",
+              "precalculus-3-9-q03",
+              "precalculus-3-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-q01",
+              "precalculus-3-10-q04",
+              "precalculus-3-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-q01",
+              "precalculus-3-11-q04",
+              "precalculus-3-11-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-q01",
+              "precalculus-3-12-q03",
+              "precalculus-3-12-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-q01",
+              "precalculus-3-13-q02",
+              "precalculus-3-13-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-q02",
+              "precalculus-3-14-q04",
+              "precalculus-3-14-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-q01",
+              "precalculus-3-15-q02",
+              "precalculus-3-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-3-4",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 4,
+    "code": "3.4",
+    "title": "Sine and Cosine Function Graphs",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "The sine and cosine functions as the vertical and horizontal displacements of a point moving around the unit circle, their domains, their outputs between −1 and 1, and how to sketch their graphs."
+  },
+  "framework": null,
+  "contentRevision": "220e26a4c3d40b62",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "precalculus-3-4",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 4,
+    "code": "3.4",
+    "title": "Sine and Cosine Function Graphs",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "The sine and cosine functions as the vertical and horizontal displacements of a point moving around the unit circle, their domains, their outputs between −1 and 1, and how to sketch their graphs.",
+    "minutes": 11,
+    "learningGoals": [
+      "3.4.A Construct representations of the sine and cosine functions using the unit circle."
+    ],
+    "labels": {
+      "goals": "AP learning objectives",
+      "learn": "Understand the mathematics.",
+      "context": "Where this fits."
+    },
+    "bigIdea": "As an angle θ grows, the point P where its terminal ray meets the unit circle travels around and around. Plotting P's y-coordinate against θ gives the graph of sine; plotting its x-coordinate gives the graph of cosine.",
+    "context": "Topics 3.2 and 3.3 found sine and cosine one angle at a time. This topic treats them as functions of θ and turns the unit circle into the two graphs used for the rest of the unit.",
+    "sections": [
+      {
+        "id": "sine-function",
+        "title": "3.4.A · The sine function gives the vertical displacement of P from the x-axis.",
+        "conceptTitle": "The sine function and its graph",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Given an angle of measure θ in standard position and a unit circle centered at the origin, there is a point, P, where the terminal ray intersects the circle. The sine function, f(θ) = sin θ, gives the y-coordinate, or vertical displacement from the x-axis, of point P. The domain of the sine function is all real numbers."
+          },
+          {
+            "type": "paragraph",
+            "text": "As the input values, or angle measures, of the sine function increase, the output values oscillate between −1 and 1, taking every value in between and tracking the vertical displacement of points on the unit circle from the x-axis."
+          },
+          {
+            "type": "graph",
+            "caption": "y = sin θ. Move the slider to send P around the unit circle; the marked point shows (a, sin a).",
+            "alt": "A wave that starts at the origin, rises to 1 at π/2, returns to 0 at π, falls to −1 at 3π/2, and returns to 0 at 2π. The same shape repeats for negative angles. A marked point sits on the curve at the slider's angle.",
+            "window": {
+              "x": [
+                -6.583185307179586,
+                6.583185307179586
+              ],
+              "y": [
+                -1.6,
+                1.6
+              ]
+            },
+            "ticks": {
+              "x": [
+                {
+                  "at": -6.283185307179586,
+                  "label": "−2π"
+                },
+                {
+                  "at": -4.71238898038469,
+                  "label": "−3π/2"
+                },
+                {
+                  "at": -3.141592653589793,
+                  "label": "−π"
+                },
+                {
+                  "at": -1.5707963267948966,
+                  "label": "−π/2"
+                },
+                {
+                  "at": 0,
+                  "label": "0"
+                },
+                {
+                  "at": 1.5707963267948966,
+                  "label": "π/2"
+                },
+                {
+                  "at": 3.141592653589793,
+                  "label": "π"
+                },
+                {
+                  "at": 4.71238898038469,
+                  "label": "3π/2"
+                },
+                {
+                  "at": 6.283185307179586,
+                  "label": "2π"
+                }
+              ],
+              "y": 0.5
+            },
+            "axisLabels": {
+              "x": "θ",
+              "y": "y"
+            },
+            "functions": [
+              {
+                "expr": "sin(x)",
+                "label": "y = sin θ",
+                "labelAt": -3.6,
+                "labelPosition": "ne"
+              }
+            ],
+            "sliders": [
+              {
+                "name": "a",
+                "min": 0,
+                "max": 6.28,
+                "step": 0.01,
+                "value": 0.79,
+                "label": "Angle"
+              }
+            ],
+            "points": [
+              {
+                "at": [
+                  "a",
+                  "sin(a)"
+                ],
+                "label": "({a}, {sin(a)})",
+                "position": "se"
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Where P is on the unit circle and the value of sin θ",
+            "columns": [
+              "θ",
+              "0",
+              "π/2",
+              "π",
+              "3π/2",
+              "2π"
+            ],
+            "rows": [
+              [
+                "P",
+                "(1, 0)",
+                "(0, 1)",
+                "(−1, 0)",
+                "(0, −1)",
+                "(1, 0)"
+              ],
+              [
+                "sin θ",
+                "0",
+                "1",
+                "0",
+                "−1",
+                "0"
+              ]
+            ]
+          }
+        ],
+        "takeaway": "sin θ is P's height above or below the x-axis; it never leaves −1 ≤ y ≤ 1."
+      },
+      {
+        "id": "cosine-function",
+        "title": "3.4.A · The cosine function gives the horizontal displacement of P from the y-axis.",
+        "conceptTitle": "The cosine function and its graph",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Given an angle of measure θ in standard position and a unit circle centered at the origin, there is a point, P, where the terminal ray intersects the circle. The cosine function, f(θ) = cos θ, gives the x-coordinate, or horizontal displacement from the y-axis, of point P. The domain of the cosine function is all real numbers."
+          },
+          {
+            "type": "paragraph",
+            "text": "As the input values, or angle measures, of the cosine function increase, the output values oscillate between −1 and 1, taking every value in between and tracking the horizontal displacement of points on the unit circle from the y-axis."
+          },
+          {
+            "type": "graph",
+            "caption": "y = cos θ (solid) and y = sin θ (dashed)",
+            "alt": "Two waves. The solid cosine wave starts at 1 when θ = 0, falls to 0 at π/2, to −1 at π, back to 0 at 3π/2, and 1 at 2π. The dashed sine wave has the same shape, a quarter turn later.",
+            "window": {
+              "x": [
+                -6.583185307179586,
+                6.583185307179586
+              ],
+              "y": [
+                -1.6,
+                1.6
+              ]
+            },
+            "ticks": {
+              "x": [
+                {
+                  "at": -6.283185307179586,
+                  "label": "−2π"
+                },
+                {
+                  "at": -4.71238898038469,
+                  "label": "−3π/2"
+                },
+                {
+                  "at": -3.141592653589793,
+                  "label": "−π"
+                },
+                {
+                  "at": -1.5707963267948966,
+                  "label": "−π/2"
+                },
+                {
+                  "at": 0,
+                  "label": "0"
+                },
+                {
+                  "at": 1.5707963267948966,
+                  "label": "π/2"
+                },
+                {
+                  "at": 3.141592653589793,
+                  "label": "π"
+                },
+                {
+                  "at": 4.71238898038469,
+                  "label": "3π/2"
+                },
+                {
+                  "at": 6.283185307179586,
+                  "label": "2π"
+                }
+              ],
+              "y": 0.5
+            },
+            "axisLabels": {
+              "x": "θ",
+              "y": "y"
+            },
+            "functions": [
+              {
+                "expr": "cos(x)",
+                "label": "cos θ",
+                "labelAt": 0.4,
+                "labelPosition": "ne"
+              },
+              {
+                "expr": "sin(x)",
+                "label": "sin θ",
+                "color": 2,
+                "dashed": true,
+                "labelAt": 1.9,
+                "labelPosition": "ne"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Example: as θ increases from π to 3π/2, P moves from (−1, 0) to (0, −1). Its x-coordinate goes from −1 to 0, so cos θ increases, while its y-coordinate goes from 0 to −1, so sin θ decreases."
+          },
+          {
+            "type": "callout",
+            "title": "Write it like the AP Exam",
+            "text": "On 0 < θ < π/2, cos θ is decreasing because P moves toward the y-axis, so its horizontal displacement from the y-axis shrinks from 1 to 0."
+          }
+        ],
+        "takeaway": "cos θ is P's horizontal position; sine and cosine have the same shape, a quarter turn apart."
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "precalculus-3-4-sine-function",
+        "topicId": "precalculus-3-4",
+        "term": "Sine function",
+        "definition": "Given an angle of measure θ in standard position and a unit circle centered at the origin, there is a point, P, where the terminal ray intersects the circle. The sine function, f(θ) = sin θ, gives the y-coordinate, or vertical displacement from the x-axis, of point P. The domain of the sine function is all real numbers.",
+        "source": "CED 3.4.A.1"
+      },
+      {
+        "id": "precalculus-3-4-cosine-function",
+        "topicId": "precalculus-3-4",
+        "term": "Cosine function",
+        "definition": "Given an angle of measure θ in standard position and a unit circle centered at the origin, there is a point, P, where the terminal ray intersects the circle. The cosine function, f(θ) = cos θ, gives the x-coordinate, or horizontal displacement from the y-axis, of point P. The domain of the cosine function is all real numbers.",
+        "source": "CED 3.4.A.3"
+      }
+    ],
+    "connections": [
+      {
+        "id": "precalculus-3-4-c1",
+        "topicId": "precalculus-3-4",
+        "type": "Look back",
+        "title": "Exact values become points",
+        "body": "The exact values from Topic 3.3 give points on these graphs. For example, (π/6, 1/2) is on the graph of y = sin θ and (π/6, √3/2) is on the graph of y = cos θ.",
+        "transferQuestion": "Name the point on the graph of y = cos θ with θ = 2π/3.",
+        "feedback": "(2π/3, −1/2), because cos(2π/3) = −1/2.",
+        "links": [
+          {
+            "topicId": "precalculus-3-3",
+            "sectionId": "special-angles",
+            "label": "Review exact values"
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-4-c2",
+        "topicId": "precalculus-3-4",
+        "type": "Looking ahead",
+        "title": "Sinusoidal functions",
+        "body": "Topic 3.5 calls sine and cosine sinusoidal functions and names their period, frequency, amplitude, and midline.",
+        "transferQuestion": "From the graph, after how long an interval of θ does y = sin θ start to repeat?",
+        "feedback": "2π.",
+        "links": [
+          {
+            "topicId": "precalculus-3-5",
+            "sectionId": "sinusoidal-functions",
+            "label": "See sinusoidal functions"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "ced-topic-3-4"
+    ],
+    "definitionCoverage": {
+      "status": "required",
+      "conceptIds": [
+        "precalculus-3-1-period",
+        "precalculus-3-2-standard-position",
+        "precalculus-3-2-terminal-ray",
+        "precalculus-3-4-sine-function",
+        "precalculus-3-4-cosine-function"
+      ]
+    }
+  },
+  "bankPath": "precalculus/banks/precalculus-3-4.json",
+  "glossary": [
+    {
+      "id": "precalculus-3-1-period",
+      "term": "Period",
+      "definition": "The period of the function is the smallest positive value k such that f(x + k) = f(x) for all x in the domain. Consequently, the behavior of a periodic function is completely determined by any interval of width k.",
+      "aliases": [],
+      "sourceLabel": "CED 3.1.B.1"
+    },
+    {
+      "id": "precalculus-3-2-standard-position",
+      "term": "Standard position",
+      "definition": "In the coordinate plane, an angle is in standard position when the vertex coincides with the origin and one ray coincides with the positive x-axis. The other ray is called the terminal ray.",
+      "aliases": [],
+      "sourceLabel": "CED 3.2.A.1"
+    },
+    {
+      "id": "precalculus-3-2-terminal-ray",
+      "term": "Terminal ray",
+      "definition": "In the coordinate plane, an angle is in standard position when the vertex coincides with the origin and one ray coincides with the positive x-axis. The other ray is called the terminal ray. Positive and negative angle measures indicate rotations from the positive x-axis in the counterclockwise and clockwise direction, respectively. Angles in standard position that share a terminal ray differ by an integer number of revolutions.",
+      "aliases": [
+        "terminal rays"
+      ],
+      "sourceLabel": "CED 3.2.A.1"
+    },
+    {
+      "id": "precalculus-3-4-sine-function",
+      "term": "Sine function",
+      "definition": "Given an angle of measure θ in standard position and a unit circle centered at the origin, there is a point, P, where the terminal ray intersects the circle. The sine function, f(θ) = sin θ, gives the y-coordinate, or vertical displacement from the x-axis, of point P. The domain of the sine function is all real numbers.",
+      "aliases": [],
+      "sourceLabel": "CED 3.4.A.1"
+    },
+    {
+      "id": "precalculus-3-4-cosine-function",
+      "term": "Cosine function",
+      "definition": "Given an angle of measure θ in standard position and a unit circle centered at the origin, there is a point, P, where the terminal ray intersects the circle. The cosine function, f(θ) = cos θ, gives the x-coordinate, or horizontal displacement from the y-axis, of point P. The domain of the cosine function is all real numbers.",
+      "aliases": [],
+      "sourceLabel": "CED 3.4.A.3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP Precalculus Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
+      "note": "Course scope, units, topics, learning objectives, and essential knowledge for Units 1 to 3."
+    },
+    {
+      "id": "ced-topic-3-4",
+      "label": "College Board: AP Precalculus Course and Exam Description, Topic 3.4: Sine and Cosine Function Graphs",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+    }
+  ],
+  "assets": {}
+}

@@ -4,18 +4,22 @@ The course folder is `docs/content/ap-precalculus/`. Its course ID is `precalcul
 
 ## What exists
 
-| Area             | Status                                                                                                                     |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Unit 1 lessons   | All 14 CED topics (1.1 to 1.14). Each lesson lists its CED learning objectives with codes and tags every section with one. |
-| Unit 1 questions | 10 per topic: a 4-question quick check and a 6-question topic quiz, written in AP stem style.                              |
-| Unit 1 practice  | Part 1 (Topics 1.1 to 1.6, 18 questions) and Part 2 (Topics 1.7 to 1.14, 24 questions), the split the CED uses for Unit 1. |
-| Unit 1 FRQs      | Four 6-point free-response questions (`unit-01/writing.js`, `exerciseType: "frq"`), two for each part.                     |
-| Units 2 to 4     | Titled placeholders (`status: "soon"`, no topics) with the CED exam weighting.                                             |
-| Graphs           | 19 interactive graphs in lessons and questions, 4 with sliders; see [Graphs](graphs.md).                                   |
-| Math tools       | Calculator panel on every course page and math keys on free-response answers; see [Math tools](math-tools.md).             |
-| Not built yet    | Terms sets, study guide, mock exams.                                                                                       |
+| Area          | Status                                                                                                                                 |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Lessons       | All CED topics of Units 1 to 3 (1.1 to 1.14, 2.1 to 2.15, 3.1 to 3.15). Each lists its CED learning objectives and tags every section. |
+| Questions     | 10 per topic: a 4-question quick check and a 6-question topic quiz, written in AP stem style.                                          |
+| Unit practice | Two parts per unit, split where the CED splits its progress checks: after 1.6, 2.8, and 3.7.                                           |
+| FRQs          | Four 6-point free-response questions per unit (`unit-0N/writing.js`, `exerciseType: "frq"`), two for each part.                        |
+| Unit 4        | Titled placeholder (`status: "soon"`, no topics). The CED marks it as not assessed on the AP Exam.                                     |
+| Graphs        | 58 interactive graphs in lessons, questions, and FRQs, 8 with sliders and 7 polar; see [Graphs](graphs.md).                            |
+| Math tools    | Calculator panel on every course page and math keys on free-response answers; see [Math tools](math-tools.md).                         |
+| Not built yet | Unit 4, terms sets, study guide, mock exams, and generated practice (see [Generated practice](generated-practice.md)).                 |
 
-The CED sources are listed in `sources.js`: the course and exam description plus one record per topic (`ced-topic-1-N`). Learning objective statements and skill descriptions are quoted from the CED with their codes. Essential knowledge is explained in original Page One wording that keeps the CED's terms and notation. Questions are original. The site does not claim any College Board affiliation.
+The CED sources are listed in `sources.js`: the course and exam description plus one record per topic (`ced-topic-N-M`). Learning objective statements and skill descriptions are quoted from the CED with their codes. Lessons explain essential knowledge in the CED's own sentences where it states a definition or rule, followed by original examples. Questions are original. The site does not claim any College Board affiliation.
+
+### Key Terms come from the CED word for word
+
+Every Key Term definition is one or more whole sentences quoted from a CED essential knowledge statement, and the term records that statement in `source` (for example `CED 3.5.A.3`), which the lesson shows under the definition. Math is written in the site's plain-text notation (sin²θ, (cos θ)/(sin θ), lim x→∞), which is the only change allowed. A term the CED does not describe in its own words is not a Key Term; explain it in the lesson instead. A topic may have no Key Terms of its own when its CED statements define nothing new (3.3, 3.10); its prose is then linked to terms from neighboring topics. The tests check that every term cites a CED statement.
 
 ## Matching AP language
 
@@ -32,7 +36,7 @@ Students are scored on precise language, so lessons and questions follow the CED
 
 ## Free-response questions
 
-FRQs use the typed writing engine with `exerciseType: "frq"`. Each has six response fields (`a1`, `a2`, `b1`, `b2`, `c1`, `c2`), a rubric of six 1-point rows whose `field` names the part they score, a `modelResponse` with one paragraph per part, an `alternateModel`, and `commonErrors`. The validator requires the rubric to total 6 points. FRQ stimuli may be tables, paragraphs, lists, or callouts. Generate the numbers in code and assert them before writing the file.
+FRQs use the typed writing engine with `exerciseType: "frq"`. Each has six response fields (`a1`, `a2`, `b1`, `b2`, `c1`, `c2`), a rubric of six 1-point rows whose `field` names the part they score, a `modelResponse` with one paragraph per part, an `alternateModel`, and `commonErrors`. The validator requires the rubric to total 6 points. FRQ stimuli may be tables, paragraphs, lists, callouts, or graphs. A periodic-modeling stimulus with "no scale is indicated, and no axes are presented" uses `tickLabels: false` and `axes: false`. Generate the numbers in code and assert them before writing the file.
 
 ## Writing math in plain text
 

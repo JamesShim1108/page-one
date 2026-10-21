@@ -18,11 +18,13 @@ const ALLOWED = new Set([
   "window",
   "ticks",
   "tickLabels",
+  "axes",
   "axisLabels",
   "grid",
   "height",
   "functions",
   "curves",
+  "polar",
   "segments",
   "asymptotes",
   "points",
@@ -93,6 +95,18 @@ export function validateGraph(block, location) {
   const isCoordPair = (value) =>
     Array.isArray(value) && value.length === 2 && value.every(isCoord);
   const resolve = (value) => coordinate(value, parameters);
+  // Polar angles may be written with pi, such as "2pi" or "pi/2".
+  const resolveAngle = (value) =>
+    isNum(value) ? value : coordinate(String(value), parameters);
+  const isPolarDomain = (value) => {
+    if (!Array.isArray(value) || value.length !== 2) return false;
+    try {
+      const [from, to] = value.map(resolveAngle);
+      return Number.isFinite(from) && Number.isFinite(to) && from < to;
+    } catch {
+      return false;
+    }
+  };
   const checkPlaceholders = (text, at) => {
     for (const [, source] of String(text ?? "").matchAll(/\{([^{}]+)\}/g)) {
       let value = NaN;
@@ -137,9 +151,18 @@ export function validateGraph(block, location) {
       });
     } else fail(location, `ticks.${axis} must be a step or a list of { at, label }`);
   }
-  for (const key of ["tickLabels", "grid"])
-    if (block[key] !== undefined && typeof block[key] !== "boolean")
-      fail(location, `${key} must be true or false`);
+  if (block.tickLabels !== undefined && typeof block.tickLabels !== "boolean")
+    fail(location, "tickLabels must be true or false");
+  if (block.axes !== undefined && typeof block.axes !== "boolean")
+    fail(location, "axes must be true or false");
+  if (block.axes === false && block.tickLabels !== false)
+    fail(location, "a graph with axes: false also needs tickLabels: false");
+  if (
+    block.grid !== undefined &&
+    typeof block.grid !== "boolean" &&
+    block.grid !== "polar"
+  )
+    fail(location, 'grid must be true, false, or "polar"');
   if (block.axisLabels !== undefined)
     for (const [axis, text] of Object.entries(block.axisLabels))
       if (!["x", "y"].includes(axis) || typeof text !== "string")
@@ -148,9 +171,14 @@ export function validateGraph(block, location) {
   const drawn =
     (block.functions?.length || 0) +
     (block.curves?.length || 0) +
+    (block.polar?.length || 0) +
     (block.segments?.length || 0) +
     (block.points?.length || 0);
-  if (!drawn) fail(location, "draws nothing; add functions, curves, segments, or points");
+  if (!drawn)
+    fail(
+      location,
+      "draws nothing; add functions, curves, polar curves, segments, or points",
+    );
 
   (block.functions || []).forEach((fn, index) => {
     const at = `${location} functions[${index}]`;
@@ -185,6 +213,33 @@ export function validateGraph(block, location) {
       if (Number.isFinite(y) && y >= yMin && y <= yMax) visible += 1;
     }
     if (!visible) fail(at, `"${fn.expr}" never appears inside the window`);
+  });
+
+  (block.polar || []).forEach((curve, index) => {
+    const at = `${location} polar[${index}]`;
+    let r;
+    try {
+      r = compileExpression(curve.expr, { variable: "θ", parameters });
+    } catch (error) {
+      fail(at, error.message);
+    }
+    checkStyle(curve, at);
+    checkPlaceholders(curve.label, at);
+    if (curve.domain !== undefined && !isPolarDomain(curve.domain))
+      fail(at, 'domain must be [from, to] angles with from < to, such as [0, "2pi"]');
+    if (curve.labelAt !== undefined && !isNum(curve.labelAt))
+      fail(at, "labelAt must be an angle in radians");
+    const [from, to] = curve.domain ? curve.domain.map(resolveAngle) : [0, 2 * Math.PI];
+    let visible = 0;
+    for (let k = 0; k <= 360; k += 1) {
+      const theta = from + ((to - from) * k) / 360;
+      const radius = r(theta);
+      const x = radius * Math.cos(theta);
+      const y = radius * Math.sin(theta);
+      if (Number.isFinite(radius) && x >= xMin && x <= xMax && y >= yMin && y <= yMax)
+        visible += 1;
+    }
+    if (!visible) fail(at, `"${curve.expr}" never appears inside the window`);
   });
 
   (block.curves || []).forEach((curve, index) => {

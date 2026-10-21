@@ -320,3 +320,63 @@ test("the build rejects sliders that would draw wrongly", () => {
   for (const [block, message] of bad)
     assert.throws(() => validateGraph(block, "test"), message);
 });
+
+test("polar curves plot (r cos θ, r sin θ), including negative radii", () => {
+  const block = {
+    ...base,
+    window: { x: [-4, 4], y: [-4, 4] },
+    height: 432,
+    grid: "polar",
+    polar: [
+      { expr: "2 + 2cos(θ)", label: "cardioid", labelAt: 1 },
+      { expr: "1 + 2cos(θ)", domain: [0, "pi"] },
+    ],
+  };
+  validateGraph(block, "polar test");
+  const svg = renderGraph(block);
+  assert.match(svg, /data-graph-curve="p0"/);
+  assert.match(svg, /data-graph-curve="p1"/);
+  assert.match(svg, /<ellipse class="graph-grid"/);
+  assert.match(svg, />cardioid</);
+  const model = graphModel(block);
+  assert.equal(model.polar.length, 2);
+  // r = 1 + 2 cos π = −1 lands on the opposite ray, at (1, 0).
+  const r = model.polar[1].r;
+  assert.ok(near(r(Math.PI), -1));
+  assert.ok(near(model.polar[1].domain[1], Math.PI));
+  // A slider can trace a polar curve by moving the end of its domain.
+  validateGraph(
+    {
+      ...block,
+      polar: [{ expr: "3sin(2θ)", domain: [0, "t"] }],
+      sliders: [{ name: "t", min: 0.1, max: 6.28, value: 1 }],
+    },
+    "polar slider test",
+  );
+});
+
+test("the build rejects polar curves and axes settings that would draw wrongly", () => {
+  const polar = (curve, extra = {}) => ({ ...base, polar: [curve], ...extra });
+  assert.throws(() => validateGraph(polar({ expr: "2 +" }), "t"), /polar\[0\]/);
+  assert.throws(
+    () => validateGraph(polar({ expr: "1", domain: ["pi", 0] }), "t"),
+    /domain/,
+  );
+  assert.throws(() => validateGraph(polar({ expr: "20" }), "t"), /never appears/);
+  assert.throws(
+    () => validateGraph(polar({ expr: "1" }, { grid: "radial" }), "t"),
+    /grid/,
+  );
+  assert.throws(
+    () => validateGraph(polar({ expr: "1" }, { axes: false }), "t"),
+    /tickLabels/,
+  );
+  const noAxes = {
+    ...base,
+    functions: [{ expr: "sin(x)" }],
+    axes: false,
+    tickLabels: false,
+  };
+  validateGraph(noAxes, "t");
+  assert.doesNotMatch(renderGraph(noAxes), /graph-axis/);
+});

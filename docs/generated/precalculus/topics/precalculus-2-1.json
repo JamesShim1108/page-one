@@ -279,7 +279,7 @@
     "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
   },
   "framework": null,
-  "contentRevision": "e9eb227a0cb4cba5",
+  "contentRevision": "8aaa534afc4b2549",
   "lesson": {
     "schemaVersion": 1,
     "id": "precalculus-2-1",
@@ -416,7 +416,7 @@
               ],
               [
                 "Change from the previous term",
-                "—",
+                "(start)",
                 "+3",
                 "+3",
                 "+3",
@@ -471,7 +471,7 @@
               ],
               [
                 "Ratio to the previous term",
-                "—",
+                "(start)",
                 "×3",
                 "×3",
                 "×3",

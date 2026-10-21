@@ -1,0 +1,270 @@
+// Original practice questions. correctAnswer is a zero-based choice index; never renumber existing IDs.
+// Every numeric key was computed in code before this file was written.
+
+export const bank = {
+  questions: [
+    {
+      id: "precalculus-3-2-q01",
+      topicId: "precalculus-3-2",
+      concept: "sine-cosine-tangent",
+      difficulty: "Quick check",
+      skill: "apply-results",
+      prompt:
+        "An angle θ is in standard position. Its terminal ray intersects a circle centered at the origin at the point (−3, 4). What is the value of sin θ?",
+      choices: ["−3/5", "4/5", "4", "−4/3"],
+      correctAnswer: 1,
+      explanation:
+        "The point is √(9 + 16) = 5 units from the origin, so sin θ = (vertical displacement)/(distance) = 4/5.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "−3/5 is cos θ, the horizontal displacement over the distance.",
+        "4 over the distance 5.",
+        "4 is the y-coordinate. It equals sin θ only when the circle has radius 1.",
+        "−4/3 is tan θ, the slope of the terminal ray.",
+      ],
+      nearMissIndex: 2,
+      distinguisher: "Divide by the radius unless the circle is a unit circle.",
+    },
+    {
+      id: "precalculus-3-2-q02",
+      topicId: "precalculus-3-2",
+      concept: "standard-position-and-radians",
+      difficulty: "Quick check",
+      skill: "describe",
+      prompt:
+        "Which of the following angles in standard position shares a terminal ray with an angle of π/3?",
+      choices: ["4π/3", "2π/3", "−π/3", "7π/3"],
+      correctAnswer: 3,
+      explanation:
+        "7π/3 = π/3 + 2π, one full revolution more, so the two angles share a terminal ray.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "4π/3 = π/3 + π is half a revolution more, which points the opposite way.",
+        "2π/3 is a different angle in Quadrant II.",
+        "−π/3 is the reflection of π/3 over the x-axis, a clockwise rotation into Quadrant IV.",
+        "7π/3 − π/3 = 2π, one revolution.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Shared terminal rays differ by multiples of 2π, not by a sign change.",
+    },
+    {
+      id: "precalculus-3-2-q03",
+      topicId: "precalculus-3-2",
+      concept: "standard-position-and-radians",
+      difficulty: "Quick check",
+      skill: "apply-results",
+      prompt:
+        "An angle in standard position subtends an arc of length 10 centimeters on a circle of radius 4 centimeters centered at the origin. What is the radian measure of the angle?",
+      choices: ["0.4", "40", "2.5", "10"],
+      correctAnswer: 2,
+      explanation: "The radian measure is the ratio of arc length to radius: 10/4 = 2.5.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "0.4 = 4/10 is the radius over the arc length, the reciprocal of the radian measure.",
+        "40 multiplies the arc length and the radius.",
+        "Arc length divided by radius is 10/4 = 2.5.",
+        "10 is the arc length. It equals the radian measure only on a unit circle.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "Arc over radius, not radius over arc.",
+    },
+    {
+      id: "precalculus-3-2-q04",
+      topicId: "precalculus-3-2",
+      concept: "sine-cosine-tangent",
+      difficulty: "Quick check",
+      skill: "apply-results",
+      prompt:
+        "The terminal ray of an angle θ in standard position passes through the point (2, −6). What is the value of tan θ?",
+      choices: ["−3", "−1/3", "3", "−6"],
+      correctAnswer: 0,
+      explanation: "The tangent is the slope of the terminal ray: (−6 − 0)/(2 − 0) = −3.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "The slope from (0, 0) to (2, −6) is −6/2 = −3.",
+        "−1/3 is horizontal change over vertical change, the reciprocal of the slope.",
+        "The ray goes down as it goes right, so its slope is negative.",
+        "−6 is the y-coordinate, not the slope.",
+      ],
+      nearMissIndex: 1,
+      distinguisher: "Tangent is y over x: rise over run.",
+    },
+    {
+      id: "precalculus-3-2-q05",
+      topicId: "precalculus-3-2",
+      concept: "sine-cosine-tangent",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "The terminal ray of an angle θ in standard position intersects the unit circle at the point (−0.8, −0.6). Which of the following is true?",
+      choices: [
+        "sin θ = −0.8 and tan θ = 0.75",
+        "sin θ = −0.6 and tan θ = −0.75",
+        "cos θ = −0.6 and tan θ = 4/3",
+        "sin θ = −0.6 and tan θ = 0.75",
+      ],
+      correctAnswer: 3,
+      explanation:
+        "On the unit circle, sin θ is the y-coordinate, −0.6, and tan θ = y/x = (−0.6)/(−0.8) = 0.75.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "−0.8 is the x-coordinate, which is cos θ.",
+        "Both coordinates are negative, so their ratio is positive.",
+        "cos θ is the x-coordinate, −0.8, and y/x is 0.75, not 4/3.",
+        "y-coordinate −0.6, and (−0.6)/(−0.8) = 0.75.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "On the unit circle P = (cos θ, sin θ): x first, then y.",
+    },
+    {
+      id: "precalculus-3-2-q06",
+      topicId: "precalculus-3-2",
+      concept: "standard-position-and-radians",
+      difficulty: "Core",
+      skill: "identify-information",
+      prompt:
+        "An angle of measure −π/2 is in standard position. At which point does its terminal ray intersect the unit circle?",
+      choices: ["(0, 1)", "(−1, 0)", "(0, −1)", "(1, 0)"],
+      correctAnswer: 2,
+      explanation:
+        "A negative measure is a clockwise rotation. A quarter turn clockwise from the positive x-axis lands on the negative y-axis, at (0, −1).",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "(0, 1) is a quarter turn counterclockwise, the angle π/2.",
+        "(−1, 0) is half a revolution, the angle π or −π.",
+        "A quarter revolution clockwise ends on the negative y-axis.",
+        "(1, 0) is no rotation at all.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "Negative angles rotate clockwise.",
+    },
+    {
+      id: "precalculus-3-2-q07",
+      topicId: "precalculus-3-2",
+      concept: "standard-position-and-radians",
+      difficulty: "Core",
+      skill: "apply-results",
+      prompt:
+        "A bicycle wheel has a radius of 30 centimeters. The wheel turns through an angle of 2 radians. How far does a point on the rim of the wheel travel along the circle?",
+      choices: ["15 cm", "60 cm", "32 cm", "about 188.5 cm"],
+      correctAnswer: 1,
+      explanation:
+        "The radian measure is arc length over radius, so the arc length is 30(2) = 60 cm.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "15 = 30/2 divides the radius by the angle; the arc length is the radius times the angle.",
+        "s = rθ = 30(2) = 60.",
+        "32 adds the radius and the angle measure.",
+        "188.5 ≈ 2π(30) is the distance for one full revolution, which is 2π radians, not 2 radians.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "Arc length is radius times radian measure.",
+    },
+    {
+      id: "precalculus-3-2-q08",
+      topicId: "precalculus-3-2",
+      concept: "sine-cosine-tangent",
+      difficulty: "Core",
+      skill: "describe",
+      prompt:
+        "For which of the following angles θ in standard position is tan θ undefined?",
+      choices: ["θ = π", "θ = 0", "θ = π/4", "θ = π/2"],
+      correctAnswer: 3,
+      explanation:
+        "At θ = π/2 the terminal ray lies on the positive y-axis. A vertical ray has no slope, so tan θ is undefined.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "At θ = π the ray lies on the negative x-axis, which is horizontal, so tan π = 0.",
+        "At θ = 0 the ray is horizontal, so tan 0 = 0.",
+        "At θ = π/4 the ray has slope 1.",
+        "The ray is vertical, so its slope does not exist.",
+      ],
+      nearMissIndex: 0,
+      distinguisher: "Undefined slope means a vertical ray, where cos θ = 0.",
+    },
+    {
+      id: "precalculus-3-2-q09",
+      topicId: "precalculus-3-2",
+      concept: "sine-cosine-tangent",
+      difficulty: "Core",
+      skill: "support-conclusions",
+      prompt:
+        "The terminal ray of an angle θ in standard position passes through (4, 3), which lies on a circle of radius 5 centered at the origin. A student says sin θ = 3, because the sine of an angle is the y-coordinate of P. Which of the following is the best response?",
+      choices: [
+        "The student is correct, because 3 is the vertical displacement of P from the x-axis.",
+        "The student is incorrect, because the y-coordinate equals the sine only on a unit circle; here sin θ = 3/5.",
+        "The student is incorrect, because sin θ = 4/5, the x-coordinate over the radius.",
+        "The student is incorrect, because sin θ = 3/4, the slope of the terminal ray.",
+      ],
+      correctAnswer: 1,
+      explanation:
+        "The sine is the vertical displacement divided by the distance from the origin, 3/5. Only when that distance is 1 does the sine equal the y-coordinate itself.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "The vertical displacement must be divided by the distance from the origin, 5.",
+        "Divide the vertical displacement 3 by the radius 5.",
+        "4/5 uses the horizontal displacement, which gives cos θ.",
+        "3/4 is the slope, which is tan θ.",
+      ],
+      nearMissIndex: 2,
+      distinguisher:
+        "Sine uses the vertical displacement; cosine uses the horizontal one.",
+    },
+    {
+      id: "precalculus-3-2-q10",
+      topicId: "precalculus-3-2",
+      concept: "sine-cosine-tangent",
+      difficulty: "Core",
+      skill: "describe",
+      prompt:
+        "For an angle θ in standard position, sin θ < 0 and tan θ > 0. In which quadrant does the terminal ray of θ lie?",
+      choices: ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+      correctAnswer: 2,
+      explanation:
+        "sin θ < 0 puts P below the x-axis. tan θ = y/x > 0 then needs x < 0 as well, so the ray is in Quadrant III.",
+      sourceIds: ["ced", "ced-topic-3-2"],
+      choiceExplanations: [
+        "In Quadrant I, sin θ > 0.",
+        "In Quadrant II, sin θ > 0 and tan θ < 0.",
+        "y < 0 and x < 0 make y/x positive.",
+        "In Quadrant IV, sin θ < 0, but x > 0 makes tan θ < 0.",
+      ],
+      nearMissIndex: 3,
+      distinguisher: "A positive tangent needs x and y with the same sign.",
+    },
+  ],
+  quizzes: [
+    {
+      id: "precalculus-3-2-quick",
+      courseId: "precalculus",
+      unitId: "precalculus-3",
+      topicId: "precalculus-3-2",
+      title: "Quick check",
+      quizType: "quick",
+      questionIds: [
+        "precalculus-3-2-q01",
+        "precalculus-3-2-q02",
+        "precalculus-3-2-q03",
+        "precalculus-3-2-q04",
+      ],
+    },
+    {
+      id: "precalculus-3-2-quiz",
+      courseId: "precalculus",
+      unitId: "precalculus-3",
+      topicId: "precalculus-3-2",
+      title: "Sine, Cosine, and Tangent topic practice",
+      quizType: "topic",
+      customPractice: true,
+      questionIds: [
+        "precalculus-3-2-q05",
+        "precalculus-3-2-q06",
+        "precalculus-3-2-q07",
+        "precalculus-3-2-q08",
+        "precalculus-3-2-q09",
+        "precalculus-3-2-q10",
+      ],
+    },
+  ],
+};

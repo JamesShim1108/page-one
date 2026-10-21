@@ -1,0 +1,450 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-q01",
+              "precalculus-3-1-q02",
+              "precalculus-3-1-q09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-q01",
+              "precalculus-3-2-q03",
+              "precalculus-3-2-q10"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-q01",
+              "precalculus-3-3-q02",
+              "precalculus-3-3-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-q01",
+              "precalculus-3-4-q03",
+              "precalculus-3-4-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-q01",
+              "precalculus-3-5-q02",
+              "precalculus-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-q01",
+              "precalculus-3-6-q04",
+              "precalculus-3-6-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-q01",
+              "precalculus-3-7-q02",
+              "precalculus-3-7-q05"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-q01",
+              "precalculus-3-8-q02",
+              "precalculus-3-8-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-q01",
+              "precalculus-3-9-q03",
+              "precalculus-3-9-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-q01",
+              "precalculus-3-10-q04",
+              "precalculus-3-10-q07"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-q01",
+              "precalculus-3-11-q04",
+              "precalculus-3-11-q05"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-q01",
+              "precalculus-3-12-q03",
+              "precalculus-3-12-q08"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-q01",
+              "precalculus-3-13-q02",
+              "precalculus-3-13-q04"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-q02",
+              "precalculus-3-14-q04",
+              "precalculus-3-14-q06"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-q01",
+              "precalculus-3-15-q02",
+              "precalculus-3-15-q07"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-3-frq-3",
+    "version": 1,
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+    "headline": "Solve trigonometric equations, rewrite expressions with identities, evaluate an inverse composition, and solve an inequality, all with exact values.",
+    "promptTitle": "Free response 3 · Symbolic manipulations · no calculator",
+    "prompt": "Directions: Answer each part using exact values. For parts A and C (ii), give all solutions in the interval 0 ≤ x < 2π.",
+    "instructions": "Part B style: no calculator is allowed. Angle measures are in radians. Unless otherwise specified, the domain of a function f is the set of all real numbers x for which f(x) is a real number. Solutions to equations must be real numbers. Determine the exact value of any expression that can be obtained without a calculator, such as sin(π/6) or arccos(1/2). Show the work that leads to your answers.",
+    "note": "Original practice question written in the AP Precalculus free-response format (6 points, parts A to C). Scoring is self-assessed with the point-by-point rubric. It is not an official AP question or an official AP score.",
+    "exerciseType": "frq",
+    "sourceIds": [
+      "ced",
+      "ced-topic-3-9",
+      "ced-topic-3-10",
+      "ced-topic-3-12"
+    ],
+    "scaffold": [
+      {
+        "label": "Show work",
+        "text": "Write the setup, such as the expression you evaluate or the equation you solve, before the answer."
+      },
+      {
+        "label": "Use exact values",
+        "text": "Without a calculator, give exact values such as √3/2 or 7π/6, not decimals."
+      },
+      {
+        "label": "Justify",
+        "text": "When a part says give a reason or explain, refer to the graph, the given values, or the context."
+      }
+    ],
+    "responseFields": [
+      {
+        "id": "a1",
+        "label": "Part A (i)",
+        "prompt": "A (i). Solve 2 sin²x − sin x − 1 = 0 for 0 ≤ x < 2π.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-12",
+            "sectionId": "solving-with-identities",
+            "label": "Quadratic in a trigonometric function"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "label": "Part A (ii)",
+        "prompt": "A (ii). Solve 2 cos(2x) = 1 for 0 ≤ x < 2π.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-10",
+            "sectionId": "solving-equations",
+            "label": "Equations with a multiple angle"
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "label": "Part B (i)",
+        "prompt": "B (i). Rewrite h(x) = (1 − cos²x)/(sin x · cos x) as a single trigonometric function of x, without fractions.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-12",
+            "sectionId": "pythagorean-identity",
+            "label": "The Pythagorean identity"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "label": "Part B (ii)",
+        "prompt": "B (ii). Rewrite k(x) = cos(x + π/3) as an expression of the form A cos x + B sin x, where A and B are exact constants.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-12",
+            "sectionId": "sum-identities",
+            "label": "The cosine sum identity"
+          }
+        ]
+      },
+      {
+        "id": "c1",
+        "label": "Part C (i)",
+        "prompt": "C (i). Find the exact value of sin(arccos(−3/5)).",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-9",
+            "sectionId": "restricted-domains",
+            "label": "Ranges of inverse trigonometric functions"
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "label": "Part C (ii)",
+        "prompt": "C (ii). Solve 2 sin x + 1 > 0 for 0 ≤ x < 2π. Express your answer using interval notation.",
+        "required": true,
+        "rows": 5,
+        "placeholder": "Show the work that leads to your answer, then state the answer with any units or notation the part asks for.",
+        "review": [
+          {
+            "topicId": "precalculus-3-10",
+            "sectionId": "inequalities-and-context",
+            "label": "Trigonometric inequalities"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "a1-solve",
+        "field": "a1",
+        "label": "A (i) Solutions",
+        "points": 1,
+        "guidance": "Earn the point for x = π/2, 7π/6, and 11π/6, from (2 sin x + 1)(sin x − 1) = 0. All three are needed."
+      },
+      {
+        "id": "a2-solve",
+        "field": "a2",
+        "label": "A (ii) Solutions",
+        "points": 1,
+        "guidance": "Earn the point for x = π/6, 5π/6, 7π/6, and 11π/6, from cos(2x) = 1/2 with 0 ≤ 2x < 4π. All four are needed."
+      },
+      {
+        "id": "b1-tan",
+        "field": "b1",
+        "label": "B (i) Single function",
+        "points": 1,
+        "guidance": "Earn the point for h(x) = tan x, with work such as (1 − cos²x)/(sin x cos x) = sin²x/(sin x cos x) = sin x/cos x."
+      },
+      {
+        "id": "b2-sum",
+        "field": "b2",
+        "label": "B (ii) Sum identity",
+        "points": 1,
+        "guidance": "Earn the point for k(x) = (1/2)cos x − (√3/2)sin x."
+      },
+      {
+        "id": "c1-value",
+        "field": "c1",
+        "label": "C (i) Exact value",
+        "points": 1,
+        "guidance": "Earn the point for 4/5, with the reasoning that arccos(−3/5) is an angle in [0, π], where sine is not negative."
+      },
+      {
+        "id": "c2-ineq",
+        "field": "c2",
+        "label": "C (ii) Inequality",
+        "points": 1,
+        "guidance": "Earn the point for [0, 7π/6) ∪ (11π/6, 2π)."
+      }
+    ],
+    "modelResponse": "A (i). Factor: (2 sin x + 1)(sin x − 1) = 0. So sin x = −1/2, giving x = 7π/6 and 11π/6, or sin x = 1, giving x = π/2.\n\nA (ii). cos(2x) = 1/2. Since 0 ≤ x < 2π, 0 ≤ 2x < 4π, so 2x = π/3, 5π/3, 7π/3, 11π/3. Then x = π/6, 5π/6, 7π/6, 11π/6.\n\nB (i). By the Pythagorean identity, 1 − cos²x = sin²x. So h(x) = sin²x/(sin x cos x) = sin x/cos x = tan x, for x where sin x ≠ 0 and cos x ≠ 0.\n\nB (ii). cos(x + π/3) = cos x cos(π/3) − sin x sin(π/3) = (1/2)cos x − (√3/2)sin x.\n\nC (i). Let θ = arccos(−3/5). Then cos θ = −3/5 and θ is in [0, π], so sin θ ≥ 0. sin θ = √(1 − 9/25) = 4/5.\n\nC (ii). 2 sin x + 1 > 0 means sin x > −1/2. sin x = −1/2 at x = 7π/6 and 11π/6, and sin x < −1/2 between them. So the solution is [0, 7π/6) ∪ (11π/6, 2π).",
+    "alternateModel": "In A (i) you may substitute u = sin x and solve 2u² − u − 1 = 0 first. In C (i) a right triangle with adjacent side −3 and hypotenuse 5 in Quadrant II gives the same value, 4/5.",
+    "commonErrors": [
+      "Dropping the solution x = π/2 from the factor sin x − 1.",
+      "Solving 2x = π/3 and 5π/3 only, which misses half of the solutions of A (ii).",
+      "Writing 1 − cos²x = sin x, without the square.",
+      "Using a plus sign in the cosine sum identity.",
+      "Giving −4/5 in C (i), ignoring that arccosine returns an angle in [0, π].",
+      "Writing the inequality's solution as 7π/6 < x < 11π/6, which is where 2 sin x + 1 < 0."
+    ]
+  }
+}
