@@ -11,8 +11,9 @@ export function stableBlockId(block, sectionId, index) {
 
 function blockExcerpt(block) {
   if (!block || typeof block !== "object") return "";
-  if (block.type === "paragraph" || block.type === "callout" || block.type === "source")
-    return block.text || "";
+  if (block.type === "paragraph" || block.type === "callout") return block.text || "";
+  if (block.type === "source")
+    return block.text || block.description || block.caption || "";
   if (block.type === "list") return (block.items || []).join(" ");
   if (block.type === "graph") return block.caption || "";
   return "";
@@ -25,19 +26,39 @@ const SOURCE_LABELS = {
 };
 
 // Mirrors how AP exams introduce a source: who, what, and when above the text,
-// with the published edition below it.
-export function renderSource(block, renderText = esc) {
+// with the published edition below it. A source can also be an image (cartoon,
+// poster, photograph, map) or a data table, as on the AP U.S. History exam.
+export function renderSource(block, renderText = esc, assets = {}) {
   const kind = SOURCE_LABELS[block.sourceType] || "Source";
-  const paragraphs = String(block.text || "")
-    .split(/\n{2,}/)
-    .map((paragraph) => `<p>${renderText(paragraph)}</p>`)
-    .join("");
-  return `<figure class="source-excerpt source-excerpt--${esc(block.sourceType || "primary")}">
+  const medium = block.medium || "text";
+  let body;
+  if (medium === "image") body = sourceImage(block, assets[block.assetId]);
+  else if (medium === "table") body = renderTable(block, renderText);
+  else
+    body = `<blockquote>${String(block.text || "")
+      .split(/\n{2,}/)
+      .map((paragraph) => `<p>${renderText(paragraph)}</p>`)
+      .join("")}</blockquote>`;
+  return `<figure class="source-excerpt source-excerpt--${esc(block.sourceType || "primary")}${medium === "text" ? "" : ` source-excerpt--${esc(medium)}`}">
     <figcaption><span class="source-kind">${esc(kind)}</span><span class="source-attribution">${esc(block.attribution)}</span></figcaption>
-    <blockquote>${paragraphs}</blockquote>
+    ${body}
     ${block.citation ? `<p class="source-citation">${esc(block.citation)}</p>` : ""}
     ${block.note ? `<p class="source-note">${esc(block.note)}</p>` : ""}
   </figure>`;
+}
+
+// The image fills the source frame; its written description stays one tap
+// away, and the credit comes from the asset manifest.
+function sourceImage(block, asset) {
+  if (!asset)
+    return `<p class="source-description">${esc(block.description || block.alt || "Image unavailable.")}</p>`;
+  const { src, srcset } = imageSources(asset);
+  return `<a class="source-image" href="${esc(src)}" target="_blank" rel="noopener noreferrer" title="Open full-size image">
+      <img src="${esc(src)}" srcset="${esc(srcset)}" sizes="(max-width: 700px) calc(100vw - 88px), 650px"
+        width="${asset.width}" height="${asset.height}" alt="${esc(block.alt)}" loading="lazy" decoding="async">
+    </a>
+    <details class="source-description"><summary>Image description</summary><p>${esc(block.description)}</p></details>
+    <p class="source-credit"><a href="${esc(asset.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(asset.creator)}</a> / ${asset.licenseUrl ? `<a href="${esc(asset.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(asset.license)}</a>` : esc(asset.license)}</p>`;
 }
 
 function readingAnchor(block, html, sectionId, index, reportContext = null) {
@@ -104,7 +125,7 @@ export function renderBlocks(
           html = renderImage(block, assets[block.assetId]);
           break;
         case "source":
-          html = renderSource(block, renderText);
+          html = renderSource(block, renderText, assets);
           break;
         case "graph":
           html = renderGraph(block, { interactive: interactiveGraphs });
@@ -139,8 +160,7 @@ function assetUrl(path) {
   return new URL(`../${path}`, import.meta.url).href;
 }
 
-export function renderImage(block, asset) {
-  if (!asset) throw new Error(`Missing image: ${block.assetId}`);
+function imageSources(asset) {
   const src = assetUrl(asset.file);
   const variants = [...(asset.variants || []), { file: asset.file, width: asset.width }];
   const unique = [
@@ -149,6 +169,12 @@ export function renderImage(block, asset) {
   const srcset = unique
     .map((variant) => `${assetUrl(variant.file)} ${variant.width}w`)
     .join(", ");
+  return { src, srcset };
+}
+
+export function renderImage(block, asset) {
+  if (!asset) throw new Error(`Missing image: ${block.assetId}`);
+  const { src, srcset } = imageSources(asset);
   return `<figure class="lesson-figure">
     <a class="lesson-figure__enlarge" href="${esc(src)}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size image: ${esc(asset.title)}" title="Open full-size image">
       <img src="${esc(src)}" srcset="${esc(srcset)}" sizes="(max-width: 700px) calc(100vw - 88px), 650px"

@@ -8,6 +8,8 @@ For AP skill tags, multiple-choice quality limits, source excerpts, and writing 
 
 For the AP Precalculus course, its math-writing conventions, and how to add a topic, see [AP Precalculus](precalculus.md).
 
+For AP U.S. History, its CED framework file, the May 2027 exam format, visual and data stimuli, and the practice types it needs, see [AP U.S. History](ap-us-history.md).
+
 To draw a coordinate graph from data instead of adding an image, see [Graphs](graphs.md). The calculator and math keys for math courses are described in [Math tools](math-tools.md). A proposal for practice questions that generate themselves is in [Generated practice](generated-practice.md).
 
 For the PSAT / SAT section, its item schema, and grid-in rules, see [PSAT / SAT prep](test-prep.md).
@@ -19,6 +21,7 @@ All paths start at the repository root. The current course folder is `docs/conte
 | Change                                     | File or folder                                                                                    |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------- |
 | Course title, summary, catalog order       | Course folder's `course.js`                                                                       |
+| CED units, topics, and learning objectives | Course folder's `ced.js` (AP U.S. History; the build checks content against it)                   |
 | Unit title, status, question selections    | `unit-01/unit.js` in the course folder                                                            |
 | Topic reading, terms, connections          | `unit-01/topics/east-asia/lesson.js`                                                              |
 | Topic questions and quiz selections        | Same topic folder, `questions.js`                                                                 |

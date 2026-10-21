@@ -3,13 +3,25 @@ import { excerptSourceFor } from "./excerpt-sources.mjs";
 import { validateGraph } from "./validate-graph.mjs";
 
 const SOURCE_BLOCK_TYPES = new Set(["primary", "secondary", "original"]);
-const AMSCO_REVIEW_STATES = new Set(["pending", "complete"]);
+const REVIEW_STATES = new Set(["pending", "complete"]);
+// What a source block shows. "text" is a quoted or written passage; "image" is
+// a cartoon, poster, photograph, painting, or map from the asset manifest;
+// "table" is quantitative data. AP U.S. History uses all three as stimuli.
+export const SOURCE_MEDIA = Object.freeze(["text", "image", "table"]);
+// World History reviews every stimulus against the class AMSCO reading. A
+// course can name its own review field in course.js (`sourceReview`).
+export const DEFAULT_SOURCE_REVIEW = "amsco_review";
 
-// AP-format unit Practice Tests: every question belongs to a text stimulus set.
+export const sourceMedium = (block) => block?.medium || "text";
+
+// AP-format unit Practice Tests: every question belongs to a stimulus set. A
+// course's exam-format.js can narrow the set size and allow non-text stimuli
+// through its multiple-choice section's `sets` rule.
 export const PRACTICE_TEST = Object.freeze({
   maxQuestions: 55,
   minPerStimulus: 2,
   maxPerStimulus: 4,
+  media: Object.freeze(["text"]),
 });
 
 // Multiple-choice answer-length limits. When the correct choice is reliably the
@@ -139,7 +151,64 @@ export function validateMetadata(record, location) {
   );
 }
 
-export function validateBlocks(blocks, assets, location, stableIds = new Set()) {
+function validateTableShape(block, at) {
+  requireText(block.caption, at);
+  requireValue(
+    Array.isArray(block.columns) && block.columns.length > 0,
+    at,
+    "table needs columns",
+  );
+  block.columns.forEach((column) => requireText(column, at));
+  requireValue(
+    Array.isArray(block.rows) && block.rows.length > 0,
+    at,
+    "table needs rows",
+  );
+  for (const row of block.rows) {
+    requireValue(
+      Array.isArray(row) && row.length === block.columns.length,
+      at,
+      "table row must match column count",
+    );
+    row.forEach((cell) => requireText(cell, at));
+  }
+}
+
+// A source block shows exactly one medium. Visual sources carry a written
+// description so a student using a screen reader gets the same information the
+// image gives (labels, captions, what is drawn), as AP accommodations do.
+function validateSourceMedium(block, assets, at) {
+  const medium = sourceMedium(block);
+  requireValue(
+    SOURCE_MEDIA.includes(medium),
+    at,
+    `source block medium must be one of ${SOURCE_MEDIA.join(", ")}`,
+  );
+  if (medium === "text") {
+    requireText(block.text, at);
+    requireValue(
+      block.assetId === undefined && block.columns === undefined,
+      at,
+      "a text source has no image or table; set medium",
+    );
+    return;
+  }
+  requireValue(block.text === undefined, at, `a ${medium} source has no text passage`);
+  requireId(block.id, at);
+  if (medium === "image") {
+    requireValue(assets.has(block.assetId), at, `unknown image ${block.assetId}`);
+    requireText(block.alt, at);
+    requireText(block.description, at);
+  } else validateTableShape(block, at);
+}
+
+export function validateBlocks(
+  blocks,
+  assets,
+  location,
+  stableIds = new Set(),
+  { reviewField = DEFAULT_SOURCE_REVIEW } = {},
+) {
   requireValue(
     Array.isArray(blocks) && blocks.length > 0,
     location,
@@ -169,26 +238,7 @@ export function validateBlocks(blocks, assets, location, stableIds = new Set()) 
         block.items.forEach((item) => requireText(item, at));
         break;
       case "table":
-        requireText(block.caption, at);
-        requireValue(
-          Array.isArray(block.columns) && block.columns.length > 0,
-          at,
-          "table needs columns",
-        );
-        block.columns.forEach((column) => requireText(column, at));
-        requireValue(
-          Array.isArray(block.rows) && block.rows.length > 0,
-          at,
-          "table needs rows",
-        );
-        for (const row of block.rows) {
-          requireValue(
-            Array.isArray(row) && row.length === block.columns.length,
-            at,
-            "table row must match column count",
-          );
-          row.forEach((cell) => requireText(cell, at));
-        }
+        validateTableShape(block, at);
         break;
       case "image":
         requireValue(assets.has(block.assetId), at, `unknown image ${block.assetId}`);
@@ -205,18 +255,20 @@ export function validateBlocks(blocks, assets, location, stableIds = new Set()) 
           `source block sourceType must be one of ${[...SOURCE_BLOCK_TYPES].join(", ")}`,
         );
         requireText(block.attribution, at);
-        requireText(block.text, at);
+        validateSourceMedium(block, assets, at);
         if (block.sourceType !== "original") requireText(block.citation, at);
         if (block.note !== undefined) requireText(block.note, at);
         // Provenance: a source record ID for quotations, or the CED key concept
         // a Page One practice passage is based on.
         requireText(block.source, `${at} source`);
         requireValue(
-          AMSCO_REVIEW_STATES.has(block.amsco_review),
+          REVIEW_STATES.has(block[reviewField]),
           at,
-          "source block amsco_review must be pending or complete",
+          `source block ${reviewField} must be pending or complete`,
         );
-        if (block.sourceType === "primary") {
+        // Quotations are checked word for word against a registered edition.
+        // Images and data tables are checked against their manifest record.
+        if (block.sourceType === "primary" && sourceMedium(block) === "text") {
           requireId(block.id, at);
           requireValue(
             Boolean(excerptSourceFor(block.id)),
@@ -243,6 +295,7 @@ export function validateLesson(
   location,
   topicMap = null,
   skills = null,
+  options = {},
 ) {
   validateMetadata(lesson, location);
   requireValue(
@@ -284,7 +337,13 @@ export function validateLesson(
     requireText(section.title, location);
     requireText(section.conceptTitle, location);
     requireText(section.takeaway, location);
-    validateBlocks(section.blocks, assets, `${location}.${section.id}`, stableBlockIds);
+    validateBlocks(
+      section.blocks,
+      assets,
+      `${location}.${section.id}`,
+      stableBlockIds,
+      options,
+    );
     if (section.sourceIds) {
       requireValue(
         Array.isArray(section.sourceIds) && section.sourceIds.length > 0,
@@ -386,7 +445,7 @@ export function validateLesson(
       `invalid answer on ${question.id}`,
     );
     if (question.stimulusBlocks)
-      validateBlocks(question.stimulusBlocks, assets, location);
+      validateBlocks(question.stimulusBlocks, assets, location, new Set(), options);
     if (question.sourceIds) {
       requireValue(
         Array.isArray(question.sourceIds) && question.sourceIds.length > 0,
@@ -467,14 +526,42 @@ export function validateSkills(skills, location) {
   requireText(skills.sourceNote, location);
   const items = uniqueById(skills.items || [], `${location}.items`);
   requireValue(items.size > 0, location, "skills need at least one item");
+  const subskillCodes = new Set();
   for (const item of items.values()) {
     requireText(item.code, location);
     requireText(item.label, location);
     requireText(item.description, location);
+    if (item.mcq !== undefined)
+      requireValue(
+        typeof item.mcq === "boolean",
+        location,
+        `${item.id}.mcq must be boolean`,
+      );
+    // Optional CED sub-skills, such as 2.B, that a question can name exactly.
+    for (const subskill of item.subskills || []) {
+      requireValue(
+        typeof subskill.code === "string" && subskill.code.startsWith(`${item.code}.`),
+        location,
+        `${item.id} sub-skill ${subskill.code} must start with ${item.code}.`,
+      );
+      requireValue(
+        !subskillCodes.has(subskill.code),
+        location,
+        `duplicate sub-skill ${subskill.code}`,
+      );
+      subskillCodes.add(subskill.code);
+      requireText(subskill.text, location);
+    }
   }
   const reasoning = uniqueById(skills.reasoning || [], `${location}.reasoning`);
-  for (const item of reasoning.values()) requireText(item.label, location);
-  return { items, reasoning };
+  for (const item of reasoning.values()) {
+    requireText(item.label, location);
+    for (const process of item.processes || []) {
+      requireText(process.code, location);
+      requireText(process.text, location);
+    }
+  }
+  return { items, reasoning, subskillCodes };
 }
 
 function validateQuestionSkill(question, skills, location) {
@@ -498,6 +585,18 @@ function validateQuestionSkill(question, skills, location) {
       question.reasoning !== undefined,
       location,
       `${question.id} uses Making connections and must name a reasoning process`,
+    );
+  const skill = skills.items.get(question.skill);
+  requireValue(
+    skill.mcq !== false,
+    location,
+    `${question.id} is multiple choice, and ${skill.label} is not assessed by multiple-choice questions`,
+  );
+  if (question.subskill !== undefined)
+    requireValue(
+      (skill.subskills || []).some((subskill) => subskill.code === question.subskill),
+      location,
+      `${question.id} sub-skill ${question.subskill} is not part of ${skill.label}`,
     );
 }
 
@@ -620,9 +719,29 @@ export function validateWriting(
   unit,
   location,
   sourceMap = null,
+  options = {},
 ) {
+  const assets = options.assets || new Map();
   requireId(quiz.id, location);
   requireValue(quiz.unitId === unit.id, location, "wrong unitId");
+  // A prompt that spans periods (an LEQ on 1776-1876, say) lists every unit it
+  // covers. It always includes the unit that owns it.
+  if (quiz.units !== undefined) {
+    requireValue(
+      Array.isArray(quiz.units) &&
+        quiz.units.length > 0 &&
+        quiz.units.every((number) => Number.isInteger(number) && number > 0) &&
+        new Set(quiz.units).size === quiz.units.length,
+      location,
+      "units must list distinct positive unit numbers",
+    );
+    requireValue(
+      quiz.units.includes(unit.number),
+      location,
+      `units must include the owning unit ${unit.number}`,
+    );
+  }
+  if (quiz.dateRange !== undefined) requireText(quiz.dateRange, location);
   requireValue(quiz.courseId === unit.courseId, location, "wrong writing courseId");
   requireValue(
     Number.isInteger(quiz.version) && quiz.version > 0,
@@ -652,8 +771,15 @@ export function validateWriting(
   if (quiz.sourceLocators)
     validateSourceLocators(quiz.sourceLocators, sourceMap || new Map(), location);
   if (quiz.stimulusBlocks !== undefined) {
-    // Writing stimuli are text excerpts; images belong in lessons and quizzes.
-    validateBlocks(quiz.stimulusBlocks, new Map(), `${location}.stimulusBlocks`);
+    // Writing stimuli are source blocks: passages, or images and data tables
+    // from the course's asset manifest (AP U.S. History SAQ 3 is non-text).
+    validateBlocks(
+      quiz.stimulusBlocks,
+      assets,
+      `${location}.stimulusBlocks`,
+      new Set(),
+      options,
+    );
     // Free-response math questions give tables and definitions instead of excerpts.
     for (const block of quiz.stimulusBlocks)
       requireValue(
@@ -667,7 +793,7 @@ export function validateWriting(
       );
   }
   if (quiz.exerciseType && ["leq", "dbq", "skill", "frq"].includes(quiz.exerciseType)) {
-    validateTypedWriting(quiz, topics, framework, unit, location, sourceMap);
+    validateTypedWriting(quiz, topics, framework, unit, location, sourceMap, assets);
     return;
   }
   const parts = uniqueById(quiz.parts, location);
@@ -708,7 +834,15 @@ export function validateWriting(
   }
 }
 
-function validateTypedWriting(quiz, topics, framework, unit, location, sourceMap) {
+function validateTypedWriting(
+  quiz,
+  topics,
+  framework,
+  unit,
+  location,
+  sourceMap,
+  assets = new Map(),
+) {
   requireValue(
     Array.isArray(quiz.scaffold) && quiz.scaffold.length > 0,
     location,
@@ -768,7 +902,28 @@ function validateTypedWriting(quiz, topics, framework, unit, location, sourceMap
     quiz.documents.forEach((document) => {
       requireId(document.id, location);
       requireText(document.label, location);
-      requireText(document.content, location);
+      // Documents are passages, or images such as cartoons and photographs.
+      if (sourceMedium(document) === "image") {
+        requireValue(
+          assets.has(document.assetId),
+          location,
+          `unknown image ${document.assetId} in ${document.id}`,
+        );
+        requireText(document.alt, location);
+        requireText(document.description, location);
+        requireValue(
+          document.content === undefined,
+          location,
+          `${document.id} is an image document and has no text content`,
+        );
+      } else {
+        requireValue(
+          sourceMedium(document) === "text",
+          location,
+          `${document.id} medium must be text or image`,
+        );
+        requireText(document.content, location);
+      }
       requireText(document.sourceNote, location);
       requireValue(
         document.metadata && typeof document.metadata === "object",
@@ -791,7 +946,7 @@ function validateTypedWriting(quiz, topics, framework, unit, location, sourceMap
         requireText(document.citation, location);
         requireValue(
           !/withheld|unresolved|to be (independently )?verified/i.test(
-            `${document.content} ${document.metadata.author}`,
+            `${document.content || document.description} ${document.metadata.author}`,
           ),
           location,
           `${document.id} is marked verified but still contains placeholder text`,
@@ -860,9 +1015,31 @@ function normalizedStem(text) {
   return String(text).replace(/\s+/g, " ").trim().toLowerCase();
 }
 
-// A unit Practice Test mirrors the AP multiple-choice section: sets of two to
-// four questions that each depend on one text stimulus, with no stand-alone items.
-export function validatePracticeTest(quiz, questions, location) {
+/**
+ * Practice-test rules from a course's exam format. `sets` on the format's
+ * multiple-choice section can set { min, max, media }; anything left out keeps
+ * the World History defaults in PRACTICE_TEST.
+ */
+export function practiceTestRules(format) {
+  const sets = format?.sections?.find((section) => section.kind === "mcq")?.sets || {};
+  return {
+    minPerStimulus: sets.min ?? PRACTICE_TEST.minPerStimulus,
+    maxPerStimulus: sets.max ?? PRACTICE_TEST.maxPerStimulus,
+    media: sets.media ?? PRACTICE_TEST.media,
+  };
+}
+
+// A unit Practice Test mirrors the AP multiple-choice section: sets of questions
+// that each depend on one stimulus, with no stand-alone items. By default a set
+// has two to four questions on a text source; a course's exam format can
+// require other set sizes and allow images and data tables.
+export function validatePracticeTest(
+  quiz,
+  questions,
+  location,
+  rules = practiceTestRules(null),
+) {
+  const media = new Set(rules.media);
   requireValue(quiz.practiceTest === true, location, "not a practice test");
   requireValue(
     questions.length > 0 && questions.length <= PRACTICE_TEST.maxQuestions,
@@ -877,9 +1054,12 @@ export function validatePracticeTest(quiz, questions, location) {
     requireId(question.stimulusId, `${at} stimulusId`);
     const blocks = question.stimulusBlocks || [];
     requireValue(
-      blocks.length > 0 && blocks.every((block) => block.type === "source"),
+      blocks.length > 0 &&
+        blocks.every(
+          (block) => block.type === "source" && media.has(sourceMedium(block)),
+        ),
       at,
-      "practice test questions need text source stimulusBlocks",
+      `practice test questions need source stimulusBlocks (${[...media].join(", ")})`,
     );
     requireValue(
       blocks.some((block) => block.id === question.stimulusId),
@@ -930,10 +1110,9 @@ export function validatePracticeTest(quiz, questions, location) {
     }
   for (const [id, set] of sets)
     requireValue(
-      set.count >= PRACTICE_TEST.minPerStimulus &&
-        set.count <= PRACTICE_TEST.maxPerStimulus,
+      set.count >= rules.minPerStimulus && set.count <= rules.maxPerStimulus,
       location,
-      `stimulus ${id} is used by ${set.count} questions; use ${PRACTICE_TEST.minPerStimulus} to ${PRACTICE_TEST.maxPerStimulus}`,
+      `stimulus ${id} is used by ${set.count} questions; use ${rules.minPerStimulus} to ${rules.maxPerStimulus}`,
     );
   requireValue(
     [...sets.values()].some((set) =>

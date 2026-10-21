@@ -38,7 +38,8 @@ async function contentFileMap() {
 test("the generated catalog preserves every ready Unit 1 topic and stable route", async () => {
   const catalog = await readGenerated("catalog.json");
   assert.equal(catalog.schemaVersion, 1);
-  assert.equal(catalog.courses.length, 3);
+  // World History, Advanced Algebra 2, AP Precalculus, and AP U.S. History.
+  assert.equal(catalog.courses.length, 4);
   assert.equal(catalog.courses[0].id, "world");
   assert.equal(catalog.courses[0].readyTopicCount, READY_TOPICS);
 
@@ -150,7 +151,7 @@ test("content failures are typed, retryable, and optional practice failures keep
     return true;
   });
   failCatalog = false;
-  assert.equal((await store.catalog()).length, 3);
+  assert.equal((await store.catalog()).length, 4);
   const page = await store.page("topic", "world-1-2");
   assert.equal(page.bank, null);
   assert.equal(page.optionalBankError.category, "network");

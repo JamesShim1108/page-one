@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "68f0a1b3b83ea47a",
+  "revision": "173c42e144dbe769",
   "courses": [
     {
       "schemaVersion": 1,
@@ -142,6 +142,24 @@
       "indexPath": "precalculus/index.json",
       "routesPath": "precalculus/routes.json",
       "customPracticePath": "precalculus/custom-practice.json"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "apush",
+      "title": "AP U.S. History",
+      "shortTitle": "AP U.S. History",
+      "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+      "status": "soon",
+      "period": "1491–present",
+      "order": 4,
+      "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+      "sourceReview": "ced_review",
+      "readyTopicCount": 0,
+      "previewTopics": [],
+      "firstTopic": null,
+      "indexPath": "apush/index.json",
+      "routesPath": "apush/routes.json",
+      "customPracticePath": "apush/custom-practice.json"
     }
   ]
 }

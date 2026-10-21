@@ -1,0 +1,32 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "soon",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "soon",
+    "quizzes": [],
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [],
+    "topicCount": 0,
+    "firstTopic": null,
+    "hasGuide": false,
+    "writingQuizzes": []
+  },
+  "topics": []
+}

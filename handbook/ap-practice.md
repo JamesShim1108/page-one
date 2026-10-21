@@ -53,14 +53,18 @@ node scripts/verify-excerpts.mjs path/to/source-texts
 
 The script lists the file names it expects. Project Gutenberg texts can be downloaded from gutenberg.org; for Gibb's Ibn Battuta, save the Internet Archive full-text OCR. The source texts are not stored in this repository.
 
+### Images and data as stimuli
+
+A `source` block can also show an image or a data table. Set `medium: "image"` with an `assetId`, `alt`, and a `description` of what the image shows, or `medium: "table"` with `caption`, `columns`, and `rows`. Image sources need an `id` and an archive `citation`; they are not checked against a text edition. World History Practice Tests still use text only; a course allows other media through its exam format's multiple-choice `sets` rule (AP U.S. History does). Each course names the review field its source blocks record: World History uses `amsco_review`, AP U.S. History `ced_review` (set by `sourceReview` in `course.js`).
+
 ## Unit Practice Tests
 
 Each ready unit can have one Practice Test that mirrors the AP multiple-choice section. It is a unit quiz in `unit.js` with `practiceTest: true` and one `selections` entry per stimulus set, in exam order. Its questions live in the topic banks with `t`-numbered IDs; because a unit quiz reserves them, they never appear in custom topic practice. The Study Hub shows it as the first card.
 
 - At most 55 questions. Build fewer rather than pad with weak items. **Checked.**
 - Every question names a `stimulusId` that matches the `id` of one of its `stimulusBlocks`. **Checked.**
-- Each stimulus is used by two to four questions, and a set's questions appear together. **Checked.**
-- Stimuli are text `source` blocks only; at least one is `primary` or `original`. **Checked.**
+- Each stimulus is used by two to four questions, and a set's questions appear together. **Checked.** A course's exam format can change the range; AP U.S. History uses three to four.
+- Stimuli are `source` blocks in the media the course allows (text only unless the exam format says otherwise); at least one is `primary` or `original`. **Checked.**
 - No question stem repeats within a test, every choice has an explanation, and every question records its near-miss distractor. **Checked.**
 - The answer-length limits above also apply to the test as a whole. **Checked.**
 - A unit with a Practice Test also has at least one SAQ with a stimulus. **Checked.**

@@ -942,11 +942,42 @@
   margin-bottom: 0;
 }
 .source-citation,
-.source-note {
+.source-note,
+.source-credit {
   margin: 0.75rem 0 0;
   color: var(--muted);
   font-size: var(--text-xs);
   line-height: 1.45;
+}
+
+/* Visual and data sources: cartoons, posters, photographs, maps, and tables. */
+.source-image {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--paper);
+}
+.source-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.source-description {
+  margin: 0.6rem 0 0;
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+.source-description summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-weight: 600;
+}
+.source-description p {
+  margin: 0.4rem 0 0;
+}
+.source-excerpt--table .table-wrap {
+  margin: 0;
 }
 
 /* Results grouped by AP skill. */
