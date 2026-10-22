@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "224391f8be61fd9b",
+  "revision": "c29d757ba1905cde",
   "courses": [
     {
       "schemaVersion": 1,
@@ -149,14 +149,58 @@
       "title": "AP U.S. History",
       "shortTitle": "AP U.S. History",
       "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
-      "status": "soon",
+      "status": "ready",
       "period": "1491–present",
       "order": 4,
       "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
       "sourceReview": "ced_review",
-      "readyTopicCount": 0,
-      "previewTopics": [],
-      "firstTopic": null,
+      "readyTopicCount": 7,
+      "previewTopics": [
+        {
+          "id": "apush-1-1",
+          "courseId": "apush",
+          "unitId": "apush-1",
+          "order": 1,
+          "code": "1.1",
+          "title": "Contextualizing Period 1",
+          "period": "1491–1607",
+          "status": "ready",
+          "summary": "What a historical context is, and the Native American, European, and African developments that framed the encounters of 1491 to 1607."
+        },
+        {
+          "id": "apush-1-2",
+          "courseId": "apush",
+          "unitId": "apush-1",
+          "order": 2,
+          "code": "1.2",
+          "title": "Native American Societies Before European Contact",
+          "period": "1491–1607",
+          "status": "ready",
+          "summary": "How maize, aridity, mixed farming, and ocean resources shaped the economies and settlements of Native American societies across North America before 1491."
+        },
+        {
+          "id": "apush-1-3",
+          "courseId": "apush",
+          "unitId": "apush-1",
+          "order": 3,
+          "code": "1.3",
+          "title": "European Exploration in the Americas",
+          "period": "1491–1607",
+          "status": "ready",
+          "summary": "Why Spain, Portugal, England, and France sent ships across the Atlantic: wealth, rivalry among monarchies, and the spread of Christianity."
+        }
+      ],
+      "firstTopic": {
+        "id": "apush-1-1",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "order": 1,
+        "code": "1.1",
+        "title": "Contextualizing Period 1",
+        "period": "1491–1607",
+        "status": "ready",
+        "summary": "What a historical context is, and the Native American, European, and African developments that framed the encounters of 1491 to 1607."
+      },
       "indexPath": "apush/index.json",
       "routesPath": "apush/routes.json",
       "customPracticePath": "apush/custom-practice.json"

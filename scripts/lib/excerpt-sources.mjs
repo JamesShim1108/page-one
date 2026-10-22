@@ -139,6 +139,11 @@ export const EXCERPT_SOURCES = Object.freeze({
     label:
       "Project Gutenberg #45188 (Sun Yat-sen, The International Development of China, 1922)",
   },
+  "harriot-": {
+    files: ["harriot-report.txt"],
+    label:
+      "Project Gutenberg #4247 (Thomas Harriot, A Briefe and True Report of the New Found Land of Virginia, 1588), file 4247.txt",
+  },
 });
 
 export function excerptSourceFor(id) {

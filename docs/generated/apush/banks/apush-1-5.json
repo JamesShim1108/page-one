@@ -1,0 +1,838 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-1",
+    "courseId": "apush",
+    "number": 1,
+    "title": "Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "description": "Follow Native American societies, European exploration, the Columbian Exchange, and the Spanish empire from 1491 to 1607.",
+    "quizzes": [
+      {
+        "id": "apush-1-practice",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-1-1",
+            "questionIds": [
+              "apush-1-1-q01",
+              "apush-1-1-q04",
+              "apush-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-q01",
+              "apush-1-2-q04",
+              "apush-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-q01",
+              "apush-1-3-q04",
+              "apush-1-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-q01",
+              "apush-1-4-q04",
+              "apush-1-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-q01",
+              "apush-1-5-q04",
+              "apush-1-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-q01",
+              "apush-1-6-q04",
+              "apush-1-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-q01",
+              "apush-1-7-q04",
+              "apush-1-7-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-1-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-t01",
+              "apush-1-2-t02",
+              "apush-1-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-t01",
+              "apush-1-3-t02",
+              "apush-1-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-t01",
+              "apush-1-4-t02",
+              "apush-1-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-t01",
+              "apush-1-5-t02",
+              "apush-1-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t01",
+              "apush-1-6-t02",
+              "apush-1-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t04",
+              "apush-1-6-t05",
+              "apush-1-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-t01",
+              "apush-1-7-t02",
+              "apush-1-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-1-practice-test",
+      "title": "Unit 1 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-1-1-quiz",
+        "title": "Contextualizing Period 1 topic quiz"
+      },
+      {
+        "id": "apush-1-2-quiz",
+        "title": "Native American Societies Before European Contact topic quiz"
+      },
+      {
+        "id": "apush-1-3-quiz",
+        "title": "European Exploration in the Americas topic quiz"
+      },
+      {
+        "id": "apush-1-4-quiz",
+        "title": "Columbian Exchange, Spanish Exploration, and Conquest topic quiz"
+      },
+      {
+        "id": "apush-1-5-quiz",
+        "title": "Labor, Slavery, and Caste in the Spanish Colonial System topic quiz"
+      },
+      {
+        "id": "apush-1-6-quiz",
+        "title": "Cultural Interactions Between Europeans, Native Americans, and Africans topic quiz"
+      },
+      {
+        "id": "apush-1-7-quiz",
+        "title": "Causation in Period 1 topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "apush-1-1",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Contextualizing Period 1",
+      "period": "1491–1607",
+      "status": "ready",
+      "summary": "What a historical context is, and the Native American, European, and African developments that framed the encounters of 1491 to 1607."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-1-saq-01",
+        "title": "Unit 1 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-saq-02",
+        "title": "Unit 1 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-leq-change",
+        "title": "LEQ: Contact and change in Native societies",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-1-5",
+    "courseId": "apush",
+    "unitId": "apush-1",
+    "order": 5,
+    "code": "1.5",
+    "title": "Labor, Slavery, and Caste in the Spanish Colonial System",
+    "period": "1491–1607",
+    "status": "ready",
+    "summary": "How the encomienda, African slavery, and the casta system organized work and social rank across the Spanish empire in the Americas."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "3391031d98354317",
+  "questions": [
+    {
+      "id": "apush-1-5-q01",
+      "topicId": "apush-1-5",
+      "concept": "encomienda",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.B"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "The encomienda system was a Spanish colonial arrangement in which",
+      "choices": [
+        "Native communities received legal protection and wages in return for adopting the Christian faith",
+        "colonists leased farmland from the Crown and paid their rent in silver mined by free workers",
+        "colonists received the right to demand labor and tribute from a Native community",
+        "royal officials assigned enslaved Africans to planters according to the size of their landholdings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An encomienda granted a colonist labor and tribute from a Native community, in exchange for a duty to protect and instruct its people.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Native community owed labor and tribute; wages were rarely paid and protection was often ignored.",
+        "Encomiendas granted labor and tribute, not leased farmland for rent.",
+        "An encomienda granted a colonist labor and tribute from a Native community, in exchange for a duty to protect and instruct its people.",
+        "The encomienda concerned Native labor, not enslaved Africans."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The encomienda did carry a duty of protection and Christian instruction, but that duty did not turn the grant into a wage arrangement.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-5-q02",
+      "topicId": "apush-1-5",
+      "concept": "encomienda",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.B"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "Which of the following best explains why Spanish officials created the encomienda system?",
+      "choices": [
+        "To replace Native labor with enslaved Africans as quickly as possible in mines and on plantations",
+        "To reward conquistadors and settlers while organizing Native labor for mining and farming",
+        "To protect Native communities from Spanish settlers by forbidding the colonists from using Native labor",
+        "To raise money for the Crown by selling Native lands directly to merchants and joint-stock companies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The encomienda rewarded colonists and gave them a workforce to extract silver and grow crops.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Enslaved Africans were imported later, as Native populations fell; the encomienda used Native labor.",
+        "The encomienda rewarded colonists and gave them a workforce to extract silver and grow crops.",
+        "The system gave colonists access to Native labor rather than forbidding it.",
+        "The system rewarded colonists with labor and tribute rather than land sales to companies."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Enslaved Africans did replace Native workers in some places later, but the encomienda was created to use Native labor.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-5-q03",
+      "topicId": "apush-1-5",
+      "concept": "african-slavery",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.C"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "Which of the following developments most directly increased the demand for enslaved Africans in Spanish colonies?",
+      "choices": [
+        "The New Laws of 1542, which ended all Native labor in the colonies and forced planters to find workers elsewhere",
+        "The Protestant Reformation, which reduced Spain's trade with Europe and forced colonists to rely on slave labor",
+        "The growth of joint-stock companies, which paid colonists to switch from encomienda to slave labor",
+        "Native population decline from disease and overwork, which created labor shortages in mines and on plantations"
+      ],
+      "correctAnswer": 3,
+      "explanation": "As Native workers died, colonists needed labor, and enslaved Africans were brought in to fill the gap.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The New Laws limited new encomiendas and Native enslavement, but colonists kept using Native labor.",
+        "The Reformation did not create the colonial labor shortage.",
+        "Joint-stock companies were not what created demand for enslaved Africans in Spanish colonies.",
+        "As Native workers died, colonists needed labor, and enslaved Africans were brought in to fill the gap."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The New Laws attempted to restrict abuse of Native peoples, but labor shortages from population decline were the main driver of demand.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-5-q04",
+      "topicId": "apush-1-5",
+      "concept": "african-slavery",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.C"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "In the 1500s, European traders obtained enslaved Africans primarily by",
+      "choices": [
+        "partnering with some West African groups that practiced slavery and sold captives on the coast",
+        "sending large armed expeditions deep into the African interior to capture people and bring them to the coast",
+        "buying captives from Native American merchants who had brought them to Caribbean islands",
+        "recruiting workers through labor contracts signed in African ports before the voyage across the Atlantic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Portuguese and other European traders worked with some West African groups who captured and sold people.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Portuguese and other European traders worked with some West African groups who captured and sold people.",
+        "Europeans relied on African partners and coastal trading posts rather than large inland raids.",
+        "The trade began in Africa, and Native Americans were not the sellers of enslaved Africans.",
+        "Enslaved Africans were forcibly taken and did not sign contracts."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Europeans did sometimes use force, but the system worked through partnerships with African groups on the coast rather than inland conquest.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-5-q05",
+      "topicId": "apush-1-5",
+      "concept": "casta-system",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.D"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "In the Spanish colonial casta system, a person's social status was based primarily on",
+      "choices": [
+        "wealth alone, which allowed any rich colonist to claim the highest rank regardless of birth",
+        "ancestry and ethnic background, which affected legal rights, occupations, and taxes",
+        "religion, with all Catholic converts ranked above members of other faiths regardless of ancestry",
+        "place of residence, with city dwellers ranked above all rural dwellers regardless of background"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The casta system ranked people by ancestry, and rank shaped what rights, jobs, and taxes each person had.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Wealth mattered, but rank was defined by ancestry and birthplace.",
+        "The casta system ranked people by ancestry, and rank shaped what rights, jobs, and taxes each person had.",
+        "Rank depended on ancestry, and converts to Christianity were not all given equal standing.",
+        "Rank was tied to ancestry, not to whether someone lived in a city or the countryside."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Wealth could help a person's standing, but it did not erase the ancestry that defined a person's casta.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-5-q06",
+      "topicId": "apush-1-5",
+      "concept": "casta-system",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.D"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "Which of the following was a difference between peninsulares and criollos in Spanish America?",
+      "choices": [
+        "Peninsulares had Spanish and Native ancestry, while criollos were of entirely Spanish descent and held lower offices",
+        "Peninsulares were enslaved workers brought from Spain, while criollos were free settlers who owned land",
+        "Peninsulares were Native leaders who governed their villages, while criollos paid tribute to them",
+        "Peninsulares, born in Spain, held the highest offices, while criollos, born in the Americas, were largely shut out of them"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Peninsulares, born in Spain, held the top offices, and criollos, born in the Americas, were generally shut out of them.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Mestizos, not peninsulares, had Spanish and Native ancestry.",
+        "Peninsulares were privileged Spanish-born officials, not enslaved workers.",
+        "Peninsulares were Spanish-born, and Native leaders were a different group.",
+        "Peninsulares, born in Spain, held the top offices, and criollos, born in the Americas, were generally shut out of them."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The near miss describes a real group, mestizos, with Spanish and Native ancestry, but peninsulares were Spanish-born.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-1-5-q07",
+      "topicId": "apush-1-5",
+      "concept": "african-slavery",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "continuity",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.B",
+        "KC-1.2.II.C"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "Which of the following best describes a pattern in the labor systems of Spanish America in the 1500s?",
+      "choices": [
+        "Colonial economies relied on forced labor, first from enslaved Africans and then increasingly from Native Americans",
+        "Colonial economies relied mainly on free wage labor, with forced labor used only for criminals and rebels",
+        "Colonial economies relied on forced labor, first from Native Americans and then increasingly from enslaved Africans",
+        "Colonial economies relied on family farms worked by European settlers who arrived with their own labor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Spain first used Native labor through the encomienda and mita and then turned increasingly to enslaved Africans as Native populations fell.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Native labor came first and was increasingly supplemented by enslaved Africans.",
+        "Forced labor was central to mining and plantations, not limited to criminals.",
+        "Spain first used Native labor through the encomienda and mita and then turned increasingly to enslaved Africans as Native populations fell.",
+        "Spanish colonial wealth was built on mining and plantations using forced labor."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The near miss has the right two groups but reverses the order in which they were used.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-1-5-q08",
+      "topicId": "apush-1-5",
+      "concept": "casta-system",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "subskill": "4.B",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.D"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "Which of the following developments most directly contributed to the creation of the casta system?",
+      "choices": [
+        "Widespread intermarriage among Europeans, Native Americans, and Africans created a mixed population that officials sought to classify",
+        "A Spanish law that barred all marriage between colonists and Native Americans created separate and distinct groups",
+        "The arrival of Spanish women in large numbers kept the colonial population purely European in ancestry",
+        "The Protestant Reformation led Spanish officials to rank people by their church and by their religious practices"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As a mixed population grew, Spanish officials and the Church ranked groups by ancestry to organize society.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "As a mixed population grew, Spanish officials and the Church ranked groups by ancestry to organize society.",
+        "Intermarriage occurred widely, and no law prevented it from producing a mixed population.",
+        "Few Spanish women migrated at first, and the population became mixed rather than purely European.",
+        "Spain's classification depended on ancestry, and the Reformation was not its cause."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Ranking depended on ancestry produced by mixing, not on laws that separated groups or on religious divisions.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Explain how a specific historical development or process is situated within a broader historical context."
+    },
+    {
+      "id": "apush-1-5-t01",
+      "topicId": "apush-1-5",
+      "concept": "encomienda",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.B"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "Which of the following best summarizes the passage's description of the Spanish empire?",
+      "choices": [
+        "The Spanish empire relied on free wage labor, and it ranked people by wealth and not by ancestry",
+        "The Spanish empire relied on forced labor and a social order that ranked people by ancestry",
+        "The Spanish empire relied on enslaved Africans alone, since Native peoples refused to work in the mines",
+        "The Spanish empire gave all of its subjects equal rights, but it limited their occupations by place of birth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage describes encomienda and mita labor, the use of enslaved Africans, and a ranking by ancestry.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The passage describes encomienda and mita labor and ranks that depended on ancestry.",
+        "The passage describes encomienda and mita labor, the use of enslaved Africans, and a ranking by ancestry.",
+        "The passage describes Native labor in mines through the mita and encomienda grants.",
+        "The passage says rank affected legal rights and taxes."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The near miss gets the ranking wrong and replaces forced labor with wage labor.",
+      "stimulusId": "original-spanish-labor",
+      "stimulusBlocks": [
+        {
+          "id": "original-spanish-labor",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.5, KC-1.2.II.B, KC-1.2.II.C, and KC-1.2.II.D: the encomienda, enslaved African labor, and the Spanish caste system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe labor and rank in the Spanish empire",
+          "text": "By the late 1500s, the silver mines of Potosí in the Andes and Zacatecas in Mexico were among the most valuable in the world. Spanish officials adapted the labor draft of the Inca, called the mita, to supply thousands of Native workers to the mines, and colonists who held encomienda grants received labor and tribute from Native villages. As epidemics reduced Native populations, colonists imported growing numbers of enslaved Africans to work on sugar plantations and in mines.\n\nSpanish officials also ranked the empire's people by ancestry. Peninsulares, born in Spain, held the highest offices, and criollos, born in the Americas, held wealth and land but were largely shut out of the top positions. Mestizos, mulattoes, Native peoples, and enslaved Africans held lower ranks. A person's rank affected taxes, occupations, and legal rights."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-1-5-t02",
+      "topicId": "apush-1-5",
+      "concept": "african-slavery",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.C"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "According to the passage, colonists imported growing numbers of enslaved Africans primarily because",
+      "choices": [
+        "the Inca had ended the mita, which cut off Spain's supply of workers for the silver mines",
+        "Spanish law forbade Native peoples from working in mines and on plantations in New Spain",
+        "colonists who held encomienda grants wanted to avoid paying tribute to the Spanish Crown",
+        "epidemics had sharply reduced the Native population that supplied the mines with labor"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage links the importing of enslaved Africans to the decline of Native populations during epidemics.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The passage says Spanish officials adapted the mita and does not say the Inca ended it.",
+        "The passage says Native workers were supplied to the mines.",
+        "The passage says Native villages owed tribute to encomienda holders, not the reverse.",
+        "The passage links the importing of enslaved Africans to the decline of Native populations during epidemics."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The mita did supply workers, but the passage connects the turn to enslaved Africans to the loss of Native population.",
+      "stimulusId": "original-spanish-labor",
+      "stimulusBlocks": [
+        {
+          "id": "original-spanish-labor",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.5, KC-1.2.II.B, KC-1.2.II.C, and KC-1.2.II.D: the encomienda, enslaved African labor, and the Spanish caste system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe labor and rank in the Spanish empire",
+          "text": "By the late 1500s, the silver mines of Potosí in the Andes and Zacatecas in Mexico were among the most valuable in the world. Spanish officials adapted the labor draft of the Inca, called the mita, to supply thousands of Native workers to the mines, and colonists who held encomienda grants received labor and tribute from Native villages. As epidemics reduced Native populations, colonists imported growing numbers of enslaved Africans to work on sugar plantations and in mines.\n\nSpanish officials also ranked the empire's people by ancestry. Peninsulares, born in Spain, held the highest offices, and criollos, born in the Americas, held wealth and land but were largely shut out of the top positions. Mestizos, mulattoes, Native peoples, and enslaved Africans held lower ranks. A person's rank affected taxes, occupations, and legal rights."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-5-t03",
+      "topicId": "apush-1-5",
+      "concept": "casta-system",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "1.E",
+      "keyConcepts": [
+        "KC-1.2.II.D"
+      ],
+      "themes": [
+        "SOC"
+      ],
+      "prompt": "The labor systems and ranks described in the passage most directly reflect which of the following goals of the Spanish empire?",
+      "choices": [
+        "Encouraging Native peoples to govern themselves and trade freely with Spanish colonists",
+        "Limiting the empire's silver production in order to protect Native villages from overwork",
+        "Extracting precious metals and developing plantation agriculture while keeping control of a diverse population",
+        "Replacing Spanish officials with Native and African leaders who could manage the empire more cheaply"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Forced labor supplied mines and plantations, and the ranking by ancestry organized the empire's diverse people.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The passage describes forced labor and rank, not self-government or free trade.",
+        "The passage describes growing silver production that relied on Native labor.",
+        "Forced labor supplied mines and plantations, and the ranking by ancestry organized the empire's diverse people.",
+        "The passage says Spanish-born officials held the highest offices."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The empire did permit some trade, but the systems in the passage were meant to extract wealth and keep control.",
+      "stimulusId": "original-spanish-labor",
+      "stimulusBlocks": [
+        {
+          "id": "original-spanish-labor",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.5, KC-1.2.II.B, KC-1.2.II.C, and KC-1.2.II.D: the encomienda, enslaved African labor, and the Spanish caste system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe labor and rank in the Spanish empire",
+          "text": "By the late 1500s, the silver mines of Potosí in the Andes and Zacatecas in Mexico were among the most valuable in the world. Spanish officials adapted the labor draft of the Inca, called the mita, to supply thousands of Native workers to the mines, and colonists who held encomienda grants received labor and tribute from Native villages. As epidemics reduced Native populations, colonists imported growing numbers of enslaved Africans to work on sugar plantations and in mines.\n\nSpanish officials also ranked the empire's people by ancestry. Peninsulares, born in Spain, held the highest offices, and criollos, born in the Americas, held wealth and land but were largely shut out of the top positions. Mestizos, mulattoes, Native peoples, and enslaved Africans held lower ranks. A person's rank affected taxes, occupations, and legal rights."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-1-5-quick",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-5",
+      "title": "Topic 1.5 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-1-5-q01",
+        "apush-1-5-q02",
+        "apush-1-5-q03"
+      ]
+    },
+    {
+      "id": "apush-1-5-quiz",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-5",
+      "title": "Labor, Slavery, and Caste in the Spanish Colonial System topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-1-5-q01",
+        "apush-1-5-q02",
+        "apush-1-5-q03",
+        "apush-1-5-q04",
+        "apush-1-5-q05",
+        "apush-1-5-q06",
+        "apush-1-5-q07",
+        "apush-1-5-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "encomienda": {
+      "id": "encomienda",
+      "title": "The encomienda and Native labor",
+      "section": "encomienda",
+      "topicId": "apush-1-5"
+    },
+    "african-slavery": {
+      "id": "african-slavery",
+      "title": "Enslaved Africans in the Spanish and Portuguese Americas",
+      "section": "african-slavery",
+      "topicId": "apush-1-5"
+    },
+    "casta-system": {
+      "id": "casta-system",
+      "title": "The casta system",
+      "section": "casta-system",
+      "topicId": "apush-1-5"
+    }
+  },
+  "assets": {}
+}

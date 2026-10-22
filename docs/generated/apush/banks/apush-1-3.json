@@ -1,0 +1,971 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-1",
+    "courseId": "apush",
+    "number": 1,
+    "title": "Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "description": "Follow Native American societies, European exploration, the Columbian Exchange, and the Spanish empire from 1491 to 1607.",
+    "quizzes": [
+      {
+        "id": "apush-1-practice",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-1-1",
+            "questionIds": [
+              "apush-1-1-q01",
+              "apush-1-1-q04",
+              "apush-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-q01",
+              "apush-1-2-q04",
+              "apush-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-q01",
+              "apush-1-3-q04",
+              "apush-1-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-q01",
+              "apush-1-4-q04",
+              "apush-1-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-q01",
+              "apush-1-5-q04",
+              "apush-1-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-q01",
+              "apush-1-6-q04",
+              "apush-1-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-q01",
+              "apush-1-7-q04",
+              "apush-1-7-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-1-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-t01",
+              "apush-1-2-t02",
+              "apush-1-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-t01",
+              "apush-1-3-t02",
+              "apush-1-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-t01",
+              "apush-1-4-t02",
+              "apush-1-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-t01",
+              "apush-1-5-t02",
+              "apush-1-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t01",
+              "apush-1-6-t02",
+              "apush-1-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t04",
+              "apush-1-6-t05",
+              "apush-1-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-t01",
+              "apush-1-7-t02",
+              "apush-1-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-1-practice-test",
+      "title": "Unit 1 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-1-1-quiz",
+        "title": "Contextualizing Period 1 topic quiz"
+      },
+      {
+        "id": "apush-1-2-quiz",
+        "title": "Native American Societies Before European Contact topic quiz"
+      },
+      {
+        "id": "apush-1-3-quiz",
+        "title": "European Exploration in the Americas topic quiz"
+      },
+      {
+        "id": "apush-1-4-quiz",
+        "title": "Columbian Exchange, Spanish Exploration, and Conquest topic quiz"
+      },
+      {
+        "id": "apush-1-5-quiz",
+        "title": "Labor, Slavery, and Caste in the Spanish Colonial System topic quiz"
+      },
+      {
+        "id": "apush-1-6-quiz",
+        "title": "Cultural Interactions Between Europeans, Native Americans, and Africans topic quiz"
+      },
+      {
+        "id": "apush-1-7-quiz",
+        "title": "Causation in Period 1 topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "apush-1-1",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Contextualizing Period 1",
+      "period": "1491–1607",
+      "status": "ready",
+      "summary": "What a historical context is, and the Native American, European, and African developments that framed the encounters of 1491 to 1607."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-1-saq-01",
+        "title": "Unit 1 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-saq-02",
+        "title": "Unit 1 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-leq-change",
+        "title": "LEQ: Contact and change in Native societies",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-1-3",
+    "courseId": "apush",
+    "unitId": "apush-1",
+    "order": 3,
+    "code": "1.3",
+    "title": "European Exploration in the Americas",
+    "period": "1491–1607",
+    "status": "ready",
+    "summary": "Why Spain, Portugal, England, and France sent ships across the Atlantic: wealth, rivalry among monarchies, and the spread of Christianity."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "a56560b245a88cf1",
+  "questions": [
+    {
+      "id": "apush-1-3-q01",
+      "topicId": "apush-1-3",
+      "concept": "wealth-and-routes",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following was a primary motive for European monarchs who sponsored voyages to the Americas in the late 1400s and 1500s?",
+      "choices": [
+        "Escaping religious persecution by founding settlements for dissenting Protestant communities abroad",
+        "Gaining new sources of wealth, such as gold and trade goods, and advantages over rival states",
+        "Answering requests from Native American leaders for military alliances against their neighbors",
+        "Expanding farmland for rural populations that had grown too large for European villages to support"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Monarchs backed voyages to find wealth, such as gold and trade goods, and to gain power over rival states.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Dissenters founding settlements for religious freedom were a feature of later English colonization, not of these royal voyages.",
+        "Monarchs backed voyages to find wealth, such as gold and trade goods, and to gain power over rival states.",
+        "Europeans did not set out in response to Native requests for alliances.",
+        "Voyages were funded for trade, wealth, and rivalry rather than to settle surplus farmers."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Religious refuge did motivate some later colonists, but the monarchs who paid for these voyages sought wealth, advantage, and Christian expansion.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-3-q02",
+      "topicId": "apush-1-3",
+      "concept": "rivalry-among-monarchies",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "The Treaty of Tordesillas (1494) is best understood as an attempt to",
+      "choices": [
+        "end religious conflict between Catholic and Protestant states over the control of overseas trade",
+        "set borders between Spanish colonies and the territories of Native American nations in the Caribbean",
+        "create a joint-stock company that would share the profits of New World trade among several states",
+        "settle competing Spanish and Portuguese claims to lands that their explorers had newly encountered"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Spain and Portugal asked the papacy to settle their overlapping claims, and the treaty divided future discoveries between them.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Protestant Reformation had not yet begun in 1494.",
+        "The treaty was between two European monarchies and did not include Native nations.",
+        "Joint-stock companies came later, and the treaty involved only Spain and Portugal.",
+        "Spain and Portugal asked the papacy to settle their overlapping claims, and the treaty divided future discoveries between them."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Religion was involved because the pope mediated, but the dispute was over claims between two Catholic monarchies, not Catholic-Protestant conflict.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-3-q03",
+      "topicId": "apush-1-3",
+      "concept": "spreading-christianity",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following developments most directly encouraged the Spanish monarchy to link overseas expansion to the spread of Christianity?",
+      "choices": [
+        "The Reconquista, which ended in 1492 after centuries of Christian campaigns against Muslim rule in Iberia",
+        "The Protestant Reformation, which began in 1517 and led Spain to seek converts in distant lands",
+        "The encomienda system, which required colonists to convert the Native Americans they employed",
+        "The English translation of the Bible, which convinced Spanish rulers to support missionary work"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Reconquista had joined Christian faith and military expansion in Spanish politics, and that habit carried across the Atlantic.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Reconquista had joined Christian faith and military expansion in Spanish politics, and that habit carried across the Atlantic.",
+        "The Reformation began after Columbus's first voyage, though it later strengthened religious rivalry.",
+        "The encomienda developed in the Americas after expansion began, so it could not have started the link.",
+        "The English Bible was a later Protestant development and did not shape Spain's early policy."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Reformation did deepen religious motives in later decades, but it began in 1517, after Spain's expansion overseas had started.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-3-q04",
+      "topicId": "apush-1-3",
+      "concept": "wealth-and-routes",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following technological developments most directly helped European sailors make long Atlantic voyages in the 1400s?",
+      "choices": [
+        "The printing press, which allowed pilots to steer by printed charts alone without any other instruments",
+        "Gunpowder cannons, which allowed ships to defend their cargo and enter ports without permission",
+        "The caravel and navigation tools such as the magnetic compass and the astrolabe",
+        "The steam engine, which allowed ships to travel against the wind and across the Atlantic faster"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The caravel's sails and the compass and astrolabe let sailors travel farther, find their direction, and return.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Printing spread geographic knowledge, but sailors still needed instruments and ships built for ocean sailing.",
+        "Cannons helped fight, but they did not make long voyages possible.",
+        "The caravel's sails and the compass and astrolabe let sailors travel farther, find their direction, and return.",
+        "The steam engine was developed centuries later."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The printing press did spread maps and geographic ideas, but it could not replace the ships and instruments that made ocean crossings possible.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-3-q05",
+      "topicId": "apush-1-3",
+      "concept": "spreading-christianity",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best describes a similarity between Spanish and English motives for expansion in the Americas in the 1500s?",
+      "choices": [
+        "Both were Catholic monarchies that sought to convert Native Americans under the authority of the pope",
+        "Both relied on the encomienda system to obtain labor and tribute from Native Americans",
+        "Both sent expeditions mainly to find a refuge for religious dissenters from their own countries",
+        "Both hoped to gain wealth and an advantage over rivals, and both described expansion as a way to spread Christianity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Spain and England both pursued wealth and rivalry and justified expansion as spreading Christianity, though they practiced different branches of the faith.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "England broke with the Catholic Church in the 1530s and was Protestant by the time it sought colonies.",
+        "The encomienda was a Spanish institution; England had no equivalent system.",
+        "Early expeditions sought wealth and power; dissenter refuge became a motive for some later colonies.",
+        "Spain and England both pursued wealth and rivalry and justified expansion as spreading Christianity, though they practiced different branches of the faith."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Both were Christian kingdoms, but they were not the same church: Spain was Catholic and England was Protestant.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-1-3-q06",
+      "topicId": "apush-1-3",
+      "concept": "spreading-christianity",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.D",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "A historian argues that European expansion across the Atlantic combined the pursuit of profit with religious purpose. Which of the following would best support that claim?",
+      "choices": [
+        "Monarchs funded voyages to reach gold and trade goods while also sending priests to convert Native peoples",
+        "Monarchs funded voyages only after missionaries promised to pay for all the costs through donations",
+        "Explorers kept their travels secret from the Church so that they could keep all of the profit",
+        "European states competed for colonies but took no interest in the beliefs of the peoples they met"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Funding for both wealth and missions shows that the same expansion served economic and religious goals.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Funding for both wealth and missions shows that the same expansion served economic and religious goals.",
+        "Monarchs, not missionaries, paid for these voyages.",
+        "Church involvement, including papal decrees, is evidence of religious purpose.",
+        "Missionary activity shows that states did care about Native beliefs."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The near miss links missions to money, but it reverses who paid; the claim needs evidence of rulers pursuing both goals at once.",
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Explain how claims or evidence support, modify, or refute a source’s argument."
+    },
+    {
+      "id": "apush-1-3-q07",
+      "topicId": "apush-1-3",
+      "concept": "wealth-and-routes",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following developments in the 1400s provides the best historical context for Spain's decision to fund Columbus's voyage in 1492?",
+      "choices": [
+        "The Aztec ruler's request for Spanish help against rival cities, which first drew Spain to the Americas",
+        "Portuguese voyages along the African coast, which showed the profits that Atlantic trade could bring",
+        "The founding of English colonies in North America, which forced Spain to compete for land there",
+        "The Columbian Exchange, which created demand for American crops across the Spanish kingdoms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Portugal's gains from African trade raised the stakes for Spain and made a rival route across the Atlantic attractive.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Spain had no contact with the Aztecs until Cortés arrived in 1519.",
+        "Portugal's gains from African trade raised the stakes for Spain and made a rival route across the Atlantic attractive.",
+        "English colonies were founded more than a century later.",
+        "The Columbian Exchange began after Columbus's voyage and cannot be its cause."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Every choice names a development tied to the Americas, but only Portugal's voyages came before 1492.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-1-3-q08",
+      "topicId": "apush-1-3",
+      "concept": "rivalry-among-monarchies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best describes how rivalry among European monarchies shaped exploration in the 1500s?",
+      "choices": [
+        "Competition ended when the pope gave the Americas to Spain and rival states accepted the decision",
+        "European monarchies agreed to share the Americas and avoid conflict by trading only through one company",
+        "Each state sponsored explorers who claimed land to gain wealth and keep rivals from controlling it",
+        "Only Spain and Portugal were interested in the Americas until the English founded Jamestown in 1607"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Spain, Portugal, France, and England all sponsored voyages, hoping to claim territory and wealth before their rivals did.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "France and England did not accept papal grants to Spain and sent their own expeditions.",
+        "Rivalry continued; the states did not agree to share the Americas.",
+        "Spain, Portugal, France, and England all sponsored voyages, hoping to claim territory and wealth before their rivals did.",
+        "France and England sponsored voyages, such as Cabot's and Verrazzano's, long before 1607."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The pope did issue decrees that favored Spain, but other kingdoms did not accept them and continued to send explorers.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-3-t01",
+      "topicId": "apush-1-3",
+      "concept": "wealth-and-routes",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following conclusions is best supported by the table?",
+      "choices": [
+        "Spain sponsored more voyages of exploration than any other European kingdom shown in the table",
+        "Every voyage shown in the table reached the Americas, which showed that Europeans valued the New World",
+        "France began sponsoring voyages before Portugal and England, which gave France the earliest claims",
+        "Several European kingdoms sponsored voyages of exploration in the late 1400s and early 1500s"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The table lists voyages sponsored by Portugal, Spain, England, and France between 1488 and 1534.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The table lists one Spanish voyage, fewer than Portugal and France, which have two each.",
+        "The voyages of Dias and da Gama reached Africa and India.",
+        "The table shows Portuguese voyages in 1488 and 1498, before the first French voyage in 1524.",
+        "The table lists voyages sponsored by Portugal, Spain, England, and France between 1488 and 1534."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The near miss misreads the table, which shows Spain with a single voyage.",
+      "stimulusId": "original-voyages-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-voyages-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 1.3, KC-1.2.I.A: European efforts to explore and conquer the New World stemmed from a search for wealth, competition, and a desire to spread Christianity",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of European exploration",
+          "caption": "Selected European voyages of exploration, 1488–1534",
+          "columns": [
+            "Year",
+            "Explorer",
+            "Sponsoring kingdom",
+            "Region reached"
+          ],
+          "rows": [
+            [
+              "1488",
+              "Bartolomeu Dias",
+              "Portugal",
+              "Southern tip of Africa"
+            ],
+            [
+              "1492",
+              "Christopher Columbus",
+              "Spain",
+              "Caribbean islands"
+            ],
+            [
+              "1497",
+              "John Cabot",
+              "England",
+              "Coast of North America"
+            ],
+            [
+              "1498",
+              "Vasco da Gama",
+              "Portugal",
+              "India"
+            ],
+            [
+              "1524",
+              "Giovanni da Verrazzano",
+              "France",
+              "Atlantic coast of North America"
+            ],
+            [
+              "1534",
+              "Jacques Cartier",
+              "France",
+              "Gulf of St. Lawrence"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 1.3 reading."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-1-3-t02",
+      "topicId": "apush-1-3",
+      "concept": "rivalry-among-monarchies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best explains why England and France sponsored voyages such as those shown in the table?",
+      "choices": [
+        "Their monarchs held lands in North America granted by the Treaty of Tordesillas and wanted to explore them",
+        "Their monarchs sought new wealth and wanted to compete with Spain and Portugal for overseas claims",
+        "Their monarchs hoped to protect Native peoples from Spanish conquest by establishing separate colonies",
+        "Their monarchs wanted to spread Protestant Christianity, which Spain had banned in the Americas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wealth and rivalry with Spain and Portugal pushed other monarchies to claim territory in the Americas.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Treaty of Tordesillas divided claims between Spain and Portugal and gave nothing to England or France.",
+        "Wealth and rivalry with Spain and Portugal pushed other monarchies to claim territory in the Americas.",
+        "Protecting Native peoples was not the aim of these early voyages.",
+        "Cabot sailed in 1497, before the Reformation began in 1517."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The treaty drew a line between two Catholic states, so it could not give England or France any land.",
+      "stimulusId": "original-voyages-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-voyages-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 1.3, KC-1.2.I.A: European efforts to explore and conquer the New World stemmed from a search for wealth, competition, and a desire to spread Christianity",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of European exploration",
+          "caption": "Selected European voyages of exploration, 1488–1534",
+          "columns": [
+            "Year",
+            "Explorer",
+            "Sponsoring kingdom",
+            "Region reached"
+          ],
+          "rows": [
+            [
+              "1488",
+              "Bartolomeu Dias",
+              "Portugal",
+              "Southern tip of Africa"
+            ],
+            [
+              "1492",
+              "Christopher Columbus",
+              "Spain",
+              "Caribbean islands"
+            ],
+            [
+              "1497",
+              "John Cabot",
+              "England",
+              "Coast of North America"
+            ],
+            [
+              "1498",
+              "Vasco da Gama",
+              "Portugal",
+              "India"
+            ],
+            [
+              "1524",
+              "Giovanni da Verrazzano",
+              "France",
+              "Atlantic coast of North America"
+            ],
+            [
+              "1534",
+              "Jacques Cartier",
+              "France",
+              "Gulf of St. Lawrence"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 1.3 reading."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-3-t03",
+      "topicId": "apush-1-3",
+      "concept": "wealth-and-routes",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.C",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which voyage in the table most directly reflects Portuguese efforts to reach Asian trade by sailing around Africa?",
+      "choices": [
+        "Columbus's 1492 voyage to the Caribbean",
+        "Cabot's 1497 voyage to North America",
+        "Vasco da Gama's 1498 voyage to India",
+        "Cartier's 1534 voyage to the Gulf of St. Lawrence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Da Gama sailed around Africa to India for Portugal, which reached Asian trade by an eastern route.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Columbus sailed west for Spain in the hope of reaching Asia.",
+        "Cabot sailed for England across the North Atlantic.",
+        "Da Gama sailed around Africa to India for Portugal, which reached Asian trade by an eastern route.",
+        "Cartier sailed for France to explore North America."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Columbus also sought Asia, but he sailed west for Spain, not around Africa for Portugal.",
+      "stimulusId": "original-voyages-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-voyages-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 1.3, KC-1.2.I.A: European efforts to explore and conquer the New World stemmed from a search for wealth, competition, and a desire to spread Christianity",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of European exploration",
+          "caption": "Selected European voyages of exploration, 1488–1534",
+          "columns": [
+            "Year",
+            "Explorer",
+            "Sponsoring kingdom",
+            "Region reached"
+          ],
+          "rows": [
+            [
+              "1488",
+              "Bartolomeu Dias",
+              "Portugal",
+              "Southern tip of Africa"
+            ],
+            [
+              "1492",
+              "Christopher Columbus",
+              "Spain",
+              "Caribbean islands"
+            ],
+            [
+              "1497",
+              "John Cabot",
+              "England",
+              "Coast of North America"
+            ],
+            [
+              "1498",
+              "Vasco da Gama",
+              "Portugal",
+              "India"
+            ],
+            [
+              "1524",
+              "Giovanni da Verrazzano",
+              "France",
+              "Atlantic coast of North America"
+            ],
+            [
+              "1534",
+              "Jacques Cartier",
+              "France",
+              "Gulf of St. Lawrence"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 1.3 reading."
+        }
+      ],
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-1-3-quick",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-3",
+      "title": "Topic 1.3 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-1-3-q01",
+        "apush-1-3-q02",
+        "apush-1-3-q03"
+      ]
+    },
+    {
+      "id": "apush-1-3-quiz",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-3",
+      "title": "European Exploration in the Americas topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-1-3-q01",
+        "apush-1-3-q02",
+        "apush-1-3-q03",
+        "apush-1-3-q04",
+        "apush-1-3-q05",
+        "apush-1-3-q06",
+        "apush-1-3-q07",
+        "apush-1-3-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "wealth-and-routes": {
+      "id": "wealth-and-routes",
+      "title": "Wealth, trade routes, and navigation",
+      "section": "wealth-and-routes",
+      "topicId": "apush-1-3"
+    },
+    "rivalry-among-monarchies": {
+      "id": "rivalry-among-monarchies",
+      "title": "Competition among European monarchies",
+      "section": "rivalry-among-monarchies",
+      "topicId": "apush-1-3"
+    },
+    "spreading-christianity": {
+      "id": "spreading-christianity",
+      "title": "Religion as a motive",
+      "section": "spreading-christianity",
+      "topicId": "apush-1-3"
+    }
+  },
+  "assets": {}
+}

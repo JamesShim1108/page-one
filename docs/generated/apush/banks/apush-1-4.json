@@ -1,0 +1,855 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-1",
+    "courseId": "apush",
+    "number": 1,
+    "title": "Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "description": "Follow Native American societies, European exploration, the Columbian Exchange, and the Spanish empire from 1491 to 1607.",
+    "quizzes": [
+      {
+        "id": "apush-1-practice",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-1-1",
+            "questionIds": [
+              "apush-1-1-q01",
+              "apush-1-1-q04",
+              "apush-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-q01",
+              "apush-1-2-q04",
+              "apush-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-q01",
+              "apush-1-3-q04",
+              "apush-1-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-q01",
+              "apush-1-4-q04",
+              "apush-1-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-q01",
+              "apush-1-5-q04",
+              "apush-1-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-q01",
+              "apush-1-6-q04",
+              "apush-1-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-q01",
+              "apush-1-7-q04",
+              "apush-1-7-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-1-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-t01",
+              "apush-1-2-t02",
+              "apush-1-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-t01",
+              "apush-1-3-t02",
+              "apush-1-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-t01",
+              "apush-1-4-t02",
+              "apush-1-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-t01",
+              "apush-1-5-t02",
+              "apush-1-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t01",
+              "apush-1-6-t02",
+              "apush-1-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t04",
+              "apush-1-6-t05",
+              "apush-1-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-t01",
+              "apush-1-7-t02",
+              "apush-1-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-1-practice-test",
+      "title": "Unit 1 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-1-1-quiz",
+        "title": "Contextualizing Period 1 topic quiz"
+      },
+      {
+        "id": "apush-1-2-quiz",
+        "title": "Native American Societies Before European Contact topic quiz"
+      },
+      {
+        "id": "apush-1-3-quiz",
+        "title": "European Exploration in the Americas topic quiz"
+      },
+      {
+        "id": "apush-1-4-quiz",
+        "title": "Columbian Exchange, Spanish Exploration, and Conquest topic quiz"
+      },
+      {
+        "id": "apush-1-5-quiz",
+        "title": "Labor, Slavery, and Caste in the Spanish Colonial System topic quiz"
+      },
+      {
+        "id": "apush-1-6-quiz",
+        "title": "Cultural Interactions Between Europeans, Native Americans, and Africans topic quiz"
+      },
+      {
+        "id": "apush-1-7-quiz",
+        "title": "Causation in Period 1 topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "apush-1-1",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Contextualizing Period 1",
+      "period": "1491–1607",
+      "status": "ready",
+      "summary": "What a historical context is, and the Native American, European, and African developments that framed the encounters of 1491 to 1607."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-1-saq-01",
+        "title": "Unit 1 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-saq-02",
+        "title": "Unit 1 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-leq-change",
+        "title": "LEQ: Contact and change in Native societies",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-1-4",
+    "courseId": "apush",
+    "unitId": "apush-1",
+    "order": 4,
+    "code": "1.4",
+    "title": "Columbian Exchange, Spanish Exploration, and Conquest",
+    "period": "1491–1607",
+    "status": "ready",
+    "summary": "What crossed the Atlantic after 1492, how epidemics and alliances made Spanish conquest possible, and how American silver and new business methods changed Europe's economy."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "93dd7d7aaf31b04f",
+  "questions": [
+    {
+      "id": "apush-1-4-q01",
+      "topicId": "apush-1-4",
+      "concept": "columbian-exchange",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following was introduced to the Americas as part of the Columbian Exchange?",
+      "choices": [
+        "Maize and potatoes, which Spanish colonists carried from Europe and planted on new farms",
+        "Tobacco and tomatoes, which European settlers traded to Native peoples for furs and land",
+        "Smallpox vaccines, which Spanish priests distributed to protect Native communities from disease",
+        "Horses, pigs, and cattle, which changed how Native peoples and colonists used land"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Horses, pigs, cattle, and other animals came from the Old World and changed land use in the Americas.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Maize and potatoes were American crops that traveled to Europe, not the other way.",
+        "Tobacco and tomatoes were American plants that were carried to Europe.",
+        "Vaccines were not part of the Exchange; diseases were carried across the Atlantic.",
+        "Horses, pigs, cattle, and other animals came from the Old World and changed land use in the Americas."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Maize and potatoes were part of the Exchange, but they moved from the Americas to Europe rather than the reverse.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-4-q02",
+      "topicId": "apush-1-4",
+      "concept": "columbian-exchange",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.I.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following was an effect of the introduction of American crops such as potatoes and maize into Europe?",
+      "choices": [
+        "Famines ended permanently across Europe because farmers adopted the new crops in every region",
+        "Larger food supplies from the same land stimulated population growth in many areas",
+        "European farmers abandoned agriculture and moved to cities to work for merchants and monarchs",
+        "Demand for grain collapsed, which caused European merchants to stop trading with Asia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Potatoes and maize produced more food on the same land, supporting population growth.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Famines continued; the new crops improved food supplies but did not end hunger.",
+        "Potatoes and maize produced more food on the same land, supporting population growth.",
+        "The new crops made farming more productive; they did not cause farmers to abandon it.",
+        "Trade with Asia continued, and demand for grain did not collapse."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The new crops improved food supplies, but claiming they ended famine permanently overstates the effect.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-4-q03",
+      "topicId": "apush-1-4",
+      "concept": "epidemics-and-conquest",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best explains why Old World diseases devastated Native American populations after 1492?",
+      "choices": [
+        "Native peoples had no earlier exposure to the diseases and therefore had little immunity",
+        "Spanish colonists deliberately spread the diseases to Native communities in order to defeat their armies",
+        "Native societies refused European medicine and rejected all contact with colonists and missionaries",
+        "Epidemics spread only in crowded cities, leaving rural farming communities largely unharmed by disease"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because these diseases were new to the Americas, Native peoples had little immunity, and epidemics spread quickly.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Because these diseases were new to the Americas, Native peoples had little immunity, and epidemics spread quickly.",
+        "Most epidemics spread unintentionally through contact, and deliberate spread was rare.",
+        "Epidemics spread widely, even among groups that had little direct contact with Europeans.",
+        "Disease also spread widely in rural areas, along trade routes and through contact between groups."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Deliberate spread did occur in rare cases, but the main cause was unintentional contact with a population that had no immunity.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-4-q04",
+      "topicId": "apush-1-4",
+      "concept": "epidemics-and-conquest",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best explains how Hernán Cortés defeated the Aztec Empire between 1519 and 1521?",
+      "choices": [
+        "Spanish weapons and horses gave Spain an overwhelming advantage that made disease and allies unimportant",
+        "Spanish armies greatly outnumbered the Aztec army and won a single decisive battle at Tenochtitlan",
+        "Disease, Indigenous allies who opposed Aztec rule, and Spanish weapons and horses together shifted the balance",
+        "The Aztec ruler surrendered peacefully after the Spanish promised to protect Aztec trade and religion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A small Spanish force won because disease weakened the Aztecs, Tlaxcalans and others fought alongside Spain, and Spanish weapons and horses helped.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Allies and disease were both important to the outcome; weapons alone do not explain it.",
+        "The Spanish force was small and depended on thousands of Indigenous allies.",
+        "A small Spanish force won because disease weakened the Aztecs, Tlaxcalans and others fought alongside Spain, and Spanish weapons and horses helped.",
+        "The conquest involved prolonged fighting and the siege of Tenochtitlan."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Spanish weapons mattered, but treating them as enough on their own ignores the role of allies and epidemics.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-4-q05",
+      "topicId": "apush-1-4",
+      "concept": "silver-and-trade",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.I.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Silver from American mines such as Potosí contributed to economic change in Europe by",
+      "choices": [
+        "restoring the economic power of feudal lords by increasing the value of their landed estates",
+        "increasing the money available to finance trade, armies, and commerce across the continent",
+        "replacing farming as the main source of food in Spain by supporting imports of grain from Asia",
+        "ending trade with Asia, because Europeans no longer needed Asian goods once silver was available"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A flood of American silver increased the money supply and helped finance trade and military campaigns.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Silver enriched monarchs and merchants, and Europe moved away from feudalism rather than back toward it.",
+        "A flood of American silver increased the money supply and helped finance trade and military campaigns.",
+        "Agriculture remained the base of European food supplies.",
+        "Silver actually helped pay for Asian goods and expanded trade with Asia."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Silver enriched some landowners, but it chiefly strengthened monarchs and merchants and drove Europe toward a market economy.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-4-q06",
+      "topicId": "apush-1-4",
+      "concept": "silver-and-trade",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.I.C"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best describes the purpose of a joint-stock company in the 1500s and early 1600s?",
+      "choices": [
+        "To give a monarch sole ownership of a colony and require subjects to work for the crown",
+        "To insure sailors and merchants against the loss of their cargo from storms and shipwrecks",
+        "To let Native American leaders buy shares in trading ventures and protect their land rights",
+        "To pool money from many investors for risky overseas ventures and share the profits"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Joint-stock companies spread the cost and risk of costly voyages among many investors who shared any profits.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "A joint-stock company was a business arrangement among investors, not a royal ownership scheme.",
+        "Insurance existed, but it was a different arrangement from a joint-stock company.",
+        "Joint-stock companies were organized by European investors and did not sell shares to Native leaders for this purpose.",
+        "Joint-stock companies spread the cost and risk of costly voyages among many investors who shared any profits."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Insurance also spread risk, but a joint-stock company raised capital for a venture and divided its profits.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-4-q07",
+      "topicId": "apush-1-4",
+      "concept": "columbian-exchange",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best states the main claim of the passage?",
+      "choices": [
+        "Disease was the only reason the Spanish were able to conquer the Aztec Empire and the Inca Empire",
+        "The Exchange benefited both hemispheres equally by sharing crops, animals, and wealth between them",
+        "The Exchange affected the two hemispheres unequally, enriching Europe while devastating many Native communities",
+        "European monarchs gained little from the Exchange because silver mining was too costly to be profitable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage opens by saying the Exchange did not affect the two sides equally, then contrasts European gains with population loss in the Americas.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The passage says some historians stress disease, but it also describes allies and rivalries and does not claim disease was the only cause.",
+        "The passage's first sentence says the effects were not equal.",
+        "The passage opens by saying the Exchange did not affect the two sides equally, then contrasts European gains with population loss in the Americas.",
+        "The passage says silver enriched monarchs and merchants."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The passage mentions disease as a major factor, but treating it as the only cause goes beyond what the passage claims.",
+      "stimulusId": "original-columbian-exchange",
+      "stimulusBlocks": [
+        {
+          "id": "original-columbian-exchange",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4, KC-1.2.II.A: Spanish conquest was accompanied by deadly epidemics and by the introduction of crops and animals",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe the Columbian Exchange",
+          "text": "The Columbian Exchange did not affect the two sides of the Atlantic equally. In Europe, potatoes and maize gave farmers more food from the same land, and silver from mines in Mexico and the Andes enriched monarchs and merchants. In the Americas, smallpox and other Old World diseases spread among peoples with no earlier exposure to them, and in many regions most of the population died within a few generations.\n\nHistorians differ about how much weight to give disease in explaining Spanish conquest. Some argue that epidemics did more than weapons to make conquest possible. Others emphasize that Spanish forces also relied on Indigenous allies who opposed Aztec rule, and on rivalries that already divided Native peoples. Most agree, however, that the Exchange transformed the Americas more suddenly than it transformed Europe."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-1-4-q08",
+      "topicId": "apush-1-4",
+      "concept": "epidemics-and-conquest",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.B",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which detail from the passage best supports its claim that the Exchange transformed the Americas more suddenly than it transformed Europe?",
+      "choices": [
+        "Potatoes and maize gave European farmers more food from the same land that they already worked",
+        "In many regions most of the population died within a few generations after disease arrived",
+        "Some historians emphasize Indigenous allies who opposed Aztec rule and rivalries among Native peoples",
+        "Historians differ about how much weight disease deserves when they explain Spanish conquest overall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A population loss of most inhabitants within a few generations is the passage's evidence of sudden change in the Americas.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This detail shows an effect on Europe and not the speed of change in the Americas.",
+        "A population loss of most inhabitants within a few generations is the passage's evidence of sudden change in the Americas.",
+        "This is an explanation for conquest, not evidence about how quickly the Americas changed.",
+        "This notes a debate among historians but does not show how fast the Americas changed."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Potatoes and maize did change Europe, but that detail concerns Europe's gains rather than the speed of change in the Americas.",
+      "stimulusId": "original-columbian-exchange",
+      "stimulusBlocks": [
+        {
+          "id": "original-columbian-exchange",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4, KC-1.2.II.A: Spanish conquest was accompanied by deadly epidemics and by the introduction of crops and animals",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe the Columbian Exchange",
+          "text": "The Columbian Exchange did not affect the two sides of the Atlantic equally. In Europe, potatoes and maize gave farmers more food from the same land, and silver from mines in Mexico and the Andes enriched monarchs and merchants. In the Americas, smallpox and other Old World diseases spread among peoples with no earlier exposure to them, and in many regions most of the population died within a few generations.\n\nHistorians differ about how much weight to give disease in explaining Spanish conquest. Some argue that epidemics did more than weapons to make conquest possible. Others emphasize that Spanish forces also relied on Indigenous allies who opposed Aztec rule, and on rivalries that already divided Native peoples. Most agree, however, that the Exchange transformed the Americas more suddenly than it transformed Europe."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify the evidence used in a source to support an argument."
+    },
+    {
+      "id": "apush-1-4-t01",
+      "topicId": "apush-1-4",
+      "concept": "epidemics-and-conquest",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.D",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following, if true, would best support the claim that disease did more than weapons to make conquest possible?",
+      "choices": [
+        "Thousands of Tlaxcalan warriors joined Cortés because they wanted to end Aztec tribute demands",
+        "Spanish soldiers carried steel swords and rode horses that the Aztecs had never seen",
+        "Spanish monarchs paid for the conquest with silver from mines in Mexico and the Andes",
+        "Smallpox killed a large share of the people of Tenochtitlan before the final Spanish assault in 1521"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A large loss of life in Tenochtitlan before the assault would show that disease weakened the Aztecs more than weapons did.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This would support the argument about Indigenous allies, not disease.",
+        "This would support the importance of Spanish weapons, which the claim says mattered less than disease.",
+        "Silver mining followed the conquest and does not explain how it succeeded.",
+        "A large loss of life in Tenochtitlan before the assault would show that disease weakened the Aztecs more than weapons did."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Indigenous allies were important to the conquest, but they support a different argument from the claim about disease.",
+      "stimulusId": "original-columbian-exchange",
+      "stimulusBlocks": [
+        {
+          "id": "original-columbian-exchange",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4, KC-1.2.II.A: Spanish conquest was accompanied by deadly epidemics and by the introduction of crops and animals",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe the Columbian Exchange",
+          "text": "The Columbian Exchange did not affect the two sides of the Atlantic equally. In Europe, potatoes and maize gave farmers more food from the same land, and silver from mines in Mexico and the Andes enriched monarchs and merchants. In the Americas, smallpox and other Old World diseases spread among peoples with no earlier exposure to them, and in many regions most of the population died within a few generations.\n\nHistorians differ about how much weight to give disease in explaining Spanish conquest. Some argue that epidemics did more than weapons to make conquest possible. Others emphasize that Spanish forces also relied on Indigenous allies who opposed Aztec rule, and on rivalries that already divided Native peoples. Most agree, however, that the Exchange transformed the Americas more suddenly than it transformed Europe."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Explain how claims or evidence support, modify, or refute a source’s argument."
+    },
+    {
+      "id": "apush-1-4-t02",
+      "topicId": "apush-1-4",
+      "concept": "epidemics-and-conquest",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following was a long-term effect of the population loss described in the passage?",
+      "choices": [
+        "Labor shortages in Spanish colonies increased the use of enslaved Africans in mines and on plantations",
+        "Native peoples recovered their numbers within a generation and regained control of the Spanish colonies",
+        "Spanish monarchs gave up the encomienda system and began to pay Native workers regular wages",
+        "European governments halted colonization after seeing the effects of the Exchange on Native peoples"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As Native populations fell, colonists and the Crown turned increasingly to enslaved Africans for labor.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "As Native populations fell, colonists and the Crown turned increasingly to enslaved Africans for labor.",
+        "Native populations did not recover quickly, and Spain kept control of its colonies.",
+        "Forced labor continued, and Native workers were not generally paid regular wages.",
+        "Colonization expanded, and several European kingdoms founded colonies in the 1500s and 1600s."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Labor shortages did lead to changes in labor systems, but they did not lead to wages or to a halt in colonization.",
+      "stimulusId": "original-columbian-exchange",
+      "stimulusBlocks": [
+        {
+          "id": "original-columbian-exchange",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4, KC-1.2.II.A: Spanish conquest was accompanied by deadly epidemics and by the introduction of crops and animals",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe the Columbian Exchange",
+          "text": "The Columbian Exchange did not affect the two sides of the Atlantic equally. In Europe, potatoes and maize gave farmers more food from the same land, and silver from mines in Mexico and the Andes enriched monarchs and merchants. In the Americas, smallpox and other Old World diseases spread among peoples with no earlier exposure to them, and in many regions most of the population died within a few generations.\n\nHistorians differ about how much weight to give disease in explaining Spanish conquest. Some argue that epidemics did more than weapons to make conquest possible. Others emphasize that Spanish forces also relied on Indigenous allies who opposed Aztec rule, and on rivalries that already divided Native peoples. Most agree, however, that the Exchange transformed the Americas more suddenly than it transformed Europe."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-4-t03",
+      "topicId": "apush-1-4",
+      "concept": "silver-and-trade",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "1.D",
+      "keyConcepts": [
+        "KC-1.2.I.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best explains how silver from the Americas affected Europe, as described in the passage?",
+      "choices": [
+        "It raised the wealth of peasants, who used it to buy land from their lords and farm independently",
+        "It enriched monarchs and merchants, who used it to help finance trade and armies",
+        "It reduced European demand for trade, since merchants no longer needed goods from Asia and Africa",
+        "It encouraged farmers to abandon potatoes and maize in favor of crops that could be sold for silver"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage states that American silver enriched monarchs and merchants, who used it for trade and armies.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The passage says silver enriched monarchs and merchants, not peasants.",
+        "The passage states that American silver enriched monarchs and merchants, who used it for trade and armies.",
+        "Silver helped finance trade, including trade with Asia.",
+        "The passage says potatoes and maize gave farmers more food, and it does not say they abandoned them."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Peasants benefited from new crops, but the passage ties the silver to monarchs and merchants.",
+      "stimulusId": "original-columbian-exchange",
+      "stimulusBlocks": [
+        {
+          "id": "original-columbian-exchange",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.4, KC-1.2.II.A: Spanish conquest was accompanied by deadly epidemics and by the introduction of crops and animals",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing how historians describe the Columbian Exchange",
+          "text": "The Columbian Exchange did not affect the two sides of the Atlantic equally. In Europe, potatoes and maize gave farmers more food from the same land, and silver from mines in Mexico and the Andes enriched monarchs and merchants. In the Americas, smallpox and other Old World diseases spread among peoples with no earlier exposure to them, and in many regions most of the population died within a few generations.\n\nHistorians differ about how much weight to give disease in explaining Spanish conquest. Some argue that epidemics did more than weapons to make conquest possible. Others emphasize that Spanish forces also relied on Indigenous allies who opposed Aztec rule, and on rivalries that already divided Native peoples. Most agree, however, that the Exchange transformed the Americas more suddenly than it transformed Europe."
+        }
+      ],
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-1-4-quick",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-4",
+      "title": "Topic 1.4 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-1-4-q01",
+        "apush-1-4-q02",
+        "apush-1-4-q03"
+      ]
+    },
+    {
+      "id": "apush-1-4-quiz",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-4",
+      "title": "Columbian Exchange, Spanish Exploration, and Conquest topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-1-4-q01",
+        "apush-1-4-q02",
+        "apush-1-4-q03",
+        "apush-1-4-q04",
+        "apush-1-4-q05",
+        "apush-1-4-q06",
+        "apush-1-4-q07",
+        "apush-1-4-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "columbian-exchange": {
+      "id": "columbian-exchange",
+      "title": "What crossed the Atlantic",
+      "section": "columbian-exchange",
+      "topicId": "apush-1-4"
+    },
+    "epidemics-and-conquest": {
+      "id": "epidemics-and-conquest",
+      "title": "Epidemics and Spanish conquest",
+      "section": "epidemics-and-conquest",
+      "topicId": "apush-1-4"
+    },
+    "silver-and-trade": {
+      "id": "silver-and-trade",
+      "title": "Silver, trade, and a changing European economy",
+      "section": "silver-and-trade",
+      "topicId": "apush-1-4"
+    }
+  },
+  "assets": {}
+}

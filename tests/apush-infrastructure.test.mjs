@@ -154,17 +154,34 @@ test("framework themes use the CED codes and skills carry CED sub-skills", () =>
   );
 });
 
-test("the course is listed as coming soon with nine CED unit shells", async () => {
+test("the course lists nine CED units and marks only built units ready", async () => {
   const catalog = await generated("catalog.json");
   const entry = catalog.courses.find((item) => item.id === "apush");
   assert.equal(entry.title, course.title);
-  assert.equal(entry.status, "soon");
-  assert.equal(entry.readyTopicCount, 0);
   const index = await generated("apush/index.json");
+  const statuses = new Map();
+  for (const unit of ced.units) {
+    const module = await import(
+      new URL(
+        `../docs/content/ap-us-history/unit-${String(unit.number).padStart(2, "0")}/unit.js`,
+        import.meta.url,
+      )
+    );
+    statuses.set(`apush-${unit.number}`, module.unit.status);
+  }
   assert.deepEqual(
     index.units.map((unit) => [unit.id, unit.title, unit.period, unit.status]),
-    ced.units.map((unit) => [`apush-${unit.number}`, unit.title, unit.period, "soon"]),
+    ced.units.map((unit) => [
+      `apush-${unit.number}`,
+      unit.title,
+      unit.period,
+      statuses.get(`apush-${unit.number}`),
+    ]),
   );
+  // A course is listed as ready once any unit is ready.
+  const anyReady = [...statuses.values()].includes("ready");
+  assert.equal(entry.status, anyReady ? "ready" : "soon");
+  assert.equal(entry.readyTopicCount > 0, anyReady);
 });
 
 test("CED alignment rejects a mistitled topic and unknown tags", () => {

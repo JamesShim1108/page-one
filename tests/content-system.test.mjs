@@ -20,6 +20,8 @@ import { prepareImage } from "../scripts/prepare-image.mjs";
 const READY_TOPICS = 71;
 // AP Precalculus Unit 1 (CED topics 1.1 to 1.14); the other three units are placeholders.
 const PRECALCULUS_TOPICS = 44;
+// Ready AP U.S. History topics grow as units are built; update when a unit is added.
+const APUSH_TOPICS = 7;
 const QUIZ_ROUTES = 155;
 
 const root = new URL("../", import.meta.url);
@@ -566,13 +568,13 @@ test("content compiles from folder discovery rather than a hardcoded topic list"
   assert.equal(output.has("catalog.json"), true);
   assert.equal(
     [...output.keys()].filter((path) => path.includes("/topics/")).length,
-    READY_TOPICS + PRECALCULUS_TOPICS,
+    READY_TOPICS + PRECALCULUS_TOPICS + APUSH_TOPICS,
   );
   assert.equal(
     // PSAT/SAT banks are per section, not per topic, so they are counted separately.
     [...output.keys()].filter(
       (path) => path.includes("/banks/") && !path.startsWith("test-prep/"),
     ).length,
-    READY_TOPICS + PRECALCULUS_TOPICS,
+    READY_TOPICS + PRECALCULUS_TOPICS + APUSH_TOPICS,
   );
 });

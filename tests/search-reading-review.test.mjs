@@ -114,6 +114,12 @@ test("search index loading is on demand and does not fetch question banks", asyn
       ),
     ],
     [
+      "apush/search.json",
+      JSON.parse(
+        await readFile(new URL("../docs/generated/apush/search.json", import.meta.url)),
+      ),
+    ],
+    [
       "algebra2/search.json",
       JSON.parse(
         await readFile(
@@ -136,11 +142,12 @@ test("search index loading is on demand and does not fetch question banks", asyn
     },
   });
   const loaded = await store.searchIndexes();
-  assert.equal(loaded.indexes.length, 2);
+  assert.equal(loaded.indexes.length, 3);
   assert.deepEqual(requested, [
     "catalog.json",
     "world/search.json",
     "precalculus/search.json",
+    "apush/search.json",
   ]);
 });
 
