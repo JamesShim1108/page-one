@@ -315,7 +315,7 @@
       }
     ]
   },
-  "contentRevision": "62ca3fb037cca94a",
+  "contentRevision": "1782c9fb2f19bf63",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-7-1",
@@ -392,34 +392,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "bolsheviks",
-        "topicId": "world-7-1",
-        "term": "Bolsheviks",
-        "definition": "The Russian Marxist party led by Lenin that seized power in November 1917."
-      },
-      {
-        "id": "warlords",
-        "topicId": "world-7-1",
-        "term": "warlords",
-        "definition": "Regional military leaders who controlled much of China after the fall of the Qing."
-      },
-      {
-        "id": "mexican-revolution",
-        "topicId": "world-7-1",
-        "term": "Mexican Revolution",
-        "definition": "The revolution that began in 1910 against Porfirio Díaz and produced the Constitution of 1917."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-7-bolsheviks",
-        "world-7-warlords",
-        "world-7-mexican-revolution"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -443,29 +416,7 @@
     ]
   },
   "bankPath": "world/banks/world-7-1.json",
-  "glossary": [
-    {
-      "id": "world-7-bolsheviks",
-      "term": "Bolsheviks",
-      "definition": "The Russian Marxist party led by Lenin that seized power in November 1917.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.1 glossary"
-    },
-    {
-      "id": "world-7-warlords",
-      "term": "warlords",
-      "definition": "Regional military leaders who controlled much of China after the fall of the Qing.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.1 glossary"
-    },
-    {
-      "id": "world-7-mexican-revolution",
-      "term": "Mexican Revolution",
-      "definition": "The revolution that began in 1910 against Porfirio Díaz and produced the Constitution of 1917.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.1 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-7-1",

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 3.2. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-03.js.
+// Original Page One lesson for CED Topic 3.2.
 
 export const lesson = {
   schemaVersion: 1,
@@ -133,61 +132,7 @@ export const lesson = {
       sourceIds: ["ced-topic-3-2"],
     },
   ],
-  vocabulary: [
-    {
-      id: "devshirme",
-      topicId: "world-3-2",
-      term: "devshirme",
-      definition:
-        "The Ottoman practice of taking Christian boys from the Balkans, converting them to Islam, and training them as soldiers or officials loyal to the sultan.",
-    },
-    {
-      id: "divine-right",
-      topicId: "world-3-2",
-      term: "divine right",
-      definition:
-        "The belief that monarchs received their authority from God and answered to God alone.",
-    },
-    {
-      id: "absolutism",
-      topicId: "world-3-2",
-      term: "absolutism",
-      definition:
-        "A system in which a monarch claims complete authority and rules without sharing power with nobles or representative assemblies.",
-    },
-    {
-      id: "zamindars",
-      topicId: "world-3-2",
-      term: "zamindars",
-      definition:
-        "Landholders in Mughal India who collected taxes from peasants and passed a share to the state.",
-    },
-    {
-      id: "tax-farming",
-      topicId: "world-3-2",
-      term: "tax farming",
-      definition:
-        "A system in which a government sells the right to collect taxes to private bidders, who pay in advance and keep what they collect beyond that amount.",
-    },
-    {
-      id: "daimyo",
-      topicId: "world-3-2",
-      term: "daimyo",
-      definition:
-        "Regional lords in Japan who controlled lands and samurai under the authority of the shogun.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-3-devshirme",
-      "world-3-divine-right",
-      "world-3-absolutism",
-      "world-3-zamindars",
-      "world-3-tax-farming",
-      "world-3-daimyo",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

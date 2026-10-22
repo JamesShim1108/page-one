@@ -286,7 +286,7 @@
       }
     ]
   },
-  "contentRevision": "fd399b6858337a4d",
+  "contentRevision": "0cf2068e1f0989fc",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-3-4",
@@ -393,34 +393,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "jizya",
-        "topicId": "world-3-4",
-        "term": "jizya",
-        "definition": "A tax paid by non-Muslim subjects in many Muslim-ruled states, abolished by Akbar and restored by Aurangzeb in Mughal India."
-      },
-      {
-        "id": "rajputs",
-        "topicId": "world-3-4",
-        "term": "Rajputs",
-        "definition": "Hindu warrior princes of northern and western India, many of whom served the Mughal emperors after Akbar made alliances with them."
-      },
-      {
-        "id": "banners",
-        "topicId": "world-3-4",
-        "term": "banners",
-        "definition": "Manchu military and social units that organized the Qing army and its families."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-3-jizya",
-        "world-3-rajputs",
-        "world-3-banners"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -444,29 +417,7 @@
     ]
   },
   "bankPath": "world/banks/world-3-4.json",
-  "glossary": [
-    {
-      "id": "world-3-jizya",
-      "term": "jizya",
-      "definition": "A tax paid by non-Muslim subjects in many Muslim-ruled states, abolished by Akbar and restored by Aurangzeb in Mughal India.",
-      "aliases": [],
-      "sourceLabel": "Topic 3.4 glossary"
-    },
-    {
-      "id": "world-3-rajputs",
-      "term": "Rajputs",
-      "definition": "Hindu warrior princes of northern and western India, many of whom served the Mughal emperors after Akbar made alliances with them.",
-      "aliases": [],
-      "sourceLabel": "Topic 3.4 glossary"
-    },
-    {
-      "id": "world-3-banners",
-      "term": "banners",
-      "definition": "Manchu military and social units that organized the Qing army and its families.",
-      "aliases": [],
-      "sourceLabel": "Topic 3.4 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-3-4",

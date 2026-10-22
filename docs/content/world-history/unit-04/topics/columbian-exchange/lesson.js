@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 4.3. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-04.js.
+// Original Page One lesson for CED Topic 4.3.
 
 export const lesson = {
   schemaVersion: 1,
@@ -96,33 +95,7 @@ export const lesson = {
       sourceIds: ["ced-topic-4-3"],
     },
   ],
-  vocabulary: [
-    {
-      id: "columbian-exchange",
-      topicId: "world-4-3",
-      term: "Columbian Exchange",
-      definition:
-        "The transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres after 1492.",
-    },
-    {
-      id: "smallpox",
-      topicId: "world-4-3",
-      term: "smallpox",
-      definition:
-        "A contagious disease from Afro-Eurasia that killed huge numbers of Indigenous people in the Americas after 1492.",
-    },
-    {
-      id: "manioc",
-      topicId: "world-4-3",
-      term: "manioc",
-      definition:
-        "A starchy root crop, also called cassava, first domesticated in the Americas, that became a staple food in Africa.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-4-columbian-exchange", "world-4-smallpox", "world-4-manioc"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

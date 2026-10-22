@@ -310,7 +310,7 @@
       }
     ]
   },
-  "contentRevision": "99da12159cec56c4",
+  "contentRevision": "42c3a8424ab194e8",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-4-2",
@@ -439,34 +439,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "mercantilism",
-        "topicId": "world-4-2",
-        "term": "mercantilism",
-        "definition": "An economic policy holding that a state grows strong by exporting more than it imports, accumulating precious metals, and controlling colonial trade."
-      },
-      {
-        "id": "treaty-of-tordesillas",
-        "topicId": "world-4-2",
-        "term": "Treaty of Tordesillas",
-        "definition": "A 1494 agreement that divided newly claimed lands outside Europe between Spain and Portugal along a line in the Atlantic."
-      },
-      {
-        "id": "northwest-passage",
-        "topicId": "world-4-2",
-        "term": "northwest passage",
-        "definition": "A hoped-for sea route through or around North America to Asia, which explorers searched for but did not find in this period."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-4-mercantilism",
-        "world-4-treaty-of-tordesillas",
-        "world-4-northwest-passage"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -490,29 +463,7 @@
     ]
   },
   "bankPath": "world/banks/world-4-2.json",
-  "glossary": [
-    {
-      "id": "world-4-mercantilism",
-      "term": "mercantilism",
-      "definition": "An economic policy holding that a state grows strong by exporting more than it imports, accumulating precious metals, and controlling colonial trade.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.2 glossary"
-    },
-    {
-      "id": "world-4-treaty-of-tordesillas",
-      "term": "Treaty of Tordesillas",
-      "definition": "A 1494 agreement that divided newly claimed lands outside Europe between Spain and Portugal along a line in the Atlantic.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.2 glossary"
-    },
-    {
-      "id": "world-4-northwest-passage",
-      "term": "northwest passage",
-      "definition": "A hoped-for sea route through or around North America to Asia, which explorers searched for but did not find in this period.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.2 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-4-2",

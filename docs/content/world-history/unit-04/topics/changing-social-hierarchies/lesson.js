@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 4.7. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-04.js.
+// Original Page One lesson for CED Topic 4.7.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,44 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-4-7"],
     },
   ],
-  vocabulary: [
-    {
-      id: "casta-system",
-      topicId: "world-4-7",
-      term: "casta system",
-      definition:
-        "The ranking of people in Spanish America by ancestry, with Spanish-born elites at the top.",
-    },
-    {
-      id: "peninsulares",
-      topicId: "world-4-7",
-      term: "Peninsulares",
-      definition:
-        "People born in Spain who held the highest positions in Spanish American society.",
-    },
-    {
-      id: "creoles",
-      topicId: "world-4-7",
-      term: "Creoles",
-      definition:
-        "People of Spanish descent born in the Americas, often wealthy but excluded from the highest offices.",
-    },
-    {
-      id: "mestizos",
-      topicId: "world-4-7",
-      term: "Mestizos",
-      definition: "People of mixed Spanish and Indigenous ancestry in Spanish America.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-4-casta-system",
-      "world-4-peninsulares",
-      "world-4-creoles",
-      "world-4-mestizos",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

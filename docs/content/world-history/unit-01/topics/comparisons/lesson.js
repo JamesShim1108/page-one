@@ -143,74 +143,7 @@ export const lesson = {
       "Revise a vague claim such as “all states were the same” into a specific, qualified comparison.",
     ],
   },
-  vocabulary: [
-    {
-      id: "world-1-7-legitimacy",
-      topicId: "world-1-7",
-      term: "Legitimacy",
-      definition: "The perceived justification for a ruler’s or institution’s authority.",
-    },
-    {
-      id: "world-1-7-centralization",
-      topicId: "world-1-7",
-      term: "Centralization",
-      definition:
-        "Concentration of decision making and administration in a central authority.",
-    },
-    {
-      id: "world-1-7-decentralization",
-      topicId: "world-1-7",
-      term: "Decentralization",
-      definition:
-        "Distribution of political authority among local or regional institutions.",
-    },
-    {
-      id: "world-1-7-continuity",
-      topicId: "world-1-7",
-      term: "Continuity",
-      definition: "A pattern or institution that persists over a defined period.",
-    },
-    {
-      id: "world-1-7-innovation",
-      topicId: "world-1-7",
-      term: "Innovation",
-      definition: "A new or adapted method, institution, or technique.",
-    },
-    {
-      id: "world-1-7-comparison",
-      topicId: "world-1-7",
-      term: "Historical comparison",
-      definition:
-        "An explanation of similarities or differences using a shared analytical category.",
-    },
-    {
-      id: "world-1-7-causation",
-      topicId: "world-1-7",
-      term: "Causation",
-      definition: "An explanation of how and why one development contributes to another.",
-    },
-    {
-      id: "world-1-7-evidence",
-      topicId: "world-1-7",
-      term: "Historical evidence",
-      definition:
-        "Specific information from the past used to support or challenge a claim.",
-    },
-    {
-      id: "world-1-7-ape",
-      topicId: "world-1-7",
-      term: "APE",
-      definition:
-        "Answer, Prove, Explain: a scaffold for connecting a claim with evidence and reasoning.",
-    },
-    {
-      id: "world-1-7-inspect",
-      topicId: "world-1-7",
-      term: "InSPECT",
-      definition:
-        "A class framework for environment, society, politics, economics, culture, and technology.",
-    },
-  ],
+  vocabulary: [],
   connections: [
     {
       id: "world-1-7-connection-1",

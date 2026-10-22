@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.9. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.9.
 
 export const lesson = {
   schemaVersion: 1,
@@ -46,16 +45,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-9"],
     },
   ],
-  vocabulary: [
-    {
-      id: "global-south",
-      topicId: "world-8-9",
-      term: "Global South",
-      definition:
-        "A term for the poorer countries of Asia, Africa, and Latin America, many of them former colonies.",
-    },
-  ],
-  definitionCoverage: { status: "required", conceptIds: ["world-8-global-south"] },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

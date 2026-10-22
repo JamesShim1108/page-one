@@ -315,7 +315,7 @@
       }
     ]
   },
-  "contentRevision": "eb7e4fd11efaa560",
+  "contentRevision": "cea728c5649e2c90",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-7-6",
@@ -390,34 +390,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "fascism",
-        "topicId": "world-7-6",
-        "term": "Fascism",
-        "definition": "A political movement that glorifies the nation, rejects democracy and communism, and demands obedience to one leader."
-      },
-      {
-        "id": "appeasement",
-        "topicId": "world-7-6",
-        "term": "appeasement",
-        "definition": "The policy of giving in to an aggressor's demands to avoid war, as Britain and France did at Munich in 1938."
-      },
-      {
-        "id": "manchuria",
-        "topicId": "world-7-6",
-        "term": "Manchuria",
-        "definition": "A region of northeastern China that Japan seized in 1931."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-7-fascism",
-        "world-7-appeasement",
-        "world-7-manchuria"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -441,29 +414,7 @@
     ]
   },
   "bankPath": "world/banks/world-7-6.json",
-  "glossary": [
-    {
-      "id": "world-7-fascism",
-      "term": "Fascism",
-      "definition": "A political movement that glorifies the nation, rejects democracy and communism, and demands obedience to one leader.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.6 glossary"
-    },
-    {
-      "id": "world-7-appeasement",
-      "term": "appeasement",
-      "definition": "The policy of giving in to an aggressor's demands to avoid war, as Britain and France did at Munich in 1938.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.6 glossary"
-    },
-    {
-      "id": "world-7-manchuria",
-      "term": "Manchuria",
-      "definition": "A region of northeastern China that Japan seized in 1931.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.6 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-7-6",

@@ -302,7 +302,7 @@
       }
     ]
   },
-  "contentRevision": "0cad9bf6875f53ae",
+  "contentRevision": "15dd6bfe56b19833",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-6-8",
@@ -352,20 +352,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "industrial-advantage",
-        "topicId": "world-6-8",
-        "term": "military advantage",
-        "definition": "The superiority in weapons and transport that industrial states held over many other societies after 1850."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-6-industrial-advantage"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -389,15 +376,7 @@
     ]
   },
   "bankPath": "world/banks/world-6-8.json",
-  "glossary": [
-    {
-      "id": "world-6-industrial-advantage",
-      "term": "military advantage",
-      "definition": "The superiority in weapons and transport that industrial states held over many other societies after 1850.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.8 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-6-8",

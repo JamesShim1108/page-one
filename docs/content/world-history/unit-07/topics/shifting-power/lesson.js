@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.1. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.1.
 
 export const lesson = {
   schemaVersion: 1,
@@ -72,33 +71,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-1"],
     },
   ],
-  vocabulary: [
-    {
-      id: "bolsheviks",
-      topicId: "world-7-1",
-      term: "Bolsheviks",
-      definition:
-        "The Russian Marxist party led by Lenin that seized power in November 1917.",
-    },
-    {
-      id: "warlords",
-      topicId: "world-7-1",
-      term: "warlords",
-      definition:
-        "Regional military leaders who controlled much of China after the fall of the Qing.",
-    },
-    {
-      id: "mexican-revolution",
-      topicId: "world-7-1",
-      term: "Mexican Revolution",
-      definition:
-        "The revolution that began in 1910 against Porfirio Díaz and produced the Constitution of 1917.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-7-bolsheviks", "world-7-warlords", "world-7-mexican-revolution"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

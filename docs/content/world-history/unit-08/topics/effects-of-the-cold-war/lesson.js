@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.3. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.3.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,45 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-3"],
     },
   ],
-  vocabulary: [
-    {
-      id: "proxy-wars",
-      topicId: "world-8-3",
-      term: "proxy wars",
-      definition:
-        "Conflicts in which the superpowers supported opposing local forces instead of fighting each other directly.",
-    },
-    {
-      id: "arms-race",
-      topicId: "world-8-3",
-      term: "arms race",
-      definition:
-        "Competition between the superpowers to build more and better weapons, especially nuclear weapons.",
-    },
-    {
-      id: "mutually-assured-destruction",
-      topicId: "world-8-3",
-      term: "mutually assured destruction",
-      definition:
-        "The idea that neither superpower would start a nuclear war because both would be destroyed.",
-    },
-    {
-      id: "cuban-missile-crisis",
-      topicId: "world-8-3",
-      term: "Cuban Missile Crisis",
-      definition:
-        "The 1962 confrontation over Soviet nuclear missiles in Cuba, the closest the superpowers came to nuclear war.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-8-proxy-wars",
-      "world-8-arms-race",
-      "world-8-mutually-assured-destruction",
-      "world-8-cuban-missile-crisis",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.7. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.7.
 
 export const lesson = {
   schemaVersion: 1,
@@ -65,25 +64,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-7"],
     },
   ],
-  vocabulary: [
-    {
-      id: "atomic-bombs",
-      topicId: "world-7-7",
-      term: "atomic bombs",
-      definition:
-        "Nuclear weapons, first used by the United States against Hiroshima and Nagasaki in August 1945.",
-    },
-    {
-      id: "civilian-casualties",
-      topicId: "world-7-7",
-      term: "civilians",
-      definition: "People who are not members of the armed forces.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-7-atomic-bombs", "world-7-civilian-casualties"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

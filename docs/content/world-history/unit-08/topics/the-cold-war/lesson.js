@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.2. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.2.
 
 export const lesson = {
   schemaVersion: 1,
@@ -75,53 +74,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-2"],
     },
   ],
-  vocabulary: [
-    {
-      id: "cold-war",
-      topicId: "world-8-2",
-      term: "Cold War",
-      definition:
-        "The rivalry between the United States and the Soviet Union, c. 1947–1991, fought through alliances, aid, propaganda, and proxy wars rather than direct war.",
-    },
-    {
-      id: "containment",
-      topicId: "world-8-2",
-      term: "containment",
-      definition:
-        "The US policy of stopping the spread of communism beyond where it already existed.",
-    },
-    {
-      id: "marshall-plan",
-      topicId: "world-8-2",
-      term: "Marshall Plan",
-      definition:
-        "The US program that gave about $13 billion to rebuild Western European economies after World War II.",
-    },
-    {
-      id: "nato",
-      topicId: "world-8-2",
-      term: "NATO",
-      definition:
-        "The North Atlantic Treaty Organization, a military alliance of the United States, Canada, and Western European states formed in 1949.",
-    },
-    {
-      id: "non-aligned-movement",
-      topicId: "world-8-2",
-      term: "Non-Aligned Movement",
-      definition:
-        "An organization of states, founded in 1961, that refused to join either Cold War bloc.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-8-cold-war",
-      "world-8-containment",
-      "world-8-marshall-plan",
-      "world-8-nato",
-      "world-8-non-aligned-movement",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

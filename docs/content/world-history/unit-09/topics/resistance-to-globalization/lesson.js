@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.7. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.7.
 
 export const lesson = {
   schemaVersion: 1,
@@ -66,37 +65,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-7"],
     },
   ],
-  vocabulary: [
-    {
-      id: "anti-globalization-movement",
-      topicId: "world-9-7",
-      term: "anti-globalization movement",
-      definition:
-        "A coalition of unions, environmentalists, farmers, and others who opposed free-trade agreements and global economic institutions.",
-    },
-    {
-      id: "zapatistas",
-      topicId: "world-9-7",
-      term: "Zapatistas",
-      definition:
-        "Mostly Indigenous rebels in Chiapas, Mexico, who rose up in 1994 against NAFTA and the Mexican government.",
-    },
-    {
-      id: "world-social-forum",
-      topicId: "world-9-7",
-      term: "World Social Forum",
-      definition:
-        "An annual meeting of activists, founded in Brazil in 2001, that opposed corporate-led globalization.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-9-anti-globalization-movement",
-      "world-9-zapatistas",
-      "world-9-world-social-forum",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

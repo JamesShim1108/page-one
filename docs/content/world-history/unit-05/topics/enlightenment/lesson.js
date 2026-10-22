@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.1. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.1.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,51 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-1"],
     },
   ],
-  vocabulary: [
-    {
-      id: "natural-rights",
-      topicId: "world-5-1",
-      term: "natural rights",
-      definition:
-        "Rights that people have by nature, such as life, liberty, and property, which governments must protect.",
-    },
-    {
-      id: "social-contract",
-      topicId: "world-5-1",
-      term: "social contract",
-      definition:
-        "The idea that government is based on an agreement among people, who give up some freedom in exchange for order and protection of their rights.",
-    },
-    {
-      id: "separation-of-powers",
-      topicId: "world-5-1",
-      term: "separation of powers",
-      definition:
-        "Montesquieu's idea that government power should be divided among branches so no one branch becomes too strong.",
-    },
-    {
-      id: "suffrage",
-      topicId: "world-5-1",
-      term: "suffrage",
-      definition: "The right to vote in political elections.",
-    },
-    {
-      id: "abolitionists",
-      topicId: "world-5-1",
-      term: "Abolitionists",
-      definition: "Reformers who worked to end the slave trade and slavery.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-5-natural-rights",
-      "world-5-social-contract",
-      "world-5-separation-of-powers",
-      "world-5-suffrage",
-      "world-5-abolitionists",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

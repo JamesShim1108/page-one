@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.8. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.8.
 
 export const lesson = {
   schemaVersion: 1,
@@ -69,43 +68,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-8"],
     },
   ],
-  vocabulary: [
-    {
-      id: "detente",
-      topicId: "world-8-8",
-      term: "détente",
-      definition: "The easing of tensions between the superpowers in the 1970s.",
-    },
-    {
-      id: "glasnost",
-      topicId: "world-8-8",
-      term: "glasnost",
-      definition:
-        "Gorbachev's policy of openness, which allowed more criticism and freedom of expression.",
-    },
-    {
-      id: "perestroika",
-      topicId: "world-8-8",
-      term: "perestroika",
-      definition: "Gorbachev's policy of restructuring the Soviet economy.",
-    },
-    {
-      id: "solidarity",
-      topicId: "world-8-8",
-      term: "Solidarity",
-      definition:
-        "The Polish independent trade union, led by Lech Wałęsa, that challenged communist rule.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-8-detente",
-      "world-8-glasnost",
-      "world-8-perestroika",
-      "world-8-solidarity",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

@@ -251,9 +251,10 @@ test("typed writing drafts score only after every required rubric category is as
   assert.equal(engine.total(draft), 6);
 });
 
-test("Unit 2 lesson rendering omits empty vocabulary navigation while Unit 1 retains it", async () => {
+test("lesson rendering omits empty vocabulary navigation while courses with key terms retain it", async () => {
   const unit2 = await readGenerated("world/topics/world-2-1.json");
   const unit1 = await readGenerated("world/topics/world-1-1.json");
+  const precalculus = await readGenerated("precalculus/topics/precalculus-1-1.json");
   const render = async (data) =>
     lessonPage(
       { ...data, bank: await readGenerated(data.bankPath) },
@@ -261,9 +262,11 @@ test("Unit 2 lesson rendering omits empty vocabulary navigation while Unit 1 ret
     );
   const unit2Html = await render(unit2);
   const unit1Html = await render(unit1);
+  const precalculusHtml = await render(precalculus);
   assert.equal(unit2Html.includes("Key terms"), false);
   assert.equal(unit2Html.includes("0 key terms"), false);
-  assert.equal(unit1Html.includes("Key terms"), true);
+  assert.equal(unit1Html.includes("Key terms"), false);
+  assert.equal(precalculusHtml.includes("Key terms"), true);
 });
 
 test("released DBQ renders seven sourced documents in exam order", async () => {

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.3. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.3.
 
 export const lesson = {
   schemaVersion: 1,
@@ -70,44 +69,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-3"],
     },
   ],
-  vocabulary: [
-    {
-      id: "greenhouse-gases",
-      topicId: "world-9-3",
-      term: "greenhouse gases",
-      definition: "Gases such as carbon dioxide that trap heat in the atmosphere.",
-    },
-    {
-      id: "climate-change",
-      topicId: "world-9-3",
-      term: "climate change",
-      definition:
-        "The long-term warming of the planet and shifts in weather patterns, driven largely by greenhouse gases from human activity.",
-    },
-    {
-      id: "deforestation",
-      topicId: "world-9-3",
-      term: "deforestation",
-      definition:
-        "The large-scale clearing of forests for farming, timber, or settlement.",
-    },
-    {
-      id: "green-belt-movement",
-      topicId: "world-9-3",
-      term: "Green Belt Movement",
-      definition:
-        "The Kenyan movement founded by Wangari Maathai in 1977 that organized women to plant trees.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-9-greenhouse-gases",
-      "world-9-climate-change",
-      "world-9-deforestation",
-      "world-9-green-belt-movement",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

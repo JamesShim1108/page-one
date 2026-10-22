@@ -300,7 +300,7 @@
       }
     ]
   },
-  "contentRevision": "d89a099fcee56231",
+  "contentRevision": "a918029bb4fe233c",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-9-6",
@@ -372,34 +372,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "consumer-culture",
-        "topicId": "world-9-6",
-        "term": "consumer culture",
-        "definition": "A way of life centered on buying and displaying brand-name goods."
-      },
-      {
-        "id": "bollywood",
-        "topicId": "world-9-6",
-        "term": "Bollywood",
-        "definition": "India's Hindi-language film industry, centered in Mumbai."
-      },
-      {
-        "id": "social-media",
-        "topicId": "world-9-6",
-        "term": "social media",
-        "definition": "Websites and apps that let users create and share content with large networks of people."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-9-consumer-culture",
-        "world-9-bollywood",
-        "world-9-social-media"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -423,29 +396,7 @@
     ]
   },
   "bankPath": "world/banks/world-9-6.json",
-  "glossary": [
-    {
-      "id": "world-9-consumer-culture",
-      "term": "consumer culture",
-      "definition": "A way of life centered on buying and displaying brand-name goods.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.6 glossary"
-    },
-    {
-      "id": "world-9-bollywood",
-      "term": "Bollywood",
-      "definition": "India's Hindi-language film industry, centered in Mumbai.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.6 glossary"
-    },
-    {
-      "id": "world-9-social-media",
-      "term": "social media",
-      "definition": "Websites and apps that let users create and share content with large networks of people.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.6 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-9-6",

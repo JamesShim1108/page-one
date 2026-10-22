@@ -302,7 +302,7 @@
       }
     ]
   },
-  "contentRevision": "c6651f202a2b3aa2",
+  "contentRevision": "bebc492bbc505b7b",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-6-4",
@@ -379,27 +379,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "cash-crops",
-        "topicId": "world-6-4",
-        "term": "export crops",
-        "definition": "Crops such as cotton, rubber, or coffee grown mainly for sale abroad rather than for local food."
-      },
-      {
-        "id": "guano",
-        "topicId": "world-6-4",
-        "term": "guano",
-        "definition": "Bird droppings, exported from Peru in the 1800s as fertilizer."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-6-cash-crops",
-        "world-6-guano"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -423,22 +403,7 @@
     ]
   },
   "bankPath": "world/banks/world-6-4.json",
-  "glossary": [
-    {
-      "id": "world-6-cash-crops",
-      "term": "export crops",
-      "definition": "Crops such as cotton, rubber, or coffee grown mainly for sale abroad rather than for local food.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.4 glossary"
-    },
-    {
-      "id": "world-6-guano",
-      "term": "guano",
-      "definition": "Bird droppings, exported from Peru in the 1800s as fertilizer.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.4 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-6-4",

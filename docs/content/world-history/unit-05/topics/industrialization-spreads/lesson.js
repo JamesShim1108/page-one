@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.4. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.4.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,19 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-4"],
     },
   ],
-  vocabulary: [
-    {
-      id: "deindustrialization",
-      topicId: "world-5-4",
-      term: "deindustrialization",
-      definition:
-        "The decline of manufacturing in a region, such as India's hand-woven textile industry after cheap British cloth arrived.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-5-deindustrialization"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

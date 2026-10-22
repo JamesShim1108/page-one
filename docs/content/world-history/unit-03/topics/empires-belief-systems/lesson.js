@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 3.3. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-03.js.
+// Original Page One lesson for CED Topic 3.3.
 
 export const lesson = {
   schemaVersion: 1,
@@ -126,61 +125,7 @@ export const lesson = {
       sourceIds: ["ced-topic-3-3"],
     },
   ],
-  vocabulary: [
-    {
-      id: "protestant-reformation",
-      topicId: "world-3-3",
-      term: "Protestant Reformation",
-      definition:
-        "The religious movement that began with Martin Luther in 1517 and created Christian churches separate from the Roman Catholic Church.",
-    },
-    {
-      id: "indulgences",
-      topicId: "world-3-3",
-      term: "indulgences",
-      definition:
-        "Grants from the Catholic Church said to reduce punishment for sins, whose sale Luther criticized.",
-    },
-    {
-      id: "council-of-trent",
-      topicId: "world-3-3",
-      term: "Council of Trent",
-      definition:
-        "A meeting of Catholic leaders from 1545 to 1563 that reaffirmed Catholic teachings and ordered reforms of Church abuses.",
-    },
-    {
-      id: "jesuits",
-      topicId: "world-3-3",
-      term: "Jesuits",
-      definition:
-        "Members of the Society of Jesus, a Catholic religious order founded in 1540 that ran schools and sent missionaries worldwide.",
-    },
-    {
-      id: "twelver-shiism",
-      topicId: "world-3-3",
-      term: "Twelver Shi'ism",
-      definition:
-        "The branch of Shi'a Islam that the Safavids made the state religion of Persia.",
-    },
-    {
-      id: "sikhism",
-      topicId: "world-3-3",
-      term: "Sikhism",
-      definition:
-        "A religion founded by Guru Nanak in the Punjab that teaches devotion to one God and rejects caste distinctions in worship.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-3-protestant-reformation",
-      "world-3-indulgences",
-      "world-3-council-of-trent",
-      "world-3-jesuits",
-      "world-3-twelver-shiism",
-      "world-3-sikhism",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

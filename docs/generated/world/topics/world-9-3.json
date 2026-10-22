@@ -300,7 +300,7 @@
       }
     ]
   },
-  "contentRevision": "7006dc00536da10f",
+  "contentRevision": "a8076d4510651c88",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-9-3",
@@ -376,41 +376,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "greenhouse-gases",
-        "topicId": "world-9-3",
-        "term": "greenhouse gases",
-        "definition": "Gases such as carbon dioxide that trap heat in the atmosphere."
-      },
-      {
-        "id": "climate-change",
-        "topicId": "world-9-3",
-        "term": "climate change",
-        "definition": "The long-term warming of the planet and shifts in weather patterns, driven largely by greenhouse gases from human activity."
-      },
-      {
-        "id": "deforestation",
-        "topicId": "world-9-3",
-        "term": "deforestation",
-        "definition": "The large-scale clearing of forests for farming, timber, or settlement."
-      },
-      {
-        "id": "green-belt-movement",
-        "topicId": "world-9-3",
-        "term": "Green Belt Movement",
-        "definition": "The Kenyan movement founded by Wangari Maathai in 1977 that organized women to plant trees."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-9-greenhouse-gases",
-        "world-9-climate-change",
-        "world-9-deforestation",
-        "world-9-green-belt-movement"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -434,36 +400,7 @@
     ]
   },
   "bankPath": "world/banks/world-9-3.json",
-  "glossary": [
-    {
-      "id": "world-9-greenhouse-gases",
-      "term": "greenhouse gases",
-      "definition": "Gases such as carbon dioxide that trap heat in the atmosphere.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.3 glossary"
-    },
-    {
-      "id": "world-9-climate-change",
-      "term": "climate change",
-      "definition": "The long-term warming of the planet and shifts in weather patterns, driven largely by greenhouse gases from human activity.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.3 glossary"
-    },
-    {
-      "id": "world-9-deforestation",
-      "term": "deforestation",
-      "definition": "The large-scale clearing of forests for farming, timber, or settlement.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.3 glossary"
-    },
-    {
-      "id": "world-9-green-belt-movement",
-      "term": "Green Belt Movement",
-      "definition": "The Kenyan movement founded by Wangari Maathai in 1977 that organized women to plant trees.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.3 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-9-3",

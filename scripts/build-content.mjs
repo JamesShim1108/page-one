@@ -729,13 +729,15 @@ export async function compileContent(root = projectRoot) {
         searchRecords.push(
           ...topicSearchRecords({ course, unit, lesson, selectedGlossary }),
         );
-        validateDefinitionCoverage({
-          coverage: lesson.definitionCoverage,
-          concepts: selectedGlossary,
-          text: lessonReadingText(lesson),
-          location: `${course.id}/${lesson.id}`,
-          pageId: lesson.id,
-        });
+        // A course with no reading definitions has nothing to cover.
+        if (glossary.size > 0)
+          validateDefinitionCoverage({
+            coverage: lesson.definitionCoverage,
+            concepts: selectedGlossary,
+            text: lessonReadingText(lesson),
+            location: `${course.id}/${lesson.id}`,
+            pageId: lesson.id,
+          });
       }
       for (const quiz of unit.quizzes || []) {
         requireText(quiz.title, unitRoot);
@@ -1027,13 +1029,14 @@ export async function compileContent(root = projectRoot) {
           .update(json({ guide, glossary: selectedGuideGlossary }))
           .digest("hex")
           .slice(0, 16);
-        validateDefinitionCoverage({
-          coverage: guide.definitionCoverage,
-          concepts: selectedGuideGlossary,
-          text: guideReadingText(guide),
-          location: `${unitRoot}/study-guide.js`,
-          pageId: `${unit.id}-guide`,
-        });
+        if (glossary.size > 0)
+          validateDefinitionCoverage({
+            coverage: guide.definitionCoverage,
+            concepts: selectedGuideGlossary,
+            text: guideReadingText(guide),
+            location: `${unitRoot}/study-guide.js`,
+            pageId: `${unit.id}-guide`,
+          });
         emit(routes.guide[unit.id], {
           course,
           unit: unitInfo,

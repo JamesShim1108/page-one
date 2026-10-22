@@ -308,7 +308,7 @@
       }
     ]
   },
-  "contentRevision": "c1812d3c322b540c",
+  "contentRevision": "3411c97acb714c23",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-8-4",
@@ -386,41 +386,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "mao-zedong",
-        "topicId": "world-8-4",
-        "term": "Mao Zedong",
-        "definition": "Leader of the Chinese Communist Party who founded the People's Republic of China in 1949."
-      },
-      {
-        "id": "land-reform",
-        "topicId": "world-8-4",
-        "term": "land reform",
-        "definition": "The redistribution of land from large landowners to peasants or the state."
-      },
-      {
-        "id": "great-leap-forward",
-        "topicId": "world-8-4",
-        "term": "Great Leap Forward",
-        "definition": "Mao's 1958–1962 campaign to industrialize China rapidly, which caused a famine that killed tens of millions."
-      },
-      {
-        "id": "cultural-revolution",
-        "topicId": "world-8-4",
-        "term": "Cultural Revolution",
-        "definition": "Mao's 1966–1976 campaign in which Red Guards attacked officials, teachers, and traditional culture."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-8-mao-zedong",
-        "world-8-land-reform",
-        "world-8-great-leap-forward",
-        "world-8-cultural-revolution"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -444,36 +410,7 @@
     ]
   },
   "bankPath": "world/banks/world-8-4.json",
-  "glossary": [
-    {
-      "id": "world-8-mao-zedong",
-      "term": "Mao Zedong",
-      "definition": "Leader of the Chinese Communist Party who founded the People's Republic of China in 1949.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.4 glossary"
-    },
-    {
-      "id": "world-8-land-reform",
-      "term": "land reform",
-      "definition": "The redistribution of land from large landowners to peasants or the state.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.4 glossary"
-    },
-    {
-      "id": "world-8-great-leap-forward",
-      "term": "Great Leap Forward",
-      "definition": "Mao's 1958–1962 campaign to industrialize China rapidly, which caused a famine that killed tens of millions.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.4 glossary"
-    },
-    {
-      "id": "world-8-cultural-revolution",
-      "term": "Cultural Revolution",
-      "definition": "Mao's 1966–1976 campaign in which Red Guards attacked officials, teachers, and traditional culture.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.4 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-8-4",

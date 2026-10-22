@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.6. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.6.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,44 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-6"],
     },
   ],
-  vocabulary: [
-    {
-      id: "partition-of-india",
-      topicId: "world-8-6",
-      term: "partition of India",
-      definition:
-        "The 1947 division of British India into India and Pakistan, which caused mass migration and violence.",
-    },
-    {
-      id: "nationalization",
-      topicId: "world-8-6",
-      term: "nationalization",
-      definition: "A government's takeover of a privately owned business or resource.",
-    },
-    {
-      id: "suez-crisis",
-      topicId: "world-8-6",
-      term: "Suez Crisis",
-      definition:
-        "The 1956 invasion of Egypt by Britain, France, and Israel after Nasser nationalized the Suez Canal.",
-    },
-    {
-      id: "mixed-economy",
-      topicId: "world-8-6",
-      term: "mixed economy",
-      definition:
-        "An economy that combines state-owned industries and planning with private businesses.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-8-partition-of-india",
-      "world-8-nationalization",
-      "world-8-suez-crisis",
-      "world-8-mixed-economy",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

@@ -324,7 +324,7 @@
       }
     ]
   },
-  "contentRevision": "0779cb35d7f21195",
+  "contentRevision": "d63eee6cea946b83",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-5-6",
@@ -402,34 +402,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "meiji-restoration",
-        "topicId": "world-5-6",
-        "term": "Meiji Restoration",
-        "definition": "The 1868 overthrow of the Tokugawa shogunate that restored power to the emperor and launched rapid modernization in Japan."
-      },
-      {
-        "id": "zaibatsu",
-        "topicId": "world-5-6",
-        "term": "zaibatsu",
-        "definition": "Large family-controlled business groups in Japan that grew from enterprises the Meiji state sold to private owners."
-      },
-      {
-        "id": "muhammad-ali",
-        "topicId": "world-5-6",
-        "term": "Muhammad Ali",
-        "definition": "Governor of Egypt from 1805 to 1848 who built state factories and promoted cotton exports."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-5-meiji-restoration",
-        "world-5-zaibatsu",
-        "world-5-muhammad-ali"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -453,29 +426,7 @@
     ]
   },
   "bankPath": "world/banks/world-5-6.json",
-  "glossary": [
-    {
-      "id": "world-5-meiji-restoration",
-      "term": "Meiji Restoration",
-      "definition": "The 1868 overthrow of the Tokugawa shogunate that restored power to the emperor and launched rapid modernization in Japan.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.6 glossary"
-    },
-    {
-      "id": "world-5-zaibatsu",
-      "term": "zaibatsu",
-      "definition": "Large family-controlled business groups in Japan that grew from enterprises the Meiji state sold to private owners.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.6 glossary"
-    },
-    {
-      "id": "world-5-muhammad-ali",
-      "term": "Muhammad Ali",
-      "definition": "Governor of Egypt from 1805 to 1848 who built state factories and promoted cotton exports.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.6 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-5-6",

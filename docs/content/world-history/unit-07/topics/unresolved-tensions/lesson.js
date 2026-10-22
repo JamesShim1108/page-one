@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.5. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.5.
 
 export const lesson = {
   schemaVersion: 1,
@@ -70,53 +69,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-5"],
     },
   ],
-  vocabulary: [
-    {
-      id: "treaty-of-versailles",
-      topicId: "world-7-5",
-      term: "Treaty of Versailles",
-      definition:
-        "The 1919 peace treaty that blamed Germany for World War I and imposed territorial losses and reparations.",
-    },
-    {
-      id: "reparations",
-      topicId: "world-7-5",
-      term: "reparations",
-      definition:
-        "Payments a defeated country is required to make to compensate for war damage.",
-    },
-    {
-      id: "mandates",
-      topicId: "world-7-5",
-      term: "mandates",
-      definition:
-        "Former German and Ottoman territories placed under British or French control by the League of Nations after World War I.",
-    },
-    {
-      id: "league-of-nations",
-      topicId: "world-7-5",
-      term: "League of Nations",
-      definition:
-        "An international organization created after World War I to keep peace, which the United States never joined.",
-    },
-    {
-      id: "may-fourth",
-      topicId: "world-7-5",
-      term: "May Fourth Movement",
-      definition:
-        "A Chinese protest movement that began on May 4, 1919, against the transfer of German rights in Shandong to Japan.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-7-treaty-of-versailles",
-      "world-7-reparations",
-      "world-7-mandates",
-      "world-7-league-of-nations",
-      "world-7-may-fourth",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

@@ -300,7 +300,7 @@
       }
     ]
   },
-  "contentRevision": "7ac429f31d1489e8",
+  "contentRevision": "cb2e46ab0ce3fd4e",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-9-7",
@@ -372,34 +372,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "anti-globalization-movement",
-        "topicId": "world-9-7",
-        "term": "anti-globalization movement",
-        "definition": "A coalition of unions, environmentalists, farmers, and others who opposed free-trade agreements and global economic institutions."
-      },
-      {
-        "id": "zapatistas",
-        "topicId": "world-9-7",
-        "term": "Zapatistas",
-        "definition": "Mostly Indigenous rebels in Chiapas, Mexico, who rose up in 1994 against NAFTA and the Mexican government."
-      },
-      {
-        "id": "world-social-forum",
-        "topicId": "world-9-7",
-        "term": "World Social Forum",
-        "definition": "An annual meeting of activists, founded in Brazil in 2001, that opposed corporate-led globalization."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-9-anti-globalization-movement",
-        "world-9-zapatistas",
-        "world-9-world-social-forum"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -423,29 +396,7 @@
     ]
   },
   "bankPath": "world/banks/world-9-7.json",
-  "glossary": [
-    {
-      "id": "world-9-anti-globalization-movement",
-      "term": "anti-globalization movement",
-      "definition": "A coalition of unions, environmentalists, farmers, and others who opposed free-trade agreements and global economic institutions.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.7 glossary"
-    },
-    {
-      "id": "world-9-zapatistas",
-      "term": "Zapatistas",
-      "definition": "Mostly Indigenous rebels in Chiapas, Mexico, who rose up in 1994 against NAFTA and the Mexican government.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.7 glossary"
-    },
-    {
-      "id": "world-9-world-social-forum",
-      "term": "World Social Forum",
-      "definition": "An annual meeting of activists, founded in Brazil in 2001, that opposed corporate-led globalization.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.7 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-9-7",

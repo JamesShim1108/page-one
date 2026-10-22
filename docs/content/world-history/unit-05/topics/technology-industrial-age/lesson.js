@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.5. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.5.
 
 export const lesson = {
   schemaVersion: 1,
@@ -66,31 +65,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-5"],
     },
   ],
-  vocabulary: [
-    {
-      id: "steam-engine",
-      topicId: "world-5-5",
-      term: "steam engine",
-      definition:
-        "A machine that turns the heat of burning fuel into mechanical power, improved by James Watt in the late 1700s.",
-    },
-    {
-      id: "telegraph",
-      topicId: "world-5-5",
-      term: "telegraph",
-      definition: "A system that sends messages over wires by electric signal.",
-    },
-    {
-      id: "bessemer-process",
-      topicId: "world-5-5",
-      term: "Bessemer process",
-      definition: "A method developed in the 1850s for making steel cheaply from iron.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-5-steam-engine", "world-5-telegraph", "world-5-bessemer-process"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

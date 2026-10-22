@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.9. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.9.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,44 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-9"],
     },
   ],
-  vocabulary: [
-    {
-      id: "middle-class",
-      topicId: "world-5-9",
-      term: "middle class",
-      definition:
-        "A social class of managers, professionals, and business owners that grew with industrialization.",
-    },
-    {
-      id: "working-class",
-      topicId: "world-5-9",
-      term: "working class",
-      definition:
-        "The social class of people who worked for wages in factories, mines, and other industrial jobs.",
-    },
-    {
-      id: "separate-spheres",
-      topicId: "world-5-9",
-      term: "separate spheres",
-      definition:
-        "A middle-class ideal in which men worked for wages outside the home and women managed the household.",
-    },
-    {
-      id: "urbanization",
-      topicId: "world-5-9",
-      term: "Urbanization",
-      definition: "The growth of cities as people moved from rural areas to urban areas.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-5-middle-class",
-      "world-5-working-class",
-      "world-5-separate-spheres",
-      "world-5-urbanization",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

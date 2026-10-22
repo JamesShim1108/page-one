@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.6. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.6.
 
 export const lesson = {
   schemaVersion: 1,
@@ -67,32 +66,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-6"],
     },
   ],
-  vocabulary: [
-    {
-      id: "fascism",
-      topicId: "world-7-6",
-      term: "Fascism",
-      definition:
-        "A political movement that glorifies the nation, rejects democracy and communism, and demands obedience to one leader.",
-    },
-    {
-      id: "appeasement",
-      topicId: "world-7-6",
-      term: "appeasement",
-      definition:
-        "The policy of giving in to an aggressor's demands to avoid war, as Britain and France did at Munich in 1938.",
-    },
-    {
-      id: "manchuria",
-      topicId: "world-7-6",
-      term: "Manchuria",
-      definition: "A region of northeastern China that Japan seized in 1931.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-7-fascism", "world-7-appeasement", "world-7-manchuria"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

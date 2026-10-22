@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 3.4. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-03.js.
+// Original Page One lesson for CED Topic 3.4.
 
 export const lesson = {
   schemaVersion: 1,
@@ -97,33 +96,7 @@ export const lesson = {
       sourceIds: ["ced-topic-3-4"],
     },
   ],
-  vocabulary: [
-    {
-      id: "jizya",
-      topicId: "world-3-4",
-      term: "jizya",
-      definition:
-        "A tax paid by non-Muslim subjects in many Muslim-ruled states, abolished by Akbar and restored by Aurangzeb in Mughal India.",
-    },
-    {
-      id: "rajputs",
-      topicId: "world-3-4",
-      term: "Rajputs",
-      definition:
-        "Hindu warrior princes of northern and western India, many of whom served the Mughal emperors after Akbar made alliances with them.",
-    },
-    {
-      id: "banners",
-      topicId: "world-3-4",
-      term: "banners",
-      definition:
-        "Manchu military and social units that organized the Qing army and its families.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-3-jizya", "world-3-rajputs", "world-3-banners"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

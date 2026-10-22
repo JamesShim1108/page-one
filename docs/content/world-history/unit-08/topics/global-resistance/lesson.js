@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.7. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.7.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,45 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-7"],
     },
   ],
-  vocabulary: [
-    {
-      id: "civil-rights-movement",
-      topicId: "world-8-7",
-      term: "civil rights movement",
-      definition:
-        "The movement, especially in the 1950s and 1960s, to end racial segregation and discrimination in the United States.",
-    },
-    {
-      id: "apartheid",
-      topicId: "world-8-7",
-      term: "apartheid",
-      definition:
-        "South Africa's system of legal racial segregation and white minority rule, 1948–1994.",
-    },
-    {
-      id: "african-national-congress",
-      topicId: "world-8-7",
-      term: "African National Congress",
-      definition:
-        "The South African political party that led the struggle against apartheid.",
-    },
-    {
-      id: "prague-spring",
-      topicId: "world-8-7",
-      term: "Prague Spring",
-      definition:
-        "The 1968 reform movement in Czechoslovakia, ended by a Warsaw Pact invasion.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-8-civil-rights-movement",
-      "world-8-apartheid",
-      "world-8-african-national-congress",
-      "world-8-prague-spring",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

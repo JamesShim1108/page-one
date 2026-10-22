@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 6.8. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-06.js.
+// Original Page One lesson for CED Topic 6.8.
 
 export const lesson = {
   schemaVersion: 1,
@@ -47,19 +46,7 @@ export const lesson = {
       sourceIds: ["ced-topic-6-8"],
     },
   ],
-  vocabulary: [
-    {
-      id: "industrial-advantage",
-      topicId: "world-6-8",
-      term: "military advantage",
-      definition:
-        "The superiority in weapons and transport that industrial states held over many other societies after 1850.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-6-industrial-advantage"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

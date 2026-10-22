@@ -80,7 +80,10 @@ test("generated search stays compact, reading-only, and honest about Algebra 2",
   );
   assert.equal(world.schemaVersion, 1);
   assert.ok(world.records.some((record) => record.type === "passage"));
-  assert.ok(world.records.some((record) => record.type === "glossary"));
+  assert.equal(
+    world.records.some((record) => record.type === "glossary"),
+    false,
+  );
   assert.equal(
     world.records.some((record) => record.type === "quiz"),
     false,

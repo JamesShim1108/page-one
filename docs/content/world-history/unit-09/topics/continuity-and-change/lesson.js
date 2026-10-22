@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.9. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.9.
 
 export const lesson = {
   schemaVersion: 1,
@@ -46,16 +45,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-9"],
     },
   ],
-  vocabulary: [
-    {
-      id: "globalization",
-      topicId: "world-9-9",
-      term: "Globalization",
-      definition:
-        "The growing connection of the world's economies, cultures, and peoples through trade, technology, and migration.",
-    },
-  ],
-  definitionCoverage: { status: "required", conceptIds: ["world-9-globalization"] },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

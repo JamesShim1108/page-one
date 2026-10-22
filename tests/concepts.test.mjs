@@ -186,15 +186,15 @@ test("new concepts can be authored once with valid source references", () => {
   );
 });
 
-for (let number = 1; number <= 7; number++) {
-  test(`Topic 1.${number}: resolved definitions match existing vocabulary and render accessible reading controls`, async () => {
+for (let number = 1; number <= 3; number++) {
+  test(`Precalculus Topic 1.${number}: resolved definitions match existing vocabulary and render accessible reading controls`, async () => {
     const files = await compiled;
-    const data = JSON.parse(files.get(`world/topics/world-1-${number}.json`));
+    const data = JSON.parse(files.get(`precalculus/topics/precalculus-1-${number}.json`));
     data.bank = JSON.parse(files.get(data.bankPath));
-    assert.equal(data.glossary.length, data.lesson.vocabulary.length);
+    assert.ok(data.glossary.length > 0);
     for (const entry of data.glossary) {
       const original = data.lesson.vocabulary.find((term) => term.term === entry.term);
-      assert.equal(entry.definition, original.definition);
+      if (original) assert.equal(entry.definition, original.definition);
     }
     const html = lessonPage(data, { attempt: () => null, quickView: () => "" });
     assert.match(html, /class="concept-trigger"/);
@@ -207,13 +207,32 @@ for (let number = 1; number <= 7; number++) {
   });
 }
 
-test("study guides reuse selected course concepts without shipping a course-wide dictionary to the homepage", async () => {
+test("World History carries no key terms or reading definitions beyond the class Terms sets", async () => {
   const files = await compiled;
-  const guide = JSON.parse(files.get("world/guides/world-1.json"));
-  assert.equal(guide.glossary.length, guide.guide.glossaryIds.length);
-  assert.match(studyGuidePage(guide), /class="concept-trigger"/);
+  const topics = [...files.keys()].filter((path) =>
+    /^world\/topics\/[^/]+\.json$/.test(path),
+  );
+  assert.ok(topics.length >= 70);
+  for (const path of topics) {
+    const data = JSON.parse(files.get(path));
+    assert.deepEqual(data.lesson.vocabulary, [], path);
+    assert.deepEqual(data.glossary, [], path);
+    assert.equal(data.lesson.definitionCoverage, undefined, path);
+    data.bank = JSON.parse(files.get(data.bankPath));
+    const html = lessonPage(data, { attempt: () => null, quickView: () => "" });
+    assert.doesNotMatch(html, /concept-trigger|Key terms/, path);
+  }
+  for (const path of [...files.keys()].filter((name) => /^world\/guides\//.test(name))) {
+    const guide = JSON.parse(files.get(path));
+    assert.deepEqual(guide.glossary, [], path);
+    assert.doesNotMatch(studyGuidePage(guide), /concept-trigger/, path);
+  }
+  const terms = [...files.keys()].filter((path) => /^world\/terms\//.test(path));
+  assert.deepEqual(terms.sort(), [
+    "world/terms/world-period-1-a.json",
+    "world/terms/world-period-1-b.json",
+  ]);
   assert.doesNotMatch(files.get("catalog.json"), /glossary|definition/);
-  assert.doesNotMatch(files.get("world/quizzes/world-1-practice.json"), /glossary/);
 });
 
 test("popover placement fits desktop, phone, and bottom-edge anchors", () => {

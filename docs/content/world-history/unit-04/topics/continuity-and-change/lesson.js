@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 4.8. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-04.js.
+// Original Page One lesson for CED Topic 4.8.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,19 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-4-8"],
     },
   ],
-  vocabulary: [
-    {
-      id: "global-economy",
-      topicId: "world-4-8",
-      term: "global economy",
-      definition:
-        "A network of trade linking all inhabited continents, which first formed after 1450 through ocean routes and silver flows.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-4-global-economy"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

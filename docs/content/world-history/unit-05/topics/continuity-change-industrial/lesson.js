@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.10. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.10.
 
 export const lesson = {
   schemaVersion: 1,
@@ -46,19 +45,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-10"],
     },
   ],
-  vocabulary: [
-    {
-      id: "fossil-fuels",
-      topicId: "world-5-10",
-      term: "fossil fuels",
-      definition:
-        "Energy sources such as coal and oil formed from ancient organic matter, which powered industrialization.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-5-fossil-fuels"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

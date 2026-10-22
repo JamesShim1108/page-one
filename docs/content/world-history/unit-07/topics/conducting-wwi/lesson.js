@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.3. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.3.
 
 export const lesson = {
   schemaVersion: 1,
@@ -79,33 +78,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-3"],
     },
   ],
-  vocabulary: [
-    {
-      id: "total-war",
-      topicId: "world-7-3",
-      term: "total war",
-      definition:
-        "A war in which governments mobilize entire economies and populations and civilians become part of the war effort.",
-    },
-    {
-      id: "propaganda",
-      topicId: "world-7-3",
-      term: "Propaganda",
-      definition:
-        "Information, often biased or misleading, spread by governments to shape public opinion.",
-    },
-    {
-      id: "trench-warfare",
-      topicId: "world-7-3",
-      term: "trenches",
-      definition:
-        "Long ditches dug by armies for protection, which produced a deadly stalemate on the Western Front in World War I.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-7-total-war", "world-7-propaganda", "world-7-trench-warfare"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

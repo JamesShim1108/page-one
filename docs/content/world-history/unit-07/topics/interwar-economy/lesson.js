@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.4. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.4.
 
 export const lesson = {
   schemaVersion: 1,
@@ -67,37 +66,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-4"],
     },
   ],
-  vocabulary: [
-    {
-      id: "great-depression",
-      topicId: "world-7-4",
-      term: "Great Depression",
-      definition:
-        "The worldwide economic collapse that began in 1929 and lasted through the 1930s.",
-    },
-    {
-      id: "new-deal",
-      topicId: "world-7-4",
-      term: "New Deal",
-      definition:
-        "Franklin Roosevelt's programs, begun in 1933, that created jobs, regulated banks, and expanded government's economic role in the United States.",
-    },
-    {
-      id: "five-year-plans",
-      topicId: "world-7-4",
-      term: "Five-Year Plans",
-      definition:
-        "Stalin's state-directed plans, begun in 1928, for rapid industrialization and collective farming in the Soviet Union.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-7-great-depression",
-      "world-7-new-deal",
-      "world-7-five-year-plans",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

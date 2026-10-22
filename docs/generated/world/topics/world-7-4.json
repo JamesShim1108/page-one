@@ -315,7 +315,7 @@
       }
     ]
   },
-  "contentRevision": "4d545de6db0a722e",
+  "contentRevision": "3299531c1d0a66de",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-7-4",
@@ -386,34 +386,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "great-depression",
-        "topicId": "world-7-4",
-        "term": "Great Depression",
-        "definition": "The worldwide economic collapse that began in 1929 and lasted through the 1930s."
-      },
-      {
-        "id": "new-deal",
-        "topicId": "world-7-4",
-        "term": "New Deal",
-        "definition": "Franklin Roosevelt's programs, begun in 1933, that created jobs, regulated banks, and expanded government's economic role in the United States."
-      },
-      {
-        "id": "five-year-plans",
-        "topicId": "world-7-4",
-        "term": "Five-Year Plans",
-        "definition": "Stalin's state-directed plans, begun in 1928, for rapid industrialization and collective farming in the Soviet Union."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-7-great-depression",
-        "world-7-new-deal",
-        "world-7-five-year-plans"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -437,29 +410,7 @@
     ]
   },
   "bankPath": "world/banks/world-7-4.json",
-  "glossary": [
-    {
-      "id": "world-7-great-depression",
-      "term": "Great Depression",
-      "definition": "The worldwide economic collapse that began in 1929 and lasted through the 1930s.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.4 glossary"
-    },
-    {
-      "id": "world-7-new-deal",
-      "term": "New Deal",
-      "definition": "Franklin Roosevelt's programs, begun in 1933, that created jobs, regulated banks, and expanded government's economic role in the United States.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.4 glossary"
-    },
-    {
-      "id": "world-7-five-year-plans",
-      "term": "Five-Year Plans",
-      "definition": "Stalin's state-directed plans, begun in 1928, for rapid industrialization and collective farming in the Soviet Union.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.4 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-7-4",

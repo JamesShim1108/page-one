@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 6.4. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-06.js.
+// Original Page One lesson for CED Topic 6.4.
 
 export const lesson = {
   schemaVersion: 1,
@@ -70,25 +69,7 @@ export const lesson = {
       sourceIds: ["ced-topic-6-4"],
     },
   ],
-  vocabulary: [
-    {
-      id: "cash-crops",
-      topicId: "world-6-4",
-      term: "export crops",
-      definition:
-        "Crops such as cotton, rubber, or coffee grown mainly for sale abroad rather than for local food.",
-    },
-    {
-      id: "guano",
-      topicId: "world-6-4",
-      term: "guano",
-      definition: "Bird droppings, exported from Peru in the 1800s as fertilizer.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-6-cash-crops", "world-6-guano"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

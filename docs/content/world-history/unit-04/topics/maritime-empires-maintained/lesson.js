@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 4.5. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-04.js.
+// Original Page One lesson for CED Topic 4.5.
 
 export const lesson = {
   schemaVersion: 1,
@@ -114,53 +113,7 @@ export const lesson = {
       sourceIds: ["ced-topic-4-5"],
     },
   ],
-  vocabulary: [
-    {
-      id: "encomienda",
-      topicId: "world-4-5",
-      term: "encomienda",
-      definition:
-        "A Spanish colonial grant giving colonists the right to demand labor and tribute from Indigenous communities.",
-    },
-    {
-      id: "hacienda",
-      topicId: "world-4-5",
-      term: "haciendas",
-      definition:
-        "Large landed estates in Spanish America that relied on Indigenous and mixed-ancestry workers, often bound by debt.",
-    },
-    {
-      id: "middle-passage",
-      topicId: "world-4-5",
-      term: "Middle Passage",
-      definition:
-        "The forced voyage of enslaved Africans across the Atlantic to the Americas, during which many died.",
-    },
-    {
-      id: "chattel-slavery",
-      topicId: "world-4-5",
-      term: "chattel slavery",
-      definition:
-        "A system in which enslaved people are treated as property and their status passes to their children.",
-    },
-    {
-      id: "manila-galleons",
-      topicId: "world-4-5",
-      term: "Manila galleons",
-      definition:
-        "Spanish ships that carried American silver across the Pacific to Manila to trade for Chinese goods after 1571.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-4-encomienda",
-      "world-4-hacienda",
-      "world-4-middle-passage",
-      "world-4-chattel-slavery",
-      "world-4-manila-galleons",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

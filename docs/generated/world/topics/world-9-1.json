@@ -300,7 +300,7 @@
       }
     ]
   },
-  "contentRevision": "46a1ccce86a89c6a",
+  "contentRevision": "6f4265613d5949ce",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-9-1",
@@ -377,34 +377,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "shipping-containers",
-        "topicId": "world-9-1",
-        "term": "shipping containers",
-        "definition": "Standard steel boxes that move goods from ship to train to truck without unloading, which made global trade much cheaper."
-      },
-      {
-        "id": "green-revolution",
-        "topicId": "world-9-1",
-        "term": "Green Revolution",
-        "definition": "The spread of high-yield seeds, chemical fertilizers, and irrigation that increased grain harvests from the 1940s to the 1970s."
-      },
-      {
-        "id": "antibiotics",
-        "topicId": "world-9-1",
-        "term": "antibiotics",
-        "definition": "Drugs, such as penicillin, that kill or stop the growth of bacteria."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-9-shipping-containers",
-        "world-9-green-revolution",
-        "world-9-antibiotics"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -428,29 +401,7 @@
     ]
   },
   "bankPath": "world/banks/world-9-1.json",
-  "glossary": [
-    {
-      "id": "world-9-shipping-containers",
-      "term": "shipping containers",
-      "definition": "Standard steel boxes that move goods from ship to train to truck without unloading, which made global trade much cheaper.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.1 glossary"
-    },
-    {
-      "id": "world-9-green-revolution",
-      "term": "Green Revolution",
-      "definition": "The spread of high-yield seeds, chemical fertilizers, and irrigation that increased grain harvests from the 1940s to the 1970s.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.1 glossary"
-    },
-    {
-      "id": "world-9-antibiotics",
-      "term": "antibiotics",
-      "definition": "Drugs, such as penicillin, that kill or stop the growth of bacteria.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.1 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-9-1",

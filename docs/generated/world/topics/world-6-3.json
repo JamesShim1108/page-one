@@ -302,7 +302,7 @@
       }
     ]
   },
-  "contentRevision": "969df3e8f613c018",
+  "contentRevision": "1469f9ad9100a7e7",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-6-3",
@@ -379,41 +379,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "sepoys",
-        "topicId": "world-6-3",
-        "term": "sepoys",
-        "definition": "Indian soldiers in the army of the British East India Company."
-      },
-      {
-        "id": "battle-of-adwa",
-        "topicId": "world-6-3",
-        "term": "Battle of Adwa",
-        "definition": "The 1896 battle in which Ethiopian forces under Menelik II defeated Italy, preserving Ethiopia's independence."
-      },
-      {
-        "id": "ghost-dance",
-        "topicId": "world-6-3",
-        "term": "Ghost Dance",
-        "definition": "A Native American religious movement of the 1880s that promised the return of the buffalo and the old way of life."
-      },
-      {
-        "id": "taiping-rebellion",
-        "topicId": "world-6-3",
-        "term": "Taiping Rebellion",
-        "definition": "A massive rebellion against the Qing dynasty from 1850 to 1864, led by Hong Xiuquan, that cost millions of lives."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-6-sepoys",
-        "world-6-battle-of-adwa",
-        "world-6-ghost-dance",
-        "world-6-taiping-rebellion"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -437,36 +403,7 @@
     ]
   },
   "bankPath": "world/banks/world-6-3.json",
-  "glossary": [
-    {
-      "id": "world-6-sepoys",
-      "term": "sepoys",
-      "definition": "Indian soldiers in the army of the British East India Company.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.3 glossary"
-    },
-    {
-      "id": "world-6-battle-of-adwa",
-      "term": "Battle of Adwa",
-      "definition": "The 1896 battle in which Ethiopian forces under Menelik II defeated Italy, preserving Ethiopia's independence.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.3 glossary"
-    },
-    {
-      "id": "world-6-ghost-dance",
-      "term": "Ghost Dance",
-      "definition": "A Native American religious movement of the 1880s that promised the return of the buffalo and the old way of life.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.3 glossary"
-    },
-    {
-      "id": "world-6-taiping-rebellion",
-      "term": "Taiping Rebellion",
-      "definition": "A massive rebellion against the Qing dynasty from 1850 to 1864, led by Hong Xiuquan, that cost millions of lives.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.3 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-6-3",

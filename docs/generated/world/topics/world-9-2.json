@@ -300,7 +300,7 @@
       }
     ]
   },
-  "contentRevision": "92faf29503a1b78d",
+  "contentRevision": "930203033a7057a8",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-9-2",
@@ -376,34 +376,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "pandemic",
-        "topicId": "world-9-2",
-        "term": "pandemic",
-        "definition": "An outbreak of disease that spreads across many countries or the whole world."
-      },
-      {
-        "id": "hiv-aids",
-        "topicId": "world-9-2",
-        "term": "HIV/AIDS",
-        "definition": "A disease caused by a virus that attacks the immune system, identified in the early 1980s."
-      },
-      {
-        "id": "life-expectancy",
-        "topicId": "world-9-2",
-        "term": "life expectancy",
-        "definition": "The average number of years a person in a population can expect to live."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-9-pandemic",
-        "world-9-hiv-aids",
-        "world-9-life-expectancy"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -427,29 +400,7 @@
     ]
   },
   "bankPath": "world/banks/world-9-2.json",
-  "glossary": [
-    {
-      "id": "world-9-pandemic",
-      "term": "pandemic",
-      "definition": "An outbreak of disease that spreads across many countries or the whole world.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.2 glossary"
-    },
-    {
-      "id": "world-9-hiv-aids",
-      "term": "HIV/AIDS",
-      "definition": "A disease caused by a virus that attacks the immune system, identified in the early 1980s.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.2 glossary"
-    },
-    {
-      "id": "world-9-life-expectancy",
-      "term": "life expectancy",
-      "definition": "The average number of years a person in a population can expect to live.",
-      "aliases": [],
-      "sourceLabel": "Topic 9.2 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-9-2",

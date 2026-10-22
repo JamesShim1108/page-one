@@ -324,7 +324,7 @@
       }
     ]
   },
-  "contentRevision": "61b6b0d92aedd019",
+  "contentRevision": "366264d2e04fa27d",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-5-9",
@@ -400,41 +400,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "middle-class",
-        "topicId": "world-5-9",
-        "term": "middle class",
-        "definition": "A social class of managers, professionals, and business owners that grew with industrialization."
-      },
-      {
-        "id": "working-class",
-        "topicId": "world-5-9",
-        "term": "working class",
-        "definition": "The social class of people who worked for wages in factories, mines, and other industrial jobs."
-      },
-      {
-        "id": "separate-spheres",
-        "topicId": "world-5-9",
-        "term": "separate spheres",
-        "definition": "A middle-class ideal in which men worked for wages outside the home and women managed the household."
-      },
-      {
-        "id": "urbanization",
-        "topicId": "world-5-9",
-        "term": "Urbanization",
-        "definition": "The growth of cities as people moved from rural areas to urban areas."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-5-middle-class",
-        "world-5-working-class",
-        "world-5-separate-spheres",
-        "world-5-urbanization"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -458,36 +424,7 @@
     ]
   },
   "bankPath": "world/banks/world-5-9.json",
-  "glossary": [
-    {
-      "id": "world-5-middle-class",
-      "term": "middle class",
-      "definition": "A social class of managers, professionals, and business owners that grew with industrialization.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.9 glossary"
-    },
-    {
-      "id": "world-5-working-class",
-      "term": "working class",
-      "definition": "The social class of people who worked for wages in factories, mines, and other industrial jobs.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.9 glossary"
-    },
-    {
-      "id": "world-5-separate-spheres",
-      "term": "separate spheres",
-      "definition": "A middle-class ideal in which men worked for wages outside the home and women managed the household.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.9 glossary"
-    },
-    {
-      "id": "world-5-urbanization",
-      "term": "Urbanization",
-      "definition": "The growth of cities as people moved from rural areas to urban areas.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.9 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-5-9",
