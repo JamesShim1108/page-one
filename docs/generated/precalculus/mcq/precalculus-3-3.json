@@ -1,0 +1,759 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-p02",
+              "precalculus-3-1-p07",
+              "precalculus-3-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-p02",
+              "precalculus-3-2-p07",
+              "precalculus-3-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-p02",
+              "precalculus-3-3-p07",
+              "precalculus-3-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-p02",
+              "precalculus-3-4-p07",
+              "precalculus-3-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-p02",
+              "precalculus-3-5-p07",
+              "precalculus-3-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-p02",
+              "precalculus-3-6-p07",
+              "precalculus-3-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-p02",
+              "precalculus-3-7-p07",
+              "precalculus-3-7-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-p02",
+              "precalculus-3-8-p07",
+              "precalculus-3-8-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-p02",
+              "precalculus-3-9-p07",
+              "precalculus-3-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-p02",
+              "precalculus-3-10-p07",
+              "precalculus-3-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-p02",
+              "precalculus-3-11-p07",
+              "precalculus-3-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-p02",
+              "precalculus-3-12-p07",
+              "precalculus-3-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-p02",
+              "precalculus-3-13-p07",
+              "precalculus-3-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-p02",
+              "precalculus-3-14-p07",
+              "precalculus-3-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-p02",
+              "precalculus-3-15-p07",
+              "precalculus-3-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-3-mcq-1",
+          "title": "Unit 3 multiple choice, Part 1: Topics 3.1 to 3.7",
+          "questionCount": 21
+        },
+        {
+          "id": "precalculus-3-mcq-2",
+          "title": "Unit 3 multiple choice, Part 2: Topics 3.8 to 3.15",
+          "questionCount": 24
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-3-1-mcq",
+          "title": "Periodic Phenomena multiple choice",
+          "topicId": "precalculus-3-1",
+          "code": "3.1",
+          "topicTitle": "Periodic Phenomena",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-2-mcq",
+          "title": "Sine, Cosine, and Tangent multiple choice",
+          "topicId": "precalculus-3-2",
+          "code": "3.2",
+          "topicTitle": "Sine, Cosine, and Tangent",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-3-mcq",
+          "title": "Sine and Cosine Function Values multiple choice",
+          "topicId": "precalculus-3-3",
+          "code": "3.3",
+          "topicTitle": "Sine and Cosine Function Values",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-4-mcq",
+          "title": "Sine and Cosine Function Graphs multiple choice",
+          "topicId": "precalculus-3-4",
+          "code": "3.4",
+          "topicTitle": "Sine and Cosine Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-5-mcq",
+          "title": "Sinusoidal Functions multiple choice",
+          "topicId": "precalculus-3-5",
+          "code": "3.5",
+          "topicTitle": "Sinusoidal Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-6-mcq",
+          "title": "Sinusoidal Function Transformations multiple choice",
+          "topicId": "precalculus-3-6",
+          "code": "3.6",
+          "topicTitle": "Sinusoidal Function Transformations",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-7-mcq",
+          "title": "Sinusoidal Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-3-7",
+          "code": "3.7",
+          "topicTitle": "Sinusoidal Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-8-mcq",
+          "title": "The Tangent Function multiple choice",
+          "topicId": "precalculus-3-8",
+          "code": "3.8",
+          "topicTitle": "The Tangent Function",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-9-mcq",
+          "title": "Inverse Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-9",
+          "code": "3.9",
+          "topicTitle": "Inverse Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-10-mcq",
+          "title": "Trigonometric Equations and Inequalities multiple choice",
+          "topicId": "precalculus-3-10",
+          "code": "3.10",
+          "topicTitle": "Trigonometric Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-11-mcq",
+          "title": "The Secant, Cosecant, and Cotangent Functions multiple choice",
+          "topicId": "precalculus-3-11",
+          "code": "3.11",
+          "topicTitle": "The Secant, Cosecant, and Cotangent Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-12-mcq",
+          "title": "Equivalent Representations of Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-12",
+          "code": "3.12",
+          "topicTitle": "Equivalent Representations of Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-13-mcq",
+          "title": "Trigonometry and Polar Coordinates multiple choice",
+          "topicId": "precalculus-3-13",
+          "code": "3.13",
+          "topicTitle": "Trigonometry and Polar Coordinates",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-14-mcq",
+          "title": "Polar Function Graphs multiple choice",
+          "topicId": "precalculus-3-14",
+          "code": "3.14",
+          "topicTitle": "Polar Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-15-mcq",
+          "title": "Rates of Change in Polar Functions multiple choice",
+          "topicId": "precalculus-3-15",
+          "code": "3.15",
+          "topicTitle": "Rates of Change in Polar Functions",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-3-3",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 3,
+    "code": "3.3",
+    "title": "Sine and Cosine Function Values",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "The coordinates (r cos θ, r sin θ) of a point on a circle centered at the origin, and exact sine and cosine values for multiples of π/4 and π/6 from special right triangles."
+  },
+  "framework": null,
+  "contentRevision": "bb4c6dd23c4b4ac3",
+  "questions": [
+    {
+      "id": "precalculus-3-3-q01",
+      "topicId": "precalculus-3-3",
+      "concept": "points-on-a-circle",
+      "difficulty": "Quick check",
+      "skill": "apply-results",
+      "prompt": "The terminal ray of an angle of 2π/3 radians in standard position intersects a circle of radius 4 centered at the origin at point P. What are the coordinates of P?",
+      "choices": [
+        "(−2√3, 2)",
+        "(2, 2√3)",
+        "(−1/2, √3/2)",
+        "(−2, 2√3)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "P = (4 cos(2π/3), 4 sin(2π/3)) = (4(−1/2), 4(√3/2)) = (−2, 2√3).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "This swaps the cosine and sine values; the x-coordinate is r cos θ.",
+        "The terminal ray of 2π/3 is in Quadrant II, so the x-coordinate is negative.",
+        "This is the point on the unit circle; multiply by the radius 4.",
+        "(r cos θ, r sin θ) = (−2, 2√3)."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Cosine gives x and sine gives y, each times the radius.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-3-q02",
+      "topicId": "precalculus-3-3",
+      "concept": "special-angles",
+      "difficulty": "Quick check",
+      "skill": "identify-information",
+      "prompt": "What is the exact value of sin(7π/6)?",
+      "choices": [
+        "1/2",
+        "−1/2",
+        "−√3/2",
+        "√3/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "7π/6 is π/6 past π, so its terminal ray is in Quadrant III, where sine is negative. sin(7π/6) = −sin(π/6) = −1/2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The size is right, but sine is negative in Quadrant III.",
+        "Quadrant III, related to π/6: −1/2.",
+        "−√3/2 is cos(7π/6), the x-coordinate.",
+        "√3/2 is cos(π/6), with neither the right function nor the right sign."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "For angles related to π/6, sine is 1/2 in size and cosine is √3/2.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-3-3-q03",
+      "topicId": "precalculus-3-3",
+      "concept": "special-angles",
+      "difficulty": "Quick check",
+      "skill": "identify-information",
+      "prompt": "What is the exact value of cos(3π/4)?",
+      "choices": [
+        "−√2/2",
+        "√2/2",
+        "−1/2",
+        "−√3/2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "3π/4 is in Quadrant II, where cosine is negative, and it is related to π/4. So cos(3π/4) = −√2/2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Quadrant II gives a negative x-coordinate of size √2/2.",
+        "The size is right, but the x-coordinate is negative in Quadrant II.",
+        "1/2 goes with multiples of π/6 and π/3, not π/4.",
+        "√3/2 goes with multiples of π/6, not π/4."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Multiples of π/4 have sine and cosine of size √2/2.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-3-3-q04",
+      "topicId": "precalculus-3-3",
+      "concept": "points-on-a-circle",
+      "difficulty": "Quick check",
+      "skill": "apply-results",
+      "prompt": "A Ferris wheel has a radius of 20 meters, and its center is 25 meters above the ground. A seat starts level with the center on the right side and rotates counterclockwise through an angle of π/6. How high above the ground is the seat?",
+      "choices": [
+        "about 42.3 meters",
+        "10 meters",
+        "35 meters",
+        "45 meters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The seat is 20 sin(π/6) = 10 meters above the center, so it is 25 + 10 = 35 meters above the ground.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "42.3 ≈ 25 + 20(√3/2) uses the cosine of π/6, which is the horizontal displacement.",
+        "10 is the height above the center, not above the ground.",
+        "25 + 20 sin(π/6) = 25 + 10.",
+        "45 = 25 + 20 is the height at the top, after a rotation of π/2."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Height above the center is the vertical displacement, r sin θ.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-3-q05",
+      "topicId": "precalculus-3-3",
+      "concept": "special-angles",
+      "difficulty": "Core",
+      "skill": "identify-information",
+      "prompt": "For which angle θ is cos θ = −√3/2 and sin θ = 1/2?",
+      "choices": [
+        "2π/3",
+        "7π/6",
+        "5π/6",
+        "11π/6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Negative cosine and positive sine put the terminal ray in Quadrant II. The values √3/2 for the x-size and 1/2 for the y-size belong to angles related to π/6, so θ = π − π/6 = 5π/6.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "cos(2π/3) = −1/2 and sin(2π/3) = √3/2, which swaps the two values.",
+        "sin(7π/6) = −1/2, a negative y-coordinate.",
+        "Quadrant II, related to π/6.",
+        "cos(11π/6) = √3/2, a positive x-coordinate."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "x-size √3/2 means related to π/6; x-size 1/2 means related to π/3.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-3-3-q06",
+      "topicId": "precalculus-3-3",
+      "concept": "special-angles",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "What is the exact value of tan(π/3)?",
+      "choices": [
+        "√3/3",
+        "1",
+        "√3",
+        "√3/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "tan(π/3) = sin(π/3)/cos(π/3) = (√3/2)/(1/2) = √3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "√3/3 = 1/√3 is tan(π/6), cosine over sine for π/3.",
+        "1 is tan(π/4).",
+        "(√3/2)/(1/2) = √3.",
+        "√3/2 is sin(π/3), not the ratio of sine to cosine."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Tangent is sine over cosine, not cosine over sine.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-3-q07",
+      "topicId": "precalculus-3-3",
+      "concept": "points-on-a-circle",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "The terminal ray of an angle of 5π/4 radians in standard position intersects a circle of radius 10 centered at the origin at point P. What are the coordinates of P?",
+      "choices": [
+        "(−√2/2, −√2/2)",
+        "(5√2, 5√2)",
+        "(−5, −5√3)",
+        "(−5√2, −5√2)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "P = (10 cos(5π/4), 10 sin(5π/4)) = (10(−√2/2), 10(−√2/2)) = (−5√2, −5√2).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "This is the point on the unit circle; multiply each coordinate by 10.",
+        "5π/4 is in Quadrant III, so both coordinates are negative.",
+        "−5 and −5√3 use the values for 4π/3, not 5π/4.",
+        "Both coordinates are 10(−√2/2)."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Scale the unit-circle point by the radius.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-3-q08",
+      "topicId": "precalculus-3-3",
+      "concept": "special-angles",
+      "difficulty": "Core",
+      "skill": "support-conclusions",
+      "prompt": "A student says that sin(5π/3) = √3/2, because 5π/3 is related to π/3 and sin(π/3) = √3/2. Which of the following is the best response?",
+      "choices": [
+        "The student is correct, because the terminal rays of 5π/3 and π/3 make the same angle with the x-axis.",
+        "The student is incorrect, because sin(5π/3) = 1/2.",
+        "The student is incorrect, because the terminal ray of 5π/3 is in Quadrant IV, so sin(5π/3) = −√3/2.",
+        "The student is incorrect, because sin(5π/3) = −1/2."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The size √3/2 is right, but 5π/3 is in Quadrant IV, where P is below the x-axis and the sine is negative.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "The same acute angle gives the same size, but the quadrant decides the sign.",
+        "1/2 is the size of cos(5π/3), not sin(5π/3).",
+        "Quadrant IV makes the y-coordinate negative.",
+        "−1/2 has the right sign but belongs to angles related to π/6."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Reference values give the size; quadrants give the sign.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    },
+    {
+      "id": "precalculus-3-3-q09",
+      "topicId": "precalculus-3-3",
+      "concept": "points-on-a-circle",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "A point moves counterclockwise on a circle of radius 8 centered at the origin, from the terminal ray of θ = π/6 to the terminal ray of θ = 3π/4. By how much does its x-coordinate change?",
+      "choices": [
+        "−4√2 − 4√3",
+        "4√2 − 4√3",
+        "4√3 + 4√2",
+        "−4√2 + 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The x-coordinate goes from 8 cos(π/6) = 4√3 to 8 cos(3π/4) = −4√2. The change is −4√2 − 4√3, about −12.59.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "Final minus initial: −4√2 − 4√3.",
+        "cos(3π/4) is negative, so the final x-coordinate is −4√2, not 4√2.",
+        "This is the size of the change, but the point moves to the left, so the change is negative.",
+        "4 is 8 sin(π/6), the y-coordinate, not the x-coordinate."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Change is final minus initial, with signs from the quadrants.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-3-q10",
+      "topicId": "precalculus-3-3",
+      "concept": "special-angles",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "Which of the following statements is true?",
+      "choices": [
+        "sin(3π/4) = cos(3π/4)",
+        "sin(π/6) = cos(π/6)",
+        "sin(2π/3) = cos(2π/3)",
+        "sin(5π/4) = cos(5π/4)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "5π/4 is related to π/4 and lies in Quadrant III, so sin(5π/4) = cos(5π/4) = −√2/2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-3"
+      ],
+      "choiceExplanations": [
+        "In Quadrant II, sin(3π/4) = √2/2 but cos(3π/4) = −√2/2.",
+        "sin(π/6) = 1/2 and cos(π/6) = √3/2.",
+        "sin(2π/3) = √3/2 and cos(2π/3) = −1/2.",
+        "Both are −√2/2, equal in size and sign."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Equal sizes are not enough; the signs must match too.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-3-3-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-3",
+      "title": "Sine and Cosine Function Values multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-3-3-q01",
+        "precalculus-3-3-q02",
+        "precalculus-3-3-q03",
+        "precalculus-3-3-q04",
+        "precalculus-3-3-q05",
+        "precalculus-3-3-q06",
+        "precalculus-3-3-q07",
+        "precalculus-3-3-q08",
+        "precalculus-3-3-q09",
+        "precalculus-3-3-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "points-on-a-circle": {
+      "id": "points-on-a-circle",
+      "title": "Coordinates of points on a circle",
+      "section": "points-on-a-circle",
+      "topicId": "precalculus-3-3"
+    },
+    "special-angles": {
+      "id": "special-angles",
+      "title": "Exact values from special right triangles",
+      "section": "special-angles",
+      "topicId": "precalculus-3-3"
+    }
+  },
+  "assets": {}
+}

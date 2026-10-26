@@ -19,6 +19,10 @@
     "period": "Not assessed on the AP Exam",
     "status": "soon",
     "quizzes": [],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
     "practiceTest": null,
     "termSets": [],
     "topicQuizzes": [],

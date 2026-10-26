@@ -8,6 +8,8 @@ import {
 } from "../ui.js";
 import { renderBlocks } from "../blocks.js";
 import { reportButton, sharePanel } from "../share/views.js";
+import { isFree } from "./free.js";
+import { freeQuestionBody, freeReviewView } from "./free-views.js";
 
 function responseSelected(response) {
   return Number.isInteger(response?.selectedChoiceIndex)
@@ -15,6 +17,13 @@ function responseSelected(response) {
     : Number.isInteger(response?.selected)
       ? response.selected
       : null;
+}
+
+// Typed questions are "answered"; choice questions are "selected".
+function answerWord(attempt, engine) {
+  return (attempt.ids || []).some((id) => isFree(engine.questionForAttempt(attempt, id)))
+    ? "answered"
+    : "selected";
 }
 
 function pageCrumbs(data, tail) {
@@ -69,8 +78,9 @@ function choiceText(choice) {
 function navigatorView(attempt, engine) {
   const states = engine.navigatorState(attempt);
   const testMode = attempt.feedbackMode === "test";
+  const word = answerWord(attempt, engine);
   return `<section class="question-navigator" aria-labelledby="question-navigator-title">
-    <div class="question-navigator-heading"><h2 id="question-navigator-title">Questions</h2><span>${states.filter((state) => state.answered).length} selected · ${states.filter((state) => state.flagged).length} flagged</span></div>
+    <div class="question-navigator-heading"><h2 id="question-navigator-title">Questions</h2><span>${states.filter((state) => state.answered).length} ${word} · ${states.filter((state) => state.flagged).length} flagged</span></div>
     <div class="question-navigator-grid" role="list">
       ${states
         .map((state) => {
@@ -95,7 +105,7 @@ function navigatorView(attempt, engine) {
         })
         .join("")}
     </div>
-    <p class="question-navigator-legend"><span>Unanswered</span><span>Selected</span>${testMode ? "" : "<span>Checked</span>"}<span>⚑ Review later</span></p>
+    <p class="question-navigator-legend"><span>Unanswered</span><span>${word === "answered" ? "Answered" : "Selected"}</span>${testMode ? "" : "<span>Checked</span>"}<span>⚑ Review later</span></p>
     <div class="question-navigator-actions">
       ${quizButton("Go to first unanswered", "first-unanswered", attempt.quizId, { secondary: true })}
       ${quizButton("Go to next flagged", "next-flagged", attempt.quizId, { secondary: true })}
@@ -116,10 +126,14 @@ export function questionView(attempt, engine, assets, quick = false, ui = {}) {
   const heading = quick ? "h3" : "h1";
   const concept = engine.concepts[`${question.topicId}/${question.concept}`];
   const choices = engine.displayedChoices(attempt, id);
+  const free = isFree(question);
+  const freeBody = free ? freeQuestionBody(attempt, question, response, id) : null;
+  const answeredNow = engine.answered(attempt, id);
+  const word = answerWord(attempt, engine);
   const canFinish = attempt.index === attempt.ids.length - 1;
   const isPractice = attempt.feedbackMode === "practice";
   const feedback =
-    checked && isPractice
+    !free && checked && isPractice
       ? `<div class="answer-feedback ${correct ? "" : "wrong"}" id="answer-feedback" tabindex="-1" role="status">
         <h4>${correct ? "✓ Correct" : "✗ Incorrect"}</h4>
         ${correct ? "" : `<p><strong>Correct answer:</strong> ${questionLabel(question.correctAnswer)}. ${esc(choiceText(question.choices[question.correctAnswer]))}</p>`}
@@ -127,9 +141,13 @@ export function questionView(attempt, engine, assets, quick = false, ui = {}) {
         ${question.choiceExplanations ? `<details class="choice-explanations"><summary>Why each choice fits or misses</summary><ul>${question.choiceExplanations.map((explanation, index) => `<li><strong>${questionLabel(index)}.</strong> ${esc(explanation)}</li>`).join("")}</ul></details>` : ""}
       </div>`
       : "";
-  const choiceMarkup = choices
-    .map((choice) => choiceView(choice, question, selected, attempt, checked, engine, id))
-    .join("");
+  const choiceMarkup = free
+    ? ""
+    : choices
+        .map((choice) =>
+          choiceView(choice, question, selected, attempt, checked, engine, id),
+        )
+        .join("");
   const prompt = question.prompt || question.text || "";
   const stimulus = question.stimulus
     ? `<div class="stimulus"><p class="eyebrow">Practice scenario · Written for this quiz</p><p>${esc(question.stimulus)}</p></div>`
@@ -137,13 +155,22 @@ export function questionView(attempt, engine, assets, quick = false, ui = {}) {
   const stimulusBlocks = question.stimulusBlocks
     ? renderBlocks(question.stimulusBlocks, assets || attempt.questionSnapshot?.assets)
     : "";
-  const instruction = isPractice
-    ? checked
-      ? "Read the explanation before continuing."
-      : "Choose an answer, then check it."
-    : selected === null
-      ? "Choose an answer. You can change it before finishing."
-      : "Your choice is saved. Correctness stays hidden until you finish.";
+  const tries = response?.tries || 0;
+  const instruction = free
+    ? isPractice
+      ? checked
+        ? "Read the solution before continuing."
+        : tries > 0
+          ? "Fix the parts marked ✗, then check again."
+          : "Type your answer in each box, then check it."
+      : "Your entries save as you type. Correctness stays hidden until you finish."
+    : isPractice
+      ? checked
+        ? "Read the explanation before continuing."
+        : "Choose an answer, then check it."
+      : selected === null
+        ? "Choose an answer. You can change it before finishing."
+        : "Your choice is saved. Correctness stays hidden until you finish.";
   const primaryAction =
     checked || !isPractice
       ? quizButton(
@@ -152,7 +179,7 @@ export function questionView(attempt, engine, assets, quick = false, ui = {}) {
           attempt.quizId,
           { questionId: id },
         )
-      : '<button class="btn" type="submit" disabled>Check answer</button>';
+      : `<button class="btn" type="submit" data-check ${free && answeredNow ? "" : "disabled"}>Check answer</button>`;
   const secondaryAction = canFinish
     ? !checked && isPractice
       ? quizButton("Review and finish", "review-finish", attempt.quizId, {
@@ -160,15 +187,12 @@ export function questionView(attempt, engine, assets, quick = false, ui = {}) {
           questionId: id,
         })
       : ""
-    : quizButton(
-        selected === null ? "Skip this question" : "Next",
-        "next",
-        attempt.quizId,
-        {
+    : checked && isPractice
+      ? ""
+      : quizButton(!answeredNow ? "Skip this question" : "Next", "next", attempt.quizId, {
           secondary: true,
           questionId: id,
-        },
-      );
+        });
   const confidence = attempt.confidence?.[id] === "unsure";
   const flagLabel = attempt.flags?.[id] ? "Clear review flag" : "Review later";
   const eliminationIds = attempt.eliminatedChoiceIds?.[id] || [];
@@ -179,18 +203,22 @@ export function questionView(attempt, engine, assets, quick = false, ui = {}) {
     typeof ui.reportContext === "function"
       ? ui.reportContext(question, id)
       : ui.reportContext;
-  return `${notice}<div class="quiz-progress"><span>${quick ? "Quick check" : "Question"} ${attempt.index + 1} of ${attempt.ids.length}</span><span>${progress.selected} selected · ${progress.unanswered} unanswered</span></div>
-    <div class="progress-track" role="progressbar" aria-label="Questions selected" aria-valuenow="${progress.selected}" aria-valuemin="0" aria-valuemax="${attempt.ids.length}">
+  return `${notice}<div class="quiz-progress"><span>${quick ? "Quick check" : "Question"} ${attempt.index + 1} of ${attempt.ids.length}</span><span>${progress.selected} ${word} · ${progress.unanswered} unanswered</span></div>
+    <div class="progress-track" role="progressbar" aria-label="Questions ${word}" aria-valuenow="${progress.selected}" aria-valuemin="0" aria-valuemax="${attempt.ids.length}">
       <div class="progress-fill" style="width:${(progress.selected / attempt.ids.length) * 100}%"></div>
     </div>
     ${navigatorView(attempt, engine)}
     <form class="question-card" data-quiz="${esc(attempt.quizId)}" data-question="${esc(id)}">
       <p class="question-meta">${esc(concept?.title || question.concept || "Practice")} · ${esc(skillMeta(question))}</p>
       ${stimulus}${stimulusBlocks}
-      <${heading} id="question-heading">${esc(prompt)}</${heading}>
-      <fieldset class="choices" aria-labelledby="question-heading"><legend class="visually-hidden">Choose one answer</legend>
+      <${heading} id="question-heading"${free ? ' class="free-stem"' : ""}>${esc(prompt)}</${heading}>
+      ${
+        free
+          ? freeBody.markup
+          : `<fieldset class="choices" aria-labelledby="question-heading"><legend class="visually-hidden">Choose one answer</legend>
         ${choiceMarkup}
-      </fieldset>
+      </fieldset>`
+      }
       ${eliminationIds.length ? `<button type="button" class="text-link elimination-reset" data-action="reset-eliminations" data-quiz="${esc(attempt.quizId)}" data-question="${esc(id)}">Clear eliminated choices</button>` : ""}
       <div class="question-self-report"><button type="button" class="btn secondary question-flag" data-action="toggle-flag" data-quiz="${esc(attempt.quizId)}" data-question="${esc(id)}" aria-pressed="${attempt.flags?.[id] ? "true" : "false"}">${flagLabel}</button>
         <label><input type="checkbox" data-question-confidence="unsure" data-quiz="${esc(attempt.quizId)}" data-question="${esc(id)}" ${confidence ? "checked" : ""} ${checked ? "disabled" : ""}> I guessed / Not sure</label>
@@ -221,8 +249,8 @@ function finishPreviewView(attempt, engine) {
   const progress = engine.progress(attempt);
   return `<section class="finish-preview" aria-labelledby="finish-preview-title">
     <h2 id="finish-preview-title">Review before finishing</h2>
-    <p>${progress.selected} selected, ${progress.unanswered} unanswered, and ${progress.flagged} flagged out of ${progress.total} questions.</p>
-    ${progress.unchecked ? `<p class="muted">${progress.unchecked} practice selection${progress.unchecked === 1 ? " is" : "s are"} not checked yet. They will be scored when you finish.</p>` : ""}
+    <p>${progress.selected} ${answerWord(attempt, engine)}, ${progress.unanswered} unanswered, and ${progress.flagged} flagged out of ${progress.total} questions.</p>
+    ${progress.unchecked ? `<p class="muted">${progress.unchecked} practice answer${progress.unchecked === 1 ? " is" : "s are"} not checked yet. They will be scored when you finish.</p>` : ""}
     <div class="actions"><button type="button" class="btn secondary" data-action="close-finish" data-quiz="${esc(attempt.quizId)}">Return to quiz</button>
       ${progress.unanswered ? quizButton("Go to first unanswered", "first-unanswered", attempt.quizId, { secondary: true }) : ""}
       ${progress.flagged ? quizButton("Review flagged", "next-flagged", attempt.quizId, { secondary: true }) : ""}
@@ -295,7 +323,7 @@ export function quizPage(data, attempt, engine, storageState, conflict = null, u
   );
   return `<div class="quiz-page">${pageCrumbs(data, attempt.selectionKind === "review" ? "Targeted practice" : "Quiz")}
     <div class="quiz-context"><p>${esc(modeLabel)} · ${attempt.selectionKind === "review" ? "Review session" : esc(quiz.title)}<br>No timer. Focus on the reasoning.</p>
-      <span>${link(backPath, topic ? "Back to lesson" : "Back to session")} · ${link(historyPath, "Other attempts")}</span>
+      <span>${link(backPath, quiz.section === "mcq" ? "Back to multiple choice" : topic ? "Back to lesson" : "Back to session")} · ${link(historyPath, "Other attempts")}</span>
     </div>${sharePanel({ path: sharePath, title: quiz.title, label: "Share this quiz. This opens the activity without answers." })}${printLink}${storageNote}<div id="quiz-shell">${questionView(attempt, engine, data.bank.assets, false, { ...ui, reportContext: questionReportContext })}</div>${ui.finishOpen ? finishPreviewView(attempt, engine) : ""}
     <p class="question-footnote">${saveNote}</p>
   </div>`;
@@ -329,10 +357,8 @@ function resultPath(quizId, attemptId, filters = [], topic = "", routes = {}) {
 }
 
 function reviewReasonSet(attempt, questionId, engine) {
-  const response = engine.responseFor(attempt, questionId);
-  const selected = responseSelected(response);
   const reasons = [];
-  if (!Number.isInteger(selected)) reasons.push("unanswered");
+  if (!engine.answered(attempt, questionId)) reasons.push("unanswered");
   else if (!engine.isCorrect(attempt, questionId)) reasons.push("incorrect");
   if (attempt.flags?.[questionId] === true) reasons.push("flagged");
   if (attempt.confidence?.[questionId]) reasons.push("uncertain");
@@ -379,12 +405,14 @@ function resultQuestionView(
   const question = engine.questionForAttempt(attempt, questionId);
   if (!question) return "";
   const response = engine.responseFor(attempt, questionId);
-  const selected = responseSelected(response);
+  const free = isFree(question);
+  const answered = engine.answered(attempt, questionId);
+  const selected = free ? null : responseSelected(response);
   const correct = engine.isCorrect(attempt, questionId);
   const selectedText = Number.isInteger(selected)
     ? choiceText(question.choices[selected])
     : "No answer selected.";
-  const correctText = choiceText(question.choices[question.correctAnswer]);
+  const correctText = free ? "" : choiceText(question.choices[question.correctAnswer]);
   const topicPath = question.topicId
     ? `/topic/${question.topicId}${question.concept ? `?section=${encodeURIComponent(question.concept)}` : ""}`
     : "";
@@ -392,19 +420,19 @@ function resultQuestionView(
     topicPath && returnPath
       ? `${topicPath}&return=${encodeURIComponent(returnPath)}`
       : topicPath;
-  const status = correct
-    ? "Correct"
-    : Number.isInteger(selected)
-      ? "Incorrect"
-      : "Unanswered";
+  const status = correct ? "Correct" : answered ? "Incorrect" : "Unanswered";
   const reasonLabels = reviewReasonSet(attempt, questionId, engine)
     .map((value) => value[0].toUpperCase() + value.slice(1))
     .filter((value) => value !== status)
     .join(" · ");
-  return `<details class="review-question" id="review-${esc(questionId)}"><summary><span>${correct ? "✓" : Number.isInteger(selected) ? "✗" : "○"} ${index + 1}. ${esc(question.prompt)}</span><span class="review-question-state">${status}${reasonLabels ? ` · ${esc(reasonLabels)}` : ""}</span></summary>
-    <p><strong>Your answer:</strong> ${esc(selectedText)}</p>
+  return `<details class="review-question" id="review-${esc(questionId)}"><summary><span>${correct ? "✓" : answered ? "✗" : "○"} ${index + 1}. ${esc(question.prompt)}</span><span class="review-question-state">${status}${reasonLabels ? ` · ${esc(reasonLabels)}` : ""}</span></summary>
+    ${
+      free
+        ? `${question.stimulusBlocks ? renderBlocks(question.stimulusBlocks, attempt.questionSnapshot?.assets) : ""}${freeReviewView(question, response)}`
+        : `<p><strong>Your answer:</strong> ${esc(selectedText)}</p>
     <p><strong>Correct answer:</strong> ${esc(correctText)}</p>
-    <p><strong>Explanation:</strong> ${esc(question.explanation || "No explanation was saved with this attempt.")}</p>${reportButton({ type: "result-question", courseId: data.course?.id || attempt.courseId || data.quiz.courseId || "", topicId: question.topicId || "", itemId: questionId, title: question.prompt, revision: attempt.contentRevision || data.contentRevision || "", path: sharePath })}
+    <p><strong>Explanation:</strong> ${esc(question.explanation || "No explanation was saved with this attempt.")}</p>`
+    }${reportButton({ type: "result-question", courseId: data.course?.id || attempt.courseId || data.quiz.courseId || "", topicId: question.topicId || "", itemId: questionId, title: question.prompt, revision: attempt.contentRevision || data.contentRevision || "", path: sharePath })}
     ${lessonPath ? link(lessonPath, `Review this lesson ${arrow}`, "text-link") : ""}
   </details>`;
 }

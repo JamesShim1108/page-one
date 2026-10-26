@@ -1,0 +1,787 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-p02",
+              "precalculus-2-1-p07",
+              "precalculus-2-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-p02",
+              "precalculus-2-2-p07",
+              "precalculus-2-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-p02",
+              "precalculus-2-3-p07",
+              "precalculus-2-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-p02",
+              "precalculus-2-4-p07",
+              "precalculus-2-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-p02",
+              "precalculus-2-5-p07",
+              "precalculus-2-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-p02",
+              "precalculus-2-6-p07",
+              "precalculus-2-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-p02",
+              "precalculus-2-7-p07",
+              "precalculus-2-7-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-p02",
+              "precalculus-2-8-p07",
+              "precalculus-2-8-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-p02",
+              "precalculus-2-9-p07",
+              "precalculus-2-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-p02",
+              "precalculus-2-10-p07",
+              "precalculus-2-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-p02",
+              "precalculus-2-11-p07",
+              "precalculus-2-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-p02",
+              "precalculus-2-12-p07",
+              "precalculus-2-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-p02",
+              "precalculus-2-13-p07",
+              "precalculus-2-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-p02",
+              "precalculus-2-14-p07",
+              "precalculus-2-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-p02",
+              "precalculus-2-15-p07",
+              "precalculus-2-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-2-mcq-1",
+          "title": "Unit 2 multiple choice, Part 1: Topics 2.1 to 2.8",
+          "questionCount": 24
+        },
+        {
+          "id": "precalculus-2-mcq-2",
+          "title": "Unit 2 multiple choice, Part 2: Topics 2.9 to 2.15",
+          "questionCount": 21
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-2-1-mcq",
+          "title": "Change in Arithmetic and Geometric Sequences multiple choice",
+          "topicId": "precalculus-2-1",
+          "code": "2.1",
+          "topicTitle": "Change in Arithmetic and Geometric Sequences",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-2-mcq",
+          "title": "Change in Linear and Exponential Functions multiple choice",
+          "topicId": "precalculus-2-2",
+          "code": "2.2",
+          "topicTitle": "Change in Linear and Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-3-mcq",
+          "title": "Exponential Functions multiple choice",
+          "topicId": "precalculus-2-3",
+          "code": "2.3",
+          "topicTitle": "Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-4-mcq",
+          "title": "Exponential Function Manipulation multiple choice",
+          "topicId": "precalculus-2-4",
+          "code": "2.4",
+          "topicTitle": "Exponential Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-5-mcq",
+          "title": "Exponential Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-5",
+          "code": "2.5",
+          "topicTitle": "Exponential Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-6-mcq",
+          "title": "Competing Function Model Validation multiple choice",
+          "topicId": "precalculus-2-6",
+          "code": "2.6",
+          "topicTitle": "Competing Function Model Validation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-7-mcq",
+          "title": "Composition of Functions multiple choice",
+          "topicId": "precalculus-2-7",
+          "code": "2.7",
+          "topicTitle": "Composition of Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-8-mcq",
+          "title": "Inverse Functions multiple choice",
+          "topicId": "precalculus-2-8",
+          "code": "2.8",
+          "topicTitle": "Inverse Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-9-mcq",
+          "title": "Logarithmic Expressions multiple choice",
+          "topicId": "precalculus-2-9",
+          "code": "2.9",
+          "topicTitle": "Logarithmic Expressions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-10-mcq",
+          "title": "Inverses of Exponential Functions multiple choice",
+          "topicId": "precalculus-2-10",
+          "code": "2.10",
+          "topicTitle": "Inverses of Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-11-mcq",
+          "title": "Logarithmic Functions multiple choice",
+          "topicId": "precalculus-2-11",
+          "code": "2.11",
+          "topicTitle": "Logarithmic Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-12-mcq",
+          "title": "Logarithmic Function Manipulation multiple choice",
+          "topicId": "precalculus-2-12",
+          "code": "2.12",
+          "topicTitle": "Logarithmic Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-13-mcq",
+          "title": "Exponential and Logarithmic Equations and Inequalities multiple choice",
+          "topicId": "precalculus-2-13",
+          "code": "2.13",
+          "topicTitle": "Exponential and Logarithmic Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-14-mcq",
+          "title": "Logarithmic Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-14",
+          "code": "2.14",
+          "topicTitle": "Logarithmic Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-15-mcq",
+          "title": "Semi-log Plots multiple choice",
+          "topicId": "precalculus-2-15",
+          "code": "2.15",
+          "topicTitle": "Semi-log Plots",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-8",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 8,
+    "code": "2.8",
+    "title": "Inverse Functions",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "When a function is invertible, how an inverse reverses input-output pairs, composition with the identity function, domains and ranges of inverses, reflecting a graph over y = x, and finding an inverse analytically."
+  },
+  "framework": null,
+  "contentRevision": "9e6ca6a3513df668",
+  "questions": [
+    {
+      "id": "precalculus-2-8-q01",
+      "topicId": "precalculus-2-8",
+      "concept": "invertible",
+      "difficulty": "Quick check",
+      "skill": "identify-information",
+      "prompt": "The function f satisfies f(4) = −1. Which of the following must be true about f⁻¹, the inverse of f?",
+      "choices": [
+        "f⁻¹(4) = −1",
+        "f⁻¹(−4) = 1",
+        "f⁻¹(−1) = −4",
+        "f⁻¹(−1) = 4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If f(a) = b, then f⁻¹(b) = a. With f(4) = −1, f⁻¹(−1) = 4.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "This keeps the pair in the same order instead of reversing it.",
+        "Negating both numbers does not reverse a pair.",
+        "The output of f⁻¹ at −1 is 4, not −4.",
+        "The pair (4, −1) on f becomes (−1, 4) on f⁻¹."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Reverse the pair; do not change the signs.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-2-8-q02",
+      "topicId": "precalculus-2-8",
+      "concept": "finding-inverses",
+      "difficulty": "Quick check",
+      "skill": "construct-functions",
+      "prompt": "What is the inverse of f(x) = 4x − 9?",
+      "choices": [
+        "f⁻¹(x) = x/4 + 9",
+        "f⁻¹(x) = (x + 9)/4",
+        "f⁻¹(x) = 1/(4x − 9)",
+        "f⁻¹(x) = −4x + 9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "x = 4y − 9, so 4y = x + 9 and y = (x + 9)/4.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "This divides only x by 4. The 9 must be added before dividing.",
+        "Reverse the roles of x and y, then solve: y = (x + 9)/4.",
+        "The reciprocal 1/f(x) is not the inverse function.",
+        "Negating the coefficients does not reverse the operations."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Undo the operations in reverse order: add 9, then divide by 4.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-8-q03",
+      "topicId": "precalculus-2-8",
+      "concept": "inverse-by-composition",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "If f has an inverse function f⁻¹, which of the following is equal to f⁻¹(f(x)) on the invertible domain of f?",
+      "choices": [
+        "x",
+        "f(x)",
+        "1",
+        "f(x)²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The composition of a function and its inverse is the identity function: f⁻¹(f(x)) = x.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "f⁻¹ undoes f, returning the original input.",
+        "f(x) is what f⁻¹ receives, not what it returns.",
+        "1 is the multiplicative identity for numbers, not the identity function.",
+        "Composition is not multiplication."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The identity for composition is x.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-8-q04",
+      "topicId": "precalculus-2-8",
+      "concept": "invertible",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "Which of the following functions is invertible on the set of all real numbers?",
+      "choices": [
+        "f(x) = x²",
+        "f(x) = |x|",
+        "f(x) = x³",
+        "f(x) = x² + 1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "f(x) = x³ is always increasing, so each output value comes from a unique input value.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "f(−2) = f(2) = 4, so an output comes from two inputs.",
+        "f(−5) = f(5) = 5, so f is not invertible on all real numbers.",
+        "x³ never repeats an output value.",
+        "f(−1) = f(1) = 2."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Look for two inputs with the same output.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-8-q05",
+      "topicId": "precalculus-2-8",
+      "concept": "inverse-by-composition",
+      "difficulty": "Core",
+      "skill": "identify-information",
+      "prompt": "The table gives values of an invertible function g. What is g⁻¹(2) + g⁻¹(−4)?",
+      "stimulusBlocks": [
+        {
+          "type": "table",
+          "caption": "Values of g",
+          "columns": [
+            "x",
+            "−1",
+            "0",
+            "2",
+            "5"
+          ],
+          "rows": [
+            [
+              "g(x)",
+              "8",
+              "6",
+              "2",
+              "−4"
+            ]
+          ]
+        }
+      ],
+      "choices": [
+        "−2",
+        "13",
+        "−1",
+        "7"
+      ],
+      "correctAnswer": 3,
+      "explanation": "g(2) = 2, so g⁻¹(2) = 2. g(5) = −4, so g⁻¹(−4) = 5. The sum is 7.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "−2 adds 2 and −4, the outputs, instead of finding the inputs.",
+        "13 = g(−1) + g(0) − 1 does not use the inverse.",
+        "−1 treats g⁻¹(−4) as the first input in the table.",
+        "g⁻¹(2) = 2 and g⁻¹(−4) = 5."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Find each value in the g(x) row and read the x above it.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-2-8-q06",
+      "topicId": "precalculus-2-8",
+      "concept": "finding-inverses",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "What is the inverse of h(x) = 2x³ + 1?",
+      "choices": [
+        "h⁻¹(x) = ∛((x − 1)/2)",
+        "h⁻¹(x) = (∛x − 1)/2",
+        "h⁻¹(x) = ∛(x/2) − 1",
+        "h⁻¹(x) = 1/(2x³ + 1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x = 2y³ + 1, so y³ = (x − 1)/2 and y = ∛((x − 1)/2).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "Undo in reverse order: subtract 1, divide by 2, then take the cube root.",
+        "This takes the cube root first, but cubing was the first operation, so it must be undone last.",
+        "This subtracts 1 last, but adding 1 was the last operation of h, so it must be undone first.",
+        "The reciprocal of h is not its inverse."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The last operation applied is the first one undone.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-8-q07",
+      "topicId": "precalculus-2-8",
+      "concept": "inverse-by-composition",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "The function f has domain −2 ≤ x ≤ 6 and range 1 ≤ y ≤ 9, and f is invertible on its domain. What are the domain and range of f⁻¹?",
+      "choices": [
+        "Domain −2 ≤ x ≤ 6 and range 1 ≤ y ≤ 9",
+        "Domain −6 ≤ x ≤ 2 and range −9 ≤ y ≤ −1",
+        "Domain 1 ≤ x ≤ 9 and range −2 ≤ y ≤ 6",
+        "Domain 1 ≤ x ≤ 6 and range −2 ≤ y ≤ 9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The range of f is the domain of f⁻¹, and the domain of f is the range of f⁻¹.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "This repeats the domain and range of f without switching them.",
+        "Negating the intervals describes a reflection over both axes, not an inverse.",
+        "The domain and range trade places.",
+        "This mixes endpoints from the two intervals."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Switch the intervals; do not change their numbers.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-8-q08",
+      "topicId": "precalculus-2-8",
+      "concept": "finding-inverses",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "The graph of a function f contains the point (3, 7). Which transformation of the graph of f gives the graph of f⁻¹?",
+      "choices": [
+        "A reflection over the x-axis, which sends (3, 7) to (3, −7)",
+        "A reflection over the line y = x, which sends (3, 7) to (7, 3)",
+        "A reflection over the y-axis, which sends (3, 7) to (−3, 7)",
+        "A rotation about the origin, which sends (3, 7) to (−3, −7)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The graph of f⁻¹ is the reflection of the graph of f over the graph of the identity function y = x, which reverses the roles of x and y.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "Reflecting over the x-axis gives the graph of −f(x).",
+        "Reflecting over y = x swaps the coordinates.",
+        "Reflecting over the y-axis gives the graph of f(−x).",
+        "A rotation about the origin gives the graph of −f(−x)."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Inverse means swapped coordinates, which is a reflection over y = x.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-8-q09",
+      "topicId": "precalculus-2-8",
+      "concept": "invertible",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "The function f(x) = (x − 2)² is not invertible on the set of all real numbers. On which domain is f invertible?",
+      "choices": [
+        "−1 ≤ x ≤ 5",
+        "x ≥ 0",
+        "All x except x = 2",
+        "x ≥ 2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "f decreases for x < 2 and increases for x > 2. Restricted to x ≥ 2, f is always increasing, so each output comes from a unique input.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "f(1) = f(3) = 1, and both 1 and 3 are in this interval.",
+        "On x ≥ 0, f(1) = f(3) = 1, so f is not invertible there.",
+        "Removing one point does not fix f(1) = f(3).",
+        "On x ≥ 2, f is always increasing."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Restrict to one side of the vertex, x = 2.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-8-q10",
+      "topicId": "precalculus-2-8",
+      "concept": "finding-inverses",
+      "difficulty": "Core",
+      "skill": "support-conclusions",
+      "prompt": "A taxi fare is F(m) = 3.50 + 2.25m dollars for m miles, where 0 ≤ m ≤ 40. The inverse F⁻¹ gives the number of miles for a fare. Which statement about F⁻¹ is true?",
+      "choices": [
+        "F⁻¹(f) = (f − 3.50)/2.25, and it applies only for fares 3.50 ≤ f ≤ 93.50.",
+        "F⁻¹(f) = (f − 3.50)/2.25, and it applies for every real fare f.",
+        "F⁻¹(f) = 2.25f + 3.50, and it applies for fares 0 ≤ f ≤ 40.",
+        "F⁻¹(f) = f/2.25 − 3.50, and it applies for fares 3.50 ≤ f ≤ 93.50."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solving f = 3.50 + 2.25m gives m = (f − 3.50)/2.25. Contextual restrictions limit the inverse: the fares range from F(0) = 3.50 to F(40) = 93.50.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-8"
+      ],
+      "choiceExplanations": [
+        "Correct formula, and the domain of F⁻¹ is the range of F.",
+        "The formula is right, but contextual restrictions limit the inverse to fares from 3.50 to 93.50.",
+        "This is F itself, and 0 ≤ f ≤ 40 is the domain of F, not of F⁻¹.",
+        "Subtract 3.50 before dividing by 2.25."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Context limits the inverse to the range of the original model.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-2-8-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-8",
+      "title": "Inverse Functions multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-2-8-q01",
+        "precalculus-2-8-q02",
+        "precalculus-2-8-q03",
+        "precalculus-2-8-q04",
+        "precalculus-2-8-q05",
+        "precalculus-2-8-q06",
+        "precalculus-2-8-q07",
+        "precalculus-2-8-q08",
+        "precalculus-2-8-q09",
+        "precalculus-2-8-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "invertible": {
+      "id": "invertible",
+      "title": "Invertible functions and reverse mappings",
+      "section": "invertible",
+      "topicId": "precalculus-2-8"
+    },
+    "inverse-by-composition": {
+      "id": "inverse-by-composition",
+      "title": "Inverses, composition, domain, and range",
+      "section": "inverse-by-composition",
+      "topicId": "precalculus-2-8"
+    },
+    "finding-inverses": {
+      "id": "finding-inverses",
+      "title": "Finding inverse functions",
+      "section": "finding-inverses",
+      "topicId": "precalculus-2-8"
+    }
+  },
+  "assets": {}
+}

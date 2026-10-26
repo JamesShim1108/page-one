@@ -261,28 +261,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-14-quick",
+      id: "precalculus-3-14-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-14",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Polar Function Graphs multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-14-q01",
         "precalculus-3-14-q02",
         "precalculus-3-14-q03",
         "precalculus-3-14-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-14-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-14",
-      title: "Polar Function Graphs topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-14-q05",
         "precalculus-3-14-q06",
         "precalculus-3-14-q07",

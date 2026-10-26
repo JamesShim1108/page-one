@@ -280,28 +280,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-13-quick",
+      id: "precalculus-1-13-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-13",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Function Model Selection and Assumption Articulation multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-13-q01",
         "precalculus-1-13-q02",
         "precalculus-1-13-q03",
         "precalculus-1-13-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-13-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-13",
-      title: "Function Model Selection and Assumption Articulation topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-13-q05",
         "precalculus-1-13-q06",
         "precalculus-1-13-q07",

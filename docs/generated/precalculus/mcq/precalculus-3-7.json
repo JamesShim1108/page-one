@@ -1,0 +1,789 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-p02",
+              "precalculus-3-1-p07",
+              "precalculus-3-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-p02",
+              "precalculus-3-2-p07",
+              "precalculus-3-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-p02",
+              "precalculus-3-3-p07",
+              "precalculus-3-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-p02",
+              "precalculus-3-4-p07",
+              "precalculus-3-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-p02",
+              "precalculus-3-5-p07",
+              "precalculus-3-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-p02",
+              "precalculus-3-6-p07",
+              "precalculus-3-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-p02",
+              "precalculus-3-7-p07",
+              "precalculus-3-7-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-p02",
+              "precalculus-3-8-p07",
+              "precalculus-3-8-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-p02",
+              "precalculus-3-9-p07",
+              "precalculus-3-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-p02",
+              "precalculus-3-10-p07",
+              "precalculus-3-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-p02",
+              "precalculus-3-11-p07",
+              "precalculus-3-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-p02",
+              "precalculus-3-12-p07",
+              "precalculus-3-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-p02",
+              "precalculus-3-13-p07",
+              "precalculus-3-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-p02",
+              "precalculus-3-14-p07",
+              "precalculus-3-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-p02",
+              "precalculus-3-15-p07",
+              "precalculus-3-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-3-mcq-1",
+          "title": "Unit 3 multiple choice, Part 1: Topics 3.1 to 3.7",
+          "questionCount": 21
+        },
+        {
+          "id": "precalculus-3-mcq-2",
+          "title": "Unit 3 multiple choice, Part 2: Topics 3.8 to 3.15",
+          "questionCount": 24
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-3-1-mcq",
+          "title": "Periodic Phenomena multiple choice",
+          "topicId": "precalculus-3-1",
+          "code": "3.1",
+          "topicTitle": "Periodic Phenomena",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-2-mcq",
+          "title": "Sine, Cosine, and Tangent multiple choice",
+          "topicId": "precalculus-3-2",
+          "code": "3.2",
+          "topicTitle": "Sine, Cosine, and Tangent",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-3-mcq",
+          "title": "Sine and Cosine Function Values multiple choice",
+          "topicId": "precalculus-3-3",
+          "code": "3.3",
+          "topicTitle": "Sine and Cosine Function Values",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-4-mcq",
+          "title": "Sine and Cosine Function Graphs multiple choice",
+          "topicId": "precalculus-3-4",
+          "code": "3.4",
+          "topicTitle": "Sine and Cosine Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-5-mcq",
+          "title": "Sinusoidal Functions multiple choice",
+          "topicId": "precalculus-3-5",
+          "code": "3.5",
+          "topicTitle": "Sinusoidal Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-6-mcq",
+          "title": "Sinusoidal Function Transformations multiple choice",
+          "topicId": "precalculus-3-6",
+          "code": "3.6",
+          "topicTitle": "Sinusoidal Function Transformations",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-7-mcq",
+          "title": "Sinusoidal Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-3-7",
+          "code": "3.7",
+          "topicTitle": "Sinusoidal Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-8-mcq",
+          "title": "The Tangent Function multiple choice",
+          "topicId": "precalculus-3-8",
+          "code": "3.8",
+          "topicTitle": "The Tangent Function",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-9-mcq",
+          "title": "Inverse Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-9",
+          "code": "3.9",
+          "topicTitle": "Inverse Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-10-mcq",
+          "title": "Trigonometric Equations and Inequalities multiple choice",
+          "topicId": "precalculus-3-10",
+          "code": "3.10",
+          "topicTitle": "Trigonometric Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-11-mcq",
+          "title": "The Secant, Cosecant, and Cotangent Functions multiple choice",
+          "topicId": "precalculus-3-11",
+          "code": "3.11",
+          "topicTitle": "The Secant, Cosecant, and Cotangent Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-12-mcq",
+          "title": "Equivalent Representations of Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-12",
+          "code": "3.12",
+          "topicTitle": "Equivalent Representations of Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-13-mcq",
+          "title": "Trigonometry and Polar Coordinates multiple choice",
+          "topicId": "precalculus-3-13",
+          "code": "3.13",
+          "topicTitle": "Trigonometry and Polar Coordinates",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-14-mcq",
+          "title": "Polar Function Graphs multiple choice",
+          "topicId": "precalculus-3-14",
+          "code": "3.14",
+          "topicTitle": "Polar Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-15-mcq",
+          "title": "Rates of Change in Polar Functions multiple choice",
+          "topicId": "precalculus-3-15",
+          "code": "3.15",
+          "topicTitle": "Rates of Change in Polar Functions",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-3-7",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 7,
+    "code": "3.7",
+    "title": "Sinusoidal Function Context and Data Modeling",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "Building sinusoidal models of periodic phenomena: the period from consecutive maximums or minimums, the amplitude and midline from the extreme values, the phase shift from one data point, sinusoidal regression, and where a model can be trusted."
+  },
+  "framework": null,
+  "contentRevision": "c2d8656e55991242",
+  "questions": [
+    {
+      "id": "precalculus-3-7-q01",
+      "topicId": "precalculus-3-7",
+      "concept": "period-and-amplitude-from-data",
+      "difficulty": "Quick check",
+      "skill": "construct-functions",
+      "prompt": "A periodic phenomenon is modeled by y = a sin(b(t + c)) + d, where b > 0. The data have consecutive maximum values at t = 2 and t = 10. What is the value of b?",
+      "choices": [
+        "1/8",
+        "π/4",
+        "8",
+        "π/8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Consecutive maximums are one period apart, so the period is 10 − 2 = 8. Then b = 2π/8 = π/4.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "1/8 is the frequency, the reciprocal of the period, not b.",
+        "Period 8 means 2π/b = 8.",
+        "8 is the period, not b.",
+        "π/8 would make the period 2π/(π/8) = 16."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "b = 2π/period, not 1/period.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-3-7-q02",
+      "topicId": "precalculus-3-7",
+      "concept": "period-and-amplitude-from-data",
+      "difficulty": "Quick check",
+      "skill": "construct-functions",
+      "prompt": "The daily high temperature in a city varies periodically over a year, from a maximum of 38°C to a minimum of 12°C. A model y = a sin(b(t + c)) + d, with a > 0, is fit to these values. What are a and d?",
+      "choices": [
+        "a = 26 and d = 25",
+        "a = 13 and d = 12",
+        "a = 25 and d = 13",
+        "a = 13 and d = 25"
+      ],
+      "correctAnswer": 3,
+      "explanation": "a = (38 − 12)/2 = 13 and d = (38 + 12)/2 = 25.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "26 is the full difference; the amplitude is half of it.",
+        "d is the midline, the average of 38 and 12, not the minimum.",
+        "This swaps the amplitude and the midline.",
+        "Half the difference and the average."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "d is the average, not the minimum.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-3-7-q03",
+      "topicId": "precalculus-3-7",
+      "concept": "phase-shift-and-regression",
+      "difficulty": "Quick check",
+      "skill": "construct-functions",
+      "prompt": "A quantity is modeled by y = 5 sin((π/6)(t + c)) + 20. In the data, the quantity is increasing through the midline value 20 at t = 4. Which value of c fits the data?",
+      "choices": [
+        "c = −2π/3",
+        "c = 4",
+        "c = −4",
+        "c = 2π/3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sine increases through its midline when its input is 0. So (π/6)(4 + c) = 0, which gives c = −4: the graph is shifted 4 units to the right.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "−2π/3 = −(π/6)(4) mixes in the factor b; c is measured in units of t.",
+        "c = 4 would put the midline crossing at t = −4.",
+        "4 + c = 0, so c = −4, a phase shift of 4 to the right.",
+        "2π/3 is (π/6)(4), the input of the sine at t = 4 with no shift."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The phase shift is −c, so a crossing at t = 4 needs c = −4.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-3-7-q04",
+      "topicId": "precalculus-3-7",
+      "concept": "phase-shift-and-regression",
+      "difficulty": "Quick check",
+      "skill": "support-conclusions",
+      "prompt": "A sinusoidal function D(t) was fit to the water depth at a harbor using measurements taken every hour for 0 ≤ t ≤ 48. Which of the following uses of the model is most appropriate?",
+      "choices": [
+        "Predicting the depth at t = 2000 hours",
+        "Estimating the depth at t = 30 hours",
+        "Estimating the depth 100 hours before the first measurement",
+        "Predicting the exact depth at t = 30 hours with no error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sinusoidal models fit to data are frequently only useful over their contextual domain. t = 30 lies inside the 48 hours of data, so the model gives a reasonable estimate there.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "t = 2000 is far outside the data, where small errors in the period add up.",
+        "Inside the contextual domain the model gives a reasonable estimate.",
+        "Before the first measurement is outside the contextual domain.",
+        "A model gives an estimate, not an exact value with no error."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Models fit to data work best inside the data's domain.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    },
+    {
+      "id": "precalculus-3-7-q05",
+      "topicId": "precalculus-3-7",
+      "concept": "phase-shift-and-regression",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "A Ferris wheel has a diameter of 40 meters, and its center is 25 meters above the ground. It completes one revolution every 8 minutes. A rider boards at the bottom at t = 0. Which function gives the rider's height h(t), in meters, t minutes after boarding?",
+      "choices": [
+        "h(t) = 25 − 20 cos((π/4)t)",
+        "h(t) = 25 + 20 cos((π/4)t)",
+        "h(t) = 25 − 20 cos(8t)",
+        "h(t) = 20 − 25 cos((π/4)t)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The amplitude is the radius, 20, and the midline is 25. The period is 8, so b = 2π/8 = π/4. At t = 0 the height is the minimum, 25 − 20 = 5, which −20 cos gives.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "h(0) = 25 − 20 = 5, the bottom of the wheel.",
+        "h(0) = 45, the top of the wheel, but the rider boards at the bottom.",
+        "b = 8 makes the period 2π/8, about 0.79 minute.",
+        "This swaps the radius and the height of the center."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Starting at a minimum means −a cos, with a > 0.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-3-7-q06",
+      "topicId": "precalculus-3-7",
+      "concept": "phase-shift-and-regression",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "A rider's height on a Ferris wheel is h(t) = 25 − 20 cos((π/4)t) meters, t minutes after boarding. To the nearest tenth of a meter, what is the rider's height at t = 3?",
+      "choices": [
+        "10.9 meters",
+        "25.0 meters",
+        "39.1 meters",
+        "45.0 meters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "h(3) = 25 − 20 cos(3π/4) = 25 − 20(−√2/2) = 25 + 10√2 ≈ 39.1 meters.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "10.9 = 25 − 10√2 treats cos(3π/4) as positive.",
+        "25 is the height at t = 2 and t = 6, when the rider is level with the center.",
+        "25 + 10√2 ≈ 39.14.",
+        "45 is the maximum height, reached at t = 4."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "cos(3π/4) is negative, so subtracting it raises the height.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-7-q07",
+      "topicId": "precalculus-3-7",
+      "concept": "phase-shift-and-regression",
+      "difficulty": "Core",
+      "skill": "identify-information",
+      "prompt": "A sinusoidal regression on a data set gives y = 6.2 sin(0.52x − 1.1) + 14.3. Which of the following is the best estimate of the period of the model?",
+      "choices": [
+        "0.083",
+        "2.1",
+        "12.1",
+        "6.2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The period is 2π/|b| = 2π/0.52 ≈ 12.08.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "0.083 ≈ 0.52/(2π) is the frequency, the reciprocal of the period.",
+        "2.1 ≈ 1.1/0.52 is the phase shift, not the period.",
+        "2π/0.52 ≈ 12.1.",
+        "6.2 is the amplitude."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Period and frequency are reciprocals; b is neither.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-3-7-q08",
+      "topicId": "precalculus-3-7",
+      "concept": "period-and-amplitude-from-data",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "The table gives values of a periodic quantity Q at times t. Which of the following sinusoidal functions best models the data?",
+      "stimulusBlocks": [
+        {
+          "type": "table",
+          "caption": "Values of Q",
+          "columns": [
+            "t",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "rows": [
+            [
+              "Q(t)",
+              "14",
+              "17",
+              "14",
+              "8",
+              "5",
+              "8",
+              "14",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "choices": [
+        "Q(t) = 6 cos((π/3)(t + 1)) + 11",
+        "Q(t) = 6 cos((π/6)(t − 1)) + 11",
+        "Q(t) = 12 cos((π/3)(t − 1)) + 11",
+        "Q(t) = 6 cos((π/3)(t − 1)) + 11"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Maximums of 17 at t = 1 and t = 7 give a period of 6, so b = π/3. Amplitude (17 − 5)/2 = 6, midline 11. Cosine peaks at input 0, so the shift puts the peak at t = 1: (π/3)(t − 1).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "(t + 1) moves the peak to t = −1; then Q(1) would be 6 cos(2π/3) + 11 = 8, not 17.",
+        "π/6 gives a period of 12, but the maximums repeat every 6.",
+        "12 is the full difference between the maximum and minimum.",
+        "Period 6, amplitude 6, midline 11, peak at t = 1."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "A maximum at t = 1 needs (t − 1) inside cosine.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-3-7-q09",
+      "topicId": "precalculus-3-7",
+      "concept": "phase-shift-and-regression",
+      "difficulty": "Core",
+      "skill": "solve",
+      "prompt": "The temperature in a greenhouse is modeled by T(t) = 70 + 8 sin((π/12)t), where t is hours after midnight, for 0 ≤ t ≤ 24. At what times is the temperature 74 degrees?",
+      "choices": [
+        "t = 2 only",
+        "t = 2 and t = 14",
+        "t = 4 and t = 8",
+        "t = 2 and t = 10"
+      ],
+      "correctAnswer": 3,
+      "explanation": "74 = 70 + 8 sin((π/12)t) gives sin((π/12)t) = 1/2. On 0 ≤ (π/12)t ≤ 2π, the solutions are (π/12)t = π/6 and 5π/6, so t = 2 and t = 10.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "sin = 1/2 has a second solution in Quadrant II, giving t = 10.",
+        "At t = 14, (π/12)(14) = 7π/6, where the sine is −1/2.",
+        "t = 4 and t = 8 give sin = √3/2, a temperature of about 76.9.",
+        "(π/12)t = π/6 or 5π/6."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Each value strictly between the minimum and maximum is reached twice per period.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-3-7-q10",
+      "topicId": "precalculus-3-7",
+      "concept": "period-and-amplitude-from-data",
+      "difficulty": "Core",
+      "skill": "support-conclusions",
+      "prompt": "High tide at a harbor is 9.2 feet at 3:00 a.m., and the next low tide is 1.4 feet at 9:15 a.m. A student says a sinusoidal model of the depth should have a period of 6.25 hours. Which of the following is the best response?",
+      "choices": [
+        "The student is correct, because 9:15 − 3:00 is 6.25 hours.",
+        "The student is incorrect, because the period should be 9.2 − 1.4 = 7.8 hours.",
+        "The student is incorrect; high tide to low tide is half a period, so the period is 12.5 hours.",
+        "The student is incorrect, because the period of a sinusoidal function is always 2π."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The period is the interval between consecutive maximums or consecutive minimums. A maximum to the next minimum covers only half of that, so the period is 2(6.25) = 12.5 hours.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-7"
+      ],
+      "choiceExplanations": [
+        "6.25 hours is from a high tide to a low tide, which is only half a cycle.",
+        "Subtracting depths gives a difference in feet, not a time.",
+        "Consecutive maximums would be 12.5 hours apart.",
+        "Only sin θ and cos θ have period 2π; the tide's period depends on b."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Max to next min is half a period.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-3-7-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-7",
+      "title": "Sinusoidal Function Context and Data Modeling multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-3-7-q01",
+        "precalculus-3-7-q02",
+        "precalculus-3-7-q03",
+        "precalculus-3-7-q04",
+        "precalculus-3-7-q05",
+        "precalculus-3-7-q06",
+        "precalculus-3-7-q07",
+        "precalculus-3-7-q08",
+        "precalculus-3-7-q09",
+        "precalculus-3-7-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "period-and-amplitude-from-data": {
+      "id": "period-and-amplitude-from-data",
+      "title": "Period, amplitude, and vertical shift from data",
+      "section": "period-and-amplitude-from-data",
+      "topicId": "precalculus-3-7"
+    },
+    "phase-shift-and-regression": {
+      "id": "phase-shift-and-regression",
+      "title": "Phase shift, regression, and the contextual domain",
+      "section": "phase-shift-and-regression",
+      "topicId": "precalculus-3-7"
+    }
+  },
+  "assets": {}
+}

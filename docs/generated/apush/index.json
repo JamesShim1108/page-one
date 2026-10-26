@@ -204,6 +204,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "apush-1-practice-test",
         "title": "Unit 1 Practice Test",
@@ -427,6 +431,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "apush-2-practice-test",
         "title": "Unit 2 Practice Test",
@@ -710,6 +718,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "apush-3-practice-test",
         "title": "Unit 3 Practice Test",
@@ -1013,6 +1025,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "apush-4-practice-test",
         "title": "Unit 4 Practice Test",
@@ -1312,6 +1328,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "apush-5-practice-test",
         "title": "Unit 5 Practice Test",
@@ -1414,6 +1434,10 @@
       "period": "1865–1898",
       "status": "soon",
       "quizzes": [],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": null,
       "termSets": [],
       "topicQuizzes": [],
@@ -1431,6 +1455,10 @@
       "period": "1890–1945",
       "status": "soon",
       "quizzes": [],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": null,
       "termSets": [],
       "topicQuizzes": [],
@@ -1448,6 +1476,10 @@
       "period": "1945–1980",
       "status": "soon",
       "quizzes": [],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": null,
       "termSets": [],
       "topicQuizzes": [],
@@ -1465,6 +1497,10 @@
       "period": "1980–present",
       "status": "soon",
       "quizzes": [],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": null,
       "termSets": [],
       "topicQuizzes": [],

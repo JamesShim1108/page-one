@@ -183,6 +183,23 @@ function mockExamList(exams = []) {
   return `<div class="section-heading"><h2>Full mock exams</h2></div><div class="unit-list">${rows}</div>`;
 }
 
+const hasMcq = (unit) =>
+  Boolean(unit?.mcq && (unit.mcq.unitQuizzes.length || unit.mcq.topicSets.length));
+
+// The Multiple Choice section is separate from the topic pages. The course page links to it
+// only when the course has multiple-choice sets.
+function multipleChoiceRow(course, units) {
+  const sets = units.filter(hasMcq);
+  if (!sets.length) return "";
+  const count = sets.reduce(
+    (sum, unit) => sum + unit.mcq.unitQuizzes.length + unit.mcq.topicSets.length,
+    0,
+  );
+  return `<div class="section-heading"><h2>Multiple choice</h2></div><div class="unit-list"><a href="#/mcq/${esc(course.id)}" class="unit-row is-ready">
+    <span class="unit-number">MC</span><div><h3>Multiple-choice practice</h3><p>${count} four-choice sets by unit and by topic, each with a reason for every choice.</p></div>
+    <div class="status"><span class="big-arrow" aria-hidden="true">${icon("arrow")}</span></div></a></div>`;
+}
+
 export function coursePage({ course, units, exams = [] }) {
   const firstTopic = course.firstTopic;
   if (!units.length && course.emptyShell) {
@@ -203,6 +220,7 @@ export function coursePage({ course, units, exams = [] }) {
         </a>`;
         })
         .join("")}</div>
+      ${multipleChoiceRow(course, units)}
       ${mockExamList(exams)}
     </div><aside class="side-note"><p class="eyebrow">Start small</p><h3>One topic is enough for today.</h3>
       ${firstTopic ? `<p>${esc(firstTopic.summary)}</p>${link(`/topic/${firstTopic.id}`, `Start Topic ${esc(firstTopic.code)} ${arrow}`, "btn")}` : "<p>Lessons are being prepared.</p>"}
@@ -250,6 +268,18 @@ export function unitPage(data, peekAttempt = () => null) {
       path: practice,
       available: Boolean(practiceQuizzes.length || unit.topicQuizzes?.length),
     },
+    ...(hasMcq(unit)
+      ? [
+          {
+            title: "Multiple Choice",
+            number: "",
+            icon: "list",
+            text: `${unit.mcq.unitQuizzes.length + unit.mcq.topicSets.length} four-choice sets for this unit.`,
+            path: `/mcq/${unit.id}`,
+            available: true,
+          },
+        ]
+      : []),
     {
       title: "Terms",
       number: "03",
@@ -301,6 +331,9 @@ export function unitPage(data, peekAttempt = () => null) {
         ]
       : []),
   ];
+  modes.forEach((mode, index) => {
+    mode.number = String(index + 1).padStart(2, "0");
+  });
   return `<div class="container unit-hub">${breadcrumbs(crumbs)}
     <header class="study-heading"><p class="eyebrow">Unit ${unit.number} · ${esc(unit.period)} · Study Hub</p>
       <h1>${esc(unit.title)}</h1><p>What do you want to practice?</p>
@@ -341,5 +374,43 @@ export function unitPage(data, peekAttempt = () => null) {
       <div id="writing" class="unit-tools writing-groups">${writingGroups.map(([group, items]) => `<section class="writing-group"><p class="eyebrow">${group}</p>${items.map((quiz) => `<div class="unit-tool writing-tool"><h3>${esc(quiz.title)}</h3><p>${quiz.exerciseType === "dbq" && quiz.availability === "blocked" ? "Blocked pending source verification." : `${quiz.partCount} response field${quiz.partCount === 1 ? "" : "s"}. Untimed practice with self-assessment.`}</p>${quiz.availability === "blocked" ? `<span class="muted">Unavailable until verified documents are added.</span>` : link(`/writing/${quiz.id}`, "Open writing practice", "btn")}</div>`).join("")}</section>`).join("")}</div>
     </div><aside class="side-note"><p class="eyebrow">Make the connection</p><h3>Explain it in your own words.</h3><p>Compare ideas across topics and support your explanation with specific evidence.</p></aside></div>
     </section>
+  </div>`;
+}
+
+// Multiple-choice sets, by unit. The course page opens every unit; a unit's own page opens one.
+export function mcqPage(data, peekAttempt = () => null) {
+  const { course } = data;
+  const single = Boolean(data.unit);
+  const units = (single ? [data.unit] : data.units).filter(hasMcq);
+  const crumbs = [
+    ["Courses", "/courses"],
+    [course.shortTitle, `/course/${course.id}`],
+    ...(single ? [[`Unit ${data.unit.number}`, `/unit/${data.unit.id}`]] : []),
+    ["Multiple choice"],
+  ];
+  const sets = (list, kind) =>
+    list
+      .map(
+        (quiz) =>
+          `<div class="unit-tool">${kind ? `<p class="eyebrow">${esc(kind(quiz))}</p>` : ""}<h3>${esc(quiz.title)}</h3><p>${quiz.questionCount} questions. Choose an answer, check it, and read why each choice fits or misses.</p>${quizEntry(quiz, peekAttempt(quiz.id), "Start set")}</div>`,
+      )
+      .join("");
+  const body = units.length
+    ? units
+        .map(
+          (
+            unit,
+          ) => `<section class="hub-section mcq-unit" id="mcq-${esc(unit.id)}" aria-labelledby="mcq-${esc(unit.id)}-title">
+      <div class="section-heading"><h2 id="mcq-${esc(unit.id)}-title">Unit ${unit.number}: ${esc(unit.title)}</h2>${single ? "" : link(`/unit/${unit.id}`, "Open unit", "text-link")}</div>
+      ${unit.mcq.unitQuizzes.length ? `<div class="unit-tools">${sets(unit.mcq.unitQuizzes, () => "Whole unit")}</div>` : ""}
+      ${unit.mcq.topicSets.length ? `<div class="unit-tools mcq-topics">${sets(unit.mcq.topicSets, (quiz) => `Topic ${quiz.code}`)}</div>` : ""}
+    </section>`,
+        )
+        .join("")
+    : '<p class="study-empty">Multiple-choice sets will appear here when they are available.</p>';
+  return `<div class="container mcq-hub">${breadcrumbs(crumbs)}
+    <header class="study-heading"><p class="eyebrow">${single ? `Unit ${data.unit.number}` : esc(course.shortTitle)} · Multiple choice</p>
+      <h1>Multiple choice</h1><p>Four-choice sets for when you want quick selection practice. Typed-answer practice is on each topic page and in the unit practice.</p></header>
+    ${body}
   </div>`;
 }

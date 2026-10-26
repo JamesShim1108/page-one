@@ -1,0 +1,765 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-p02",
+              "precalculus-2-1-p07",
+              "precalculus-2-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-p02",
+              "precalculus-2-2-p07",
+              "precalculus-2-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-p02",
+              "precalculus-2-3-p07",
+              "precalculus-2-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-p02",
+              "precalculus-2-4-p07",
+              "precalculus-2-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-p02",
+              "precalculus-2-5-p07",
+              "precalculus-2-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-p02",
+              "precalculus-2-6-p07",
+              "precalculus-2-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-p02",
+              "precalculus-2-7-p07",
+              "precalculus-2-7-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-p02",
+              "precalculus-2-8-p07",
+              "precalculus-2-8-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-p02",
+              "precalculus-2-9-p07",
+              "precalculus-2-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-p02",
+              "precalculus-2-10-p07",
+              "precalculus-2-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-p02",
+              "precalculus-2-11-p07",
+              "precalculus-2-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-p02",
+              "precalculus-2-12-p07",
+              "precalculus-2-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-p02",
+              "precalculus-2-13-p07",
+              "precalculus-2-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-p02",
+              "precalculus-2-14-p07",
+              "precalculus-2-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-p02",
+              "precalculus-2-15-p07",
+              "precalculus-2-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-2-mcq-1",
+          "title": "Unit 2 multiple choice, Part 1: Topics 2.1 to 2.8",
+          "questionCount": 24
+        },
+        {
+          "id": "precalculus-2-mcq-2",
+          "title": "Unit 2 multiple choice, Part 2: Topics 2.9 to 2.15",
+          "questionCount": 21
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-2-1-mcq",
+          "title": "Change in Arithmetic and Geometric Sequences multiple choice",
+          "topicId": "precalculus-2-1",
+          "code": "2.1",
+          "topicTitle": "Change in Arithmetic and Geometric Sequences",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-2-mcq",
+          "title": "Change in Linear and Exponential Functions multiple choice",
+          "topicId": "precalculus-2-2",
+          "code": "2.2",
+          "topicTitle": "Change in Linear and Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-3-mcq",
+          "title": "Exponential Functions multiple choice",
+          "topicId": "precalculus-2-3",
+          "code": "2.3",
+          "topicTitle": "Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-4-mcq",
+          "title": "Exponential Function Manipulation multiple choice",
+          "topicId": "precalculus-2-4",
+          "code": "2.4",
+          "topicTitle": "Exponential Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-5-mcq",
+          "title": "Exponential Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-5",
+          "code": "2.5",
+          "topicTitle": "Exponential Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-6-mcq",
+          "title": "Competing Function Model Validation multiple choice",
+          "topicId": "precalculus-2-6",
+          "code": "2.6",
+          "topicTitle": "Competing Function Model Validation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-7-mcq",
+          "title": "Composition of Functions multiple choice",
+          "topicId": "precalculus-2-7",
+          "code": "2.7",
+          "topicTitle": "Composition of Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-8-mcq",
+          "title": "Inverse Functions multiple choice",
+          "topicId": "precalculus-2-8",
+          "code": "2.8",
+          "topicTitle": "Inverse Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-9-mcq",
+          "title": "Logarithmic Expressions multiple choice",
+          "topicId": "precalculus-2-9",
+          "code": "2.9",
+          "topicTitle": "Logarithmic Expressions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-10-mcq",
+          "title": "Inverses of Exponential Functions multiple choice",
+          "topicId": "precalculus-2-10",
+          "code": "2.10",
+          "topicTitle": "Inverses of Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-11-mcq",
+          "title": "Logarithmic Functions multiple choice",
+          "topicId": "precalculus-2-11",
+          "code": "2.11",
+          "topicTitle": "Logarithmic Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-12-mcq",
+          "title": "Logarithmic Function Manipulation multiple choice",
+          "topicId": "precalculus-2-12",
+          "code": "2.12",
+          "topicTitle": "Logarithmic Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-13-mcq",
+          "title": "Exponential and Logarithmic Equations and Inequalities multiple choice",
+          "topicId": "precalculus-2-13",
+          "code": "2.13",
+          "topicTitle": "Exponential and Logarithmic Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-14-mcq",
+          "title": "Logarithmic Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-14",
+          "code": "2.14",
+          "topicTitle": "Logarithmic Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-15-mcq",
+          "title": "Semi-log Plots multiple choice",
+          "topicId": "precalculus-2-15",
+          "code": "2.15",
+          "topicTitle": "Semi-log Plots",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-1",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 1,
+    "code": "2.1",
+    "title": "Change in Arithmetic and Geometric Sequences",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+  },
+  "framework": null,
+  "contentRevision": "8aaa534afc4b2549",
+  "questions": [
+    {
+      "id": "precalculus-2-1-q01",
+      "topicId": "precalculus-2-1",
+      "concept": "arithmetic",
+      "difficulty": "Quick check",
+      "skill": "construct-functions",
+      "prompt": "An arithmetic sequence has initial value a₀ = 12 and common difference d = −4. Which of the following gives the general term aₙ?",
+      "choices": [
+        "aₙ = 12(−4)ⁿ",
+        "aₙ = 12 − 4n",
+        "aₙ = −4 + 12n",
+        "aₙ = 12 − 4(n − 1)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The general term of an arithmetic sequence is aₙ = a₀ + dn, so aₙ = 12 + (−4)n = 12 − 4n.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "Multiplying by −4 each step describes a geometric sequence, not an arithmetic one.",
+        "aₙ = a₀ + dn with a₀ = 12 and d = −4.",
+        "This swaps the roles of the initial value and the common difference.",
+        "The form aₖ + d(n − k) needs the kth term. Here 12 is a₀, so subtracting 1 shifts every term: this gives a₀ = 16."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Use n, not n − 1, when the given value is a₀.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-1-q02",
+      "topicId": "precalculus-2-1",
+      "concept": "geometric",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "Which of the following sequences is geometric?",
+      "choices": [
+        "3, 7, 11, 15, …",
+        "2, 4, 8, 14, …",
+        "48, 24, 12, 6, …",
+        "1, 4, 9, 16, …"
+      ],
+      "correctAnswer": 2,
+      "explanation": "48, 24, 12, 6 has a common ratio of 1/2: each term is half the term before it.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "Successive terms have a common difference of 4, so the sequence is arithmetic.",
+        "4/2 = 2 and 8/4 = 2, but 14/8 = 1.75, so the ratio is not common.",
+        "24/48 = 12/24 = 6/12 = 1/2, a common ratio.",
+        "These are perfect squares. The differences 3, 5, 7 and the ratios are not constant."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Check every ratio, not just the first two.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-1-q03",
+      "topicId": "precalculus-2-1",
+      "concept": "geometric",
+      "difficulty": "Quick check",
+      "skill": "construct-functions",
+      "prompt": "A geometric sequence has g₂ = 18 and common ratio r = 3. Which of the following gives the general term gₙ?",
+      "choices": [
+        "gₙ = 18(3)ⁿ",
+        "gₙ = 18 + 3(n − 2)",
+        "gₙ = 3(18)^(n − 2)",
+        "gₙ = 18(3)^(n − 2)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "From the kth term, gₙ = gₖr^(n − k). With k = 2, gₙ = 18(3)^(n − 2). Check: g₂ = 18(3)⁰ = 18.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "This treats 18 as g₀. It gives g₂ = 162, not 18.",
+        "Adding 3 each step describes an arithmetic sequence.",
+        "The base and the coefficient are switched.",
+        "gₙ = gₖr^(n − k) with gₖ = 18 and k = 2."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Using a known kth term means the exponent is n − k.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-1-q04",
+      "topicId": "precalculus-2-1",
+      "concept": "sequences",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "Which of the following best describes the graph of a sequence?",
+      "choices": [
+        "A set of discrete points, because a sequence is a function from the whole numbers to the real numbers",
+        "A smooth curve, because each term is found from a function rule",
+        "A line, because consecutive terms always change by the same amount",
+        "A set of discrete points, because a sequence must be either increasing or decreasing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The inputs of a sequence are whole numbers, so the graph consists of discrete points instead of a curve.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "The domain is the whole numbers, so only separate points are plotted.",
+        "Having a rule does not make the domain all real numbers.",
+        "Only arithmetic sequences change by the same amount, and even then the graph is points.",
+        "The graph is discrete points, but the reason is the whole-number domain, not whether the sequence increases."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The domain, not the pattern, makes the graph discrete.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-1-q05",
+      "topicId": "precalculus-2-1",
+      "concept": "arithmetic",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "A theater has 22 seats in the first row, and each row after that has 3 more seats than the row before it. Using n = 0 for the first row, how many seats are in the row with n = 14?",
+      "choices": [
+        "67",
+        "61",
+        "64",
+        "42"
+      ],
+      "correctAnswer": 2,
+      "explanation": "aₙ = 22 + 3n, so a₁₄ = 22 + 42 = 64.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "67 uses 15 steps of 3.",
+        "61 uses 13 steps of 3. With n = 0 for the first row, the row with n = 14 is 14 steps away.",
+        "a₁₄ = 22 + 3(14) = 64.",
+        "42 is the total increase, 3(14), without the 22 seats in the first row."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Count steps from a₀: n = 14 means 14 common differences.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-2-1-q06",
+      "topicId": "precalculus-2-1",
+      "concept": "geometric",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "A ball is dropped from a height of 80 inches. After each bounce it reaches half of its previous height. The heights form a geometric sequence with g₀ = 80. What is g₃, the height after the third bounce?",
+      "choices": [
+        "20 inches",
+        "10 inches",
+        "40 inches",
+        "5 inches"
+      ],
+      "correctAnswer": 1,
+      "explanation": "gₙ = 80(1/2)ⁿ, so g₃ = 80(1/8) = 10 inches.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "20 = 80(1/2)², the height after the second bounce.",
+        "g₃ = 80(0.5)³ = 10.",
+        "40 is the height after the first bounce.",
+        "5 = 80(1/2)⁴, the height after the fourth bounce."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The exponent counts the bounces from g₀.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-2-1-q07",
+      "topicId": "precalculus-2-1",
+      "concept": "arithmetic",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "An arithmetic sequence has a₃ = 20 and a₇ = 32. What is the common difference d?",
+      "choices": [
+        "12",
+        "4",
+        "8",
+        "3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "From n = 3 to n = 7 there are 4 steps, and the terms change by 32 − 20 = 12. So d = 12/4 = 3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "12 is the total change over 4 steps, not the change per step.",
+        "4 is the number of steps between the terms.",
+        "8 divides 32 by the 4 steps without subtracting a₃.",
+        "d = (32 − 20)/(7 − 3) = 3."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The common difference is a rate: change in terms over change in n.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-1-q08",
+      "topicId": "precalculus-2-1",
+      "concept": "geometric",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "A geometric sequence of positive terms has g₁ = 6 and g₃ = 54. Which of the following is the general term gₙ?",
+      "choices": [
+        "gₙ = 2(3)ⁿ",
+        "gₙ = 6(3)ⁿ",
+        "gₙ = 2(9)ⁿ",
+        "gₙ = 6 + 24n"
+      ],
+      "correctAnswer": 0,
+      "explanation": "g₃/g₁ = r² = 9, so r = 3 for positive terms. Then g₀ = g₁/r = 2, and gₙ = 2(3)ⁿ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "r² = 54/6 = 9, so r = 3, and g₀ = 6/3 = 2.",
+        "This uses g₁ = 6 as the initial value, which gives g₁ = 18.",
+        "9 is the ratio over two steps, r², not the common ratio.",
+        "A common difference of 24 would make the sequence arithmetic."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Two steps apart means the ratio of the terms is r².",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-1-q09",
+      "topicId": "precalculus-2-1",
+      "concept": "geometric",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "Sequence A is 4, 7, 10, 13, … and sequence B is 4, 8, 16, 32, …. Which statement about the change from one term to the next is true?",
+      "choices": [
+        "Both sequences change by a constant amount.",
+        "A changes by a constant ratio, and B changes by a constant amount.",
+        "A changes by a constant amount, and B changes by a larger amount with each step.",
+        "Both sequences change by a larger amount with each step."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A has a common difference of 3. B has a common ratio of 2, so its increases 4, 8, 16 get larger with each step.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "B changes by 4, then 8, then 16, which is not constant.",
+        "This switches the two descriptions.",
+        "An increasing arithmetic sequence increases equally with each step, whereas an increasing geometric sequence of positive values increases by a larger amount with each step.",
+        "A increases by 3 every time."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Constant difference means equal increases; constant ratio greater than 1 means growing increases.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-1-q10",
+      "topicId": "precalculus-2-1",
+      "concept": "arithmetic",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "A savings account has $150 at week 0, and $25 is deposited at the end of every week, with no other changes. The balances form an arithmetic sequence. In which week does the balance first reach at least $600?",
+      "choices": [
+        "Week 24",
+        "Week 17",
+        "Week 19",
+        "Week 18"
+      ],
+      "correctAnswer": 3,
+      "explanation": "aₙ = 150 + 25n ≥ 600 gives 25n ≥ 450, so n ≥ 18. The balance is exactly $600 at week 18.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-1"
+      ],
+      "choiceExplanations": [
+        "24 = 600/25 ignores the $150 at week 0.",
+        "At week 17 the balance is 150 + 425 = $575, still below $600.",
+        "At week 19 the balance is $625, but it already reached $600 a week earlier.",
+        "150 + 25(18) = 600."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Include the initial value before dividing by the common difference.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-2-1-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-1",
+      "title": "Change in Arithmetic and Geometric Sequences multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-2-1-q01",
+        "precalculus-2-1-q02",
+        "precalculus-2-1-q03",
+        "precalculus-2-1-q04",
+        "precalculus-2-1-q05",
+        "precalculus-2-1-q06",
+        "precalculus-2-1-q07",
+        "precalculus-2-1-q08",
+        "precalculus-2-1-q09",
+        "precalculus-2-1-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "sequences": {
+      "id": "sequences",
+      "title": "Sequences as functions",
+      "section": "sequences",
+      "topicId": "precalculus-2-1"
+    },
+    "arithmetic": {
+      "id": "arithmetic",
+      "title": "Arithmetic sequences",
+      "section": "arithmetic",
+      "topicId": "precalculus-2-1"
+    },
+    "geometric": {
+      "id": "geometric",
+      "title": "Geometric sequences",
+      "section": "geometric",
+      "topicId": "precalculus-2-1"
+    }
+  },
+  "assets": {}
+}

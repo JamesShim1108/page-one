@@ -177,6 +177,10 @@
         ]
       }
     ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
     "practiceTest": {
       "id": "world-3-practice-test",
       "title": "Unit 3 Practice Test",

@@ -216,5 +216,16 @@
     "apush-9": "apush/units/apush-9.json"
   },
   "term-set": {},
-  "exam": {}
+  "exam": {},
+  "mcq": {
+    "apush-1": "apush/units/apush-1.json",
+    "apush-2": "apush/units/apush-2.json",
+    "apush-3": "apush/units/apush-3.json",
+    "apush-4": "apush/units/apush-4.json",
+    "apush-5": "apush/units/apush-5.json",
+    "apush-6": "apush/units/apush-6.json",
+    "apush-7": "apush/units/apush-7.json",
+    "apush-8": "apush/units/apush-8.json",
+    "apush-9": "apush/units/apush-9.json"
+  }
 }

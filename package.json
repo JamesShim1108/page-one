@@ -14,7 +14,8 @@
     "check": "npm run validate && npm test && npm run format:check",
     "image": "node scripts/prepare-image.mjs",
     "stamp": "node scripts/stamp-release.mjs",
-    "graphs": "node scripts/preview-graphs.mjs"
+    "graphs": "node scripts/preview-graphs.mjs",
+    "sample": "node scripts/sample-practice.mjs"
   },
   "devDependencies": {
     "prettier": "3.9.6",

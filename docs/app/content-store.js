@@ -86,7 +86,8 @@ export function createContentStore({ fetchJson = readJson } = {}) {
     const courseId = type === "course" ? id : id?.split("-")[0];
     const course = courses.find((item) => item.id === courseId);
     if (!course) return null;
-    if (type === "course") return load(course.indexPath);
+    if (type === "course" || (type === "mcq" && id === courseId))
+      return load(course.indexPath);
     const routes = await load(course.routesPath);
     const path = routes[type === "results" ? "quiz" : type]?.[id];
     if (!path) return null;

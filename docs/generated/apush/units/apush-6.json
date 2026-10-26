@@ -20,6 +20,10 @@
     "period": "1865–1898",
     "status": "soon",
     "quizzes": [],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
     "practiceTest": null,
     "termSets": [],
     "topicQuizzes": [],

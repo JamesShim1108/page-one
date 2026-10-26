@@ -1,0 +1,771 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-p02",
+              "precalculus-2-1-p07",
+              "precalculus-2-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-p02",
+              "precalculus-2-2-p07",
+              "precalculus-2-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-p02",
+              "precalculus-2-3-p07",
+              "precalculus-2-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-p02",
+              "precalculus-2-4-p07",
+              "precalculus-2-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-p02",
+              "precalculus-2-5-p07",
+              "precalculus-2-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-p02",
+              "precalculus-2-6-p07",
+              "precalculus-2-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-p02",
+              "precalculus-2-7-p07",
+              "precalculus-2-7-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-p02",
+              "precalculus-2-8-p07",
+              "precalculus-2-8-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-p02",
+              "precalculus-2-9-p07",
+              "precalculus-2-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-p02",
+              "precalculus-2-10-p07",
+              "precalculus-2-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-p02",
+              "precalculus-2-11-p07",
+              "precalculus-2-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-p02",
+              "precalculus-2-12-p07",
+              "precalculus-2-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-p02",
+              "precalculus-2-13-p07",
+              "precalculus-2-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-p02",
+              "precalculus-2-14-p07",
+              "precalculus-2-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-p02",
+              "precalculus-2-15-p07",
+              "precalculus-2-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-2-mcq-1",
+          "title": "Unit 2 multiple choice, Part 1: Topics 2.1 to 2.8",
+          "questionCount": 24
+        },
+        {
+          "id": "precalculus-2-mcq-2",
+          "title": "Unit 2 multiple choice, Part 2: Topics 2.9 to 2.15",
+          "questionCount": 21
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-2-1-mcq",
+          "title": "Change in Arithmetic and Geometric Sequences multiple choice",
+          "topicId": "precalculus-2-1",
+          "code": "2.1",
+          "topicTitle": "Change in Arithmetic and Geometric Sequences",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-2-mcq",
+          "title": "Change in Linear and Exponential Functions multiple choice",
+          "topicId": "precalculus-2-2",
+          "code": "2.2",
+          "topicTitle": "Change in Linear and Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-3-mcq",
+          "title": "Exponential Functions multiple choice",
+          "topicId": "precalculus-2-3",
+          "code": "2.3",
+          "topicTitle": "Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-4-mcq",
+          "title": "Exponential Function Manipulation multiple choice",
+          "topicId": "precalculus-2-4",
+          "code": "2.4",
+          "topicTitle": "Exponential Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-5-mcq",
+          "title": "Exponential Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-5",
+          "code": "2.5",
+          "topicTitle": "Exponential Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-6-mcq",
+          "title": "Competing Function Model Validation multiple choice",
+          "topicId": "precalculus-2-6",
+          "code": "2.6",
+          "topicTitle": "Competing Function Model Validation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-7-mcq",
+          "title": "Composition of Functions multiple choice",
+          "topicId": "precalculus-2-7",
+          "code": "2.7",
+          "topicTitle": "Composition of Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-8-mcq",
+          "title": "Inverse Functions multiple choice",
+          "topicId": "precalculus-2-8",
+          "code": "2.8",
+          "topicTitle": "Inverse Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-9-mcq",
+          "title": "Logarithmic Expressions multiple choice",
+          "topicId": "precalculus-2-9",
+          "code": "2.9",
+          "topicTitle": "Logarithmic Expressions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-10-mcq",
+          "title": "Inverses of Exponential Functions multiple choice",
+          "topicId": "precalculus-2-10",
+          "code": "2.10",
+          "topicTitle": "Inverses of Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-11-mcq",
+          "title": "Logarithmic Functions multiple choice",
+          "topicId": "precalculus-2-11",
+          "code": "2.11",
+          "topicTitle": "Logarithmic Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-12-mcq",
+          "title": "Logarithmic Function Manipulation multiple choice",
+          "topicId": "precalculus-2-12",
+          "code": "2.12",
+          "topicTitle": "Logarithmic Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-13-mcq",
+          "title": "Exponential and Logarithmic Equations and Inequalities multiple choice",
+          "topicId": "precalculus-2-13",
+          "code": "2.13",
+          "topicTitle": "Exponential and Logarithmic Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-14-mcq",
+          "title": "Logarithmic Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-14",
+          "code": "2.14",
+          "topicTitle": "Logarithmic Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-15-mcq",
+          "title": "Semi-log Plots multiple choice",
+          "topicId": "precalculus-2-15",
+          "code": "2.15",
+          "topicTitle": "Semi-log Plots",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-13",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 13,
+    "code": "2.13",
+    "title": "Exponential and Logarithmic Equations and Inequalities",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "Solving exponential and logarithmic equations and inequalities with properties and inverses, checking for extraneous solutions, rewriting exponential expressions with logarithms, and finding inverses of transformed exponential and logarithmic functions."
+  },
+  "framework": null,
+  "contentRevision": "e370a695480daf64",
+  "questions": [
+    {
+      "id": "precalculus-2-13-q01",
+      "topicId": "precalculus-2-13",
+      "concept": "solving",
+      "difficulty": "Quick check",
+      "skill": "solve",
+      "prompt": "What is the solution to 2^(3x + 1) = 64?",
+      "choices": [
+        "x = 21",
+        "x = 7/3",
+        "x = 6",
+        "x = 5/3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "64 = 2⁶, so 3x + 1 = 6 and x = 5/3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "21 = 63/3 sets 3x = 64 − 1, treating 64 as the exponent.",
+        "7/3 adds 1 instead of subtracting it: 3x = 6 + 1.",
+        "6 is the exponent of 64, not the value of x.",
+        "3x + 1 = 6, so x = 5/3."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Match exponents only after writing both sides with the same base.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-2-13-q02",
+      "topicId": "precalculus-2-13",
+      "concept": "solving",
+      "difficulty": "Quick check",
+      "skill": "solve",
+      "prompt": "What is the solution to log₃ (2x − 1) = 4?",
+      "choices": [
+        "x = 13/2",
+        "x = 41",
+        "x = 6.5",
+        "x = 3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exponentiate: 2x − 1 = 3⁴ = 81, so 2x = 82 and x = 41.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "13/2 uses 3·4 = 12 instead of 3⁴ = 81.",
+        "2x − 1 = 81 gives x = 41.",
+        "6.5 is the same as 13/2, which uses 12 instead of 81.",
+        "3 is the base, not the solution."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "log₃ (stuff) = 4 means stuff = 3⁴.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-2-13-q03",
+      "topicId": "precalculus-2-13",
+      "concept": "extraneous",
+      "difficulty": "Quick check",
+      "skill": "solve",
+      "prompt": "Solving log₂ x + log₂ (x − 2) = 3 leads to x² − 2x − 8 = 0, with solutions x = 4 and x = −2. Which is the solution set of the original equation?",
+      "choices": [
+        "{4}",
+        "{−2}",
+        "{4, −2}",
+        "No solution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x = −2 is extraneous because log₂ (−2) and log₂ (−4) are undefined. Only x = 4 works: log₂ 4 + log₂ 2 = 2 + 1 = 3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "4 is in the domain of both logarithms and satisfies the equation.",
+        "−2 makes both arguments negative.",
+        "−2 is an extraneous solution of the original equation.",
+        "x = 4 checks, so there is a solution."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Check each candidate in the original logarithms.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-2-13-q04",
+      "topicId": "precalculus-2-13",
+      "concept": "rewriting",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to 5ˣ?",
+      "choices": [
+        "e^(5x)",
+        "e^(x/ln 5)",
+        "e^((ln 5)x)",
+        "(ln 5)eˣ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "bˣ = c^((log_c b)x). With c = e, 5ˣ = e^((ln 5)x).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "e^(5x) = (e⁵)ˣ, which has base e⁵ ≈ 148.4, not 5.",
+        "Divide-by-ln 5 gives the wrong base.",
+        "5 = e^(ln 5), so 5ˣ = e^((ln 5)x).",
+        "A coefficient of ln 5 does not change eˣ into 5ˣ."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The exponent gets multiplied by ln 5.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-13-q05",
+      "topicId": "precalculus-2-13",
+      "concept": "solving",
+      "difficulty": "Core",
+      "skill": "solve",
+      "prompt": "Which of the following is the solution to 4ˣ = 20?",
+      "choices": [
+        "x = (ln 20)/(ln 4)",
+        "x = 5",
+        "x = ln 20 − ln 4",
+        "x = (ln 4)/(ln 20)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x = log₄ 20 = (ln 20)/(ln 4) ≈ 2.161.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "Take log₄ of both sides, then use the change of base property.",
+        "5 = 20/4 divides the numbers instead of solving for the exponent.",
+        "ln 20 − ln 4 = ln 5, which is not log₄ 20.",
+        "This is the reciprocal, log₂₀ 4."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "The base goes in the denominator of the change of base.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-2-13-q06",
+      "topicId": "precalculus-2-13",
+      "concept": "solving",
+      "difficulty": "Core",
+      "skill": "solve",
+      "prompt": "Which values of x satisfy (0.5)ˣ ≥ 8?",
+      "choices": [
+        "x ≥ 3",
+        "x ≥ −3",
+        "x ≤ −3",
+        "x ≤ 3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "8 = (0.5)⁻³. Because (0.5)ˣ is always decreasing, (0.5)ˣ ≥ (0.5)⁻³ when x ≤ −3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "(0.5)³ = 1/8, not 8.",
+        "The exponent −3 is correct, but a decreasing function reverses the inequality.",
+        "(0.5)ˣ is decreasing, so larger outputs come from smaller inputs: x ≤ −3.",
+        "This uses 2³ = 8 with the wrong base and the wrong direction."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Base less than 1: the inequality reverses.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-2-13-q07",
+      "topicId": "precalculus-2-13",
+      "concept": "extraneous",
+      "difficulty": "Core",
+      "skill": "solve",
+      "prompt": "What is the solution to ln (x + 3) + ln (x − 3) = ln 16?",
+      "choices": [
+        "x = −5",
+        "x = ±5",
+        "x = 8",
+        "x = 5"
+      ],
+      "correctAnswer": 3,
+      "explanation": "ln ((x + 3)(x − 3)) = ln 16, so x² − 9 = 16 and x = ±5. x = −5 is extraneous, because ln (−2) and ln (−8) are undefined. So x = 5.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "−5 makes both arguments negative.",
+        "x = −5 must be rejected as extraneous.",
+        "8 adds the arguments: (x + 3) + (x − 3) = 16.",
+        "x = 5 gives ln 8 + ln 2 = ln 16."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Reject a candidate that makes any argument negative.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-2-13-q08",
+      "topicId": "precalculus-2-13",
+      "concept": "inverses",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "What is the inverse of f(x) = 3e^(x + 2)?",
+      "choices": [
+        "f⁻¹(x) = ln (x/3 + 2)",
+        "f⁻¹(x) = ln (x/3) − 2",
+        "f⁻¹(x) = (ln x)/3 − 2",
+        "f⁻¹(x) = ln (x − 2)/3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "x = 3e^(y + 2), so x/3 = e^(y + 2), y + 2 = ln (x/3), and y = ln (x/3) − 2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "The 2 is subtracted after taking the logarithm, not added inside it.",
+        "Divide by 3, take ln, then subtract 2.",
+        "Dividing ln x by 3 is not the same as ln (x/3).",
+        "The order of the inverse operations is reversed."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Undo the multiplication by 3 before taking the logarithm.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-13-q09",
+      "topicId": "precalculus-2-13",
+      "concept": "inverses",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "What is the inverse of g(x) = 2 log₅ (x − 1) + 4?",
+      "choices": [
+        "g⁻¹(x) = 5^((x − 4)/2) + 1",
+        "g⁻¹(x) = 5^((x − 4)/2) − 1",
+        "g⁻¹(x) = 5^(x/2 − 4) + 1",
+        "g⁻¹(x) = (5^(x − 4))/2 + 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x = 2 log₅ (y − 1) + 4, so (x − 4)/2 = log₅ (y − 1), y − 1 = 5^((x − 4)/2), and y = 5^((x − 4)/2) + 1.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "Subtract 4, divide by 2, exponentiate with base 5, then add 1.",
+        "The inverse of subtracting 1 inside the logarithm is adding 1.",
+        "Subtract 4 before dividing by 2.",
+        "Dividing by 2 must happen before exponentiating."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Reverse the operations in the opposite order.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-13-q10",
+      "topicId": "precalculus-2-13",
+      "concept": "solving",
+      "difficulty": "Core",
+      "skill": "solve",
+      "prompt": "What is the solution to 4e^(3x) − e = e?",
+      "choices": [
+        "x = −(ln 2)/3",
+        "x = 1 − ln 2",
+        "x = 1/6",
+        "x = (1 − ln 2)/3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "4e^(3x) = 2e, so e^(3x) = e/2. Then 3x = ln (e/2) = 1 − ln 2, and x = (1 − ln 2)/3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-13"
+      ],
+      "choiceExplanations": [
+        "This drops the factor e: it solves 4e^(3x) = 2.",
+        "1 − ln 2 is 3x, not x. Divide by 3.",
+        "1/6 treats ln (e/2) as 1/2.",
+        "ln (e/2) = ln e − ln 2 = 1 − ln 2, then divide by 3."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Isolate e^(3x), take ln, then divide by 3.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-2-13-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-13",
+      "title": "Exponential and Logarithmic Equations and Inequalities multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-2-13-q01",
+        "precalculus-2-13-q02",
+        "precalculus-2-13-q03",
+        "precalculus-2-13-q04",
+        "precalculus-2-13-q05",
+        "precalculus-2-13-q06",
+        "precalculus-2-13-q07",
+        "precalculus-2-13-q08",
+        "precalculus-2-13-q09",
+        "precalculus-2-13-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "solving": {
+      "id": "solving",
+      "title": "Solving equations and inequalities",
+      "section": "solving",
+      "topicId": "precalculus-2-13"
+    },
+    "extraneous": {
+      "id": "extraneous",
+      "title": "Extraneous solutions",
+      "section": "extraneous",
+      "topicId": "precalculus-2-13"
+    },
+    "rewriting": {
+      "id": "rewriting",
+      "title": "Rewriting exponentials with logarithms",
+      "section": "rewriting",
+      "topicId": "precalculus-2-13"
+    },
+    "inverses": {
+      "id": "inverses",
+      "title": "Inverses of transformed functions",
+      "section": "inverses",
+      "topicId": "precalculus-2-13"
+    }
+  },
+  "assets": {}
+}

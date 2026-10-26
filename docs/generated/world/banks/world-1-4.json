@@ -260,6 +260,10 @@
         ]
       }
     ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
     "practiceTest": {
       "id": "world-1-practice-test",
       "title": "Unit 1 Practice Test",

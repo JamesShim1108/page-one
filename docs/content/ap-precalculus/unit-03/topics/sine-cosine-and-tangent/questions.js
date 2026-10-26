@@ -236,28 +236,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-2-quick",
+      id: "precalculus-3-2-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-2",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Sine, Cosine, and Tangent multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-2-q01",
         "precalculus-3-2-q02",
         "precalculus-3-2-q03",
         "precalculus-3-2-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-2-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-2",
-      title: "Sine, Cosine, and Tangent topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-2-q05",
         "precalculus-3-2-q06",
         "precalculus-3-2-q07",

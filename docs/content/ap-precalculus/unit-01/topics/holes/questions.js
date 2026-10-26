@@ -281,28 +281,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-10-quick",
+      id: "precalculus-1-10-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-10",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Rational Functions and Holes multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-10-q01",
         "precalculus-1-10-q02",
         "precalculus-1-10-q03",
         "precalculus-1-10-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-10-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-10",
-      title: "Rational Functions and Holes topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-10-q05",
         "precalculus-1-10-q06",
         "precalculus-1-10-q07",

@@ -1,0 +1,517 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-p02",
+              "precalculus-3-1-p07",
+              "precalculus-3-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-p02",
+              "precalculus-3-2-p07",
+              "precalculus-3-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-p02",
+              "precalculus-3-3-p07",
+              "precalculus-3-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-p02",
+              "precalculus-3-4-p07",
+              "precalculus-3-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-p02",
+              "precalculus-3-5-p07",
+              "precalculus-3-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-p02",
+              "precalculus-3-6-p07",
+              "precalculus-3-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-p02",
+              "precalculus-3-7-p07",
+              "precalculus-3-7-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-p02",
+              "precalculus-3-8-p07",
+              "precalculus-3-8-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-p02",
+              "precalculus-3-9-p07",
+              "precalculus-3-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-p02",
+              "precalculus-3-10-p07",
+              "precalculus-3-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-p02",
+              "precalculus-3-11-p07",
+              "precalculus-3-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-p02",
+              "precalculus-3-12-p07",
+              "precalculus-3-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-p02",
+              "precalculus-3-13-p07",
+              "precalculus-3-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-p02",
+              "precalculus-3-14-p07",
+              "precalculus-3-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-p02",
+              "precalculus-3-15-p07",
+              "precalculus-3-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-3-mcq-1",
+          "title": "Unit 3 multiple choice, Part 1: Topics 3.1 to 3.7",
+          "questionCount": 21
+        },
+        {
+          "id": "precalculus-3-mcq-2",
+          "title": "Unit 3 multiple choice, Part 2: Topics 3.8 to 3.15",
+          "questionCount": 24
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-3-1-mcq",
+          "title": "Periodic Phenomena multiple choice",
+          "topicId": "precalculus-3-1",
+          "code": "3.1",
+          "topicTitle": "Periodic Phenomena",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-2-mcq",
+          "title": "Sine, Cosine, and Tangent multiple choice",
+          "topicId": "precalculus-3-2",
+          "code": "3.2",
+          "topicTitle": "Sine, Cosine, and Tangent",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-3-mcq",
+          "title": "Sine and Cosine Function Values multiple choice",
+          "topicId": "precalculus-3-3",
+          "code": "3.3",
+          "topicTitle": "Sine and Cosine Function Values",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-4-mcq",
+          "title": "Sine and Cosine Function Graphs multiple choice",
+          "topicId": "precalculus-3-4",
+          "code": "3.4",
+          "topicTitle": "Sine and Cosine Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-5-mcq",
+          "title": "Sinusoidal Functions multiple choice",
+          "topicId": "precalculus-3-5",
+          "code": "3.5",
+          "topicTitle": "Sinusoidal Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-6-mcq",
+          "title": "Sinusoidal Function Transformations multiple choice",
+          "topicId": "precalculus-3-6",
+          "code": "3.6",
+          "topicTitle": "Sinusoidal Function Transformations",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-7-mcq",
+          "title": "Sinusoidal Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-3-7",
+          "code": "3.7",
+          "topicTitle": "Sinusoidal Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-8-mcq",
+          "title": "The Tangent Function multiple choice",
+          "topicId": "precalculus-3-8",
+          "code": "3.8",
+          "topicTitle": "The Tangent Function",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-9-mcq",
+          "title": "Inverse Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-9",
+          "code": "3.9",
+          "topicTitle": "Inverse Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-10-mcq",
+          "title": "Trigonometric Equations and Inequalities multiple choice",
+          "topicId": "precalculus-3-10",
+          "code": "3.10",
+          "topicTitle": "Trigonometric Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-11-mcq",
+          "title": "The Secant, Cosecant, and Cotangent Functions multiple choice",
+          "topicId": "precalculus-3-11",
+          "code": "3.11",
+          "topicTitle": "The Secant, Cosecant, and Cotangent Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-12-mcq",
+          "title": "Equivalent Representations of Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-12",
+          "code": "3.12",
+          "topicTitle": "Equivalent Representations of Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-13-mcq",
+          "title": "Trigonometry and Polar Coordinates multiple choice",
+          "topicId": "precalculus-3-13",
+          "code": "3.13",
+          "topicTitle": "Trigonometry and Polar Coordinates",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-14-mcq",
+          "title": "Polar Function Graphs multiple choice",
+          "topicId": "precalculus-3-14",
+          "code": "3.14",
+          "topicTitle": "Polar Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-15-mcq",
+          "title": "Rates of Change in Polar Functions multiple choice",
+          "topicId": "precalculus-3-15",
+          "code": "3.15",
+          "topicTitle": "Rates of Change in Polar Functions",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": null,
+  "quiz": {
+    "id": "precalculus-3-mcq-2",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "title": "Unit 3 multiple choice, Part 2: Topics 3.8 to 3.15",
+    "quizType": "unit",
+    "selections": [
+      {
+        "topicId": "precalculus-3-8",
+        "questionIds": [
+          "precalculus-3-8-q01",
+          "precalculus-3-8-q02",
+          "precalculus-3-8-q05"
+        ]
+      },
+      {
+        "topicId": "precalculus-3-9",
+        "questionIds": [
+          "precalculus-3-9-q01",
+          "precalculus-3-9-q03",
+          "precalculus-3-9-q07"
+        ]
+      },
+      {
+        "topicId": "precalculus-3-10",
+        "questionIds": [
+          "precalculus-3-10-q01",
+          "precalculus-3-10-q04",
+          "precalculus-3-10-q07"
+        ]
+      },
+      {
+        "topicId": "precalculus-3-11",
+        "questionIds": [
+          "precalculus-3-11-q01",
+          "precalculus-3-11-q04",
+          "precalculus-3-11-q05"
+        ]
+      },
+      {
+        "topicId": "precalculus-3-12",
+        "questionIds": [
+          "precalculus-3-12-q01",
+          "precalculus-3-12-q03",
+          "precalculus-3-12-q08"
+        ]
+      },
+      {
+        "topicId": "precalculus-3-13",
+        "questionIds": [
+          "precalculus-3-13-q01",
+          "precalculus-3-13-q02",
+          "precalculus-3-13-q04"
+        ]
+      },
+      {
+        "topicId": "precalculus-3-14",
+        "questionIds": [
+          "precalculus-3-14-q02",
+          "precalculus-3-14-q04",
+          "precalculus-3-14-q06"
+        ]
+      },
+      {
+        "topicId": "precalculus-3-15",
+        "questionIds": [
+          "precalculus-3-15-q01",
+          "precalculus-3-15-q02",
+          "precalculus-3-15-q07"
+        ]
+      }
+    ],
+    "questionIds": [
+      "precalculus-3-8-q01",
+      "precalculus-3-8-q02",
+      "precalculus-3-8-q05",
+      "precalculus-3-9-q01",
+      "precalculus-3-9-q03",
+      "precalculus-3-9-q07",
+      "precalculus-3-10-q01",
+      "precalculus-3-10-q04",
+      "precalculus-3-10-q07",
+      "precalculus-3-11-q01",
+      "precalculus-3-11-q04",
+      "precalculus-3-11-q05",
+      "precalculus-3-12-q01",
+      "precalculus-3-12-q03",
+      "precalculus-3-12-q08",
+      "precalculus-3-13-q01",
+      "precalculus-3-13-q02",
+      "precalculus-3-13-q04",
+      "precalculus-3-14-q02",
+      "precalculus-3-14-q04",
+      "precalculus-3-14-q06",
+      "precalculus-3-15-q01",
+      "precalculus-3-15-q02",
+      "precalculus-3-15-q07"
+    ],
+    "section": "mcq"
+  },
+  "bankPaths": [
+    "precalculus/mcq/precalculus-3-8.json",
+    "precalculus/mcq/precalculus-3-9.json",
+    "precalculus/mcq/precalculus-3-10.json",
+    "precalculus/mcq/precalculus-3-11.json",
+    "precalculus/mcq/precalculus-3-12.json",
+    "precalculus/mcq/precalculus-3-13.json",
+    "precalculus/mcq/precalculus-3-14.json",
+    "precalculus/mcq/precalculus-3-15.json"
+  ]
+}

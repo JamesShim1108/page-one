@@ -238,28 +238,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-12-quick",
+      id: "precalculus-3-12-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-12",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Equivalent Representations of Trigonometric Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-12-q01",
         "precalculus-3-12-q02",
         "precalculus-3-12-q03",
         "precalculus-3-12-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-12-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-12",
-      title: "Equivalent Representations of Trigonometric Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-12-q05",
         "precalculus-3-12-q06",
         "precalculus-3-12-q07",

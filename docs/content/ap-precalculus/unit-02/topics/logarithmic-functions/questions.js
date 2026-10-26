@@ -269,28 +269,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-11-quick",
+      id: "precalculus-2-11-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-11",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Logarithmic Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-11-q01",
         "precalculus-2-11-q02",
         "precalculus-2-11-q03",
         "precalculus-2-11-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-11-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-11",
-      title: "Logarithmic Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-11-q05",
         "precalculus-2-11-q06",
         "precalculus-2-11-q07",

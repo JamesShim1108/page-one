@@ -301,3 +301,52 @@ export function validateGraph(block, location) {
     for (const value of [slider.min, slider.max])
       renderGraph(block, { values: { [slider.name]: value } });
 }
+
+// A graph can be valid and still unreadable: a branch of a rational function that leaves the
+// window at once and shows only a sliver, or a curve that is almost entirely off the screen.
+// Practice graphs are generated from random numbers, so the build checks each one. The window is
+// cut into pieces at its edges and at every vertical asymptote. Each piece wide enough to read
+// must show the curve for at least `minShare` of its width. Returns a description of the first
+// problem, or null when the graph reads well.
+export function graphReadability(block, { minShare = 0.15, minWidth = 1.2 } = {}) {
+  if (!block?.window?.x || !block?.window?.y) return null;
+  const [x0, x1] = block.window.x;
+  const [y0, y1] = block.window.y;
+  const cuts = [
+    x0,
+    x1,
+    ...(block.asymptotes || [])
+      .filter((line) => isNum(line.x) && line.x > x0 && line.x < x1)
+      .map((line) => line.x),
+  ].sort((a, b) => a - b);
+  for (const fn of block.functions || []) {
+    if (fn.variable && fn.variable !== "x") continue;
+    let f;
+    try {
+      f = compileExpression(fn.expr, { variable: "x" });
+    } catch {
+      continue;
+    }
+    const [d0, d1] =
+      Array.isArray(fn.domain) && fn.domain.every(isNum) ? fn.domain : [x0, x1];
+    for (let i = 0; i + 1 < cuts.length; i += 1) {
+      const from = Math.max(cuts[i], d0);
+      const to = Math.min(cuts[i + 1], d1);
+      if (to - from < minWidth) continue;
+      const samples = 160;
+      let drawn = 0;
+      let defined = 0;
+      for (let k = 1; k < samples; k += 1) {
+        const y = f(from + ((to - from) * k) / samples);
+        if (!Number.isFinite(y)) continue;
+        defined += 1;
+        if (y >= y0 && y <= y1) drawn += 1;
+      }
+      // A piece where the function is undefined is not the graph's problem; a piece where it
+      // is defined but hidden is.
+      if (defined > samples * 0.5 && drawn / samples < minShare)
+        return `y = ${fn.expr} shows only ${Math.round((100 * drawn) / samples)}% of its curve for x from ${Math.round(from * 100) / 100} to ${Math.round(to * 100) / 100}`;
+    }
+  }
+  return null;
+}

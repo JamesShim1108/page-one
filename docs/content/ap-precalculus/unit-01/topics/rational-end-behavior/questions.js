@@ -278,28 +278,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-7-quick",
+      id: "precalculus-1-7-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-7",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Rational Functions and End Behavior multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-7-q01",
         "precalculus-1-7-q02",
         "precalculus-1-7-q03",
         "precalculus-1-7-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-7-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-7",
-      title: "Rational Functions and End Behavior topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-7-q05",
         "precalculus-1-7-q06",
         "precalculus-1-7-q07",

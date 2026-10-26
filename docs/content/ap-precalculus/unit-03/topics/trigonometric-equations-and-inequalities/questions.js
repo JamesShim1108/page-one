@@ -264,28 +264,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-10-quick",
+      id: "precalculus-3-10-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-10",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Trigonometric Equations and Inequalities multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-10-q01",
         "precalculus-3-10-q02",
         "precalculus-3-10-q03",
         "precalculus-3-10-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-10-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-10",
-      title: "Trigonometric Equations and Inequalities topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-10-q05",
         "precalculus-3-10-q06",
         "precalculus-3-10-q07",

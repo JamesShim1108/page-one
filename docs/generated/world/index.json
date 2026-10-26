@@ -312,6 +312,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-1-practice-test",
         "title": "Unit 1 Practice Test",
@@ -750,6 +754,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-2-practice-test",
         "title": "Unit 2 Practice Test",
@@ -1087,6 +1095,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-3-practice-test",
         "title": "Unit 3 Practice Test",
@@ -1309,6 +1321,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-4-practice-test",
         "title": "Unit 4 Practice Test",
@@ -1553,6 +1569,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-5-practice-test",
         "title": "Unit 5 Practice Test",
@@ -1791,6 +1811,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-6-practice-test",
         "title": "Unit 6 Practice Test",
@@ -2030,6 +2054,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-7-practice-test",
         "title": "Unit 7 Practice Test",
@@ -2266,6 +2294,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-8-practice-test",
         "title": "Unit 8 Practice Test",
@@ -2494,6 +2526,10 @@
           ]
         }
       ],
+      "mcq": {
+        "unitQuizzes": [],
+        "topicSets": []
+      },
       "practiceTest": {
         "id": "world-9-practice-test",
         "title": "Unit 9 Practice Test",

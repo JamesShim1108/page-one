@@ -383,3 +383,21 @@
     break-after: avoid;
   }
 }
+
+/* Typed-answer questions: a labelled blank for each answer, or the answer in the key. */
+.print-field {
+  margin: 0.5rem 0 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.print-blank {
+  flex: 0 1 18rem;
+  min-width: 8rem;
+  border-bottom: 1px solid currentColor;
+  height: 1.4em;
+}
+.print-answer ol {
+  margin: 0.3rem 0 0;
+  padding-left: 1.4rem;
+}

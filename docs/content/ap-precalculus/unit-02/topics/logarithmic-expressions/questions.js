@@ -225,28 +225,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-9-quick",
+      id: "precalculus-2-9-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-9",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Logarithmic Expressions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-9-q01",
         "precalculus-2-9-q02",
         "precalculus-2-9-q03",
         "precalculus-2-9-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-9-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-9",
-      title: "Logarithmic Expressions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-9-q05",
         "precalculus-2-9-q06",
         "precalculus-2-9-q07",

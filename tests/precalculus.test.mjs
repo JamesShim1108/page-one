@@ -118,7 +118,7 @@ test("Unit 4 is a named placeholder until it is written", async () => {
   assert.equal(topics.length, 0);
 });
 
-test("every topic has a lesson, a bank of ten tagged questions, and two quizzes", async () => {
+test("every topic has a lesson, ten generated free-response questions, and two quizzes", async () => {
   const skillIds = new Set(skills.items.map((item) => item.id));
   assert.equal(skillIds.size, 8);
   for (const id of ALL_TOPIC_IDS) {
@@ -130,14 +130,80 @@ test("every topic has a lesson, a bank of ten tagged questions, and two quizzes"
       bank.quizzes.map((quiz) => quiz.id),
       [`${id}-quick`, `${id}-quiz`],
     );
-    const answerSlots = new Set();
+    assert.deepEqual(
+      bank.quizzes.map((quiz) => quiz.questionIds.length),
+      [4, 6],
+      `${id} has a four-question quick check and a six-question topic quiz`,
+    );
+    const concepts = new Set(lesson.lesson.sections.map((section) => section.id));
     for (const question of bank.questions) {
       assert.ok(skillIds.has(question.skill), `${question.id} uses a course skill`);
+      assert.equal(question.format, "free", `${question.id} is free response`);
+      assert.ok(
+        concepts.has(question.concept),
+        `${question.id} points at a real lesson section`,
+      );
+      assert.ok(
+        question.variants.length >= 6,
+        `${question.id} has at least six variants`,
+      );
+      const stems = new Set(question.variants.map((variant) => JSON.stringify(variant)));
+      assert.ok(stems.size >= 6, `${question.id} variants are distinct`);
+      for (const variant of question.variants) {
+        assert.ok(variant.parts.length >= 1, `${question.id} has parts`);
+        assert.ok(variant.solution.length >= 1, `${question.id} has a worked solution`);
+        for (const part of variant.parts) {
+          assert.ok(
+            part.fields.length >= 1,
+            `${question.id} part ${part.id} has an answer box`,
+          );
+          for (const field of part.fields) {
+            assert.ok(
+              field.key !== undefined && field.key !== null,
+              `${question.id} ${field.id} has a key`,
+            );
+          }
+        }
+      }
+    }
+  }
+});
+
+test("every topic has a separate multiple-choice set that is not part of the topic page", async () => {
+  const skillIds = new Set(skills.items.map((item) => item.id));
+  for (const id of ALL_TOPIC_IDS) {
+    const mcq = await generated(`precalculus/mcq/${id}.json`);
+    assert.equal(mcq.questions.length, 10, `${id} has ten multiple-choice questions`);
+    assert.deepEqual(
+      mcq.quizzes.map((quiz) => quiz.id),
+      [`${id}-mcq`],
+    );
+    const answerSlots = new Set();
+    for (const question of mcq.questions) {
+      assert.ok(skillIds.has(question.skill), `${question.id} uses a course skill`);
       assert.equal(question.choices.length, 4);
+      assert.equal(
+        new Set(question.choices).size,
+        4,
+        `${question.id} choices are distinct`,
+      );
       assert.ok(question.correctAnswer >= 0 && question.correctAnswer < 4);
       answerSlots.add(question.correctAnswer);
     }
     assert.ok(answerSlots.size >= 3, `${id} varies the position of the correct answer`);
+  }
+});
+
+test("each unit lists its multiple-choice sets under a hub of their own", async () => {
+  for (const { number, split, topics } of UNITS) {
+    const { unit } = await generated(`precalculus/units/precalculus-${number}.json`);
+    assert.deepEqual(
+      unit.mcq.unitQuizzes.map((quiz) => quiz.id),
+      [`precalculus-${number}-mcq-1`, `precalculus-${number}-mcq-2`],
+    );
+    assert.equal(unit.mcq.topicSets.length, topics.length);
+    assert.equal(unit.mcq.unitQuizzes[0].questionCount, 3 * split);
+    assert.equal(unit.mcq.unitQuizzes[1].questionCount, 3 * (topics.length - split));
   }
 });
 

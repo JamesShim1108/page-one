@@ -161,6 +161,10 @@
         ]
       }
     ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
     "practiceTest": {
       "id": "apush-2-practice-test",
       "title": "Unit 2 Practice Test",

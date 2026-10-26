@@ -3,6 +3,7 @@ import {
   createLocalAdapter,
   migrationIdentity,
 } from "../storage/adapter.js";
+import { isFree, freeAnswered } from "./free.js";
 
 const storageKey = "page-one-attempts-v1";
 
@@ -79,34 +80,46 @@ export function summaryFor(attempt) {
   const questions = snapshotQuestions(attempt);
   const scoreKnown = ids.every(
     (id) =>
+      isFree(questions[id]) ||
       Number.isInteger(questions[id]?.correctAnswer) ||
       typeof questions[id]?.correctChoiceId === "string",
   );
   let answered = 0;
   let correct = 0;
   const skills = {};
+  const tally = (id, hit) => {
+    const skill = questions[id]?.skill;
+    if (!skill) return;
+    skills[skill] ??= {
+      label: questions[id].skillLabel || skill,
+      code: questions[id].skillCode || "",
+      correct: 0,
+      total: 0,
+    };
+    skills[skill].total += 1;
+    skills[skill].correct += Number(hit);
+  };
   for (const id of ids) {
     const response =
       attempt.responses?.[id] ||
       (Object.hasOwn(attempt.answers || {}, id)
         ? { selectedChoiceIndex: attempt.answers[id] }
         : null);
+    if (isFree(questions[id])) {
+      // A typed answer scores on the first check; finishing the attempt stores that result.
+      if (!freeAnswered(response)) continue;
+      answered += 1;
+      const hit = response.correct === true;
+      if (hit) correct += 1;
+      tally(id, hit);
+      continue;
+    }
     const selected = selectedIndex(response);
     if (!Number.isInteger(selected)) continue;
     answered += 1;
     const hit = selected === questions[id]?.correctAnswer;
     if (hit) correct += 1;
-    const skill = questions[id]?.skill;
-    if (skill && Number.isInteger(questions[id]?.correctAnswer)) {
-      skills[skill] ??= {
-        label: questions[id].skillLabel || skill,
-        code: questions[id].skillCode || "",
-        correct: 0,
-        total: 0,
-      };
-      skills[skill].total += 1;
-      skills[skill].correct += Number(hit);
-    }
+    if (Number.isInteger(questions[id]?.correctAnswer)) tally(id, hit);
   }
   return {
     attemptId: attemptIdentity(attempt),

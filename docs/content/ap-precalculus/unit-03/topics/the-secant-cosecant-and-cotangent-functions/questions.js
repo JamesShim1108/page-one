@@ -231,28 +231,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-11-quick",
+      id: "precalculus-3-11-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-11",
-      title: "Quick check",
-      quizType: "quick",
+      title: "The Secant, Cosecant, and Cotangent Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-11-q01",
         "precalculus-3-11-q02",
         "precalculus-3-11-q03",
         "precalculus-3-11-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-11-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-11",
-      title: "The Secant, Cosecant, and Cotangent Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-11-q05",
         "precalculus-3-11-q06",
         "precalculus-3-11-q07",

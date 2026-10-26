@@ -291,28 +291,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-9-quick",
+      id: "precalculus-1-9-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-9",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Rational Functions and Vertical Asymptotes multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-9-q01",
         "precalculus-1-9-q02",
         "precalculus-1-9-q03",
         "precalculus-1-9-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-9-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-9",
-      title: "Rational Functions and Vertical Asymptotes topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-9-q05",
         "precalculus-1-9-q06",
         "precalculus-1-9-q07",

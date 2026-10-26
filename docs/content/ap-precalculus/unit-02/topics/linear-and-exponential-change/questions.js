@@ -260,28 +260,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-2-quick",
+      id: "precalculus-2-2-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-2",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Change in Linear and Exponential Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-2-q01",
         "precalculus-2-2-q02",
         "precalculus-2-2-q03",
         "precalculus-2-2-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-2-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-2",
-      title: "Change in Linear and Exponential Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-2-q05",
         "precalculus-2-2-q06",
         "precalculus-2-2-q07",

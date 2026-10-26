@@ -1,5 +1,10 @@
 // Print selections are frozen before either document view is rendered. The
 // student and key renderers consume separate projections of the same snapshot.
+// A typed-answer template is frozen as one variant, so the worksheet and its key
+// carry the same numbers.
+
+import { isFree, flattenQuestion, pickVariant } from "../quiz/free.js";
+import { answerText } from "../practice/answers.js";
 
 function clone(value) {
   if (typeof structuredClone === "function") return structuredClone(value);
@@ -66,6 +71,16 @@ export function studentQuestion(question) {
       ? question.parts.map((part) => ({
           id: part.id || "",
           prompt: part.prompt || "",
+          ...(Array.isArray(part.fields)
+            ? {
+                fields: part.fields.map((field) => ({
+                  id: field.id || "",
+                  label: field.label || "",
+                  unit: field.unit || "",
+                  options: field.type === "choice" ? [...(field.options || [])] : [],
+                })),
+              }
+            : {}),
         }))
       : [],
   };
@@ -80,6 +95,22 @@ export function keyQuestion(question) {
       : null,
     correctChoiceId: question.correctChoiceId || "",
     explanation: question.explanation || "",
+    ...(isFree(question)
+      ? {
+          solution: Array.isArray(question.solution) ? [...question.solution] : [],
+          parts: (question.parts || []).map((part) => ({
+            id: part.id || "",
+            prompt: part.prompt || "",
+            fields: (part.fields || []).map((field) => ({
+              id: field.id || "",
+              label: field.label || "",
+              unit: field.unit || "",
+              options: field.type === "choice" ? [...(field.options || [])] : [],
+              answer: answerText(field),
+            })),
+          })),
+        }
+      : {}),
   };
 }
 
@@ -92,7 +123,14 @@ export function freezePrintSelection({
 } = {}) {
   const byId = questionMap(questions);
   const ids = uniqueIds(questionIds.length ? questionIds : [...byId.keys()]);
-  const frozen = ids.filter((id) => byId.has(id)).map((id) => clone(byId.get(id)));
+  const frozen = ids
+    .filter((id) => byId.has(id))
+    .map((id) => {
+      const question = clone(byId.get(id));
+      return isFree(question)
+        ? flattenQuestion(question, pickVariant(question))
+        : question;
+    });
   return Object.freeze({
     schemaVersion: 1,
     revision: String(revision || ""),

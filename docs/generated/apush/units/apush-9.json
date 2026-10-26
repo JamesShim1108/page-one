@@ -20,6 +20,10 @@
     "period": "1980–present",
     "status": "soon",
     "quizzes": [],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
     "practiceTest": null,
     "termSets": [],
     "topicQuizzes": [],

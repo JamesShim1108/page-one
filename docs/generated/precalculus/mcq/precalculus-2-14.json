@@ -1,0 +1,765 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-p02",
+              "precalculus-2-1-p07",
+              "precalculus-2-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-p02",
+              "precalculus-2-2-p07",
+              "precalculus-2-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-p02",
+              "precalculus-2-3-p07",
+              "precalculus-2-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-p02",
+              "precalculus-2-4-p07",
+              "precalculus-2-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-p02",
+              "precalculus-2-5-p07",
+              "precalculus-2-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-p02",
+              "precalculus-2-6-p07",
+              "precalculus-2-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-p02",
+              "precalculus-2-7-p07",
+              "precalculus-2-7-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-p02",
+              "precalculus-2-8-p07",
+              "precalculus-2-8-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-p02",
+              "precalculus-2-9-p07",
+              "precalculus-2-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-p02",
+              "precalculus-2-10-p07",
+              "precalculus-2-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-p02",
+              "precalculus-2-11-p07",
+              "precalculus-2-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-p02",
+              "precalculus-2-12-p07",
+              "precalculus-2-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-p02",
+              "precalculus-2-13-p07",
+              "precalculus-2-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-p02",
+              "precalculus-2-14-p07",
+              "precalculus-2-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-p02",
+              "precalculus-2-15-p07",
+              "precalculus-2-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-2-mcq-1",
+          "title": "Unit 2 multiple choice, Part 1: Topics 2.1 to 2.8",
+          "questionCount": 24
+        },
+        {
+          "id": "precalculus-2-mcq-2",
+          "title": "Unit 2 multiple choice, Part 2: Topics 2.9 to 2.15",
+          "questionCount": 21
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-2-1-mcq",
+          "title": "Change in Arithmetic and Geometric Sequences multiple choice",
+          "topicId": "precalculus-2-1",
+          "code": "2.1",
+          "topicTitle": "Change in Arithmetic and Geometric Sequences",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-2-mcq",
+          "title": "Change in Linear and Exponential Functions multiple choice",
+          "topicId": "precalculus-2-2",
+          "code": "2.2",
+          "topicTitle": "Change in Linear and Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-3-mcq",
+          "title": "Exponential Functions multiple choice",
+          "topicId": "precalculus-2-3",
+          "code": "2.3",
+          "topicTitle": "Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-4-mcq",
+          "title": "Exponential Function Manipulation multiple choice",
+          "topicId": "precalculus-2-4",
+          "code": "2.4",
+          "topicTitle": "Exponential Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-5-mcq",
+          "title": "Exponential Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-5",
+          "code": "2.5",
+          "topicTitle": "Exponential Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-6-mcq",
+          "title": "Competing Function Model Validation multiple choice",
+          "topicId": "precalculus-2-6",
+          "code": "2.6",
+          "topicTitle": "Competing Function Model Validation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-7-mcq",
+          "title": "Composition of Functions multiple choice",
+          "topicId": "precalculus-2-7",
+          "code": "2.7",
+          "topicTitle": "Composition of Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-8-mcq",
+          "title": "Inverse Functions multiple choice",
+          "topicId": "precalculus-2-8",
+          "code": "2.8",
+          "topicTitle": "Inverse Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-9-mcq",
+          "title": "Logarithmic Expressions multiple choice",
+          "topicId": "precalculus-2-9",
+          "code": "2.9",
+          "topicTitle": "Logarithmic Expressions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-10-mcq",
+          "title": "Inverses of Exponential Functions multiple choice",
+          "topicId": "precalculus-2-10",
+          "code": "2.10",
+          "topicTitle": "Inverses of Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-11-mcq",
+          "title": "Logarithmic Functions multiple choice",
+          "topicId": "precalculus-2-11",
+          "code": "2.11",
+          "topicTitle": "Logarithmic Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-12-mcq",
+          "title": "Logarithmic Function Manipulation multiple choice",
+          "topicId": "precalculus-2-12",
+          "code": "2.12",
+          "topicTitle": "Logarithmic Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-13-mcq",
+          "title": "Exponential and Logarithmic Equations and Inequalities multiple choice",
+          "topicId": "precalculus-2-13",
+          "code": "2.13",
+          "topicTitle": "Exponential and Logarithmic Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-14-mcq",
+          "title": "Logarithmic Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-14",
+          "code": "2.14",
+          "topicTitle": "Logarithmic Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-15-mcq",
+          "title": "Semi-log Plots multiple choice",
+          "topicId": "precalculus-2-15",
+          "code": "2.15",
+          "topicTitle": "Semi-log Plots",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-14",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 14,
+    "code": "2.14",
+    "title": "Logarithmic Function Context and Data Modeling",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "When a logarithmic model fits, building one from a proportion and a zero or from two points, transformations and logarithmic regression, the natural logarithm in models, and using the model to predict and solve."
+  },
+  "framework": null,
+  "contentRevision": "3f4f09d32e3d2971",
+  "questions": [
+    {
+      "id": "precalculus-2-14-q01",
+      "topicId": "precalculus-2-14",
+      "concept": "log-models",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "Which table shows a relationship best modeled by a logarithmic function?",
+      "choices": [
+        "x: 1, 2, 3, 4 and y: 3, 6, 12, 24",
+        "x: 1, 3, 9, 27 and y: 2, 4, 6, 8",
+        "x: 1, 2, 3, 4 and y: 2, 4, 6, 8",
+        "x: 1, 3, 9, 27 and y: 1, 3, 9, 27"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The inputs are multiplied by 3 while the outputs increase by 2: inputs change proportionally over equal-length output intervals.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "Outputs multiplied by 2 over equal input steps describe an exponential function.",
+        "Proportional inputs with equal output steps fit a logarithmic model.",
+        "Equal steps in both describe a linear function.",
+        "y = x is linear even though both lists are proportional."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Logarithmic: the inputs multiply while the outputs add.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-14-q02",
+      "topicId": "precalculus-2-14",
+      "concept": "building",
+      "difficulty": "Quick check",
+      "skill": "construct-functions",
+      "prompt": "A model of the form y = a + b log₂ x passes through (4, 9) and (16, 15). What are a and b?",
+      "choices": [
+        "a = 9 and b = 2",
+        "a = 0 and b = 3",
+        "a = 6 and b = 1.5",
+        "a = 3 and b = 3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "log₂ 4 = 2 and log₂ 16 = 4, so a + 2b = 9 and a + 4b = 15. Then 2b = 6, b = 3, and a = 3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "This uses (4, 9) as if 9 were a, with log₂ 4 = 2 as b.",
+        "a = 0, b = 3 gives 6 at x = 4, not 9.",
+        "b = 1.5 divides 6 by 4 instead of by 2.",
+        "a + 2b = 9 and a + 4b = 15 give a = 3 and b = 3."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Evaluate log₂ at each input first, then solve the linear system.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-14-q03",
+      "topicId": "precalculus-2-14",
+      "concept": "using",
+      "difficulty": "Quick check",
+      "skill": "apply-results",
+      "prompt": "A model is L(I) = 10 log I. What is L(1,000,000)?",
+      "choices": [
+        "60",
+        "6",
+        "100,000",
+        "70"
+      ],
+      "correctAnswer": 0,
+      "explanation": "log 1,000,000 = 6, so L = 10(6) = 60.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "10 log 10⁶ = 10(6) = 60.",
+        "6 is log I before multiplying by 10.",
+        "100,000 divides I by 10 instead of taking a logarithm.",
+        "70 uses log 10⁶ = 7."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Find the logarithm first, then multiply by 10.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-2-14-q04",
+      "topicId": "precalculus-2-14",
+      "concept": "log-models",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "In a logarithmic model, the output values are whole numbers that count how many times an initial value has been multiplied by a proportion. If the proportion is 2 and the output is 5, by what factor has the initial value been multiplied?",
+      "choices": [
+        "10",
+        "25",
+        "32",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An output of 5 means the initial value has been multiplied by 2 five times: 2⁵ = 32.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "10 = 2·5 multiplies once by 5 instead of five times by 2.",
+        "25 = 5² switches the base and the exponent.",
+        "Five factors of 2 give 2⁵ = 32.",
+        "7 = 2 + 5 adds them."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The output counts factors of the proportion.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-14-q05",
+      "topicId": "precalculus-2-14",
+      "concept": "using",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "Using the model y = 7 + 3 log₂ x, for what value of x is y = 25?",
+      "choices": [
+        "6",
+        "64",
+        "12",
+        "2^(32/3)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "3 log₂ x = 18, so log₂ x = 6 and x = 2⁶ = 64.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "6 is log₂ x, not x.",
+        "x = 2⁶ = 64.",
+        "12 = 2·6 multiplies instead of exponentiating.",
+        "This adds 7 instead of subtracting it, solving 3 log₂ x = 32."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "After solving for log₂ x, exponentiate to find x.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-2-14-q06",
+      "topicId": "precalculus-2-14",
+      "concept": "building",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "A logarithmic model y = a log₃ x has y = 8 when x = 81. What is a?",
+      "choices": [
+        "8/81",
+        "4",
+        "2",
+        "1/2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "log₃ 81 = 4, so a(4) = 8 and a = 2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "Divide by log₃ 81, not by 81.",
+        "4 is log₃ 81, not a.",
+        "a·4 = 8 gives a = 2.",
+        "1/2 = 4/8 inverts the quotient."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Evaluate the logarithm, then divide.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-14-q07",
+      "topicId": "precalculus-2-14",
+      "concept": "building",
+      "difficulty": "Core",
+      "skill": "construct-functions",
+      "prompt": "The graph of a logarithmic model is the graph of y = ln x translated 4 units to the right and 1 unit up. Which equation is the model?",
+      "choices": [
+        "y = ln (x − 4) + 1",
+        "y = ln (x + 4) + 1",
+        "y = ln (x − 1) + 4",
+        "y = 4 ln x + 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A translation 4 units right replaces x with x − 4, and 1 unit up adds 1: y = ln (x − 4) + 1.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "x − 4 shifts right 4, and + 1 shifts up 1.",
+        "x + 4 shifts the graph 4 units to the left.",
+        "The two translations are switched.",
+        "4 ln x is a vertical dilation, not a translation."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Right means subtract inside; up means add outside.",
+      "skillLabel": "Construct new functions",
+      "skillCode": "1.C"
+    },
+    {
+      "id": "precalculus-2-14-q08",
+      "topicId": "precalculus-2-14",
+      "concept": "using",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "The pH of a solution is pH = −log [H⁺]. A solution has [H⁺] = 3.2 × 10⁻⁴. Which is closest to its pH?",
+      "choices": [
+        "−3.495",
+        "4",
+        "0.505",
+        "3.495"
+      ],
+      "correctAnswer": 3,
+      "explanation": "pH = −log (3.2 × 10⁻⁴) ≈ −(−3.495) = 3.495.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "This forgets the negative sign in the model.",
+        "4 uses only the exponent of 10⁻⁴.",
+        "0.505 = log 3.2, without the exponent.",
+        "−log (3.2 × 10⁻⁴) ≈ 3.495."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "log of a number less than 1 is negative; the model negates it.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-2-14-q09",
+      "topicId": "precalculus-2-14",
+      "concept": "log-models",
+      "difficulty": "Core",
+      "skill": "support-conclusions",
+      "prompt": "A researcher finds that each time the number of practice sessions doubles, a test score rises by about 4 points. Which kind of model is most appropriate, and why?",
+      "choices": [
+        "Exponential, because the score grows faster with more practice",
+        "Logarithmic, because equal increases in score come from doubling the input",
+        "Linear, because the score rises by 4 points each time",
+        "Quadratic, because the score has a maximum value"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Repeated multiplication of the input (doubling) gives equal additive changes in the output. That is logarithmic growth.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "An exponential model has outputs that multiply, not inputs.",
+        "Inputs that change proportionally over equal-length output intervals fit a logarithmic model.",
+        "The rise is 4 points per doubling, not per additional session, so the change is not linear in the number of sessions.",
+        "Nothing in the description suggests a maximum."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Ask which variable changes multiplicatively.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    },
+    {
+      "id": "precalculus-2-14-q10",
+      "topicId": "precalculus-2-14",
+      "concept": "building",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "A data set of (x, y) pairs is fit with a logarithmic regression using technology. Which form does the regression model take?",
+      "choices": [
+        "y = a·bˣ",
+        "y = a + bx",
+        "y = a + b ln x",
+        "y = a·xᵇ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Logarithmic regression gives a model of the form y = a + b ln x, a transformation of a logarithmic function.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-14"
+      ],
+      "choiceExplanations": [
+        "y = a·bˣ is the form of an exponential regression.",
+        "y = a + bx is a linear regression.",
+        "Logarithmic regression fits y = a + b ln x.",
+        "y = a·xᵇ is a power regression."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Logarithmic regression has ln x in it.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-2-14-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-14",
+      "title": "Logarithmic Function Context and Data Modeling multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-2-14-q01",
+        "precalculus-2-14-q02",
+        "precalculus-2-14-q03",
+        "precalculus-2-14-q04",
+        "precalculus-2-14-q05",
+        "precalculus-2-14-q06",
+        "precalculus-2-14-q07",
+        "precalculus-2-14-q08",
+        "precalculus-2-14-q09",
+        "precalculus-2-14-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "log-models": {
+      "id": "log-models",
+      "title": "When a logarithmic model fits",
+      "section": "log-models",
+      "topicId": "precalculus-2-14"
+    },
+    "building": {
+      "id": "building",
+      "title": "Constructing logarithmic models",
+      "section": "building",
+      "topicId": "precalculus-2-14"
+    },
+    "using": {
+      "id": "using",
+      "title": "Applying logarithmic models",
+      "section": "using",
+      "topicId": "precalculus-2-14"
+    }
+  },
+  "assets": {}
+}

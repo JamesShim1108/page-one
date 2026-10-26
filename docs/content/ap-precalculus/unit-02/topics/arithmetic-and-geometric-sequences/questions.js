@@ -244,28 +244,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-1-quick",
+      id: "precalculus-2-1-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-1",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Change in Arithmetic and Geometric Sequences multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-1-q01",
         "precalculus-2-1-q02",
         "precalculus-2-1-q03",
         "precalculus-2-1-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-1-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-1",
-      title: "Change in Arithmetic and Geometric Sequences topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-1-q05",
         "precalculus-2-1-q06",
         "precalculus-2-1-q07",

@@ -10,12 +10,26 @@ export const unit = {
   status: "ready",
   description:
     "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
-  quizzes: [
+  // Typed-answer practice. Each part takes the unit-practice problems from its topics.
+  practice: [
     {
       id: "precalculus-3-practice",
+      title: "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+      topicIds: [1, 2, 3, 4, 5, 6, 7].map((n) => `precalculus-3-${n}`),
+    },
+    {
+      id: "precalculus-3-practice-2",
+      title: "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+      topicIds: [8, 9, 10, 11, 12, 13, 14, 15].map((n) => `precalculus-3-${n}`),
+    },
+  ],
+  // Multiple-choice unit sets. These appear in the Multiple Choice section, not on topic pages.
+  quizzes: [
+    {
+      id: "precalculus-3-mcq-1",
       courseId: "precalculus",
       unitId: "precalculus-3",
-      title: "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+      title: "Unit 3 multiple choice, Part 1: Topics 3.1 to 3.7",
       quizType: "unit",
       selections: [
         {
@@ -77,10 +91,10 @@ export const unit = {
       ],
     },
     {
-      id: "precalculus-3-practice-2",
+      id: "precalculus-3-mcq-2",
       courseId: "precalculus",
       unitId: "precalculus-3",
-      title: "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+      title: "Unit 3 multiple choice, Part 2: Topics 3.8 to 3.15",
       quizType: "unit",
       selections: [
         {

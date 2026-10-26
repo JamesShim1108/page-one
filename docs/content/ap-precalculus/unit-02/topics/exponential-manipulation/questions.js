@@ -215,28 +215,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-4-quick",
+      id: "precalculus-2-4-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-4",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Exponential Function Manipulation multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-4-q01",
         "precalculus-2-4-q02",
         "precalculus-2-4-q03",
         "precalculus-2-4-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-4-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-4",
-      title: "Exponential Function Manipulation topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-4-q05",
         "precalculus-2-4-q06",
         "precalculus-2-4-q07",
