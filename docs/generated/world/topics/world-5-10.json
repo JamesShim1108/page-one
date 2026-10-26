@@ -328,7 +328,7 @@
       }
     ]
   },
-  "contentRevision": "eed01de3ecc05ac0",
+  "contentRevision": "b726f6ae25e963d8",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-5-10",
@@ -378,20 +378,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "fossil-fuels",
-        "topicId": "world-5-10",
-        "term": "fossil fuels",
-        "definition": "Energy sources such as coal and oil formed from ancient organic matter, which powered industrialization."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-5-fossil-fuels"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -415,15 +402,7 @@
     ]
   },
   "bankPath": "world/banks/world-5-10.json",
-  "glossary": [
-    {
-      "id": "world-5-fossil-fuels",
-      "term": "fossil fuels",
-      "definition": "Energy sources such as coal and oil formed from ancient organic matter, which powered industrialization.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.10 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-5-10",

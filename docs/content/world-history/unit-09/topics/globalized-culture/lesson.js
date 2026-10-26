@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.6. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.6.
 
 export const lesson = {
   schemaVersion: 1,
@@ -64,31 +63,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-6"],
     },
   ],
-  vocabulary: [
-    {
-      id: "consumer-culture",
-      topicId: "world-9-6",
-      term: "consumer culture",
-      definition: "A way of life centered on buying and displaying brand-name goods.",
-    },
-    {
-      id: "bollywood",
-      topicId: "world-9-6",
-      term: "Bollywood",
-      definition: "India's Hindi-language film industry, centered in Mumbai.",
-    },
-    {
-      id: "social-media",
-      topicId: "world-9-6",
-      term: "social media",
-      definition:
-        "Websites and apps that let users create and share content with large networks of people.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-9-consumer-culture", "world-9-bollywood", "world-9-social-media"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

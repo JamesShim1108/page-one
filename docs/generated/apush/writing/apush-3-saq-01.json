@@ -1,0 +1,528 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "quiz": {
+    "id": "apush-3-saq-01",
+    "version": 1,
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "title": "Unit 3 SAQ 01",
+    "headline": "Common Sense and independence",
+    "promptTitle": "Short-answer question",
+    "prompt": "Using the sources above, answer (a), (b), and (c).",
+    "instructions": "Answer (a), (b), and (c). Each part is worth one point. Answer the question directly, support it with specific historical evidence, and explain how the evidence supports your answer. Describe means more than mentioning a term; explain means showing how or why.",
+    "note": "Original Page One practice in AP format. Rubric criteria follow the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
+    "exerciseType": "saq",
+    "examOnly": false,
+    "stimulusBlocks": [
+      {
+        "id": "paine-distance",
+        "type": "source",
+        "sourceType": "primary",
+        "source": "CED Topic 3.4, KC-3.2.I.B: the colonists' belief in republican forms of government found expression in Thomas Paine's Common Sense",
+        "ced_review": "pending",
+        "attribution": "Thomas Paine, an English-born writer living in Philadelphia, in the pamphlet Common Sense, published in January 1776",
+        "citation": "Thomas Paine, Common Sense (Philadelphia, 1776), “Thoughts on the Present State of American Affairs.” Project Gutenberg eBook #147.",
+        "note": "“The continent” is the thirteen British colonies in North America, and “the island” is Great Britain.",
+        "text": "As to government matters, it is not in the power of Britain to do this continent justice: The business of it will soon be too weighty, and intricate, to be managed with any tolerable degree of convenience, by a power so distant from us, and so very ignorant of us; for if they cannot conquer us, they cannot govern us. To be always running three or four thousand miles with a tale or a petition, waiting four or five months for an answer, which when obtained requires five or six more to explain it in, will in a few years be looked upon as folly and childishness . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island."
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Answer",
+        "text": "Respond directly to the task verb: identify, describe, explain, or compare."
+      },
+      {
+        "label": "Prove",
+        "text": "Name a specific event, development, or circumstance from the period in the prompt."
+      },
+      {
+        "label": "Explain",
+        "text": "Show how or why the evidence answers the question."
+      }
+    ],
+    "parts": [
+      {
+        "id": "a",
+        "lenses": [
+          "NAT",
+          "PCE"
+        ],
+        "prompt": "Briefly describe ONE way Paine's argument in the excerpt challenged the traditional relationship between the colonists and Britain.",
+        "criteria": [
+          "Identifies a claim in the excerpt that challenges the colonists' relationship with Britain.",
+          "Uses the excerpt to show it, with more than a copied phrase."
+        ],
+        "model": {
+          "answer": "Paine challenged the idea that the colonists should keep seeking relief from within the British Empire.",
+          "prove": "He calls the practice of carrying a “petition” across the ocean and waiting months for an answer “folly and childishness,” and he says it is absurd to suppose “a continent to be perpetually governed by an island.”",
+          "explain": "By ridiculing petitions and distant rule, Paine encouraged readers to see independence as more reasonable than continued membership in the empire."
+        },
+        "alternatives": "A response can also point to his claim that if Britain cannot conquer the colonies, it cannot govern them, if it explains how this undermines British authority.",
+        "review": [
+          {
+            "topicId": "apush-3-4",
+            "sectionId": "common-sense-and-the-declaration",
+            "label": "Common Sense and the Declaration"
+          }
+        ]
+      },
+      {
+        "id": "b",
+        "lenses": [
+          "PCE",
+          "WXT"
+        ],
+        "prompt": "Briefly explain how ONE specific historical event or development from the period 1763 to 1775 that is not mentioned in the excerpt could be used to support Paine's argument that Britain could not govern the colonies well.",
+        "criteria": [
+          "Names a specific event or development from 1763–1775 that is not in the excerpt.",
+          "Explains how it supports the claim that British government of the colonies was unwise or unworkable."
+        ],
+        "model": {
+          "answer": "The Stamp Act of 1765 could be used to support Paine's argument.",
+          "prove": "Parliament placed a direct tax on printed materials in the colonies without colonial consent, which led to the Stamp Act Congress, boycotts, and repeal in 1766.",
+          "explain": "This supports Paine because it shows a distant government passing measures that colonists believed violated their rights and that they could not enforce, so British rule produced conflict rather than good government."
+        },
+        "alternatives": "A response can also use the Proclamation of 1763, the Townshend Acts, or the Coercive Acts, if it explains how the policy showed that British rule was poorly suited to the colonies.",
+        "review": [
+          {
+            "topicId": "apush-3-3",
+            "sectionId": "new-policies",
+            "label": "New taxes and controls"
+          }
+        ]
+      },
+      {
+        "id": "c",
+        "lenses": [
+          "NAT",
+          "PCE"
+        ],
+        "prompt": "Briefly explain ONE way Common Sense, or the ideas expressed in it, contributed to the movement for American independence in 1776.",
+        "criteria": [
+          "Names a specific contribution of Common Sense or of the ideas in it.",
+          "Explains how it moved colonists toward independence."
+        ],
+        "model": {
+          "answer": "Common Sense helped turn colonial opinion toward independence.",
+          "prove": "Paine published the pamphlet in January 1776, attacked monarchy and hereditary rule in plain language that ordinary readers could follow, and was widely read, and in July the Second Continental Congress adopted the Declaration of Independence.",
+          "explain": "By arguing that reconciliation with Britain was foolish and that republican government was better than monarchy, the pamphlet persuaded colonists who still hoped for reconciliation to accept independence."
+        },
+        "alternatives": "A response can also show how Paine's republican ideas reappear in the Declaration of Independence, such as the claim that governments rest on the consent of the governed, if it explains how that helped justify independence.",
+        "review": [
+          {
+            "topicId": "apush-3-4",
+            "sectionId": "republicanism-and-natural-rights",
+            "label": "Republicanism and natural rights"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "paine-1776"
+    ],
+    "learningObjectives": [
+      "3.D",
+      "3.C"
+    ],
+    "keyConcepts": [
+      "KC-3.1.II.B",
+      "KC-3.2.I.B"
+    ],
+    "themes": [
+      "NAT",
+      "PCE"
+    ]
+  }
+}

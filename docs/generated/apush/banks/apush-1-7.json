@@ -1,0 +1,844 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-1",
+    "courseId": "apush",
+    "number": 1,
+    "title": "Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "description": "Follow Native American societies, European exploration, the Columbian Exchange, and the Spanish empire from 1491 to 1607.",
+    "quizzes": [
+      {
+        "id": "apush-1-practice",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-1-1",
+            "questionIds": [
+              "apush-1-1-q01",
+              "apush-1-1-q04",
+              "apush-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-q01",
+              "apush-1-2-q04",
+              "apush-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-q01",
+              "apush-1-3-q04",
+              "apush-1-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-q01",
+              "apush-1-4-q04",
+              "apush-1-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-q01",
+              "apush-1-5-q04",
+              "apush-1-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-q01",
+              "apush-1-6-q04",
+              "apush-1-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-q01",
+              "apush-1-7-q04",
+              "apush-1-7-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-1-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-t01",
+              "apush-1-2-t02",
+              "apush-1-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-t01",
+              "apush-1-3-t02",
+              "apush-1-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-t01",
+              "apush-1-4-t02",
+              "apush-1-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-t01",
+              "apush-1-5-t02",
+              "apush-1-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t01",
+              "apush-1-6-t02",
+              "apush-1-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t04",
+              "apush-1-6-t05",
+              "apush-1-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-t01",
+              "apush-1-7-t02",
+              "apush-1-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-1-practice-test",
+      "title": "Unit 1 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-1-1-quiz",
+        "title": "Contextualizing Period 1 topic quiz"
+      },
+      {
+        "id": "apush-1-2-quiz",
+        "title": "Native American Societies Before European Contact topic quiz"
+      },
+      {
+        "id": "apush-1-3-quiz",
+        "title": "European Exploration in the Americas topic quiz"
+      },
+      {
+        "id": "apush-1-4-quiz",
+        "title": "Columbian Exchange, Spanish Exploration, and Conquest topic quiz"
+      },
+      {
+        "id": "apush-1-5-quiz",
+        "title": "Labor, Slavery, and Caste in the Spanish Colonial System topic quiz"
+      },
+      {
+        "id": "apush-1-6-quiz",
+        "title": "Cultural Interactions Between Europeans, Native Americans, and Africans topic quiz"
+      },
+      {
+        "id": "apush-1-7-quiz",
+        "title": "Causation in Period 1 topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "apush-1-1",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Contextualizing Period 1",
+      "period": "1491–1607",
+      "status": "ready",
+      "summary": "What a historical context is, and the Native American, European, and African developments that framed the encounters of 1491 to 1607."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-1-saq-01",
+        "title": "Unit 1 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-saq-02",
+        "title": "Unit 1 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-leq-change",
+        "title": "LEQ: Contact and change in Native societies",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-1-7",
+    "courseId": "apush",
+    "unitId": "apush-1",
+    "order": 7,
+    "code": "1.7",
+    "title": "Causation in Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "summary": "How to explain the causes and effects of the transatlantic voyages of 1491–1607: separating long-term and short-term causes, tracing chains of effects, and weighing competing explanations."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "7d1ea52ce087d9aa",
+  "questions": [
+    {
+      "id": "apush-1-7-q01",
+      "topicId": "apush-1-7",
+      "concept": "causes-of-voyages",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.I"
+      ],
+      "prompt": "Which of the following was a long-term cause of European exploration of the Americas?",
+      "choices": [
+        "The Spanish conquest of the Aztec Empire, which showed monarchs that overseas ventures could be profitable",
+        "The Protestant Reformation, which divided Europe's Christians and encouraged Catholic monarchs to send explorers",
+        "Competition among European monarchies for wealth and power, along with a desire to spread Christianity",
+        "The joint-stock company, which pooled the money of many investors to pay for Spanish voyages"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rivalry among monarchies, the search for wealth, and religious goals were at work for years before the first voyages across the Atlantic.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The conquest of the Aztecs came after the first voyages, so it was a result of exploration and not its long-term cause.",
+        "The Reformation began in 1517, after the first voyages, so it cannot be a cause of Columbus's journey.",
+        "Rivalry among monarchies, the search for wealth, and religious goals were at work for years before the first voyages across the Atlantic.",
+        "Spain's monarchs financed early voyages themselves, and joint-stock companies became important later."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The conquest of the Aztecs encouraged later ventures, but it followed the first voyages and so was an effect of exploration.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-7-q02",
+      "topicId": "apush-1-7",
+      "concept": "causes-of-voyages",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "prompt": "Which of the following best explains the relationship between navigation technology and European exploration?",
+      "choices": [
+        "Better ships and instruments were the main reason monarchs wanted to find new trade routes to Asia",
+        "Better ships and instruments made long ocean voyages possible, but rulers still needed motives to pay for them",
+        "Better ships and instruments removed the need for royal sponsorship because merchants could easily pay for voyages",
+        "Better ships and instruments gave Europeans military power over every society they met in the Americas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Technology was a condition that made long voyages possible, while wealth, competition, and faith explain why monarchs wanted them.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Technology made voyages possible but did not give monarchs their reasons for wanting wealth and power.",
+        "Technology was a condition that made long voyages possible, while wealth, competition, and faith explain why monarchs wanted them.",
+        "Voyages remained costly, and monarchs sponsored many of them.",
+        "Spanish victories also depended on allies and disease, and technology did not decide the outcome everywhere."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Navigation tools enabled the voyages, but they did not supply the motives behind them.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-7-q03",
+      "topicId": "apush-1-7",
+      "concept": "effects-of-voyages",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "prompt": "Which of the following is an unintended effect of European voyages to the Americas?",
+      "choices": [
+        "Epidemics spread among Native peoples who had no immunity, which weakened their resistance to conquest",
+        "Spanish officials imported enslaved Africans to replace Native workers in mines and on plantations",
+        "Spain created the encomienda system to obtain Native labor and tribute for its colonists",
+        "Spanish missionaries founded missions to convert Native peoples to Christianity in New Spain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rulers did not plan the epidemics, but widespread disease devastated Native populations and helped the conquest succeed.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Rulers did not plan the epidemics, but widespread disease devastated Native populations and helped the conquest succeed.",
+        "Spanish officials deliberately imported enslaved Africans, so this was an intended decision.",
+        "The encomienda was a deliberate policy to control Native labor.",
+        "Missionaries intentionally pursued conversion as a goal."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Importing enslaved Africans was a consequence of earlier developments, but it was a deliberate choice and not an unintended result.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-7-q04",
+      "topicId": "apush-1-7",
+      "concept": "effects-of-voyages",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.II"
+      ],
+      "prompt": "Which of the following sequences best describes a chain of cause and effect in the Spanish empire?",
+      "choices": [
+        "Spain imported more enslaved Africans, labor shortages followed, and epidemics then reduced Native populations",
+        "Labor shortages ended the encomienda, and Native populations then recovered as the epidemics ended",
+        "Silver mining declined, Spain stopped using forced labor, and Native workers returned to their villages",
+        "Epidemics reduced Native populations, labor shortages followed, and Spain imported more enslaved Africans"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Population loss created labor shortages, which led colonists and the Crown to rely more heavily on enslaved Africans.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This reverses the order; epidemics and population decline came before the rise in imports.",
+        "Native populations did not quickly recover, and the encomienda was not ended by labor shortages.",
+        "Silver mining remained central to Spain's economy and used forced labor for a long time.",
+        "Population loss created labor shortages, which led colonists and the Crown to rely more heavily on enslaved Africans."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The near miss uses the right events but reverses their order, which changes the causal story.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-7-q05",
+      "topicId": "apush-1-7",
+      "concept": "effects-of-voyages",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.II.C"
+      ],
+      "prompt": "Which of the following was an effect of the growth of transatlantic voyages on West Africa?",
+      "choices": [
+        "West African states took control of Atlantic shipping and ended the practice of slavery in their region within a generation",
+        "Growing demand for enslaved laborers expanded the coastal trade in captives, partly through some West African partners",
+        "European armies conquered most of West Africa in the 1500s and forced the people to farm for export",
+        "Demand for African goods fell, and West African states stopped trading with Europeans after 1500"
+      ],
+      "correctAnswer": 1,
+      "explanation": "European demand for laborers expanded the trade in captives, and some West African groups partnered with Europeans to supply them.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Slavery was not ended, and European traders and shipping companies carried most captives across the Atlantic.",
+        "European demand for laborers expanded the trade in captives, and some West African groups partnered with Europeans to supply them.",
+        "Europeans mainly traded along the coast in this period and did not conquer West Africa.",
+        "Trade between West Africa and Europe grew, and included the buying and selling of captives."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The effect was an expansion of an existing trade through partnerships, and neither a West African takeover of shipping nor a European conquest.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-7-q06",
+      "topicId": "apush-1-7",
+      "concept": "weighing-causes",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "prompt": "Which of the following would best support the argument that Indigenous allies were a more important cause than disease in the Spanish defeat of the Aztecs?",
+      "choices": [
+        "Smallpox struck Tenochtitlan in 1520 and killed a large share of the city's people before the final siege began",
+        "Spanish soldiers carried steel swords and rode horses, which the Aztec warriors had never faced",
+        "Thousands of Tlaxcalan warriors fought alongside a few hundred Spaniards because they opposed Aztec rule",
+        "Pizarro conquered the Inca Empire in the 1530s after a civil war that had weakened it"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Large numbers of Native allies who shared Spain's goal of ending Aztec rule would show that allies, and not disease, tipped the balance.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This is evidence for the importance of disease, not allies.",
+        "This is evidence for the importance of Spanish weapons, not allies.",
+        "Large numbers of Native allies who shared Spain's goal of ending Aztec rule would show that allies, and not disease, tipped the balance.",
+        "This concerns the Inca, not the Aztecs, and does not show the role of allies."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Smallpox is real evidence in the debate, but it supports the opposing argument that disease mattered most.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-7-q07",
+      "topicId": "apush-1-7",
+      "concept": "effects-of-voyages",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.I.B",
+        "KC-1.2.II"
+      ],
+      "prompt": "Which of the following was a long-term effect of the voyages of the 1400s and 1500s?",
+      "choices": [
+        "Native peoples of North America lost their political independence in every region by the year 1607",
+        "European economies returned to a feudal system based on land held by lords and worked by peasants",
+        "Spain gained exclusive control of all trade across the Atlantic and shut out the other European powers",
+        "Europe, Africa, and the Americas became linked through trade, migration, and forced labor in an Atlantic world"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Over time the voyages tied three continents together through exchange of goods, people, and forced labor.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Many Native societies in North America remained independent in 1607, so the effect is overstated.",
+        "Silver and new business methods helped move Europe toward capitalism, not back to feudalism.",
+        "England, France, and the Dutch challenged Spain and sent their own ships across the Atlantic.",
+        "Over time the voyages tied three continents together through exchange of goods, people, and forced labor."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Spanish power grew greatly, but saying Native peoples had lost independence everywhere by 1607 goes beyond the evidence.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-1-7-q08",
+      "topicId": "apush-1-7",
+      "concept": "weighing-causes",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "subskill": "4.B",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.I.A"
+      ],
+      "prompt": "A historian argues that rivalry among European monarchies was an important cause of exploration. Which of the following would best support that argument?",
+      "choices": [
+        "Spain's monarchs received a papal decree granting them the right and the duty to spread Christianity in lands to the west",
+        "England and France sent their own expeditions across the Atlantic despite the Spanish-Portuguese division of the world",
+        "Potatoes and maize from the Americas led to rapid population growth in many parts of Europe",
+        "Caravels and the compass allowed Portuguese sailors to travel farther down the African coast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Other states sending expeditions despite the Spanish-Portuguese division shows monarchies competing for overseas claims.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This supports a religious motive, not rivalry among monarchies.",
+        "Other states sending expeditions despite the Spanish-Portuguese division shows monarchies competing for overseas claims.",
+        "This is an effect of the voyages, not evidence of rivalry among monarchs.",
+        "This shows technology, not rivalry among monarchs."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The papal decree reflects religion and Spanish claims, but the argument concerns competition among monarchies.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Explain how a specific historical development or process is situated within a broader historical context."
+    },
+    {
+      "id": "apush-1-7-t01",
+      "topicId": "apush-1-7",
+      "concept": "weighing-causes",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.C",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "prompt": "Which of the following best describes a difference between Interpretation A and Interpretation B?",
+      "choices": [
+        "A stresses Spanish weapons as the main cause of Spanish success, while B stresses the role of disease",
+        "A stresses disease as the main cause of Spanish success, while B stresses the actions of Native allies",
+        "A argues that conquest happened quickly, while B argues that Native peoples never lost any battles",
+        "A focuses on the Inca Empire, while B focuses on events in Europe that led to the voyages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interpretation A emphasizes epidemics, and Interpretation B emphasizes Native allies who acted for their own reasons.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "A stresses disease, not weapons, and B stresses allies.",
+        "Interpretation A emphasizes epidemics, and Interpretation B emphasizes Native allies who acted for their own reasons.",
+        "Neither passage makes these claims; B describes conquest as a long process.",
+        "Both passages concern the Spanish conquest in the Americas."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Weapons appear in neither passage as the main cause, so the near miss misstates both arguments.",
+      "stimulusId": "original-conquest-disease",
+      "stimulusBlocks": [
+        {
+          "id": "original-conquest-disease",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.7 and Topic 1.4, KC-1.2.II.A: epidemics devastated Native populations during Spanish conquest",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize disease in the Spanish conquest",
+          "text": "Interpretation A. The conquest of the Americas succeeded above all because of disease. Smallpox and other Old World illnesses spread among Native peoples who had no immunity, and in many regions most of the population died within a few generations. Epidemics broke the armies and governments of the Aztec and Inca Empires, so small Spanish forces could take advantage of societies already in crisis."
+        },
+        {
+          "id": "original-conquest-allies",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.7 and Topic 1.6, KC-1.2.III.B: Native peoples acted through alliance, negotiation, and resistance",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize Native allies in the Spanish conquest",
+          "text": "Interpretation B. The conquest of the Americas depended on Native allies. Cortés's few hundred soldiers could not have taken Tenochtitlan without thousands of Tlaxcalan and other warriors who wanted to end Aztec tribute demands. Conquest was also a long process in which Native leaders negotiated, fought, and formed alliances to pursue their own goals."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "reasoningLabel": "Causation",
+      "subskillText": "Compare the arguments or main ideas of two sources."
+    },
+    {
+      "id": "apush-1-7-t02",
+      "topicId": "apush-1-7",
+      "concept": "weighing-causes",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.D",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.III.B"
+      ],
+      "prompt": "Which of the following could best be used to support Interpretation B?",
+      "choices": [
+        "A smallpox epidemic struck Tenochtitlan in 1520 and killed many of its people",
+        "Spanish horses and steel weapons gave Cortés an advantage in open battle",
+        "Silver mines at Potosí produced great wealth for Spain in the late 1500s",
+        "The Tlaxcalans joined Cortés against the Aztecs, whose tribute demands they resented"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Tlaxcalan alliance shows Native allies pursuing their own goals and helping the Spanish defeat the Aztecs.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This would support Interpretation A, which emphasizes disease.",
+        "This supports an argument about Spanish technology, which neither passage stresses.",
+        "This concerns the results of conquest and not how conquest succeeded.",
+        "The Tlaxcalan alliance shows Native allies pursuing their own goals and helping the Spanish defeat the Aztecs."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The 1520 epidemic is strong evidence in the debate, but it supports Interpretation A.",
+      "stimulusId": "original-conquest-disease",
+      "stimulusBlocks": [
+        {
+          "id": "original-conquest-disease",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.7 and Topic 1.4, KC-1.2.II.A: epidemics devastated Native populations during Spanish conquest",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize disease in the Spanish conquest",
+          "text": "Interpretation A. The conquest of the Americas succeeded above all because of disease. Smallpox and other Old World illnesses spread among Native peoples who had no immunity, and in many regions most of the population died within a few generations. Epidemics broke the armies and governments of the Aztec and Inca Empires, so small Spanish forces could take advantage of societies already in crisis."
+        },
+        {
+          "id": "original-conquest-allies",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.7 and Topic 1.6, KC-1.2.III.B: Native peoples acted through alliance, negotiation, and resistance",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize Native allies in the Spanish conquest",
+          "text": "Interpretation B. The conquest of the Americas depended on Native allies. Cortés's few hundred soldiers could not have taken Tenochtitlan without thousands of Tlaxcalan and other warriors who wanted to end Aztec tribute demands. Conquest was also a long process in which Native leaders negotiated, fought, and formed alliances to pursue their own goals."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how claims or evidence support, modify, or refute a source’s argument."
+    },
+    {
+      "id": "apush-1-7-t03",
+      "topicId": "apush-1-7",
+      "concept": "weighing-causes",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.C",
+      "reasoning": "causation",
+      "learningObjective": "1.G",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "prompt": "Both interpretations would most likely agree with which of the following statements?",
+      "choices": [
+        "The conquest succeeded mainly because Spain brought larger armies to the Americas than its rivals did",
+        "Native peoples in the Americas had no part in the course or outcome of the conquest",
+        "Spanish military strength alone does not fully explain the success of the conquest",
+        "The conquest ended quickly once the Aztec capital had fallen in 1521"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A points to disease and B to allies, and both describe small Spanish forces that depended on other factors.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Both passages say the Spanish forces were small.",
+        "Interpretation B stresses Native action, and Interpretation A describes the effects on Native societies.",
+        "A points to disease and B to allies, and both describe small Spanish forces that depended on other factors.",
+        "Interpretation B describes conquest as a long process."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Both interpretations downplay raw military force, so the claim that Spain won through larger armies conflicts with both.",
+      "stimulusId": "original-conquest-disease",
+      "stimulusBlocks": [
+        {
+          "id": "original-conquest-disease",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.7 and Topic 1.4, KC-1.2.II.A: epidemics devastated Native populations during Spanish conquest",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize disease in the Spanish conquest",
+          "text": "Interpretation A. The conquest of the Americas succeeded above all because of disease. Smallpox and other Old World illnesses spread among Native peoples who had no immunity, and in many regions most of the population died within a few generations. Epidemics broke the armies and governments of the Aztec and Inca Empires, so small Spanish forces could take advantage of societies already in crisis."
+        },
+        {
+          "id": "original-conquest-allies",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 1.7 and Topic 1.6, KC-1.2.III.B: Native peoples acted through alliance, negotiation, and resistance",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize Native allies in the Spanish conquest",
+          "text": "Interpretation B. The conquest of the Americas depended on Native allies. Cortés's few hundred soldiers could not have taken Tenochtitlan without thousands of Tlaxcalan and other warriors who wanted to end Aztec tribute demands. Conquest was also a long process in which Native leaders negotiated, fought, and formed alliances to pursue their own goals."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "reasoningLabel": "Causation",
+      "subskillText": "Compare the arguments or main ideas of two sources."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-1-7-quick",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-7",
+      "title": "Topic 1.7 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-1-7-q01",
+        "apush-1-7-q02",
+        "apush-1-7-q03"
+      ]
+    },
+    {
+      "id": "apush-1-7-quiz",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-7",
+      "title": "Causation in Period 1 topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-1-7-q01",
+        "apush-1-7-q02",
+        "apush-1-7-q03",
+        "apush-1-7-q04",
+        "apush-1-7-q05",
+        "apush-1-7-q06",
+        "apush-1-7-q07",
+        "apush-1-7-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "causes-of-voyages": {
+      "id": "causes-of-voyages",
+      "title": "Why the voyages began",
+      "section": "causes-of-voyages",
+      "topicId": "apush-1-7"
+    },
+    "effects-of-voyages": {
+      "id": "effects-of-voyages",
+      "title": "From voyages to an Atlantic world",
+      "section": "effects-of-voyages",
+      "topicId": "apush-1-7"
+    },
+    "weighing-causes": {
+      "id": "weighing-causes",
+      "title": "Weighing causes and making a causal claim",
+      "section": "weighing-causes",
+      "topicId": "apush-1-7"
+    }
+  },
+  "assets": {}
+}

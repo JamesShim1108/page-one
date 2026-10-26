@@ -319,7 +319,7 @@
       }
     ]
   },
-  "contentRevision": "5622a8fea5dcb5ee",
+  "contentRevision": "1554f81ea1bc679c",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-7-7",
@@ -392,27 +392,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "atomic-bombs",
-        "topicId": "world-7-7",
-        "term": "atomic bombs",
-        "definition": "Nuclear weapons, first used by the United States against Hiroshima and Nagasaki in August 1945."
-      },
-      {
-        "id": "civilian-casualties",
-        "topicId": "world-7-7",
-        "term": "civilians",
-        "definition": "People who are not members of the armed forces."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-7-atomic-bombs",
-        "world-7-civilian-casualties"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -436,22 +416,7 @@
     ]
   },
   "bankPath": "world/banks/world-7-7.json",
-  "glossary": [
-    {
-      "id": "world-7-atomic-bombs",
-      "term": "atomic bombs",
-      "definition": "Nuclear weapons, first used by the United States against Hiroshima and Nagasaki in August 1945.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.7 glossary"
-    },
-    {
-      "id": "world-7-civilian-casualties",
-      "term": "civilians",
-      "definition": "People who are not members of the armed forces.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.7 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-7-7",

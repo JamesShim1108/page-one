@@ -67,10 +67,23 @@ export function mergeAssets(...maps) {
   );
 }
 
+// Figures, and source blocks that show an image (a cartoon or map stimulus).
+const showsImage = (block) =>
+  block.type === "image" || (block.type === "source" && block.medium === "image");
+
 export function usedAssets(blocks, assets) {
   return Object.fromEntries(
-    blocks
-      .filter((block) => block.type === "image")
-      .map((block) => [block.assetId, assets.get(block.assetId)]),
+    blocks.filter(showsImage).map((block) => [block.assetId, assets.get(block.assetId)]),
   );
+}
+
+/** Images a writing prompt shows: in its stimulus and its DBQ documents. */
+export function writingAssets(quizzes, assets) {
+  const blocks = quizzes.flatMap((quiz) => [
+    ...(quiz.stimulusBlocks || []),
+    ...(quiz.documents || [])
+      .filter((document) => document.medium === "image")
+      .map((document) => ({ ...document, type: "source" })),
+  ]);
+  return usedAssets(blocks, assets);
 }

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 6.2. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-06.js.
+// Original Page One lesson for CED Topic 6.2.
 
 export const lesson = {
   schemaVersion: 1,
@@ -85,37 +84,7 @@ export const lesson = {
       sourceIds: ["ced-topic-6-2"],
     },
   ],
-  vocabulary: [
-    {
-      id: "berlin-conference",
-      topicId: "world-6-2",
-      term: "Berlin Conference",
-      definition:
-        "A meeting of European powers in 1884 and 1885 that set rules for claiming African territory, with no African rulers present.",
-    },
-    {
-      id: "settler-colonies",
-      topicId: "world-6-2",
-      term: "settler colonies",
-      definition:
-        "Colonies such as Australia and New Zealand where large numbers of settlers from the colonizing country took land and made permanent homes.",
-    },
-    {
-      id: "congo-free-state",
-      topicId: "world-6-2",
-      term: "Congo Free State",
-      definition:
-        "Central African territory ruled by King Leopold II of Belgium as a personal colony from 1885 to 1908, known for brutal forced labor.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-6-berlin-conference",
-      "world-6-settler-colonies",
-      "world-6-congo-free-state",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

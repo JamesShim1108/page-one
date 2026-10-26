@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.2. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.2.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,33 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-2"],
     },
   ],
-  vocabulary: [
-    {
-      id: "pandemic",
-      topicId: "world-9-2",
-      term: "pandemic",
-      definition:
-        "An outbreak of disease that spreads across many countries or the whole world.",
-    },
-    {
-      id: "hiv-aids",
-      topicId: "world-9-2",
-      term: "HIV/AIDS",
-      definition:
-        "A disease caused by a virus that attacks the immune system, identified in the early 1980s.",
-    },
-    {
-      id: "life-expectancy",
-      topicId: "world-9-2",
-      term: "life expectancy",
-      definition:
-        "The average number of years a person in a population can expect to live.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-9-pandemic", "world-9-hiv-aids", "world-9-life-expectancy"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

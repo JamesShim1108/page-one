@@ -314,7 +314,7 @@
       }
     ]
   },
-  "contentRevision": "92bb71a57363d86a",
+  "contentRevision": "963c6985c51247a0",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-4-7",
@@ -391,41 +391,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "casta-system",
-        "topicId": "world-4-7",
-        "term": "casta system",
-        "definition": "The ranking of people in Spanish America by ancestry, with Spanish-born elites at the top."
-      },
-      {
-        "id": "peninsulares",
-        "topicId": "world-4-7",
-        "term": "Peninsulares",
-        "definition": "People born in Spain who held the highest positions in Spanish American society."
-      },
-      {
-        "id": "creoles",
-        "topicId": "world-4-7",
-        "term": "Creoles",
-        "definition": "People of Spanish descent born in the Americas, often wealthy but excluded from the highest offices."
-      },
-      {
-        "id": "mestizos",
-        "topicId": "world-4-7",
-        "term": "Mestizos",
-        "definition": "People of mixed Spanish and Indigenous ancestry in Spanish America."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-4-casta-system",
-        "world-4-peninsulares",
-        "world-4-creoles",
-        "world-4-mestizos"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -449,36 +415,7 @@
     ]
   },
   "bankPath": "world/banks/world-4-7.json",
-  "glossary": [
-    {
-      "id": "world-4-casta-system",
-      "term": "casta system",
-      "definition": "The ranking of people in Spanish America by ancestry, with Spanish-born elites at the top.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.7 glossary"
-    },
-    {
-      "id": "world-4-peninsulares",
-      "term": "Peninsulares",
-      "definition": "People born in Spain who held the highest positions in Spanish American society.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.7 glossary"
-    },
-    {
-      "id": "world-4-creoles",
-      "term": "Creoles",
-      "definition": "People of Spanish descent born in the Americas, often wealthy but excluded from the highest offices.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.7 glossary"
-    },
-    {
-      "id": "world-4-mestizos",
-      "term": "Mestizos",
-      "definition": "People of mixed Spanish and Indigenous ancestry in Spanish America.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.7 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-4-7",

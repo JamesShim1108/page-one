@@ -328,7 +328,7 @@
       }
     ]
   },
-  "contentRevision": "96dc2f1e5290d627",
+  "contentRevision": "546ae48f29f389c9",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-5-3",
@@ -407,34 +407,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "enclosure",
-        "topicId": "world-5-3",
-        "term": "enclosure",
-        "definition": "The fencing of common lands into private farms in Britain, which raised output and pushed many rural laborers off the land."
-      },
-      {
-        "id": "factory-system",
-        "topicId": "world-5-3",
-        "term": "factory system",
-        "definition": "A way of producing goods in which workers use machines in a central workplace on fixed schedules."
-      },
-      {
-        "id": "water-frame",
-        "topicId": "world-5-3",
-        "term": "water frame",
-        "definition": "Richard Arkwright's water-powered spinning machine, patented in 1769, which helped launch the factory system."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-5-enclosure",
-        "world-5-factory-system",
-        "world-5-water-frame"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -458,29 +431,7 @@
     ]
   },
   "bankPath": "world/banks/world-5-3.json",
-  "glossary": [
-    {
-      "id": "world-5-enclosure",
-      "term": "enclosure",
-      "definition": "The fencing of common lands into private farms in Britain, which raised output and pushed many rural laborers off the land.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.3 glossary"
-    },
-    {
-      "id": "world-5-factory-system",
-      "term": "factory system",
-      "definition": "A way of producing goods in which workers use machines in a central workplace on fixed schedules.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.3 glossary"
-    },
-    {
-      "id": "world-5-water-frame",
-      "term": "water frame",
-      "definition": "Richard Arkwright's water-powered spinning machine, patented in 1769, which helped launch the factory system.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.3 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-5-3",

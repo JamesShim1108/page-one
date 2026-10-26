@@ -312,7 +312,7 @@
       }
     ]
   },
-  "contentRevision": "fd5be1137d82803f",
+  "contentRevision": "ac8ed919fd5799c6",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-8-6",
@@ -388,41 +388,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "partition-of-india",
-        "topicId": "world-8-6",
-        "term": "partition of India",
-        "definition": "The 1947 division of British India into India and Pakistan, which caused mass migration and violence."
-      },
-      {
-        "id": "nationalization",
-        "topicId": "world-8-6",
-        "term": "nationalization",
-        "definition": "A government's takeover of a privately owned business or resource."
-      },
-      {
-        "id": "suez-crisis",
-        "topicId": "world-8-6",
-        "term": "Suez Crisis",
-        "definition": "The 1956 invasion of Egypt by Britain, France, and Israel after Nasser nationalized the Suez Canal."
-      },
-      {
-        "id": "mixed-economy",
-        "topicId": "world-8-6",
-        "term": "mixed economy",
-        "definition": "An economy that combines state-owned industries and planning with private businesses."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-8-partition-of-india",
-        "world-8-nationalization",
-        "world-8-suez-crisis",
-        "world-8-mixed-economy"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -446,36 +412,7 @@
     ]
   },
   "bankPath": "world/banks/world-8-6.json",
-  "glossary": [
-    {
-      "id": "world-8-partition-of-india",
-      "term": "partition of India",
-      "definition": "The 1947 division of British India into India and Pakistan, which caused mass migration and violence.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.6 glossary"
-    },
-    {
-      "id": "world-8-nationalization",
-      "term": "nationalization",
-      "definition": "A government's takeover of a privately owned business or resource.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.6 glossary"
-    },
-    {
-      "id": "world-8-suez-crisis",
-      "term": "Suez Crisis",
-      "definition": "The 1956 invasion of Egypt by Britain, France, and Israel after Nasser nationalized the Suez Canal.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.6 glossary"
-    },
-    {
-      "id": "world-8-mixed-economy",
-      "term": "mixed economy",
-      "definition": "An economy that combines state-owned industries and planning with private businesses.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.6 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-8-6",

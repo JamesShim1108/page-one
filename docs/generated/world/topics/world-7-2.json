@@ -319,7 +319,7 @@
       }
     ]
   },
-  "contentRevision": "3593a69f16febeb0",
+  "contentRevision": "14fab028afd8702c",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-7-2",
@@ -391,34 +391,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "militarism",
-        "topicId": "world-7-2",
-        "term": "Militarism",
-        "definition": "The glorification of military power and the build-up of large armies and navies."
-      },
-      {
-        "id": "alliance-systems",
-        "topicId": "world-7-2",
-        "term": "alliance systems",
-        "definition": "Agreements among states to support one another in war, which divided Europe into two camps before 1914."
-      },
-      {
-        "id": "franz-ferdinand",
-        "topicId": "world-7-2",
-        "term": "Archduke Franz Ferdinand",
-        "definition": "Heir to the throne of Austria-Hungary, whose assassination in 1914 triggered World War I."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-7-militarism",
-        "world-7-alliance-systems",
-        "world-7-franz-ferdinand"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -442,29 +415,7 @@
     ]
   },
   "bankPath": "world/banks/world-7-2.json",
-  "glossary": [
-    {
-      "id": "world-7-militarism",
-      "term": "Militarism",
-      "definition": "The glorification of military power and the build-up of large armies and navies.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.2 glossary"
-    },
-    {
-      "id": "world-7-alliance-systems",
-      "term": "alliance systems",
-      "definition": "Agreements among states to support one another in war, which divided Europe into two camps before 1914.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.2 glossary"
-    },
-    {
-      "id": "world-7-franz-ferdinand",
-      "term": "Archduke Franz Ferdinand",
-      "definition": "Heir to the throne of Austria-Hungary, whose assassination in 1914 triggered World War I.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.2 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-7-2",

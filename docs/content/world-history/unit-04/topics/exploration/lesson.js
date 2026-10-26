@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 4.2. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-04.js.
+// Original Page One lesson for CED Topic 4.2.
 
 export const lesson = {
   schemaVersion: 1,
@@ -114,37 +113,7 @@ export const lesson = {
       sourceIds: ["ced-topic-4-2"],
     },
   ],
-  vocabulary: [
-    {
-      id: "mercantilism",
-      topicId: "world-4-2",
-      term: "mercantilism",
-      definition:
-        "An economic policy holding that a state grows strong by exporting more than it imports, accumulating precious metals, and controlling colonial trade.",
-    },
-    {
-      id: "treaty-of-tordesillas",
-      topicId: "world-4-2",
-      term: "Treaty of Tordesillas",
-      definition:
-        "A 1494 agreement that divided newly claimed lands outside Europe between Spain and Portugal along a line in the Atlantic.",
-    },
-    {
-      id: "northwest-passage",
-      topicId: "world-4-2",
-      term: "northwest passage",
-      definition:
-        "A hoped-for sea route through or around North America to Asia, which explorers searched for but did not find in this period.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-4-mercantilism",
-      "world-4-treaty-of-tordesillas",
-      "world-4-northwest-passage",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

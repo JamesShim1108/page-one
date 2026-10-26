@@ -314,7 +314,7 @@
       }
     ]
   },
-  "contentRevision": "f0267a1e203b83d0",
+  "contentRevision": "5384c8316cc3b5e4",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-4-6",
@@ -392,34 +392,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "pueblo-revolt",
-        "topicId": "world-4-6",
-        "term": "Pueblo Revolt",
-        "definition": "A 1680 uprising in which Pueblo communities expelled Spanish colonists from present-day New Mexico for more than a decade."
-      },
-      {
-        "id": "maroon-communities",
-        "topicId": "world-4-6",
-        "term": "maroon communities",
-        "definition": "Settlements formed by people who escaped slavery, often in mountains or forests, in the Americas."
-      },
-      {
-        "id": "fronde",
-        "topicId": "world-4-6",
-        "term": "Fronde",
-        "definition": "A series of revolts in France from 1648 to 1653 by nobles and officials against growing royal power."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-4-pueblo-revolt",
-        "world-4-maroon-communities",
-        "world-4-fronde"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -443,29 +416,7 @@
     ]
   },
   "bankPath": "world/banks/world-4-6.json",
-  "glossary": [
-    {
-      "id": "world-4-pueblo-revolt",
-      "term": "Pueblo Revolt",
-      "definition": "A 1680 uprising in which Pueblo communities expelled Spanish colonists from present-day New Mexico for more than a decade.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.6 glossary"
-    },
-    {
-      "id": "world-4-maroon-communities",
-      "term": "maroon communities",
-      "definition": "Settlements formed by people who escaped slavery, often in mountains or forests, in the Americas.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.6 glossary"
-    },
-    {
-      "id": "world-4-fronde",
-      "term": "Fronde",
-      "definition": "A series of revolts in France from 1648 to 1653 by nobles and officials against growing royal power.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.6 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-4-6",

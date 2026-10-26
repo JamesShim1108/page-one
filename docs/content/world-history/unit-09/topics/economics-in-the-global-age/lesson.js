@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.4. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.4.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,44 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-4"],
     },
   ],
-  vocabulary: [
-    {
-      id: "economic-liberalization",
-      topicId: "world-9-4",
-      term: "economic liberalization",
-      definition:
-        "Policies that reduce government control of the economy through lower taxes, less regulation, and privatization.",
-    },
-    {
-      id: "asian-tigers",
-      topicId: "world-9-4",
-      term: "Asian Tigers",
-      definition:
-        "South Korea, Taiwan, Hong Kong, and Singapore, which grew rapidly by producing goods for export after the 1960s.",
-    },
-    {
-      id: "multinational-corporations",
-      topicId: "world-9-4",
-      term: "Multinational corporations",
-      definition: "Companies that operate and produce goods in many countries.",
-    },
-    {
-      id: "knowledge-economies",
-      topicId: "world-9-4",
-      term: "knowledge economies",
-      definition:
-        "Economies in which most people work in finance, technology, research, and services rather than manufacturing.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-9-economic-liberalization",
-      "world-9-asian-tigers",
-      "world-9-multinational-corporations",
-      "world-9-knowledge-economies",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

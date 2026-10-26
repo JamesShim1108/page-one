@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.3. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.3.
 
 export const lesson = {
   schemaVersion: 1,
@@ -72,33 +71,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-3"],
     },
   ],
-  vocabulary: [
-    {
-      id: "enclosure",
-      topicId: "world-5-3",
-      term: "enclosure",
-      definition:
-        "The fencing of common lands into private farms in Britain, which raised output and pushed many rural laborers off the land.",
-    },
-    {
-      id: "factory-system",
-      topicId: "world-5-3",
-      term: "factory system",
-      definition:
-        "A way of producing goods in which workers use machines in a central workplace on fixed schedules.",
-    },
-    {
-      id: "water-frame",
-      topicId: "world-5-3",
-      term: "water frame",
-      definition:
-        "Richard Arkwright's water-powered spinning machine, patented in 1769, which helped launch the factory system.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-5-enclosure", "world-5-factory-system", "world-5-water-frame"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

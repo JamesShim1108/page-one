@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 4.6. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-04.js.
+// Original Page One lesson for CED Topic 4.6.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,33 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-4-6"],
     },
   ],
-  vocabulary: [
-    {
-      id: "pueblo-revolt",
-      topicId: "world-4-6",
-      term: "Pueblo Revolt",
-      definition:
-        "A 1680 uprising in which Pueblo communities expelled Spanish colonists from present-day New Mexico for more than a decade.",
-    },
-    {
-      id: "maroon-communities",
-      topicId: "world-4-6",
-      term: "maroon communities",
-      definition:
-        "Settlements formed by people who escaped slavery, often in mountains or forests, in the Americas.",
-    },
-    {
-      id: "fronde",
-      topicId: "world-4-6",
-      term: "Fronde",
-      definition:
-        "A series of revolts in France from 1648 to 1653 by nobles and officials against growing royal power.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-4-pueblo-revolt", "world-4-maroon-communities", "world-4-fronde"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

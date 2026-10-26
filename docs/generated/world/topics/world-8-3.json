@@ -312,7 +312,7 @@
       }
     ]
   },
-  "contentRevision": "fa1e6d9869065a76",
+  "contentRevision": "d6b952c3f15e279e",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-8-3",
@@ -387,41 +387,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "proxy-wars",
-        "topicId": "world-8-3",
-        "term": "proxy wars",
-        "definition": "Conflicts in which the superpowers supported opposing local forces instead of fighting each other directly."
-      },
-      {
-        "id": "arms-race",
-        "topicId": "world-8-3",
-        "term": "arms race",
-        "definition": "Competition between the superpowers to build more and better weapons, especially nuclear weapons."
-      },
-      {
-        "id": "mutually-assured-destruction",
-        "topicId": "world-8-3",
-        "term": "mutually assured destruction",
-        "definition": "The idea that neither superpower would start a nuclear war because both would be destroyed."
-      },
-      {
-        "id": "cuban-missile-crisis",
-        "topicId": "world-8-3",
-        "term": "Cuban Missile Crisis",
-        "definition": "The 1962 confrontation over Soviet nuclear missiles in Cuba, the closest the superpowers came to nuclear war."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-8-proxy-wars",
-        "world-8-arms-race",
-        "world-8-mutually-assured-destruction",
-        "world-8-cuban-missile-crisis"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -445,36 +411,7 @@
     ]
   },
   "bankPath": "world/banks/world-8-3.json",
-  "glossary": [
-    {
-      "id": "world-8-proxy-wars",
-      "term": "proxy wars",
-      "definition": "Conflicts in which the superpowers supported opposing local forces instead of fighting each other directly.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.3 glossary"
-    },
-    {
-      "id": "world-8-arms-race",
-      "term": "arms race",
-      "definition": "Competition between the superpowers to build more and better weapons, especially nuclear weapons.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.3 glossary"
-    },
-    {
-      "id": "world-8-mutually-assured-destruction",
-      "term": "mutually assured destruction",
-      "definition": "The idea that neither superpower would start a nuclear war because both would be destroyed.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.3 glossary"
-    },
-    {
-      "id": "world-8-cuban-missile-crisis",
-      "term": "Cuban Missile Crisis",
-      "definition": "The 1962 confrontation over Soviet nuclear missiles in Cuba, the closest the superpowers came to nuclear war.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.3 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-8-3",

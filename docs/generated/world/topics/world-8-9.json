@@ -312,7 +312,7 @@
       }
     ]
   },
-  "contentRevision": "abc156ca27216175",
+  "contentRevision": "2dfd7e07af109897",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-8-9",
@@ -360,20 +360,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "global-south",
-        "topicId": "world-8-9",
-        "term": "Global South",
-        "definition": "A term for the poorer countries of Asia, Africa, and Latin America, many of them former colonies."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-8-global-south"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -397,15 +384,7 @@
     ]
   },
   "bankPath": "world/banks/world-8-9.json",
-  "glossary": [
-    {
-      "id": "world-8-global-south",
-      "term": "Global South",
-      "definition": "A term for the poorer countries of Asia, Africa, and Latin America, many of them former colonies.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.9 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-8-9",

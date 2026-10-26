@@ -314,7 +314,7 @@
       }
     ]
   },
-  "contentRevision": "638f8b50d172cfe8",
+  "contentRevision": "2ffc47383da2a7a6",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-4-4",
@@ -443,48 +443,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "trading-post-empire",
-        "topicId": "world-4-4",
-        "term": "trading-post empire",
-        "definition": "An empire that controlled trade through fortified coastal ports rather than by ruling large territories."
-      },
-      {
-        "id": "joint-stock-company",
-        "topicId": "world-4-4",
-        "term": "joint-stock companies",
-        "definition": "Businesses that raised money by selling shares to investors, who shared profits and risks; some held state-like powers."
-      },
-      {
-        "id": "voc",
-        "topicId": "world-4-4",
-        "term": "VOC",
-        "definition": "The Dutch East India Company, a joint-stock company chartered in 1602 that controlled much of the spice trade."
-      },
-      {
-        "id": "kingdom-of-kongo",
-        "topicId": "world-4-4",
-        "term": "Kingdom of Kongo",
-        "definition": "A west-central African kingdom whose rulers adopted Christianity and traded with Portugal from the late 1400s."
-      },
-      {
-        "id": "asante",
-        "topicId": "world-4-4",
-        "term": "Asante",
-        "definition": "A West African kingdom that rose around 1700 and grew powerful through trade in gold and enslaved captives."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-4-trading-post-empire",
-        "world-4-joint-stock-company",
-        "world-4-voc",
-        "world-4-kingdom-of-kongo",
-        "world-4-asante"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -508,45 +467,7 @@
     ]
   },
   "bankPath": "world/banks/world-4-4.json",
-  "glossary": [
-    {
-      "id": "world-4-trading-post-empire",
-      "term": "trading-post empire",
-      "definition": "An empire that controlled trade through fortified coastal ports rather than by ruling large territories.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.4 glossary"
-    },
-    {
-      "id": "world-4-joint-stock-company",
-      "term": "joint-stock companies",
-      "definition": "Businesses that raised money by selling shares to investors, who shared profits and risks; some held state-like powers.",
-      "aliases": [
-        "joint-stock company"
-      ],
-      "sourceLabel": "Topic 4.4 glossary"
-    },
-    {
-      "id": "world-4-voc",
-      "term": "VOC",
-      "definition": "The Dutch East India Company, a joint-stock company chartered in 1602 that controlled much of the spice trade.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.4 glossary"
-    },
-    {
-      "id": "world-4-kingdom-of-kongo",
-      "term": "Kingdom of Kongo",
-      "definition": "A west-central African kingdom whose rulers adopted Christianity and traded with Portugal from the late 1400s.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.4 glossary"
-    },
-    {
-      "id": "world-4-asante",
-      "term": "Asante",
-      "definition": "A West African kingdom that rose around 1700 and grew powerful through trade in gold and enslaved captives.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.4 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-4-4",

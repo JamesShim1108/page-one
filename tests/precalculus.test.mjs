@@ -81,7 +81,7 @@ const ALL_TOPIC_IDS = UNITS.flatMap((unit) =>
   unit.topics.map((_, index) => `precalculus-${unit.number}-${index + 1}`),
 );
 
-test("the catalog lists AP Precalculus after the other courses with its ready topics", async () => {
+test("the catalog lists AP Precalculus third, with its ready topics", async () => {
   const catalog = await generated("catalog.json");
   const course = catalog.courses.find((entry) => entry.id === "precalculus");
   assert.ok(course, "precalculus is in the catalog");
@@ -91,7 +91,7 @@ test("the catalog lists AP Precalculus after the other courses with its ready to
   assert.equal(course.readyTopicCount, ALL_TOPIC_IDS.length);
   assert.deepEqual(
     catalog.courses.map((entry) => entry.order),
-    [1, 2, 3],
+    [1, 2, 3, 4],
   );
 });
 

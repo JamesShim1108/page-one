@@ -1,0 +1,522 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "quiz": {
+    "id": "apush-5-leq-federal-role",
+    "version": 1,
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "title": "LEQ: The federal government in war and Reconstruction",
+    "headline": "The federal government in war and Reconstruction",
+    "promptTitle": "Long essay question",
+    "prompt": "Between 1861 and 1877, the national government fought a civil war, ended slavery, and tried to rebuild the South. Compare the ways in which the Civil War and Reconstruction changed the role of the federal government in the United States in the period 1861 to 1877. Your response may focus on powers over the economy, the army, the states, or the rights of citizens. You are not expected to address the entire time period in your response.",
+    "instructions": "In your response you should do the following: Respond to the prompt with a historically defensible thesis or claim that establishes a line of reasoning. Describe a broader historical context relevant to the prompt. Support an argument in response to the prompt using at least two pieces of specific and relevant evidence. Use historical reasoning (e.g., comparison, causation, continuity or change) to frame or structure an argument that addresses the prompt. Demonstrate a complex understanding of a historical development related to the prompt through sophisticated argumentation and/or effective use of evidence.",
+    "note": "Original Page One practice in AP format. Rubric criteria follow the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
+    "exerciseType": "leq",
+    "reasoning": "comparison",
+    "examOnly": false,
+    "sourceIds": [
+      "ced"
+    ],
+    "responseFields": [
+      {
+        "id": "outline",
+        "label": "Optional outline",
+        "prompt": "Plan your claim, context, evidence, and reasoning before drafting.",
+        "required": false,
+        "rows": 6,
+        "help": "Optional planning notes; the essay is the required response.",
+        "review": [
+          {
+            "topicId": "apush-5-12",
+            "sectionId": "comparing-the-war-and-reconstruction",
+            "label": "Review comparing the war and Reconstruction"
+          }
+        ]
+      },
+      {
+        "id": "essay",
+        "label": "Essay response",
+        "prompt": "Write the full essay. Make the line of reasoning visible and explain why each example supports the claim.",
+        "required": true,
+        "rows": 16,
+        "help": "Informational word count only. No automatic grading.",
+        "review": [
+          {
+            "topicId": "apush-5-12",
+            "sectionId": "how-to-reason-about-comparison",
+            "label": "Review how to reason about comparison"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "thesis",
+        "label": "Thesis/Claim",
+        "points": 1,
+        "guidance": "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. The thesis must make a claim that responds to the prompt rather than restating or rephrasing the prompt, and must be one or more sentences in one place, in either the introduction or the conclusion."
+      },
+      {
+        "id": "context",
+        "label": "Contextualization",
+        "points": 1,
+        "guidance": "Describes a broader historical context relevant to the prompt: events, developments, or processes that occur before, during, or continue after the time frame of the prompt. Not awarded for merely a phrase or reference."
+      },
+      {
+        "id": "evidence",
+        "label": "Evidence",
+        "points": 2,
+        "guidance": "1 point: provides specific examples of at least two pieces of evidence relevant to the topic of the prompt. 2 points: supports an argument in response to the prompt using at least two pieces of specific and relevant evidence."
+      },
+      {
+        "id": "analysis",
+        "label": "Analysis and Reasoning",
+        "points": 2,
+        "guidance": "1 point: uses historical reasoning (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt; the reasoning may be uneven. 2 points: demonstrates a complex understanding of the historical development that is the focus of the prompt through sophisticated argumentation and/or effective use of evidence. With evidence, that can mean explaining how at least four pieces of specific evidence support a nuanced argument. A complex understanding can come from sophisticated argumentation (explaining multiple themes or perspectives; multiple causes or effects, similarities or differences, or continuities or changes; both cause and effect, similarity and difference, or continuity and change; or insightful connections within and across periods or regions) or from effective use of evidence. It must be part of the argument and more than a phrase or reference."
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Choose",
+        "text": "Pick the development(s) in the prompt you know best."
+      },
+      {
+        "label": "Claim",
+        "text": "Answer the task and preview your line of reasoning."
+      },
+      {
+        "label": "Context",
+        "text": "Describe a broader development before or during the period."
+      },
+      {
+        "label": "Evidence",
+        "text": "Use at least two specific examples and explain each one."
+      },
+      {
+        "label": "Complexity",
+        "text": "Qualify your claim or weigh causes, effects, or changes."
+      }
+    ],
+    "modelResponse": "In 1860 the federal government was small. It collected most of its revenue from the tariff, it had a small army, and most Americans looked first to their states. The Union victory in the Civil War and the contested Reconstruction of the South settled the issues of slavery and secession, but they left unresolved many questions about the power of the federal government and about citizenship rights.\n\nThe Civil War and Reconstruction both enlarged the power of the national government over the states and over individuals, but the war expanded its economic and military power, which lasted, while Reconstruction expanded its power over rights, which ended in 1877.\n\nThe two periods were alike in the growth of federal power. During the war, the government drafted soldiers under the Enrollment Act of 1863, collected a federal income tax, issued paper money called greenbacks, and created a national banking system. Lincoln suspended habeas corpus, and in the Emancipation Proclamation he used his war powers to declare enslaved people in the areas in rebellion free. Reconstruction continued the pattern. The Thirteenth, Fourteenth, and Fifteenth Amendments abolished slavery, defined citizenship and equal protection, and protected the vote, and each gave Congress the power to enforce it. Congress created the Freedmen's Bureau, divided the South into military districts under the Reconstruction Acts of 1867, and passed the Enforcement Acts of 1870 and 1871 against the Ku Klux Klan. In both periods the national government reached into the states in a way that it had not before.\n\nThe periods differed in purpose and in leadership. Wartime power was aimed at winning the war, and it was exercised largely by the president and by a Congress that, with Southern members gone, could pass the Homestead Act and the Pacific Railway Act. Reconstruction power was aimed at redefining citizenship and protecting freed people, and it was exercised by Congress against President Andrew Johnson, who pardoned former Confederates and opposed the Reconstruction Acts, and was impeached in 1868. Congress, and not the president, became the center of national policy.\n\nThe periods differed also in how long the changes lasted. Many of the economic changes of the war endured. National banks, a national currency, and federal support for western railroads and settlement outlasted the war. The expansion of federal protection for rights did not endure in the same way. Northern resolve weakened after the Panic of 1873, violence by the White League and the Red Shirts helped Redeemers regain control of Southern governments, and in 1877 Hayes withdrew the last federal troops. The Supreme Court narrowed the Fourteenth Amendment in the Slaughter-House Cases of 1873 and in United States v. Cruikshank in 1876, and in Plessy v. Ferguson in 1896 it upheld segregation. Even so, the amendments remained in the Constitution, and in the twentieth century the Supreme Court and Congress used the Fourteenth and Fifteenth Amendments to uphold civil rights, as in Brown v. Board of Education in 1954.\n\nIn sum, the Civil War and Reconstruction both made the national government more powerful than the states, but the war created an enlarged economic and military role that proved lasting, while Reconstruction created a role as protector of rights that was withdrawn in 1877 and revived only in the twentieth century.",
+    "modelNotes": [
+      {
+        "label": "Contextualization",
+        "text": "The first paragraph describes the small federal government of 1860 and states that the war and Reconstruction left questions unresolved, which places the comparison in context."
+      },
+      {
+        "label": "Thesis",
+        "text": "The second paragraph makes a comparison claim that names a similarity (more federal power) and a difference (economic and military power lasted, while power over rights ended)."
+      },
+      {
+        "label": "Evidence",
+        "text": "The Enrollment Act, greenbacks, the national banking system, habeas corpus, the Emancipation Proclamation, the Reconstruction amendments, the Freedmen's Bureau, the Reconstruction Acts, the Enforcement Acts, the Slaughter-House Cases, Cruikshank, and Plessy are specific examples used to support the argument."
+      },
+      {
+        "label": "Analysis and reasoning",
+        "text": "The essay compares purposes, leadership, and durability, and it explains why the differences existed, which supports a complex understanding."
+      }
+    ],
+    "alternateModel": "An essay could compare the relative significance of the effects of the Civil War on American values by arguing that the end of slavery changed the nation more than the growth of federal power. To earn the complexity point it could add a qualification, such as the fact that emancipation did not secure equal rights, as sharecropping and segregation showed.",
+    "commonErrors": [
+      "Describing the war and Reconstruction in separate paragraphs without comparing them.",
+      "Writing that the federal government grew stronger in both periods without naming what grew, such as the draft, the banking system, or the amendments.",
+      "Treating 1877 as the end of the amendments and not explaining that they were used again in the twentieth century.",
+      "Using evidence from after 1877 as the main support for the argument, such as the Civil Rights Act of 1964, without relating it to the period 1861 to 1877."
+    ],
+    "learningObjectives": [
+      "5.M",
+      "5.K"
+    ],
+    "keyConcepts": [
+      "KC-5.3",
+      "KC-5.3.I.B",
+      "KC-5.3.II.i",
+      "KC-5.3.II.A",
+      "KC-5.3.II.E"
+    ],
+    "themes": [
+      "PCE",
+      "NAT",
+      "WXT"
+    ]
+  }
+}

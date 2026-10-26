@@ -312,7 +312,7 @@
       }
     ]
   },
-  "contentRevision": "e20547be18ef3a4b",
+  "contentRevision": "06a77dc026b317ae",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-8-1",
@@ -392,34 +392,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "united-nations",
-        "topicId": "world-8-1",
-        "term": "United Nations",
-        "definition": "An international organization founded in 1945 to keep peace and promote cooperation among nations."
-      },
-      {
-        "id": "self-determination",
-        "topicId": "world-8-1",
-        "term": "self-determination",
-        "definition": "The right of a people to choose their own government and political status."
-      },
-      {
-        "id": "decolonization",
-        "topicId": "world-8-1",
-        "term": "decolonization",
-        "definition": "The process by which colonies won independence from imperial powers, mostly between 1945 and 1975."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-8-united-nations",
-        "world-8-self-determination",
-        "world-8-decolonization"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -443,29 +416,7 @@
     ]
   },
   "bankPath": "world/banks/world-8-1.json",
-  "glossary": [
-    {
-      "id": "world-8-united-nations",
-      "term": "United Nations",
-      "definition": "An international organization founded in 1945 to keep peace and promote cooperation among nations.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.1 glossary"
-    },
-    {
-      "id": "world-8-self-determination",
-      "term": "self-determination",
-      "definition": "The right of a people to choose their own government and political status.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.1 glossary"
-    },
-    {
-      "id": "world-8-decolonization",
-      "term": "decolonization",
-      "definition": "The process by which colonies won independence from imperial powers, mostly between 1945 and 1975.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.1 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-8-1",

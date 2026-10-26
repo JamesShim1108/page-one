@@ -1,0 +1,535 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-4",
+    "courseId": "apush",
+    "number": 4,
+    "title": "Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "description": "Follow the rise of party politics and a more participatory democracy, the market revolution, westward expansion and foreign policy, the Second Great Awakening and reform, and the growth of slavery from 1800 to 1848.",
+    "quizzes": [
+      {
+        "id": "apush-4-practice",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-4-1",
+            "questionIds": [
+              "apush-4-1-q01",
+              "apush-4-1-q04",
+              "apush-4-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-q01",
+              "apush-4-2-q04",
+              "apush-4-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-q01",
+              "apush-4-3-q04",
+              "apush-4-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-q01",
+              "apush-4-4-q04",
+              "apush-4-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-q01",
+              "apush-4-5-q04",
+              "apush-4-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-6",
+            "questionIds": [
+              "apush-4-6-q01",
+              "apush-4-6-q04",
+              "apush-4-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-q01",
+              "apush-4-7-q04",
+              "apush-4-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-q01",
+              "apush-4-8-q04",
+              "apush-4-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-9",
+            "questionIds": [
+              "apush-4-9-q01",
+              "apush-4-9-q04",
+              "apush-4-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-10",
+            "questionIds": [
+              "apush-4-10-q01",
+              "apush-4-10-q04",
+              "apush-4-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-q01",
+              "apush-4-11-q04",
+              "apush-4-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-q01",
+              "apush-4-12-q04",
+              "apush-4-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-13",
+            "questionIds": [
+              "apush-4-13-q01",
+              "apush-4-13-q04",
+              "apush-4-13-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-14",
+            "questionIds": [
+              "apush-4-14-q01",
+              "apush-4-14-q04",
+              "apush-4-14-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-4-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-t01",
+              "apush-4-2-t02",
+              "apush-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-t01",
+              "apush-4-3-t02",
+              "apush-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-t01",
+              "apush-4-4-t02",
+              "apush-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-t01",
+              "apush-4-5-t02",
+              "apush-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-t01",
+              "apush-4-7-t02",
+              "apush-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-t01",
+              "apush-4-8-t02",
+              "apush-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-t01",
+              "apush-4-11-t02",
+              "apush-4-11-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-t01",
+              "apush-4-12-t02",
+              "apush-4-12-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 24
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-4-1-quiz",
+        "title": "Contextualizing Period 4 topic quiz"
+      },
+      {
+        "id": "apush-4-2-quiz",
+        "title": "The Rise of Political Parties and the Era of Jefferson topic quiz"
+      },
+      {
+        "id": "apush-4-3-quiz",
+        "title": "Politics and Regional Interests topic quiz"
+      },
+      {
+        "id": "apush-4-4-quiz",
+        "title": "America on the World Stage topic quiz"
+      },
+      {
+        "id": "apush-4-5-quiz",
+        "title": "Market Revolution: Industrialization topic quiz"
+      },
+      {
+        "id": "apush-4-6-quiz",
+        "title": "Market Revolution: Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-4-7-quiz",
+        "title": "Expanding Democracy topic quiz"
+      },
+      {
+        "id": "apush-4-8-quiz",
+        "title": "Jackson and Federal Power topic quiz"
+      },
+      {
+        "id": "apush-4-9-quiz",
+        "title": "The Development of an American Culture topic quiz"
+      },
+      {
+        "id": "apush-4-10-quiz",
+        "title": "The Second Great Awakening topic quiz"
+      },
+      {
+        "id": "apush-4-11-quiz",
+        "title": "An Age of Reform topic quiz"
+      },
+      {
+        "id": "apush-4-12-quiz",
+        "title": "African Americans in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-13-quiz",
+        "title": "The Society of the South in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-14-quiz",
+        "title": "Causation in Period 4 topic quiz"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "apush-4-1",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "period": "1800–1848",
+      "status": "ready",
+      "summary": "The context for Period 4: a more participatory democracy and a new national culture, an economy transformed by innovation, and a nation that expanded westward and argued over slavery, 1800–1848."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-saq-02",
+        "title": "Unit 4 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-leq-identity",
+        "title": "LEQ: Did economic change create a national identity?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-4-14",
+    "courseId": "apush",
+    "unitId": "apush-4",
+    "order": 14,
+    "code": "4.14",
+    "title": "Causation in Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "summary": "A guide to explaining the causes and effects of change from 1800 to 1848, and to judging the extent to which politics, economics, and foreign policy promoted an American identity."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "60fbff318b49fc1c",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-4-14",
+    "unitId": "apush-4",
+    "courseId": "apush",
+    "code": "4.14",
+    "title": "Causation in Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "order": 14,
+    "summary": "A guide to explaining the causes and effects of change from 1800 to 1848, and to judging the extent to which politics, economics, and foreign policy promoted an American identity.",
+    "minutes": 11,
+    "learningGoals": [
+      "Distinguish a cause from an effect and a short-term cause from a long-term cause.",
+      "Explain how politics and foreign policy helped to shape an American identity from 1800 to 1848.",
+      "Explain how economic change and its effects on regions promoted or limited a shared identity."
+    ],
+    "bigIdea": "Politics, economics, and foreign policy all promoted a stronger sense of national identity from 1800 to 1848, but the same forces widened differences among regions, especially over slavery.",
+    "context": "The CED treats causation as a historical reasoning process. The strongest answers identify a cause and an effect, explain how one led to the other, and judge the extent of the effect, using specific evidence.",
+    "sections": [
+      {
+        "id": "how-to-reason-about-causation",
+        "title": "How to reason about causation",
+        "conceptTitle": "How to reason about causation",
+        "lenses": [
+          "NAT",
+          "SOC"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Causation means explaining why something happened and what resulted. Begin by naming the event or development. Then name a cause, which is something that helped to bring it about, and an effect, which is something that followed from it. Strong answers separate long-term causes, such as the growth of a market economy, from short-term causes, such as a specific election or law."
+          },
+          {
+            "type": "paragraph",
+            "text": "A good causal claim explains the link between cause and effect and does not simply put them side by side. Avoid saying that one thing caused something else only because it came before it. Ask also how large the effect was. Questions about “the extent” of an effect call for you to say how much a factor mattered and what else mattered more."
+          }
+        ],
+        "takeaway": "Name the cause, name the effect, explain the link, and judge how large the effect was."
+      },
+      {
+        "id": "politics-and-foreign-policy",
+        "title": "Politics and foreign policy as causes of identity",
+        "conceptTitle": "Politics and foreign policy as causes of identity",
+        "lenses": [
+          "PCE",
+          "WOR",
+          "NAT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Politics promoted a shared identity when more citizens voted and took part in national campaigns. The expansion of suffrage and the rise of the Democrats and the Whigs gave many white men a sense of belonging to a nation. Supreme Court decisions such as McCulloch v. Maryland and Gibbons v. Ogden strengthened national authority over the states."
+          },
+          {
+            "type": "paragraph",
+            "text": "Foreign policy had similar effects. The War of 1812 stirred national pride and ended the Federalist Party. The Monroe Doctrine claimed a role for the United States in the Western Hemisphere. Territorial expansion, from the Louisiana Purchase to the removal of American Indians, gave Americans a sense of a continental destiny."
+          },
+          {
+            "type": "paragraph",
+            "text": "These same forces also divided. Regional interests shaped debates over the tariff and the bank, the nullification crisis showed how states could challenge federal power, and each addition of territory renewed the dispute over slavery, as the Missouri Compromise showed."
+          }
+        ],
+        "takeaway": "Participation, national courts, war, and expansion strengthened national identity, but regional interests and slavery pulled the country apart."
+      },
+      {
+        "id": "economics-and-society",
+        "title": "Economic change as a cause of identity",
+        "conceptTitle": "Economic change as a cause of identity",
+        "lenses": [
+          "WXT",
+          "GEO",
+          "SOC"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The market revolution tied together the country's economy. Canals, steamboats, railroads, and the telegraph linked the North and Midwest, and the sale of Southern cotton to Northern and British buyers tied the South to the national and international market. Consumers across the country bought goods from distant producers."
+          },
+          {
+            "type": "paragraph",
+            "text": "Economic change also produced differences. The North developed factories, wage labor, and cities, while the South relied on cotton and slave labor. These differences shaped political positions on tariffs, internal improvements, and the extension of slavery. In an essay about the extent to which politics, economics, and foreign policy promoted American identity, a balanced answer would say that each promoted a common identity among many Americans and that each also deepened regional differences."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "A single cause rarely explains a large change. Combine causes, and say which mattered most and why."
+          }
+        ],
+        "takeaway": "The market revolution linked regions into one economy and created regional differences, so its effect on identity was mixed."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Unit 5",
+        "title": "A nation divided over expansion and slavery",
+        "body": "Unit 5 follows the same regional divisions as territorial expansion and the debate over slavery lead to the Civil War.",
+        "transferQuestion": "Which cause from Period 4 do you think did the most to widen the gap between the North and the South, and why?",
+        "feedback": "A strong answer picks one cause, such as the westward spread of slavery or the different paths of Northern and Southern economies, and uses specific evidence to explain its effect.",
+        "links": [
+          {
+            "topicId": "apush-4-13",
+            "sectionId": "westward-slavery",
+            "label": "Review the westward movement of slavery"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced"
+    ]
+  },
+  "bankPath": "apush/banks/apush-4-14.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    }
+  ],
+  "assets": {}
+}

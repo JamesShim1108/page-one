@@ -314,7 +314,7 @@
       }
     ]
   },
-  "contentRevision": "db6b316d27c8eacb",
+  "contentRevision": "e927c2c793280b3c",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-4-5",
@@ -442,48 +442,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "encomienda",
-        "topicId": "world-4-5",
-        "term": "encomienda",
-        "definition": "A Spanish colonial grant giving colonists the right to demand labor and tribute from Indigenous communities."
-      },
-      {
-        "id": "hacienda",
-        "topicId": "world-4-5",
-        "term": "haciendas",
-        "definition": "Large landed estates in Spanish America that relied on Indigenous and mixed-ancestry workers, often bound by debt."
-      },
-      {
-        "id": "middle-passage",
-        "topicId": "world-4-5",
-        "term": "Middle Passage",
-        "definition": "The forced voyage of enslaved Africans across the Atlantic to the Americas, during which many died."
-      },
-      {
-        "id": "chattel-slavery",
-        "topicId": "world-4-5",
-        "term": "chattel slavery",
-        "definition": "A system in which enslaved people are treated as property and their status passes to their children."
-      },
-      {
-        "id": "manila-galleons",
-        "topicId": "world-4-5",
-        "term": "Manila galleons",
-        "definition": "Spanish ships that carried American silver across the Pacific to Manila to trade for Chinese goods after 1571."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-4-encomienda",
-        "world-4-hacienda",
-        "world-4-middle-passage",
-        "world-4-chattel-slavery",
-        "world-4-manila-galleons"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -507,43 +466,7 @@
     ]
   },
   "bankPath": "world/banks/world-4-5.json",
-  "glossary": [
-    {
-      "id": "world-4-encomienda",
-      "term": "encomienda",
-      "definition": "A Spanish colonial grant giving colonists the right to demand labor and tribute from Indigenous communities.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.5 glossary"
-    },
-    {
-      "id": "world-4-hacienda",
-      "term": "haciendas",
-      "definition": "Large landed estates in Spanish America that relied on Indigenous and mixed-ancestry workers, often bound by debt.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.5 glossary"
-    },
-    {
-      "id": "world-4-middle-passage",
-      "term": "Middle Passage",
-      "definition": "The forced voyage of enslaved Africans across the Atlantic to the Americas, during which many died.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.5 glossary"
-    },
-    {
-      "id": "world-4-chattel-slavery",
-      "term": "chattel slavery",
-      "definition": "A system in which enslaved people are treated as property and their status passes to their children.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.5 glossary"
-    },
-    {
-      "id": "world-4-manila-galleons",
-      "term": "Manila galleons",
-      "definition": "Spanish ships that carried American silver across the Pacific to Manila to trade for Chinese goods after 1571.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.5 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-4-5",

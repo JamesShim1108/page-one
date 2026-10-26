@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 6.7. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-06.js.
+// Original Page One lesson for CED Topic 6.7.
 
 export const lesson = {
   schemaVersion: 1,
@@ -66,45 +65,7 @@ export const lesson = {
       sourceIds: ["ced-topic-6-7"],
     },
   ],
-  vocabulary: [
-    {
-      id: "ethnic-enclaves",
-      topicId: "world-6-7",
-      term: "ethnic enclaves",
-      definition:
-        "Neighborhoods or communities where migrants of the same origin settled together and kept their language and customs.",
-    },
-    {
-      id: "nativism",
-      topicId: "world-6-7",
-      term: "nativism",
-      definition:
-        "Hostility toward immigrants and the policy of favoring native-born residents over newcomers.",
-    },
-    {
-      id: "chinese-exclusion-act",
-      topicId: "world-6-7",
-      term: "Chinese Exclusion Act",
-      definition:
-        "An 1882 US law that banned Chinese laborers from entering the United States.",
-    },
-    {
-      id: "white-australia-policy",
-      topicId: "world-6-7",
-      term: "White Australia Policy",
-      definition:
-        "Laws adopted by Australia in 1901 to keep out non-European immigrants.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-6-ethnic-enclaves",
-      "world-6-nativism",
-      "world-6-chinese-exclusion-act",
-      "world-6-white-australia-policy",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

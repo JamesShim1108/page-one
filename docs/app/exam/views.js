@@ -177,7 +177,11 @@ export function mcqPage(data, store, ui = {}, now = Date.now()) {
   const setStart = !previous || previous.stimulusId !== question.stimulusId;
   const stimulus = (question.stimulusBlocks || [])
     .filter((block) => block.type === "source" || block.type === "graph")
-    .map((block) => (block.type === "graph" ? renderGraph(block) : renderSource(block)))
+    .map((block) =>
+      block.type === "graph"
+        ? renderGraph(block)
+        : renderSource(block, undefined, data.assets || {}),
+    )
     .join("");
   const choices = question.choices
     .map(
@@ -208,24 +212,40 @@ export function mcqPage(data, store, ui = {}, now = Date.now()) {
   </div>`;
 }
 
-function documentView(document, index) {
-  return renderSource({
-    type: "source",
-    sourceType: document.sourceType,
-    attribution: `Document ${index + 1}. ${document.attribution || document.label}`,
-    text: document.content,
-    citation: document.citation,
-    note: document.note,
-  });
+function documentView(document, index, assets = {}) {
+  return renderSource(
+    {
+      type: "source",
+      sourceType: document.sourceType,
+      attribution: `Document ${index + 1}. ${document.attribution || document.label}`,
+      text: document.content,
+      medium: document.medium,
+      assetId: document.assetId,
+      alt: document.alt,
+      description: document.description,
+      citation: document.citation,
+      note: document.note,
+    },
+    undefined,
+    assets,
+  );
 }
 
-function optionBody(attempt, section, prompt, option, { readOnly = false } = {}) {
+function optionBody(
+  attempt,
+  section,
+  prompt,
+  option,
+  { readOnly = false, assets = {} } = {},
+) {
   const key = responseKey(section.id, prompt.id, option.id);
   const response = attempt.responses[key] || {};
   const stimulus = (option.stimulusBlocks || [])
-    .map((block) => renderSource(block))
+    .map((block) => renderSource(block, undefined, assets))
     .join("");
-  const documents = (option.documents || []).map(documentView).join("");
+  const documents = (option.documents || [])
+    .map((document, index) => documentView(document, index, assets))
+    .join("");
   const fields = responseFields(option)
     .map((field) => {
       const value = response[field.id] || "";
@@ -244,7 +264,7 @@ function optionBody(attempt, section, prompt, option, { readOnly = false } = {})
   return `${stimulus}${documents ? `<div class="exam-documents">${documents}</div>` : ""}<p class="exam-prompt-text">${esc(option.prompt)}</p>${fields}`;
 }
 
-function promptView(attempt, section, prompt) {
+function promptView(attempt, section, prompt, assets = {}) {
   const chosen = chosenOptions(attempt, section, prompt);
   const choosing = prompt.choose < prompt.options.length;
   const picker = choosing
@@ -258,7 +278,7 @@ function promptView(attempt, section, prompt) {
   const bodies = chosen
     .map(
       (option) =>
-        `<div class="exam-option"><h3>${esc(option.promptTitle || option.title)}</h3>${optionBody(attempt, section, prompt, option)}</div>`,
+        `<div class="exam-option"><h3>${esc(option.promptTitle || option.title)}</h3>${optionBody(attempt, section, prompt, option, { assets })}</div>`,
     )
     .join("");
   return `<section class="exam-prompt" aria-labelledby="exam-prompt-${esc(prompt.id)}"><h2 id="exam-prompt-${esc(prompt.id)}">${esc(prompt.label)}</h2>${picker}${bodies || (choosing ? '<p class="muted">Choose a question to see it and start writing.</p>' : "")}</section>`;
@@ -287,7 +307,7 @@ export function writingPage(data, store, ui = {}, now = Date.now()) {
     ${reading}
     ${ui.confirmSubmit ? submitPanel(section.part, `${answered} of ${needed} responses started.`) : ""}
     <p class="exam-instructions">${esc(section.instructions)}</p>
-    ${section.prompts.map((prompt) => promptView(attempt, section, prompt)).join("")}
+    ${section.prompts.map((prompt) => promptView(attempt, section, prompt, data.assets || {})).join("")}
     <div class="actions exam-submit-row">${examButton(`Submit ${esc(section.part)}`, "prepare-submit")}</div>
   </div>`;
 }
@@ -358,7 +378,7 @@ function writingResults(data, section, sheetSection, attempt) {
         .join("");
       return `<div class="exam-result-item"><h3>${esc(prompt.label)}: ${esc(item.option.promptTitle || item.option.title)}</h3>
         <p class="exam-score-line">${item.answered ? `${item.points} of ${item.maxPoints} points${item.complete ? "" : " so far"}` : `No response · 0 of ${item.maxPoints} points`}</p>
-        <details class="exam-your-work"><summary>Your response</summary>${optionBody(attempt, section, prompt, item.option, { readOnly: true })}</details>
+        <details class="exam-your-work"><summary>Your response</summary>${optionBody(attempt, section, prompt, item.option, { readOnly: true, assets: data.assets || {} })}</details>
         ${item.answered ? `<fieldset class="exam-self-score"><legend>Score your response with the rubric</legend>${criteria}</fieldset>` : ""}
         ${modelView(item.option)}
       </div>`;

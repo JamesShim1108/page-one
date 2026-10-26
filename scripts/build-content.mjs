@@ -17,8 +17,17 @@ import {
   validateDefinitionCoverage,
   validateSkills,
   requireRepeatedFeedbackLimit,
+  practiceTestRules,
+  DEFAULT_SOURCE_REVIEW,
 } from "./lib/validate.mjs";
-import { loadAssets, mergeAssets, usedAssets } from "./lib/assets.mjs";
+import { loadAssets, mergeAssets, usedAssets, writingAssets } from "./lib/assets.mjs";
+import {
+  resolveCed,
+  checkCedUnit,
+  checkCedCoverage,
+  checkCedTopic,
+  checkCedWriting,
+} from "./lib/ced.mjs";
 import { validateTermSet } from "./lib/terms.mjs";
 import { resolveGlossary, selectGlossary } from "./lib/glossary.mjs";
 import { resolveExam, validateExamFormat } from "./lib/exams.mjs";
@@ -32,11 +41,34 @@ function withSkillLabels(question, skills) {
   if (!skills || !question.skill) return question;
   const skill = skills.items.get(question.skill);
   const reasoning = question.reasoning ? skills.reasoning.get(question.reasoning) : null;
+  const subskill = question.subskill
+    ? skill.subskills.find((item) => item.code === question.subskill)
+    : null;
   return {
     ...question,
     skillLabel: skill.label,
     skillCode: skill.code,
     ...(reasoning ? { reasoningLabel: reasoning.label } : {}),
+    ...(subskill ? { subskillText: subskill.text } : {}),
+  };
+}
+// Exam questions come from many topics, so their images are looked up in the
+// topic manifests as well as the course's.
+function examAssetsFor(payload, courseAssets, topics) {
+  // Topic manifests already include the course's records, so keep the first copy.
+  const all = new Map(courseAssets);
+  for (const topic of topics.values())
+    for (const [id, asset] of topic.assets) if (!all.has(id)) all.set(id, asset);
+  const questions = payload.sections.flatMap((section) => section.questions || []);
+  const options = payload.sections.flatMap((section) =>
+    (section.prompts || []).flatMap((prompt) => prompt.options),
+  );
+  return {
+    ...usedAssets(
+      questions.flatMap((question) => question.stimulusBlocks || []),
+      all,
+    ),
+    ...writingAssets(options, all),
   };
 }
 const json = (value) => `${JSON.stringify(value, null, 2)}\n`;
@@ -291,6 +323,36 @@ export async function compileContent(root = projectRoot) {
     // and results can be grouped by it.
     const skillList = await optionalModule(join(courseRoot, "skills.js"), "skills", null);
     const skills = skillList ? validateSkills(skillList, courseFile) : null;
+    // Course-level content rules that shared validators need.
+    if (course.sourceReview !== undefined)
+      requireValue(
+        /^[a-z][a-z0-9_]*$/.test(course.sourceReview),
+        courseFile,
+        "sourceReview names a source-block field, such as ced_review",
+      );
+    const contentOptions = {
+      reviewField: course.sourceReview || DEFAULT_SOURCE_REVIEW,
+    };
+    // The exam format is checked even before any exam uses it, and its
+    // multiple-choice rules also govern unit Practice Tests.
+    const formatFile = join(courseRoot, "exam-format.js");
+    const format = (await exists(formatFile))
+      ? validateExamFormat(
+          await readModule(formatFile, "examFormat"),
+          sources,
+          formatFile,
+        )
+      : null;
+    const mcqRules = practiceTestRules(format);
+    // Optional Course and Exam Description framework that content must match.
+    const cedFile = join(courseRoot, "ced.js");
+    const cedIndex = (await exists(cedFile))
+      ? resolveCed(
+          await readModule(cedFile, "ced"),
+          { sources, framework, skills },
+          cedFile,
+        )
+      : null;
     const courseAssetsFile = join(courseRoot, "assets.js");
     const courseAssets = mergeAssets(
       globalAssets,
@@ -362,6 +424,7 @@ export async function compileContent(root = projectRoot) {
         unitFile,
         "unit number must be positive",
       );
+      if (cedIndex) checkCedUnit(unit, cedIndex, unitFile);
       const unitTopics = [];
       const reservedQuestionIds = new Set(
         (unit.quizzes || []).flatMap((quiz) =>
@@ -403,7 +466,9 @@ export async function compileContent(root = projectRoot) {
             topicRoot,
             topics,
             skills,
+            contentOptions,
           );
+          if (cedIndex) checkCedTopic(lesson, bank, unit, cedIndex, topicRoot);
           requireValue(!topics.has(lesson.id), topicRoot, "duplicate topic ID");
           const practice = problems.length
             ? compilePractice({
@@ -452,6 +517,12 @@ export async function compileContent(root = projectRoot) {
       "unit numbers must be unique",
     );
     units.sort((a, b) => a.unit.number - b.unit.number);
+    if (cedIndex)
+      checkCedCoverage(
+        new Set(units.map((record) => record.unit.number)),
+        cedIndex,
+        courseFile,
+      );
     // Cross-topic links are checked after every topic in the course has been discovered.
     for (const topic of topics.values()) {
       for (const connection of topic.lesson.connections || []) {
@@ -775,13 +846,15 @@ export async function compileContent(root = projectRoot) {
         searchRecords.push(
           ...topicSearchRecords({ course, unit, lesson, selectedGlossary }),
         );
-        validateDefinitionCoverage({
-          coverage: lesson.definitionCoverage,
-          concepts: selectedGlossary,
-          text: lessonReadingText(lesson),
-          location: `${course.id}/${lesson.id}`,
-          pageId: lesson.id,
-        });
+        // A course with no reading definitions has nothing to cover.
+        if (glossary.size > 0)
+          validateDefinitionCoverage({
+            coverage: lesson.definitionCoverage,
+            concepts: selectedGlossary,
+            text: lessonReadingText(lesson),
+            location: `${course.id}/${lesson.id}`,
+            pageId: lesson.id,
+          });
       }
       const typedIds = new Set(freePractice.map((quiz) => quiz.id));
       for (const quiz of [...(unit.quizzes || []), ...freePractice]) {
@@ -834,6 +907,7 @@ export async function compileContent(root = projectRoot) {
             quiz,
             ids.map((id) => lookup.get(id)),
             `${unitRoot} ${quiz.id}`,
+            mcqRules,
           );
           requireValue(
             practiceWriting.some(
@@ -1084,13 +1158,14 @@ export async function compileContent(root = projectRoot) {
           .update(json({ guide, glossary: selectedGuideGlossary }))
           .digest("hex")
           .slice(0, 16);
-        validateDefinitionCoverage({
-          coverage: guide.definitionCoverage,
-          concepts: selectedGuideGlossary,
-          text: guideReadingText(guide),
-          location: `${unitRoot}/study-guide.js`,
-          pageId: `${unit.id}-guide`,
-        });
+        if (glossary.size > 0)
+          validateDefinitionCoverage({
+            coverage: guide.definitionCoverage,
+            concepts: selectedGuideGlossary,
+            text: guideReadingText(guide),
+            location: `${unitRoot}/study-guide.js`,
+            pageId: `${unit.id}-guide`,
+          });
         emit(routes.guide[unit.id], {
           course,
           unit: unitInfo,
@@ -1107,26 +1182,29 @@ export async function compileContent(root = projectRoot) {
         });
       }
       for (const quiz of writing) {
-        validateWriting(quiz, topics, framework, unit, unitRoot, sources);
+        validateWriting(quiz, topics, framework, unit, unitRoot, sources, {
+          ...contentOptions,
+          assets: courseAssets,
+        });
+        if (cedIndex) checkCedWriting(quiz, cedIndex, unitRoot);
         courseWriting.set(quiz.id, { quiz, unit });
         if (quiz.examOnly) continue;
         route("writing", quiz.id, `${course.id}/writing/${quiz.id}.json`);
-        emit(routes.writing[quiz.id], { course, unit: unitInfo, framework, quiz });
+        // Images in sources and documents travel with the prompt.
+        const assets = writingAssets([quiz], courseAssets);
+        emit(routes.writing[quiz.id], {
+          course,
+          unit: unitInfo,
+          framework,
+          quiz,
+          ...(Object.keys(assets).length ? { assets } : {}),
+        });
       }
     }
     // Mock exams assemble existing questions and prompts into the course's exam format.
     const examSummaries = [];
     const examWritingIds = new Set();
     const examsRoot = join(courseRoot, "exams");
-    const formatFile = join(courseRoot, "exam-format.js");
-    // The format is checked even before any exam uses it.
-    const format = (await exists(formatFile))
-      ? validateExamFormat(
-          await readModule(formatFile, "examFormat"),
-          sources,
-          formatFile,
-        )
-      : null;
     if (await exists(examsRoot)) {
       requireValue(
         Boolean(format),
@@ -1159,12 +1237,15 @@ export async function compileContent(root = projectRoot) {
             .update(json(payload))
             .digest("hex")
             .slice(0, 16);
+          // Visual stimuli in questions, short answers, and DBQ documents.
+          const examAssets = examAssetsFor(payload, courseAssets, topics);
           emit(routes.exam[summary.id], {
             ...payload,
             course,
             framework,
             revision,
             sources: format.sourceIds.map((id) => sources.get(id)),
+            ...(Object.keys(examAssets).length ? { assets: examAssets } : {}),
           });
           examSummaries.push({ ...summary, revision });
           for (const section of payload.sections)

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.8. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.8.
 
 export const lesson = {
   schemaVersion: 1,
@@ -61,32 +60,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-8"],
     },
   ],
-  vocabulary: [
-    {
-      id: "genocide",
-      topicId: "world-7-8",
-      term: "Genocide",
-      definition:
-        "Acts committed with intent to destroy, in whole or in part, a national, ethnic, racial, or religious group.",
-    },
-    {
-      id: "holocaust",
-      topicId: "world-7-8",
-      term: "Holocaust",
-      definition: "The Nazi genocide of about six million Jews during World War II.",
-    },
-    {
-      id: "armenian-genocide",
-      topicId: "world-7-8",
-      term: "Armenian genocide",
-      definition:
-        "The deportation and killing of Armenians by the Ottoman government beginning in 1915.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-7-genocide", "world-7-holocaust", "world-7-armenian-genocide"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

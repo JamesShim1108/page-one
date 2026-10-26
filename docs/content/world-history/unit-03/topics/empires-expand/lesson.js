@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 3.1. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-03.js.
+// Original Page One lesson for CED Topic 3.1.
 
 export const lesson = {
   schemaVersion: 1,
@@ -134,53 +133,7 @@ export const lesson = {
       sourceIds: ["ced-topic-3-1"],
     },
   ],
-  vocabulary: [
-    {
-      id: "gunpowder-empires",
-      topicId: "world-3-1",
-      term: "gunpowder empires",
-      definition:
-        "A label historians have used for the Ottoman, Safavid, and Mughal states, stressing the role of firearms and cannons in their expansion.",
-    },
-    {
-      id: "janissaries",
-      topicId: "world-3-1",
-      term: "Janissaries",
-      definition:
-        "Elite Ottoman infantry, recruited largely through the devshirme, who served as a permanent professional army armed with firearms.",
-    },
-    {
-      id: "qing-dynasty",
-      topicId: "world-3-1",
-      term: "Qing dynasty",
-      definition:
-        "The dynasty founded by the Manchus, who conquered China in 1644 and ruled until 1912.",
-    },
-    {
-      id: "songhai-empire",
-      topicId: "world-3-1",
-      term: "Songhai Empire",
-      definition:
-        "A West African empire centered on the middle Niger River that taxed trans-Saharan trade until Moroccan forces defeated it in 1591.",
-    },
-    {
-      id: "safavid-empire",
-      topicId: "world-3-1",
-      term: "Safavid Empire",
-      definition:
-        "A Persian empire founded in 1501 by Ismail I, which made Twelver Shi'a Islam the state religion.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-3-gunpowder-empires",
-      "world-3-janissaries",
-      "world-3-qing-dynasty",
-      "world-3-songhai-empire",
-      "world-3-safavid-empire",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

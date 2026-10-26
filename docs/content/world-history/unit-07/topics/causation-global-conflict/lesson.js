@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.9. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.9.
 
 export const lesson = {
   schemaVersion: 1,
@@ -45,19 +44,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-9"],
     },
   ],
-  vocabulary: [
-    {
-      id: "superpowers",
-      topicId: "world-7-9",
-      term: "superpowers",
-      definition:
-        "The United States and the Soviet Union, the two dominant world powers after World War II.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-7-superpowers"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

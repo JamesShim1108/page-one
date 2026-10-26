@@ -405,7 +405,7 @@
       }
     ]
   },
-  "contentRevision": "e625e8dd63ddf060",
+  "contentRevision": "cab0baa6d5be9bd4",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-1-2",
@@ -586,92 +586,7 @@
         "Use one example from commerce, women’s rights, religious communities, or al-Andalus to show both interaction and a limit on equality."
       ]
     },
-    "vocabulary": [
-      {
-        "id": "islam-dar",
-        "topicId": "world-1-2",
-        "term": "Dar al-Islam",
-        "definition": "The lands of Muslim rule and, in this course, the connected Islamic cultural world; not one unified state."
-      },
-      {
-        "id": "islam-abbasid",
-        "topicId": "world-1-2",
-        "term": "Abbasid Caliphate",
-        "definition": "A dynasty centered on Baghdad whose political authority fragmented; Mongol conquest ended its rule in Baghdad in 1258."
-      },
-      {
-        "id": "islam-caliph",
-        "topicId": "world-1-2",
-        "term": "Caliph",
-        "definition": "A leader claiming succession to Muhammad’s leadership of the Muslim community; actual political power varied over time."
-      },
-      {
-        "id": "islam-sultan",
-        "topicId": "world-1-2",
-        "term": "Sultan",
-        "definition": "A title used by Muslim rulers with political and military authority, sometimes alongside a caliph with religious prestige."
-      },
-      {
-        "id": "islam-seljuk",
-        "topicId": "world-1-2",
-        "term": "Seljuk Turks",
-        "definition": "Turkic Muslim rulers who gained power across much of the Middle East before 1200; successor states continued into the unit’s period."
-      },
-      {
-        "id": "islam-mamluk",
-        "topicId": "world-1-2",
-        "term": "Mamluk Sultanate",
-        "definition": "The state established in Egypt in 1250 by a military elite originally recruited through enslavement; it also governed Syria."
-      },
-      {
-        "id": "islam-delhi",
-        "topicId": "world-1-2",
-        "term": "Delhi Sultanate",
-        "definition": "A succession of Muslim-ruled dynasties based in Delhi from 1206; an example of Islamic state formation in South Asia."
-      },
-      {
-        "id": "islam-sharia",
-        "topicId": "world-1-2",
-        "term": "Sharia",
-        "definition": "Islamic religious and ethical law, interpreted through diverse scholarly traditions and applied differently across societies."
-      },
-      {
-        "id": "islam-sufi",
-        "topicId": "world-1-2",
-        "term": "Sufism",
-        "definition": "Islamic traditions emphasizing spiritual discipline and closeness to God; Sufi teachers helped spread the faith."
-      },
-      {
-        "id": "islam-pillars",
-        "topicId": "world-1-2",
-        "term": "Five Pillars",
-        "definition": "Central Islamic practices involving faith, prayer, charity, fasting, and pilgrimage for those able to undertake it."
-      },
-      {
-        "id": "islam-wisdom",
-        "topicId": "world-1-2",
-        "term": "House of Wisdom",
-        "definition": "An institution associated with Abbasid Baghdad’s earlier support for books, translation, and scholarship."
-      },
-      {
-        "id": "islam-tusi",
-        "topicId": "world-1-2",
-        "term": "Nasir al-Din al-Tusi",
-        "definition": "A thirteenth-century scholar known for work in mathematics and astronomy, including the Maragha observatory."
-      },
-      {
-        "id": "islam-andalus",
-        "topicId": "world-1-2",
-        "term": "Al-Andalus",
-        "definition": "The Muslim-ruled territories of the Iberian Peninsula, an important setting for exchange among different religious and intellectual traditions."
-      },
-      {
-        "id": "islam-transfer",
-        "topicId": "world-1-2",
-        "term": "Intellectual transfer",
-        "definition": "The movement of knowledge between communities, often through translation, travel, teaching, and commentary."
-      }
-    ],
+    "vocabulary": [],
     "connections": [
       {
         "id": "islam-fragment",
@@ -716,119 +631,7 @@
     ]
   },
   "bankPath": "world/banks/world-1-2.json",
-  "glossary": [
-    {
-      "id": "world-islam-dar",
-      "term": "Dar al-Islam",
-      "definition": "The lands of Muslim rule and, in this course, the connected Islamic cultural world; not one unified state.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-abbasid",
-      "term": "Abbasid Caliphate",
-      "definition": "A dynasty centered on Baghdad whose political authority fragmented; Mongol conquest ended its rule in Baghdad in 1258.",
-      "aliases": [
-        "Abbasids"
-      ],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-caliph",
-      "term": "Caliph",
-      "definition": "A leader claiming succession to Muhammad’s leadership of the Muslim community; actual political power varied over time.",
-      "aliases": [
-        "caliphs"
-      ],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-sultan",
-      "term": "Sultan",
-      "definition": "A title used by Muslim rulers with political and military authority, sometimes alongside a caliph with religious prestige.",
-      "aliases": [
-        "sultans"
-      ],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-seljuk",
-      "term": "Seljuk Turks",
-      "definition": "Turkic Muslim rulers who gained power across much of the Middle East before 1200; successor states continued into the unit’s period.",
-      "aliases": [
-        "Seljuks"
-      ],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-mamluk",
-      "term": "Mamluk Sultanate",
-      "definition": "The state established in Egypt in 1250 by a military elite originally recruited through enslavement; it also governed Syria.",
-      "aliases": [
-        "Mamluks"
-      ],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-delhi",
-      "term": "Delhi Sultanate",
-      "definition": "A succession of Muslim-ruled dynasties based in Delhi from 1206; an example of Islamic state formation in South Asia.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-sharia",
-      "term": "Sharia",
-      "definition": "Islamic religious and ethical law, interpreted through diverse scholarly traditions and applied differently across societies.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-sufi",
-      "term": "Sufism",
-      "definition": "Islamic traditions emphasizing spiritual discipline and closeness to God; Sufi teachers helped spread the faith.",
-      "aliases": [
-        "Sufi",
-        "Sufis"
-      ],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-pillars",
-      "term": "Five Pillars",
-      "definition": "Central Islamic practices involving faith, prayer, charity, fasting, and pilgrimage for those able to undertake it.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-wisdom",
-      "term": "House of Wisdom",
-      "definition": "An institution associated with Abbasid Baghdad’s earlier support for books, translation, and scholarship.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-tusi",
-      "term": "Nasir al-Din al-Tusi",
-      "definition": "A thirteenth-century scholar known for work in mathematics and astronomy, including the Maragha observatory.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-andalus",
-      "term": "Al-Andalus",
-      "definition": "The Muslim-ruled territories of the Iberian Peninsula, an important setting for exchange among different religious and intellectual traditions.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
-    },
-    {
-      "id": "world-islam-transfer",
-      "term": "Intellectual transfer",
-      "definition": "The movement of knowledge between communities, often through translation, travel, teaching, and commentary.",
-      "aliases": [],
-      "sourceLabel": "Topic 1.2 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "reference-20",

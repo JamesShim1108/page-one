@@ -1,0 +1,967 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-2",
+    "courseId": "apush",
+    "number": 2,
+    "title": "Period 2",
+    "period": "1607–1754",
+    "status": "ready",
+    "description": "Follow the Spanish, French, Dutch, and British colonies, the regions of British North America, Atlantic trade, slavery, and colonial society from 1607 to 1754.",
+    "quizzes": [
+      {
+        "id": "apush-2-practice",
+        "courseId": "apush",
+        "unitId": "apush-2",
+        "title": "Unit 2 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-2-1",
+            "questionIds": [
+              "apush-2-1-q01",
+              "apush-2-1-q04",
+              "apush-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-2",
+            "questionIds": [
+              "apush-2-2-q01",
+              "apush-2-2-q04",
+              "apush-2-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-3",
+            "questionIds": [
+              "apush-2-3-q01",
+              "apush-2-3-q04",
+              "apush-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-4",
+            "questionIds": [
+              "apush-2-4-q01",
+              "apush-2-4-q04",
+              "apush-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-5",
+            "questionIds": [
+              "apush-2-5-q01",
+              "apush-2-5-q04",
+              "apush-2-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-q01",
+              "apush-2-6-q04",
+              "apush-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-7",
+            "questionIds": [
+              "apush-2-7-q01",
+              "apush-2-7-q04",
+              "apush-2-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-8",
+            "questionIds": [
+              "apush-2-8-q01",
+              "apush-2-8-q04",
+              "apush-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-2-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-2",
+        "title": "Unit 2 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-2-2",
+            "questionIds": [
+              "apush-2-2-t01",
+              "apush-2-2-t02",
+              "apush-2-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-3",
+            "questionIds": [
+              "apush-2-3-t01",
+              "apush-2-3-t02",
+              "apush-2-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-4",
+            "questionIds": [
+              "apush-2-4-t01",
+              "apush-2-4-t02",
+              "apush-2-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-5",
+            "questionIds": [
+              "apush-2-5-t01",
+              "apush-2-5-t02",
+              "apush-2-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-t01",
+              "apush-2-6-t02",
+              "apush-2-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-t04",
+              "apush-2-6-t05",
+              "apush-2-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-2-7",
+            "questionIds": [
+              "apush-2-7-t01",
+              "apush-2-7-t02",
+              "apush-2-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-2-practice-test",
+      "title": "Unit 2 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-2-1-quiz",
+        "title": "Contextualizing Period 2 topic quiz"
+      },
+      {
+        "id": "apush-2-2-quiz",
+        "title": "European Colonization topic quiz"
+      },
+      {
+        "id": "apush-2-3-quiz",
+        "title": "The Regions of British Colonies topic quiz"
+      },
+      {
+        "id": "apush-2-4-quiz",
+        "title": "Transatlantic Trade topic quiz"
+      },
+      {
+        "id": "apush-2-5-quiz",
+        "title": "Interactions Between American Indians and Europeans topic quiz"
+      },
+      {
+        "id": "apush-2-6-quiz",
+        "title": "Slavery in the British Colonies topic quiz"
+      },
+      {
+        "id": "apush-2-7-quiz",
+        "title": "Colonial Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-2-8-quiz",
+        "title": "Comparison in Period 2 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "apush-2-1",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Contextualizing Period 2",
+      "period": "1607–1754",
+      "status": "ready",
+      "summary": "The context for European colonization of North America from 1607 to 1754: what had already happened, what each empire wanted, and how environment and rivalry shaped the colonies."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-2-saq-01",
+        "title": "Unit 2 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-2-saq-02",
+        "title": "Unit 2 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-2-leq-regions",
+        "title": "LEQ: New England and the Chesapeake",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-2-3",
+    "courseId": "apush",
+    "unitId": "apush-2",
+    "order": 3,
+    "code": "2.3",
+    "title": "The Regions of British Colonies",
+    "period": "1607–1754",
+    "status": "ready",
+    "summary": "How environment, religion, labor, and distance from Britain produced the Chesapeake, New England, middle, and southern plantation colonies and their self-governing institutions."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "c157cbea4ac014f3",
+  "questions": [
+    {
+      "id": "apush-2-3-q01",
+      "topicId": "apush-2-3",
+      "concept": "tobacco-colonies",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "The Chesapeake colonies relied on indentured servants at first primarily because",
+      "choices": [
+        "Parliament forbade colonists from owning enslaved Africans until the end of the 1600s",
+        "the Powhatan Confederacy agreed by treaty to supply workers for English tobacco farms",
+        "tobacco required a great deal of labor, and English migrants would work for a set term in exchange for passage",
+        "tobacco could be grown on small plots without much labor, and servants were needed only for defense"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tobacco was labor-intensive, and contracts of indenture gave planters a workforce of migrants who paid for passage with years of work.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "No such ban existed, and colonists turned to enslaved labor as servants became scarcer.",
+        "Native peoples were not treaty suppliers of labor for Chesapeake tobacco.",
+        "Tobacco was labor-intensive, and contracts of indenture gave planters a workforce of migrants who paid for passage with years of work.",
+        "Tobacco was a labor-intensive crop, which is why planters needed so many workers."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Slavery did become common in the Chesapeake, but it replaced indentured servitude gradually, so the early workforce was mostly servants.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-3-q02",
+      "topicId": "apush-2-3",
+      "concept": "tobacco-colonies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following was a long-term effect of the Chesapeake colonies' dependence on tobacco?",
+      "choices": [
+        "Planters sought a permanent workforce, which led them increasingly toward enslaved Africans",
+        "Planters established town meetings to govern local affairs in small farming communities",
+        "Planters shifted to a mixed economy of fishing, shipbuilding, and trade with the West Indies",
+        "Planters developed a flourishing export economy based on wheat and flour sold to Europe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tobacco needed large amounts of labor, and as fewer servants arrived, planters turned to enslaved Africans as a permanent workforce.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Tobacco needed large amounts of labor, and as fewer servants arrived, planters turned to enslaved Africans as a permanent workforce.",
+        "Town meetings were a New England institution, not a result of tobacco farming.",
+        "A mixed economy of commerce developed in New England rather than the Chesapeake.",
+        "Cereal crops were the base of the middle colonies' economy."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Each wrong choice describes a real feature of another region, so the question depends on matching the effect to the Chesapeake.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-2-3-q03",
+      "topicId": "apush-2-3",
+      "concept": "new-england",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best describes the economy of New England in the 1600s and early 1700s?",
+      "choices": [
+        "A plantation economy that depended on a single cash crop grown by enslaved Africans",
+        "An economy built on the fur trade and on alliances with French and Native partners",
+        "A grain-exporting economy that employed mostly indentured servants on large estates",
+        "A mixed economy of family farming, fishing, shipbuilding, lumber, and trade"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rocky soil and short growing seasons led colonists to combine small farms with fishing, lumber, shipbuilding, and trade.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That describes the southern Atlantic coast and the West Indies.",
+        "New England's economy was based on farming and commerce, and its colonists were English.",
+        "New England farms were family-sized, and wheat exports were a feature of the middle colonies.",
+        "Rocky soil and short growing seasons led colonists to combine small farms with fishing, lumber, shipbuilding, and trade."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The grain-export choice is close because New England farmed, but its family farms did not support large exports of wheat.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-3-q04",
+      "topicId": "apush-2-3",
+      "concept": "new-england",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.A",
+        "KC-2.1.II.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following was a difference between New England and the Chesapeake in the 1600s?",
+      "choices": [
+        "New England colonists exported tobacco to Europe, while Chesapeake colonists exported fish and lumber",
+        "New England migrants often came as families, while early Chesapeake settlers were mostly male servants",
+        "New England colonies lacked representative government, while Chesapeake colonies elected assemblies",
+        "New England depended on enslaved Africans for most labor, while the Chesapeake depended on family farms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Puritans and others often migrated in families, which produced a balanced population, while the Chesapeake's early servants were mostly men.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This reverses the two regions' main products.",
+        "Puritans and others often migrated in families, which produced a balanced population, while the Chesapeake's early servants were mostly men.",
+        "New England colonies had town meetings and elected legislatures.",
+        "This reverses the labor systems; New England used few enslaved workers."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The reversed statements trade the regions' products and labor systems, so the question depends on remembering which region did which.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-2-3-q05",
+      "topicId": "apush-2-3",
+      "concept": "middle-colonies",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.C"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "The middle colonies were distinctive among the British colonies because they",
+      "choices": [
+        "attracted settlers of many European backgrounds and religions and exported grain",
+        "were settled almost entirely by English Puritans who sought to enforce religious uniformity",
+        "depended on rice and indigo plantations that were worked by enslaved Africans",
+        "had no elected assemblies because the Crown governed through appointed officials alone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fertile land and trade drew English, Dutch, German, Scots-Irish, and other settlers, and farmers exported wheat and flour.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Fertile land and trade drew English, Dutch, German, Scots-Irish, and other settlers, and farmers exported wheat and flour.",
+        "Puritans settled New England, and the middle colonies were notably diverse.",
+        "That describes the southern Atlantic coast, not the middle colonies.",
+        "The middle colonies, like the others, developed elected assemblies."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Because the middle colonies had some enslaved workers, the plantation choice is tempting, but their economy rested on grain.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-3-q06",
+      "topicId": "apush-2-3",
+      "concept": "plantation-colonies",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.D"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best explains why plantation economies developed in South Carolina and the British West Indies?",
+      "choices": [
+        "Short growing seasons forced colonists to rely on one cash crop that grew in cool weather",
+        "Parliament required settlers in every southern colony to establish plantations for export",
+        "American Indian nations in the region offered workers to planters in exchange for manufactured goods",
+        "Long growing seasons made cash crops such as rice and sugar profitable on large estates worked by enslaved labor"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A long growing season supported cash crops that were valuable in Europe, and planters relied on enslaved Africans to grow them.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "These regions had long growing seasons, not short ones.",
+        "Colonists chose crops based on conditions and profit, and Parliament did not order plantations.",
+        "Plantations depended mainly on enslaved Africans rather than Native workers from trade agreements.",
+        "A long growing season supported cash crops that were valuable in Europe, and planters relied on enslaved Africans to grow them."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Parliament did regulate trade, but the choice of plantation crops followed climate and profit.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-2-3-q07",
+      "topicId": "apush-2-3",
+      "concept": "self-government",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "subskill": "4.B",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.E"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best explains why the British colonies developed self-governing institutions?",
+      "choices": [
+        "The Navigation Acts required each colony to create an assembly that would regulate trade",
+        "Distance from Britain and its lax early attention left colonists free to manage local affairs",
+        "The Crown promised colonists the same voting rights as English nobles in exchange for settlement",
+        "Frontier wars with France required colonists to raise armies through newly formed assemblies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Atlantic made close supervision difficult, so colonists built assemblies and town meetings to govern themselves.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Navigation Acts regulated trade and did not order colonial assemblies.",
+        "The Atlantic made close supervision difficult, so colonists built assemblies and town meetings to govern themselves.",
+        "Voting was limited, and the Crown made no such promise.",
+        "Assemblies like the House of Burgesses began in 1619, well before the large wars with France."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Defense did lead assemblies to raise money later, but they began long before the wars the near miss describes.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Explain how a specific historical development or process is situated within a broader historical context."
+    },
+    {
+      "id": "apush-2-3-q08",
+      "topicId": "apush-2-3",
+      "concept": "middle-colonies",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.C"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "William Penn founded Pennsylvania in 1681 as",
+      "choices": [
+        "a trading post for Dutch fur traders on the Delaware River",
+        "a Puritan colony intended to enforce a single established church and Puritan worship",
+        "a refuge for Quakers that also welcomed settlers of many backgrounds",
+        "a plantation colony intended to export rice and indigo to Europe"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Penn offered Quakers a place to worship and welcomed migrants from many places, which made Pennsylvania diverse.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Dutch trading posts were part of New Netherland, not Penn's colony.",
+        "Penn was a Quaker, and his colony was known for tolerance.",
+        "Penn offered Quakers a place to worship and welcomed migrants from many places, which made Pennsylvania diverse.",
+        "Pennsylvania's farmers raised wheat, and rice and indigo came from farther south."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Puritan choice is close because both groups were religious dissenters, but Penn's colony was open and tolerant.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-3-t01",
+      "topicId": "apush-2-3",
+      "concept": "tobacco-colonies",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following claims about the British colonies is best supported by the information in the table?",
+      "choices": [
+        "Tobacco was the main export of every region listed in the table",
+        "The regions relied on different exports and different sources of labor",
+        "Enslaved Africans were the main source of labor in every region listed in the table",
+        "Only the middle colonies and the Lower South exported goods to markets outside the colonies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The table shows tobacco, fish and lumber, grain, and rice and indigo, produced by different labor systems.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The table lists tobacco only for the Chesapeake.",
+        "The table shows tobacco, fish and lumber, grain, and rice and indigo, produced by different labor systems.",
+        "The table lists family farms and hired workers for New England and the middle colonies.",
+        "The table lists exports for all four regions."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The near miss misreads the table, which lists exports for every region.",
+      "stimulusId": "original-regions-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-regions-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 2.3, KC-2.1.II: regional differences in the British colonies reflected environmental, economic, cultural, and demographic factors",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the British colonies",
+          "caption": "British colonial regions, c. 1700–1750",
+          "columns": [
+            "Region",
+            "Main exports",
+            "Main source of labor",
+            "Society"
+          ],
+          "rows": [
+            [
+              "Chesapeake",
+              "Tobacco",
+              "Indentured servants, then enslaved Africans",
+              "Scattered plantations and farms"
+            ],
+            [
+              "New England",
+              "Fish, lumber, and ships",
+              "Family farms, with some hired and enslaved workers",
+              "Small towns with town meetings"
+            ],
+            [
+              "Middle colonies",
+              "Wheat and flour",
+              "Family farms, with hired, indentured, and enslaved workers",
+              "Settlers of many ethnic and religious backgrounds"
+            ],
+            [
+              "Lower South",
+              "Rice and indigo",
+              "Enslaved Africans",
+              "Large plantations, with enslaved people often a majority"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 2.3 reading."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-2-3-t02",
+      "topicId": "apush-2-3",
+      "concept": "new-england",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best explains the differences in main exports among the regions shown in the table?",
+      "choices": [
+        "Parliament assigned each region a product to export under the Navigation Acts",
+        "American Indian nations in each region controlled which products colonists could export",
+        "Each region's assembly limited its colonists to a single export in order to avoid competition",
+        "Differences in climate, soil, and growing seasons made different products profitable in each region"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Long growing seasons favored tobacco, rice, and indigo, while rocky soil in New England and fertile grain land in the middle colonies shaped their exports.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Navigation Acts regulated where certain goods could be sold but did not assign regions their products.",
+        "Native nations did not decide what colonists exported.",
+        "Assemblies did not limit colonists to one export, and New England and the middle colonies exported several goods.",
+        "Long growing seasons favored tobacco, rice, and indigo, while rocky soil in New England and fertile grain land in the middle colonies shaped their exports."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Navigation Acts did name certain goods, but they did not decide which region produced what.",
+      "stimulusId": "original-regions-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-regions-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 2.3, KC-2.1.II: regional differences in the British colonies reflected environmental, economic, cultural, and demographic factors",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the British colonies",
+          "caption": "British colonial regions, c. 1700–1750",
+          "columns": [
+            "Region",
+            "Main exports",
+            "Main source of labor",
+            "Society"
+          ],
+          "rows": [
+            [
+              "Chesapeake",
+              "Tobacco",
+              "Indentured servants, then enslaved Africans",
+              "Scattered plantations and farms"
+            ],
+            [
+              "New England",
+              "Fish, lumber, and ships",
+              "Family farms, with some hired and enslaved workers",
+              "Small towns with town meetings"
+            ],
+            [
+              "Middle colonies",
+              "Wheat and flour",
+              "Family farms, with hired, indentured, and enslaved workers",
+              "Settlers of many ethnic and religious backgrounds"
+            ],
+            [
+              "Lower South",
+              "Rice and indigo",
+              "Enslaved Africans",
+              "Large plantations, with enslaved people often a majority"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 2.3 reading."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-2-3-t03",
+      "topicId": "apush-2-3",
+      "concept": "plantation-colonies",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "2.C",
+      "keyConcepts": [
+        "KC-2.1.II.A",
+        "KC-2.1.II.D"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following is a similarity between the Chesapeake and the Lower South as shown in the table?",
+      "choices": [
+        "Both exported fish, lumber, and ships to markets in Europe and the West Indies",
+        "Both depended mainly on family farms with a few hired workers",
+        "Both relied on enslaved Africans to produce crops for export",
+        "Both had societies shaped by settlers of many ethnic and religious backgrounds"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The table lists enslaved Africans as the labor force in the Lower South and as the eventual labor force in the Chesapeake.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The table lists tobacco for the Chesapeake and rice and indigo for the Lower South.",
+        "The table lists plantations and enslaved labor for these regions.",
+        "The table lists enslaved Africans as the labor force in the Lower South and as the eventual labor force in the Chesapeake.",
+        "The table gives that description for the middle colonies."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The family-farm choice describes New England and the middle colonies, which is why it fails for these two regions.",
+      "stimulusId": "original-regions-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-regions-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 2.3, KC-2.1.II: regional differences in the British colonies reflected environmental, economic, cultural, and demographic factors",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the British colonies",
+          "caption": "British colonial regions, c. 1700–1750",
+          "columns": [
+            "Region",
+            "Main exports",
+            "Main source of labor",
+            "Society"
+          ],
+          "rows": [
+            [
+              "Chesapeake",
+              "Tobacco",
+              "Indentured servants, then enslaved Africans",
+              "Scattered plantations and farms"
+            ],
+            [
+              "New England",
+              "Fish, lumber, and ships",
+              "Family farms, with some hired and enslaved workers",
+              "Small towns with town meetings"
+            ],
+            [
+              "Middle colonies",
+              "Wheat and flour",
+              "Family farms, with hired, indentured, and enslaved workers",
+              "Settlers of many ethnic and religious backgrounds"
+            ],
+            [
+              "Lower South",
+              "Rice and indigo",
+              "Enslaved Africans",
+              "Large plantations, with enslaved people often a majority"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 2.3 reading."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-2-3-quick",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-3",
+      "title": "Topic 2.3 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-2-3-q01",
+        "apush-2-3-q02",
+        "apush-2-3-q03"
+      ]
+    },
+    {
+      "id": "apush-2-3-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-3",
+      "title": "The Regions of British Colonies topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-2-3-q01",
+        "apush-2-3-q02",
+        "apush-2-3-q03",
+        "apush-2-3-q04",
+        "apush-2-3-q05",
+        "apush-2-3-q06",
+        "apush-2-3-q07",
+        "apush-2-3-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "tobacco-colonies": {
+      "id": "tobacco-colonies",
+      "title": "The Chesapeake and North Carolina: tobacco",
+      "section": "tobacco-colonies",
+      "topicId": "apush-2-3"
+    },
+    "new-england": {
+      "id": "new-england",
+      "title": "New England: towns and a mixed economy",
+      "section": "new-england",
+      "topicId": "apush-2-3"
+    },
+    "middle-colonies": {
+      "id": "middle-colonies",
+      "title": "The middle colonies: grain and diversity",
+      "section": "middle-colonies",
+      "topicId": "apush-2-3"
+    },
+    "plantation-colonies": {
+      "id": "plantation-colonies",
+      "title": "The southern Atlantic coast and the West Indies: plantations",
+      "section": "plantation-colonies",
+      "topicId": "apush-2-3"
+    },
+    "self-government": {
+      "id": "self-government",
+      "title": "Self-government at a distance",
+      "section": "self-government",
+      "topicId": "apush-2-3"
+    }
+  },
+  "assets": {}
+}

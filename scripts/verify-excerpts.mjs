@@ -1,5 +1,5 @@
-// Checks every quoted run in docs/content/world-history/excerpts.js against
-// the full text of its edition. The source texts are not stored in this
+// Checks every quoted run in each course's excerpts.js (World History and
+// AP U.S. History) against the full text of its edition. The source texts are not stored in this
 // repository; pass a folder containing the files listed in
 // scripts/lib/excerpt-sources.mjs.
 // Project Gutenberg texts can be downloaded from gutenberg.org (or the
@@ -10,7 +10,8 @@
 // --require-all, a missing file fails the run; without it, only mismatches fail.
 import { access, readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { excerpts } from "../docs/content/world-history/excerpts.js";
+import { excerpts as worldExcerpts } from "../docs/content/world-history/excerpts.js";
+import { excerpts as apushExcerpts } from "../docs/content/ap-us-history/excerpts.js";
 import { excerptSourceFor } from "./lib/excerpt-sources.mjs";
 
 const folder = process.argv[2];
@@ -131,8 +132,10 @@ async function textFor(excerpt) {
 let failures = 0;
 let runs = 0;
 const skipped = [];
-const quoted = Object.values(excerpts).filter(
-  (excerpt) => excerpt.sourceType !== "original",
+// Images and data tables have no quoted text to check; their provenance is the
+// asset manifest or the table's citation.
+const quoted = [...Object.values(worldExcerpts), ...Object.values(apushExcerpts)].filter(
+  (excerpt) => excerpt.sourceType !== "original" && (excerpt.medium || "text") === "text",
 );
 for (const excerpt of quoted) {
   let restored = excerpt.text;

@@ -319,7 +319,7 @@
       }
     ]
   },
-  "contentRevision": "3cabe4cd340fbcff",
+  "contentRevision": "6351df6ab80dbb25",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-7-9",
@@ -367,20 +367,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "superpowers",
-        "topicId": "world-7-9",
-        "term": "superpowers",
-        "definition": "The United States and the Soviet Union, the two dominant world powers after World War II."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-7-superpowers"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -404,15 +391,7 @@
     ]
   },
   "bankPath": "world/banks/world-7-9.json",
-  "glossary": [
-    {
-      "id": "world-7-superpowers",
-      "term": "superpowers",
-      "definition": "The United States and the Soviet Union, the two dominant world powers after World War II.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.9 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-7-9",

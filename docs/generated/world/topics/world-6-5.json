@@ -306,7 +306,7 @@
       }
     ]
   },
-  "contentRevision": "0ac9bd7c2e89c24e",
+  "contentRevision": "aa87787089df6a0a",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-6-5",
@@ -378,34 +378,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "unequal-treaties",
-        "topicId": "world-6-5",
-        "term": "unequal treaties",
-        "definition": "Treaties forced on China and other states that gave foreign powers privileges without equal benefits in return."
-      },
-      {
-        "id": "spheres-of-influence",
-        "topicId": "world-6-5",
-        "term": "spheres of influence",
-        "definition": "Areas within a country where a foreign power held special economic rights."
-      },
-      {
-        "id": "economic-imperialism",
-        "topicId": "world-6-5",
-        "term": "economic imperialism",
-        "definition": "Control of another country's economy by foreign businesses or governments without formal colonial rule."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-6-unequal-treaties",
-        "world-6-spheres-of-influence",
-        "world-6-economic-imperialism"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -429,29 +402,7 @@
     ]
   },
   "bankPath": "world/banks/world-6-5.json",
-  "glossary": [
-    {
-      "id": "world-6-unequal-treaties",
-      "term": "unequal treaties",
-      "definition": "Treaties forced on China and other states that gave foreign powers privileges without equal benefits in return.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.5 glossary"
-    },
-    {
-      "id": "world-6-spheres-of-influence",
-      "term": "spheres of influence",
-      "definition": "Areas within a country where a foreign power held special economic rights.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.5 glossary"
-    },
-    {
-      "id": "world-6-economic-imperialism",
-      "term": "economic imperialism",
-      "definition": "Control of another country's economy by foreign businesses or governments without formal colonial rule.",
-      "aliases": [],
-      "sourceLabel": "Topic 6.5 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-6-5",

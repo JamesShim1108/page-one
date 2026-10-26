@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.4. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.4.
 
 export const lesson = {
   schemaVersion: 1,
@@ -72,45 +71,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-4"],
     },
   ],
-  vocabulary: [
-    {
-      id: "mao-zedong",
-      topicId: "world-8-4",
-      term: "Mao Zedong",
-      definition:
-        "Leader of the Chinese Communist Party who founded the People's Republic of China in 1949.",
-    },
-    {
-      id: "land-reform",
-      topicId: "world-8-4",
-      term: "land reform",
-      definition:
-        "The redistribution of land from large landowners to peasants or the state.",
-    },
-    {
-      id: "great-leap-forward",
-      topicId: "world-8-4",
-      term: "Great Leap Forward",
-      definition:
-        "Mao's 1958–1962 campaign to industrialize China rapidly, which caused a famine that killed tens of millions.",
-    },
-    {
-      id: "cultural-revolution",
-      topicId: "world-8-4",
-      term: "Cultural Revolution",
-      definition:
-        "Mao's 1966–1976 campaign in which Red Guards attacked officials, teachers, and traditional culture.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-8-mao-zedong",
-      "world-8-land-reform",
-      "world-8-great-leap-forward",
-      "world-8-cultural-revolution",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

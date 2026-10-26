@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.1. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.1.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,36 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-1"],
     },
   ],
-  vocabulary: [
-    {
-      id: "shipping-containers",
-      topicId: "world-9-1",
-      term: "shipping containers",
-      definition:
-        "Standard steel boxes that move goods from ship to train to truck without unloading, which made global trade much cheaper.",
-    },
-    {
-      id: "green-revolution",
-      topicId: "world-9-1",
-      term: "Green Revolution",
-      definition:
-        "The spread of high-yield seeds, chemical fertilizers, and irrigation that increased grain harvests from the 1940s to the 1970s.",
-    },
-    {
-      id: "antibiotics",
-      topicId: "world-9-1",
-      term: "antibiotics",
-      definition: "Drugs, such as penicillin, that kill or stop the growth of bacteria.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-9-shipping-containers",
-      "world-9-green-revolution",
-      "world-9-antibiotics",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

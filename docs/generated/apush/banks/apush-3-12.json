@@ -1,0 +1,825 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-12",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 12,
+    "code": "3.12",
+    "title": "Movement in the Early Republic",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "How American Indian nations adjusted their alliances, how westward migration spread frontier cultures and tensions, and how slavery expanded in the Deep South while antislavery sentiment grew in the North."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "eac7d6ffb706b640",
+  "questions": [
+    {
+      "id": "apush-3-12-q01",
+      "topicId": "apush-3-12",
+      "concept": "american-indian-alliances",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.N",
+      "keyConcepts": [
+        "KC-3.3.I.A"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "Which of the following best explains why American Indian groups repeatedly adjusted their alliances between 1754 and 1800?",
+      "choices": [
+        "They wanted to become citizens of the new states and to take part in the Congress of the United States",
+        "They had been ordered by Britain and France to choose sides in every war that took place in North America",
+        "They sought to limit the movement of settlers onto their lands and to keep control of land and resources",
+        "They preferred to give up their lands in return for payments and for a place in the new national government"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Native leaders judged which European power or American government was most likely to respect their lands and their trade, and changed their alliances when those calculations changed.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Native nations sought to protect their own lands and governments.",
+        "Native nations made their own decisions based on their interests.",
+        "Native leaders judged which European power or American government was most likely to respect their lands and their trade, and changed their alliances when those calculations changed.",
+        "Native nations generally resisted giving up land."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The order-from-Europe choice is close because Native groups allied with empires, but they did so for their own reasons.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-12-q02",
+      "topicId": "apush-3-12",
+      "concept": "american-indian-alliances",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.N",
+      "keyConcepts": [
+        "KC-3.3.I.A"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "What happened to the Haudenosaunee (Iroquois) Confederacy during the American Revolution?",
+      "choices": [
+        "It split, with some nations supporting the Patriots and others supporting the British",
+        "It united behind the Patriots and was rewarded with land in the Treaty of Paris of 1783",
+        "It remained neutral and avoided the war by moving beyond the Mississippi River",
+        "It united behind the British and was granted an independent homeland in Canada by the treaty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Revolution forced Native nations to choose sides, and the Iroquois Confederacy divided.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Revolution forced Native nations to choose sides, and the Iroquois Confederacy divided.",
+        "The confederacy was divided, and the treaty did not reward it.",
+        "Several nations took part in the war on both sides.",
+        "The confederacy was divided, and no independent homeland was created by the treaty."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The united-behind-the-British choice is close because many Iroquois nations did side with Britain, but others supported the Patriots.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-12-q03",
+      "topicId": "apush-3-12",
+      "concept": "american-indian-alliances",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.N",
+      "keyConcepts": [
+        "KC-3.3.I.A"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "Native nations of the Ohio country were affected by the Treaty of Paris of 1783 because",
+      "choices": [
+        "Britain and the United States agreed to protect Native lands from settlement for twenty years",
+        "Britain gave the United States lands that Native nations claimed, though the nations were not parties to the treaty",
+        "Native leaders signed the treaty and agreed to move west of the Mississippi River",
+        "The treaty returned the Ohio country to France, the former ally of the Native nations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The treaty set the boundaries of the United States without consulting Native nations, which made later conflict likely.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The treaty did not protect Native lands.",
+        "The treaty set the boundaries of the United States without consulting Native nations, which made later conflict likely.",
+        "Native nations did not sign the treaty.",
+        "France did not regain the Ohio country."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The protection choice is close because Britain had earlier tried to limit settlement in 1763, but the 1783 treaty did not.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-12-q04",
+      "topicId": "apush-3-12",
+      "concept": "american-indian-alliances",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.N",
+      "keyConcepts": [
+        "KC-3.3.I.A"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "Which of the following best explains why British alliances with American Indians increased tensions between Britain and the United States in the 1780s and 1790s?",
+      "choices": [
+        "Britain gave Native nations weapons to attack the Atlantic coast and the capital of the United States",
+        "Britain helped Native leaders write treaties that gave them seats in the United States Congress",
+        "Britain refused to trade with any Native nation, which drove them to seek aid from the United States",
+        "Britain kept forts in the Northwest and supported Native resistance to American settlement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Britain's continued presence in the Northwest and its support for Native resistance conflicted with American claims to the region.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Native resistance centered on the Ohio country.",
+        "No such treaties existed.",
+        "Britain traded with and supported Native nations in the Northwest.",
+        "Britain's continued presence in the Northwest and its support for Native resistance conflicted with American claims to the region."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Atlantic-coast choice is close because Britain had armed Native allies before, but the conflict in the 1790s was in the Ohio country.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-12-q05",
+      "topicId": "apush-3-12",
+      "concept": "frontier-cultures",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.N",
+      "keyConcepts": [
+        "KC-3.3.I.B"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "Which of the following describes westward migration in the decades after the Revolution?",
+      "choices": [
+        "Settlers stayed east of the Appalachians because the Proclamation of 1763 was still enforced after independence",
+        "Settlers moved only into territory held by the French, where they set up settlements without conflict",
+        "Settlers crossed the Appalachians into Kentucky, Tennessee, and the Ohio country, and frontier cultures continued to grow",
+        "Settlers moved west only by sea, around South America, to reach the Pacific coast"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Migrants from North America and other parts of the world moved west, and Kentucky and Tennessee became states in the 1790s.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Settlers moved west in growing numbers after the Revolution.",
+        "France no longer held the region, and settlers faced conflicts.",
+        "Migrants from North America and other parts of the world moved west, and Kentucky and Tennessee became states in the 1790s.",
+        "Overland settlement moved west across the Appalachians."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Proclamation choice is close because it was an earlier limit on settlement, but it did not hold after the Revolution.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-12-q06",
+      "topicId": "apush-3-12",
+      "concept": "frontier-cultures",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.N",
+      "keyConcepts": [
+        "KC-3.3.I.B"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "Which of the following best explains social, political, and ethnic tensions in the frontier regions in the early republic?",
+      "choices": [
+        "Frontier settlers all shared the same ethnic background and agreed on every political question",
+        "Settlers competed with Native peoples and with one another for land, and often resented eastern elites",
+        "The national government refused to allow any settlement on the frontier and removed those who went",
+        "Frontier settlers wanted to join the British Empire and rejected the authority of the United States"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Competition for land and resentment of distant authority fueled conflicts, as the Whiskey Rebellion suggested.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Frontier settlers included many ethnic groups with different views.",
+        "Competition for land and resentment of distant authority fueled conflicts, as the Whiskey Rebellion suggested.",
+        "The government supported orderly settlement through the Northwest Ordinance.",
+        "Settlers wanted protection and markets from the United States, not British rule."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The all-agree choice is close because settlers shared some interests, but they were divided by ethnicity and by competing claims.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-12-q07",
+      "topicId": "apush-3-12",
+      "concept": "slavery-and-regional-attitudes",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "3.O",
+      "keyConcepts": [
+        "KC-3.2.III.C"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "Which of the following was a difference in attitudes toward slavery between the North and the South by 1800?",
+      "choices": [
+        "Many northern states had ended or begun to end slavery, while white Southerners increasingly defended it",
+        "The North supported the expansion of slavery into new territories, while the South led the antislavery movement",
+        "Both regions agreed that slavery should end by 1808 and passed laws to prepare for abolition",
+        "The North passed laws to expand the number of enslaved workers, while the South ended the slave trade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The growth of slavery in the Deep South and the rise of antislavery sentiment elsewhere created distinct regional attitudes.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The growth of slavery in the Deep South and the rise of antislavery sentiment elsewhere created distinct regional attitudes.",
+        "This reverses the regional attitudes.",
+        "The South did not plan to end slavery in 1808.",
+        "This reverses the regional patterns."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The both-agreed choice is close because the Constitution allowed an end to the slave trade in 1808, but that did not end slavery.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-12-q08",
+      "topicId": "apush-3-12",
+      "concept": "slavery-and-regional-attitudes",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.O",
+      "keyConcepts": [
+        "KC-3.2.III.C"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "Which of the following best explains the expansion of slavery in the Deep South after 1793?",
+      "choices": [
+        "The Constitution required Southern states to import more enslaved people after 1808",
+        "The Northwest Ordinance opened the Deep South to settlement and required slavery there",
+        "The British government gave enslaved workers to American planters as part of the peace treaty",
+        "The cotton gin made short-staple cotton profitable, which increased demand for enslaved labor"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Eli Whitney's invention made it much easier to process short-staple cotton, which made cotton profitable and spread slavery westward.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Constitution allowed Congress to end the international slave trade after 1808.",
+        "The Northwest Ordinance applied north of the Ohio River and banned slavery there.",
+        "The treaty did not provide such grants.",
+        "Eli Whitney's invention made it much easier to process short-staple cotton, which made cotton profitable and spread slavery westward."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Constitution choice is close because the Constitution protected slavery, but it did not require importing more enslaved people.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-12-q09",
+      "topicId": "apush-3-12",
+      "concept": "slavery-and-regional-attitudes",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.O",
+      "keyConcepts": [
+        "KC-3.2.III.C"
+      ],
+      "themes": [
+        "MIG",
+        "SOC"
+      ],
+      "prompt": "Which of the following describes the Free African Society, founded in Philadelphia in 1787?",
+      "choices": [
+        "A political party that nominated candidates for Congress and for state offices in the 1790s",
+        "An aid society of free Black residents founded by Richard Allen and Absalom Jones",
+        "A colony in Africa where free Black Americans were sent to live after emancipation",
+        "A Quaker meeting that ended the practice of slaveholding among its own members in 1787"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Free Black communities in the North formed churches and aid societies, which became centers of community life and antislavery action.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Society was a mutual aid group and not a political party.",
+        "Free Black communities in the North formed churches and aid societies, which became centers of community life and antislavery action.",
+        "The Society was in Philadelphia and not in Africa.",
+        "The Society was founded by Black leaders, though Quakers also opposed slavery."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Quaker choice is close because Quakers opposed slavery, but the Society was founded by Black leaders.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-3-12-quick",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-12",
+      "title": "Topic 3.12 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-3-12-q01",
+        "apush-3-12-q02",
+        "apush-3-12-q03"
+      ]
+    },
+    {
+      "id": "apush-3-12-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-12",
+      "title": "Movement in the Early Republic topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-3-12-q01",
+        "apush-3-12-q02",
+        "apush-3-12-q03",
+        "apush-3-12-q04",
+        "apush-3-12-q05",
+        "apush-3-12-q06",
+        "apush-3-12-q07",
+        "apush-3-12-q08",
+        "apush-3-12-q09"
+      ]
+    }
+  ],
+  "concepts": {
+    "american-indian-alliances": {
+      "id": "american-indian-alliances",
+      "title": "American Indian alliances",
+      "section": "american-indian-alliances",
+      "topicId": "apush-3-12"
+    },
+    "frontier-cultures": {
+      "id": "frontier-cultures",
+      "title": "Westward migration and frontier cultures",
+      "section": "frontier-cultures",
+      "topicId": "apush-3-12"
+    },
+    "slavery-and-regional-attitudes": {
+      "id": "slavery-and-regional-attitudes",
+      "title": "Slavery and regional attitudes",
+      "section": "slavery-and-regional-attitudes",
+      "topicId": "apush-3-12"
+    }
+  },
+  "assets": {}
+}

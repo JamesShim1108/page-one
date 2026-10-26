@@ -1,0 +1,816 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-4",
+    "courseId": "apush",
+    "number": 4,
+    "title": "Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "description": "Follow the rise of party politics and a more participatory democracy, the market revolution, westward expansion and foreign policy, the Second Great Awakening and reform, and the growth of slavery from 1800 to 1848.",
+    "quizzes": [
+      {
+        "id": "apush-4-practice",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-4-1",
+            "questionIds": [
+              "apush-4-1-q01",
+              "apush-4-1-q04",
+              "apush-4-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-q01",
+              "apush-4-2-q04",
+              "apush-4-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-q01",
+              "apush-4-3-q04",
+              "apush-4-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-q01",
+              "apush-4-4-q04",
+              "apush-4-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-q01",
+              "apush-4-5-q04",
+              "apush-4-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-6",
+            "questionIds": [
+              "apush-4-6-q01",
+              "apush-4-6-q04",
+              "apush-4-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-q01",
+              "apush-4-7-q04",
+              "apush-4-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-q01",
+              "apush-4-8-q04",
+              "apush-4-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-9",
+            "questionIds": [
+              "apush-4-9-q01",
+              "apush-4-9-q04",
+              "apush-4-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-10",
+            "questionIds": [
+              "apush-4-10-q01",
+              "apush-4-10-q04",
+              "apush-4-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-q01",
+              "apush-4-11-q04",
+              "apush-4-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-q01",
+              "apush-4-12-q04",
+              "apush-4-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-13",
+            "questionIds": [
+              "apush-4-13-q01",
+              "apush-4-13-q04",
+              "apush-4-13-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-14",
+            "questionIds": [
+              "apush-4-14-q01",
+              "apush-4-14-q04",
+              "apush-4-14-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-4-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-t01",
+              "apush-4-2-t02",
+              "apush-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-t01",
+              "apush-4-3-t02",
+              "apush-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-t01",
+              "apush-4-4-t02",
+              "apush-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-t01",
+              "apush-4-5-t02",
+              "apush-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-t01",
+              "apush-4-7-t02",
+              "apush-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-t01",
+              "apush-4-8-t02",
+              "apush-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-t01",
+              "apush-4-11-t02",
+              "apush-4-11-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-t01",
+              "apush-4-12-t02",
+              "apush-4-12-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 24
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-4-1-quiz",
+        "title": "Contextualizing Period 4 topic quiz"
+      },
+      {
+        "id": "apush-4-2-quiz",
+        "title": "The Rise of Political Parties and the Era of Jefferson topic quiz"
+      },
+      {
+        "id": "apush-4-3-quiz",
+        "title": "Politics and Regional Interests topic quiz"
+      },
+      {
+        "id": "apush-4-4-quiz",
+        "title": "America on the World Stage topic quiz"
+      },
+      {
+        "id": "apush-4-5-quiz",
+        "title": "Market Revolution: Industrialization topic quiz"
+      },
+      {
+        "id": "apush-4-6-quiz",
+        "title": "Market Revolution: Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-4-7-quiz",
+        "title": "Expanding Democracy topic quiz"
+      },
+      {
+        "id": "apush-4-8-quiz",
+        "title": "Jackson and Federal Power topic quiz"
+      },
+      {
+        "id": "apush-4-9-quiz",
+        "title": "The Development of an American Culture topic quiz"
+      },
+      {
+        "id": "apush-4-10-quiz",
+        "title": "The Second Great Awakening topic quiz"
+      },
+      {
+        "id": "apush-4-11-quiz",
+        "title": "An Age of Reform topic quiz"
+      },
+      {
+        "id": "apush-4-12-quiz",
+        "title": "African Americans in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-13-quiz",
+        "title": "The Society of the South in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-14-quiz",
+        "title": "Causation in Period 4 topic quiz"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "apush-4-1",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "period": "1800–1848",
+      "status": "ready",
+      "summary": "The context for Period 4: a more participatory democracy and a new national culture, an economy transformed by innovation, and a nation that expanded westward and argued over slavery, 1800–1848."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-saq-02",
+        "title": "Unit 4 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-leq-identity",
+        "title": "LEQ: Did economic change create a national identity?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-4-10",
+    "courseId": "apush",
+    "unitId": "apush-4",
+    "order": 10,
+    "code": "4.10",
+    "title": "The Second Great Awakening",
+    "period": "1800–1848",
+    "status": "ready",
+    "summary": "Why a wave of Protestant revivals swept the United States after 1800, and how the Second Great Awakening reshaped religion and set the stage for reform."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "57f3ee60edbc4c58",
+  "questions": [
+    {
+      "id": "apush-4-10-q01",
+      "topicId": "apush-4-10",
+      "concept": "causes-of-the-awakening",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "The Second Great Awakening is best described as",
+      "choices": [
+        "a movement to unite the Catholic and Protestant churches under a single national church",
+        "a political party that campaigned for the separation of church and state",
+        "a wave of Protestant revivals that stressed individual choice in salvation",
+        "a rationalist movement that denied that God took any part in human affairs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Revivals spread in the early 1800s and taught that individuals could choose salvation.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Awakening was a Protestant movement and did not unite the churches.",
+        "It was a religious movement and not a political party.",
+        "Revivals spread in the early 1800s and taught that individuals could choose salvation.",
+        "Rationalism was the view the Awakening reacted against."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The rationalist movement choice is close because it concerns religion, but the Awakening responded to rationalism.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-10-q02",
+      "topicId": "apush-4-10",
+      "concept": "revivals-and-new-churches",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Charles Grandison Finney is best known as",
+      "choices": [
+        "a revivalist who taught that people could choose salvation and work to improve society",
+        "a Unitarian minister who rejected revivals and stressed reason in religion",
+        "a Transcendentalist writer who urged Americans to trust their own intuition",
+        "the founder of the Church of Jesus Christ of Latter-day Saints in 1830"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Finney held revivals in western New York and Northern cities and linked salvation to efforts for personal and social improvement.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Finney held revivals in western New York and Northern cities and linked salvation to efforts for personal and social improvement.",
+        "Unitarians rejected the emotion of revivals.",
+        "That describes Emerson.",
+        "That describes Joseph Smith."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Unitarian choice is close because it also concerns a nineteenth-century minister, but Finney was a revivalist.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-10-q03",
+      "topicId": "apush-4-10",
+      "concept": "causes-of-the-awakening",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following helped to cause the Second Great Awakening?",
+      "choices": [
+        "A government order that required citizens to attend church services each week",
+        "The collapse of the Methodist and Baptist churches after the American Revolution",
+        "A Supreme Court ruling that made one Protestant denomination the national church",
+        "Democratic ideas and anxiety about the changes of the market revolution"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ordinary Americans who valued independent choice and faced rapid social change turned to revivals.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Church attendance was not required.",
+        "Those churches grew rapidly.",
+        "The Constitution did not allow an established national church.",
+        "Ordinary Americans who valued independent choice and faced rapid social change turned to revivals."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The collapse choice is close because denominations competed after the Revolution, but Methodists and Baptists gained members.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-10-q04",
+      "topicId": "apush-4-10",
+      "concept": "causes-of-the-awakening",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "How did westward migration and the growth of cities contribute to the revivals?",
+      "choices": [
+        "City governments banned revivals, which pushed preachers to hold meetings in the countryside",
+        "Many people left the churches of their home communities and found belonging in revival meetings",
+        "Migrants brought no religious beliefs with them and had to be taught Christianity",
+        "Revivals were created by employers to teach factory workers to obey their managers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Moving away from familiar communities left people looking for moral order and fellowship.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Revivals took place in cities and on the frontier.",
+        "Moving away from familiar communities left people looking for moral order and fellowship.",
+        "Most migrants were already Christians.",
+        "Revivals arose from religious feeling and not from employers."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The city bans choice is close because some leaders feared revivals, but revival meetings grew in cities.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-10-q05",
+      "topicId": "apush-4-10",
+      "concept": "effects-of-the-awakening",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following was an effect of the Second Great Awakening on American society?",
+      "choices": [
+        "Many believers joined movements to reform individuals and improve society",
+        "Differences among Protestant denominations ended, and a single church replaced them",
+        "Slavery ended throughout the South as Christian planters freed the people they held",
+        "Church membership fell sharply as Americans turned to rationalism and science"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Awakening encouraged believers to work for moral improvement, which inspired temperance, abolition, and other reforms.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Awakening encouraged believers to work for moral improvement, which inspired temperance, abolition, and other reforms.",
+        "Denominations multiplied and grew.",
+        "Slavery continued in the South and expanded.",
+        "Church membership increased."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The end of slavery choice is close because many abolitionists were religious, but the Awakening did not end slavery in the South.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-10-q06",
+      "topicId": "apush-4-10",
+      "concept": "causes-of-the-awakening",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following describes a difference between the Second Great Awakening and Enlightenment rationalism?",
+      "choices": [
+        "The Awakening stressed reason and science, while rationalism stressed emotion",
+        "The Awakening was limited to Europe, while rationalism spread throughout America",
+        "The Awakening stressed emotion and personal faith, while rationalism stressed reason",
+        "The Awakening required belief in predestination, while rationalism rejected all religion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Revival preachers appealed to feeling and personal conversion, while rationalists emphasized reason.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The emphases were the reverse.",
+        "The Awakening was strong in the United States.",
+        "Revival preachers appealed to feeling and personal conversion, while rationalists emphasized reason.",
+        "The Awakening stressed free will."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The reversed emphasis choice is close because it names the same two ideas, but the Awakening stressed emotion.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-4-10-q07",
+      "topicId": "apush-4-10",
+      "concept": "revivals-and-new-churches",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Camp meetings, such as the gathering at Cane Ridge, Kentucky, in 1801, were",
+      "choices": [
+        "meetings of colonial assemblies that passed laws for the Kentucky frontier",
+        "large outdoor revivals that drew crowds on the frontier for days of preaching",
+        "military camps where state militias gathered for training before the War of 1812",
+        "political rallies held by the Democratic Party in order to nominate its candidate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Camp meetings gave frontier families a chance to hear preachers and take part in revivals.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "They were religious gatherings.",
+        "Camp meetings gave frontier families a chance to hear preachers and take part in revivals.",
+        "They were not military camps.",
+        "They were religious and not partisan events."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The assemblies choice is close because Kentucky had a government, but Cane Ridge was a revival.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-10-q08",
+      "topicId": "apush-4-10",
+      "concept": "revivals-and-new-churches",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "The founding of the Church of Jesus Christ of Latter-day Saints in 1830 is best understood in the context of which of the following?",
+      "choices": [
+        "The Great Awakening of the 1730s and 1740s in the British colonies",
+        "The Protestant Reformation in Europe during the sixteenth century",
+        "The debates at the Constitutional Convention about the role of religion",
+        "The religious ferment of the Second Great Awakening in western New York"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Western New York was called the burned-over district because revivals swept it repeatedly, and new religious movements arose there.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That revival occurred nearly a century earlier.",
+        "The Reformation occurred long before 1830.",
+        "The convention was held in 1787.",
+        "Western New York was called the burned-over district because revivals swept it repeatedly, and new religious movements arose there."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The earlier Great Awakening choice is close because the names are similar, but it came a century before.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-4-10-q09",
+      "topicId": "apush-4-10",
+      "concept": "revivals-and-new-churches",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.J",
+      "keyConcepts": [
+        "KC-4.1.II.A.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Free African Americans founded their own churches, such as the African Methodist Episcopal Church (1816), mainly because",
+      "choices": [
+        "they were kept at the margins of white-led congregations",
+        "state laws required separate churches in every Northern and Southern state",
+        "they rejected Christianity and wished to practice African religions in public",
+        "white congregations paid for the new churches in order to reduce attendance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Black churches gave free African Americans leadership, community, and independence from white-led congregations.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Black churches gave free African Americans leadership, community, and independence from white-led congregations.",
+        "State laws did not require separate churches everywhere.",
+        "They adopted and shaped Christianity.",
+        "Black churches were founded by Black communities."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The state laws choice is close because segregation was widespread, but founders acted by their own choice.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-4-10-quick",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-10",
+      "title": "Topic 4.10 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-4-10-q01",
+        "apush-4-10-q02",
+        "apush-4-10-q03"
+      ]
+    },
+    {
+      "id": "apush-4-10-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-10",
+      "title": "The Second Great Awakening topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-4-10-q01",
+        "apush-4-10-q02",
+        "apush-4-10-q03",
+        "apush-4-10-q04",
+        "apush-4-10-q05",
+        "apush-4-10-q06",
+        "apush-4-10-q07",
+        "apush-4-10-q08",
+        "apush-4-10-q09"
+      ]
+    }
+  ],
+  "concepts": {
+    "causes-of-the-awakening": {
+      "id": "causes-of-the-awakening",
+      "title": "Causes of the Second Great Awakening",
+      "section": "causes-of-the-awakening",
+      "topicId": "apush-4-10"
+    },
+    "revivals-and-new-churches": {
+      "id": "revivals-and-new-churches",
+      "title": "Revivals and new religious movements",
+      "section": "revivals-and-new-churches",
+      "topicId": "apush-4-10"
+    },
+    "effects-of-the-awakening": {
+      "id": "effects-of-the-awakening",
+      "title": "Effects on American society",
+      "section": "effects-of-the-awakening",
+      "topicId": "apush-4-10"
+    }
+  },
+  "assets": {}
+}

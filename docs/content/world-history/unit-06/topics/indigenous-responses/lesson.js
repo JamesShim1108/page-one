@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 6.3. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-06.js.
+// Original Page One lesson for CED Topic 6.3.
 
 export const lesson = {
   schemaVersion: 1,
@@ -72,44 +71,7 @@ export const lesson = {
       sourceIds: ["ced-topic-6-3"],
     },
   ],
-  vocabulary: [
-    {
-      id: "sepoys",
-      topicId: "world-6-3",
-      term: "sepoys",
-      definition: "Indian soldiers in the army of the British East India Company.",
-    },
-    {
-      id: "battle-of-adwa",
-      topicId: "world-6-3",
-      term: "Battle of Adwa",
-      definition:
-        "The 1896 battle in which Ethiopian forces under Menelik II defeated Italy, preserving Ethiopia's independence.",
-    },
-    {
-      id: "ghost-dance",
-      topicId: "world-6-3",
-      term: "Ghost Dance",
-      definition:
-        "A Native American religious movement of the 1880s that promised the return of the buffalo and the old way of life.",
-    },
-    {
-      id: "taiping-rebellion",
-      topicId: "world-6-3",
-      term: "Taiping Rebellion",
-      definition:
-        "A massive rebellion against the Qing dynasty from 1850 to 1864, led by Hong Xiuquan, that cost millions of lives.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-6-sepoys",
-      "world-6-battle-of-adwa",
-      "world-6-ghost-dance",
-      "world-6-taiping-rebellion",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

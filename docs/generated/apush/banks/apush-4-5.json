@@ -1,0 +1,1071 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-4",
+    "courseId": "apush",
+    "number": 4,
+    "title": "Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "description": "Follow the rise of party politics and a more participatory democracy, the market revolution, westward expansion and foreign policy, the Second Great Awakening and reform, and the growth of slavery from 1800 to 1848.",
+    "quizzes": [
+      {
+        "id": "apush-4-practice",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-4-1",
+            "questionIds": [
+              "apush-4-1-q01",
+              "apush-4-1-q04",
+              "apush-4-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-q01",
+              "apush-4-2-q04",
+              "apush-4-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-q01",
+              "apush-4-3-q04",
+              "apush-4-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-q01",
+              "apush-4-4-q04",
+              "apush-4-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-q01",
+              "apush-4-5-q04",
+              "apush-4-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-6",
+            "questionIds": [
+              "apush-4-6-q01",
+              "apush-4-6-q04",
+              "apush-4-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-q01",
+              "apush-4-7-q04",
+              "apush-4-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-q01",
+              "apush-4-8-q04",
+              "apush-4-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-9",
+            "questionIds": [
+              "apush-4-9-q01",
+              "apush-4-9-q04",
+              "apush-4-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-10",
+            "questionIds": [
+              "apush-4-10-q01",
+              "apush-4-10-q04",
+              "apush-4-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-q01",
+              "apush-4-11-q04",
+              "apush-4-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-q01",
+              "apush-4-12-q04",
+              "apush-4-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-13",
+            "questionIds": [
+              "apush-4-13-q01",
+              "apush-4-13-q04",
+              "apush-4-13-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-14",
+            "questionIds": [
+              "apush-4-14-q01",
+              "apush-4-14-q04",
+              "apush-4-14-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-4-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-t01",
+              "apush-4-2-t02",
+              "apush-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-t01",
+              "apush-4-3-t02",
+              "apush-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-t01",
+              "apush-4-4-t02",
+              "apush-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-t01",
+              "apush-4-5-t02",
+              "apush-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-t01",
+              "apush-4-7-t02",
+              "apush-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-t01",
+              "apush-4-8-t02",
+              "apush-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-t01",
+              "apush-4-11-t02",
+              "apush-4-11-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-t01",
+              "apush-4-12-t02",
+              "apush-4-12-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 24
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-4-1-quiz",
+        "title": "Contextualizing Period 4 topic quiz"
+      },
+      {
+        "id": "apush-4-2-quiz",
+        "title": "The Rise of Political Parties and the Era of Jefferson topic quiz"
+      },
+      {
+        "id": "apush-4-3-quiz",
+        "title": "Politics and Regional Interests topic quiz"
+      },
+      {
+        "id": "apush-4-4-quiz",
+        "title": "America on the World Stage topic quiz"
+      },
+      {
+        "id": "apush-4-5-quiz",
+        "title": "Market Revolution: Industrialization topic quiz"
+      },
+      {
+        "id": "apush-4-6-quiz",
+        "title": "Market Revolution: Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-4-7-quiz",
+        "title": "Expanding Democracy topic quiz"
+      },
+      {
+        "id": "apush-4-8-quiz",
+        "title": "Jackson and Federal Power topic quiz"
+      },
+      {
+        "id": "apush-4-9-quiz",
+        "title": "The Development of an American Culture topic quiz"
+      },
+      {
+        "id": "apush-4-10-quiz",
+        "title": "The Second Great Awakening topic quiz"
+      },
+      {
+        "id": "apush-4-11-quiz",
+        "title": "An Age of Reform topic quiz"
+      },
+      {
+        "id": "apush-4-12-quiz",
+        "title": "African Americans in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-13-quiz",
+        "title": "The Society of the South in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-14-quiz",
+        "title": "Causation in Period 4 topic quiz"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "apush-4-1",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "period": "1800–1848",
+      "status": "ready",
+      "summary": "The context for Period 4: a more participatory democracy and a new national culture, an economy transformed by innovation, and a nation that expanded westward and argued over slavery, 1800–1848."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-saq-02",
+        "title": "Unit 4 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-leq-identity",
+        "title": "LEQ: Did economic change create a national identity?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-4-5",
+    "courseId": "apush",
+    "unitId": "apush-4",
+    "order": 5,
+    "code": "4.5",
+    "title": "Market Revolution: Industrialization",
+    "period": "1800–1848",
+    "status": "ready",
+    "summary": "How entrepreneurs, new machines, and new transportation networks created a market revolution between 1800 and 1848, and why the North, the Midwest, and the South were linked in different ways."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "1435fcf8c6a2ed75",
+  "questions": [
+    {
+      "id": "apush-4-5-q01",
+      "topicId": "apush-4-5",
+      "concept": "market-revolution",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.A"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "The market revolution of the early 1800s is best described as",
+      "choices": [
+        "a return to household production as families made more of their own goods at home",
+        "a federal policy that set the prices and wages paid in each state's industries",
+        "a change in which production for distant buyers replaced much household production",
+        "a political movement that demanded the end of all tariffs on imported manufactured goods"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As manufacturing became more organized, market relationships between producers and consumers came to prevail.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Household production declined as market production grew.",
+        "Prices and wages were set in markets and not by federal policy.",
+        "As manufacturing became more organized, market relationships between producers and consumers came to prevail.",
+        "The market revolution was an economic change, not a movement against tariffs."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The household production choice is close because many families still made goods at home, but the trend moved toward production for sale.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-5-q02",
+      "topicId": "apush-4-5",
+      "concept": "innovations",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.B"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "Eli Whitney's cotton gin (1793) was important because it",
+      "choices": [
+        "made it much easier to clean cotton, which sharply increased cotton production",
+        "allowed mills to weave cloth quickly and cheaply, which put hand weavers out of work",
+        "allowed farmers to harvest large fields of grain with far less labor than before",
+        "allowed messages to travel along wires and so speeded the news of cotton prices"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cotton gin cleaned cotton far faster than hand labor, which made large-scale cotton farming profitable.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The cotton gin cleaned cotton far faster than hand labor, which made large-scale cotton farming profitable.",
+        "That describes the power loom.",
+        "That describes the mechanical reaper.",
+        "That describes the telegraph."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The power loom choice is close because both machines served the cotton trade, but the gin cleaned the fiber and the loom wove cloth.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-5-q03",
+      "topicId": "apush-4-5",
+      "concept": "transportation-and-commerce",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.C"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "The Erie Canal (1825) most directly",
+      "choices": [
+        "connected the Mississippi River with the ports of the Gulf of Mexico and the South",
+        "ended the use of steamboats on the Hudson River by making rail travel faster",
+        "linked the Ohio River with the harbors of Virginia and the Chesapeake Bay",
+        "lowered the cost of shipping goods between the Great Lakes region and New York City"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The canal joined the Hudson River to Lake Erie and helped to make New York City the nation's leading port.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The canal ran across New York State.",
+        "Steamboats continued to operate on the Hudson.",
+        "The Erie Canal joined the Hudson River with Lake Erie.",
+        "The canal joined the Hudson River to Lake Erie and helped to make New York City the nation's leading port."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Mississippi choice is close because the Mississippi also mattered to western trade, but the Erie Canal was in New York.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-5-q04",
+      "topicId": "apush-4-5",
+      "concept": "transportation-and-commerce",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.C"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "In Gibbons v. Ogden (1824), the Supreme Court ruled that",
+      "choices": [
+        "states could grant monopolies on any trade that crossed their borders",
+        "Congress could regulate interstate commerce, ending a state steamboat monopoly",
+        "Congress could not build roads or canals without an amendment to the Constitution",
+        "a state could tax the federal government's agencies that operated within its borders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By upholding congressional authority over interstate commerce, the Court opened waterways to competition and strengthened national power over the economy.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Court limited state monopolies on interstate trade.",
+        "By upholding congressional authority over interstate commerce, the Court opened waterways to competition and strengthened national power over the economy.",
+        "The case concerned commerce and steamboat licenses.",
+        "That question was decided in McCulloch v. Maryland."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The monopolies choice is close because the case arose from a state monopoly, but the Court ruled against it.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-5-q05",
+      "topicId": "apush-4-5",
+      "concept": "transportation-and-commerce",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.III.B"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "Which of the following best explains the growth of Northern banking, shipping, and manufacturing in the first half of the 1800s?",
+      "choices": [
+        "A decline in cotton exports forced Northern investors to move their money into factories",
+        "A law required Southern planters to sell their cotton only through Northern ports",
+        "Expanding Southern cotton production created demand for Northern financing, shipping, and mills",
+        "An end to trade between New England and Great Britain left the region without other markets"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Northern merchants financed and shipped Southern cotton, and New England mills used it, which tied the regions together.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Cotton exports increased in these decades.",
+        "No law required Southern planters to use Northern ports.",
+        "Northern merchants financed and shipped Southern cotton, and New England mills used it, which tied the regions together.",
+        "New England continued to trade with Britain, and its mills used cotton."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The declining cotton exports choice is close because the cotton trade affected Northern investment, but exports rose.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-5-q06",
+      "topicId": "apush-4-5",
+      "concept": "market-revolution",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.A"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "Which of the following best explains why New England investors built more textile mills after 1807?",
+      "choices": [
+        "The federal government ordered every state to build mills to supply the army with cloth",
+        "The embargo and the war cut off British goods and encouraged American manufacturing",
+        "Cotton became cheaper after the end of the Atlantic slave trade in January 1808",
+        "The Supreme Court ruled that foreign cloth could not be sold in the United States"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When the embargo and the War of 1812 reduced British imports, American investors saw opportunities in domestic manufacturing.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "No order required states to build textile mills.",
+        "When the embargo and the War of 1812 reduced British imports, American investors saw opportunities in domestic manufacturing.",
+        "Cotton prices were affected by many factors, and the end of the slave trade did not cause cheap cotton.",
+        "The Court issued no such ruling."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The cheaper cotton choice is close because mills needed cotton, but the new investment followed the loss of British goods.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-5-q07",
+      "topicId": "apush-4-5",
+      "concept": "transportation-and-commerce",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.C"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "The building of the National Road and the Erie Canal is best understood in the context of which of the following?",
+      "choices": [
+        "A desire to enlarge markets by linking the East with the interior",
+        "A plan to move the nation's capital from the Atlantic coast to the Ohio Valley",
+        "A wish to prepare for a war with Spain by moving troops to the Florida border",
+        "A federal decision to end the use of rivers in favor of roads and canals alone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Roads and canals extended markets by connecting farms in the interior with Eastern cities and ports.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Roads and canals extended markets by connecting farms in the interior with Eastern cities and ports.",
+        "The capital remained in Washington.",
+        "The projects served commerce and settlement and were not made for a war with Spain.",
+        "Rivers remained important for transportation."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The capital choice is close because the projects did help western settlement, but they were not part of a plan to move the capital.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-4-5-q08",
+      "topicId": "apush-4-5",
+      "concept": "transportation-and-commerce",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.C"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "Which of the following describes a difference in how transportation networks linked the North and the South before 1850?",
+      "choices": [
+        "Railroads and canals tied the South to the Midwest more closely than they tied the North",
+        "The South built the nation's first canal systems, and the North built none until the 1850s",
+        "The North depended on rivers alone, while the South developed an extensive railroad network",
+        "Canals and railroads tied the North and Midwest closely, while the South relied mostly on rivers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Transportation networks linked the North and Midwest more closely than the South, whose cotton moved mostly by river to ports.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The North and Midwest were more closely tied.",
+        "The Erie Canal, built in the North, opened in 1825.",
+        "The North developed the larger railroad network.",
+        "Transportation networks linked the North and Midwest more closely than the South, whose cotton moved mostly by river to ports."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The South-and-Midwest choice is close because the Mississippi connected the South and the West, but canals and railroads tied the North and Midwest more closely.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-4-5-q09",
+      "topicId": "apush-4-5",
+      "concept": "innovations",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.B"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "Interchangeable parts, promoted by Eli Whitney and other arms makers, helped industrialization by",
+      "choices": [
+        "allowing factories to run without the use of water power or steam engines",
+        "making goods easier to produce in large quantities and easier to repair",
+        "making each product unique so that craftsmen could set high prices for their goods",
+        "replacing paper currency with metal coins that were accepted in every state"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Standardized parts made it possible to manufacture goods in quantity and to replace broken pieces.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Factories still needed power.",
+        "Standardized parts made it possible to manufacture goods in quantity and to replace broken pieces.",
+        "Interchangeable parts made products standard and not unique.",
+        "Interchangeable parts concerned manufacturing and had nothing to do with currency."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The no-power choice is close because machines reduced labor, but factories still relied on water or steam.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-5-t01",
+      "topicId": "apush-4-5",
+      "concept": "transportation-and-commerce",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.B",
+        "KC-4.2.I.C"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "Which of the following claims about innovation is best supported by the table?",
+      "choices": [
+        "Railroads were the first innovation to speed the movement of goods and travelers",
+        "Agricultural inventions were the only innovations that changed American production",
+        "New transportation and communication technologies increased the speed and reach of commerce",
+        "Government funding paid for each innovation, and private investors played no part"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each entry describes a technology that sped commerce, transportation, or the flow of information.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The table shows that the steamboat came first, in 1807.",
+        "The table lists innovations in transportation and communication as well.",
+        "Each entry describes a technology that sped commerce, transportation, or the flow of information.",
+        "The table does not mention funding."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The railroads-first choice is close because railroads were important, but the table shows that steamboats and canals came earlier.",
+      "stimulusId": "original-transport-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-transport-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 4.5, KC-4.2.I.B and KC-4.2.I.C: innovations in technology and new transportation networks increased the efficiency of production, extended markets, and fostered regional interdependence",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the market revolution",
+          "caption": "Selected innovations in transportation, agriculture, and communication, 1807–1844",
+          "columns": [
+            "Year",
+            "Innovation",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1807",
+              "Steamboat (Robert Fulton’s Clermont)",
+              "Allowed boats to travel upstream on rivers, which sped river commerce"
+            ],
+            [
+              "1825",
+              "Erie Canal",
+              "Linked the Hudson River with Lake Erie and lowered the cost of shipping goods between New York City and the Great Lakes region"
+            ],
+            [
+              "1830",
+              "Railroad (Baltimore and Ohio)",
+              "Began regular rail service in the United States; railroad networks later linked the North and Midwest closely"
+            ],
+            [
+              "1834",
+              "Mechanical reaper (Cyrus McCormick)",
+              "Allowed farmers to harvest much more grain with less labor"
+            ],
+            [
+              "1844",
+              "Telegraph (Samuel Morse)",
+              "Sent messages over wires almost instantly, which sped the flow of news and business information"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 4.5 reading."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-4-5-t02",
+      "topicId": "apush-4-5",
+      "concept": "transportation-and-commerce",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.C"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "Which of the following was a likely effect of the innovation listed for 1825 in the table?",
+      "choices": [
+        "Western New York farmers and merchants could sell goods in eastern markets more cheaply",
+        "Southern ports replaced New York as the main outlet for Midwestern crops",
+        "Steamboats were no longer used on rivers because canal boats were faster",
+        "Farmers in the Midwest lost access to eastern cities because the canal ended river trade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The canal lowered shipping costs between the Great Lakes region and New York City, which enlarged markets.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The canal lowered shipping costs between the Great Lakes region and New York City, which enlarged markets.",
+        "The canal strengthened New York's position.",
+        "Steamboats continued to be used on rivers and lakes.",
+        "The canal expanded their markets."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Southern ports choice is close because the Mississippi also carried crops, but the canal drew trade to the Hudson.",
+      "stimulusId": "original-transport-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-transport-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 4.5, KC-4.2.I.B and KC-4.2.I.C: innovations in technology and new transportation networks increased the efficiency of production, extended markets, and fostered regional interdependence",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the market revolution",
+          "caption": "Selected innovations in transportation, agriculture, and communication, 1807–1844",
+          "columns": [
+            "Year",
+            "Innovation",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1807",
+              "Steamboat (Robert Fulton’s Clermont)",
+              "Allowed boats to travel upstream on rivers, which sped river commerce"
+            ],
+            [
+              "1825",
+              "Erie Canal",
+              "Linked the Hudson River with Lake Erie and lowered the cost of shipping goods between New York City and the Great Lakes region"
+            ],
+            [
+              "1830",
+              "Railroad (Baltimore and Ohio)",
+              "Began regular rail service in the United States; railroad networks later linked the North and Midwest closely"
+            ],
+            [
+              "1834",
+              "Mechanical reaper (Cyrus McCormick)",
+              "Allowed farmers to harvest much more grain with less labor"
+            ],
+            [
+              "1844",
+              "Telegraph (Samuel Morse)",
+              "Sent messages over wires almost instantly, which sped the flow of news and business information"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 4.5 reading."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-5-t03",
+      "topicId": "apush-4-5",
+      "concept": "market-revolution",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "4.E",
+      "keyConcepts": [
+        "KC-4.2.I.A"
+      ],
+      "themes": [
+        "WXT"
+      ],
+      "prompt": "The innovations listed in the table are best understood in the context of which of the following?",
+      "choices": [
+        "A decline of commerce that sent most families back to farms that supplied their own needs",
+        "A national plan to place the production of all goods under federal control",
+        "A period of isolation in which the United States cut off trade with Europe and Asia",
+        "A market revolution in which more producers sold goods to distant buyers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The innovations helped expand markets and made it practical to produce goods for sale far from home.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Commerce expanded in these decades.",
+        "Production remained in private hands.",
+        "Trade expanded, and the United States traded widely.",
+        "The innovations helped expand markets and made it practical to produce goods for sale far from home."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The decline of commerce choice is close because the embargo briefly reduced trade, but these innovations expanded commerce.",
+      "stimulusId": "original-transport-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-transport-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 4.5, KC-4.2.I.B and KC-4.2.I.C: innovations in technology and new transportation networks increased the efficiency of production, extended markets, and fostered regional interdependence",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the market revolution",
+          "caption": "Selected innovations in transportation, agriculture, and communication, 1807–1844",
+          "columns": [
+            "Year",
+            "Innovation",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "1807",
+              "Steamboat (Robert Fulton’s Clermont)",
+              "Allowed boats to travel upstream on rivers, which sped river commerce"
+            ],
+            [
+              "1825",
+              "Erie Canal",
+              "Linked the Hudson River with Lake Erie and lowered the cost of shipping goods between New York City and the Great Lakes region"
+            ],
+            [
+              "1830",
+              "Railroad (Baltimore and Ohio)",
+              "Began regular rail service in the United States; railroad networks later linked the North and Midwest closely"
+            ],
+            [
+              "1834",
+              "Mechanical reaper (Cyrus McCormick)",
+              "Allowed farmers to harvest much more grain with less labor"
+            ],
+            [
+              "1844",
+              "Telegraph (Samuel Morse)",
+              "Sent messages over wires almost instantly, which sped the flow of news and business information"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 4.5 reading."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-4-5-quick",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-5",
+      "title": "Topic 4.5 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-4-5-q01",
+        "apush-4-5-q02",
+        "apush-4-5-q03"
+      ]
+    },
+    {
+      "id": "apush-4-5-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-5",
+      "title": "Market Revolution: Industrialization topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-4-5-q01",
+        "apush-4-5-q02",
+        "apush-4-5-q03",
+        "apush-4-5-q04",
+        "apush-4-5-q05",
+        "apush-4-5-q06",
+        "apush-4-5-q07",
+        "apush-4-5-q08",
+        "apush-4-5-q09"
+      ]
+    }
+  ],
+  "concepts": {
+    "market-revolution": {
+      "id": "market-revolution",
+      "title": "The market revolution",
+      "section": "market-revolution",
+      "topicId": "apush-4-5"
+    },
+    "innovations": {
+      "id": "innovations",
+      "title": "Innovations in production",
+      "section": "innovations",
+      "topicId": "apush-4-5"
+    },
+    "transportation-and-commerce": {
+      "id": "transportation-and-commerce",
+      "title": "Transportation, government, and regional ties",
+      "section": "transportation-and-commerce",
+      "topicId": "apush-4-5"
+    }
+  },
+  "assets": {}
+}

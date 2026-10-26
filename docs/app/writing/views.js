@@ -154,16 +154,16 @@ function legacyReview(quiz, store) {
   </section>`;
 }
 
-function documentPacket(quiz) {
+function documentPacket(quiz, assets = {}) {
   if (quiz.exerciseType !== "dbq") return "";
   return `<section class="document-packet" aria-labelledby="document-packet-title"><h2 id="document-packet-title">Document packet</h2>
     ${quiz.availability === "blocked" ? `<p class="note"><strong>Unavailable until source verification is complete.</strong> The packet remains visible as an authoring record; the unresolved source list is recorded below.</p>` : ""}
-    <div class="document-list">${quiz.documents.map((document, index) => (document.attribution ? verifiedDocument(document, index) : `<details class="document-card"><summary>Document ${index + 1}: ${esc(document.label)}${document.status === "blocked" ? " · blocked" : ""}</summary><p>${esc(document.content)}</p><dl><div><dt>Author</dt><dd>${esc(document.metadata.author)}</dd></div><div><dt>Date</dt><dd>${esc(document.metadata.date)}</dd></div><div><dt>Setting / audience</dt><dd>${esc(document.metadata.setting)} · ${esc(document.metadata.audience)}</dd></div><div><dt>Rights / source</dt><dd>${esc(document.metadata.rights)} ${esc(document.sourceNote)}</dd></div></dl></details>`)).join("")}</div></section>`;
+    <div class="document-list">${quiz.documents.map((document, index) => (document.attribution ? verifiedDocument(document, index, assets) : `<details class="document-card"><summary>Document ${index + 1}: ${esc(document.label)}${document.status === "blocked" ? " · blocked" : ""}</summary><p>${esc(document.content)}</p><dl><div><dt>Author</dt><dd>${esc(document.metadata.author)}</dd></div><div><dt>Date</dt><dd>${esc(document.metadata.date)}</dd></div><div><dt>Setting / audience</dt><dd>${esc(document.metadata.setting)} · ${esc(document.metadata.audience)}</dd></div><div><dt>Rights / source</dt><dd>${esc(document.metadata.rights)} ${esc(document.sourceNote)}</dd></div></dl></details>`)).join("")}</div></section>`;
 }
 
 // A released document reads like an exam document: number, source line, text.
-function verifiedDocument(document, index) {
-  return `<article class="document-card document-card--verified" id="${esc(document.id)}"><h3>Document ${index + 1}</h3>${renderSource({ sourceType: document.sourceType || "primary", attribution: document.attribution, text: document.content, citation: document.citation, note: document.note })}</article>`;
+function verifiedDocument(document, index, assets = {}) {
+  return `<article class="document-card document-card--verified" id="${esc(document.id)}"><h3>Document ${index + 1}</h3>${renderSource({ sourceType: document.sourceType || "primary", attribution: document.attribution, text: document.content, medium: document.medium, assetId: document.assetId, alt: document.alt, description: document.description, citation: document.citation, note: document.note }, undefined, assets)}</article>`;
 }
 
 function promptContext(quiz, className = "") {
@@ -176,9 +176,9 @@ function promptContext(quiz, className = "") {
 }
 
 // Sources stay visible at every width; the prompt disclosure collapses on phones.
-function writingStimulus(quiz) {
+function writingStimulus(quiz, assets = {}) {
   return quiz.stimulusBlocks?.length
-    ? `<section class="writing-stimulus" aria-label="${quiz.exerciseType === "frq" ? "Given information" : "Sources"}">${renderBlocks(quiz.stimulusBlocks)}</section>`
+    ? `<section class="writing-stimulus" aria-label="${quiz.exerciseType === "frq" ? "Given information" : "Sources"}">${renderBlocks(quiz.stimulusBlocks, assets)}</section>`
     : "";
 }
 
@@ -282,8 +282,8 @@ export function writingPage(data, store) {
     <div class="writing-layout"><div class="writing-paper">
       ${promptContext(quiz, "writing-context--wide")}
       <details class="writing-prompt-disclosure"><summary>Show prompt</summary>${promptContext(quiz)}</details>
-      ${writingStimulus(quiz)}
-      ${documentPacket(quiz)}
+      ${writingStimulus(quiz, data.assets || {})}
+      ${documentPacket(quiz, data.assets || {})}
       <form class="writing-form">${fields.map((field) => responseField(field, store.draft, framework, isMathCourse(quiz.courseId))).join("")}
         ${conflictNotice(store)}
         <div class="writing-save-row"><p id="writing-save" class="muted" role="status" aria-live="polite">${saveMessage(store)}</p>${saveActions(store)}</div>

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.5. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.5.
 
 export const lesson = {
   schemaVersion: 1,
@@ -70,45 +69,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-5"],
     },
   ],
-  vocabulary: [
-    {
-      id: "kwame-nkrumah",
-      topicId: "world-8-5",
-      term: "Kwame Nkrumah",
-      definition:
-        "Leader of the Gold Coast independence movement and first prime minister of Ghana in 1957.",
-    },
-    {
-      id: "algerian-war",
-      topicId: "world-8-5",
-      term: "Algerian War",
-      definition:
-        "The 1954–1962 war in which the National Liberation Front won Algeria's independence from France.",
-    },
-    {
-      id: "dien-bien-phu",
-      topicId: "world-8-5",
-      term: "Dien Bien Phu",
-      definition:
-        "The 1954 battle in which the Viet Minh defeated France, ending French rule in Indochina.",
-    },
-    {
-      id: "mau-mau",
-      topicId: "world-8-5",
-      term: "Mau Mau",
-      definition:
-        "A Kenyan movement that rebelled against British rule and settler landholding beginning in 1952.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-8-kwame-nkrumah",
-      "world-8-algerian-war",
-      "world-8-dien-bien-phu",
-      "world-8-mau-mau",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

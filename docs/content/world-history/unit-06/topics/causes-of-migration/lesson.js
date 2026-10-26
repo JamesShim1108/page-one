@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 6.6. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-06.js.
+// Original Page One lesson for CED Topic 6.6.
 
 export const lesson = {
   schemaVersion: 1,
@@ -67,26 +66,7 @@ export const lesson = {
       sourceIds: ["ced-topic-6-6"],
     },
   ],
-  vocabulary: [
-    {
-      id: "indentured-servants",
-      topicId: "world-6-6",
-      term: "indentured servants",
-      definition:
-        "Workers who signed contracts to labor for a set number of years in exchange for passage, wages, or land.",
-    },
-    {
-      id: "irish-famine",
-      topicId: "world-6-6",
-      term: "Irish famine",
-      definition:
-        "A famine from 1845 to 1852 caused by potato blight and worsened by British policy, which killed about a million people.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-6-indentured-servants", "world-6-irish-famine"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

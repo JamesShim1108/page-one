@@ -312,7 +312,7 @@
       }
     ]
   },
-  "contentRevision": "ce76e0c9edb509b1",
+  "contentRevision": "1def013ce9033d85",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-8-8",
@@ -387,41 +387,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "detente",
-        "topicId": "world-8-8",
-        "term": "détente",
-        "definition": "The easing of tensions between the superpowers in the 1970s."
-      },
-      {
-        "id": "glasnost",
-        "topicId": "world-8-8",
-        "term": "glasnost",
-        "definition": "Gorbachev's policy of openness, which allowed more criticism and freedom of expression."
-      },
-      {
-        "id": "perestroika",
-        "topicId": "world-8-8",
-        "term": "perestroika",
-        "definition": "Gorbachev's policy of restructuring the Soviet economy."
-      },
-      {
-        "id": "solidarity",
-        "topicId": "world-8-8",
-        "term": "Solidarity",
-        "definition": "The Polish independent trade union, led by Lech Wałęsa, that challenged communist rule."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-8-detente",
-        "world-8-glasnost",
-        "world-8-perestroika",
-        "world-8-solidarity"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -445,36 +411,7 @@
     ]
   },
   "bankPath": "world/banks/world-8-8.json",
-  "glossary": [
-    {
-      "id": "world-8-detente",
-      "term": "détente",
-      "definition": "The easing of tensions between the superpowers in the 1970s.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.8 glossary"
-    },
-    {
-      "id": "world-8-glasnost",
-      "term": "glasnost",
-      "definition": "Gorbachev's policy of openness, which allowed more criticism and freedom of expression.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.8 glossary"
-    },
-    {
-      "id": "world-8-perestroika",
-      "term": "perestroika",
-      "definition": "Gorbachev's policy of restructuring the Soviet economy.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.8 glossary"
-    },
-    {
-      "id": "world-8-solidarity",
-      "term": "Solidarity",
-      "definition": "The Polish independent trade union, led by Lech Wałęsa, that challenged communist rule.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.8 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-8-8",

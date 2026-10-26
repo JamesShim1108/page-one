@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.5. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.5.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,33 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-5"],
     },
   ],
-  vocabulary: [
-    {
-      id: "udhr",
-      topicId: "world-9-5",
-      term: "Universal Declaration of Human Rights",
-      definition:
-        "The 1948 United Nations statement that all people are equal in dignity and rights.",
-    },
-    {
-      id: "feminism",
-      topicId: "world-9-5",
-      term: "Feminism",
-      definition:
-        "The movement for women's political, social, and economic equality with men.",
-    },
-    {
-      id: "liberation-theology",
-      topicId: "world-9-5",
-      term: "liberation theology",
-      definition:
-        "A Latin American Catholic movement that called on the church to work for justice for the poor.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-9-udhr", "world-9-feminism", "world-9-liberation-theology"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

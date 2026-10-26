@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.6. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.6.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,33 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-6"],
     },
   ],
-  vocabulary: [
-    {
-      id: "meiji-restoration",
-      topicId: "world-5-6",
-      term: "Meiji Restoration",
-      definition:
-        "The 1868 overthrow of the Tokugawa shogunate that restored power to the emperor and launched rapid modernization in Japan.",
-    },
-    {
-      id: "zaibatsu",
-      topicId: "world-5-6",
-      term: "zaibatsu",
-      definition:
-        "Large family-controlled business groups in Japan that grew from enterprises the Meiji state sold to private owners.",
-    },
-    {
-      id: "muhammad-ali",
-      topicId: "world-5-6",
-      term: "Muhammad Ali",
-      definition:
-        "Governor of Egypt from 1805 to 1848 who built state factories and promoted cotton exports.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: ["world-5-meiji-restoration", "world-5-zaibatsu", "world-5-muhammad-ali"],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

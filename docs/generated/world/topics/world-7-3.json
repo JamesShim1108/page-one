@@ -319,7 +319,7 @@
       }
     ]
   },
-  "contentRevision": "fe859b50f8b59af2",
+  "contentRevision": "a331d64b35648794",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-7-3",
@@ -410,34 +410,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "total-war",
-        "topicId": "world-7-3",
-        "term": "total war",
-        "definition": "A war in which governments mobilize entire economies and populations and civilians become part of the war effort."
-      },
-      {
-        "id": "propaganda",
-        "topicId": "world-7-3",
-        "term": "Propaganda",
-        "definition": "Information, often biased or misleading, spread by governments to shape public opinion."
-      },
-      {
-        "id": "trench-warfare",
-        "topicId": "world-7-3",
-        "term": "trenches",
-        "definition": "Long ditches dug by armies for protection, which produced a deadly stalemate on the Western Front in World War I."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-7-total-war",
-        "world-7-propaganda",
-        "world-7-trench-warfare"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -461,29 +434,7 @@
     ]
   },
   "bankPath": "world/banks/world-7-3.json",
-  "glossary": [
-    {
-      "id": "world-7-total-war",
-      "term": "total war",
-      "definition": "A war in which governments mobilize entire economies and populations and civilians become part of the war effort.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.3 glossary"
-    },
-    {
-      "id": "world-7-propaganda",
-      "term": "Propaganda",
-      "definition": "Information, often biased or misleading, spread by governments to shape public opinion.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.3 glossary"
-    },
-    {
-      "id": "world-7-trench-warfare",
-      "term": "trenches",
-      "definition": "Long ditches dug by armies for protection, which produced a deadly stalemate on the Western Front in World War I.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.3 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-7-3",

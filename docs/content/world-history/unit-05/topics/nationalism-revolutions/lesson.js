@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.2. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.2.
 
 export const lesson = {
   schemaVersion: 1,
@@ -96,44 +95,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-2"],
     },
   ],
-  vocabulary: [
-    {
-      id: "nationalism",
-      topicId: "world-5-2",
-      term: "Nationalism",
-      definition:
-        "The belief that people who share a language, culture, and history should form a nation with its own state.",
-    },
-    {
-      id: "declaration-rights-man",
-      topicId: "world-5-2",
-      term: "Declaration of the Rights of Man and of the Citizen",
-      definition:
-        "A 1789 statement of rights issued by the French National Assembly, based on Enlightenment ideas.",
-    },
-    {
-      id: "haiti",
-      topicId: "world-5-2",
-      term: "Haiti",
-      definition:
-        "The independent nation founded in 1804 by formerly enslaved people after the revolution in the French colony of Saint-Domingue.",
-    },
-    {
-      id: "creole",
-      topicId: "world-5-2",
-      term: "creole",
-      definition: "A person of Spanish descent born in the Americas.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-5-nationalism",
-      "world-5-declaration-rights-man",
-      "world-5-haiti",
-      "world-5-creole",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

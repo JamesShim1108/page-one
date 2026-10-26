@@ -319,7 +319,7 @@
       }
     ]
   },
-  "contentRevision": "a55f53b59457a0f1",
+  "contentRevision": "f8fcf6fd12dbcae1",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-7-8",
@@ -387,34 +387,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "genocide",
-        "topicId": "world-7-8",
-        "term": "Genocide",
-        "definition": "Acts committed with intent to destroy, in whole or in part, a national, ethnic, racial, or religious group."
-      },
-      {
-        "id": "holocaust",
-        "topicId": "world-7-8",
-        "term": "Holocaust",
-        "definition": "The Nazi genocide of about six million Jews during World War II."
-      },
-      {
-        "id": "armenian-genocide",
-        "topicId": "world-7-8",
-        "term": "Armenian genocide",
-        "definition": "The deportation and killing of Armenians by the Ottoman government beginning in 1915."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-7-genocide",
-        "world-7-holocaust",
-        "world-7-armenian-genocide"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -438,29 +411,7 @@
     ]
   },
   "bankPath": "world/banks/world-7-8.json",
-  "glossary": [
-    {
-      "id": "world-7-genocide",
-      "term": "Genocide",
-      "definition": "Acts committed with intent to destroy, in whole or in part, a national, ethnic, racial, or religious group.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.8 glossary"
-    },
-    {
-      "id": "world-7-holocaust",
-      "term": "Holocaust",
-      "definition": "The Nazi genocide of about six million Jews during World War II.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.8 glossary"
-    },
-    {
-      "id": "world-7-armenian-genocide",
-      "term": "Armenian genocide",
-      "definition": "The deportation and killing of Armenians by the Ottoman government beginning in 1915.",
-      "aliases": [],
-      "sourceLabel": "Topic 7.8 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-7-8",

@@ -1,0 +1,921 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-9",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 9,
+    "code": "5.9",
+    "title": "Government Policies During the Civil War",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "How Lincoln's decision to issue the Emancipation Proclamation changed the purpose of the war, how he used speeches to link the Union cause to America's founding ideals, and how the war expanded federal power."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "18f90d21d1e952c5",
+  "questions": [
+    {
+      "id": "apush-5-9-q01",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Lincoln and most Union supporters began the Civil War mainly to",
+      "choices": [
+        "end slavery in every state of the nation",
+        "take Southern lands for Northern settlers",
+        "preserve the Union and bring back the Southern states",
+        "punish the leaders of the Confederate government"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Most Northerners saw the war as a fight to save the nation, and the aim of ending slavery came later.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Ending slavery became a purpose of the war later.",
+        "The Union sought to restore the Southern states.",
+        "Most Northerners saw the war as a fight to save the nation, and the aim of ending slavery came later.",
+        "The Union's aim was to restore the Union."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The end slavery choice is close because Lincoln disliked slavery, but at the start he said that the war was to preserve the Union.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-9-q02",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following helped to cause Lincoln's decision to issue the Emancipation Proclamation?",
+      "choices": [
+        "The need to weaken the Confederacy as enslaved people fled to Union lines",
+        "A Supreme Court order that all enslaved people in the Confederacy be freed",
+        "A demand by the border states that slavery be ended in all of the states",
+        "A promise by Britain to fight on the side of the Union if slavery ended"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Enslaved labor supported the Confederate war effort, and freeing it would weaken the South and add soldiers to the Union army.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Enslaved labor supported the Confederate war effort, and freeing it would weaken the South and add soldiers to the Union army.",
+        "The Court issued no such order.",
+        "The border states opposed emancipation.",
+        "Britain made no such promise."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The border states choice is close because Lincoln needed their loyalty, but they opposed emancipation and he did not apply the Proclamation to them.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-5-9-q03",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "The Emancipation Proclamation applied to",
+      "choices": [
+        "all enslaved people in the United States, including the border states",
+        "only the enslaved people living in the District of Columbia",
+        "only the enslaved people who joined the Union army",
+        "areas of the Confederacy that were in rebellion"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lincoln issued the order as a war measure, so it covered only the territory held by the enemy.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "It did not apply to the border states.",
+        "Congress had freed them earlier.",
+        "It applied to people in the areas in rebellion.",
+        "Lincoln issued the order as a war measure, so it covered only the territory held by the enemy."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The all enslaved people choice is close because the Proclamation is remembered as ending slavery, but it excluded the border states and did not end slavery everywhere.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-9-q04",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following was an effect of the Emancipation Proclamation on the diplomacy of the war?",
+      "choices": [
+        "It led Britain and France to recognize the Confederacy as a nation",
+        "It made it harder for Britain and France to support the Confederacy",
+        "It persuaded European powers to send troops to join the Union army",
+        "It ended the Union blockade by an agreement with the British government"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Once the war was a fight against slavery, Britain and France could not easily support the South without seeming to support slavery.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Neither power recognized the Confederacy.",
+        "Once the war was a fight against slavery, Britain and France could not easily support the South without seeming to support slavery.",
+        "No European power sent troops.",
+        "The blockade continued."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The recognition choice is close because the Confederacy hoped for recognition, but the Proclamation made it less likely.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-5-9-q05",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "How did the flight of enslaved people from Southern plantations affect the Confederacy?",
+      "choices": [
+        "It strengthened the Confederate army by adding thousands of enlisted men",
+        "It caused the Union to return them to their owners under the Fugitive Slave Act",
+        "It cost the Confederacy labor and added workers and soldiers to the Union",
+        "It had little effect, because few people escaped from slavery during the war"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Enslaved workers grew food and built defenses, and when they left for Union lines the Confederacy lost their labor.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Those who fled joined the Union.",
+        "The Union army generally did not return them.",
+        "Enslaved workers grew food and built defenses, and when they left for Union lines the Confederacy lost their labor.",
+        "Many thousands escaped."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Confederate army choice is close because the Confederacy did draft some enslaved men as laborers, but those who fled joined the Union.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-5-9-q06",
+      "topicId": "apush-5-9",
+      "concept": "gettysburg-and-american-ideals",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.C"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Lincoln's Gettysburg Address is best understood in the context of which of the following?",
+      "choices": [
+        "A Union victory that had ended the war and restored the Southern states",
+        "A debate in Congress over the passage of the Homestead Act",
+        "A decision by the Confederacy to end the war on the terms of the Union",
+        "A need to give meaning to the sacrifices of the war and link the Union cause to equality"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lincoln spoke at a cemetery during a long and costly war, and he tied the dead to the idea “that all men are created equal.”",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The war continued until 1865.",
+        "The Act had passed in 1862.",
+        "The Confederacy fought on.",
+        "Lincoln spoke at a cemetery during a long and costly war, and he tied the dead to the idea “that all men are created equal.”"
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Union victory choice is close because Gettysburg was a Union victory, but the war was not over, and Lincoln spoke of the work that remained.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-5-9-q07",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following describes a difference between the purposes of the Union in 1861 and in 1863?",
+      "choices": [
+        "In 1861 it sought to end slavery, and by 1863 it sought only to restore the Union",
+        "In 1861 it sought to preserve the Union, and by 1863 it also sought to end slavery",
+        "In 1861 it sought to gain Southern land, and by 1863 it sought to defend its borders",
+        "In 1861 and in 1863 it sought only to preserve the Union and nothing more"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Emancipation Proclamation added the end of slavery to the aim of preserving the Union.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The purposes are reversed.",
+        "The Emancipation Proclamation added the end of slavery to the aim of preserving the Union.",
+        "Neither was the Union's purpose.",
+        "The Emancipation Proclamation added a new purpose."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The reversed choice is close because it names the same two purposes, but it puts them in the wrong order.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-5-9-q08",
+      "topicId": "apush-5-9",
+      "concept": "wartime-policies",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.C"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following was a result of the absence of Southern members from Congress during the war?",
+      "choices": [
+        "Congress passed laws such as the Homestead Act and the Pacific Railway Act",
+        "Congress ended the tariff and the national bank that the South had opposed",
+        "Congress passed a stronger Fugitive Slave Act to help recapture people",
+        "Congress left the details of the war effort to the governors of the states"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without Southern votes, Congress could pass western development laws that the South had blocked.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Without Southern votes, Congress could pass western development laws that the South had blocked.",
+        "Congress raised the tariff and created a national banking system.",
+        "Congress later repealed the Fugitive Slave Acts.",
+        "The national government took on more power."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The ended the tariff choice is close because the South had opposed those policies, but Congress raised the tariff and created a national bank.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-9-t01",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following claims about emancipation is best supported by the excerpt?",
+      "choices": [
+        "Lincoln justified emancipation as a peacetime reform that Congress had ordered",
+        "Lincoln justified emancipation as a punishment for slaveholders in the border states",
+        "Lincoln justified emancipation as a war measure within his powers as commander-in-chief",
+        "Lincoln justified emancipation as an act that required the approval of the Southern states"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lincoln writes “by virtue of the power in me vested as Commander-in-Chief” and “as a fit and necessary war measure for suppressing said rebellion.”",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "He cites his own power as commander-in-chief.",
+        "The excerpt concerns states in rebellion.",
+        "Lincoln writes “by virtue of the power in me vested as Commander-in-Chief” and “as a fit and necessary war measure for suppressing said rebellion.”",
+        "He issues the order on his own authority."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The peacetime reform choice is close because emancipation was also a moral cause, but the excerpt bases the order on Lincoln's war powers.",
+      "stimulusId": "emancipation-proclamation-1863",
+      "stimulusBlocks": [
+        {
+          "id": "emancipation-proclamation-1863",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.9, KC-5.3.I.B: Lincoln's decision to issue the Emancipation Proclamation reframed the purpose of the war",
+          "ced_review": "pending",
+          "attribution": "President Abraham Lincoln, in the Emancipation Proclamation, issued on January 1, 1863, during the Civil War",
+          "citation": "Abraham Lincoln, Proclamation of Emancipation (January 1, 1863), in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate. Project Gutenberg eBook #48364.",
+          "note": "The proclamation applied to the areas that the president named as being “in rebellion.” It did not name the four slave states that had stayed in the Union.",
+          "text": "I, ABRAHAM LINCOLN, President of the United States, by virtue of the power in me vested as Commander-in-Chief of the army and navy of the United States in time of actual armed rebellion against the authority and government of the United States, and as a fit and necessary war measure for suppressing said rebellion, do . . . order and designate, as the States and parts of States wherein the people thereof respectively are this day in rebellion against the United States, the following, to wit: . . . .\n\nAnd, by virtue of the power and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States and parts of States are and henceforth shall be free; and that the Executive Government of the United States, including the military and naval authorities thereof, will recognize and maintain the freedom of said persons.\n\nAnd I further declare and make known that such persons of suitable condition will be received into the armed service of the United States, to garrison forts, positions, stations, and other places, and to man vessels of all sorts in said service."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-5-9-t02",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "The Proclamation's provision that Black men “will be received into the armed service” most directly led to",
+      "choices": [
+        "an immediate grant of citizenship to African American soldiers",
+        "the enlistment of thousands of African Americans in the Union Army",
+        "an end to the draft in the Northern states",
+        "the return of freed people to their former owners after the war"
+      ],
+      "correctAnswer": 1,
+      "explanation": "About 180,000 Black men served in the Union army, and their service strengthened the Union and the claim of African Americans to citizenship.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The provision did not grant citizenship.",
+        "About 180,000 Black men served in the Union army, and their service strengthened the Union and the claim of African Americans to citizenship.",
+        "The draft continued.",
+        "The Proclamation declared them free."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The citizenship choice is close because Black service later supported claims to citizenship, but the Proclamation did not grant it.",
+      "stimulusId": "emancipation-proclamation-1863",
+      "stimulusBlocks": [
+        {
+          "id": "emancipation-proclamation-1863",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.9, KC-5.3.I.B: Lincoln's decision to issue the Emancipation Proclamation reframed the purpose of the war",
+          "ced_review": "pending",
+          "attribution": "President Abraham Lincoln, in the Emancipation Proclamation, issued on January 1, 1863, during the Civil War",
+          "citation": "Abraham Lincoln, Proclamation of Emancipation (January 1, 1863), in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate. Project Gutenberg eBook #48364.",
+          "note": "The proclamation applied to the areas that the president named as being “in rebellion.” It did not name the four slave states that had stayed in the Union.",
+          "text": "I, ABRAHAM LINCOLN, President of the United States, by virtue of the power in me vested as Commander-in-Chief of the army and navy of the United States in time of actual armed rebellion against the authority and government of the United States, and as a fit and necessary war measure for suppressing said rebellion, do . . . order and designate, as the States and parts of States wherein the people thereof respectively are this day in rebellion against the United States, the following, to wit: . . . .\n\nAnd, by virtue of the power and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States and parts of States are and henceforth shall be free; and that the Executive Government of the United States, including the military and naval authorities thereof, will recognize and maintain the freedom of said persons.\n\nAnd I further declare and make known that such persons of suitable condition will be received into the armed service of the United States, to garrison forts, positions, stations, and other places, and to man vessels of all sorts in said service."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-5-9-t03",
+      "topicId": "apush-5-9",
+      "concept": "from-union-to-emancipation",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "subskill": "4.B",
+      "learningObjective": "5.J",
+      "keyConcepts": [
+        "KC-5.3.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Why did the Proclamation apply only to areas “in rebellion against the United States”?",
+      "choices": [
+        "The Supreme Court had ruled that the president could free only some people",
+        "Congress had voted to limit the order to the states that had left the Union",
+        "The Confederate government had agreed to free those people in exchange for peace",
+        "It rested on Lincoln's war powers, and he did not want to lose the border states"
+      ],
+      "correctAnswer": 3,
+      "explanation": "As commander-in-chief, Lincoln could take measures against the enemy, and he wished to keep the loyal slave states in the Union.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Court had issued no such ruling.",
+        "Lincoln acted on his own authority.",
+        "The Confederacy made no such agreement.",
+        "As commander-in-chief, Lincoln could take measures against the enemy, and he wished to keep the loyal slave states in the Union."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Supreme Court choice is close because the Court was shaping the debate over slavery, but it had not limited Lincoln's order.",
+      "stimulusId": "emancipation-proclamation-1863",
+      "stimulusBlocks": [
+        {
+          "id": "emancipation-proclamation-1863",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.9, KC-5.3.I.B: Lincoln's decision to issue the Emancipation Proclamation reframed the purpose of the war",
+          "ced_review": "pending",
+          "attribution": "President Abraham Lincoln, in the Emancipation Proclamation, issued on January 1, 1863, during the Civil War",
+          "citation": "Abraham Lincoln, Proclamation of Emancipation (January 1, 1863), in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate. Project Gutenberg eBook #48364.",
+          "note": "The proclamation applied to the areas that the president named as being “in rebellion.” It did not name the four slave states that had stayed in the Union.",
+          "text": "I, ABRAHAM LINCOLN, President of the United States, by virtue of the power in me vested as Commander-in-Chief of the army and navy of the United States in time of actual armed rebellion against the authority and government of the United States, and as a fit and necessary war measure for suppressing said rebellion, do . . . order and designate, as the States and parts of States wherein the people thereof respectively are this day in rebellion against the United States, the following, to wit: . . . .\n\nAnd, by virtue of the power and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States and parts of States are and henceforth shall be free; and that the Executive Government of the United States, including the military and naval authorities thereof, will recognize and maintain the freedom of said persons.\n\nAnd I further declare and make known that such persons of suitable condition will be received into the armed service of the United States, to garrison forts, positions, stations, and other places, and to man vessels of all sorts in said service."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Explain how a specific historical development or process is situated within a broader historical context."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-5-9-quick",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-9",
+      "title": "Topic 5.9 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-5-9-q01",
+        "apush-5-9-q02",
+        "apush-5-9-q03"
+      ]
+    },
+    {
+      "id": "apush-5-9-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-9",
+      "title": "Government Policies During the Civil War topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-5-9-q01",
+        "apush-5-9-q02",
+        "apush-5-9-q03",
+        "apush-5-9-q04",
+        "apush-5-9-q05",
+        "apush-5-9-q06",
+        "apush-5-9-q07",
+        "apush-5-9-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "from-union-to-emancipation": {
+      "id": "from-union-to-emancipation",
+      "title": "From Union to emancipation",
+      "section": "from-union-to-emancipation",
+      "topicId": "apush-5-9"
+    },
+    "gettysburg-and-american-ideals": {
+      "id": "gettysburg-and-american-ideals",
+      "title": "Gettysburg and American ideals",
+      "section": "gettysburg-and-american-ideals",
+      "topicId": "apush-5-9"
+    },
+    "wartime-policies": {
+      "id": "wartime-policies",
+      "title": "Wartime policies and federal power",
+      "section": "wartime-policies",
+      "topicId": "apush-5-9"
+    }
+  },
+  "assets": {}
+}

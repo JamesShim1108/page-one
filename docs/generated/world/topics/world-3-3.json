@@ -290,7 +290,7 @@
       }
     ]
   },
-  "contentRevision": "3d91c55d48a3d1dd",
+  "contentRevision": "5afa4c539cc59c52",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-3-3",
@@ -430,55 +430,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "protestant-reformation",
-        "topicId": "world-3-3",
-        "term": "Protestant Reformation",
-        "definition": "The religious movement that began with Martin Luther in 1517 and created Christian churches separate from the Roman Catholic Church."
-      },
-      {
-        "id": "indulgences",
-        "topicId": "world-3-3",
-        "term": "indulgences",
-        "definition": "Grants from the Catholic Church said to reduce punishment for sins, whose sale Luther criticized."
-      },
-      {
-        "id": "council-of-trent",
-        "topicId": "world-3-3",
-        "term": "Council of Trent",
-        "definition": "A meeting of Catholic leaders from 1545 to 1563 that reaffirmed Catholic teachings and ordered reforms of Church abuses."
-      },
-      {
-        "id": "jesuits",
-        "topicId": "world-3-3",
-        "term": "Jesuits",
-        "definition": "Members of the Society of Jesus, a Catholic religious order founded in 1540 that ran schools and sent missionaries worldwide."
-      },
-      {
-        "id": "twelver-shiism",
-        "topicId": "world-3-3",
-        "term": "Twelver Shi'ism",
-        "definition": "The branch of Shi'a Islam that the Safavids made the state religion of Persia."
-      },
-      {
-        "id": "sikhism",
-        "topicId": "world-3-3",
-        "term": "Sikhism",
-        "definition": "A religion founded by Guru Nanak in the Punjab that teaches devotion to one God and rejects caste distinctions in worship."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-3-protestant-reformation",
-        "world-3-indulgences",
-        "world-3-council-of-trent",
-        "world-3-jesuits",
-        "world-3-twelver-shiism",
-        "world-3-sikhism"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -517,52 +469,7 @@
     ]
   },
   "bankPath": "world/banks/world-3-3.json",
-  "glossary": [
-    {
-      "id": "world-3-protestant-reformation",
-      "term": "Protestant Reformation",
-      "definition": "The religious movement that began with Martin Luther in 1517 and created Christian churches separate from the Roman Catholic Church.",
-      "aliases": [
-        "Reformation"
-      ],
-      "sourceLabel": "Topic 3.3 glossary"
-    },
-    {
-      "id": "world-3-indulgences",
-      "term": "indulgences",
-      "definition": "Grants from the Catholic Church said to reduce punishment for sins, whose sale Luther criticized.",
-      "aliases": [],
-      "sourceLabel": "Topic 3.3 glossary"
-    },
-    {
-      "id": "world-3-council-of-trent",
-      "term": "Council of Trent",
-      "definition": "A meeting of Catholic leaders from 1545 to 1563 that reaffirmed Catholic teachings and ordered reforms of Church abuses.",
-      "aliases": [],
-      "sourceLabel": "Topic 3.3 glossary"
-    },
-    {
-      "id": "world-3-jesuits",
-      "term": "Jesuits",
-      "definition": "Members of the Society of Jesus, a Catholic religious order founded in 1540 that ran schools and sent missionaries worldwide.",
-      "aliases": [],
-      "sourceLabel": "Topic 3.3 glossary"
-    },
-    {
-      "id": "world-3-twelver-shiism",
-      "term": "Twelver Shi'ism",
-      "definition": "The branch of Shi'a Islam that the Safavids made the state religion of Persia.",
-      "aliases": [],
-      "sourceLabel": "Topic 3.3 glossary"
-    },
-    {
-      "id": "world-3-sikhism",
-      "term": "Sikhism",
-      "definition": "A religion founded by Guru Nanak in the Punjab that teaches devotion to one God and rejects caste distinctions in worship.",
-      "aliases": [],
-      "sourceLabel": "Topic 3.3 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-3-3",

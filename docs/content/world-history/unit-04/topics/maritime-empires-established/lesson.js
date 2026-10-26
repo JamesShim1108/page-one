@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 4.4. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-04.js.
+// Original Page One lesson for CED Topic 4.4.
 
 export const lesson = {
   schemaVersion: 1,
@@ -116,53 +115,7 @@ export const lesson = {
       sourceIds: ["ced-topic-4-4"],
     },
   ],
-  vocabulary: [
-    {
-      id: "trading-post-empire",
-      topicId: "world-4-4",
-      term: "trading-post empire",
-      definition:
-        "An empire that controlled trade through fortified coastal ports rather than by ruling large territories.",
-    },
-    {
-      id: "joint-stock-company",
-      topicId: "world-4-4",
-      term: "joint-stock companies",
-      definition:
-        "Businesses that raised money by selling shares to investors, who shared profits and risks; some held state-like powers.",
-    },
-    {
-      id: "voc",
-      topicId: "world-4-4",
-      term: "VOC",
-      definition:
-        "The Dutch East India Company, a joint-stock company chartered in 1602 that controlled much of the spice trade.",
-    },
-    {
-      id: "kingdom-of-kongo",
-      topicId: "world-4-4",
-      term: "Kingdom of Kongo",
-      definition:
-        "A west-central African kingdom whose rulers adopted Christianity and traded with Portugal from the late 1400s.",
-    },
-    {
-      id: "asante",
-      topicId: "world-4-4",
-      term: "Asante",
-      definition:
-        "A West African kingdom that rose around 1700 and grew powerful through trade in gold and enslaved captives.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-4-trading-post-empire",
-      "world-4-joint-stock-company",
-      "world-4-voc",
-      "world-4-kingdom-of-kongo",
-      "world-4-asante",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

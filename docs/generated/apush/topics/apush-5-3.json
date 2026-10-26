@@ -1,0 +1,533 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-3",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 3,
+    "code": "5.3",
+    "title": "The Mexican–American War",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "Why the United States and Mexico went to war in 1846, how the war ended, and what the lands of the Mexican Cession meant for slavery, Mexicans, and American Indians."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "a2280a623bfa02d7",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-5-3",
+    "unitId": "apush-5",
+    "courseId": "apush",
+    "code": "5.3",
+    "title": "The Mexican–American War",
+    "period": "1844–1877",
+    "status": "ready",
+    "order": 3,
+    "summary": "Why the United States and Mexico went to war in 1846, how the war ended, and what the lands of the Mexican Cession meant for slavery, Mexicans, and American Indians.",
+    "minutes": 12,
+    "learningGoals": [
+      "Explain the causes of the Mexican–American War, including the dispute over the Texas border.",
+      "Explain the terms of the treaty that ended the war and the territory that the United States gained.",
+      "Explain how the war and the new lands affected slavery, Mexican Americans, and American Indians."
+    ],
+    "bigIdea": "The Mexican–American War gave the United States a vast new territory in the West, and the acquisition raised new questions about slavery and about the rights of the people who already lived there.",
+    "context": "The CED asks you to compare the arguments of two sources on this topic. As you read, notice who made each argument, when, and for what purpose, because the supporters and opponents of the war described the same events very differently.",
+    "sections": [
+      {
+        "id": "road-to-war",
+        "title": "Texas, the border, and the road to war",
+        "conceptTitle": "Texas, the border, and the road to war",
+        "lenses": [
+          "WOR",
+          "GEO",
+          "NAT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "After the United States annexed Texas, it and Mexico disagreed about the border. Mexico had never accepted the independence of Texas, and it claimed that Texas ended at the Nueces River, while the United States and Texas claimed the Rio Grande. In 1845 President Polk sent a diplomat, John Slidell, to try to buy California and New Mexico and to settle the border, and Mexico refused to receive him. In early 1846 Polk ordered General Zachary Taylor to move troops into the disputed land near the Rio Grande."
+          },
+          {
+            "type": "paragraph",
+            "text": "When fighting began in April 1846, Polk asked Congress to declare war, and Congress did so in May. Polk presented the war as a defense against invasion. In his message of December 1846 he said that Mexico had “invaded our territory” and had shed “the blood of our citizens on our own soil.”"
+          },
+          {
+            "type": "paragraph",
+            "text": "Not all Americans agreed. Many Whigs and antislavery Northerners argued that Polk had provoked the war in order to gain land that slaveholders could use. The writer Henry David Thoreau called the war “the work of comparatively a few individuals using the standing government as their tool.” Abraham Lincoln, then a congressman from Illinois, questioned whether the ground where the fighting began belonged to the United States."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Americans disagreed about who started the war. Polk's account is the account of one party to the dispute, and it should not be treated as settled fact."
+          }
+        ],
+        "takeaway": "A disputed border and Polk's willingness to use force led to a war that many Americans supported and many opposed."
+      },
+      {
+        "id": "victory-and-the-treaty",
+        "title": "Victory and the Treaty of Guadalupe Hidalgo",
+        "conceptTitle": "Victory and the Treaty of Guadalupe Hidalgo",
+        "lenses": [
+          "WOR",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The United States won by invading Mexico on several fronts. American forces took New Mexico and California, and General Winfield Scott landed at Veracruz and captured Mexico City in 1847. The Treaty of Guadalupe Hidalgo (1848) ended the war. Mexico accepted the Rio Grande as the southern boundary of Texas and gave up California and the lands of the Southwest, which together are called the Mexican Cession. In return the United States paid Mexico $15 million."
+          },
+          {
+            "type": "paragraph",
+            "text": "The United States added large territories in the West through victory in the Mexican–American War and diplomatic negotiations. In 1853 the Gadsden Purchase added a strip of land in present-day Arizona and New Mexico for $10 million, which made possible a southern route for a railroad to the Pacific."
+          }
+        ],
+        "takeaway": "The war and the treaties that followed added California and the Southwest and completed the nation's reach to the Pacific."
+      },
+      {
+        "id": "slavery-mexicans-and-american-indians",
+        "title": "Slavery, Mexicans, and American Indians in the new lands",
+        "conceptTitle": "Slavery, Mexicans, and American Indians in the new lands",
+        "lenses": [
+          "SOC",
+          "MIG",
+          "PCE"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The new territories raised questions about the status of slavery, American Indians, and Mexicans. In 1846 Representative David Wilmot proposed that slavery be banned in any land acquired from Mexico. The Wilmot Proviso passed the House but not the Senate, and the vote divided Northerners from Southerners, which is the subject of Topic 5.4."
+          },
+          {
+            "type": "paragraph",
+            "text": "The treaty promised the Mexicans who stayed in the territory the opportunity to become United States citizens and the protection of their property. In practice many Mexican Americans lost their land through lawsuits, taxes, and violence, and they faced discrimination. Government interaction and conflict with Mexican Americans and American Indians increased in regions newly taken from American Indians and Mexico, which altered the economic self-sufficiency and cultures of these groups. The Navajo, Apache, and Comanche peoples faced new pressure from settlers and soldiers, and the Native peoples of California suffered violence and disease during the Gold Rush."
+          }
+        ],
+        "takeaway": "The new lands renewed the dispute over slavery and cost Mexican Americans and American Indians land and independence."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 5.4",
+        "title": "A new debate over slavery",
+        "body": "The Mexican Cession made the question of slavery in the territories the central issue in national politics. Topic 5.4 follows the Compromise of 1850.",
+        "transferQuestion": "Why did the acquisition of land from Mexico revive a debate that the Missouri Compromise had seemed to settle?",
+        "feedback": "A strong answer notes that the Missouri Compromise drew a line only through the Louisiana Purchase, so it did not cover the Mexican Cession, and that the balance of free and slave states was again at stake.",
+        "links": [
+          {
+            "topicId": "apush-4-3",
+            "sectionId": "missouri-compromise",
+            "label": "Review the Missouri Compromise"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "polk-1846",
+      "thoreau-1849"
+    ]
+  },
+  "bankPath": "apush/banks/apush-5-3.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    },
+    {
+      "id": "polk-1846",
+      "label": "James K. Polk, Second Annual Message to Congress (1846), in State of the Union Addresses of James Polk, Project Gutenberg eBook #5019",
+      "url": "https://www.gutenberg.org/ebooks/5019",
+      "note": "Public-domain text of the primary source quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against this edition."
+    },
+    {
+      "id": "thoreau-1849",
+      "label": "Henry David Thoreau, Resistance to Civil Government, later titled On the Duty of Civil Disobedience (1849), Project Gutenberg eBook #71",
+      "url": "https://www.gutenberg.org/ebooks/71",
+      "note": "Public-domain text of the primary source quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against this edition."
+    }
+  ],
+  "assets": {}
+}

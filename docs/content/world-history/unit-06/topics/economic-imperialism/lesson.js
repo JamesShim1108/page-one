@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 6.5. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-06.js.
+// Original Page One lesson for CED Topic 6.5.
 
 export const lesson = {
   schemaVersion: 1,
@@ -67,37 +66,7 @@ export const lesson = {
       sourceIds: ["ced-topic-6-5"],
     },
   ],
-  vocabulary: [
-    {
-      id: "unequal-treaties",
-      topicId: "world-6-5",
-      term: "unequal treaties",
-      definition:
-        "Treaties forced on China and other states that gave foreign powers privileges without equal benefits in return.",
-    },
-    {
-      id: "spheres-of-influence",
-      topicId: "world-6-5",
-      term: "spheres of influence",
-      definition:
-        "Areas within a country where a foreign power held special economic rights.",
-    },
-    {
-      id: "economic-imperialism",
-      topicId: "world-6-5",
-      term: "economic imperialism",
-      definition:
-        "Control of another country's economy by foreign businesses or governments without formal colonial rule.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-6-unequal-treaties",
-      "world-6-spheres-of-influence",
-      "world-6-economic-imperialism",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.8. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.8.
 
 export const lesson = {
   schemaVersion: 1,
@@ -85,45 +84,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-8"],
     },
   ],
-  vocabulary: [
-    {
-      id: "labor-unions",
-      topicId: "world-5-8",
-      term: "labor unions",
-      definition:
-        "Organizations of workers formed to bargain with employers for better wages, hours, and conditions.",
-    },
-    {
-      id: "socialism",
-      topicId: "world-5-8",
-      term: "Socialism",
-      definition:
-        "An economic and political system in which workers or society as a whole own the means of production.",
-    },
-    {
-      id: "self-strengthening-movement",
-      topicId: "world-5-8",
-      term: "Self-Strengthening Movement",
-      definition:
-        "A Qing reform effort of the 1860s to the 1890s that adopted Western military technology while preserving Confucian institutions.",
-    },
-    {
-      id: "tanzimat",
-      topicId: "world-5-8",
-      term: "Tanzimat",
-      definition:
-        "Ottoman reforms from 1839 to 1876 that modernized the army, courts, and schools and declared legal equality for subjects.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-5-labor-unions",
-      "world-5-socialism",
-      "world-5-self-strengthening-movement",
-      "world-5-tanzimat",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

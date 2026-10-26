@@ -1,0 +1,538 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-10",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 10,
+    "code": "3.10",
+    "title": "Shaping a New Republic",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "How Washington and Adams put the Constitution into practice, why disputes over economics and foreign policy produced the first political parties, and how the new nation dealt with Britain, Spain, France, and American Indian nations."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "0a8734592c7f55da",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-3-10",
+    "unitId": "apush-3",
+    "courseId": "apush",
+    "code": "3.10",
+    "title": "Shaping a New Republic",
+    "period": "1754–1800",
+    "status": "ready",
+    "order": 10,
+    "summary": "How Washington and Adams put the Constitution into practice, why disputes over economics and foreign policy produced the first political parties, and how the new nation dealt with Britain, Spain, France, and American Indian nations.",
+    "minutes": 16,
+    "learningGoals": [
+      "Explain the institutions and precedents created under Washington and Adams.",
+      "Explain the positions of Federalists and Democratic-Republicans and why parties formed.",
+      "Explain how competition with European powers and American Indian nations shaped policy toward borders and trade."
+    ],
+    "bigIdea": "In the 1790s the new government built lasting institutions, and disagreements over the nation's economy, foreign policy, and the meaning of the Constitution gave rise to political parties.",
+    "context": "The CED asks you to explain how competition intensified conflicts among peoples and nations and how political ideas, institutions, and party systems developed. Keep the domestic and the foreign sides together, because the French Revolution drove both.",
+    "sections": [
+      {
+        "id": "institutions-and-precedents",
+        "title": "Washington, Adams, and institutions",
+        "conceptTitle": "Washington, Adams, and institutions",
+        "lenses": [
+          "PCE",
+          "WOR"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "During the presidential administrations of George Washington and John Adams, political leaders created institutions and precedents that put the principles of the Constitution into practice. Washington took office in 1789. He appointed department heads, including Alexander Hamilton as Secretary of the Treasury and Thomas Jefferson as Secretary of State, who met with him as a cabinet. The Judiciary Act of 1789 established the federal court system."
+          },
+          {
+            "type": "paragraph",
+            "text": "Hamilton proposed a financial program to strengthen the national government and its credit. It called for the federal government to pay the national debt and to assume the states' war debts, to create a national bank, and to raise revenue through tariffs and an excise tax on whiskey. His supporters saw a program that would build the nation's economy, while opponents saw a program that favored merchants and speculators and expanded federal power. In 1794 farmers in western Pennsylvania resisted the whiskey tax in the Whiskey Rebellion, and Washington led a large militia force to the region, which demonstrated that the federal government could enforce its laws."
+          },
+          {
+            "type": "paragraph",
+            "text": "Washington's Farewell Address, published in 1796, encouraged national unity, as he cautioned against political factions and warned about the danger of permanent foreign alliances. Washington decided not to seek a third term, setting a precedent that lasted more than a century."
+          }
+        ],
+        "takeaway": "Washington and Adams made the Constitution work by creating departments, courts, a financial system, and precedents."
+      },
+      {
+        "id": "parties-and-foreign-policy",
+        "title": "Parties and foreign policy",
+        "conceptTitle": "Parties and foreign policy",
+        "lenses": [
+          "PCE",
+          "WOR"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Political leaders in the 1790s took a variety of positions on issues such as the relationship between the national government and the states, economic policy, foreign policy, and the balance between liberty and order. This led to the formation of political parties, most significantly the Federalists, led by Alexander Hamilton, and the Democratic-Republican Party, led by Thomas Jefferson and James Madison. Federalists favored a strong national government, commerce and manufacturing, and friendly ties with Britain. Democratic-Republicans favored limited national government, a strict reading of the Constitution, agriculture, and sympathy for France."
+          },
+          {
+            "type": "paragraph",
+            "text": "War between France and Britain resulting from the French Revolution presented challenges to the United States over issues of free trade and foreign policy and fostered political disagreement. Washington issued a Neutrality Proclamation in 1793, but Britain seized American ships and sailors. Jay's Treaty of 1794 settled some disputes and led Britain to remove troops from forts in the Northwest, but it was unpopular with Democratic-Republicans, who thought it favored Britain. Under Pinckney's Treaty of 1795, Spain recognized American rights to navigate the Mississippi River and to store goods at New Orleans, and settled the southern boundary."
+          },
+          {
+            "type": "paragraph",
+            "text": "Under President Adams, relations with France worsened. In the XYZ Affair, French agents demanded bribes from American diplomats, and an undeclared naval conflict called the Quasi-War followed. The Federalist Congress passed the Alien and Sedition Acts in 1798, which lengthened the residency required for citizenship, allowed the president to deport noncitizens judged dangerous, and made it a crime to publish false or malicious statements against the government. Democratic-Republicans saw the laws as attacks on their party and on freedom of speech. Jefferson and Madison replied with the Virginia and Kentucky Resolutions, which argued that states could judge the constitutionality of federal laws."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Washington warned against political parties, yet the parties formed during his own presidency. Do not treat the Farewell Address as describing a world without parties."
+          }
+        ],
+        "takeaway": "Disputes over the national government's power, the economy, and the French Revolution divided leaders into the first two political parties."
+      },
+      {
+        "id": "borders-and-american-indians",
+        "title": "Borders, American Indians, and Spanish California",
+        "conceptTitle": "Borders, American Indians, and Spanish California",
+        "lenses": [
+          "MIG",
+          "WOR",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The U.S. government forged diplomatic initiatives aimed at dealing with the continued British and Spanish presence in North America, as U.S. settlers migrated beyond the Appalachians and sought free navigation of the Mississippi River. Pinckney's Treaty addressed the Mississippi question, and Jay's Treaty addressed the British forts."
+          },
+          {
+            "type": "paragraph",
+            "text": "An ambiguous relationship between the federal government and American Indian tribes contributed to problems regarding treaties and American Indian legal claims relating to the seizure of their lands. The Constitution gave Congress authority over commerce with the tribes, and the government made treaties with them, but states, settlers, and speculators often ignored those agreements. After a Native confederacy in the Ohio country defeated U.S. armies in the early 1790s, General Anthony Wayne defeated it at Fallen Timbers in 1794, and in the Treaty of Greenville of 1795 the tribes gave up much of present-day Ohio."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the West, the Spanish, supported by the bonded labor of the local American Indians, expanded their mission settlements into California. These missions provided opportunities for social mobility for soldiers and led to new cultural blending, even as Native people suffered from disease and forced labor."
+          }
+        ],
+        "takeaway": "The United States used treaties and force to secure its borders and the Ohio country, while Spain expanded missions in California."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 3.11",
+        "title": "A new national identity",
+        "body": "Political institutions were one part of a new national identity. Topic 3.11 follows American culture, art, and literature.",
+        "transferQuestion": "Why did Hamilton's financial program and the French Revolution both deepen the divisions between Federalists and Democratic-Republicans?",
+        "feedback": "A strong answer links Hamilton's program to disputes over federal power, and the French Revolution to disputes over foreign policy and ties to Britain or France.",
+        "links": [
+          {
+            "topicId": "apush-3-9",
+            "sectionId": "federalism",
+            "label": "Review federalism"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced"
+    ]
+  },
+  "bankPath": "apush/banks/apush-3-10.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    }
+  ],
+  "assets": {}
+}

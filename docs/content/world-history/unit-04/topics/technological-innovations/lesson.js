@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 4.1. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-04.js.
+// Original Page One lesson for CED Topic 4.1.
 
 export const lesson = {
   schemaVersion: 1,
@@ -95,45 +94,7 @@ export const lesson = {
       sourceIds: ["ced-topic-4-1"],
     },
   ],
-  vocabulary: [
-    {
-      id: "astrolabe",
-      topicId: "world-4-1",
-      term: "astrolabe",
-      definition:
-        "An instrument, refined in the Islamic world, that measures the angle of the sun or stars to help find latitude.",
-    },
-    {
-      id: "lateen-sail",
-      topicId: "world-4-1",
-      term: "lateen sail",
-      definition:
-        "A triangular sail, long used in the Indian Ocean and Mediterranean, that lets a ship sail closer to the direction of the wind.",
-    },
-    {
-      id: "caravel",
-      topicId: "world-4-1",
-      term: "caravel",
-      definition:
-        "A small, maneuverable Portuguese ship with square and lateen sails, used for exploring the African coast.",
-    },
-    {
-      id: "fluyt",
-      topicId: "world-4-1",
-      term: "fluyt",
-      definition:
-        "A Dutch cargo ship designed to carry large loads with a small crew, which lowered shipping costs.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-4-astrolabe",
-      "world-4-lateen-sail",
-      "world-4-caravel",
-      "world-4-fluyt",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

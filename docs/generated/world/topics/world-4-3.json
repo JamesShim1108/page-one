@@ -314,7 +314,7 @@
       }
     ]
   },
-  "contentRevision": "417f2aacaea0b9fc",
+  "contentRevision": "b8fba7580dff403a",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-4-3",
@@ -420,34 +420,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "columbian-exchange",
-        "topicId": "world-4-3",
-        "term": "Columbian Exchange",
-        "definition": "The transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres after 1492."
-      },
-      {
-        "id": "smallpox",
-        "topicId": "world-4-3",
-        "term": "smallpox",
-        "definition": "A contagious disease from Afro-Eurasia that killed huge numbers of Indigenous people in the Americas after 1492."
-      },
-      {
-        "id": "manioc",
-        "topicId": "world-4-3",
-        "term": "manioc",
-        "definition": "A starchy root crop, also called cassava, first domesticated in the Americas, that became a staple food in Africa."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-4-columbian-exchange",
-        "world-4-smallpox",
-        "world-4-manioc"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -471,31 +444,7 @@
     ]
   },
   "bankPath": "world/banks/world-4-3.json",
-  "glossary": [
-    {
-      "id": "world-4-columbian-exchange",
-      "term": "Columbian Exchange",
-      "definition": "The transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres after 1492.",
-      "aliases": [
-        "the exchange"
-      ],
-      "sourceLabel": "Topic 4.3 glossary"
-    },
-    {
-      "id": "world-4-smallpox",
-      "term": "smallpox",
-      "definition": "A contagious disease from Afro-Eurasia that killed huge numbers of Indigenous people in the Americas after 1492.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.3 glossary"
-    },
-    {
-      "id": "world-4-manioc",
-      "term": "manioc",
-      "definition": "A starchy root crop, also called cassava, first domesticated in the Americas, that became a staple food in Africa.",
-      "aliases": [],
-      "sourceLabel": "Topic 4.3 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-4-3",

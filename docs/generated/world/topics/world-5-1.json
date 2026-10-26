@@ -328,7 +328,7 @@
       }
     ]
   },
-  "contentRevision": "79557410329894da",
+  "contentRevision": "a98eab8831654299",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-5-1",
@@ -405,48 +405,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "natural-rights",
-        "topicId": "world-5-1",
-        "term": "natural rights",
-        "definition": "Rights that people have by nature, such as life, liberty, and property, which governments must protect."
-      },
-      {
-        "id": "social-contract",
-        "topicId": "world-5-1",
-        "term": "social contract",
-        "definition": "The idea that government is based on an agreement among people, who give up some freedom in exchange for order and protection of their rights."
-      },
-      {
-        "id": "separation-of-powers",
-        "topicId": "world-5-1",
-        "term": "separation of powers",
-        "definition": "Montesquieu's idea that government power should be divided among branches so no one branch becomes too strong."
-      },
-      {
-        "id": "suffrage",
-        "topicId": "world-5-1",
-        "term": "suffrage",
-        "definition": "The right to vote in political elections."
-      },
-      {
-        "id": "abolitionists",
-        "topicId": "world-5-1",
-        "term": "Abolitionists",
-        "definition": "Reformers who worked to end the slave trade and slavery."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-5-natural-rights",
-        "world-5-social-contract",
-        "world-5-separation-of-powers",
-        "world-5-suffrage",
-        "world-5-abolitionists"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -470,43 +429,7 @@
     ]
   },
   "bankPath": "world/banks/world-5-1.json",
-  "glossary": [
-    {
-      "id": "world-5-natural-rights",
-      "term": "natural rights",
-      "definition": "Rights that people have by nature, such as life, liberty, and property, which governments must protect.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.1 glossary"
-    },
-    {
-      "id": "world-5-social-contract",
-      "term": "social contract",
-      "definition": "The idea that government is based on an agreement among people, who give up some freedom in exchange for order and protection of their rights.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.1 glossary"
-    },
-    {
-      "id": "world-5-separation-of-powers",
-      "term": "separation of powers",
-      "definition": "Montesquieu's idea that government power should be divided among branches so no one branch becomes too strong.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.1 glossary"
-    },
-    {
-      "id": "world-5-suffrage",
-      "term": "suffrage",
-      "definition": "The right to vote in political elections.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.1 glossary"
-    },
-    {
-      "id": "world-5-abolitionists",
-      "term": "Abolitionists",
-      "definition": "Reformers who worked to end the slave trade and slavery.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.1 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-5-1",

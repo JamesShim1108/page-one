@@ -10,20 +10,21 @@ const root = new URL("../", import.meta.url);
 const readGenerated = async (path) =>
   JSON.parse(await readFile(new URL(`docs/generated/${path}`, root), "utf8"));
 
-test("Unit 2 and its guide emit selected, source-backed definition coverage", async () => {
-  for (let number = 1; number <= 7; number += 1) {
-    const page = await readGenerated(`world/topics/world-2-${number}.json`);
-    assert.equal(page.lesson.definitionCoverage.status, "required");
+test("AP Precalculus pages emit selected, source-backed definition coverage", async () => {
+  for (let number = 1; number <= 3; number += 1) {
+    const page = await readGenerated(`precalculus/topics/precalculus-1-${number}.json`);
     assert.ok(page.glossary.length > 0);
     for (const concept of page.glossary) {
-      assert.ok(concept.sourceIds.length > 0);
-      assert.ok(concept.sourceLocators.length > 0);
-      assert.ok(concept.verificationNote);
+      assert.ok(concept.sourceLabel);
+      assert.equal(typeof concept.definition, "string");
     }
   }
+});
+
+test("World History has no reading definitions, so it declares no definition coverage", async () => {
   const guide = await readGenerated("world/guides/world-2.json");
-  assert.equal(guide.guide.definitionCoverage.status, "required");
-  assert.ok(guide.glossary.length >= 10);
+  assert.equal(guide.guide.definitionCoverage, undefined);
+  assert.deepEqual(guide.glossary, []);
 });
 
 test("a future course glossary fixture uses shared coverage validation", () => {

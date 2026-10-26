@@ -1,0 +1,1063 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-10",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 10,
+    "code": "3.10",
+    "title": "Shaping a New Republic",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "How Washington and Adams put the Constitution into practice, why disputes over economics and foreign policy produced the first political parties, and how the new nation dealt with Britain, Spain, France, and American Indian nations."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "0a8734592c7f55da",
+  "questions": [
+    {
+      "id": "apush-3-10-q01",
+      "topicId": "apush-3-10",
+      "concept": "institutions-and-precedents",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.L",
+      "keyConcepts": [
+        "KC-3.2.III.A"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Which of the following was a way in which Washington's administration put the Constitution into practice?",
+      "choices": [
+        "Washington ruled by proclamation and refused to sign any bill that Congress had passed during his presidency",
+        "Washington let Congress appoint the heads of the executive departments and approve each of his decisions",
+        "Washington appointed department heads who met with him as a cabinet, and Congress created the federal courts",
+        "Washington asked the states to select a council of governors to advise him in place of a cabinet"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The first president and Congress created departments, courts, and customs that turned the Constitution's text into a working government.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Washington signed bills and worked with Congress.",
+        "The president appointed department heads with the Senate's approval.",
+        "The first president and Congress created departments, courts, and customs that turned the Constitution's text into a working government.",
+        "Washington relied on a cabinet of department heads."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Congress-appoints choice is close because Congress approves nominations, but the president makes them.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-10-q02",
+      "topicId": "apush-3-10",
+      "concept": "institutions-and-precedents",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.L",
+      "keyConcepts": [
+        "KC-3.2.III.A"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Alexander Hamilton's financial program for the new nation included",
+      "choices": [
+        "paying the national debt, assuming state war debts, and creating a national bank",
+        "ending all tariffs and taxes, refusing to repay the war debt, and relying on loans from the states",
+        "abolishing the national debt by printing paper money that states were required to accept at its face value",
+        "dividing the war debt among the states and eliminating all national control of trade and taxation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hamilton believed a strong financial system would strengthen the national government and its credit.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Hamilton believed a strong financial system would strengthen the national government and its credit.",
+        "Hamilton's program called for repaying the debt and raising revenue.",
+        "Hamilton proposed paying the debt and not printing money to cancel it.",
+        "Hamilton wanted the national government to assume state debts."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The dividing-the-debt choice is close because it concerns state debts, but Hamilton proposed national assumption of them.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-10-q03",
+      "topicId": "apush-3-10",
+      "concept": "institutions-and-precedents",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.L",
+      "keyConcepts": [
+        "KC-3.2.III.A"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "The Whiskey Rebellion of 1794 was significant because Washington",
+      "choices": [
+        "agreed to repeal the excise tax after farmers threatened to leave the nation and join Spain",
+        "asked the state of Pennsylvania to settle the dispute because the national government lacked authority",
+        "dismissed Hamilton for having proposed the tax and replaced him with Thomas Jefferson",
+        "led a large militia force to western Pennsylvania, which showed that the government could enforce its laws"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The rebellion tested the new government's power, and the federal response contrasted with the failure to deal with Shays' Rebellion under the Articles.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The government enforced the tax and put down the resistance.",
+        "The national government asserted its own authority.",
+        "Hamilton remained in office until 1795.",
+        "The rebellion tested the new government's power, and the federal response contrasted with the failure to deal with Shays' Rebellion under the Articles."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The state-settles choice is close because the Articles relied on the states, but the Constitution gave the nation its own authority.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-10-q04",
+      "topicId": "apush-3-10",
+      "concept": "parties-and-foreign-policy",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "3.L",
+      "keyConcepts": [
+        "KC-3.2.III.B"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Which of the following was a difference between the Federalists and the Democratic-Republicans in the 1790s?",
+      "choices": [
+        "Federalists favored a weak national government and ties with France, while Democratic-Republicans favored strong national power and ties with Britain",
+        "Federalists favored a strong national government and ties with Britain, while Democratic-Republicans favored limited national power and sympathized with France",
+        "Federalists wanted to end slavery and expand voting rights, while Democratic-Republicans wanted to protect slavery and limit voting",
+        "Federalists wanted to abolish the Constitution and return to the Articles, while Democratic-Republicans wanted to preserve it"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The parties formed around disagreements over the power of the national government, the economy, and foreign policy.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This reverses the positions of the two parties.",
+        "The parties formed around disagreements over the power of the national government, the economy, and foreign policy.",
+        "Neither party was organized around these positions.",
+        "Federalists supported the Constitution."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The reversed choice is close because it uses the same issues, but it swaps the positions of the two parties.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-10-q05",
+      "topicId": "apush-3-10",
+      "concept": "parties-and-foreign-policy",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.K",
+      "keyConcepts": [
+        "KC-3.3.II.B"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Which of the following best explains why the war between Britain and France was a challenge for the United States in the 1790s?",
+      "choices": [
+        "Both powers sent armies into the United States and demanded that Americans join them in the war",
+        "Both powers demanded that the United States repay its war debts in full within one year",
+        "Both powers agreed to divide the Northwest Territory between them, and the United States objected",
+        "Both powers seized American ships, and Americans were divided over which side to favor"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The conflict endangered American neutral trade and deepened the split between those who favored Britain and those who favored France.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Neither power invaded the United States in the 1790s.",
+        "Foreign debts were not the main issue in these disputes.",
+        "The powers did not divide the territory.",
+        "The conflict endangered American neutral trade and deepened the split between those who favored Britain and those who favored France."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The armies choice is close because the war was a threat, but the main challenge came at sea and in politics.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-10-q06",
+      "topicId": "apush-3-10",
+      "concept": "borders-and-american-indians",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.K",
+      "keyConcepts": [
+        "KC-3.3.II.A"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Under Pinckney's Treaty of 1795, Spain",
+      "choices": [
+        "recognized American rights to navigate the Mississippi River and to store goods at New Orleans",
+        "agreed to withdraw its forts from the Northwest Territory and to end its trade with Native nations",
+        "gave Florida and Louisiana to the United States in return for American neutrality in the war with Britain",
+        "closed the Mississippi River to American shipping in order to pressure the United States to ally with Spain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The treaty gave western settlers the access to markets that they wanted.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The treaty gave western settlers the access to markets that they wanted.",
+        "Britain, not Spain, kept the Northwest forts, and Jay's Treaty addressed them.",
+        "Spain did not give up these lands in 1795.",
+        "The treaty opened the river, which Spain had closed in 1784."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Northwest-forts choice is close because it was also a border issue in 1794–1795, but it was settled with Britain through Jay's Treaty.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-10-q07",
+      "topicId": "apush-3-10",
+      "concept": "institutions-and-precedents",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.K",
+      "keyConcepts": [
+        "KC-3.3.II.C"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "In his Farewell Address, George Washington",
+      "choices": [
+        "urged Americans to form two strong political parties to protect liberty from the central government",
+        "encouraged national unity and warned against political factions and permanent foreign alliances",
+        "called for a permanent alliance with France as a reward for French help in the Revolutionary War",
+        "announced that he would seek a third term in order to complete the Hamilton financial program"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Washington feared that factions and foreign entanglements would divide and endanger the nation.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Washington warned against parties.",
+        "Washington feared that factions and foreign entanglements would divide and endanger the nation.",
+        "Washington warned against permanent alliances.",
+        "Washington declined to run for a third term."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The French alliance choice is close because France had aided the Revolution, but Washington warned against permanent alliances.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-10-q08",
+      "topicId": "apush-3-10",
+      "concept": "borders-and-american-indians",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.K",
+      "keyConcepts": [
+        "KC-3.3.I.D"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "The Battle of Fallen Timbers in 1794 and the Treaty of Greenville in 1795 resulted in",
+      "choices": [
+        "the recognition of the Ohio country as an independent Native nation protected by the United States",
+        "the expulsion of British troops from Canada by a joint American and Native army in the war",
+        "the defeat of a Native confederacy and the cession of much of present-day Ohio to the United States",
+        "the creation of a Native reservation in the Ohio country that settlers were forbidden to enter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The defeat of the Native confederacy at Fallen Timbers led to a treaty in which the tribes gave up land, which opened Ohio to settlement.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The tribes gave up much of the land.",
+        "The battle was fought in the Ohio country, and Britain stayed in Canada.",
+        "The defeat of the Native confederacy at Fallen Timbers led to a treaty in which the tribes gave up land, which opened Ohio to settlement.",
+        "The treaty opened much of Ohio to settlement."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The independent-nation choice is close because the treaty did recognize tribes, but they gave up much of their land.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-10-q09",
+      "topicId": "apush-3-10",
+      "concept": "borders-and-american-indians",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.K",
+      "keyConcepts": [
+        "KC-3.3.I.E"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Which of the following describes the Spanish missions in California in the late 1700s?",
+      "choices": [
+        "They were self-governing settlements in which Native peoples and Spanish soldiers held equal political rights",
+        "They were trading posts run by French merchants who exchanged furs with Native peoples for manufactured goods",
+        "They were military forts that the United States built to defend its western border against Spanish expansion",
+        "They were supported by the bonded labor of local American Indians, gave soldiers opportunities for mobility, and led to cultural blending"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The missions expanded Spanish power in California, and they blended Spanish and Native cultures even as Native people suffered from forced labor and disease.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The missions relied on the bonded labor of Native peoples.",
+        "The missions were Spanish settlements.",
+        "The missions were built by Spain, not by the United States.",
+        "The missions expanded Spanish power in California, and they blended Spanish and Native cultures even as Native people suffered from forced labor and disease."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The equal-rights choice is close because cultural blending occurred, but Native people worked under compulsion.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-10-t01",
+      "topicId": "apush-3-10",
+      "concept": "parties-and-foreign-policy",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "3.L",
+      "keyConcepts": [
+        "KC-3.2.III.B"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Which of the following statements about the first political parties is best supported by the table?",
+      "choices": [
+        "Both parties supported a national bank, but they disagreed over where it should be located",
+        "Both parties wanted closer ties with France, but they disagreed over trade with Britain",
+        "The parties disagreed over the power of the national government, the economy, and foreign policy",
+        "Federalists wanted a strict reading of the Constitution, while Democratic-Republicans wanted a broad reading"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The table lists contrasting positions on federal power, the economy, foreign policy, and the Constitution.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The table shows that Democratic-Republicans opposed the bank.",
+        "The table shows the parties favored different foreign partners.",
+        "The table lists contrasting positions on federal power, the economy, foreign policy, and the Constitution.",
+        "The table shows that Federalists favored a broad reading."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The strict-reading choice is close because it uses the same issue, but it swaps the two positions.",
+      "stimulusId": "original-parties-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-parties-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 3.10, KC-3.2.III.B: political leaders in the 1790s took differing positions that led to the formation of political parties",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the early republic",
+          "caption": "Positions of the first political parties, 1790s",
+          "columns": [
+            "Issue",
+            "Federalists",
+            "Democratic-Republicans"
+          ],
+          "rows": [
+            [
+              "Role of the national government",
+              "Favored a strong national government",
+              "Favored limiting national power and protecting the states"
+            ],
+            [
+              "Economy",
+              "Supported a national bank and policies that helped commerce and manufacturing",
+              "Opposed the national bank and favored an economy of small farmers"
+            ],
+            [
+              "Foreign policy",
+              "Favored closer ties with Britain",
+              "Favored closer ties with France"
+            ],
+            [
+              "Reading of the Constitution",
+              "Interpreted the Constitution broadly",
+              "Interpreted the Constitution strictly"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 3.10 reading."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-3-10-t02",
+      "topicId": "apush-3-10",
+      "concept": "parties-and-foreign-policy",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "3.L",
+      "keyConcepts": [
+        "KC-3.2.III.B"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Which of the following was a difference between the two parties on the economy, as shown in the table?",
+      "choices": [
+        "Federalists supported a national bank and commerce, while Democratic-Republicans favored small farmers",
+        "Federalists favored an economy of small farmers, while Democratic-Republicans supported a national bank",
+        "Federalists opposed manufacturing, while Democratic-Republicans supported new factories in the cities",
+        "Federalists wanted free trade with all nations, while Democratic-Republicans wanted high tariffs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Federalists, led by Hamilton, favored policies that helped commerce, and Democratic-Republicans, led by Jefferson, favored an economy of small farmers.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Federalists, led by Hamilton, favored policies that helped commerce, and Democratic-Republicans, led by Jefferson, favored an economy of small farmers.",
+        "This reverses the positions in the table.",
+        "The table shows that Federalists supported manufacturing.",
+        "The table does not show these positions on trade."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The reversed choice is close because it uses the same topics, but it swaps the two positions.",
+      "stimulusId": "original-parties-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-parties-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 3.10, KC-3.2.III.B: political leaders in the 1790s took differing positions that led to the formation of political parties",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the early republic",
+          "caption": "Positions of the first political parties, 1790s",
+          "columns": [
+            "Issue",
+            "Federalists",
+            "Democratic-Republicans"
+          ],
+          "rows": [
+            [
+              "Role of the national government",
+              "Favored a strong national government",
+              "Favored limiting national power and protecting the states"
+            ],
+            [
+              "Economy",
+              "Supported a national bank and policies that helped commerce and manufacturing",
+              "Opposed the national bank and favored an economy of small farmers"
+            ],
+            [
+              "Foreign policy",
+              "Favored closer ties with Britain",
+              "Favored closer ties with France"
+            ],
+            [
+              "Reading of the Constitution",
+              "Interpreted the Constitution broadly",
+              "Interpreted the Constitution strictly"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 3.10 reading."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-10-t03",
+      "topicId": "apush-3-10",
+      "concept": "parties-and-foreign-policy",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.K",
+      "keyConcepts": [
+        "KC-3.3.II.B"
+      ],
+      "themes": [
+        "WOR",
+        "PCE"
+      ],
+      "prompt": "Which of the following events most directly contributed to the disagreement over foreign policy shown in the table?",
+      "choices": [
+        "The Treaty of Paris of 1783, which ended the Revolutionary War and recognized independence",
+        "The wars between Britain and France that followed the French Revolution",
+        "The Northwest Ordinance of 1787, which set rules for organizing the territory north of the Ohio River",
+        "The Great Compromise of 1787, which settled how states would be represented in Congress"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The conflict between Britain and France forced Americans to decide whom to favor, and the parties divided over the answer.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The treaty ended the war between Britain and the United States.",
+        "The conflict between Britain and France forced Americans to decide whom to favor, and the parties divided over the answer.",
+        "The ordinance concerned western territory.",
+        "The compromise concerned representation in Congress."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Treaty of Paris choice is close because it involved Britain, but it came a decade before the divisions over France.",
+      "stimulusId": "original-parties-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-parties-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 3.10, KC-3.2.III.B: political leaders in the 1790s took differing positions that led to the formation of political parties",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the early republic",
+          "caption": "Positions of the first political parties, 1790s",
+          "columns": [
+            "Issue",
+            "Federalists",
+            "Democratic-Republicans"
+          ],
+          "rows": [
+            [
+              "Role of the national government",
+              "Favored a strong national government",
+              "Favored limiting national power and protecting the states"
+            ],
+            [
+              "Economy",
+              "Supported a national bank and policies that helped commerce and manufacturing",
+              "Opposed the national bank and favored an economy of small farmers"
+            ],
+            [
+              "Foreign policy",
+              "Favored closer ties with Britain",
+              "Favored closer ties with France"
+            ],
+            [
+              "Reading of the Constitution",
+              "Interpreted the Constitution broadly",
+              "Interpreted the Constitution strictly"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 3.10 reading."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-3-10-quick",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-10",
+      "title": "Topic 3.10 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-3-10-q01",
+        "apush-3-10-q02",
+        "apush-3-10-q03"
+      ]
+    },
+    {
+      "id": "apush-3-10-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-10",
+      "title": "Shaping a New Republic topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-3-10-q01",
+        "apush-3-10-q02",
+        "apush-3-10-q03",
+        "apush-3-10-q04",
+        "apush-3-10-q05",
+        "apush-3-10-q06",
+        "apush-3-10-q07",
+        "apush-3-10-q08",
+        "apush-3-10-q09"
+      ]
+    }
+  ],
+  "concepts": {
+    "institutions-and-precedents": {
+      "id": "institutions-and-precedents",
+      "title": "Washington, Adams, and institutions",
+      "section": "institutions-and-precedents",
+      "topicId": "apush-3-10"
+    },
+    "parties-and-foreign-policy": {
+      "id": "parties-and-foreign-policy",
+      "title": "Parties and foreign policy",
+      "section": "parties-and-foreign-policy",
+      "topicId": "apush-3-10"
+    },
+    "borders-and-american-indians": {
+      "id": "borders-and-american-indians",
+      "title": "Borders, American Indians, and Spanish California",
+      "section": "borders-and-american-indians",
+      "topicId": "apush-3-10"
+    }
+  },
+  "assets": {}
+}

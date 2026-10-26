@@ -1,0 +1,999 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-1",
+    "courseId": "apush",
+    "number": 1,
+    "title": "Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "description": "Follow Native American societies, European exploration, the Columbian Exchange, and the Spanish empire from 1491 to 1607.",
+    "quizzes": [
+      {
+        "id": "apush-1-practice",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-1-1",
+            "questionIds": [
+              "apush-1-1-q01",
+              "apush-1-1-q04",
+              "apush-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-q01",
+              "apush-1-2-q04",
+              "apush-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-q01",
+              "apush-1-3-q04",
+              "apush-1-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-q01",
+              "apush-1-4-q04",
+              "apush-1-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-q01",
+              "apush-1-5-q04",
+              "apush-1-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-q01",
+              "apush-1-6-q04",
+              "apush-1-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-q01",
+              "apush-1-7-q04",
+              "apush-1-7-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-1-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-t01",
+              "apush-1-2-t02",
+              "apush-1-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-t01",
+              "apush-1-3-t02",
+              "apush-1-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-t01",
+              "apush-1-4-t02",
+              "apush-1-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-t01",
+              "apush-1-5-t02",
+              "apush-1-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t01",
+              "apush-1-6-t02",
+              "apush-1-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t04",
+              "apush-1-6-t05",
+              "apush-1-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-t01",
+              "apush-1-7-t02",
+              "apush-1-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-1-practice-test",
+      "title": "Unit 1 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-1-1-quiz",
+        "title": "Contextualizing Period 1 topic quiz"
+      },
+      {
+        "id": "apush-1-2-quiz",
+        "title": "Native American Societies Before European Contact topic quiz"
+      },
+      {
+        "id": "apush-1-3-quiz",
+        "title": "European Exploration in the Americas topic quiz"
+      },
+      {
+        "id": "apush-1-4-quiz",
+        "title": "Columbian Exchange, Spanish Exploration, and Conquest topic quiz"
+      },
+      {
+        "id": "apush-1-5-quiz",
+        "title": "Labor, Slavery, and Caste in the Spanish Colonial System topic quiz"
+      },
+      {
+        "id": "apush-1-6-quiz",
+        "title": "Cultural Interactions Between Europeans, Native Americans, and Africans topic quiz"
+      },
+      {
+        "id": "apush-1-7-quiz",
+        "title": "Causation in Period 1 topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "apush-1-1",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Contextualizing Period 1",
+      "period": "1491–1607",
+      "status": "ready",
+      "summary": "What a historical context is, and the Native American, European, and African developments that framed the encounters of 1491 to 1607."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-1-saq-01",
+        "title": "Unit 1 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-saq-02",
+        "title": "Unit 1 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-leq-change",
+        "title": "LEQ: Contact and change in Native societies",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-1-6",
+    "courseId": "apush",
+    "unitId": "apush-1",
+    "order": 6,
+    "code": "1.6",
+    "title": "Cultural Interactions Between Europeans, Native Americans, and Africans",
+    "period": "1491–1607",
+    "status": "ready",
+    "summary": "How Europeans, Native Americans, and Africans misunderstood and borrowed from one another, how Native peoples defended their lands, and how Spanish leaders argued over the treatment of Native peoples."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "3890ee13f6e589bb",
+  "questions": [
+    {
+      "id": "apush-1-6-q01",
+      "topicId": "apush-1-6",
+      "concept": "misunderstandings-and-borrowing",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following was a common source of misunderstanding between Europeans and Native Americans in the early years of contact?",
+      "choices": [
+        "Native societies viewed land as property that individuals could own and sell, while Europeans recognized shared rights to use it",
+        "Europeans viewed land as property that individuals could own and sell, while many Native societies recognized shared rights to use it",
+        "Europeans and Native Americans both viewed land as shared, but they disagreed about which crops to plant on it",
+        "Europeans refused to trade with Native peoples because they believed trade would weaken their claims to the land"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Many Europeans assumed land could be bought and owned outright, while many Native peoples saw agreements as sharing use of land, not giving it up forever.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This reverses the two views; Europeans favored individual ownership.",
+        "Many Europeans assumed land could be bought and owned outright, while many Native peoples saw agreements as sharing use of land, not giving it up forever.",
+        "The disagreement concerned ownership and use of land, not which crops to plant.",
+        "Europeans eagerly sought trade, and trade was not a reason for misunderstanding in this way."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The near miss reverses the two views; individual ownership was the European assumption.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-6-q02",
+      "topicId": "apush-1-6",
+      "concept": "misunderstandings-and-borrowing",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Many European colonists criticized Native societies in which women did most of the farming because",
+      "choices": [
+        "European custom treated farming as men's work, so colonists judged Native gender roles as improper",
+        "European custom barred women from all economic activity, so colonists judged Native women to be too powerful",
+        "Colonists believed that farming harmed the land, so they preferred that Native women gather wild foods instead",
+        "Native women's farming produced too little food to feed colonists, who therefore refused to trade for it"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In European custom men farmed, so seeing Native women farm while men hunted led many colonists to see Native societies as disordered.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "In European custom men farmed, so seeing Native women farm while men hunted led many colonists to see Native societies as disordered.",
+        "European women did work, especially in households and on farms; the objection was about who should farm.",
+        "Colonists were farmers themselves and wanted farming to expand.",
+        "Native farming often fed colonists, and Europeans traded for maize."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "European women did work, but the colonists' complaint was that farming belonged to men, not that women should not work.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-6-q03",
+      "topicId": "apush-1-6",
+      "concept": "misunderstandings-and-borrowing",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best illustrates cultural borrowing between Europeans and Native Americans in the early period of contact?",
+      "choices": [
+        "Native peoples adopted European legal codes, and Europeans adopted Native weapons as their main arms",
+        "Europeans adopted Native languages for government business, and Native peoples adopted European farm crops",
+        "Europeans adopted Native crops such as maize, and Native peoples acquired metal tools and firearms",
+        "Both groups avoided the other's technology and crops in order to protect their own traditions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both sides adopted things they found useful: Europeans took up Native foods and knowledge, and Native peoples gained metal tools, cloth, and firearms.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Europeans kept their own legal codes, and Native peoples did not abandon their own governments.",
+        "Colonies continued to use European languages for government.",
+        "Both sides adopted things they found useful: Europeans took up Native foods and knowledge, and Native peoples gained metal tools, cloth, and firearms.",
+        "Contact involved much borrowing of useful goods, crops, and technology by both sides."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Borrowing was selective and practical, so claiming complete adoption of laws or languages overstates what happened.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-6-q04",
+      "topicId": "apush-1-6",
+      "concept": "diplomacy-and-resistance",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.B"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best describes how Native peoples responded to growing European demands on their land and labor?",
+      "choices": [
+        "They relied only on military resistance and rejected every offer of trade and every alliance with Europeans",
+        "They accepted Spanish rule and Christianity at once, and few defended their lands in any way",
+        "They moved away from the coasts and had little contact with Europeans for the next century",
+        "They used both diplomacy, such as alliances and trade, and military resistance to defend their sovereignty"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Native peoples negotiated, traded, and formed alliances, and they also fought when they judged it necessary.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Many Native leaders negotiated, traded, and formed alliances, so resistance was not purely military.",
+        "Native peoples defended their lands, beliefs, and independence in many ways.",
+        "Native peoples and Europeans were in frequent contact through trade, diplomacy, and conflict.",
+        "Native peoples negotiated, traded, and formed alliances, and they also fought when they judged it necessary."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Military resistance did occur, but saying it was the only response ignores the many negotiations and alliances.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-6-q05",
+      "topicId": "apush-1-6",
+      "concept": "diplomacy-and-resistance",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "causation",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.B"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "The alliance between the Tlaxcalans and Hernán Cortés illustrates which of the following?",
+      "choices": [
+        "Native peoples across Mexico united against the Spanish and drove Cortés out of the Aztec capital",
+        "Some Native peoples allied with Europeans to pursue their own political goals against rivals",
+        "Native peoples accepted Spanish culture and religion completely, and abandoned their own political interests",
+        "Spanish rulers shared power equally with Native leaders in exchange for military service"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Tlaxcalans resented Aztec tribute and joined the Spanish to pursue their own interests.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Many Native peoples joined or aided the Spanish rather than uniting against them.",
+        "The Tlaxcalans resented Aztec tribute and joined the Spanish to pursue their own interests.",
+        "The Tlaxcalans acted on their own political interests, which included defeating the Aztecs.",
+        "The alliance did not lead to equal power sharing; Spain went on to rule Mexico."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Not every Native people opposed Spain, because rivalries among Native states led some to ally with Cortés.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-1-6-q06",
+      "topicId": "apush-1-6",
+      "concept": "debate-over-treatment",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Bartolomé de las Casas is best known for",
+      "choices": [
+        "arguing that Native peoples were naturally inferior and could justly be conquered and forced to work",
+        "leading a Native uprising against Spanish colonists in the Caribbean and demanding independence",
+        "condemning the brutal treatment of Native peoples under Spanish rule and arguing that they should be protected",
+        "conquering the Inca Empire and ordering its subjects to accept Christianity and Spanish law"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Las Casas, a Dominican friar, wrote about the abuse of Native peoples and urged the Crown to protect them.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That was the position of Juan Ginés de Sepúlveda, his opponent in the Valladolid debate.",
+        "Las Casas was a Spanish friar, not a leader of an uprising.",
+        "Las Casas, a Dominican friar, wrote about the abuse of Native peoples and urged the Crown to protect them.",
+        "Pizarro, not Las Casas, led the conquest of the Inca Empire."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The near miss describes Sepúlveda, who took the opposite side in the debate with Las Casas.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-1-6-q07",
+      "topicId": "apush-1-6",
+      "concept": "debate-over-treatment",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best describes the difference between the positions of Las Casas and Sepúlveda in the Spanish debate over Native peoples?",
+      "choices": [
+        "Las Casas argued that Native peoples should not be converted to Christianity, while Sepúlveda argued that they should be",
+        "Las Casas argued that Spain had no right to any land in the Americas, while Sepúlveda argued that Spain should leave",
+        "Las Casas argued for enslaving Native peoples to protect them, while Sepúlveda argued for freeing them to farm",
+        "Las Casas defended Native peoples as rational and worthy of protection, while Sepúlveda called them inferior and fit to be ruled"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Las Casas defended Native peoples as rational human beings, while Sepúlveda called them naturally inferior and defended conquest.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Las Casas supported conversion, though by persuasion and not by force.",
+        "Neither man argued that Spain should give up the Americas.",
+        "Las Casas opposed the abuse of Native workers, and Sepúlveda defended conquest and forced labor.",
+        "Las Casas defended Native peoples as rational human beings, while Sepúlveda called them naturally inferior and defended conquest."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Both men supported Christianity, so the difference was in whether force and forced labor could be justified.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-1-6-q08",
+      "topicId": "apush-1-6",
+      "concept": "debate-over-treatment",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "continuity",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Over the course of the 1500s, Europeans who defended the subjugation of Africans and Native Americans increasingly relied on arguments that were",
+      "choices": [
+        "religious, cultural, and racial, claiming that the people they ruled were inferior or in need of conversion",
+        "legal and economic, claiming that Africans and Native Americans had agreed to serve under signed labor contracts",
+        "scientific, relying on measurements of the human body that Spanish scholars conducted in universities",
+        "political, claiming that Native and African leaders had asked European monarchs to govern them"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Defenders of conquest and slavery combined religious, cultural, and racial claims to justify their rule.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Defenders of conquest and slavery combined religious, cultural, and racial claims to justify their rule.",
+        "Enslaved Africans did not sign contracts, and Native peoples were pressed into labor by force.",
+        "Racial thought of this period was not based on modern scientific measurements.",
+        "Defenders of conquest used religious and cultural claims, not claims that rulers had asked for European rule."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The near misses describe arguments that were not used; the justifications rested on religion, culture, and race.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-1-6-t01",
+      "topicId": "apush-1-6",
+      "concept": "misunderstandings-and-borrowing",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "subskill": "2.B",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best explains the likely purpose of Harriot's report?",
+      "choices": [
+        "To warn English readers that epidemics made settlement in Virginia too dangerous to attempt",
+        "To argue that the English should leave Native peoples alone and abandon their plans for colonies",
+        "To record the religious beliefs of Native peoples for use by scholars in English universities",
+        "To encourage English investment in and settlement of Virginia by describing the land and its people"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Harriot sailed with an English colonizing expedition, and his report on the \"new found land\" described its resources and people to encourage investment and settlement.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The excerpt describes disease, but a report on a \"new found land\" by an expedition member was meant to promote settlement.",
+        "Harriot was a member of an English colonizing expedition and favored settlement.",
+        "Harriot wrote about Native peoples to inform and persuade potential investors and settlers.",
+        "Harriot sailed with an English colonizing expedition, and his report on the \"new found land\" described its resources and people to encourage investment and settlement."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The report does describe disease, but its author and title point to a purpose of promoting colonization and not discouraging it.",
+      "stimulusId": "harriot-disease",
+      "stimulusBlocks": [
+        {
+          "id": "harriot-disease",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 1.4, KC-1.2.II.A, and Topic 1.6, KC-1.2.III.A: epidemics among Native peoples and the beliefs each side formed about the other",
+          "ced_review": "pending",
+          "attribution": "Thomas Harriot, English scientist and member of the 1585 Roanoke expedition, A Briefe and True Report of the New Found Land of Virginia, 1588",
+          "citation": "Thomas Harriot, A Briefe and True Report of the New Found Land of Virginia (London, 1588), section on the nature and manners of the people. Project Gutenberg eBook #4247.",
+          "note": "Spelling is as printed in 1588: “vs” means “us,” “euerie” means “every,” and “wee” means “we.” “Wiroans” was Harriot’s word for a chief.",
+          "text": "There was no towne where we had any subtile deuise practised against vs, we leauing it vnpunished or not reuenged (because wee sought by all meanes possible to win them by gentlenesse) but that within a few dayes after our departure from euerie such towne, the people began to die very fast, and many in short space; in some townes about twentie, in some fourtie, in some sixtie, & in one sixe score, which in trueth was very manie in respect of their numbers. . . . The disease also so strange, that they neither knew what it was, nor how to cure it; the like by the report of the oldest men in the countrey neuer happened before, time out of minde.\n\nInsomuch that when some of the inhabitantes which were our friends & especially the 'Wiroans Wingina' had obserued such effects in foure or fiue towns to follow their wicked practises, they were preswaded that it was the worke of our God through our meanes, and that wee by him might kil and slai whom we would without weapons and not come neere them."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Explain the point of view, purpose, historical situation, and/or audience of a source."
+    },
+    {
+      "id": "apush-1-6-t02",
+      "topicId": "apush-1-6",
+      "concept": "misunderstandings-and-borrowing",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following claims about Native peoples does Harriot make in the excerpt?",
+      "choices": [
+        "Some of them explained the strange sickness as the work of the English and their God",
+        "They quickly learned to treat the disease and passed their cures on to the English",
+        "They blamed the sickness on rival Native peoples and refused to deal with the English afterward",
+        "They had suffered the same disease many times before and were not alarmed by its arrival"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Harriot reports that Wingina and others were persuaded that the English God had caused the deaths.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Harriot reports that Wingina and others were persuaded that the English God had caused the deaths.",
+        "Harriot says they neither knew what the disease was nor how to cure it.",
+        "Harriot says friendly leaders such as Wingina believed the English God had caused it.",
+        "Harriot says the oldest men reported that nothing like it had happened before."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The excerpt shows Native peoples reading the sickness through their own beliefs about the newcomers, and not treating or ignoring it.",
+      "stimulusId": "harriot-disease",
+      "stimulusBlocks": [
+        {
+          "id": "harriot-disease",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 1.4, KC-1.2.II.A, and Topic 1.6, KC-1.2.III.A: epidemics among Native peoples and the beliefs each side formed about the other",
+          "ced_review": "pending",
+          "attribution": "Thomas Harriot, English scientist and member of the 1585 Roanoke expedition, A Briefe and True Report of the New Found Land of Virginia, 1588",
+          "citation": "Thomas Harriot, A Briefe and True Report of the New Found Land of Virginia (London, 1588), section on the nature and manners of the people. Project Gutenberg eBook #4247.",
+          "note": "Spelling is as printed in 1588: “vs” means “us,” “euerie” means “every,” and “wee” means “we.” “Wiroans” was Harriot’s word for a chief.",
+          "text": "There was no towne where we had any subtile deuise practised against vs, we leauing it vnpunished or not reuenged (because wee sought by all meanes possible to win them by gentlenesse) but that within a few dayes after our departure from euerie such towne, the people began to die very fast, and many in short space; in some townes about twentie, in some fourtie, in some sixtie, & in one sixe score, which in trueth was very manie in respect of their numbers. . . . The disease also so strange, that they neither knew what it was, nor how to cure it; the like by the report of the oldest men in the countrey neuer happened before, time out of minde.\n\nInsomuch that when some of the inhabitantes which were our friends & especially the 'Wiroans Wingina' had obserued such effects in foure or fiue towns to follow their wicked practises, they were preswaded that it was the worke of our God through our meanes, and that wee by him might kil and slai whom we would without weapons and not come neere them."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-1-6-t03",
+      "topicId": "apush-1-6",
+      "concept": "diplomacy-and-resistance",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.II.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "The events described in the excerpt are best understood in the context of which of the following?",
+      "choices": [
+        "Rivalry between England and Spain over claims to North America in the late 1500s",
+        "The Spanish use of the encomienda system to obtain Native labor in the Caribbean and Mexico in the early 1500s",
+        "The spread of Old World diseases to Native peoples who had no immunity after contact with Europeans",
+        "The Treaty of Tordesillas, which divided the lands of the Americas between Spain and Portugal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Native towns suffered sudden deaths after contact with the English, as with Old World diseases elsewhere in the Americas.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This rivalry is part of the context for Roanoke, but it does not explain the sudden deaths in Native towns.",
+        "The excerpt concerns English contact with Native peoples, not the Spanish labor system.",
+        "Native towns suffered sudden deaths after contact with the English, as with Old World diseases elsewhere in the Americas.",
+        "The treaty did not cause or explain the epidemics Harriot describes."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Rivalry with Spain helps explain why the English were at Roanoke, but the deaths themselves are explained by disease.",
+      "stimulusId": "harriot-disease",
+      "stimulusBlocks": [
+        {
+          "id": "harriot-disease",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 1.4, KC-1.2.II.A, and Topic 1.6, KC-1.2.III.A: epidemics among Native peoples and the beliefs each side formed about the other",
+          "ced_review": "pending",
+          "attribution": "Thomas Harriot, English scientist and member of the 1585 Roanoke expedition, A Briefe and True Report of the New Found Land of Virginia, 1588",
+          "citation": "Thomas Harriot, A Briefe and True Report of the New Found Land of Virginia (London, 1588), section on the nature and manners of the people. Project Gutenberg eBook #4247.",
+          "note": "Spelling is as printed in 1588: “vs” means “us,” “euerie” means “every,” and “wee” means “we.” “Wiroans” was Harriot’s word for a chief.",
+          "text": "There was no towne where we had any subtile deuise practised against vs, we leauing it vnpunished or not reuenged (because wee sought by all meanes possible to win them by gentlenesse) but that within a few dayes after our departure from euerie such towne, the people began to die very fast, and many in short space; in some townes about twentie, in some fourtie, in some sixtie, & in one sixe score, which in trueth was very manie in respect of their numbers. . . . The disease also so strange, that they neither knew what it was, nor how to cure it; the like by the report of the oldest men in the countrey neuer happened before, time out of minde.\n\nInsomuch that when some of the inhabitantes which were our friends & especially the 'Wiroans Wingina' had obserued such effects in foure or fiue towns to follow their wicked practises, they were preswaded that it was the worke of our God through our meanes, and that wee by him might kil and slai whom we would without weapons and not come neere them."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-1-6-t04",
+      "topicId": "apush-1-6",
+      "concept": "misunderstandings-and-borrowing",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best states Harriot's claim about the reaction of Native peoples to English instruments and tools?",
+      "choices": [
+        "They were so frightened that most of them refused to touch the objects or speak with the English",
+        "They were so impressed that many came to think English religion might be truer than their own",
+        "They quickly learned to build the instruments themselves and no longer relied on the English",
+        "They regarded the objects as worthless and held on firmly to their own beliefs about the gods"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Harriot says Native peoples thought the objects were the works of gods and began to give credit to what the English said about religion.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Harriot says many were eager to learn more from the English.",
+        "Harriot says Native peoples thought the objects were the works of gods and began to give credit to what the English said about religion.",
+        "Harriot says the objects exceeded their ability to understand how they were made.",
+        "Harriot says the objects led many to doubt their own traditions."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Harriot reports curiosity and doubt, not fear or rejection, as the reaction to English instruments.",
+      "stimulusId": "harriot-religion",
+      "stimulusBlocks": [
+        {
+          "id": "harriot-religion",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 1.6, KC-1.2.III.A: mutual misunderstandings and the beliefs each side formed about the other",
+          "ced_review": "pending",
+          "attribution": "Thomas Harriot, English scientist and member of the 1585 Roanoke expedition, A Briefe and True Report of the New Found Land of Virginia, 1588",
+          "citation": "Thomas Harriot, A Briefe and True Report of the New Found Land of Virginia (London, 1588), section on the nature and manners of the people. Project Gutenberg eBook #4247.",
+          "note": "Spelling is as printed in 1588: “vs” means “us,” “vnto” means “unto,” and “woorkes” means “works.”",
+          "text": "Most thinges they sawe with vs, as Mathematicall instruments, sea compasses, the vertue of the loadstone in drawing yron, a perspectiue glasse whereby was shewed manie strange sightes, burning glasses, wildefire woorkes, gunnes, bookes, writing and reading, spring clocks that seeme to goe of themselues, and manie other thinges that wee had, were so straunge vnto them, and so farre exceeded their capacities to comprehend the reason and meanes how they should be made and done, that they thought they were rather the works of gods then of men, or at the leastwise they had bin giuen and taught vs of the gods. Which made manie of them to haue such opinions of vs, as that if they knew not the trueth of god and religion already, it was rather to be had from vs, whom God so specially loued then from a people that were so simple, as they found themselues to be in comparison of vs. Whereupon greater credite was giuen vnto that we spake of concerning such matters."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-1-6-t05",
+      "topicId": "apush-1-6",
+      "concept": "misunderstandings-and-borrowing",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "subskill": "2.C",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.A"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following is a limitation of the excerpt as evidence of Native religious beliefs?",
+      "choices": [
+        "Harriot wrote many years after his visit to Virginia and relied mostly on the memories of other colonists",
+        "Harriot never met a Native American, and he based his description on stories told in Spain",
+        "Harriot was an English colonizer hoping to spread Christianity, so he may have overstated Native interest",
+        "Harriot was a Native priest whose English translation was edited by colonial officials"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Harriot's goals as a colonizer and Christian shaped how he described Native reactions, so his account reflects English hopes.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Harriot published in 1588, soon after his time in Virginia in 1585 and 1586.",
+        "Harriot lived among Native peoples and learned some of their language.",
+        "Harriot's goals as a colonizer and Christian shaped how he described Native reactions, so his account reflects English hopes.",
+        "Harriot was an Englishman, as the attribution states."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The report is an eyewitness account, but one written by an outsider with a reason to stress Native interest in Christianity.",
+      "stimulusId": "harriot-religion",
+      "stimulusBlocks": [
+        {
+          "id": "harriot-religion",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 1.6, KC-1.2.III.A: mutual misunderstandings and the beliefs each side formed about the other",
+          "ced_review": "pending",
+          "attribution": "Thomas Harriot, English scientist and member of the 1585 Roanoke expedition, A Briefe and True Report of the New Found Land of Virginia, 1588",
+          "citation": "Thomas Harriot, A Briefe and True Report of the New Found Land of Virginia (London, 1588), section on the nature and manners of the people. Project Gutenberg eBook #4247.",
+          "note": "Spelling is as printed in 1588: “vs” means “us,” “vnto” means “unto,” and “woorkes” means “works.”",
+          "text": "Most thinges they sawe with vs, as Mathematicall instruments, sea compasses, the vertue of the loadstone in drawing yron, a perspectiue glasse whereby was shewed manie strange sightes, burning glasses, wildefire woorkes, gunnes, bookes, writing and reading, spring clocks that seeme to goe of themselues, and manie other thinges that wee had, were so straunge vnto them, and so farre exceeded their capacities to comprehend the reason and meanes how they should be made and done, that they thought they were rather the works of gods then of men, or at the leastwise they had bin giuen and taught vs of the gods. Which made manie of them to haue such opinions of vs, as that if they knew not the trueth of god and religion already, it was rather to be had from vs, whom God so specially loued then from a people that were so simple, as they found themselues to be in comparison of vs. Whereupon greater credite was giuen vnto that we spake of concerning such matters."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Explain the significance of a source’s point of view, purpose, historical situation, and/or audience, including how these might limit the use(s) of a source."
+    },
+    {
+      "id": "apush-1-6-t06",
+      "topicId": "apush-1-6",
+      "concept": "debate-over-treatment",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "1.F",
+      "keyConcepts": [
+        "KC-1.2.III.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "The attitude toward Native peoples expressed in the excerpt is most similar to which of the following in Spanish America?",
+      "choices": [
+        "Missionaries' belief that Native peoples should be taught Christianity as part of colonization",
+        "Colonists' decision to import enslaved Africans to replace Native workers in the mines",
+        "Sepúlveda's argument that Native peoples were naturally inferior and could justly be conquered",
+        "Las Casas's claim that Spanish colonists had no right to hold any land in the Americas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Harriot hoped to share Christian teachings with Native peoples, as Spanish missionaries did in their colonies.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Harriot hoped to share Christian teachings with Native peoples, as Spanish missionaries did in their colonies.",
+        "The excerpt does not discuss labor, and importing enslaved Africans was an economic decision.",
+        "Harriot describes teaching and persuasion, not conquest on the grounds of natural inferiority.",
+        "Las Casas condemned abuse, but he did not argue that Spain should give up its claims."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Both Harriot and Sepúlveda saw Native peoples as inferior in religion, but Harriot's emphasis is on teaching and persuading and not on conquest.",
+      "stimulusId": "harriot-religion",
+      "stimulusBlocks": [
+        {
+          "id": "harriot-religion",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 1.6, KC-1.2.III.A: mutual misunderstandings and the beliefs each side formed about the other",
+          "ced_review": "pending",
+          "attribution": "Thomas Harriot, English scientist and member of the 1585 Roanoke expedition, A Briefe and True Report of the New Found Land of Virginia, 1588",
+          "citation": "Thomas Harriot, A Briefe and True Report of the New Found Land of Virginia (London, 1588), section on the nature and manners of the people. Project Gutenberg eBook #4247.",
+          "note": "Spelling is as printed in 1588: “vs” means “us,” “vnto” means “unto,” and “woorkes” means “works.”",
+          "text": "Most thinges they sawe with vs, as Mathematicall instruments, sea compasses, the vertue of the loadstone in drawing yron, a perspectiue glasse whereby was shewed manie strange sightes, burning glasses, wildefire woorkes, gunnes, bookes, writing and reading, spring clocks that seeme to goe of themselues, and manie other thinges that wee had, were so straunge vnto them, and so farre exceeded their capacities to comprehend the reason and meanes how they should be made and done, that they thought they were rather the works of gods then of men, or at the leastwise they had bin giuen and taught vs of the gods. Which made manie of them to haue such opinions of vs, as that if they knew not the trueth of god and religion already, it was rather to be had from vs, whom God so specially loued then from a people that were so simple, as they found themselues to be in comparison of vs. Whereupon greater credite was giuen vnto that we spake of concerning such matters."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-1-6-quick",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-6",
+      "title": "Topic 1.6 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-1-6-q01",
+        "apush-1-6-q02",
+        "apush-1-6-q03"
+      ]
+    },
+    {
+      "id": "apush-1-6-quiz",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "topicId": "apush-1-6",
+      "title": "Cultural Interactions Between Europeans, Native Americans, and Africans topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-1-6-q01",
+        "apush-1-6-q02",
+        "apush-1-6-q03",
+        "apush-1-6-q04",
+        "apush-1-6-q05",
+        "apush-1-6-q06",
+        "apush-1-6-q07",
+        "apush-1-6-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "misunderstandings-and-borrowing": {
+      "id": "misunderstandings-and-borrowing",
+      "title": "Misunderstandings and borrowing",
+      "section": "misunderstandings-and-borrowing",
+      "topicId": "apush-1-6"
+    },
+    "diplomacy-and-resistance": {
+      "id": "diplomacy-and-resistance",
+      "title": "Diplomacy and resistance",
+      "section": "diplomacy-and-resistance",
+      "topicId": "apush-1-6"
+    },
+    "debate-over-treatment": {
+      "id": "debate-over-treatment",
+      "title": "The Spanish debate over treatment",
+      "section": "debate-over-treatment",
+      "topicId": "apush-1-6"
+    }
+  },
+  "assets": {}
+}

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 8.1. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-08.js.
+// Original Page One lesson for CED Topic 8.1.
 
 export const lesson = {
   schemaVersion: 1,
@@ -73,37 +72,7 @@ export const lesson = {
       sourceIds: ["ced-topic-8-1"],
     },
   ],
-  vocabulary: [
-    {
-      id: "united-nations",
-      topicId: "world-8-1",
-      term: "United Nations",
-      definition:
-        "An international organization founded in 1945 to keep peace and promote cooperation among nations.",
-    },
-    {
-      id: "self-determination",
-      topicId: "world-8-1",
-      term: "self-determination",
-      definition:
-        "The right of a people to choose their own government and political status.",
-    },
-    {
-      id: "decolonization",
-      topicId: "world-8-1",
-      term: "decolonization",
-      definition:
-        "The process by which colonies won independence from imperial powers, mostly between 1945 and 1975.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-8-united-nations",
-      "world-8-self-determination",
-      "world-8-decolonization",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

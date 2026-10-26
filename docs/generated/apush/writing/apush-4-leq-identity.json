@@ -1,0 +1,537 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-4",
+    "courseId": "apush",
+    "number": 4,
+    "title": "Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "description": "Follow the rise of party politics and a more participatory democracy, the market revolution, westward expansion and foreign policy, the Second Great Awakening and reform, and the growth of slavery from 1800 to 1848.",
+    "quizzes": [
+      {
+        "id": "apush-4-practice",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-4-1",
+            "questionIds": [
+              "apush-4-1-q01",
+              "apush-4-1-q04",
+              "apush-4-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-q01",
+              "apush-4-2-q04",
+              "apush-4-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-q01",
+              "apush-4-3-q04",
+              "apush-4-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-q01",
+              "apush-4-4-q04",
+              "apush-4-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-q01",
+              "apush-4-5-q04",
+              "apush-4-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-6",
+            "questionIds": [
+              "apush-4-6-q01",
+              "apush-4-6-q04",
+              "apush-4-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-q01",
+              "apush-4-7-q04",
+              "apush-4-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-q01",
+              "apush-4-8-q04",
+              "apush-4-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-9",
+            "questionIds": [
+              "apush-4-9-q01",
+              "apush-4-9-q04",
+              "apush-4-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-10",
+            "questionIds": [
+              "apush-4-10-q01",
+              "apush-4-10-q04",
+              "apush-4-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-q01",
+              "apush-4-11-q04",
+              "apush-4-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-q01",
+              "apush-4-12-q04",
+              "apush-4-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-13",
+            "questionIds": [
+              "apush-4-13-q01",
+              "apush-4-13-q04",
+              "apush-4-13-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-14",
+            "questionIds": [
+              "apush-4-14-q01",
+              "apush-4-14-q04",
+              "apush-4-14-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-4-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-t01",
+              "apush-4-2-t02",
+              "apush-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-t01",
+              "apush-4-3-t02",
+              "apush-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-t01",
+              "apush-4-4-t02",
+              "apush-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-t01",
+              "apush-4-5-t02",
+              "apush-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-t01",
+              "apush-4-7-t02",
+              "apush-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-t01",
+              "apush-4-8-t02",
+              "apush-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-t01",
+              "apush-4-11-t02",
+              "apush-4-11-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-t01",
+              "apush-4-12-t02",
+              "apush-4-12-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 24
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-4-1-quiz",
+        "title": "Contextualizing Period 4 topic quiz"
+      },
+      {
+        "id": "apush-4-2-quiz",
+        "title": "The Rise of Political Parties and the Era of Jefferson topic quiz"
+      },
+      {
+        "id": "apush-4-3-quiz",
+        "title": "Politics and Regional Interests topic quiz"
+      },
+      {
+        "id": "apush-4-4-quiz",
+        "title": "America on the World Stage topic quiz"
+      },
+      {
+        "id": "apush-4-5-quiz",
+        "title": "Market Revolution: Industrialization topic quiz"
+      },
+      {
+        "id": "apush-4-6-quiz",
+        "title": "Market Revolution: Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-4-7-quiz",
+        "title": "Expanding Democracy topic quiz"
+      },
+      {
+        "id": "apush-4-8-quiz",
+        "title": "Jackson and Federal Power topic quiz"
+      },
+      {
+        "id": "apush-4-9-quiz",
+        "title": "The Development of an American Culture topic quiz"
+      },
+      {
+        "id": "apush-4-10-quiz",
+        "title": "The Second Great Awakening topic quiz"
+      },
+      {
+        "id": "apush-4-11-quiz",
+        "title": "An Age of Reform topic quiz"
+      },
+      {
+        "id": "apush-4-12-quiz",
+        "title": "African Americans in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-13-quiz",
+        "title": "The Society of the South in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-14-quiz",
+        "title": "Causation in Period 4 topic quiz"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "apush-4-1",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "period": "1800–1848",
+      "status": "ready",
+      "summary": "The context for Period 4: a more participatory democracy and a new national culture, an economy transformed by innovation, and a nation that expanded westward and argued over slavery, 1800–1848."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-saq-02",
+        "title": "Unit 4 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-leq-identity",
+        "title": "LEQ: Did economic change create a national identity?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "quiz": {
+    "id": "apush-4-leq-identity",
+    "version": 1,
+    "courseId": "apush",
+    "unitId": "apush-4",
+    "title": "LEQ: Did economic change create a national identity?",
+    "headline": "Did economic change create a national identity?",
+    "promptTitle": "Long essay question",
+    "prompt": "Between 1800 and 1848, canals, steamboats, railroads, and new machines transformed the American economy and the way that regions did business with each other. Evaluate the extent to which economic change promoted a sense of national identity in the United States in the period 1800 to 1848. Your response may focus on any aspect of economic change, such as transportation, manufacturing, agriculture, or the cotton economy, and on any region or regions. You are not expected to address the entire time period in your response.",
+    "instructions": "In your response you should do the following: Respond to the prompt with a historically defensible thesis or claim that establishes a line of reasoning. Describe a broader historical context relevant to the prompt. Support an argument in response to the prompt using at least two pieces of specific and relevant evidence. Use historical reasoning (e.g., comparison, causation, continuity or change) to frame or structure an argument that addresses the prompt. Demonstrate a complex understanding of a historical development related to the prompt through sophisticated argumentation and/or effective use of evidence.",
+    "note": "Original Page One practice in AP format. Rubric criteria follow the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
+    "exerciseType": "leq",
+    "reasoning": "causation",
+    "examOnly": false,
+    "sourceIds": [
+      "ced"
+    ],
+    "responseFields": [
+      {
+        "id": "outline",
+        "label": "Optional outline",
+        "prompt": "Plan your claim, context, evidence, and reasoning before drafting.",
+        "required": false,
+        "rows": 6,
+        "help": "Optional planning notes; the essay is the required response.",
+        "review": [
+          {
+            "topicId": "apush-4-14",
+            "sectionId": "economics-and-society",
+            "label": "Review economic change as a cause of identity"
+          }
+        ]
+      },
+      {
+        "id": "essay",
+        "label": "Essay response",
+        "prompt": "Write the full essay. Make the line of reasoning visible and explain why each example supports the claim.",
+        "required": true,
+        "rows": 16,
+        "help": "Informational word count only. No automatic grading.",
+        "review": [
+          {
+            "topicId": "apush-4-14",
+            "sectionId": "how-to-reason-about-causation",
+            "label": "Review how to reason about causation"
+          }
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "id": "thesis",
+        "label": "Thesis/Claim",
+        "points": 1,
+        "guidance": "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. The thesis must make a claim that responds to the prompt rather than restating or rephrasing the prompt, and must be one or more sentences in one place, in either the introduction or the conclusion."
+      },
+      {
+        "id": "context",
+        "label": "Contextualization",
+        "points": 1,
+        "guidance": "Describes a broader historical context relevant to the prompt: events, developments, or processes that occur before, during, or continue after the time frame of the prompt. Not awarded for merely a phrase or reference."
+      },
+      {
+        "id": "evidence",
+        "label": "Evidence",
+        "points": 2,
+        "guidance": "1 point: provides specific examples of at least two pieces of evidence relevant to the topic of the prompt. 2 points: supports an argument in response to the prompt using at least two pieces of specific and relevant evidence."
+      },
+      {
+        "id": "analysis",
+        "label": "Analysis and Reasoning",
+        "points": 2,
+        "guidance": "1 point: uses historical reasoning (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt; the reasoning may be uneven. 2 points: demonstrates a complex understanding of the historical development that is the focus of the prompt through sophisticated argumentation and/or effective use of evidence. With evidence, that can mean explaining how at least four pieces of specific evidence support a nuanced argument. A complex understanding can come from sophisticated argumentation (explaining multiple themes or perspectives; multiple causes or effects, similarities or differences, or continuities or changes; both cause and effect, similarity and difference, or continuity and change; or insightful connections within and across periods or regions) or from effective use of evidence. It must be part of the argument and more than a phrase or reference."
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Choose",
+        "text": "Pick the development(s) in the prompt you know best."
+      },
+      {
+        "label": "Claim",
+        "text": "Answer the task and preview your line of reasoning."
+      },
+      {
+        "label": "Context",
+        "text": "Describe a broader development before or during the period."
+      },
+      {
+        "label": "Evidence",
+        "text": "Use at least two specific examples and explain each one."
+      },
+      {
+        "label": "Complexity",
+        "text": "Qualify your claim or weigh causes, effects, or changes."
+      }
+    ],
+    "modelResponse": "In 1800 most Americans lived on farms, traded mainly within their own regions, and looked first to their states for their identity. During the next five decades, canals, steamboats, railroads, and new machines created a national market economy, and Americans also argued about whether the federal government should help to build it.\n\nEconomic change promoted a sense of national identity to a moderate extent. It tied together the North and the Midwest and linked the South to national and international markets, but it also gave the regions different interests, and those differences, especially over slavery, limited the sense of a shared nation.\n\nEconomic change did bring Americans together. The Erie Canal (1825) lowered the cost of shipping Midwestern grain and livestock to New York City, and railroads such as the Baltimore and Ohio (1830) extended similar links. Midwestern farmers sold to Eastern buyers and bought Northern manufactured goods, so the North and Midwest became interdependent. Southern cotton, which spread rapidly after Eli Whitney's cotton gin of 1793, supplied New England mills as well as British ones, and Northern bankers, shippers, and insurers handled the trade, so the South was also bound to the national economy. Henry Clay's American System, with its tariff, national bank, and internal improvements, aimed to strengthen such ties, and in Gibbons v. Ogden (1824) the Supreme Court held that Congress could regulate commerce among the states. The telegraph (1844), which carried news and prices quickly over long distances, added to the sense that Americans belonged to the same nation.\n\nYet the same changes divided the country. The North developed factories, wage labor, and cities, while the South invested in land and enslaved laborers and exported staple crops. Canals and railroads tied the North and Midwest more closely to each other than to the South. These differences produced conflicting interests. Northern manufacturers favored the protective tariffs that Southerners blamed for higher prices, and in 1832 South Carolina declared the tariffs null and void. The cotton economy also drove planters, as soil wore out in the Southeast, to move enslaved people to new lands in the Deep South, which made slavery in the territories a more urgent question, as the Missouri Compromise of 1820 showed.\n\nEconomic forces were not the only influence on identity. Politics and foreign policy also shaped it. The War of 1812 and the Monroe Doctrine encouraged national pride, and the expansion of voting rights and the growth of party campaigns drew many white men into national politics. These influences may have done as much as economic change to create a shared identity among white Americans, but they, too, left out enslaved people, women, and Native nations, whom the market economy did not include as equals.\n\nIn sum, economic change gave Americans a national market and shared experiences, which promoted a national identity, but its uneven effects on the North and the South strengthened sectional loyalties, so its contribution to a single American identity was real but limited.",
+    "modelNotes": [
+      {
+        "label": "Contextualization",
+        "text": "The first paragraph describes a country of regional farm economies in 1800 and the arrival of a market economy, which places the question in context."
+      },
+      {
+        "label": "Thesis",
+        "text": "The second paragraph makes a defensible claim about extent, that economic change promoted identity moderately, and names the reasons on both sides."
+      },
+      {
+        "label": "Evidence",
+        "text": "The Erie Canal, the Baltimore and Ohio Railroad, the cotton gin, the American System, Gibbons v. Ogden, the telegraph, the Tariff dispute of 1832, and the Missouri Compromise are specific examples used to support the argument."
+      },
+      {
+        "label": "Analysis and reasoning",
+        "text": "The essay explains how each change linked or divided regions, and the paragraph on politics and foreign policy qualifies the argument, which supports a complex understanding."
+      }
+    ],
+    "alternateModel": "An essay could argue that economic change did more to divide than to unite, by focusing on the contrast between the Northern factory and wage economy and the Southern cotton and slave economy, and on the tariff and slavery disputes that followed. To earn the complexity point it could add a qualification, such as the fact that Southern cotton depended on Northern banks, shippers, and mills, which shows that the regions were also tied together.",
+    "commonErrors": [
+      "Describing inventions such as the cotton gin and the telegraph without explaining how they affected national identity.",
+      "Claiming that the economy united the country completely or divided it completely without evaluating the extent.",
+      "Writing a thesis that only says the economy had \"some effect\" without a claim about how much and why.",
+      "Using evidence from after 1848, such as the Civil War, or from before 1800, such as the first Bank of the United States alone."
+    ],
+    "learningObjectives": [
+      "4.N",
+      "4.E"
+    ],
+    "keyConcepts": [
+      "KC-4.2",
+      "KC-4.2.I",
+      "KC-4.2.III",
+      "KC-4.2.III.B"
+    ],
+    "themes": [
+      "WXT",
+      "SOC",
+      "NAT"
+    ]
+  }
+}

@@ -1,0 +1,927 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-4",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 4,
+    "code": "3.4",
+    "title": "Philosophical Foundations of the American Revolution",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "The Enlightenment, religion, and republican ideas that shaped colonial attitudes toward government and the individual, and how Common Sense and the Declaration of Independence expressed them."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "1c6933ba441eb231",
+  "questions": [
+    {
+      "id": "apush-3-4-q01",
+      "topicId": "apush-3-4",
+      "concept": "enlightenment-and-religion",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.A"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Enlightenment ideas inspired many American political thinkers to emphasize",
+      "choices": [
+        "the authority of kings and nobles as the natural leaders of every well-ordered society",
+        "the duty of colonists to obey Parliament in all matters because it represented the empire",
+        "individual talent over hereditary privilege in choosing leaders",
+        "the importance of limiting education to the families who already held positions in government"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Enlightenment writers argued that people should be judged by their abilities and reason and that government should serve the people.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Enlightenment thinkers questioned the claims of hereditary rulers.",
+        "Enlightenment ideas supported resistance to unjust authority.",
+        "Enlightenment writers argued that people should be judged by their abilities and reason and that government should serve the people.",
+        "Enlightenment ideas favored education and the use of reason by individuals."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Parliament choice is close because it sounds like a traditional view of authority, but the Enlightenment encouraged questioning such claims.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-4-q02",
+      "topicId": "apush-3-4",
+      "concept": "enlightenment-and-religion",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.A"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "John Locke's writings influenced American colonists by arguing that",
+      "choices": [
+        "people have natural rights to life, liberty, and property, and governments rest on consent",
+        "governments should control the economy so that property is shared equally among all of the people",
+        "people owe loyalty to their rulers because rulers receive their authority directly from God",
+        "the best form of government is a powerful monarch who can prevent disorder among the people"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Locke's idea that governments exist to protect natural rights, and that people may resist a government that violates them, was widely read in the colonies.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Locke's idea that governments exist to protect natural rights, and that people may resist a government that violates them, was widely read in the colonies.",
+        "Locke defended individual property rights.",
+        "Locke rejected the claim that kings ruled by divine right.",
+        "Locke argued that government should be limited and based on consent."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The divine-right choice is close because many Europeans believed it, but Locke argued against it.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-4-q03",
+      "topicId": "apush-3-4",
+      "concept": "enlightenment-and-religion",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.A"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following best describes how religion contributed to the American Revolution?",
+      "choices": [
+        "It required colonists to obey the Church of England and the king, who was its official head",
+        "It strengthened Americans' view of themselves as a people blessed with liberty who should defend it",
+        "It discouraged colonists from taking part in politics because religion focused only on the afterlife",
+        "It united the colonies under a single church that organized resistance to British taxes on its own"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Many ministers preached that Americans were blessed with liberty, and religious dissent had taught colonists to question authority.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Many colonists belonged to churches that were not the Church of England.",
+        "Many ministers preached that Americans were blessed with liberty, and religious dissent had taught colonists to question authority.",
+        "Many ministers encouraged political action and the defense of liberty.",
+        "The colonies had many different churches, and no single church organized resistance."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Church of England choice is close because it was the established church in some colonies, but many colonists belonged to other churches.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-4-q04",
+      "topicId": "apush-3-4",
+      "concept": "republicanism-and-natural-rights",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "A republican form of government, as Revolutionary leaders understood it, is one in which",
+      "choices": [
+        "every adult resident votes directly on each law, and no representatives are needed in government",
+        "power is held by a hereditary monarch who consults with a council of the wealthiest families",
+        "a single national leader holds all powers and the legislatures advise but cannot make laws",
+        "power comes from the people and is exercised through representatives they choose"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A republic places power in the people and their representatives, rather than in a monarch or a hereditary aristocracy.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This describes a direct democracy, not the republic that Revolutionary leaders had in mind.",
+        "A republic rejects hereditary rule.",
+        "In a republic, elected legislatures make the laws.",
+        "A republic places power in the people and their representatives, rather than in a monarch or a hereditary aristocracy."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The direct-democracy choice is close because both rely on the people, but a republic works through representatives.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-4-q05",
+      "topicId": "apush-3-4",
+      "concept": "republicanism-and-natural-rights",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following best explains why republican ideas made British policies after 1763 seem threatening to many colonists?",
+      "choices": [
+        "Republican thinkers argued that taxes should be paid only by those who owned land in the colonies",
+        "Republican thinkers believed that Parliament should rule the colonies directly in order to protect their liberties",
+        "Republican thinkers feared that unchecked power would corrupt liberty, so taxes without consent looked like a threat",
+        "Republican thinkers argued that colonies should seek the protection of France against British officials"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Colonists who feared that power tends to corrupt liberty saw new taxes and controls as signs of a design against their freedom.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Republican ideas concerned consent and the danger of unchecked power, not taxes on landowners alone.",
+        "Republican thinkers feared distant concentrated power.",
+        "Colonists who feared that power tends to corrupt liberty saw new taxes and controls as signs of a design against their freedom.",
+        "Republican ideas did not call for French protection."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The landowner choice is close because property mattered in colonial politics, but the republican concern was power without consent.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-4-q06",
+      "topicId": "apush-3-4",
+      "concept": "common-sense-and-the-declaration",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Thomas Paine's Common Sense was significant because it",
+      "choices": [
+        "attacked monarchy and hereditary rule and argued for American independence in plain language",
+        "urged colonists to remain loyal to the king and to seek peace through a petition to Parliament",
+        "proposed a plan of government for the new nation with three branches and a bill of rights",
+        "described the economic costs of the Navigation Acts for colonial merchants in the port cities"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paine's pamphlet, published in January 1776, was widely read and helped turn many colonists toward independence.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Paine's pamphlet, published in January 1776, was widely read and helped turn many colonists toward independence.",
+        "Paine argued against reconciliation with Britain.",
+        "Common Sense argued for independence, and it did not propose a constitution.",
+        "The pamphlet was a political argument for independence."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The petition choice is close because many colonists still hoped for reconciliation, but Paine argued against it.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-4-q07",
+      "topicId": "apush-3-4",
+      "concept": "common-sense-and-the-declaration",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "The Declaration of Independence argued that",
+      "choices": [
+        "Parliament had the power to tax the colonies as long as it also gave them seats in the House of Commons",
+        "governments rest on the consent of the governed, and people may abolish a government that violates their rights",
+        "the colonies should form a national government with the power to tax citizens and to regulate trade among the states and with foreign nations",
+        "the king should be given greater powers over the colonial assemblies in order to keep the peace"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Declaration stated that people have unalienable rights, that governments rest on consent, and that people may change a government that violates those rights.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Declaration rejected Parliament's authority over the colonies.",
+        "The Declaration stated that people have unalienable rights, that governments rest on consent, and that people may change a government that violates those rights.",
+        "The Declaration announced independence and did not set up a government.",
+        "The Declaration accused the king of abusing his powers."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The national-government choice is close because the nation later needed one, but the Declaration only declared independence.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-4-q08",
+      "topicId": "apush-3-4",
+      "concept": "common-sense-and-the-declaration",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "continuity",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following best describes how the Declaration of Independence continued to influence American history after 1776?",
+      "choices": [
+        "Courts used the Declaration as the source of authority for the structure of the three branches of government",
+        "Congress used the Declaration to justify its power to collect taxes under the Articles of Confederation",
+        "Britain used the Declaration as the basis for the peace terms in the Treaty of Paris of 1783",
+        "Later reformers cited its language of equality and rights to demand that the nation live up to its ideals"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Declaration's ideals shaped Americans' understanding of the nation's founding principles and gave reformers language to use.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Constitution, not the Declaration, set up the structure of government.",
+        "The Declaration did not give Congress taxing power.",
+        "Britain did not accept the Declaration's claims, and the treaty ended the war.",
+        "The Declaration's ideals shaped Americans' understanding of the nation's founding principles and gave reformers language to use."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The courts choice is close because the Declaration is a founding document, but the Constitution created the structure of government.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-4-t01",
+      "topicId": "apush-3-4",
+      "concept": "common-sense-and-the-declaration",
+      "difficulty": "Core",
+      "skill": "sourcing",
+      "subskill": "2.A",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following best describes the intended audience of the excerpt?",
+      "choices": [
+        "Members of Parliament who were considering whether to repeal the Coercive Acts of 1774",
+        "Ordinary colonists who were deciding whether to continue seeking reconciliation with Britain",
+        "Delegates to the Constitutional Convention who were drafting a plan for the national government",
+        "French officials whose help the colonists needed in order to defeat the British army"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Paine wrote in plain language for ordinary colonists, and his pamphlet argued against reconciliation with Britain.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The pamphlet was written for colonial readers and not for members of Parliament.",
+        "Paine wrote in plain language for ordinary colonists, and his pamphlet argued against reconciliation with Britain.",
+        "The Convention met in 1787, eleven years after Common Sense was published.",
+        "The pamphlet was addressed to colonists, not to foreign officials."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Parliament choice is close because the excerpt criticizes British rule, but the intended readers were colonists.",
+      "stimulusId": "paine-distance",
+      "stimulusBlocks": [
+        {
+          "id": "paine-distance",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.4, KC-3.2.I.B: the colonists' belief in republican forms of government found expression in Thomas Paine's Common Sense",
+          "ced_review": "pending",
+          "attribution": "Thomas Paine, an English-born writer living in Philadelphia, in the pamphlet Common Sense, published in January 1776",
+          "citation": "Thomas Paine, Common Sense (Philadelphia, 1776), “Thoughts on the Present State of American Affairs.” Project Gutenberg eBook #147.",
+          "note": "“The continent” is the thirteen British colonies in North America, and “the island” is Great Britain.",
+          "text": "As to government matters, it is not in the power of Britain to do this continent justice: The business of it will soon be too weighty, and intricate, to be managed with any tolerable degree of convenience, by a power so distant from us, and so very ignorant of us; for if they cannot conquer us, they cannot govern us. To be always running three or four thousand miles with a tale or a petition, waiting four or five months for an answer, which when obtained requires five or six more to explain it in, will in a few years be looked upon as folly and childishness . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Identify a source’s point of view, purpose, historical situation, and/or audience."
+    },
+    {
+      "id": "apush-3-4-t02",
+      "topicId": "apush-3-4",
+      "concept": "common-sense-and-the-declaration",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following best states Paine's argument in the excerpt?",
+      "choices": [
+        "Britain was too distant to govern the colonies well, and it was absurd for an island to rule a continent",
+        "Britain was strong enough to conquer the colonies, and so the colonies should seek peace and obey",
+        "The colonies were too small to protect themselves and needed to remain under British protection",
+        "Petitions to the Crown had been a success and would soon bring needed reforms to colonial government"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Paine argues that distance and ignorance make British government of the colonies impractical and absurd.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Paine argues that distance and ignorance make British government of the colonies impractical and absurd.",
+        "Paine says that if Britain cannot conquer the colonies, it cannot govern them.",
+        "Paine says small islands need protection, not a continent.",
+        "Paine calls the practice of sending petitions folly and childishness."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The protection choice is close because Paine mentions small islands needing protection, but he uses the point to say a continent should not be ruled by an island.",
+      "stimulusId": "paine-distance",
+      "stimulusBlocks": [
+        {
+          "id": "paine-distance",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.4, KC-3.2.I.B: the colonists' belief in republican forms of government found expression in Thomas Paine's Common Sense",
+          "ced_review": "pending",
+          "attribution": "Thomas Paine, an English-born writer living in Philadelphia, in the pamphlet Common Sense, published in January 1776",
+          "citation": "Thomas Paine, Common Sense (Philadelphia, 1776), “Thoughts on the Present State of American Affairs.” Project Gutenberg eBook #147.",
+          "note": "“The continent” is the thirteen British colonies in North America, and “the island” is Great Britain.",
+          "text": "As to government matters, it is not in the power of Britain to do this continent justice: The business of it will soon be too weighty, and intricate, to be managed with any tolerable degree of convenience, by a power so distant from us, and so very ignorant of us; for if they cannot conquer us, they cannot govern us. To be always running three or four thousand miles with a tale or a petition, waiting four or five months for an answer, which when obtained requires five or six more to explain it in, will in a few years be looked upon as folly and childishness . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-3-4-t03",
+      "topicId": "apush-3-4",
+      "concept": "common-sense-and-the-declaration",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.D",
+      "learningObjective": "3.D",
+      "keyConcepts": [
+        "KC-3.2.I.B"
+      ],
+      "themes": [
+        "NAT"
+      ],
+      "prompt": "Which of the following would best support the argument in the excerpt?",
+      "choices": [
+        "Parliament had granted the colonies seats in the House of Commons in the years before 1776",
+        "The colonies had formed a national government under the Articles of Confederation by 1775",
+        "Colonial petitions to the king often took months to cross the Atlantic and to receive a reply",
+        "Most colonial merchants earned higher profits in 1775 than in any previous year of the colonial period"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Paine argues that delay and distance make British government impractical, and evidence of slow communication supports this claim.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Parliament had not granted seats to the colonies, and such seats would weaken Paine's argument.",
+        "The Articles were adopted after 1776, and they do not bear on Paine's argument about distance.",
+        "Paine argues that delay and distance make British government impractical, and evidence of slow communication supports this claim.",
+        "Profits are not related to Paine's point about distance and delay."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Commons choice is close because it concerns representation, but it did not happen and would weaken Paine's case.",
+      "stimulusId": "paine-distance",
+      "stimulusBlocks": [
+        {
+          "id": "paine-distance",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.4, KC-3.2.I.B: the colonists' belief in republican forms of government found expression in Thomas Paine's Common Sense",
+          "ced_review": "pending",
+          "attribution": "Thomas Paine, an English-born writer living in Philadelphia, in the pamphlet Common Sense, published in January 1776",
+          "citation": "Thomas Paine, Common Sense (Philadelphia, 1776), “Thoughts on the Present State of American Affairs.” Project Gutenberg eBook #147.",
+          "note": "“The continent” is the thirteen British colonies in North America, and “the island” is Great Britain.",
+          "text": "As to government matters, it is not in the power of Britain to do this continent justice: The business of it will soon be too weighty, and intricate, to be managed with any tolerable degree of convenience, by a power so distant from us, and so very ignorant of us; for if they cannot conquer us, they cannot govern us. To be always running three or four thousand miles with a tale or a petition, waiting four or five months for an answer, which when obtained requires five or six more to explain it in, will in a few years be looked upon as folly and childishness . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Explain how claims or evidence support, modify, or refute a source’s argument."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-3-4-quick",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-4",
+      "title": "Topic 3.4 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-3-4-q01",
+        "apush-3-4-q02",
+        "apush-3-4-q03"
+      ]
+    },
+    {
+      "id": "apush-3-4-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-4",
+      "title": "Philosophical Foundations of the American Revolution topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-3-4-q01",
+        "apush-3-4-q02",
+        "apush-3-4-q03",
+        "apush-3-4-q04",
+        "apush-3-4-q05",
+        "apush-3-4-q06",
+        "apush-3-4-q07",
+        "apush-3-4-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "enlightenment-and-religion": {
+      "id": "enlightenment-and-religion",
+      "title": "Enlightenment ideas and religion",
+      "section": "enlightenment-and-religion",
+      "topicId": "apush-3-4"
+    },
+    "republicanism-and-natural-rights": {
+      "id": "republicanism-and-natural-rights",
+      "title": "Republicanism and natural rights",
+      "section": "republicanism-and-natural-rights",
+      "topicId": "apush-3-4"
+    },
+    "common-sense-and-the-declaration": {
+      "id": "common-sense-and-the-declaration",
+      "title": "Common Sense and the Declaration of Independence",
+      "section": "common-sense-and-the-declaration",
+      "topicId": "apush-3-4"
+    }
+  },
+  "assets": {}
+}

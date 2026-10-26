@@ -312,7 +312,7 @@
       }
     ]
   },
-  "contentRevision": "2c7988ee72280fc9",
+  "contentRevision": "2f26e2e324cb306d",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-8-7",
@@ -387,41 +387,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "civil-rights-movement",
-        "topicId": "world-8-7",
-        "term": "civil rights movement",
-        "definition": "The movement, especially in the 1950s and 1960s, to end racial segregation and discrimination in the United States."
-      },
-      {
-        "id": "apartheid",
-        "topicId": "world-8-7",
-        "term": "apartheid",
-        "definition": "South Africa's system of legal racial segregation and white minority rule, 1948–1994."
-      },
-      {
-        "id": "african-national-congress",
-        "topicId": "world-8-7",
-        "term": "African National Congress",
-        "definition": "The South African political party that led the struggle against apartheid."
-      },
-      {
-        "id": "prague-spring",
-        "topicId": "world-8-7",
-        "term": "Prague Spring",
-        "definition": "The 1968 reform movement in Czechoslovakia, ended by a Warsaw Pact invasion."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-8-civil-rights-movement",
-        "world-8-apartheid",
-        "world-8-african-national-congress",
-        "world-8-prague-spring"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -445,36 +411,7 @@
     ]
   },
   "bankPath": "world/banks/world-8-7.json",
-  "glossary": [
-    {
-      "id": "world-8-civil-rights-movement",
-      "term": "civil rights movement",
-      "definition": "The movement, especially in the 1950s and 1960s, to end racial segregation and discrimination in the United States.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.7 glossary"
-    },
-    {
-      "id": "world-8-apartheid",
-      "term": "apartheid",
-      "definition": "South Africa's system of legal racial segregation and white minority rule, 1948–1994.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.7 glossary"
-    },
-    {
-      "id": "world-8-african-national-congress",
-      "term": "African National Congress",
-      "definition": "The South African political party that led the struggle against apartheid.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.7 glossary"
-    },
-    {
-      "id": "world-8-prague-spring",
-      "term": "Prague Spring",
-      "definition": "The 1968 reform movement in Czechoslovakia, ended by a Warsaw Pact invasion.",
-      "aliases": [],
-      "sourceLabel": "Topic 8.7 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-8-7",

@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 9.8. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-09.js.
+// Original Page One lesson for CED Topic 9.8.
 
 export const lesson = {
   schemaVersion: 1,
@@ -67,37 +66,7 @@ export const lesson = {
       sourceIds: ["ced-topic-9-8"],
     },
   ],
-  vocabulary: [
-    {
-      id: "ngos",
-      topicId: "world-9-8",
-      term: "Nongovernmental organizations",
-      definition:
-        "Private groups, such as Amnesty International, that work across borders on issues like human rights and health.",
-    },
-    {
-      id: "world-trade-organization",
-      topicId: "world-9-8",
-      term: "World Trade Organization",
-      definition:
-        "The international body founded in 1995 that sets trade rules and settles trade disputes.",
-    },
-    {
-      id: "european-union",
-      topicId: "world-9-8",
-      term: "European Union",
-      definition:
-        "The political and economic union of European states formed in 1993 from an earlier common market.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-9-ngos",
-      "world-9-world-trade-organization",
-      "world-9-european-union",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

@@ -80,7 +80,10 @@ test("generated search stays compact, reading-only, and honest about Algebra 2",
   );
   assert.equal(world.schemaVersion, 1);
   assert.ok(world.records.some((record) => record.type === "passage"));
-  assert.ok(world.records.some((record) => record.type === "glossary"));
+  assert.equal(
+    world.records.some((record) => record.type === "glossary"),
+    false,
+  );
   assert.equal(
     world.records.some((record) => record.type === "quiz"),
     false,
@@ -111,6 +114,12 @@ test("search index loading is on demand and does not fetch question banks", asyn
       ),
     ],
     [
+      "apush/search.json",
+      JSON.parse(
+        await readFile(new URL("../docs/generated/apush/search.json", import.meta.url)),
+      ),
+    ],
+    [
       "algebra2/search.json",
       JSON.parse(
         await readFile(
@@ -133,11 +142,12 @@ test("search index loading is on demand and does not fetch question banks", asyn
     },
   });
   const loaded = await store.searchIndexes();
-  assert.equal(loaded.indexes.length, 2);
+  assert.equal(loaded.indexes.length, 3);
   assert.deepEqual(requested, [
     "catalog.json",
     "world/search.json",
     "precalculus/search.json",
+    "apush/search.json",
   ]);
 });
 

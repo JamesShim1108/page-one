@@ -4,15 +4,29 @@
 // Mock exams never contain their own questions, so a correction to a question
 // or prompt reaches every exam that uses it.
 import {
+  SOURCE_MEDIA,
+  practiceTestRules,
   requireId,
   requireText,
   requireValue,
+  sourceMedium,
   uniqueById,
   validatePracticeTest,
 } from "./validate.mjs";
 
 const SECTION_KINDS = new Set(["mcq", "saq", "dbq", "leq"]);
-const STIMULUS_RULES = new Set(["primary", "secondary", "none", "any"]);
+// "primary" and "secondary" accept any medium. The "-text" rules require
+// passages only, and "non-text" requires only images or data tables, as the
+// AP U.S. History exam does for short-answer Questions 1-3.
+const STIMULUS_RULES = new Set([
+  "primary",
+  "secondary",
+  "primary-text",
+  "secondary-text",
+  "non-text",
+  "none",
+  "any",
+]);
 const EXAM_STATUSES = new Set(["ready", "soon"]);
 export const MAX_DOCUMENTS_PER_AUTHOR = 3;
 
@@ -68,8 +82,21 @@ export function validateExamFormat(format, sources, location) {
         "a multiple-choice section needs a questionCount",
       );
       requireValue(!section.prompts, at, "a multiple-choice section has no prompts");
+      if (section.sets !== undefined) validateSetRule(section.sets, at);
+      if (section.unitWeights !== undefined) validateUnitWeights(section.unitWeights, at);
       continue;
     }
+    requireValue(
+      section.sets === undefined && section.unitWeights === undefined,
+      at,
+      "sets and unitWeights apply to multiple-choice sections only",
+    );
+    if (section.distinctUnits !== undefined)
+      requireValue(
+        typeof section.distinctUnits === "boolean",
+        at,
+        "distinctUnits must be boolean",
+      );
     requireValue(
       Array.isArray(section.prompts) && section.prompts.length > 0,
       at,
@@ -91,11 +118,104 @@ export function validateExamFormat(format, sources, location) {
           at,
           `${prompt.id} has an invalid stimulus rule`,
         );
+      // The chronological range the prompt may cover, as unit numbers.
+      if (prompt.units !== undefined) unitRange(prompt.units, `${at} ${prompt.id}`);
+      if (prompt.minUnitSpan !== undefined)
+        requireValue(
+          positiveInteger(prompt.minUnitSpan),
+          at,
+          `${prompt.id} minUnitSpan must be a positive integer`,
+        );
     }
   }
   requireValue(Math.abs(weight - 100) < 1e-9, location, "section weights must total 100");
+  if (format.pairedTextSet !== undefined)
+    requireValue(
+      typeof format.pairedTextSet === "boolean",
+      location,
+      "pairedTextSet must be boolean",
+    );
   return format;
 }
+
+function unitRange(range, at) {
+  requireValue(
+    Array.isArray(range) &&
+      range.length === 2 &&
+      range.every(positiveInteger) &&
+      range[0] <= range[1],
+    at,
+    "units must be [first, last] unit numbers",
+  );
+  return range;
+}
+
+function validateSetRule(sets, at) {
+  requireValue(
+    positiveInteger(sets.min) && positiveInteger(sets.max) && sets.min <= sets.max,
+    at,
+    "sets needs min and max questions per stimulus",
+  );
+  requireValue(
+    Array.isArray(sets.media) &&
+      sets.media.length > 0 &&
+      sets.media.every((medium) => SOURCE_MEDIA.includes(medium)),
+    at,
+    `sets.media must list stimulus media from ${SOURCE_MEDIA.join(", ")}`,
+  );
+}
+
+function validateUnitWeights(weights, at) {
+  requireValue(
+    Array.isArray(weights) && weights.length > 0,
+    at,
+    "unitWeights needs rows",
+  );
+  const seen = new Set();
+  for (const row of weights) {
+    requireValue(
+      Array.isArray(row.units) &&
+        row.units.length > 0 &&
+        row.units.every(positiveInteger),
+      at,
+      "each unitWeights row lists unit numbers",
+    );
+    for (const number of row.units) {
+      requireValue(!seen.has(number), at, `unit ${number} has two weight rows`);
+      seen.add(number);
+    }
+    requireValue(
+      Number.isFinite(row.min) &&
+        Number.isFinite(row.max) &&
+        row.min >= 0 &&
+        row.min <= row.max &&
+        row.max <= 100,
+      at,
+      "unit weights are percentages with min <= max",
+    );
+  }
+}
+
+/**
+ * The question-count range a unit-weight row allows. Percentages round
+ * outward, so 4-6% of 55 questions allows 2 to 4.
+ */
+export function weightRange(row, questionCount) {
+  return {
+    min: Math.floor((row.min * questionCount) / 100),
+    max: Math.ceil((row.max * questionCount) / 100),
+  };
+}
+
+/** The unit numbers a writing prompt covers: its `units`, or its owning unit. */
+export function writingUnits(quiz, unit) {
+  return quiz.units?.length ? [...quiz.units].sort((a, b) => a - b) : [unit.number];
+}
+
+const textSources = (blocks) =>
+  (blocks || []).filter(
+    (block) => block.type === "source" && sourceMedium(block) === "text",
+  );
 
 // SAQs earn one point per part; essays earn their rubric points.
 export function writingMaxPoints(quiz) {
@@ -109,16 +229,33 @@ function stimulusTypes(quiz) {
 
 function checkStimulus(quiz, rule, at) {
   if (!rule || rule === "any") return;
+  const blocks = quiz.stimulusBlocks || [];
   const types = stimulusTypes(quiz);
+  const media = new Set(blocks.map(sourceMedium));
+  const secondary = types.has("secondary") || types.has("original");
   if (rule === "none")
     requireValue(types.size === 0, at, `${quiz.id} must not have a stimulus`);
   else if (rule === "primary")
     requireValue(types.has("primary"), at, `${quiz.id} needs a primary-source stimulus`);
+  else if (rule === "secondary")
+    requireValue(secondary, at, `${quiz.id} needs a secondary-source stimulus`);
+  else if (rule === "primary-text")
+    requireValue(
+      types.has("primary") && media.size === 1 && media.has("text"),
+      at,
+      `${quiz.id} needs a primary text source and no visual sources`,
+    );
+  else if (rule === "secondary-text")
+    requireValue(
+      secondary && !types.has("primary") && media.size === 1 && media.has("text"),
+      at,
+      `${quiz.id} needs secondary text sources only`,
+    );
   else
     requireValue(
-      types.has("secondary") || types.has("original"),
+      blocks.length > 0 && !media.has("text"),
       at,
-      `${quiz.id} needs a secondary-source stimulus`,
+      `${quiz.id} needs a non-text source (image or data) and no passages`,
     );
 }
 
@@ -191,6 +328,7 @@ export function resolveExam(
         "a multiple-choice section needs selections",
       );
       const questions = [];
+      const unitCounts = new Map();
       for (const selection of filled.selections) {
         const topic = topics.get(selection.topicId);
         requireValue(
@@ -209,6 +347,8 @@ export function resolveExam(
         for (const id of selection.questionIds) {
           requireValue(lookup.has(id), at, `unknown question ${id}`);
           questions.push(lookup.get(id));
+          const number = topic.unit.number;
+          unitCounts.set(number, (unitCounts.get(number) || 0) + 1);
         }
       }
       requireValue(
@@ -222,7 +362,25 @@ export function resolveExam(
         `needs exactly ${section.questionCount} questions (has ${questions.length})`,
       );
       // Mock exam sets follow the same AP rules as unit Practice Tests.
-      validatePracticeTest({ practiceTest: true }, questions, at);
+      validatePracticeTest(
+        { practiceTest: true },
+        questions,
+        at,
+        practiceTestRules(format),
+      );
+      // The CED's exam weighting by unit, when the format records it.
+      for (const row of section.unitWeights || []) {
+        const count = row.units.reduce(
+          (sum, number) => sum + (unitCounts.get(number) || 0),
+          0,
+        );
+        const range = weightRange(row, questions.length);
+        requireValue(
+          count >= range.min && count <= range.max,
+          at,
+          `Unit ${row.units.join(", ")} has ${count} questions; the ${row.min}-${row.max}% weighting allows ${range.min} to ${range.max}`,
+        );
+      }
       return {
         ...base,
         questionCount: questions.length,
@@ -275,6 +433,21 @@ export function resolveExam(
             );
         }
         checkStimulus(quiz, prompt.stimulus, promptAt);
+        const units = writingUnits(quiz, unit);
+        if (prompt.units)
+          requireValue(
+            units.every(
+              (number) => number >= prompt.units[0] && number <= prompt.units[1],
+            ),
+            promptAt,
+            `${id} covers Units ${units.join(", ")}; this prompt allows Units ${prompt.units[0]}-${prompt.units[1]}`,
+          );
+        if (prompt.minUnitSpan)
+          requireValue(
+            units.length >= prompt.minUnitSpan,
+            promptAt,
+            `${id} covers ${units.length} unit${units.length === 1 ? "" : "s"}; this prompt spans at least ${prompt.minUnitSpan}`,
+          );
         const maxPoints = writingMaxPoints(quiz);
         requireValue(maxPoints > 0, promptAt, `${id} has no scorable points`);
         return { ...quiz, maxPoints };
@@ -298,6 +471,20 @@ export function resolveExam(
         `${at} ${prompt.id}`,
         "options in one prompt must be worth the same points",
       );
+    // AP U.S. History: each short-answer question focuses on a different period.
+    if (section.distinctUnits) {
+      const owners = new Map();
+      for (const prompt of prompts)
+        for (const option of prompt.options) {
+          const number = writing.get(option.id).unit.number;
+          requireValue(
+            !owners.has(number),
+            at,
+            `${option.id} and ${owners.get(number)} both focus on Unit ${number}; each prompt needs a different period`,
+          );
+          owners.set(number, option.id);
+        }
+    }
     return {
       ...base,
       maxPoints: prompts.reduce((sum, prompt) => sum + prompt.maxPoints, 0),
@@ -307,6 +494,26 @@ export function resolveExam(
   const questionCount = sections
     .filter((section) => section.kind === "mcq")
     .reduce((sum, section) => sum + section.questions.length, 0);
+  // The AP U.S. History exam has at least one set of paired text stimuli, in
+  // the multiple-choice section or in a short-answer question.
+  if (format.pairedTextSet) {
+    const paired = sections.some((section) =>
+      section.kind === "mcq"
+        ? section.questions.some(
+            (question) => textSources(question.stimulusBlocks).length >= 2,
+          )
+        : section.prompts.some((prompt) =>
+            prompt.options.some(
+              (option) => textSources(option.stimulusBlocks).length >= 2,
+            ),
+          ),
+    );
+    requireValue(
+      paired,
+      location,
+      "the exam needs at least one paired-text stimulus set (two passages in one multiple-choice set or short-answer question)",
+    );
+  }
   return {
     summary: { ...summary, questionCount },
     payload: {

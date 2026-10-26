@@ -1,0 +1,950 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-3",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 3,
+    "code": "5.3",
+    "title": "The Mexican–American War",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "Why the United States and Mexico went to war in 1846, how the war ended, and what the lands of the Mexican Cession meant for slavery, Mexicans, and American Indians."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "a2280a623bfa02d7",
+  "questions": [
+    {
+      "id": "apush-5-3-q01",
+      "topicId": "apush-5-3",
+      "concept": "road-to-war",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following was a cause of the Mexican–American War?",
+      "choices": [
+        "A Mexican attack on the Alamo in San Antonio, which took place in 1846",
+        "Britain's decision to ally with Mexico against the United States in Oregon",
+        "Mexico's refusal to honor the Gadsden Purchase of the Southwest",
+        "A dispute over whether Texas ended at the Nueces River or at the Rio Grande"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mexico claimed that Texas ended at the Nueces, the United States claimed the Rio Grande, and Polk sent troops into the disputed land.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Alamo fell in 1836, during the Texas Revolution.",
+        "Britain and the United States settled Oregon peacefully.",
+        "The Gadsden Purchase came in 1853, after the war.",
+        "Mexico claimed that Texas ended at the Nueces, the United States claimed the Rio Grande, and Polk sent troops into the disputed land."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Alamo choice is close because it was a famous clash between Texans and Mexico, but it took place in 1836, ten years before the war.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-3-q02",
+      "topicId": "apush-5-3",
+      "concept": "road-to-war",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Polk's decision to send troops to the Rio Grande in 1846 is best understood in the context of which of the following?",
+      "choices": [
+        "A border dispute with Mexico that followed the annexation of Texas",
+        "A war with Britain over the boundary of the Oregon country",
+        "A request from Mexico for American troops to help defend its northern border",
+        "A Supreme Court ruling that placed the Texas border at the Rio Grande"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Texas was annexed in 1845, and the dispute over its southern boundary led to the movement of troops.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Texas was annexed in 1845, and the dispute over its southern boundary led to the movement of troops.",
+        "The Oregon boundary was settled by treaty in 1846.",
+        "Mexico did not ask for American troops.",
+        "The Court made no such ruling."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Oregon war choice is close because Polk faced two boundary disputes, but only the dispute with Mexico led to fighting.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-5-3-q03",
+      "topicId": "apush-5-3",
+      "concept": "victory-and-the-treaty",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "The Treaty of Guadalupe Hidalgo (1848) provided that",
+      "choices": [
+        "the United States would return the lands it had taken in return for a payment from Mexico",
+        "Mexico would give up Oregon and the right to trade in the ports of the Pacific coast",
+        "Mexico would give California and the Southwest to the United States in return for $15 million",
+        "slavery would be banned in the lands that the United States took from Mexico"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mexico accepted the Rio Grande border and ceded the Mexican Cession, and the United States paid $15 million.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The United States kept the conquered lands.",
+        "Oregon had never been Mexican.",
+        "Mexico accepted the Rio Grande border and ceded the Mexican Cession, and the United States paid $15 million.",
+        "The treaty did not decide the question of slavery."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The return of land choice is close because some wars end with the return of territory, but Mexico gave up its northern lands.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-3-q04",
+      "topicId": "apush-5-3",
+      "concept": "slavery-mexicans-and-american-indians",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "The Wilmot Proviso (1846) proposed that",
+      "choices": [
+        "settlers in each territory vote on whether to allow slavery",
+        "slavery be banned in any territory acquired from Mexico",
+        "the United States end the war and return the land it had taken",
+        "enslaved people who escaped to Mexico be returned to their owners"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wilmot's proposal passed the House but not the Senate, and it divided Northerners from Southerners.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That was popular sovereignty, a different plan.",
+        "Wilmot's proposal passed the House but not the Senate, and it divided Northerners from Southerners.",
+        "The Proviso concerned slavery.",
+        "The Proviso did not concern escaped slaves."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The settlers' vote choice is close because it was another plan offered in the same debate, but Wilmot would have banned slavery outright.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-3-q05",
+      "topicId": "apush-5-3",
+      "concept": "slavery-mexicans-and-american-indians",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.II.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following was an effect of the Mexican Cession on Mexican Americans in the Southwest?",
+      "choices": [
+        "They gained control of the new state governments of California and New Mexico",
+        "Most were required by the treaty to move to Mexico within one year",
+        "They were given a separate territory in which to govern themselves",
+        "Many lost their land and faced discrimination, despite the treaty"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lawsuits, taxes, and violence took land from many Mexican families, and they faced prejudice from newcomers.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Settlers from the United States soon outnumbered them and held power.",
+        "The treaty allowed them to remain.",
+        "No separate territory was created.",
+        "Lawsuits, taxes, and violence took land from many Mexican families, and they faced prejudice from newcomers."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The state governments choice is close because some Mexican Americans held office in the early years, but settlers from the United States soon held most of the power.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-5-3-q06",
+      "topicId": "apush-5-3",
+      "concept": "slavery-mexicans-and-american-indians",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.II.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following was an effect of the Mexican–American War on American Indians in the Southwest and California?",
+      "choices": [
+        "The treaty guaranteed their lands, and the United States kept settlers out",
+        "They allied with the United States and were granted citizenship",
+        "Settlers and soldiers entered their lands and changed their ways of life",
+        "They were moved to Indian Territory, east of the Mississippi River"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The war brought new settlers and conflict, and Native peoples lost land and the ability to support themselves as before.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The treaty did not protect Native lands.",
+        "American Indians were not made citizens.",
+        "The war brought new settlers and conflict, and Native peoples lost land and the ability to support themselves as before.",
+        "The Indian Territory lay west of the Mississippi."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The treaty guarantee choice is close because the treaty protected the property of Mexican citizens, but it did not protect Native lands.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-5-3-q07",
+      "topicId": "apush-5-3",
+      "concept": "victory-and-the-treaty",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following describes a similarity between the Louisiana Purchase and the Mexican Cession?",
+      "choices": [
+        "Both were bought by the president from European powers in peaceful negotiations",
+        "Both added large territories and raised the question of slavery in the new lands",
+        "Both were won in a war and approved by treaty after the capture of the capital",
+        "Both were acquired with the consent of the American Indians who lived there"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each acquisition doubled or greatly enlarged the nation, and each reopened the dispute over whether slavery would spread.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Mexican Cession followed a war, and Mexico was not a European power.",
+        "Each acquisition doubled or greatly enlarged the nation, and each reopened the dispute over whether slavery would spread.",
+        "The Louisiana Purchase followed no war.",
+        "Neither acquisition involved their consent."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The bought from European powers choice is close because the Louisiana Purchase was a purchase, but the Mexican Cession followed a war with Mexico.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-5-3-q08",
+      "topicId": "apush-5-3",
+      "concept": "road-to-war",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Opposition to the Mexican–American War among many Northerners is best understood in the context of which of the following?",
+      "choices": [
+        "A fear that the war would add slave states and increase the power of the South",
+        "A fear that Mexico would invade the United States if the war continued",
+        "A belief that the Constitution forbade the nation to acquire foreign territory",
+        "A demand that Britain take part in the war and share the cost"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Many Whigs and antislavery Northerners believed that the war would extend slavery and benefit slaveholders.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Many Whigs and antislavery Northerners believed that the war would extend slavery and benefit slaveholders.",
+        "Mexico had no ability to invade the United States.",
+        "Many had accepted the Louisiana Purchase.",
+        "The war was fought by the United States alone."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Mexican invasion choice is close because Polk claimed that Mexico had invaded, but the opposition came from fears about the effects of the war on slavery.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-5-3-t01",
+      "topicId": "apush-5-3",
+      "concept": "road-to-war",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.C",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Which of the following best describes a difference between the arguments of Polk and Thoreau about the war?",
+      "choices": [
+        "Polk said that the people had demanded the war, while Thoreau said Congress alone had begun it",
+        "Polk argued that the war was unjust to Mexico, while Thoreau argued that it defended the United States",
+        "Polk said that slavery had caused the war, while Thoreau said that trade disputes had caused it",
+        "Polk blamed Mexico for starting the war, while Thoreau blamed a few Americans who used the government"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Polk accuses Mexico of “commencing an offensive war,” while Thoreau calls the war “the work of comparatively a few individuals.”",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Thoreau says the people would not have consented, and Polk blames Mexico.",
+        "Their views are the reverse of these.",
+        "Polk does not mention slavery in the excerpt.",
+        "Polk accuses Mexico of “commencing an offensive war,” while Thoreau calls the war “the work of comparatively a few individuals.”"
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The people demanded choice is close because Polk wrote of a nation aroused, but the excerpt blames Mexico and not the people.",
+      "stimulusId": "polk-message-mexico-1846",
+      "stimulusBlocks": [
+        {
+          "id": "polk-message-mexico-1846",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.3, KC-5.1.I.C: the United States added large territories in the West through victory in the Mexican–American War and diplomatic negotiations",
+          "ced_review": "pending",
+          "attribution": "President James K. Polk, in his Second Annual Message to Congress on December 8, 1846, while the United States was at war with Mexico",
+          "citation": "James K. Polk, Second Annual Message to Congress (December 8, 1846), in State of the Union Addresses of James Polk. Project Gutenberg eBook #5019.",
+          "note": "Mexico did not accept the Rio Grande as the border of Texas and claimed the land north of the Rio Grande as far as the Nueces River. Polk was explaining why the United States was at war.",
+          "text": "Whilst occupying his position on the east bank of the Rio Grande, within the limits of Texas, then recently admitted as one of the States of our Union, the commanding general of the Mexican forces, who, in pursuance of the orders of his Government, had collected a large army on the opposite shore of the Rio Grande, crossed the river, invaded our territory, and commenced hostilities by attacking our forces. Thus, after all the injuries which we had received and borne from Mexico, and after she had insultingly rejected a minister sent to her on a mission of peace, and whom she had solemnly agreed to receive, she consummated her long course of outrage against our country by commencing an offensive war and shedding the blood of our citizens on our own soil."
+        },
+        {
+          "id": "thoreau-mexican-war",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.3, KC-5.1.I.C: the Mexican–American War raised questions about the status of slavery in the newly acquired lands",
+          "ced_review": "pending",
+          "attribution": "Henry David Thoreau, a writer from Massachusetts who spent a night in jail in 1846 for refusing to pay a tax, in his essay “Resistance to Civil Government,” published in 1849 and later called “Civil Disobedience”",
+          "citation": "Henry David Thoreau, “Resistance to Civil Government” (1849), later titled On the Duty of Civil Disobedience. Project Gutenberg eBook #71.",
+          "note": "By “the standing government,” Thoreau means the government of the United States as it was run from day to day.",
+          "text": "Witness the present Mexican war, the work of comparatively a few individuals using the standing government as their tool; for, in the outset, the people would not have consented to this measure.\n\n. . . This people must cease to hold slaves, and to make war on Mexico, though it cost them their existence as a people."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Compare the arguments or main ideas of two sources."
+    },
+    {
+      "id": "apush-5-3-t02",
+      "topicId": "apush-5-3",
+      "concept": "road-to-war",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "subskill": "2.B",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Thoreau's claim that “the people would not have consented” to the war is best understood in light of which of the following about his point of view?",
+      "choices": [
+        "He opposed slavery and feared that the war would extend it",
+        "He was a soldier who had fought in Mexico and had seen the war firsthand",
+        "He was a Southern planter who hoped that the war would add slave states",
+        "He was a diplomat who had taken part in the talks with Mexico"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thoreau writes that “this people must cease to hold slaves, and to make war on Mexico,” which ties his opposition to the war to his opposition to slavery.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Thoreau writes that “this people must cease to hold slaves, and to make war on Mexico,” which ties his opposition to the war to his opposition to slavery.",
+        "Thoreau was a writer who protested the war by refusing to pay a tax.",
+        "He was from Massachusetts and opposed slavery.",
+        "He held no government post."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The soldier choice is close because the passage is about the war, but Thoreau was a writer who protested it and did not fight in it.",
+      "stimulusId": "polk-message-mexico-1846",
+      "stimulusBlocks": [
+        {
+          "id": "polk-message-mexico-1846",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.3, KC-5.1.I.C: the United States added large territories in the West through victory in the Mexican–American War and diplomatic negotiations",
+          "ced_review": "pending",
+          "attribution": "President James K. Polk, in his Second Annual Message to Congress on December 8, 1846, while the United States was at war with Mexico",
+          "citation": "James K. Polk, Second Annual Message to Congress (December 8, 1846), in State of the Union Addresses of James Polk. Project Gutenberg eBook #5019.",
+          "note": "Mexico did not accept the Rio Grande as the border of Texas and claimed the land north of the Rio Grande as far as the Nueces River. Polk was explaining why the United States was at war.",
+          "text": "Whilst occupying his position on the east bank of the Rio Grande, within the limits of Texas, then recently admitted as one of the States of our Union, the commanding general of the Mexican forces, who, in pursuance of the orders of his Government, had collected a large army on the opposite shore of the Rio Grande, crossed the river, invaded our territory, and commenced hostilities by attacking our forces. Thus, after all the injuries which we had received and borne from Mexico, and after she had insultingly rejected a minister sent to her on a mission of peace, and whom she had solemnly agreed to receive, she consummated her long course of outrage against our country by commencing an offensive war and shedding the blood of our citizens on our own soil."
+        },
+        {
+          "id": "thoreau-mexican-war",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.3, KC-5.1.I.C: the Mexican–American War raised questions about the status of slavery in the newly acquired lands",
+          "ced_review": "pending",
+          "attribution": "Henry David Thoreau, a writer from Massachusetts who spent a night in jail in 1846 for refusing to pay a tax, in his essay “Resistance to Civil Government,” published in 1849 and later called “Civil Disobedience”",
+          "citation": "Henry David Thoreau, “Resistance to Civil Government” (1849), later titled On the Duty of Civil Disobedience. Project Gutenberg eBook #71.",
+          "note": "By “the standing government,” Thoreau means the government of the United States as it was run from day to day.",
+          "text": "Witness the present Mexican war, the work of comparatively a few individuals using the standing government as their tool; for, in the outset, the people would not have consented to this measure.\n\n. . . This people must cease to hold slaves, and to make war on Mexico, though it cost them their existence as a people."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Explain the point of view, purpose, historical situation, and/or audience of a source."
+    },
+    {
+      "id": "apush-5-3-t03",
+      "topicId": "apush-5-3",
+      "concept": "road-to-war",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "5.C",
+      "keyConcepts": [
+        "KC-5.1.I.C"
+      ],
+      "themes": [
+        "WOR"
+      ],
+      "prompt": "Polk's claim that Mexican forces “invaded our territory” depends on which assumption?",
+      "choices": [
+        "That Mexico had agreed in a treaty to give up its claim to the land north of the Rio Grande",
+        "That Congress had already declared war on Mexico before the fighting began",
+        "That the Rio Grande was the southern boundary of Texas and that its east bank was American soil",
+        "That the United States held the land by conquest from Britain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Polk describes the American army on “the east bank of the Rio Grande, within the limits of Texas,” and Mexico disputed that boundary.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Mexico had agreed to no such treaty.",
+        "Congress declared war after the fighting.",
+        "Polk describes the American army on “the east bank of the Rio Grande, within the limits of Texas,” and Mexico disputed that boundary.",
+        "Britain had no claim to the land."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The treaty choice is close because a treaty would settle a border, but the border was in dispute and Mexico had not agreed to the Rio Grande.",
+      "stimulusId": "polk-message-mexico-1846",
+      "stimulusBlocks": [
+        {
+          "id": "polk-message-mexico-1846",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.3, KC-5.1.I.C: the United States added large territories in the West through victory in the Mexican–American War and diplomatic negotiations",
+          "ced_review": "pending",
+          "attribution": "President James K. Polk, in his Second Annual Message to Congress on December 8, 1846, while the United States was at war with Mexico",
+          "citation": "James K. Polk, Second Annual Message to Congress (December 8, 1846), in State of the Union Addresses of James Polk. Project Gutenberg eBook #5019.",
+          "note": "Mexico did not accept the Rio Grande as the border of Texas and claimed the land north of the Rio Grande as far as the Nueces River. Polk was explaining why the United States was at war.",
+          "text": "Whilst occupying his position on the east bank of the Rio Grande, within the limits of Texas, then recently admitted as one of the States of our Union, the commanding general of the Mexican forces, who, in pursuance of the orders of his Government, had collected a large army on the opposite shore of the Rio Grande, crossed the river, invaded our territory, and commenced hostilities by attacking our forces. Thus, after all the injuries which we had received and borne from Mexico, and after she had insultingly rejected a minister sent to her on a mission of peace, and whom she had solemnly agreed to receive, she consummated her long course of outrage against our country by commencing an offensive war and shedding the blood of our citizens on our own soil."
+        },
+        {
+          "id": "thoreau-mexican-war",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.3, KC-5.1.I.C: the Mexican–American War raised questions about the status of slavery in the newly acquired lands",
+          "ced_review": "pending",
+          "attribution": "Henry David Thoreau, a writer from Massachusetts who spent a night in jail in 1846 for refusing to pay a tax, in his essay “Resistance to Civil Government,” published in 1849 and later called “Civil Disobedience”",
+          "citation": "Henry David Thoreau, “Resistance to Civil Government” (1849), later titled On the Duty of Civil Disobedience. Project Gutenberg eBook #71.",
+          "note": "By “the standing government,” Thoreau means the government of the United States as it was run from day to day.",
+          "text": "Witness the present Mexican war, the work of comparatively a few individuals using the standing government as their tool; for, in the outset, the people would not have consented to this measure.\n\n. . . This people must cease to hold slaves, and to make war on Mexico, though it cost them their existence as a people."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-5-3-quick",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-3",
+      "title": "Topic 5.3 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-5-3-q01",
+        "apush-5-3-q02",
+        "apush-5-3-q03"
+      ]
+    },
+    {
+      "id": "apush-5-3-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-3",
+      "title": "The Mexican–American War topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-5-3-q01",
+        "apush-5-3-q02",
+        "apush-5-3-q03",
+        "apush-5-3-q04",
+        "apush-5-3-q05",
+        "apush-5-3-q06",
+        "apush-5-3-q07",
+        "apush-5-3-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "road-to-war": {
+      "id": "road-to-war",
+      "title": "Texas, the border, and the road to war",
+      "section": "road-to-war",
+      "topicId": "apush-5-3"
+    },
+    "victory-and-the-treaty": {
+      "id": "victory-and-the-treaty",
+      "title": "Victory and the Treaty of Guadalupe Hidalgo",
+      "section": "victory-and-the-treaty",
+      "topicId": "apush-5-3"
+    },
+    "slavery-mexicans-and-american-indians": {
+      "id": "slavery-mexicans-and-american-indians",
+      "title": "Slavery, Mexicans, and American Indians in the new lands",
+      "section": "slavery-mexicans-and-american-indians",
+      "topicId": "apush-5-3"
+    }
+  },
+  "assets": {}
+}

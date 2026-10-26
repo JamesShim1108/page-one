@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 5.7. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-05.js.
+// Original Page One lesson for CED Topic 5.7.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,37 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-5-7"],
     },
   ],
-  vocabulary: [
-    {
-      id: "laissez-faire",
-      topicId: "world-5-7",
-      term: "Laissez-faire",
-      definition:
-        "The idea that government should interfere as little as possible in the economy.",
-    },
-    {
-      id: "limited-liability",
-      topicId: "world-5-7",
-      term: "Limited liability",
-      definition:
-        "A legal rule that investors can lose only the money they put into a company, not their other property.",
-    },
-    {
-      id: "division-of-labor",
-      topicId: "world-5-7",
-      term: "division of labor",
-      definition:
-        "Splitting production into many small tasks, each done by a different worker, to increase output.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-5-laissez-faire",
-      "world-5-limited-liability",
-      "world-5-division-of-labor",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

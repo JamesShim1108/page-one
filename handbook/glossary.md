@@ -1,6 +1,6 @@
 # Reading definitions
 
-Reading pages use a shared glossary registry to turn selected phrases into small explanations. All courses use the same matching and popup code. This feature is separate from the class Terms sets and never changes their definitions.
+Reading pages use a shared glossary registry to turn selected phrases into small explanations. All courses use the same matching and popup code. This feature is separate from the class Terms sets and never changes their definitions. World History does not use it.
 
 ## File map
 
@@ -47,7 +47,7 @@ An entry may provide `term`, `definition`, `sourceLabel`, and `sourceIds` instea
 
 ## Coverage contract
 
-New ready lessons and guides must declare `definitionCoverage` in the authored page record. `status: "required"` lists selected glossary `conceptIds` that actually match eligible explanatory prose; `status: "not-needed"` requires a reason. The build rejects missing or unmatched coverage for new pages. A small legacy exemption exists only for already-published World History Unit 1 pages created before this contract. The contract is course-agnostic and does not create definitions automatically.
+New ready lessons and guides must declare `definitionCoverage` in the authored page record. `status: "required"` lists selected glossary `conceptIds` that actually match eligible explanatory prose; `status: "not-needed"` requires a reason. The build rejects missing or unmatched coverage for new pages. The contract applies only to courses that have reading definitions; a course with no `glossary/` folder, such as World History (whose vocabulary is limited to the class Terms sets), is not checked. The contract is course-agnostic and does not create definitions automatically.
 
 ## Behavior and delivery
 

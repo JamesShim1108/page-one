@@ -1,0 +1,528 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-12",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 12,
+    "code": "3.12",
+    "title": "Movement in the Early Republic",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "How American Indian nations adjusted their alliances, how westward migration spread frontier cultures and tensions, and how slavery expanded in the Deep South while antislavery sentiment grew in the North."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "eac7d6ffb706b640",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-3-12",
+    "unitId": "apush-3",
+    "courseId": "apush",
+    "code": "3.12",
+    "title": "Movement in the Early Republic",
+    "period": "1754–1800",
+    "status": "ready",
+    "order": 12,
+    "summary": "How American Indian nations adjusted their alliances, how westward migration spread frontier cultures and tensions, and how slavery expanded in the Deep South while antislavery sentiment grew in the North.",
+    "minutes": 12,
+    "learningGoals": [
+      "Explain how American Indian groups evaluated and adjusted their alliances from 1754 to 1800.",
+      "Explain how westward migration and frontier cultures caused competition and conflict.",
+      "Explain how the expansion of slavery and rising antislavery sentiment produced distinct regional attitudes."
+    ],
+    "bigIdea": "Movement of people into the interior intensified competition for land, and the growth of slavery in one region and its decline in another created lasting regional differences.",
+    "context": "The CED asks you to explain how migration and immigration caused competition and conflict, and how regional attitudes about slavery changed. This topic builds connections across regions, so practice linking a cause to a pattern.",
+    "sections": [
+      {
+        "id": "american-indian-alliances",
+        "title": "American Indian alliances",
+        "conceptTitle": "American Indian alliances",
+        "lenses": [
+          "MIG",
+          "WOR",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Various American Indian groups repeatedly evaluated and adjusted their alliances with Europeans, other tribes, and the United States, seeking to limit migration of white settlers and maintain control of tribal lands and natural resources. During the Revolution, Native nations had to choose sides or try to stay neutral, and the Haudenosaunee (Iroquois) Confederacy split, with some nations supporting the Patriots and others the British. The Treaty of Paris of 1783 gave the United States land claimed by Native nations, who were not parties to it."
+          },
+          {
+            "type": "paragraph",
+            "text": "After the war, a confederation of Native peoples in the Ohio country resisted U.S. expansion with British support. British alliances with American Indians contributed to tensions between the United States and Britain, because British forts remained in the Northwest. These tensions eased after Fallen Timbers in 1794, when Native forces were defeated, and after Jay's Treaty, in which Britain agreed to leave the forts."
+          }
+        ],
+        "takeaway": "Native nations made shifting alliances to protect their lands, and British support for them added to tensions with the United States."
+      },
+      {
+        "id": "frontier-cultures",
+        "title": "Westward migration and frontier cultures",
+        "conceptTitle": "Westward migration and frontier cultures",
+        "lenses": [
+          "MIG",
+          "SOC",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "As increasing numbers of migrants from North America and other parts of the world continued to move westward, frontier cultures that had emerged in the colonial period continued to grow, fueling social, political, and ethnic tensions. After the Revolution, settlers crossed the Appalachians into Kentucky and Tennessee, which became states in 1792 and 1796, and into the Ohio country. Many of them were of Scots-Irish and German descent, and they made their living from farming, hunting, and trade."
+          },
+          {
+            "type": "paragraph",
+            "text": "Frontier settlers wanted secure land titles, protection from Native peoples, and access to markets, especially through the Mississippi River. They often resented eastern elites and federal policies such as taxes, which was the background of the Whiskey Rebellion. Competition for land also meant conflict with Native nations, with the Spanish and British, and among settlers themselves."
+          }
+        ],
+        "takeaway": "Settlers who moved west brought frontier cultures with them and competed for land with Native peoples and one another."
+      },
+      {
+        "id": "slavery-and-regional-attitudes",
+        "title": "Slavery and regional attitudes",
+        "conceptTitle": "Slavery and regional attitudes",
+        "lenses": [
+          "SOC",
+          "WXT",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The expansion of slavery in the Deep South and adjacent western lands and rising antislavery sentiment began to create distinctive regional attitudes toward slavery. In the North, states abolished slavery or adopted gradual emancipation, and the Northwest Ordinance banned slavery north of the Ohio River. Free Black communities in northern cities formed churches and aid societies, such as the Free African Society, founded in Philadelphia in 1787 by Richard Allen and Absalom Jones."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the South, the invention of the cotton gin in 1793 made short-staple cotton profitable and encouraged the spread of slavery into the Deep South and westward. Many white Southerners who had once called slavery an evil came to defend it as necessary. The Constitution protected slavery with the Three-Fifths Compromise, the fugitive slave clause, and the delay of any ban on the international slave trade until 1808. Fear of slave rebellion, heightened by the Haitian Revolution, led Southern states to tighten control of enslaved people."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Slavery was not limited to the South in 1790, and antislavery action was not limited to the North. The pattern was uneven, and it was moving in different directions in different regions."
+          }
+        ],
+        "takeaway": "Slavery declined in the North and expanded in the Deep South, which created distinct regional attitudes."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 3.13",
+        "title": "Looking across the period",
+        "body": "Topic 3.13 asks what stayed the same and what changed between 1754 and 1800.",
+        "transferQuestion": "How did the cotton gin and the Revolution's ideals pull the nation in different directions on slavery?",
+        "feedback": "A strong answer explains that the ideals led some to question slavery while the cotton gin gave slaveholders a new economic reason to expand it.",
+        "links": [
+          {
+            "topicId": "apush-3-6",
+            "sectionId": "equality-and-slavery",
+            "label": "Review equality and slavery"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced"
+    ]
+  },
+  "bankPath": "apush/banks/apush-3-12.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    }
+  ],
+  "assets": {}
+}

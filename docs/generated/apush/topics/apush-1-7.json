@@ -1,0 +1,455 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-1",
+    "courseId": "apush",
+    "number": 1,
+    "title": "Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "description": "Follow Native American societies, European exploration, the Columbian Exchange, and the Spanish empire from 1491 to 1607.",
+    "quizzes": [
+      {
+        "id": "apush-1-practice",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-1-1",
+            "questionIds": [
+              "apush-1-1-q01",
+              "apush-1-1-q04",
+              "apush-1-1-q07"
+            ]
+          },
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-q01",
+              "apush-1-2-q04",
+              "apush-1-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-q01",
+              "apush-1-3-q04",
+              "apush-1-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-q01",
+              "apush-1-4-q04",
+              "apush-1-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-q01",
+              "apush-1-5-q04",
+              "apush-1-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-q01",
+              "apush-1-6-q04",
+              "apush-1-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-q01",
+              "apush-1-7-q04",
+              "apush-1-7-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-1-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-1",
+        "title": "Unit 1 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-1-2",
+            "questionIds": [
+              "apush-1-2-t01",
+              "apush-1-2-t02",
+              "apush-1-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-3",
+            "questionIds": [
+              "apush-1-3-t01",
+              "apush-1-3-t02",
+              "apush-1-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-4",
+            "questionIds": [
+              "apush-1-4-t01",
+              "apush-1-4-t02",
+              "apush-1-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-5",
+            "questionIds": [
+              "apush-1-5-t01",
+              "apush-1-5-t02",
+              "apush-1-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t01",
+              "apush-1-6-t02",
+              "apush-1-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-1-6",
+            "questionIds": [
+              "apush-1-6-t04",
+              "apush-1-6-t05",
+              "apush-1-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-1-7",
+            "questionIds": [
+              "apush-1-7-t01",
+              "apush-1-7-t02",
+              "apush-1-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
+    "practiceTest": {
+      "id": "apush-1-practice-test",
+      "title": "Unit 1 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-1-1-quiz",
+        "title": "Contextualizing Period 1 topic quiz"
+      },
+      {
+        "id": "apush-1-2-quiz",
+        "title": "Native American Societies Before European Contact topic quiz"
+      },
+      {
+        "id": "apush-1-3-quiz",
+        "title": "European Exploration in the Americas topic quiz"
+      },
+      {
+        "id": "apush-1-4-quiz",
+        "title": "Columbian Exchange, Spanish Exploration, and Conquest topic quiz"
+      },
+      {
+        "id": "apush-1-5-quiz",
+        "title": "Labor, Slavery, and Caste in the Spanish Colonial System topic quiz"
+      },
+      {
+        "id": "apush-1-6-quiz",
+        "title": "Cultural Interactions Between Europeans, Native Americans, and Africans topic quiz"
+      },
+      {
+        "id": "apush-1-7-quiz",
+        "title": "Causation in Period 1 topic quiz"
+      }
+    ],
+    "topicCount": 7,
+    "firstTopic": {
+      "id": "apush-1-1",
+      "courseId": "apush",
+      "unitId": "apush-1",
+      "order": 1,
+      "code": "1.1",
+      "title": "Contextualizing Period 1",
+      "period": "1491–1607",
+      "status": "ready",
+      "summary": "What a historical context is, and the Native American, European, and African developments that framed the encounters of 1491 to 1607."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-1-saq-01",
+        "title": "Unit 1 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-saq-02",
+        "title": "Unit 1 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-1-leq-change",
+        "title": "LEQ: Contact and change in Native societies",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-1-7",
+    "courseId": "apush",
+    "unitId": "apush-1",
+    "order": 7,
+    "code": "1.7",
+    "title": "Causation in Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "summary": "How to explain the causes and effects of the transatlantic voyages of 1491–1607: separating long-term and short-term causes, tracing chains of effects, and weighing competing explanations."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "7d1ea52ce087d9aa",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-1-7",
+    "unitId": "apush-1",
+    "courseId": "apush",
+    "code": "1.7",
+    "title": "Causation in Period 1",
+    "period": "1491–1607",
+    "status": "ready",
+    "order": 7,
+    "summary": "How to explain the causes and effects of the transatlantic voyages of 1491–1607: separating long-term and short-term causes, tracing chains of effects, and weighing competing explanations.",
+    "minutes": 10,
+    "learningGoals": [
+      "Distinguish long-term causes from short-term causes of European exploration and conquest.",
+      "Trace chains of cause and effect, including intended and unintended consequences, from the voyages to the Atlantic world.",
+      "Weigh competing causes and write a causal claim that is supported with evidence."
+    ],
+    "bigIdea": "Historians explain events by identifying several causes, separating what made an event possible from what made it happen, and judging which causes mattered most.",
+    "context": "This topic applies the reasoning skill of causation to everything in Unit 1. The CED asks you to explain the effects of the development of transatlantic voyages from 1491 to 1607.",
+    "sections": [
+      {
+        "id": "causes-of-voyages",
+        "title": "Why the voyages began",
+        "conceptTitle": "Why the voyages began",
+        "lenses": [
+          "WOR",
+          "WXT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Causation means explaining why something happened and what it led to. Most events have more than one cause, and causes differ in how long they were at work. Long-term causes built over many years. Short-term causes were closer to the event and often triggered it."
+          },
+          {
+            "type": "paragraph",
+            "text": "The long-term causes of European exploration were the search for new sources of wealth, economic and military competition among monarchies, and a desire to spread Christianity. A short-term trigger was a particular decision, such as Ferdinand and Isabella's agreement in 1492 to fund Columbus. Better ships and navigation tools, such as the caravel and the compass, were conditions that made long voyages possible, but they do not explain why rulers wanted to pay for them."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Do not confuse what made an event possible with what made it happen. Technology made the voyages possible. Wealth, rivalry, and faith gave monarchs reasons to send them."
+          }
+        ],
+        "takeaway": "Exploration had several long-term causes, and a short-term decision set particular voyages in motion."
+      },
+      {
+        "id": "effects-of-voyages",
+        "title": "From voyages to an Atlantic world",
+        "conceptTitle": "From voyages to an Atlantic world",
+        "lenses": [
+          "WOR",
+          "GEO",
+          "SOC"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The voyages produced effects that unfolded in stages. Contact quickly brought the Columbian Exchange. Old World diseases spread through Native populations that had no immunity, and in many regions most of the people died within a few generations. These losses, together with Indigenous alliances and Spanish weapons, made conquest possible."
+          },
+          {
+            "type": "paragraph",
+            "text": "Conquest led to further effects. Spain built an empire that depended on forced labor. Labor shortages after Native population decline increased the demand for enslaved Africans, which expanded the Atlantic slave trade and strengthened the role of some West African partners in supplying captives. American silver and crops helped change Europe's economy, and new business methods such as joint-stock companies spread. Over time, the voyages linked Europe, Africa, and the Americas in one Atlantic world."
+          },
+          {
+            "type": "callout",
+            "title": "Cause and effect",
+            "text": "Voyages carried diseases to the Americas, Native populations fell, labor shortages followed, and Spain imported more enslaved Africans. Each effect became a cause of the next development."
+          },
+          {
+            "type": "callout",
+            "title": "Intended and unintended effects",
+            "text": "Rulers intended to gain wealth and spread Christianity. They did not intend the epidemics that spread among Native peoples, although the epidemics helped the conquest succeed."
+          }
+        ],
+        "takeaway": "Effects of the voyages linked together in chains, and some of the most important ones were unintended."
+      },
+      {
+        "id": "weighing-causes",
+        "title": "Weighing causes and making a causal claim",
+        "conceptTitle": "Weighing causes and making a causal claim",
+        "lenses": [
+          "WOR",
+          "PCE"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "When several causes explain an event, historians judge which mattered most. Consider the fall of the Aztec Empire. Some historians stress disease, because epidemics killed many Aztecs and weakened the city. Others stress Indigenous allies, such as the Tlaxcalans, because thousands of Native warriors fought alongside a small Spanish force. Most agree that weapons, allies, and disease worked together, but they disagree about how much weight each deserves."
+          },
+          {
+            "type": "paragraph",
+            "text": "A strong causal claim names a cause and an effect, explains the link between them, and supports the link with specific evidence. For example, a claim that competition among monarchies drove exploration should point to specific actions, such as Spain and Portugal dividing the world in the Treaty of Tordesillas and England and France sending their own expeditions despite it."
+          }
+        ],
+        "takeaway": "To make a causal claim, name the cause and effect, explain the link, and weigh it against other causes with evidence."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Unit 2",
+        "title": "The same causes shape new colonies",
+        "body": "Unit 2 covers 1607 to 1754, when England, France, and the Netherlands founded colonies of their own. Wealth, rivalry, and religion remained central motives, and the labor systems and cultural encounters of Period 1 provided patterns that later colonies would follow or change.",
+        "transferQuestion": "Which cause of Spanish exploration would you expect to matter in English colonization, and what evidence would you look for?",
+        "feedback": "A strong answer picks one cause, such as rivalry with Spain, and names the kind of evidence, such as an English promoter's argument or a charter, that would show its effect.",
+        "links": [
+          {
+            "topicId": "apush-1-4",
+            "sectionId": "epidemics-and-conquest",
+            "label": "Review epidemics and conquest"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "fiveable-apush-unit-1"
+    ]
+  },
+  "bankPath": "apush/banks/apush-1-7.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    },
+    {
+      "id": "fiveable-apush-unit-1",
+      "label": "Fiveable: AP U.S. History Unit 1, Contact & Colonization, 1491-1607",
+      "url": "https://fiveable.me/apush/unit-1",
+      "note": "Topic-by-topic overview used to cross-check the coverage and examples in Unit 1."
+    }
+  ],
+  "assets": {}
+}

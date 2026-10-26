@@ -328,7 +328,7 @@
       }
     ]
   },
-  "contentRevision": "c30de82fcc6af0f5",
+  "contentRevision": "6490310365ac5017",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-5-4",
@@ -405,20 +405,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "deindustrialization",
-        "topicId": "world-5-4",
-        "term": "deindustrialization",
-        "definition": "The decline of manufacturing in a region, such as India's hand-woven textile industry after cheap British cloth arrived."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-5-deindustrialization"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -442,15 +429,7 @@
     ]
   },
   "bankPath": "world/banks/world-5-4.json",
-  "glossary": [
-    {
-      "id": "world-5-deindustrialization",
-      "term": "deindustrialization",
-      "definition": "The decline of manufacturing in a region, such as India's hand-woven textile industry after cheap British cloth arrived.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.4 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-5-4",

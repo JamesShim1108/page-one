@@ -17,6 +17,8 @@ A mock exam is a full-length, timed practice exam in the AP format. World Histor
 | Styles                  | `docs/styles/exam.css`                                  |
 | Tests                   | `tests/mock-exam.test.mjs`                              |
 
+AP U.S. History has its own `exam-format.js` for the May 2027 exam (three required SAQs with fixed source types, one required LEQ, DBQ in Units 3–8, multiple-choice unit weighting, and a paired-text set). Format files can declare `sets`, `unitWeights`, `distinctUnits`, per-prompt `units` and `minUnitSpan`, the stimulus rules `primary-text`, `secondary-text`, and `non-text`, and `pairedTextSet`; see [AP U.S. History](ap-us-history.md).
+
 `exam-format.js` describes the AP World History: Modern exam: Section I Part A (55 multiple-choice questions, 55 minutes, 40%), Part B (three short-answer questions with a choice between Questions 3 and 4, 40 minutes, 20%), a 10-minute break, then the DBQ (60 minutes including a 15-minute suggested reading period, 25%) and the LEQ (choose one of three, 40 minutes, 15%). Check it against the College Board's exam description each year; every exam follows it automatically, and the build rejects any exam that no longer fits.
 
 ## Authoring an exam

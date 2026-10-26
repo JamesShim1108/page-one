@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 6.1. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-06.js.
+// Original Page One lesson for CED Topic 6.1.
 
 export const lesson = {
   schemaVersion: 1,
@@ -71,37 +70,7 @@ export const lesson = {
       sourceIds: ["ced-topic-6-1"],
     },
   ],
-  vocabulary: [
-    {
-      id: "social-darwinism",
-      topicId: "world-6-1",
-      term: "Social Darwinism",
-      definition:
-        "The false application of ideas of natural selection to human societies, used to claim that stronger nations or races deserved to dominate.",
-    },
-    {
-      id: "civilizing-mission",
-      topicId: "world-6-1",
-      term: "civilizing mission",
-      definition:
-        "The belief that Europeans had a duty to spread their religion, education, and laws to colonized peoples, used to justify empire.",
-    },
-    {
-      id: "imperialism",
-      topicId: "world-6-1",
-      term: "imperialism",
-      definition:
-        "The policy of extending a nation's power over other territories through conquest, colonization, or economic control.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-6-social-darwinism",
-      "world-6-civilizing-mission",
-      "world-6-imperialism",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",

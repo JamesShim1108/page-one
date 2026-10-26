@@ -328,7 +328,7 @@
       }
     ]
   },
-  "contentRevision": "4d388e281bf7d548",
+  "contentRevision": "4062d753d8c70448",
   "lesson": {
     "schemaVersion": 1,
     "id": "world-5-5",
@@ -399,34 +399,7 @@
         ]
       }
     ],
-    "vocabulary": [
-      {
-        "id": "steam-engine",
-        "topicId": "world-5-5",
-        "term": "steam engine",
-        "definition": "A machine that turns the heat of burning fuel into mechanical power, improved by James Watt in the late 1700s."
-      },
-      {
-        "id": "telegraph",
-        "topicId": "world-5-5",
-        "term": "telegraph",
-        "definition": "A system that sends messages over wires by electric signal."
-      },
-      {
-        "id": "bessemer-process",
-        "topicId": "world-5-5",
-        "term": "Bessemer process",
-        "definition": "A method developed in the 1850s for making steel cheaply from iron."
-      }
-    ],
-    "definitionCoverage": {
-      "status": "required",
-      "conceptIds": [
-        "world-5-steam-engine",
-        "world-5-telegraph",
-        "world-5-bessemer-process"
-      ]
-    },
+    "vocabulary": [],
     "connections": [
       {
         "id": "c1",
@@ -450,29 +423,7 @@
     ]
   },
   "bankPath": "world/banks/world-5-5.json",
-  "glossary": [
-    {
-      "id": "world-5-steam-engine",
-      "term": "steam engine",
-      "definition": "A machine that turns the heat of burning fuel into mechanical power, improved by James Watt in the late 1700s.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.5 glossary"
-    },
-    {
-      "id": "world-5-telegraph",
-      "term": "telegraph",
-      "definition": "A system that sends messages over wires by electric signal.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.5 glossary"
-    },
-    {
-      "id": "world-5-bessemer-process",
-      "term": "Bessemer process",
-      "definition": "A method developed in the 1850s for making steel cheaply from iron.",
-      "aliases": [],
-      "sourceLabel": "Topic 5.5 glossary"
-    }
-  ],
+  "glossary": [],
   "sources": [
     {
       "id": "ced-topic-5-5",

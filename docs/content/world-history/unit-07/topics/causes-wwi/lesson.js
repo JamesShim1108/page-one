@@ -1,5 +1,4 @@
-// Original Page One lesson for CED Topic 7.2. Reading definitions come from
-// this lesson's vocabulary through ../../../glossary/unit-07.js.
+// Original Page One lesson for CED Topic 7.2.
 
 export const lesson = {
   schemaVersion: 1,
@@ -68,37 +67,7 @@ export const lesson = {
       sourceIds: ["ced-topic-7-2"],
     },
   ],
-  vocabulary: [
-    {
-      id: "militarism",
-      topicId: "world-7-2",
-      term: "Militarism",
-      definition:
-        "The glorification of military power and the build-up of large armies and navies.",
-    },
-    {
-      id: "alliance-systems",
-      topicId: "world-7-2",
-      term: "alliance systems",
-      definition:
-        "Agreements among states to support one another in war, which divided Europe into two camps before 1914.",
-    },
-    {
-      id: "franz-ferdinand",
-      topicId: "world-7-2",
-      term: "Archduke Franz Ferdinand",
-      definition:
-        "Heir to the throne of Austria-Hungary, whose assassination in 1914 triggered World War I.",
-    },
-  ],
-  definitionCoverage: {
-    status: "required",
-    conceptIds: [
-      "world-7-militarism",
-      "world-7-alliance-systems",
-      "world-7-franz-ferdinand",
-    ],
-  },
+  vocabulary: [],
   connections: [
     {
       id: "c1",
