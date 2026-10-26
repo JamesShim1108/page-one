@@ -30,65 +30,65 @@
           {
             "topicId": "precalculus-2-1",
             "questionIds": [
-              "precalculus-2-1-q01",
-              "precalculus-2-1-q04",
-              "precalculus-2-1-q06"
+              "precalculus-2-1-p02",
+              "precalculus-2-1-p07",
+              "precalculus-2-1-p09"
             ]
           },
           {
             "topicId": "precalculus-2-2",
             "questionIds": [
-              "precalculus-2-2-q01",
-              "precalculus-2-2-q04",
-              "precalculus-2-2-q05"
+              "precalculus-2-2-p02",
+              "precalculus-2-2-p07",
+              "precalculus-2-2-p09"
             ]
           },
           {
             "topicId": "precalculus-2-3",
             "questionIds": [
-              "precalculus-2-3-q01",
-              "precalculus-2-3-q04",
-              "precalculus-2-3-q06"
+              "precalculus-2-3-p02",
+              "precalculus-2-3-p07",
+              "precalculus-2-3-p09"
             ]
           },
           {
             "topicId": "precalculus-2-4",
             "questionIds": [
-              "precalculus-2-4-q01",
-              "precalculus-2-4-q04",
-              "precalculus-2-4-q06"
+              "precalculus-2-4-p02",
+              "precalculus-2-4-p07",
+              "precalculus-2-4-p09"
             ]
           },
           {
             "topicId": "precalculus-2-5",
             "questionIds": [
-              "precalculus-2-5-q01",
-              "precalculus-2-5-q05",
-              "precalculus-2-5-q09"
+              "precalculus-2-5-p02",
+              "precalculus-2-5-p07",
+              "precalculus-2-5-p09"
             ]
           },
           {
             "topicId": "precalculus-2-6",
             "questionIds": [
-              "precalculus-2-6-q01",
-              "precalculus-2-6-q03",
-              "precalculus-2-6-q06"
+              "precalculus-2-6-p02",
+              "precalculus-2-6-p07",
+              "precalculus-2-6-p09"
             ]
           },
           {
             "topicId": "precalculus-2-7",
             "questionIds": [
-              "precalculus-2-7-q01",
-              "precalculus-2-7-q04",
-              "precalculus-2-7-q07"
+              "precalculus-2-7-p02",
+              "precalculus-2-7-p07",
+              "precalculus-2-7-p09"
             ]
           },
           {
             "topicId": "precalculus-2-8",
             "questionIds": [
-              "precalculus-2-8-q01",
-              "precalculus-2-8-q04",
-              "precalculus-2-8-q06"
+              "precalculus-2-8-p02",
+              "precalculus-2-8-p07",
+              "precalculus-2-8-p09"
             ]
           }
         ]
@@ -103,62 +103,198 @@
           {
             "topicId": "precalculus-2-9",
             "questionIds": [
-              "precalculus-2-9-q01",
-              "precalculus-2-9-q03",
-              "precalculus-2-9-q06"
+              "precalculus-2-9-p02",
+              "precalculus-2-9-p07",
+              "precalculus-2-9-p09"
             ]
           },
           {
             "topicId": "precalculus-2-10",
             "questionIds": [
-              "precalculus-2-10-q01",
-              "precalculus-2-10-q03",
-              "precalculus-2-10-q06"
+              "precalculus-2-10-p02",
+              "precalculus-2-10-p07",
+              "precalculus-2-10-p09"
             ]
           },
           {
             "topicId": "precalculus-2-11",
             "questionIds": [
-              "precalculus-2-11-q01",
-              "precalculus-2-11-q04",
-              "precalculus-2-11-q09"
+              "precalculus-2-11-p02",
+              "precalculus-2-11-p07",
+              "precalculus-2-11-p09"
             ]
           },
           {
             "topicId": "precalculus-2-12",
             "questionIds": [
-              "precalculus-2-12-q01",
-              "precalculus-2-12-q03",
-              "precalculus-2-12-q05"
+              "precalculus-2-12-p02",
+              "precalculus-2-12-p07",
+              "precalculus-2-12-p09"
             ]
           },
           {
             "topicId": "precalculus-2-13",
             "questionIds": [
-              "precalculus-2-13-q01",
-              "precalculus-2-13-q03",
-              "precalculus-2-13-q06"
+              "precalculus-2-13-p02",
+              "precalculus-2-13-p07",
+              "precalculus-2-13-p09"
             ]
           },
           {
             "topicId": "precalculus-2-14",
             "questionIds": [
-              "precalculus-2-14-q01",
-              "precalculus-2-14-q03",
-              "precalculus-2-14-q05"
+              "precalculus-2-14-p02",
+              "precalculus-2-14-p07",
+              "precalculus-2-14-p09"
             ]
           },
           {
             "topicId": "precalculus-2-15",
             "questionIds": [
-              "precalculus-2-15-q01",
-              "precalculus-2-15-q04",
-              "precalculus-2-15-q07"
+              "precalculus-2-15-p02",
+              "precalculus-2-15-p07",
+              "precalculus-2-15-p09"
             ]
           }
         ]
       }
     ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-2-mcq-1",
+          "title": "Unit 2 multiple choice, Part 1: Topics 2.1 to 2.8",
+          "questionCount": 24
+        },
+        {
+          "id": "precalculus-2-mcq-2",
+          "title": "Unit 2 multiple choice, Part 2: Topics 2.9 to 2.15",
+          "questionCount": 21
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-2-1-mcq",
+          "title": "Change in Arithmetic and Geometric Sequences multiple choice",
+          "topicId": "precalculus-2-1",
+          "code": "2.1",
+          "topicTitle": "Change in Arithmetic and Geometric Sequences",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-2-mcq",
+          "title": "Change in Linear and Exponential Functions multiple choice",
+          "topicId": "precalculus-2-2",
+          "code": "2.2",
+          "topicTitle": "Change in Linear and Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-3-mcq",
+          "title": "Exponential Functions multiple choice",
+          "topicId": "precalculus-2-3",
+          "code": "2.3",
+          "topicTitle": "Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-4-mcq",
+          "title": "Exponential Function Manipulation multiple choice",
+          "topicId": "precalculus-2-4",
+          "code": "2.4",
+          "topicTitle": "Exponential Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-5-mcq",
+          "title": "Exponential Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-5",
+          "code": "2.5",
+          "topicTitle": "Exponential Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-6-mcq",
+          "title": "Competing Function Model Validation multiple choice",
+          "topicId": "precalculus-2-6",
+          "code": "2.6",
+          "topicTitle": "Competing Function Model Validation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-7-mcq",
+          "title": "Composition of Functions multiple choice",
+          "topicId": "precalculus-2-7",
+          "code": "2.7",
+          "topicTitle": "Composition of Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-8-mcq",
+          "title": "Inverse Functions multiple choice",
+          "topicId": "precalculus-2-8",
+          "code": "2.8",
+          "topicTitle": "Inverse Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-9-mcq",
+          "title": "Logarithmic Expressions multiple choice",
+          "topicId": "precalculus-2-9",
+          "code": "2.9",
+          "topicTitle": "Logarithmic Expressions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-10-mcq",
+          "title": "Inverses of Exponential Functions multiple choice",
+          "topicId": "precalculus-2-10",
+          "code": "2.10",
+          "topicTitle": "Inverses of Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-11-mcq",
+          "title": "Logarithmic Functions multiple choice",
+          "topicId": "precalculus-2-11",
+          "code": "2.11",
+          "topicTitle": "Logarithmic Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-12-mcq",
+          "title": "Logarithmic Function Manipulation multiple choice",
+          "topicId": "precalculus-2-12",
+          "code": "2.12",
+          "topicTitle": "Logarithmic Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-13-mcq",
+          "title": "Exponential and Logarithmic Equations and Inequalities multiple choice",
+          "topicId": "precalculus-2-13",
+          "code": "2.13",
+          "topicTitle": "Exponential and Logarithmic Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-14-mcq",
+          "title": "Logarithmic Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-14",
+          "code": "2.14",
+          "topicTitle": "Logarithmic Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-15-mcq",
+          "title": "Semi-log Plots multiple choice",
+          "topicId": "precalculus-2-15",
+          "code": "2.15",
+          "topicTitle": "Semi-log Plots",
+          "questionCount": 10
+        }
+      ]
+    },
     "practiceTest": null,
     "termSets": [],
     "topicQuizzes": [
@@ -278,93 +414,93 @@
       {
         "topicId": "precalculus-2-1",
         "questionIds": [
-          "precalculus-2-1-q01",
-          "precalculus-2-1-q04",
-          "precalculus-2-1-q06"
+          "precalculus-2-1-p02",
+          "precalculus-2-1-p07",
+          "precalculus-2-1-p09"
         ]
       },
       {
         "topicId": "precalculus-2-2",
         "questionIds": [
-          "precalculus-2-2-q01",
-          "precalculus-2-2-q04",
-          "precalculus-2-2-q05"
+          "precalculus-2-2-p02",
+          "precalculus-2-2-p07",
+          "precalculus-2-2-p09"
         ]
       },
       {
         "topicId": "precalculus-2-3",
         "questionIds": [
-          "precalculus-2-3-q01",
-          "precalculus-2-3-q04",
-          "precalculus-2-3-q06"
+          "precalculus-2-3-p02",
+          "precalculus-2-3-p07",
+          "precalculus-2-3-p09"
         ]
       },
       {
         "topicId": "precalculus-2-4",
         "questionIds": [
-          "precalculus-2-4-q01",
-          "precalculus-2-4-q04",
-          "precalculus-2-4-q06"
+          "precalculus-2-4-p02",
+          "precalculus-2-4-p07",
+          "precalculus-2-4-p09"
         ]
       },
       {
         "topicId": "precalculus-2-5",
         "questionIds": [
-          "precalculus-2-5-q01",
-          "precalculus-2-5-q05",
-          "precalculus-2-5-q09"
+          "precalculus-2-5-p02",
+          "precalculus-2-5-p07",
+          "precalculus-2-5-p09"
         ]
       },
       {
         "topicId": "precalculus-2-6",
         "questionIds": [
-          "precalculus-2-6-q01",
-          "precalculus-2-6-q03",
-          "precalculus-2-6-q06"
+          "precalculus-2-6-p02",
+          "precalculus-2-6-p07",
+          "precalculus-2-6-p09"
         ]
       },
       {
         "topicId": "precalculus-2-7",
         "questionIds": [
-          "precalculus-2-7-q01",
-          "precalculus-2-7-q04",
-          "precalculus-2-7-q07"
+          "precalculus-2-7-p02",
+          "precalculus-2-7-p07",
+          "precalculus-2-7-p09"
         ]
       },
       {
         "topicId": "precalculus-2-8",
         "questionIds": [
-          "precalculus-2-8-q01",
-          "precalculus-2-8-q04",
-          "precalculus-2-8-q06"
+          "precalculus-2-8-p02",
+          "precalculus-2-8-p07",
+          "precalculus-2-8-p09"
         ]
       }
     ],
     "questionIds": [
-      "precalculus-2-1-q01",
-      "precalculus-2-1-q04",
-      "precalculus-2-1-q06",
-      "precalculus-2-2-q01",
-      "precalculus-2-2-q04",
-      "precalculus-2-2-q05",
-      "precalculus-2-3-q01",
-      "precalculus-2-3-q04",
-      "precalculus-2-3-q06",
-      "precalculus-2-4-q01",
-      "precalculus-2-4-q04",
-      "precalculus-2-4-q06",
-      "precalculus-2-5-q01",
-      "precalculus-2-5-q05",
-      "precalculus-2-5-q09",
-      "precalculus-2-6-q01",
-      "precalculus-2-6-q03",
-      "precalculus-2-6-q06",
-      "precalculus-2-7-q01",
-      "precalculus-2-7-q04",
-      "precalculus-2-7-q07",
-      "precalculus-2-8-q01",
-      "precalculus-2-8-q04",
-      "precalculus-2-8-q06"
+      "precalculus-2-1-p02",
+      "precalculus-2-1-p07",
+      "precalculus-2-1-p09",
+      "precalculus-2-2-p02",
+      "precalculus-2-2-p07",
+      "precalculus-2-2-p09",
+      "precalculus-2-3-p02",
+      "precalculus-2-3-p07",
+      "precalculus-2-3-p09",
+      "precalculus-2-4-p02",
+      "precalculus-2-4-p07",
+      "precalculus-2-4-p09",
+      "precalculus-2-5-p02",
+      "precalculus-2-5-p07",
+      "precalculus-2-5-p09",
+      "precalculus-2-6-p02",
+      "precalculus-2-6-p07",
+      "precalculus-2-6-p09",
+      "precalculus-2-7-p02",
+      "precalculus-2-7-p07",
+      "precalculus-2-7-p09",
+      "precalculus-2-8-p02",
+      "precalculus-2-8-p07",
+      "precalculus-2-8-p09"
     ]
   },
   "bankPaths": [

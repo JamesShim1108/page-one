@@ -284,28 +284,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-8-quick",
+      id: "precalculus-1-8-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-8",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Rational Functions and Zeros multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-8-q01",
         "precalculus-1-8-q02",
         "precalculus-1-8-q03",
         "precalculus-1-8-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-8-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-8",
-      title: "Rational Functions and Zeros topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-8-q05",
         "precalculus-1-8-q06",
         "precalculus-1-8-q07",

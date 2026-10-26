@@ -235,28 +235,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-8-quick",
+      id: "precalculus-3-8-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-8",
-      title: "Quick check",
-      quizType: "quick",
+      title: "The Tangent Function multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-8-q01",
         "precalculus-3-8-q02",
         "precalculus-3-8-q03",
         "precalculus-3-8-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-8-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-8",
-      title: "The Tangent Function topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-8-q05",
         "precalculus-3-8-q06",
         "precalculus-3-8-q07",

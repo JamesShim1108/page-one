@@ -10,12 +10,26 @@ export const unit = {
   status: "ready",
   description:
     "See how outputs change with inputs, then use rates of change, zeros, end behavior, asymptotes, and holes to describe polynomial and rational functions and build models from them.",
-  quizzes: [
+  // Typed-answer practice. Each part takes the unit-practice problems from its topics.
+  practice: [
     {
       id: "precalculus-1-practice",
+      title: "Unit 1 practice, Part 1: Topics 1.1 to 1.6",
+      topicIds: [1, 2, 3, 4, 5, 6].map((n) => `precalculus-1-${n}`),
+    },
+    {
+      id: "precalculus-1-practice-2",
+      title: "Unit 1 practice, Part 2: Topics 1.7 to 1.14",
+      topicIds: [7, 8, 9, 10, 11, 12, 13, 14].map((n) => `precalculus-1-${n}`),
+    },
+  ],
+  // Multiple-choice unit sets. These appear in the Multiple Choice section, not on topic pages.
+  quizzes: [
+    {
+      id: "precalculus-1-mcq-1",
       courseId: "precalculus",
       unitId: "precalculus-1",
-      title: "Unit 1 practice, Part 1: Topics 1.1 to 1.6",
+      title: "Unit 1 multiple choice, Part 1: Topics 1.1 to 1.6",
       quizType: "unit",
       selections: [
         {
@@ -69,10 +83,10 @@ export const unit = {
       ],
     },
     {
-      id: "precalculus-1-practice-2",
+      id: "precalculus-1-mcq-2",
       courseId: "precalculus",
       unitId: "precalculus-1",
-      title: "Unit 1 practice, Part 2: Topics 1.7 to 1.14",
+      title: "Unit 1 multiple choice, Part 2: Topics 1.7 to 1.14",
       quizType: "unit",
       selections: [
         {

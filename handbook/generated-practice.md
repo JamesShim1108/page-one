@@ -1,6 +1,8 @@
-# Generated practice (proposal)
+# Generated practice
 
-Status: design only. Nothing here is built yet.
+Status: **typed-answer practice is built** and is described in [Typed-answer practice](free-response.md). Every AP Precalculus topic has ten templates that produce new numbers on each attempt, with keys proved at build time. It uses pre-generated variants (eight per template) instead of a runtime seed, so a saved attempt is a plain snapshot of the variant the student saw.
+
+The rest of this note is the original proposal for generating **multiple-choice** questions with distractors built from named mistakes. That part is **not built**; the multiple-choice sets are still authored. Several ideas carried over: templates that prove their own answers by a second method, text rules checked by the build, and a quality gate. Where this note says "a question is described by `(templateId, seed)`", the built system instead stores the variant itself.
 
 The written banks give every topic ten carefully checked questions. Students who want more run out quickly, and repeating the same ten questions trains recall of answers instead of skill. This note proposes a way for the site to make new questions on demand without losing what makes the authored ones good: a verified key, distractors that come from real mistakes, explanations for every choice, and AP wording.
 

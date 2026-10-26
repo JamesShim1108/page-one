@@ -1,0 +1,765 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-2",
+    "courseId": "precalculus",
+    "number": 2,
+    "title": "Exponential and Logarithmic Functions",
+    "period": "AP Exam weighting 25–40%",
+    "status": "ready",
+    "description": "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
+    "quizzes": [
+      {
+        "id": "precalculus-2-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-1",
+            "questionIds": [
+              "precalculus-2-1-p02",
+              "precalculus-2-1-p07",
+              "precalculus-2-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-2",
+            "questionIds": [
+              "precalculus-2-2-p02",
+              "precalculus-2-2-p07",
+              "precalculus-2-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-3",
+            "questionIds": [
+              "precalculus-2-3-p02",
+              "precalculus-2-3-p07",
+              "precalculus-2-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-4",
+            "questionIds": [
+              "precalculus-2-4-p02",
+              "precalculus-2-4-p07",
+              "precalculus-2-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-5",
+            "questionIds": [
+              "precalculus-2-5-p02",
+              "precalculus-2-5-p07",
+              "precalculus-2-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-6",
+            "questionIds": [
+              "precalculus-2-6-p02",
+              "precalculus-2-6-p07",
+              "precalculus-2-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-7",
+            "questionIds": [
+              "precalculus-2-7-p02",
+              "precalculus-2-7-p07",
+              "precalculus-2-7-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-8",
+            "questionIds": [
+              "precalculus-2-8-p02",
+              "precalculus-2-8-p07",
+              "precalculus-2-8-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-2-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-2",
+        "title": "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-2-9",
+            "questionIds": [
+              "precalculus-2-9-p02",
+              "precalculus-2-9-p07",
+              "precalculus-2-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-10",
+            "questionIds": [
+              "precalculus-2-10-p02",
+              "precalculus-2-10-p07",
+              "precalculus-2-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-11",
+            "questionIds": [
+              "precalculus-2-11-p02",
+              "precalculus-2-11-p07",
+              "precalculus-2-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-12",
+            "questionIds": [
+              "precalculus-2-12-p02",
+              "precalculus-2-12-p07",
+              "precalculus-2-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-13",
+            "questionIds": [
+              "precalculus-2-13-p02",
+              "precalculus-2-13-p07",
+              "precalculus-2-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-14",
+            "questionIds": [
+              "precalculus-2-14-p02",
+              "precalculus-2-14-p07",
+              "precalculus-2-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-2-15",
+            "questionIds": [
+              "precalculus-2-15-p02",
+              "precalculus-2-15-p07",
+              "precalculus-2-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-2-mcq-1",
+          "title": "Unit 2 multiple choice, Part 1: Topics 2.1 to 2.8",
+          "questionCount": 24
+        },
+        {
+          "id": "precalculus-2-mcq-2",
+          "title": "Unit 2 multiple choice, Part 2: Topics 2.9 to 2.15",
+          "questionCount": 21
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-2-1-mcq",
+          "title": "Change in Arithmetic and Geometric Sequences multiple choice",
+          "topicId": "precalculus-2-1",
+          "code": "2.1",
+          "topicTitle": "Change in Arithmetic and Geometric Sequences",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-2-mcq",
+          "title": "Change in Linear and Exponential Functions multiple choice",
+          "topicId": "precalculus-2-2",
+          "code": "2.2",
+          "topicTitle": "Change in Linear and Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-3-mcq",
+          "title": "Exponential Functions multiple choice",
+          "topicId": "precalculus-2-3",
+          "code": "2.3",
+          "topicTitle": "Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-4-mcq",
+          "title": "Exponential Function Manipulation multiple choice",
+          "topicId": "precalculus-2-4",
+          "code": "2.4",
+          "topicTitle": "Exponential Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-5-mcq",
+          "title": "Exponential Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-5",
+          "code": "2.5",
+          "topicTitle": "Exponential Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-6-mcq",
+          "title": "Competing Function Model Validation multiple choice",
+          "topicId": "precalculus-2-6",
+          "code": "2.6",
+          "topicTitle": "Competing Function Model Validation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-7-mcq",
+          "title": "Composition of Functions multiple choice",
+          "topicId": "precalculus-2-7",
+          "code": "2.7",
+          "topicTitle": "Composition of Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-8-mcq",
+          "title": "Inverse Functions multiple choice",
+          "topicId": "precalculus-2-8",
+          "code": "2.8",
+          "topicTitle": "Inverse Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-9-mcq",
+          "title": "Logarithmic Expressions multiple choice",
+          "topicId": "precalculus-2-9",
+          "code": "2.9",
+          "topicTitle": "Logarithmic Expressions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-10-mcq",
+          "title": "Inverses of Exponential Functions multiple choice",
+          "topicId": "precalculus-2-10",
+          "code": "2.10",
+          "topicTitle": "Inverses of Exponential Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-11-mcq",
+          "title": "Logarithmic Functions multiple choice",
+          "topicId": "precalculus-2-11",
+          "code": "2.11",
+          "topicTitle": "Logarithmic Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-12-mcq",
+          "title": "Logarithmic Function Manipulation multiple choice",
+          "topicId": "precalculus-2-12",
+          "code": "2.12",
+          "topicTitle": "Logarithmic Function Manipulation",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-13-mcq",
+          "title": "Exponential and Logarithmic Equations and Inequalities multiple choice",
+          "topicId": "precalculus-2-13",
+          "code": "2.13",
+          "topicTitle": "Exponential and Logarithmic Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-14-mcq",
+          "title": "Logarithmic Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-2-14",
+          "code": "2.14",
+          "topicTitle": "Logarithmic Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-2-15-mcq",
+          "title": "Semi-log Plots multiple choice",
+          "topicId": "precalculus-2-15",
+          "code": "2.15",
+          "topicTitle": "Semi-log Plots",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-2-1-quiz",
+        "title": "Change in Arithmetic and Geometric Sequences topic practice"
+      },
+      {
+        "id": "precalculus-2-2-quiz",
+        "title": "Change in Linear and Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-3-quiz",
+        "title": "Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-4-quiz",
+        "title": "Exponential Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-5-quiz",
+        "title": "Exponential Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-6-quiz",
+        "title": "Competing Function Model Validation topic practice"
+      },
+      {
+        "id": "precalculus-2-7-quiz",
+        "title": "Composition of Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-8-quiz",
+        "title": "Inverse Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-9-quiz",
+        "title": "Logarithmic Expressions topic practice"
+      },
+      {
+        "id": "precalculus-2-10-quiz",
+        "title": "Inverses of Exponential Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-11-quiz",
+        "title": "Logarithmic Functions topic practice"
+      },
+      {
+        "id": "precalculus-2-12-quiz",
+        "title": "Logarithmic Function Manipulation topic practice"
+      },
+      {
+        "id": "precalculus-2-13-quiz",
+        "title": "Exponential and Logarithmic Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-2-14-quiz",
+        "title": "Logarithmic Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-2-15-quiz",
+        "title": "Semi-log Plots topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-2-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Change in Arithmetic and Geometric Sequences",
+      "period": "Unit 2",
+      "status": "ready",
+      "summary": "Sequences as functions of the whole numbers, arithmetic sequences with a common difference, geometric sequences with a common ratio, and the general term of each."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-2-frq-1",
+        "title": "Unit 2 FRQ 1: Function concepts (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-2",
+        "title": "Unit 2 FRQ 2: Modeling a non-periodic context (Topics 2.1 to 2.8)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-3",
+        "title": "Unit 2 FRQ 3: Symbolic manipulations (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-2-frq-4",
+        "title": "Unit 2 FRQ 4: Modeling a non-periodic context (Topics 2.9 to 2.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-2-12",
+    "courseId": "precalculus",
+    "unitId": "precalculus-2",
+    "order": 12,
+    "code": "2.12",
+    "title": "Logarithmic Function Manipulation",
+    "period": "Unit 2",
+    "status": "ready",
+    "summary": "The product, power, and change of base properties for logarithms, the natural logarithm, and how horizontal dilations of logarithmic functions become vertical translations and dilations."
+  },
+  "framework": null,
+  "contentRevision": "9bc2feaa81fc35cd",
+  "questions": [
+    {
+      "id": "precalculus-2-12-q01",
+      "topicId": "precalculus-2-12",
+      "concept": "product-property",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to log₄ 2 + log₄ 32?",
+      "choices": [
+        "3",
+        "log₄ 34",
+        "log₄ 16",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By the product property, log₄ 2 + log₄ 32 = log₄ 64 = 3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "log₄ (2·32) = log₄ 64 = 3.",
+        "The product property multiplies the arguments; it does not add them.",
+        "log₄ 16 = 2, which divides 32 by 2 instead of multiplying.",
+        "8 = 2³ uses the wrong base."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Add logarithms by multiplying their arguments.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-12-q02",
+      "topicId": "precalculus-2-12",
+      "concept": "power-property",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to log₇ x⁵ for x > 0?",
+      "choices": [
+        "(log₇ x)⁵",
+        "log₇ 5x",
+        "5 log₇ x",
+        "log₇ x + 5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The power property for logarithms states that log_b xⁿ = n log_b x.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "The power applies to the input, not to the whole logarithm.",
+        "log₇ 5x = log₇ 5 + log₇ x, which is different.",
+        "log₇ x⁵ = 5 log₇ x.",
+        "The exponent becomes a coefficient, not an added constant."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "A power of the input becomes a coefficient in front.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-12-q03",
+      "topicId": "precalculus-2-12",
+      "concept": "change-of-base",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Which expression is equal to log₆ 30?",
+      "choices": [
+        "(log 6)/(log 30)",
+        "(ln 30)/(ln 6)",
+        "ln 30 − ln 6",
+        "(log 30)/6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By the change of base property, log₆ 30 = (ln 30)/(ln 6), using a = e.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "This is the reciprocal, log₃₀ 6.",
+        "log_b x = (log_a x)/(log_a b) with a = e.",
+        "ln 30 − ln 6 = ln 5, a quotient rule, not a change of base.",
+        "Divide by log 6, not by 6."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Argument on top, base on the bottom.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-12-q04",
+      "topicId": "precalculus-2-12",
+      "concept": "product-property",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "The graph of g(x) = log₃ (9x) is a horizontal dilation of the graph of f(x) = log₃ x. Which equivalent description is also true?",
+      "choices": [
+        "g is a vertical dilation of f by a factor of 9.",
+        "g is a horizontal translation of f by 9 units.",
+        "g is a vertical translation of f down 2 units.",
+        "g is a vertical translation of f up 2 units."
+      ],
+      "correctAnswer": 3,
+      "explanation": "log₃ (9x) = log₃ 9 + log₃ x = 2 + log₃ x, a vertical translation up 2 units.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "A dilation of the input becomes a translation of the output, not a dilation.",
+        "log₃ (x + 9) would be a horizontal translation; log₃ (9x) is not.",
+        "log₃ 9 = 2 is positive, so the translation is up.",
+        "g(x) = 2 + log₃ x."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "log₃ 9 is +2, so the graph moves up.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-12-q05",
+      "topicId": "precalculus-2-12",
+      "concept": "power-property",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to 3 ln x − (1/2) ln x for x > 0, written as a single natural logarithm?",
+      "choices": [
+        "ln x^(5/2)",
+        "ln (3x − x/2)",
+        "ln x^(3/2)",
+        "ln x^(7/2)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "3 ln x − (1/2) ln x = (5/2) ln x = ln x^(5/2).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "Combine the coefficients, 3 − 1/2 = 5/2, then use the power property.",
+        "The coefficients multiply logarithms, not x inside one logarithm.",
+        "3/2 = 3·(1/2) multiplies the coefficients instead of subtracting them.",
+        "7/2 adds the coefficients, but the (1/2) ln x term is subtracted."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Subtract the coefficients: 3 − 1/2 = 5/2.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-12-q06",
+      "topicId": "precalculus-2-12",
+      "concept": "product-property",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "What is the exact value of log₅ 75 − log₅ 3?",
+      "choices": [
+        "log₅ 72",
+        "25",
+        "2",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "log₅ 75 − log₅ 3 = log₅ (75/3) = log₅ 25 = 2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "Subtracting logarithms divides the arguments; it does not subtract them.",
+        "25 is the argument, not the value of the logarithm.",
+        "log₅ 25 = 2 because 5² = 25.",
+        "log₅ 5 = 1, which divides 75 by 15 instead of 3."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The answer is the exponent, log₅ 25 = 2, not 25.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-12-q07",
+      "topicId": "precalculus-2-12",
+      "concept": "change-of-base",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "Which statement about f(x) = log₉ x and g(x) = log₃ x is true?",
+      "choices": [
+        "f(x) = g(x) − 2 for all x > 0",
+        "f(x) = (1/2) g(x) for all x > 0",
+        "f(x) = 2 g(x) for all x > 0",
+        "f(x) = g(x/3) for all x > 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By change of base, log₉ x = (log₃ x)/(log₃ 9) = (1/2) log₃ x. All logarithmic functions are vertical dilations of each other.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "A different base gives a vertical dilation, not a translation.",
+        "log₃ 9 = 2, so log₉ x = (log₃ x)/2.",
+        "Divide by log₃ 9 = 2; do not multiply.",
+        "g(x/3) = log₃ x − 1, a vertical translation."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "A larger base gives smaller outputs: divide by log₃ 9.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-2-12-q08",
+      "topicId": "precalculus-2-12",
+      "concept": "power-property",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to log₂ x + 2 log₂ y − log₂ z, for positive x, y, and z?",
+      "choices": [
+        "log₂ (x + 2y − z)",
+        "log₂ (2xy/z)",
+        "log₂ (x/(y²z))",
+        "log₂ (xy²/z)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Power property: 2 log₂ y = log₂ y². Then the product and quotient give log₂ (xy²/z).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "Logarithms of sums cannot be formed this way.",
+        "The coefficient 2 becomes an exponent on y, not a factor of 2.",
+        "y² belongs in the numerator because 2 log₂ y is added.",
+        "log₂ x + log₂ y² − log₂ z = log₂ (xy²/z)."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Coefficients become exponents; added terms go on top, subtracted terms on the bottom.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-2-12-q09",
+      "topicId": "precalculus-2-12",
+      "concept": "change-of-base",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "Which of the following is closest to log₄ 50?",
+      "choices": [
+        "12.5",
+        "1.699",
+        "2.822",
+        "3.912"
+      ],
+      "correctAnswer": 2,
+      "explanation": "log₄ 50 = (ln 50)/(ln 4) ≈ 3.912/1.386 ≈ 2.822.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "12.5 = 50/4 divides the numbers instead of their logarithms.",
+        "1.699 ≈ log 50, the common logarithm, without dividing by log 4.",
+        "(ln 50)/(ln 4) ≈ 2.822.",
+        "3.912 ≈ ln 50, without dividing by ln 4."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "Divide by the logarithm of the base.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-2-12-q10",
+      "topicId": "precalculus-2-12",
+      "concept": "product-property",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to ln (e³x) for x > 0?",
+      "choices": [
+        "3 + ln x",
+        "3 ln x",
+        "e³ + ln x",
+        "3x"
+      ],
+      "correctAnswer": 0,
+      "explanation": "ln (e³x) = ln e³ + ln x = 3 + ln x, since ln x = logₑ x and logₑ e³ = 3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-2-12"
+      ],
+      "choiceExplanations": [
+        "Product property, then ln e³ = 3.",
+        "3 ln x = ln x³, which is different.",
+        "ln e³ is 3, not e³.",
+        "The logarithm does not cancel with x."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "ln e³ = 3 because ln is the logarithm with base e.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-2-12-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-2",
+      "topicId": "precalculus-2-12",
+      "title": "Logarithmic Function Manipulation multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-2-12-q01",
+        "precalculus-2-12-q02",
+        "precalculus-2-12-q03",
+        "precalculus-2-12-q04",
+        "precalculus-2-12-q05",
+        "precalculus-2-12-q06",
+        "precalculus-2-12-q07",
+        "precalculus-2-12-q08",
+        "precalculus-2-12-q09",
+        "precalculus-2-12-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "product-property": {
+      "id": "product-property",
+      "title": "Product property for logarithms",
+      "section": "product-property",
+      "topicId": "precalculus-2-12"
+    },
+    "power-property": {
+      "id": "power-property",
+      "title": "Power property for logarithms",
+      "section": "power-property",
+      "topicId": "precalculus-2-12"
+    },
+    "change-of-base": {
+      "id": "change-of-base",
+      "title": "Change of base and the natural logarithm",
+      "section": "change-of-base",
+      "topicId": "precalculus-2-12"
+    }
+  },
+  "assets": {}
+}

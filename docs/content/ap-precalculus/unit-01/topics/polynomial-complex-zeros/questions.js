@@ -299,28 +299,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-5-quick",
+      id: "precalculus-1-5-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-5",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Polynomial Functions and Complex Zeros multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-5-q01",
         "precalculus-1-5-q02",
         "precalculus-1-5-q03",
         "precalculus-1-5-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-5-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-5",
-      title: "Polynomial Functions and Complex Zeros topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-5-q05",
         "precalculus-1-5-q06",
         "precalculus-1-5-q07",

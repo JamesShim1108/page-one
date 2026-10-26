@@ -127,12 +127,32 @@ function renderQuestion(question, index, { key = false, responseSpace = false } 
   const choices = (question.choices || []).length
     ? `<ol class="print-choice-list" type="A">${question.choices.map((choice) => `<li>${esc(choice.text || choice)}</li>`).join("")}</ol>`
     : "";
+  const typed = (question.parts || []).some((part) => Array.isArray(part.fields));
+  const fieldLine = (field) => {
+    if (key)
+      return `<div class="print-field">${field.label ? `<span>${esc(field.label)}</span> ` : ""}<strong>${esc(field.answer ?? "")}</strong>${field.unit ? ` ${esc(field.unit)}` : ""}</div>`;
+    if (field.options?.length)
+      return `<div class="print-field">${field.label ? `<span>${esc(field.label)}</span> ` : ""}${field.options.map((option) => `○ ${esc(option)}`).join("  ")}</div>`;
+    return `<div class="print-field print-field--blank">${field.label ? `<span>${esc(field.label)}</span> ` : ""}<span class="print-blank" aria-hidden="true"></span>${field.unit ? ` ${esc(field.unit)}` : ""}</div>`;
+  };
   const parts = question.parts?.length
-    ? `<ol class="print-parts">${question.parts.map((part) => `<li><strong>${esc(part.id || "Part")}</strong> ${esc(part.prompt || "")}${responseSpace ? '<div class="print-response-lines print-response-lines--short" aria-hidden="true"></div>' : ""}</li>`).join("")}</ol>`
+    ? `<ol class="print-parts">${question.parts
+        .map((part) =>
+          typed
+            ? `<li>${part.prompt ? `<strong>${esc(part.id || "Part")}</strong> ${esc(part.prompt)}` : ""}${(part.fields || []).map(fieldLine).join("")}</li>`
+            : `<li><strong>${esc(part.id || "Part")}</strong> ${esc(part.prompt || "")}${responseSpace ? '<div class="print-response-lines print-response-lines--short" aria-hidden="true"></div>' : ""}</li>`,
+        )
+        .join("")}</ol>`
     : "";
+  const solution =
+    key && typed && question.solution?.length
+      ? `<div class="print-answer"><strong>Worked solution:</strong><ol>${question.solution.map((step) => `<li>${esc(step)}</li>`).join("")}</ol></div>`
+      : "";
   const answer = key
-    ? `<div class="print-answer"><strong>Answer:</strong> ${question.correctAnswer === null || question.correctAnswer === undefined ? esc(question.correctChoiceId || "Not specified") : esc(String.fromCharCode(65 + Number(question.correctAnswer)))}${question.explanation ? `<p><strong>Explanation:</strong> ${esc(question.explanation)}</p>` : ""}</div>`
-    : responseSpace
+    ? typed
+      ? solution
+      : `<div class="print-answer"><strong>Answer:</strong> ${question.correctAnswer === null || question.correctAnswer === undefined ? esc(question.correctChoiceId || "Not specified") : esc(String.fromCharCode(65 + Number(question.correctAnswer)))}${question.explanation ? `<p><strong>Explanation:</strong> ${esc(question.explanation)}</p>` : ""}</div>`
+    : responseSpace && !typed
       ? `<div class="print-response-lines" aria-hidden="true"></div>`
       : "";
   return `<article class="print-question" data-question-id="${esc(question.id)}"><h3>${index + 1}. ${esc(question.prompt || "")}</h3>${stimulusBlocks ? `<div class="print-stimulus-blocks">${stimulusBlocks}</div>` : ""}${question.stimulus ? `<blockquote class="print-stimulus">${esc(question.stimulus)}</blockquote>` : ""}${choices}${parts}${answer}</article>`;

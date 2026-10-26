@@ -1,0 +1,242 @@
+/* Typed-answer questions: answer boxes, marks, and the worked solution. */
+.question-card h1.free-stem,
+.question-card h3.free-stem {
+  font: 500 1.2rem/1.6 var(--sans);
+  margin-bottom: 1.4rem;
+}
+.free-answer-area {
+  display: grid;
+  gap: 1.5rem;
+}
+.free-part {
+  display: grid;
+  gap: 0.75rem;
+  min-width: 0;
+}
+.free-part-prompt {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+.free-part-prompt .part-letter {
+  flex: 0 0 auto;
+  min-width: 2rem;
+  min-height: 2rem;
+  padding: 0 0.4rem;
+  font-size: var(--text-md);
+}
+.free-fields {
+  display: grid;
+  gap: 1rem;
+  padding-left: 0;
+}
+.free-field {
+  display: grid;
+  gap: 0.35rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.free-label,
+.free-choice legend {
+  font-size: var(--text-md);
+  font-weight: 600;
+  color: var(--ink);
+  padding: 0;
+}
+.free-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 0;
+}
+.free-input {
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: 30rem;
+  min-height: 46px;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  color: var(--ink);
+  font: 1.05rem/1.4 var(--mono);
+  transition:
+    border-color var(--dur-hover),
+    background var(--dur-hover);
+}
+.free-input:hover:not([readonly]) {
+  border-color: var(--green);
+}
+.free-input:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+  border-color: var(--green);
+}
+.free-field.is-ok .free-input {
+  border-color: #477d60;
+  background: var(--soft);
+}
+.free-field.is-no .free-input {
+  border-color: #bc7565;
+  background: var(--red-bg);
+}
+.free-field.is-invalid .free-input {
+  border-color: var(--gold);
+}
+.free-input[readonly] {
+  cursor: default;
+}
+.free-mark {
+  flex: 0 0 auto;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.free-field.is-ok .free-mark {
+  color: var(--green);
+}
+.free-field.is-no .free-mark {
+  color: var(--red);
+}
+.free-unit {
+  color: var(--muted);
+  font-size: var(--text-md);
+}
+.free-hint,
+.free-note,
+.free-answer {
+  margin: 0;
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+.free-hint {
+  color: var(--muted);
+}
+.free-note {
+  color: var(--red);
+}
+.free-note.invalid {
+  color: #7a5412;
+}
+.free-answer {
+  color: var(--green);
+}
+.free-answer strong {
+  font-family: var(--mono);
+  font-weight: 600;
+}
+.free-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.free-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  cursor: pointer;
+}
+.free-option:has(input:checked) {
+  border-color: var(--green);
+  background: var(--soft);
+}
+.free-option:has(input:focus-visible) {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+.free-choice.is-ok .free-option:has(input:checked) {
+  border-color: #477d60;
+}
+.free-choice.is-no .free-option:has(input:checked) {
+  border-color: #bc7565;
+  background: var(--red-bg);
+}
+.free-keys {
+  margin-top: 1rem;
+}
+.free-solution {
+  margin-top: 0.8rem;
+}
+.free-solution h5 {
+  margin: 0 0 0.4rem;
+  font-size: var(--text-md);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.free-solution ol {
+  margin: 0;
+  padding-left: 1.3rem;
+}
+.free-solution li {
+  margin: 0 0 0.45rem;
+  line-height: 1.6;
+}
+.answer-feedback .btn {
+  margin-top: 0.4rem;
+}
+.free-review-part {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0.9rem 0 0.3rem;
+  font-weight: 600;
+}
+.free-review-part .part-letter {
+  min-width: 1.8rem;
+  min-height: 1.8rem;
+  font-size: var(--text-md);
+}
+.free-review-list {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0 0 0.6rem;
+  padding: 0;
+  list-style: none;
+}
+.free-review-list li {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  line-height: 1.55;
+}
+.free-review-list li.is-ok {
+  border-color: #477d60;
+  background: var(--soft);
+}
+.free-review-list li.is-no {
+  border-color: #bc7565;
+  background: var(--red-bg);
+}
+.free-review-mark {
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+.free-review-body {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.free-review-label {
+  color: var(--muted);
+}
+@media (max-width: 640px) {
+  .free-input {
+    max-width: none;
+  }
+  .free-part-prompt {
+    gap: 0.5rem;
+  }
+}

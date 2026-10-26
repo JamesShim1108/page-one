@@ -229,28 +229,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-3-quick",
+      id: "precalculus-3-3-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-3",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Sine and Cosine Function Values multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-3-q01",
         "precalculus-3-3-q02",
         "precalculus-3-3-q03",
         "precalculus-3-3-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-3-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-3",
-      title: "Sine and Cosine Function Values topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-3-q05",
         "precalculus-3-3-q06",
         "precalculus-3-3-q07",

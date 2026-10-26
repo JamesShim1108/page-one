@@ -220,3 +220,65 @@ test("unit and session previews report scope before printing and keep cancellati
   });
   assert.match(session.state.feedback, /did not save a file/);
 });
+
+test("a typed-answer question prints blank answer lines, and the key carries one set of numbers", () => {
+  const variantA = {
+    stem: "Add 2 and 4.",
+    parts: [
+      {
+        id: "a",
+        prompt: "Find the sum.",
+        fields: [{ id: "a1", type: "number", label: "Sum:", key: 6, unit: "meters" }],
+      },
+      {
+        id: "b",
+        prompt: "Which is larger?",
+        fields: [
+          { id: "b1", type: "choice", label: "Larger:", options: ["2", "4"], key: "4" },
+        ],
+      },
+    ],
+    solution: ["2 + 4 = 6.", "4 is larger than 2."],
+  };
+  const variantB = { ...variantA, stem: "Add 3 and 5." };
+  const question = {
+    id: "typed-1",
+    format: "free",
+    skill: "solve",
+    variants: [variantA, variantB],
+  };
+  const selection = freezePrintSelection({
+    questions: [question],
+    questionIds: ["typed-1"],
+  });
+  const [student] = selection.studentQuestions;
+  const [key] = selection.answerKey;
+  assert.equal(student.prompt, key.prompt, "worksheet and key show the same variant");
+  assert.match(student.prompt, /^Add \d and \d\.$/);
+  assert.equal(student.parts[0].fields[0].label, "Sum:");
+  assert.equal(student.parts[0].fields[0].answer, undefined);
+  assert.deepEqual(student.parts[1].fields[0].options, ["2", "4"]);
+  assert.equal(key.parts[0].fields[0].answer, "6");
+  assert.deepEqual(key.solution, ["2 + 4 = 6.", "4 is larger than 2."]);
+
+  const worksheet = renderPracticeDocument({
+    selection,
+    title: "Typed",
+    includeResponseSpace: true,
+    publicPath: "/quiz/typed",
+  });
+  assert.match(worksheet, /print-blank/);
+  assert.match(worksheet, /○ 2/);
+  assert.match(worksheet, /meters/);
+  assert.doesNotMatch(worksheet, /Worked solution/);
+  assert.doesNotMatch(worksheet, /2 \+ 4 = 6/);
+  const answers = renderPracticeDocument({
+    selection,
+    title: "Typed",
+    answerKey: true,
+    publicPath: "/quiz/typed",
+  });
+  assert.match(answers, /<strong>6<\/strong> meters/);
+  assert.match(answers, /Worked solution/);
+  assert.doesNotMatch(answers, /print-blank/);
+});

@@ -251,28 +251,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-15-quick",
+      id: "precalculus-3-15-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-15",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Rates of Change in Polar Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-15-q01",
         "precalculus-3-15-q02",
         "precalculus-3-15-q03",
         "precalculus-3-15-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-15-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-15",
-      title: "Rates of Change in Polar Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-15-q05",
         "precalculus-3-15-q06",
         "precalculus-3-15-q07",

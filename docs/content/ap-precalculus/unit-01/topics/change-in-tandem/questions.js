@@ -366,28 +366,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-1-quick",
+      id: "precalculus-1-1-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-1",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Change in Tandem multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-1-q01",
         "precalculus-1-1-q02",
         "precalculus-1-1-q03",
         "precalculus-1-1-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-1-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-1",
-      title: "Change in Tandem topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-1-q05",
         "precalculus-1-1-q06",
         "precalculus-1-1-q07",

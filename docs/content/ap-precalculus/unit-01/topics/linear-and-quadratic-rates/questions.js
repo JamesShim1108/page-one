@@ -289,28 +289,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-3-quick",
+      id: "precalculus-1-3-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-3",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Rates of Change in Linear and Quadratic Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-3-q01",
         "precalculus-1-3-q02",
         "precalculus-1-3-q03",
         "precalculus-1-3-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-3-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-3",
-      title: "Rates of Change in Linear and Quadratic Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-3-q05",
         "precalculus-1-3-q06",
         "precalculus-1-3-q07",

@@ -257,28 +257,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-7-quick",
+      id: "precalculus-3-7-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-7",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Sinusoidal Function Context and Data Modeling multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-7-q01",
         "precalculus-3-7-q02",
         "precalculus-3-7-q03",
         "precalculus-3-7-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-7-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-7",
-      title: "Sinusoidal Function Context and Data Modeling topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-7-q05",
         "precalculus-3-7-q06",
         "precalculus-3-7-q07",

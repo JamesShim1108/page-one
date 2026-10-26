@@ -1,6 +1,21 @@
 // Quiz state is deliberately pure. The browser-facing store owns persistence;
 // this module owns the meaning of an attempt and the snapshot it carries.
+import { gradeQuestion } from "../practice/answers.js";
+import {
+  isFree,
+  flattenQuestion,
+  pickVariant,
+  hasAnyValue,
+  freeAnswered,
+  questionFieldIds,
+  TRIES_BEFORE_SOLUTION_OFFER,
+} from "./free.js";
+
+export const FREE_TRIES_BEFORE_SOLUTION_OFFER = TRIES_BEFORE_SOLUTION_OFFER;
+
 export const ATTEMPT_SCHEMA_VERSION = 2;
+// A typed answer is graded against the key; after this many wrong checks the quiz
+// still lets the student keep trying, and it offers to show the solution.
 export const FEEDBACK_MODES = Object.freeze(["practice", "test"]);
 export const SELECTION_KINDS = Object.freeze(["topic", "unit", "custom", "review"]);
 
@@ -108,7 +123,9 @@ function validPermutation(value, length) {
   );
 }
 
-function snapshotQuestion(question) {
+function snapshotQuestion(question, random = Math.random) {
+  if (isFree(question) && question.variants?.length)
+    return clone(flattenQuestion(question, pickVariant(question, random)));
   return clone(question);
 }
 
@@ -132,6 +149,22 @@ function responseSelected(response) {
 
 function responseRevealed(response) {
   return response?.feedbackRevealed === true || response?.revealed === true;
+}
+
+// Whether a response counts as an answer: a chosen option, or any typed entry.
+function isAnswered(question, response) {
+  return isFree(question)
+    ? freeAnswered(response)
+    : Number.isInteger(responseSelected(response));
+}
+
+// The score of a typed answer. A miss on any check is final, so a question answered
+// correctly only after a retry does not count as correct.
+function freeCorrect(question, response) {
+  if (!response) return false;
+  if (typeof response.correct === "boolean") return response.correct;
+  if ((response.tries || 0) > 0 || response.revealed === true) return false;
+  return gradeQuestion(question, response.values || {}).correct;
 }
 
 function confidenceValue(value) {
@@ -201,13 +234,17 @@ function makeAttempt({
   const choiceOrders = {};
   for (const id of orderedQuestionIds) {
     const question = bank.questionById[id];
-    choiceOrders[id] = canShuffleChoices(question)
-      ? permutation(question.choices.length, random)
-      : question.choices.map((_, index) => index);
+    choiceOrders[id] = isFree(question)
+      ? []
+      : canShuffleChoices(question)
+        ? permutation(question.choices.length, random)
+        : question.choices.map((_, index) => index);
   }
   const snapshot = {
     schemaVersion: 1,
-    questions: orderedQuestionIds.map((id) => snapshotQuestion(bank.questionById[id])),
+    questions: orderedQuestionIds.map((id) =>
+      snapshotQuestion(bank.questionById[id], random),
+    ),
     assets: clone(bank.assets || {}),
   };
   const attempt = {
@@ -430,7 +467,7 @@ export function createQuizEngine(bank, options = {}) {
 
   function unanswered(attempt) {
     return attemptIds(attempt).filter(
-      (id) => !Number.isInteger(responseSelected(responseFor(attempt, id))),
+      (id) => !isAnswered(questionForAttempt(attempt, id), responseFor(attempt, id)),
     );
   }
 
@@ -438,7 +475,10 @@ export function createQuizEngine(bank, options = {}) {
     if (attempt?.feedbackMode !== "practice") return [];
     return attemptIds(attempt).filter((id) => {
       const response = responseFor(attempt, id);
-      return Number.isInteger(responseSelected(response)) && !responseRevealed(response);
+      return (
+        isAnswered(questionForAttempt(attempt, id), response) &&
+        !responseRevealed(response)
+      );
     });
   }
 
@@ -449,6 +489,14 @@ export function createQuizEngine(bank, options = {}) {
     const pending = unchecked(attempt);
     if (missing.length && !allowBlank)
       return { ok: false, reason: "unanswered", unanswered: missing, unchecked: pending };
+    // Typed answers are scored once, now, so the score never changes if the answer
+    // checker is later improved.
+    for (const id of attemptIds(attempt)) {
+      const question = questionForAttempt(attempt, id);
+      const response = attempt.responses?.[id];
+      if (isFree(question) && response && typeof response.correct !== "boolean")
+        response.correct = freeCorrect(question, response);
+    }
     attempt.status = "complete";
     attempt.completedAt = now();
     attempt.abandonedAt = null;
@@ -557,13 +605,11 @@ export function createQuizEngine(bank, options = {}) {
 
   function progress(attempt) {
     const ids = attemptIds(attempt);
-    const selected = ids.filter((id) =>
-      Number.isInteger(responseSelected(responseFor(attempt, id))),
-    );
+    const answeredNow = (id) =>
+      isAnswered(questionForAttempt(attempt, id), responseFor(attempt, id));
+    const selected = ids.filter(answeredNow);
     const checked = ids.filter((id) => responseRevealed(responseFor(attempt, id)));
-    const unansweredIds = ids.filter(
-      (id) => !Number.isInteger(responseSelected(responseFor(attempt, id))),
-    );
+    const unansweredIds = ids.filter((id) => !answeredNow(id));
     const uncheckedIds = selected.filter((id) => !checked.includes(id));
     const flaggedIds = ids.filter((id) => attempt.flags?.[id] === true);
     return {
@@ -586,7 +632,7 @@ export function createQuizEngine(bank, options = {}) {
         id,
         number: index + 1,
         current: id === attempt.currentQuestionId,
-        answered: Number.isInteger(responseSelected(response)),
+        answered: isAnswered(questionForAttempt(attempt, id), response),
         checked: responseRevealed(response),
         flagged: attempt.flags?.[id] === true,
         confidence: attempt.confidence?.[id] || null,
@@ -596,7 +642,7 @@ export function createQuizEngine(bank, options = {}) {
 
   function displayedChoices(attempt, questionId = attempt?.currentQuestionId) {
     const question = questionForAttempt(attempt, questionId);
-    if (!question) return [];
+    if (!question || isFree(question)) return [];
     const order =
       attempt?.choiceOrders?.[questionId] || question.choices.map((_, index) => index);
     if (!validPermutation(order, question.choices.length)) return [];
@@ -612,6 +658,7 @@ export function createQuizEngine(bank, options = {}) {
   function isCorrect(attempt, questionId = attempt?.currentQuestionId) {
     const question = questionForAttempt(attempt, questionId);
     const response = responseFor(attempt, questionId);
+    if (isFree(question)) return hasAnyValue(response) && freeCorrect(question, response);
     return Boolean(
       question &&
       Number.isInteger(responseSelected(response)) &&
@@ -627,10 +674,9 @@ export function createQuizEngine(bank, options = {}) {
     for (const id of attemptIds(attempt)) {
       const question = questionForAttempt(attempt, id);
       const response = responseFor(attempt, id);
-      const selected = responseSelected(response);
-      if (!question || !Number.isInteger(selected)) continue;
+      if (!question || !isAnswered(question, response)) continue;
       answered += 1;
-      const hit = selected === questionCorrectIndex(question);
+      const hit = isCorrect(attempt, id);
       correct += Number(hit);
       const key = `${question.topicId || "quiz"}/${question.concept || "general"}`;
       tags[key] ??= { correct: 0, total: 0 };
@@ -703,8 +749,7 @@ export function createQuizEngine(bank, options = {}) {
       const question = questionForAttempt(attempt, id);
       if (!question) continue;
       const response = responseFor(attempt, id);
-      const selected = responseSelected(response);
-      const answered = Number.isInteger(selected);
+      const answered = isAnswered(question, response);
       const incorrect = answered && !isCorrect(attempt, id);
       const uncertain = Boolean(attempt.confidence?.[id]);
       const flagged = attempt.flags?.[id] === true;
@@ -802,6 +847,12 @@ export function createQuizEngine(bank, options = {}) {
     if (
       !attempt.orderedQuestionIds.every((id) => {
         const question = snapshot[id];
+        if (isFree(question))
+          return (
+            Array.isArray(question.parts) &&
+            question.parts.length > 0 &&
+            questionFieldIds(question).length > 0
+          );
         return (
           question &&
           Array.isArray(question.choices) &&
@@ -813,6 +864,10 @@ export function createQuizEngine(bank, options = {}) {
     )
       return false;
     for (const id of attempt.orderedQuestionIds) {
+      if (isFree(snapshot[id])) {
+        if (!validPermutation(attempt.choiceOrders?.[id], 0)) return false;
+        continue;
+      }
       if (!validPermutation(attempt.choiceOrders?.[id], snapshot[id].choices.length))
         return false;
       const authoredOrder = snapshot[id].choices.map((_, index) => index);
@@ -835,6 +890,22 @@ export function createQuizEngine(bank, options = {}) {
       return false;
     for (const [id, response] of Object.entries(attempt.responses)) {
       const question = snapshot[id];
+      if (isFree(question)) {
+        const known = new Set(questionFieldIds(question));
+        if (
+          !response ||
+          typeof response.values !== "object" ||
+          Array.isArray(response.values) ||
+          Object.entries(response.values).some(
+            ([field, value]) => !known.has(field) || typeof value !== "string",
+          ) ||
+          (response.tries !== undefined &&
+            !(Number.isInteger(response.tries) && response.tries >= 0)) ||
+          (attempt.feedbackMode === "test" && responseRevealed(response))
+        )
+          return false;
+        continue;
+      }
       const selected = responseSelected(response);
       if (
         !question ||
@@ -872,7 +943,7 @@ export function createQuizEngine(bank, options = {}) {
     }
     for (const [id, choices] of Object.entries(attempt.eliminatedChoiceIds)) {
       const question = snapshot[id];
-      if (!question || !Array.isArray(choices)) return false;
+      if (!question || !Array.isArray(choices) || isFree(question)) return false;
       const validChoiceIds = new Set(
         question.choices.map((choice, index) => choiceIdentity(choice, index)),
       );
@@ -921,6 +992,110 @@ export function createQuizEngine(bank, options = {}) {
       if (selected !== responseSelected(attempt.responses[id])) return false;
     }
     return true;
+  }
+
+  // ---------- Typed answers ----------
+
+  function freeQuestion(attempt, id = attempt?.currentQuestionId) {
+    const question = questionForAttempt(attempt, id);
+    return isFree(question) ? question : null;
+  }
+
+  // Keeps what the student has typed. Allowed until the answer is shown.
+  function saveValues(attempt, values, id = attempt?.currentQuestionId) {
+    if (!attempt || attempt.status !== "active") return false;
+    const question = freeQuestion(attempt, id);
+    if (!question) return false;
+    const existing = responseFor(attempt, id);
+    if (responseRevealed(existing)) return false;
+    const known = new Set(questionFieldIds(question));
+    const next = { ...(existing?.values || {}) };
+    for (const [field, value] of Object.entries(values || {}))
+      if (known.has(field)) next[field] = String(value ?? "");
+    attempt.responses ||= {};
+    attempt.responses[id] = {
+      ...(existing || {}),
+      values: next,
+      tries: existing?.tries || 0,
+      feedbackRevealed: false,
+    };
+    syncCompatibility(attempt);
+    return true;
+  }
+
+  // Practice mode: grade what is typed. Entries that cannot be read are returned for the
+  // student to fix and do not count as a try. A wrong answer counts a try and keeps
+  // the question open; only a fully correct answer reveals the solution.
+  function checkValues(attempt, values) {
+    if (!attempt || attempt.status !== "active" || attempt.feedbackMode !== "practice")
+      return { ok: false, reason: "inactive" };
+    const id = attempt.currentQuestionId;
+    const question = freeQuestion(attempt, id);
+    if (!question) return { ok: false, reason: "question" };
+    if (responseRevealed(responseFor(attempt, id))) return { ok: false, reason: "done" };
+    if (values && !saveValues(attempt, values, id))
+      return { ok: false, reason: "locked" };
+    const response = responseFor(attempt, id);
+    if (!response || !hasAnyValue(response)) return { ok: false, reason: "empty" };
+    const graded = gradeQuestion(question, response.values);
+    response.marks = Object.fromEntries(
+      Object.entries(graded.fields)
+        .filter(([, outcome]) => outcome.status !== "invalid")
+        .map(([field, outcome]) => [field, outcome.status === "correct" ? "ok" : "no"]),
+    );
+    response.messages = Object.fromEntries(
+      Object.entries(graded.fields)
+        .filter(([, outcome]) => outcome.message)
+        .map(([field, outcome]) => [field, outcome.message]),
+    );
+    if (graded.invalid) {
+      syncCompatibility(attempt);
+      return { ok: false, reason: "invalid", fields: graded.fields };
+    }
+    response.checkedAt = now();
+    if (graded.correct) {
+      response.solved = true;
+      response.correct = (response.tries || 0) === 0;
+      response.feedbackRevealed = true;
+    } else {
+      response.tries = (response.tries || 0) + 1;
+      response.correct = false;
+    }
+    syncCompatibility(attempt);
+    return {
+      ok: true,
+      correct: graded.correct,
+      tries: response.tries || 0,
+      fields: graded.fields,
+    };
+  }
+
+  // The student gives up on a typed question and asks for the solution.
+  function revealSolution(attempt) {
+    if (!attempt || attempt.status !== "active" || attempt.feedbackMode !== "practice")
+      return false;
+    const id = attempt.currentQuestionId;
+    if (!freeQuestion(attempt, id)) return false;
+    const response = responseFor(attempt, id) || { values: {}, tries: 0 };
+    if (responseRevealed(response)) return false;
+    attempt.responses ||= {};
+    attempt.responses[id] = {
+      ...response,
+      revealed: true,
+      correct: false,
+      feedbackRevealed: true,
+      checkedAt: now(),
+    };
+    syncCompatibility(attempt);
+    return true;
+  }
+
+  // Grades every field of the current question for display, without changing it.
+  function gradeCurrent(attempt, id = attempt?.currentQuestionId) {
+    const question = freeQuestion(attempt, id);
+    return question
+      ? gradeQuestion(question, responseFor(attempt, id)?.values || {})
+      : null;
   }
 
   function migrateAttempt(legacy, migrationOptions = {}) {
@@ -1001,6 +1176,12 @@ export function createQuizEngine(bank, options = {}) {
     navigatorState,
     displayedChoices,
     isCorrect,
+    answered: (attempt, id) =>
+      isAnswered(questionForAttempt(attempt, id), responseFor(attempt, id)),
+    saveValues,
+    checkValues,
+    revealSolution,
+    gradeCurrent,
     responseFor,
     markExposed,
     questionForAttempt,

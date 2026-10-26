@@ -264,28 +264,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-12-quick",
+      id: "precalculus-1-12-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-12",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Transformations of Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-12-q01",
         "precalculus-1-12-q02",
         "precalculus-1-12-q03",
         "precalculus-1-12-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-12-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-12",
-      title: "Transformations of Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-12-q05",
         "precalculus-1-12-q06",
         "precalculus-1-12-q07",

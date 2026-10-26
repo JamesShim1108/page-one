@@ -23,6 +23,7 @@ import { validateTermSet } from "./lib/terms.mjs";
 import { resolveGlossary, selectGlossary } from "./lib/glossary.mjs";
 import { resolveExam, validateExamFormat } from "./lib/exams.mjs";
 import { compileTestPrep } from "./lib/test-prep.mjs";
+import { compilePractice } from "./lib/practice.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -228,9 +229,9 @@ export async function compileContent(root = projectRoot) {
   const output = new Map(),
     catalog = [],
     seenCourses = new Set();
-  const emit = (path, data) => {
+  const emit = (path, data, { compact = false } = {}) => {
     requireValue(!output.has(path), path, "duplicate generated path");
-    output.set(path, json(data));
+    output.set(path, compact ? `${JSON.stringify(data)}\n` : json(data));
   };
   const assetFile = join(contentRoot, "assets.js");
   const globalAssets = await loadAssets(
@@ -312,6 +313,8 @@ export async function compileContent(root = projectRoot) {
       terms: {},
       "term-set": {},
       exam: {},
+      // The Multiple Choice page for a unit reads the unit's own data.
+      mcq: {},
     };
     function route(type, id, path) {
       requireId(id, `${folder} route`);
@@ -379,6 +382,13 @@ export async function compileContent(root = projectRoot) {
               docsRoot,
             ),
           );
+          // Typed-answer templates. A topic without them still serves its multiple-choice
+          // quick check and topic quiz.
+          // problems.js holds code (make and verify), so it is imported rather than read as data.
+          const problemsFile = join(topicRoot, "problems.js");
+          const problems = (await exists(problemsFile))
+            ? (await import(pathToFileURL(problemsFile))).problems
+            : [];
           requireValue(
             lesson.unitId === unit.id && lesson.courseId === course.id,
             topicRoot,
@@ -395,7 +405,17 @@ export async function compileContent(root = projectRoot) {
             skills,
           );
           requireValue(!topics.has(lesson.id), topicRoot, "duplicate topic ID");
-          for (const question of bank.questions) {
+          const practice = problems.length
+            ? compilePractice({
+                lesson,
+                unit,
+                problems,
+                skills,
+                assets,
+                location: topicRoot,
+              })
+            : null;
+          for (const question of [...bank.questions, ...(practice?.questions || [])]) {
             requireValue(
               !questionIds.has(question.id),
               topicRoot,
@@ -403,7 +423,7 @@ export async function compileContent(root = projectRoot) {
             );
             questionIds.add(question.id);
           }
-          const record = { lesson, bank, assets, unit };
+          const record = { lesson, bank, practice, assets, unit };
           topics.set(lesson.id, record);
           unitTopics.push(record);
         }
@@ -484,8 +504,38 @@ export async function compileContent(root = projectRoot) {
     const courseWriting = new Map();
     for (const record of units) {
       const { unit, unitRoot } = record;
+      // Typed-answer unit practice: each part takes the unit-practice templates of its topics.
+      const freePractice = (unit.practice || [])
+        .map((definition) => {
+          requireText(definition.title, unitRoot);
+          requireId(definition.id, unitRoot);
+          const selections = definition.topicIds
+            .map((topicId) => {
+              const topic = topics.get(topicId);
+              requireValue(
+                topic?.lesson.unitId === unit.id,
+                unitRoot,
+                `unit practice names ${topicId}, which is not in this unit`,
+              );
+              return topic.practice
+                ? { topicId, questionIds: topic.practice.unitQuestionIds }
+                : null;
+            })
+            .filter(Boolean);
+          return selections.length
+            ? {
+                id: definition.id,
+                courseId: course.id,
+                unitId: unit.id,
+                title: definition.title,
+                quizType: "unit",
+                selections,
+              }
+            : null;
+        })
+        .filter(Boolean);
       const reservedQuestionIds = new Set(
-        (unit.quizzes || []).flatMap((quiz) =>
+        [...(unit.quizzes || []), ...freePractice].flatMap((quiz) =>
           (quiz.selections || []).flatMap((selection) => selection.questionIds || []),
         ),
       );
@@ -531,9 +581,41 @@ export async function compileContent(root = projectRoot) {
         unit.status === "ready"
           ? (unit.quizzes || []).find((quiz) => quiz.practiceTest === true)
           : null;
+      // Multiple-choice sets live in their own section, by unit. A unit that has typed-answer
+      // practice lists that on its page; one that does not yet keeps its old sets there.
+      const hasFree = Boolean(unit.practice);
+      const mcqUnitQuizzes = hasFree ? unit.quizzes || [] : [];
+      const mcqTopicSets = availableTopics
+        .filter((topic) => topic.practice)
+        .map((topic) => {
+          const quiz = topic.bank.quizzes.find((item) => item.quizType === "mcq");
+          requireValue(Boolean(quiz), unitRoot, `${topic.lesson.id} needs an mcq quiz`);
+          return {
+            id: quiz.id,
+            title: quiz.title,
+            topicId: topic.lesson.id,
+            code: topic.lesson.code,
+            topicTitle: topic.lesson.title,
+            questionCount: quiz.questionIds.length,
+          };
+        });
+      const { practice: _practiceDefinitions, ...unitFields } = unit;
+      void _practiceDefinitions;
       const unitInfo = {
-        ...unit,
-        quizzes: unit.status === "ready" ? unit.quizzes || [] : [],
+        ...unitFields,
+        quizzes:
+          unit.status === "ready" ? (hasFree ? freePractice : unit.quizzes || []) : [],
+        mcq: {
+          unitQuizzes: mcqUnitQuizzes.map((quiz) => ({
+            id: quiz.id,
+            title: quiz.title,
+            questionCount: quiz.selections.reduce(
+              (sum, selection) => sum + selection.questionIds.length,
+              0,
+            ),
+          })),
+          topicSets: mcqTopicSets,
+        },
         practiceTest: practiceTest
           ? {
               id: practiceTest.id,
@@ -545,8 +627,8 @@ export async function compileContent(root = projectRoot) {
             }
           : null,
         termSets: unitTermSets,
-        topicQuizzes: availableTopics.flatMap(({ bank }) =>
-          bank.quizzes
+        topicQuizzes: availableTopics.flatMap(({ bank, practice }) =>
+          (practice || bank).quizzes
             .filter((quiz) => quiz.quizType === "topic")
             .map((quiz) => ({ id: quiz.id, title: quiz.title })),
         ),
@@ -584,9 +666,10 @@ export async function compileContent(root = projectRoot) {
       });
       // The set picker needs metadata only. Cards load when a set is selected.
       route("terms", unit.id, routes.unit[unit.id]);
+      route("mcq", unit.id, routes.unit[unit.id]);
       if (unit.status !== "ready") continue;
       for (const topic of availableTopics) {
-        const { lesson, bank, assets } = topic;
+        const { lesson, bank, practice, assets } = topic;
         const context = {
           course,
           unit: unitInfo,
@@ -622,14 +705,48 @@ export async function compileContent(root = projectRoot) {
           .update(json({ lesson, glossary: selectedGlossary }))
           .digest("hex")
           .slice(0, 16);
-        emit(bankPath, {
-          ...context,
-          ...bank,
-          questions: bank.questions.map((question) => withSkillLabels(question, skills)),
-          concepts,
-          assets: bankAssets,
-        });
-        for (const quiz of bank.quizzes.filter(
+        // With typed-answer practice, the topic bank holds it and the multiple-choice
+        // questions go to their own file for the Multiple Choice section.
+        const mcqPath = `${course.id}/mcq/${lesson.id}.json`;
+        const practiceAssets = practice
+          ? usedAssets(
+              practice.questions.flatMap((question) =>
+                question.variants.flatMap((variant) => variant.stimulusBlocks || []),
+              ),
+              assets,
+            )
+          : {};
+        const labelled = (question) => withSkillLabels(question, skills);
+        if (practice) {
+          emit(
+            bankPath,
+            {
+              ...context,
+              questions: practice.questions.map(labelled),
+              quizzes: practice.quizzes,
+              concepts,
+              assets: practiceAssets,
+            },
+            { compact: true },
+          );
+          emit(mcqPath, {
+            ...context,
+            ...bank,
+            quizzes: bank.quizzes.map((quiz) => ({ ...quiz, section: "mcq" })),
+            questions: bank.questions.map(labelled),
+            concepts,
+            assets: bankAssets,
+          });
+          for (const quiz of bank.quizzes) route("quiz", quiz.id, mcqPath);
+        } else
+          emit(bankPath, {
+            ...context,
+            ...bank,
+            questions: bank.questions.map(labelled),
+            concepts,
+            assets: bankAssets,
+          });
+        for (const quiz of (practice || bank).quizzes.filter(
           (candidate) =>
             candidate.quizType === "topic" && candidate.customPractice === true,
         )) {
@@ -645,7 +762,7 @@ export async function compileContent(root = projectRoot) {
             questionIds: quiz.questionIds.filter((id) => !reservedQuestionIds.has(id)),
           });
         }
-        for (const quiz of bank.quizzes) route("quiz", quiz.id, bankPath);
+        for (const quiz of (practice || bank).quizzes) route("quiz", quiz.id, bankPath);
         route("topic", lesson.id, `${course.id}/topics/${lesson.id}.json`);
         emit(routes.topic[lesson.id], {
           ...context,
@@ -666,7 +783,9 @@ export async function compileContent(root = projectRoot) {
           pageId: lesson.id,
         });
       }
-      for (const quiz of unit.quizzes || []) {
+      const typedIds = new Set(freePractice.map((quiz) => quiz.id));
+      for (const quiz of [...(unit.quizzes || []), ...freePractice]) {
+        const typed = typedIds.has(quiz.id) && !(unit.quizzes || []).includes(quiz);
         requireText(quiz.title, unitRoot);
         requireValue(
           quiz.courseId === course.id &&
@@ -686,11 +805,17 @@ export async function compileContent(root = projectRoot) {
           );
           validateSelections(
             selection.questionIds,
-            new Map(topic.bank.questions.map((question) => [question.id, question])),
+            new Map(
+              (typed ? topic.practice.questions : topic.bank.questions).map(
+                (question) => [question.id, question],
+              ),
+            ),
             unitRoot,
           );
           ids.push(...selection.questionIds);
-          bankPaths.push(`${course.id}/banks/${selection.topicId}.json`);
+          bankPaths.push(
+            `${course.id}/${!typed && topic.practice ? "mcq" : "banks"}/${selection.topicId}.json`,
+          );
         }
         requireValue(
           ids.length > 0 && new Set(ids).size === ids.length,
@@ -724,7 +849,11 @@ export async function compileContent(root = projectRoot) {
           course,
           unit: unitInfo,
           framework,
-          quiz: { ...quiz, questionIds: ids },
+          quiz: {
+            ...quiz,
+            questionIds: ids,
+            ...(!typed && unit.practice ? { section: "mcq" } : {}),
+          },
           bankPaths: [...new Set(bankPaths)],
         });
       }

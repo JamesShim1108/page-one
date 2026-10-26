@@ -248,28 +248,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-10-quick",
+      id: "precalculus-2-10-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-10",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Inverses of Exponential Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-10-q01",
         "precalculus-2-10-q02",
         "precalculus-2-10-q03",
         "precalculus-2-10-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-10-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-10",
-      title: "Inverses of Exponential Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-10-q05",
         "precalculus-2-10-q06",
         "precalculus-2-10-q07",

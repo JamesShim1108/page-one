@@ -261,28 +261,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-6-quick",
+      id: "precalculus-2-6-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-6",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Competing Function Model Validation multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-6-q01",
         "precalculus-2-6-q02",
         "precalculus-2-6-q03",
         "precalculus-2-6-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-6-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-6",
-      title: "Competing Function Model Validation topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-6-q05",
         "precalculus-2-6-q06",
         "precalculus-2-6-q07",

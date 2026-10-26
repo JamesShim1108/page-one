@@ -433,7 +433,7 @@ export function validateLesson(
       `incorrect quiz ownership on ${quiz.id}`,
     );
     requireValue(
-      ["topic", "quick"].includes(quiz.quizType),
+      ["topic", "quick", "mcq"].includes(quiz.quizType),
       location,
       "unknown quizType",
     );
@@ -452,12 +452,21 @@ export function validateLesson(
     validateSelections(quiz.questionIds, questions, `${location}.${quiz.id}`);
   }
   if (lesson.status === "ready") {
-    for (const type of ["topic", "quick"])
+    // A topic with typed-answer problems keeps one multiple-choice set; its quick check
+    // and topic quiz come from problems.js. Otherwise it needs the two classic quizzes.
+    const kinds = new Set(bank.quizzes.map((quiz) => quiz.quizType));
+    const types = kinds.has("mcq") ? ["mcq"] : ["topic", "quick"];
+    for (const type of types)
       requireValue(
         bank.quizzes.filter((quiz) => quiz.quizType === type).length === 1,
         location,
         `ready topic needs one ${type} quiz`,
       );
+    requireValue(
+      kinds.has("mcq") ? kinds.size === 1 : !kinds.has("mcq"),
+      location,
+      "a topic uses either the mcq set or the topic and quick quizzes, not both",
+    );
   }
 }
 

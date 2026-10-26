@@ -1,5 +1,7 @@
 import { createQuizEngine } from "./engine.js";
 import { questionView, quizPage, resultsPage } from "./views.js";
+import { isFree } from "./free.js";
+import { refreshMathKeys } from "../mathkeys/keys.js";
 
 let preferredFeedbackMode = "practice";
 
@@ -142,6 +144,30 @@ export function createQuizController(
     </div>`;
   }
 
+  // What is typed in the answer boxes on screen, keyed by field id.
+  function gatherValues(form) {
+    const values = {};
+    for (const input of form.querySelectorAll("[data-free-field]")) {
+      const id = input.dataset.freeField;
+      if (input.type === "radio") {
+        if (input.checked) values[id] = input.value;
+        else if (!(id in values)) values[id] = "";
+      } else values[id] = input.value;
+    }
+    return values;
+  }
+
+  // Typed answers live in the page until something saves them, so every action that
+  // repaints or leaves the question saves them first.
+  function captureFree(current) {
+    if (!current || current.status !== "active") return false;
+    const form = document
+      .querySelector(`.question-card[data-quiz="${current.quizId}"] [data-free-field]`)
+      ?.closest(".question-card");
+    if (!form || form.dataset.question !== current.currentQuestionId) return false;
+    return engine.saveValues(current, gatherValues(form));
+  }
+
   function refresh(quizId, focusId) {
     const quiz = engine.quizById[quizId];
     const quick = quiz.quizType === "quick";
@@ -150,6 +176,7 @@ export function createQuizController(
     shell.innerHTML = quick
       ? quickView(quiz)
       : questionView(attempt(quizId), engine, data.bank.assets, false, { notice });
+    refreshMathKeys();
     const target = shell.querySelector(focusId);
     if (target) {
       target.setAttribute("tabindex", "-1");
@@ -170,6 +197,14 @@ export function createQuizController(
         )
       )
         persist(current).then(() => touchRecent(current));
+      return true;
+    }
+    if (event.target.dataset?.freeField !== undefined) {
+      const form = event.target.closest(".question-card");
+      const current = form && attempt(form.dataset.quiz);
+      if (!current || current.currentQuestionId !== form.dataset.question) return true;
+      if (engine.saveValues(current, gatherValues(form))) persist(current);
+      syncCheckButton(form);
       return true;
     }
     const form = event.target.closest(".question-card");
@@ -194,11 +229,66 @@ export function createQuizController(
     return true;
   }
 
+  // The Check button waits for something to check.
+  function syncCheckButton(form) {
+    const check = form.querySelector("button[data-check]");
+    if (!check) return;
+    check.disabled = ![...form.querySelectorAll("[data-free-field]")].some((input) =>
+      input.type === "radio" ? input.checked : input.value.trim() !== "",
+    );
+  }
+
+  // Typing in an answer box clears its old mark, so a stale ✗ never sits beside new text.
+  function input(event) {
+    const field = event.target;
+    if (field?.dataset?.freeField === undefined) return false;
+    const form = field.closest(".question-card");
+    if (!form) return true;
+    syncCheckButton(form);
+    const wrap = field.closest(".free-field");
+    if (wrap && !field.readOnly) {
+      wrap.classList.remove("is-no", "is-invalid");
+      wrap.querySelector(".free-mark")?.remove();
+      wrap.querySelector(".free-note")?.remove();
+      field.removeAttribute("aria-invalid");
+    }
+    return true;
+  }
+
+  function submitFree(current, form) {
+    const values = gatherValues(form);
+    if (current.feedbackMode !== "practice") {
+      if (engine.saveValues(current, values))
+        persist(current).then(() => touchRecent(current));
+      return;
+    }
+    const outcome = engine.checkValues(current, values);
+    if (outcome.reason === "empty") {
+      notice = "Type an answer first.";
+      refresh(current.quizId, "[data-free-field]");
+      return;
+    }
+    if (!outcome.ok && !["invalid"].includes(outcome.reason)) return;
+    notice = "";
+    persist(current).then(() => touchRecent(current));
+    refresh(
+      current.quizId,
+      outcome.ok && outcome.correct ? "#answer-feedback" : "[data-needs-fix]",
+    );
+  }
+
   function submit(event) {
     const form = event.target.closest(".question-card");
     if (!form) return false;
     event.preventDefault();
     const current = attempt(form.dataset.quiz);
+    if (current && current.currentQuestionId === form.dataset.question) {
+      const question = engine.questionForAttempt(current, current.currentQuestionId);
+      if (isFree(question)) {
+        submitFree(current, form);
+        return true;
+      }
+    }
     const selected = form.querySelector('input[name="answer"]:checked');
     if (!current || !selected || current.currentQuestionId !== form.dataset.question)
       return true;
@@ -238,6 +328,25 @@ export function createQuizController(
     const { action, quiz: quizId, question: questionId } = control.dataset;
     const quiz = engine.quizById[quizId];
     if (!quiz) return false;
+    if (
+      [
+        "next",
+        "previous",
+        "jump",
+        "first-unanswered",
+        "next-flagged",
+        "review-finish",
+        "finish",
+        "finish-blank",
+        "finish-quick",
+        "toggle-flag",
+        "reveal-solution",
+        "abandon",
+      ].includes(action)
+    ) {
+      const live = attempt(quizId);
+      if (captureFree(live)) persist(live);
+    }
     if (["start", "start-practice", "start-test"].includes(action)) {
       const mode = action === "start-test" ? "test" : "practice";
       const next = start(quizId, mode, "topic");
@@ -328,6 +437,12 @@ export function createQuizController(
         persist(current).then(() => touchRecent(current));
         refresh(quizId, '[data-action="toggle-flag"]');
       }
+    } else if (action === "reveal-solution") {
+      const current = attempt(quizId);
+      if (current && engine.revealSolution(current)) {
+        persist(current).then(() => touchRecent(current));
+        refresh(quizId, "#answer-feedback");
+      }
     } else if (action === "toggle-elimination") {
       const current = attempt(quizId);
       const result = current
@@ -365,6 +480,7 @@ export function createQuizController(
     start,
     quickView,
     change,
+    input,
     submit,
     click,
     expose,

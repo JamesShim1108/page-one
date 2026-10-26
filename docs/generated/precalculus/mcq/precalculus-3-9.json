@@ -1,0 +1,759 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-p02",
+              "precalculus-3-1-p07",
+              "precalculus-3-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-p02",
+              "precalculus-3-2-p07",
+              "precalculus-3-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-p02",
+              "precalculus-3-3-p07",
+              "precalculus-3-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-p02",
+              "precalculus-3-4-p07",
+              "precalculus-3-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-p02",
+              "precalculus-3-5-p07",
+              "precalculus-3-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-p02",
+              "precalculus-3-6-p07",
+              "precalculus-3-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-p02",
+              "precalculus-3-7-p07",
+              "precalculus-3-7-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-p02",
+              "precalculus-3-8-p07",
+              "precalculus-3-8-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-p02",
+              "precalculus-3-9-p07",
+              "precalculus-3-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-p02",
+              "precalculus-3-10-p07",
+              "precalculus-3-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-p02",
+              "precalculus-3-11-p07",
+              "precalculus-3-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-p02",
+              "precalculus-3-12-p07",
+              "precalculus-3-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-p02",
+              "precalculus-3-13-p07",
+              "precalculus-3-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-p02",
+              "precalculus-3-14-p07",
+              "precalculus-3-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-p02",
+              "precalculus-3-15-p07",
+              "precalculus-3-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-3-mcq-1",
+          "title": "Unit 3 multiple choice, Part 1: Topics 3.1 to 3.7",
+          "questionCount": 21
+        },
+        {
+          "id": "precalculus-3-mcq-2",
+          "title": "Unit 3 multiple choice, Part 2: Topics 3.8 to 3.15",
+          "questionCount": 24
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-3-1-mcq",
+          "title": "Periodic Phenomena multiple choice",
+          "topicId": "precalculus-3-1",
+          "code": "3.1",
+          "topicTitle": "Periodic Phenomena",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-2-mcq",
+          "title": "Sine, Cosine, and Tangent multiple choice",
+          "topicId": "precalculus-3-2",
+          "code": "3.2",
+          "topicTitle": "Sine, Cosine, and Tangent",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-3-mcq",
+          "title": "Sine and Cosine Function Values multiple choice",
+          "topicId": "precalculus-3-3",
+          "code": "3.3",
+          "topicTitle": "Sine and Cosine Function Values",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-4-mcq",
+          "title": "Sine and Cosine Function Graphs multiple choice",
+          "topicId": "precalculus-3-4",
+          "code": "3.4",
+          "topicTitle": "Sine and Cosine Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-5-mcq",
+          "title": "Sinusoidal Functions multiple choice",
+          "topicId": "precalculus-3-5",
+          "code": "3.5",
+          "topicTitle": "Sinusoidal Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-6-mcq",
+          "title": "Sinusoidal Function Transformations multiple choice",
+          "topicId": "precalculus-3-6",
+          "code": "3.6",
+          "topicTitle": "Sinusoidal Function Transformations",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-7-mcq",
+          "title": "Sinusoidal Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-3-7",
+          "code": "3.7",
+          "topicTitle": "Sinusoidal Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-8-mcq",
+          "title": "The Tangent Function multiple choice",
+          "topicId": "precalculus-3-8",
+          "code": "3.8",
+          "topicTitle": "The Tangent Function",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-9-mcq",
+          "title": "Inverse Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-9",
+          "code": "3.9",
+          "topicTitle": "Inverse Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-10-mcq",
+          "title": "Trigonometric Equations and Inequalities multiple choice",
+          "topicId": "precalculus-3-10",
+          "code": "3.10",
+          "topicTitle": "Trigonometric Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-11-mcq",
+          "title": "The Secant, Cosecant, and Cotangent Functions multiple choice",
+          "topicId": "precalculus-3-11",
+          "code": "3.11",
+          "topicTitle": "The Secant, Cosecant, and Cotangent Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-12-mcq",
+          "title": "Equivalent Representations of Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-12",
+          "code": "3.12",
+          "topicTitle": "Equivalent Representations of Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-13-mcq",
+          "title": "Trigonometry and Polar Coordinates multiple choice",
+          "topicId": "precalculus-3-13",
+          "code": "3.13",
+          "topicTitle": "Trigonometry and Polar Coordinates",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-14-mcq",
+          "title": "Polar Function Graphs multiple choice",
+          "topicId": "precalculus-3-14",
+          "code": "3.14",
+          "topicTitle": "Polar Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-15-mcq",
+          "title": "Rates of Change in Polar Functions multiple choice",
+          "topicId": "precalculus-3-15",
+          "code": "3.15",
+          "topicTitle": "Rates of Change in Polar Functions",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-3-9",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 9,
+    "code": "3.9",
+    "title": "Inverse Trigonometric Functions",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "Arcsine, arccosine, and arctangent: why the trigonometric functions need restricted domains to be invertible, which domains are used, and how the output of an inverse trigonometric function is read as an angle."
+  },
+  "framework": null,
+  "contentRevision": "24b21e18144241f8",
+  "questions": [
+    {
+      "id": "precalculus-3-9-q01",
+      "topicId": "precalculus-3-9",
+      "concept": "inverse-trig-functions",
+      "difficulty": "Quick check",
+      "skill": "apply-results",
+      "prompt": "What is the value of arcsin(1/2)?",
+      "choices": [
+        "5π/6",
+        "π/3",
+        "π/6",
+        "30"
+      ],
+      "correctAnswer": 2,
+      "explanation": "arcsin(1/2) is the angle in [−π/2, π/2] whose sine is 1/2, which is π/6.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "sin(5π/6) = 1/2, but 5π/6 is outside the range [−π/2, π/2] of arcsine.",
+        "sin(π/3) = √3/2, not 1/2.",
+        "π/6 is in [−π/2, π/2] and sin(π/6) = 1/2.",
+        "30 is the degree measure; arcsine returns radians here."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Arcsine returns only angles in [−π/2, π/2].",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-9-q02",
+      "topicId": "precalculus-3-9",
+      "concept": "restricted-domains",
+      "difficulty": "Quick check",
+      "skill": "apply-results",
+      "prompt": "What is the value of arccos(−1/2)?",
+      "choices": [
+        "−π/3",
+        "2π/3",
+        "4π/3",
+        "−2π/3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "arccos(−1/2) is the angle in [0, π] whose cosine is −1/2. That is 2π/3, in Quadrant II.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "Arccosine's outputs are between 0 and π, so they are never negative.",
+        "2π/3 is in [0, π] and cos(2π/3) = −1/2.",
+        "cos(4π/3) = −1/2, but 4π/3 is outside [0, π].",
+        "Outputs of arccosine are never negative."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Arccosine of a negative value is an angle in Quadrant II, not a negative angle.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-9-q03",
+      "topicId": "precalculus-3-9",
+      "concept": "restricted-domains",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "What is the range of y = arctan x?",
+      "choices": [
+        "−π/2 ≤ y ≤ π/2",
+        "0 ≤ y ≤ π",
+        "−π/2 < y < π/2",
+        "All real numbers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tangent is restricted to (−π/2, π/2), an open interval because tangent is undefined at ±π/2. The range of the inverse is that same interval.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "±π/2 are not included, because tangent has asymptotes there.",
+        "0 ≤ y ≤ π is the range of arccosine.",
+        "The open interval (−π/2, π/2).",
+        "All real numbers is the domain of arctangent, its inputs."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The tangent's restricted domain is open.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-3-9-q04",
+      "topicId": "precalculus-3-9",
+      "concept": "inverse-trig-functions",
+      "difficulty": "Quick check",
+      "skill": "support-conclusions",
+      "prompt": "Why must the domain of the sine function be restricted in order to define the arcsine function?",
+      "choices": [
+        "Because sine has vertical asymptotes that must be removed",
+        "Because sine is periodic, so it is not one-to-one",
+        "Because the range of sine is all real numbers",
+        "Because sine is undefined for negative angles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because the trigonometric functions are periodic, they are only invertible if they have restricted domains. On [−π/2, π/2], each value of sine comes from exactly one angle.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "Sine has no vertical asymptotes; tangent does.",
+        "A periodic function repeats its outputs, so each output comes from infinitely many inputs.",
+        "The range of sine is −1 ≤ y ≤ 1.",
+        "The domain of sine is all real numbers."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "Invertible means one-to-one, and periodic functions are not.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    },
+    {
+      "id": "precalculus-3-9-q05",
+      "topicId": "precalculus-3-9",
+      "concept": "restricted-domains",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "What is the value of arcsin(sin(5π/6))?",
+      "choices": [
+        "5π/6",
+        "−π/6",
+        "1/2",
+        "π/6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "sin(5π/6) = 1/2, and arcsin(1/2) = π/6, the angle in [−π/2, π/2] with sine 1/2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "5π/6 is outside the range of arcsine, so the composition cannot return it.",
+        "sin(−π/6) = −1/2, not 1/2.",
+        "1/2 is sin(5π/6), the inside value, not the final output.",
+        "arcsin(1/2) = π/6."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "arcsin(sin θ) = θ only when θ is in [−π/2, π/2].",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-9-q06",
+      "topicId": "precalculus-3-9",
+      "concept": "restricted-domains",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "What is the domain of y = arccos x?",
+      "choices": [
+        "−1 ≤ x ≤ 1",
+        "0 ≤ x ≤ π",
+        "All real numbers",
+        "−π/2 ≤ x ≤ π/2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The inputs of arccosine are values of cosine, which lie in [−1, 1].",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "Inputs are values in the range of cosine.",
+        "0 ≤ y ≤ π is the range of arccosine, its outputs.",
+        "Only arctangent accepts all real numbers.",
+        "This is the restricted domain of sine."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Inverse inputs are the original function's outputs.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-3-9-q07",
+      "topicId": "precalculus-3-9",
+      "concept": "restricted-domains",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "What is the value of arctan(−√3)?",
+      "choices": [
+        "2π/3",
+        "−π/6",
+        "−π/3",
+        "π/3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "tan(−π/3) = (−√3/2)/(1/2) = −√3, and −π/3 is in (−π/2, π/2).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "tan(2π/3) = −√3, but 2π/3 is outside the range of arctangent.",
+        "tan(−π/6) = −√3/3.",
+        "−π/3 is in (−π/2, π/2) and has tangent −√3.",
+        "tan(π/3) = √3, which has the wrong sign."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Arctangent of a negative value is a negative angle.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-9-q08",
+      "topicId": "precalculus-3-9",
+      "concept": "restricted-domains",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "Let θ = arcsin(3/5). What is the value of cos θ?",
+      "choices": [
+        "−4/5",
+        "3/4",
+        "5/4",
+        "4/5"
+      ],
+      "correctAnswer": 3,
+      "explanation": "θ is in [−π/2, π/2] with sin θ = 3/5 > 0, so θ is in Quadrant I. On a circle of radius 5, the point is (4, 3), so cos θ = 4/5.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "Arcsine outputs are in [−π/2, π/2], where cosine is never negative.",
+        "3/4 is tan θ.",
+        "Cosine values never exceed 1.",
+        "θ is in Quadrant I, and 3² + 4² = 5²."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The range of arcsine fixes the sign of the cosine.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-9-q09",
+      "topicId": "precalculus-3-9",
+      "concept": "restricted-domains",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "Which of the following describes the graph of y = arccos x?",
+      "choices": [
+        "It increases from (−1, 0) to (1, π) through (0, π/2).",
+        "It decreases from (−1, π) to (1, 0), passing through (0, π/2).",
+        "It decreases from (−1, π/2) to (1, −π/2).",
+        "It has horizontal asymptotes y = 0 and y = π."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cosine decreases on [0, π] from 1 to −1, so its inverse decreases from arccos(−1) = π to arccos(1) = 0.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "This reverses the points; arccos(−1) = π, not 0.",
+        "arccos(−1) = π and arccos(1) = 0.",
+        "Arccosine's outputs are between 0 and π.",
+        "Arccosine is defined only on [−1, 1], so it has no end behavior and no horizontal asymptotes."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Cosine decreases on [0, π], so arccosine decreases too.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-3-9-q10",
+      "topicId": "precalculus-3-9",
+      "concept": "inverse-trig-functions",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "A wheelchair ramp rises 1.2 meters over a horizontal distance of 6 meters. Which of the following gives the angle θ, in radians, between the ramp and the ground?",
+      "choices": [
+        "θ = arctan(0.2) ≈ 0.197",
+        "θ = 1/tan(0.2) ≈ 4.93",
+        "θ = tan(0.2) ≈ 0.203",
+        "θ = arcsin(0.2) ≈ 0.201"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The slope of the ramp is tan θ = 1.2/6 = 0.2. The angle is the output of the inverse: θ = arctan(0.2) ≈ 0.197.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-9"
+      ],
+      "choiceExplanations": [
+        "tan θ = 0.2, so θ = arctan(0.2).",
+        "1/tan(0.2) is neither the angle nor the slope.",
+        "tan(0.2) treats 0.2 as an angle, but 0.2 is the slope.",
+        "0.2 is rise over run, which is the tangent; the sine would be rise over the ramp's length."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "The given ratio is a tangent, so use arctangent.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-3-9-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-9",
+      "title": "Inverse Trigonometric Functions multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-3-9-q01",
+        "precalculus-3-9-q02",
+        "precalculus-3-9-q03",
+        "precalculus-3-9-q04",
+        "precalculus-3-9-q05",
+        "precalculus-3-9-q06",
+        "precalculus-3-9-q07",
+        "precalculus-3-9-q08",
+        "precalculus-3-9-q09",
+        "precalculus-3-9-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "inverse-trig-functions": {
+      "id": "inverse-trig-functions",
+      "title": "Arcsine, arccosine, and arctangent",
+      "section": "inverse-trig-functions",
+      "topicId": "precalculus-3-9"
+    },
+    "restricted-domains": {
+      "id": "restricted-domains",
+      "title": "Restricted domains and the graphs of the inverses",
+      "section": "restricted-domains",
+      "topicId": "precalculus-3-9"
+    }
+  },
+  "assets": {}
+}

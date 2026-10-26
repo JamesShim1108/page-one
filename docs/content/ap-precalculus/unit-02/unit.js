@@ -10,12 +10,26 @@ export const unit = {
   status: "ready",
   description:
     "Compare additive and multiplicative change, then build, compose, invert, and model with exponential and logarithmic functions, including residuals and semi-log plots.",
-  quizzes: [
+  // Typed-answer practice. Each part takes the unit-practice problems from its topics.
+  practice: [
     {
       id: "precalculus-2-practice",
+      title: "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+      topicIds: [1, 2, 3, 4, 5, 6, 7, 8].map((n) => `precalculus-2-${n}`),
+    },
+    {
+      id: "precalculus-2-practice-2",
+      title: "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+      topicIds: [9, 10, 11, 12, 13, 14, 15].map((n) => `precalculus-2-${n}`),
+    },
+  ],
+  // Multiple-choice unit sets. These appear in the Multiple Choice section, not on topic pages.
+  quizzes: [
+    {
+      id: "precalculus-2-mcq-1",
       courseId: "precalculus",
       unitId: "precalculus-2",
-      title: "Unit 2 practice, Part 1: Topics 2.1 to 2.8",
+      title: "Unit 2 multiple choice, Part 1: Topics 2.1 to 2.8",
       quizType: "unit",
       selections: [
         {
@@ -85,10 +99,10 @@ export const unit = {
       ],
     },
     {
-      id: "precalculus-2-practice-2",
+      id: "precalculus-2-mcq-2",
       courseId: "precalculus",
       unitId: "precalculus-2",
-      title: "Unit 2 practice, Part 2: Topics 2.9 to 2.15",
+      title: "Unit 2 multiple choice, Part 2: Topics 2.9 to 2.15",
       quizType: "unit",
       selections: [
         {

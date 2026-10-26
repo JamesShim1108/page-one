@@ -239,28 +239,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-13-quick",
+      id: "precalculus-3-13-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-13",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Trigonometry and Polar Coordinates multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-13-q01",
         "precalculus-3-13-q02",
         "precalculus-3-13-q03",
         "precalculus-3-13-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-13-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-13",
-      title: "Trigonometry and Polar Coordinates topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-13-q05",
         "precalculus-3-13-q06",
         "precalculus-3-13-q07",

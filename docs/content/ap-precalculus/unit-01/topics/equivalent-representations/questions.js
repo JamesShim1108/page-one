@@ -261,29 +261,18 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-11-quick",
+      id: "precalculus-1-11-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-11",
-      title: "Quick check",
-      quizType: "quick",
+      title:
+        "Equivalent Representations of Polynomial and Rational Expressions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-11-q01",
         "precalculus-1-11-q02",
         "precalculus-1-11-q03",
         "precalculus-1-11-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-11-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-11",
-      title:
-        "Equivalent Representations of Polynomial and Rational Expressions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-11-q05",
         "precalculus-1-11-q06",
         "precalculus-1-11-q07",

@@ -4,16 +4,17 @@ The course folder is `docs/content/ap-precalculus/`. Its course ID is `precalcul
 
 ## What exists
 
-| Area          | Status                                                                                                                                 |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Lessons       | All CED topics of Units 1 to 3 (1.1 to 1.14, 2.1 to 2.15, 3.1 to 3.15). Each lists its CED learning objectives and tags every section. |
-| Questions     | 10 per topic: a 4-question quick check and a 6-question topic quiz, written in AP stem style.                                          |
-| Unit practice | Two parts per unit, split where the CED splits its progress checks: after 1.6, 2.8, and 3.7.                                           |
-| FRQs          | Four 6-point free-response questions per unit (`unit-0N/writing.js`, `exerciseType: "frq"`), two for each part.                        |
-| Unit 4        | Titled placeholder (`status: "soon"`, no topics). The CED marks it as not assessed on the AP Exam.                                     |
-| Graphs        | 58 interactive graphs in lessons, questions, and FRQs, 8 with sliders and 7 polar; see [Graphs](graphs.md).                            |
-| Math tools    | Calculator panel on every course page and math keys on free-response answers; see [Math tools](math-tools.md).                         |
-| Not built yet | Unit 4, terms sets, study guide, mock exams, and generated practice (see [Generated practice](generated-practice.md)).                 |
+| Area            | Status                                                                                                                                                                                                 |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Lessons         | All CED topics of Units 1 to 3 (1.1 to 1.14, 2.1 to 2.15, 3.1 to 3.15). Each lists its CED learning objectives and tags every section.                                                                 |
+| Typed practice  | 10 generated typed-answer templates per topic with 8 variants each: a 4-question quick check and a 6-question topic quiz. The site checks every answer; see [Typed-answer practice](free-response.md). |
+| Unit practice   | Typed, in two parts per unit, split where the CED splits its progress checks: after 1.6, 2.8, and 3.7. Three templates per topic.                                                                      |
+| Multiple Choice | 10 four-choice questions per topic and two unit sets per unit, in their own section (`#/mcq/precalculus`), not on topic pages.                                                                         |
+| FRQs            | Four 6-point free-response questions per unit (`unit-0N/writing.js`, `exerciseType: "frq"`), two for each part.                                                                                        |
+| Unit 4          | Titled placeholder (`status: "soon"`, no topics). The CED marks it as not assessed on the AP Exam.                                                                                                     |
+| Graphs          | 58 interactive graphs in lessons, questions, and FRQs, 8 with sliders and 7 polar; see [Graphs](graphs.md).                                                                                            |
+| Math tools      | Calculator panel on every course page and math keys on free-response answers; see [Math tools](math-tools.md).                                                                                         |
+| Not built yet   | Unit 4, terms sets, study guide, mock exams, and generated multiple-choice questions (see [Generated practice](generated-practice.md)).                                                                |
 
 The CED sources are listed in `sources.js`: the course and exam description plus one record per topic (`ced-topic-N-M`). Learning objective statements and skill descriptions are quoted from the CED with their codes. Lessons explain essential knowledge in the CED's own sentences where it states a definition or rule, followed by original examples. Questions are original. The site does not claim any College Board affiliation.
 
@@ -34,7 +35,7 @@ Students are scored on precise language, so lessons and questions follow the CED
 - MCQ stems use the exam's forms: "The function f is given by …", "Which of the following …?", "What are all values of x for which …?", and domains as "all real numbers x where x ≠ …".
 - Each lesson section can end with a "Write it like the AP Exam" callout that models the sentence a scoring guideline rewards.
 
-## Free-response questions
+## Written free-response questions (FRQs)
 
 FRQs use the typed writing engine with `exerciseType: "frq"`. Each has six response fields (`a1`, `a2`, `b1`, `b2`, `c1`, `c2`), a rubric of six 1-point rows whose `field` names the part they score, a `modelResponse` with one paragraph per part, an `alternateModel`, and `commonErrors`. The validator requires the rubric to total 6 points. FRQ stimuli may be tables, paragraphs, lists, callouts, or graphs. A periodic-modeling stimulus with "no scale is indicated, and no axes are presented" uses `tickLabels: false` and `axes: false`. Generate the numbers in code and assert them before writing the file.
 
@@ -52,9 +53,9 @@ Content is plain text, so write math with Unicode characters and no markup.
 
 `skills.js` holds eight practice skills that follow the three Mathematical Practices in the CED (codes 1.A to 3.C). Every question needs one of the IDs, and the IDs are permanent because history groups results by them. The ID `connections` is avoided on purpose, because the validator treats it as a history skill that needs a reasoning process.
 
-## Question rules that apply here
+## Multiple-choice rules that apply here
 
-The validator enforces the shared multiple-choice limits in [AP practice standards](ap-practice.md). For a ten-question math bank, the practical rules are:
+These rules are for each topic's `questions.js`, which now holds only the multiple-choice questions. The validator enforces the shared multiple-choice limits in [AP practice standards](ap-practice.md). For a ten-question math bank, the practical rules are:
 
 - The correct choice should be strictly the longest in about two of the ten questions, and never in more than three or fewer than one. The average length of the correct choice should stay within about 1.1 times the average distractor.
 - One distractor is a near miss, and its `nearMissIndex` needs a `distinguisher` that states what separates it from the key.
@@ -63,9 +64,9 @@ The validator enforces the shared multiple-choice limits in [AP practice standar
 
 ## Adding a topic
 
-1. Copy `lesson.js` and `questions.js` from `handbook/templates/` into a new `unit-0N/topics/<slug>/` folder and fill them in.
-2. Give each topic exactly one `quick` and one `topic` quiz, with `customPractice: true` on the topic quiz questions that may appear in Custom practice.
+1. Copy `lesson.js` and `questions.js` from `handbook/templates/` into a new `unit-0N/topics/<slug>/` folder and fill them in. `questions.js` holds the ten multiple-choice questions (its quizzes are not shown on the topic page).
+2. Write `problems.js` with ten typed-answer templates, four quick and six quiz, three of them `unit: true`, following [Typed-answer practice](free-response.md). Run `npm run sample -- unit-0N/topics/<slug>` to proofread.
 3. Add `from: { topicId, vocabularyId }` glossary entries for the lesson vocabulary in `glossary/unit-0N.js`, and list other topics where the term applies in `topicIds`. Each entry's phrase has to appear in the lesson prose of every topic it is enabled on.
-4. Mark exactly three questions per topic for the unit practice part that covers it, with at most two from the topic quiz so Custom practice keeps at least four.
+4. Add the topic to the unit's `practice` parts in `unit.js` (the part that covers it) and to the multiple-choice unit sets. The build takes the three `unit: true` templates for each topic.
 5. Register the topic's `ced-topic-N-M` record in `sources.js`.
-6. Run `npm run format`, `npm run build`, and `npm run check`.
+6. Run `npm run format`, `npm run build`, and `npm run check`, then click through the topic's quick check, topic quiz, and unit practice in a browser.

@@ -72,6 +72,8 @@ const SUPERSCRIPTS = {
   "⁾": ")",
   ˣ: "x",
   ⁿ: "n",
+  ᵗ: "t",
+  ˢ: "s",
   "⋅": "*",
 };
 const SUBSCRIPTS = {
@@ -104,7 +106,7 @@ export function normalizeInput(source) {
     .replace(/≔/g, "=")
     .replace(/∫/g, "fnInt")
     .replace(
-      /[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁽⁾ˣⁿ]+/g,
+      /[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁽⁾ˣⁿᵗˢ]+/g,
       (run) => `^(${[...run].map((c) => SUPERSCRIPTS[c]).join("")})`,
     );
 }
@@ -687,12 +689,42 @@ function parse(tokens, { functions = new Set(), allowStatements = true } = {}) {
     }
   }
 
+  // True when a parsed piece contains a variable such as x.
+  function mentionsVariable(node) {
+    if (!node || typeof node !== "object") return false;
+    if (node.type === "var") return true;
+    return Object.values(node).some((value) =>
+      Array.isArray(value) ? value.some(mentionsVariable) : mentionsVariable(value),
+    );
+  }
+
+  // True when the tokens from `from` to `to` are one bracket pair, like (3^2).
+  function wholeGroup(from, to) {
+    const open = tokens[from];
+    if (!(isOp(open, "(") || isOp(open, "["))) return false;
+    let depth = 0;
+    for (let i = from; i <= to; i += 1) {
+      if (isOp(tokens[i], "(") || isOp(tokens[i], "[")) depth += 1;
+      else if (isOp(tokens[i], ")") || isOp(tokens[i], "]")) depth -= 1;
+      if (depth === 0) return i === to;
+    }
+    return false;
+  }
+
   function unary() {
     const token = peek();
     if (isOp(token, "-")) {
       take();
+      const opening = index;
       const operand = unary();
-      if (operand.type === "pow") readAs = true;
+      // "−3²" could mean 9 or −9, so it is flagged. "−x²" is plain: the minus goes with
+      // the whole term. "−(3²)" is already explicit: one bracket holds the whole power.
+      if (
+        operand.type === "pow" &&
+        !mentionsVariable(operand.left) &&
+        !wholeGroup(opening, index - 1)
+      )
+        readAs = true;
       return { type: "neg", arg: operand };
     }
     if (isOp(token, "+")) {
@@ -1290,6 +1322,16 @@ export function createEngine(saved = {}) {
       };
     },
   };
+}
+
+// Parses one expression into the engine's syntax tree without evaluating it. Used
+// by answer checking to inspect the form of a typed answer. Returns { tree, readAs }.
+export function parseTree(source, { functions = [] } = {}) {
+  const { tree, readAs } = parse(tokenize(source), {
+    functions: new Set(functions),
+    allowStatements: false,
+  });
+  return { tree, readAs };
 }
 
 // ---------- Describing an expression ("Read as") ----------

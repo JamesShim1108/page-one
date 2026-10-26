@@ -261,28 +261,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-15-quick",
+      id: "precalculus-2-15-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-15",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Semi-log Plots multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-15-q01",
         "precalculus-2-15-q02",
         "precalculus-2-15-q03",
         "precalculus-2-15-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-15-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-15",
-      title: "Semi-log Plots topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-15-q05",
         "precalculus-2-15-q06",
         "precalculus-2-15-q07",

@@ -1,0 +1,765 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-p02",
+              "precalculus-3-1-p07",
+              "precalculus-3-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-p02",
+              "precalculus-3-2-p07",
+              "precalculus-3-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-p02",
+              "precalculus-3-3-p07",
+              "precalculus-3-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-p02",
+              "precalculus-3-4-p07",
+              "precalculus-3-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-p02",
+              "precalculus-3-5-p07",
+              "precalculus-3-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-p02",
+              "precalculus-3-6-p07",
+              "precalculus-3-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-p02",
+              "precalculus-3-7-p07",
+              "precalculus-3-7-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-p02",
+              "precalculus-3-8-p07",
+              "precalculus-3-8-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-p02",
+              "precalculus-3-9-p07",
+              "precalculus-3-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-p02",
+              "precalculus-3-10-p07",
+              "precalculus-3-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-p02",
+              "precalculus-3-11-p07",
+              "precalculus-3-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-p02",
+              "precalculus-3-12-p07",
+              "precalculus-3-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-p02",
+              "precalculus-3-13-p07",
+              "precalculus-3-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-p02",
+              "precalculus-3-14-p07",
+              "precalculus-3-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-p02",
+              "precalculus-3-15-p07",
+              "precalculus-3-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-3-mcq-1",
+          "title": "Unit 3 multiple choice, Part 1: Topics 3.1 to 3.7",
+          "questionCount": 21
+        },
+        {
+          "id": "precalculus-3-mcq-2",
+          "title": "Unit 3 multiple choice, Part 2: Topics 3.8 to 3.15",
+          "questionCount": 24
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-3-1-mcq",
+          "title": "Periodic Phenomena multiple choice",
+          "topicId": "precalculus-3-1",
+          "code": "3.1",
+          "topicTitle": "Periodic Phenomena",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-2-mcq",
+          "title": "Sine, Cosine, and Tangent multiple choice",
+          "topicId": "precalculus-3-2",
+          "code": "3.2",
+          "topicTitle": "Sine, Cosine, and Tangent",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-3-mcq",
+          "title": "Sine and Cosine Function Values multiple choice",
+          "topicId": "precalculus-3-3",
+          "code": "3.3",
+          "topicTitle": "Sine and Cosine Function Values",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-4-mcq",
+          "title": "Sine and Cosine Function Graphs multiple choice",
+          "topicId": "precalculus-3-4",
+          "code": "3.4",
+          "topicTitle": "Sine and Cosine Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-5-mcq",
+          "title": "Sinusoidal Functions multiple choice",
+          "topicId": "precalculus-3-5",
+          "code": "3.5",
+          "topicTitle": "Sinusoidal Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-6-mcq",
+          "title": "Sinusoidal Function Transformations multiple choice",
+          "topicId": "precalculus-3-6",
+          "code": "3.6",
+          "topicTitle": "Sinusoidal Function Transformations",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-7-mcq",
+          "title": "Sinusoidal Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-3-7",
+          "code": "3.7",
+          "topicTitle": "Sinusoidal Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-8-mcq",
+          "title": "The Tangent Function multiple choice",
+          "topicId": "precalculus-3-8",
+          "code": "3.8",
+          "topicTitle": "The Tangent Function",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-9-mcq",
+          "title": "Inverse Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-9",
+          "code": "3.9",
+          "topicTitle": "Inverse Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-10-mcq",
+          "title": "Trigonometric Equations and Inequalities multiple choice",
+          "topicId": "precalculus-3-10",
+          "code": "3.10",
+          "topicTitle": "Trigonometric Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-11-mcq",
+          "title": "The Secant, Cosecant, and Cotangent Functions multiple choice",
+          "topicId": "precalculus-3-11",
+          "code": "3.11",
+          "topicTitle": "The Secant, Cosecant, and Cotangent Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-12-mcq",
+          "title": "Equivalent Representations of Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-12",
+          "code": "3.12",
+          "topicTitle": "Equivalent Representations of Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-13-mcq",
+          "title": "Trigonometry and Polar Coordinates multiple choice",
+          "topicId": "precalculus-3-13",
+          "code": "3.13",
+          "topicTitle": "Trigonometry and Polar Coordinates",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-14-mcq",
+          "title": "Polar Function Graphs multiple choice",
+          "topicId": "precalculus-3-14",
+          "code": "3.14",
+          "topicTitle": "Polar Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-15-mcq",
+          "title": "Rates of Change in Polar Functions multiple choice",
+          "topicId": "precalculus-3-15",
+          "code": "3.15",
+          "topicTitle": "Rates of Change in Polar Functions",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-3-8",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 8,
+    "code": "3.8",
+    "title": "The Tangent Function",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "The tangent function as the slope of the terminal ray, its period of π, its vertical asymptotes, its increasing and changing concavity between asymptotes, and its additive and multiplicative transformations."
+  },
+  "framework": null,
+  "contentRevision": "71f5c421586b220e",
+  "questions": [
+    {
+      "id": "precalculus-3-8-q01",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-characteristics",
+      "difficulty": "Quick check",
+      "skill": "identify-information",
+      "prompt": "What is the period of the tangent function, f(θ) = tan θ?",
+      "choices": [
+        "2π",
+        "π/2",
+        "π",
+        "1/π"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The slope of the terminal ray repeats every one-half revolution, so the period of tangent is π.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "2π is the period of sine and cosine; tangent repeats sooner.",
+        "π/2 is the distance from a zero to the next asymptote.",
+        "Half a revolution gives the same slope.",
+        "1/π is the frequency of tangent, not its period."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Rays half a turn apart lie on the same line, so they have the same slope.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-3-8-q02",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-characteristics",
+      "difficulty": "Quick check",
+      "skill": "identify-information",
+      "prompt": "Where does the graph of y = tan θ have vertical asymptotes? (k represents any integer.)",
+      "choices": [
+        "θ = kπ",
+        "θ = π/2 + 2kπ",
+        "θ = π/4 + kπ",
+        "θ = π/2 + kπ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tangent has periodic asymptotic behavior at θ = π/2 + kπ, because cos θ = 0 at those values.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "At θ = kπ, sin θ = 0, so these are the zeros of tangent.",
+        "This misses the asymptotes at 3π/2, −π/2, and every other one.",
+        "At π/4 + kπ, tan θ = 1.",
+        "cos θ = 0 at every odd multiple of π/2."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Zeros come from sin θ = 0; asymptotes come from cos θ = 0.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-3-8-q03",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-function",
+      "difficulty": "Quick check",
+      "skill": "apply-results",
+      "prompt": "What is the value of tan(5π/4)?",
+      "choices": [
+        "−1",
+        "1",
+        "√2/2",
+        "The value is undefined."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The terminal ray of 5π/4 lies on the line y = x in Quadrant III, so its slope is 1. Also (−√2/2)/(−√2/2) = 1.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "Both sine and cosine are negative in Quadrant III, so their ratio is positive.",
+        "The terminal ray has slope 1.",
+        "√2/2 is the size of the sine and cosine, not their ratio.",
+        "cos(5π/4) ≠ 0, so the tangent is defined."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Negative over negative is positive.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-8-q04",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-characteristics",
+      "difficulty": "Quick check",
+      "skill": "describe",
+      "prompt": "Which of the following describes the graph of y = tan θ on the interval −π/2 < θ < π/2?",
+      "choices": [
+        "Increasing, concave up and then concave down",
+        "Increasing, concave down and then concave up",
+        "Decreasing, concave down and then concave up",
+        "Increasing and always concave up"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Between consecutive asymptotes the tangent function increases, and its graph changes from concave down to concave up, at the point of inflection (0, 0).",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "This has the order of concavity reversed.",
+        "Concave down for θ < 0 and concave up for θ > 0.",
+        "Tangent increases between asymptotes unless it is reflected.",
+        "The graph is concave down to the left of θ = 0."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Rising out of −∞ means concave down first.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-3-8-q05",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-transformations",
+      "difficulty": "Core",
+      "skill": "identify-information",
+      "prompt": "What is the period of f(θ) = 3 tan(2θ) − 1?",
+      "choices": [
+        "π",
+        "π/2",
+        "2π",
+        "3π"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The period of a tan(b(θ + c)) + d is |1/b|π = (1/2)π = π/2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "π = 2π/2 uses the sine rule; tangent's period starts at π, not 2π.",
+        "|1/b|π with b = 2.",
+        "2π multiplies by b instead of dividing.",
+        "a = 3 stretches the graph vertically; it does not change the period."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Divide π, not 2π, by |b| for tangent.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-3-8-q06",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-transformations",
+      "difficulty": "Core",
+      "skill": "identify-information",
+      "prompt": "Where does the graph of g(θ) = tan(θ − π/4) have vertical asymptotes? (k represents any integer.)",
+      "choices": [
+        "θ = π/4 + kπ",
+        "θ = π/2 + kπ",
+        "θ = 3π/4 + kπ",
+        "θ = −π/4 + kπ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The graph is y = tan θ shifted π/4 units to the right, so each asymptote moves from π/2 + kπ to 3π/4 + kπ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "At θ = π/4 + kπ, the input θ − π/4 is kπ, so these are the zeros of g.",
+        "These are the asymptotes of y = tan θ before the shift.",
+        "θ − π/4 = π/2 + kπ gives θ = 3π/4 + kπ.",
+        "This shifts the asymptotes π/4 to the left instead of to the right."
+      ],
+      "nearMissIndex": 3,
+      "distinguisher": "θ − π/4 shifts right; solve θ − π/4 = π/2 + kπ.",
+      "skillLabel": "Identify information in a representation",
+      "skillCode": "2.A"
+    },
+    {
+      "id": "precalculus-3-8-q07",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-transformations",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "Which of the following is true about the graph of f(θ) = −2 tan θ?",
+      "choices": [
+        "It is increasing between consecutive asymptotes.",
+        "It has an amplitude of 2.",
+        "It has a period of 2π.",
+        "It is decreasing between consecutive asymptotes."
+      ],
+      "correctAnswer": 3,
+      "explanation": "a = −2 < 0 reflects the graph of y = tan θ over the x-axis, so f decreases between consecutive asymptotes.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "y = tan θ increases; the reflection reverses that.",
+        "Tangent graphs are unbounded, so they have no amplitude; 2 is the dilation factor.",
+        "Vertical dilations do not change the period, which is still π.",
+        "The reflection over the x-axis turns increasing into decreasing."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "A negative a reflects the graph; it does not create an amplitude.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-3-8-q08",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-transformations",
+      "difficulty": "Core",
+      "skill": "describe",
+      "prompt": "The points of inflection of the graph of y = tan θ + 3 all lie on which line?",
+      "choices": [
+        "y = 0",
+        "y = 3",
+        "θ = 3",
+        "y = π"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adding 3 translates the graph and the line containing its points of inflection up 3 units, from y = 0 to y = 3.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "y = 0 contains the inflection points of y = tan θ before the translation.",
+        "The inflection points (kπ, 3) all lie on y = 3.",
+        "A vertical translation does not move points onto a vertical line.",
+        "π is the period, which describes horizontal spacing."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "d moves the line through the inflection points.",
+      "skillLabel": "Describe function characteristics",
+      "skillCode": "3.A"
+    },
+    {
+      "id": "precalculus-3-8-q09",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-function",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "For an angle θ, sin θ = −3/5 and cos θ = 4/5. What is the value of tan θ?",
+      "choices": [
+        "−3/4",
+        "−4/3",
+        "3/4",
+        "−3/5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "tan θ = (sin θ)/(cos θ) = (−3/5)/(4/5) = −3/4.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "Sine divided by cosine.",
+        "−4/3 is cosine divided by sine, upside down.",
+        "Sine is negative and cosine is positive, so the ratio is negative.",
+        "−3/5 is sin θ itself."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Tangent is sine over cosine.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-8-q10",
+      "topicId": "precalculus-3-8",
+      "concept": "tangent-characteristics",
+      "difficulty": "Core",
+      "skill": "support-conclusions",
+      "prompt": "A student claims that tan θ can never be greater than 1, because sin θ and cos θ are both between −1 and 1. Which of the following is the best response?",
+      "choices": [
+        "The student is correct, because a ratio of two numbers between −1 and 1 is between −1 and 1.",
+        "The student is incorrect, because tan θ = cos θ/sin θ.",
+        "The student is correct, because the maximum value of tan θ is tan(π/4) = 1.",
+        "The student is incorrect, because as cos θ approaches 0, the ratio sin θ/cos θ grows without bound."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dividing by a number close to 0 gives a large result. Near θ = π/2, sin θ is close to 1 and cos θ is close to 0, so tan θ increases without bound. For example, tan(1.5) ≈ 14.1.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-8"
+      ],
+      "choiceExplanations": [
+        "Dividing by a small number, such as 0.1, gives a quotient larger than 1.",
+        "tan θ = sin θ/cos θ, not the other way around.",
+        "tan θ keeps increasing past π/4 on the way to the asymptote at π/2.",
+        "Near the asymptotes, tan θ is unbounded."
+      ],
+      "nearMissIndex": 2,
+      "distinguisher": "A small denominator makes a large quotient.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-3-8-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-8",
+      "title": "The Tangent Function multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-3-8-q01",
+        "precalculus-3-8-q02",
+        "precalculus-3-8-q03",
+        "precalculus-3-8-q04",
+        "precalculus-3-8-q05",
+        "precalculus-3-8-q06",
+        "precalculus-3-8-q07",
+        "precalculus-3-8-q08",
+        "precalculus-3-8-q09",
+        "precalculus-3-8-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "tangent-function": {
+      "id": "tangent-function",
+      "title": "Tangent from the unit circle",
+      "section": "tangent-function",
+      "topicId": "precalculus-3-8"
+    },
+    "tangent-characteristics": {
+      "id": "tangent-characteristics",
+      "title": "Period, asymptotes, and concavity of tangent",
+      "section": "tangent-characteristics",
+      "topicId": "precalculus-3-8"
+    },
+    "tangent-transformations": {
+      "id": "tangent-transformations",
+      "title": "Transformations of the tangent function",
+      "section": "tangent-transformations",
+      "topicId": "precalculus-3-8"
+    }
+  },
+  "assets": {}
+}

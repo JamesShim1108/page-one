@@ -1,7 +1,13 @@
 import { createContentStore } from "./content-store.js";
 import { parseRoute, createRouteLoader } from "./router.js";
 import { pageTitle, emptyPage, link } from "./ui.js";
-import { homePage, courseListPage, coursePage, unitPage } from "./views/catalog.js";
+import {
+  homePage,
+  courseListPage,
+  coursePage,
+  unitPage,
+  mcqPage,
+} from "./views/catalog.js";
 import { startCarousel, toggleCarousel } from "./carousel.js";
 import { createAttemptStore } from "./quiz/store.js";
 import { createLocalAdapter } from "./storage/adapter.js";
@@ -281,7 +287,10 @@ async function selectPage(route, data, generation) {
     selected.html = () => courseListPage(data);
     selected.title = "Courses";
   } else if (route.type === "course") selected.html = () => coursePage(data);
-  else if (route.type === "settings") {
+  else if (route.type === "mcq") {
+    selected.html = () => mcqPage(data, attemptStore.peek);
+    selected.title = `${data.unit ? `Unit ${data.unit.number} ` : ""}Multiple choice · ${data.course.shortTitle}`;
+  } else if (route.type === "settings") {
     const { settingsPage } = await import("./settings.js");
     const records = await persistence.list({ includeIncompatible: true });
     const backup = await createBackupController({
@@ -478,8 +487,19 @@ async function selectPage(route, data, generation) {
           attemptId: route.params.get("attempt"),
           resultFilter: route.params.get("filter"),
           resultTopic: route.params.get("topic"),
+          // Multiple-choice sets belong to the Multiple Choice section, not to a lesson.
+          ...(data.quiz?.section === "mcq"
+            ? { routes: { back: () => `/mcq/${data.unit.id}` } }
+            : {}),
         })
       : null;
+    if (data.quiz?.section === "mcq")
+      data.breadcrumbs = [
+        ["Courses", "/courses"],
+        [data.course.shortTitle, `/course/${data.course.id}`],
+        [`Unit ${data.unit.number}`, `/unit/${data.unit.id}`],
+        ["Multiple choice", `/mcq/${data.unit.id}`],
+      ];
     selected.quiz = controller;
     if (controller && pendingQuizStart?.quizId === route.id) {
       controller.start(route.id, pendingQuizStart.mode || "practice");
@@ -689,6 +709,7 @@ async function render(focus = false) {
       const courseRoute = [
         "courses",
         "course",
+        "mcq",
         "unit",
         "topic",
         "terms",
@@ -833,6 +854,7 @@ function scrollToSectionInPlace(next) {
 document.addEventListener("input", (event) => {
   if (currentExam?.input(event)) return;
   if (currentWriting?.input(event)) return;
+  if (currentQuiz?.input?.(event)) return;
   reportController.input(event);
 });
 document.addEventListener("compositionstart", (event) =>

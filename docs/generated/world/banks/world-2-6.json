@@ -369,6 +369,10 @@
         ]
       }
     ],
+    "mcq": {
+      "unitQuizzes": [],
+      "topicSets": []
+    },
     "practiceTest": {
       "id": "world-2-practice-test",
       "title": "Unit 2 Practice Test",

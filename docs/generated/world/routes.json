@@ -289,5 +289,16 @@
     "world-mock-01": "world/exams/world-mock-01.json",
     "world-mock-02": "world/exams/world-mock-02.json",
     "world-mock-03": "world/exams/world-mock-03.json"
+  },
+  "mcq": {
+    "world-1": "world/units/world-1.json",
+    "world-2": "world/units/world-2.json",
+    "world-3": "world/units/world-3.json",
+    "world-4": "world/units/world-4.json",
+    "world-5": "world/units/world-5.json",
+    "world-6": "world/units/world-6.json",
+    "world-7": "world/units/world-7.json",
+    "world-8": "world/units/world-8.json",
+    "world-9": "world/units/world-9.json"
   }
 }

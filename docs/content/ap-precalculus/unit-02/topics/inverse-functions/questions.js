@@ -254,28 +254,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-8-quick",
+      id: "precalculus-2-8-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-8",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Inverse Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-8-q01",
         "precalculus-2-8-q02",
         "precalculus-2-8-q03",
         "precalculus-2-8-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-8-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-8",
-      title: "Inverse Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-8-q05",
         "precalculus-2-8-q06",
         "precalculus-2-8-q07",

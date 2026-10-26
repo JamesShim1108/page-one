@@ -1,0 +1,765 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "precalculus",
+    "title": "AP Precalculus",
+    "shortTitle": "AP Precalculus",
+    "description": "Build the function toolkit that calculus depends on: how quantities change together, polynomial and rational functions, exponential and logarithmic models, and trigonometric and polar functions.",
+    "status": "ready",
+    "period": "Functions and modeling",
+    "order": 3,
+    "previewDescription": "Study how outputs change with inputs, then use polynomial, rational, exponential, logarithmic, and trigonometric functions to describe patterns and build models."
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "precalculus-3",
+    "courseId": "precalculus",
+    "number": 3,
+    "title": "Trigonometric and Polar Functions",
+    "period": "AP Exam weighting 30–35%",
+    "status": "ready",
+    "description": "Model periodic phenomena with sine, cosine, and tangent, use inverse trigonometric functions and identities, and describe how polar functions change.",
+    "quizzes": [
+      {
+        "id": "precalculus-3-practice",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 1: Topics 3.1 to 3.7",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-1",
+            "questionIds": [
+              "precalculus-3-1-p02",
+              "precalculus-3-1-p07",
+              "precalculus-3-1-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-2",
+            "questionIds": [
+              "precalculus-3-2-p02",
+              "precalculus-3-2-p07",
+              "precalculus-3-2-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-3",
+            "questionIds": [
+              "precalculus-3-3-p02",
+              "precalculus-3-3-p07",
+              "precalculus-3-3-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-4",
+            "questionIds": [
+              "precalculus-3-4-p02",
+              "precalculus-3-4-p07",
+              "precalculus-3-4-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-5",
+            "questionIds": [
+              "precalculus-3-5-p02",
+              "precalculus-3-5-p07",
+              "precalculus-3-5-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-6",
+            "questionIds": [
+              "precalculus-3-6-p02",
+              "precalculus-3-6-p07",
+              "precalculus-3-6-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-7",
+            "questionIds": [
+              "precalculus-3-7-p02",
+              "precalculus-3-7-p07",
+              "precalculus-3-7-p09"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "precalculus-3-practice-2",
+        "courseId": "precalculus",
+        "unitId": "precalculus-3",
+        "title": "Unit 3 practice, Part 2: Topics 3.8 to 3.15",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "precalculus-3-8",
+            "questionIds": [
+              "precalculus-3-8-p02",
+              "precalculus-3-8-p07",
+              "precalculus-3-8-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-9",
+            "questionIds": [
+              "precalculus-3-9-p02",
+              "precalculus-3-9-p07",
+              "precalculus-3-9-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-10",
+            "questionIds": [
+              "precalculus-3-10-p02",
+              "precalculus-3-10-p07",
+              "precalculus-3-10-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-11",
+            "questionIds": [
+              "precalculus-3-11-p02",
+              "precalculus-3-11-p07",
+              "precalculus-3-11-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-12",
+            "questionIds": [
+              "precalculus-3-12-p02",
+              "precalculus-3-12-p07",
+              "precalculus-3-12-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-13",
+            "questionIds": [
+              "precalculus-3-13-p02",
+              "precalculus-3-13-p07",
+              "precalculus-3-13-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-14",
+            "questionIds": [
+              "precalculus-3-14-p02",
+              "precalculus-3-14-p07",
+              "precalculus-3-14-p09"
+            ]
+          },
+          {
+            "topicId": "precalculus-3-15",
+            "questionIds": [
+              "precalculus-3-15-p02",
+              "precalculus-3-15-p07",
+              "precalculus-3-15-p09"
+            ]
+          }
+        ]
+      }
+    ],
+    "mcq": {
+      "unitQuizzes": [
+        {
+          "id": "precalculus-3-mcq-1",
+          "title": "Unit 3 multiple choice, Part 1: Topics 3.1 to 3.7",
+          "questionCount": 21
+        },
+        {
+          "id": "precalculus-3-mcq-2",
+          "title": "Unit 3 multiple choice, Part 2: Topics 3.8 to 3.15",
+          "questionCount": 24
+        }
+      ],
+      "topicSets": [
+        {
+          "id": "precalculus-3-1-mcq",
+          "title": "Periodic Phenomena multiple choice",
+          "topicId": "precalculus-3-1",
+          "code": "3.1",
+          "topicTitle": "Periodic Phenomena",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-2-mcq",
+          "title": "Sine, Cosine, and Tangent multiple choice",
+          "topicId": "precalculus-3-2",
+          "code": "3.2",
+          "topicTitle": "Sine, Cosine, and Tangent",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-3-mcq",
+          "title": "Sine and Cosine Function Values multiple choice",
+          "topicId": "precalculus-3-3",
+          "code": "3.3",
+          "topicTitle": "Sine and Cosine Function Values",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-4-mcq",
+          "title": "Sine and Cosine Function Graphs multiple choice",
+          "topicId": "precalculus-3-4",
+          "code": "3.4",
+          "topicTitle": "Sine and Cosine Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-5-mcq",
+          "title": "Sinusoidal Functions multiple choice",
+          "topicId": "precalculus-3-5",
+          "code": "3.5",
+          "topicTitle": "Sinusoidal Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-6-mcq",
+          "title": "Sinusoidal Function Transformations multiple choice",
+          "topicId": "precalculus-3-6",
+          "code": "3.6",
+          "topicTitle": "Sinusoidal Function Transformations",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-7-mcq",
+          "title": "Sinusoidal Function Context and Data Modeling multiple choice",
+          "topicId": "precalculus-3-7",
+          "code": "3.7",
+          "topicTitle": "Sinusoidal Function Context and Data Modeling",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-8-mcq",
+          "title": "The Tangent Function multiple choice",
+          "topicId": "precalculus-3-8",
+          "code": "3.8",
+          "topicTitle": "The Tangent Function",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-9-mcq",
+          "title": "Inverse Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-9",
+          "code": "3.9",
+          "topicTitle": "Inverse Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-10-mcq",
+          "title": "Trigonometric Equations and Inequalities multiple choice",
+          "topicId": "precalculus-3-10",
+          "code": "3.10",
+          "topicTitle": "Trigonometric Equations and Inequalities",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-11-mcq",
+          "title": "The Secant, Cosecant, and Cotangent Functions multiple choice",
+          "topicId": "precalculus-3-11",
+          "code": "3.11",
+          "topicTitle": "The Secant, Cosecant, and Cotangent Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-12-mcq",
+          "title": "Equivalent Representations of Trigonometric Functions multiple choice",
+          "topicId": "precalculus-3-12",
+          "code": "3.12",
+          "topicTitle": "Equivalent Representations of Trigonometric Functions",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-13-mcq",
+          "title": "Trigonometry and Polar Coordinates multiple choice",
+          "topicId": "precalculus-3-13",
+          "code": "3.13",
+          "topicTitle": "Trigonometry and Polar Coordinates",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-14-mcq",
+          "title": "Polar Function Graphs multiple choice",
+          "topicId": "precalculus-3-14",
+          "code": "3.14",
+          "topicTitle": "Polar Function Graphs",
+          "questionCount": 10
+        },
+        {
+          "id": "precalculus-3-15-mcq",
+          "title": "Rates of Change in Polar Functions multiple choice",
+          "topicId": "precalculus-3-15",
+          "code": "3.15",
+          "topicTitle": "Rates of Change in Polar Functions",
+          "questionCount": 10
+        }
+      ]
+    },
+    "practiceTest": null,
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "precalculus-3-1-quiz",
+        "title": "Periodic Phenomena topic practice"
+      },
+      {
+        "id": "precalculus-3-2-quiz",
+        "title": "Sine, Cosine, and Tangent topic practice"
+      },
+      {
+        "id": "precalculus-3-3-quiz",
+        "title": "Sine and Cosine Function Values topic practice"
+      },
+      {
+        "id": "precalculus-3-4-quiz",
+        "title": "Sine and Cosine Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-5-quiz",
+        "title": "Sinusoidal Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-6-quiz",
+        "title": "Sinusoidal Function Transformations topic practice"
+      },
+      {
+        "id": "precalculus-3-7-quiz",
+        "title": "Sinusoidal Function Context and Data Modeling topic practice"
+      },
+      {
+        "id": "precalculus-3-8-quiz",
+        "title": "The Tangent Function topic practice"
+      },
+      {
+        "id": "precalculus-3-9-quiz",
+        "title": "Inverse Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-10-quiz",
+        "title": "Trigonometric Equations and Inequalities topic practice"
+      },
+      {
+        "id": "precalculus-3-11-quiz",
+        "title": "The Secant, Cosecant, and Cotangent Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-12-quiz",
+        "title": "Equivalent Representations of Trigonometric Functions topic practice"
+      },
+      {
+        "id": "precalculus-3-13-quiz",
+        "title": "Trigonometry and Polar Coordinates topic practice"
+      },
+      {
+        "id": "precalculus-3-14-quiz",
+        "title": "Polar Function Graphs topic practice"
+      },
+      {
+        "id": "precalculus-3-15-quiz",
+        "title": "Rates of Change in Polar Functions topic practice"
+      }
+    ],
+    "topicCount": 15,
+    "firstTopic": {
+      "id": "precalculus-3-1",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Periodic Phenomena",
+      "period": "Unit 3",
+      "status": "ready",
+      "summary": "What makes a relationship periodic, how one cycle of a graph builds the whole graph, the period of a function, and estimating a period from data."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "precalculus-3-frq-1",
+        "title": "Unit 3 FRQ 1: Modeling a periodic context (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-2",
+        "title": "Unit 3 FRQ 2: Sinusoidal model from data (Topics 3.1 to 3.7)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-3",
+        "title": "Unit 3 FRQ 3: Symbolic manipulations (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      },
+      {
+        "id": "precalculus-3-frq-4",
+        "title": "Unit 3 FRQ 4: Polar functions (Topics 3.8 to 3.15)",
+        "partCount": 6,
+        "exerciseType": "frq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "precalculus-3-12",
+    "courseId": "precalculus",
+    "unitId": "precalculus-3",
+    "order": 12,
+    "code": "3.12",
+    "title": "Equivalent Representations of Trigonometric Functions",
+    "period": "Unit 3",
+    "status": "ready",
+    "summary": "The Pythagorean identity and forms derived from it, the sum identities for sine and cosine with their difference and double-angle versions, and using equivalent forms to solve trigonometric equations."
+  },
+  "framework": null,
+  "contentRevision": "63fc72ef97371b8e",
+  "questions": [
+    {
+      "id": "precalculus-3-12-q01",
+      "topicId": "precalculus-3-12",
+      "concept": "pythagorean-identity",
+      "difficulty": "Quick check",
+      "skill": "apply-results",
+      "prompt": "If sin θ = 0.6 and the terminal ray of θ lies in Quadrant II, what is the value of cos θ?",
+      "choices": [
+        "0.8",
+        "−0.8",
+        "0.4",
+        "−0.64"
+      ],
+      "correctAnswer": 1,
+      "explanation": "cos²θ = 1 − sin²θ = 1 − 0.36 = 0.64, so cos θ = ±0.8. In Quadrant II, cosine is negative: cos θ = −0.8.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "The size is right, but cosine is negative in Quadrant II.",
+        "cos²θ = 0.64, and Quadrant II makes cos θ negative.",
+        "0.4 = 1 − 0.6 skips the squares in the identity.",
+        "−0.64 is −cos²θ; take the square root."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Square, subtract from 1, take the root, then choose the sign.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-12-q02",
+      "topicId": "precalculus-3-12",
+      "concept": "pythagorean-identity",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to 1 − cos²θ for all real numbers θ?",
+      "choices": [
+        "(1 − cos θ)²",
+        "tan²θ",
+        "sin²θ",
+        "−sin²θ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Subtracting cos²θ from both sides of sin²θ + cos²θ = 1 gives sin²θ = 1 − cos²θ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "(1 − cos θ)² = 1 − 2 cos θ + cos²θ, which is different.",
+        "tan²θ = sec²θ − 1.",
+        "From the Pythagorean identity.",
+        "1 − cos²θ is never negative, so it cannot equal −sin²θ unless both are 0."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Rearrange sin²θ + cos²θ = 1.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-3-12-q03",
+      "topicId": "precalculus-3-12",
+      "concept": "sum-identities",
+      "difficulty": "Quick check",
+      "skill": "apply-results",
+      "prompt": "Angles α and β are in Quadrant I, with sin α = 3/5, cos α = 4/5, sin β = 5/13, and cos β = 12/13. What is the value of sin(α + β)?",
+      "choices": [
+        "16/65",
+        "64/65",
+        "3/13",
+        "56/65"
+      ],
+      "correctAnswer": 3,
+      "explanation": "sin(α + β) = sin α cos β + cos α sin β = (3/5)(12/13) + (4/5)(5/13) = 36/65 + 20/65 = 56/65.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "16/65 = 36/65 − 20/65 subtracts, which is the identity for sin(α − β).",
+        "64/65 = 3/5 + 5/13 adds the sines; sin(α + β) ≠ sin α + sin β.",
+        "3/13 = (3/5)(5/13) multiplies the sines.",
+        "sin α cos β + cos α sin β."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The sine sum identity has a plus sign and mixes sine with cosine.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-12-q04",
+      "topicId": "precalculus-3-12",
+      "concept": "sum-identities",
+      "difficulty": "Quick check",
+      "skill": "equivalent-forms",
+      "prompt": "Using π/12 = π/3 − π/4, what is the exact value of cos(π/12)?",
+      "choices": [
+        "(√6 − √2)/4",
+        "(√6 + √2)/4",
+        "(√3 − 1)/2",
+        "1/2 − √2/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "cos(π/3 − π/4) = cos(π/3)cos(π/4) + sin(π/3)sin(π/4) = √2/4 + √6/4 = (√6 + √2)/4 ≈ 0.966.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "(√6 − √2)/4 ≈ 0.259 is sin(π/12); the cosine difference identity adds the products.",
+        "cos α cos β + sin α sin β.",
+        "(√3 − 1)/2 ≈ 0.366 does not come from either identity.",
+        "1/2 − √2/2 = cos(π/3) − cos(π/4); cos(α − β) ≠ cos α − cos β."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "cos(α − β) uses a plus sign.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-3-12-q05",
+      "topicId": "precalculus-3-12",
+      "concept": "pythagorean-identity",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "If sec θ = 3 and the terminal ray of θ lies in Quadrant IV, what is the value of tan θ?",
+      "choices": [
+        "2√2",
+        "8",
+        "−2√2/3",
+        "−2√2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "tan²θ = sec²θ − 1 = 9 − 1 = 8, so tan θ = ±2√2. In Quadrant IV tangent is negative, so tan θ = −2√2.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "Tangent is negative in Quadrant IV.",
+        "8 is tan²θ; take the square root.",
+        "−2√2/3 is sin θ, which is tan θ times cos θ = 1/3.",
+        "tan²θ = 8 and the quadrant gives the sign."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Use tan²θ = sec²θ − 1, then the quadrant.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-12-q06",
+      "topicId": "precalculus-3-12",
+      "concept": "sum-identities",
+      "difficulty": "Core",
+      "skill": "apply-results",
+      "prompt": "If sin θ = 4/5 and the terminal ray of θ lies in Quadrant I, what is the value of sin(2θ)?",
+      "choices": [
+        "8/5",
+        "12/25",
+        "24/25",
+        "−7/25"
+      ],
+      "correctAnswer": 2,
+      "explanation": "cos θ = 3/5 in Quadrant I. Then sin(2θ) = 2 sin θ cos θ = 2(4/5)(3/5) = 24/25.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "8/5 = 2 sin θ; sin(2θ) ≠ 2 sin θ, and no sine value exceeds 1.",
+        "12/25 = sin θ cos θ is missing the factor 2.",
+        "2 sin θ cos θ = 24/25.",
+        "−7/25 = cos²θ − sin²θ is cos(2θ)."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Double angle: 2 sin θ cos θ.",
+      "skillLabel": "Apply results in context",
+      "skillCode": "3.B"
+    },
+    {
+      "id": "precalculus-3-12-q07",
+      "topicId": "precalculus-3-12",
+      "concept": "sum-identities",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is equivalent to cos(2θ) for all real numbers θ?",
+      "choices": [
+        "2 sin²θ − 1",
+        "1 − 2 sin²θ",
+        "1 − sin²θ",
+        "cos²θ + sin²θ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "cos(2θ) = cos²θ − sin²θ. Replacing cos²θ with 1 − sin²θ gives 1 − 2 sin²θ.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "2 sin²θ − 1 = −cos(2θ); the signs are reversed.",
+        "(1 − sin²θ) − sin²θ = 1 − 2 sin²θ.",
+        "1 − sin²θ = cos²θ, which is not cos(2θ).",
+        "cos²θ + sin²θ = 1 for every θ."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Start from cos²θ − sin²θ and substitute.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-3-12-q08",
+      "topicId": "precalculus-3-12",
+      "concept": "solving-with-identities",
+      "difficulty": "Core",
+      "skill": "solve",
+      "prompt": "What are all solutions of 2 sin²θ + cos θ − 1 = 0 on the interval 0 ≤ θ < 2π?",
+      "choices": [
+        "θ = 0, θ = 2π/3, and θ = 4π/3",
+        "θ = 2π/3 and θ = 4π/3 only",
+        "θ = π/3, θ = π, and θ = 5π/3",
+        "θ = 0 and θ = π"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Replace sin²θ with 1 − cos²θ: 2 − 2 cos²θ + cos θ − 1 = 0, so 2 cos²θ − cos θ − 1 = 0, which factors as (2 cos θ + 1)(cos θ − 1) = 0. So cos θ = −1/2, giving 2π/3 and 4π/3, or cos θ = 1, giving 0.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "cos θ = 1 or −1/2.",
+        "The factor cos θ − 1 = 0 also gives θ = 0.",
+        "These solve cos θ = 1/2 or cos θ = −1, which comes from a sign error in the factoring.",
+        "At θ = π, 2(0) + (−1) − 1 = −2 ≠ 0."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Keep both factors.",
+      "skillLabel": "Solve equations and inequalities",
+      "skillCode": "1.A"
+    },
+    {
+      "id": "precalculus-3-12-q09",
+      "topicId": "precalculus-3-12",
+      "concept": "sum-identities",
+      "difficulty": "Core",
+      "skill": "equivalent-forms",
+      "prompt": "Which of the following is an identity, true wherever both sides are defined?",
+      "choices": [
+        "sin θ · tan θ = cos θ",
+        "sec θ · cos θ = 0",
+        "sin θ · cot θ = cos θ",
+        "tan θ · cot θ = 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "sin θ · (cos θ/sin θ) = cos θ wherever sin θ ≠ 0, so the equation holds wherever cot θ is defined.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "sin θ · tan θ = sin²θ/cos θ, which is not cos θ in general.",
+        "sec θ · cos θ = 1, not 0.",
+        "The sin θ factors cancel.",
+        "A number times its reciprocal is 1, not 0."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Rewrite every function in terms of sine and cosine.",
+      "skillLabel": "Rewrite in equivalent forms",
+      "skillCode": "1.B"
+    },
+    {
+      "id": "precalculus-3-12-q10",
+      "topicId": "precalculus-3-12",
+      "concept": "pythagorean-identity",
+      "difficulty": "Core",
+      "skill": "support-conclusions",
+      "prompt": "A student claims that arcsin x = arccos(√(1 − x²)) for every x in [−1, 1]. Which of the following is the best response?",
+      "choices": [
+        "The claim is correct, because it follows from the Pythagorean identity.",
+        "The claim is incorrect, because arccosine is undefined for positive inputs.",
+        "The claim is correct, because both sides equal 0 when x = 0.",
+        "The claim is incorrect for −1 ≤ x < 0, because arcsin x is negative there but arccosine is never negative."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The relationship holds with appropriate domain restrictions, 0 ≤ x ≤ 1. For example, arcsin(−0.6) ≈ −0.644, but arccos(√(1 − 0.36)) = arccos(0.8) ≈ 0.644.",
+      "sourceIds": [
+        "ced",
+        "ced-topic-3-12"
+      ],
+      "choiceExplanations": [
+        "The identity needs a domain restriction; it fails for negative x.",
+        "Arccosine is defined on all of [−1, 1].",
+        "Matching at one value does not make an equation true for every x.",
+        "Arccosine returns angles in [0, π]."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Check a negative input.",
+      "skillLabel": "Support conclusions",
+      "skillCode": "3.C"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "precalculus-3-12-mcq",
+      "courseId": "precalculus",
+      "unitId": "precalculus-3",
+      "topicId": "precalculus-3-12",
+      "title": "Equivalent Representations of Trigonometric Functions multiple choice",
+      "quizType": "mcq",
+      "questionIds": [
+        "precalculus-3-12-q01",
+        "precalculus-3-12-q02",
+        "precalculus-3-12-q03",
+        "precalculus-3-12-q04",
+        "precalculus-3-12-q05",
+        "precalculus-3-12-q06",
+        "precalculus-3-12-q07",
+        "precalculus-3-12-q08",
+        "precalculus-3-12-q09",
+        "precalculus-3-12-q10"
+      ],
+      "section": "mcq"
+    }
+  ],
+  "concepts": {
+    "pythagorean-identity": {
+      "id": "pythagorean-identity",
+      "title": "The Pythagorean identity",
+      "section": "pythagorean-identity",
+      "topicId": "precalculus-3-12"
+    },
+    "sum-identities": {
+      "id": "sum-identities",
+      "title": "Sum, difference, and double-angle identities",
+      "section": "sum-identities",
+      "topicId": "precalculus-3-12"
+    },
+    "solving-with-identities": {
+      "id": "solving-with-identities",
+      "title": "Solving equations with equivalent forms",
+      "section": "solving-with-identities",
+      "topicId": "precalculus-3-12"
+    }
+  },
+  "assets": {}
+}

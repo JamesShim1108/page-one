@@ -292,28 +292,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-1-6-quick",
+      id: "precalculus-1-6-mcq",
       courseId: "precalculus",
       unitId: "precalculus-1",
       topicId: "precalculus-1-6",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Polynomial Functions and End Behavior multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-1-6-q01",
         "precalculus-1-6-q02",
         "precalculus-1-6-q03",
         "precalculus-1-6-q04",
-      ],
-    },
-    {
-      id: "precalculus-1-6-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-1",
-      topicId: "precalculus-1-6",
-      title: "Polynomial Functions and End Behavior topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-1-6-q05",
         "precalculus-1-6-q06",
         "precalculus-1-6-q07",

@@ -259,28 +259,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-2-3-quick",
+      id: "precalculus-2-3-mcq",
       courseId: "precalculus",
       unitId: "precalculus-2",
       topicId: "precalculus-2-3",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Exponential Functions multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-2-3-q01",
         "precalculus-2-3-q02",
         "precalculus-2-3-q03",
         "precalculus-2-3-q04",
-      ],
-    },
-    {
-      id: "precalculus-2-3-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-2",
-      topicId: "precalculus-2-3",
-      title: "Exponential Functions topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-2-3-q05",
         "precalculus-2-3-q06",
         "precalculus-2-3-q07",

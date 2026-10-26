@@ -273,28 +273,17 @@ export const bank = {
   ],
   quizzes: [
     {
-      id: "precalculus-3-1-quick",
+      id: "precalculus-3-1-mcq",
       courseId: "precalculus",
       unitId: "precalculus-3",
       topicId: "precalculus-3-1",
-      title: "Quick check",
-      quizType: "quick",
+      title: "Periodic Phenomena multiple choice",
+      quizType: "mcq",
       questionIds: [
         "precalculus-3-1-q01",
         "precalculus-3-1-q02",
         "precalculus-3-1-q03",
         "precalculus-3-1-q04",
-      ],
-    },
-    {
-      id: "precalculus-3-1-quiz",
-      courseId: "precalculus",
-      unitId: "precalculus-3",
-      topicId: "precalculus-3-1",
-      title: "Periodic Phenomena topic practice",
-      quizType: "topic",
-      customPractice: true,
-      questionIds: [
         "precalculus-3-1-q05",
         "precalculus-3-1-q06",
         "precalculus-3-1-q07",
