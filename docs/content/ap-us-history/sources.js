@@ -76,4 +76,31 @@ export const sources = [
     url: "https://www.gutenberg.org/ebooks/4247",
     note: "Public-domain text of the primary source quoted in the Unit 1 Practice Test and short-answer questions. Quotations are checked against this edition.",
   },
+  {
+    id: "fiveable-apush-unit-2",
+    label: "Fiveable: AP U.S. History Unit 2, Colonial America, 1607-1754",
+    url: "https://fiveable.me/apush/unit-2",
+    note: "Topic-by-topic overview used to cross-check the coverage and examples in Unit 2.",
+  },
+  {
+    id: "rowlandson-1682",
+    label:
+      "Mary Rowlandson, The Sovereignty and Goodness of God, or Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson (1682), Project Gutenberg eBook #851",
+    url: "https://www.gutenberg.org/ebooks/851",
+    note: "Public-domain text of the primary source quoted in the Unit 2 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "equiano-1789",
+    label:
+      "Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano (1789), Standard Ebooks edition",
+    url: "https://standardebooks.org/ebooks/olaudah-equiano/the-interesting-narrative-of-the-life-of-olaudah-equiano",
+    note: "Public-domain text of the primary source quoted in the Unit 2 Practice Test. Quotations are checked against this edition.",
+  },
+  {
+    id: "edwards-1741",
+    label:
+      "Jonathan Edwards, Sinners in the Hands of an Angry God (1741), in Selected Sermons of Jonathan Edwards, ed. H. Norman Gardiner (1904), Project Gutenberg eBook #34632",
+    url: "https://www.gutenberg.org/ebooks/34632",
+    note: "Public-domain text of the primary source quoted in the Unit 2 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
 ];

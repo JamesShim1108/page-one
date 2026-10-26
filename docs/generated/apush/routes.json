@@ -17,7 +17,15 @@
     "apush-1-4": "apush/topics/apush-1-4.json",
     "apush-1-5": "apush/topics/apush-1-5.json",
     "apush-1-6": "apush/topics/apush-1-6.json",
-    "apush-1-7": "apush/topics/apush-1-7.json"
+    "apush-1-7": "apush/topics/apush-1-7.json",
+    "apush-2-1": "apush/topics/apush-2-1.json",
+    "apush-2-2": "apush/topics/apush-2-2.json",
+    "apush-2-3": "apush/topics/apush-2-3.json",
+    "apush-2-4": "apush/topics/apush-2-4.json",
+    "apush-2-5": "apush/topics/apush-2-5.json",
+    "apush-2-6": "apush/topics/apush-2-6.json",
+    "apush-2-7": "apush/topics/apush-2-7.json",
+    "apush-2-8": "apush/topics/apush-2-8.json"
   },
   "quiz": {
     "apush-1-1-quick": "apush/banks/apush-1-1.json",
@@ -35,13 +43,34 @@
     "apush-1-7-quick": "apush/banks/apush-1-7.json",
     "apush-1-7-quiz": "apush/banks/apush-1-7.json",
     "apush-1-practice": "apush/quizzes/apush-1-practice.json",
-    "apush-1-practice-test": "apush/quizzes/apush-1-practice-test.json"
+    "apush-1-practice-test": "apush/quizzes/apush-1-practice-test.json",
+    "apush-2-1-quick": "apush/banks/apush-2-1.json",
+    "apush-2-1-quiz": "apush/banks/apush-2-1.json",
+    "apush-2-2-quick": "apush/banks/apush-2-2.json",
+    "apush-2-2-quiz": "apush/banks/apush-2-2.json",
+    "apush-2-3-quick": "apush/banks/apush-2-3.json",
+    "apush-2-3-quiz": "apush/banks/apush-2-3.json",
+    "apush-2-4-quick": "apush/banks/apush-2-4.json",
+    "apush-2-4-quiz": "apush/banks/apush-2-4.json",
+    "apush-2-5-quick": "apush/banks/apush-2-5.json",
+    "apush-2-5-quiz": "apush/banks/apush-2-5.json",
+    "apush-2-6-quick": "apush/banks/apush-2-6.json",
+    "apush-2-6-quiz": "apush/banks/apush-2-6.json",
+    "apush-2-7-quick": "apush/banks/apush-2-7.json",
+    "apush-2-7-quiz": "apush/banks/apush-2-7.json",
+    "apush-2-8-quick": "apush/banks/apush-2-8.json",
+    "apush-2-8-quiz": "apush/banks/apush-2-8.json",
+    "apush-2-practice": "apush/quizzes/apush-2-practice.json",
+    "apush-2-practice-test": "apush/quizzes/apush-2-practice-test.json"
   },
   "guide": {},
   "writing": {
     "apush-1-saq-01": "apush/writing/apush-1-saq-01.json",
     "apush-1-saq-02": "apush/writing/apush-1-saq-02.json",
-    "apush-1-leq-change": "apush/writing/apush-1-leq-change.json"
+    "apush-1-leq-change": "apush/writing/apush-1-leq-change.json",
+    "apush-2-saq-01": "apush/writing/apush-2-saq-01.json",
+    "apush-2-saq-02": "apush/writing/apush-2-saq-02.json",
+    "apush-2-leq-regions": "apush/writing/apush-2-leq-regions.json"
   },
   "terms": {
     "apush-1": "apush/units/apush-1.json",

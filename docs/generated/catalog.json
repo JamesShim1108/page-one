@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "c29d757ba1905cde",
+  "revision": "cdb3e6ad9c46dc9e",
   "courses": [
     {
       "schemaVersion": 1,
@@ -154,7 +154,7 @@
       "order": 4,
       "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
       "sourceReview": "ced_review",
-      "readyTopicCount": 7,
+      "readyTopicCount": 15,
       "previewTopics": [
         {
           "id": "apush-1-1",

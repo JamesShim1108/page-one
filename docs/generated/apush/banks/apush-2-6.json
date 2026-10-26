@@ -1,0 +1,1045 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-2",
+    "courseId": "apush",
+    "number": 2,
+    "title": "Period 2",
+    "period": "1607–1754",
+    "status": "ready",
+    "description": "Follow the Spanish, French, Dutch, and British colonies, the regions of British North America, Atlantic trade, slavery, and colonial society from 1607 to 1754.",
+    "quizzes": [
+      {
+        "id": "apush-2-practice",
+        "courseId": "apush",
+        "unitId": "apush-2",
+        "title": "Unit 2 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-2-1",
+            "questionIds": [
+              "apush-2-1-q01",
+              "apush-2-1-q04",
+              "apush-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-2",
+            "questionIds": [
+              "apush-2-2-q01",
+              "apush-2-2-q04",
+              "apush-2-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-3",
+            "questionIds": [
+              "apush-2-3-q01",
+              "apush-2-3-q04",
+              "apush-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-4",
+            "questionIds": [
+              "apush-2-4-q01",
+              "apush-2-4-q04",
+              "apush-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-5",
+            "questionIds": [
+              "apush-2-5-q01",
+              "apush-2-5-q04",
+              "apush-2-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-q01",
+              "apush-2-6-q04",
+              "apush-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-7",
+            "questionIds": [
+              "apush-2-7-q01",
+              "apush-2-7-q04",
+              "apush-2-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-8",
+            "questionIds": [
+              "apush-2-8-q01",
+              "apush-2-8-q04",
+              "apush-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-2-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-2",
+        "title": "Unit 2 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-2-2",
+            "questionIds": [
+              "apush-2-2-t01",
+              "apush-2-2-t02",
+              "apush-2-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-3",
+            "questionIds": [
+              "apush-2-3-t01",
+              "apush-2-3-t02",
+              "apush-2-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-4",
+            "questionIds": [
+              "apush-2-4-t01",
+              "apush-2-4-t02",
+              "apush-2-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-5",
+            "questionIds": [
+              "apush-2-5-t01",
+              "apush-2-5-t02",
+              "apush-2-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-t01",
+              "apush-2-6-t02",
+              "apush-2-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-t04",
+              "apush-2-6-t05",
+              "apush-2-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-2-7",
+            "questionIds": [
+              "apush-2-7-t01",
+              "apush-2-7-t02",
+              "apush-2-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-2-practice-test",
+      "title": "Unit 2 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-2-1-quiz",
+        "title": "Contextualizing Period 2 topic quiz"
+      },
+      {
+        "id": "apush-2-2-quiz",
+        "title": "European Colonization topic quiz"
+      },
+      {
+        "id": "apush-2-3-quiz",
+        "title": "The Regions of British Colonies topic quiz"
+      },
+      {
+        "id": "apush-2-4-quiz",
+        "title": "Transatlantic Trade topic quiz"
+      },
+      {
+        "id": "apush-2-5-quiz",
+        "title": "Interactions Between American Indians and Europeans topic quiz"
+      },
+      {
+        "id": "apush-2-6-quiz",
+        "title": "Slavery in the British Colonies topic quiz"
+      },
+      {
+        "id": "apush-2-7-quiz",
+        "title": "Colonial Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-2-8-quiz",
+        "title": "Comparison in Period 2 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "apush-2-1",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Contextualizing Period 2",
+      "period": "1607–1754",
+      "status": "ready",
+      "summary": "The context for European colonization of North America from 1607 to 1754: what had already happened, what each empire wanted, and how environment and rivalry shaped the colonies."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-2-saq-01",
+        "title": "Unit 2 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-2-saq-02",
+        "title": "Unit 2 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-2-leq-regions",
+        "title": "LEQ: New England and the Chesapeake",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-2-6",
+    "courseId": "apush",
+    "unitId": "apush-2",
+    "order": 6,
+    "code": "2.6",
+    "title": "Slavery in the British Colonies",
+    "period": "1607–1754",
+    "status": "ready",
+    "summary": "How slavery spread through the British colonies, how colonial laws created a racial system of chattel slavery, and how enslaved Africans resisted and preserved their culture."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "17e22a0b6adc916f",
+  "questions": [
+    {
+      "id": "apush-2-6-q01",
+      "topicId": "apush-2-6",
+      "concept": "slave-trade-and-regions",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.A"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following best explains why the British colonies increasingly turned to enslaved Africans for labor?",
+      "choices": [
+        "Parliament required each colony to purchase a fixed number of enslaved Africans every year",
+        "Colonial leaders believed that enslaved Africans were needed to defend the frontier settlements from attack",
+        "Land was abundant, demand for colonial goods was growing, and fewer indentured servants were available",
+        "Enslaved Africans could be hired for lower wages than the wages that English servants demanded"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Abundant land and growing demand for colonial goods required more workers, and fewer indentured servants were arriving.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Parliament did not set purchase quotas for colonies.",
+        "Enslaved Africans were brought to the colonies to work, and defense was not the main reason.",
+        "Abundant land and growing demand for colonial goods required more workers, and fewer indentured servants were arriving.",
+        "Enslaved people were bought and held as property, not hired for wages."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The wage choice sounds economic, but enslaved people were not paid wages, so it misdescribes the system.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-2-6-q02",
+      "topicId": "apush-2-6",
+      "concept": "slave-trade-and-regions",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.A"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following was true of where enslaved Africans were sent in the Americas?",
+      "choices": [
+        "The great majority were sent to the West Indies, while the Chesapeake and southern Atlantic coast also held large numbers",
+        "The great majority were sent to the small farms of New England, where they replaced indentured servants",
+        "Most were sent to the wheat farms of the middle colonies, which depended on enslaved labor for most harvests",
+        "Most were sent to Spanish missions in New Mexico, where they replaced the labor of Native villages"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most enslaved Africans went to the West Indies, and the Chesapeake and southern Atlantic coast had large numbers on plantations.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Most enslaved Africans went to the West Indies, and the Chesapeake and southern Atlantic coast had large numbers on plantations.",
+        "New England's small farms used relatively few enslaved laborers.",
+        "The middle colonies used enslaved workers, but not as their main labor force.",
+        "The great majority went to plantation regions, especially the West Indies."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Slavery existed in New England, but small farms there used relatively few enslaved workers.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-6-q03",
+      "topicId": "apush-2-6",
+      "concept": "slave-trade-and-regions",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.A"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following was a difference in the extent of slavery between New England and the Chesapeake?",
+      "choices": [
+        "Slavery was illegal in New England, while it was legal and widespread throughout the Chesapeake",
+        "New England colonists enslaved far more people than Chesapeake planters did, mainly on rice plantations",
+        "Enslaved people in New England worked on large estates, while Chesapeake planters used none",
+        "New England's small farms used relatively few enslaved laborers, while Chesapeake plantations used large numbers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "New England's family farms needed few enslaved workers, but the Chesapeake's tobacco plantations used large numbers of them.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Slavery was legal in New England, though it was less extensive there.",
+        "Rice was not a New England crop, and the Chesapeake used more enslaved laborers.",
+        "The Chesapeake's plantations depended on enslaved labor.",
+        "New England's family farms needed few enslaved workers, but the Chesapeake's tobacco plantations used large numbers of them."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The illegal-in-New-England choice exaggerates the difference, since slavery existed in every colony to some degree.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-2-6-q04",
+      "topicId": "apush-2-6",
+      "concept": "racial-slavery-and-law",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.B"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Chattel slavery differed from indentured servitude in that",
+      "choices": [
+        "enslaved people signed contracts that ended after a set number of years of labor for a planter",
+        "enslaved people were legal property held for life, and their status passed to their children",
+        "enslaved people earned land at the end of their service and became eligible to vote in colonial elections",
+        "enslaved people were paid wages that planters deducted from their earnings to cover the cost of passage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chattel slavery meant lifelong, hereditary bondage in which people were legal property, unlike a contract for a limited term.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Indentured servants signed such contracts, but enslaved people did not.",
+        "Chattel slavery meant lifelong, hereditary bondage in which people were legal property, unlike a contract for a limited term.",
+        "Enslaved people received no land or political rights when their labor ended.",
+        "Enslaved people were not paid wages."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The contract choice describes indentured servitude, so it is the near miss that confuses the two systems.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-6-q05",
+      "topicId": "apush-2-6",
+      "concept": "racial-slavery-and-law",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.B"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Virginia's 1662 law that defined a child's status by the status of the mother most directly",
+      "choices": [
+        "made slavery hereditary, so the children of enslaved mothers were enslaved for life",
+        "freed the children of enslaved mothers and white fathers after a set number of years",
+        "ended the importation of enslaved Africans into Virginia in order to protect indentured servants",
+        "gave enslaved mothers a legal right to keep their children together on the same plantation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Under the law, slavery passed from mother to child, so descendants of enslaved women were enslaved in perpetuity.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Under the law, slavery passed from mother to child, so descendants of enslaved women were enslaved in perpetuity.",
+        "The law tied a child's status to the mother's status and did not free anyone.",
+        "Virginia continued to import enslaved Africans.",
+        "The law did not protect enslaved families."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The law concerned mothers, so the near miss that mentions white fathers uses the wrong parent to describe the rule.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-2-6-q06",
+      "topicId": "apush-2-6",
+      "concept": "racial-slavery-and-law",
+      "difficulty": "Apply",
+      "skill": "contextualization",
+      "subskill": "4.B",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.B"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Slave codes in the southern colonies are best understood in the context of which of the following?",
+      "choices": [
+        "A decline in the Atlantic slave trade after 1700 that left colonists with fewer enslaved workers",
+        "Parliament's effort to abolish slavery throughout the British Empire in the late 1600s",
+        "The spread of chattel slavery as the dominant labor system in many southern colonies",
+        "The Great Awakening of the 1740s, which led many colonists to call for an end to bondage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As slavery became the main labor system, colonial legislatures wrote codes to control enslaved people and to define slavery in racial terms.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The slave trade expanded in the 1700s.",
+        "Parliament did not try to abolish slavery in this period.",
+        "As slavery became the main labor system, colonial legislatures wrote codes to control enslaved people and to define slavery in racial terms.",
+        "The first slave codes came decades before the Great Awakening, which did not end slavery."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Great Awakening is a real development of the colonial era, but it came after the first slave codes.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Explain how a specific historical development or process is situated within a broader historical context."
+    },
+    {
+      "id": "apush-2-6-q07",
+      "topicId": "apush-2-6",
+      "concept": "resistance-and-culture",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "2.G",
+      "keyConcepts": [
+        "KC-2.2.II.C"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following is an example of covert resistance to slavery?",
+      "choices": [
+        "An armed revolt against planters, such as the Stono Rebellion in South Carolina in 1739",
+        "Seizing weapons and fighting planters' militias in an attempt to reach Spanish territory",
+        "A coordinated attack on a plantation house by a group of enslaved men and women",
+        "Working slowly, damaging tools, or pretending to be ill in order to slow the work of the plantation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Covert resistance was hidden and everyday, such as slowing work, breaking tools, or feigning illness.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "An armed revolt is overt resistance.",
+        "Open fighting is overt resistance.",
+        "A coordinated attack is overt resistance.",
+        "Covert resistance was hidden and everyday, such as slowing work, breaking tools, or feigning illness."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Stono Rebellion is a famous act of resistance, but it was an open, armed revolt.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-6-q08",
+      "topicId": "apush-2-6",
+      "concept": "resistance-and-culture",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "2.G",
+      "keyConcepts": [
+        "KC-2.2.II.C"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following was a result of the Stono Rebellion of 1739?",
+      "choices": [
+        "South Carolina ended its importation of enslaved Africans in order to prevent further violence",
+        "South Carolina passed a harsher slave code to tighten control over enslaved people",
+        "Parliament banned the Atlantic slave trade throughout the British colonies the next year",
+        "Spain closed Florida to all fugitives from the British colonies and returned them to planters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Colonists responded to the revolt with a stricter slave code that restricted movement and gatherings.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "South Carolina continued to import enslaved people.",
+        "Colonists responded to the revolt with a stricter slave code that restricted movement and gatherings.",
+        "Parliament did not ban the slave trade until much later.",
+        "Spanish Florida continued to offer freedom to some fugitives."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Spanish Florida was the rebels' destination, but the revolt did not lead Spain to close it to fugitives.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-2-6-t01",
+      "topicId": "apush-2-6",
+      "concept": "slave-trade-and-regions",
+      "difficulty": "Core",
+      "skill": "sourcing",
+      "subskill": "2.A",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.A"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following best describes the intended audience of the excerpt?",
+      "choices": [
+        "Colonial legislators who were drafting slave codes for Virginia and South Carolina",
+        "African merchants who were deciding whether to sell captives to European ships",
+        "British readers whom the author hoped to persuade to oppose the slave trade",
+        "Planters who were deciding how many enslaved workers to buy for their plantations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Equiano published his narrative in London during the campaign to end the slave trade, and he describes the trade's cruelty to move his readers.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The narrative was published in London for a general reading public.",
+        "The narrative was written in English for readers in Britain.",
+        "Equiano published his narrative in London during the campaign to end the slave trade, and he describes the trade's cruelty to move his readers.",
+        "The author describes the cruelty of the trade and not the needs of planters."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Planters and legislators were part of the system, but the narrative was written to turn readers in Britain against it.",
+      "stimulusId": "equiano-middle-passage",
+      "stimulusBlocks": [
+        {
+          "id": "equiano-middle-passage",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 2.6, KC-2.2.II.A and KC-2.2.II.C: the Atlantic slave trade and the dehumanizing nature of slavery",
+          "ced_review": "pending",
+          "attribution": "Olaudah Equiano, a formerly enslaved man living in Britain, in his autobiography published in London in 1789 during the campaign to end the slave trade",
+          "citation": "Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African (London, 1789), chapter 2. Standard Ebooks edition.",
+          "text": "The first object which saluted my eyes when I arrived on the coast was the sea, and a slave ship, which was then riding at anchor, and waiting for its cargo. These filled me with astonishment, which was soon converted into terror when I was carried on board. I was immediately handled and tossed up to see if I were sound by some of the crew; and I was now persuaded that I had gotten into a world of bad spirits, and that they were going to kill me. . . . When I looked round the ship too and saw a large furnace or copper boiling, and a multitude of black people of every description chained together, every one of their countenances expressing dejection and sorrow, I no longer doubted of my fate; and, quite overpowered with horror and anguish, I fell motionless on the deck and fainted."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Identify a source’s point of view, purpose, historical situation, and/or audience."
+    },
+    {
+      "id": "apush-2-6-t02",
+      "topicId": "apush-2-6",
+      "concept": "slave-trade-and-regions",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.A"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following best states the author's account of his arrival on the coast?",
+      "choices": [
+        "He was terrified by the slave ship and the crew, and he feared that he would be killed",
+        "He welcomed the ship as a chance to leave Africa for the opportunities of the Americas",
+        "He was confident that the crew would treat him as a guest and return him to his home",
+        "He was calm because other Africans on the ship assured him that he would soon be freed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equiano describes astonishment that turned to terror, a belief that the crew were spirits who would kill him, and fainting from horror.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Equiano describes astonishment that turned to terror, a belief that the crew were spirits who would kill him, and fainting from horror.",
+        "He describes astonishment and terror, not welcome.",
+        "He believed that the crew would kill him.",
+        "He describes horror and anguish and fainting on the deck."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The near misses invent comfort or hope, but the excerpt describes only fear, horror, and despair.",
+      "stimulusId": "equiano-middle-passage",
+      "stimulusBlocks": [
+        {
+          "id": "equiano-middle-passage",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 2.6, KC-2.2.II.A and KC-2.2.II.C: the Atlantic slave trade and the dehumanizing nature of slavery",
+          "ced_review": "pending",
+          "attribution": "Olaudah Equiano, a formerly enslaved man living in Britain, in his autobiography published in London in 1789 during the campaign to end the slave trade",
+          "citation": "Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African (London, 1789), chapter 2. Standard Ebooks edition.",
+          "text": "The first object which saluted my eyes when I arrived on the coast was the sea, and a slave ship, which was then riding at anchor, and waiting for its cargo. These filled me with astonishment, which was soon converted into terror when I was carried on board. I was immediately handled and tossed up to see if I were sound by some of the crew; and I was now persuaded that I had gotten into a world of bad spirits, and that they were going to kill me. . . . When I looked round the ship too and saw a large furnace or copper boiling, and a multitude of black people of every description chained together, every one of their countenances expressing dejection and sorrow, I no longer doubted of my fate; and, quite overpowered with horror and anguish, I fell motionless on the deck and fainted."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-2-6-t03",
+      "topicId": "apush-2-6",
+      "concept": "slave-trade-and-regions",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.A"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "The experience described in the excerpt was most directly part of which of the following developments?",
+      "choices": [
+        "The Columbian Exchange, which carried crops, animals, and diseases between the hemispheres",
+        "The Navigation Acts, which required colonial goods to travel on English or colonial ships",
+        "The encomienda system, which gave Spanish colonists the labor of Native villages",
+        "The Atlantic slave trade, which brought enslaved laborers to the plantation colonies"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The excerpt describes a captive's voyage on a slave ship, which was a part of the Atlantic slave trade.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The excerpt describes the forced voyage of a captive, not the exchange of crops and diseases.",
+        "The Navigation Acts regulated shipping and trade and did not involve the capture of people.",
+        "The excerpt describes Africans on a ship and not Native villages under the Spanish.",
+        "The excerpt describes a captive's voyage on a slave ship, which was a part of the Atlantic slave trade."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Navigation Acts regulated ships, but they did not govern the capture or transport of enslaved people.",
+      "stimulusId": "equiano-middle-passage",
+      "stimulusBlocks": [
+        {
+          "id": "equiano-middle-passage",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 2.6, KC-2.2.II.A and KC-2.2.II.C: the Atlantic slave trade and the dehumanizing nature of slavery",
+          "ced_review": "pending",
+          "attribution": "Olaudah Equiano, a formerly enslaved man living in Britain, in his autobiography published in London in 1789 during the campaign to end the slave trade",
+          "citation": "Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African (London, 1789), chapter 2. Standard Ebooks edition.",
+          "text": "The first object which saluted my eyes when I arrived on the coast was the sea, and a slave ship, which was then riding at anchor, and waiting for its cargo. These filled me with astonishment, which was soon converted into terror when I was carried on board. I was immediately handled and tossed up to see if I were sound by some of the crew; and I was now persuaded that I had gotten into a world of bad spirits, and that they were going to kill me. . . . When I looked round the ship too and saw a large furnace or copper boiling, and a multitude of black people of every description chained together, every one of their countenances expressing dejection and sorrow, I no longer doubted of my fate; and, quite overpowered with horror and anguish, I fell motionless on the deck and fainted."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-2-6-t04",
+      "topicId": "apush-2-6",
+      "concept": "racial-slavery-and-law",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.C",
+      "reasoning": "causation",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.B"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following best describes the main difference between Interpretation A and Interpretation B?",
+      "choices": [
+        "A stresses planters' demand for permanent labor, while B stresses English prejudice against Africans",
+        "A stresses English prejudice against Africans, while B stresses planters' demand for permanent labor",
+        "A argues that colonial laws created racial slavery, while B argues that laws played no part in it",
+        "A argues that slavery began in the 1600s, while B argues that it began only in the 1700s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Interpretation A emphasizes planters' economic need for a permanent workforce, and Interpretation B emphasizes English attitudes toward Africans.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Interpretation A emphasizes planters' economic need for a permanent workforce, and Interpretation B emphasizes English attitudes toward Africans.",
+        "This reverses the two arguments.",
+        "Both passages say that colonial laws made slavery racial and hereditary.",
+        "Neither passage gives a different century for the beginning of slavery."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The laws choice is tempting because both passages mention laws, but they agree about the laws and differ about their causes.",
+      "stimulusId": "original-slavery-economic",
+      "stimulusBlocks": [
+        {
+          "id": "original-slavery-economic",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 2.6, KC-2.2.II.B: as chattel slavery became the dominant labor system, new laws created a strict racial system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize planters' demand for labor in the origins of racial slavery",
+          "text": "Interpretation A. Racial slavery took hold in the English colonies mainly because of labor needs. In the early 1600s, Chesapeake planters depended on English indentured servants. As fewer servants arrived from England, and as more of those who did arrive survived to demand land of their own, planters turned to enslaved Africans, who could be held for life and whose children could be held as well. Colonial legislatures then wrote slave codes that protected this investment by making slavery lifelong, hereditary, and tied to race. On this view, planters' demand for a permanent workforce produced racial slavery, and racial ideas were used to justify it afterward."
+        },
+        {
+          "id": "original-slavery-prejudice",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 2.6, KC-2.2.II.B: as chattel slavery became the dominant labor system, new laws created a strict racial system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize English attitudes toward Africans in the origins of racial slavery",
+          "text": "Interpretation B. Racial slavery took hold in the English colonies mainly because of English attitudes toward Africans. Before slavery was widespread, English colonists already described Africans as different and inferior because of their color, their religion, and their origins. Courts in the 1640s sometimes punished Africans more harshly than white servants, and later laws banned marriage between the groups and made slavery pass from mother to child. On this view, prejudice made it easy for planters to hold Africans in permanent bondage, and the laws that made slavery racial grew out of those beliefs, not only out of economic demand."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "reasoningLabel": "Causation",
+      "subskillText": "Compare the arguments or main ideas of two sources."
+    },
+    {
+      "id": "apush-2-6-t05",
+      "topicId": "apush-2-6",
+      "concept": "racial-slavery-and-law",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.D",
+      "reasoning": "causation",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.B"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Which of the following could best be used to support Interpretation B?",
+      "choices": [
+        "The number of English servants arriving in the Chesapeake fell sharply in the late 1600s",
+        "In 1640 a Virginia court gave an African runaway lifelong service but gave white runaways added years",
+        "Chesapeake planters bought rising numbers of enslaved Africans as tobacco exports expanded",
+        "Planters in the West Indies imported large numbers of enslaved Africans to grow sugar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Harsher punishment for an African than for white runaways before slavery was widespread suggests that prejudice shaped treatment early.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This supports Interpretation A, which stresses the need for labor.",
+        "Harsher punishment for an African than for white runaways before slavery was widespread suggests that prejudice shaped treatment early.",
+        "This supports Interpretation A, which links slavery to demand for labor.",
+        "This supports Interpretation A, which stresses economic demand for labor."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The labor-supply facts are strong evidence in the debate, but they support Interpretation A.",
+      "stimulusId": "original-slavery-economic",
+      "stimulusBlocks": [
+        {
+          "id": "original-slavery-economic",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 2.6, KC-2.2.II.B: as chattel slavery became the dominant labor system, new laws created a strict racial system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize planters' demand for labor in the origins of racial slavery",
+          "text": "Interpretation A. Racial slavery took hold in the English colonies mainly because of labor needs. In the early 1600s, Chesapeake planters depended on English indentured servants. As fewer servants arrived from England, and as more of those who did arrive survived to demand land of their own, planters turned to enslaved Africans, who could be held for life and whose children could be held as well. Colonial legislatures then wrote slave codes that protected this investment by making slavery lifelong, hereditary, and tied to race. On this view, planters' demand for a permanent workforce produced racial slavery, and racial ideas were used to justify it afterward."
+        },
+        {
+          "id": "original-slavery-prejudice",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 2.6, KC-2.2.II.B: as chattel slavery became the dominant labor system, new laws created a strict racial system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize English attitudes toward Africans in the origins of racial slavery",
+          "text": "Interpretation B. Racial slavery took hold in the English colonies mainly because of English attitudes toward Africans. Before slavery was widespread, English colonists already described Africans as different and inferior because of their color, their religion, and their origins. Courts in the 1640s sometimes punished Africans more harshly than white servants, and later laws banned marriage between the groups and made slavery pass from mother to child. On this view, prejudice made it easy for planters to hold Africans in permanent bondage, and the laws that made slavery racial grew out of those beliefs, not only out of economic demand."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how claims or evidence support, modify, or refute a source’s argument."
+    },
+    {
+      "id": "apush-2-6-t06",
+      "topicId": "apush-2-6",
+      "concept": "racial-slavery-and-law",
+      "difficulty": "Apply",
+      "skill": "claims-evidence",
+      "subskill": "3.C",
+      "reasoning": "causation",
+      "learningObjective": "2.F",
+      "keyConcepts": [
+        "KC-2.2.II.B"
+      ],
+      "themes": [
+        "WXT",
+        "SOC"
+      ],
+      "prompt": "Both interpretations would most likely agree with which of the following statements?",
+      "choices": [
+        "Enslaved Africans were the main labor force in the Chesapeake from the founding of Jamestown",
+        "Colonial laws helped make slavery a racial, hereditary, and lifelong condition",
+        "Slavery developed in the English colonies without any involvement from colonial governments",
+        "Parliament imposed racial slavery on the colonies over the objections of colonial leaders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both passages describe laws that made slavery lifelong, hereditary, and racial, though they disagree about what caused the laws.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Both passages say that servants were used before slavery became common.",
+        "Both passages describe laws that made slavery lifelong, hereditary, and racial, though they disagree about what caused the laws.",
+        "Both passages describe laws passed by colonial legislatures or courts.",
+        "Neither passage says that Parliament imposed slavery on the colonies."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Jamestown choice moves the beginning of slavery earlier than either passage does.",
+      "stimulusId": "original-slavery-economic",
+      "stimulusBlocks": [
+        {
+          "id": "original-slavery-economic",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 2.6, KC-2.2.II.B: as chattel slavery became the dominant labor system, new laws created a strict racial system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize planters' demand for labor in the origins of racial slavery",
+          "text": "Interpretation A. Racial slavery took hold in the English colonies mainly because of labor needs. In the early 1600s, Chesapeake planters depended on English indentured servants. As fewer servants arrived from England, and as more of those who did arrive survived to demand land of their own, planters turned to enslaved Africans, who could be held for life and whose children could be held as well. Colonial legislatures then wrote slave codes that protected this investment by making slavery lifelong, hereditary, and tied to race. On this view, planters' demand for a permanent workforce produced racial slavery, and racial ideas were used to justify it afterward."
+        },
+        {
+          "id": "original-slavery-prejudice",
+          "type": "source",
+          "sourceType": "original",
+          "source": "CED Topic 2.6, KC-2.2.II.B: as chattel slavery became the dominant labor system, new laws created a strict racial system",
+          "ced_review": "pending",
+          "attribution": "Practice passage written for Page One, summarizing historians who emphasize English attitudes toward Africans in the origins of racial slavery",
+          "text": "Interpretation B. Racial slavery took hold in the English colonies mainly because of English attitudes toward Africans. Before slavery was widespread, English colonists already described Africans as different and inferior because of their color, their religion, and their origins. Courts in the 1640s sometimes punished Africans more harshly than white servants, and later laws banned marriage between the groups and made slavery pass from mother to child. On this view, prejudice made it easy for planters to hold Africans in permanent bondage, and the laws that made slavery racial grew out of those beliefs, not only out of economic demand."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "reasoningLabel": "Causation",
+      "subskillText": "Compare the arguments or main ideas of two sources."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-2-6-quick",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-6",
+      "title": "Topic 2.6 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-2-6-q01",
+        "apush-2-6-q02",
+        "apush-2-6-q03"
+      ]
+    },
+    {
+      "id": "apush-2-6-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-6",
+      "title": "Slavery in the British Colonies topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-2-6-q01",
+        "apush-2-6-q02",
+        "apush-2-6-q03",
+        "apush-2-6-q04",
+        "apush-2-6-q05",
+        "apush-2-6-q06",
+        "apush-2-6-q07",
+        "apush-2-6-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "slave-trade-and-regions": {
+      "id": "slave-trade-and-regions",
+      "title": "The slave trade and the colonies",
+      "section": "slave-trade-and-regions",
+      "topicId": "apush-2-6"
+    },
+    "racial-slavery-and-law": {
+      "id": "racial-slavery-and-law",
+      "title": "Chattel slavery and the law",
+      "section": "racial-slavery-and-law",
+      "topicId": "apush-2-6"
+    },
+    "resistance-and-culture": {
+      "id": "resistance-and-culture",
+      "title": "Resistance and culture",
+      "section": "resistance-and-culture",
+      "topicId": "apush-2-6"
+    }
+  },
+  "assets": {}
+}

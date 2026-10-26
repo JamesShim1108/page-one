@@ -124,4 +124,155 @@ export const excerpts = {
       "Practice passage written for Page One, summarizing historians who emphasize Native allies in the Spanish conquest",
     text: "Interpretation B. The conquest of the Americas depended on Native allies. Cortés's few hundred soldiers could not have taken Tenochtitlan without thousands of Tlaxcalan and other warriors who wanted to end Aztec tribute demands. Conquest was also a long process in which Native leaders negotiated, fought, and formed alliances to pursue their own goals.",
   },
+  originalColoniesTable: {
+    id: "original-colonies-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 2.2, KC-2.1.I: Spanish, French, Dutch, and British colonizers had different economic and imperial goals that shaped their colonies",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from standard histories of European colonization",
+    caption: "Selected European settlements in North America, 1565–1630",
+    columns: ["Year", "Settlement", "Founding empire", "Main purpose"],
+    rows: [
+      [
+        "1565",
+        "St. Augustine, Florida",
+        "Spain",
+        "Military base to defend Spanish claims",
+      ],
+      [
+        "1607",
+        "Jamestown, Virginia",
+        "England",
+        "Profit for the investors of a joint-stock company",
+      ],
+      ["1608", "Quebec", "France", "Trading post for the fur trade"],
+      ["1610", "Santa Fe, New Mexico", "Spain", "Royal government and Catholic missions"],
+      ["1620", "Plymouth, Massachusetts", "England", "Religious freedom for Separatists"],
+      ["1625", "New Amsterdam", "Netherlands", "Trading post for the fur trade"],
+      [
+        "1630",
+        "Boston, Massachusetts Bay",
+        "England",
+        "Religious community for Puritans",
+      ],
+    ],
+    citation: "Compiled by Page One; see the Topic 2.2 reading.",
+  },
+  originalRegionsTable: {
+    id: "original-regions-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 2.3, KC-2.1.II: regional differences in the British colonies reflected environmental, economic, cultural, and demographic factors",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from standard histories of the British colonies",
+    caption: "British colonial regions, c. 1700–1750",
+    columns: ["Region", "Main exports", "Main source of labor", "Society"],
+    rows: [
+      [
+        "Chesapeake",
+        "Tobacco",
+        "Indentured servants, then enslaved Africans",
+        "Scattered plantations and farms",
+      ],
+      [
+        "New England",
+        "Fish, lumber, and ships",
+        "Family farms, with some hired and enslaved workers",
+        "Small towns with town meetings",
+      ],
+      [
+        "Middle colonies",
+        "Wheat and flour",
+        "Family farms, with hired, indentured, and enslaved workers",
+        "Settlers of many ethnic and religious backgrounds",
+      ],
+      [
+        "Lower South",
+        "Rice and indigo",
+        "Enslaved Africans",
+        "Large plantations, with enslaved people often a majority",
+      ],
+    ],
+    citation: "Compiled by Page One; see the Topic 2.3 reading.",
+  },
+  originalMercantilism: {
+    id: "original-mercantilism",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 2.4, KC-2.2.I.C: the British government tried to incorporate its colonies into an imperial structure to pursue mercantilist aims, but enforcement was erratic",
+    ced_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how historians describe mercantilism and the Navigation Acts",
+    text: "English leaders in the 1600s believed that a nation grew stronger when it exported more than it imported, and they expected colonies to help by supplying raw materials and buying English manufactured goods. Historians call this approach mercantilism.\n\nTo put these ideas into practice, Parliament passed a series of Navigation Acts beginning in 1651 and 1660. The laws required that colonial goods travel on English or colonial ships and that valuable products, such as tobacco and sugar, be shipped only to England or other English colonies. Colonial merchants and shipbuilders gained protected markets, but planters and farmers had fewer places to sell their goods and often paid more for imports.\n\nBritain was far from North America and was often busy with problems at home and in Europe, so enforcement was uneven. Many colonists ignored the rules or smuggled goods, and attempts to tighten control, such as the Dominion of New England in the 1680s, met resistance.",
+  },
+  rowlandsonLancaster: {
+    id: "rowlandson-lancaster",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 2.5, KC-2.1.III.E: British conflicts with American Indians over land, resources, and political boundaries led to military confrontations such as Metacom's War",
+    ced_review: "pending",
+    attribution:
+      "Mary Rowlandson, a Puritan colonist captured in the attack on Lancaster, Massachusetts, during Metacom's War, in her narrative first published in 1682",
+    citation:
+      "Mary Rowlandson, The Sovereignty and Goodness of God, or Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson (1682). Project Gutenberg eBook #851.",
+    note: "Rowlandson dated the attack by the older English calendar, which began the year in March. By the modern calendar it took place in February 1676.",
+    text: "On the tenth of February 1675, came the Indians with great numbers upon Lancaster: their first coming was about sunrising; hearing the noise of some guns, we looked out; several houses were burning, and the smoke ascending to heaven. There were five persons taken in one house; the father, and the mother and a sucking child, they knocked on the head; the other two they took and carried away alive. . . . Thus these murderous wretches went on, burning, and destroying before them.\n\nAt length they came and beset our own house, and quickly it was the dolefulest day that ever mine eyes saw.",
+  },
+  equianoMiddlePassage: {
+    id: "equiano-middle-passage",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 2.6, KC-2.2.II.A and KC-2.2.II.C: the Atlantic slave trade and the dehumanizing nature of slavery",
+    ced_review: "pending",
+    attribution:
+      "Olaudah Equiano, a formerly enslaved man living in Britain, in his autobiography published in London in 1789 during the campaign to end the slave trade",
+    citation:
+      "Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African (London, 1789), chapter 2. Standard Ebooks edition.",
+    text: "The first object which saluted my eyes when I arrived on the coast was the sea, and a slave ship, which was then riding at anchor, and waiting for its cargo. These filled me with astonishment, which was soon converted into terror when I was carried on board. I was immediately handled and tossed up to see if I were sound by some of the crew; and I was now persuaded that I had gotten into a world of bad spirits, and that they were going to kill me. . . . When I looked round the ship too and saw a large furnace or copper boiling, and a multitude of black people of every description chained together, every one of their countenances expressing dejection and sorrow, I no longer doubted of my fate; and, quite overpowered with horror and anguish, I fell motionless on the deck and fainted.",
+  },
+  originalSlaveryEconomic: {
+    id: "original-slavery-economic",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 2.6, KC-2.2.II.B: as chattel slavery became the dominant labor system, new laws created a strict racial system",
+    ced_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing historians who emphasize planters' demand for labor in the origins of racial slavery",
+    text: "Interpretation A. Racial slavery took hold in the English colonies mainly because of labor needs. In the early 1600s, Chesapeake planters depended on English indentured servants. As fewer servants arrived from England, and as more of those who did arrive survived to demand land of their own, planters turned to enslaved Africans, who could be held for life and whose children could be held as well. Colonial legislatures then wrote slave codes that protected this investment by making slavery lifelong, hereditary, and tied to race. On this view, planters' demand for a permanent workforce produced racial slavery, and racial ideas were used to justify it afterward.",
+  },
+  originalSlaveryPrejudice: {
+    id: "original-slavery-prejudice",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 2.6, KC-2.2.II.B: as chattel slavery became the dominant labor system, new laws created a strict racial system",
+    ced_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing historians who emphasize English attitudes toward Africans in the origins of racial slavery",
+    text: "Interpretation B. Racial slavery took hold in the English colonies mainly because of English attitudes toward Africans. Before slavery was widespread, English colonists already described Africans as different and inferior because of their color, their religion, and their origins. Courts in the 1640s sometimes punished Africans more harshly than white servants, and later laws banned marriage between the groups and made slavery pass from mother to child. On this view, prejudice made it easy for planters to hold Africans in permanent bondage, and the laws that made slavery racial grew out of those beliefs, not only out of economic demand.",
+  },
+  edwardsEnfield: {
+    id: "edwards-enfield",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 2.7, KC-2.2.I.A: religious pluralism and intellectual exchange, later enhanced by the First Great Awakening",
+    ced_review: "pending",
+    attribution:
+      "Jonathan Edwards, a Congregationalist minister, in a sermon preached to his congregation at Enfield, Connecticut, in July 1741, during the Great Awakening",
+    citation:
+      "Jonathan Edwards, Sinners in the Hands of an Angry God (1741), in Selected Sermons of Jonathan Edwards, ed. H. Norman Gardiner (New York: Macmillan, 1904). Project Gutenberg eBook #34632.",
+    text: "The God that holds you over the pit of hell, much as one holds a spider or some loathsome insect over the fire, abhors you, and is dreadfully provoked; his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times so abominable in his eyes, as the most hateful and venomous serpent is in ours. You have offended him infinitely more than ever a stubborn rebel did his prince: and yet it is nothing but his hand that holds you from falling into the fire every moment.",
+  },
 };

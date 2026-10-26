@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "apush",
-  "revision": "c08b4d43030a62c1",
+  "revision": "636cd55e8ebe6522",
   "pools": [
     {
       "id": "apush-1-1:apush-1-1-quiz",
@@ -120,6 +120,142 @@
         "apush-1-7-q05",
         "apush-1-7-q07",
         "apush-1-7-q08"
+      ]
+    },
+    {
+      "id": "apush-2-1:apush-2-1-quiz",
+      "quizId": "apush-2-1-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-1",
+      "code": "2.1",
+      "title": "Contextualizing Period 2",
+      "bankPath": "apush/banks/apush-2-1.json",
+      "questionIds": [
+        "apush-2-1-q02",
+        "apush-2-1-q03",
+        "apush-2-1-q05",
+        "apush-2-1-q07",
+        "apush-2-1-q08"
+      ]
+    },
+    {
+      "id": "apush-2-2:apush-2-2-quiz",
+      "quizId": "apush-2-2-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-2",
+      "code": "2.2",
+      "title": "European Colonization",
+      "bankPath": "apush/banks/apush-2-2.json",
+      "questionIds": [
+        "apush-2-2-q02",
+        "apush-2-2-q03",
+        "apush-2-2-q05",
+        "apush-2-2-q07",
+        "apush-2-2-q08"
+      ]
+    },
+    {
+      "id": "apush-2-3:apush-2-3-quiz",
+      "quizId": "apush-2-3-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-3",
+      "code": "2.3",
+      "title": "The Regions of British Colonies",
+      "bankPath": "apush/banks/apush-2-3.json",
+      "questionIds": [
+        "apush-2-3-q02",
+        "apush-2-3-q03",
+        "apush-2-3-q05",
+        "apush-2-3-q07",
+        "apush-2-3-q08"
+      ]
+    },
+    {
+      "id": "apush-2-4:apush-2-4-quiz",
+      "quizId": "apush-2-4-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-4",
+      "code": "2.4",
+      "title": "Transatlantic Trade",
+      "bankPath": "apush/banks/apush-2-4.json",
+      "questionIds": [
+        "apush-2-4-q02",
+        "apush-2-4-q03",
+        "apush-2-4-q05",
+        "apush-2-4-q07",
+        "apush-2-4-q08"
+      ]
+    },
+    {
+      "id": "apush-2-5:apush-2-5-quiz",
+      "quizId": "apush-2-5-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-5",
+      "code": "2.5",
+      "title": "Interactions Between American Indians and Europeans",
+      "bankPath": "apush/banks/apush-2-5.json",
+      "questionIds": [
+        "apush-2-5-q02",
+        "apush-2-5-q03",
+        "apush-2-5-q05",
+        "apush-2-5-q07",
+        "apush-2-5-q08"
+      ]
+    },
+    {
+      "id": "apush-2-6:apush-2-6-quiz",
+      "quizId": "apush-2-6-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-6",
+      "code": "2.6",
+      "title": "Slavery in the British Colonies",
+      "bankPath": "apush/banks/apush-2-6.json",
+      "questionIds": [
+        "apush-2-6-q02",
+        "apush-2-6-q03",
+        "apush-2-6-q05",
+        "apush-2-6-q07",
+        "apush-2-6-q08"
+      ]
+    },
+    {
+      "id": "apush-2-7:apush-2-7-quiz",
+      "quizId": "apush-2-7-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-7",
+      "code": "2.7",
+      "title": "Colonial Society and Culture",
+      "bankPath": "apush/banks/apush-2-7.json",
+      "questionIds": [
+        "apush-2-7-q02",
+        "apush-2-7-q03",
+        "apush-2-7-q05",
+        "apush-2-7-q07",
+        "apush-2-7-q08"
+      ]
+    },
+    {
+      "id": "apush-2-8:apush-2-8-quiz",
+      "quizId": "apush-2-8-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-8",
+      "code": "2.8",
+      "title": "Comparison in Period 2",
+      "bankPath": "apush/banks/apush-2-8.json",
+      "questionIds": [
+        "apush-2-8-q02",
+        "apush-2-8-q03",
+        "apush-2-8-q05",
+        "apush-2-8-q07",
+        "apush-2-8-q08"
       ]
     }
   ]

@@ -1,0 +1,859 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-2",
+    "courseId": "apush",
+    "number": 2,
+    "title": "Period 2",
+    "period": "1607–1754",
+    "status": "ready",
+    "description": "Follow the Spanish, French, Dutch, and British colonies, the regions of British North America, Atlantic trade, slavery, and colonial society from 1607 to 1754.",
+    "quizzes": [
+      {
+        "id": "apush-2-practice",
+        "courseId": "apush",
+        "unitId": "apush-2",
+        "title": "Unit 2 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-2-1",
+            "questionIds": [
+              "apush-2-1-q01",
+              "apush-2-1-q04",
+              "apush-2-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-2",
+            "questionIds": [
+              "apush-2-2-q01",
+              "apush-2-2-q04",
+              "apush-2-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-3",
+            "questionIds": [
+              "apush-2-3-q01",
+              "apush-2-3-q04",
+              "apush-2-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-4",
+            "questionIds": [
+              "apush-2-4-q01",
+              "apush-2-4-q04",
+              "apush-2-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-5",
+            "questionIds": [
+              "apush-2-5-q01",
+              "apush-2-5-q04",
+              "apush-2-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-q01",
+              "apush-2-6-q04",
+              "apush-2-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-7",
+            "questionIds": [
+              "apush-2-7-q01",
+              "apush-2-7-q04",
+              "apush-2-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-2-8",
+            "questionIds": [
+              "apush-2-8-q01",
+              "apush-2-8-q04",
+              "apush-2-8-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-2-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-2",
+        "title": "Unit 2 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-2-2",
+            "questionIds": [
+              "apush-2-2-t01",
+              "apush-2-2-t02",
+              "apush-2-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-3",
+            "questionIds": [
+              "apush-2-3-t01",
+              "apush-2-3-t02",
+              "apush-2-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-4",
+            "questionIds": [
+              "apush-2-4-t01",
+              "apush-2-4-t02",
+              "apush-2-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-5",
+            "questionIds": [
+              "apush-2-5-t01",
+              "apush-2-5-t02",
+              "apush-2-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-t01",
+              "apush-2-6-t02",
+              "apush-2-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-2-6",
+            "questionIds": [
+              "apush-2-6-t04",
+              "apush-2-6-t05",
+              "apush-2-6-t06"
+            ]
+          },
+          {
+            "topicId": "apush-2-7",
+            "questionIds": [
+              "apush-2-7-t01",
+              "apush-2-7-t02",
+              "apush-2-7-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-2-practice-test",
+      "title": "Unit 2 Practice Test",
+      "questionCount": 21
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-2-1-quiz",
+        "title": "Contextualizing Period 2 topic quiz"
+      },
+      {
+        "id": "apush-2-2-quiz",
+        "title": "European Colonization topic quiz"
+      },
+      {
+        "id": "apush-2-3-quiz",
+        "title": "The Regions of British Colonies topic quiz"
+      },
+      {
+        "id": "apush-2-4-quiz",
+        "title": "Transatlantic Trade topic quiz"
+      },
+      {
+        "id": "apush-2-5-quiz",
+        "title": "Interactions Between American Indians and Europeans topic quiz"
+      },
+      {
+        "id": "apush-2-6-quiz",
+        "title": "Slavery in the British Colonies topic quiz"
+      },
+      {
+        "id": "apush-2-7-quiz",
+        "title": "Colonial Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-2-8-quiz",
+        "title": "Comparison in Period 2 topic quiz"
+      }
+    ],
+    "topicCount": 8,
+    "firstTopic": {
+      "id": "apush-2-1",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "order": 1,
+      "code": "2.1",
+      "title": "Contextualizing Period 2",
+      "period": "1607–1754",
+      "status": "ready",
+      "summary": "The context for European colonization of North America from 1607 to 1754: what had already happened, what each empire wanted, and how environment and rivalry shaped the colonies."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-2-saq-01",
+        "title": "Unit 2 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-2-saq-02",
+        "title": "Unit 2 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-2-leq-regions",
+        "title": "LEQ: New England and the Chesapeake",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-2-7",
+    "courseId": "apush",
+    "unitId": "apush-2",
+    "order": 7,
+    "code": "2.7",
+    "title": "Colonial Society and Culture",
+    "period": "1607–1754",
+    "status": "ready",
+    "summary": "How religious and ethnic diversity, the Great Awakening, Enlightenment ideas, print, and Anglicization shaped colonial culture and prepared colonists to question British control."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "a6850956752f602c",
+  "questions": [
+    {
+      "id": "apush-2-7-q01",
+      "topicId": "apush-2-7",
+      "concept": "pluralism-and-awakening",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.A"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "The presence of many European religious and ethnic groups in the colonies most directly contributed to",
+      "choices": [
+        "a single colonial church that was supported by public taxes in every one of the British colonies",
+        "a significant degree of pluralism in which no single church could claim everyone's loyalty",
+        "the end of religious differences between Protestants and Catholics throughout the colonies",
+        "a ban on public worship by minority religious groups in all of the British colonies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anglicans, Puritans, Dutch Reformed, Lutherans, Presbyterians, Quakers, Catholics, and others created a plural religious life.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Colonies differed in their churches, and no single church united them all.",
+        "Anglicans, Puritans, Dutch Reformed, Lutherans, Presbyterians, Quakers, Catholics, and others created a plural religious life.",
+        "Religious differences continued and grew more varied.",
+        "Many colonies tolerated minority worship, and diversity increased."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Some colonies had established churches, but the question concerns the effect of diversity across the colonies as a whole.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-7-q02",
+      "topicId": "apush-2-7",
+      "concept": "pluralism-and-awakening",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.A"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "Which of the following best describes the First Great Awakening?",
+      "choices": [
+        "A movement of colonial legislators in the 1730s to separate churches from colonial governments",
+        "An intellectual movement of the 1700s that stressed reason, observation, and natural rights",
+        "A reform of the Church of England, led by Parliament, to reduce the power of its bishops",
+        "A wave of Protestant revivals in the 1730s and 1740s that stressed a personal religious experience"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Preachers such as Jonathan Edwards and George Whitefield led revivals that urged listeners to seek a personal religious experience.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Awakening was a religious revival and was not led by legislators.",
+        "That describes the Enlightenment, not the Great Awakening.",
+        "The Awakening arose from revivals among many Protestant groups and was not a Parliamentary reform.",
+        "Preachers such as Jonathan Edwards and George Whitefield led revivals that urged listeners to seek a personal religious experience."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Enlightenment also spread in the colonies in the same years, but it stressed reason rather than religious conversion.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-7-q03",
+      "topicId": "apush-2-7",
+      "concept": "pluralism-and-awakening",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.A",
+        "KC-2.2.I.D"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "Which of the following was an effect of the Great Awakening in the colonies?",
+      "choices": [
+        "Congregations divided between supporters and critics, and colonists gained religious independence",
+        "The Church of England became the established church in every colony from New England to Georgia",
+        "Colonial ministers lost all influence as colonists stopped attending church and turned to science",
+        "Colonial assemblies were abolished and replaced with councils of ministers from each denomination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The revivals split congregations, challenged established ministers, and encouraged colonists to choose their own religious communities.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The revivals split congregations, challenged established ministers, and encouraged colonists to choose their own religious communities.",
+        "The Awakening increased religious independence and diversity and did not establish one church.",
+        "Ministers remained influential, and church attendance increased in many places.",
+        "Colonial assemblies continued to meet."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Enlightenment also encouraged science in the same years, but it did not cause colonists to abandon church.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-2-7-q04",
+      "topicId": "apush-2-7",
+      "concept": "enlightenment-and-print",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.A"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "The Enlightenment ideas that influenced many colonists emphasized",
+      "choices": [
+        "obedience to church leaders and monarchs as the foundation of a stable society",
+        "the divine right of kings and the inheritance of political power within noble families",
+        "the power of reason, careful observation, and the natural rights of individuals",
+        "the importance of emotional religious conversion as the surest path to knowledge of God"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Enlightenment stressed reason, observation, and natural rights, and thinkers such as Locke argued that government rested on the consent of the governed.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Enlightenment thinkers questioned traditional authority.",
+        "Enlightenment thinkers such as Locke argued that government rested on consent.",
+        "The Enlightenment stressed reason, observation, and natural rights, and thinkers such as Locke argued that government rested on the consent of the governed.",
+        "That describes the Great Awakening and not the Enlightenment."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The conversion choice describes the Great Awakening, a movement of the same years that stressed emotion over reason.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-7-q05",
+      "topicId": "apush-2-7",
+      "concept": "enlightenment-and-print",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.A",
+        "KC-2.2.I.B"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "Which of the following was a similarity between the Great Awakening and the Enlightenment in the colonies?",
+      "choices": [
+        "Both spread across colonial boundaries and encouraged colonists to question traditional authority",
+        "Both taught that reason was a more reliable guide than religious faith in matters of morality",
+        "Both were organized by Parliament to strengthen royal control over colonial churches and schools",
+        "Both were limited to a single colony and had little influence elsewhere in British America"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Revivals and Enlightenment writings both traveled through print and travel, and each encouraged colonists to question established authority.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Revivals and Enlightenment writings both traveled through print and travel, and each encouraged colonists to question established authority.",
+        "Only the Enlightenment emphasized reason over faith.",
+        "Neither was organized by Parliament.",
+        "Both movements spread widely through the colonies."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The reason-over-faith choice is true of the Enlightenment but not of the Great Awakening.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-2-7-q06",
+      "topicId": "apush-2-7",
+      "concept": "enlightenment-and-print",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.B"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "The 1735 trial of the printer John Peter Zenger is most closely associated with",
+      "choices": [
+        "a Parliament-ordered ban on colonial newspapers that criticized royal governors or Parliament",
+        "the creation of an established Anglican church in the colony of New York in the 1730s",
+        "a conviction that led colonial printers to stop publishing political opinion for fear of punishment",
+        "the strengthening of ideas about a free press after a jury acquitted him of libel"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A New York jury acquitted Zenger after he criticized the royal governor, which strengthened ideas about a free press.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The jury acquitted Zenger, and Parliament did not ban colonial newspapers as a result.",
+        "The trial concerned a printer who had criticized the governor and did not involve a church.",
+        "Zenger was acquitted, which encouraged printers.",
+        "A New York jury acquitted Zenger after he criticized the royal governor, which strengthened ideas about a free press."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The conviction choice reverses the verdict, so it fails the basic facts of the trial.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-7-q07",
+      "topicId": "apush-2-7",
+      "concept": "anglicization-and-resistance",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.B"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "The Anglicization of the British colonies refers to",
+      "choices": [
+        "Parliament's decision to make the Church of England the only legal church in the colonies",
+        "their gradual development of political communities and customs based on English models",
+        "the replacement of colonial assemblies with governors appointed directly by the king",
+        "the conversion of most American Indians in the colonies to the Church of England by missionaries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Colonists built elected assemblies, English law, and English customs, and trade, print, and evangelicalism bound them to Britain and each other.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Anglicization refers to a gradual cultural and political change, not a single law.",
+        "Colonists built elected assemblies, English law, and English customs, and trade, print, and evangelicalism bound them to Britain and each other.",
+        "Colonial assemblies grew stronger as part of Anglicization.",
+        "Anglicization concerned the colonists' own institutions and customs."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Church of England choice treats a broad cultural process as a single religious policy.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-2-7-q08",
+      "topicId": "apush-2-7",
+      "concept": "anglicization-and-resistance",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "2.I",
+      "keyConcepts": [
+        "KC-2.1.III.D"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "Which of the following best explains the growing mistrust between colonists and British leaders before 1754?",
+      "choices": [
+        "Colonists had been demanding independence from Britain since the founding of Jamestown in 1607",
+        "Parliament had begun taxing colonists directly to pay the costs of a large standing army in the colonies",
+        "Their goals and interests diverged over issues such as frontier defense, self-rule, and trade",
+        "The Great Awakening had convinced colonists that the Church of England should be abolished"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Colonists and officials disagreed about territorial settlements, frontier defense, self-rule, and trade, which produced mistrust on both sides.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Most colonists did not seek independence before the 1770s.",
+        "Direct taxes on the colonies came after 1754.",
+        "Colonists and officials disagreed about territorial settlements, frontier defense, self-rule, and trade, which produced mistrust on both sides.",
+        "The Awakening increased religious independence but did not call for abolishing the Church of England."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "Parliamentary taxation became a major issue later, but it had not begun before 1754.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-2-7-t01",
+      "topicId": "apush-2-7",
+      "concept": "pluralism-and-awakening",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "subskill": "2.B",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.A"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "Which of the following best explains the purpose of the imagery in the excerpt?",
+      "choices": [
+        "To make listeners fear God's anger and seek a personal religious experience",
+        "To urge the colonists to resist British rule and to defend their natural rights as subjects",
+        "To argue that reason and scientific observation, not faith, were the best guides to moral life",
+        "To persuade ministers to unite behind a single church supported by the colonial government"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Edwards used frightening images to make listeners feel their danger and seek a personal religious experience during the Great Awakening.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Edwards used frightening images to make listeners feel their danger and seek a personal religious experience during the Great Awakening.",
+        "The sermon concerns salvation and does not address British rule.",
+        "The sermon appeals to fear of God and not to reason.",
+        "The sermon is addressed to sinners in a congregation and not to ministers."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "Colonists did later use natural rights to resist Britain, but the excerpt is about sin and salvation.",
+      "stimulusId": "edwards-enfield",
+      "stimulusBlocks": [
+        {
+          "id": "edwards-enfield",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 2.7, KC-2.2.I.A: religious pluralism and intellectual exchange, later enhanced by the First Great Awakening",
+          "ced_review": "pending",
+          "attribution": "Jonathan Edwards, a Congregationalist minister, in a sermon preached to his congregation at Enfield, Connecticut, in July 1741, during the Great Awakening",
+          "citation": "Jonathan Edwards, Sinners in the Hands of an Angry God (1741), in Selected Sermons of Jonathan Edwards, ed. H. Norman Gardiner (New York: Macmillan, 1904). Project Gutenberg eBook #34632.",
+          "text": "The God that holds you over the pit of hell, much as one holds a spider or some loathsome insect over the fire, abhors you, and is dreadfully provoked; his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times so abominable in his eyes, as the most hateful and venomous serpent is in ours. You have offended him infinitely more than ever a stubborn rebel did his prince: and yet it is nothing but his hand that holds you from falling into the fire every moment."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Explain the point of view, purpose, historical situation, and/or audience of a source."
+    },
+    {
+      "id": "apush-2-7-t02",
+      "topicId": "apush-2-7",
+      "concept": "pluralism-and-awakening",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.A"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "Which of the following best states the main claim of the excerpt?",
+      "choices": [
+        "People can earn their salvation through good works and careful obedience to the law",
+        "God has little interest in human behavior and is willing to forgive any wrongdoing",
+        "Ministers should rely on reason and natural law to guide their congregations toward virtue",
+        "Sinners are saved from destruction only by God's mercy and not by their own merit"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The excerpt says that nothing but God's hand keeps sinners from falling into the fire, which stresses dependence on God's mercy.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The excerpt says sinners depend entirely on God's hand.",
+        "The excerpt describes God as angry at sinners.",
+        "The excerpt appeals to fear and judgment and does not mention reason or natural law.",
+        "The excerpt says that nothing but God's hand keeps sinners from falling into the fire, which stresses dependence on God's mercy."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The good-works choice sounds religious, but the excerpt denies that sinners can save themselves.",
+      "stimulusId": "edwards-enfield",
+      "stimulusBlocks": [
+        {
+          "id": "edwards-enfield",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 2.7, KC-2.2.I.A: religious pluralism and intellectual exchange, later enhanced by the First Great Awakening",
+          "ced_review": "pending",
+          "attribution": "Jonathan Edwards, a Congregationalist minister, in a sermon preached to his congregation at Enfield, Connecticut, in July 1741, during the Great Awakening",
+          "citation": "Jonathan Edwards, Sinners in the Hands of an Angry God (1741), in Selected Sermons of Jonathan Edwards, ed. H. Norman Gardiner (New York: Macmillan, 1904). Project Gutenberg eBook #34632.",
+          "text": "The God that holds you over the pit of hell, much as one holds a spider or some loathsome insect over the fire, abhors you, and is dreadfully provoked; his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times so abominable in his eyes, as the most hateful and venomous serpent is in ours. You have offended him infinitely more than ever a stubborn rebel did his prince: and yet it is nothing but his hand that holds you from falling into the fire every moment."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-2-7-t03",
+      "topicId": "apush-2-7",
+      "concept": "pluralism-and-awakening",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "2.H",
+      "keyConcepts": [
+        "KC-2.2.I.A"
+      ],
+      "themes": [
+        "ARC",
+        "NAT"
+      ],
+      "prompt": "The sermon in the excerpt is best understood in the context of which of the following?",
+      "choices": [
+        "The Enlightenment, which encouraged colonists to rely on reason and natural rights",
+        "The First Great Awakening, a wave of Protestant revivals in the colonies",
+        "The Zenger trial of 1735, which strengthened colonists' belief in freedom of the press",
+        "The Salem witch trials, which led Puritan ministers to fear that sin was spreading"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Edwards preached at Enfield in 1741 during the revivals of the Great Awakening.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The sermon appeals to religious fear and not to reason.",
+        "Edwards preached at Enfield in 1741 during the revivals of the Great Awakening.",
+        "The sermon was preached to a congregation and concerns sin, not the press.",
+        "The Salem trials occurred in 1692, almost fifty years before the sermon."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Salem trials also involved Puritan fears of sin, but they occurred long before 1741.",
+      "stimulusId": "edwards-enfield",
+      "stimulusBlocks": [
+        {
+          "id": "edwards-enfield",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 2.7, KC-2.2.I.A: religious pluralism and intellectual exchange, later enhanced by the First Great Awakening",
+          "ced_review": "pending",
+          "attribution": "Jonathan Edwards, a Congregationalist minister, in a sermon preached to his congregation at Enfield, Connecticut, in July 1741, during the Great Awakening",
+          "citation": "Jonathan Edwards, Sinners in the Hands of an Angry God (1741), in Selected Sermons of Jonathan Edwards, ed. H. Norman Gardiner (New York: Macmillan, 1904). Project Gutenberg eBook #34632.",
+          "text": "The God that holds you over the pit of hell, much as one holds a spider or some loathsome insect over the fire, abhors you, and is dreadfully provoked; his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times so abominable in his eyes, as the most hateful and venomous serpent is in ours. You have offended him infinitely more than ever a stubborn rebel did his prince: and yet it is nothing but his hand that holds you from falling into the fire every moment."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-2-7-quick",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-7",
+      "title": "Topic 2.7 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-2-7-q01",
+        "apush-2-7-q02",
+        "apush-2-7-q03"
+      ]
+    },
+    {
+      "id": "apush-2-7-quiz",
+      "courseId": "apush",
+      "unitId": "apush-2",
+      "topicId": "apush-2-7",
+      "title": "Colonial Society and Culture topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-2-7-q01",
+        "apush-2-7-q02",
+        "apush-2-7-q03",
+        "apush-2-7-q04",
+        "apush-2-7-q05",
+        "apush-2-7-q06",
+        "apush-2-7-q07",
+        "apush-2-7-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "pluralism-and-awakening": {
+      "id": "pluralism-and-awakening",
+      "title": "Pluralism and the Great Awakening",
+      "section": "pluralism-and-awakening",
+      "topicId": "apush-2-7"
+    },
+    "enlightenment-and-print": {
+      "id": "enlightenment-and-print",
+      "title": "Enlightenment ideas and print culture",
+      "section": "enlightenment-and-print",
+      "topicId": "apush-2-7"
+    },
+    "anglicization-and-resistance": {
+      "id": "anglicization-and-resistance",
+      "title": "Anglicization and growing mistrust",
+      "section": "anglicization-and-resistance",
+      "topicId": "apush-2-7"
+    }
+  },
+  "assets": {}
+}

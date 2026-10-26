@@ -144,6 +144,21 @@ export const EXCERPT_SOURCES = Object.freeze({
     label:
       "Project Gutenberg #4247 (Thomas Harriot, A Briefe and True Report of the New Found Land of Virginia, 1588), file 4247.txt",
   },
+  "rowlandson-": {
+    files: ["rowlandson-narrative.txt"],
+    label:
+      "Project Gutenberg #851 (Mary Rowlandson, Narrative of the Captivity and Restoration), file 851.txt",
+  },
+  "edwards-": {
+    files: ["edwards-sermons.txt"],
+    label:
+      "Project Gutenberg #34632 (Selected Sermons of Jonathan Edwards, ed. Gardiner, 1904), file 34632.txt",
+  },
+  "equiano-": {
+    files: ["equiano-narrative.txt"],
+    label:
+      "Standard Ebooks edition of Equiano, The Interesting Narrative (chapters 1-12), converted from XHTML to plain text",
+  },
 });
 
 export function excerptSourceFor(id) {

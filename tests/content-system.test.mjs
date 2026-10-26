@@ -21,7 +21,7 @@ const READY_TOPICS = 71;
 // AP Precalculus Unit 1 (CED topics 1.1 to 1.14); the other three units are placeholders.
 const PRECALCULUS_TOPICS = 44;
 // Ready AP U.S. History topics grow as units are built; update when a unit is added.
-const APUSH_TOPICS = 7;
+const APUSH_TOPICS = 15;
 const QUIZ_ROUTES = 155;
 
 const root = new URL("../", import.meta.url);
