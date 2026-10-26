@@ -275,4 +275,183 @@ export const excerpts = {
       "Jonathan Edwards, Sinners in the Hands of an Angry God (1741), in Selected Sermons of Jonathan Edwards, ed. H. Norman Gardiner (New York: Macmillan, 1904). Project Gutenberg eBook #34632.",
     text: "The God that holds you over the pit of hell, much as one holds a spider or some loathsome insect over the fire, abhors you, and is dreadfully provoked; his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times so abominable in his eyes, as the most hateful and venomous serpent is in ours. You have offended him infinitely more than ever a stubborn rebel did his prince: and yet it is nothing but his hand that holds you from falling into the fire every moment.",
   },
+  originalSevenYearsWar: {
+    id: "original-seven-years-war",
+    type: "source",
+    sourceType: "original",
+    source:
+      "CED Topic 3.2, KC-3.1.I.B and KC-3.1.I.C: Britain's victory brought territory at great expense, and attempts to restrict western settlement generated colonial opposition",
+    ced_review: "pending",
+    attribution:
+      "Practice passage written for Page One, summarizing how historians describe the results of the Seven Years' War in North America",
+    text: "The Seven Years' War ended in 1763 with a great British victory. In the Treaty of Paris, France gave up Canada and its claims east of the Mississippi River, and Spain gave Florida to Britain. The victory removed the French threat to the colonies, but it left Britain deeply in debt and responsible for a much larger empire.\n\nBritish officials decided that the colonies should help pay for their own defense. They also wanted to avoid new wars with American Indians, many of whom had fought beside the French and now feared the loss of their land. In the Proclamation of 1763, the Crown forbade colonists from settling west of the Appalachian Mountains. Many colonists, who had expected to move onto western lands after the war, resented the order, and many ignored it.",
+  },
+  declarationGrievances: {
+    id: "declaration-grievances",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 3.3, KC-3.1.II.A and KC-3.1.II.B: colonial leaders based resistance on the rights of British subjects and objected to taxes imposed without colonial consent",
+    ced_review: "pending",
+    attribution:
+      "The Declaration of Independence, adopted by the Second Continental Congress on July 4, 1776, from the list of complaints against King George III",
+    citation:
+      "The Declaration of Independence (1776), list of grievances. Project Gutenberg eBook #16780.",
+    note: "“Others” refers to Parliament, whose authority over the colonies the Declaration rejects. “Pretended” means “claimed.”",
+    text: "He has combined with others to subject us to a jurisdiction foreign to our constitution, and unacknowledged by our laws; giving his Assent to their Acts of pretended legislation: For quartering large bodies of armed troops among us: For protecting them, by a mock Trial, from Punishment for any Murders which they should commit on the Inhabitants of these States: For cutting off our Trade with all parts of the world: For imposing taxes on us without our Consent: For depriving us, in many cases, of the benefits of Trial by Jury:",
+  },
+  paineDistance: {
+    id: "paine-distance",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 3.4, KC-3.2.I.B: the colonists' belief in republican forms of government found expression in Thomas Paine's Common Sense",
+    ced_review: "pending",
+    attribution:
+      "Thomas Paine, an English-born writer living in Philadelphia, in the pamphlet Common Sense, published in January 1776",
+    citation:
+      "Thomas Paine, Common Sense (Philadelphia, 1776), “Thoughts on the Present State of American Affairs.” Project Gutenberg eBook #147.",
+    note: "“The continent” is the thirteen British colonies in North America, and “the island” is Great Britain.",
+    text: "As to government matters, it is not in the power of Britain to do this continent justice: The business of it will soon be too weighty, and intricate, to be managed with any tolerable degree of convenience, by a power so distant from us, and so very ignorant of us; for if they cannot conquer us, they cannot govern us. To be always running three or four thousand miles with a tale or a petition, waiting four or five months for an answer, which when obtained requires five or six more to explain it in, will in a few years be looked upon as folly and childishness . . . .\n\nSmall islands not capable of protecting themselves, are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island.",
+  },
+  originalRevolutionTable: {
+    id: "original-revolution-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 3.5, KC-3.1.II.E: the Patriot cause succeeded because of militias, the Continental Army, Washington's leadership, ideological commitment, and assistance from European allies",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from standard histories of the American Revolution",
+    caption: "Selected turning points in the American Revolution, 1775–1783",
+    columns: ["Year", "Event", "Outcome"],
+    rows: [
+      [
+        "1775",
+        "Lexington and Concord",
+        "Massachusetts militia forced British troops to retreat to Boston",
+      ],
+      [
+        "1776",
+        "Trenton",
+        "Washington's army surprised German soldiers hired by Britain and raised Patriot morale",
+      ],
+      ["1777", "Saratoga", "A British army under General Burgoyne surrendered"],
+      [
+        "1778",
+        "Franco-American alliance",
+        "France agreed to fight Britain alongside the United States",
+      ],
+      [
+        "1781",
+        "Yorktown",
+        "American and French forces trapped a British army, which surrendered",
+      ],
+      ["1783", "Treaty of Paris", "Britain recognized American independence"],
+    ],
+    citation: "Compiled by Page One; see the Topic 3.5 reading.",
+  },
+  declarationEquality: {
+    id: "declaration-equality",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 3.6, KC-3.2.I.C: an increased awareness of inequalities in society motivated calls for the abolition of slavery and greater political democracy",
+    ced_review: "pending",
+    attribution:
+      "The Declaration of Independence, adopted by the Second Continental Congress on July 4, 1776",
+    citation:
+      "The Declaration of Independence (1776), second paragraph. Project Gutenberg eBook #16780.",
+    text: "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness.",
+  },
+  originalArticlesTable: {
+    id: "original-articles-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 3.7, KC-3.2.II.B: the Articles of Confederation created a central government with limited power",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from standard histories of the Articles of Confederation",
+    caption: "The national government under the Articles of Confederation, 1781–1788",
+    columns: ["Feature", "Under the Articles"],
+    rows: [
+      ["Legislature", "One house (Congress), with one vote for each state"],
+      ["Executive", "No president or executive branch"],
+      ["National courts", "No national court system"],
+      ["Taxes", "Congress could ask the states for money but could not tax citizens"],
+      [
+        "Trade",
+        "Congress could not regulate trade among the states or with other countries",
+      ],
+      ["Passing laws", "Nine of the thirteen states had to approve important laws"],
+      ["Amendments", "All thirteen states had to approve any change"],
+    ],
+    citation: "Compiled by Page One; see the Topic 3.7 reading.",
+  },
+  federalistTen: {
+    id: "federalist-10",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 3.8, KC-3.2.II.E: Federalists, whose principles were articulated in the Federalist Papers, argued for ratification of the Constitution",
+    ced_review: "pending",
+    attribution:
+      "James Madison, writing as “Publius” in support of ratification of the Constitution, The Federalist No. 10, November 1787",
+    citation:
+      "James Madison, The Federalist No. 10 (1787), in The Federalist Papers. Project Gutenberg eBook #1404.",
+    note: "In Madison's use, a “faction” is any group of citizens, whether a majority or a minority, united by a shared interest or passion that threatens the rights of others or the good of the community.",
+    text: "By a faction, I understand a number of citizens, whether amounting to a majority or a minority of the whole, who are united and actuated by some common impulse of passion, or of interest, adversed to the rights of other citizens, or to the permanent and aggregate interests of the community. . . .\n\nExtend the sphere, and you take in a greater variety of parties and interests; you make it less probable that a majority of the whole will have a common motive to invade the rights of other citizens; or if such a common motive exists, it will be more difficult for all who feel it to discover their own strength, and to act in unison with each other.",
+  },
+  constitutionPowers: {
+    id: "constitution-powers",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 3.9, KC-3.2.II.C.ii: the Constitution created a limited but dynamic central government embodying federalism and a separation of powers",
+    ced_review: "pending",
+    attribution:
+      "The Constitution of the United States, drafted by the Constitutional Convention in 1787, Article I, Section 8",
+    citation:
+      "Constitution of the United States (1787), Article I, Section 8. Project Gutenberg eBook #5.",
+    text: "The Congress shall have Power to lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the United States; but all Duties, Imposts and Excises shall be uniform throughout the United States; To borrow Money on the credit of the United States; To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes;",
+  },
+  originalPartiesTable: {
+    id: "original-parties-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 3.10, KC-3.2.III.B: political leaders in the 1790s took differing positions that led to the formation of political parties",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from standard histories of the early republic",
+    caption: "Positions of the first political parties, 1790s",
+    columns: ["Issue", "Federalists", "Democratic-Republicans"],
+    rows: [
+      [
+        "Role of the national government",
+        "Favored a strong national government",
+        "Favored limiting national power and protecting the states",
+      ],
+      [
+        "Economy",
+        "Supported a national bank and policies that helped commerce and manufacturing",
+        "Opposed the national bank and favored an economy of small farmers",
+      ],
+      [
+        "Foreign policy",
+        "Favored closer ties with Britain",
+        "Favored closer ties with France",
+      ],
+      [
+        "Reading of the Constitution",
+        "Interpreted the Constitution broadly",
+        "Interpreted the Constitution strictly",
+      ],
+    ],
+    citation: "Compiled by Page One; see the Topic 3.10 reading.",
+  },
 };

@@ -1,0 +1,535 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-3",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 3,
+    "code": "3.3",
+    "title": "Taxation Without Representation",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "How Parliament's efforts to raise revenue and assert authority after 1763 united the colonists in protest, what arguments they used, and how resistance moved from boycotts to war."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "4609552a59e90b2a",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-3-3",
+    "unitId": "apush-3",
+    "courseId": "apush",
+    "code": "3.3",
+    "title": "Taxation Without Representation",
+    "period": "1754–1800",
+    "status": "ready",
+    "order": 3,
+    "summary": "How Parliament's efforts to raise revenue and assert authority after 1763 united the colonists in protest, what arguments they used, and how resistance moved from boycotts to war.",
+    "minutes": 14,
+    "learningGoals": [
+      "Explain how new British policies after 1763 provoked colonial opposition.",
+      "Explain the arguments colonial leaders used to justify resistance.",
+      "Explain how popular movements, including laborers, artisans, and women, supported the cause."
+    ],
+    "bigIdea": "New taxes and controls imposed without colonial consent united colonists who defended their rights as British subjects and their traditions of self-rule.",
+    "context": "The CED asks you to explain how British colonial policies regarding North America led to the Revolutionary War. For each policy, ask what Britain wanted, how colonists responded, and what the response showed about their ideas of rights.",
+    "sections": [
+      {
+        "id": "new-policies",
+        "title": "New taxes and controls, 1764–1775",
+        "conceptTitle": "New taxes and controls, 1764–1775",
+        "lenses": [
+          "PCE",
+          "WXT",
+          "NAT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "New British efforts to collect taxes without direct colonial representation or consent, and to assert imperial authority in the colonies, began to unite the colonists against perceived and real constraints on their economic activities and political rights. The Sugar Act of 1764 taxed imported sugar and molasses and strengthened enforcement against smuggling. The Stamp Act of 1765 taxed printed materials such as newspapers, legal documents, and playing cards, and it was the first direct tax Parliament placed on the colonists."
+          },
+          {
+            "type": "paragraph",
+            "text": "Colonial protest, including the Stamp Act Congress and boycotts of British goods, led Parliament to repeal the Stamp Act in 1766. At the same time Parliament passed the Declaratory Act, which claimed the power to make laws for the colonies “in all cases whatsoever.” The Townshend Acts of 1767 placed duties on imports such as glass, paper, paint, and tea, and colonists responded with new boycotts. Most of those duties were repealed in 1770, but the tax on tea remained."
+          },
+          {
+            "type": "paragraph",
+            "text": "In March 1770 soldiers fired on a Boston crowd and killed five colonists in the Boston Massacre. The Tea Act of 1773 helped the East India Company sell tea cheaply in the colonies, but colonists saw it as a trick to make them accept Parliament's tax, and in December 1773 Bostonians dumped tea into the harbor. Parliament answered with the Coercive Acts of 1774, which closed Boston's port and limited self-government in Massachusetts and which colonists called the Intolerable Acts. The First Continental Congress met in Philadelphia in 1774 and organized a boycott of British goods. In April 1775, fighting at Lexington and Concord began the war."
+          }
+        ],
+        "takeaway": "After 1763 Parliament tried to raise revenue and tighten control, and each effort met colonial resistance that grew more organized."
+      },
+      {
+        "id": "arguments-for-resistance",
+        "title": "Arguments for resistance",
+        "conceptTitle": "Arguments for resistance",
+        "lenses": [
+          "NAT",
+          "PCE",
+          "ARC"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Colonial leaders based their calls for resistance to Britain on arguments about the rights of British subjects, the rights of the individual, local traditions of self-rule, and the ideas of the Enlightenment. They argued that, as British subjects, they could be taxed only by representatives they had chosen, which gave rise to the slogan “no taxation without representation.” They pointed to their own assemblies, which had long taxed and governed the colonies."
+          },
+          {
+            "type": "paragraph",
+            "text": "British officials answered that Parliament represented all British subjects, including colonists who elected no members, a claim often called virtual representation. Many colonists rejected it. John Dickinson's Letters from a Farmer in Pennsylvania (1767–1768) argued that Parliament could regulate trade but could not tax the colonists to raise revenue. Colonists also drew on Locke's idea that governments exist to protect natural rights and on a tradition that warned that unchecked power tends to corrupt liberty."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "“No taxation without representation” did not mean most colonists wanted seats in Parliament. Most wanted to be taxed only by their own assemblies."
+          }
+        ],
+        "takeaway": "Colonists argued from the rights of British subjects, local self-rule, and Enlightenment ideas that only their own representatives could tax them."
+      },
+      {
+        "id": "popular-movements",
+        "title": "Popular movements and shared sacrifice",
+        "conceptTitle": "Popular movements and shared sacrifice",
+        "lenses": [
+          "SOC",
+          "WXT",
+          "PCE"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The effort for American independence was energized by colonial leaders such as Benjamin Franklin, as well as by popular movements that included the political activism of laborers, artisans, and women. Franklin, who lived in London as a colonial agent, explained colonial objections to Parliament. In port cities, crowds known as the Sons of Liberty pressured stamp distributors to resign. Artisans and merchants joined boycotts, and women formed groups such as the Daughters of Liberty, who spun cloth at home and gave up British tea. Committees of correspondence, organized in the early 1770s, linked towns and colonies so that they could share news and coordinate resistance."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the face of economic shortages and the British military occupation of some regions, men and women mobilized in large numbers to provide financial and material support to the Patriot movement. Women ran farms and shops while men served in the army, raised money, and made clothing for soldiers."
+          }
+        ],
+        "takeaway": "Leaders, crowds, artisans, and women all took part in organized resistance, which gave the movement broad support."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 3.4",
+        "title": "The ideas behind resistance",
+        "body": "Colonists justified resistance with ideas about rights and government. Topic 3.4 follows those ideas and the documents that expressed them.",
+        "transferQuestion": "How did colonial leaders use ideas about rights to justify resistance to Parliament?",
+        "feedback": "A strong answer names a specific idea, such as consent of the governed or the rights of British subjects, and explains how it was used against a specific policy.",
+        "links": [
+          {
+            "topicId": "apush-2-7",
+            "sectionId": "anglicization-and-resistance",
+            "label": "Review Anglicization and growing mistrust"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "declaration-1776"
+    ]
+  },
+  "bankPath": "apush/banks/apush-3-3.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    },
+    {
+      "id": "declaration-1776",
+      "label": "The Declaration of Independence of the United States of America (1776), Project Gutenberg eBook #16780",
+      "url": "https://www.gutenberg.org/ebooks/16780",
+      "note": "Public-domain text of the primary source quoted in the Unit 3 Practice Test and short-answer questions. Quotations are checked against this edition."
+    }
+  ],
+  "assets": {}
+}

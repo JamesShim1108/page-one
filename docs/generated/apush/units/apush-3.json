@@ -18,15 +18,445 @@
     "number": 3,
     "title": "Period 3",
     "period": "1754–1800",
-    "status": "soon",
-    "quizzes": [],
-    "practiceTest": null,
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
     "termSets": [],
-    "topicQuizzes": [],
-    "topicCount": 0,
-    "firstTopic": null,
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
     "hasGuide": false,
-    "writingQuizzes": []
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    {
+      "id": "apush-3-2",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 2,
+      "code": "3.2",
+      "title": "The Seven Years’ War (The French and Indian War)",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "Why Britain and France went to war over the North American interior, how Britain won, and how victory left Britain in debt and set the stage for new imperial policies and colonial resentment."
+    },
+    {
+      "id": "apush-3-3",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 3,
+      "code": "3.3",
+      "title": "Taxation Without Representation",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How Parliament's efforts to raise revenue and assert authority after 1763 united the colonists in protest, what arguments they used, and how resistance moved from boycotts to war."
+    },
+    {
+      "id": "apush-3-4",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 4,
+      "code": "3.4",
+      "title": "Philosophical Foundations of the American Revolution",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "The Enlightenment, religion, and republican ideas that shaped colonial attitudes toward government and the individual, and how Common Sense and the Declaration of Independence expressed them."
+    },
+    {
+      "id": "apush-3-5",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 5,
+      "code": "3.5",
+      "title": "The American Revolution",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the war began, the turning points that saved the Patriot cause, and why Britain's apparent advantages were not enough to defeat the colonies."
+    },
+    {
+      "id": "apush-3-6",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 6,
+      "code": "3.6",
+      "title": "The Influence of Revolutionary Ideals",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How Revolutionary ideals of equality and liberty led some Americans to challenge slavery and expand political participation, how women's roles were redefined, and how the Revolution inspired movements abroad."
+    },
+    {
+      "id": "apush-3-7",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 7,
+      "code": "3.7",
+      "title": "The Articles of Confederation",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the states and the first national government were organized after independence, why the Articles of Confederation proved too weak, and how Congress organized the Northwest Territory."
+    },
+    {
+      "id": "apush-3-8",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 8,
+      "code": "3.8",
+      "title": "The Constitutional Convention and Debates over Ratification",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How delegates bargained over representation and slavery at the Constitutional Convention, and how Federalists and Anti-Federalists argued over ratification until a Bill of Rights was promised."
+    },
+    {
+      "id": "apush-3-9",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 9,
+      "code": "3.9",
+      "title": "The Constitution",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Constitution created a limited but dynamic national government through federalism and the separation of powers, and what it kept and changed from the Articles and from colonial government."
+    },
+    {
+      "id": "apush-3-10",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 10,
+      "code": "3.10",
+      "title": "Shaping a New Republic",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How Washington and Adams put the Constitution into practice, why disputes over economics and foreign policy produced the first political parties, and how the new nation dealt with Britain, Spain, France, and American Indian nations."
+    },
+    {
+      "id": "apush-3-11",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 11,
+      "code": "3.11",
+      "title": "Developing an American Identity",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How Americans expressed a national identity after the Revolution in language, literature, art, and architecture, while regional differences continued."
+    },
+    {
+      "id": "apush-3-12",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 12,
+      "code": "3.12",
+      "title": "Movement in the Early Republic",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How American Indian nations adjusted their alliances, how westward migration spread frontier cultures and tensions, and how slavery expanded in the Deep South while antislavery sentiment grew in the North."
+    },
+    {
+      "id": "apush-3-13",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 13,
+      "code": "3.13",
+      "title": "Continuity and Change in Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "A guide to describing and explaining what stayed the same and what changed in American politics, society, and ideas between 1754 and 1800."
+    }
+  ]
 }

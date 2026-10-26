@@ -103,4 +103,30 @@ export const sources = [
     url: "https://www.gutenberg.org/ebooks/34632",
     note: "Public-domain text of the primary source quoted in the Unit 2 Practice Test and short-answer questions. Quotations are checked against this edition.",
   },
+  {
+    id: "declaration-1776",
+    label:
+      "The Declaration of Independence of the United States of America (1776), Project Gutenberg eBook #16780",
+    url: "https://www.gutenberg.org/ebooks/16780",
+    note: "Public-domain text of the primary source quoted in the Unit 3 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "paine-1776",
+    label: "Thomas Paine, Common Sense (1776), Project Gutenberg eBook #147",
+    url: "https://www.gutenberg.org/ebooks/147",
+    note: "Public-domain text of the primary source quoted in the Unit 3 Practice Test. Quotations are checked against this edition.",
+  },
+  {
+    id: "federalist-1787",
+    label:
+      "Alexander Hamilton, James Madison, and John Jay, The Federalist Papers (1787-1788), Project Gutenberg eBook #1404",
+    url: "https://www.gutenberg.org/ebooks/1404",
+    note: "Public-domain text of the primary source quoted in the Unit 3 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "constitution-1787",
+    label: "The Constitution of the United States (1787), Project Gutenberg eBook #5",
+    url: "https://www.gutenberg.org/ebooks/5",
+    note: "Public-domain text of the primary source quoted in the Unit 3 Practice Test. Quotations are checked against this edition.",
+  },
 ];

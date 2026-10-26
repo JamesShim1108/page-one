@@ -1,0 +1,926 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-9",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 9,
+    "code": "3.9",
+    "title": "The Constitution",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "How the Constitution created a limited but dynamic national government through federalism and the separation of powers, and what it kept and changed from the Articles and from colonial government."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "9b47445368b5cc72",
+  "questions": [
+    {
+      "id": "apush-3-9-q01",
+      "topicId": "apush-3-9",
+      "concept": "federalism",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Federalism, as established by the Constitution, is a system in which",
+      "choices": [
+        "all powers belong to the national government, and the states act only as administrative districts",
+        "all powers belong to the states, and the national government can act only with the approval of each state",
+        "power is divided among three branches, and the states have no part in the national government",
+        "power is divided between the national government and the state governments, each with its own sphere"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Federalism divides authority between the national government and the states, each of which has its own sphere of power.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The states kept significant powers under the Constitution.",
+        "This describes the Articles of Confederation more than the Constitution.",
+        "This describes the separation of powers, and the states had roles in the national government.",
+        "Federalism divides authority between the national government and the states, each of which has its own sphere of power."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The three-branches choice is close because the Constitution does separate powers, but that is a different principle called the separation of powers.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-9-q02",
+      "topicId": "apush-3-9",
+      "concept": "federalism",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following powers did the Constitution give to Congress that the Articles of Confederation had not given it?",
+      "choices": [
+        "The power to make treaties with foreign nations without the approval of the Senate or the president",
+        "The power to tax and to regulate commerce among the states and with foreign nations",
+        "The power to establish an official national church to unite the people of the different states",
+        "The power to appoint the governors of the states and to remove them from their offices"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The power to tax and to regulate commerce addressed the weaknesses of the Articles.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Constitution requires Senate approval of treaties.",
+        "The power to tax and to regulate commerce addressed the weaknesses of the Articles.",
+        "The Constitution did not give Congress this power, and the First Amendment forbids it.",
+        "The states kept their own governors."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The treaty choice is close because Congress shares in foreign policy, but the Senate must approve treaties.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-9-q03",
+      "topicId": "apush-3-9",
+      "concept": "federalism",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "The Constitution's declaration that it is the “supreme law of the land” meant that",
+      "choices": [
+        "valid federal laws override conflicting state laws, although the states keep powers not given to the nation",
+        "state laws take priority over federal laws whenever the two conflict within the borders of a state",
+        "the president can overrule any decision of a state court without the approval of Congress",
+        "each state must obtain the permission of Congress before it can pass any law within its borders"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Supremacy ensured that national law would prevail over state law in the areas where the Constitution gave power to the nation.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Supremacy ensured that national law would prevail over state law in the areas where the Constitution gave power to the nation.",
+        "Valid federal law takes priority over conflicting state law.",
+        "The supremacy clause does not give such power to the president.",
+        "States could pass laws on matters within their authority."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The state-priority choice is close because it describes the Articles' approach, but the Constitution reversed it.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-9-q04",
+      "topicId": "apush-3-9",
+      "concept": "continuity-and-change",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following was a difference between the Constitution and the Articles of Confederation?",
+      "choices": [
+        "The Constitution gave each state one vote in Congress, while the Articles based votes on population",
+        "The Constitution had no executive branch, while the Articles created a president with broad powers",
+        "The Constitution allowed Congress to tax directly, while the Articles let Congress only ask the states for money",
+        "The Constitution required unanimous consent to change it, while the Articles needed only a majority"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Constitution corrected one of the Articles' main weaknesses by giving Congress the power to raise its own revenue.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Articles gave each state one vote.",
+        "The Constitution created the presidency, and the Articles had none.",
+        "The Constitution corrected one of the Articles' main weaknesses by giving Congress the power to raise its own revenue.",
+        "The Articles required unanimity for amendments, which the Constitution relaxed."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The one-vote choice is close because representation changed, but it reverses what the two documents provided.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-9-q05",
+      "topicId": "apush-3-9",
+      "concept": "separation-of-powers",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following is an example of a check that one branch of the national government has on another?",
+      "choices": [
+        "The Supreme Court appoints the president, and the president approves the justices' decisions",
+        "The president can veto a bill, but Congress can override the veto with a two-thirds vote",
+        "Congress selects the members of the Supreme Court, and the Court approves the laws that Congress makes",
+        "The president makes laws for the nation, and Congress carries them out with the help of the states"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each branch has powers that limit the others, which prevents any one branch from dominating.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The president appoints justices with Senate approval.",
+        "Each branch has powers that limit the others, which prevents any one branch from dominating.",
+        "The president appoints justices, and the Senate confirms them.",
+        "Congress makes laws, and the president carries them out."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Court-appoints choice is close because it names two branches, but it reverses who appoints whom.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-9-q06",
+      "topicId": "apush-3-9",
+      "concept": "separation-of-powers",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following best explains why the framers divided power among three branches?",
+      "choices": [
+        "They wished to preserve the structure of the Articles, which had also created three separate branches",
+        "They believed that the people could not be trusted with any role in electing the government",
+        "They feared concentrated power, an idea drawn from republican thinkers and from experience with Britain",
+        "They wished to make the national government as weak as possible to protect the states"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fear of concentrated power shaped a system in which each branch checks the others.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Articles created only a Congress.",
+        "The House was elected directly by voters.",
+        "Fear of concentrated power shaped a system in which each branch checks the others.",
+        "The framers wanted a government that was stronger than that under the Articles."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The weak-government choice is close because the framers did fear power, but they also wanted the government to be effective.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-9-q07",
+      "topicId": "apush-3-9",
+      "concept": "continuity-and-change",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "continuity",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following was a continuity between the Articles of Confederation and the Constitution?",
+      "choices": [
+        "Both gave Congress the power to tax citizens and to regulate commerce among the states",
+        "Both created a president who served as the head of the government and as commander of the army",
+        "Both set up a national court system with the power to decide disputes among the states",
+        "Both preserved the states and kept a republican form of government with elected legislatures"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The framers kept the republic and the states, and changed the structure and powers of the national government.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Articles denied Congress these powers.",
+        "The Articles created no president.",
+        "The Articles created no national court system.",
+        "The framers kept the republic and the states, and changed the structure and powers of the national government."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The taxation choice is close because both were national governments, but only the Constitution gave the power to tax.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Continuity and change",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-9-q08",
+      "topicId": "apush-3-9",
+      "concept": "federalism",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "The “necessary and proper” clause of the Constitution is significant because it",
+      "choices": [
+        "allowed Congress to make the laws needed to carry out its powers, which let the government grow",
+        "required Congress to ask the states for permission before it passed any law on taxes or on trade",
+        "limited the national government to the powers named in the Bill of Rights and no others",
+        "gave the president the power to issue orders that overrode the laws that Congress had passed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The clause gave Congress flexibility, which is part of why the Constitution created a dynamic government.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The clause gave Congress flexibility, which is part of why the Constitution created a dynamic government.",
+        "The clause allowed Congress to act without such permission.",
+        "The Bill of Rights is separate from the clause.",
+        "The clause concerns the powers of Congress."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Bill of Rights choice is close because the Tenth Amendment limits federal powers, but the clause itself expanded Congress's options.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-9-t01",
+      "topicId": "apush-3-9",
+      "concept": "federalism",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following best summarizes the powers described in the excerpt?",
+      "choices": [
+        "Congress could appoint judges and decide cases between citizens of different states",
+        "Congress could raise money and regulate commerce, which gave the nation powers it had lacked",
+        "Congress could make laws for the states only if each state legislature approved of the laws",
+        "Congress could control the Indian tribes as sovereign nations and make laws for their territory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The excerpt lists the powers to tax, to borrow, and to regulate commerce, which gave Congress financial and economic powers.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The excerpt does not mention appointing judges or deciding cases.",
+        "The excerpt lists the powers to tax, to borrow, and to regulate commerce, which gave Congress financial and economic powers.",
+        "The excerpt does not require state approval.",
+        "The excerpt refers to the regulation of commerce with the tribes."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The tribes choice is close because the tribes are mentioned, but the excerpt refers only to commerce with them.",
+      "stimulusId": "constitution-powers",
+      "stimulusBlocks": [
+        {
+          "id": "constitution-powers",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.9, KC-3.2.II.C.ii: the Constitution created a limited but dynamic central government embodying federalism and a separation of powers",
+          "ced_review": "pending",
+          "attribution": "The Constitution of the United States, drafted by the Constitutional Convention in 1787, Article I, Section 8",
+          "citation": "Constitution of the United States (1787), Article I, Section 8. Project Gutenberg eBook #5.",
+          "text": "The Congress shall have Power to lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the United States; but all Duties, Imposts and Excises shall be uniform throughout the United States; To borrow Money on the credit of the United States; To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes;"
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-3-9-t02",
+      "topicId": "apush-3-9",
+      "concept": "continuity-and-change",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following is a difference between the powers in the excerpt and the powers of Congress under the Articles of Confederation?",
+      "choices": [
+        "Congress could now levy taxes directly and regulate trade among the states",
+        "Congress could now raise money only by asking the states for contributions",
+        "Congress could now regulate only trade with foreign nations and not trade within the country",
+        "Congress could now borrow money only with the unanimous approval of the state legislatures"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Articles denied Congress the power to tax citizens or to regulate commerce, and the Constitution gave it both powers.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Articles denied Congress the power to tax citizens or to regulate commerce, and the Constitution gave it both powers.",
+        "This describes the Articles.",
+        "The excerpt includes commerce among the states.",
+        "The excerpt gives Congress the power to borrow money."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The asking-for-contributions choice is close because it concerns money, but it describes the earlier system.",
+      "stimulusId": "constitution-powers",
+      "stimulusBlocks": [
+        {
+          "id": "constitution-powers",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.9, KC-3.2.II.C.ii: the Constitution created a limited but dynamic central government embodying federalism and a separation of powers",
+          "ced_review": "pending",
+          "attribution": "The Constitution of the United States, drafted by the Constitutional Convention in 1787, Article I, Section 8",
+          "citation": "Constitution of the United States (1787), Article I, Section 8. Project Gutenberg eBook #5.",
+          "text": "The Congress shall have Power to lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the United States; but all Duties, Imposts and Excises shall be uniform throughout the United States; To borrow Money on the credit of the United States; To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes;"
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-9-t03",
+      "topicId": "apush-3-9",
+      "concept": "continuity-and-change",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.J",
+      "keyConcepts": [
+        "KC-3.2.II.C.ii"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "The powers described in the excerpt are best understood as a response to which of the following?",
+      "choices": [
+        "The Proclamation of 1763, which had limited western settlement and angered colonists",
+        "The Stamp Act, which had taxed printed materials without the consent of the colonial assemblies",
+        "The Alien and Sedition Acts, which had limited criticism of the government during the 1790s",
+        "Problems under the Articles, including war debts, trade barriers among states, and a lack of funds"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The framers gave Congress powers over revenue and commerce to remedy the financial and trade problems that had weakened the Confederation government.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Proclamation was issued by Britain before the Revolution.",
+        "The Stamp Act belonged to the colonial period.",
+        "The Alien and Sedition Acts came after the Constitution.",
+        "The framers gave Congress powers over revenue and commerce to remedy the financial and trade problems that had weakened the Confederation government."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Stamp Act choice is close because it also concerned taxes, but it was a British measure that the Constitution did not respond to.",
+      "stimulusId": "constitution-powers",
+      "stimulusBlocks": [
+        {
+          "id": "constitution-powers",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.9, KC-3.2.II.C.ii: the Constitution created a limited but dynamic central government embodying federalism and a separation of powers",
+          "ced_review": "pending",
+          "attribution": "The Constitution of the United States, drafted by the Constitutional Convention in 1787, Article I, Section 8",
+          "citation": "Constitution of the United States (1787), Article I, Section 8. Project Gutenberg eBook #5.",
+          "text": "The Congress shall have Power to lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the United States; but all Duties, Imposts and Excises shall be uniform throughout the United States; To borrow Money on the credit of the United States; To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes;"
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-3-9-quick",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-9",
+      "title": "Topic 3.9 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-3-9-q01",
+        "apush-3-9-q02",
+        "apush-3-9-q03"
+      ]
+    },
+    {
+      "id": "apush-3-9-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-9",
+      "title": "The Constitution topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-3-9-q01",
+        "apush-3-9-q02",
+        "apush-3-9-q03",
+        "apush-3-9-q04",
+        "apush-3-9-q05",
+        "apush-3-9-q06",
+        "apush-3-9-q07",
+        "apush-3-9-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "federalism": {
+      "id": "federalism",
+      "title": "Federalism",
+      "section": "federalism",
+      "topicId": "apush-3-9"
+    },
+    "separation-of-powers": {
+      "id": "separation-of-powers",
+      "title": "Separation of powers and checks and balances",
+      "section": "separation-of-powers",
+      "topicId": "apush-3-9"
+    },
+    "continuity-and-change": {
+      "id": "continuity-and-change",
+      "title": "Continuities and changes from the Articles",
+      "section": "continuity-and-change",
+      "topicId": "apush-3-9"
+    }
+  },
+  "assets": {}
+}

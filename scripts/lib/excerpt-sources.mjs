@@ -159,6 +159,20 @@ export const EXCERPT_SOURCES = Object.freeze({
     label:
       "Standard Ebooks edition of Equiano, The Interesting Narrative (chapters 1-12), converted from XHTML to plain text",
   },
+  "declaration-": {
+    files: ["declaration-of-independence.txt"],
+    label:
+      "Project Gutenberg #16780 (The Declaration of Independence of the United States of America), file 16780.txt",
+  },
+  "constitution-": {
+    files: ["us-constitution.txt"],
+    label: "Project Gutenberg #5 (The United States Constitution), file 5-0.txt",
+  },
+  "federalist-": {
+    files: ["federalist-papers.txt"],
+    label:
+      "Project Gutenberg #1404 (The Federalist Papers, Hamilton, Madison, and Jay), file 1404.txt",
+  },
 });
 
 export function excerptSourceFor(id) {

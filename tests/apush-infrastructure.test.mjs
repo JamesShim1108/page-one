@@ -754,6 +754,9 @@ async function compileApush({ title = "Taxation Without Representation" } = {}) 
     filter: (path) => !path.includes(join("docs", "generated")),
   });
   const courseRoot = join(temp, "docs/content/ap-us-history");
+  // The fixture stands in for Unit 3, so drop the real Unit 3 content first.
+  await rm(join(courseRoot, "unit-03"), { recursive: true, force: true });
+  await mkdir(join(courseRoot, "unit-03"), { recursive: true });
   const write = (path, name, value) =>
     writeFile(
       join(courseRoot, path),

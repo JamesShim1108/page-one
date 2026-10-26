@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "apush",
-  "revision": "636cd55e8ebe6522",
+  "revision": "a02c0efd319faea7",
   "pools": [
     {
       "id": "apush-1-1:apush-1-1-quiz",
@@ -256,6 +256,230 @@
         "apush-2-8-q05",
         "apush-2-8-q07",
         "apush-2-8-q08"
+      ]
+    },
+    {
+      "id": "apush-3-1:apush-3-1-quiz",
+      "quizId": "apush-3-1-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-1",
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "bankPath": "apush/banks/apush-3-1.json",
+      "questionIds": [
+        "apush-3-1-q02",
+        "apush-3-1-q03",
+        "apush-3-1-q05",
+        "apush-3-1-q07",
+        "apush-3-1-q08"
+      ]
+    },
+    {
+      "id": "apush-3-2:apush-3-2-quiz",
+      "quizId": "apush-3-2-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-2",
+      "code": "3.2",
+      "title": "The Seven Years’ War (The French and Indian War)",
+      "bankPath": "apush/banks/apush-3-2.json",
+      "questionIds": [
+        "apush-3-2-q02",
+        "apush-3-2-q03",
+        "apush-3-2-q05",
+        "apush-3-2-q07",
+        "apush-3-2-q08"
+      ]
+    },
+    {
+      "id": "apush-3-3:apush-3-3-quiz",
+      "quizId": "apush-3-3-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-3",
+      "code": "3.3",
+      "title": "Taxation Without Representation",
+      "bankPath": "apush/banks/apush-3-3.json",
+      "questionIds": [
+        "apush-3-3-q02",
+        "apush-3-3-q03",
+        "apush-3-3-q05",
+        "apush-3-3-q07",
+        "apush-3-3-q08"
+      ]
+    },
+    {
+      "id": "apush-3-4:apush-3-4-quiz",
+      "quizId": "apush-3-4-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-4",
+      "code": "3.4",
+      "title": "Philosophical Foundations of the American Revolution",
+      "bankPath": "apush/banks/apush-3-4.json",
+      "questionIds": [
+        "apush-3-4-q02",
+        "apush-3-4-q03",
+        "apush-3-4-q05",
+        "apush-3-4-q07",
+        "apush-3-4-q08"
+      ]
+    },
+    {
+      "id": "apush-3-5:apush-3-5-quiz",
+      "quizId": "apush-3-5-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-5",
+      "code": "3.5",
+      "title": "The American Revolution",
+      "bankPath": "apush/banks/apush-3-5.json",
+      "questionIds": [
+        "apush-3-5-q02",
+        "apush-3-5-q03",
+        "apush-3-5-q05",
+        "apush-3-5-q07",
+        "apush-3-5-q08"
+      ]
+    },
+    {
+      "id": "apush-3-6:apush-3-6-quiz",
+      "quizId": "apush-3-6-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-6",
+      "code": "3.6",
+      "title": "The Influence of Revolutionary Ideals",
+      "bankPath": "apush/banks/apush-3-6.json",
+      "questionIds": [
+        "apush-3-6-q02",
+        "apush-3-6-q03",
+        "apush-3-6-q05",
+        "apush-3-6-q07",
+        "apush-3-6-q08"
+      ]
+    },
+    {
+      "id": "apush-3-7:apush-3-7-quiz",
+      "quizId": "apush-3-7-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-7",
+      "code": "3.7",
+      "title": "The Articles of Confederation",
+      "bankPath": "apush/banks/apush-3-7.json",
+      "questionIds": [
+        "apush-3-7-q02",
+        "apush-3-7-q03",
+        "apush-3-7-q05",
+        "apush-3-7-q07",
+        "apush-3-7-q08"
+      ]
+    },
+    {
+      "id": "apush-3-8:apush-3-8-quiz",
+      "quizId": "apush-3-8-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-8",
+      "code": "3.8",
+      "title": "The Constitutional Convention and Debates over Ratification",
+      "bankPath": "apush/banks/apush-3-8.json",
+      "questionIds": [
+        "apush-3-8-q02",
+        "apush-3-8-q03",
+        "apush-3-8-q05",
+        "apush-3-8-q07",
+        "apush-3-8-q08"
+      ]
+    },
+    {
+      "id": "apush-3-9:apush-3-9-quiz",
+      "quizId": "apush-3-9-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-9",
+      "code": "3.9",
+      "title": "The Constitution",
+      "bankPath": "apush/banks/apush-3-9.json",
+      "questionIds": [
+        "apush-3-9-q02",
+        "apush-3-9-q03",
+        "apush-3-9-q05",
+        "apush-3-9-q07",
+        "apush-3-9-q08"
+      ]
+    },
+    {
+      "id": "apush-3-10:apush-3-10-quiz",
+      "quizId": "apush-3-10-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-10",
+      "code": "3.10",
+      "title": "Shaping a New Republic",
+      "bankPath": "apush/banks/apush-3-10.json",
+      "questionIds": [
+        "apush-3-10-q02",
+        "apush-3-10-q03",
+        "apush-3-10-q05",
+        "apush-3-10-q07",
+        "apush-3-10-q08",
+        "apush-3-10-q09"
+      ]
+    },
+    {
+      "id": "apush-3-11:apush-3-11-quiz",
+      "quizId": "apush-3-11-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-11",
+      "code": "3.11",
+      "title": "Developing an American Identity",
+      "bankPath": "apush/banks/apush-3-11.json",
+      "questionIds": [
+        "apush-3-11-q02",
+        "apush-3-11-q03",
+        "apush-3-11-q05",
+        "apush-3-11-q07",
+        "apush-3-11-q08"
+      ]
+    },
+    {
+      "id": "apush-3-12:apush-3-12-quiz",
+      "quizId": "apush-3-12-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-12",
+      "code": "3.12",
+      "title": "Movement in the Early Republic",
+      "bankPath": "apush/banks/apush-3-12.json",
+      "questionIds": [
+        "apush-3-12-q02",
+        "apush-3-12-q03",
+        "apush-3-12-q05",
+        "apush-3-12-q07",
+        "apush-3-12-q08",
+        "apush-3-12-q09"
+      ]
+    },
+    {
+      "id": "apush-3-13:apush-3-13-quiz",
+      "quizId": "apush-3-13-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-13",
+      "code": "3.13",
+      "title": "Continuity and Change in Period 3",
+      "bankPath": "apush/banks/apush-3-13.json",
+      "questionIds": [
+        "apush-3-13-q02",
+        "apush-3-13-q03",
+        "apush-3-13-q05",
+        "apush-3-13-q07",
+        "apush-3-13-q08",
+        "apush-3-13-q09"
       ]
     }
   ]

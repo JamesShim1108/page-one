@@ -1,0 +1,523 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-2",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 2,
+    "code": "3.2",
+    "title": "The Seven Years’ War (The French and Indian War)",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "Why Britain and France went to war over the North American interior, how Britain won, and how victory left Britain in debt and set the stage for new imperial policies and colonial resentment."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "c4b75b417dd99624",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-3-2",
+    "unitId": "apush-3",
+    "courseId": "apush",
+    "code": "3.2",
+    "title": "The Seven Years’ War (The French and Indian War)",
+    "period": "1754–1800",
+    "status": "ready",
+    "order": 2,
+    "summary": "Why Britain and France went to war over the North American interior, how Britain won, and how victory left Britain in debt and set the stage for new imperial policies and colonial resentment.",
+    "minutes": 11,
+    "learningGoals": [
+      "Explain why rivalry between Britain and France intensified in the mid-1700s.",
+      "Explain how Britain's victory expanded its empire and created new costs.",
+      "Explain why the Proclamation of 1763 angered colonists and how Native nations responded."
+    ],
+    "bigIdea": "The Seven Years' War removed France from eastern North America, but victory left Britain with debts and new responsibilities that led it to tighten control over the colonies.",
+    "context": "The CED asks you to explain the causes and effects of the Seven Years' War. The war's most important effects were not on the battlefield but in the years after 1763, so keep asking what Britain and the colonists each wanted next.",
+    "sections": [
+      {
+        "id": "rivalry-in-the-interior",
+        "title": "Rivalry in the interior",
+        "conceptTitle": "Rivalry in the interior",
+        "lenses": [
+          "WOR",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Colonial rivalry intensified between Britain and France in the mid-18th century as the growing population of the British colonies expanded into the interior of North America, threatening French–Indian trade networks and American Indian autonomy. The Ohio River Valley was the center of the dispute, because both empires claimed it and many Native nations lived and traded there."
+          },
+          {
+            "type": "paragraph",
+            "text": "The war began in 1754 with fighting in the Ohio Valley, where George Washington, then a young Virginia militia officer, was forced to surrender at Fort Necessity. In the same year, colonial delegates meeting at Albany considered Benjamin Franklin's plan for a union of the colonies, but no colony approved it. The French and their Native allies won early victories. The conflict then widened into a global war, called the Seven Years' War in Europe, and under the leadership of William Pitt, Britain committed money, ships, and soldiers to North America. Britain captured Quebec in 1759 and Montreal in 1760."
+          }
+        ],
+        "takeaway": "British expansion into the Ohio Valley threatened French and Native interests and brought on the war."
+      },
+      {
+        "id": "british-victory-and-cost",
+        "title": "Victory at tremendous expense",
+        "conceptTitle": "Victory at tremendous expense",
+        "lenses": [
+          "WOR",
+          "WXT",
+          "PCE"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Britain achieved a major expansion of its territorial holdings by defeating the French, but at tremendous expense. In the Treaty of Paris of 1763, France gave up Canada and its claims east of the Mississippi River, and Spain, which had entered the war late on the French side, gave Florida to Britain. France had earlier transferred Louisiana west of the Mississippi to Spain."
+          },
+          {
+            "type": "paragraph",
+            "text": "Britain now ruled an enormous empire, owed a large debt, and needed troops to defend its new frontier. These conditions set the stage for imperial efforts to raise revenue and consolidate control over the colonies, which led to the conflicts described in Topic 3.3."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Colonists and British officials drew different lessons from the war. Many colonists believed they had helped win it and deserved more say, while many British officials believed the colonists had been defended at British expense and should help pay."
+          }
+        ],
+        "takeaway": "Victory removed France but left Britain with debts and a larger empire, which led it to look to the colonies for revenue and control."
+      },
+      {
+        "id": "proclamation-and-native-resistance",
+        "title": "The Proclamation of 1763 and Native resistance",
+        "conceptTitle": "The Proclamation of 1763 and Native resistance",
+        "lenses": [
+          "MIG",
+          "GEO",
+          "WOR"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "After the British victory, imperial officials' attempts to prevent colonists from moving westward generated colonial opposition, while Native groups sought both to continue trading with Europeans and to resist the encroachments of colonists on tribal lands. In 1763, Native nations of the Great Lakes and Ohio Valley, inspired in part by the Ottawa leader Pontiac, attacked British forts, because they feared British settlement and disliked British trade policies."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Crown responded with the Proclamation of 1763, which forbade colonial settlement west of the Appalachian Mountains and reserved the western lands for Native peoples. Colonists who had expected to claim western land, including veterans and land speculators, resented the order, and many settlers moved west anyway. The line was hard to enforce and added to colonial opposition to British policy."
+          }
+        ],
+        "takeaway": "British efforts to restrain western settlement angered colonists, while Native nations resisted settlers' advance."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 3.3",
+        "title": "Paying for victory",
+        "body": "Britain's debts led Parliament to tax the colonies directly, and colonists responded with arguments about their rights. Topic 3.3 follows that conflict.",
+        "transferQuestion": "How did the costs of victory lead Parliament to look to the colonies for revenue?",
+        "feedback": "A strong answer links Britain's debt and larger empire to the belief that the colonies should help pay for their own defense.",
+        "links": [
+          {
+            "topicId": "apush-3-1",
+            "sectionId": "colonies-in-1754",
+            "label": "Review the colonies in 1754"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced"
+    ]
+  },
+  "bankPath": "apush/banks/apush-3-2.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    }
+  ],
+  "assets": {}
+}

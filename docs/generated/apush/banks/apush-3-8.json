@@ -1,0 +1,931 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-3",
+    "courseId": "apush",
+    "number": 3,
+    "title": "Period 3",
+    "period": "1754–1800",
+    "status": "ready",
+    "description": "Follow the Seven Years' War, the road to independence, the Revolution, the Articles of Confederation and the Constitution, and the first political parties from 1754 to 1800.",
+    "quizzes": [
+      {
+        "id": "apush-3-practice",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-3-1",
+            "questionIds": [
+              "apush-3-1-q01",
+              "apush-3-1-q04",
+              "apush-3-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-q01",
+              "apush-3-2-q04",
+              "apush-3-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-q01",
+              "apush-3-3-q04",
+              "apush-3-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-q01",
+              "apush-3-4-q04",
+              "apush-3-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-q01",
+              "apush-3-5-q04",
+              "apush-3-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-q01",
+              "apush-3-6-q04",
+              "apush-3-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-q01",
+              "apush-3-7-q04",
+              "apush-3-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-q01",
+              "apush-3-8-q04",
+              "apush-3-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-q01",
+              "apush-3-9-q04",
+              "apush-3-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-q01",
+              "apush-3-10-q04",
+              "apush-3-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-11",
+            "questionIds": [
+              "apush-3-11-q01",
+              "apush-3-11-q04",
+              "apush-3-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-12",
+            "questionIds": [
+              "apush-3-12-q01",
+              "apush-3-12-q04",
+              "apush-3-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-3-13",
+            "questionIds": [
+              "apush-3-13-q01",
+              "apush-3-13-q04",
+              "apush-3-13-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-3-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-3",
+        "title": "Unit 3 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-3-2",
+            "questionIds": [
+              "apush-3-2-t01",
+              "apush-3-2-t02",
+              "apush-3-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-3",
+            "questionIds": [
+              "apush-3-3-t01",
+              "apush-3-3-t02",
+              "apush-3-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-4",
+            "questionIds": [
+              "apush-3-4-t01",
+              "apush-3-4-t02",
+              "apush-3-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-5",
+            "questionIds": [
+              "apush-3-5-t01",
+              "apush-3-5-t02",
+              "apush-3-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-6",
+            "questionIds": [
+              "apush-3-6-t01",
+              "apush-3-6-t02",
+              "apush-3-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-7",
+            "questionIds": [
+              "apush-3-7-t01",
+              "apush-3-7-t02",
+              "apush-3-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-8",
+            "questionIds": [
+              "apush-3-8-t01",
+              "apush-3-8-t02",
+              "apush-3-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-9",
+            "questionIds": [
+              "apush-3-9-t01",
+              "apush-3-9-t02",
+              "apush-3-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-3-10",
+            "questionIds": [
+              "apush-3-10-t01",
+              "apush-3-10-t02",
+              "apush-3-10-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-3-practice-test",
+      "title": "Unit 3 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-3-1-quiz",
+        "title": "Contextualizing Period 3 topic quiz"
+      },
+      {
+        "id": "apush-3-2-quiz",
+        "title": "The Seven Years’ War (The French and Indian War) topic quiz"
+      },
+      {
+        "id": "apush-3-3-quiz",
+        "title": "Taxation Without Representation topic quiz"
+      },
+      {
+        "id": "apush-3-4-quiz",
+        "title": "Philosophical Foundations of the American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-5-quiz",
+        "title": "The American Revolution topic quiz"
+      },
+      {
+        "id": "apush-3-6-quiz",
+        "title": "The Influence of Revolutionary Ideals topic quiz"
+      },
+      {
+        "id": "apush-3-7-quiz",
+        "title": "The Articles of Confederation topic quiz"
+      },
+      {
+        "id": "apush-3-8-quiz",
+        "title": "The Constitutional Convention and Debates over Ratification topic quiz"
+      },
+      {
+        "id": "apush-3-9-quiz",
+        "title": "The Constitution topic quiz"
+      },
+      {
+        "id": "apush-3-10-quiz",
+        "title": "Shaping a New Republic topic quiz"
+      },
+      {
+        "id": "apush-3-11-quiz",
+        "title": "Developing an American Identity topic quiz"
+      },
+      {
+        "id": "apush-3-12-quiz",
+        "title": "Movement in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-3-13-quiz",
+        "title": "Continuity and Change in Period 3 topic quiz"
+      }
+    ],
+    "topicCount": 13,
+    "firstTopic": {
+      "id": "apush-3-1",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "order": 1,
+      "code": "3.1",
+      "title": "Contextualizing Period 3",
+      "period": "1754–1800",
+      "status": "ready",
+      "summary": "How the Seven Years' War, British imperial reform, colonial self-government, and Enlightenment ideas set the stage for independence and the first experiments in republican government, 1754–1800."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-3-saq-01",
+        "title": "Unit 3 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-saq-02",
+        "title": "Unit 3 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-3-leq-society",
+        "title": "LEQ: How much did the Revolution change society?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-3-8",
+    "courseId": "apush",
+    "unitId": "apush-3",
+    "order": 8,
+    "code": "3.8",
+    "title": "The Constitutional Convention and Debates over Ratification",
+    "period": "1754–1800",
+    "status": "ready",
+    "summary": "How delegates bargained over representation and slavery at the Constitutional Convention, and how Federalists and Anti-Federalists argued over ratification until a Bill of Rights was promised."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "609fc80e24c56e58",
+  "questions": [
+    {
+      "id": "apush-3-8-q01",
+      "topicId": "apush-3-8",
+      "concept": "convention-and-compromise",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.C.i"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following was a difference between the Virginia Plan and the New Jersey Plan at the Constitutional Convention?",
+      "choices": [
+        "The Virginia Plan gave each state equal representation, while the New Jersey Plan based seats in Congress on population",
+        "The Virginia Plan based representation on population, while the New Jersey Plan gave each state an equal vote",
+        "The Virginia Plan kept the Articles of Confederation, while the New Jersey Plan created a monarchy",
+        "The Virginia Plan banned slavery in the states, while the New Jersey Plan allowed it everywhere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Large states favored representation by population, and small states favored equal representation for each state.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This reverses the two plans.",
+        "Large states favored representation by population, and small states favored equal representation for each state.",
+        "Neither plan proposed a monarchy, and the Virginia Plan proposed a new government.",
+        "Neither plan was mainly about slavery."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The reversed-plans choice is close because it uses the same terms, but it swaps which plan supported which kind of representation.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-8-q02",
+      "topicId": "apush-3-8",
+      "concept": "convention-and-compromise",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.C.i"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "The Great Compromise at the Constitutional Convention created",
+      "choices": [
+        "a House of Representatives based on population and a Senate with two members from each state",
+        "a Senate based on population and a House of Representatives with two members from each state",
+        "a single house of Congress in which every state had one vote and a majority of states could pass a law",
+        "an executive council chosen by the states that held power instead of a single president"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The compromise gave large states representation by population in the House and small states equal votes in the Senate.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The compromise gave large states representation by population in the House and small states equal votes in the Senate.",
+        "This reverses the two houses.",
+        "The Great Compromise created two houses.",
+        "The Great Compromise concerned representation in Congress."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The reversed-houses choice is close because it names the same features, but it swaps the two houses.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-8-q03",
+      "topicId": "apush-3-8",
+      "concept": "convention-and-compromise",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Under the Three-Fifths Compromise at the Constitutional Convention,",
+      "choices": [
+        "enslaved people were counted fully for representation but not for taxes in the Southern states",
+        "enslaved people received three-fifths of the rights of free citizens, including the right to vote",
+        "Congress was required to end slavery in three-fifths of the states within a period of twenty years",
+        "three-fifths of the enslaved population was counted for representation and for direct taxes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The compromise increased the representation of the slave states in Congress and in the Electoral College by counting part of the enslaved population.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Three-fifths of the enslaved population was counted for both representation and direct taxes.",
+        "Enslaved people had no political rights.",
+        "The compromise did not require any state to end slavery.",
+        "The compromise increased the representation of the slave states in Congress and in the Electoral College by counting part of the enslaved population."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The full-count choice is close because the South had wanted a full count, but the compromise was three-fifths.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-8-q04",
+      "topicId": "apush-3-8",
+      "concept": "convention-and-compromise",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following statements about the Constitution and the slave trade is accurate?",
+      "choices": [
+        "The Constitution banned the international slave trade immediately and ended slavery in the Deep South",
+        "The Constitution required Congress to protect the international slave trade for as long as any state wished",
+        "The Constitution allowed Congress to prohibit the international slave trade after 1808",
+        "The Constitution gave each state the right to end slavery within a year if it voted to do so"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The delegates compromised by delaying any federal prohibition of the international slave trade until 1808.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Constitution did not ban the trade immediately.",
+        "The Constitution allowed Congress to prohibit the trade after 1808.",
+        "The delegates compromised by delaying any federal prohibition of the international slave trade until 1808.",
+        "States could regulate slavery, but this provision was not part of the compromise on the slave trade."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The immediate-ban choice is close because some delegates opposed the trade, but the delay was part of the compromise.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-8-q05",
+      "topicId": "apush-3-8",
+      "concept": "convention-and-compromise",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following best explains why the Constitution included protections for slavery?",
+      "choices": [
+        "Most delegates at the Convention owned enslaved people and wanted slavery to continue in every state",
+        "Delegates from the Deep South would not join the new government without them, and other delegates compromised to form a union",
+        "Britain required the protections as a condition of the Treaty of Paris and the return of the forts",
+        "The Anti-Federalists demanded the protections as a price for ending their opposition to the Constitution"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deep South delegates made clear that they would not accept a plan that threatened slavery, and the others chose compromise over failure.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Many delegates opposed slavery or were uneasy about it, but compromised for union.",
+        "Deep South delegates made clear that they would not accept a plan that threatened slavery, and the others chose compromise over failure.",
+        "Britain did not require these protections.",
+        "Anti-Federalists did not demand protections for slavery in return for ratification."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The delegates-owned-slaves choice is close because many delegates did, but the compromise was driven by the need to form a union.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-8-q06",
+      "topicId": "apush-3-8",
+      "concept": "federalists-and-anti-federalists",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.E"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Federalists supported ratification of the Constitution because they believed that",
+      "choices": [
+        "the states should keep the powers they had under the Articles, with Congress acting only as an advisor to them",
+        "a bill of rights must be written first, and the government should not be formed until it was approved",
+        "republics work best in small communities where representatives stay close to the people they serve",
+        "a stronger national government with divided powers would protect liberty and could govern a large republic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Federalists argued, as in the Federalist Papers, that a stronger government was needed and that dividing power would protect liberty.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "This describes the position of many Anti-Federalists.",
+        "Federalists did not insist on a bill of rights before ratification.",
+        "This describes the Anti-Federalist view.",
+        "Federalists argued, as in the Federalist Papers, that a stronger government was needed and that dividing power would protect liberty."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The bill-of-rights choice is close because the Bill of Rights became part of the deal, but Federalists first resisted adding one.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-3-8-q07",
+      "topicId": "apush-3-8",
+      "concept": "federalists-and-anti-federalists",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.E"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following was a main objection of the Anti-Federalists to the Constitution?",
+      "choices": [
+        "A distant national government might threaten individual rights and state powers, and there was no bill of rights",
+        "The Constitution gave too much power to the states and left the national government unable to tax",
+        "The Constitution made Congress a single house with one vote for each state, as the Articles had done",
+        "The Constitution did not allow the states to elect their senators, and it ended all of the state governments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anti-Federalists, such as Patrick Henry and George Mason, feared a distant government and wanted explicit protections for individual rights.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Anti-Federalists, such as Patrick Henry and George Mason, feared a distant government and wanted explicit protections for individual rights.",
+        "This was a complaint about the Articles and not the Constitution.",
+        "The Constitution created a two-house Congress.",
+        "The Constitution did not end the state governments."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The too-much-state-power choice is close because it concerns the balance of power, but that was the Federalist complaint about the Articles.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-3-8-q08",
+      "topicId": "apush-3-8",
+      "concept": "bill-of-rights",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.E"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following best explains why the Bill of Rights was added to the Constitution?",
+      "choices": [
+        "The Constitutional Convention included a bill of rights, but Congress removed it before the vote",
+        "Britain demanded that the United States protect individual rights as a condition of trade",
+        "Federalists promised to add amendments protecting individual rights in order to win ratification",
+        "The Articles of Confederation had required that any new government include a list of rights"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anti-Federalist opposition and the lack of a bill of rights threatened ratification, and Federalists agreed to add one.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Convention did not include a bill of rights.",
+        "Britain did not make such a demand.",
+        "Anti-Federalist opposition and the lack of a bill of rights threatened ratification, and Federalists agreed to add one.",
+        "The Articles did not require a bill of rights."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Convention choice is close because many delegates wanted a bill of rights, but the Convention did not include one.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-8-t01",
+      "topicId": "apush-3-8",
+      "concept": "federalists-and-anti-federalists",
+      "difficulty": "Core",
+      "skill": "sourcing",
+      "subskill": "2.A",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.E"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following best describes the point of view of the author of the excerpt?",
+      "choices": [
+        "An opponent of the Constitution who believed the states were too weak to control the national government",
+        "A supporter of ratification who believed a large republic would help control the dangers of faction",
+        "A delegate who wished to return to the Articles of Confederation and to give Congress no power",
+        "A British official who hoped that the American republic would fail because of disputes among factions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The excerpt is from the Federalist Papers, a series of essays that argued for ratification of the Constitution.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The author wrote in support of ratification.",
+        "The excerpt is from the Federalist Papers, a series of essays that argued for ratification of the Constitution.",
+        "The author supports a stronger system.",
+        "The author is an American advocate of the Constitution."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The opponent choice is close because the author discusses dangers to liberty, but the author argues that the Constitution will address them.",
+      "stimulusId": "federalist-10",
+      "stimulusBlocks": [
+        {
+          "id": "federalist-10",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.8, KC-3.2.II.E: Federalists, whose principles were articulated in the Federalist Papers, argued for ratification of the Constitution",
+          "ced_review": "pending",
+          "attribution": "James Madison, writing as “Publius” in support of ratification of the Constitution, The Federalist No. 10, November 1787",
+          "citation": "James Madison, The Federalist No. 10 (1787), in The Federalist Papers. Project Gutenberg eBook #1404.",
+          "note": "In Madison's use, a “faction” is any group of citizens, whether a majority or a minority, united by a shared interest or passion that threatens the rights of others or the good of the community.",
+          "text": "By a faction, I understand a number of citizens, whether amounting to a majority or a minority of the whole, who are united and actuated by some common impulse of passion, or of interest, adversed to the rights of other citizens, or to the permanent and aggregate interests of the community. . . .\n\nExtend the sphere, and you take in a greater variety of parties and interests; you make it less probable that a majority of the whole will have a common motive to invade the rights of other citizens; or if such a common motive exists, it will be more difficult for all who feel it to discover their own strength, and to act in unison with each other."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Identify a source’s point of view, purpose, historical situation, and/or audience."
+    },
+    {
+      "id": "apush-3-8-t02",
+      "topicId": "apush-3-8",
+      "concept": "federalists-and-anti-federalists",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.E"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "According to the author, why would extending the sphere of the republic reduce the danger of faction?",
+      "choices": [
+        "A larger republic would allow the national government to forbid any group from forming a party",
+        "A larger republic would give each state an equal vote, which prevents any state from acting in its own interest",
+        "A larger republic would remove the need for elections, because the people would trust the government",
+        "A larger republic includes more parties and interests, so a single majority is less likely to act together against others"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The author argues that a greater variety of interests makes it less likely that a majority will share a common motive to invade others' rights.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The author does not propose forbidding groups.",
+        "The author does not discuss equal votes for states.",
+        "The author expects elections to continue and does not call for trust.",
+        "The author argues that a greater variety of interests makes it less likely that a majority will share a common motive to invade others' rights."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The forbid-parties choice is close because it addresses faction, but the author relies on variety and not prohibition.",
+      "stimulusId": "federalist-10",
+      "stimulusBlocks": [
+        {
+          "id": "federalist-10",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.8, KC-3.2.II.E: Federalists, whose principles were articulated in the Federalist Papers, argued for ratification of the Constitution",
+          "ced_review": "pending",
+          "attribution": "James Madison, writing as “Publius” in support of ratification of the Constitution, The Federalist No. 10, November 1787",
+          "citation": "James Madison, The Federalist No. 10 (1787), in The Federalist Papers. Project Gutenberg eBook #1404.",
+          "note": "In Madison's use, a “faction” is any group of citizens, whether a majority or a minority, united by a shared interest or passion that threatens the rights of others or the good of the community.",
+          "text": "By a faction, I understand a number of citizens, whether amounting to a majority or a minority of the whole, who are united and actuated by some common impulse of passion, or of interest, adversed to the rights of other citizens, or to the permanent and aggregate interests of the community. . . .\n\nExtend the sphere, and you take in a greater variety of parties and interests; you make it less probable that a majority of the whole will have a common motive to invade the rights of other citizens; or if such a common motive exists, it will be more difficult for all who feel it to discover their own strength, and to act in unison with each other."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-3-8-t03",
+      "topicId": "apush-3-8",
+      "concept": "federalists-and-anti-federalists",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "3.I",
+      "keyConcepts": [
+        "KC-3.2.II.E"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following groups would most likely have opposed the argument in the excerpt?",
+      "choices": [
+        "Anti-Federalists, who believed that republics worked best in small communities close to the people",
+        "Federalists, who believed that the Constitution should be ratified without any amendments",
+        "Loyalists, who believed that the colonies should have remained under British rule even after 1783",
+        "Delegates from the large states, who wanted representation based on population in the House of Representatives"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anti-Federalists argued that a large republic would be too distant from the people, which is the opposite of Madison's argument.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Anti-Federalists argued that a large republic would be too distant from the people, which is the opposite of Madison's argument.",
+        "Federalists wrote the Federalist Papers and agreed with the argument.",
+        "Loyalists were not part of the debate over the Constitution.",
+        "Delegates from large states generally supported a stronger national government."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Federalists choice is close because Federalists argued over amendments, but they supported the argument in the excerpt.",
+      "stimulusId": "federalist-10",
+      "stimulusBlocks": [
+        {
+          "id": "federalist-10",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 3.8, KC-3.2.II.E: Federalists, whose principles were articulated in the Federalist Papers, argued for ratification of the Constitution",
+          "ced_review": "pending",
+          "attribution": "James Madison, writing as “Publius” in support of ratification of the Constitution, The Federalist No. 10, November 1787",
+          "citation": "James Madison, The Federalist No. 10 (1787), in The Federalist Papers. Project Gutenberg eBook #1404.",
+          "note": "In Madison's use, a “faction” is any group of citizens, whether a majority or a minority, united by a shared interest or passion that threatens the rights of others or the good of the community.",
+          "text": "By a faction, I understand a number of citizens, whether amounting to a majority or a minority of the whole, who are united and actuated by some common impulse of passion, or of interest, adversed to the rights of other citizens, or to the permanent and aggregate interests of the community. . . .\n\nExtend the sphere, and you take in a greater variety of parties and interests; you make it less probable that a majority of the whole will have a common motive to invade the rights of other citizens; or if such a common motive exists, it will be more difficult for all who feel it to discover their own strength, and to act in unison with each other."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-3-8-quick",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-8",
+      "title": "Topic 3.8 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-3-8-q01",
+        "apush-3-8-q02",
+        "apush-3-8-q03"
+      ]
+    },
+    {
+      "id": "apush-3-8-quiz",
+      "courseId": "apush",
+      "unitId": "apush-3",
+      "topicId": "apush-3-8",
+      "title": "The Constitutional Convention and Debates over Ratification topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-3-8-q01",
+        "apush-3-8-q02",
+        "apush-3-8-q03",
+        "apush-3-8-q04",
+        "apush-3-8-q05",
+        "apush-3-8-q06",
+        "apush-3-8-q07",
+        "apush-3-8-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "convention-and-compromise": {
+      "id": "convention-and-compromise",
+      "title": "The Convention and its compromises",
+      "section": "convention-and-compromise",
+      "topicId": "apush-3-8"
+    },
+    "federalists-and-anti-federalists": {
+      "id": "federalists-and-anti-federalists",
+      "title": "Federalists and Anti-Federalists",
+      "section": "federalists-and-anti-federalists",
+      "topicId": "apush-3-8"
+    },
+    "bill-of-rights": {
+      "id": "bill-of-rights",
+      "title": "The Bill of Rights",
+      "section": "bill-of-rights",
+      "topicId": "apush-3-8"
+    }
+  },
+  "assets": {}
+}
