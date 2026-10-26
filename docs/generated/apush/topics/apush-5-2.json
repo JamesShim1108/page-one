@@ -1,0 +1,518 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-2",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 2,
+    "code": "5.2",
+    "title": "Manifest Destiny",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "Why many Americans believed that the nation was meant to reach the Pacific, how settlers and new laws moved people west, and how the United States sought ties with Asia."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "e96e8e3a4572a7c6",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-5-2",
+    "unitId": "apush-5",
+    "courseId": "apush",
+    "code": "5.2",
+    "title": "Manifest Destiny",
+    "period": "1844–1877",
+    "status": "ready",
+    "order": 2,
+    "summary": "Why many Americans believed that the nation was meant to reach the Pacific, how settlers and new laws moved people west, and how the United States sought ties with Asia.",
+    "minutes": 12,
+    "learningGoals": [
+      "Explain how the idea of Manifest Destiny was used to justify westward expansion.",
+      "Explain the causes of migration to the West, including the role of new legislation.",
+      "Explain how interest in trade led to American initiatives in Asia."
+    ],
+    "bigIdea": "Belief in Manifest Destiny, hopes for land and wealth, and new laws moved Americans west, while interest in trade pulled the nation toward Asia.",
+    "context": "The CED asks you to explain the causes and effects of westward expansion. For each cause, ask who held the belief or hope and what it led them to do.",
+    "sections": [
+      {
+        "id": "manifest-destiny-and-annexation",
+        "title": "Manifest Destiny and annexation",
+        "conceptTitle": "Manifest Destiny and annexation",
+        "lenses": [
+          "GEO",
+          "NAT",
+          "WOR"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Advocates of annexing western lands argued that Manifest Destiny and the superiority of American institutions compelled the United States to expand its borders westward to the Pacific Ocean. The phrase was used in 1845 by the journalist John L. O'Sullivan, and it expressed a widespread belief that the nation was meant to spread across the continent. This expansion frequently provoked competition and violent conflict."
+          },
+          {
+            "type": "paragraph",
+            "text": "President James K. Polk, elected in 1844, made expansion the aim of his administration. Texas, which had won its independence from Mexico in 1836, became a state in 1845. In his Inaugural Address, Polk described the annexation of Texas as a “peaceful acquisition” and claimed that the right of the United States to the Oregon country was “clear and unquestionable.” In 1846 the United States and Britain agreed to divide the Oregon country along the 49th parallel, and expansion into the Southwest led to war with Mexico, which is the subject of Topic 5.3."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Manifest Destiny was a popular belief and not a law or a treaty. Many Americans did not share it. Some Whigs and Northerners opposed annexation because they feared that it would add slave states."
+          }
+        ],
+        "takeaway": "Manifest Destiny gave a name to the belief that the United States should stretch to the Pacific, and Polk acted on it."
+      },
+      {
+        "id": "migration-to-the-west",
+        "title": "Migration to the West",
+        "conceptTitle": "Migration to the West",
+        "lenses": [
+          "MIG",
+          "WXT",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The desire for access to natural and mineral resources and the hope of many settlers for economic opportunities or religious refuge led to increased migration to and settlement in the West. In the 1840s thousands of families followed the Oregon Trail to the Pacific Northwest. In 1847 the Mormons, who had suffered violence in the Midwest, followed Brigham Young to the Great Salt Lake in what became Utah. After gold was discovered at Sutter's Mill in 1848, hundreds of thousands of people, including migrants from Latin America, Europe, and China, came to California in the Gold Rush that followed."
+          },
+          {
+            "type": "paragraph",
+            "text": "Westward migration was boosted during and after the Civil War by the passage of new legislation promoting western transportation and economic development. The Homestead Act (1862) offered 160 acres of public land to settlers who lived on it and farmed it for five years. The Pacific Railway Act (1862) provided land and loans for the building of a transcontinental railroad, which was completed in 1869. The Morrill Land-Grant Act (1862) gave states land to support colleges."
+          }
+        ],
+        "takeaway": "Resources, opportunity, and religious refuge drew migrants west, and the laws of 1862 sped the movement during the Civil War era."
+      },
+      {
+        "id": "trade-with-asia",
+        "title": "Trade with Asia",
+        "conceptTitle": "Trade with Asia",
+        "lenses": [
+          "WOR",
+          "WXT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "U.S. interest in expanding trade led to economic, diplomatic, and cultural initiatives to create more ties with Asia. The Treaty of Wanghia (1844) opened Chinese ports to American merchants. In 1853 and 1854 Commodore Matthew Perry led a naval squadron to Japan and negotiated the Treaty of Kanagawa, which opened two Japanese ports to American ships. The acquisition of California gave the United States ports on the Pacific for this trade."
+          },
+          {
+            "type": "paragraph",
+            "text": "After the Civil War, Secretary of State William Seward continued the effort to extend American reach. In 1867 the United States purchased Alaska from Russia for $7.2 million, which gave it a base on the northern Pacific."
+          }
+        ],
+        "takeaway": "Trade with Asia was one reason that the United States wanted Pacific ports, and treaties in China and Japan followed."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 5.3",
+        "title": "From annexation to war",
+        "body": "Expansion into Texas and the Southwest led to a border dispute with Mexico. Topic 5.3 follows the war that resulted.",
+        "transferQuestion": "How was Polk's argument for annexing Texas similar to, or different from, Jefferson's reasons for buying Louisiana?",
+        "feedback": "A strong answer notes that both leaders sought security and markets and linked land to the nation's future, while Jefferson doubted that the Constitution allowed the purchase and Polk presented annexation as the wish of Texas.",
+        "links": [
+          {
+            "topicId": "apush-4-4",
+            "sectionId": "diplomacy-and-borders",
+            "label": "Review earlier border agreements"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "polk-1845"
+    ]
+  },
+  "bankPath": "apush/banks/apush-5-2.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    },
+    {
+      "id": "polk-1845",
+      "label": "James K. Polk, Inaugural Address (1845), NLTK inaugural corpus transcript",
+      "url": "https://github.com/nltk/nltk_data",
+      "note": "Public-domain presidential address quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against the corpus transcript."
+    }
+  ],
+  "assets": {}
+}

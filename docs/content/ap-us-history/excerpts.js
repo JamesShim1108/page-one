@@ -610,4 +610,191 @@ export const excerpts = {
     note: "“These words” are the objections of Hugh Auld, Douglass’s master in Baltimore, to his wife Sophia Auld teaching the young Douglass to read.",
     text: "These words sank deep into my heart, stirred up sentiments within that lay slumbering, and called into existence an entirely new train of thought. It was a new and special revelation, explaining dark and mysterious things, with which my youthful understanding had struggled, but struggled in vain. I now understood what had been to me a most perplexing difficulty--to wit, the white man's power to enslave the black man. It was a grand achievement, and I prized it highly. From that moment, I understood the pathway from slavery to freedom. It was just what I wanted, and I got it at a time when I the least expected it.",
   },
+
+  polkAnnexation: {
+    id: "polk-inaugural-annexation",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.2, KC-5.1.I.B: advocates of annexing western lands argued that Manifest Destiny and the superiority of American institutions compelled the United States to expand its borders westward to the Pacific Ocean",
+    ced_review: "pending",
+    attribution:
+      "President James K. Polk, in his Inaugural Address on March 4, 1845, three months after Congress voted to invite Texas into the Union",
+    citation:
+      "James K. Polk, Inaugural Address (March 4, 1845). NLTK inaugural corpus, 1845-Polk.txt.",
+    note: "Texas had been an independent republic since 1836. “The Oregon” was the region west of the Rocky Mountains that both the United States and Britain claimed.",
+    text: "Foreign powers should therefore look on the annexation of Texas to the United States not as the conquest of a nation seeking to extend her dominions by arms and violence, but as the peaceful acquisition of a territory once her own, by adding another member to our confederation, with the consent of that member, thereby diminishing the chances of war and opening to them new and ever-increasing markets for their products.\n\nNor will it become in a less degree my duty to assert and maintain by all constitutional means the right of the United States to that portion of our territory which lies beyond the Rocky Mountains. Our title to the country of the Oregon is “clear and unquestionable,” and already are our people preparing to perfect that title by occupying it with their wives and children. . . . The jurisdiction of our laws and the benefits of our republican institutions should be extended over them in the distant regions which they have selected for their homes.",
+  },
+  polkWar: {
+    id: "polk-message-mexico-1846",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.3, KC-5.1.I.C: the United States added large territories in the West through victory in the Mexican–American War and diplomatic negotiations",
+    ced_review: "pending",
+    attribution:
+      "President James K. Polk, in his Second Annual Message to Congress on December 8, 1846, while the United States was at war with Mexico",
+    citation:
+      "James K. Polk, Second Annual Message to Congress (December 8, 1846), in State of the Union Addresses of James Polk. Project Gutenberg eBook #5019.",
+    note: "Mexico did not accept the Rio Grande as the border of Texas and claimed the land north of the Rio Grande as far as the Nueces River. Polk was explaining why the United States was at war.",
+    text: "Whilst occupying his position on the east bank of the Rio Grande, within the limits of Texas, then recently admitted as one of the States of our Union, the commanding general of the Mexican forces, who, in pursuance of the orders of his Government, had collected a large army on the opposite shore of the Rio Grande, crossed the river, invaded our territory, and commenced hostilities by attacking our forces. Thus, after all the injuries which we had received and borne from Mexico, and after she had insultingly rejected a minister sent to her on a mission of peace, and whom she had solemnly agreed to receive, she consummated her long course of outrage against our country by commencing an offensive war and shedding the blood of our citizens on our own soil.",
+  },
+  thoreauWar: {
+    id: "thoreau-mexican-war",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.3, KC-5.1.I.C: the Mexican–American War raised questions about the status of slavery in the newly acquired lands",
+    ced_review: "pending",
+    attribution:
+      "Henry David Thoreau, a writer from Massachusetts who spent a night in jail in 1846 for refusing to pay a tax, in his essay “Resistance to Civil Government,” published in 1849 and later called “Civil Disobedience”",
+    citation:
+      "Henry David Thoreau, “Resistance to Civil Government” (1849), later titled On the Duty of Civil Disobedience. Project Gutenberg eBook #71.",
+    note: "By “the standing government,” Thoreau means the government of the United States as it was run from day to day.",
+    text: "Witness the present Mexican war, the work of comparatively a few individuals using the standing government as their tool; for, in the outset, the people would not have consented to this measure.\n\n. . . This people must cease to hold slaves, and to make war on Mexico, though it cost them their existence as a people.",
+  },
+  lincolnCooper: {
+    id: "lincoln-cooper-union-1860",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.5, KC-5.2.I.A and KC-5.2.I.C: Northerners who joined the free-soil movement portrayed the expansion of slavery as incompatible with free labor, while defenders of slavery called it a positive social good",
+    ced_review: "pending",
+    attribution:
+      "Abraham Lincoln, a Republican from Illinois who had not yet been nominated for president, in a speech to an audience of New York Republicans at Cooper Institute on February 27, 1860",
+    citation:
+      "Abraham Lincoln, Cooper Institute Speech (February 27, 1860), in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate. Project Gutenberg eBook #48364.",
+    note: "In this part of the speech, Lincoln speaks to Southerners, and “they” and “their” refer to the defenders of slavery.",
+    text: "Holding, as they do, that slavery is morally right and socially elevating, they cannot cease to demand a full national recognition of it as a legal right and a social blessing.\n\nTheir thinking it right and our thinking it wrong is the precise fact upon which depends the whole controversy.\n\nWrong as we think slavery is, we can yet afford to let it alone where it is, because that much is due to the necessity arising from its actual presence in the nation; but can we, while our votes will prevent it, allow it to spread into the national Territories, and to overrun us here in these free States?",
+  },
+  lincolnOttawa: {
+    id: "lincoln-ottawa-1858",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.6, KC-5.2.II.B.ii: the Kansas–Nebraska Act and the Dred Scott decision failed to reduce conflict over slavery in the territories",
+    ced_review: "pending",
+    attribution:
+      "Abraham Lincoln, the Republican candidate for the U.S. Senate in Illinois, replying to Stephen A. Douglas in their first debate at Ottawa, Illinois, on August 21, 1858",
+    citation:
+      "Abraham Lincoln, reply in the first Lincoln–Douglas debate (Ottawa, Illinois, August 21, 1858), in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate. Project Gutenberg eBook #48364.",
+    note: "Lincoln is defending his earlier statement, in his “House Divided” speech, that “a house divided against itself cannot stand.” “He” is Douglas, the Democratic senator who wrote the Kansas–Nebraska Act and supported popular sovereignty.",
+    text: "I leave it to you to say whether, in the history of our government, this institution of slavery has not always failed to be a bond of union, and on the contrary been an apple of discord and an element of division in the house. . . .\n\nlately, I think that he, and those acting with him, have placed that institution on a new basis, which looks to the perpetuity and nationalization of slavery. And while it is placed upon this new basis, I say and I have said that I believe we shall not have peace upon the question until the opponents of slavery arrest the further spread of it, and place it where the public mind shall rest in the belief that it is in the course of ultimate extinction; or, on the other hand, that its advocates will push it forward until it shall become alike lawful in all the States, old as well as new, North as well as South.",
+  },
+  lincolnFirstInaugural: {
+    id: "lincoln-first-inaugural-1861",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.7, KC-5.2.II.D: after a series of contested debates about secession, most slave states voted to secede from the Union",
+    ced_review: "pending",
+    attribution:
+      "President Abraham Lincoln, in his First Inaugural Address on March 4, 1861, after seven Southern states had declared that they had left the Union",
+    citation:
+      "Abraham Lincoln, First Inaugural Address (March 4, 1861). NLTK inaugural corpus, 1861-Lincoln.txt.",
+    note: "By “the institution of slavery in the States where it exists,” Lincoln means slavery in the Southern states, as opposed to slavery in the territories.",
+    text: "I have no purpose, directly or indirectly, to interfere with the institution of slavery in the States where it exists. I believe I have no lawful right to do so, and I have no inclination to do so.\n\nI hold that in contemplation of universal law and of the Constitution the Union of these States is perpetual.\n\nIn your hands, my dissatisfied fellow-countrymen, and not in mine, is the momentous issue of civil war. The Government will not assail you. You can have no conflict without being yourselves the aggressors. You have no oath registered in heaven to destroy the Government, while I shall have the most solemn one to “preserve, protect, and defend it.”",
+  },
+  originalResourcesTable: {
+    id: "original-resources-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 5.8, KC-5.3.I.D: the Union ultimately succeeded due to improvements in leadership and strategy, key victories, greater resources, and the wartime destruction of the South's infrastructure",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from rounded figures commonly reported for the United States in 1860–1861",
+    caption: "The Union and the Confederacy at the start of the Civil War, 1861",
+    columns: ["Resource", "Union", "Confederacy"],
+    rows: [
+      [
+        "Population",
+        "About 22 million",
+        "About 9 million, including about 3.5 million enslaved people",
+      ],
+      ["Railroad mileage", "About 22,000 miles", "About 9,000 miles"],
+      ["Share of the nation's manufacturing", "Roughly nine-tenths", "Roughly one-tenth"],
+      ["Cotton", "Little grown", "Nearly all of the nation's cotton, a leading export"],
+      ["Navy", "Held nearly all of the U.S. Navy's ships", "Had to build or buy a navy"],
+    ],
+    citation:
+      "Compiled by Page One; figures are rounded approximations of those usually reported from the 1860 census. See the Topic 5.8 reading.",
+  },
+  emancipationProclamation: {
+    id: "emancipation-proclamation-1863",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.9, KC-5.3.I.B: Lincoln's decision to issue the Emancipation Proclamation reframed the purpose of the war",
+    ced_review: "pending",
+    attribution:
+      "President Abraham Lincoln, in the Emancipation Proclamation, issued on January 1, 1863, during the Civil War",
+    citation:
+      "Abraham Lincoln, Proclamation of Emancipation (January 1, 1863), in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate. Project Gutenberg eBook #48364.",
+    note: "The proclamation applied to the areas that the president named as being “in rebellion.” It did not name the four slave states that had stayed in the Union.",
+    text: "I, ABRAHAM LINCOLN, President of the United States, by virtue of the power in me vested as Commander-in-Chief of the army and navy of the United States in time of actual armed rebellion against the authority and government of the United States, and as a fit and necessary war measure for suppressing said rebellion, do . . . order and designate, as the States and parts of States wherein the people thereof respectively are this day in rebellion against the United States, the following, to wit: . . . .\n\nAnd, by virtue of the power and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States and parts of States are and henceforth shall be free; and that the Executive Government of the United States, including the military and naval authorities thereof, will recognize and maintain the freedom of said persons.\n\nAnd I further declare and make known that such persons of suitable condition will be received into the armed service of the United States, to garrison forts, positions, stations, and other places, and to man vessels of all sorts in said service.",
+  },
+  gettysburgAddress: {
+    id: "gettysburg-address-1863",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.9, KC-5.3.I.C: Lincoln used speeches such as the Gettysburg Address to portray the struggle against slavery as the fulfillment of America's founding democratic ideals",
+    ced_review: "pending",
+    attribution:
+      "President Abraham Lincoln, at the dedication of the national cemetery at Gettysburg, Pennsylvania, on November 19, 1863, four months after the battle there",
+    citation:
+      "Abraham Lincoln, Gettysburg Address (1863), in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate. Project Gutenberg eBook #48364.",
+    note: "“Fourscore and seven years ago” points back to 1776, the year of the Declaration of Independence.",
+    text: "Fourscore and seven years ago our fathers brought forth upon this continent a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field as a final resting-place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this. But in a larger sense we cannot dedicate, we cannot consecrate, we cannot hallow this ground. The brave men, living and dead, who struggled here, have consecrated it far above our power to add or detract. The world will little note, nor long remember, what we say here; but it can never forget what they did here. It is for us, the living, rather to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us, that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion; that we here highly resolve that these dead shall not have died in vain; that this nation, under God, shall have a new birth of freedom, and that government of the people, by the people, and for the people, shall not perish from the earth.",
+  },
+  originalAmendmentsTable: {
+    id: "original-amendments-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 5.10, KC-5.3.II.A: the 13th Amendment abolished slavery, while the 14th and 15th amendments granted African Americans citizenship, equal protection under the laws, and voting rights",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from the text of the Thirteenth, Fourteenth, and Fifteenth Amendments",
+    caption: "The Reconstruction amendments, 1865–1870",
+    columns: ["Amendment", "Ratified", "What it did", "What it left open"],
+    rows: [
+      [
+        "Thirteenth",
+        "1865",
+        "Abolished slavery throughout the United States",
+        "Permitted forced labor as a punishment for crime, which Southern states used in the Black Codes",
+      ],
+      [
+        "Fourteenth",
+        "1868",
+        "Made all persons born or naturalized in the United States citizens and barred states from denying equal protection of the laws",
+        "Did not guarantee the vote to African Americans, and it wrote the word “male” into the Constitution in setting penalties for denying the vote",
+      ],
+      [
+        "Fifteenth",
+        "1870",
+        "Barred the national government and the states from denying the vote on account of race, color, or previous condition of servitude",
+        "Said nothing about sex, and states found other ways to limit Black voting, such as poll taxes and literacy tests",
+      ],
+    ],
+    citation: "Compiled by Page One; see the Topic 5.10 reading.",
+  },
+  hayesInaugural: {
+    id: "hayes-inaugural-1877",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 5.11, KC-5.3.II.E: segregation, violence, Supreme Court decisions, and local political tactics progressively stripped away African American rights",
+    ced_review: "pending",
+    attribution:
+      "President Rutherford B. Hayes, in his Inaugural Address on March 5, 1877, after a disputed election and as federal troops were leaving the last Southern states they occupied",
+    citation:
+      "Rutherford B. Hayes, Inaugural Address (March 5, 1877). NLTK inaugural corpus, 1877-Hayes.txt.",
+    note: "Hayes uses “local self-government” to mean that Southern states would run their own affairs without federal troops. “The white and … the colored people” means white and Black Southerners.",
+    text: "The people of those States are still impoverished, and the inestimable blessing of wise, honest, and peaceful local self-government is not fully enjoyed. Whatever difference of opinion may exist as to the cause of this condition of things, the fact is clear that in the progress of events the time has come when such government is the imperative necessity required by all the varied interests, public and private, of those States. But it must not be forgotten that only a local government which recognizes and maintains inviolate the rights of all is a true self-government.\n\nLet me assure my countrymen of the Southern States that it is my earnest desire to regard and promote their truest interest -- the interests of the white and of the colored people both and equally -- and to put forth my best efforts in behalf of a civil policy which will forever wipe out in our political affairs the color line and the distinction between North and South, to the end that we may have not merely a united North or a united South, but a united country.",
+  },
 };

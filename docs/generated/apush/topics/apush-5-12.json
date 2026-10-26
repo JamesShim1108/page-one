@@ -1,0 +1,524 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-12",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 12,
+    "code": "5.12",
+    "title": "Comparison in Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "A guide to comparing the responses to slavery before the Civil War, the two sides in the war, and the roles of the federal government during the war and Reconstruction."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "4591bd805fa036b1",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-5-12",
+    "unitId": "apush-5",
+    "courseId": "apush",
+    "code": "5.12",
+    "title": "Comparison in Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "order": 12,
+    "summary": "A guide to comparing the responses to slavery before the Civil War, the two sides in the war, and the roles of the federal government during the war and Reconstruction.",
+    "minutes": 12,
+    "learningGoals": [
+      "Explain what a comparison is and how to separate similarities from differences.",
+      "Compare Northern and Southern responses to slavery and the national attempts to settle the question in the 1850s.",
+      "Compare the Union and the Confederacy, and compare the Civil War and Reconstruction as turning points for the federal government and for rights."
+    ],
+    "bigIdea": "The Civil War and Reconstruction ended slavery and enlarged the power of the federal government, but they left unresolved many questions about the power of that government and the rights of citizens.",
+    "context": "The CED treats comparison as a historical reasoning process. The strongest answers choose a category of comparison, identify at least one similarity and one difference, and explain why they existed, using specific evidence.",
+    "sections": [
+      {
+        "id": "how-to-reason-about-comparison",
+        "title": "How to reason about comparison",
+        "conceptTitle": "How to reason about comparison",
+        "lenses": [
+          "NAT",
+          "SOC"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Comparison means describing and explaining similarities and differences between two or more people, groups, events, or developments. Begin by naming the things you are comparing. Then choose a category of comparison, such as economy, goals, methods, or results, so that your points line up. Say what they share and how they differ in that category."
+          },
+          {
+            "type": "paragraph",
+            "text": "A strong comparison also explains why. A similarity or a difference becomes historical reasoning when you say what caused it or what it shows. Do not describe each item separately and leave the reader to find the link. Use words such as “both,” “however,” and “whereas” to keep the two sides in the same sentence."
+          }
+        ],
+        "takeaway": "Name the items, choose a category, give a similarity and a difference, and explain why."
+      },
+      {
+        "id": "comparing-responses-to-slavery",
+        "title": "Comparing responses to slavery before the war",
+        "conceptTitle": "Comparing responses to slavery before the war",
+        "lenses": [
+          "SOC",
+          "PCE",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ideological and economic differences over slavery produced an array of diverging responses from Americans in the North and the South. The North's expanding manufacturing economy relied on free labor, in contrast to the Southern economy's dependence on enslaved labor. Within the North, abolitionists, who were a minority, presented moral arguments against slavery as an institution and sometimes expressed a willingness to use violence. Free-soilers wanted only to stop its spread to protect free labor, and some of them did not object to slavery on principle. In the South, defenders of slavery relied on racial doctrines, on the view that slavery was a positive social good, and on the belief that the Constitution protected slavery and states' rights."
+          },
+          {
+            "type": "paragraph",
+            "text": "National leaders tried to settle the question of slavery in the territories. The Compromise of 1850 admitted California as a free state, applied popular sovereignty to Utah and New Mexico, ended the slave trade in the District of Columbia, and passed a stronger Fugitive Slave Act. The Kansas–Nebraska Act of 1854 also relied on popular sovereignty, but it repealed the Missouri Compromise line. The two measures were alike in leaving the choice to settlers, but they differed in their results. The Compromise of 1850 eased the conflict for a time, and the Kansas–Nebraska Act revived it, split the Whigs and the Democrats, and led to the Republican Party and to violence in Kansas."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the Lincoln–Douglas debates of 1858, Stephen Douglas defended popular sovereignty, while Abraham Lincoln argued that slavery should not spread into the territories. Both men were Illinois candidates who wished to preserve the Union. They differed over whether the nation could allow slavery to expand."
+          }
+        ],
+        "takeaway": "Americans agreed on the importance of the Union but differed over free labor, moral arguments, and the expansion of slavery, and each attempt at compromise failed to end that disagreement."
+      },
+      {
+        "id": "comparing-the-war-and-reconstruction",
+        "title": "Comparing the war and Reconstruction",
+        "conceptTitle": "Comparing the war and Reconstruction",
+        "lenses": [
+          "PCE",
+          "WXT",
+          "NAT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The North's greater manpower and industrial resources, the leadership of Abraham Lincoln and others, and the decision to emancipate enslaved people eventually led to the Union military victory. Even so, both the Union and the Confederacy mobilized their economies and societies to wage the war, drafted soldiers, and faced considerable opposition at home. The Union had the greater population, factories, and railroads. The Confederacy began with a military advantage in its defensive position, and it showed initiative and daring early in the war."
+          },
+          {
+            "type": "paragraph",
+            "text": "Emancipation and the Reconstruction amendments can be compared too. The Emancipation Proclamation of 1863 was a war measure that applied to areas in rebellion. The 13th Amendment of 1865 ended slavery everywhere in the United States, and the 14th and 15th amendments went on to address citizenship, equal protection, and voting. Women's rights leaders, in turn, were divided over whether to support amendments that left out women."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Civil War and Reconstruction both altered relationships between the states and the federal government. During the war, the national government drafted soldiers, collected an income tax, issued greenbacks, and created a national banking system. During Reconstruction it created the Freedmen's Bureau, divided the South into military districts, and amended the Constitution. They differed in purpose and in how long they lasted. Wartime powers aimed to win the war and shrank when it was over, while Reconstruction aimed to protect the rights of freed people but ended as Northern resolve waned, troops were withdrawn in 1877, and Southern states took away rights."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Do not write that two things were “similar” without naming the category. Say what they shared, such as expanding federal power, and how the aims or results differed."
+          }
+        ],
+        "takeaway": "The Civil War and Reconstruction both expanded federal power and ended slavery, but wartime power served victory, and Reconstruction's attempt to secure rights did not last."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Unit 6",
+        "title": "A nation reunited, with rights unsettled",
+        "body": "The Union victory settled the issues of slavery and secession, but left unresolved many questions about the power of the federal government and about citizenship rights. Unit 6 follows the nation as it industrializes.",
+        "transferQuestion": "Compare how the end of slavery changed the lives of formerly enslaved people in the South with how Reconstruction's end changed them.",
+        "feedback": "A strong answer notes that freedom brought citizenship, family reunions, schools, and churches, but that the loss of federal protection and sharecropping reduced the gains, and it explains that the amendments remained as a basis for later change.",
+        "links": [
+          {
+            "topicId": "apush-5-11",
+            "sectionId": "retreat-from-equal-rights",
+            "label": "Review the retreat from equal rights"
+          },
+          {
+            "topicId": "apush-5-9",
+            "sectionId": "from-union-to-emancipation",
+            "label": "Review the move from union to emancipation"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced"
+    ]
+  },
+  "bankPath": "apush/banks/apush-5-12.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    }
+  ],
+  "assets": {}
+}

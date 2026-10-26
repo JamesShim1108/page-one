@@ -171,4 +171,45 @@ export const sources = [
     url: "https://www.gutenberg.org/ebooks/23",
     note: "Public-domain text of the primary source quoted in the Unit 4 Practice Test and short-answer questions. Quotations are checked against this edition.",
   },
+  {
+    id: "polk-1845",
+    label: "James K. Polk, Inaugural Address (1845), NLTK inaugural corpus transcript",
+    url: "https://github.com/nltk/nltk_data",
+    note: "Public-domain presidential address quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against the corpus transcript.",
+  },
+  {
+    id: "polk-1846",
+    label:
+      "James K. Polk, Second Annual Message to Congress (1846), in State of the Union Addresses of James Polk, Project Gutenberg eBook #5019",
+    url: "https://www.gutenberg.org/ebooks/5019",
+    note: "Public-domain text of the primary source quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "thoreau-1849",
+    label:
+      "Henry David Thoreau, Resistance to Civil Government, later titled On the Duty of Civil Disobedience (1849), Project Gutenberg eBook #71",
+    url: "https://www.gutenberg.org/ebooks/71",
+    note: "Public-domain text of the primary source quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "lincoln-speeches",
+    label:
+      "Abraham Lincoln, speeches and the Lincoln-Douglas debates, in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate, Project Gutenberg eBook #48364",
+    url: "https://www.gutenberg.org/ebooks/48364",
+    note: "Public-domain text of the primary source quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "lincoln-1861",
+    label:
+      "Abraham Lincoln, First Inaugural Address (1861), NLTK inaugural corpus transcript",
+    url: "https://github.com/nltk/nltk_data",
+    note: "Public-domain presidential address quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against the corpus transcript.",
+  },
+  {
+    id: "hayes-1877",
+    label:
+      "Rutherford B. Hayes, Inaugural Address (1877), NLTK inaugural corpus transcript",
+    url: "https://github.com/nltk/nltk_data",
+    note: "Public-domain presidential address quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against the corpus transcript.",
+  },
 ];

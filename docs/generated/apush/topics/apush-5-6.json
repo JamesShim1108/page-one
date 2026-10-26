@@ -1,0 +1,519 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-6",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 6,
+    "code": "5.6",
+    "title": "Failure of Compromise",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "Why the Kansas–Nebraska Act, violence in Kansas, the Dred Scott decision, the Lincoln–Douglas debates, and John Brown's raid failed to settle the question of slavery and ended the old party system."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "ff060b39a208a065",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-5-6",
+    "unitId": "apush-5",
+    "courseId": "apush",
+    "code": "5.6",
+    "title": "Failure of Compromise",
+    "period": "1844–1877",
+    "status": "ready",
+    "order": 6,
+    "summary": "Why the Kansas–Nebraska Act, violence in Kansas, the Dred Scott decision, the Lincoln–Douglas debates, and John Brown's raid failed to settle the question of slavery and ended the old party system.",
+    "minutes": 13,
+    "learningGoals": [
+      "Explain how the Kansas–Nebraska Act and the collapse of the Whigs led to the Republican Party.",
+      "Explain how Bleeding Kansas and the Dred Scott decision increased conflict over slavery in the territories.",
+      "Explain how the Lincoln–Douglas debates and John Brown's raid deepened the divide between the sections."
+    ],
+    "bigIdea": "Each attempt to settle slavery in the territories in the 1850s failed to reduce conflict, and the failures destroyed the old parties and produced a sectional party in the North.",
+    "context": "The CED asks you to explain the political causes of the Civil War. For each event in this topic, ask what attempt it made to settle the question of slavery and why the attempt made the conflict worse.",
+    "sections": [
+      {
+        "id": "kansas-nebraska-and-the-republican-party",
+        "title": "The Kansas–Nebraska Act and the Republican Party",
+        "conceptTitle": "The Kansas–Nebraska Act and the Republican Party",
+        "lenses": [
+          "PCE",
+          "NAT",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In 1854 Senator Stephen Douglas introduced the Kansas–Nebraska Act to organize the lands west of Missouri and Iowa and to prepare the way for a railroad across the Midwest. The Act created the territories of Kansas and Nebraska and applied popular sovereignty to both, which repealed the ban on slavery north of 36°30′ that the Missouri Compromise had set in 1820. Many Northerners were outraged that slavery might enter lands that had been closed to it."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Kansas–Nebraska Act, the Dred Scott decision, and other attempts to resolve the issue of slavery in the territories ultimately failed to reduce conflict. The Second Party System ended when the issues of slavery and anti-immigrant nativism weakened loyalties to the two major parties and fostered the emergence of sectional parties, most notably the Republican Party in the North. The Whigs broke apart after 1852 because Northern and Southern Whigs disagreed over slavery. The Republican Party formed in 1854 from Free-Soilers, antislavery Whigs, and antislavery Democrats, and it called for stopping the spread of slavery. In 1856 its first presidential candidate, John C. Frémont, carried many Northern states but lost to the Democrat James Buchanan."
+          }
+        ],
+        "takeaway": "The Kansas–Nebraska Act reopened the question of slavery in the territories and helped to create the Republican Party."
+      },
+      {
+        "id": "bleeding-kansas-and-dred-scott",
+        "title": "Bleeding Kansas and the Dred Scott decision",
+        "conceptTitle": "Bleeding Kansas and the Dred Scott decision",
+        "lenses": [
+          "PCE",
+          "SOC",
+          "NAT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Settlers from both sides rushed into Kansas to decide the question of slavery. Proslavery Missourians crossed the border to vote, and rival governments formed. In 1856 proslavery men attacked the antislavery town of Lawrence, and John Brown and his followers killed five proslavery settlers at Pottawatomie Creek. The fighting is known as Bleeding Kansas. In the same year Representative Preston Brooks of South Carolina beat Senator Charles Sumner of Massachusetts with a cane on the floor of the Senate after Sumner gave a speech attacking slavery. Northerners called it brutality, and many Southerners praised Brooks, which showed how far apart the sections had moved."
+          },
+          {
+            "type": "paragraph",
+            "text": "In Dred Scott v. Sandford (1857), the Supreme Court ruled against Dred Scott, an enslaved man who had sued for his freedom after living in free territory. Chief Justice Roger Taney wrote that African Americans, enslaved or free, could not be citizens of the United States and that Congress had no power to ban slavery in the territories, which meant that the Missouri Compromise had always been unconstitutional. The Court meant to settle the issue. Instead it outraged Northerners and strengthened the Republican Party."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "The Dred Scott decision did not settle the question of slavery in the territories. It increased conflict, because it denied the main goal of the Republican Party."
+          }
+        ],
+        "takeaway": "Violence in Kansas and the Dred Scott ruling showed that neither force nor the courts could end the dispute."
+      },
+      {
+        "id": "lincoln-douglas-and-john-brown",
+        "title": "The Lincoln–Douglas debates and John Brown",
+        "conceptTitle": "The Lincoln–Douglas debates and John Brown",
+        "lenses": [
+          "PCE",
+          "NAT",
+          "ARC"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In 1858 Abraham Lincoln, the Republican candidate for the Senate in Illinois, debated the Democratic senator Stephen Douglas seven times. In accepting his nomination, Lincoln said, “A house divided against itself cannot stand,” and he predicted that the nation would “become all one thing or all the other.” In the debates, Lincoln argued that slavery was a wrong that must be stopped from spreading. At Freeport, Douglas answered that settlers could keep slavery out of a territory by refusing to pass laws to protect it, a position called the Freeport Doctrine, which angered Southern Democrats. Douglas won the Senate seat, but Lincoln became known across the nation."
+          },
+          {
+            "type": "paragraph",
+            "text": "In October 1859 John Brown led a small band of white and Black men in a raid on the federal arsenal at Harpers Ferry, Virginia, in an attempt to start a rebellion of enslaved people. Brown was captured and hanged. Many Northerners honored him as a martyr, and many Southerners took the Northern response as proof that the North meant to destroy slavery by force."
+          }
+        ],
+        "takeaway": "The debates made the choice between spreading slavery and stopping it the central question of the nation, and Harpers Ferry raised Southern fears."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 5.7",
+        "title": "The politics of 1860",
+        "body": "By 1860 the Democratic Party also divided along sectional lines. Topic 5.7 follows the election of 1860 and secession.",
+        "transferQuestion": "Why did the Compromise of 1850 succeed in avoiding crisis for a few years while the Kansas–Nebraska Act did not?",
+        "feedback": "A strong answer notes that the Compromise of 1850 gave each section something and left most territory unsettled, while the Kansas–Nebraska Act repealed the Missouri Compromise line and opened closed lands to slavery.",
+        "links": [
+          {
+            "topicId": "apush-5-4",
+            "sectionId": "the-compromise",
+            "label": "Review the Compromise of 1850"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "lincoln-speeches"
+    ]
+  },
+  "bankPath": "apush/banks/apush-5-6.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    },
+    {
+      "id": "lincoln-speeches",
+      "label": "Abraham Lincoln, speeches and the Lincoln-Douglas debates, in Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate, Project Gutenberg eBook #48364",
+      "url": "https://www.gutenberg.org/ebooks/48364",
+      "note": "Public-domain text of the primary source quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against this edition."
+    }
+  ],
+  "assets": {}
+}

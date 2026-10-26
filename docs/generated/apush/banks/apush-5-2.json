@@ -1,0 +1,913 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-2",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 2,
+    "code": "5.2",
+    "title": "Manifest Destiny",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "Why many Americans believed that the nation was meant to reach the Pacific, how settlers and new laws moved people west, and how the United States sought ties with Asia."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "e96e8e3a4572a7c6",
+  "questions": [
+    {
+      "id": "apush-5-2-q01",
+      "topicId": "apush-5-2",
+      "concept": "manifest-destiny-and-annexation",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "The term Manifest Destiny expressed the belief that",
+      "choices": [
+        "European powers had no right to start new colonies anywhere in the Western Hemisphere",
+        "Congress had a duty to guarantee equal rights to the people living in acquired lands",
+        "the nation was meant to spread its institutions across the continent",
+        "American farmers should stay in the East to protect the economy of the older states"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Supporters of expansion said that the nation's institutions and mission justified its spread to the Pacific.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That is the Monroe Doctrine of 1823.",
+        "The belief did not promise rights to the people already living there.",
+        "Supporters of expansion said that the nation's institutions and mission justified its spread to the Pacific.",
+        "The belief urged Americans to move west."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The European colonies choice is close because both ideas concern the hemisphere, but it describes the Monroe Doctrine and not a mission to expand.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-2-q02",
+      "topicId": "apush-5-2",
+      "concept": "migration-to-the-west",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best explains the arrival of hundreds of thousands of migrants in California after 1848?",
+      "choices": [
+        "The discovery of gold at Sutter's Mill drew people hoping for wealth",
+        "The Homestead Act offered free land to every settler who reached California",
+        "Britain closed the Oregon Trail, which turned the settlers toward California",
+        "Mexico offered free land to American families who would move to California"
+      ],
+      "correctAnswer": 0,
+      "explanation": "News of gold set off the Gold Rush, and people came from the United States, Latin America, Europe, and China.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "News of gold set off the Gold Rush, and people came from the United States, Latin America, Europe, and China.",
+        "The Homestead Act was passed in 1862, years after the Gold Rush began.",
+        "Britain did not close the trail.",
+        "Mexico made no such offer in the 1840s."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Homestead Act choice is close because that law also drew settlers west, but it came in 1862, after the Gold Rush had begun.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-5-2-q03",
+      "topicId": "apush-5-2",
+      "concept": "migration-to-the-west",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Why did Brigham Young lead the Mormons to the Great Salt Lake in 1847?",
+      "choices": [
+        "To search for gold in the mountains after hearing of a discovery in California",
+        "To claim the Oregon country for the United States on the orders of the president",
+        "To escape a federal law that had made their religion illegal in the Midwest",
+        "To find a place for their community beyond the settlements where they had met violence"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Mormons had been attacked in the Midwest and moved west to practice their faith in safety.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Gold was found in California in 1848, a year later.",
+        "The Mormons moved for religious reasons, not on orders from the government.",
+        "No federal law outlawed their religion.",
+        "The Mormons had been attacked in the Midwest and moved west to practice their faith in safety."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The gold choice is close because the West drew many settlers in these years, but the Mormons moved a year before the discovery and for religious refuge.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-2-q04",
+      "topicId": "apush-5-2",
+      "concept": "migration-to-the-west",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.D"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "The Homestead Act of 1862 encouraged western settlement by",
+      "choices": [
+        "giving public land to railroad companies that agreed to carry settlers west",
+        "offering 160 acres of public land to settlers who farmed it for five years",
+        "paying settlers a salary to defend the frontier against American Indian nations",
+        "selling western land at low prices only to farmers who already owned land in the East"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The law gave land to families who lived on it and worked it, and it brought many settlers to the Plains.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "A different law of 1862, the Pacific Railway Act, made grants to railroads.",
+        "The law gave land to families who lived on it and worked it, and it brought many settlers to the Plains.",
+        "Settlers received land, not a salary.",
+        "The Act applied to settlers who did not own land."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The railroad companies choice is close because another law of the same year gave land to railroads, but the Homestead Act gave land to settlers.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-2-q05",
+      "topicId": "apush-5-2",
+      "concept": "migration-to-the-west",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.D"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "The Pacific Railway Act of 1862 supported the development of the West by",
+      "choices": [
+        "giving farm families 160 acres on the condition that they live on it and work it",
+        "ending the tariff on goods carried by train from the East to Western markets",
+        "providing land and loans for a railroad linking the Midwest to California",
+        "creating a national bank to lend money to farmers west of the Mississippi River"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The government supported the building of a transcontinental railroad, completed in 1869, which joined East and West.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That describes the Homestead Act.",
+        "The law did not change the tariff.",
+        "The government supported the building of a transcontinental railroad, completed in 1869, which joined East and West.",
+        "The law concerned railroads and not banking."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The 160 acres choice is close because it is another law of 1862 that promoted settlement, but it describes the Homestead Act.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-5-2-q06",
+      "topicId": "apush-5-2",
+      "concept": "trade-with-asia",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.E"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following best explains why Commodore Matthew Perry sailed to Japan in 1853?",
+      "choices": [
+        "The United States hoped to annex Japan, as it had annexed Texas in 1845",
+        "The United States wanted Japan to open its ports to American trade",
+        "Japan had asked the United States for help in a war against Britain",
+        "Congress had ordered the navy to end the slave trade in Asian waters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "American merchants and the navy wanted Japanese ports open, and the Treaty of Kanagawa (1854) opened two of them.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Perry sought access to ports and not territory.",
+        "American merchants and the navy wanted Japanese ports open, and the Treaty of Kanagawa (1854) opened two of them.",
+        "Japan had not asked for help.",
+        "The mission concerned trade."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The annexation choice is close because the age was one of expansion, but Perry's mission aimed at trade and not at territory.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-5-2-q07",
+      "topicId": "apush-5-2",
+      "concept": "manifest-destiny-and-annexation",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "The belief in Manifest Destiny is best understood in the context of which of the following?",
+      "choices": [
+        "A decline in the number of settlers who wished to move west after the Panic of 1837",
+        "A treaty with Britain that barred Americans from settling west of the Rocky Mountains",
+        "A Supreme Court decision that gave the president the power to annex territory",
+        "A sense that American institutions were superior and a hunger for land, resources, and markets"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Faith in American institutions, together with the desire for land and trade, made expansion seem natural to many Americans.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Migration continued and grew in the 1840s.",
+        "No such treaty existed.",
+        "The Court issued no such decision.",
+        "Faith in American institutions, together with the desire for land and trade, made expansion seem natural to many Americans."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Panic of 1837 choice is close because the downturn affected many Americans, but settlers kept moving west and support for expansion grew.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-5-2-q08",
+      "topicId": "apush-5-2",
+      "concept": "manifest-destiny-and-annexation",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following describes a difference in how the United States gained Texas and the Oregon country?",
+      "choices": [
+        "Texas was annexed and led to war, while Oregon was divided with Britain by treaty",
+        "Oregon was annexed at the request of its people, while Texas was bought from France",
+        "Both were bought from France as part of the Louisiana Purchase of 1803",
+        "Both were won from Britain in a war that ended with the Treaty of Ghent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Annexing Texas brought a border dispute with Mexico, while the Oregon boundary was settled at the 49th parallel in 1846.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Annexing Texas brought a border dispute with Mexico, while the Oregon boundary was settled at the 49th parallel in 1846.",
+        "Texas was not bought from France.",
+        "The United States did not buy either one from France.",
+        "Neither was won in a war with Britain."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The reversed choice is close because it names the same two places, but it assigns the methods of acquisition to the wrong place.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-5-2-t01",
+      "topicId": "apush-5-2",
+      "concept": "manifest-destiny-and-annexation",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Which of the following claims about Texas is best supported by the first paragraph of the excerpt?",
+      "choices": [
+        "Annexation was a conquest that was justified by the need to protect American settlers",
+        "Foreign powers held the right to approve the terms on which Texas would join",
+        "Annexation would be peaceful because Texas consented to join and would open new markets",
+        "Annexation would close the markets of Texas to the goods of foreign nations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Polk writes of a “peaceful acquisition” made “with the consent of that member” that would open new markets.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Polk calls annexation “not . . . the conquest of a nation.”",
+        "Polk says foreign nations had no such right.",
+        "Polk writes of a “peaceful acquisition” made “with the consent of that member” that would open new markets.",
+        "He says annexation would open “new and ever-increasing markets.”"
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The conquest choice is close because the nation's critics called annexation a seizure, but Polk's paragraph rejects that description.",
+      "stimulusId": "polk-inaugural-annexation",
+      "stimulusBlocks": [
+        {
+          "id": "polk-inaugural-annexation",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.2, KC-5.1.I.B: advocates of annexing western lands argued that Manifest Destiny and the superiority of American institutions compelled the United States to expand its borders westward to the Pacific Ocean",
+          "ced_review": "pending",
+          "attribution": "President James K. Polk, in his Inaugural Address on March 4, 1845, three months after Congress voted to invite Texas into the Union",
+          "citation": "James K. Polk, Inaugural Address (March 4, 1845). NLTK inaugural corpus, 1845-Polk.txt.",
+          "note": "Texas had been an independent republic since 1836. “The Oregon” was the region west of the Rocky Mountains that both the United States and Britain claimed.",
+          "text": "Foreign powers should therefore look on the annexation of Texas to the United States not as the conquest of a nation seeking to extend her dominions by arms and violence, but as the peaceful acquisition of a territory once her own, by adding another member to our confederation, with the consent of that member, thereby diminishing the chances of war and opening to them new and ever-increasing markets for their products.\n\nNor will it become in a less degree my duty to assert and maintain by all constitutional means the right of the United States to that portion of our territory which lies beyond the Rocky Mountains. Our title to the country of the Oregon is “clear and unquestionable,” and already are our people preparing to perfect that title by occupying it with their wives and children. . . . The jurisdiction of our laws and the benefits of our republican institutions should be extended over them in the distant regions which they have selected for their homes."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-5-2-t02",
+      "topicId": "apush-5-2",
+      "concept": "manifest-destiny-and-annexation",
+      "difficulty": "Core",
+      "skill": "sourcing",
+      "subskill": "2.A",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.B"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Polk most likely described annexation as “peaceful” in order to",
+      "choices": [
+        "reassure foreign powers that the United States was not seeking conquest",
+        "persuade Congress to vote for an annexation that it had so far refused to approve",
+        "warn Mexico that the United States would use force to take California",
+        "justify the removal of American Indian nations from the lands of Texas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The paragraph addresses “foreign powers” and tells them that annexation was an agreement and not a conquest.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The paragraph addresses “foreign powers” and tells them that annexation was an agreement and not a conquest.",
+        "Congress had already approved annexation.",
+        "The excerpt does not mention California or force.",
+        "The excerpt does not mention American Indians."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Congress choice is close because the policy needed approval, but Congress had already voted and the paragraph speaks to foreign powers.",
+      "stimulusId": "polk-inaugural-annexation",
+      "stimulusBlocks": [
+        {
+          "id": "polk-inaugural-annexation",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.2, KC-5.1.I.B: advocates of annexing western lands argued that Manifest Destiny and the superiority of American institutions compelled the United States to expand its borders westward to the Pacific Ocean",
+          "ced_review": "pending",
+          "attribution": "President James K. Polk, in his Inaugural Address on March 4, 1845, three months after Congress voted to invite Texas into the Union",
+          "citation": "James K. Polk, Inaugural Address (March 4, 1845). NLTK inaugural corpus, 1845-Polk.txt.",
+          "note": "Texas had been an independent republic since 1836. “The Oregon” was the region west of the Rocky Mountains that both the United States and Britain claimed.",
+          "text": "Foreign powers should therefore look on the annexation of Texas to the United States not as the conquest of a nation seeking to extend her dominions by arms and violence, but as the peaceful acquisition of a territory once her own, by adding another member to our confederation, with the consent of that member, thereby diminishing the chances of war and opening to them new and ever-increasing markets for their products.\n\nNor will it become in a less degree my duty to assert and maintain by all constitutional means the right of the United States to that portion of our territory which lies beyond the Rocky Mountains. Our title to the country of the Oregon is “clear and unquestionable,” and already are our people preparing to perfect that title by occupying it with their wives and children. . . . The jurisdiction of our laws and the benefits of our republican institutions should be extended over them in the distant regions which they have selected for their homes."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Identify a source’s point of view, purpose, historical situation, and/or audience."
+    },
+    {
+      "id": "apush-5-2-t03",
+      "topicId": "apush-5-2",
+      "concept": "migration-to-the-west",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "5.B",
+      "keyConcepts": [
+        "KC-5.1.I.A"
+      ],
+      "themes": [
+        "GEO"
+      ],
+      "prompt": "Polk's statement that settlers were “preparing to perfect” the American title to Oregon is best understood in the context of which of the following?",
+      "choices": [
+        "The discovery of gold in California, which began a rush to the Pacific coast",
+        "The movement of American families along the Oregon Trail to the Pacific Northwest",
+        "The Homestead Act, which gave public land to settlers who farmed it",
+        "The purchase of the Louisiana Territory, which gave the nation the Oregon country"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the 1840s American families were traveling to Oregon, and Polk used their presence to support the American claim.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Gold was discovered in 1848, three years after the speech.",
+        "In the 1840s American families were traveling to Oregon, and Polk used their presence to support the American claim.",
+        "The Homestead Act was passed in 1862.",
+        "Oregon lay outside the Louisiana Purchase."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The gold choice is close because both events involved migration to the Pacific, but the Gold Rush began three years after Polk spoke.",
+      "stimulusId": "polk-inaugural-annexation",
+      "stimulusBlocks": [
+        {
+          "id": "polk-inaugural-annexation",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 5.2, KC-5.1.I.B: advocates of annexing western lands argued that Manifest Destiny and the superiority of American institutions compelled the United States to expand its borders westward to the Pacific Ocean",
+          "ced_review": "pending",
+          "attribution": "President James K. Polk, in his Inaugural Address on March 4, 1845, three months after Congress voted to invite Texas into the Union",
+          "citation": "James K. Polk, Inaugural Address (March 4, 1845). NLTK inaugural corpus, 1845-Polk.txt.",
+          "note": "Texas had been an independent republic since 1836. “The Oregon” was the region west of the Rocky Mountains that both the United States and Britain claimed.",
+          "text": "Foreign powers should therefore look on the annexation of Texas to the United States not as the conquest of a nation seeking to extend her dominions by arms and violence, but as the peaceful acquisition of a territory once her own, by adding another member to our confederation, with the consent of that member, thereby diminishing the chances of war and opening to them new and ever-increasing markets for their products.\n\nNor will it become in a less degree my duty to assert and maintain by all constitutional means the right of the United States to that portion of our territory which lies beyond the Rocky Mountains. Our title to the country of the Oregon is “clear and unquestionable,” and already are our people preparing to perfect that title by occupying it with their wives and children. . . . The jurisdiction of our laws and the benefits of our republican institutions should be extended over them in the distant regions which they have selected for their homes."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-5-2-quick",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-2",
+      "title": "Topic 5.2 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-5-2-q01",
+        "apush-5-2-q02",
+        "apush-5-2-q03"
+      ]
+    },
+    {
+      "id": "apush-5-2-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-2",
+      "title": "Manifest Destiny topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-5-2-q01",
+        "apush-5-2-q02",
+        "apush-5-2-q03",
+        "apush-5-2-q04",
+        "apush-5-2-q05",
+        "apush-5-2-q06",
+        "apush-5-2-q07",
+        "apush-5-2-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "manifest-destiny-and-annexation": {
+      "id": "manifest-destiny-and-annexation",
+      "title": "Manifest Destiny and annexation",
+      "section": "manifest-destiny-and-annexation",
+      "topicId": "apush-5-2"
+    },
+    "migration-to-the-west": {
+      "id": "migration-to-the-west",
+      "title": "Migration to the West",
+      "section": "migration-to-the-west",
+      "topicId": "apush-5-2"
+    },
+    "trade-with-asia": {
+      "id": "trade-with-asia",
+      "title": "Trade with Asia",
+      "section": "trade-with-asia",
+      "topicId": "apush-5-2"
+    }
+  },
+  "assets": {}
+}

@@ -1,0 +1,519 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-11",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 11,
+    "code": "5.11",
+    "title": "Failure of Reconstruction",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "Why freed people stayed poor under sharecropping, how Redeemers, violence, and the Compromise of 1877 ended Reconstruction, and how courts and Southern laws took away African American rights."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "c015b770070e3fb3",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-5-11",
+    "unitId": "apush-5",
+    "courseId": "apush",
+    "code": "5.11",
+    "title": "Failure of Reconstruction",
+    "period": "1844–1877",
+    "status": "ready",
+    "order": 11,
+    "summary": "Why freed people stayed poor under sharecropping, how Redeemers, violence, and the Compromise of 1877 ended Reconstruction, and how courts and Southern laws took away African American rights.",
+    "minutes": 13,
+    "learningGoals": [
+      "Explain how land ownership and the sharecropping system limited the economic independence of freed people.",
+      "Explain how violence, Northern fatigue, and the Compromise of 1877 ended Reconstruction.",
+      "Explain how segregation, Supreme Court decisions, and local tactics stripped away African American rights, and how the amendments were used later."
+    ],
+    "bigIdea": "Reconstruction left planters in control of the land and ended with the withdrawal of federal troops, and the nation then allowed Southern states to take away the rights that the amendments had promised.",
+    "context": "The CED asks you to compare the arguments of sources. The documents of this era, such as President Hayes's inaugural address, often described the same events differently from the experience of Black Southerners, so ask whose point of view each source gives.",
+    "sections": [
+      {
+        "id": "land-and-sharecropping",
+        "title": "Land and sharecropping",
+        "conceptTitle": "Land and sharecropping",
+        "lenses": [
+          "WXT",
+          "SOC",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Southern plantation owners continued to own the majority of the region's land even after Reconstruction. Many formerly enslaved people hoped to own farms of their own. In January 1865 General Sherman had set aside coastal land in Georgia and South Carolina for freed families, but President Johnson ordered most of it returned to its former owners, and Congress did not provide land for the freed people."
+          },
+          {
+            "type": "paragraph",
+            "text": "Formerly enslaved persons sought land ownership but generally fell short of self-sufficiency, as an exploitative and soil-intensive sharecropping system limited the access of Black and poor white farmers to land in the South. In sharecropping, a landowner let a family farm a plot in return for a share of the crop, and the family bought seed, tools, and food on credit from a local merchant, often at high prices. Debts often exceeded the value of the crop, which bound farmers to the land. Because merchants required cotton, farmers planted it year after year, and the soil wore out."
+          }
+        ],
+        "takeaway": "Freed people gained freedom but not land, and sharecropping tied many of them to debt and to the planters' fields."
+      },
+      {
+        "id": "redeemers-violence-and-the-end",
+        "title": "Redeemers, violence, and the end of Reconstruction",
+        "conceptTitle": "Redeemers, violence, and the end of Reconstruction",
+        "lenses": [
+          "PCE",
+          "NAT",
+          "GEO"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Southern Democrats who wanted to end Reconstruction called themselves Redeemers. They used violence by the Klan and by groups such as the White League and the Red Shirts, together with economic pressure and fraud, to keep Black voters from the polls. As Republicans lost control of Southern states, Northern support faded. Scandals in the administration of President Ulysses S. Grant and the depression that followed the Panic of 1873 drew attention away from the South. By 1876 Republicans held only South Carolina, Louisiana, and Florida."
+          },
+          {
+            "type": "paragraph",
+            "text": "The presidential election of 1876 was disputed. Samuel Tilden, the Democrat, won the popular vote, but the electoral votes of those three states were contested. A commission gave all of them to the Republican, Rutherford B. Hayes. In what is often called the Compromise of 1877, Southern Democrats accepted Hayes's election, and Hayes soon withdrew the last federal troops from the South. In his Inaugural Address Hayes called for “wise, honest, and peaceful local self-government” and promised to protect the rights of all, but the withdrawal of troops left Black Southerners without federal protection."
+          }
+        ],
+        "takeaway": "Violence, Northern fatigue, and the disputed election of 1876 ended federal enforcement of Reconstruction."
+      },
+      {
+        "id": "retreat-from-equal-rights",
+        "title": "The retreat from equal rights",
+        "conceptTitle": "The retreat from equal rights",
+        "lenses": [
+          "SOC",
+          "PCE",
+          "NAT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Segregation, violence, Supreme Court decisions, and local political tactics progressively stripped away African American rights. The Supreme Court narrowed the Fourteenth Amendment in the Slaughter-House Cases (1873) and limited federal power to prosecute attacks on Black citizens in United States v. Cruikshank (1876). In the Civil Rights Cases (1883) it held that the Amendment did not forbid private discrimination, and in Plessy v. Ferguson (1896) it upheld “separate but equal” public facilities. Southern states used poll taxes, literacy tests, and violence to keep Black men from voting, and they passed Jim Crow laws that required segregation."
+          },
+          {
+            "type": "paragraph",
+            "text": "The 14th and 15th amendments eventually became the basis for court decisions upholding civil rights in the 20th century. In Brown v. Board of Education (1954) the Court relied on the Fourteenth Amendment's guarantee of equal protection to rule that segregated public schools were unconstitutional, and the Voting Rights Act of 1965 enforced the Fifteenth Amendment."
+          },
+          {
+            "type": "callout",
+            "title": "Common trap",
+            "text": "Reconstruction did not simply disappear in 1877. The amendments stayed in the Constitution, which is why the nation could return to them in the 20th century."
+          }
+        ],
+        "takeaway": "Courts, laws, and violence took away rights in the South, but the amendments remained as the basis for later change."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 5.12",
+        "title": "Weighing the results of the war",
+        "body": "Topic 5.12 asks you to compare the effects of the Civil War and Reconstruction on American values.",
+        "transferQuestion": "Which was the greater change in American life, the end of slavery or the failure of Reconstruction to secure equal rights, and why?",
+        "feedback": "A strong answer takes a position, uses evidence such as the Thirteenth Amendment, sharecropping, or the Slaughter-House Cases, and explains why one effect was more significant while recognizing that the two are connected.",
+        "links": [
+          {
+            "topicId": "apush-5-10",
+            "sectionId": "reconstruction-in-the-south",
+            "label": "Review Reconstruction in the South"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "hayes-1877"
+    ]
+  },
+  "bankPath": "apush/banks/apush-5-11.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    },
+    {
+      "id": "hayes-1877",
+      "label": "Rutherford B. Hayes, Inaugural Address (1877), NLTK inaugural corpus transcript",
+      "url": "https://github.com/nltk/nltk_data",
+      "note": "Public-domain presidential address quoted in the Unit 5 Practice Test and short-answer questions. Quotations are checked against the corpus transcript."
+    }
+  ],
+  "assets": {}
+}

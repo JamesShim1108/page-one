@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "apush",
-  "revision": "eafe8f4e98495b34",
+  "revision": "33a30fd5391df6c0",
   "pools": [
     {
       "id": "apush-1-1:apush-1-1-quiz",
@@ -727,6 +727,214 @@
         "apush-4-14-q07",
         "apush-4-14-q08",
         "apush-4-14-q09"
+      ]
+    },
+    {
+      "id": "apush-5-1:apush-5-1-quiz",
+      "quizId": "apush-5-1-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-1",
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "bankPath": "apush/banks/apush-5-1.json",
+      "questionIds": [
+        "apush-5-1-q02",
+        "apush-5-1-q03",
+        "apush-5-1-q05",
+        "apush-5-1-q07",
+        "apush-5-1-q08"
+      ]
+    },
+    {
+      "id": "apush-5-2:apush-5-2-quiz",
+      "quizId": "apush-5-2-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-2",
+      "code": "5.2",
+      "title": "Manifest Destiny",
+      "bankPath": "apush/banks/apush-5-2.json",
+      "questionIds": [
+        "apush-5-2-q02",
+        "apush-5-2-q03",
+        "apush-5-2-q05",
+        "apush-5-2-q07",
+        "apush-5-2-q08"
+      ]
+    },
+    {
+      "id": "apush-5-3:apush-5-3-quiz",
+      "quizId": "apush-5-3-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-3",
+      "code": "5.3",
+      "title": "The Mexican–American War",
+      "bankPath": "apush/banks/apush-5-3.json",
+      "questionIds": [
+        "apush-5-3-q02",
+        "apush-5-3-q03",
+        "apush-5-3-q05",
+        "apush-5-3-q07",
+        "apush-5-3-q08"
+      ]
+    },
+    {
+      "id": "apush-5-4:apush-5-4-quiz",
+      "quizId": "apush-5-4-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-4",
+      "code": "5.4",
+      "title": "The Compromise of 1850",
+      "bankPath": "apush/banks/apush-5-4.json",
+      "questionIds": [
+        "apush-5-4-q02",
+        "apush-5-4-q03",
+        "apush-5-4-q05",
+        "apush-5-4-q07",
+        "apush-5-4-q08",
+        "apush-5-4-q09"
+      ]
+    },
+    {
+      "id": "apush-5-5:apush-5-5-quiz",
+      "quizId": "apush-5-5-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-5",
+      "code": "5.5",
+      "title": "Sectional Conflict: Regional Differences",
+      "bankPath": "apush/banks/apush-5-5.json",
+      "questionIds": [
+        "apush-5-5-q02",
+        "apush-5-5-q03",
+        "apush-5-5-q05",
+        "apush-5-5-q07",
+        "apush-5-5-q08",
+        "apush-5-5-q09"
+      ]
+    },
+    {
+      "id": "apush-5-6:apush-5-6-quiz",
+      "quizId": "apush-5-6-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-6",
+      "code": "5.6",
+      "title": "Failure of Compromise",
+      "bankPath": "apush/banks/apush-5-6.json",
+      "questionIds": [
+        "apush-5-6-q02",
+        "apush-5-6-q03",
+        "apush-5-6-q05",
+        "apush-5-6-q07",
+        "apush-5-6-q08"
+      ]
+    },
+    {
+      "id": "apush-5-7:apush-5-7-quiz",
+      "quizId": "apush-5-7-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-7",
+      "code": "5.7",
+      "title": "Election of 1860 and Secession",
+      "bankPath": "apush/banks/apush-5-7.json",
+      "questionIds": [
+        "apush-5-7-q02",
+        "apush-5-7-q03",
+        "apush-5-7-q05",
+        "apush-5-7-q07",
+        "apush-5-7-q08"
+      ]
+    },
+    {
+      "id": "apush-5-8:apush-5-8-quiz",
+      "quizId": "apush-5-8-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-8",
+      "code": "5.8",
+      "title": "Military Conflict in the Civil War",
+      "bankPath": "apush/banks/apush-5-8.json",
+      "questionIds": [
+        "apush-5-8-q02",
+        "apush-5-8-q03",
+        "apush-5-8-q05",
+        "apush-5-8-q07",
+        "apush-5-8-q08"
+      ]
+    },
+    {
+      "id": "apush-5-9:apush-5-9-quiz",
+      "quizId": "apush-5-9-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-9",
+      "code": "5.9",
+      "title": "Government Policies During the Civil War",
+      "bankPath": "apush/banks/apush-5-9.json",
+      "questionIds": [
+        "apush-5-9-q02",
+        "apush-5-9-q03",
+        "apush-5-9-q05",
+        "apush-5-9-q07",
+        "apush-5-9-q08"
+      ]
+    },
+    {
+      "id": "apush-5-10:apush-5-10-quiz",
+      "quizId": "apush-5-10-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-10",
+      "code": "5.10",
+      "title": "Reconstruction",
+      "bankPath": "apush/banks/apush-5-10.json",
+      "questionIds": [
+        "apush-5-10-q02",
+        "apush-5-10-q03",
+        "apush-5-10-q05",
+        "apush-5-10-q07",
+        "apush-5-10-q08",
+        "apush-5-10-q09"
+      ]
+    },
+    {
+      "id": "apush-5-11:apush-5-11-quiz",
+      "quizId": "apush-5-11-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-11",
+      "code": "5.11",
+      "title": "Failure of Reconstruction",
+      "bankPath": "apush/banks/apush-5-11.json",
+      "questionIds": [
+        "apush-5-11-q02",
+        "apush-5-11-q03",
+        "apush-5-11-q05",
+        "apush-5-11-q07",
+        "apush-5-11-q08"
+      ]
+    },
+    {
+      "id": "apush-5-12:apush-5-12-quiz",
+      "quizId": "apush-5-12-quiz",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "topicId": "apush-5-12",
+      "code": "5.12",
+      "title": "Comparison in Period 5",
+      "bankPath": "apush/banks/apush-5-12.json",
+      "questionIds": [
+        "apush-5-12-q02",
+        "apush-5-12-q03",
+        "apush-5-12-q05",
+        "apush-5-12-q07",
+        "apush-5-12-q08",
+        "apush-5-12-q09"
       ]
     }
   ]

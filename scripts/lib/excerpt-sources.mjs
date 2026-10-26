@@ -202,6 +202,48 @@ export const EXCERPT_SOURCES = Object.freeze({
     label:
       "Project Gutenberg #23 (Narrative of the Life of Frederick Douglass, an American Slave), file 23.txt",
   },
+  "polk-inaugural-": {
+    files: ["inaugural-1845-Polk.txt"],
+    label: "NLTK inaugural corpus, 1845-Polk.txt (C-SPAN transcript)",
+  },
+  "polk-message-": {
+    files: ["polk-state-of-union.txt"],
+    label:
+      "Project Gutenberg #5019 (State of the Union Addresses of James Polk), file 5019-8.txt, converted to UTF-8",
+  },
+  "thoreau-": {
+    files: ["thoreau-civil-disobedience.txt"],
+    label:
+      "Project Gutenberg #71 (Thoreau, On the Duty of Civil Disobedience), file 71-0.txt",
+  },
+  "lincoln-ottawa-": {
+    files: ["lincoln-noted-speeches.txt"],
+    label:
+      "Project Gutenberg #48364 (Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate), file 48364-0.txt",
+  },
+  "lincoln-cooper-": {
+    files: ["lincoln-noted-speeches.txt"],
+    label:
+      "Project Gutenberg #48364 (Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate), file 48364-0.txt",
+  },
+  "lincoln-first-inaugural-": {
+    files: ["inaugural-1861-Lincoln.txt"],
+    label: "NLTK inaugural corpus, 1861-Lincoln.txt (C-SPAN transcript)",
+  },
+  "emancipation-": {
+    files: ["lincoln-noted-speeches.txt"],
+    label:
+      "Project Gutenberg #48364 (Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate), file 48364-0.txt",
+  },
+  "gettysburg-": {
+    files: ["lincoln-noted-speeches.txt"],
+    label:
+      "Project Gutenberg #48364 (Noted Speeches of Abraham Lincoln, Including the Lincoln-Douglas Debate), file 48364-0.txt",
+  },
+  "hayes-inaugural-": {
+    files: ["inaugural-1877-Hayes.txt"],
+    label: "NLTK inaugural corpus, 1877-Hayes.txt (C-SPAN transcript)",
+  },
 });
 
 export function excerptSourceFor(id) {

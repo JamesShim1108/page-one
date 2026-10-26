@@ -1,0 +1,507 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-5",
+    "courseId": "apush",
+    "number": 5,
+    "title": "Period 5",
+    "period": "1844–1877",
+    "status": "ready",
+    "description": "Follow Manifest Destiny and the Mexican–American War, the sectional conflict over slavery, the election of 1860 and secession, the Civil War, and Reconstruction and its failure from 1844 to 1877.",
+    "quizzes": [
+      {
+        "id": "apush-5-practice",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-5-1",
+            "questionIds": [
+              "apush-5-1-q01",
+              "apush-5-1-q04",
+              "apush-5-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-q01",
+              "apush-5-2-q04",
+              "apush-5-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-q01",
+              "apush-5-3-q04",
+              "apush-5-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-4",
+            "questionIds": [
+              "apush-5-4-q01",
+              "apush-5-4-q04",
+              "apush-5-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-q01",
+              "apush-5-5-q04",
+              "apush-5-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-q01",
+              "apush-5-6-q04",
+              "apush-5-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-q01",
+              "apush-5-7-q04",
+              "apush-5-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-q01",
+              "apush-5-8-q04",
+              "apush-5-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-q01",
+              "apush-5-9-q04",
+              "apush-5-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-q01",
+              "apush-5-10-q04",
+              "apush-5-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-q01",
+              "apush-5-11-q04",
+              "apush-5-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-5-12",
+            "questionIds": [
+              "apush-5-12-q01",
+              "apush-5-12-q04",
+              "apush-5-12-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-5-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-5",
+        "title": "Unit 5 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-5-2",
+            "questionIds": [
+              "apush-5-2-t01",
+              "apush-5-2-t02",
+              "apush-5-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-3",
+            "questionIds": [
+              "apush-5-3-t01",
+              "apush-5-3-t02",
+              "apush-5-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-5",
+            "questionIds": [
+              "apush-5-5-t01",
+              "apush-5-5-t02",
+              "apush-5-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-6",
+            "questionIds": [
+              "apush-5-6-t01",
+              "apush-5-6-t02",
+              "apush-5-6-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-7",
+            "questionIds": [
+              "apush-5-7-t01",
+              "apush-5-7-t02",
+              "apush-5-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-8",
+            "questionIds": [
+              "apush-5-8-t01",
+              "apush-5-8-t02",
+              "apush-5-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-9",
+            "questionIds": [
+              "apush-5-9-t01",
+              "apush-5-9-t02",
+              "apush-5-9-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-10",
+            "questionIds": [
+              "apush-5-10-t01",
+              "apush-5-10-t02",
+              "apush-5-10-t03"
+            ]
+          },
+          {
+            "topicId": "apush-5-11",
+            "questionIds": [
+              "apush-5-11-t01",
+              "apush-5-11-t02",
+              "apush-5-11-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-5-practice-test",
+      "title": "Unit 5 Practice Test",
+      "questionCount": 27
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-5-1-quiz",
+        "title": "Contextualizing Period 5 topic quiz"
+      },
+      {
+        "id": "apush-5-2-quiz",
+        "title": "Manifest Destiny topic quiz"
+      },
+      {
+        "id": "apush-5-3-quiz",
+        "title": "The Mexican–American War topic quiz"
+      },
+      {
+        "id": "apush-5-4-quiz",
+        "title": "The Compromise of 1850 topic quiz"
+      },
+      {
+        "id": "apush-5-5-quiz",
+        "title": "Sectional Conflict: Regional Differences topic quiz"
+      },
+      {
+        "id": "apush-5-6-quiz",
+        "title": "Failure of Compromise topic quiz"
+      },
+      {
+        "id": "apush-5-7-quiz",
+        "title": "Election of 1860 and Secession topic quiz"
+      },
+      {
+        "id": "apush-5-8-quiz",
+        "title": "Military Conflict in the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-9-quiz",
+        "title": "Government Policies During the Civil War topic quiz"
+      },
+      {
+        "id": "apush-5-10-quiz",
+        "title": "Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-11-quiz",
+        "title": "Failure of Reconstruction topic quiz"
+      },
+      {
+        "id": "apush-5-12-quiz",
+        "title": "Comparison in Period 5 topic quiz"
+      }
+    ],
+    "topicCount": 12,
+    "firstTopic": {
+      "id": "apush-5-1",
+      "courseId": "apush",
+      "unitId": "apush-5",
+      "order": 1,
+      "code": "5.1",
+      "title": "Contextualizing Period 5",
+      "period": "1844–1877",
+      "status": "ready",
+      "summary": "A map of Period 5 (1844–1877): expansion and migration, debates over rights and citizenship, and the sectional conflict that led to the Civil War and Reconstruction."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-5-saq-01",
+        "title": "Unit 5 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-saq-02",
+        "title": "Unit 5 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-5-leq-federal-role",
+        "title": "LEQ: The federal government in war and Reconstruction",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-5-8",
+    "courseId": "apush",
+    "unitId": "apush-5",
+    "order": 8,
+    "code": "5.8",
+    "title": "Military Conflict in the Civil War",
+    "period": "1844–1877",
+    "status": "ready",
+    "summary": "How the Union and the Confederacy mobilized for war, why the Union's resources and leadership proved decisive, and which battles and strategies led to its victory in 1865."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "36f007c27d46fbe8",
+  "lesson": {
+    "schemaVersion": 1,
+    "id": "apush-5-8",
+    "unitId": "apush-5",
+    "courseId": "apush",
+    "code": "5.8",
+    "title": "Military Conflict in the Civil War",
+    "period": "1844–1877",
+    "status": "ready",
+    "order": 8,
+    "summary": "How the Union and the Confederacy mobilized for war, why the Union's resources and leadership proved decisive, and which battles and strategies led to its victory in 1865.",
+    "minutes": 13,
+    "learningGoals": [
+      "Compare how the Union and the Confederacy mobilized their economies and societies and met opposition at home.",
+      "Explain how the resources, strategies, and leaders of each side shaped the course of the war.",
+      "Explain how key victories and the destruction of the South's infrastructure led to Union victory."
+    ],
+    "bigIdea": "The Confederacy showed daring early in the war, but the Union's greater resources, better leadership and strategy, key victories, and the destruction of the South's infrastructure brought its victory.",
+    "context": "The CED asks you to compare and to trace continuity and change in the Civil War. As you read, notice where the two sides were alike, as in their need to draft soldiers, and where they differed, as in their resources.",
+    "sections": [
+      {
+        "id": "mobilization-and-the-home-front",
+        "title": "Mobilization and the home front",
+        "conceptTitle": "Mobilization and the home front",
+        "lenses": [
+          "WOR",
+          "WXT",
+          "SOC"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Both the Union and the Confederacy mobilized their economies and societies to wage the war even while facing considerable home front opposition. Both governments turned to conscription. The Confederacy passed the first national draft in April 1862, and the Union passed the Enrollment Act in March 1863, which allowed a drafted man to avoid service by paying $300 or by hiring a substitute. Critics said that it made the conflict “a rich man's war and a poor man's fight.”"
+          },
+          {
+            "type": "paragraph",
+            "text": "Opposition took many forms. In July 1863 rioters in New York City, many of them poor Irish workers, attacked draft offices and Black residents. Peace Democrats, whom their opponents called Copperheads, demanded an end to the war. In the Confederacy, shortages and rising prices caused bread riots, such as the one in Richmond in April 1863, and some Southerners resisted the draft and the seizure of crops by the army. Women on both sides ran farms and businesses, worked in factories, and served as nurses."
+          }
+        ],
+        "takeaway": "Both sides drafted soldiers and organized their economies for war, and both faced protest at home."
+      },
+      {
+        "id": "resources-strategy-and-leadership",
+        "title": "Resources, strategy, and leadership",
+        "conceptTitle": "Resources, strategy, and leadership",
+        "lenses": [
+          "WOR",
+          "GEO",
+          "WXT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Union held large advantages in resources. It had many more people, nearly all of the nation's factories, more railroads, and the navy. Its strategy, called the Anaconda Plan after the proposal of General Winfield Scott, was to blockade Southern ports, take control of the Mississippi River, and capture the Confederate capital at Richmond. The Confederacy aimed to defend its territory and to wear down Northern support for the war. It hoped that Britain and France, which depended on Southern cotton, would aid it, but their governments did not recognize the Confederacy."
+          },
+          {
+            "type": "paragraph",
+            "text": "Although the Confederacy showed military initiative and daring early in the war, the Union ultimately succeeded due to improvements in leadership and strategy, key victories, greater resources, and the wartime destruction of the South's infrastructure. Generals Robert E. Lee and Thomas “Stonewall” Jackson won battles at Bull Run (1861), Fredericksburg (1862), and Chancellorsville (1863), while Union commanders in the East were often cautious. Lincoln looked for generals who would fight. Ulysses S. Grant won victories in the West, at Fort Donelson (1862) and Vicksburg (1863), and in 1864 Lincoln made him commander of all the Union armies."
+          }
+        ],
+        "takeaway": "The North's people, factories, railroads, and navy gave it the means to win, and better generals and strategy made use of them."
+      },
+      {
+        "id": "turning-points-and-total-war",
+        "title": "Turning points and total war",
+        "conceptTitle": "Turning points and total war",
+        "lenses": [
+          "WOR",
+          "GEO",
+          "NAT"
+        ],
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In September 1862 Union forces stopped Lee's invasion of Maryland at Antietam, the bloodiest single day of the war, and Lincoln used the victory to announce the Emancipation Proclamation (Topic 5.9). In July 1863 the Union won at Gettysburg, Pennsylvania, which ended Lee's invasion of the North, and at Vicksburg, which gave it control of the Mississippi River and split the Confederacy in two."
+          },
+          {
+            "type": "paragraph",
+            "text": "In 1864 Grant pressed Lee in Virginia in a costly campaign of attrition, and General William T. Sherman captured Atlanta in September and marched across Georgia to the sea, destroying railroads, crops, and plantations to break the South's ability to fight. The fall of Atlanta raised Northern hopes and helped Lincoln to win re-election. Lee surrendered to Grant at Appomattox Court House on April 9, 1865. More than 600,000 soldiers died, and the war left much of the South's railroads, farms, and cities in ruins."
+          }
+        ],
+        "takeaway": "Victories in 1863 and the destruction of the South's means of fighting in 1864 led to Lee's surrender in 1865."
+      }
+    ],
+    "vocabulary": [],
+    "connections": [
+      {
+        "id": "c1",
+        "type": "Bridge to Topic 5.9",
+        "title": "A war with a changing purpose",
+        "body": "As the fighting went on, the Union's purpose changed. Topic 5.9 follows the government policies that redefined the war.",
+        "transferQuestion": "Why was the Union's control of the border states important to its chances of winning the war?",
+        "feedback": "A strong answer notes that Maryland, Kentucky, and Missouri lay along the routes and rivers that the Union needed, held large populations and resources, and would have strengthened the Confederacy if they had left.",
+        "links": [
+          {
+            "topicId": "apush-5-7",
+            "sectionId": "fort-sumter-and-the-upper-south",
+            "label": "Review the border states"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced"
+    ]
+  },
+  "bankPath": "apush/banks/apush-5-8.json",
+  "glossary": [],
+  "sources": [
+    {
+      "id": "ced",
+      "label": "College Board: AP U.S. History Course and Exam Description (effective fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+      "note": "Course framework, learning objectives, key concepts, exam format, and scoring rubrics. Recorded for checking in ced.js, skills.js, framework.js, and exam-format.js."
+    }
+  ],
+  "assets": {}
+}
