@@ -1,0 +1,526 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-4",
+    "courseId": "apush",
+    "number": 4,
+    "title": "Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "description": "Follow the rise of party politics and a more participatory democracy, the market revolution, westward expansion and foreign policy, the Second Great Awakening and reform, and the growth of slavery from 1800 to 1848.",
+    "quizzes": [
+      {
+        "id": "apush-4-practice",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-4-1",
+            "questionIds": [
+              "apush-4-1-q01",
+              "apush-4-1-q04",
+              "apush-4-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-q01",
+              "apush-4-2-q04",
+              "apush-4-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-q01",
+              "apush-4-3-q04",
+              "apush-4-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-q01",
+              "apush-4-4-q04",
+              "apush-4-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-q01",
+              "apush-4-5-q04",
+              "apush-4-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-6",
+            "questionIds": [
+              "apush-4-6-q01",
+              "apush-4-6-q04",
+              "apush-4-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-q01",
+              "apush-4-7-q04",
+              "apush-4-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-q01",
+              "apush-4-8-q04",
+              "apush-4-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-9",
+            "questionIds": [
+              "apush-4-9-q01",
+              "apush-4-9-q04",
+              "apush-4-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-10",
+            "questionIds": [
+              "apush-4-10-q01",
+              "apush-4-10-q04",
+              "apush-4-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-q01",
+              "apush-4-11-q04",
+              "apush-4-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-q01",
+              "apush-4-12-q04",
+              "apush-4-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-13",
+            "questionIds": [
+              "apush-4-13-q01",
+              "apush-4-13-q04",
+              "apush-4-13-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-14",
+            "questionIds": [
+              "apush-4-14-q01",
+              "apush-4-14-q04",
+              "apush-4-14-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-4-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-t01",
+              "apush-4-2-t02",
+              "apush-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-t01",
+              "apush-4-3-t02",
+              "apush-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-t01",
+              "apush-4-4-t02",
+              "apush-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-t01",
+              "apush-4-5-t02",
+              "apush-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-t01",
+              "apush-4-7-t02",
+              "apush-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-t01",
+              "apush-4-8-t02",
+              "apush-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-t01",
+              "apush-4-11-t02",
+              "apush-4-11-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-t01",
+              "apush-4-12-t02",
+              "apush-4-12-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 24
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-4-1-quiz",
+        "title": "Contextualizing Period 4 topic quiz"
+      },
+      {
+        "id": "apush-4-2-quiz",
+        "title": "The Rise of Political Parties and the Era of Jefferson topic quiz"
+      },
+      {
+        "id": "apush-4-3-quiz",
+        "title": "Politics and Regional Interests topic quiz"
+      },
+      {
+        "id": "apush-4-4-quiz",
+        "title": "America on the World Stage topic quiz"
+      },
+      {
+        "id": "apush-4-5-quiz",
+        "title": "Market Revolution: Industrialization topic quiz"
+      },
+      {
+        "id": "apush-4-6-quiz",
+        "title": "Market Revolution: Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-4-7-quiz",
+        "title": "Expanding Democracy topic quiz"
+      },
+      {
+        "id": "apush-4-8-quiz",
+        "title": "Jackson and Federal Power topic quiz"
+      },
+      {
+        "id": "apush-4-9-quiz",
+        "title": "The Development of an American Culture topic quiz"
+      },
+      {
+        "id": "apush-4-10-quiz",
+        "title": "The Second Great Awakening topic quiz"
+      },
+      {
+        "id": "apush-4-11-quiz",
+        "title": "An Age of Reform topic quiz"
+      },
+      {
+        "id": "apush-4-12-quiz",
+        "title": "African Americans in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-13-quiz",
+        "title": "The Society of the South in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-14-quiz",
+        "title": "Causation in Period 4 topic quiz"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "apush-4-1",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "period": "1800–1848",
+      "status": "ready",
+      "summary": "The context for Period 4: a more participatory democracy and a new national culture, an economy transformed by innovation, and a nation that expanded westward and argued over slavery, 1800–1848."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-saq-02",
+        "title": "Unit 4 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-leq-identity",
+        "title": "LEQ: Did economic change create a national identity?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "quiz": {
+    "id": "apush-4-saq-01",
+    "version": 1,
+    "courseId": "apush",
+    "unitId": "apush-4",
+    "title": "Unit 4 SAQ 01",
+    "headline": "The Monroe Doctrine",
+    "promptTitle": "Short-answer question",
+    "prompt": "Using the sources above, answer (a), (b), and (c).",
+    "instructions": "Answer (a), (b), and (c). Each part is worth one point. Answer the question directly, support it with specific historical evidence, and explain how the evidence supports your answer. Describe means more than mentioning a term; explain means showing how or why.",
+    "note": "Original Page One practice in AP format. Rubric criteria follow the College Board's AP history rubrics; scoring here is your own self-assessment, not an official score.",
+    "exerciseType": "saq",
+    "examOnly": false,
+    "stimulusBlocks": [
+      {
+        "id": "monroe-annual-message-1823",
+        "type": "source",
+        "sourceType": "primary",
+        "source": "CED Topic 4.4, KC-4.3.I.A.ii: the U.S. government sought influence and control over the Western Hemisphere through a variety of means, including diplomatic efforts such as the Monroe Doctrine",
+        "ced_review": "pending",
+        "attribution": "President James Monroe, in his annual message to Congress, December 2, 1823, after Spain's American colonies had won independence and European monarchies had talked of restoring royal rule",
+        "citation": "James Monroe, Seventh Annual Message to Congress (December 2, 1823), in State of the Union Addresses of James Monroe. Project Gutenberg eBook #5014.",
+        "note": "“The allied powers” are the monarchies of Europe, especially the Holy Alliance of Russia, Austria, and Prussia. “This hemisphere” is the Western Hemisphere.",
+        "text": "In the wars of the European powers in matters relating to themselves we have never taken any part, nor does it comport with our policy so to do.\n\nWe owe it, therefore, to candor and to the amicable relations existing between the United States and those powers to declare that we should consider any attempt on their part to extend their system to any portion of this hemisphere as dangerous to our peace and safety. With the existing colonies or dependencies of any European power we have not interfered and shall not interfere, but with the Governments who have declared their independence and maintained it, and whose independence we have, on great consideration and on just principles, acknowledged, we could not view any interposition for the purpose of oppressing them, or controlling in any other manner their destiny, by any European power in any other light than as the manifestation of an unfriendly disposition toward the United States."
+      }
+    ],
+    "scaffold": [
+      {
+        "label": "Answer",
+        "text": "Respond directly to the task verb: identify, describe, explain, or compare."
+      },
+      {
+        "label": "Prove",
+        "text": "Name a specific event, development, or circumstance from the period in the prompt."
+      },
+      {
+        "label": "Explain",
+        "text": "Show how or why the evidence answers the question."
+      }
+    ],
+    "parts": [
+      {
+        "id": "a",
+        "lenses": [
+          "WOR"
+        ],
+        "prompt": "Briefly describe ONE way the excerpt expresses the policy of the United States toward the European powers.",
+        "criteria": [
+          "Identifies a policy stated in the excerpt, such as staying out of European wars or opposing European extension of political systems to the hemisphere.",
+          "Uses the excerpt to show it, with more than a copied phrase."
+        ],
+        "model": {
+          "answer": "The excerpt expresses a policy of staying out of Europe's affairs while warning Europe to stay out of the Western Hemisphere.",
+          "prove": "Monroe says that the United States has “never taken any part” in the wars of the European powers, and that it would consider any attempt by them “to extend their system to any portion of this hemisphere as dangerous to our peace and safety.”",
+          "explain": "This shows a policy of separate spheres, in which the United States would avoid European conflicts and would oppose European intervention in the Americas."
+        },
+        "alternatives": "A response can also point to Monroe's statement that the United States will not interfere with existing European colonies, if it explains that the policy was aimed at new intervention and not at the colonies that already existed.",
+        "review": [
+          {
+            "topicId": "apush-4-4",
+            "sectionId": "monroe-doctrine",
+            "label": "The Monroe Doctrine"
+          }
+        ]
+      },
+      {
+        "id": "b",
+        "lenses": [
+          "WOR",
+          "GEO"
+        ],
+        "prompt": "Briefly explain ONE specific historical development from the period 1810 to 1823 that contributed to the policy announced in the excerpt.",
+        "criteria": [
+          "Names a specific development from 1810–1823.",
+          "Explains how it led the United States to announce the policy."
+        ],
+        "model": {
+          "answer": "The independence of most of Spain's colonies in Latin America contributed to the policy.",
+          "prove": "Between about 1810 and 1822, Mexico, Colombia, Chile, Argentina, and other colonies won independence, and in 1822 the United States recognized several of the new nations, while the monarchies of Europe discussed restoring Spain's rule.",
+          "explain": "This created the risk of European intervention near the United States, so Monroe declared that the United States would oppose any such effort in order to protect its security and its trade."
+        },
+        "alternatives": "A response can also use Britain's proposal for a joint statement and John Quincy Adams's argument for acting alone, or the Adams–Onís Treaty of 1819, if it explains the connection to the policy.",
+        "review": [
+          {
+            "topicId": "apush-4-4",
+            "sectionId": "monroe-doctrine",
+            "label": "The Monroe Doctrine"
+          }
+        ]
+      },
+      {
+        "id": "c",
+        "lenses": [
+          "WOR",
+          "GEO"
+        ],
+        "prompt": "Briefly explain ONE way, other than the policy in the excerpt, that the United States government sought to extend its influence or control in North America between 1800 and 1823.",
+        "criteria": [
+          "Names a specific action by the federal government between 1800 and 1823.",
+          "Explains how it extended American influence or control."
+        ],
+        "model": {
+          "answer": "The United States extended its control by acquiring Florida in the Adams–Onís Treaty of 1819.",
+          "prove": "Spain gave Florida to the United States and accepted a boundary that extended to the Pacific Ocean, which gave the United States a claim to the Pacific coast.",
+          "explain": "The treaty removed Spanish power from the southeastern border and extended American claims across the continent without a war."
+        },
+        "alternatives": "A response can also use the Louisiana Purchase of 1803, the Lewis and Clark expedition, the Convention of 1818 with Britain, or the War of 1812 and the defeat of Tecumseh's confederacy, if it explains how the action extended American influence.",
+        "review": [
+          {
+            "topicId": "apush-4-4",
+            "sectionId": "diplomacy-and-borders",
+            "label": "Diplomacy and borders"
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "ced",
+      "monroe-1823"
+    ],
+    "learningObjectives": [
+      "4.D"
+    ],
+    "keyConcepts": [
+      "KC-4.3.I",
+      "KC-4.3.I.A.ii"
+    ],
+    "themes": [
+      "WOR",
+      "GEO"
+    ]
+  }
+}

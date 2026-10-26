@@ -454,4 +454,160 @@ export const excerpts = {
     ],
     citation: "Compiled by Page One; see the Topic 3.10 reading.",
   },
+  jeffersonInaugural: {
+    id: "jefferson-inaugural-1801-unity",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 4.2, KC-4.1.I.A and KC-4.3.I.A.i: national political parties continued to debate the powers of the federal government and relations with European powers in the early 1800s",
+    ced_review: "pending",
+    attribution:
+      "Thomas Jefferson, delivering his First Inaugural Address on March 4, 1801, after the contested election of 1800 in which he defeated the incumbent, John Adams",
+    citation:
+      "Thomas Jefferson, First Inaugural Address (March 4, 1801). NLTK inaugural corpus, 1801-Jefferson.txt.",
+    note: "Jefferson uses “Republicans” and “Federalists” as the names of the two parties and also as words for principles that he says all Americans share: republican government and a federal union.",
+    text: "But every difference of opinion is not a difference of principle. We have called by different names brethren of the same principle. We are all Republicans, we are all Federalists.\n\nEqual and exact justice to all men, of whatever state or persuasion, religious or political; peace, commerce, and honest friendship with all nations, entangling alliances with none; the support of the State governments in all their rights, as the most competent administrations for our domestic concerns and the surest bulwarks against antirepublican tendencies; . . . .",
+  },
+  originalMissouriTable: {
+    id: "original-missouri-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 4.3, KC-4.3.II.C: congressional attempts at political compromise, such as the Missouri Compromise, only temporarily stemmed growing tensions between opponents and defenders of slavery",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from standard histories of the Missouri Compromise",
+    caption: "The Missouri Compromise, 1820–1821",
+    columns: ["Provision", "What it did"],
+    rows: [
+      ["Missouri", "Admitted as a slave state"],
+      ["Maine", "Admitted as a free state, separated from Massachusetts"],
+      [
+        "Louisiana Purchase north of 36°30′",
+        "Slavery prohibited, except within Missouri",
+      ],
+      [
+        "Louisiana Purchase south of 36°30′",
+        "Slavery remained legal (the Arkansas Territory)",
+      ],
+      [
+        "Balance in the Senate",
+        "Kept the numbers of free and slave states equal at twelve each",
+      ],
+    ],
+    citation: "Compiled by Page One; see the Topic 4.3 reading.",
+  },
+  monroeDoctrine: {
+    id: "monroe-annual-message-1823",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 4.4, KC-4.3.I.A.ii: the U.S. government sought influence and control over the Western Hemisphere through a variety of means, including diplomatic efforts such as the Monroe Doctrine",
+    ced_review: "pending",
+    attribution:
+      "President James Monroe, in his annual message to Congress, December 2, 1823, after Spain's American colonies had won independence and European monarchies had talked of restoring royal rule",
+    citation:
+      "James Monroe, Seventh Annual Message to Congress (December 2, 1823), in State of the Union Addresses of James Monroe. Project Gutenberg eBook #5014.",
+    note: "“The allied powers” are the monarchies of Europe, especially the Holy Alliance of Russia, Austria, and Prussia. “This hemisphere” is the Western Hemisphere.",
+    text: "In the wars of the European powers in matters relating to themselves we have never taken any part, nor does it comport with our policy so to do.\n\nWe owe it, therefore, to candor and to the amicable relations existing between the United States and those powers to declare that we should consider any attempt on their part to extend their system to any portion of this hemisphere as dangerous to our peace and safety. With the existing colonies or dependencies of any European power we have not interfered and shall not interfere, but with the Governments who have declared their independence and maintained it, and whose independence we have, on great consideration and on just principles, acknowledged, we could not view any interposition for the purpose of oppressing them, or controlling in any other manner their destiny, by any European power in any other light than as the manifestation of an unfriendly disposition toward the United States.",
+  },
+  originalTransportTable: {
+    id: "original-transport-table",
+    type: "source",
+    medium: "table",
+    sourceType: "original",
+    source:
+      "CED Topic 4.5, KC-4.2.I.B and KC-4.2.I.C: innovations in technology and new transportation networks increased the efficiency of production, extended markets, and fostered regional interdependence",
+    ced_review: "pending",
+    attribution:
+      "Table compiled by Page One from standard histories of the market revolution",
+    caption:
+      "Selected innovations in transportation, agriculture, and communication, 1807–1844",
+    columns: ["Year", "Innovation", "Effect"],
+    rows: [
+      [
+        "1807",
+        "Steamboat (Robert Fulton’s Clermont)",
+        "Allowed boats to travel upstream on rivers, which sped river commerce",
+      ],
+      [
+        "1825",
+        "Erie Canal",
+        "Linked the Hudson River with Lake Erie and lowered the cost of shipping goods between New York City and the Great Lakes region",
+      ],
+      [
+        "1830",
+        "Railroad (Baltimore and Ohio)",
+        "Began regular rail service in the United States; railroad networks later linked the North and Midwest closely",
+      ],
+      [
+        "1834",
+        "Mechanical reaper (Cyrus McCormick)",
+        "Allowed farmers to harvest much more grain with less labor",
+      ],
+      [
+        "1844",
+        "Telegraph (Samuel Morse)",
+        "Sent messages over wires almost instantly, which sped the flow of news and business information",
+      ],
+    ],
+    citation: "Compiled by Page One; see the Topic 4.5 reading.",
+  },
+  tocquevilleSuffrage: {
+    id: "tocqueville-suffrage",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 4.7, KC-4.1.I: the nation moved to a more participatory democracy by expanding suffrage from a system based on property ownership to one based on voting by all adult white men",
+    ced_review: "pending",
+    attribution:
+      "Alexis de Tocqueville, a French writer who traveled in the United States in 1831–1832, in Democracy in America, published in 1835",
+    citation:
+      "Alexis de Tocqueville, Democracy in America, vol. 1 (1835), chap. 4, translated by Henry Reeve. Project Gutenberg eBook #815.",
+    note: "The “elective qualification” is the requirement that voters own property or pay taxes. By “universal suffrage” Tocqueville means voting by all adult white men, because women, most African Americans, and American Indians could not vote in most states.",
+    text: "When a nation modifies the elective qualification, it may easily be foreseen that sooner or later that qualification will be entirely abolished. There is no more invariable rule in the history of society: the further electoral rights are extended, the greater is the need of extending them; for after each concession the strength of the democracy increases, and its demands increase with its strength. The ambition of those who are below the appointed rate is irritated in exact proportion to the great number of those who are above it. The exception at last becomes the rule, concession follows concession, and no stop can be made short of universal suffrage.",
+  },
+  jacksonRemoval: {
+    id: "jackson-removal-1830",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 4.8, KC-4.3.I.B: American Indian resistance led to a sequence of wars and federal efforts to control and relocate American Indian populations",
+    ced_review: "pending",
+    attribution:
+      "President Andrew Jackson, in his Second Annual Message to Congress, December 6, 1830, six months after Congress passed the Indian Removal Act",
+    citation:
+      "Andrew Jackson, Second Annual Message to Congress (December 6, 1830), in State of the Union Addresses of Andrew Jackson. Project Gutenberg eBook #5016.",
+    note: "The “provision made for their removal at the last session of Congress” is the Indian Removal Act of 1830, which authorized the president to negotiate exchanges of Indian lands in the East for lands west of the Mississippi River. The language about Native peoples reflects the president’s view and the prejudices of his time, not the view of the Native nations.",
+    text: "It gives me pleasure to announce to Congress that the benevolent policy of the Government, steadily pursued for nearly 30 years, in relation to the removal of the Indians beyond the white settlements is approaching to a happy consummation. Two important tribes have accepted the provision made for their removal at the last session of Congress, and it is believed that their example will induce the remaining tribes also to seek the same obvious advantages.\n\nThe consequences of a speedy removal will be important to the United States, to individual States, and to the Indians themselves. . . . It puts an end to all possible danger of collision between the authorities of the General and State Governments on account of the Indians. It will place a dense and civilized population in large tracts of country now occupied by a few savage hunters.",
+  },
+  senecaSentiments: {
+    id: "seneca-falls-sentiments",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 4.11, KC-4.1.III.C: a women's rights movement sought to create greater equality and opportunities for women, expressing its ideals at the Seneca Falls Convention",
+    ced_review: "pending",
+    attribution:
+      "The Declaration of Sentiments, adopted at the Seneca Falls Convention in New York on July 19–20, 1848, and written chiefly by Elizabeth Cady Stanton",
+    citation:
+      "Declaration of Sentiments (1848), as printed in Elizabeth Cady Stanton, Susan B. Anthony, and Matilda Joslyn Gage, eds., History of Woman Suffrage, vol. 1 (1881). Project Gutenberg eBook #28020.",
+    note: "The Declaration of Sentiments follows the wording and structure of the Declaration of Independence of 1776. “Franchise” means the right to vote.",
+    text: "We hold these truths to be self-evident: that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness; . . . .\n\nThe history of mankind is a history of repeated injuries and usurpations on the part of man toward woman, having in direct object the establishment of an absolute tyranny over her.\n\nHe has never permitted her to exercise her inalienable right to the elective franchise. He has compelled her to submit to laws, in the formation of which she had no voice. He has withheld from her rights which are given to the most ignorant and degraded men--both natives and foreigners.",
+  },
+  douglassPathway: {
+    id: "douglass-pathway",
+    type: "source",
+    sourceType: "primary",
+    source:
+      "CED Topic 4.12, KC-4.1.II.D: enslaved and free African Americans created strategies to protect their dignity and joined efforts aimed at changing their status",
+    ced_review: "pending",
+    attribution:
+      "Frederick Douglass, who escaped from slavery in 1838, writing about his time as an enslaved boy in Baltimore, in his Narrative of the Life of Frederick Douglass, an American Slave, published in 1845",
+    citation:
+      "Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave (Boston, 1845), chap. 6. Project Gutenberg eBook #23.",
+    note: "“These words” are the objections of Hugh Auld, Douglass’s master in Baltimore, to his wife Sophia Auld teaching the young Douglass to read.",
+    text: "These words sank deep into my heart, stirred up sentiments within that lay slumbering, and called into existence an entirely new train of thought. It was a new and special revelation, explaining dark and mysterious things, with which my youthful understanding had struggled, but struggled in vain. I now understood what had been to me a most perplexing difficulty--to wit, the white man's power to enslave the black man. It was a grand achievement, and I prized it highly. From that moment, I understood the pathway from slavery to freedom. It was just what I wanted, and I got it at a time when I the least expected it.",
+  },
 };

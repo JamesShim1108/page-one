@@ -173,6 +173,35 @@ export const EXCERPT_SOURCES = Object.freeze({
     label:
       "Project Gutenberg #1404 (The Federalist Papers, Hamilton, Madison, and Jay), file 1404.txt",
   },
+  "jefferson-inaugural-": {
+    files: ["inaugural-1801-Jefferson.txt"],
+    label: "NLTK inaugural corpus, 1801-Jefferson.txt (C-SPAN transcript)",
+  },
+  "monroe-": {
+    files: ["monroe-state-of-union.txt"],
+    label:
+      "Project Gutenberg #5014 (State of the Union Addresses of James Monroe), file 5014.txt",
+  },
+  "tocqueville-": {
+    files: ["tocqueville-democracy-v1.txt"],
+    label:
+      "Project Gutenberg #815 (Tocqueville, Democracy in America, vol. 1, Reeve translation), file 815.txt",
+  },
+  "jackson-": {
+    files: ["jackson-state-of-union.txt"],
+    label:
+      "Project Gutenberg #5016 (State of the Union Addresses of Andrew Jackson), file 5016.txt",
+  },
+  "seneca-falls-": {
+    files: ["woman-suffrage-v1.txt"],
+    label:
+      "Project Gutenberg #28020 (History of Woman Suffrage, vol. 1, Stanton, Anthony, and Gage), file 28020.txt",
+  },
+  "douglass-": {
+    files: ["douglass-narrative.txt"],
+    label:
+      "Project Gutenberg #23 (Narrative of the Life of Frederick Douglass, an American Slave), file 23.txt",
+  },
 });
 
 export function excerptSourceFor(id) {

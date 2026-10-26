@@ -129,4 +129,46 @@ export const sources = [
     url: "https://www.gutenberg.org/ebooks/5",
     note: "Public-domain text of the primary source quoted in the Unit 3 Practice Test. Quotations are checked against this edition.",
   },
+  {
+    id: "jefferson-1801",
+    label:
+      "Thomas Jefferson, First Inaugural Address (1801), NLTK inaugural corpus transcript",
+    url: "https://github.com/nltk/nltk_data",
+    note: "Public-domain presidential address quoted in the Unit 4 Practice Test. Quotations are checked against the corpus transcript.",
+  },
+  {
+    id: "monroe-1823",
+    label:
+      "James Monroe, Seventh Annual Message to Congress (1823), in State of the Union Addresses of James Monroe, Project Gutenberg eBook #5014",
+    url: "https://www.gutenberg.org/ebooks/5014",
+    note: "Public-domain text of the message that contains the Monroe Doctrine, quoted in the Unit 4 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "tocqueville-1835",
+    label:
+      "Alexis de Tocqueville, Democracy in America, vol. 1 (1835), Reeve translation, Project Gutenberg eBook #815",
+    url: "https://www.gutenberg.org/ebooks/815",
+    note: "Public-domain text of the primary source quoted in the Unit 4 Practice Test. Quotations are checked against this edition.",
+  },
+  {
+    id: "jackson-1830",
+    label:
+      "Andrew Jackson, Second Annual Message to Congress (1830), in State of the Union Addresses of Andrew Jackson, Project Gutenberg eBook #5016",
+    url: "https://www.gutenberg.org/ebooks/5016",
+    note: "Public-domain text of the primary source quoted in the Unit 4 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "seneca-falls-1848",
+    label:
+      "Declaration of Sentiments (1848), in History of Woman Suffrage, vol. 1, Project Gutenberg eBook #28020",
+    url: "https://www.gutenberg.org/ebooks/28020",
+    note: "Public-domain text of the primary source quoted in the Unit 4 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
+  {
+    id: "douglass-1845",
+    label:
+      "Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave (1845), Project Gutenberg eBook #23",
+    url: "https://www.gutenberg.org/ebooks/23",
+    note: "Public-domain text of the primary source quoted in the Unit 4 Practice Test and short-answer questions. Quotations are checked against this edition.",
+  },
 ];

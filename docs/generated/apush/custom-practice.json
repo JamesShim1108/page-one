@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "apush",
-  "revision": "a02c0efd319faea7",
+  "revision": "eafe8f4e98495b34",
   "pools": [
     {
       "id": "apush-1-1:apush-1-1-quiz",
@@ -480,6 +480,253 @@
         "apush-3-13-q07",
         "apush-3-13-q08",
         "apush-3-13-q09"
+      ]
+    },
+    {
+      "id": "apush-4-1:apush-4-1-quiz",
+      "quizId": "apush-4-1-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-1",
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "bankPath": "apush/banks/apush-4-1.json",
+      "questionIds": [
+        "apush-4-1-q02",
+        "apush-4-1-q03",
+        "apush-4-1-q05",
+        "apush-4-1-q07",
+        "apush-4-1-q08",
+        "apush-4-1-q09"
+      ]
+    },
+    {
+      "id": "apush-4-2:apush-4-2-quiz",
+      "quizId": "apush-4-2-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-2",
+      "code": "4.2",
+      "title": "The Rise of Political Parties and the Era of Jefferson",
+      "bankPath": "apush/banks/apush-4-2.json",
+      "questionIds": [
+        "apush-4-2-q02",
+        "apush-4-2-q03",
+        "apush-4-2-q05",
+        "apush-4-2-q07",
+        "apush-4-2-q08"
+      ]
+    },
+    {
+      "id": "apush-4-3:apush-4-3-quiz",
+      "quizId": "apush-4-3-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-3",
+      "code": "4.3",
+      "title": "Politics and Regional Interests",
+      "bankPath": "apush/banks/apush-4-3.json",
+      "questionIds": [
+        "apush-4-3-q02",
+        "apush-4-3-q03",
+        "apush-4-3-q05",
+        "apush-4-3-q07",
+        "apush-4-3-q08"
+      ]
+    },
+    {
+      "id": "apush-4-4:apush-4-4-quiz",
+      "quizId": "apush-4-4-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-4",
+      "code": "4.4",
+      "title": "America on the World Stage",
+      "bankPath": "apush/banks/apush-4-4.json",
+      "questionIds": [
+        "apush-4-4-q02",
+        "apush-4-4-q03",
+        "apush-4-4-q05",
+        "apush-4-4-q07",
+        "apush-4-4-q08"
+      ]
+    },
+    {
+      "id": "apush-4-5:apush-4-5-quiz",
+      "quizId": "apush-4-5-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-5",
+      "code": "4.5",
+      "title": "Market Revolution: Industrialization",
+      "bankPath": "apush/banks/apush-4-5.json",
+      "questionIds": [
+        "apush-4-5-q02",
+        "apush-4-5-q03",
+        "apush-4-5-q05",
+        "apush-4-5-q07",
+        "apush-4-5-q08",
+        "apush-4-5-q09"
+      ]
+    },
+    {
+      "id": "apush-4-6:apush-4-6-quiz",
+      "quizId": "apush-4-6-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-6",
+      "code": "4.6",
+      "title": "Market Revolution: Society and Culture",
+      "bankPath": "apush/banks/apush-4-6.json",
+      "questionIds": [
+        "apush-4-6-q02",
+        "apush-4-6-q03",
+        "apush-4-6-q05",
+        "apush-4-6-q07",
+        "apush-4-6-q08",
+        "apush-4-6-q09"
+      ]
+    },
+    {
+      "id": "apush-4-7:apush-4-7-quiz",
+      "quizId": "apush-4-7-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-7",
+      "code": "4.7",
+      "title": "Expanding Democracy",
+      "bankPath": "apush/banks/apush-4-7.json",
+      "questionIds": [
+        "apush-4-7-q02",
+        "apush-4-7-q03",
+        "apush-4-7-q05",
+        "apush-4-7-q07",
+        "apush-4-7-q08"
+      ]
+    },
+    {
+      "id": "apush-4-8:apush-4-8-quiz",
+      "quizId": "apush-4-8-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-8",
+      "code": "4.8",
+      "title": "Jackson and Federal Power",
+      "bankPath": "apush/banks/apush-4-8.json",
+      "questionIds": [
+        "apush-4-8-q02",
+        "apush-4-8-q03",
+        "apush-4-8-q05",
+        "apush-4-8-q07",
+        "apush-4-8-q08"
+      ]
+    },
+    {
+      "id": "apush-4-9:apush-4-9-quiz",
+      "quizId": "apush-4-9-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-9",
+      "code": "4.9",
+      "title": "The Development of an American Culture",
+      "bankPath": "apush/banks/apush-4-9.json",
+      "questionIds": [
+        "apush-4-9-q02",
+        "apush-4-9-q03",
+        "apush-4-9-q05",
+        "apush-4-9-q07",
+        "apush-4-9-q08",
+        "apush-4-9-q09"
+      ]
+    },
+    {
+      "id": "apush-4-10:apush-4-10-quiz",
+      "quizId": "apush-4-10-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-10",
+      "code": "4.10",
+      "title": "The Second Great Awakening",
+      "bankPath": "apush/banks/apush-4-10.json",
+      "questionIds": [
+        "apush-4-10-q02",
+        "apush-4-10-q03",
+        "apush-4-10-q05",
+        "apush-4-10-q07",
+        "apush-4-10-q08",
+        "apush-4-10-q09"
+      ]
+    },
+    {
+      "id": "apush-4-11:apush-4-11-quiz",
+      "quizId": "apush-4-11-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-11",
+      "code": "4.11",
+      "title": "An Age of Reform",
+      "bankPath": "apush/banks/apush-4-11.json",
+      "questionIds": [
+        "apush-4-11-q02",
+        "apush-4-11-q03",
+        "apush-4-11-q05",
+        "apush-4-11-q07",
+        "apush-4-11-q08",
+        "apush-4-11-q09"
+      ]
+    },
+    {
+      "id": "apush-4-12:apush-4-12-quiz",
+      "quizId": "apush-4-12-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-12",
+      "code": "4.12",
+      "title": "African Americans in the Early Republic",
+      "bankPath": "apush/banks/apush-4-12.json",
+      "questionIds": [
+        "apush-4-12-q02",
+        "apush-4-12-q03",
+        "apush-4-12-q05",
+        "apush-4-12-q07",
+        "apush-4-12-q08",
+        "apush-4-12-q09"
+      ]
+    },
+    {
+      "id": "apush-4-13:apush-4-13-quiz",
+      "quizId": "apush-4-13-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-13",
+      "code": "4.13",
+      "title": "The Society of the South in the Early Republic",
+      "bankPath": "apush/banks/apush-4-13.json",
+      "questionIds": [
+        "apush-4-13-q02",
+        "apush-4-13-q03",
+        "apush-4-13-q05",
+        "apush-4-13-q07",
+        "apush-4-13-q08",
+        "apush-4-13-q09"
+      ]
+    },
+    {
+      "id": "apush-4-14:apush-4-14-quiz",
+      "quizId": "apush-4-14-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-14",
+      "code": "4.14",
+      "title": "Causation in Period 4",
+      "bankPath": "apush/banks/apush-4-14.json",
+      "questionIds": [
+        "apush-4-14-q02",
+        "apush-4-14-q03",
+        "apush-4-14-q05",
+        "apush-4-14-q07",
+        "apush-4-14-q08",
+        "apush-4-14-q09"
       ]
     }
   ]

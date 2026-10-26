@@ -1,0 +1,1009 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-4",
+    "courseId": "apush",
+    "number": 4,
+    "title": "Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "description": "Follow the rise of party politics and a more participatory democracy, the market revolution, westward expansion and foreign policy, the Second Great Awakening and reform, and the growth of slavery from 1800 to 1848.",
+    "quizzes": [
+      {
+        "id": "apush-4-practice",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-4-1",
+            "questionIds": [
+              "apush-4-1-q01",
+              "apush-4-1-q04",
+              "apush-4-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-q01",
+              "apush-4-2-q04",
+              "apush-4-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-q01",
+              "apush-4-3-q04",
+              "apush-4-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-q01",
+              "apush-4-4-q04",
+              "apush-4-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-q01",
+              "apush-4-5-q04",
+              "apush-4-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-6",
+            "questionIds": [
+              "apush-4-6-q01",
+              "apush-4-6-q04",
+              "apush-4-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-q01",
+              "apush-4-7-q04",
+              "apush-4-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-q01",
+              "apush-4-8-q04",
+              "apush-4-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-9",
+            "questionIds": [
+              "apush-4-9-q01",
+              "apush-4-9-q04",
+              "apush-4-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-10",
+            "questionIds": [
+              "apush-4-10-q01",
+              "apush-4-10-q04",
+              "apush-4-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-q01",
+              "apush-4-11-q04",
+              "apush-4-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-q01",
+              "apush-4-12-q04",
+              "apush-4-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-13",
+            "questionIds": [
+              "apush-4-13-q01",
+              "apush-4-13-q04",
+              "apush-4-13-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-14",
+            "questionIds": [
+              "apush-4-14-q01",
+              "apush-4-14-q04",
+              "apush-4-14-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-4-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-t01",
+              "apush-4-2-t02",
+              "apush-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-t01",
+              "apush-4-3-t02",
+              "apush-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-t01",
+              "apush-4-4-t02",
+              "apush-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-t01",
+              "apush-4-5-t02",
+              "apush-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-t01",
+              "apush-4-7-t02",
+              "apush-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-t01",
+              "apush-4-8-t02",
+              "apush-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-t01",
+              "apush-4-11-t02",
+              "apush-4-11-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-t01",
+              "apush-4-12-t02",
+              "apush-4-12-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 24
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-4-1-quiz",
+        "title": "Contextualizing Period 4 topic quiz"
+      },
+      {
+        "id": "apush-4-2-quiz",
+        "title": "The Rise of Political Parties and the Era of Jefferson topic quiz"
+      },
+      {
+        "id": "apush-4-3-quiz",
+        "title": "Politics and Regional Interests topic quiz"
+      },
+      {
+        "id": "apush-4-4-quiz",
+        "title": "America on the World Stage topic quiz"
+      },
+      {
+        "id": "apush-4-5-quiz",
+        "title": "Market Revolution: Industrialization topic quiz"
+      },
+      {
+        "id": "apush-4-6-quiz",
+        "title": "Market Revolution: Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-4-7-quiz",
+        "title": "Expanding Democracy topic quiz"
+      },
+      {
+        "id": "apush-4-8-quiz",
+        "title": "Jackson and Federal Power topic quiz"
+      },
+      {
+        "id": "apush-4-9-quiz",
+        "title": "The Development of an American Culture topic quiz"
+      },
+      {
+        "id": "apush-4-10-quiz",
+        "title": "The Second Great Awakening topic quiz"
+      },
+      {
+        "id": "apush-4-11-quiz",
+        "title": "An Age of Reform topic quiz"
+      },
+      {
+        "id": "apush-4-12-quiz",
+        "title": "African Americans in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-13-quiz",
+        "title": "The Society of the South in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-14-quiz",
+        "title": "Causation in Period 4 topic quiz"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "apush-4-1",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "period": "1800–1848",
+      "status": "ready",
+      "summary": "The context for Period 4: a more participatory democracy and a new national culture, an economy transformed by innovation, and a nation that expanded westward and argued over slavery, 1800–1848."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-saq-02",
+        "title": "Unit 4 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-leq-identity",
+        "title": "LEQ: Did economic change create a national identity?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-4-3",
+    "courseId": "apush",
+    "unitId": "apush-4",
+    "order": 3,
+    "code": "4.3",
+    "title": "Politics and Regional Interests",
+    "period": "1800–1848",
+    "status": "ready",
+    "summary": "How the economic interests of the Northeast, South, and West shaped political positions in the 1810s and 1820s, how the American System aimed to unify the economy, and how the Missouri Compromise postponed the conflict over slavery."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "a812f36a38c7b0e7",
+  "questions": [
+    {
+      "id": "apush-4-3-q01",
+      "topicId": "apush-4-3",
+      "concept": "regional-interests",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.1.I.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "In the early 1800s, which region most strongly favored a protective tariff?",
+      "choices": [
+        "The South, where cotton planters hoped to shelter their crops from foreign competition",
+        "The Northeast, where growing manufacturers wanted protection from British competition",
+        "The West, where farmers hoped to raise the price of the manufactured goods they bought",
+        "No region, because Congress had banned all tariffs after the end of the War of 1812"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Northern manufacturers sought a tariff to make British goods more expensive and to protect their growing industries.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Southern planters exported cotton and bought manufactured goods, so they opposed higher tariffs.",
+        "Northern manufacturers sought a tariff to make British goods more expensive and to protect their growing industries.",
+        "Western farmers wanted lower prices for goods and better roads to markets.",
+        "Congress passed protective tariffs in 1816 and later."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Southern choice is close because planters cared about trade policy, but they favored low tariffs.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-3-q02",
+      "topicId": "apush-4-3",
+      "concept": "american-system",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.2.III.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Henry Clay's American System called for",
+      "choices": [
+        "a protective tariff, a national bank, and a ban on federal spending for roads and canals",
+        "free trade with Britain, the end of the national bank, and state control of all transportation",
+        "federal ownership of factories, a state-chartered bank, and a tax on exports of cotton",
+        "a protective tariff, a national bank, and federal spending on roads and canals"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Clay's plan aimed to unify the national economy by sheltering industry, providing stable credit, and improving transportation.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The plan favored federal spending on internal improvements.",
+        "Clay favored a tariff and a national bank.",
+        "The plan relied on private enterprise and did not call for federal ownership.",
+        "Clay's plan aimed to unify the national economy by sheltering industry, providing stable credit, and improving transportation."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The ban on spending choice is close because it keeps two of the three elements, but the plan called for federal funding of internal improvements.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-3-q03",
+      "topicId": "apush-4-3",
+      "concept": "american-system",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.2.III.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following best explains why many Southerners opposed the protective tariff?",
+      "choices": [
+        "It raised the prices of goods they bought and risked foreign retaliation against Southern exports",
+        "It required Southern planters to sell their cotton only to Northern mills at fixed prices",
+        "It reduced the number of Southern representatives in the Senate to the number of Northern ones",
+        "It banned the export of cotton to Britain until Britain lowered its own duties"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Southerners sold crops abroad and bought manufactured goods, so a tariff seemed to benefit the North at their expense.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Southerners sold crops abroad and bought manufactured goods, so a tariff seemed to benefit the North at their expense.",
+        "The tariff did not fix the price or the buyers of cotton.",
+        "The Senate's composition was unrelated to the tariff.",
+        "The tariff did not ban cotton exports."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The fixed-price choice is close because Southerners did sell cotton to Northern mills, but the tariff did not set prices.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-3-q04",
+      "topicId": "apush-4-3",
+      "concept": "missouri-compromise",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.3.II.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following was part of the Missouri Compromise of 1820–1821?",
+      "choices": [
+        "Admitting Missouri as a free state and Maine as a slave state, with slavery banned in the entire Louisiana Purchase",
+        "Letting the settlers of each territory vote on whether to allow slavery within their borders",
+        "Admitting Missouri as a slave state and Maine as a free state, with slavery banned north of 36°30′",
+        "Ending the importation of enslaved people from Africa and the Caribbean after January 1808"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The compromise kept the Senate balanced and drew a line at 36°30′ across the rest of the Louisiana Purchase.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Missouri entered as a slave state and Maine as a free state, and slavery stayed legal south of 36°30′.",
+        "That approach, popular sovereignty, came later.",
+        "The compromise kept the Senate balanced and drew a line at 36°30′ across the rest of the Louisiana Purchase.",
+        "The ban on importation took effect in 1808, long before the compromise."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The all-free choice is close because the compromise did ban slavery in most of the northern territory, but not in Missouri and not in the south.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-3-q05",
+      "topicId": "apush-4-3",
+      "concept": "missouri-compromise",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.3.II.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following best explains why Missouri's request to enter the Union caused a national crisis?",
+      "choices": [
+        "The sections disagreed over whether the Constitution allowed Congress to create new states in the West",
+        "The Senate balance of free and slave states was at stake, and the sections disagreed over slavery",
+        "Missouri's settlers had refused to accept the authority of the Constitution and Congress",
+        "Britain objected to the admission of a new state along the Mississippi River"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Senate was evenly divided between free and slave states, so adding a state of either kind threatened to shift the balance.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The dispute concerned slavery and not the power to admit states.",
+        "The Senate was evenly divided between free and slave states, so adding a state of either kind threatened to shift the balance.",
+        "Missouri's settlers sought statehood within the Union.",
+        "Britain did not take part in the Missouri dispute."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The power-to-admit choice is close because the debate involved congressional authority, but the question was whether to restrict slavery in Missouri.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-3-q06",
+      "topicId": "apush-4-3",
+      "concept": "regional-interests",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.1.I.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following describes national politics during the Era of Good Feelings (about 1817–1825)?",
+      "choices": [
+        "The Federalists regained control of Congress by opposing the policies of the Monroe administration",
+        "Two national parties competed in every state and ran candidates for each office",
+        "Congress banned political parties because they were thought to threaten national unity",
+        "One party, the Democratic-Republicans, dominated, and regional disputes arose within it"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Without Federalist opposition, regional interests competed inside a single dominant party.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Federalist Party had collapsed after the War of 1812.",
+        "Only one national party was active.",
+        "Parties were never banned.",
+        "Without Federalist opposition, regional interests competed inside a single dominant party."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Federalist comeback choice is close because the party had been strong in New England earlier, but it faded after the war.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-3-q07",
+      "topicId": "apush-4-3",
+      "concept": "regional-interests",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.1.I.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following describes a difference between the Northeast and the South in the early 1800s?",
+      "choices": [
+        "The Northeast depended on exporting cotton, while the South relied on manufacturing",
+        "The South wanted federal funds for canals, while the Northeast opposed all internal improvements",
+        "The Northeast wanted to protect growing manufacturing, while the South depended on exporting cotton",
+        "The South wanted a high tariff, while the Northeast demanded free trade with Britain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Regional economies shaped positions on the tariff, and the Northeast and South usually stood on opposite sides.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The roles were the reverse.",
+        "The Northeast favored many improvements to connect its markets.",
+        "Regional economies shaped positions on the tariff, and the Northeast and South usually stood on opposite sides.",
+        "The positions on the tariff were reversed."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The reversal choice is close because it names the same two products, but the Northeast manufactured and the South grew cotton.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-4-3-q08",
+      "topicId": "apush-4-3",
+      "concept": "american-system",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.2.III.D"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Why did Presidents Madison and Monroe veto bills for federal internal improvements?",
+      "choices": [
+        "They doubted that the Constitution let the federal government build roads and canals",
+        "They believed that roads and canals would hurt the economy of the Western states and the Southeast",
+        "They thought the projects cost too much and wanted Congress to end all government spending",
+        "They wanted to leave all roads under the control of Great Britain and Canada"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both presidents thought that a constitutional amendment would be needed before the federal government could build such projects, so many were left to states and private companies.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Both presidents thought that a constitutional amendment would be needed before the federal government could build such projects, so many were left to states and private companies.",
+        "Both presidents supported better transportation but questioned federal power.",
+        "Their objection was constitutional and not only a matter of cost.",
+        "No such plan existed."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The Western economy choice is close because the projects mainly benefited the West, but the vetoes rested on constitutional doubts.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-3-t01",
+      "topicId": "apush-4-3",
+      "concept": "missouri-compromise",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.3.II.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following claims about the Missouri Compromise is best supported by the table?",
+      "choices": [
+        "Congress banned slavery throughout the whole of the Louisiana Purchase",
+        "Congress paired the admission of a slave state with the admission of a free state",
+        "Congress admitted Missouri as a free state to please the Northern representatives",
+        "Congress admitted Maine as a slave state to keep the balance of power in the House"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The table shows that Missouri entered as a slave state and Maine as a free state, which kept the number of states equal in the Senate.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The table says slavery stayed legal south of 36°30′ and in Missouri.",
+        "The table shows that Missouri entered as a slave state and Maine as a free state, which kept the number of states equal in the Senate.",
+        "The table lists Missouri as a slave state.",
+        "The table lists Maine as a free state."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The whole-purchase choice is close because the compromise did ban slavery in part of the purchase, but not all of it.",
+      "stimulusId": "original-missouri-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-missouri-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 4.3, KC-4.3.II.C: congressional attempts at political compromise, such as the Missouri Compromise, only temporarily stemmed growing tensions between opponents and defenders of slavery",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the Missouri Compromise",
+          "caption": "The Missouri Compromise, 1820–1821",
+          "columns": [
+            "Provision",
+            "What it did"
+          ],
+          "rows": [
+            [
+              "Missouri",
+              "Admitted as a slave state"
+            ],
+            [
+              "Maine",
+              "Admitted as a free state, separated from Massachusetts"
+            ],
+            [
+              "Louisiana Purchase north of 36°30′",
+              "Slavery prohibited, except within Missouri"
+            ],
+            [
+              "Louisiana Purchase south of 36°30′",
+              "Slavery remained legal (the Arkansas Territory)"
+            ],
+            [
+              "Balance in the Senate",
+              "Kept the numbers of free and slave states equal at twelve each"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 4.3 reading."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-4-3-t02",
+      "topicId": "apush-4-3",
+      "concept": "missouri-compromise",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.3.II.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following was a short-term effect of the provisions listed in the table?",
+      "choices": [
+        "The immediate dispute ended, and the number of free and slave states stayed equal",
+        "The question of slavery in the territories was settled permanently for all future land",
+        "Northern states agreed to end their opposition to the spread of slavery",
+        "Southern states left the Union because the compromise limited slavery north of a line"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The compromise preserved the Senate balance, but it only postponed the larger conflict over slavery in new lands.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The compromise preserved the Senate balance, but it only postponed the larger conflict over slavery in new lands.",
+        "The question returned with each new territory.",
+        "Northern opposition continued.",
+        "Southern states did not leave the Union in 1820."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The permanent settlement choice is close because the line seemed final, but each new acquisition revived the question.",
+      "stimulusId": "original-missouri-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-missouri-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 4.3, KC-4.3.II.C: congressional attempts at political compromise, such as the Missouri Compromise, only temporarily stemmed growing tensions between opponents and defenders of slavery",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the Missouri Compromise",
+          "caption": "The Missouri Compromise, 1820–1821",
+          "columns": [
+            "Provision",
+            "What it did"
+          ],
+          "rows": [
+            [
+              "Missouri",
+              "Admitted as a slave state"
+            ],
+            [
+              "Maine",
+              "Admitted as a free state, separated from Massachusetts"
+            ],
+            [
+              "Louisiana Purchase north of 36°30′",
+              "Slavery prohibited, except within Missouri"
+            ],
+            [
+              "Louisiana Purchase south of 36°30′",
+              "Slavery remained legal (the Arkansas Territory)"
+            ],
+            [
+              "Balance in the Senate",
+              "Kept the numbers of free and slave states equal at twelve each"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 4.3 reading."
+        }
+      ],
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-3-t03",
+      "topicId": "apush-4-3",
+      "concept": "missouri-compromise",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "4.C",
+      "keyConcepts": [
+        "KC-4.3.II.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "The dispute that led to the provisions in the table is best understood in the context of which of the following?",
+      "choices": [
+        "The Supreme Court's decision in Gibbons v. Ogden, which strengthened federal power over commerce",
+        "The debate over whether to renew the charter of the Second Bank of the United States",
+        "The Embargo Act, which had cut off American trade with European nations in 1807",
+        "Westward expansion that raised the question of whether slavery would spread into new territory"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Louisiana Purchase and westward settlement made it necessary to decide where slavery could go, and Missouri forced the issue.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That decision concerned steamboat monopolies and not slavery.",
+        "The bank question was a separate economic dispute.",
+        "The embargo ended in 1809, long before the Missouri dispute.",
+        "The Louisiana Purchase and westward settlement made it necessary to decide where slavery could go, and Missouri forced the issue."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Gibbons choice is close because it came in the same decade, but it did not concern slavery.",
+      "stimulusId": "original-missouri-table",
+      "stimulusBlocks": [
+        {
+          "id": "original-missouri-table",
+          "type": "source",
+          "medium": "table",
+          "sourceType": "original",
+          "source": "CED Topic 4.3, KC-4.3.II.C: congressional attempts at political compromise, such as the Missouri Compromise, only temporarily stemmed growing tensions between opponents and defenders of slavery",
+          "ced_review": "pending",
+          "attribution": "Table compiled by Page One from standard histories of the Missouri Compromise",
+          "caption": "The Missouri Compromise, 1820–1821",
+          "columns": [
+            "Provision",
+            "What it did"
+          ],
+          "rows": [
+            [
+              "Missouri",
+              "Admitted as a slave state"
+            ],
+            [
+              "Maine",
+              "Admitted as a free state, separated from Massachusetts"
+            ],
+            [
+              "Louisiana Purchase north of 36°30′",
+              "Slavery prohibited, except within Missouri"
+            ],
+            [
+              "Louisiana Purchase south of 36°30′",
+              "Slavery remained legal (the Arkansas Territory)"
+            ],
+            [
+              "Balance in the Senate",
+              "Kept the numbers of free and slave states equal at twelve each"
+            ]
+          ],
+          "citation": "Compiled by Page One; see the Topic 4.3 reading."
+        }
+      ],
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-4-3-quick",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-3",
+      "title": "Topic 4.3 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-4-3-q01",
+        "apush-4-3-q02",
+        "apush-4-3-q03"
+      ]
+    },
+    {
+      "id": "apush-4-3-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-3",
+      "title": "Politics and Regional Interests topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-4-3-q01",
+        "apush-4-3-q02",
+        "apush-4-3-q03",
+        "apush-4-3-q04",
+        "apush-4-3-q05",
+        "apush-4-3-q06",
+        "apush-4-3-q07",
+        "apush-4-3-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "regional-interests": {
+      "id": "regional-interests",
+      "title": "Regional interests and national politics",
+      "section": "regional-interests",
+      "topicId": "apush-4-3"
+    },
+    "american-system": {
+      "id": "american-system",
+      "title": "The American System",
+      "section": "american-system",
+      "topicId": "apush-4-3"
+    },
+    "missouri-compromise": {
+      "id": "missouri-compromise",
+      "title": "The Missouri Compromise",
+      "section": "missouri-compromise",
+      "topicId": "apush-4-3"
+    }
+  },
+  "assets": {}
+}

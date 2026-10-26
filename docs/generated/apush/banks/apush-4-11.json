@@ -1,0 +1,968 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-4",
+    "courseId": "apush",
+    "number": 4,
+    "title": "Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "description": "Follow the rise of party politics and a more participatory democracy, the market revolution, westward expansion and foreign policy, the Second Great Awakening and reform, and the growth of slavery from 1800 to 1848.",
+    "quizzes": [
+      {
+        "id": "apush-4-practice",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-4-1",
+            "questionIds": [
+              "apush-4-1-q01",
+              "apush-4-1-q04",
+              "apush-4-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-q01",
+              "apush-4-2-q04",
+              "apush-4-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-q01",
+              "apush-4-3-q04",
+              "apush-4-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-q01",
+              "apush-4-4-q04",
+              "apush-4-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-q01",
+              "apush-4-5-q04",
+              "apush-4-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-6",
+            "questionIds": [
+              "apush-4-6-q01",
+              "apush-4-6-q04",
+              "apush-4-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-q01",
+              "apush-4-7-q04",
+              "apush-4-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-q01",
+              "apush-4-8-q04",
+              "apush-4-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-9",
+            "questionIds": [
+              "apush-4-9-q01",
+              "apush-4-9-q04",
+              "apush-4-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-10",
+            "questionIds": [
+              "apush-4-10-q01",
+              "apush-4-10-q04",
+              "apush-4-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-q01",
+              "apush-4-11-q04",
+              "apush-4-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-q01",
+              "apush-4-12-q04",
+              "apush-4-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-13",
+            "questionIds": [
+              "apush-4-13-q01",
+              "apush-4-13-q04",
+              "apush-4-13-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-14",
+            "questionIds": [
+              "apush-4-14-q01",
+              "apush-4-14-q04",
+              "apush-4-14-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-4-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-t01",
+              "apush-4-2-t02",
+              "apush-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-t01",
+              "apush-4-3-t02",
+              "apush-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-t01",
+              "apush-4-4-t02",
+              "apush-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-t01",
+              "apush-4-5-t02",
+              "apush-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-t01",
+              "apush-4-7-t02",
+              "apush-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-t01",
+              "apush-4-8-t02",
+              "apush-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-t01",
+              "apush-4-11-t02",
+              "apush-4-11-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-t01",
+              "apush-4-12-t02",
+              "apush-4-12-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 24
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-4-1-quiz",
+        "title": "Contextualizing Period 4 topic quiz"
+      },
+      {
+        "id": "apush-4-2-quiz",
+        "title": "The Rise of Political Parties and the Era of Jefferson topic quiz"
+      },
+      {
+        "id": "apush-4-3-quiz",
+        "title": "Politics and Regional Interests topic quiz"
+      },
+      {
+        "id": "apush-4-4-quiz",
+        "title": "America on the World Stage topic quiz"
+      },
+      {
+        "id": "apush-4-5-quiz",
+        "title": "Market Revolution: Industrialization topic quiz"
+      },
+      {
+        "id": "apush-4-6-quiz",
+        "title": "Market Revolution: Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-4-7-quiz",
+        "title": "Expanding Democracy topic quiz"
+      },
+      {
+        "id": "apush-4-8-quiz",
+        "title": "Jackson and Federal Power topic quiz"
+      },
+      {
+        "id": "apush-4-9-quiz",
+        "title": "The Development of an American Culture topic quiz"
+      },
+      {
+        "id": "apush-4-10-quiz",
+        "title": "The Second Great Awakening topic quiz"
+      },
+      {
+        "id": "apush-4-11-quiz",
+        "title": "An Age of Reform topic quiz"
+      },
+      {
+        "id": "apush-4-12-quiz",
+        "title": "African Americans in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-13-quiz",
+        "title": "The Society of the South in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-14-quiz",
+        "title": "Causation in Period 4 topic quiz"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "apush-4-1",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "period": "1800–1848",
+      "status": "ready",
+      "summary": "The context for Period 4: a more participatory democracy and a new national culture, an economy transformed by innovation, and a nation that expanded westward and argued over slavery, 1800–1848."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-saq-02",
+        "title": "Unit 4 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-leq-identity",
+        "title": "LEQ: Did economic change create a national identity?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-4-11",
+    "courseId": "apush",
+    "unitId": "apush-4",
+    "order": 11,
+    "code": "4.11",
+    "title": "An Age of Reform",
+    "period": "1800–1848",
+    "status": "ready",
+    "summary": "How religious revival, voluntary organizations, abolitionism, and the women's rights movement tried to improve American society between 1800 and 1848."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "ddd59094dfac0945",
+  "questions": [
+    {
+      "id": "apush-4-11-q01",
+      "topicId": "apush-4-11",
+      "concept": "voluntary-organizations-and-reform",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.A"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "The American Temperance Society (1826) sought to",
+      "choices": [
+        "end the sale of alcohol throughout the nation by passing a federal law",
+        "end slavery by boycotting goods made by enslaved laborers in the South",
+        "raise money for asylums and prisons through taxes on alcohol sold in the cities",
+        "reduce drinking, which reformers blamed for poverty and family suffering"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Temperance reformers tried to change individual behavior and improve society through voluntary action.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "It was a voluntary society that urged people to change their habits.",
+        "That was a goal of abolitionists.",
+        "Its goal was to reduce drinking.",
+        "Temperance reformers tried to change individual behavior and improve society through voluntary action."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The federal law choice is close because later reformers pressed for prohibition laws, but the Society relied on persuasion.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-11-q02",
+      "topicId": "apush-4-11",
+      "concept": "voluntary-organizations-and-reform",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.A"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Horace Mann's reform work in Massachusetts was mainly aimed at",
+      "choices": [
+        "creating asylums to care for the mentally ill and reforming conditions in prisons",
+        "building public schools and improving the training of teachers",
+        "ending child labor in the textile mills of Lowell and other New England towns",
+        "founding colleges that admitted only women and trained them for political office"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mann argued that free public schools would educate citizens and promote opportunity.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That was the work of Dorothea Dix.",
+        "Mann argued that free public schools would educate citizens and promote opportunity.",
+        "Mann focused on schools.",
+        "His goal was common schools for children."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The asylums choice is close because both were reformers in Massachusetts in the same years, but Dix worked on asylums.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-11-q03",
+      "topicId": "apush-4-11",
+      "concept": "voluntary-organizations-and-reform",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.II.A.ii"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Utopian communities such as New Harmony and Brook Farm",
+      "choices": [
+        "tried to create model societies based on cooperation and shared ideals",
+        "were founded to enforce temperance laws and to punish the sale of alcohol",
+        "were settlements for free Black Americans who had left the Northern states",
+        "were military forts built by the army to defend the frontier against Native nations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "These communities sought to show that people could live in more equal and cooperative ways.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "These communities sought to show that people could live in more equal and cooperative ways.",
+        "They were experiments in communal living.",
+        "They were not designed for that purpose.",
+        "They were not military outposts."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The temperance laws choice is close because many utopians were reformers, but their aim was to build model communities.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-11-q04",
+      "topicId": "apush-4-11",
+      "concept": "voluntary-organizations-and-reform",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.II.A.ii"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following helped to cause the growth of reform movements in the 1820s through the 1840s?",
+      "choices": [
+        "A decline in religious feeling that led Americans to look to government for answers",
+        "Federal laws that required states to fund every voluntary reform organization",
+        "The Second Great Awakening's stress on moral improvement",
+        "A shortage of newspapers that kept Americans from learning about social problems"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Revivalist preaching encouraged believers to improve themselves and their communities, and many turned to reform.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Religious feeling increased.",
+        "Reform groups were mostly private.",
+        "Revivalist preaching encouraged believers to improve themselves and their communities, and many turned to reform.",
+        "Newspapers and pamphlets spread rapidly."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The declining religion choice is close because it also links religion to reform, but religion was growing.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-11-q05",
+      "topicId": "apush-4-11",
+      "concept": "abolition-and-antislavery",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.B.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following describes the status of slavery in the North by the 1820s?",
+      "choices": [
+        "Slavery was growing rapidly in every Northern state as the cotton trade expanded",
+        "Most Northern states had ended slavery or set it on a path to gradual ending",
+        "Northern states required free Black people to move to the South to find work",
+        "Congress had abolished slavery in every state north of the Mason-Dixon line"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gradual emancipation laws in the North contributed to a growing free African American population.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Cotton slavery grew in the South.",
+        "Gradual emancipation laws in the North contributed to a growing free African American population.",
+        "Free Black communities grew in the North.",
+        "Northern states ended slavery by their own laws."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Congress choice is close because Congress did regulate slavery in territories, but states abolished it in the North.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-11-q06",
+      "topicId": "apush-4-11",
+      "concept": "abolition-and-antislavery",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.B.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "William Lloyd Garrison's newspaper The Liberator (1831) was important because it",
+      "choices": [
+        "proposed sending free Black people to Africa through the American Colonization Society",
+        "argued that slavery should be left to the Southern states to end in their own time",
+        "recommended that the federal government buy the freedom of enslaved people",
+        "demanded immediate emancipation and helped to launch a more radical abolitionist movement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Garrison and the American Anti-Slavery Society (1833) called slavery a sin and demanded its immediate end.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Garrison opposed colonization.",
+        "He rejected gradual approaches.",
+        "Garrison demanded immediate emancipation.",
+        "Garrison and the American Anti-Slavery Society (1833) called slavery a sin and demanded its immediate end."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The colonization choice is close because it concerns early antislavery opinion, but Garrison attacked that approach.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-11-q07",
+      "topicId": "apush-4-11",
+      "concept": "abolition-and-antislavery",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.B.i"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following describes a difference between the American Colonization Society and the abolitionists of the 1830s?",
+      "choices": [
+        "The Society backed colonization in Africa, while abolitionists demanded immediate freedom",
+        "The Society demanded immediate emancipation, while abolitionists favored colonization",
+        "The Society favored equal rights for all African Americans, while abolitionists opposed them",
+        "The Society wanted to expand slavery into the West, while abolitionists wished to end it"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Society's plan to colonize free Black people in Africa was rejected by most African Americans and by radical abolitionists.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Society's plan to colonize free Black people in Africa was rejected by most African Americans and by radical abolitionists.",
+        "The groups held the reverse positions.",
+        "Abolitionists, not the Society, were the more radical supporters of equality.",
+        "The Society did not seek to expand slavery."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The reversed positions choice is close because it names the same two programs, but they are assigned to the wrong groups.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-4-11-q08",
+      "topicId": "apush-4-11",
+      "concept": "womens-rights",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.C"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "The Seneca Falls Convention (1848) is significant because it",
+      "choices": [
+        "won women the right to vote in New York State, which other states then copied",
+        "led Congress to pass the Nineteenth Amendment in the years that followed",
+        "issued a Declaration of Sentiments listing women's grievances",
+        "was organized by male abolitionists who declined to let women speak at the meeting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Declaration of Sentiments was modeled on the Declaration of Independence and listed the ways that women were denied rights.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Women did not win the vote in New York in 1848.",
+        "That amendment was ratified in 1920.",
+        "The Declaration of Sentiments was modeled on the Declaration of Independence and listed the ways that women were denied rights.",
+        "Women organized the convention and spoke."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The voting rights choice is close because suffrage was a demand at Seneca Falls, but women did not gain the vote then.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-11-q09",
+      "topicId": "apush-4-11",
+      "concept": "womens-rights",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.C"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following best explains why many early women's rights leaders came from the abolitionist and temperance movements?",
+      "choices": [
+        "Those movements required their members to demand the vote before joining",
+        "They gained experience in organizing but were often kept from speaking or voting",
+        "Women had been banned from reform groups until the Seneca Falls Convention",
+        "The federal government had asked women to lead the movement against slavery"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Women learned how to organize and speak in reform groups and then questioned their own lack of rights.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The movements did not make that demand.",
+        "Women learned how to organize and speak in reform groups and then questioned their own lack of rights.",
+        "Women had taken part in reform groups for years.",
+        "The government made no such request."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The ban choice is close because women faced limits in these groups, but they were not banned from joining.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-11-t01",
+      "topicId": "apush-4-11",
+      "concept": "womens-rights",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.A",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.C"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following claims about the status of women is best supported by the excerpt?",
+      "choices": [
+        "Women had won the vote in state elections but were denied the right to hold office",
+        "Women's rights were already protected by the Constitution and by the state laws",
+        "Women could vote in national elections but were denied a voice in local government",
+        "Women were denied the vote and were governed by laws that they had no voice in making"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The excerpt says that man “has never permitted her” to vote and has compelled her to submit to laws she had no voice in forming.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The excerpt says that women had never been permitted to vote.",
+        "The excerpt says that men had withheld rights from women.",
+        "The excerpt says women were denied the franchise.",
+        "The excerpt says that man “has never permitted her” to vote and has compelled her to submit to laws she had no voice in forming."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The state elections choice is close because the excerpt discusses voting, but it says that women had never voted.",
+      "stimulusId": "seneca-falls-sentiments",
+      "stimulusBlocks": [
+        {
+          "id": "seneca-falls-sentiments",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 4.11, KC-4.1.III.C: a women's rights movement sought to create greater equality and opportunities for women, expressing its ideals at the Seneca Falls Convention",
+          "ced_review": "pending",
+          "attribution": "The Declaration of Sentiments, adopted at the Seneca Falls Convention in New York on July 19–20, 1848, and written chiefly by Elizabeth Cady Stanton",
+          "citation": "Declaration of Sentiments (1848), as printed in Elizabeth Cady Stanton, Susan B. Anthony, and Matilda Joslyn Gage, eds., History of Woman Suffrage, vol. 1 (1881). Project Gutenberg eBook #28020.",
+          "note": "The Declaration of Sentiments follows the wording and structure of the Declaration of Independence of 1776. “Franchise” means the right to vote.",
+          "text": "We hold these truths to be self-evident: that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness; . . . .\n\nThe history of mankind is a history of repeated injuries and usurpations on the part of man toward woman, having in direct object the establishment of an absolute tyranny over her.\n\nHe has never permitted her to exercise her inalienable right to the elective franchise. He has compelled her to submit to laws, in the formation of which she had no voice. He has withheld from her rights which are given to the most ignorant and degraded men--both natives and foreigners."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify and describe a claim and/or argument in a text-based or non-text-based source."
+    },
+    {
+      "id": "apush-4-11-t02",
+      "topicId": "apush-4-11",
+      "concept": "womens-rights",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.B",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.C"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "Which of the following does the excerpt use as evidence for its claim that men have tried to establish “an absolute tyranny” over women?",
+      "choices": [
+        "Statistics on the number of women who worked in factories and in the mill towns",
+        "A list of the rights withheld from women, including the vote and a voice in making laws",
+        "Testimony from enslaved women about their treatment under the laws of the South",
+        "A comparison of the rights of women in the United States and in European monarchies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The authors support their claim with specific injuries, such as denying women the franchise and imposing laws they had no voice in forming.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The excerpt gives no statistics.",
+        "The authors support their claim with specific injuries, such as denying women the franchise and imposing laws they had no voice in forming.",
+        "The excerpt contains no such testimony.",
+        "The excerpt makes no comparison with Europe."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The factory statistics choice is close because the excerpt is about women's status, but it lists rights denied and not wages.",
+      "stimulusId": "seneca-falls-sentiments",
+      "stimulusBlocks": [
+        {
+          "id": "seneca-falls-sentiments",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 4.11, KC-4.1.III.C: a women's rights movement sought to create greater equality and opportunities for women, expressing its ideals at the Seneca Falls Convention",
+          "ced_review": "pending",
+          "attribution": "The Declaration of Sentiments, adopted at the Seneca Falls Convention in New York on July 19–20, 1848, and written chiefly by Elizabeth Cady Stanton",
+          "citation": "Declaration of Sentiments (1848), as printed in Elizabeth Cady Stanton, Susan B. Anthony, and Matilda Joslyn Gage, eds., History of Woman Suffrage, vol. 1 (1881). Project Gutenberg eBook #28020.",
+          "note": "The Declaration of Sentiments follows the wording and structure of the Declaration of Independence of 1776. “Franchise” means the right to vote.",
+          "text": "We hold these truths to be self-evident: that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness; . . . .\n\nThe history of mankind is a history of repeated injuries and usurpations on the part of man toward woman, having in direct object the establishment of an absolute tyranny over her.\n\nHe has never permitted her to exercise her inalienable right to the elective franchise. He has compelled her to submit to laws, in the formation of which she had no voice. He has withheld from her rights which are given to the most ignorant and degraded men--both natives and foreigners."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify the evidence used in a source to support an argument."
+    },
+    {
+      "id": "apush-4-11-t03",
+      "topicId": "apush-4-11",
+      "concept": "womens-rights",
+      "difficulty": "Core",
+      "skill": "sourcing",
+      "subskill": "2.A",
+      "learningObjective": "4.K",
+      "keyConcepts": [
+        "KC-4.1.III.C"
+      ],
+      "themes": [
+        "ARC"
+      ],
+      "prompt": "The authors most likely modeled the excerpt on the Declaration of Independence in order to",
+      "choices": [
+        "show that the movement was loyal to the British Crown and to its laws",
+        "avoid asking for the vote, which the authors considered too radical a demand",
+        "present women's rights as an extension of the nation's founding principles",
+        "ask Congress to rewrite the Declaration of Independence to include women"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By echoing the Declaration, the authors used a familiar American text to argue that its promise of equality should include women.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Declaration of Independence rejected the Crown.",
+        "The excerpt demands the franchise.",
+        "By echoing the Declaration, the authors used a familiar American text to argue that its promise of equality should include women.",
+        "The excerpt does not ask for a rewriting of the document."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The loyalty choice is close because the excerpt copies the style of a document about a king, but its aim was women's equality.",
+      "stimulusId": "seneca-falls-sentiments",
+      "stimulusBlocks": [
+        {
+          "id": "seneca-falls-sentiments",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 4.11, KC-4.1.III.C: a women's rights movement sought to create greater equality and opportunities for women, expressing its ideals at the Seneca Falls Convention",
+          "ced_review": "pending",
+          "attribution": "The Declaration of Sentiments, adopted at the Seneca Falls Convention in New York on July 19–20, 1848, and written chiefly by Elizabeth Cady Stanton",
+          "citation": "Declaration of Sentiments (1848), as printed in Elizabeth Cady Stanton, Susan B. Anthony, and Matilda Joslyn Gage, eds., History of Woman Suffrage, vol. 1 (1881). Project Gutenberg eBook #28020.",
+          "note": "The Declaration of Sentiments follows the wording and structure of the Declaration of Independence of 1776. “Franchise” means the right to vote.",
+          "text": "We hold these truths to be self-evident: that all men and women are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness; . . . .\n\nThe history of mankind is a history of repeated injuries and usurpations on the part of man toward woman, having in direct object the establishment of an absolute tyranny over her.\n\nHe has never permitted her to exercise her inalienable right to the elective franchise. He has compelled her to submit to laws, in the formation of which she had no voice. He has withheld from her rights which are given to the most ignorant and degraded men--both natives and foreigners."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Identify a source’s point of view, purpose, historical situation, and/or audience."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-4-11-quick",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-11",
+      "title": "Topic 4.11 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-4-11-q01",
+        "apush-4-11-q02",
+        "apush-4-11-q03"
+      ]
+    },
+    {
+      "id": "apush-4-11-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-11",
+      "title": "An Age of Reform topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-4-11-q01",
+        "apush-4-11-q02",
+        "apush-4-11-q03",
+        "apush-4-11-q04",
+        "apush-4-11-q05",
+        "apush-4-11-q06",
+        "apush-4-11-q07",
+        "apush-4-11-q08",
+        "apush-4-11-q09"
+      ]
+    }
+  ],
+  "concepts": {
+    "voluntary-organizations-and-reform": {
+      "id": "voluntary-organizations-and-reform",
+      "title": "Voluntary organizations and reform",
+      "section": "voluntary-organizations-and-reform",
+      "topicId": "apush-4-11"
+    },
+    "abolition-and-antislavery": {
+      "id": "abolition-and-antislavery",
+      "title": "Abolitionism and antislavery movements",
+      "section": "abolition-and-antislavery",
+      "topicId": "apush-4-11"
+    },
+    "womens-rights": {
+      "id": "womens-rights",
+      "title": "The women's rights movement",
+      "section": "womens-rights",
+      "topicId": "apush-4-11"
+    }
+  },
+  "assets": {}
+}

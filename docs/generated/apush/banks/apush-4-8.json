@@ -1,0 +1,929 @@
+{
+  "course": {
+    "schemaVersion": 1,
+    "id": "apush",
+    "title": "AP U.S. History",
+    "shortTitle": "AP U.S. History",
+    "description": "Trace how Americans have argued over identity, power, work, and their place in the world, from the societies that existed before 1491 to the present.",
+    "status": "ready",
+    "period": "1491–present",
+    "order": 4,
+    "previewDescription": "Follow the nation's development from early contact and colonization through independence, civil war, industrialization, world wars, and recent decades.",
+    "sourceReview": "ced_review"
+  },
+  "unit": {
+    "schemaVersion": 1,
+    "id": "apush-4",
+    "courseId": "apush",
+    "number": 4,
+    "title": "Period 4",
+    "period": "1800–1848",
+    "status": "ready",
+    "description": "Follow the rise of party politics and a more participatory democracy, the market revolution, westward expansion and foreign policy, the Second Great Awakening and reform, and the growth of slavery from 1800 to 1848.",
+    "quizzes": [
+      {
+        "id": "apush-4-practice",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 practice",
+        "quizType": "unit",
+        "selections": [
+          {
+            "topicId": "apush-4-1",
+            "questionIds": [
+              "apush-4-1-q01",
+              "apush-4-1-q04",
+              "apush-4-1-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-q01",
+              "apush-4-2-q04",
+              "apush-4-2-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-q01",
+              "apush-4-3-q04",
+              "apush-4-3-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-q01",
+              "apush-4-4-q04",
+              "apush-4-4-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-q01",
+              "apush-4-5-q04",
+              "apush-4-5-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-6",
+            "questionIds": [
+              "apush-4-6-q01",
+              "apush-4-6-q04",
+              "apush-4-6-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-q01",
+              "apush-4-7-q04",
+              "apush-4-7-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-q01",
+              "apush-4-8-q04",
+              "apush-4-8-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-9",
+            "questionIds": [
+              "apush-4-9-q01",
+              "apush-4-9-q04",
+              "apush-4-9-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-10",
+            "questionIds": [
+              "apush-4-10-q01",
+              "apush-4-10-q04",
+              "apush-4-10-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-q01",
+              "apush-4-11-q04",
+              "apush-4-11-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-q01",
+              "apush-4-12-q04",
+              "apush-4-12-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-13",
+            "questionIds": [
+              "apush-4-13-q01",
+              "apush-4-13-q04",
+              "apush-4-13-q06"
+            ]
+          },
+          {
+            "topicId": "apush-4-14",
+            "questionIds": [
+              "apush-4-14-q01",
+              "apush-4-14-q04",
+              "apush-4-14-q06"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apush-4-practice-test",
+        "courseId": "apush",
+        "unitId": "apush-4",
+        "title": "Unit 4 Practice Test",
+        "quizType": "unit",
+        "practiceTest": true,
+        "selections": [
+          {
+            "topicId": "apush-4-2",
+            "questionIds": [
+              "apush-4-2-t01",
+              "apush-4-2-t02",
+              "apush-4-2-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-3",
+            "questionIds": [
+              "apush-4-3-t01",
+              "apush-4-3-t02",
+              "apush-4-3-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-4",
+            "questionIds": [
+              "apush-4-4-t01",
+              "apush-4-4-t02",
+              "apush-4-4-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-5",
+            "questionIds": [
+              "apush-4-5-t01",
+              "apush-4-5-t02",
+              "apush-4-5-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-7",
+            "questionIds": [
+              "apush-4-7-t01",
+              "apush-4-7-t02",
+              "apush-4-7-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-8",
+            "questionIds": [
+              "apush-4-8-t01",
+              "apush-4-8-t02",
+              "apush-4-8-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-11",
+            "questionIds": [
+              "apush-4-11-t01",
+              "apush-4-11-t02",
+              "apush-4-11-t03"
+            ]
+          },
+          {
+            "topicId": "apush-4-12",
+            "questionIds": [
+              "apush-4-12-t01",
+              "apush-4-12-t02",
+              "apush-4-12-t03"
+            ]
+          }
+        ]
+      }
+    ],
+    "practiceTest": {
+      "id": "apush-4-practice-test",
+      "title": "Unit 4 Practice Test",
+      "questionCount": 24
+    },
+    "termSets": [],
+    "topicQuizzes": [
+      {
+        "id": "apush-4-1-quiz",
+        "title": "Contextualizing Period 4 topic quiz"
+      },
+      {
+        "id": "apush-4-2-quiz",
+        "title": "The Rise of Political Parties and the Era of Jefferson topic quiz"
+      },
+      {
+        "id": "apush-4-3-quiz",
+        "title": "Politics and Regional Interests topic quiz"
+      },
+      {
+        "id": "apush-4-4-quiz",
+        "title": "America on the World Stage topic quiz"
+      },
+      {
+        "id": "apush-4-5-quiz",
+        "title": "Market Revolution: Industrialization topic quiz"
+      },
+      {
+        "id": "apush-4-6-quiz",
+        "title": "Market Revolution: Society and Culture topic quiz"
+      },
+      {
+        "id": "apush-4-7-quiz",
+        "title": "Expanding Democracy topic quiz"
+      },
+      {
+        "id": "apush-4-8-quiz",
+        "title": "Jackson and Federal Power topic quiz"
+      },
+      {
+        "id": "apush-4-9-quiz",
+        "title": "The Development of an American Culture topic quiz"
+      },
+      {
+        "id": "apush-4-10-quiz",
+        "title": "The Second Great Awakening topic quiz"
+      },
+      {
+        "id": "apush-4-11-quiz",
+        "title": "An Age of Reform topic quiz"
+      },
+      {
+        "id": "apush-4-12-quiz",
+        "title": "African Americans in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-13-quiz",
+        "title": "The Society of the South in the Early Republic topic quiz"
+      },
+      {
+        "id": "apush-4-14-quiz",
+        "title": "Causation in Period 4 topic quiz"
+      }
+    ],
+    "topicCount": 14,
+    "firstTopic": {
+      "id": "apush-4-1",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "order": 1,
+      "code": "4.1",
+      "title": "Contextualizing Period 4",
+      "period": "1800–1848",
+      "status": "ready",
+      "summary": "The context for Period 4: a more participatory democracy and a new national culture, an economy transformed by innovation, and a nation that expanded westward and argued over slavery, 1800–1848."
+    },
+    "hasGuide": false,
+    "writingQuizzes": [
+      {
+        "id": "apush-4-saq-01",
+        "title": "Unit 4 SAQ 01",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-saq-02",
+        "title": "Unit 4 SAQ 02",
+        "partCount": 3,
+        "exerciseType": "saq",
+        "availability": "available"
+      },
+      {
+        "id": "apush-4-leq-identity",
+        "title": "LEQ: Did economic change create a national identity?",
+        "partCount": 2,
+        "exerciseType": "leq",
+        "availability": "available"
+      }
+    ]
+  },
+  "topic": {
+    "id": "apush-4-8",
+    "courseId": "apush",
+    "unitId": "apush-4",
+    "order": 8,
+    "code": "4.8",
+    "title": "Jackson and Federal Power",
+    "period": "1800–1848",
+    "status": "ready",
+    "summary": "How Andrew Jackson's presidency divided Democrats and Whigs over the national bank, tariffs, and federal power, and how Indian removal shaped relations with American Indian nations."
+  },
+  "framework": {
+    "id": "apush-themes",
+    "name": "Course themes",
+    "title": "Use the course themes to choose your evidence",
+    "intro": "The themes connect developments across all nine periods. A piece of evidence can fit more than one theme; choose the one that answers the prompt.",
+    "sourceNote": "Theme names, codes, and descriptions follow the AP U.S. History Course and Exam Description (fall 2026).",
+    "themes": [
+      {
+        "id": "NAT",
+        "shortTitle": "Identity",
+        "title": "American and National Identity",
+        "description": "This theme focuses on how and why definitions of American and national identity and values have developed among the diverse and changing population of North America as well as on related topics, such as citizenship, constitutionalism, foreign policy, assimilation, and American exceptionalism.",
+        "question": "Who counted as American, and what did people believe the nation stood for?",
+        "example": "Debates over ratifying the Constitution turned on what kind of republic Americans wanted."
+      },
+      {
+        "id": "WXT",
+        "shortTitle": "Work and exchange",
+        "title": "Work, Exchange, and Technology",
+        "description": "This theme focuses on the factors behind the development of systems of economic exchange, particularly the role of technology, economic markets, and government.",
+        "question": "How did people earn a living, trade, and use new technology?",
+        "example": "Canals and railroads tied farmers in the West to markets in the East."
+      },
+      {
+        "id": "GEO",
+        "shortTitle": "Geography",
+        "title": "Geography and the Environment",
+        "description": "This theme focuses on the role of geography and both the natural and human-made environments in the social and political developments in what would become the United States.",
+        "question": "How did land, climate, and resources shape choices, and how did people change them?",
+        "example": "The Chesapeake's climate suited tobacco, which shaped its labor system."
+      },
+      {
+        "id": "MIG",
+        "shortTitle": "Migration",
+        "title": "Migration and Settlement",
+        "description": "This theme focuses on why and how the various people who moved to and within the United States both adapted to and transformed their new social and physical environments.",
+        "question": "Why did people move, and how did they change the places they settled?",
+        "example": "The Great Migration brought African Americans from the rural South to northern cities."
+      },
+      {
+        "id": "PCE",
+        "shortTitle": "Politics",
+        "title": "Politics and Power",
+        "description": "This theme focuses on how different social and political groups have influenced society and government in the United States as well as how political beliefs and institutions have changed over time.",
+        "question": "Who held power, how did they use it, and who challenged it?",
+        "example": "The New Deal expanded the federal government's role in the economy."
+      },
+      {
+        "id": "WOR",
+        "shortTitle": "World",
+        "title": "America in the World",
+        "description": "This theme focuses on the interactions between nations that affected North American history in the colonial period and on the influence of the United States on world affairs.",
+        "question": "How did contact, trade, diplomacy, and war connect America to other nations?",
+        "example": "The Seven Years' War left Britain in debt and changed its policies toward the colonies."
+      },
+      {
+        "id": "ARC",
+        "shortTitle": "Culture",
+        "title": "American and Regional Culture",
+        "description": "This theme focuses on the how and why national, regional, and group cultures developed and changed as well as how culture has shaped government policy and the economy.",
+        "question": "How did beliefs, religion, arts, and media develop and shape public life?",
+        "example": "The Second Great Awakening inspired many Americans to join reform movements."
+      },
+      {
+        "id": "SOC",
+        "shortTitle": "Society",
+        "title": "Social Structures",
+        "description": "This theme focuses on how and why systems of social organization develop and change as well as the impact that these systems have on the broader society.",
+        "question": "How were people ranked by race, class, and gender, and how did that change?",
+        "example": "The growth of a middle class in the Gilded Age changed ideas about leisure and family."
+      }
+    ]
+  },
+  "contentRevision": "6871472514294153",
+  "questions": [
+    {
+      "id": "apush-4-8-q01",
+      "topicId": "apush-4-8",
+      "concept": "democrats-and-whigs",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.1.I.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "In the 1830s, the Whig Party led by Henry Clay generally supported",
+      "choices": [
+        "a limited federal government, state banks, and low tariffs on imported goods",
+        "an end to the national bank and the abolition of all tariffs and roads",
+        "a national bank, high tariffs, and federal funding of internal improvements",
+        "a ban on federal spending and a requirement that states build their own roads"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Whigs favored the American System and a more active role for the federal government in the economy.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "That describes the Democrats led by Jackson.",
+        "The Whigs supported the American System.",
+        "The Whigs favored the American System and a more active role for the federal government in the economy.",
+        "The Whigs favored federal action on the economy."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The limited government choice is close because it describes the opposing party, the Democrats.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-8-q02",
+      "topicId": "apush-4-8",
+      "concept": "democrats-and-whigs",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.1.I.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Jackson vetoed the renewal of the charter of the Second Bank of the United States in 1832 because he believed that",
+      "choices": [
+        "the Bank was a monopoly that favored the wealthy at the expense of ordinary Americans",
+        "the Bank had failed to provide a stable currency and had ruined the national credit",
+        "the Supreme Court had ruled that a national bank violated the Constitution",
+        "the states had asked Congress to replace the Bank with a system of federal courts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Jackson portrayed the Bank as an institution that served the rich and had too much power, and he won reelection after the veto.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Jackson portrayed the Bank as an institution that served the rich and had too much power, and he won reelection after the veto.",
+        "Jackson's objection concerned privilege and power, not the stability of the currency.",
+        "The Court had upheld the bank in McCulloch v. Maryland.",
+        "No such request was made."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The currency choice is close because the Bank had a role in the currency, but Jackson's argument was about privilege.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-8-q03",
+      "topicId": "apush-4-8",
+      "concept": "nullification-crisis",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.1.I.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "South Carolina's decision to nullify federal law in 1832 was a response to",
+      "choices": [
+        "Jackson's removal of federal deposits from the Second Bank of the United States",
+        "the tariffs of 1828 and 1832, which Southerners believed favored the North",
+        "the Indian Removal Act, which South Carolina believed treated Native nations unfairly",
+        "the Missouri Compromise, which had banned slavery north of a line in the Louisiana Purchase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Southerners thought the high tariffs raised prices and served Northern manufacturers, and South Carolina declared them null and void.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The deposit removal came after the nullification dispute began and involved a different issue.",
+        "Southerners thought the high tariffs raised prices and served Northern manufacturers, and South Carolina declared them null and void.",
+        "Southern states generally supported removal.",
+        "That compromise dated from 1820 and did not cause the tariff dispute."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The Bank choice is close because the Bank War took place at the same time, but nullification was a protest against the tariffs.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-8-q04",
+      "topicId": "apush-4-8",
+      "concept": "nullification-crisis",
+      "difficulty": "Apply",
+      "skill": "developments",
+      "subskill": "1.B",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.1.I.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "How was the nullification crisis resolved in 1833?",
+      "choices": [
+        "The Supreme Court ordered South Carolina to pay the tariff and removed its state officials",
+        "Jackson sent the army to occupy Charleston and ended the tariff by executive order",
+        "South Carolina left the Union and formed a government with the other Southern states",
+        "Congress passed a compromise tariff and a Force Act, and South Carolina backed down"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The compromise tariff lowered duties gradually, and the Force Act allowed the president to enforce the law, so South Carolina backed down.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Court did not decide the dispute in this way.",
+        "The army was not used, and Congress passed the compromise.",
+        "South Carolina did not secede in 1833.",
+        "The compromise tariff lowered duties gradually, and the Force Act allowed the president to enforce the law, so South Carolina backed down."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The army choice is close because Jackson threatened force, but the crisis ended through a compromise.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Explain a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-8-q05",
+      "topicId": "apush-4-8",
+      "concept": "indian-removal",
+      "difficulty": "Core",
+      "skill": "developments",
+      "subskill": "1.A",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.3.I.B"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "The Indian Removal Act of 1830",
+      "choices": [
+        "recognized the Cherokee Nation as a foreign nation with its own territory in Georgia",
+        "made American Indians citizens so that they could keep their lands in the East",
+        "authorized the president to exchange lands in the West for Native lands in the East",
+        "created reservations in the East that were protected from settlers by federal troops"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The law gave the president power to negotiate the exchange of land and became the basis for the removal of many nations.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The Supreme Court ruled in 1831 that the Cherokee Nation was not a foreign nation.",
+        "The act did not grant citizenship.",
+        "The law gave the president power to negotiate the exchange of land and became the basis for the removal of many nations.",
+        "The act aimed at relocation to the West."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The foreign nation choice is close because the Cherokee did seek that recognition, but the law supported removal.",
+      "skillLabel": "Developments and Processes",
+      "skillCode": "1",
+      "subskillText": "Identify a historical concept, development, or process."
+    },
+    {
+      "id": "apush-4-8-q06",
+      "topicId": "apush-4-8",
+      "concept": "indian-removal",
+      "difficulty": "Apply",
+      "skill": "connections",
+      "subskill": "5.B",
+      "reasoning": "causation",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.3.I.B"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following best explains why settlers and state governments in the Southeast supported Indian removal?",
+      "choices": [
+        "They wanted access to Native lands for farming, especially for growing cotton",
+        "They believed that Native nations had formed an alliance with Britain against the United States",
+        "They hoped to protect Native nations from attacks by neighboring settlers in the West",
+        "They were required to do so by a Supreme Court decision in Worcester v. Georgia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Frontier settlers wanted to expand, and cotton made Southeastern land very valuable.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Frontier settlers wanted to expand, and cotton made Southeastern land very valuable.",
+        "The removal debate of the 1830s was about land.",
+        "The settlers wanted the land for themselves.",
+        "The Court's decision in Worcester favored the Cherokee."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The alliance choice is close because the fear of a British alliance was a cause of the War of 1812, but removal in the 1830s was driven by land.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Causation",
+      "subskillText": "Explain how a historical development or process relates to another historical development or process."
+    },
+    {
+      "id": "apush-4-8-q07",
+      "topicId": "apush-4-8",
+      "concept": "indian-removal",
+      "difficulty": "Core",
+      "skill": "contextualization",
+      "subskill": "4.A",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.3.I.B"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "The Trail of Tears (1838–1839) is best understood in the context of which of the following?",
+      "choices": [
+        "A voluntary migration of the Cherokee Nation toward better farmland in the West",
+        "Federal policy to relocate Native nations west of the Mississippi",
+        "A plan to send Native nations to Africa under the American Colonization Society",
+        "The Supreme Court's order that the Cherokee leave Georgia in return for payment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Under the Indian Removal Act and the Treaty of New Echota, the army forced the Cherokee westward.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The removal was forced by the army.",
+        "Under the Indian Removal Act and the Treaty of New Echota, the army forced the Cherokee westward.",
+        "That society proposed sending free Black Americans to Africa.",
+        "The Court had ruled in the Cherokee's favor in Worcester v. Georgia."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The voluntary migration choice is close because some Cherokee had moved earlier, but this removal was forced.",
+      "skillLabel": "Contextualization",
+      "skillCode": "4",
+      "subskillText": "Identify and describe a historical context for a specific historical development or process."
+    },
+    {
+      "id": "apush-4-8-q08",
+      "topicId": "apush-4-8",
+      "concept": "democrats-and-whigs",
+      "difficulty": "Core",
+      "skill": "connections",
+      "subskill": "5.A",
+      "reasoning": "comparison",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.1.I.C"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following describes a difference between Democrats and Whigs in the 1830s?",
+      "choices": [
+        "Democrats favored a national bank, while Whigs wanted the states to charter all banks",
+        "Democrats wanted federal funding of roads, while Whigs opposed all internal improvements",
+        "Democrats favored high protective tariffs, while Whigs wanted free trade with Britain",
+        "Democrats favored limited national power, while Whigs favored federal economic action"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Democrats under Jackson distrusted concentrated economic power, while Whigs followed Clay's American System.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "The parties took the opposite positions.",
+        "Whigs favored federal funding of internal improvements.",
+        "Whigs favored protective tariffs.",
+        "Democrats under Jackson distrusted concentrated economic power, while Whigs followed Clay's American System."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The national bank choice is close because the bank divided the parties, but the Whigs were the party of the bank.",
+      "skillLabel": "Making Connections",
+      "skillCode": "5",
+      "reasoningLabel": "Comparison",
+      "subskillText": "Identify patterns among or connections between historical developments and processes."
+    },
+    {
+      "id": "apush-4-8-t01",
+      "topicId": "apush-4-8",
+      "concept": "indian-removal",
+      "difficulty": "Core",
+      "skill": "sourcing",
+      "subskill": "2.A",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.3.I.B"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Jackson's primary purpose in the excerpt was most likely to",
+      "choices": [
+        "ask Congress to repeal the Indian Removal Act after the first nations accepted it",
+        "announce that the army would force the remaining nations to leave if they refused",
+        "justify the removal policy to Congress and encourage the remaining nations to accept it",
+        "defend the Supreme Court's recent decisions on the rights of the Cherokee Nation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Jackson reports that two nations have agreed to removal and expects that others will follow their example.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "He praises the law and reports its success.",
+        "He says nothing about the use of the army.",
+        "Jackson reports that two nations have agreed to removal and expects that others will follow their example.",
+        "The excerpt does not mention the Court."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The repeal choice is close because the excerpt discusses the law, but Jackson is defending it.",
+      "stimulusId": "jackson-removal-1830",
+      "stimulusBlocks": [
+        {
+          "id": "jackson-removal-1830",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 4.8, KC-4.3.I.B: American Indian resistance led to a sequence of wars and federal efforts to control and relocate American Indian populations",
+          "ced_review": "pending",
+          "attribution": "President Andrew Jackson, in his Second Annual Message to Congress, December 6, 1830, six months after Congress passed the Indian Removal Act",
+          "citation": "Andrew Jackson, Second Annual Message to Congress (December 6, 1830), in State of the Union Addresses of Andrew Jackson. Project Gutenberg eBook #5016.",
+          "note": "The “provision made for their removal at the last session of Congress” is the Indian Removal Act of 1830, which authorized the president to negotiate exchanges of Indian lands in the East for lands west of the Mississippi River. The language about Native peoples reflects the president’s view and the prejudices of his time, not the view of the Native nations.",
+          "text": "It gives me pleasure to announce to Congress that the benevolent policy of the Government, steadily pursued for nearly 30 years, in relation to the removal of the Indians beyond the white settlements is approaching to a happy consummation. Two important tribes have accepted the provision made for their removal at the last session of Congress, and it is believed that their example will induce the remaining tribes also to seek the same obvious advantages.\n\nThe consequences of a speedy removal will be important to the United States, to individual States, and to the Indians themselves. . . . It puts an end to all possible danger of collision between the authorities of the General and State Governments on account of the Indians. It will place a dense and civilized population in large tracts of country now occupied by a few savage hunters."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Identify a source’s point of view, purpose, historical situation, and/or audience."
+    },
+    {
+      "id": "apush-4-8-t02",
+      "topicId": "apush-4-8",
+      "concept": "indian-removal",
+      "difficulty": "Core",
+      "skill": "claims-evidence",
+      "subskill": "3.B",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.3.I.B"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following arguments does Jackson make in support of removal in the second paragraph?",
+      "choices": [
+        "Removal would end possible conflict between federal and state governments over Native lands",
+        "Removal would protect the right of Native nations to govern themselves in the East",
+        "Removal would be costly but was required by the treaties that had been signed",
+        "Removal would reduce the population of the states and weaken their economies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Jackson says that removal would end all danger of collision between the General and State governments on account of the Indians.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "Jackson says that removal would end all danger of collision between the General and State governments on account of the Indians.",
+        "He proposes moving them west.",
+        "He argues that removal had advantages and does not cite treaties as a requirement.",
+        "He claims that removal would benefit the states."
+      ],
+      "nearMissIndex": 1,
+      "distinguisher": "The self-government choice is close because the nations had sought to keep their governments, but Jackson argues for moving them.",
+      "stimulusId": "jackson-removal-1830",
+      "stimulusBlocks": [
+        {
+          "id": "jackson-removal-1830",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 4.8, KC-4.3.I.B: American Indian resistance led to a sequence of wars and federal efforts to control and relocate American Indian populations",
+          "ced_review": "pending",
+          "attribution": "President Andrew Jackson, in his Second Annual Message to Congress, December 6, 1830, six months after Congress passed the Indian Removal Act",
+          "citation": "Andrew Jackson, Second Annual Message to Congress (December 6, 1830), in State of the Union Addresses of Andrew Jackson. Project Gutenberg eBook #5016.",
+          "note": "The “provision made for their removal at the last session of Congress” is the Indian Removal Act of 1830, which authorized the president to negotiate exchanges of Indian lands in the East for lands west of the Mississippi River. The language about Native peoples reflects the president’s view and the prejudices of his time, not the view of the Native nations.",
+          "text": "It gives me pleasure to announce to Congress that the benevolent policy of the Government, steadily pursued for nearly 30 years, in relation to the removal of the Indians beyond the white settlements is approaching to a happy consummation. Two important tribes have accepted the provision made for their removal at the last session of Congress, and it is believed that their example will induce the remaining tribes also to seek the same obvious advantages.\n\nThe consequences of a speedy removal will be important to the United States, to individual States, and to the Indians themselves. . . . It puts an end to all possible danger of collision between the authorities of the General and State Governments on account of the Indians. It will place a dense and civilized population in large tracts of country now occupied by a few savage hunters."
+        }
+      ],
+      "skillLabel": "Claims and Evidence in Sources",
+      "skillCode": "3",
+      "subskillText": "Identify the evidence used in a source to support an argument."
+    },
+    {
+      "id": "apush-4-8-t03",
+      "topicId": "apush-4-8",
+      "concept": "indian-removal",
+      "difficulty": "Apply",
+      "skill": "sourcing",
+      "subskill": "2.C",
+      "learningObjective": "4.H",
+      "keyConcepts": [
+        "KC-4.3.I.B"
+      ],
+      "themes": [
+        "PCE"
+      ],
+      "prompt": "Which of the following limits the usefulness of the excerpt as evidence of how Native nations experienced removal?",
+      "choices": [
+        "It was written many decades after the removal had taken place",
+        "It shows only the president's view and not the views of Native nations",
+        "It was written by a Southern planter with no role in the federal government",
+        "It was a private letter that was never intended to be shared with Congress"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The president's account shows federal policy and its justification, but not the experience of the nations that were removed.",
+      "sourceIds": [
+        "ced"
+      ],
+      "choiceExplanations": [
+        "It was delivered in 1830, soon after the law was passed.",
+        "The president's account shows federal policy and its justification, but not the experience of the nations that were removed.",
+        "It was delivered by the president.",
+        "It was an annual message to Congress."
+      ],
+      "nearMissIndex": 0,
+      "distinguisher": "The decades-later choice is close because many historical sources are late, but this message was delivered in 1830.",
+      "stimulusId": "jackson-removal-1830",
+      "stimulusBlocks": [
+        {
+          "id": "jackson-removal-1830",
+          "type": "source",
+          "sourceType": "primary",
+          "source": "CED Topic 4.8, KC-4.3.I.B: American Indian resistance led to a sequence of wars and federal efforts to control and relocate American Indian populations",
+          "ced_review": "pending",
+          "attribution": "President Andrew Jackson, in his Second Annual Message to Congress, December 6, 1830, six months after Congress passed the Indian Removal Act",
+          "citation": "Andrew Jackson, Second Annual Message to Congress (December 6, 1830), in State of the Union Addresses of Andrew Jackson. Project Gutenberg eBook #5016.",
+          "note": "The “provision made for their removal at the last session of Congress” is the Indian Removal Act of 1830, which authorized the president to negotiate exchanges of Indian lands in the East for lands west of the Mississippi River. The language about Native peoples reflects the president’s view and the prejudices of his time, not the view of the Native nations.",
+          "text": "It gives me pleasure to announce to Congress that the benevolent policy of the Government, steadily pursued for nearly 30 years, in relation to the removal of the Indians beyond the white settlements is approaching to a happy consummation. Two important tribes have accepted the provision made for their removal at the last session of Congress, and it is believed that their example will induce the remaining tribes also to seek the same obvious advantages.\n\nThe consequences of a speedy removal will be important to the United States, to individual States, and to the Indians themselves. . . . It puts an end to all possible danger of collision between the authorities of the General and State Governments on account of the Indians. It will place a dense and civilized population in large tracts of country now occupied by a few savage hunters."
+        }
+      ],
+      "skillLabel": "Sourcing and Situation",
+      "skillCode": "2",
+      "subskillText": "Explain the significance of a source’s point of view, purpose, historical situation, and/or audience, including how these might limit the use(s) of a source."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "apush-4-8-quick",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-8",
+      "title": "Topic 4.8 quick check",
+      "quizType": "quick",
+      "questionIds": [
+        "apush-4-8-q01",
+        "apush-4-8-q02",
+        "apush-4-8-q03"
+      ]
+    },
+    {
+      "id": "apush-4-8-quiz",
+      "courseId": "apush",
+      "unitId": "apush-4",
+      "topicId": "apush-4-8",
+      "title": "Jackson and Federal Power topic quiz",
+      "quizType": "topic",
+      "customPractice": true,
+      "questionIds": [
+        "apush-4-8-q01",
+        "apush-4-8-q02",
+        "apush-4-8-q03",
+        "apush-4-8-q04",
+        "apush-4-8-q05",
+        "apush-4-8-q06",
+        "apush-4-8-q07",
+        "apush-4-8-q08"
+      ]
+    }
+  ],
+  "concepts": {
+    "democrats-and-whigs": {
+      "id": "democrats-and-whigs",
+      "title": "Democrats, Whigs, and the Bank War",
+      "section": "democrats-and-whigs",
+      "topicId": "apush-4-8"
+    },
+    "nullification-crisis": {
+      "id": "nullification-crisis",
+      "title": "The nullification crisis",
+      "section": "nullification-crisis",
+      "topicId": "apush-4-8"
+    },
+    "indian-removal": {
+      "id": "indian-removal",
+      "title": "American Indian removal",
+      "section": "indian-removal",
+      "topicId": "apush-4-8"
+    }
+  },
+  "assets": {}
+}

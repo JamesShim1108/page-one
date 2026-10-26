@@ -629,13 +629,13 @@ test("the APUSH exam rejects each broken rule", () => {
 
 const fixtureLesson = (title) => ({
   schemaVersion: 1,
-  id: "apush-3-3",
+  id: "apush-9-3",
   courseId: "apush",
-  unitId: "apush-3",
+  unitId: "apush-9",
   order: 3,
-  code: "3.3",
+  code: "9.3",
   title,
-  period: "1754–1800",
+  period: "1980–present",
   status: "ready",
   summary: "Fixture summary.",
   minutes: 5,
@@ -664,14 +664,14 @@ function fixtureBank() {
   const data = tableSource("apush-fixture-trade-table");
   const item = (id, extra = {}) => ({
     id,
-    topicId: "apush-3-3",
+    topicId: "apush-9-3",
     concept: "taxes",
     prompt: `Fixture prompt ${id}?`,
     explanation: `Fixture explanation ${id}.`,
     skill: "sourcing",
     subskill: "2.A",
-    learningObjective: "3.C",
-    keyConcepts: ["KC-3.1.II.A"],
+    learningObjective: "9.C",
+    keyConcepts: ["KC-9.3.I.A"],
     choices: [`A ${id}`, `B ${id}`, `C ${id}`, `D ${id}`],
     correctAnswer: 1,
     choiceExplanations: [0, 1, 2, 3].map((index) => `Choice ${index} on ${id}.`),
@@ -680,23 +680,23 @@ function fixtureBank() {
     ...extra,
   });
   const questions = [
-    item("apush-3-3-q01"),
+    item("apush-9-3-q01"),
     // One correct choice is the longest, so length gives no clue either way.
-    item("apush-3-3-q02", {
+    item("apush-9-3-q02", {
       choices: ["A q02 one", "B q02 longer", "C q02 one", "D q02 one"],
     }),
     ...["t01", "t02", "t03"].map((n) =>
-      item(`apush-3-3-${n}`, { stimulusId: visual.id, stimulusBlocks: [visual] }),
+      item(`apush-9-3-${n}`, { stimulusId: visual.id, stimulusBlocks: [visual] }),
     ),
     ...["t04", "t05", "t06"].map((n) =>
-      item(`apush-3-3-${n}`, { stimulusId: data.id, stimulusBlocks: [data] }),
+      item(`apush-9-3-${n}`, { stimulusId: data.id, stimulusBlocks: [data] }),
     ),
   ];
   const quiz = (id, quizType, questionIds) => ({
     id,
     courseId: "apush",
-    unitId: "apush-3",
-    topicId: "apush-3-3",
+    unitId: "apush-9",
+    topicId: "apush-9-3",
     title: id,
     quizType,
     questionIds,
@@ -704,44 +704,44 @@ function fixtureBank() {
   return {
     questions,
     quizzes: [
-      quiz("apush-3-3-quick", "quick", ["apush-3-3-q01"]),
-      quiz("apush-3-3-topic", "topic", ["apush-3-3-q01", "apush-3-3-q02"]),
+      quiz("apush-9-3-quick", "quick", ["apush-9-3-q01"]),
+      quiz("apush-9-3-topic", "topic", ["apush-9-3-q01", "apush-9-3-q02"]),
     ],
   };
 }
 
 const fixtureUnit = {
   schemaVersion: 1,
-  id: "apush-3",
+  id: "apush-9",
   courseId: "apush",
-  number: 3,
-  title: "Period 3",
-  period: "1754–1800",
+  number: 9,
+  title: "Period 9",
+  period: "1980–present",
   status: "ready",
   description: "Fixture unit.",
   quizzes: [
     {
-      id: "apush-3-practice-test",
+      id: "apush-9-practice-test",
       courseId: "apush",
-      unitId: "apush-3",
-      title: "Unit 3 Practice Test",
+      unitId: "apush-9",
+      title: "Unit 9 Practice Test",
       quizType: "unit",
       practiceTest: true,
       selections: [
         {
-          topicId: "apush-3-3",
-          questionIds: ["apush-3-3-t01", "apush-3-3-t02", "apush-3-3-t03"],
+          topicId: "apush-9-3",
+          questionIds: ["apush-9-3-t01", "apush-9-3-t02", "apush-9-3-t03"],
         },
         {
-          topicId: "apush-3-3",
-          questionIds: ["apush-3-3-t04", "apush-3-3-t05", "apush-3-3-t06"],
+          topicId: "apush-9-3",
+          questionIds: ["apush-9-3-t04", "apush-9-3-t05", "apush-9-3-t06"],
         },
       ],
     },
   ],
 };
 
-async function compileApush({ title = "Taxation Without Representation" } = {}) {
+async function compileApush({ title = "The End of the Cold War" } = {}) {
   const { cp, mkdtemp, rm, writeFile, mkdir } = await import("node:fs/promises");
   const { tmpdir } = await import("node:os");
   const { join } = await import("node:path");
@@ -754,9 +754,9 @@ async function compileApush({ title = "Taxation Without Representation" } = {}) 
     filter: (path) => !path.includes(join("docs", "generated")),
   });
   const courseRoot = join(temp, "docs/content/ap-us-history");
-  // The fixture stands in for Unit 3, so drop the real Unit 3 content first.
-  await rm(join(courseRoot, "unit-03"), { recursive: true, force: true });
-  await mkdir(join(courseRoot, "unit-03"), { recursive: true });
+  // The fixture stands in for Unit 9, so drop whatever Unit 9 holds first.
+  await rm(join(courseRoot, "unit-09"), { recursive: true, force: true });
+  await mkdir(join(courseRoot, "unit-09"), { recursive: true });
   const write = (path, name, value) =>
     writeFile(
       join(courseRoot, path),
@@ -773,8 +773,8 @@ async function compileApush({ title = "Taxation Without Representation" } = {}) 
     await write("assets.js", "assets", [
       { ...cartoon, file: "./assets/fixture-cartoon.webp", width: 64, height: 48 },
     ]);
-    await write("unit-03/unit.js", "unit", fixtureUnit);
-    const topicRoot = join(courseRoot, "unit-03/topics/taxation");
+    await write("unit-09/unit.js", "unit", fixtureUnit);
+    const topicRoot = join(courseRoot, "unit-09/topics/taxation");
     await mkdir(topicRoot, { recursive: true });
     await writeFile(
       join(topicRoot, "lesson.js"),
@@ -791,16 +791,16 @@ async function compileApush({ title = "Taxation Without Representation" } = {}) 
       criteria: ["Answers the part."],
       model: { answer: "Answer.", prove: "Prove.", explain: "Explain." },
     });
-    await write("unit-03/writing.js", "writingQuizzes", [
+    await write("unit-09/writing.js", "writingQuizzes", [
       saq({
-        id: "apush-3-saq-01",
-        unitNumber: 3,
+        id: "apush-9-saq-01",
+        unitNumber: 9,
         number: 1,
         headline: "Fixture cartoon SAQ",
         stimulusBlocks: [imageSource("apush-fixture-saq-cartoon")],
         parts: ["a", "b", "c"].map(part),
         sourceIds: ["ced"],
-        learningObjectives: ["3.C"],
+        learningObjectives: ["9.C"],
         themes: ["WOR"],
         examOnly: false,
       }),
@@ -814,14 +814,14 @@ async function compileApush({ title = "Taxation Without Representation" } = {}) 
 test("a fixture APUSH topic with visual stimuli compiles through the build", async () => {
   const output = await compileApush();
   const read = (path) => JSON.parse(output.get(path));
-  const bank = read("apush/banks/apush-3-3.json");
+  const bank = read("apush/banks/apush-9-3.json");
   assert.ok(bank.assets["apush-fixture-cartoon"], "the cartoon travels with the bank");
-  const first = bank.questions.find((item) => item.id === "apush-3-3-t01");
+  const first = bank.questions.find((item) => item.id === "apush-9-3-t01");
   assert.equal(first.skillLabel, "Sourcing and Situation");
   assert.match(first.subskillText, /^Identify a source’s point of view/);
-  const quiz = read("apush/quizzes/apush-3-practice-test.json");
+  const quiz = read("apush/quizzes/apush-9-practice-test.json");
   assert.equal(quiz.quiz.questionIds.length, 6);
-  const writing = read("apush/writing/apush-3-saq-01.json");
+  const writing = read("apush/writing/apush-9-saq-01.json");
   assert.ok(
     writing.assets["apush-fixture-cartoon"],
     "the SAQ cartoon travels with the prompt",
@@ -830,7 +830,7 @@ test("a fixture APUSH topic with visual stimuli compiles through the build", asy
 
 test("the build rejects a topic whose title drifts from the CED", async () => {
   await assert.rejects(
-    compileApush({ title: "Taxes and Protest" }),
-    /must be titled "Taxation Without Representation"/,
+    compileApush({ title: "The Cold War Ends" }),
+    /must be titled "The End of the Cold War"/,
   );
 });
